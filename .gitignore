@@ -1,0 +1,12 @@
+# Dependencias (pesan mucho y no se suben)
+node_modules/
+
+# Basura y Archivos temporales
+basura.js
+obsoletos.html
+copia/
+buckup.js
+.DS_Store
+
+# Carpeta de salida (Si dejas que Netlify construya el sitio)
+dist/
