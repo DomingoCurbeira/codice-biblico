@@ -1,0 +1,803 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Quién fue el hombre más longevo de la Biblia?",
+    "opciones": ["Noé", "Matusalén", "Adán", "Enoc"],
+    "correcta": 1,
+    "referencia": "Génesis 5:27",
+    "nivel": "facil"
+  },
+  {
+    "id": 2,
+    "pregunta": "¿En qué monte probó Dios a Abraham pidiéndole a su hijo?",
+    "opciones": ["Monte Sinaí", "Monte Carmelo", "Monte Moriah", "Monte de los Olivos"],
+    "correcta": 2,
+    "referencia": "Génesis 22:2",
+    "nivel": "facil"
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué oficio tenía Mateo antes de seguir a Jesús?",
+    "opciones": ["Pescador", "Carpintero", "Recaudador de impuestos", "Médico"],
+    "correcta": 2,
+    "referencia": "Mateo 9:9",
+    "nivel": "facil"
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cuál es el libro más corto del Antiguo Testamento?",
+    "opciones": ["Abdías", "Hageo", "Nahúm", "Joel"],
+    "correcta": 0,
+    "referencia": "Abdías tiene un solo capítulo",
+    "nivel": "facil"
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Cuántas piedras lisas tomó David para enfrentar a Goliat?",
+    "opciones": ["Una", "Tres", "Cinco", "Siete"],
+    "correcta": 2,
+    "referencia": "1 Samuel 17:40",
+    "nivel": "facil"
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Quién escribió la mayoría de los Salmos?",
+    "opciones": ["Asaf", "Moisés", "Salomón", "David"],
+    "correcta": 3,
+    "referencia": "Se atribuyen 73 salmos a David",
+    "nivel": "facil"
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál fue la primera plaga de Egipto?",
+    "opciones": ["Ranas", "Agua en sangre", "Langostas", "Tinieblas"],
+    "correcta": 1,
+    "referencia": "Éxodo 7:14-24",
+    "nivel": "facil"
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Quién dijo: 'Yo sé que mi Redentor vive'?",
+    "opciones": ["Job", "Abraham", "Isaías", "Pablo"],
+    "correcta": 0,
+    "referencia": "Job 19:25",
+    "nivel": "facil"
+  },
+  {
+    "id": 9,
+    "pregunta": "¿En qué isla naufragó el apóstol Pablo?",
+    "opciones": ["Patmos", "Creta", "Malta", "Chipre"],
+    "correcta": 2,
+    "referencia": "Hechos 28:1",
+    "nivel": "facil"
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Quién fue tragado por la tierra por rebelarse contra Moisés?",
+    "opciones": ["Coré", "Aarón", "Miriam", "Datán"],
+    "correcta": 0,
+    "referencia": "Números 16:31-33",
+    "nivel": "facil"
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Qué profeta fue alimentado por cuervos?",
+    "opciones": ["Eliseo", "Isaías", "Jeremías", "Elías"],
+    "correcta": 3,
+    "referencia": "1 Reyes 17:6",
+    "nivel": "facil"
+  },
+  {
+    "id": 12,
+    "pregunta": "¿Cuál es el mandamiento más grande según Jesús?",
+    "opciones": ["No matarás", "Amar a Dios sobre todo", "Honrar a los padres", "No robarás"],
+    "correcta": 1,
+    "referencia": "Mateo 22:37-38",
+    "nivel": "facil"
+  },
+  {
+    "id": 13,
+    "pregunta": "¿Quién acompañó a Pablo en su primer viaje misionero?",
+    "opciones": ["Silas", "Timoteo", "Bernabé", "Marcos"],
+    "correcta": 2,
+    "referencia": "Hechos 13:2",
+    "nivel": "facil"
+  },
+  {
+    "id": 14,
+    "pregunta": "¿Qué significa el nombre 'Emanuel'?",
+    "opciones": ["Dios es amor", "Dios con nosotros", "El Salvador", "Príncipe de Paz"],
+    "correcta": 1,
+    "referencia": "Mateo 1:23",
+    "nivel": "facil"
+  },
+  {
+    "id": 15,
+    "pregunta": "¿A quién resucitó Jesús después de cuatro días?",
+    "opciones": ["La hija de Jairo", "El hijo de la viuda", "Lázaro", "Eutico"],
+    "correcta": 2,
+    "referencia": "Juan 11:39",
+    "nivel": "facil"
+  },
+  {
+    "id": 16,
+    "pregunta": "¿Quién fue el primer rey de Israel?",
+    "opciones": ["David", "Saúl", "Salomón", "Samuel"],
+    "correcta": 1,
+    "referencia": "1 Samuel 10",
+    "nivel": "facil"
+  },
+  {
+    "id": 17,
+    "pregunta": "¿Qué ciudad cayó después de que los israelitas marcharon 7 días?",
+    "opciones": ["Jericó", "Hai", "Sodoma", "Nínive"],
+    "correcta": 0,
+    "referencia": "Josué 6",
+    "nivel": "facil"
+  },
+  {
+    "id": 18,
+    "pregunta": "¿Quién negó a Jesús tres veces antes de que cantara el gallo?",
+    "opciones": ["Judas", "Juan", "Tomás", "Pedro"],
+    "correcta": 3,
+    "referencia": "Mateo 26:75",
+    "nivel": "facil"
+  },
+  {
+    "id": 19,
+    "pregunta": "¿En qué idioma se escribió la mayor parte del Antiguo Testamento?",
+    "opciones": ["Griego", "Hebreo", "Latín", "Arameo"],
+    "correcta": 1,
+    "referencia": "Hebreo (con partes en Arameo)",
+    "nivel": "facil"
+  },
+  {
+    "id": 20,
+    "pregunta": "¿Cuál es el último libro de la Biblia?",
+    "opciones": ["Malaquías", "Hechos", "Judas", "Apocalipsis"],
+    "correcta": 3,
+    "referencia": "Apocalipsis",
+    "nivel": "facil"
+  },
+  {
+    "id": 21,
+    "pregunta": "¿Quién escribió la mayoría de las epístolas del Nuevo Testamento?",
+    "opciones": ["Pedro", "Juan", "Pablo", "Santiago"],
+    "correcta": 2,
+    "referencia": "Pablo escribió 13 cartas",
+    "nivel": "facil"
+  },
+  {
+    "id": 22,
+    "pregunta": "¿En qué ciudad fueron llamados 'cristianos' por primera vez los discípulos?",
+    "opciones": ["Jerusalén", "Antioquía", "Roma", "Éfeso"],
+    "correcta": 1,
+    "referencia": "Hechos 11:26",
+    "nivel": "facil"
+  },
+  {
+    "id": 23,
+    "pregunta": "¿Qué mujer escondió a los espías israelitas en Jericó?",
+    "opciones": ["Rut", "Ester", "Rahab", "Débora"],
+    "correcta": 2,
+    "referencia": "Josué 2:1-4",
+    "nivel": "facil"
+  },
+  {
+    "id": 24,
+    "pregunta": "¿Cuál fue la última plaga que cayó sobre Egipto?",
+    "opciones": ["Las langostas", "Las tinieblas", "Muerte de los primogénitos", "El agua en sangre"],
+    "correcta": 2,
+    "referencia": "Éxodo 11:4-6",
+    "nivel": "facil"
+  },
+  {
+    "id": 25,
+    "pregunta": "¿Qué profeta fue tragado por un gran pez?",
+    "opciones": ["Isaías", "Jeremías", "Jonás", "Daniel"],
+    "correcta": 2,
+    "referencia": "Jonás 1:17",
+    "nivel": "facil"
+  },
+  {
+    "id": 26,
+    "pregunta": "¿En qué isla estaba Juan cuando escribió Apocalipsis?",
+    "opciones": ["Chipre", "Creta", "Patmos", "Malta"],
+    "correcta": 2,
+    "referencia": "Apocalipsis 1:9",
+    "nivel": "facil"
+  },
+  {
+    "id": 27,
+    "pregunta": "¿Quién reconstruyó los muros de Jerusalén en 52 días?",
+    "opciones": ["Esdras", "Zorobabel", "Nehemías", "Ciro"],
+    "correcta": 2,
+    "referencia": "Nehemías 6:15",
+    "nivel": "facil"
+  },
+  {
+    "id": 28,
+    "pregunta": "¿De qué tribu era Jesús?",
+    "opciones": ["Leví", "Benjamín", "Judá", "Rubén"],
+    "correcta": 2,
+    "referencia": "Hebreos 7:14",
+    "nivel": "facil"
+  },
+  {
+    "id": 29,
+    "pregunta": "¿Quién vendió su primogenitura por un plato de lentejas?",
+    "opciones": ["Jacob", "Esaú", "José", "Caín"],
+    "correcta": 1,
+    "referencia": "Génesis 25:29-34",
+    "nivel": "facil"
+  },
+  {
+    "id": 30,
+    "pregunta": "¿Cuál de estos NO es un fruto del Espíritu?",
+    "opciones": ["Gozo", "Paciencia", "Egoísmo", "Templanza"],
+    "correcta": 2,
+    "referencia": "Gálatas 5:22-23",
+    "nivel": "facil"
+  },
+  {
+    "id": 31,
+    "pregunta": "¿Hacia qué ciudad iba Pablo cuando quedó ciego?",
+    "opciones": ["Jerusalén", "Damasco", "Tarso", "Roma"],
+    "correcta": 1,
+    "referencia": "Hechos 9:3",
+    "nivel": "facil"
+  },
+  {
+    "id": 32,
+    "pregunta": "¿Quién fue arrojado al foso de los leones?",
+    "opciones": ["Sadrac", "Daniel", "Ezequiel", "Oseas"],
+    "correcta": 1,
+    "referencia": "Daniel 6:16",
+    "nivel": "facil"
+  },
+  {
+    "id": 33,
+    "pregunta": "¿Cuál fue el primer milagro de Jesús?",
+    "opciones": ["Caminar sobre el agua", "Sanar a un ciego", "Convertir agua en vino", "Multiplicar los panes"],
+    "correcta": 2,
+    "referencia": "Juan 2:1-11",
+    "nivel": "facil"
+  },
+  {
+    "id": 34,
+    "pregunta": "¿Quién era el sumo sacerdote que juzgó a Jesús?",
+    "opciones": ["Anás", "Caifás", "Pilato", "Gamaliel"],
+    "correcta": 1,
+    "referencia": "Mateo 26:57",
+    "nivel": "facil"
+  },
+  {
+    "id": 35,
+    "pregunta": "¿Qué instrumento tocaba David para calmar a Saúl?",
+    "opciones": ["La flauta", "El arpa", "El pandero", "La trompeta"],
+    "correcta": 1,
+    "referencia": "1 Samuel 16:23",
+    "nivel": "facil"
+  },
+  {
+    "id": 36,
+    "pregunta": "¿Cuántos libros tiene la Biblia (versión protestante)?",
+    "opciones": ["66", "72", "39", "27"],
+    "correcta": 0,
+    "referencia": "39 AT + 27 NT = 66",
+    "nivel": "facil"
+  },
+  {
+    "id": 37,
+    "pregunta": "¿Quién bautizó al eunuco etíope?",
+    "opciones": ["Pedro", "Felipe", "Pablo", "Esteban"],
+    "correcta": 1,
+    "referencia": "Hechos 8:38",
+    "nivel": "facil"
+  },
+  {
+    "id": 38,
+    "pregunta": "¿Cómo se llamaba la madre del profeta Samuel?",
+    "opciones": ["Sara", "Ana", "Raquel", "Elisabet"],
+    "correcta": 1,
+    "referencia": "1 Samuel 1:20",
+    "nivel": "facil"
+  },
+  {
+    "id": 39,
+    "pregunta": "¿Quién era el hermano mayor de Moisés?",
+    "opciones": ["Aarón", "Caleb", "Josué", "Hur"],
+    "correcta": 0,
+    "referencia": "Éxodo 4:14",
+    "nivel": "facil"
+  },
+  {
+    "id": 40,
+    "pregunta": "¿Qué discípulo caminó sobre el agua hacia Jesús?",
+    "opciones": ["Juan", "Santiago", "Pedro", "Andrés"],
+    "correcta": 2,
+    "referencia": "Mateo 14:29",
+    "nivel": "facil"
+  },
+  {
+    "id": 41,
+    "pregunta": "¿En qué ciudad nació Jesús?",
+    "opciones": ["Nazaret", "Belén", "Jerusalén", "Capernaum"],
+    "correcta": 1,
+    "referencia": "Mateo 2:1",
+    "nivel": "facil"
+  },
+  {
+    "id": 42,
+    "pregunta": "¿Cuántos días duró la creación según Génesis?",
+    "opciones": ["3 días", "10 días", "6 días", "40 días"],
+    "correcta": 2,
+    "referencia": "Génesis 1 (más el día de reposo)",
+    "nivel": "facil"
+  },
+  {
+    "id": 43,
+    "pregunta": "¿Cómo se llamaba la esposa de Adán?",
+    "opciones": ["Sara", "Eva", "Rebeca", "María"],
+    "correcta": 1,
+    "referencia": "Génesis 3:20",
+    "nivel": "facil"
+  },
+  {
+    "id": 44,
+    "pregunta": "¿Quién recibió los Diez Mandamientos?",
+    "opciones": ["David", "Abraham", "Moisés", "Noé"],
+    "correcta": 2,
+    "referencia": "Éxodo 20",
+    "nivel": "facil"
+  },
+  {
+    "id": 45,
+    "pregunta": "¿Por cuántas monedas traicionó Judas a Jesús?",
+    "opciones": ["10 de oro", "30 de plata", "50 de bronce", "100 denarios"],
+    "correcta": 1,
+    "referencia": "Mateo 26:15",
+    "nivel": "facil"
+  },
+  {
+    "id": 46,
+    "pregunta": "¿Qué mar abrió Dios para que cruzaran los israelitas?",
+    "opciones": ["Mar Muerto", "Mar de Galilea", "Mar Rojo", "Mar Mediterráneo"],
+    "correcta": 2,
+    "referencia": "Éxodo 14:21",
+    "nivel": "facil"
+  },
+  {
+    "id": 47,
+    "pregunta": "¿Quién mató a su hermano Abel?",
+    "opciones": ["Set", "Caín", "Esaú", "Lot"],
+    "correcta": 1,
+    "referencia": "Génesis 4:8",
+    "nivel": "facil"
+  },
+  {
+    "id": 48,
+    "pregunta": "¿Cuál era la fuerza de Sansón?",
+    "opciones": ["Su cabello", "Sus músculos", "Su espada", "Su fe"],
+    "correcta": 0,
+    "referencia": "Jueces 16:17",
+    "nivel": "facil"
+  },
+  {
+    "id": 49,
+    "pregunta": "¿Quién fue el hijo sabio del rey David?",
+    "opciones": ["Absalón", "Adonías", "Salomón", "Roboam"],
+    "correcta": 2,
+    "referencia": "1 Reyes 4:29-30",
+    "nivel": "facil"
+  },
+  {
+    "id": 50,
+    "pregunta": "¿Cuál era el oficio terrenal de José, padre de Jesús?",
+    "opciones": ["Pescador", "Carpintero", "Sacerdote", "Pastor"],
+    "correcta": 1,
+    "referencia": "Mateo 13:55",
+    "nivel": "facil"
+  },
+  {
+    "id": 51,
+    "pregunta": "¿Cómo se llamaba la esposa de Isaac?",
+    "opciones": ["Raquel", "Lea", "Rebeca", "Sara"],
+    "correcta": 2,
+    "referencia": "Génesis 24:67",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 52,
+    "pregunta": "¿Qué varón subió a un árbol sicómoro para ver a Jesús?",
+    "opciones": ["Bartimeo", "Zaqueo", "Nicodemo", "Lázaro"],
+    "correcta": 1,
+    "referencia": "Lucas 19:4",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 53,
+    "pregunta": "¿Cuántos años vivió Matusalén?",
+    "opciones": ["900", "930", "950", "969"],
+    "correcta": 3,
+    "referencia": "Génesis 5:27",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 54,
+    "pregunta": "¿Quién fue el primer mártir cristiano (muerto por su fe)?",
+    "opciones": ["Santiago", "Esteban", "Pedro", "Pablo"],
+    "correcta": 1,
+    "referencia": "Hechos 7:59-60",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 55,
+    "pregunta": "¿Qué nombre le puso Dios a Jacob después de luchar con el ángel?",
+    "opciones": ["Edom", "Israel", "Betel", "Efraín"],
+    "correcta": 1,
+    "referencia": "Génesis 32:28",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 56,
+    "pregunta": "¿Quién fue elegido para reemplazar a Judas Iscariote?",
+    "opciones": ["Matías", "Pablo", "Bernabé", "Silas"],
+    "correcta": 0,
+    "referencia": "Hechos 1:26",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 57,
+    "pregunta": "¿Qué rey de Babilonia perdió la razón y comió hierba como los bueyes?",
+    "opciones": ["Ciro", "Darío", "Nabucodonosor", "Belsasar"],
+    "correcta": 2,
+    "referencia": "Daniel 4:33",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 58,
+    "pregunta": "¿Quién ayudó a Jesús a cargar la cruz?",
+    "opciones": ["José de Arimatea", "Simón de Cirene", "Juan", "Nicodemo"],
+    "correcta": 1,
+    "referencia": "Lucas 23:26",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 59,
+    "pregunta": "¿En qué río fue bautizado Jesús?",
+    "opciones": ["Nilo", "Éufrates", "Jordán", "Tigris"],
+    "correcta": 2,
+    "referencia": "Mateo 3:13",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 60,
+    "pregunta": "¿Qué significa Gólgota?",
+    "opciones": ["Lugar de paz", "Lugar de la Calavera", "Monte Santo", "Valle de lágrimas"],
+    "correcta": 1,
+    "referencia": "Marcos 15:22",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 61,
+    "pregunta": "¿Quién era la abuela de Timoteo?",
+    "opciones": ["Loida", "Eunice", "Priscila", "Febe"],
+    "correcta": 0,
+    "referencia": "2 Timoteo 1:5",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 62,
+    "pregunta": "¿Qué profeta se casó con una mujer infiel llamada Gomer?",
+    "opciones": ["Amós", "Oseas", "Joel", "Miqueas"],
+    "correcta": 1,
+    "referencia": "Oseas 1:2-3",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 63,
+    "pregunta": "¿Cuál es el versículo más corto de la Biblia (en la mayoría de versiones)?",
+    "opciones": ["Dios es amor", "Orad sin cesar", "Jesús lloró", "No matarás"],
+    "correcta": 2,
+    "referencia": "Juan 11:35",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 64,
+    "pregunta": "¿Quién fue el juez zurdo que mató al rey Eglón?",
+    "opciones": ["Gedeón", "Sansón", "Aod", "Jefté"],
+    "correcta": 2,
+    "referencia": "Jueces 3:15",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 65,
+    "pregunta": "¿Qué significa el nombre Cefas (Pedro)?",
+    "opciones": ["Roca", "Trueno", "Amado", "Pequeño"],
+    "correcta": 0,
+    "referencia": "Juan 1:42",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 66,
+    "pregunta": "¿Quién ungió a los dos primeros reyes de Israel?",
+    "opciones": ["Elí", "Natán", "Samuel", "Elías"],
+    "correcta": 2,
+    "referencia": "1 Samuel 10 y 16",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 67,
+    "pregunta": "¿Qué comía Juan el Bautista en el desierto?",
+    "opciones": ["Maná", "Pan y pescado", "Langostas y miel silvestre", "Higos"],
+    "correcta": 2,
+    "referencia": "Mateo 3:4",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 68,
+    "pregunta": "¿Qué joven se durmió escuchando a Pablo y cayó de una ventana?",
+    "opciones": ["Timoteo", "Tito", "Eutico", "Onésimo"],
+    "correcta": 2,
+    "referencia": "Hechos 20:9",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 69,
+    "pregunta": "¿En qué monte desafió Elías a los profetas de Baal?",
+    "opciones": ["Sinaí", "Tabor", "Carmelo", "Hermón"],
+    "correcta": 2,
+    "referencia": "1 Reyes 18:19",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 70,
+    "pregunta": "¿Quién vio una mano misteriosa escribiendo en la pared?",
+    "opciones": ["Darío", "Nabucodonosor", "Belsasar", "Artajerjes"],
+    "correcta": 2,
+    "referencia": "Daniel 5:5",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 71,
+    "pregunta": "¿A qué ciudad huyeron José y María para escapar de Herodes?",
+    "opciones": ["Nazaret", "Egipto", "Samaria", "Betania"],
+    "correcta": 1,
+    "referencia": "Mateo 2:13",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 72,
+    "pregunta": "¿Cuántos discípulos estuvieron con Jesús en la Transfiguración?",
+    "opciones": ["Tres", "Doce", "Dos", "Siete"],
+    "correcta": 0,
+    "referencia": "Mateo 17:1 (Pedro, Jacobo y Juan)",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 73,
+    "pregunta": "¿Qué libro de la Biblia no menciona la palabra 'Dios'?",
+    "opciones": ["Cantar de los Cantares", "Rut", "Ester", "Eclesiastés"],
+    "correcta": 2,
+    "referencia": "Libro de Ester",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 74,
+    "pregunta": "¿Quién fue la madre de Salomón?",
+    "opciones": ["Mical", "Abigail", "Betsabé", "Ana"],
+    "correcta": 2,
+    "referencia": "2 Samuel 12:24",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 75,
+    "pregunta": "¿Qué apóstol era de la tribu de Benjamín?",
+    "opciones": ["Pedro", "Mateo", "Pablo", "Bernabé"],
+    "correcta": 2,
+    "referencia": "Romanos 11:1",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 76,
+    "pregunta": "¿Qué evangelio NO es sinóptico?",
+    "opciones": ["Mateo", "Marcos", "Lucas", "Juan"],
+    "correcta": 3,
+    "referencia": "Juan es diferente en estructura",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 77,
+    "pregunta": "¿Quién era el rey de Judea cuando nació Jesús?",
+    "opciones": ["Herodes el Grande", "Herodes Antipas", "Pilato", "César Augusto"],
+    "correcta": 0,
+    "referencia": "Mateo 2:1",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 78,
+    "pregunta": "¿Quién dijo: 'He aquí el Cordero de Dios que quita el pecado del mundo'?",
+    "opciones": ["Pedro", "Juan el Bautista", "Isaías", "Pablo"],
+    "correcta": 1,
+    "referencia": "Juan 1:29",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 79,
+    "pregunta": "¿Qué animal habló con el profeta Balaam?",
+    "opciones": ["Un león", "Un camello", "Un asna", "Una oveja"],
+    "correcta": 2,
+    "referencia": "Números 22:28",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 80,
+    "pregunta": "¿Cuántos libros proféticos menores hay en el Antiguo Testamento?",
+    "opciones": ["5", "10", "12", "7"],
+    "correcta": 2,
+    "referencia": "De Oseas a Malaquías",
+    "nivel": "Discipulo"
+  },
+  {
+    "id": 81,
+    "pregunta": "¿Cómo se llamaba la serpiente de bronce que hizo Moisés?",
+    "opciones": ["Leviatán", "Nehustán", "Rahab", "Azazel"],
+    "correcta": 1,
+    "referencia": "2 Reyes 18:4",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 82,
+    "pregunta": "¿Qué mujer mató a Sísara clavándole una estaca en la sien?",
+    "opciones": ["Débora", "Jael", "Judit", "Dalila"],
+    "correcta": 1,
+    "referencia": "Jueces 4:21",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 83,
+    "pregunta": "¿Quién fue el escriba que escribía las palabras del profeta Jeremías?",
+    "opciones": ["Baruc", "Esdras", "Safán", "Guehazí"],
+    "correcta": 0,
+    "referencia": "Jeremías 36:4",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 84,
+    "pregunta": "¿Melquisedec era rey de qué ciudad?",
+    "opciones": ["Sodoma", "Salem", "Jericó", "Hebrón"],
+    "correcta": 1,
+    "referencia": "Génesis 14:18",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 85,
+    "pregunta": "¿Cuál fue el primer apóstol en morir martirizado?",
+    "opciones": ["Esteban", "Pedro", "Jacobo (Santiago)", "Andrés"],
+    "correcta": 2,
+    "referencia": "Hechos 12:2",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 86,
+    "pregunta": "¿Qué juez mató a 600 filisteos con una aguijada de bueyes?",
+    "opciones": ["Sansón", "Samgar", "Gedeón", "Barac"],
+    "correcta": 1,
+    "referencia": "Jueces 3:31",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 87,
+    "pregunta": "¿Cómo se llamaba el padre de Josué?",
+    "opciones": ["Caleb", "Nun", "Jefté", "Hur"],
+    "correcta": 1,
+    "referencia": "Josué 1:1",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 88,
+    "pregunta": "¿En qué valle tuvo la visión Ezequiel de los huesos secos?",
+    "opciones": ["Valle de Ela", "Valle de Acor", "Valle de la visión", "No se especifica el nombre"],
+    "correcta": 3,
+    "referencia": "Ezequiel 37:1 (Solo dice 'el valle')",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 89,
+    "pregunta": "¿Qué fiesta judía conmemora la salvación de los judíos por la reina Ester?",
+    "opciones": ["Pascua", "Purim", "Pentecostés", "Tabernáculos"],
+    "correcta": 1,
+    "referencia": "Ester 9:26",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 90,
+    "pregunta": "¿Cuántos años añadió Dios a la vida del rey Ezequías?",
+    "opciones": ["10 años", "15 años", "20 años", "7 años"],
+    "correcta": 1,
+    "referencia": "2 Reyes 20:6",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 91,
+    "pregunta": "¿Quién fue el sumo sacerdote que sucedió a Aarón?",
+    "opciones": ["Eleazar", "Itamar", "Nadab", "Finees"],
+    "correcta": 0,
+    "referencia": "Números 20:28",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 92,
+    "pregunta": "¿Qué profeta rasgó su manto en 12 pedazos para profetizar la división del reino?",
+    "opciones": ["Ahías", "Elías", "Eliseo", "Natán"],
+    "correcta": 0,
+    "referencia": "1 Reyes 11:30",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 93,
+    "pregunta": "¿Cómo se llamaban las dos columnas del templo de Salomón?",
+    "opciones": ["Boaz y Jaquín", "Ur y Tumim", "Alfa y Omega", "Justicia y Verdad"],
+    "correcta": 0,
+    "referencia": "1 Reyes 7:21",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 94,
+    "pregunta": "¿Quién era el rey de Moab muy gordo asesinado por Aod?",
+    "opciones": ["Eglón", "Og", "Sihón", "Balac"],
+    "correcta": 0,
+    "referencia": "Jueces 3:17",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 95,
+    "pregunta": "¿Qué tribu no recibió territorio como herencia, sino ciudades?",
+    "opciones": ["Dan", "Leví", "Benjamín", "Simeón"],
+    "correcta": 1,
+    "referencia": "Josué 13:14",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 96,
+    "pregunta": "¿Quién cayó muerto por mentir al Espíritu Santo sobre el precio de una propiedad?",
+    "opciones": ["Simón el Mago", "Ananías", "Elimas", "Alejandro"],
+    "correcta": 1,
+    "referencia": "Hechos 5:1-5",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 97,
+    "pregunta": "¿En qué monte murió Moisés?",
+    "opciones": ["Sinaí", "Nebo", "Horeb", "Ararat"],
+    "correcta": 1,
+    "referencia": "Deuteronomio 34:1",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 98,
+    "pregunta": "¿Cuál era el otro nombre del apóstol Mateo?",
+    "opciones": ["Tadeo", "Leví", "Bartolomé", "Didimo"],
+    "correcta": 1,
+    "referencia": "Marcos 2:14",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 99,
+    "pregunta": "¿Cuántos capítulos tiene el libro de Isaías?",
+    "opciones": ["50", "66", "150", "40"],
+    "correcta": 1,
+    "referencia": "Coincide con el número de libros de la Biblia",
+    "nivel": "Veterano"
+  },
+  {
+    "id": 100,
+    "pregunta": "¿Quién fue la única mujer reina (usurpadora) de Judá?",
+    "opciones": ["Jezabel", "Atalía", "Herodías", "Maaca"],
+    "correcta": 1,
+    "referencia": "2 Reyes 11:1-3",
+    "nivel": "Veterano"
+  }
+
+]

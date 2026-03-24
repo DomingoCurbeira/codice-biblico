@@ -1,0 +1,746 @@
+:root {
+    /* Tu Paleta Original */
+    --primary: #2563eb;       /* Azul Cronos */
+    --primary-dark: #1e40af;
+    --secondary: #d97706;     /* Ámbar Maná */
+    --accent: #7c3aed;        /* Violeta Místico */
+    
+    --bg-dark: #0f172a;       /* Fondo Base (Slate 900) */
+    --card-bg: #1e293b;       /* Fondo Tarjetas */
+    
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+    
+    --font-ui: 'Inter', sans-serif;
+    --font-display: 'Bebas Neue', cursive;
+    --font-head: 'Merriweather', serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-ui);
+    overflow-x: hidden;
+}
+
+/* --- ESTILO DEL BOTÓN DE 9 PUNTOS (MENU LAUNCHER) --- */
+.menu-launcher {
+    color: #e5e5e5;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); /* Efecto rebote suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu-launcher:hover {
+    color: var(--secondary);
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(90deg) scale(1.1); /* Giro + Pequeño Zoom */
+}
+
+/* --- NAV (Header Superior) --- */
+.netflix-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.95), transparent);
+    position: fixed; top: 0; width: 100%; z-index: 100;
+}
+
+.logo { 
+    font-family: var(--font-display); 
+    font-size: 2rem; 
+    margin-right: 2rem;
+    background: linear-gradient(to right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-links { display: flex; gap: 20px; align-items: center; }
+.nav-links a { 
+    color: #e5e5e5; text-decoration: none; font-size: 0.9rem; transition: 0.3s; 
+    text-transform: uppercase; letter-spacing: 1px;
+}
+.nav-links a:hover { color: var(--secondary); }
+
+/* --- HERO (Portada) --- */
+.netflix-hero { height: 75vh; position: relative; display: flex; align-items: center; padding: 0 3rem; }
+.hero-bg {
+    position: absolute; top: 0; right: 0; width: 100%; height: 100%; object-fit: cover;
+    mask-image: linear-gradient(to right, transparent 0%, black 80%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 80%);
+    z-index: -1; opacity: 0.5;
+}
+.hero-title { 
+    font-family: var(--font-display); font-size: 5rem; line-height: 0.9; margin-bottom: 1rem; 
+    color: var(--text-main); text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+}
+.hero-desc { max-width: 500px; font-size: 1.1rem; margin-bottom: 2rem; line-height: 1.5; }
+.btn-play {
+    background: var(--primary); color: white; border: none; padding: 0.8rem 2rem;
+    border-radius: 50px; font-size: 1.1rem; font-weight: bold; cursor: pointer;
+    display: flex; align-items: center; gap: 10px; transition: 0.2s;
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.4);
+}
+.btn-play:hover { background: var(--primary-dark); transform: scale(1.05); }
+
+/* --- CARRUSELES --- */
+.netflix-container { padding: 2rem 3rem; margin-top: -80px; position: relative; z-index: 10; padding-bottom: 6rem; }
+.category-title { font-size: 1.3rem; color: var(--secondary); margin-bottom: 0.5rem; font-weight: 600; border-left: 4px solid var(--primary); padding-left: 10px; }
+.carousel-wrapper { overflow: hidden; margin-bottom: 3rem; }
+.carousel { display: flex; gap: 15px; overflow-x: auto; padding: 15px 5px; scroll-behavior: smooth; }
+.carousel::-webkit-scrollbar { display: none; }
+
+/* TARJETA PÓSTER */
+.poster-card {
+    min-width: 160px; height: 240px; border-radius: 12px; overflow: hidden;
+    position: relative; cursor: pointer; transition: transform 0.3s ease; flex-shrink: 0;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+.poster-card:hover { transform: translateY(-10px); z-index: 20; box-shadow: 0 10px 30px rgba(0,0,0,0.5); border-color: var(--primary); }
+.poster-img { width: 100%; height: 100%; object-fit: cover; }
+.poster-overlay {
+    position: absolute; bottom: 0; left: 0; width: 100%;
+    background: linear-gradient(to top, var(--bg-dark), transparent);
+    padding: 3rem 0.5rem 0.5rem 0.5rem; text-align: center;
+}
+.poster-name { font-family: var(--font-display); font-size: 1.4rem; letter-spacing: 1px; color: var(--text-main); }
+
+/* --- ESTILOS DE PERFIL (CV / EXPEDIENTE) --- */
+.profile-header {
+    background: linear-gradient(to bottom, #020617, var(--bg-dark));
+    padding: 4rem 1.5rem 2rem 1.5rem; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.avatar-container {
+    width: 140px; height: 140px; margin: 0 auto 1.5rem auto; border-radius: 50%;
+    border: 4px solid var(--primary); padding: 5px; background: var(--bg-dark);
+}
+.avatar { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
+
+.profile-name { font-family: var(--font-head); font-size: 2.2rem; margin-bottom: 0.5rem; }
+.profile-role { color: var(--secondary); font-weight: bold; letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; }
+
+.cv-container {
+    max-width: 800px; margin: -40px auto 0 auto; padding: 0 1rem 4rem 1rem;
+    display: grid; gap: 1.5rem;
+}
+.cv-card {
+    background: var(--card-bg); border-radius: 12px; padding: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Etiquetas y Detalles */
+.tag-pill { padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; }
+.tag-green { background: rgba(37, 99, 235, 0.2); color: #60a5fa; }
+.tag-red { background: rgba(239, 68, 68, 0.2); color: #f87171; }
+
+.timeline-item {
+    border-left: 2px solid #334155; padding-left: 1rem; margin-bottom: 1.5rem; position: relative;
+}
+.timeline-item::before {
+    content: ''; position: absolute; left: -6px; top: 6px; width: 10px; height: 10px;
+    background: var(--secondary); border-radius: 50%;
+}
+.timeline-year { color: var(--secondary); font-weight: bold; font-size: 0.9rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .netflix-nav { padding: 1rem; flex-direction: row; gap: 10px; } /* Mantiene fila */
+    .logo { margin-right: 0; font-size: 1.5rem; }
+    .nav-links { display: none; } /* Ocultar links en móvil para dar espacio al botón */
+    
+    .netflix-hero { height: 60vh; padding: 0 1.5rem; text-align: center; justify-content: center; }
+    .hero-title { font-size: 3.5rem; }
+    .netflix-container { padding: 1rem; margin-top: -20px; }
+}
+/* ... MANTÉN TUS VARIABLES Y ESTILOS DE PORTADA (NETFLIX) ARRIBA ... */
+
+/* --- ESTILOS DE PERFIL MEJORADOS --- */
+
+/* Header Perfil */
+.profile-header {
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    padding: 3rem 1.5rem; text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.avatar-container {
+    width: 150px; height: 150px; margin: 0 auto 1rem auto;
+    border-radius: 50%; border: 4px solid var(--primary);
+    padding: 5px; background: #0f172a;
+    box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+}
+.profile-name { 
+    font-family: var(--font-display); font-size: 3rem; margin-bottom: 0.2rem; letter-spacing: 1px;
+}
+.profile-role { 
+    color: var(--secondary); font-family: var(--font-head); font-style: italic; font-weight: bold; 
+    font-size: 1rem; opacity: 0.9;
+}
+
+/* Contenedor Principal */
+.cv-container {
+    max-width: 800px; margin: -30px auto 0 auto; padding: 0 1.5rem 5rem 1.5rem;
+    display: flex; flex-direction: column; gap: 1.5rem; position: relative; z-index: 10;
+}
+
+/* Tarjetas Genéricas */
+.cv-card {
+    background: var(--card-bg); border-radius: 16px; padding: 1.5rem;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+}
+
+.cv-title {
+    font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1.5px;
+    color: var(--text-muted); border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.8rem; margin-bottom: 1.2rem; font-weight: bold;
+}
+
+/* 1. Resumen */
+.quote-card {
+    border-left: 4px solid var(--secondary);
+    font-family: var(--font-head); font-size: 1.1rem; line-height: 1.6;
+    color: #e2e8f0; font-style: italic; background: rgba(217, 119, 6, 0.05);
+}
+
+/* 2. Grid de Datos (3 columnas si cabe) */
+.data-grid-3 {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;
+}
+.data-item label { 
+    display: block; font-size: 0.7rem; text-transform: uppercase; color: var(--primary); margin-bottom: 4px; font-weight: bold;
+}
+.data-item span { font-size: 1.05rem; font-weight: 600; color: white; display: block;}
+
+/* 3. Listas de Análisis (Fortalezas/Debilidades) */
+.analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+@media(max-width:600px){ .analysis-grid { grid-template-columns: 1fr; gap: 1rem; } }
+
+.tag-label { display: block; font-size: 0.9rem; font-weight: bold; margin-bottom: 0.8rem; }
+.tag-label.green { color: #4ade80; }
+.tag-label.red { color: #f87171; }
+.tag-label.yellow { color: #facc15; }
+
+.list-bullet { list-style: none; padding: 0; }
+.list-bullet li { 
+    margin-bottom: 8px; padding-left: 15px; position: relative; font-size: 0.95rem; color: #cbd5e1;
+}
+.list-bullet li::before {
+    content: '•'; position: absolute; left: 0; top: 0; font-weight: bold; font-size: 1.2rem; line-height: 1;
+}
+.green-bullet li::before { color: #4ade80; }
+.red-bullet li::before { color: #f87171; }
+.yellow-bullet li::before { color: #facc15; }
+
+/* 4. Dato Curioso Box */
+.did-you-know-box {
+    background: rgba(255, 255, 255, 0.03); border-radius: 12px; padding: 1rem;
+    display: flex; gap: 15px; align-items: flex-start; border: 1px dashed rgba(255,255,255,0.2);
+}
+.did-you-know-box .icon { font-size: 1.5rem; }
+.did-you-know-box strong { color: var(--secondary); display: block; margin-bottom: 4px; }
+.did-you-know-box p { font-size: 0.9rem; color: #cbd5e1; margin: 0; line-height: 1.4; }
+
+/* 5. Conexión Jesús */
+.jesus-connection-card {
+    background: linear-gradient(135deg, #1e3a8a 0%, #172554 100%);
+    border-radius: 16px; padding: 2rem; color: white;
+    border: 1px solid #3b82f6; position: relative; overflow: hidden;
+}
+.jesus-connection-card::after {
+    content: '✝'; position: absolute; right: -20px; bottom: -40px;
+    font-size: 10rem; opacity: 0.05; font-family: serif; pointer-events: none;
+}
+.jc-header { display: flex; align-items: center; gap: 10px; margin-bottom: 1rem; }
+.jc-header h3 { font-family: var(--font-display); font-size: 1.6rem; letter-spacing: 1px; color: #93c5fd; margin: 0; }
+.jc-text { font-size: 1.1rem; line-height: 1.6; color: #e0f2fe; }
+
+/* 6. Versículo Footer */
+.verse-card { text-align: center; padding: 2rem; opacity: 0.8; }
+.verse-text { font-family: var(--font-head); font-style: italic; font-size: 1.2rem; margin-bottom: 1rem; color: #cbd5e1; }
+.verse-cite { color: var(--primary); font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+
+/* Botón flotante volver */
+.fab-back-cv {
+    position: fixed; bottom: 20px; right: 20px;
+    background: var(--secondary); color: white;
+    padding: 12px 24px; border-radius: 50px; text-decoration: none; font-weight: bold;
+    box-shadow: 0 4px 20px rgba(217, 119, 6, 0.4); z-index: 100; transition: transform 0.2s;
+}
+.fab-back-cv:hover { transform: translateY(-3px); }
+
+/* --- BOTONES DE COMPARTIR (HUELLAS) --- */
+.share-card {
+    background: transparent; /* Fondo transparente para que no sea otro bloque pesado */
+    border: 1px dashed rgba(255, 255, 255, 0.1); /* Borde sutil */
+    box-shadow: none;
+    margin-top: 1rem;
+}
+
+
+.share-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Botones Base */
+.btn-share {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-share:hover {
+    transform: scale(1.15) translateY(-2px);
+    filter: brightness(1.2);
+}
+
+.btn-share svg {
+    pointer-events: none; /* Para evitar problemas al clickear el icono */
+}
+
+/* Colores Específicos */
+.btn-share.wa {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-share.fb {
+    background: linear-gradient(135deg, #1877F2, #1659b1);
+    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
+}
+
+.btn-share.copy {
+    background: transparent;
+    border: 2px solid #38bdf8; /* Azul cielo neón */
+    color: #38bdf8;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
+}
+
+.btn-share.copy:hover {
+    background: rgba(56, 189, 248, 0.1);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+
+/* Feedback Copiado */
+.copy.copied { background: #10b981; border-color: #10b981; }
+
+
+
+
+/* ANIMACION */
+.fade-in { animation: fadeIn 0.8s ease-in; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* --- IMAGEN HERO (Cabecera Mejorada) --- */
+.hero-image {
+    width: 100%;
+    /* 1. Un poco más alta para que luzca más la imagen */
+    height: 500px;
+
+    /* Configuración del fondo */
+    background-size: cover;
+    /* Centramos la imagen para que se vea lo importante */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: var(--bg-card); /* Color de carga */
+
+    position: relative;
+    z-index: 0; /* La imagen queda al fondo */
+
+    /* 2. Quitamos el borde dorado inferior, queda más limpio sin él */
+    /* border-bottom: 4px solid var(--accent); */
+
+    /* Hacemos que el contenido siguiente se monte más encima de la imagen */
+    margin-bottom: -50px;
+
+    /* --- 3. EL CAMBIO CLAVE --- */
+    /* BORRAMOS las líneas de mask-image que te di antes. */
+    /* En su lugar, usamos una sombra interna suave para oscurecer el fondo */
+    box-shadow: inset 0 -120px 120px -40px var(--bg-dark);
+    /* Esto crea un degradado oscuro solo en la parte inferior, dentro de la imagen */
+}
+
+/* Asegúrate de que los tabs tengan esto para quedar por encima */
+.testament-tabs {
+    position: relative;
+    z-index: 10; /* Mayor que la imagen para estar encima */
+    /* ... el resto de estilos de tabs que ya tenías ... */
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    .hero-image {
+        height: 250px; /* Altura proporcional en móvil */
+         background-position: center top; /* En móvil suele convenir enfocar más arriba */
+    }
+}
+
+
+
+.tab {
+    background: rgba(30, 41, 59, 0.8);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: var(--text-muted);
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    background: var(--bg-card);
+    color: white;
+}
+
+.tab.active {
+    background: var(--accent);
+    color: #0f172a; /* Texto oscuro sobre dorado */
+    font-weight: bold;
+    border-color: var(--accent);
+    box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+}
+
+/* --- BOTÓN LAUNCHER (9 PUNTOS) --- */
+.btn-launcher {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto rebote suave */
+}
+
+/* EFECTO HOVER: Color dorado + Rotación + Escala */
+.btn-launcher:hover {
+    color: var(--accent); /* Se pone dorado */
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: rotate(90deg) scale(1.1); /* Gira y crece */
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.3); /* Resplandor suave */
+}
+
+/* --- MENÚ DESPLEGABLE (ECOSISTEMA) --- */
+.eco-menu {
+    position: fixed;
+    top: 70px; /* Justo debajo del nav */
+    right: 20px;
+    background: rgba(15, 23, 42, 0.95); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px); /* Efecto cristal */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    
+    /* Animación de entrada */
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+    transition: all 0.3s ease;
+    pointer-events: none; /* Para no clickear cuando está invisible */
+}
+
+.eco-menu.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: all;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 220px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: background 0.2s;
+}
+
+.menu-item:hover {
+    background: rgba(245, 158, 11, 0.35); /* Fondo dorado suave */
+    color: var(--accent);
+}
+
+.menu-item .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item.active {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+
+.coming-soon {
+    opacity: 0.5;
+    cursor: default;
+    background: #162032; 
+    border-style: dashed;
+    cursor: not-allowed;
+}
+.app-icon { 
+    font-size: 1.8rem; 
+    filter: grayscale(100%) brightness(500%);
+    margin-right: 1rem;
+}
+
+/* Opción A: Si el menú de arriba tapa el contenido */
+#profile-view {
+    padding-top: 100px; /* Ajusta este número hasta que se vea bien */
+}
+
+/* Opción B: Si la tarjeta se sube demasiado sobre la foto de portada */
+.profile-card {
+    margin-top: -50px !important; /* Reduce el margen negativo si es muy grande */
+    position: relative;
+    z-index: 10; /* Asegura que la tarjeta esté POR ENCIMA del fondo, no mezclada */
+}
+
+/* Opción C: Asegurar que el Header del personaje tenga altura */
+.profile-header {
+    min-height: 300px; /* Dale espacio a la foto de portada */
+    position: relative;
+}
+
+/* --- 🔍 ESTILOS DEL BUSCADOR --- */
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+    
+    /* AGREGA ESTAS 2 LÍNEAS: */
+    position: relative; 
+    z-index: 1000; /* Un número muy alto para que nada lo tape */
+}
+
+#buscador-input {
+    width: 100%;
+    padding: 15px 20px;
+    padding-left: 45px; /* Espacio para el icono */
+    font-size: 1.1rem;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 50px;
+    color: white;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#buscador-input:focus {
+    border-color: #fcd34d; /* Color dorado al escribir */
+    box-shadow: 0 0 15px rgba(253, 211, 77, 0.2);
+}
+
+/* --- 🖼️ ESTILOS LIGHTBOX (Pantalla Completa) --- */
+#lightbox-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+#lightbox-img {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(0.9);
+    animation: zoomIn 0.3s forwards;
+    object-fit: contain;
+}
+
+@keyframes zoomIn { to { transform: scale(1); } }
+
+.filter-bar {
+    display: flex;
+    gap: 10px;
+    padding: 20px 4%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none; /* Ocultar scroll en Firefox */
+}
+.filter-bar::-webkit-scrollbar { display: none; } /* Ocultar scroll en Chrome */
+
+.filter-btn {
+    background: rgba(255,255,255,0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Inter', sans-serif;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+}
+
+/* --- FOOTER GLOBAL MODERNO --- */
+.app-footer {
+    width: 100%;
+    padding: 3rem 1rem 2rem 1rem; /* Espacio generoso arriba */
+    background: linear-gradient(to top, #020617 0%, rgba(15, 23, 42, 0) 100%); /* Degradado suave hacia transparente */
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05); /* Línea muy sutil */
+    margin-top: 4rem; /* Separación del contenido */
+    position: relative;
+    z-index: 10;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer-brand {
+    font-family: 'Merriweather', serif; /* O la fuente elegante que uses */
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-dev {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: #64748b; /* Gris suave */
+}
+
+.footer-dev span {
+    color: #d4b483; /* Dorado suave para tu nombre */
+    font-weight: 500;
+}
+
+/* Animación sutil al pasar el mouse por tu nombre */
+.footer-dev span:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(212, 180, 131, 0.5);
+    cursor: default;
+}
+
+.footer-year {
+    font-size: 0.75rem;
+    color: #475569;
+    margin-top: 5px;
+}
+
+
+/* TOAST DE SUGERENCIA DEL DÍA */
+.codice-daily-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(15, 23, 42, 0.95); /* Azul oscuro Códice */
+    border-left: 4px solid #d4b483; /* Dorado Códice */
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+    width: calc(100% - 40px);
+    max-width: 340px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    
+    /* Animación de entrada por abajo */
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.codice-daily-toast.mostrar {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.codice-daily-toast img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+    border: 1px solid rgba(212, 180, 131, 0.3);
+}
+
+.codice-daily-toast .toast-info {
+    flex-grow: 1;
+}
+
+.codice-daily-toast h4 {
+    color: #d4b483;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 4px 0;
+}
+
+.codice-daily-toast p {
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.codice-daily-toast .cerrar-btn {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.codice-daily-toast .cerrar-btn:hover { color: #fff; }

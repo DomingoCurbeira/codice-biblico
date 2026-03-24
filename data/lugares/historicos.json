@@ -1,0 +1,2082 @@
+[
+  {
+    "id": "gilgal",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.8667, 35.4833],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#27ae60"
+    },
+    "perfil": {
+        "nombre": "Gilgal",
+        "titulo_corto": "El Círculo de Piedras",
+        "significado_nombre": "Rodar o Quitar (Rodar el oprobio)",
+        "ubicacion_geografica": "Al este de Jericó, en el valle del Jordán",
+        "clima_entorno": "Llanura árida y calurosa bajo el nivel del mar, estratégica como base logística para la conquista.",
+        "imagen_principal": "/img/lugares/gilgal.webp",
+        "galeria": [
+            "/img/lugares/12-piedras.webp",
+            "/img/lugares/cuchillos-pedernal.webp",
+            "/img/lugares/encuentro-angel-ejercito.webp",
+            "/img/lugares/primer-pascua-canaán.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Josué", "1 Samuel"],
+        "era_biblica": "La Conquista de Canaán"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Recintos de piedras en forma de 'pie' (Galgal)",
+        "descripcion": "Se han descubierto estructuras de piedra en forma de huellas humanas gigantescas en el valle del Jordán. Gilgal no era solo una ciudad, sino un recinto ceremonial donde el pueblo se reunía para 'pisar' la tierra que Dios les había entregado."
+    },
+    "narrativa": {
+        "resumen_epico": "Gilgal fue el primer pie de Israel en la Tierra Prometida. Tras cruzar el Jordán en seco, Josué erigió doce piedras del lecho del río como monumento eterno. Aquí ocurrió lo más profundo: la nueva generación fue circuncidada, 'rodando' así el oprobio de Egipto. En este campamento, el Maná cesó y el pueblo comió por primera vez del fruto de la tierra. Gilgal representa el lugar donde dejas de ser un esclavo que huye para convertirte en un guerrero que hereda.",
+        "dato_curioso": "Fue en Gilgal donde el 'Príncipe del Ejército de Jehová' se le apareció a Josué con la espada desenvainada antes del ataque a Jericó.",
+        "conexion_jesus": "Gilgal es el lugar donde el 'oprobio' es quitado. Jesús, al morir fuera de Jerusalén, rodó para siempre el oprobio de nuestro pecado. Así como en Gilgal cesó el maná físico, Jesús nos ofrece el pan eterno de Su presencia en la nueva tierra espiritual.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la preparación interna antes de la batalla externa. Es el lugar de la identidad recuperada y la consagración. Simboliza que la victoria comienza con un compromiso espiritual.",
+        "fortalezas": ["Unidad nacional", "Renovación del pacto", "Posición estratégica"],
+        "debilidades": ["Vulnerabilidad física inicial (tras la circuncisión)"],
+        "simbologia": [
+            {
+                "objeto": "Las Doce Piedras",
+                "significado": "Representan la memoria histórica: no olvidar que fue Dios quien abrió el camino."
+            },
+            {
+                "objeto": "El Cese del Maná",
+                "significado": "Símbolo de la madurez; el paso de la provisión milagrosa de emergencia a la responsabilidad de cultivar la promesa."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Antes de enfrentar tus 'muros de Jericó', Dios debe tratar con tu corazón en Gilgal.",
+        "preguntas_reflexion": [
+            "¿Cuáles son las 'piedras memoriales' en tu vida que te recuerdan la fidelidad de Dios?",
+            "¿Has permitido que Dios 'ruede el oprobio' de tu pasado para que puedas pelear tus batallas hoy?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Monumento",
+            "evento": "Cruce del Jordán y erección de las piedras.",
+            "referencia": "Josué 4:19-24",
+            "vinculo_id": "josue"
+        },
+        {
+            "fase": "La Consagración",
+            "evento": "Circuncisión masiva y celebración de la primera Pascua en la tierra.",
+            "referencia": "Josué 5:2-10",
+            "vinculo_id": "pueblo-israel"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["rio-jordan-bautismo", "jerico", "siquem"],
+        "personajes_relacionados": ["josue", "caleb", "angel-de-jehova"],
+        "estudios": ["el-oprobio-quitado", "memoria-y-gratitud"]
+    },
+    "gamificacion": {
+        "xp_lectura": 200,
+        "logro_id": "identidad-renovada"
+    }
+  },
+  {
+    "id": "jerico",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.87, 35.44],
+        "zoom": 14,
+        "icono_mapa": "/img/ui/markers/batalla.svg",
+        "marcador_color": "#c0392b"
+    },
+    "perfil": {
+        "nombre": "Jericó",
+        "titulo_corto": "La Ciudad de las Palmeras",
+        "significado_nombre": "Lugar de Fragancia o Ciudad de la Luna",
+        "ubicacion_geografica": "Valle del Jordán, una de las ciudades más bajas y antiguas del mundo.",
+        "clima_entorno": "Oasis tropical en medio del desierto de Judea, bendecido por el manantial de Eliseo.",
+        "imagen_principal": "/img/lugares/jerico.webp",
+        "galeria": [
+            "/img/lugares/muros-caidos.webp",
+            "/img/lugares/trompeta-shofar-jerico.webp",
+            "/img/lugares/botin-anatema.webp",
+            "/img/lugares/casa-rahab.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Josué", "2 Reyes", "Lucas", "Hebreos"],
+        "era_biblica": "La Conquista de Canaán"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Tel es-Sultan",
+        "descripcion": "Excavaciones arqueológicas han revelado los cimientos de muros dobles de ladrillo de barro que parecen haberse derrumbado hacia afuera, creando rampas naturales para los atacantes, tal como sugiere el texto bíblico."
+    },
+    "narrativa": {
+        "resumen_epico": "Jericó era una fortaleza inexpugnable, el primer gran obstáculo tras cruzar el Jordán. Dios no ordenó armas de asedio, sino una marcha litúrgica: seis días de silencio y un séptimo día de siete vueltas, culminando con el estruendo de las trompetas de cuerno de carnero (Shofares) y el grito de fe del pueblo. Al caer los muros, no fue la estrategia militar la que venció, sino la obediencia radical a una instrucción divina 'absurda'. En medio del juicio, la gracia brilló a través del cordón de escarlata en la casa de Rahab, preservando la línea mesiánica.",
+        "dato_curioso": "Jericó es considerada la ciudad continuamente habitada más antigua del mundo, con una historia que se remonta a unos 10,000 años.",
+        "conexion_jesus": "Josué (*Yeshua*) conquistó Jericó con el sonido del Shofar; Jesús (*Yeshua*) regresará con sonido de trompeta para derribar los sistemas del mundo. Además, en el Nuevo Testamento, Jesús sanó a Bartimeo en las afueras de esta ciudad y transformó la vida de Zaqueo, demostrando que donde antes hubo muros de juicio, ahora hay puertas de salvación.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el miedo paralizante ante lo 'imposible' transformado en el asombro de ver a Dios actuar. Simboliza que el silencio y la adoración son armas de guerra legítimas en el Reino.",
+        "fortalezas": ["Fe colectiva", "Gracia hacia el extranjero (Rahab)", "Soberanía de Dios"],
+        "debilidades": ["Orgullo humano (los muros)", "Peligro del anatema (codicia)"],
+        "simbologia": [
+            {
+                "objeto": "El Cordón de Escarlata",
+                "significado": "Símbolo de la sangre protectora; la fe que salva a una familia entera en medio de la destrucción."
+            },
+            {
+                "objeto": "Las Trompetas (Shofar)",
+                "significado": "Representan la voz de Dios y la proclamación de Su soberanía sobre el territorio enemigo."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tus muros más altos no caerán con tus manos, sino con tu obediencia a la voz de Dios en el tiempo de Su silencio.",
+        "preguntas_reflexion": [
+            "¿Qué 'muros' en tu vida parecen imposibles de derribar hoy?",
+            "¿Estás dispuesto a caminar en silencio y fe, dando vueltas al problema, hasta que Dios dé la orden de gritar victoria?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Espionaje",
+            "evento": "Rahab esconde a los espías y pacta su salvación.",
+            "referencia": "Josué 2",
+            "vinculo_id": "rahab"
+        },
+        {
+            "fase": "La Conquista",
+            "evento": "Siete vueltas el séptimo día y caída de los muros.",
+            "referencia": "Josué 6:20",
+            "vinculo_id": "josue"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["gilgal"],
+        "personajes_relacionados": ["josue", "rahab", "zaqueo"],
+        "estudios": ["armas-de-nuestra-milicia", "la-gracia-sobre-rahab"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "derribador-de-muros"
+    }
+  },
+  {
+    "id": "valle-ajalon",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.84, 35.02],
+        "zoom": 12,
+        "icono_mapa": "/img/ui/markers/milagro.svg",
+        "marcador_color": "#f1c40f"
+    },
+    "perfil": {
+        "nombre": "Valle de Ajalón",
+        "titulo_corto": "El Milagro Cósmico",
+        "significado_nombre": "Lugar de los ciervos o de las gacelas",
+        "ubicacion_geografica": "Región de la Sefela, un paso estratégico entre la llanura costera y las montañas de Jerusalén.",
+        "clima_entorno": "Valle amplio y fértil, históricamente un corredor militar vital para el control de Canaán.",
+        "imagen_principal": "/img/lugares/ajalon.webp",
+        "galeria": [
+            "/img/lugares/sol-luna-ajalon.webp",
+            "/img/lugares/bronce-antiguo-ajalon.webp",
+            "/img/lugares/cueva-maceda.webp",
+            "/img/lugares/granizo-caida.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Josué", "1 Crónicas"],
+        "era_biblica": "La Conquista de Canaán (Campaña del Sur)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Tel Ayalon",
+        "descripcion": "Ruinas de una ciudad fortificada que controlaba el valle. La geografía del lugar confirma que, desde la perspectiva de un observador en las laderas orientales (donde estaba Josué), el sol se vería sobre Gabaón (al este) y la luna sobre el valle de Ajalón (al oeste), tal como describe el texto."
+    },
+    "narrativa": {
+        "resumen_epico": "En respuesta a una alianza de cinco reyes amorreos que atacaban a sus aliados, Josué realizó una marcha forzada nocturna para sorprender al enemigo. En medio de la batalla, al ver que el tiempo se agotaba para completar la victoria, Josué lanzó un mandato audaz al cielo: 'Sol, detente en Gabaón; y tú, Luna, en el valle de Ajalón'. Dios no solo respondió deteniendo el curso de los astros por casi un día entero, sino que intervino con una lluvia de granizo sobrenatural. Fue el día en que la creación misma se puso a las órdenes de la fe de un hombre.",
+        "dato_curioso": "El texto menciona que se escribió originalmente en el 'Libro de Jaser', un antiguo compendio de poemas épicos de Israel hoy perdido.",
+        "conexion_jesus": "Josué detuvo el sol para completar el juicio sobre sus enemigos; en el Calvario, Dios oscureció el sol (Mateo 27:45) mientras Jesús completaba el sacrificio para salvarnos de nuestros enemigos espirituales. En ambos casos, el Creador alteró el cosmos para marcar un hito en el plan de redención.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Transmite una sensación de autoridad espiritual absoluta y asombro. Representa el momento en que la urgencia del propósito divino hace que lo imposible se vuelva rutina.",
+        "fortalezas": ["Autoridad de la palabra", "Intervención divina directa", "Persistencia militar"],
+        "debilidades": ["Limitación del tiempo humano (que Dios debe superar)"],
+        "simbologia": [
+            {
+                "objeto": "El Sol y la Luna detenidos",
+                "significado": "Representan el control de Dios sobre el tiempo y la luz; nada en la naturaleza puede impedir el avance de Su reino."
+            },
+            {
+                "objeto": "El Granizo",
+                "significado": "Símbolo de que la victoria no es obra del hombre ('fueron más los que murieron por el granizo que por la espada')."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios está más interesado en tu victoria de lo que tú mismo estás. Si te falta tiempo para cumplir Su voluntad, Él es capaz de detener el reloj a tu favor.",
+        "preguntas_reflexion": [
+            "¿Te atreves a pedir cosas 'cósmicas' en oración cuando sabes que estás en el centro del propósito de Dios?",
+            "¿Estás confiando en tu propia espada o reconoces que es la lluvia del cielo la que realmente decide tus batallas?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Alianza y Ataque",
+            "evento": "Los cinco reyes amorreos atacan Gabaón.",
+            "referencia": "Josué 10:1-5"
+        },
+        {
+            "fase": "El Milagro",
+            "evento": "Josué ordena al sol detenerse y Dios envía granizo.",
+            "referencia": "Josué 10:12-14",
+            "vinculo_id": "josue"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion"],
+        "personajes_relacionados": ["josue", "los-cinco-reyes"],
+        "estudios": ["la-oracion-de-poder", "dios-pelea-por-ti"]
+    },
+    "gamificacion": {
+        "xp_lectura": 350,
+        "logro_id": "conquistador-del-tiempo"
+    }
+  },
+  {
+    "id": "silo",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.0556, 35.2897],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#2ecc71"
+    },
+    "perfil": {
+        "nombre": "Silo",
+        "titulo_corto": "El Centro de Adoración",
+        "significado_nombre": "Lugar de descanso o Tranquilidad",
+        "ubicacion_geografica": "Montañas de Efraín, al norte de Betel.",
+        "clima_entorno": "Región montañosa fértil, protegida naturalmente por colinas, ideal para la reunión de las tribus.",
+        "imagen_principal": "/img/lugares/silo.webp",
+        "galeria": [
+            "/img/lugares/silo-ruinas.webp",
+            "/img/lugares/tabernaculo-silo.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Josué", "Jueces", "1 Samuel", "Salmos"],
+        "era_biblica": "Conquista y Periodo de los Jueces"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Tel Shiloh (Plataforma del Tabernáculo)",
+        "descripcion": "Se ha hallado una zona plana tallada en la roca con dimensiones que coinciden exactamente con el atrio del Tabernáculo. También se encontraron numerosos huesos de animales de sacrificio y vasijas de almacenamiento del periodo israelita temprano."
+    },
+    "narrativa": {
+        "resumen_epico": "Silo fue la capital espiritual de Israel durante más de 300 años. Tras la conquista, Josué reunió a toda la congregación aquí para levantar el Tabernáculo de Reunión. No fue solo un campamento militar como Gilgal; fue el lugar donde la tierra fue oficialmente repartida por suerte entre las tribus y donde el Arca del Pacto reposó. Representa la transición de la guerra al descanso, y de la marcha nómada al establecimiento de una nación bajo el gobierno de Dios.",
+        "dato_curioso": "Silo permaneció como el centro espiritual principal hasta que el Arca fue capturada por los filisteos en tiempos de Elí.",
+        "conexion_jesus": "Jacob profetizó en Génesis 49:10 que 'no será quitado el cetro de Judá... hasta que venga Silo'. Muchos ven en este nombre un título mesiánico para Jesús, el dador del verdadero descanso, quien es el cumplimiento final del santuario de Dios entre los hombres.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Transmite una atmósfera de paz, orden y cumplimiento. Es el alivio de ver la promesa materializada en un hogar estable.",
+        "fortalezas": ["Unidad espiritual", "Distribución justa de la herencia", "Paz territorial"],
+        "debilidades": ["Peligro de complacencia espiritual", "Vulnerabilidad a la decadencia sacerdotal futura"],
+        "simbologia": [
+            {
+                "objeto": "El Arca en reposo",
+                "significado": "Representa que Dios ha caminado con Su pueblo y ahora habita en medio de ellos en la tierra heredada."
+            },
+            {
+                "objeto": "La Suerte (Urím y Tumím)",
+                "significado": "Símbolo de que la herencia de cada tribu no fue por mérito o fuerza, sino por voluntad divina."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios no solo te ayuda a ganar tus batallas, sino que tiene un lugar de descanso y una herencia específica preparada para ti.",
+        "preguntas_reflexion": [
+            "¿Has reconocido la 'parcela' de bendición que Dios te ha asignado, o estás mirando con envidia la herencia de otros?",
+            "¿Estás construyendo un lugar de 'reposo' para la presencia de Dios en tu vida diaria?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Establecimiento",
+            "evento": "Josué levanta el Tabernáculo en Silo y reparte la tierra.",
+            "referencia": "Josué 18:1-10",
+            "vinculo_id": "josue"
+        },
+        {
+            "fase": "La Crisis",
+            "evento": "Samuel sirve en Silo bajo Elí; pérdida del Arca.",
+            "referencia": "1 Samuel 3",
+            "vinculo_id": "samuel"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["gilgal", "siquem", "jerusalen-sion"],
+        "personajes_relacionados": ["josue", "eli", "samuel", "ana"],
+        "estudios": ["el-descanso-de-la-promesa", "el-santuario-de-silo"]
+    },
+    "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "heredero-establecido"
+    }
+  },
+  {
+    "id": "monte-tabor",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.6866, 35.3908],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/batalla.svg",
+        "marcador_color": "#c0392b"
+    },
+    "perfil": {
+        "nombre": "Monte Tabor",
+        "titulo_corto": "La Cumbre de la Estrategia Divina",
+        "significado_nombre": "Altura, Prominencia o Cantera",
+        "ubicacion_geografica": "Extremo oriental del Valle de Jezreel, en la Baja Galilea.",
+        "clima_entorno": "Monte aislado con forma de media esfera, rodeado de llanuras que se inundan con facilidad durante las lluvias.",
+        "imagen_principal": "/img/lugares/tabor.webp",
+        "galeria": [
+            "/img/lugares/valle-jezreel-tabor.webp",
+            "/img/lugares/batalla-cisara.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo y Nuevo Testamento",
+        "libros_aparicion": ["Jueces", "Salmos", "Mateo"],
+        "era_biblica": "Periodo de los Jueces / Vida de Jesús"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Topografía del torrente de Cisón",
+        "descripcion": "La geografía del Tabor confirma el relato de Jueces: el terreno llano al pie del monte se convierte en un fango intransitable para carros de hierro cuando llueve, explicando cómo la infantería de Barac pudo vencer a la caballería tecnológica de Sísara."
+    },
+    "narrativa": {
+        "resumen_epico": "Bajo la palmera de Débora, nació una orden de guerra imposible. Barac reunió a 10,000 hombres en la cumbre del Tabor para enfrentar los 900 carros de hierro de Sísara. Desde esta altura, Israel vio descender la mano de Dios: una tormenta repentina desbordó el torrente de Cisón, inutilizando los carros enemigos. La victoria no fue de la espada, sino de la fe de una mujer que escuchó a Dios y de un ejército que se atrevió a bajar de la seguridad de la montaña al peligro del valle.",
+        "dato_curioso": "El Tabor es un 'monadnock', un monte solitario que se eleva bruscamente de la llanura, lo que lo hacía un mirador militar inigualable.",
+        "conexion_jesus": "La tradición identifica al Tabor como el Monte de la Transfiguración. Así como en tiempos de Débora el Tabor fue el lugar donde Dios intervino en la historia, en el Nuevo Testamento fue donde Jesús reveló Su gloria divina ante Pedro, Jacobo y Juan, uniendo la Ley (Moisés) y los Profetas (Elías).",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el coraje contra la desventaja tecnológica. Simboliza la seguridad que da el estar 'en lo alto' con Dios antes de enfrentar los gigantes del valle.",
+        "fortalezas": ["Visibilidad estratégica", "Posición defensiva", "Unidad tribal (Zabulón y Neftalí)"],
+        "debilidades": ["Aislamiento si el enemigo rodea la base"],
+        "simbologia": [
+            {
+                "objeto": "Los Carros de Hierro",
+                "significado": "Representan el poder del mundo que parece invencible hasta que Dios cambia las condiciones del terreno."
+            },
+            {
+                "objeto": "El Torrente de Cisón",
+                "significado": "Símbolo de la naturaleza actuando como aliada de los que obedecen a Dios."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "No importa cuán superior parezca la 'tecnología' o los recursos de tu enemigo; si Dios envía la lluvia, sus carros se hundirán en el lodo.",
+        "preguntas_reflexion": [
+            "¿Te sientes intimidado por los 'carros de hierro' (problemas financieros, salud, oposición) que tienes enfrente?",
+            "¿Estás dispuesto a bajar de tu zona de confort cuando Dios da la señal de ataque?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Convocatoria",
+            "evento": "Débora ordena a Barac reunir las tropas en el Monte Tabor.",
+            "referencia": "Jueces 4:6-12",
+            "vinculo_id": "debora"
+        },
+        {
+            "fase": "La Batalla",
+            "evento": "Descenso de las tropas y derrota total de Sísara.",
+            "referencia": "Jueces 4:14-16",
+            "vinculo_id": "barac"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["nazaret-hogar"],
+        "personajes_relacionados": ["debora", "barac", "sisara", "jesus"],
+        "estudios": ["liderazgo-de-debora", "la-transfiguracion"]
+    },
+    "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "guerrero-del-valle"
+    }
+  },
+  {
+    "id": "manantial-harod",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.5483, 35.3550],
+        "zoom": 14,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#3498db"
+    },
+    "perfil": {
+        "nombre": "Manantial de Harod",
+        "titulo_corto": "El Filtro de Dios",
+        "significado_nombre": "Manantial del Temblor o del Miedo",
+        "ubicacion_geografica": "Al pie del Monte Gilboa, en el Valle de Jezreel.",
+        "clima_entorno": "Fuente de agua cristalina que emana de una cueva rocosa, rodeada de una llanura abierta que permite ver el campamento enemigo a la distancia.",
+        "imagen_principal": "/img/lugares/harod.webp",
+        "galeria": [
+            "/img/lugares/cueva-harod.webp",
+            "/img/lugares/antorchas-vasijas.webp",
+            "/img/lugares/bebiendo-agua.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Jueces", "2 Samuel"],
+        "era_biblica": "Periodo de los Jueces (Gedeón)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Ma'ayan Harod",
+        "descripcion": "El sitio actual conserva el manantial que fluye de la cueva. La topografía coincide perfectamente con el relato: el monte Gilboa servía de refugio a los israelitas mientras los madianitas acampaban en el valle, permitiendo la visibilidad necesaria para la prueba de Gedeón."
+    },
+    "narrativa": {
+        "resumen_epico": "A orillas de este manantial, Gedeón enfrentó una paradoja: tenía demasiados hombres para ganar una batalla divina. Dios redujo un ejército de 32,000 a solo 300 mediante dos filtros. Primero, el miedo; segundo, la actitud al beber agua. Los que se arrodillaron descuidados fueron descartados; los que llevaron el agua a su boca con la mano, sin dejar de vigilar el horizonte, fueron los elegidos. Con cántaros rotos, teas encendidas y un grito de fe, este pequeño grupo puso en fuga a una multitud 'como langostas'.",
+        "dato_curioso": "El nombre 'Harod' (temblor) hace referencia al miedo de los 22,000 israelitas que abandonaron el campamento al inicio de la convocatoria.",
+        "conexion_jesus": "Gedeón es un libertador que actúa en la debilidad para mostrar el poder de Dios. Jesús, con un pequeño grupo de doce hombres comunes y sin armas físicas, conquistó el mundo espiritual. La victoria de Gedeón con cántaros de barro que deben romperse para que brille la luz es una metáfora de cómo el poder de Cristo actúa a través de nuestra fragilidad humana (2 Corintios 4:7).",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la tensión entre la lógica numérica y la soberanía espiritual. Simboliza el proceso de limpieza del orgullo antes de recibir la bendición.",
+        "fortalezas": ["Vigilancia constante", "Dependencia absoluta en Dios", "Valentía en la minoría"],
+        "debilidades": ["Miedo colectivo", "Autosuficiencia"],
+        "simbologia": [
+            {
+                "objeto": "El Agua del Manantial",
+                "significado": "El recurso de Dios que sirve para probar el carácter y el estado de alerta del creyente."
+            },
+            {
+                "objeto": "Los Trescientos",
+                "significado": "Representan el 'remanente'; aquellos que Dios elige no por su fuerza, sino por su disposición y obediencia."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios no necesita grandes ejércitos para cumplir Sus promesas, solo corazones que no tengan miedo y que sepan mantenerse alerta incluso en los momentos de provisión.",
+        "preguntas_reflexion": [
+            "¿Estás confiando más en tus recursos y 'números' que en el poder de Dios?",
+            "Cuando recibes una bendición (agua), ¿te vuelves descuidado o mantienes tu mirada en el propósito?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Selección",
+            "evento": "Prueba del agua y reducción del ejército de Gedeón.",
+            "referencia": "Jueces 7:1-7",
+            "vinculo_id": "gedeon"
+        },
+        {
+            "fase": "La Victoria",
+            "evento": "Ataque nocturno con cántaros y trompetas.",
+            "referencia": "Jueces 7:19-22",
+            "vinculo_id": "liberacion-madianita"
+        }
+    ],
+    "vinculos": {
+        "personajes_relacionados": ["gedeon", "madianitas"],
+        "estudios": ["el-poder-en-la-debilidad", "vigilancia-espiritual"]
+    },
+    "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "uno-de-los-300"
+    }
+  },
+  {
+    "id": "belen-rut",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.7049, 35.2038],
+        "zoom": 14,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#d4b483"
+    },
+    "perfil": {
+        "nombre": "Belén",
+        "titulo_corto": "Los Campos de la Gracia",
+        "significado_nombre": "Casa del Pan (Beth-Lehem)",
+        "ubicacion_geografica": "Tierras altas de Judea, a unos 8 km al sur de Jerusalén.",
+        "clima_entorno": "Valles fértiles rodeados de colinas pedregosas, famosos por sus cultivos de cebada y trigo.",
+        "imagen_principal": "/img/lugares/belen-rut.webp",
+        "galeria": [
+            "/img/lugares/campos-booz.webp",
+            "/img/lugares/la-era.webp",
+            "/img/lugares/puerta-belen.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Rut", "Miqueas", "Mateo"],
+        "era_biblica": "Periodo de los Jueces / Origen de la Dinastía Davídica"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Terrazas agrícolas de la Edad del Hierro",
+        "descripcion": "En los alrededores de Belén se conservan sistemas de terrazas para el cultivo de cereales que datan de la época de los Jueces, reflejando fielmente el entorno descrito en el libro de Rut sobre la cosecha de cebada y trigo."
+    },
+    "narrativa": {
+        "resumen_epico": "Belén comenzó como un lugar de hambre y luto para Noemí, pero se transformó en un campo de esperanza para Rut. En estos campos, la extranjera moabita fue recibida bajo las 'alas' del Dios de Israel. Aquí, Booz actuó como el 'Goel' (Pariente Redentor), asumiendo la deuda y la descendencia de la familia de Elimelec por amor. Esta no es solo una historia romántica; es el proceso legal por el cual una extranjera entra en la genealogía del Mesías, convirtiendo a Belén en la cuna de la esperanza mundial.",
+        "dato_curioso": "La ley del 'espigueo' que Rut usó permitía que los pobres recogieran lo que sobraba de las esquinas de los campos, una ley de misericordia que Booz cumplió con creces.",
+        "conexion_jesus": "Booz es el 'tipo' perfecto de Cristo: nuestro Gran Pariente Redentor. Así como Booz redimió a Rut de su pobreza y extranjería para darle herencia, Jesús (el 'Pan de Vida' nacido en la 'Casa del Pan') nos redime de nuestra orfandad espiritual para hacernos coherederos con Él.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Transmite una profunda sensación de seguridad, provisión y restauración. Es el lugar donde la lealtad humana (Rut) se encuentra con la providencia divina (Dios).",
+        "fortalezas": ["Leyes de protección social", "Integridad moral", "Lealtad familiar"],
+        "debilidades": ["Vulnerabilidad económica (hambre inicial)"],
+        "simbologia": [
+            {
+                "objeto": "El Manto de Booz",
+                "significado": "Representa la protección y el compromiso legal de redención."
+            },
+            {
+                "objeto": "La Espiga de Cebada",
+                "significado": "Símbolo de la provisión de Dios que comienza con lo pequeño para dar frutos generacionales."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu pasado o tu origen no determinan tu futuro cuando decides refugiarte bajo las alas del Dios de Israel.",
+        "preguntas_reflexion": [
+            "¿Estás dispuesto a ser un 'Booz' para alguien, usando tu posición para redimir y bendecir al necesitado?",
+            "¿Confías en que Dios está trabajando en los 'campos' de tu vida, incluso cuando solo ves trabajo duro y sobras?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Llegada",
+            "evento": "Rut y Noemí regresan a Belén al comienzo de la cosecha.",
+            "referencia": "Rut 1:22",
+            "vinculo_id": "rut"
+        },
+        {
+            "fase": "La Redención",
+            "evento": "Booz redime la tierra y toma a Rut por esposa ante los ancianos.",
+            "referencia": "Rut 4:9-10",
+            "vinculo_id": "booz"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["campos-de-moab", "belen-nacimiento", "jerusalen-sion"],
+        "personajes_relacionados": ["rut", "booz", "noemi", "obed"],
+        "estudios": ["el-pariente-redentor", "la-genealogia-de-la-gracia"]
+    },
+    "gamificacion": {
+        "xp_lectura": 190,
+        "logro_id": "bajo-sus-alas"
+    }
+  },
+  {
+    "id": "valle-ela",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.6883, 34.9247],
+        "zoom": 14,
+        "icono_mapa": "/img/ui/markers/batalla.svg",
+        "marcador_color": "#c0392b"
+    },
+    "perfil": {
+        "nombre": "Valle de Ela",
+        "titulo_corto": "El Desafío de la Fe",
+        "significado_nombre": "Valle de los Terebintos (Árboles de Ela)",
+        "ubicacion_geografica": "Región de la Sefela, entre las tierras bajas y las montañas de Judea.",
+        "clima_entorno": "Un valle ancho y fértil dividido por un arroyo estacional (wadi) que suele estar seco en verano pero lleno de piedras lisas.",
+        "imagen_principal": "/img/lugares/valle-ela.webp",
+        "galeria": [
+            "/img/lugares/arroyo-piedras.webp",
+            "/img/lugares/khirbet-qeiyafa.webp",
+            "/img/lugares/david-goliat-enfrentamiento.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["1 Samuel", "2 Samuel"],
+        "era_biblica": "Inicios de la Monarquía (Reinado de Saúl)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Khirbet Qeiyafa (Ciudad de Saaraim)",
+        "descripcion": "Excavaciones en las colinas que dominan el valle han revelado una ciudad fortificada con dos puertas (Saaraim significa 'Dos Puertas'), datada exactamente en el siglo X a.C. Esto confirma la presencia de un fuerte control israelita en la frontera filistea durante el tiempo de David."
+    },
+    "narrativa": {
+        "resumen_epico": "Durante cuarenta días, el gigante filisteo Goliat desafió a los ejércitos de Israel desde el valle. El pánico dominaba al Rey Saúl y a sus veteranos, hasta que un joven pastor llegó con provisiones. David no vio un gigante invencible, sino un hombre incircunciso desafiando al Dios vivo. Rechazando la armadura del rey, David bajó al arroyo, tomó cinco piedras lisas y, con una honda y una fe inquebrantable, derribó al campeón filisteo. Fue el día en que un cayado de pastor venció a una lanza de bronce.",
+        "dato_curioso": "David eligió cinco piedras no porque dudara de su puntería, sino porque, según otros textos, Goliat tenía cuatro hermanos gigantes en el ejército filisteo.",
+        "conexion_jesus": "David es el 'campeón' que pelea en lugar de su pueblo. Así como David venció al gigante que tenía esclavizado a Israel por el miedo, Jesús, el 'Hijo de David', venció al gigante del pecado y la muerte en el Calvario. David usó una piedra (lo humilde) para vencer al orgullo; Jesús usó la debilidad de la Cruz para vencer el poder del infierno.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el triunfo de la convicción espiritual sobre la intimidación visual. Simboliza el momento en que la unción privada (en Belén) se manifiesta en una victoria pública.",
+        "fortalezas": ["Celos por la gloria de Dios", "Habilidad técnica (honda)", "Identidad clara"],
+        "debilidades": ["Miedo sistémico del ejército", "Incredulidad de los hermanos"],
+        "simbologia": [
+            {
+                "objeto": "Las Cinco Piedras Lisas",
+                "significado": "Representan la preparación en lo oculto; David ya había vencido al oso y al león antes de llegar al valle."
+            },
+            {
+                "objeto": "La Armadura de Saúl",
+                "significado": "Símbolo de los métodos humanos que no sirven para pelear batallas espirituales."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "No peleas por la victoria, sino desde la victoria que Dios ya te ha dado. Tu gigante no es tan grande como Aquel que está contigo.",
+        "preguntas_reflexion": [
+            "¿Estás tratando de usar la 'armadura de otro' para resolver tus problemas o confías en lo que Dios te ha enseñado en lo privado?",
+            "¿Qué 'Goliat' te ha estado gritando mentiras durante 40 días? ¿Es hora de bajar al arroyo por tu piedra de fe?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Desafío",
+            "evento": "Goliat desafía a Israel mañana y tarde por 40 días.",
+            "referencia": "1 Samuel 17:16"
+        },
+        {
+            "fase": "La Victoria",
+            "evento": "David vence a Goliat y el ejército de Israel persigue a los filisteos.",
+            "referencia": "1 Samuel 17:48-51",
+            "vinculo_id": "david"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["belen-nacimiento", "cueva-adulam"],
+        "personajes_relacionados": ["david", "saul", "goliat", "jonatan"],
+        "estudios": ["venciendo-gigantes", "la-honda-de-david"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "vencedor-de-gigantes"
+    }
+  },
+  {
+    "id": "cueva-adulam",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.6517, 34.9514],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#7f8c8d"
+    },
+    "perfil": {
+        "nombre": "Cueva de Adulam",
+        "titulo_corto": "El Refugio de los Quebrantados",
+        "significado_nombre": "Refugio, Justicia del Pueblo o Lugar Cerrado",
+        "ubicacion_geografica": "Región de la Sefela, cerca de la ciudad cananea de Adulam, entre Belén y Filistea.",
+        "clima_entorno": "Zona de colinas calizas con numerosos sistemas de cuevas naturales, rodeada de valles que permitían la vigilancia y la huida rápida.",
+        "imagen_principal": "/img/lugares/adulam.webp",
+        "galeria": [
+            "/img/lugares/interior-cueva-judea.webp",
+            "/img/lugares/valientes-david.webp",
+            "/img/lugares/tres-valientes-agua.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["1 Samuel", "2 Samuel", "1 Crónicas", "Salmos"],
+        "era_biblica": "El Ascenso de David (Periodo como fugitivo)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Tel Adullam",
+        "descripcion": "El sitio arqueológico muestra una ubicación estratégica que domina el valle de Elah. Las cuevas en las laderas de la montaña son lo suficientemente grandes como para albergar a cientos de personas, validando el relato de David y sus 400 hombres."
+    },
+    "narrativa": {
+        "resumen_epico": "David llegó a Adulam solo, huyendo de la lanza de Saúl y del rey de Gat. Lo que comenzó como un escondite de desesperación se convirtió en el cuartel general de un nuevo reino. Allí se le unieron sus hermanos y todos los que estaban 'en aprieto, endeudados o amargados de espíritu'. En la oscuridad de la cueva, David no solo sobrevivió, sino que transformó a un grupo de parias en sus 'Valientes'. Adulam representa el proceso donde Dios toma lo que el mundo desecha para construir algo eterno.",
+        "dato_curioso": "Se cree que David escribió varios de sus salmos más profundos (como el Salmo 57 y el 142) mientras estaba refugiado en estas cuevas, convirtiendo su lamento en alabanza.",
+        "conexion_jesus": "Así como David fue rechazado por el rey establecido y se rodeó de los 'despreciados' en una cueva para formar un reino, Jesús fue rechazado por las autoridades religiosas y buscó a los pecadores, los pobres y los marginados. La Iglesia es, en cierto sentido, una 'Cueva de Adulam' espiritual donde Cristo transforma a los quebrantados en Su ejército real.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la resiliencia y la esperanza en medio del aislamiento. Es el lugar de la 'muerte del orgullo' de David para aprender a liderar desde la empatía y la fe compartida.",
+        "fortalezas": ["Lealtad incondicional", "Hermandad en la prueba", "Dependencia total en Dios"],
+        "debilidades": ["Escasez de recursos", "Persecución constante"],
+        "simbologia": [
+            {
+                "objeto": "La Cueva",
+                "significado": "Representa el crisol de Dios; la oscuridad necesaria para que la luz interna del carácter brille."
+            },
+            {
+                "objeto": "El Agua de Belén",
+                "significado": "Símbolo de sacrificio y honor; cuando sus valientes arriesgaron su vida para traerle agua de su tierra natal (2 Samuel 23)."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios no elige a personas capacitadas; Él capacita a los que elige a través de las 'cuevas' de la vida.",
+        "preguntas_reflexion": [
+            "¿Te sientes hoy en una 'cueva' de soledad o crisis? ¿Podría Dios estar usando esto para formar tus habilidades de liderazgo?",
+            "¿Cómo tratas a los 'quebrantados' que Dios pone en tu camino? ¿Los ves como una carga o como futuros valientes?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Refugio",
+            "evento": "David huye a Adulam y se le unen 400 hombres.",
+            "referencia": "1 Samuel 22:1-2",
+            "vinculo_id": "david"
+        },
+        {
+            "fase": "El Acto de Honor",
+            "evento": "Tres de sus valientes atraviesan el campamento filisteo para traerle agua.",
+            "referencia": "2 Samuel 23:13-17",
+            "vinculo_id": "valientes-david"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["valle-ela", "belen-nacimiento", "en-gadi-poetico"],
+        "personajes_relacionados": ["david", "joab", "abisai"],
+        "estudios": ["formacion-en-el-desierto", "la-lealtad-del-remanente"]
+    },
+    "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "capitan-de-valientes"
+    }
+  },
+  {
+    "id": "jerusalen-sion",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.7733, 35.2351],
+        "zoom": 15,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#d4af37"
+    },
+    "perfil": {
+        "nombre": "Jerusalén (Ciudad de David)",
+        "titulo_corto": "La Capital del Gran Rey",
+        "significado_nombre": "Cimiento de Paz o Ciudad de Paz (Yerushalayim)",
+        "ubicacion_geografica": "Sobre el monte Sión, una cresta estrecha al sur del actual Monte del Templo.",
+        "clima_entorno": "Clima de montaña mediterráneo, protegida por los valles del Cedrón y el Hinom, con la fuente de Gihón como su único suministro de agua vital.",
+        "imagen_principal": "/img/lugares/ciudad-david.webp",
+        "galeria": [
+            "/img/lugares/fortaleza-jebusea.webp",
+            "/img/lugares/canal-warren.webp",
+            "/img/lugares/arca-sion.webp",
+            "/img/lugares/fuente-gihon.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["2 Samuel", "1 Crónicas", "Salmos"],
+        "era_biblica": "Establecimiento de la Monarquía Unificada"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Estructura de Piedra Escalonada",
+        "descripcion": "Se ha descubierto una enorme pared de contención de piedra escalonada en la ladera este de la Ciudad de David, que data del siglo X a.C. Muchos arqueólogos la identifican como parte de la 'Fortaleza de Sión' que David capturó de los jebuseos y sobre la cual construyó su palacio."
+    },
+    "narrativa": {
+        "resumen_epico": "Durante siglos, la fortaleza de Sión fue considerada inexpugnable por los jebuseos, quienes se burlaban de David diciendo que incluso los ciegos y cojos podrían defenderla. Sin embargo, David penetró la ciudad a través del 'canal de agua' (el pozo de Warren), capturándola y convirtiéndola en su capital. Sión pasó de ser un bastión pagano a ser el 'Trono de Jehová' en la tierra. Aquí David trajo el Arca del Pacto con gran alegría, estableciendo que Jerusalén no sería solo el centro político, sino el corazón espiritual de la nación.",
+        "dato_curioso": "El 'Canal de David' mencionado en 2 Samuel 5:8 es hoy una de las atracciones arqueológicas más fascinantes, permitiendo a los visitantes ver el mismo conducto por donde sus guerreros subieron para tomar la ciudad.",
+        "conexion_jesus": "Jerusalén es la ciudad donde Jesús entró como Rey (Domingo de Ramos), donde fue juzgado, crucificado y donde resucitó. David estableció el trono terrenal en Sión, pero Jesús estableció el trono eterno. En el Apocalipsis, el destino final del creyente es la 'Nueva Jerusalén', mostrando que el propósito de Dios iniciado con David llega a su plenitud total en Cristo.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la exaltación, el cumplimiento y el gobierno teocrático. Es el lugar de la identidad nacional definitiva y el símbolo de la elección divina.",
+        "fortalezas": ["Defensa natural impenetrable", "Suministro de agua interno (Gihón)", "Unificación de las 12 tribus"],
+        "debilidades": ["Peligro de orgullo político", "Corrupción espiritual en el palacio real"],
+        "simbologia": [
+            {
+                "objeto": "La Fortaleza de Sión",
+                "significado": "Representa la seguridad absoluta del creyente cuando Dios es su roca y baluarte."
+            },
+            {
+                "objeto": "El Arca en Sión",
+                "significado": "Símbolo de que Dios no solo nos da victorias militares, sino que desea habitar en nuestra comunidad diaria."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios tiene el poder de tomar tus 'fortalezas' más difíciles y convertirlas en lugares de Su gloria.",
+        "preguntas_reflexion": [
+            "¿Quién ocupa el trono de tu 'Jerusalén' interna: tus propias ambiciones o la presencia de Dios?",
+            "¿Estás buscando establecer el orden de Dios en tu casa y ciudad, así como David lo hizo en Sión?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Conquista",
+            "evento": "David captura la fortaleza jebusea a través del canal de agua.",
+            "referencia": "2 Samuel 5:6-9",
+            "vinculo_id": "david"
+        },
+        {
+            "fase": "El Arca",
+            "evento": "Traslado del Arca desde la casa de Obed-edom hacia Sión.",
+            "referencia": "2 Samuel 6",
+            "vinculo_id": "arca-pacto"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["cueva-adulam", "monte-moriah"],
+        "personajes_relacionados": ["david", "joab", "natan-profeta"],
+        "estudios": ["el-pacto-davidico", "la-ciudad-del-gran-rey"]
+    },
+    "gamificacion": {
+        "xp_lectura": 400,
+        "logro_id": "ciudadano-de-sion"
+    }
+  },
+  {
+    "id": "era-arauna",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.7781, 35.2353],
+        "zoom": 15,
+        "icono_mapa": "/img/ui/markers/altar.svg",
+        "marcador_color": "#f39c12"
+    },
+    "perfil": {
+        "nombre": "La Era de Arauna (Monte Moriah)",
+        "titulo_corto": "El Altar de la Misericordia",
+        "significado_nombre": "Arauna: El que es firme o Árbol de alegría",
+        "ubicacion_geografica": "Cumbre del Monte Moriah, justo al norte de la Ciudad de David.",
+        "clima_entorno": "Cima rocosa y elevada, expuesta a los vientos, ideal para trillar el grano (una era).",
+        "imagen_principal": "/img/lugares/era-arauna.webp",
+        "galeria": [
+            "/img/lugares/roca-sacrificio.webp",
+            "/img/lugares/templo-salomon-maqueta.webp",
+            "/img/lugares/angel-moriah.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["2 Samuel", "1 Crónicas", "2 Crónicas"],
+        "era_biblica": "Final del Reinado de David / Preparación para el Templo"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "La Roca Sagrada (Debajo del Domo de la Roca)",
+        "descripcion": "La prominencia rocosa que se conserva hoy bajo el Domo de la Roca es identificada históricamente como la era que David compró. Su superficie plana y natural coincide con la función de una era de trillar del siglo X a.C."
+    },
+    "narrativa": {
+        "resumen_epico": "Tras un censo pecaminoso, una plaga asolaba Israel. David vio al Ángel de Jehová con la espada desenvainada sobre Jerusalén, justo en la era del jebuseo Arauna. Por orden divina, David compró el lugar por cincuenta siclos de plata, insistiendo en pagar el precio total: 'No ofreceré holocausto que no me cueste nada'. Allí edificó un altar, el fuego descendió del cielo y la plaga se detuvo. Este sitio de juicio se convirtió en el sitio de la gracia, señalando el lugar exacto donde se construiría el Templo de Salomón.",
+        "dato_curioso": "Arauna, siendo un jebuseo (el antiguo pueblo de Jerusalén), ofreció regalarle todo al Rey, pero David estableció un principio eterno sobre el costo del verdadero sacrificio.",
+        "conexion_jesus": "Este lugar es el Monte Moriah. Aquí Abraham ofreció a Isaac, aquí David detuvo la muerte con un sacrificio, y aquí el Templo señalaría por siglos hacia el sacrificio final de Jesús. Es el lugar donde Dios dice: 'Basta; detén tu mano', porque el sustituto ha sido aceptado.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el arrepentimiento profundo y la intercesión. Transmite la solemnidad de la justicia divina encontrándose con el alivio del perdón.",
+        "fortalezas": ["Lugar de elección divina", "Consagración del terreno", "Principio de sacrificio personal"],
+        "debilidades": ["Escenario previo de juicio y plaga"],
+        "simbologia": [
+            {
+                "objeto": "La Era de Trillar",
+                "significado": "Representa el juicio y la separación del trigo y la paja; el lugar donde Dios limpia a Su pueblo."
+            },
+            {
+                "objeto": "La Espada Vainada",
+                "significado": "Símbolo de la misericordia que triunfa sobre el juicio a través de la sangre del altar."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "La adoración que no nos cuesta nada, no vale nada. El lugar de tu mayor error puede convertirse en el fundamento de tu mayor legado si te arrepientes.",
+        "preguntas_reflexion": [
+            "¿Estás tratando de ofrecer a Dios sacrificios que no te cuestan tiempo, esfuerzo o entrega?",
+            "¿Puedes ver la mano de Dios deteniendo el juicio en tu vida gracias a la intercesión de Cristo?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Juicio",
+            "evento": "El Ángel de Jehová se detiene sobre la era de Arauna.",
+            "referencia": "2 Samuel 24:15-16"
+        },
+        {
+            "fase": "La Compra",
+            "evento": "David compra el terreno y edifica el altar de intercesión.",
+            "referencia": "1 Crónicas 21:22-26",
+            "vinculo_id": "david"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion", "monte-moriah"],
+        "personajes_relacionados": ["david", "angel-de-jehova", "salomon"],
+        "estudios": ["el-costo-de-la-adoracion", "justicia-y-misericordia"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "intercesor-del-monte"
+    }
+  },
+  {
+    "id": "templo-salomon",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.7781, 35.2353],
+        "zoom": 16,
+        "icono_mapa": "/img/ui/markers/templo.svg",
+        "marcador_color": "#f1c40f"
+    },
+    "perfil": {
+        "nombre": "El Templo de Salomón (Primer Templo)",
+        "titulo_corto": "La Gloria del Reino",
+        "significado_nombre": "Beit HaMikdash (La Casa de la Santidad)",
+        "ubicacion_geografica": "Cumbre del Monte Moriah, Jerusalén.",
+        "clima_entorno": "Estructura dominante que coronaba el horizonte de la ciudad, construida con cedro del Líbano, piedras talladas y oro puro.",
+        "imagen_principal": "/img/lugares/templo-salomon.webp",
+        "galeria": [
+            "/img/lugares/columnas-jaquin-boaz.webp",
+            "/img/lugares/mar-de-bronce.webp",
+            "/img/lugares/lugar-santisimo-oro.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["1 Reyes", "2 Crónicas", "Salmos", "Ezequiel"],
+        "era_biblica": "Era Monárquica (Edad de Oro de Israel)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Muros de contención y paralelos arquitectónicos",
+        "descripcion": "Aunque no se han realizado excavaciones directas bajo la Explanada de las Mezquitas por razones políticas, templos contemporáneos hallados en Siria (como el de Ain Dara) muestran una distribución tripartita y decoraciones que coinciden exactamente con la descripción bíblica del Templo de Salomón."
+    },
+    "narrativa": {
+        "resumen_epico": "Siete años de construcción silenciosa (sin sonido de martillos en el sitio) culminaron en la estructura más espléndida del mundo antiguo. Salomón movilizó a miles de obreros y recursos del rey Hiram de Tiro para cumplir el sueño de su padre David. En el día de la dedicación, tras una oración épica del rey, el fuego descendió del cielo y la Nube de Gloria (Shekinah) llenó el lugar de tal manera que los sacerdotes no podían ministrar. Dios había encontrado un reposo permanente entre Su pueblo, convirtiendo a Jerusalén en el centro espiritual del universo.",
+        "dato_curioso": "El interior del templo estaba totalmente recubierto de oro puro, de modo que no se veía ninguna piedra, simbolizando la atmósfera celestial donde solo habita la pureza divina.",
+        "conexion_jesus": "Jesús se presentó a sí mismo como el verdadero Templo (Juan 2:19-21). Mientras que el Templo de piedra fue destruido, Jesús es la presencia de Dios que no puede ser contenida por paredes. Tras Su muerte, el velo del Lugar Santísimo se rasgó, indicando que el acceso a Dios ya no depende de un edificio, sino de Su persona.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el orden, la excelencia y la majestad. Transmite una sensación de trascendencia donde lo terrenal es transformado por lo divino a través de la adoración perfecta.",
+        "fortalezas": ["Unidad nacional centralizada", "Belleza artística suprema", "Presencia divina manifiesta"],
+        "debilidades": ["Peligro de ritualismo vacío", "Falsa sensación de seguridad (pensar que el edificio protegía al pueblo sin necesidad de obediencia)"],
+        "simbologia": [
+            {
+                "objeto": "Jaquín y Boaz",
+                "significado": "Las dos columnas de bronce a la entrada; significan 'Él establecerá' y 'En Él está la fuerza'."
+            },
+            {
+                "objeto": "El Mar de Bronce",
+                "significado": "Una enorme fuente sobre doce bueyes que simboliza la purificación necesaria para acercarse a la santidad."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tú eres ahora el templo del Espíritu Santo. La excelencia y la santidad que Salomón puso en las piedras, Dios desea ponerlas en tu carácter.",
+        "preguntas_reflexion": [
+            "¿Estás construyendo tu vida 'en silencio' (con integridad privada) para que la gloria de Dios se vea en público?",
+            "¿Es tu corazón un lugar de 'reposo' donde la presencia de Dios se siente bienvenida?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Edificación",
+            "evento": "Salomón comienza la obra en el cuarto año de su reinado.",
+            "referencia": "1 Reyes 6:1"
+        },
+        {
+            "fase": "La Gloria",
+            "evento": "Dedicación del Templo y descenso de la Shekinah.",
+            "referencia": "2 Crónicas 7:1-3",
+            "vinculo_id": "shekinah"
+        },
+        {
+            "fase": "La Destrucción",
+            "evento": "Nabucodonosor incendia el templo y lleva los tesoros a Babilonia.",
+            "referencia": "2 Reyes 25:8-9",
+            "vinculo_id": "exilio-babilonia"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion", "era-arauna", "babilonia"],
+        "personajes_relacionados": ["salomon"],
+        "estudios": ["tipologia-del-templo", "la-gloria-de-dios"]
+    },
+    "gamificacion": {
+        "xp_lectura": 500,
+        "logro_id": "adorador-del-santuario"
+    }
+  },
+  {
+    "id": "monte-carmelo",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.6736, 35.0908],
+        "zoom": 12,
+        "icono_mapa": "/img/ui/markers/evento-biblico.svg",
+        "marcador_color": "#c0392b"
+    },
+    "perfil": {
+        "nombre": "Monte Carmelo",
+        "titulo_corto": "El Altar del Fuego",
+        "significado_nombre": "Jardín o Viñedo de Dios (Karem-El)",
+        "ubicacion_geografica": "Cordillera costera que domina el mar Mediterráneo y el valle de Jezreel.",
+        "clima_entorno": "Región históricamente exuberante y verde, cuya sequedad durante el tiempo de Elías simbolizó el juicio divino.",
+        "imagen_principal": "/img/lugares/carmelo.webp",
+        "galeria": [
+            "/img/lugares/altar-elias.webp",
+            "/img/lugares/valle-muharaqa.webp",
+            "/img/lugares/fuego-cielo-carmelo.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["1 Reyes", "2 Reyes", "Isaías", "Cantares"],
+        "era_biblica": "Reino Dividido (Ministerio de Elías)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "El Muhraqa (El Lugar del Sacrificio)",
+        "descripcion": "En la cima sureste del Carmelo existe un lugar llamado 'El Muhraqa' (la quema). La topografía permite una vista clara del torrente de Cisón abajo y del mar Mediterráneo al oeste, coincidiendo con el relato donde el criado de Elías vio subir una pequeña nube tras la victoria."
+    },
+    "narrativa": {
+        "resumen_epico": "Tras tres años de sequía, el profeta Elías convocó a todo Israel y a los 450 profetas de Baal a esta cumbre. El desafío era simple: 'El dios que responda por fuego, ese sea Dios'. Mientras los profetas paganos gritaban en vano, Elías reparó el altar de Jehová con doce piedras, lo empapó en agua y oró con fe. El fuego de Dios descendió, consumió el sacrificio e incluso lamió el agua de las zanjas. El Carmelo fue el lugar donde el pueblo tuvo que decidir: '¿Hasta cuándo claudicaréis entre dos pensamientos?'.",
+        "dato_curioso": "El Carmelo es mencionado en la Biblia como un símbolo de belleza y fertilidad; verlo seco era la señal máxima de que la bendición de Dios se había retirado.",
+        "conexion_jesus": "Elías en el Carmelo señala a Juan el Bautista, quien vino 'con el espíritu y poder de Elías' para preparar el camino a Jesús. Así como el fuego en el Carmelo autenticó a Elías como mensajero, el Espíritu Santo descendiendo sobre Jesús en el Jordán y sobre la Iglesia en Pentecostés auténtica el Nuevo Pacto por fuego espiritual.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la confrontación, la autoridad profética y la valentía solitaria. Es el lugar de la 'decisión radical' donde la neutralidad espiritual deja de ser una opción.",
+        "fortalezas": ["Poder de intercesión", "Celos por la verdad", "Victoria sobre el paganismo"],
+        "debilidades": ["Apostasía generalizada del pueblo", "Liderazgo corrupto (Acab y Jezabel)"],
+        "simbologia": [
+            {
+                "objeto": "El Altar de Doce Piedras",
+                "significado": "Representa la unidad perdida de las doce tribus bajo el pacto original con Dios."
+            },
+            {
+                "objeto": "La Pequeña Nube",
+                "significado": "Símbolo de que una oración ferviente puede desatar una lluvia de bendición que cambie toda una nación."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "No puedes caminar con un pie en el mundo y otro en el Reino. Tarde o temprano, tu 'Monte Carmelo' llegará y tendrás que decidir quién es tu Dios.",
+        "preguntas_reflexion": [
+            "¿Qué 'altares' en tu vida necesitan ser reparados para que el fuego de Dios pueda descender?",
+            "¿Tienes el valor de Elías para defender la verdad incluso cuando pareces estar solo contra el sistema?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Desafío",
+            "evento": "Convocatoria masiva y fracaso de los profetas de Baal.",
+            "referencia": "1 Reyes 18:19-29"
+        },
+        {
+            "fase": "La Respuesta",
+            "evento": "Descenso del fuego y ejecución de los falsos profetas en el Cisón.",
+            "referencia": "1 Reyes 18:36-40",
+            "vinculo_id": "elias"
+        }
+    ],
+    "vinculos": {
+        
+        "personajes_relacionados": ["elias", "acab", "jezabel"],
+        "estudios": ["fuego-del-cielo", "el-ministerio-profetico"]
+    },
+    "gamificacion": {
+        "xp_lectura": 350,
+        "logro_id": "fiel-en-el-fuego"
+    }
+  },
+  {
+    "id": "babilonia",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.5364, 44.4208],
+        "zoom": 12,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#e67e22"
+    },
+    "perfil": {
+        "nombre": "Babilonia",
+        "titulo_corto": "El Crisol del Exilio",
+        "significado_nombre": "Puerta de Dios (Babilu)",
+        "ubicacion_geografica": "Llanura de Sinar, a orillas del río Éufrates (actual Irak).",
+        "clima_entorno": "Clima árido extremo, una metrópolis de ladrillo azul y jardines colgantes que contrastaba con las montañas de Judea.",
+        "imagen_principal": "/img/lugares/babilonia.webp",
+        "galeria": [
+            "/img/lugares/puerta-ishtar.webp",
+            "/img/lugares/horno-fuego.webp",
+            "/img/lugares/rios-babilonia.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["2 Reyes", "Daniel", "Jeremías", "Apocalipsis"],
+        "era_biblica": "El Exilio Babilónico"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "La Vía Procesional y la Puerta de Ishtar",
+        "descripcion": "Las excavaciones de Robert Koldewey revelaron una ciudad de un esplendor asombroso. El uso de ladrillos esmaltados en azul con relieves de leones y dragones coincide con la descripción de la magnificencia que Daniel enfrentó."
+    },
+    "narrativa": {
+        "resumen_epico": "Babilonia fue el destino final del juicio por la idolatría de Israel. Jerusalén fue destruida y sus nobles llevados como trofeos al corazón del imperio más poderoso de la época. Sin embargo, lo que parecía el fin de la nación fue su purificación. En palacios de oro y ante reyes como Nabucodonosor, jóvenes como Daniel, Ananías, Misael y Azarías demostraron que el Reino de Dios es superior a cualquier imperio humano. Babilonia es el lugar donde Israel aprendió que Dios sigue siendo Rey incluso cuando Su pueblo está lejos de casa.",
+        "dato_curioso": "En las ruinas de Babilonia se han encontrado tablillas de raciones de comida que mencionan por nombre a 'Joaquín, rey de Judá', confirmando históricamente la presencia de la realeza judía en el exilio.",
+        "conexion_jesus": "Babilonia representa el sistema del mundo que se opone a Dios. Jesús nos llama a vivir como 'Danieles': estar en el mundo pero no ser del mundo. Además, en el Nuevo Testamento, la 'Babilonia' espiritual cae ante el regreso del Rey de Reyes, culminando el plan de redención iniciado tras el exilio.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Transmite una mezcla de nostalgia profunda (Salmo 137: 'Junto a los ríos de Babilonia...') y una fe inquebrantable que se templa en el fuego. Es el lugar de la resistencia espiritual.",
+        "fortalezas": ["Centro cultural y científico", "Lugar de revelaciones apocalípticas (Visiones de Daniel)"],
+        "debilidades": ["Orgullo humano extremo", "Idolatría sistémica", "Crueldad imperial"],
+        "simbologia": [
+            {
+                "objeto": "El Horno de Fuego / Foso de Leones",
+                "significado": "Representan las pruebas extremas donde la fidelidad a Dios es la única vía de escape."
+            },
+            {
+                "objeto": "La Escritura en la Pared",
+                "significado": "Símbolo del juicio divino inevitable sobre el orgullo de los imperios."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu entorno no determina tu santidad. Puedes estar en el centro de 'Babilonia' y seguir teniendo un espíritu excelente para Dios.",
+        "preguntas_reflexion": [
+            "¿Estás comprometiendo tus valores para encajar en la cultura actual, o te mantienes firme como Daniel?",
+            "¿Confías en que Dios tiene el control de la historia, incluso cuando parece que los sistemas del mundo están ganando?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Caída",
+            "evento": "Destrucción de Jerusalén y primera deportación.",
+            "referencia": "2 Reyes 25"
+        },
+        {
+            "fase": "El Testimonio",
+            "evento": "Daniel interpreta el sueño de la estatua.",
+            "referencia": "Daniel 2",
+            "vinculo_id": "daniel"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion", "susa-palacio", "rio-quebar"],
+        "personajes_relacionados": ["nabucodonosor", "daniel", "sedequias-rey"],
+        "estudios": ["la-soberania-de-dios-en-el-exilio", "fidelidad-en-la-prueba"]
+    },
+    "gamificacion": {
+        "xp_lectura": 400,
+        "logro_id": "espiritu-excelente"
+    }
+  },
+  {
+    "id": "susa-palacio",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.189, 48.258],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#d4af37"
+    },
+    "perfil": {
+        "nombre": "Susa (La Ciudadela)",
+        "titulo_corto": "El Trono de la Providencia",
+        "significado_nombre": "Lirio (Shushan)",
+        "ubicacion_geografica": "Suroeste del actual Irán, al pie de los montes Zagros.",
+        "clima_entorno": "Ciudad de invierno de los reyes persas, conocida por su clima cálido y su fastuosa arquitectura de columnas de mármol y jardines reales.",
+        "imagen_principal": "/img/lugares/susa-palacio.webp",
+        "galeria": [
+            "/img/lugares/puerta-rey-susa.webp",
+            "/img/lugares/ester-ante-el-rey.webp",
+            "/img/lugares/trono-persa.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Ester", "Nehemías", "Daniel"],
+        "era_biblica": "Periodo Persa (Post-exilio)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "El Palacio de Artajerjes y Darío",
+        "descripcion": "Excavaciones francesas revelaron el plano del palacio, incluyendo el 'Apadana' (sala del trono) y el patio interior. Se halló el famoso 'Código de Hammurabi' aquí (traído como botín) y bajorrelieves de arqueros esmaltados que decoraban los muros donde Ester y Nehemías caminaron."
+    },
+    "narrativa": {
+        "resumen_epico": "Susa fue el escenario donde Dios actuó desde las sombras para proteger el linaje mesiánico. En sus patios, la joven Ester arriesgó su vida ante el rey Asuero para deshacer el complot genocida de Amán, pronunciando el famoso: 'Si perezco, que perezca'. Años más tarde, en este mismo palacio, Nehemías servía como copero del rey Artajerjes cuando su tristeza por Jerusalén conmovió el corazón del monarca, obteniendo el decreto real para reconstruir los muros. Susa representa la soberanía de Dios moviendo los hilos de los imperios más grandes a favor de Su pueblo.",
+        "dato_curioso": "El libro de Ester es el único libro de la Biblia donde no se menciona el nombre de Dios explícitamente, pero Su mano es evidente en cada coincidencia en el palacio de Susa.",
+        "conexion_jesus": "Ester actuó como una intercesora que puso su vida en juego para salvar a su pueblo del juicio de muerte, prefigurando a Jesús, nuestro gran intercesor. Nehemías dejó la comodidad del palacio real para restaurar las ruinas de Su pueblo, tal como Jesús dejó Su trono celestial para restaurar nuestra humanidad caída.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el valor bajo presión y la influencia estratégica. Es un lugar de protocolos estrictos donde la oración silenciosa y la valentía personal cambian la historia.",
+        "fortalezas": ["Centro diplomático del mundo", "Lugar de decretos reales", "Protección imperial"],
+        "debilidades": ["Peligro de muerte por protocolo", "Complots políticos constantes"],
+        "simbologia": [
+            {
+                "objeto": "El Cetro de Oro",
+                "significado": "Representa la gracia del Rey; el acceso concedido a quien no tiene derecho por sí mismo."
+            },
+            {
+                "objeto": "La Copa del Rey",
+                "significado": "Símbolo del servicio fiel y la posición de confianza que Dios otorga a Sus hijos en lugares de influencia."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Quizás Dios te ha puesto en tu posición actual 'para un momento como este'. No importa cuán 'pagano' sea tu entorno, Dios puede usarte para salvar a muchos.",
+        "preguntas_reflexion": [
+            "¿Estás dispuesto a arriesgar tu comodidad por el bienestar de otros, como Ester y Nehemías?",
+            "¿Reconoces que tu éxito profesional es una plataforma divina para un propósito eterno?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Salvación",
+            "evento": "Ester intercede ante Asuero y salva a los judíos.",
+            "referencia": "Ester 7:1-6",
+            "vinculo_id": "ester"
+        },
+        {
+            "fase": "El Decreto",
+            "evento": "Nehemías recibe permiso de Artajerjes para reconstruir Jerusalén.",
+            "referencia": "Nehemías 2:1-8",
+            "vinculo_id": "nehemias"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["babilonia", "jerusalen-muros"],
+        "personajes_relacionados": ["ester", "nehemias", "mardoqueo", "artajerjes"],
+        "estudios": ["providencia-divina", "liderazgo-de-nehemias"]
+    },
+    "gamificacion": {
+        "xp_lectura": 280,
+        "logro_id": "intercesor-real"
+    }
+  },
+  {
+    "id": "jerusalen-muros",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.7767, 35.2345],
+        "zoom": 15,
+        "icono_mapa": "/img/ui/markers/monumento.svg",
+        "marcador_color": "#7f8c8d"
+    },
+    "perfil": {
+        "nombre": "Los Muros de Jerusalén",
+        "titulo_corto": "La Muralla de la Fe",
+        "significado_nombre": "Protección y Separación Sagrada",
+        "ubicacion_geografica": "Perímetro de la antigua ciudad de Jerusalén, incluyendo la Ciudad de David y el Monte del Templo.",
+        "clima_entorno": "Clima seco de montaña; una obra construida entre escombros y bajo constante amenaza de ataque.",
+        "imagen_principal": "/img/lugares/muros-nehemias.webp",
+        "galeria": [
+            "/img/lugares/puerta-inspeccion.webp",
+            "/img/lugares/muro-ancho.webp",
+            "/img/lugares/puerta-aguas.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Nehemías", "Esdras", "Salmos"],
+        "era_biblica": "Post-exilio (Reconstrucción)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "El 'Muro de Nehemías' en la Ciudad de David",
+        "descripcion": "La arqueóloga Kathleen Kenyon y posteriormente Eilat Mazar identificaron una sección de muro construido apresuradamente con piedras sin labrar y escombros reutilizados en la cresta este de la Ciudad de David, datado exactamente en el siglo V a.C., coincidiendo con los 52 días de construcción de Nehemías."
+    },
+    "narrativa": {
+        "resumen_epico": "Jerusalén era una ciudad abierta y avergonzada hasta que Nehemías llegó con un decreto real y una visión divina. En solo 52 días, un pueblo de artesanos, sacerdotes y familias reconstruyó las brechas con una mano en la herramienta y la otra en la espada. Cada familia reparó la sección frente a su propia casa. A pesar de la burla de Sambalat y Tobías, los muros se levantaron, no solo para detener enemigos físicos, sino para marcar un espacio santo donde la Ley de Dios volvería a ser el centro de la nación.",
+        "dato_curioso": "Nehemías realizó su primera inspección de los muros en secreto y de noche, montado en una cabalgadura por la Puerta del Valle para evaluar la magnitud del desastre sin alertar a los enemigos.",
+        "conexion_jesus": "Los muros de Jerusalén prefiguran la protección que tenemos en Cristo. Nehemías restauró las puertas para que el pueblo pudiera adorar en paz; Jesús es la Puerta por la cual entramos a la presencia del Padre. La dedicación de los muros con gran alegría señala hacia el día en que los muros de la Nueva Jerusalén no se cerrarán nunca, porque no habrá más noche ni enemigo.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la superación del oprobio, la unidad comunitaria y el esfuerzo bajo presión. Es el símbolo del 'trabajo con propósito' y la vigilancia espiritual.",
+        "fortalezas": ["Liderazgo inspirador", "Estrategia de defensa simultánea", "Identidad restaurada"],
+        "debilidades": ["Oposición externa persistente", "Agotamiento físico de los constructores"],
+        "simbologia": [
+            {
+                "objeto": "La Espada y la Palustre",
+                "significado": "Representan el equilibrio cristiano: trabajar en la obra de Dios mientras se lucha contra la oposición espiritual."
+            },
+            {
+                "objeto": "Las Puertas Reparadas",
+                "significado": "Símbolos de los sentidos y accesos de la vida del creyente que deben ser guardados y consagrados."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios te llama a reparar las 'brechas' en tu propia vida y familia. La reconstrucción comienza cuando te duele la condición de tus ruinas tanto como le dolió a Nehemías.",
+        "preguntas_reflexion": [
+            "¿Qué muros o áreas de tu carácter han sido derribados y necesitan ser reconstruidos hoy?",
+            "¿Estás trabajando en tu sección de la muralla (tu área de influencia) o estás esperando que otros hagan el trabajo por ti?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Inspección",
+            "evento": "Nehemías recorre las ruinas de noche para planificar la obra.",
+            "referencia": "Nehemías 2:12-15"
+        },
+        {
+            "fase": "La Victoria",
+            "evento": "Terminación de la muralla en tiempo récord ante el asombro de las naciones.",
+            "referencia": "Nehemías 6:15-16",
+            "vinculo_id": "nehemias"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["susa-palacio", "jerusalen-sion"],
+        "personajes_relacionados": ["nehemias", "esdras", "tobias"],
+        "estudios": ["principios-de-liderazgo", "restauracion-espiritual"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "constructor-de-muros"
+    }
+  },
+    {
+        "id": "quiriat-jearim",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-20"
+        },
+        "mapa": {
+            "coords": [31.8105, 35.1011],
+            "zoom": 14,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#7f8c8d"
+        },
+        "perfil": {
+            "nombre": "Quiriat-jearim",
+            "titulo_corto": "El Resguardo del Arca",
+            "significado_nombre": "Ciudad de los Bosques",
+            "ubicacion_geografica": "A unos 13 km al oeste de Jerusalén, en la frontera de Judá y Benjamín.",
+            "clima_entorno": "Zona boscosa y montañosa, proporcionando un escondite natural y discreto.",
+            "imagen_principal": "/img/lugares/quiriat-jearim.webp",
+            "galeria": [
+                "/img/lugares/casa-abinadab.webp",
+                "/img/lugares/eleazar-custodio.webp",
+                "/img/lugares/bosques-quiriat.webp",
+                "/img/lugares/david-traslado-arca.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["1 Samuel", "2 Samuel", "1 Crónicas"],
+            "era_biblica": "Periodo de los Jueces y Monarquía Unida"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Deir el-Azar",
+            "descripcion": "El sitio ha revelado una enorme plataforma del siglo VIII a.C. que sugiere un centro de culto importante. Recientes excavaciones vinculan el sitio con el resguardo del Arca antes de ser llevada a Jerusalén por David."
+        },
+        "narrativa": {
+            "resumen_epico": "Después de que el Arca del Pacto causara estragos en las ciudades filisteas y en Bet-semes, fue traída a la casa de Abinadab en Quiriat-jearim. Allí permaneció en un anonimato relativo durante 20 años (o más), custodiada por Eleazar. Representa un tiempo de preparación y espera silenciosa antes de que David, con júbilo, la trasladara a la Ciudad de David. Es el lugar de la 'presencia resguardada'.",
+            "dato_curioso": "Aunque el pueblo de Israel estaba en crisis bajo Saúl, el Arca estaba 'segura' en esta aldea boscosa, esperando el corazón de un adorador como David.",
+            "conexion_jesus": "Representa los años de anonimato de Cristo en Nazaret; la Presencia de Dios habitando en la tierra de manera discreta antes de Su manifestación pública gloriosa.",
+            "imagen_de_apoyo": "/img/lugares/at/david-traslado-arca.webp"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la quietud, la custodia y el respeto por lo sagrado. Transmite una atmósfera de transición necesaria.",
+            "simbologia": [
+                {
+                    "objeto": "El Arca en la Casa",
+                    "significado": "Simboliza que la bendición de Dios reposa sobre aquellos que abren su hogar para honrar Su presencia."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Hay temporadas donde la presencia de Dios en tu vida parece estar 'en espera' o en anonimato. Úsalas para cultivar la custodia fiel de Su gloria en lo secreto.",
+            "preguntas_reflexion": [
+                "¿Eres capaz de honrar a Dios cuando nadie te ve, como hizo la familia de Abinadab en esta aldea?",
+                "¿Estás preparando tu corazón para cuando llegue el momento de que esa presencia se manifieste públicamente?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Resguardo",
+                "evento": "El Arca llega de Bet-semes a Quiriat-jearim.",
+                "referencia": "1 Samuel 7:1-2"
+            },
+            {
+                "fase": "El Traslado",
+                "evento": "David saca el Arca hacia Jerusalén con gran celebración.",
+                "referencia": "2 Samuel 6:1-5",
+                "vinculo_id": "david-arca"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [ "jerusalen-sion", "silo"],
+            "personajes_relacionados": ["david", "abinadab", "eleazar"],
+            "estudios": ["el-arca-del-pacto", "fidelidad-en-lo-secreto"]
+        },
+        "gamificacion": {
+            "xp_lectura": 240,
+            "logro_id": "custodio-de-la-gloria"
+        }
+    },
+
+    {
+        "id": "templo-jerusalen",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-02"
+        },
+        "mapa": {
+            "coords": [31.7780, 35.2354],
+            "zoom": 17,
+            "icono_mapa": "../img/ui/markers/templo-biblico.svg",
+            "marcador_color": "#f1c40f"
+        },
+        "perfil": {
+            "nombre": "Templo de Jerusalén",
+            "titulo_corto": "El Corazón de la Adoración a Yahveh",
+            "significado_nombre": "Beit HaMikdash (La Casa Santa)",
+            "ubicacion_geografica": "Sobre el Monte Moriah en Jerusalén, rodeado por los valles de Cedrón y Tiropeón.",
+            "clima_entorno": "Ciudad elevada de clima mediterráneo. La estructura dominaba visualmente todo el horizonte de la antigua Jerusalén, brillando intensamente bajo el sol.",
+            "imagen_principal": "/img/lugares/templo-jerusalen.webp",
+            "galeria": [
+                "/img/lugares/muro-lamentos.webp",
+                "/img/lugares/maqueta-herodes.webp",
+                "/img/lugares/patio-gentiles.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["1 Reyes", "2 Crónicas", "Esdras", "Mateo", "Marcos", "Lucas", "Juan", "Hechos"],
+            "era_biblica": "Monarquía Unida, Reino Dividido, Retorno del Exilio y Ministerio de Jesús"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Muros de Contención y las Gradas Sur",
+            "descripcion": "Aunque el Templo fue destruido en el año 70 d.C. por los romanos, los masivos muros de contención construidos por Herodes (incluyendo el famoso Muro de los Lamentos), el Arco de Robinson y las escalinatas originales del sur por donde Jesús y sus discípulos caminaron, aún se conservan."
+        },
+        "narrativa": {
+            "resumen_epico": "Concebido por David y construido majestuosamente por Salomón, el Templo fue el epicentro de la vida espiritual, política y social de Israel. Fue destruido por Babilonia, reconstruido humildemente por Zorobabel y expandido a proporciones colosales por Herodes. Era el lugar donde la gloria de Dios habitaba entre los hombres y donde la sangre de los sacrificios cubría los pecados del pueblo, hasta que el sacrificio definitivo cambió la historia para siempre.",
+            "dato_curioso": "Las piedras de sillería usadas en la expansión de Herodes eran tan masivas (algunas pesando más de 500 toneladas) y estaban talladas con tanta precisión, que se ensamblaron sin usar mortero ni cemento; ni siquiera una hoja de papel cabe entre ellas.",
+            "conexion_jesus": "Jesús lo llamó 'la casa de mi Padre'. Purificó sus patios de la corrupción comercial, enseñó en sus pórticos, y profetizó su destrucción total. En la cruz, el velo de este Templo se rasgó, demostrando que Jesús mismo es el verdadero y definitivo Templo, dándonos acceso directo a Dios.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Inspira reverencia, asombro y el peso de la santidad divina, pero también transmite la tragedia del juicio y la esperanza de un nuevo pacto.",
+            "simbologia": [
+                {
+                    "objeto": "El Velo del Lugar Santísimo",
+                    "significado": "Representaba la separación intransigente entre un Dios santo y una humanidad caída, separación eliminada por el sacrificio de Cristo."
+                },
+                {
+                    "objeto": "El Altar de Bronce",
+                    "significado": "La necesidad constante de derramamiento de sangre para el perdón de pecados, señalando hacia el Cordero de Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios ya no habita en templos hechos por manos humanas. A través del Espíritu Santo, el corazón del creyente es ahora el 'Lugar Santísimo'.",
+            "preguntas_reflexion": [
+                "Sabiendo que ahora tú eres el templo del Espíritu Santo, ¿qué áreas de tu vida necesitan ser 'purificadas' como lo hizo Jesús en los patios?",
+                "¿Sigues dependiendo de estructuras religiosas externas para acercarte a Dios, o vives en la libertad del velo rasgado?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Primer Templo",
+                "evento": "El Rey Salomón dedica el Templo y la Gloria de Dios lo llena.",
+                "referencia": "1 Reyes 8:10-13"
+            },
+            {
+                "fase": "La Destrucción",
+                "evento": "Nabucodonosor de Babilonia destruye el Templo e incendia la ciudad.",
+                "referencia": "2 Reyes 25:8-9"
+            },
+            {
+                "fase": "El Segundo Templo",
+                "evento": "Los exiliados liderados por Zorobabel reconstruyen el Templo.",
+                "referencia": "Esdras 6:14-15"
+            },
+            {
+                "fase": "La Purificación",
+                "evento": "Jesús expulsa a los mercaderes del patio de los gentiles.",
+                "referencia": "Juan 2:13-16",
+                "vinculo_id": "celo-por-tu-casa"
+            },
+            {
+                "fase": "El Acceso Final",
+                "evento": "Jesús muere y el velo del Templo se rasga de arriba a abajo.",
+                "referencia": "Mateo 27:50-51",
+                "vinculo_id": "velo-rasgado"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["era-arauna", "monte-de-los-olivos", "babilonia"],
+            "personajes_relacionados": ["salomon", "david", "jesus", "zorobabel", "herodes"],
+            "estudios": ["el-velo-rasgado", "sombras-del-pacto", "arquitectura-divina"]
+        },
+        "gamificacion": {
+            "xp_lectura": 450,
+            "logro_id": "acceso-directo"
+        }
+    },
+    {
+        "id": "monte-de-los-olivos",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-02"
+        },
+        "mapa": {
+            "coords": [31.7781, 35.2422],
+            "zoom": 16,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#27ae60"
+        },
+        "perfil": {
+            "nombre": "Monte de los Olivos",
+            "titulo_corto": "El Mirador de la Agonía y la Gloria",
+            "significado_nombre": "Har HaZeitim (Lugar de prensa de aceite)",
+            "ubicacion_geografica": "Cadena montañosa al este de Jerusalén, separada de la ciudad y del Monte del Templo por el Valle de Cedrón.",
+            "clima_entorno": "Terreno elevado y rocoso, salpicado de antiguos huertos de olivos. Ofrece la vista panorámica más espectacular de la Ciudad Vieja.",
+            "imagen_principal": "../img/lugares/monte-olivos.webp",
+            "galeria": [
+                "../img/lugares/huerto-getsemani.webp",
+                "../img/lugares/vista-jerusalen.webp",
+                "../img/lugares/ascension.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["2 Samuel", "Zacarías", "Mateo", "Marcos", "Lucas", "Juan", "Hechos"],
+            "era_biblica": "Monarquía Unida, Profetas y Ministerio/Pasión de Jesús"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Los Olivos Milenarios y la Necrópolis",
+            "descripcion": "Estudios botánicos han demostrado que los olivos actuales en el Jardín de Getsemaní descienden de la misma raíz de los árboles que existían en tiempos de Jesús. Además, la ladera occidental del monte es el cementerio judío más antiguo y grande del mundo, usado continuamente por más de 3,000 años."
+        },
+        "narrativa": {
+            "resumen_epico": "Más que una montaña, es el escenario de las transiciones más dramáticas de la Biblia. El rey David subió por sus laderas llorando al huir de su hijo Absalón. Siglos después, el Rey de Reyes descendió por ellas en triunfo montado en un pollino. Fue el lugar de las enseñanzas escatológicas más profundas de Cristo, el huerto de su mayor agonía espiritual (Getsemaní), y el punto exacto desde el cual ascendió al cielo, dejando la promesa de que allí mismo regresará.",
+            "dato_curioso": "El nombre 'Getsemaní' significa literalmente 'prensa de aceite'. En la tradición judía (basada en Zacarías 14:4), se cree que la resurrección de los muertos en el fin de los tiempos comenzará en este monte, razón por la cual sus laderas están cubiertas de tumbas.",
+            "conexion_jesus": "Es el lugar de su entrega absoluta. Aquí, su voluntad humana se rindió completamente a la del Padre ('No se haga mi voluntad, sino la tuya'). Es el alfa y omega de su victoria: donde comenzó su pasión al ser arrestado, y el lugar geográfico exacto al que sus pies volverán a tocar en su Segunda Venida.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Contrasta la paz de un huerto silencioso con la angustia opresiva de la traición y el peso del pecado. Al mismo tiempo, transmite una gloriosa expectación escatológica.",
+            "simbologia": [
+                {
+                    "objeto": "La Prensa de Aceite (Molino)",
+                    "significado": "Así como las aceitunas son aplastadas por pesadas piedras de molino para extraer el aceite puro, Jesús fue 'molido' por nuestras rebeliones bajo el peso del pecado para que la unción y la gracia fueran derramadas."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La verdadera victoria no se gana en el momento de la prueba pública, sino en la soledad de la oración privada, donde rindes tus deseos a la voluntad de Dios.",
+            "preguntas_reflexion": [
+                "¿Tienes un 'Getsemaní' en tu vida, un lugar o momento de oración donde rindes tus batallas a la voluntad de Dios?",
+                "¿Vives con la expectación real y diaria de que Jesús regresará, tal como lo prometieron los ángeles en este monte?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Huida del Rey",
+                "evento": "David sube el monte llorando y descalzo, huyendo de la traición de Absalón.",
+                "referencia": "2 Samuel 15:30"
+            },
+            {
+                "fase": "La Entrada Triunfal",
+                "evento": "Jesús desciende hacia Jerusalén mientras la multitud clama ¡Hosanna!",
+                "referencia": "Lucas 19:37-38"
+            },
+            {
+                "fase": "El Discurso Profético",
+                "evento": "Jesús se sienta frente al Templo y profetiza sobre el fin de los tiempos.",
+                "referencia": "Mateo 24:3",
+                "vinculo_id": "señales-del-fin"
+            },
+            {
+                "fase": "La Agonía",
+                "evento": "Jesús ora intensamente en Getsemaní hasta sudar grandes gotas como de sangre.",
+                "referencia": "Lucas 22:39-44",
+                "vinculo_id": "la-copa-de-ira"
+            },
+            {
+                "fase": "La Ascensión",
+                "evento": "Cristo asciende al cielo y los ángeles prometen su regreso.",
+                "referencia": "Hechos 1:9-12"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["templo-jerusalen", "valle-josafat", "betania-lazaro"],
+            "personajes_relacionados": ["jesus", "david", "pedro", "judas-iscariote"],
+            "estudios": ["el-regreso-del-rey", "escatologia-biblica", "sumision-al-padre"]
+        },
+        "gamificacion": {
+            "xp_lectura": 350,
+            "logro_id": "voluntad-rendida"
+        }
+    },
+    {
+        "id": "lagar-ofra",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-09"
+        },
+        "mapa": {
+            "coords": [32.3025, 35.2144],
+            "zoom": 15,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "El Lagar de Ofra",
+            "titulo_corto": "El Escondite de la Identidad Secuestrada",
+            "significado_nombre": "Ofra (Lugar de polvo/Gacela). Lagar (Gath: Prensa de uvas).",
+            "ubicacion_geografica": "Situado en el territorio de la tribu de Manasés, específicamente en las tierras de la familia de Abiezer.",
+            "clima_entorno": "Terreno rural, rodeado de colinas pedregosas y campos de cultivo. El lagar es una estructura excavada en la roca, usualmente situada en niveles bajos o cuevas para facilitar la prensa.",
+            "imagen_principal": "../img/lugares/lagar-ofra.webp",
+            "galeria": [
+                "../img/lugares/encina-de-ofra.webp",
+                "../img/lugares/altar-de-gedeon.webp",
+                "../img/lugares/manantial-harod.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Jueces"],
+            "era_biblica": "Periodo de los Jueces (Opresión Madianita)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Prensas de roca en el territorio de Manasés",
+            "descripcion": "Se han identificado múltiples lagares de la Edad del Hierro excavados directamente en la roca caliza. El diseño de estos lagares confirma que procesar trigo en ellos (como hizo Gedeón) sería una tarea extremadamente ineficiente y física, confirmando que solo se haría por una necesidad desesperada de ocultamiento."
+        },
+        "narrativa": {
+            "resumen_epico": "Este no es solo un punto en el mapa, es el epicentro de un choque entre el miedo humano y el destino divino. Aquí, un hombre llamado Gedeón intentaba salvar su sustento sacudiendo trigo en un lugar diseñado para uvas, escondido por el temor a los madianitas. En este rincón de oscuridad y supervivencia, el Cielo interrumpió la historia no para ver a un campesino asustado, sino para convocar al 'Varón Esforzado y Valiente'. Fue el lugar donde el trigo (potencial) fue rescatado del lagar (presión del miedo).",
+            "dato_curioso": "El lagar era el lugar más bajo y oculto, mientras que la era (donde normalmente se trilla el trigo) estaba en lugares altos para que el viento se llevara el tamo. Gedeón estaba renunciando a la ayuda del viento con tal de no ser visto; prefería el sudor del escondite que la libertad de la altura.",
+            "conexion_jesus": "Representa el lugar de la 'aniquilación del yo' para que surja el propósito. Así como Gedeón fue hallado en un lugar de presión para ser transformado en libertador, Jesús es quien desciende a nuestros lagares de desesperación para recordarnos que nuestra identidad no depende de nuestra situación económica o de seguridad, sino de Su presencia con nosotros.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Transmite una atmósfera de claustrofobia, inseguridad y 'modo supervivencia'. Es el estado mental de quien siente que tiene que esconder sus talentos y bendiciones para que la vida no se los arrebate.",
+            "simbologia": [
+                {
+                    "objeto": "El Trigo en el Lagar",
+                    "significado": "El trigo representa el propósito y la provisión de Dios, que a menudo está 'atrapado' o distorsionado en nuestras vidas por causa de estructuras de miedo o legalismo (el lagar)."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios no te llama según tu condición actual en el lagar, sino según el destino que Él escribió para ti antes de que nacieras.",
+            "preguntas_reflexion": [
+                "¿Qué 'trigo' estás escondiendo hoy por miedo a que el mundo o tus circunstancias te lo quiten?",
+                "¿Puedes creer que eres 'esforzado y valiente' aun cuando te sientes en el lugar más bajo y oculto?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Tiempo de la Escasez",
+                "evento": "Israel se esconde en cuevas y lagares por la opresión de Madián.",
+                "referencia": "Jueces 6:2"
+            },
+            {
+                "fase": "La Visitación",
+                "evento": "El Ángel de Jehová se sienta bajo la encina y llama a Gedeón en el lagar.",
+                "referencia": "Jueces 6:11-12"
+            },
+            {
+                "fase": "El Sacrificio de Identidad",
+                "evento": "Gedeón edifica un altar allí mismo tras comprender quién le hablaba.",
+                "referencia": "Jueces 6:24",
+                "vinculo_id": "jehova-salom"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["manantial-harod", "valle-jezreel"],
+            "personajes_relacionados": ["gedeon", "angel-de-jehova"],
+            "estudios": ["identidad-secuestrada", "saliendo-del-lagar", "fe-vs-supervivencia"]
+        },
+        "gamificacion": {
+            "xp_lectura": 280,
+            "logro_id": "fuera-del-escondite"
+        }
+    },
+    {
+        "id": "valle-jezreel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-09"
+        },
+        "mapa": {
+            "coords": [32.6101, 35.3204],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/valle-biblico.svg",
+            "marcador_color": "#d35400"
+        },
+        "perfil": {
+            "nombre": "Valle de Jezreel",
+            "titulo_corto": "El Valle de la Decisión Final",
+            "significado_nombre": "Yizre'el (Dios siembra / Semilla de Dios)",
+            "ubicacion_geografica": "Vasta llanura aluvial en el norte de Israel, que separa las colinas de Samaria de las de Galilea. También conocido históricamente como la Llanura de Esdrelón.",
+            "clima_entorno": "Clima mediterráneo, extremadamente fértil debido a sus suelos aluviales profundos y fuentes de agua naturales. Estratégicamente rodeado por hitos clave: el Monte Carmelo, el Monte Tabor, el Monte Gilboa y la ciudad de Meguido.",
+            "imagen_principal": "../img/lugares/valle-jezreel.webp",
+            "galeria": [
+                "../img/lugares/meguido-fortaleza.webp",
+                "../img/lugares/monte-gilboa.webp",
+                "../img/lugares/tabor-transfiguracion.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Josué", "Jueces", "1 Samuel", "1 Reyes", "2 Reyes", "Oseas", "Apocalipsis"],
+            "era_biblica": "Conquista, Jueces, Monarquía Dividida, Escatología del Nuevo Testamento"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Meguido (Tel Megiddo)",
+            "descripcion": "El *Tel* (colina arqueológica) de Meguido contiene más de 20 niveles de ocupación. Sus fortificaciones de la Edad del Bronce y del Hierro (especialmente las puertas estables de la era de Salomón) demuestran su papel crucial como control de paso para la antigua ruta comercial 'Via Maris'. Esto explica por qué el valle ha sido escenario de tantas batallas decisivas."
+        },
+        "narrativa": {
+            "resumen_epico": "Este valle no es simplemente tierra cultivable; es el tapiz sangriento de la historia de Israel. Aquí, Débora y Barac derrotaron a Sísara bajo la encina. Gedeón vio cómo sus 300 valientes ponían en fuga a la multitud de los madianitas. Fue aquí donde el rey Saúl encontró su final trágico en el Monte Gilboa, y donde la impía Jezabel fue juzgada por la profecía de Elías. El profeta Oseas usó su nombre de forma profética para 'Dios siembra' tanto juicio como restauración. Pero su narrativa alcanza su punto culminante en el Nuevo Testamento, cuando el Apocalipsis designa un lugar en este valle, Meguido (*Armagedón*), como el escenario de la batalla final entre el bien y el mal, el lugar de la 'Decisión Final' de la Gracia.",
+            "dato_curioso": "El valle es tan fértil que hoy es el 'granero de Israel'. Sin embargo, su historia militar es tan densa que el término 'Armagedón' (Har Meguido) ha pasado a ser sinónimo del 'Fin del Mundo', reflejando cómo la geografía física de este valle ha determinado nuestra comprensión teológica de la escatología.",
+            "conexion_jesus": "Es el escenario de la revelación de la soberanía total. Aquí Él será revelado como el Rey de Reyes que siembra el juicio final para establecer la paz eterna, transformando el 'valle del juicio' en la 'tierra de la semilla' que Oseas profetizó.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Contrasta la paz bucólica de un paisaje agrícola fértil con la tensión opresiva de ser un 'valle de guerra' perenne. Transmite un sentido de gloriosa pero temible expectación.",
+            "simbologia": [
+                {
+                    "objeto": "La Semilla (Yizre'el)",
+                    "significado": "Representa el doble juicio de Dios: sembrar para destrucción (el pecado madianita) y sembrar para restauración (la justicia de Cristo)."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu vida no es solo un campo de batalla; es el lugar donde Dios siembra Su propósito. Cada 'valle de decisión' es una oportunidad para que Su Gracia pelee tus batallas y siembre una herencia de paz.",
+            "preguntas_reflexion": [
+                "¿Ves tus desafíos diarios como 'batallas finales' abrumadoras o como 'valles de decisión' donde la Gracia de Dios será glorificada?",
+                "¿Estás sembrando tu vida con la 'semilla de Dios' (Su Palabra) o con la semilla de la supervivencia madianita?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Conquista de Josué",
+                "evento": "Josué conquista y asigna el valle a las tribus de Manasés e Isacar, incluyendo Meguido.",
+                "referencia": "Josué 17:11"
+            },
+            {
+                "fase": "La Victoria de Débora",
+                "evento": "Bajo la guía de Débora, Barac derrota a Sísara en el valle del arroyo Cisón.",
+                "referencia": "Jueces 5:19-21",
+                "vinculo_id": "debora-y-barac"
+            },
+            {
+                "fase": "La Reducción de Gedeón",
+                "evento": "Gedeón filtra a su ejército en el Manantial de Harod y los madianitas huyen hacia el valle.",
+                "referencia": "Jueces 7:1",
+                "vinculo_id": "los-300"
+            },
+            {
+                "fase": "La Tragedia de Gilboa",
+                "evento": "El rey Saúl y sus hijos mueren en la batalla contra los filisteos en el monte Gilboa.",
+                "referencia": "1 Samuel 31:1-6",
+                "vinculo_id": "david"
+            },
+            {
+                "fase": "La Profecía Escatológica",
+                "evento": "Oseas profetiza sobre el 'día de Jezreel' como un tiempo de juicio y restauración.",
+                "referencia": "Oseas 1:11",
+                "vinculo_id": "oseas"
+            },
+            {
+                "fase": "La Batalla Final",
+                "evento": "El Apocalipsis profetiza la reunión de los reyes de la tierra en 'el lugar que en hebreo se llama Armagedón'.",
+                "referencia": "Apocalipsis 16:16",
+                "vinculo_id": "el-regreso-del-rey"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["manantial-harod", "lagar-ofra", "monte-carmelo"],
+            "personajes_relacionados": ["jesus", "gedeon", "debora", "jezabel", "oseas"],
+            "estudios": ["el-pacto-de-gracia", "identidad-secuestrada", "la-batalla-del-armagedon"]
+        },
+        "gamificacion": {
+            "xp_lectura": 380,
+            "logro_id": "valiente-del-valle"
+        }
+    },
+    {
+        "id": "nueva-jerusalen",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-18"
+        },
+        "mapa": {
+            "coords": [31.7774, 35.2343],
+            "zoom": 12,
+            "icono_mapa": "/img/ui/markers/lugar-celestial.svg",
+            "marcador_color": "#f1c40f"
+        },
+        "perfil": {
+            "nombre": "La Nueva Jerusalén",
+            "titulo_corto": "La Ciudad de la Promesa Eterna",
+            "significado_nombre": "Ciudad de Paz / Morada de Dios",
+            "ubicacion_geografica": "Desciende del cielo, de Dios (Cielos Nuevos y Tierra Nueva).",
+            "clima_entorno": "Perfecto y eternamente luminoso. No hay noche, ni mar, iluminada exclusivamente por la gloria de Dios y del Cordero.",
+            "imagen_principal": "/img/lugares/nueva-jerusalen.webp",
+            "galeria": [
+            "/img/lugares/puertas-de-perla.webp",
+            "/img/lugares/rio-agua-de-vida.webp",
+            "/img/lugares/arbol-de-la-vida.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": [
+            "Apocalipsis",
+            "Hebreos",
+            "Gálatas",
+            "Juan"
+            ],
+            "era_biblica": "La Eternidad / Consumación de los Tiempos"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Una Ciudad Aún por Manifestarse",
+            "descripcion": "Al ser una realidad escatológica y celestial, su 'arqueología' reside en la promesa profética inquebrantable de las Escrituras. Es la única ciudad en Cronos cuyo arquitecto y constructor es exclusivamente Dios, sin intervención de manos humanas."
+        },
+        "narrativa": {
+            "resumen_epico": "El gran clímax de la historia redentora no es una nube etérea, sino una ciudad monumental. Después de milenios de rebelión, dolor y separación, la Nueva Jerusalén desciende del cielo como una novia ataviada para su esposo. Es el punto final de la redención, donde el Edén perdido es restaurado y superado. Aquí, el velo desaparece para siempre: Dios mismo hace Su tabernáculo entre los hombres. En esta metrópolis de oro puro y cimientos de piedras preciosas, ya no hay muerte, ni llanto, ni clamor, ni dolor. Es el destino final de todos los peregrinos que, como Abraham, habitaron en tiendas esperando la ciudad que tiene fundamentos eternos.",
+            "dato_curioso": "Sus dimensiones son un cubo perfecto (doce mil estadios de longitud, altura y anchura), la misma forma geométrica exacta que tenía el Lugar Santísimo en el tabernáculo terrenal. Esto indica que la ciudad entera es el Lugar Santísimo donde la presencia de Dios habita sin velos.",
+            "conexion_jesus": "Jesús es la luz y el templo mismo de esta ciudad. Él es el Cordero en el trono del cual fluye el río de agua de vida. La Nueva Jerusalén es la consumación definitiva de Su sacrificio: la Iglesia (Su Novia) unida a Él por la eternidad, viviendo bajo Su Gracia inagotable sin la sombra de la Ley ni del pecado.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el gozo absoluto, el reposo definitivo y la paz que sobrepasa todo entendimiento. Es el fin de toda ansiedad, la sanidad de toda herida y la satisfacción eterna de los anhelos más profundos del alma humana.",
+            "fortalezas": [
+            "Presencia manifiesta, directa e ininterrumpida de Dios",
+            "Incorruptibilidad y santidad absoluta",
+            "Luz eterna, sin necesidad de sol ni luna"
+            ],
+            "debilidades": [
+            "Ninguna (Es el estado de perfección absoluta)",
+            "Inaccesible para aquellos cuyos nombres no están en el Libro de la Vida"
+            ],
+            "simbologia": [
+            {
+                "objeto": "Las Doce Puertas de Perla",
+                "significado": "La perla se forma por el sufrimiento de un organismo al cubrir una herida o impureza. Las puertas de perla simbolizan que la entrada a la eternidad solo es posible a través del sufrimiento del Cordero por nuestros pecados."
+            },
+            {
+                "objeto": "El Árbol de la Vida",
+                "significado": "El acceso perdido en el Edén es finalmente restaurado. Sus hojas son para la sanidad de las naciones, simbolizando la erradicación total del dolor y de la maldición original."
+            }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu ciudadanía actual es temporal; eres un embajador y peregrino. Las aflicciones del tiempo presente no son comparables con la gloria venidera que se manifestará en tu hogar definitivo.",
+            "preguntas_reflexion": [
+            "¿Estás invirtiendo tu energía en construir 'Babilonias' terrenales, o en atesorar para tu verdadero hogar eterno?",
+            "¿El anhelo por la promesa de la Nueva Jerusalén consuela tu corazón en medio del dolor y las pérdidas que enfrentas hoy?",
+            "¿Estás viviendo tu día a día con la santidad y la identidad de alguien cuyo nombre está escrito en el Libro de la Vida?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+            "fase": "La Promesa",
+            "evento": "Jesús promete a sus discípulos ir a preparar lugar (moradas) en la casa del Padre.",
+            "referencia": "Juan 14:2-3",
+            "vinculo_id": "promesa-aposento"
+            },
+            {
+            "fase": "La Revelación",
+            "evento": "Juan ve descender la ciudad santa, la nueva Jerusalén, dispuesta como una esposa ataviada para su marido.",
+            "referencia": "Apocalipsis 21:2",
+            "vinculo_id": "vision-patmos"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+            "jerusalen",
+            "jardin-eden",
+            "patmos-revelacion"
+            ],
+            "personajes_relacionados": [
+            "dios-padre",
+            "jesus",
+            "juan-apostol"
+            ],
+            "estudios": [
+            "ciudadanos-del-cielo",
+            "el-tabernaculo-eterno",
+            "cielos-nuevos-tierra-nueva"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 500,
+            "logro_id": "ciudadano-del-cielo"
+        }
+    },
+    {
+        "id": "llanura-sinar",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-23"
+        },
+        "mapa": {
+            "coords": [32.5364, 44.4208],
+            "zoom": 6,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d35400"
+        },
+        "perfil": {
+            "nombre": "Llanura de Sinar",
+            "titulo_corto": "La Cuna de la Rebelión",
+            "significado_nombre": "Posiblemente 'Tierra de los dos ríos' o equivalente al antiguo nombre 'Sumeria'.",
+            "ubicacion_geografica": "Vasta llanura aluvial en la antigua Mesopotamia, situada entre los ríos Tigris y Éufrates (actual Irak).",
+            "clima_entorno": "Tierra llana, muy fértil gracias a los ríos, pero carente de piedra natural y madera, lo que impulsó la invención del ladrillo de barro cocido y el uso de asfalto.",
+            "imagen_principal": "../img/lugares/llanura-sinar.webp",
+            "galeria": [
+                "../img/lugares/zigurat-antiguo.webp",
+                "../img/lugares/fabricacion-ladrillos-barro.webp",
+                "../img/lugares/llanura-mesopotamia.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Isaías", "Daniel", "Zacarías"],
+            "era_biblica": "Era Post-Diluviana y Exilio Babilónico"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Los Zigurats y la invención del ladrillo cocido",
+            "descripcion": "La arqueología en la baja Mesopotamia confirma la ausencia de piedra natural y el uso masivo de ladrillos de barro cocido al horno unidos con betún (asfalto), coincidiendo exactamente con la descripción tecnológica de Génesis 11:3. Los zigurats (torres escalonadas) son el remanente histórico arquitectónico de la Torre de Babel."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras el Diluvio, la humanidad emigró a esta inmensa y fértil llanura. En lugar de obedecer el mandato divino de esparcirse y llenar la tierra, decidieron asentarse, uniformarse y construir un imperio centrado en una torre que tocara el cielo. Sinar se convirtió en el epicentro del orgullo humano, la cuna de los primeros imperios (bajo Nimrod) y, más tarde, la sede de Babilonia, el lugar de exilio y fuego purificador para el pueblo de Dios.",
+            "dato_curioso": "En Sinar se fundaron las primeras grandes ciudades de la historia humana: Babel, Erec, Acad y Calne. Es universalmente reconocida por la arqueología secular como la 'cuna de la civilización' sumeria.",
+            "conexion_jesus": "Sinar/Babilonia representa el sistema mundial de autosuficiencia y orgullo que se opone a Dios (Apocalipsis 17-18). Jesús, por el contrario, desciende del cielo en humildad para construir un Reino basado en la gracia y la sumisión al Padre, siendo la 'piedra viva' rechazada por los constructores humanos.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Un lugar marcado por la ambición desmedida, el miedo a la dispersión ('por si fuéremos esparcidos') y el profundo deseo de hacerse 'un nombre'. Transmite la grandeza del intelecto humano desconectado de la voluntad divina.",
+            "simbologia": [
+                {
+                    "objeto": "El Ladrillo y el Asfalto",
+                    "significado": "Representan la uniformidad artificial y el esfuerzo humano humanista. A diferencia de la piedra (creada por Dios, única y natural), el ladrillo es fabricado por el hombre, idéntico a los demás y moldeado para sostener un sistema de control."
+                },
+                {
+                    "objeto": "La Ciudad y la Torre",
+                    "significado": "Simbolizan la falsa seguridad y la religión de esfuerzo propio; el intento del hombre por llegar a Dios o establecer su propio paraíso en sus propios términos."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La tecnología, el talento y la unidad humana son herramientas poderosas, pero cuando se usan para construir un 'nombre' propio en lugar de glorificar a Dios, inevitablemente terminan en confusión y ruina.",
+            "preguntas_reflexion": [
+                "¿Estás construyendo alguna 'torre' en tu vida (carrera, ministerio, familia) basada en tu propio esfuerzo exclusivo para hacerte un nombre?",
+                "¿Tu necesidad de control y seguridad te está llevando a desobedecer el lugar o propósito hacia donde Dios quiere 'esparcirte' y enviarte?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Fundación",
+                "evento": "Nimrod establece las primeras ciudades de su reino en la llanura de Sinar.",
+                "referencia": "Génesis 10:10",
+                "vinculo_id": "babilonia"
+            },
+            {
+                "fase": "La Rebelión y Dispersión",
+                "evento": "La humanidad construye la ciudad y la Torre de Babel; Dios confunde sus lenguas para frenar su orgullo.",
+                "referencia": "Génesis 11:2-9",
+                "vinculo_id": "torre-babel"
+            },
+            {
+                "fase": "El Exilio",
+                "evento": "Nabucodonosor lleva los utensilios del Templo de Jerusalén y a los cautivos (incluyendo a Daniel) a la tierra de Sinar.",
+                "referencia": "Daniel 1:2",
+                "vinculo_id": "babilonia"
+            },
+            {
+                "fase": "La Visión Profética",
+                "evento": "Zacarías ve una visión de la Maldad personificada siendo transportada para ser establecida en su propia casa en Sinar.",
+                "referencia": "Zacarías 5:11",
+                "vinculo_id": "babilonia"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+                "babilonia",
+                "torre-babel",
+                "ur-caldeos"
+            ],
+            "personajes_relacionados": [
+                "nimrod",
+                "daniel",
+                "nabucodonosor"
+            ],
+            "estudios": [
+                "el-origen-de-los-imperios",
+                "orgullo-vs-humildad",
+                "sistemas-del-mundo"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 260,
+            "logro_id": "arqueologo-de-imperios"
+        }
+    }
+]

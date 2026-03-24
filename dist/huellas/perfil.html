@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN4P6WTVWE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EN4P6WTVWE');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Perfil de Héroe | Huellas</title>
+
+    <meta name="theme-color" content="#141414">
+    <link rel="apple-touch-icon" href="/img/icon-192.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👣</text></svg>">
+
+    <meta property="og:title" content="Huellas | Biografía Bíblica">
+    <meta property="og:description" content="Descubre la historia, el contexto y el legado de este héroe de la fe en Códice Bíblico.">
+    <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-huellas.jpg">
+    <meta property="og:url" content="https://codicebiblico.netlify.app/huellas/perfil.html">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:ital,wght@0,700;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+    <header class="profile-header">
+        <div class="avatar-container">
+            <img id="p-foto" src="" class="avatar" alt="Perfil">
+        </div>
+        <h1 id="p-nombre" class="profile-name">...</h1>
+        <div id="p-role" class="profile-role">...</div>
+    </header>
+
+    <main id="profile-view" class="cv-container">
+        
+        <div class="cv-card quote-card">
+            <p id="p-resumen">...</p>
+        </div>
+
+        <div class="cv-card">
+            <h3 class="cv-title">Expediente Personal</h3>
+            <div class="data-grid-3">
+                <div class="data-item">
+                    <label>Ocupación</label>
+                    <span id="p-ocupacion">-</span>
+                </div>
+                <div class="data-item">
+                    <label>Origen / Lugares</label>
+                    <span id="p-origen">-</span>
+                </div>
+                <div class="data-item">
+                    <label>Familia</label>
+                    <span id="p-familia">-</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cv-card">
+            <h3 class="cv-title">Análisis de Carácter</h3>
+            
+            <div class="analysis-grid">
+                <div class="analysis-col">
+                    <label class="tag-label green">Fortalezas</label>
+                    <ul id="p-fortalezas" class="list-bullet green-bullet"></ul>
+                </div>
+                
+                <div class="analysis-col">
+                    <label class="tag-label red">Debilidades</label>
+                    <ul id="p-debilidades" class="list-bullet red-bullet"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="cv-card">
+            <h3 class="cv-title">Legado y Aprendizaje</h3>
+            
+            <div style="margin-bottom: 1.5rem;">
+                <label class="tag-label yellow">💡 Lecciones de Vida</label>
+                <ul id="p-lecciones" class="list-bullet yellow-bullet"></ul>
+            </div>
+
+            <div class="did-you-know-box">
+                <span class="icon">🧐</span>
+                <div>
+                    <strong>¿Sabías que?</strong>
+                    <p id="p-curioso">...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="jesus-connection-card">
+            <div class="jc-header">
+                <span style="font-size: 1.5rem;">✝</span>
+                <h3>Conexión con Jesús</h3>
+            </div>
+            <p id="p-conexion" class="jc-text">...</p>
+        </div>
+
+        <div class="cv-card">
+            <h3 class="cv-title">Cronología</h3>
+            <div id="p-timeline"></div>
+        </div>
+
+
+        
+
+    </main>
+
+    <a href="index.html" class="fab-back-cv">← Volver</a>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

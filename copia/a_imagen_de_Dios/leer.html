@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectura | A Imagen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="reader-nav">
+        <a href="index.html" class="btn-back">← Volver a la Biblioteca</a>
+    </nav>
+
+    <article class="reader-container">
+        <header id="reader-header" class="reader-header">
+            <div class="loading">Abriendo libro...</div>
+        </header>
+
+        <div id="reader-content" class="reader-body">
+        </div>
+    </article>
+
+    <div id="modal-biblia" class="modal-overlay hidden">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h3 id="modal-titulo" class="modal-title">Cita Bíblica</h3>
+            <div class="modal-body">
+                <p id="modal-texto" class="biblical-text">...</p>
+            </div>
+            <div class="modal-footer">
+                Reina Valera 1960
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>👁️ Visor Directo de Archivo</title>
+    <style>
+        body { background: #0f172a; color: #fff; font-family: monospace; padding: 20px; }
+        .item { padding: 10px; border-bottom: 1px solid #334155; }
+        .new { color: #fcd34d; font-weight: bold; border-left: 4px solid #fcd34d; padding-left: 10px; }
+        .error { background: #7f1d1d; color: #fca5a5; padding: 20px; border: 2px solid #ef4444; }
+    </style>
+</head>
+<body>
+    <h1>👁️ Visor: exodo_jueces.json</h1>
+    <button onclick="verArchivo()">🔄 RECARGAR AHORA</button>
+    <div id="log" style="margin-top:20px"></div>
+
+<script>
+    async function verArchivo() {
+        const log = document.getElementById('log');
+        log.innerHTML = "Cargando...";
+
+        try {
+            // 1. Fetch con timestamp y cache 'no-store'
+            const res = await fetch('data/personajes/exodo_jueces.json?t=' + Date.now(), {
+                cache: "no-store"
+            });
+
+            if (!res.ok) throw new Error("No se encuentra el archivo (404)");
+
+            // 2. Leemos TEXTO puro primero para ver si hay errores de comas
+            const texto = await res.text();
+            
+            // 3. Intentamos parsear
+            const data = JSON.parse(texto);
+
+            // 4. Si llegamos aquí, el JSON es válido. Listamos.
+            let html = `<h3>Total personajes: ${data.length}</h3>`;
+            
+            // Buscamos los nuevos específicamente
+            const nuevos = ["gerson", "salmon", "obed", "amram", "acsa", "anac", "itamar", "datan"];
+            
+            data.forEach((p, index) => {
+                const esNuevo = nuevos.includes(p.id);
+                html += `<div class="item ${esNuevo ? 'new' : ''}">
+                    ${index + 1}. <b>${p.id}</b> 
+                    ${esNuevo ? '✨ ¡AQUÍ ESTÁ!' : ''}
+                </div>`;
+            });
+
+            log.innerHTML = html;
+
+        } catch (e) {
+            // Si hay error de sintaxis, mostramos esto
+            log.innerHTML = `<div class="error">
+                💥 <b>ERROR DE SINTAXIS JSON</b><br>
+                El archivo está roto. Probablemente falta o sobra una coma.<br>
+                <br>
+                <b>Detalle:</b> ${e.message}
+            </div>`;
+        }
+    }
+    
+    // Auto-ejecutar al abrir
+    verArchivo();
+</script>
+</body>
+</html>

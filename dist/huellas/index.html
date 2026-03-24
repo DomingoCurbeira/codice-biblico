@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN4P6WTVWE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EN4P6WTVWE');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Huellas | Biografías Bíblicas</title>
+
+    <meta name="theme-color" content="#141414">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="/img/huellas-192.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👣</text></svg>">
+
+    <meta property="og:title" content="Huellas: Héroes de la Fe">
+    <meta property="og:description" content="Descubre las historias de hombres y mujeres comunes usados por un Dios extraordinario. El catálogo biográfico de Códice Bíblico.">
+    <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-huellas.jpg">
+    <meta property="og:url" content="https://codicebiblico.netlify.app/huellas/index.html">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="netflix-bg">
+
+    <nav class="netflix-nav">
+        <div style="display: flex; align-items: center;">
+            <span class="app-icon">👣</span>
+            <div class="logo">HUELLAS</div>
+            <div class="nav-links">
+                <a href="#" class="active">Inicio</a>
+                <a href="#fila-at">A.T.</a>
+                <a href="#fila-nt">N.T.</a>
+            </div>
+        </div>
+        <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/>
+            </svg>
+        </button>
+
+        
+    </nav>
+
+    <header class="netflix-hero">
+        <div class="hero-content">
+            <h1 class="hero-title" id="hero-title">HÉROES</h1>
+            <p class="hero-desc" id="hero-desc">Descubre las historias de hombres y mujeres comunes usados por un Dios extraordinario.</p>
+            <button class="btn-play" onclick="document.getElementById('fila-at').scrollIntoView({behavior: 'smooth'})">
+                <span>▶</span> Explorar
+            </button>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=2070&auto=format&fit=crop" class="hero-bg" alt="Desierto Bíblico">
+
+    </header>
+
+    <div class="filter-bar">
+        <button class="filter-btn active" data-grupo="todos">Todos</button>
+        <button class="filter-btn" data-grupo="patriarcas">Patriarcas</button>
+        <button class="filter-btn" data-grupo="exodo_jueces">Éxodo y Jueces</button>
+        <button class="filter-btn" data-grupo="monarquia">Monarquía</button>
+        <button class="filter-btn" data-grupo="profetas">Profetas</button>
+        <button class="filter-btn" data-grupo="cautiverio">Cautiverio</button>
+        <button class="filter-btn" data-grupo="evangelios">Evangelios</button>
+        <button class="filter-btn" data-grupo="apostolicos">Apostólicos</button>
+    </div>
+    
+    <div class="search-container">
+        <span style="position: absolute; left: 35px; top: 18px; opacity: 0.5;">🔍</span>
+        <input type="text" id="buscador-input" placeholder="Buscar personaje (ej: Moisés, Ester...)" autocomplete="off">
+    </div>
+    
+    
+
+    <main class="netflix-container">
+        
+        <h3 class="category-title">Antiguo Testamento</h3>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="fila-at">
+                <div class="loading-msg">Cargando catálogo...</div>
+            </div>
+        </div>
+
+        <h3 class="category-title">Nuevo Testamento</h3>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="fila-nt">
+                </div>
+        </div>
+
+    </main>
+
+    <div id="eco-menu" class="eco-menu hidden">
+            <div class="menu-grid">
+                <a href="../cronos/index.html" class="menu-item">
+                    <span class="icon">🌍</span>
+                    <span>Cronos</span>
+                </a>
+                <a href="../mana/index.html" class="menu-item">
+                    <span class="icon">🍞</span>
+                    <span>Maná</span>
+                </a>
+                <a href="../a_imagen_de_Dios/index.html" class="menu-item">
+                    <span class="icon">🎓</span>
+                    <span> Imagen</span>
+                </a>
+                <a href="../aposento/index.html" class="menu-item ">
+                    <span class="icon">🔥</span>
+                    <span>Aposento</span>
+                </a>
+                <a href="../juego/index.html" class="menu-item">
+                    <span class="icon">🛡️</span>
+                    <span>Virtus</span>
+                </a>
+                <a href="../notas/index.html" class="menu-item">
+                    <span class="icon">📝</span>
+                    <span>Escriba</span>
+                </a>
+            </div>
+        </div>
+
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('Códice SW: Registrado con éxito en el ecosistema', reg.scope))
+                    .catch(err => console.warn('Códice SW: Error al registrar', err));
+            });
+        }
+    </script>
+</body>
+</html>

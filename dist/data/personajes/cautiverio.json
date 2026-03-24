@@ -1,0 +1,1336 @@
+[
+  {
+  "id": "ester",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Ester (Hadasa)",
+    "titulo_corto": "La Reina Valiente",
+    "significado_nombre": "Ester: Estrella (Persa) / Hadasa: Mirto (Hebreo)",
+    "ocupacion": "Reina de Persia",
+    "familia": {
+      "padre_adoptivo": "Mardoqueo",
+      "esposo": "Rey Asuero (Jerjes I)",
+      "origen": "Tribu de Benjamín"
+    },
+    "imagen": "/img/perfiles/ester.webp",
+    "icono_mapa": "/img/ui/markers/reina.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Ester"
+    ],
+    "era_biblica": "El Cautiverio / Periodo Persa",
+    "ubicacion_principal": "Susa (Persia)"
+  },
+  "narrativa": {
+    "resumen_epico": "De huérfana en el exilio a soberana del imperio más grande de su tiempo, la historia de Ester es el clímax de la providencia divina. En un mundo de intrigas palaciegas y decretos de muerte, Ester se convirtió en el instrumento de salvación para todo el pueblo judío. Su ascenso al trono no fue una casualidad del destino, sino una cita estratégica con la historia: arriesgó su corona y su vida al presentarse ante el rey para denunciar el genocidio planeado por Amán, demostrando que la verdadera belleza reside en el valor sacrificial.",
+    "dato_curioso": "El libro de Ester es el único en toda la Biblia donde no aparece el nombre de Dios. Sin embargo, los estudiosos señalan que Su presencia es como un 'hilo invisible' que mueve cada evento: desde el insomnio del rey hasta la caída de Amán.",
+    "conexion_jesus": "Ester actúa como una mediadora perfecta. Se interpuso entre la sentencia de muerte de un rey y su pueblo, dispuesta a morir ('si perezco, que perezca') para obtener gracia. Es un tipo de Cristo, quien se presentó ante el Padre para interceder por nosotros y anular el acta de los decretos que nos era contraria."
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Ester muestra una notable evolución psicológica: de una joven sumisa y reservada a una líder estratégica y audaz. Su carácter combina la prudencia (supo callar su identidad hasta el momento oportuno) con una fe disciplinada. El ayuno fue su arma principal, transformando su temor natural en una determinación inquebrantable que no buscaba el beneficio personal, sino el bienestar de su nación.",
+    "fortalezas": [
+      "Sabiduría táctica y paciencia para esperar el momento político ideal",
+      "Valor sacrificial absoluto ante la autoridad absoluta",
+      "Capacidad de influencia basada en la gracia y la integridad"
+    ],
+    "debilidades": [
+      "Lucha inicial con el miedo y la parálisis ante la magnitud del riesgo"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Cetro de Oro",
+        "significado": "Representa el acceso a la gracia del Rey; extendido hacia Ester, simboliza la vida sobre la ley."
+      },
+      {
+        "objeto": "El Banquete",
+        "significado": "Lugar de revelación y justicia donde el enemigo es expuesto en su propia red."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu posición actual no es solo para tu comodidad; es la plataforma que Dios diseñó para 'esta hora'.",
+    "preguntas_reflexion": [
+      "¿En qué área de tu vida necesitas dejar de esconder tu identidad para defender lo que es correcto?",
+      "¿Estás dispuesto a arriesgar tu comodidad por el bienestar de otros?",
+      "¿Puedes ver la mano de Dios moviéndose a tu favor incluso cuando Él parece estar en silencio?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "La Elección",
+      "evento": "Es coronada reina de Persia tras la destitución de Vasti.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 2:17"
+    },
+    {
+      "fase": "La Crisis",
+      "evento": "Recibe la noticia del decreto de exterminio y entra en ayuno.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 4:16"
+    },
+    {
+      "fase": "La Intercesión",
+      "evento": "Se presenta ante Asuero y lo invita a los banquetes estratégicos.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 5:1-4"
+    },
+    {
+      "fase": "La Victoria",
+      "evento": "Expone la maldad de Amán y obtiene un nuevo decreto de defensa.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 7:6"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "susa",
+      "jerusalen"
+    ],
+    "estudios": [
+      "fiesta-purim",
+      "providencia-divina",
+      "imperio-persa"
+    ],
+    "devocionales": [
+      "para-esta-hora",
+      "belleza-y-proposito"
+    ],
+    "personajes_relacionados": [
+      "mardoqueo",
+      "asuero",
+      "aman",
+      "jesus"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 200,
+    "logro_id": "estrella-del-exilio"
+  }
+},
+{
+  "id": "mardoqueo",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Mardoqueo",
+    "titulo_corto": "El Guardián Fiel",
+    "significado_nombre": "Siervo de Marduk (Persa) / Hombre pequeño (Hebreo)",
+    "ocupacion": "Portero Real / Primer Ministro",
+    "familia": {
+      "prima": "Ester (Hija adoptiva)",
+      "ancestro": "Cis (Tribu de Benjamín)"
+    },
+    "imagen": "/img/perfiles/mardoqueo.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Ester"
+    ],
+    "era_biblica": "El Cautiverio / Periodo Persa",
+    "ubicacion_principal": "Susa (Persia)"
+  },
+  "narrativa": {
+    "resumen_epico": "Un hombre de principios inquebrantables en el corazón de un imperio pagano. Mardoqueo pasó de las puertas del palacio al centro del gobierno mediante una fidelidad a prueba de fuego. No solo salvó la vida del rey al denunciar un complot, sino que se mantuvo firme ante la arrogancia de Amán, rehusando arrodillarse ante nadie que no fuera Dios. Fue el mentor que despertó el propósito de Ester, recordándole que el silencio en tiempos de crisis es una forma de complicidad.",
+    "dato_curioso": "Mardoqueo y Amán eran enemigos ancestrales. Mardoqueo era descendiente del rey Saúl, y Amán era un agagueo (descendiente de Agag, rey de los amalecitas). La lucha en Susa fue el capítulo final de una guerra que comenzó siglos atrás en el desierto.",
+    "conexion_jesus": "Mardoqueo fue condenado a una muerte segura en una horca injusta, pero fue rescatado y exaltado a la diestra del rey, recibiendo el anillo real para gobernar. Es una imagen de Cristo, quien fue a la cruz pero resucitó para sentarse a la diestra del Padre con toda autoridad."
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Mardoqueo representa la psicología de la vigilancia espiritual y la integridad civil. Su carácter es una mezcla de humildad (no pidió recompensa por salvar al rey) y firmeza radical. Poseía un sentido agudo del discernimiento histórico, comprendiendo que los eventos políticos no son aislados, sino que forman parte de una lucha espiritual mayor.",
+    "fortalezas": [
+      "Integridad absoluta: lealtad a Dios por encima de la conveniencia política",
+      "Paternidad espiritual: guió a Ester con sabiduría y rigor",
+      "Paciencia estratégica: esperó el tiempo de Dios para su propia honra"
+    ],
+    "debilidades": [
+      "No se registran debilidades morales en el relato"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Caballo Real",
+        "significado": "Símbolo de la honra pública que Dios otorga a los que le son fieles en lo secreto."
+      },
+      {
+        "objeto": "La Horca",
+        "significado": "Representa la justicia poética divina: el arma del enemigo se convierte en su propio instrumento de juicio."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Mantente fiel en la 'puerta del palacio' (lo humilde); Dios abrirá la puerta del trono a Su tiempo.",
+    "preguntas_reflexion": [
+      "¿Ante qué cosas de este mundo te estás arrodillando por miedo o conveniencia?",
+      "¿Haces el bien de forma desinteresada incluso cuando nadie parece notarlo?",
+      "¿Estás desafiando a las personas bajo tu influencia a cumplir su propósito divino?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "El Servicio",
+      "evento": "Descubre y denuncia el complot de Bigtán y Teres contra el Rey.",
+      "vinculo_mapa": "puerta-del-palacio",
+      "referencia": "Ester 2:21-23"
+    },
+    {
+      "fase": "La Resistencia",
+      "evento": "Se niega a inclinarse ante Amán, desatando el conflicto nacional.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 3:2"
+    },
+    {
+      "fase": "La Honra",
+      "evento": "El Rey ordena que Amán lo pasee con ropas reales por la ciudad.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 6:11"
+    },
+    {
+      "fase": "El Gobierno",
+      "evento": "Es nombrado Segundo después del Rey y establece la fiesta de Purim.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 10:3"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "susa",
+      "jerusalen"
+    ],
+    "estudios": [
+      "historia-de-amalec",
+      "justicia-divina",
+      "la-diáspora-judía"
+    ],
+    "devocionales": [
+      "fidelidad-en-lo-secreto",
+      "no-te-arrodilles"
+    ],
+    "personajes_relacionados": [
+      "ester",
+      "aman",
+      "asuero",
+      "saul"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "guardian-del-pueblo"
+  }
+},
+  {
+  "id": "esdras",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Esdras",
+    "titulo_corto": "El Escriba Restaurador",
+    "significado_nombre": "Ayuda",
+    "ocupacion": "Sacerdote, Escriba experto",
+    "familia": {
+      "linaje": "Descendiente directo de Aarón",
+      "padre": "Seraías"
+    },
+    "imagen": "/img/perfiles/esdras.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Esdras",
+      "Nehemías"
+    ],
+    "era_biblica": "El Retorno del Cautiverio",
+    "ubicacion_principal": "Jerusalén"
+  },
+  "narrativa": {
+    "resumen_epico": "Mientras otros reconstruían muros de piedra, Esdras se dedicó a reconstruir el alma de una nación. Como sacerdote y escriba erudito, regresó de Babilonia con un mandato real y un fuego sagrado: restablecer la Torá en el corazón del pueblo. Su liderazgo no se basó en la fuerza militar, sino en el poder de la Palabra y una sensibilidad al pecado tan profunda que su intercesión pública provocó un avivamiento nacional, salvando la identidad espiritual de Israel en un momento crítico de asimilación.",
+    "dato_curioso": "La tradición judía lo sitúa como el fundador de la 'Gran Sinagoga' y le atribuye la transición de la escritura paleo-hebrea al carácter 'cuadrado' (asirio) que se usa hoy. Es considerado el padre del judaísmo moderno.",
+    "conexion_jesus": "Esdras prefigura a Jesús como el Maestro por excelencia. Mientras Esdras preparó su corazón para enseñar la Ley, Cristo vino como el Verbo encarnado para cumplirla perfectamente y escribirla no en tablas de piedra, sino en los corazones de los hombres.",
+    "diagrama_referencia": "Evolución de la escritura hebrea impulsada por Esdras"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Esdras proyecta una psicología de pureza radical y devoción absoluta. Su estabilidad emocional emanaba de su disciplina intelectual; sin embargo, poseía una empatía espiritual que lo llevaba al desgarro físico (arrancarse cabellos) ante el pecado ajeno. Representa al intelectual místico: alguien que usa el estudio riguroso como un combustible para la pasión espiritual.",
+    "fortalezas": [
+      "Disciplina inquebrantable en el estudio y práctica de la Biblia",
+      "Autoridad moral reconocida por líderes persas y judíos",
+      "Integridad financiera en el manejo de los tesoros del Templo"
+    ],
+    "debilidades": [
+      "Su enfoque en la pureza legal resultó en medidas sociales extremadamente dolorosas (separación de familias mixtas)"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Rollo de la Ley",
+        "significado": "Símbolo de la autoridad suprema de las Escrituras sobre la tradición y la cultura."
+      },
+      {
+        "objeto": "Vestidos rasgados",
+        "significado": "Representan el dolor genuino por la ofensa a la santidad de Dios."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "El orden de un líder debe ser: estudiar la Palabra, vivirla personalmente y luego enseñarla (7:10).",
+    "preguntas_reflexion": [
+      "¿Estás preparando tu corazón para conocer a Dios antes de intentar hablar de Él?",
+      "¿Te duele la falta de santidad en tu entorno o te has vuelto indiferente?",
+      "¿Tu vida refleja los principios que estudias en la Biblia?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "El Viaje",
+      "evento": "Parte de Babilonia con 1,500 hombres y tesoros, confiando en la mano de Dios sin escolta militar.",
+      "vinculo_mapa": "rio-ahava",
+      "referencia": "Esdras 8:21-23"
+    },
+    {
+      "fase": "La Crisis",
+      "evento": "Descubre la mezcla del pueblo con naciones paganas y entra en una intercesión agónica.",
+      "vinculo_mapa": "templo-jerusalen",
+      "referencia": "Esdras 9:3-6"
+    },
+    {
+      "fase": "La Reforma",
+      "evento": "Establece el pacto de separación y purificación nacional.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Esdras 10:10-12"
+    },
+    {
+      "fase": "El Avivamiento",
+      "evento": "Lee la Ley públicamente sobre una plataforma de madera, provocando la fiesta de los Tabernáculos.",
+      "vinculo_mapa": "puerta-de-las-aguas",
+      "referencia": "Nehemías 8:1-8"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "babilonia",
+      "rio-ahava",
+      "jerusalen"
+    ],
+    "estudios": [
+      "reforma-espiritual",
+      "canon-biblico",
+      "linaje-sacerdotal"
+    ],
+    "devocionales": [
+      "corazon-preparado",
+      "ayuno-y-confesion"
+    ],
+    "personajes_relacionados": [
+      "nehemias",
+      "artajerjes",
+      "zorobabel",
+      "jesus"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 120,
+    "logro_id": "segundo-moises"
+  }
+},
+{
+  "id": "nehemias",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Nehemías",
+    "titulo_corto": "El Constructor de Murallas",
+    "significado_nombre": "Jehová consuela",
+    "ocupacion": "Copero Real, Gobernador de Judá",
+    "familia": {
+      "padre": "Hacalías",
+      "hermano": "Hananí"
+    },
+    "imagen": "/img/perfiles/nehemias.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Nehemías"
+    ],
+    "era_biblica": "El Retorno del Cautiverio",
+    "ubicacion_principal": "Jerusalén (Muros)"
+  },
+  "narrativa": {
+    "resumen_epico": "Nehemías transformó el llanto en acción y las cenizas en fortalezas. Siendo un alto funcionario en el palacio persa de Susa, abandonó su comodidad al saber que su patria estaba vulnerable. Como líder pragmático, orquestó una de las mayores hazañas de ingeniería y logística de la antigüedad: reconstruir los muros de Jerusalén en solo 52 días. Enfrentó conspiraciones, burlas y amenazas militares con una mano en el trabajo y otra en la espada, demostrando que la oración y la planificación son fuerzas imparables.",
+    "dato_curioso": "A diferencia de otros líderes, Nehemías rechazó el salario de gobernador que le correspondía para no ser una carga para el pueblo pobre, alimentando de su propio bolsillo a 150 líderes y oficiales diariamente.",
+    "conexion_jesus": "Nehemías dejó el palacio del rey para restaurar la ciudad de sus padres. Jesús dejó el trono celestial para restaurar la naturaleza humana derribada. Ambos lloraron sobre Jerusalén y ambos enfrentaron una oposición feroz para completar la obra de reconstrucción espiritual.",
+    "diagrama_referencia": "Esquema de las puertas de Jerusalén restauradas por Nehemías"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Nehemías es el arquetipo del 'líder equilibrado'. Su psicología integra una profunda sensibilidad espiritual con un realismo táctico brutal. No es un idealista ingenuo; anticipa el peligro y se prepara para él. Su fe no anula su responsabilidad organizativa, sino que la potencia. Posee una resiliencia emocional que le permite ignorar la crítica externa y enfocarse en la visión 'grande' que Dios puso en su corazón.",
+    "fortalezas": [
+      "Liderazgo ejecutivo y capacidad de movilización masiva",
+      "Oración 'relámpago' y dependencia continua de Dios en medio de la acción",
+      "Integridad administrativa absoluta y rechazo a los privilegios personales"
+    ],
+    "debilidades": [
+      "Tendencia a la ira física correctiva (llegó a golpear y arrancar pelos a pecadores recalcitrantes)",
+      "Enfoque legalista estricto en la reforma social"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Espada y la Pala",
+        "significado": "Representan el equilibrio entre la guerra espiritual/defensa y el trabajo constructivo."
+      },
+      {
+        "objeto": "La Muralla",
+        "significado": "Símbolo de protección, identidad nacional y separación del mundo."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Las grandes visiones de Dios requieren tanto de rodillas dobladas como de manos dispuestas al trabajo duro.",
+    "preguntas_reflexion": [
+      "¿Estás dispuesto a dejar tu zona de confort cuando Dios te muestra una necesidad en Su obra?",
+      "¿Cómo manejas la oposición y las burlas cuando intentas construir algo para Dios?",
+      "¿Tu vida de oración es el motor de tu planificación o solo un recurso de emergencia?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "La Visión",
+      "evento": "Recibe noticias de la ruina de Jerusalén y ora durante meses antes de hablar con el rey.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Nehemías 1:1-11"
+    },
+    {
+      "fase": "La Inspección",
+      "evento": "Llega a Jerusalén y recorre los muros de noche en secreto para evaluar el daño.",
+      "vinculo_mapa": "muros-jerusalen",
+      "referencia": "Nehemías 2:11-16"
+    },
+    {
+      "fase": "La Construcción",
+      "evento": "Organiza a las familias para reconstruir secciones específicas; terminan el muro en 52 días.",
+      "vinculo_mapa": "muros-jerusalen",
+      "referencia": "Nehemías 6:15"
+    },
+    {
+      "fase": "La Reforma",
+      "evento": "Como gobernador, purifica el Templo y restaura el cumplimiento del Sábado.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Nehemías 13:15-22"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "susa",
+      "jerusalen",
+      "valle-del-cedron"
+    ],
+    "estudios": [
+      "liderazgo-ejecutivo",
+      "geografia-de-jerusalen",
+      "historia-del-imperio-persa"
+    ],
+    "devocionales": [
+      "ora-y-trabaja",
+      "una-gran-obra"
+    ],
+    "personajes_relacionados": [
+      "esdras",
+      "artajerjes",
+      "sanbalat",
+      "tobias",
+      "jesus"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "arquitecto-de-la-fe"
+  }
+},
+{
+  "id": "vasti",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Vasti",
+    "titulo_corto": "La Reina de la Dignidad",
+    "significado_nombre": "La mejor, Deseada, Hilo de tejer",
+    "ocupacion": "Reina de Persia (antes de Ester)",
+    "familia": {
+      "esposo": "Rey Asuero (Jerjes I)"
+    },
+    "imagen": "/img/perfiles/vasti.webp",
+    "icono_mapa": "/img/ui/markers/reina.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Ester"
+    ],
+    "era_biblica": "Periodo Persa / El Cautiverio",
+    "ubicacion_principal": "Susa (Palacio de Invierno)"
+  },
+  "narrativa": {
+    "resumen_epico": "Vasti fue la primera esposa del Rey Asuero, conocida por su belleza y su carácter indomable. Durante un banquete imperial de siete días, el rey, ebrio de vino y orgullo, ordenó que Vasti se presentara ante sus invitados luciendo solo la corona real para exhibir su hermosura. Vasti, en un acto de dignidad sin precedentes, se negó a ser tratada como un objeto de exhibición. Su desafío provocó una crisis política que terminó en su destitución, abriendo —en la providencia de Dios— el camino para que Ester llegara al trono.",
+    "dato_curioso": "La tradición judía sugiere que el rey le pidió que se presentara desnuda (solo con la corona), lo que explicaría su rotunda negativa a pesar del riesgo de muerte. Su 'no' cambió el curso de la historia de Israel.",
+    "conexion_jesus": "Vasti representa la preparación del escenario. Aunque no es una figura de salvación, su salida del trono permite que el plan de Dios avance. Nos recuerda que incluso las decisiones de los impíos son utilizadas por Dios para colocar a Sus elegidos en los lugares correctos.",
+    "diagrama_referencia": "Plano del palacio de Susa y el harén real"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Vasti muestra una psicología de autorespeto y valentía ante la humillación. A diferencia de la corte que se postraba ante Asuero, ella entendía los límites de su dignidad personal. Su decisión no fue un capricho, sino un acto de resistencia ante un mandato que degradaba su posición como reina y como mujer, aceptando las consecuencias de su integridad.",
+    "fortalezas": [
+      "Dignidad innegociable frente al poder absoluto",
+      "Valentía para decir 'no' a una orden humillante",
+      "Liderazgo entre las mujeres del palacio (tenía su propio banquete)"
+    ],
+    "debilidades": [
+      "Falta de flexibilidad política en un entorno de tiranía (aunque justificada por su honor)"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Corona Real",
+        "significado": "Representa el estatus que ella estuvo dispuesta a perder antes que su dignidad."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Hay momentos donde perder una posición de privilegio es el precio de mantener la integridad personal.",
+    "preguntas_reflexion": [
+      "¿Estás dispuesto a decir 'no' a algo que te degrada aunque pierdas privilegios?",
+      "¿Tu identidad depende de tu título o de tu carácter interno?",
+      "¿Puedes ver cómo un final doloroso en tu vida puede ser el inicio del plan de Dios para otros?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "El Banquete",
+      "evento": "Organiza un banquete para las mujeres mientras el rey celebra con los hombres.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 1:9"
+    },
+    {
+      "fase": "El Desafío",
+      "evento": "Se niega a la orden del rey de exhibirse ante los príncipes ebrios.",
+      "vinculo_mapa": "palacio-susa",
+      "referencia": "Ester 1:12"
+    },
+    {
+      "fase": "El Juicio",
+      "evento": "Los sabios del rey dictaminan que su conducta es una amenaza para el orden familiar del imperio.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 1:16-18"
+    },
+    {
+      "fase": "El Decreto",
+      "evento": "Es destituida formalmente y se prohíbe su entrada ante el rey para siempre.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 1:19"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "susa",
+      "persia"
+    ],
+    "estudios": [
+      "costumbres-cortesanas-persas",
+      "providencia-en-el-libro-de-ester",
+      "derechos-y-dignidad"
+    ],
+    "devocionales": [
+      "el-valor-del-no",
+      "dignidad-ante-la-presion"
+    ],
+    "personajes_relacionados": [
+      "asuero",
+      "ester",
+      "memucan"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 60,
+    "logro_id": "dignidad-real"
+  }
+},
+{
+  "id": "sanbalat",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Sanbalat",
+    "titulo_corto": "El Opositor de Samaria",
+    "significado_nombre": "Sin (dios luna) ha dado vida",
+    "ocupacion": "Gobernador de Samaria",
+    "familia": {
+      "aliado": "Tobías el amonita",
+      "yerno": "Hijo de Joiada (Sacerdote judío)"
+    },
+    "imagen": "/img/perfiles/sanbalat.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Nehemías"
+    ],
+    "era_biblica": "El Retorno / Reconstrucción de los Muros",
+    "ubicacion_principal": "Samaria / Alrededores de Jerusalén"
+  },
+  "narrativa": {
+    "resumen_epico": "Sanbalat fue el antagonista principal de Nehemías y el símbolo de la resistencia política contra la restauración de Jerusalén. Como gobernador de Samaria, veía en la reconstrucción de los muros una amenaza a su hegemonía regional. Utilizó todas las tácticas del manual del enemigo: desde la burla inicial y la intimidación militar, hasta el intento de asesinato y la calumnia política. Su furia crecía con cada piedra levantada, convirtiéndose en la prueba de fuego para el liderazgo de Nehemías.",
+    "dato_curioso": "Sanbalat intentó infiltrarse en la familia sacerdotal casando a su hija con el hijo del Sumo Sacerdote Eliashib. Nehemías, al descubrir esta alianza impura que comprometía la santidad del pueblo, expulsó al yerno de Sanbalat del sacerdocio.",
+    "conexion_jesus": "Sanbalat representa el sistema del mundo que se opone a la edificación del Reino de Dios. Así como Sanbalat intentó detener los muros físicos, las autoridades religiosas y políticas intentaron detener la edificación de la Iglesia (el cuerpo de Cristo), pero la obra de Dios prevaleció.",
+    "diagrama_referencia": "Mapa de las regiones de Samaria y Judá en tiempos de Nehemías"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Muestra una psicología de envidia política y miedo a la pérdida de poder. Su táctica favorita es el gaslighting: intentar convencer a Nehemías de que su obra es inútil o rebelde. Sanbalat no odia los muros por sí mismos, sino la identidad y la independencia que esos muros devuelven al pueblo de Dios.",
+    "fortalezas": [
+      "Persistencia en la oposición",
+      "Habilidad para formar coaliciones (con Tobías y Gesem)",
+      "Influencia política ante el imperio persa"
+    ],
+    "debilidades": [
+      "Incapacidad de comprender que la obra era de Dios",
+      "Su ira lo hacía predecible para un líder sabio como Nehemías"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Carta Abierta",
+        "significado": "Representa la calumnia pública e infundada destinada a destruir la reputación del líder."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Toda gran obra para Dios despertará una oposición persistente; la respuesta no es pelear, sino seguir construyendo.",
+    "preguntas_reflexion": [
+      "¿Te detienes ante las burlas de los 'Sanbalat' de tu vida?",
+      "¿Estás permitiendo alianzas que comprometen tu santidad por conveniencia política?",
+      "¿Reconoces cuando la crítica externa es solo un reflejo del miedo del enemigo a tu crecimiento?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "La Burla",
+      "evento": "Se burla de los 'débiles judíos' diciendo que hasta una zorra derribaría su muro.",
+      "vinculo_mapa": "muros-jerusalen",
+      "referencia": "Nehemías 4:1-3"
+    },
+    {
+      "fase": "La Conspiración",
+      "evento": "Planea un ataque militar sorpresa contra los constructores.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Nehemías 4:7-8"
+    },
+    {
+      "fase": "El Engaño",
+      "evento": "Intenta citar a Nehemías en el campo de Ono para asesinarlo.",
+      "vinculo_mapa": "valle-de-ono",
+      "referencia": "Nehemías 6:1-2"
+    },
+    {
+      "fase": "La Derrota",
+      "evento": "Se siente humillado al ver el muro terminado en solo 52 días.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Nehemías 6:15-16"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "samaria",
+      "jerusalen",
+      "valle-de-ono"
+    ],
+    "estudios": [
+      "oposicion-al-liderazgo",
+      "historia-de-los-samaritanos",
+      "muros-de-jerusalen"
+    ],
+    "devocionales": [
+      "venciendo-la-critica",
+      "manos-a-la-obra"
+    ],
+    "personajes_relacionados": [
+      "nehemias",
+      "tobias",
+      "gesem",
+      "esdras"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 70,
+    "logro_id": "enemigo-de-la-obra"
+  }
+},
+{
+  "id": "tobias",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-09",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Tobías",
+    "titulo_corto": "El Infiltrado Amonita",
+    "significado_nombre": "Jehová es bueno (Irónicamente)",
+    "ocupacion": "Oficial / Líder amonita",
+    "familia": {
+      "aliado": "Sanbalat",
+      "vinculo": "Emparentado con familias nobles de Jerusalén"
+    },
+    "imagen": "/img/perfiles/tobias.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Nehemías"
+    ],
+    "era_biblica": "El Retorno / Reconstrucción de los Muros",
+    "ubicacion_principal": "Amon / Jerusalén (Templo)"
+  },
+  "narrativa": {
+    "resumen_epico": "Tobías el amonita fue la 'quinta columna' dentro de Jerusalén. Mientras Sanbalat atacaba desde fuera, Tobías utilizaba sus conexiones familiares y sociales para socavar a Nehemías desde dentro. Era un maestro de la guerra psicológica, enviando cartas para atemorizar al líder y comprando la lealtad de nobles judíos. Su descaro llegó al punto de instalarse en una habitación del mismo Templo durante la ausencia de Nehemías, convirtiendo la casa de Dios en su almacén personal.",
+    "dato_curioso": "Nehemías, al regresar y encontrar a Tobías viviendo en el Templo, no negoció: arrojó todos los muebles de Tobías a la calle y mandó limpiar las cámaras. Un acto de purificación radical que recordaría siglos después a la limpieza del Templo por Jesús.",
+    "conexion_jesus": "Tobías representa el pecado y la mundanalidad que intenta 'mudarse' al corazón (el templo del Espíritu). Jesús, como Nehemías, viene a limpiar Su casa con celo, expulsando todo lo que contamina la habitación de Dios."
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Tobías es un oportunista manipulador. Su psicología es la del infiltrado que usa la amabilidad fingida y los vínculos sociales para corromper. A diferencia de la ira abierta de Sanbalat, Tobías prefiere el susurro, la carta intimidante y la ocupación silenciosa de espacios sagrados, creyéndose intocable por sus amigos en las altas esferas.",
+    "fortalezas": [
+      "Habilidad para el networking y las relaciones públicas",
+      "Conocimiento profundo de las debilidades internas del liderazgo judío",
+      "Persistencia a través de la infiltración"
+    ],
+    "debilidades": [
+      "Subestimó el celo de Nehemías por la santidad",
+      "Su falta de respeto por lo sagrado fue su ruina final"
+    ],
+    "simbologia": [
+      {
+        "objeto": "Los Muebles en la Calle",
+        "significado": "Representan la expulsión definitiva del mal y la negativa a transigir con el pecado en el lugar de Dios."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "No permitas que el enemigo se instale en las cámaras de tu corazón; lo que empieza como una visita termina como una ocupación.",
+    "preguntas_reflexion": [
+      "¿Hay algún 'Tobías' (hábito o relación tóxica) instalado en el templo de tu vida?",
+      "¿Tienes el valor de Nehemías para sacar los muebles del enemigo a la calle?",
+      "¿Estás escuchando cartas de temor que intentan detener tu propósito?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "La Alianza",
+      "evento": "Se une a Sanbalat para oponerse al bienestar de los hijos de Israel.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Nehemías 2:10"
+    },
+    {
+      "fase": "La Intimidación",
+      "evento": "Envía cartas frecuentes a Nehemías para aterrorizarlo y debilitar su liderazgo.",
+      "vinculo_mapa": "muros-jerusalen",
+      "referencia": "Nehemías 6:19"
+    },
+    {
+      "fase": "La Infiltración",
+      "evento": "Consigue que el sacerdote Eliashib le asigne una gran cámara en el Templo.",
+      "vinculo_mapa": "templo-jerusalen",
+      "referencia": "Nehemías 13:4-5"
+    },
+    {
+      "fase": "La Expulsión",
+      "evento": "Nehemías regresa, arroja sus cosas fuera y purifica el lugar.",
+      "vinculo_mapa": "templo-jerusalen",
+      "referencia": "Nehemías 13:7-9"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "amon",
+      "jerusalen",
+      "templo"
+    ],
+    "estudios": [
+      "limpieza-del-templo",
+      "relaciones-peligrosas",
+      "guerra-espiritual"
+    ],
+    "devocionales": [
+      "fuera-el-enemigo",
+      "santidad-en-casa"
+    ],
+    "personajes_relacionados": [
+      "nehemias",
+      "sanbalat",
+      "eliashib",
+      "jesus"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 70,
+    "logro_id": "infiltrado-expulsado"
+  }
+},
+{
+  "id": "salome",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Salomé",
+    "titulo_corto": "La Bailarina de la Tragedia",
+    "significado_nombre": "Paz (irónico en su contexto)",
+    "ocupacion": "Princesa de la dinastía herodiana",
+    "familia": {
+      "madre": "Herodías",
+      "padre": "Herodes Filipo",
+      "padrastro": "Herodes Antipas"
+    },
+    "imagen": "/img/perfiles/salome.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Nuevo",
+    "libros_aparicion": ["Mateo", "Marcos"],
+    "era_biblica": "Vida de Jesús / Ministerio de Juan el Bautista"
+  },
+  "narrativa": {
+    "resumen_epico": "Salomé es la figura que personifica la manipulación generacional y la frivolidad mortal de la corte herodiana. Durante el banquete de cumpleaños de Herodes Antipas, su danza cautivó de tal manera al monarca que este le prometió, bajo juramento, cualquier deseo hasta la mitad de su reino. Instigada por el odio visceral de su madre Herodías, Salomé no pidió riquezas ni tierras, sino la cabeza de Juan el Bautista en un plato de plata. Su historia es el clímax de la corrupción moral de una estirpe que apagó la voz de la verdad por un momento de placer y orgullo.",
+    "dato_curioso": "Aunque los Evangelios se refieren a ella solo como 'la hija de Herodías', el historiador Flavio Josefo es quien registra su nombre como Salomé y detalla su posterior matrimonio con Filipo el Tetrarca.",
+    "conexion_jesus": "Al pedir la muerte de Juan el Bautista, Salomé eliminó al precursor de Jesús. Su acto simboliza el rechazo violento del mundo hacia el mensaje de arrepentimiento, una hostilidad que culminaría poco después en la crucifixión del Mesías.",
+    "diagrama_referencia": "Esquema: La danza mortal y la cadena de mando en el juicio de Juan"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de obediencia ciega a la maldad materna y una falta total de empatía. Salomé representa a la juventud seducida por el brillo del poder y la gratificación inmediata, incapaz de discernir la gravedad de sus actos. Su carácter es el de un instrumento dócil en manos de una voluntad superior y destructiva.",
+    "fortalezas": [
+      "Talento artístico y gracia física usada para influencia",
+      "Posición de alto estatus en la élite de Galilea"
+    ],
+    "debilidades": [
+      "Dependencia moral absoluta de su madre",
+      "Indiferencia ante la vida humana y la justicia espiritual"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Plato de Plata",
+        "significado": "Representa la crueldad servida como espectáculo y el precio de la complacencia humana."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Ten cuidado con quién dejas que guíe tus deseos; un talento usado para agradar a la maldad puede convertirte en cómplice de una tragedia eterna.",
+    "preguntas_reflexion": [
+      "¿Estás permitiendo que figuras de autoridad en tu vida te instiguen a actuar contra tu conciencia?",
+      "¿Usas tus dones para edificar la vida o para alimentar el ego y el conflicto?",
+      "¿Qué 'voces' de verdad estás ignorando por buscar el aplauso de tu entorno?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "La Danza",
+      "evento": "Baila ante Herodes Antipas y sus invitados, obteniendo una promesa real.",
+      "vinculo_mapa": "maqueronte",
+      "referencia": "Mateo 14:6-7"
+    },
+    {
+      "fase": "La Petición",
+      "evento": "Consulta a su madre y pide la cabeza de Juan el Bautista.",
+      "vinculo_mapa": "maqueronte",
+      "referencia": "Marcos 6:24-25"
+    },
+    {
+      "fase": "El Crimen",
+      "evento": "Recibe la cabeza del profeta y se la entrega a su madre.",
+      "vinculo_mapa": "maqueronte",
+      "referencia": "Mateo 14:11"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["maqueronte", "tiberiades", "galilea"],
+    "estudios": ["historia-de-los-herodes", "el-martirio-de-juan-el-bautista", "la-mujer-en-la-historia-de-josefo"],
+    "devocionales": ["el-peligro-de-la-mala-influencia", "la-voz-que-no-calla"],
+    "personajes_relacionados": ["herodias", "herodes-antipas", "juan-bautista"]
+  },
+  "gamificacion": {
+    "xp_lectura": 200,
+    "logro_id": "testigo-de-la-tragedia"
+  }
+},
+{
+  "id": "artajerjes",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Artajerjes I (Longímano)",
+    "titulo_corto": "El Rey de la Restauración Mural",
+    "significado_nombre": "Aquel cuyo imperio es la justicia",
+    "ocupacion": "Emperador del Imperio Persa",
+    "familia": {
+      "padre": "Asuero (Jerjes I)",
+      "madre": "Ester (según tradición) o Amestris"
+    },
+    "imagen": "/img/perfiles/artajerjes.webp",
+    "icono_mapa": "/img/ui/markers/rey.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Esdras", "Nehemías"],
+    "era_biblica": "Post-exilio (Reconstrucción de Jerusalén)"
+  },
+  "narrativa": {
+    "resumen_epico": "Artajerjes I fue el monarca persa que selló el destino físico de Jerusalén. Durante su reinado, permitió dos movimientos migratorios cruciales: primero autorizó al escriba Esdras para restaurar la Ley y el culto, y años más tarde, conmovido por la tristeza de su copero Nehemías, emitió el decreto definitivo para reconstruir los muros de la ciudad. Aunque inicialmente detuvo la obra por sospechas de sedición, su corazón fue inclinado por la Providencia para financiar y proteger la restauración nacional de Judá. Artajerjes representa la mano soberana de Dios moviendo los recursos del imperio más grande del mundo en favor de Su pueblo.",
+    "dato_curioso": "El decreto de Artajerjes dado a Nehemías en su año 20 (445 a.C.) es considerado por muchos estudiosos como el punto de partida cronológico para la famosa profecía de las 70 semanas de Daniel sobre la llegada del Mesías.",
+    "conexion_jesus": "Como el rey que ordenó la restauración de Jerusalén, Artajerjes prefigura a Dios el Padre, quien envía los recursos y la autoridad para edificar la Ciudad Celestial. Su edicto permitió que Jerusalén estuviera lista para recibir al Mesías siglos después.",
+    "diagrama_referencia": "Infografía: Los tres decretos persas - Ciro, Darío y Artajerjes"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de justicia administrativa, magnanimidad y sensibilidad personal. A diferencia de su padre Asuero, se muestra más reflexivo y accesible; su relación con Nehemías revela a un líder que valora la lealtad y el bienestar emocional de sus servidores. Representa el poder que sabe escuchar y que permite que la fe de sus súbditos influya en sus decisiones políticas.",
+    "fortalezas": [
+      "Gran capacidad para delegar autoridad en hombres íntegros (Esdras y Nehemías)",
+      "Visión para la estabilidad regional a través de la tolerancia religiosa",
+      "Respeto por la historia y los decretos de sus antecesores"
+    ],
+    "debilidades": [
+      "Vulnerabilidad a los informes difamatorios que lo llevaron a detener la obra inicialmente"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Copa del Rey",
+        "significado": "Representa la intimidad y confianza que abre las puertas a los milagros de restauración."
+      },
+      {
+        "objeto": "La Carta Real",
+        "significado": "Símbolo de la autoridad divina delegada para vencer la oposición enemiga."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu fidelidad en tu trabajo cotidiano (como Nehemías en la copa) puede ser la llave para que Dios toque el corazón de tus autoridades y bendiga a toda tu comunidad.",
+    "preguntas_reflexion": [
+      "¿Estás orando por el corazón de tus líderes para que favorezcan los planes de Dios?",
+      "¿Refleja tu actitud en el trabajo una tristeza que invite a otros a preguntar por tu fe?",
+      "¿Confías en que Dios puede usar los recursos de fuentes 'paganas' para cumplir Sus promesas en ti?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Esdras",
+      "evento": "Envía a Esdras con una carta de autoridad y tesoros para el Templo.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Esdras 7:11-26"
+    },
+    {
+      "fase": "Oposición",
+      "evento": "Ordena detener la construcción tras recibir quejas de los enemigos de Judá.",
+      "vinculo_mapa": "susa",
+      "referencia": "Esdras 4:17-22"
+    },
+    {
+      "fase": "Nehemías",
+      "evento": "Autoriza a Nehemías a reconstruir los muros y le da cartas para los gobernadores.",
+      "vinculo_mapa": "palacio-de-susa",
+      "referencia": "Nehemías 2:1-8"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["susa", "jerusalen", "babilonia", "persepolis"],
+    "estudios": ["el-imperio-persa-y-el-postexilio", "cronologia-de-nehemias", "profecia-de-las-70-semanas"],
+    "devocionales": ["el-corazon-del-rey", "restauracion-integral"],
+    "personajes_relacionados": ["nehemias", "esdras", "asuero", "ester"]
+  },
+  "gamificacion": {
+    "xp_lectura": 300,
+    "logro_id": "mecenas-del-reino"
+  }
+},
+{
+  "id": "memucan",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Memucán",
+    "titulo_corto": "El Consejero del Protocolo",
+    "significado_nombre": "Digno (o Pobre/Humilde - incierto)",
+    "ocupacion": "Uno de los siete príncipes sabios de Persia",
+    "familia": {
+      "superior": "Rey Asuero (Jerjes I)"
+    },
+    "imagen": "/img/perfiles/memucan.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Ester"],
+    "era_biblica": "Periodo Persa (Susa)"
+  },
+  "narrativa": {
+    "resumen_epico": "Memucán fue el estratega legal que transformó un incidente doméstico en una crisis de estado. Durante el banquete real en Susa, cuando la reina Vasti se negó a comparecer ante el rey Asuero, Memucán fue el último en hablar de entre los sabios consejeros. Su discurso no solo condenó a la reina, sino que proyectó su 'desobediencia' como una amenaza a la estructura social de todo el imperio. Gracias a su consejo radical de deponer a Vasti y emitir un edicto de supremacía masculina, se despejó involuntariamente el trono para la llegada de Ester, demostrando que la lógica política humana es a menudo el vehículo de la Providencia divina.",
+    "dato_curioso": "Memucán argumentó que si la reina no era castigada, todas las mujeres del imperio despreciarían a sus maridos, lo que llevó a la creación de una de las leyes de género más extensas y curiosas de la antigüedad registrada.",
+    "conexion_jesus": "Representa la sabiduría del mundo que busca el orden a través de leyes rígidas y control. Contrasta con el Reino de Dios, donde la autoridad se basa en el amor y el servicio mutuo, no en edictos imperiales de dominio.",
+    "diagrama_referencia": "Esquema: Los siete consejeros de Persia y el orden de la corte"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de pragmatismo sistémico, miedo al desorden social y visión de futuro política. Memucán no actuó por odio personal a Vasti, sino por la preservación de la jerarquía. Representa al burócrata que escala posiciones al ofrecer soluciones que protegen el ego de sus superiores. Su carácter es calculador y sabe leer el clima emocional de la sala para dar el consejo que el rey quiere escuchar.",
+    "fortalezas": [
+      "Aguda percepción de las consecuencias sociales de los actos públicos",
+      "Capacidad para redactar leyes y protocolos estatales",
+      "Habilidad para navegar en la alta política de una superpotencia"
+    ],
+    "debilidades": [
+      "Falta de sensibilidad humana y misericordia",
+      "Miedo exagerado al caos doméstico"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Edicto Irrevocable",
+        "significado": "Representa la rigidez del sistema humano que Dios usa para Sus propios fines flexibles."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Dios puede usar incluso las leyes más rígidas o los consejos más interesados de los hombres para abrir el camino a Sus elegidos.",
+    "preguntas_reflexion": [
+      "¿Te dejas llevar por el miedo al desorden antes que por la justicia y el amor?",
+      "¿Eres de los que 'apagan el fuego' o de los que aprovechan las crisis para imponer su voluntad?",
+      "¿Reconoces que detrás de las decisiones de los 'sabios' de este mundo está la mano de Dios preparando el siguiente capítulo?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Consulta",
+      "evento": "Es consultado por el rey Asuero tras la desobediencia de la reina Vasti.",
+      "vinculo_mapa": "palacio-de-susa",
+      "referencia": "Ester 1:13-15"
+    },
+    {
+      "fase": "Consejo",
+      "evento": "Propone deponer a Vasti y dar su dignidad a 'otra mejor que ella'.",
+      "vinculo_mapa": "palacio-de-susa",
+      "referencia": "Ester 1:16-20"
+    },
+    {
+      "fase": "Resultado",
+      "evento": "Su consejo es aceptado y se envía el edicto a las 127 provincias.",
+      "vinculo_mapa": "susa",
+      "referencia": "Ester 1:21-22"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["susa", "persia", "media"],
+    "estudios": ["leyes-de-medos-y-persas", "protocolo-real-antiguo", "el-papel-de-vasti"],
+    "devocionales": ["soberania-en-la-crisis", "la-locura-de-los-sabios"],
+    "personajes_relacionados": ["asuero", "vasti", "ester"]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "estratega-de-susa"
+  }
+},
+{
+  "id": "gesem",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Gesem el Árabe",
+    "titulo_corto": "El Conspirador del Desierto",
+    "significado_nombre": "Lluvia (o Cuerpo/Sustancia)",
+    "ocupacion": "Líder de confederación árabe y aliado político",
+    "familia": {
+      "aliados": ["Sanbalat el horonita", "Tobías el amonita"]
+    },
+    "imagen": "/img/perfiles/gesem.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Nehemías"],
+    "era_biblica": "Post-exilio (Reconstrucción de los muros)"
+  },
+  "narrativa": {
+    "resumen_epico": "Gesem fue el tercer pilar de la oposición externa que intentó detener el resurgimiento de Jerusalén. Como líder de una poderosa confederación árabe, veía en la reconstrucción de los muros una amenaza al control comercial y político de la región. Junto a Sanbalat y Tobías, utilizó desde la burla hiriente hasta la amenaza de calumnia ante el rey persa para intimidar a Nehemías. Gesem representa la resistencia de los poderes regionales que temen que el pueblo de Dios recupere su identidad y fortaleza, intentando arrastrar al líder a 'negociaciones' que en realidad eran trampas de muerte.",
+    "dato_curioso": "Inscripciones arqueológicas en el noroeste de Arabia mencionan a un 'Gashmu' (Gesem) como un rey de Cedar, lo que confirma que era un líder histórico de gran peso y no un simple agitador local.",
+    "conexion_jesus": "Gesem prefigura a los líderes que intentaron atrapar a Jesús con preguntas capciosas y falsas acusaciones de rebelión contra el César. Representa la oposición que usa la mentira política para detener una obra espiritual.",
+    "diagrama_referencia": "Mapa: La coalición enemiga que rodeaba Jerusalén (Norte, Este y Sur)"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de oportunismo político y astucia maliciosa. Gesem no es un enemigo frontal de guerra, sino de intriga. Utiliza el rumor ('se dice entre las naciones') como arma para generar paranoia. Su carácter es calculador; prefiere la diplomacia engañosa antes que el combate directo, buscando siempre un beneficio para su esfera de influencia árabe.",
+    "fortalezas": [
+      "Liderazgo sobre grupos tribales influyentes",
+      "Habilidad para la guerra informativa y la calumnia",
+      "Capacidad de crear alianzas estratégicas contra un enemigo común"
+    ],
+    "debilidades": [
+      "Cobardía disfrazada de diplomacia",
+      "Incapacidad para comprender la determinación espiritual de Nehemías"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Carta abierta",
+        "significado": "Representa la calumnia pública y el intento de destruir la reputación del justo."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "No bajes del muro para 'negociar' con quienes solo quieren detener tu propósito; hay voces que solo buscan distraerte con el miedo al qué dirán.",
+    "preguntas_reflexion": [
+      "¿Qué 'voces de Gesem' están intentando asustarte con rumores sobre tu futuro?",
+      "¿Sabes distinguir entre una crítica constructiva y una calumnia diseñada para detenerte?",
+      "¿Tienes la firmeza de Nehemías para responder: 'Yo hago una gran obra, y no puedo ir'?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Burla",
+      "evento": "Se burla de los judíos al ver el inicio de la reconstrucción de los muros.",
+      "vinculo_mapa": "jerusalen-muros",
+      "referencia": "Nehemías 2:19"
+    },
+    {
+      "fase": "Calumnia",
+      "evento": "Difunde el rumor de que Nehemías planea rebelarse y proclamarse rey.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Nehemías 6:6"
+    },
+    {
+      "fase": "Trampa",
+      "evento": "Intenta citar a Nehemías en las aldeas del valle de Ono para hacerle daño.",
+      "vinculo_mapa": "valle-de-ono",
+      "referencia": "Nehemías 6:2"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["jerusalen", "valle-de-ono", "arabia"],
+    "estudios": ["los-enemigos-de-nehemias", "arqueologia-de-cedar", "la-reconstruccion-postexilica"],
+    "devocionales": ["mantente-en-el-muro", "venciendo-la-calumnia"],
+    "personajes_relacionados": ["nehemias", "sanbalat"]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "vencedor-de-la-intriga"
+  }
+},
+{
+  "id": "eliashib",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Eliasib",
+    "titulo_corto": "El Sumo Sacerdote Comprometido",
+    "significado_nombre": "Dios restaura (o Dios vuelve a traer)",
+    "ocupacion": "Sumo Sacerdote de Jerusalén",
+    "familia": {
+      "abuelo": "Jesúa (Sumo Sacerdote)",
+      "nieto": "Uno que se casó con la hija de Sanbalat",
+      "aliado": "Tobías el amonita"
+    },
+    "imagen": "/img/perfiles/eliashib.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Nehemías"],
+    "era_biblica": "Post-exilio (Reconstrucción de Jerusalén)"
+  },
+  "narrativa": {
+    "resumen_epico": "Eliasib es una figura de contrastes dramáticos. Comenzó como un líder ejemplar, siendo el primero en levantarse con sus hermanos sacerdotes para edificar la Puerta de las Ovejas y santificarla. Sin embargo, su historia dio un giro oscuro al permitir que las alianzas familiares corrompieran su santidad: llegó a preparar una gran cámara en el Templo para Tobías el amonita, un enemigo declarado de la obra de Dios. Eliasib representa el peligro de comenzar bien en el espíritu y terminar cediendo ante las presiones del compromiso mundano y los lazos de sangre.",
+    "dato_curioso": "A pesar de ser Sumo Sacerdote, su falta de celo espiritual obligó a Nehemías a realizar una 'limpieza' violenta en el Templo, arrojando fuera todos los muebles de Tobías que Eliasib había instalado ilegalmente.",
+    "conexion_jesus": "Contrasta con Jesús, quien al entrar al Templo lo purificó de los mercaderes. Eliasib metió al enemigo en la casa de Dios; Jesús expulsó la corrupción para restaurar la casa de oración.",
+    "diagrama_referencia": "Esquema: La reconstrucción de los muros - La sección de los sacerdotes"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de compromiso debilitado por el nepotismo y la conveniencia social. Eliasib es el líder que, queriendo mantener la paz con los poderosos de la región, compromete la santidad de su cargo. Representa la ceguera espiritual que no distingue entre la cortesía familiar y la traición a la santidad del Templo.",
+    "fortalezas": [
+      "Iniciativa inicial para la reconstrucción física",
+      "Autoridad jerárquica y religiosa sobre el pueblo"
+    ],
+    "debilidades": [
+      "Vulnerabilidad a las alianzas familiares con enemigos de la fe",
+      "Falta de discernimiento y celo por la pureza del Templo"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Puerta de las Ovejas",
+        "significado": "Representa el inicio del trabajo sagrado y el sacrificio del liderazgo."
+      },
+      {
+        "objeto": "La Cámara del Templo",
+        "significado": "Símbolo de la contaminación interna cuando se le da lugar al enemigo en el corazón del culto."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "No sirve de nada construir muros externos si dejas que el enemigo viva en las cámaras internas de tu vida.",
+    "preguntas_reflexion": [
+      "¿Has permitido que 'Tobías' (influencias negativas) ocupe un lugar en tu Templo personal por compromiso familiar?",
+      "¿Cómo estás terminando la obra que empezaste con tanto entusiasmo espiritual?",
+      "¿Tienes el valor de permitir que Dios limpie tus 'cámaras internas' de todo lo que no le pertenece?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Construcción",
+      "evento": "Se levanta con los sacerdotes y edifica la Puerta de las Ovejas.",
+      "vinculo_mapa": "puerta-de-las-ovejas",
+      "referencia": "Nehemías 3:1"
+    },
+    {
+      "fase": "Compromiso",
+      "evento": "Prepara una cámara en el Templo para su pariente Tobías el amonita.",
+      "vinculo_mapa": "jerusalen-templo",
+      "referencia": "Nehemías 13:4-5"
+    },
+    {
+      "fase": "Juicio",
+      "evento": "Nehemías regresa de Persia y limpia la cámara, reprendiendo la negligencia de Eliasib.",
+      "vinculo_mapa": "jerusalen-templo",
+      "referencia": "Nehemías 13:7-9"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["jerusalen", "templo-de-salomon", "puerta-de-las-ovejas"],
+    "estudios": ["el-sacerdocio-postexilico", "las-reformas-de-nehemias", "la-familia-de-eliasib"],
+    "devocionales": ["limpieza-del-templo", "el-peligro-del-compromiso"],
+    "personajes_relacionados": ["nehemias", "sanbalat", "jesua-sacerdote"]
+  },
+  "gamificacion": {
+    "xp_lectura": 250,
+    "logro_id": "edificador-y-aprendiz"
+  }
+},
+  {
+    "id": "vigilante-madian",
+    "activo": true,
+    "meta": {
+      "version": "4.0-deep",
+      "fecha_actualizacion": "2026-03-09",
+      "eststandard": "codice-master"
+    },
+    "perfil": {
+      "nombre": "El Vigilante de Madián",
+      "titulo_corto": "La Perspectiva del Enemigo",
+      "significado_nombre": "Madián (Lugar de contienda/juicio). Vigilante (Observador del campamento).",
+      "ocupacion": "Centinela del ejército madianita/amalecita",
+      "familia": {
+        "reyes": ["Zeba y Zalmuna (Líderes de Madián)"],
+        "aliados": ["Hijos del Oriente (Amalecitas)"]
+      },
+      "imagen": "../img/perfiles/vigilante-madian.webp",
+      "icono_mapa": "../img/ui/markers/soldado-madian.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": ["Jueces"],
+      "era_biblica": "Periodo de los Jueces (La Opresión Madianita)"
+    },
+    "narrativa": {
+      "resumen_epico": "Este personaje anónimo no es recordado por sus hazañas militares, sino por su sueño profético. Mientras el ejército de Madián, 'numeroso como langostas', cubría el valle, este vigilante soñó que un simple pan de cebada rodaba hacia el campamento y derribaba una tienda real. Su interpretación del sueño revela una verdad espiritual impactante: mientras Gedeón se veía pequeño en el lagar, el enemigo ya lo percibía como la espada de Dios capaz de destruir sus baluartes. El vigilante representa el temor que el mundo espiritual tiene cuando un hijo de Dios se levanta en su identidad legal, no en su fuerza física.",
+      "dato_curioso": "El pan de cebada era la comida de los pobres y de los animales, simbolizando la debilidad de Israel. Sin embargo, en manos de Dios, este símbolo de escasez se convirtió en un proyectil de destrucción masiva contra el orgullo de Madián.",
+      "conexion_jesus": "Anticipa la victoria de Cristo, quien siendo 'un pan de cebada' (débil y despreciado según la carne), rodó hasta el campamento del pecado y la muerte (el Calvario) para derribar por completo la 'tienda' del enemigo y establecer Su Reino eterno.",
+      "diagrama_referencia": "Esquema: El campamento de Madián en el Valle de Jezreel"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de inquietud soterrada detrás de una falsa seguridad militar. Este vigilante sabe que el verdadero peligro no es el ejército de Gedeón, sino el Dios que lo respalda. Representa el discernimiento espiritual involuntario que el enemigo tiene sobre el potencial divino de los creyentes.",
+      "fortalezas": [
+        "Discernimiento espiritual (aunque involuntario)",
+        "Vigilancia natural sobre el territorio de opresión"
+      ],
+      "debilidades": [
+        "Vulnerabilidad al temor divino",
+        "Falta de autoridad real frente al Reino de Dios"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Pan de Cebada",
+          "significado": "Representa el potencial de Dios operando a través de instrumentos débiles y menospreciados para derribar baluartes."
+        },
+        {
+          "objeto": "La Tienda Derribada",
+          "significado": "Símbolo de la destrucción de las estructuras de opresión y orgullo del enemigo por un simple toque de Gracia."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu identidad en Cristo cambia el nivel de respeto y temor que el mundo espiritual tiene por tu caminar. No pelees desde tu pequeñez, pelea desde la declaración de 'valiente' que Dios hizo sobre ti.",
+      "preguntas_reflexion": [
+        "¿Te ves a ti mismo como un 'pan de cebada' débil o como un proyectil capaz de destruir baluartes en manos de Dios?",
+        "¿Eres consciente de que tu obediencia en Dios genera temor en el campamento del enemigo?",
+        "¿Estás dispuesto a 'rodar' hacia los desafíos que Dios te pone, confiando en que Su poder es perfecto en tu debilidad?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "La Opresión",
+        "evento": "El ejército de Madián cubre el Valle de Jezreel para destruir la tierra.",
+        "vinculo_mapa": "valle-jezreel",
+        "referencia": "Jueces 6:33"
+      },
+      {
+        "fase": "El Sueño",
+        "evento": "El Vigilante tiene el sueño del pan de cebada y lo interpreta.",
+        "vinculo_mapa": "campamento-madian",
+        "referencia": "Jueces 7:13-14"
+      },
+      {
+        "fase": "La Confirmación",
+        "evento": "Gedeón escucha el relato en el lagar de Ofra y adora a Dios.",
+        "vinculo_mapa": "lagar-ofra",
+        "referencia": "Jueces 7:15"
+      }
+    ],
+    "vinculos": {
+      "lugares": ["valle-jezreel", "lagar-ofra", "campamento-madian"],
+      "estudios": ["identidad-secuestrada", "la-estrategia-de-gedeon", "la-perspectiva-del-enemigo"],
+      "devocionales": ["el-pan-de-cebada", "rompiendo-baluartes"],
+      "personajes_relacionados": ["gedeon", "los-300", "elias"]
+    },
+    "gamificacion": {
+      "xp_lectura": 310,
+      "logro_id": "discernidor-del-valle"
+    }
+  }
+]

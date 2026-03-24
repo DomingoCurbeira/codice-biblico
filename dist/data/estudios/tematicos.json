@@ -1,0 +1,2230 @@
+[
+  {
+      "id": "proposito-diseno-original-maestro",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "Diseñados por Dios",
+      "subtitulo": "Descubriendo el Propósito en el Taller del Maestro",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "10 min",
+      "imagen_portada": "/img/estudios/alfarero.webp",
+      "tags": ["Propósito", "Identidad", "Sanidad Interior"],
+      
+      "versiculo_clave": {
+        "texto": "Mi embrión vieron tus ojos, y en tu libro estaban escritas todas aquellas cosas que fueron luego formadas, sin faltar una de ellas.",
+        "cita": "Salmos 139:16"
+      },
+
+      "contenido": [
+        {
+          "tipo": "imagen", 
+          "url": "../img/estudios/alfarero.webp",
+          "descripcion": "Dios moldea nuestra vida como barro en sus manos."
+        },
+        {
+          "tipo": "intro",
+          "texto": "A menudo caminamos por la vida sintiéndonos como piezas sueltas de un rompecabezas que no encaja. Sin embargo, la Biblia nos revela que antes de que el mundo tuviera memoria de nosotros, Dios ya tenía un plan."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Fundamento: Fuiste Intencionalmente Diseñado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dios no produce en serie; Él crea piezas únicas. El salmista usa la palabra 'entretejido', lo que sugiere un trabajo artesanal, detallado y paciente. <button class='btn-verse' onclick='abrirModal(\"Salmos 139:13-16\", \"Porque tú formaste mis entrañas; Tú me hiciste en el vientre de mi madre... Mi embrión vieron tus ojos, y en tu libro estaban escritas todas aquellas cosas que fueron luego formadas...\")'>Salmos 139:13-16</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Verdad central: Tu propósito no comienza cuando te gradúas o te casas; comenzó en la mente de Dios antes de tu primer suspiro."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Los Obstáculos: ¿Por qué nos cuesta ver el propósito?"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aunque el plan es perfecto, nuestra visión es limitada. Hay tres razones principales por las que perdemos de vista el norte:"
+        },
+        
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>El Proceso requiere tiempo:</strong> Vivimos en la era de lo instantáneo, pero el propósito de Dios madura a fuego lento. <button class='btn-verse' onclick='abrirModal(\"Gálatas 6:9\", \"No nos cansemos, pues, de hacer bien; porque a su tiempo segaremos, si no desmayamos.\")'>Gálatas 6:9</button>",
+            "<strong>El Dolor que nubla la visión:</strong> Al igual que Elías bajo el enebro, el cansancio y la aflicción pueden hacernos pedir la muerte. <button class='btn-verse' onclick='abrirModal(\"1 Reyes 19:4\", \"Y él se fue por el desierto un día de camino, y vino y se sentó debajo de un enebro; y deseando morirse, dijo: Basta ya, oh Jehová, quítame la vida, pues no soy yo mejor que mis padres.\")'>1 Reyes 19:4</button>",
+            "<strong>Confundir Propósito con Posición:</strong> José soñó con un trono, pero el propósito no era ser jefe, sino salvar vidas. <button class='btn-verse' onclick='abrirModal(\"Génesis 50:20\", \"Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien, para hacer lo que vemos hoy, para mantener en vida a mucho pueblo.\")'>Génesis 50:20</button>"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> En un mundo de 'entrega inmediata' y resultados rápidos, nos frustramos cuando nuestro propósito no se manifiesta en un clic. Olvidamos que las obras maestras llevan tiempo. Si te sientes estancado, recuerda que el barro no se convierte en vasija en un minuto; necesita el roce constante de las manos del Alfarero."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Crisis de Identidad: Los enemigos del propósito"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "¿Qué nos hace pensar que no servimos para nada? La comparación es una falta de sabiduría <button class='btn-verse' onclick='abrirModal(\"2 Corintios 10:12\", \"Porque no nos atrevemos a contarnos ni a compararnos con algunos que se alaban a sí mismos...\")'>2 Corintios 10:12</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. El Propósito es Teocéntrico"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para encontrar tu propósito, debes dejar de mirarte al espejo y empezar a mirar a la Cruz. Dios te preparó de antemano <button class='btn-verse' onclick='abrirModal(\"Efesios 2:10\", \"Porque somos hechura suya, creados en Cristo Jesús para buenas obras...\")'>Efesios 2:10</button>."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> En la era de los filtros y la aprobación digital, es fácil creer que nuestro valor depende del 'algoritmo' social. Pero el taller del Maestro nos enseña que no somos un producto en serie, sino una obra artesanal. Tu diseño no es un post editable; es un original eterno. <button class='btn-verse' onclick='abrirModal(\"Salmos 139:13-16\", \"Porque tú formaste mis entrañas; Tú me hiciste en el vientre de mi madre...\")'>Salmos 139:13-16</button>"
+        }
+      ],
+      "gamificacion": {
+        "xp_lectura": 100,
+        "logro_id": "obra-maestra"
+      },
+      "diccionario": [
+        {
+          "palabra": "Entretejido (Raqam)",
+          "origen": "Hebreo",
+          "significado": "Significa 'bordar con colores variados'. Se usaba para describir el trabajo intrincado del velo del Tabernáculo. Dios no solo te creó, te 'bordó' artísticamente."
+        }
+      ],
+
+      "desafio_practico": "Identifica si estás en la 'Cisterna' (prueba), el 'Enebro' (cansancio) o el 'Palacio' (influencia). Escribe una oración entregando esa etapa específica a Dios hoy.",
+
+      "conexiones": {
+        "huellas": [
+          { "id": "jose-egipto", "nombre": "José", "razon": "Ejemplo de proceso doloroso hacia el propósito." },
+          { "id": "elias", "nombre": "Elías", "razon": "Ejemplo de agotamiento espiritual." },
+          { "id": "david", "nombre": "David", "razon": "Ejemplo de fidelidad en lo secreto." }
+        ],
+        "cronos": [
+          { "id": "dotan", "nombre": "Dotán", "razon": "Lugar donde el propósito fue probado." },
+          { "id": "monte-horeb", "nombre": "Monte Horeb", "razon": "Donde Dios renovó la visión de Elías." }
+        ],
+        "aposento": [
+          { "id_oracion": "identidad", "tema": "Identidad en Cristo", "accion": "Orar contra la comparación." }
+        ]
+      }
+    },
+
+    {
+      "id": "diseno-original-familia-legado-eterno",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "El Diseño Original de la Familia",
+      "subtitulo": "Edificando un Legado Eterno bajo el Diseño Divino",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "13 min",
+      "imagen_portada": "../img/estudios/hogar-base.webp",
+      "tags": ["Familia", "Legado", "Matrimonio", "Paternidad"],
+      "versiculo_clave": {
+        "texto": "Dios hace habitar en familia a los desamparados; Saca a los cautivos a prosperidad; Mas los rebeldes habitan en tierra seca.",
+        "cita": "Salmos 68:6"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/hogar-base.webp",
+          "descripcion": "La familia como el núcleo diseñado por Dios para la plenitud del ser humano."
+        },
+        {
+          "tipo": "intro",
+          "texto": "La familia no es una invención social ni un accidente evolutivo; es el pensamiento más profundo del Creador para manifestar Su amor en la tierra. Desde el Edén, Dios determinó que la soledad no era parte de Su diseño ideal, estableciendo el hogar como el santuario donde se cultiva la identidad y se transfiere la fe."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Fundamento: Unidad y Compañerismo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dios identificó la necesidad de complemento en el hombre, creando la figura de la 'ayuda idónea'. Este diseño no implica subordinación, sino una alianza estratégica para reflejar la imagen divina. El matrimonio se convierte así en el pacto de dejar y unirse para ser 'una sola carne'. <button class='btn-verse' onclick='abrirModal(\"Génesis 2:18, 24\", \"Y dijo Jehová Dios: No es bueno que el hombre esté solo; le haré ayuda idónea para él... Por tanto, dejará el hombre a su padre y a su madre, y se unirá a su mujer, y serán una sola carne.\")'>Génesis 2:18, 24</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> En una cultura que promueve el individualismo extremo y las relaciones 'desechables', el diseño de Dios nos invita a la interdependencia. Ser 'una sola carne' hoy significa priorizar la conexión emocional y espiritual sobre la autonomía personal, entendiendo que somos más fuertes cuando operamos en equipo bajo la visión del Reino."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "La familia es el único lugar donde somos amados por quiénes somos, no por lo que hacemos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Responsabilidad del Legado: Transferencia de Fe"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El hogar es la primera escuela del carácter. Dios instruye a los padres a que la Palabra no sea solo un concepto dominical, sino una conversación constante que impregne cada momento del día. <button class='btn-verse' onclick='abrirModal(\"Deuteronomio 6:6-7\", \"Y estas palabras que yo te mando hoy, estarán sobre tu corazón; y las repetirás a tus hijos...\")'>Deuteronomio 6:6-7</button>"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Instrucción Temprana:</strong> Entrenar al niño en su camino asegura una brújula moral para la vejez. <button class='btn-verse' onclick='abrirModal(\"Proverbios 22:6\", \"Instruye al niño en su camino, Y aun cuando fuere viejo no se apartará de él.\")'>Proverbios 22:6</button>",
+            "<strong>Sabiduría y Corrección:</strong> El amor bíblico incluye límites que evitan la vergüenza futura. <button class='btn-verse' onclick='abrirModal(\"Proverbios 29:15\", \"La vara y la corrección dan sabiduría; Mas el muchacho consentido avergonzará a su madre.\")'>Proverbios 29:15</button>",
+            "<strong>Continuidad Generacional:</strong> Los abuelos son la corona y la honra de la familia. <button class='btn-verse' onclick='abrirModal(\"Proverbios 17:6\", \"Corona de los viejos son los nietos, Y la honra de los hijos, sus padres.\")'>Proverbios 17:6</button>"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> Hoy vivimos en hogares 'hiperconectados' al Wi-Fi pero desconectados entre sí. El altar familiar es el acto de rebeldía moderno de dejar el móvil para mirar a los ojos a quienes Dios nos confió. Instruir al niño hoy es proteger su mente de las tendencias pasajeras para anclarla en verdades que le den seguridad en un mundo inestable."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Bendición del Temor de Dios"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Un hogar que teme a Dios experimenta una prosperidad integral. La mujer es comparada con una vid fructífera y los hijos con plantas de olivo. <button class='btn-verse' onclick='abrirModal(\"Salmos 128:1-4\", \"Bienaventurado todo aquel que teme a Jehová... Tus hijos como plantas de olivo alrededor de tu mesa.\")'>Salmos 128:1-4</button>"
+        }
+      ],
+      "gamificacion": {
+          "xp_lectura": 120,
+          "logro_id": "edificador-hogar"
+        },
+      "diccionario": [
+        {
+          "palabra": "Idónea (Neged)",
+          "origen": "Hebreo",
+          "significado": "Significa 'frente a él', 'correspondiente a' o 'un espejo'. Alguien que completa lo que al otro le falta para cumplir una misión."
+        }
+      ],
+      "desafío_practico": "Realiza un 'Altar Familiar' esta semana: un tiempo breve para hablar de una obra que Dios haya hecho en tu familia recientemente y orar unos por otros.",
+      "conexiones": {
+        "huellas": [
+          { "id": "timoteo", "nombre": "Timoteo", "razon": "Ejemplo de legado de fe transferido por su madre y abuela." },
+          { "id": "noe", "nombre": "Noé", "razon": "Un hombre que salvó a toda su familia a través de su obediencia." }
+        ],
+        "cronos": [
+          { "id": "betel", "nombre": "Betel", "razon": "Lugar donde Jacob restauró el altar familiar." }
+        ],
+        "aposento": [
+          { "id_oracion": "restauracion-familiar", "tema": "Sanidad en el Hogar", "accion": "Orar por la reconciliación familiar." }
+        ]
+      }
+    },
+    {
+      "id": "victoria-campo-batalla-mente",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "¿Qué tanto te angustian tus pensamientos?",
+      "subtitulo": "Dominando la Mente para Conquistar la Paz",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/campo-batalla-mente.webp",
+      "tags": ["Pensamientos", "Sanidad Interior", "Mente de Cristo", "Guerra Espiritual"],
+      "versiculo_clave": {
+        "texto": "Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús.",
+        "cita": "Filipenses 4:7"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/campo-batalla-mente.webp",
+          "descripcion": "Llevando cada pensamiento cautivo a la obediencia a Cristo."
+        },
+        {
+          "tipo": "intro",
+          "texto": "El enemigo no comienza su ataque en tus circunstancias, sino en tu mente. Lo que piensas se convierte en lo que sientes, y lo que sientes dicta lo que haces. Si no controlas tus pensamientos, ellos terminarán controlándote a ti, creando prisiones de supuestos y angustias que te alejan del propósito divino."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Peligro de los Pensamientos Distorsionados"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Saúl es el ejemplo claro de cómo una perspectiva equivocada destruye la paz. Al ver a David como un opositor en lugar de un aliado, permitió que la envidia y el celo abrieran la puerta a un espíritu de tormento. Cuando no miramos con 'buenos ojos', desvariamos en nuestra propia casa. <button class='btn-verse' onclick='abrirModal(\"1 Samuel 18:8-10\", \"Y se enojó Saúl en gran manera... no le falta más que el reino. Y desde aquel día Saúl no miró con buenos ojos a David.\")'>1 Samuel 18:8-10</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> En la era de la hiper-comparación, solemos ver el éxito de los demás como nuestra propia pérdida, igual que Saúl. Esto genera un ruido mental que nos impide disfrutar nuestras bendiciones. Sanar la mente hoy requiere 'limpiar el lente' con el que miramos el progreso ajeno, entendiendo que el Reino no es competencia, sino colaboración."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Pensamientos basados en Supuestos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jonás creó un escenario catastrófico en su mente antes de obedecer a Dios. Sus suposiciones lo llevaron al enojo y al deseo de morir. Vivir en el '¿y si sale mal?' es ignorar que los pensamientos de Dios son más altos que los nuestros. <button class='btn-verse' onclick='abrirModal(\"Jonás 4:3-4\", \"Ahora pues, oh Jehová, te ruego que me quites la vida... Y Jehová le dijo: ¿Haces tú bien en enojarte tanto?\")'>Jonás 4:3-4</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Debemos cambiar la pregunta: En lugar de '¿y si sale mal?', pregunta '¿y si Dios lo hace bien?'"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Proceso de Renovación: Estrategias de Victoria"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para vencer la batalla mental, no podemos ser pasivos. Necesitamos una estrategia activa basada en la verdad de la Palabra:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Identificar y Capturar:</strong> Derribar argumentos y llevar cautivo cada pensamiento a Cristo. <button class='btn-verse' onclick='abrirModal(\"2 Corintios 10:5\", \"Derribando argumentos y toda altivez que se levanta contra el conocimiento de Dios...\")'>2 Corintios 10:5</button>",
+            "<strong>Confrontar con la Verdad:</strong> Solo la verdad de Dios nos hace libres de las mentiras que nos creemos. <button class='btn-verse' onclick='abrirModal(\"Juan 8:32\", \"y conoceréis la verdad, y la verdad os hará libres.\")'>Juan 8:32</button>",
+            "<strong>Renovación Humilde:</strong> Admitir que no lo sabemos todo y permitir que el Espíritu transforme nuestro entendimiento. <button class='btn-verse' onclick='abrirModal(\"Romanos 12:2\", \"No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento...\")'>Romanos 12:2</button>"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. Tener la Mente de Cristo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tener la mente de Cristo significa adoptar Su sentir: humildad, obediencia y enfoque en el propósito. Mientras que el enemigo trabaja de la mente al corazón y de ahí al acto, Cristo nos llama a una transformación integral. David venció a Goliat porque lo que declaró por fe dominaba lo que sus ojos veían. <button class='btn-verse' onclick='abrirModal(\"1 Corintios 2:16\", \"Porque ¿quién conoció la mente del Señor? ¿Quién le instruirá? Mas nosotros tenemos la mente de Cristo.\")'>1 Corintios 2:16</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> La ansiedad moderna es el equivalente al 'enebro' de Elías. Nos abrumamos por escenarios que solo existen en nuestra imaginación (infoxicación). Manejar los pensamientos hoy implica filtrar qué voces permitimos que hablen a nuestro interior: ¿la noticia alarmista de las redes o la promesa inamovible de Dios? Liderar tu mente es elegir tu dieta informativa."
+        }
+      ],
+      "gamificacion": {
+          "xp_lectura": 150,
+          "logro_id": "mente-renovada"
+        },
+      "diccionario": [
+        {
+          "palabra": "Argumentos (Logismos)",
+          "origen": "Griego",
+          "significado": "Se refiere a razonamientos, cálculos o imaginaciones humanas que intentan fortificarse contra la verdad divina."
+        }
+      ],
+      "desafío_practico": "Durante las próximas 24 horas, cada vez que un pensamiento negativo llegue, di en voz alta: 'Llevo este pensamiento cautivo a la obediencia a Cristo' y reemplázalo con una promesa bíblica específica.",
+      "conexiones": {
+        "huellas": [
+          { "id": "saul", "nombre": "Saúl", "razon": "Ejemplo de cómo la envidia mental destruye el reinado." },
+          { "id": "jonas", "nombre": "Jonás", "razon": "Muestra el peligro de las suposiciones y prejuicios mentales." },
+          { "id": "david", "nombre": "David", "razon": "Ejemplo de victoria al declarar la verdad de Dios sobre el miedo." }
+        ],
+        "cronos": [
+          { "id": "valle-ela", "nombre": "Valle de Ela", "razon": "Escenario donde la fe venció a la intimidación mental." }
+        ],
+        "aposento": [
+          { "id_oracion": "paz-mental", "tema": "Paz y Salud Mental", "accion": "Orar contra la ansiedad." }
+        ]
+      }
+    },
+
+    {
+      "id": "encuentros-transformadores-identidad-nueva",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "Encuentros que Transforman",
+      "subtitulo": "De la Religiosidad y el Pasado a una Nueva Vida",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "14 min",
+      "imagen_portada": "../img/estudios/nicodemo-samaritana.webp",
+      "tags": ["Nuevo Nacimiento", "Adoración", "Identidad", "Gracia"],
+      "versiculo_clave": {
+        "texto": "Respondió Jesús: De cierto, de cierto te digo, que el que no naciere de agua y del Espíritu, no puede entrar en el reino de Dios.",
+        "cita": "Juan 3:5"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/encuentro-pozo.webp",
+          "descripcion": "Jesús rompiendo barreras culturales y religiosas para alcanzar el corazón."
+        },
+        {
+          "tipo": "intro",
+          "texto": "Jesús no vino a establecer una nueva religión, sino a ofrecer una vida nueva. A través de dos encuentros contrastantes —un respetado teólogo de noche y una mujer marginada a plena luz del día— el Maestro nos enseña que no importa cuánto sepas o cuánto hayas fallado, el requisito siempre es el mismo: un encuentro personal con el Agua Viva y el Espíritu."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. Nicodemo: Cuando el conocimiento no es suficiente"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nicodemo representa la cumbre de la religión y la moralidad judía. Sin embargo, su estatus no podía darle acceso al Reino. Jesús le confronta con la necesidad de un 'nuevo nacimiento', un proceso que no es humano sino espiritual. <button class='btn-verse' onclick='abrirModal(\"Juan 3:3-5\", \"De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios... el que no naciere de agua y del Espíritu, no puede entrar en el reino de Dios.\")'>Juan 3:3-5</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> Nicodemo es el profesional exitoso de hoy que, a pesar de tener títulos, reconocimiento y una vida ética, siente un vacío existencial los domingos por la noche. Nos enseña que la 'actualización' que nuestra alma necesita no es intelectual, sino una regeneración completa del software espiritual que solo el Espíritu Santo puede ejecutar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Mujer Samaritana: Saciando la sed del alma"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "A diferencia de Nicodemo, esta mujer buscaba saciar su sed emocional y espiritual a través de relaciones fallidas. Jesús le revela que el 'agua viva' es la única capaz de detener la búsqueda incansable del corazón humano. <button class='btn-verse' onclick='abrirModal(\"Juan 4:13-14\", \"Cualquiera que bebiere de esta agua, volverá a tener sed; mas el que bebiere del agua que yo le daré, no tendrá sed jamás...\")'>Juan 4:13-14</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> La samaritana representa a quien busca sanar un corazón roto o una baja autoestima saltando de una relación a otra, o buscando validación en placeres temporales. El cántaro que ella dejó en el pozo es el símbolo de esos mecanismos de defensa que usamos para sobrevivir, pero que nunca nos quitan la sed. Jesús hoy te ofrece dejar de 'beber' del pasado para fluir en Su vida eterna."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "La religión discute dónde adorar; Jesús enseña cómo adorar: en espíritu y en verdad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Adoración en Espíritu y en Verdad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La transformación ocurre cuando dejamos de escondernos tras argumentos teológicos o geográficos. El Padre busca adoradores que se presenten sin máscaras. La mujer dejó su cántaro (su pasado y sus cargas) para convertirse en la primera evangelista de Samaria. <button class='btn-verse' onclick='abrirModal(\"Juan 4:23-24\", \"Mas la hora viene... cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad.\")'>Juan 4:23-24</button>"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Dejar el cántaro:</strong> Significa soltar lo que considerábamos indispensable para sobrevivir, confiando en el Espíritu.",
+            "<strong>Testimonio poderoso:</strong> La transformación de una vida es el argumento más convincente para otros. <button class='btn-verse' onclick='abrirModal(\"Juan 4:39\", \"Y muchos de los samaritanos de aquella ciudad creyeron en él por la palabra de la mujer...\")'>Juan 4:39</button>",
+            "<strong>Ver al Salvador:</strong> El encuentro personal supera cualquier rumor o tradición heredada."
+          ]
+        }
+      ],
+      "gamificacion": {
+          "xp_lectura": 130,
+          "logro_id": "nueva-criatura"
+        },
+      "diccionario": [
+        {
+          "palabra": "Nacer de Nuevo (Anōthen)",
+          "origen": "Griego",
+          "significado": "Significa nacer 'otra vez', pero también 'desde arriba'. Indica un origen celestial para una naturaleza que el hombre no puede producir por esfuerzo propio."
+        }
+      ],
+      "desafío_practico": "Identifica hoy si eres más como Nicodemo (confiando en tu conocimiento) o como la Samaritana (escondiéndote en tu pasado). Pasa 10 minutos en silencio pidiendo al Espíritu que 'sople' sobre tu vida.",
+      "conexiones": {
+        "huellas": [
+          { "id": "nicodemo", "nombre": "Nicodemo", "razon": "Transición desde la religión hacia una fe pública." },
+          { "id": "mujer-samaritana", "nombre": "Mujer Samaritana", "razon": "Transformación de identidad herida en voz de avivamiento." }
+        ],
+        "cronos": [
+          { "id": "pozo-jacob", "nombre": "Pozo de Jacob (Sicar)", "razon": "Lugar de herencia ancestral que se convirtió en revelación mesiánica." }
+        ],
+        "aposento": [
+          { "id_oracion": "nuevo-nacimiento", "tema": "Nuevo Nacimiento", "accion": "Orar por quienes conocen la letra pero no al autor." }
+        ]
+      }
+    },
+    {
+      "id": "presencia-vs-costumbre-honra-u-omision",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "Presencia vs. Costumbre",
+      "subtitulo": "El Secreto de la Bendición en el Hogar",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "11 min",
+      "imagen_portada": "../img/estudios/arca-presencia.webp",
+      "tags": ["Presencia de Dios", "Bendición", "Santidad", "Hogar"],
+      "versiculo_clave": {
+        "texto": "Y estuvo el arca de Jehová en casa de Obed-edom geteo tres meses; y bendijo Jehová a Obed-edom y a toda su casa.",
+        "cita": "2 Samuel 6:11"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/casa-obed-edom.webp",
+          "descripcion": "El Arca de Dios trayendo transformación y bendición a una familia ordinaria."
+        },
+        {
+          "tipo": "intro",
+          "texto": "A veces tenemos la Presencia de Dios cerca, pero no produce fruto; otras veces, su llegada transforma todo en cuestión de meses. La diferencia no está en Dios, sino en cómo hospedamos Su gloria. A través de las casas de Abinadab y Obed-edom, descubriremos la llave para que el Arca de Jehová no sea solo un mueble religioso en nuestra sala, sino la fuente de nuestra bendición."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Peligro de la Familiaridad: La Casa de Abinadab"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El Arca estuvo en casa de Abinadab por veinte largos años. Sin embargo, no hay registro de bendiciones extraordinarias en ese hogar. ¿Por qué? Porque se acostumbraron a ella. Cuando la Presencia se vuelve rutina, perdemos el temor reverente. <button class='btn-verse' onclick='abrirModal(\"1 Samuel 7:1-2\", \"Vinieron los de Quiriat-jearim y llevaron el arca de Jehová, y la pusieron en casa de Abinadab... pasaron muchos días, veinte años; y toda la casa de Israel lamentaba en pos de Jehová.\")'>1 Samuel 7:1-2</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> Tener una Biblia abierta en el Salmo 91 como amuleto o asistir a la iglesia por inercia social es vivir en la casa de Abinadab. Podemos estar rodeados de objetos cristianos y vocabulario bíblico, pero si no hay asombro, no hay transformación. La costumbre es el ruido que nos impide escuchar la voz de Dios aunque esté en nuestra propia sala."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "La familiaridad con lo sagrado es el veneno de la verdadera adoración."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Impacto de la Honra: La Casa de Obed-edom"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tras el incidente de Uza, David desvió el Arca a casa de Obed-edom el geteo. Lo que para otros era un riesgo, para esta familia fue una oportunidad de honra absoluta. En solo tres meses, la bendición fue tan evidente que llegó a oídos del Rey. <button class='btn-verse' onclick='abrirModal(\"2 Samuel 6:10-12\", \"Jehová ha bendecido la casa de Obed-edom y todo lo que tiene, a causa del arca de Dios.\")'>2 Samuel 6:10-12</button>"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Honra sobre Rutina:</strong> Obed-edom hospedó al Rey de Gloria con temor reverente.",
+            "<strong>Bendición Integral:</strong> La Presencia afecta finanzas, relaciones, salud y paz mental.",
+            "<strong>Testimonio Público:</strong> Cuando Dios bendice una casa que le honra, el entorno lo nota."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> El Arca hoy no es un objeto, es la persona del Espíritu Santo habitando en nosotros. Bendecir 'todo lo que tienes' en el siglo XXI significa que cuando honras a Dios en lo privado, Él prospera tu salud emocional, tus proyectos laborales y la atmósfera de tu hogar. No necesitas 20 años de rituales; necesitas 3 meses de entrega radical y consciente."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. ¿Cómo estamos cargando la Gloria?"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Uza murió por intentar sostener el Arca a su manera, en un carro nuevo, en lugar de llevarla sobre los hombros. No podemos tratar de 'ayudar' a Dios con métodos humanos o estrategias de marketing que carecen de santidad. La Presencia de Dios se porta con obediencia, no con buenas intenciones cargadas de irreverencia."
+        }
+      ],
+      "gamificacion": {
+          "xp_lectura": 110,
+          "logro_id": "huesped-de-gloria"
+        },
+      "diccionario": [
+        {
+          "palabra": "Temeridad (Shal)",
+          "origen": "Hebreo",
+          "significado": "Error por negligencia o irreverencia. Tratar lo divino como si fuera ordinario o común."
+        }
+      ],
+      "desafío_practico": "Identifica un área de tu vida espiritual que se ha vuelto 'rutina'. Pide perdón por la falta de asombro y dedica 15 minutos hoy a adorar a Dios en tu hogar, como si el Arca acabara de entrar por tu puerta.",
+      "conexiones": {
+        "huellas": [
+          { "id": "david", "nombre": "David", "razon": "Aprendió que la Presencia no se manipula, se adora." },
+          { "id": "uza", "nombre": "Uza", "razon": "Advertencia sobre la irreverencia espiritual." }
+        ],
+        "cronos": [
+          { "id": "quiriat-jearim", "nombre": "Quiriat-jearim", "razon": "Lugar de la presencia estancada por la costumbre." }
+        ],
+        "aposento": [
+          { "id_oracion": "presencia-hogar", "tema": "Presencia en el Hogar", "accion": "Orar por una atmósfera de honra." }
+        ]
+      }
+    },
+    {
+      "id": "fortaleza-interior-cristiana-caracter",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "La Fortaleza Interior del Cristiano",
+      "subtitulo": "Construyendo un Carácter Inamovible en un Mundo Inestable",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/fortaleza-interior.webp",
+      "tags": ["Carácter", "Disciplina", "Verdad", "Dominio Propio"],
+      "versiculo_clave": {
+        "texto": "Santifícalos en tu verdad; tu palabra es verdad.",
+        "cita": "Juan 17:17"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/fortaleza-roca.webp",
+          "descripcion": "El carácter cristiano se forja en la disciplina y la dependencia de Dios."
+        },
+        {
+          "tipo": "intro",
+          "texto": "La fortaleza interior no es la ausencia de problemas, sino la firmeza del carácter cuando estos llegan. Ser fuerte en el espíritu requiere una vida afirmada en la Verdad, paciencia en la espera y una disciplina innegociable. No se trata de fuerza humana, sino de una vida rendida que ha aprendido a decir 'No' al mundo y 'Sí' a Dios."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. Un Corazón Afirmado en la Verdad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para no ser niños fluctuantes llevados por cualquier viento de doctrina o engaño, debemos sacar de nuestra vida toda falsedad. La mentira debilita el espíritu; la Verdad lo hace libre. <button class='btn-verse' onclick='abrirModal(\"Efesios 4:14\", \"para que ya no seamos niños fluctuantes, llevados por doquiera de todo viento de doctrina...\")'>Efesios 4:14</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> En la era de la 'posverdad' y las fake news, un cristiano sin fundamento es una presa fácil. Afirmarse en la Verdad hoy significa que tu estándar de realidad no es lo que dice la mayoría en redes sociales, sino lo que Dios ha declarado en Su Palabra. La integridad es tu mejor armadura contra la confusión moderna."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Arte de Esperar y la Disciplina de la Piedad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La fortaleza se cultiva en el silencio de la espera y en el ejercicio diario de la piedad. No es un evento emocional, es un entrenamiento. <button class='btn-verse' onclick='abrirModal(\"Lamentaciones 3:25\", \"Bueno es Jehová a los que en él esperan, al alma que le busca.\")'>Lamentaciones 3:25</button>"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Hábitos Espirituales:</strong> La disciplina en la Palabra no es solo lectura; es meditación y obediencia para no pecar. <button class='btn-verse' onclick='abrirModal(\"Salmos 119:11\", \"En mi corazón he guardado tus dichos...\")'>Salmos 119:11</button>",
+            "<strong>Oración Constante:</strong> La oración moldea el carácter y nos mantiene en una vida dependiente. <button class='btn-verse' onclick='abrirModal(\"Colosenses 4:2\", \"Perseverad en la oración, velando en ella con acción de gracias.\")'>Colosenses 4:2</button>",
+            "<strong>Dominio Propio:</strong> Aprender a decir 'No' a los deseos mundanos para vivir piadosamente hoy. <button class='btn-verse' onclick='abrirModal(\"Tito 2:11-12\", \"...renunciando a la impiedad y a los deseos mundanos...\")'>Tito 2:11-12</button>"
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>Puente al Hoy:</strong> Vivimos en la cultura del 'yo lo quiero ya'. Ejercitarse en la piedad hoy es el equivalente a ir al gimnasio espiritual: requiere constancia cuando no tienes ganas y disciplina cuando el mundo te ofrece atajos fáciles. El dominio propio es el filtro que decide qué entra a tu mente y qué sale de tu boca."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Obediencia Práctica: El Ejemplo de Daniel"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La fortaleza se demuestra en la constancia. Daniel no cambió su hábito de oración ante un edicto de muerte; simplemente continuó haciendo lo que 'solía hacer antes'. La obediencia real es la que se practica aun bajo presión. <button class='btn-verse' onclick='abrirModal(\"Daniel 6:10\", \"Cuando Daniel supo que el edicto había sido firmado... se arrodillaba tres veces al día, y oraba...\")'>Daniel 6:10</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Tener el carácter de Cristo es tener firmeza: que tu sí sea sí, y tu no sea no."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Piedad (Eusebeia)",
+          "origen": "Griego",
+          "significado": "Significa una devoción activa y práctica. No es un sentimiento, sino un estilo de vida que busca honrar a Dios en cada acción cotidiana."
+        }
+      ],
+      "desafio_practico": "Identifica un hábito espiritual que hayas descuidado (oración, meditación o dominio propio). Durante los próximos 3 días, imita a Daniel y establece una hora fija para practicarlo, sin importar las circunstancias.",
+      "gamificacion": {
+        "xp_lectura": 160,
+        "logro_id": "caracter-de-roca"
+      },
+      "conexiones": {
+        "huellas": [
+          { "id": "daniel", "nombre": "Daniel", "razon": "Ejemplo de constancia inamovible ante la persecución." },
+          { "id": "timoteo", "nombre": "Timoteo", "razon": "Exhortado a ejercitarse en la piedad desde su juventud." }
+        ],
+        "cronos": [
+          { "id": "babilonia", "nombre": "Babilonia", "razon": "El sistema mundial que puso a prueba la firmeza de Daniel." }
+        ],
+        "aposento": [
+          { "id_oracion": "dominio-propio", "tema": "Dominio Propio", "accion": "Orar por firmeza para decir no al mundo." }
+        ]
+      }
+    },
+    {
+      "id": "pesca-milagrosa-obediencia-llamado",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "La Pesca Milagrosa: Cuando la Obediencia Activa lo Sobrenatural",
+      "subtitulo": "Del Cansancio al Propósito: Dejando las Redes Vacías por una Vida de Fruto",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/pesca-milagrosa.webp",
+      "tags": ["Obediencia", "Fe", "Propósito", "Milagros"],
+      "versiculo_clave": {
+        "texto": "Respondiendo Simón, le dijo: Maestro, toda la noche hemos estado trabajando, y nada hemos pescado; mas en tu palabra echaré la red.",
+        "cita": "Lucas 5:5"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/redes-llenas.webp",
+          "descripcion": "La obediencia a la voz de Jesús transforma el fracaso en abundancia."
+        },
+        {
+          "tipo": "intro",
+          "texto": "A veces, Dios permite que nuestras redes regresen vacías para que dejemos de confiar en nuestra propia habilidad y comencemos a depender de Su Palabra. La historia de la pesca milagrosa no es solo un relato sobre peces; es el proceso divino de transformar a un pescador cansado en un apóstol con propósito."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Milagro ocurre cuando obedecemos aunque no entendamos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Pedro estaba agotado. Había trabajado toda la noche, el mejor momento para pescar, y no obtuvo nada. Jesús le pide pescar a plena luz del día, algo que humanamente carecía de lógica. Sin embargo, Pedro decide que la Palabra de Jesús tiene más peso que su experiencia profesional. <button class='btn-verse' onclick='abrirModal(\"Hebreos 11:8\", \"Por la fe Abraham, siendo llamado, obedeció para salir al lugar que había de recibir como herencia; y salió sin saber a dónde iba.\")'>Hebreos 11:8</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "El esfuerzo humano tiene un límite, pero la obediencia a Dios no tiene fronteras. Él da esfuerzo al cansado y multiplica las fuerzas al que no tiene ningunas. (Isaías 40:29)"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Quizás hoy tus 'redes' están vacías en el área financiera o laboral. Has enviado currículums o intentado estrategias sin éxito. Este es el momento de lavar las redes, no de abandonarlas. Jesús se sube a tu barca de escasez para mostrarte Su autoridad sobre la economía."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Bendición que Sobreabunda"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando Dios bendice, lo hace de tal manera que nuestras barcas se hunden y necesitamos llamar a otros para compartir la abundancia. Dios no solo suple la necesidad, Él sobreabunda. <button class='btn-verse' onclick='abrirModal(\"Efesios 3:20\", \"Y a Aquel que es poderoso para hacer todas las cosas mucho más abundantemente de lo que pedimos o entendemos...\")'>Efesios 3:20</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Esta abundancia es una promesa para aquellos que confían y ponen a Dios primero. <button class='btn-verse' onclick='abrirModal(\"Malaquías 3:10\", \"...y probadme ahora en esto... si no os abriré las ventanas de los cielos, y derramaré sobre vosotros bendición hasta que sobreabunde.\")'>Malaquías 3:10</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Si has intentado 'pescar' la paz en tu familia con tus propias palabras y solo has hallado silencio, la obediencia significa actuar bajo Su Palabra (perdonar o callar). Verás un milagro de reconciliación que sobrepasa tu entendimiento."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Milagro revela quién es Jesús"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El resultado final del milagro no fue el dinero de los peces, sino la revelación de la santidad de Jesús y la condición del hombre. Pedro no dijo 'gracias por los peces', sino 'Apártate de mí, Señor, porque soy hombre pecador'. El milagro nos lleva a ver a Dios cara a cara. <button class='btn-verse' onclick='abrirModal(\"Job 42:5\", \"De oídas te había oído; Mas ahora mis ojos te ven.\")'>Job 42:5</button>"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. El Milagro transforma el llamado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jesús no quería que Pedro fuera simplemente un pescador rico, sino un pescador de hombres. El milagro es el puente hacia una nueva identidad. <button class='btn-verse' onclick='abrirModal(\"2 Corintios 5:17\", \"De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas.\")'>2 Corintios 5:17</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Al igual que Pedro, puedes estar en la cima de tu carrera, pero sentir un vacío. Dios usa tu 'barca' profesional como plataforma para un llamado más alto. Tu profesión es el medio, pero el Reino es el fin."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Qué área de tu vida se siente hoy como una 'noche de pesca vacía'?",
+            "¿Estás dispuesto a lanzar la red una vez más solo porque Él lo ha dicho?",
+            "¿Qué redes viejas necesitas dejar hoy para seguir Tu verdadero llamado?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Boga mar adentro",
+          "origen": "Griego (Epanagage)",
+          "significado": "Significa conducir o llevar hacia lo profundo. Espiritualmente, es el llamado a salir de la seguridad de la orilla (lo superficial) para confiar en Dios en lo profundo (lo desconocido)."
+        }
+      ],
+      "desafio_practico": "Identifica un área donde te sientas 'cansado de trabajar sin ver resultados'. Esta semana, decide obedecer una instrucción bíblica específica en esa área, declarando: 'Mas en tu palabra echaré la red'.",
+      "gamificacion": {
+        "xp_lectura": 160,
+        "logro_id": "pescador-de-hombres"
+      },
+      "conexiones": {
+        "huellas": [
+          { "id": "pedro", "nombre": "Simón Pedro", "razon": "Su vida fue transformada de un pescador de Galilea a una columna de la Iglesia." },
+          { "id": "juan-apostol", "nombre": "Juan", "razon": "Compañero de Simón que también dejó sus redes para seguir a la Verdad." }
+        ],
+        "cronos": [
+          { "id": "lago-genesaret", "nombre": "Mar de Galilea", "razon": "El escenario de los milagros más profundos de provisión y fe." }
+        ],
+        "aposento": [
+          { "id_oracion": "proposito-y-llamado", "tema": "Propósito y Llamado", "accion": "Orar para tener la valentía de dejar las redes viejas." }
+        ]
+      }
+    },
+    {
+      "id": "sangre-cordero-antidoto-eterno",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "El Antídoto Eterno: La Ciencia y Fe de la Sangre del Cordero",
+      "subtitulo": "Cómo el diseño biológico del suero antiofídico revela el plan de salvación",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/sangre-cordero-antidoto.webp",
+      "tags": ["Salvación", "Ciencia", "Sangre de Cristo", "Victoria"],
+      "versiculo_clave": {
+        "texto": "Pero él herido fue por nuestras rebeliones, molido por nuestros pecados; el castigo de nuestra paz fue sobre él, y por su llaga fuimos nosotros curados.",
+        "cita": "Isaías 53:5"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/cordero-serpiente.webp",
+          "descripcion": "El Cordero de Dios absorbiendo el veneno para generar nuestra cura."
+        },
+        {
+          "tipo": "intro",
+          "texto": "En la medicina moderna, el suero antiofídico es el único recurso capaz de neutralizar el veneno mortal de una serpiente. Lo que muchos desconocen es que este antídoto se produce inyectando veneno en un cordero para que su sangre genere anticuerpos. Este proceso científico es un eco perfecto de lo que sucedió en el Calvario: el Cordero de Dios recibió el veneno del pecado para que Su sangre se convirtiera en nuestro antídoto eterno."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. La Mordedura en el Edén y el Veneno del Pecado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Desde el Génesis, la serpiente inyectó un veneno espiritual en la humanidad: la desobediencia y la muerte. Este veneno no se cura con buenas intenciones ni con religión; se cura con un antídoto de la misma naturaleza pero con un poder superior. <button class='btn-verse' onclick='abrirModal(\"Génesis 3:15\", \"Y pondré enemistad entre ti y la mujer, y entre tu simiente y la simiente suya; ésta te herirá en la cabeza, y tú le herirás en el calcañar.\")'>Génesis 3:15</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Científicamente, el cuerpo del cordero absorbe la toxina y, sin morir, produce una respuesta inmunológica invencible. Espiritualmente, Jesús absorbió la muerte para darnos Su vida."
+        },
+        {
+          "tipo": "destacado",
+          "texto": " Puente al Hoy: Quizás sientes que el veneno del pasado, de la culpa o de una adicción corre por tus venas. Has intentado 'curarte' solo, pero el veneno es más fuerte. Reconoce hoy que necesitas el suero que solo el Cordero puede administrarte. No luches contra el veneno con tus fuerzas; aplica la Sangre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Cordero: El Único Donante Compatible"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para que un suero sea efectivo, debe provenir de un ser que resista el ataque. Jesucristo fue el único hombre que caminó sobre la tierra sin pecado, lo que lo hizo el donante perfecto. Su sangre pura no fue contaminada por el veneno, sino que lo venció. <button class='btn-verse' onclick='abrirModal(\"1 Pedro 1:19\", \"sino con la sangre preciosa de Cristo, como de un cordero sin mancha y sin contaminación.\")'>1 Pedro 1:19</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La victoria no estuvo en evitar la mordedura, sino en recibirla y transformarla en medicina. <button class='btn-verse' onclick='abrirModal(\"Apocalipsis 12:11\", \"Y ellos le han vencido por medio de la sangre del Cordero y de la palabra del testimonio de ellos...\")'>Apocalipsis 12:11</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": " Puente al Hoy: En los momentos de mayor ataque espiritual, recuerda que tu 'sistema inmunológico espiritual' depende de la Sangre de Cristo. Cuando el enemigo intente inyectar duda o temor, declara que el antídoto ya está activo en ti. El veneno pierde su efecto cuando toca la Sangre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Aplicando el Suero en la Vida Diaria"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Un antídoto en el laboratorio no salva vidas; debe ser inyectado. La sangre de Cristo se aplica mediante la fe y la confesión. No es un amuleto, es una realidad biológica del espíritu que neutraliza la toxicidad del mundo. <button class='btn-verse' onclick='abrirModal(\"Hebreos 9:14\", \"¿cuánto más la sangre de Cristo... limpiará vuestras conciencias de obras muertas para que sirváis al Dios vivo?\")'>Hebreos 9:14</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": " Puente al Hoy: Así como un médico administra el suero ante una emergencia, tú debes administrar la Palabra y la Sangre sobre tus problemas. Si el veneno del odio o la amargura intenta entrar en tu corazón, aplica el antídoto del perdón que fluye de la cruz. No dejes que el veneno se propague; tienes la cura a tu disposición."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Qué veneno (miedo, pecado, amargura) sientes que ha estado afectando tu paz últimamente?",
+            "¿Has estado confiando en tus propias 'medicinas' en lugar de aplicar el suero de la Sangre del Cordero?",
+            "¿Crees que el sacrificio de Jesús fue suficiente para neutralizar cualquier ataque que enfrentes hoy?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Antiofídico",
+          "origen": "Griego (Ophis - Serpiente)",
+          "significado": "Sustancia creada para combatir las toxinas del veneno de serpiente. En el contexto espiritual, representa la Sangre de Cristo como la única solución contra la naturaleza caída."
+        }
+      ],
+      "desafio_practico": "Esta semana, cada vez que sientas un pensamiento 'tóxico' o un ataque del enemigo, detente y ora: 'La Sangre del Cordero es mi antídoto. Ningún veneno tiene poder sobre mi vida'. Visualiza científicamente cómo Su sangre limpia la tuya.",
+      "gamificacion": {
+        "xp_lectura": 180,
+        "logro_id": "antidoto-invencible"
+      },
+      "conexiones": {
+        "huellas": [
+          { "id": "juan-bautista", "nombre": "Juan el Bautista", "razon": "El primero en identificar a Jesús como el Cordero que quita el pecado del mundo." },
+          { "id": "moises", "nombre": "Moisés", "razon": "Levantó la serpiente de bronce en el desierto como sombra del antídoto que vendría." }
+        ],
+        "cronos": [
+          { "id": "golgota-sepulcro", "nombre": "Monte Calvario", "razon": "El lugar geográfico donde el Cordero recibió la mordedura para generar el suero eterno." }
+        ],
+        "aposento": [
+          { "id_oracion": "victoria-por-la-sangre", "tema": "Victoria por la Sangre", "accion": "Orar aplicando el poder protector y sanador de la sangre de Cristo." }
+        ]
+      }
+    },
+    {
+      "id": "si-la-iglesia-calla-piedras-hablaran",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "Si la Iglesia Calla, las Piedras Hablarán",
+      "subtitulo": "Cuando la Creación se convierte en el Testigo Irrefutable de la Verdad",
+      "autor": "Códice",
+      "fecha_publicacion": "Febrero 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/piedras-clamando.webp",
+      "tags": [
+        "Testimonio",
+        "Evangelismo",
+        "Ciencia y Fe",
+        "Valentía"
+      ],
+      "versiculo_clave": {
+        "texto": "Él, respondiendo, les dijo: Os digo que si éstos callaran, las piedras clamarían.",
+        "cita": "Lucas 19:40"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/geologia-biblica.webp",
+          "descripcion": "La creación misma rinde testimonio de la majestad de Cristo."
+        },
+        {
+          "tipo": "intro",
+          "texto": "A lo largo de la historia, el mundo ha intentado silenciar el mensaje de la Cruz. Sin embargo, hemos descubierto algo asombroso: cuando los hombres callan, la Tierra habla. La geología confirma terremotos bíblicos en las capas del Mar Muerto y la astronomía registra cielos oscurecidos y lunas de sangre. La Verdad es tan grande que, si el ser humano decide cerrar la boca, la creación misma abrirá la suya para testificar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Intento de Silenciar la Verdad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Durante la entrada triunfal a Jerusalén, los religiosos intentaron callar a los discípulos. Les incomodaba el gozo y la verdad de que el Rey había llegado. Hoy, el sistema del mundo intenta hacer lo mismo: nos dice que la Biblia es un mito y que la fe es ignorancia. <button class='btn-verse' onclick='abrirModal(\"Hechos 4:20\", \"porque no podemos dejar de decir lo que hemos visto y oído.\")'>Hechos 4:20</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "El silencio de la Iglesia no detiene a Dios; Él simplemente levanta a la creación como Su testigo principal."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> En tu oficina, en la universidad o en el grupo de WhatsApp de la familia, el ambiente hostil puede invitarte a guardar silencio. Pero recuerda: la Verdad no necesita ser defendida, solo necesita ser soltada. No dejes que el miedo al rechazo apague tu voz."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Las Piedras que Claman en el Siglo XXI"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando los libros de historia intentaron ignorar el Gólgota, las rocas del Mar Muerto guardaron la cicatriz del terremoto. Cuando el sol se oscureció, el universo dejó la firma del Creador. Dios no se queda sin testigos. <button class='btn-verse' onclick='abrirModal(\"Salmos 19:1\", \"Los cielos cuentan la gloria de Dios, y el firmamento anuncia la obra de sus manos.\")'>Salmos 19:1</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> Así como la geología y la astronomía hoy rinden testimonio del poder de Dios, tu vida diaria debe ser una evidencia tangible de Su amor. Si Dios pudo hacer que un terremoto testificara Su dolor en la cruz, ¡cuánto más podrá hacer a través de tu transformación personal!"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Un Mensaje Respaldado por el Universo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tienes la Verdad absoluta respaldada por el universo entero. No somos portadores de una fábula, sino de un poder que activa la salvación. La creación ya hizo su trabajo; ahora nos toca a nosotros. <button class='btn-verse' onclick='abrirModal(\"Romanos 1:16\", \"Porque no me avergüenzo del evangelio, porque es poder de Dios para salvación a todo aquel que cree...\")'>Romanos 1:16</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> No permitas que unas piedras inanimadas hagan el trabajo que te corresponde a ti. Levantar tu voz hoy significa ser luz en medio de las tinieblas y anunciar que Jesucristo sigue siendo el Rey de reyes."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He guardado silencio en situaciones donde mi testimonio pudo haber marcado la diferencia?",
+            "¿Me siento respaldado por la evidencia del poder de Dios en la creación para hablar con autoridad?",
+            "¿Qué 'piedras' en mi entorno están clamando por la verdad mientras yo permanezco callado?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Clamarán",
+          "origen": "Griego (Kraxousin)",
+          "significado": "Gritar con fuerza, una expresión de urgencia y testimonio público que no puede ser ignorado."
+        }
+      ],
+      "desafio_practico": "Esta semana, busca una oportunidad específica para compartir una de las evidencias científicas de la Biblia que has aprendido en Códice con alguien que no crea. Deja que la creación te sirva de puente para compartir el Evangelio.",
+      "gamificacion": {
+        "xp_lectura": 150,
+        "logro_id": "voz-de-trueno"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "pablo",
+            "nombre": "Apóstol Pablo",
+            "razon": "Nunca se avergonzó del evangelio, incluso frente a las autoridades de su tiempo."
+          },
+          {
+            "id": "pedro",
+            "nombre": "Simón Pedro",
+            "razon": "Su valentía en Pentecostés rompió el silencio de los discípulos."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "golgota-sepulcro",
+            "nombre": "Monte Calvario",
+            "razon": "Donde las rocas se partieron para testificar la muerte del Hijo de Dios."
+          },
+          {
+            "id": "templo-jerusalen",
+            "nombre": "Entrada Triunfal",
+            "razon": "El lugar donde Jesús declaró que las piedras clamarían."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "valentia-testimonio",
+            "tema": "Valentía y Testimonio",
+            "accion": "Pedir denuedo para anunciar la Verdad sin temor."
+          }
+        ]
+      }
+    },
+    {
+      "id": "el-dios-de-oportunidades",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "El Dios de Oportunidades",
+      "subtitulo": "Nuevas son cada mañana: Gracia, Arrepentimiento y Restauración",
+      "autor": "Códice (Basado en Pr. Ana Ruth Solano)",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "12 min",
+      "imagen_portada": "../img/estudios/nuevas-misericordias.webp",
+      "tags": [
+        "Gracia",
+        "Restauración",
+        "Arrepentimiento",
+        "Perdón"
+      ],
+      "versiculo_clave": {
+        "texto": "Por la misericordia de Jehová no hemos sido consumidos, porque nunca decayeron sus misericordias. Nuevas son cada mañana; grande es tu fidelidad.",
+        "cita": "Lamentaciones 3:22-23"
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/david-arrepentimiento.webp",
+          "descripcion": "Momento de profunda reflexión y arrepentimiento genuino del Rey David."
+        },
+        {
+          "tipo": "intro",
+          "texto": "Como seres humanos fallamos constantemente. Es ahí donde la Palabra nos recuerda una verdad fundamental: si seguimos en pie, no es por nuestra perfección, sino porque por la misericordia del Señor no hemos sido consumidos. Dios es un Dios de amor y misericordia, pero también es un Dios de orden."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. Dios es un Dios de Segundas Oportunidades"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Él no está buscando pretextos para condenarnos. Cuando Pedro negó a Jesús tres veces, el Señor no anuló su llamado. Al contrario, en la orilla del mar de Galilea, Jesús lo restauró preguntándole tres veces si lo amaba, dándole una oportunidad directa de sanar su traición y encomendándole pastorear Sus ovejas. Pese a la falta, Dios no lo dejó sin ministerio. <button class='btn-verse' onclick='abrirModal(\"Juan 21:15\", \"Jesús dijo a Simón Pedro: Simón, hijo de Jonás, ¿me amas más que éstos? \")'>Juan 21:15</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": " Puente al Hoy: Tu pasado o tus errores más recientes no definen tu capacidad de ser usado por Dios. Así como Jesús esperó a Pedro en la orilla para restaurarlo, Él espera por ti hoy para recordarte que Su propósito sigue en pie a pesar de tus caídas."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Las Oportunidades Requieren Arrepentimiento Genuino"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El rey David cometió un pecado gravísimo con Betsabé y trató de encubrirlo enviando a Urías a la muerte. Sin embargo, cuando fue confrontado, hubo un arrepentimiento genuino. Un arrepentimiento real ocurre cuando decides apartarte del pecado, no solo cuando sientes remordimiento por haber sido descubierto. A Dios no le gusta que pedir perdón se convierta en un ritual vacío. <button class='btn-verse' onclick='abrirModal(\"Proverbios 28:13\", \"El que encubre sus pecados no prosperará; Mas el que los confiesa y se aparta alcanzará misericordia.\")'>Proverbios 28:13</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Dios te da la oportunidad de salir del lugar donde fallaste, pero el arrepentimiento es la puerta por la que debes cruzar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Oportunidad No es Licencia para Pecar"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Bajo ninguna condición podemos prosperar si decidimos instalarnos voluntariamente en el pecado. La gracia de Dios es un rescate, no un permiso. Como advierte el apóstol Pablo, si hemos muerto al pecado, no podemos seguir viviendo en él esperando que la gracia actúe como una póliza de seguro. <button class='btn-verse' onclick='abrirModal(\"Romanos 6:1-2\", \"¿Perseveraremos en el pecado para que la gracia abunde? En ninguna manera.\")'>Romanos 6:1-2</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": " Puente al Hoy: No confundas la paciencia de Dios con Su aprobación. La oportunidad que recibes hoy es para transformar tu estilo de vida, no para justificar la persistencia en aquello que te aleja de Su presencia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. Somos Llamados a dar Oportunidades a Otros"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "José fue vendido y traicionado por sus hermanos, pero en lugar de vengarse, entendió el propósito de Dios y les extendió gracia. Bernabé vio el fruto de arrepentimiento en Pablo cuando todos le tenían terror, y decidió darle una oportunidad que cambió la historia de la Iglesia. Si Cristo nos ha dado a nosotros tantas oportunidades, no tenemos el derecho de negarle el perdón a quienes nos rodean. <button class='btn-verse' onclick='abrirModal(\"Efesios 4:32\", \"Antes sed benignos unos con otros, misericordiosos, perdonándoos unos a otros...\")'>Efesios 4:32</button>"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Hay algún pecado que necesitas dejar de encubrir para alcanzar misericordia?",
+            "¿Hay alguien a quien Dios te está pidiendo que le extiendas la misma gracia que Él te ha dado?",
+            "¿Estás viviendo en la libertad del perdón o en la esclavitud del remordimiento?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Misericordia",
+          "origen": "Hebreo (Chesed)",
+          "significado": "Amor leal y compasión inquebrantable de Dios, que no nos da el castigo que nuestras acciones merecen."
+        }
+      ],
+      "desafio_practico": "Evalúa tu corazón hoy: ¿Hay algún pecado que necesitas dejar de encubrir para alcanzar misericordia? Decide hoy extender perdón a alguien que te haya fallado.",
+      "gamificacion": {
+        "xp_lectura": 120,
+        "logro_id": "corazon-restaurado"
+      },
+      "conexiones": {
+        "huellas": [
+          { "id": "pedro", "nombre": "Simón Pedro", "razon": "Experimentó la restauración total tras negar a Jesús en el Mar de Galilea. " },
+          { "id": "david", "nombre": "Rey David", "razon": "Ejemplo de arrepentimiento genuino tras su fracaso moral con Betsabé. ]" },
+          { "id": "betsabe", "nombre": "Betsabé", "razon": "Su historia con David muestra cómo Dios puede redimir situaciones de pecado profundo y dolor. " },
+          { "id": "urias-heteo", "nombre": "Urías el Heteo", "razon": "Su integridad resalta la gravedad del pecado de David, quien intentó encubrir su falta enviándolo a la muerte. " },
+          { "id": "jose-egipto", "nombre": "José", "razon": "Entendió el propósito de Dios y extendió gracia y perdón a sus hermanos tras la traición." },
+          { "id": "pablo", "nombre": "Apóstol Pablo", "razon": "Recibió una segunda oportunidad de vida y ministerio tras perseguir a la Iglesia. " },
+          { "id": "bernabe", "nombre": "Bernabé", "razon": "Fue el instrumento de Dios para dar una oportunidad a Pablo cuando todos le temían. " }
+        ],
+        "cronos": [
+          { "id": "lago-genesaret", "nombre": "Mar de Galilea", "razon": "Lugar donde Jesús restauró a Pedro dándole una nueva oportunidad de servicio. " }
+        ],
+        "aposento": [
+          { "id_oracion": "arrepentimiento-genuino", "tema": "Arrepentimiento y Perdón", "accion": "Orar por un corazón limpio y la capacidad de perdonar a otros. " }
+        ]
+    }
+    },
+    {
+      "id": "pacto-mesa-del-rey",
+      "activo": true,
+      "tipo": "tematico",
+      "titulo": "El Pacto que nos sentó a la Mesa del Rey",
+      "subtitulo": "De la vergüenza de Lo-debar a la complacencia del Padre",
+      "autor": "Domingo Curbeira ",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/mesa-del-rey.webp",
+      "tags": [
+        "Gracia",
+        "Identidad",
+        "Pacto",
+        "Restauración"
+      ],
+      "versiculo_clave": {
+        "texto": "Este es mi Hijo amado, en quien tengo complacencia.",
+        "cita": "Mateo 3:17 "
+      },
+      "contenido": [
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/mefiboset-mesa.webp",
+          "descripcion": "El mantel del Rey cubriendo la debilidad del invitado."
+        },
+        {
+          "tipo": "intro",
+          "texto": "Hay momentos donde el 'Código' deja de ser letra muerta y se convierte en un abrazo que lo cambia todo. Muchos viven agotados tratando de 'ganar' un amor que ya les pertenece, escondidos en su propio 'Lo-debar' por miedo al fracaso. Pero hoy quitamos el velo a la mirada del Padre: un Dios que no busca méritos, sino que nos busca por causa de un Pacto eterno."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Misterio del Espejo Celestial: La Imputación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando tú te miras, sueles ver tus deudas y fracasos; pero cuando Dios te mira, Él ve a Jesucristo. Teológicamente, esto se conoce como <strong>'Imputación'</strong>: la perfección de Jesús ha sido puesta sobre ti como un manto real. No es que el Padre sea ciego a tus fallos, es que decidió que la justicia de Su Hijo fuera la tuya. <button class='btn-verse' onclick='abrirModal(\"2 Corintios 5:21\", \"Al que no conoció pecado, por nosotros lo hizo pecado, para que nosotros fuésemos hechos justicia de Dios en él.\")'>2 Corintios 5:21</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> El Padre no te ama 'a pesar' de quién eres; te ama con la misma complacencia con la que ama a Jesús. Tu identidad no es un objetivo a alcanzar, es un regalo que ya has recibido."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Orden del Reino: Ser antes de Hacer"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nota este detalle vital: Dios declaró Su complacencia sobre Jesús antes de que sanara a un enfermo o multiplicara los panes. El sistema del mundo exige resultados para otorgar afecto, pero el Padre establece Su amor como el fundamento, no como el premio. No trabajas para que Él esté orgulloso de ti; Él ya lo está porque eres Su hijo. <button class='btn-verse' onclick='abrirModal(\"Mateo 3:17\", \"Y hubo una voz de los cielos, que decía: Este es mi Hijo amado, en quien tengo complacencia.\")'>Mateo 3:17 </button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> Mefiboset era lisiado y estaba escondido por miedo, pero el Rey lo mandó a buscar no por sus méritos, sino por amor a otro (Jonatán). De la misma manera, tu silla en la mesa está asegurada por el amor inquebrantable del Padre hacia Su Hijo, Jesús."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Mantel de Gracia: Freno al Pecado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La Gracia no es una zona de confort ni una licencia para pecar; es la fuerza para vivir en santidad. Cuando entiendes que ya eres amado, el pecado pierde su atractivo. Un príncipe no evita comer de la basura porque esté prohibido, sino porque sabe que su lugar pertenece a la mesa del Rey. <button class='btn-verse' onclick='abrirModal(\"Tito 2:11-12\", \"Porque la gracia de Dios se ha manifestado para salvación... enseñándonos que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo sobria, justa y piadosamente.\")'>Tito 2:11-12</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "<strong>Puente al Hoy:</strong> El mantel del Rey cubre nuestra debilidad. Él no mira nuestros 'pies lisiados' debajo de la mesa; Él mira nuestro rostro con amor de Padre. Ya no obedecemos por miedo a ser borrados del Código, sino por el deleite de ser amados."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He estado viviendo en un 'Lo-debar' espiritual, creyendo que Dios tiene un lápiz listo para borrar mi nombre? ",
+            "¿Puedo aceptar que mi valor en la mesa del Rey depende de la justicia de Jesús y no de mi desempeño personal? ",
+            "¿Mi servicio a Dios nace del miedo al castigo o del gozo de agradar a quien me dio todo? "
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Lo-debar",
+          "origen": "Hebreo",
+          "significado": "Lugar seco o sin pasto; también significa 'sin palabra'. Representa el estado de aislamiento y vergüenza antes de la intervención de la Gracia."
+        },
+        {
+          "palabra": "Complacencia",
+          "origen": "Griego (Eudokeo)",
+          "significado": "Sentir un placer infinito o estar plenamente satisfecho. Es el deleite que el Padre tiene en Su Hijo y, por extensión, en nosotros a través de Cristo."
+        }
+      ],
+      "desafio_practico": "Esta semana, cada vez que sientas la tentación de juzgarte por tus fallos, visualiza el mantel del Rey cubriendo tus 'pies lisiados' y declara: 'Soy amado por causa del Pacto, no por mi desempeño'.",
+      "gamificacion": {
+        "xp_lectura": 170,
+        "logro_id": "invitado-del-rey"
+      },
+      "conexiones": {
+        "huellas": [
+          { 
+            "id": "mefiboset", 
+            "nombre": "Mefiboset", 
+            "razon": "El descendiente de Saúl que pasó de la escasez de Lo-debar a la abundancia de la mesa real por causa del pacto." 
+          },
+          { 
+            "id": "david", 
+            "nombre": "David", 
+            "razon": "El rey que, movido por la misericordia, buscó activamente a Mefiboset para restaurar su herencia. " 
+          },
+          { 
+            "id": "jonatan", 
+            "nombre": "Jonatán", 
+            "razon": "Su amor inquebrantable por David fue la base legal y espiritual para que su hijo recibiera la gracia del rey. " 
+          },
+          { 
+            "id": "jesus", 
+            "nombre": "Jesús", 
+            "razon": "El Hijo amado cuya justicia nos es imputada para darnos acceso a la presencia del Padre. " 
+          },
+          { 
+            "id": "pablo", 
+            "nombre": "Apóstol Pablo", 
+            "razon": "Teólogo de la Gracia que explica cómo el amor de Dios nos hace apasionados y no perezosos. " 
+          },
+          { 
+            "id": "siba", 
+            "nombre": "Siba", 
+            "razon": "El siervo de la casa de Saúl que reveló la ubicación de Mefiboset al rey David." 
+          }
+        ],
+        "cronos": [
+          { 
+            "id": "jerusalen-sion", 
+            "nombre": "Jerusalén (Ciudad de David)", 
+            "titulo": "La Capital del Gran Rey",
+            "razon": "El lugar donde Mefiboset fue sentado a la mesa del rey permanentemente. " 
+          },
+          { 
+            "id": "rio-jordan-bautismo", 
+            "nombre": "Río Jordán", 
+            "titulo": "El Escenario de la Confirmación",
+            "razon": "Donde el eco de la voz del Padre proclamó Su complacencia sobre el Hijo y, a través de Él, sobre nosotros." 
+          },
+          { 
+            "id": "templo-jerusalen", 
+            "nombre": "Templo de Jerusalén", 
+            "titulo": "El Corazón de la Adoración",
+            "razon": "Representa la santidad y la cercanía con Dios que ahora disfrutamos por la Gracia." 
+          }
+        ],
+        "aposento": [
+          { 
+            "id_oracion": "descanso-en-la-gracia", 
+            "tema": "Reposo en la Identidad", 
+            "accion": "Orar para aceptar que el mantel del Rey cubre nuestra debilidad y nos da un nuevo nombre." 
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "tunica-anillo-misterio-restitucion",
+      "activo": false,
+      "fecha_programada": "2026-03-13",
+      "tipo": "tematico",
+      "titulo": "La Túnica y el Anillo",
+      "subtitulo": "El Misterio de la Restitución Inmediata: Rompiendo el contrato de jornalero",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/restitucion-hijo-prodigo.webp",
+      "tags": [
+        "Filiación",
+        "Restauración",
+        "Justicia Imputada",
+        "Gracia"
+      ],
+      "versiculo_clave": {
+        "texto": "Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción, por el cual clamamos: ¡Abba, Padre!",
+        "cita": "Romanos 8:15"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, en la economía de la religión, el perdón es algo que se paga a plazos, con cuotas de arrepentimiento prolongado, lágrimas de culpa y un periodo de 'prueba'. Pero en la economía del Reino, el perdón no es una sala de espera; es una puerta que se abre a la restitución total e inmediata. Hoy en día, muchos hijos amados viven en un 'limbo espiritual': saben intelectualmente que han sido perdonados por la cruz, pero en su corazón se sienten ciudadanos de segunda clase, esperando que su propio esfuerzo sane su reputación ante el Cielo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Beso que Interrumpe la Religión"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En la cumbre de la revelación de la Gracia, vemos al hijo pródigo regresando a casa mientras ensaya un discurso basado puramente en el mérito y el castigo. <button class='btn-verse' onclick='abrirModal(\"Lucas 15:18-19\", \"Me levantaré e iré a mi padre, y le diré: Padre, he pecado contra el cielo y contra ti. Ya no soy digno de ser llamado tu hijo; hazme como a uno de tus jornaleros.\")'>Lucas 15:18-19</button>. Este es el reflejo exacto del legalismo moderno. Es el creyente que, tras haber fallado, decide sentarse en la última fila, creyendo que su pecado le arrebató su identidad filial y ahora debe ganarse el favor desde cero."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Pero observa la majestuosidad de Dios: el Padre lo vio de lejos, corrió (algo impensable para un patriarca oriental, pues implicaba levantarse la túnica y perder el honor) y se echó sobre su cuello. <button class='btn-verse' onclick='abrirModal(\"Lucas 15:20\", \"...Y cuando aún estaba lejos, lo vio su padre, y fue movido a misericordia, y corrió, y se echó sobre su cuello, y le besó.\")'>Lucas 15:20</button>. El Padre lo besó <strong>ANTES</strong> de que el hijo confesara, <strong>ANTES</strong> de que se bañara, mientras aún olía a cerdos. La Gracia siempre precede a tu arrepentimiento; no es tu llanto lo que provoca Su amor, es Su amor el que provoca tu llanto."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> El Padre no permitió que el hijo terminara su discurso de autodesprecio. La Gracia interrumpe tu teología de obras con Su teología de filiación. Dios no te contrata a prueba; Dios te adopta para siempre. Deja de intentar negociar un salario de esclavo cuando Él ya te preparó una herencia."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/restitucion-anillo.webp",
+          "descripcion": "El momento de la interrupción: el Padre silencia la culpa del hijo imponiendo la autoridad del anillo y el honor de la túnica."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Primera Túnica: Justicia Imputada"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La respuesta a la inmundicia de los chiqueros no fue una manguera de reproches, fue un ropaje de gloria. <button class='btn-verse' onclick='abrirModal(\"Lucas 15:22\", \"Pero el padre dijo a sus siervos: Sacad el mejor vestido, y vestidle; y poned un anillo en su mano, y calzado en sus pies.\")'>Lucas 15:22</button>. En el original griego, 'el mejor vestido' es <em>stolé ten proten</em>, que significa literalmente 'la primera túnica', la túnica principal reservada para el invitado de honor o el sacerdote."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Teológicamente, el Padre no le puso la túnica limpia <strong>SOBRE</strong> la ropa sucia para esconder la mancha. En el Reino, primero somos despojados de nuestra inmundicia y luego revestidos de Cristo. Es la misma imagen del sumo sacerdote Josué: <button class='btn-verse' onclick='abrirModal(\"Zacarías 3:4\", \"Y habló el ángel, y mandó a los que estaban delante de él, diciendo: Quitadle esas vestiduras viles. Y a él le dijo: Mira que he quitado de ti tu pecado, y te he hecho vestir de ropas de gala.\")'>Zacarías 3:4</button>. Cuando Dios te mira hoy, hermano, no ve los harapos de tu debilidad; ve la pureza inmaculada de Su Hijo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Anillo y el Calzado: El Sello y la Libertad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El anillo no era un simple adorno; era el anillo de sellar (el sello legal de la familia) para hacer transacciones comerciales. Dios no solo te perdona para llevarte al cielo; te restituye el sello del Espíritu Santo para que operes con Su autoridad espiritual aquí en la tierra. <button class='btn-verse' onclick='abrirModal(\"Efesios 1:13\", \"...y habiendo creído en él, fuisteis sellados con el Espíritu Santo de la promesa.\")'>Efesios 1:13</button>."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Además, mandó a ponerle 'calzado en sus pies'. En la cultura del primer siglo, los esclavos andaban descalzos en la casa; solo los hijos libres tenían el derecho de usar sandalias. ¡El Padre estaba borrando todo rastro de esclavitud de su mente y de su cuerpo! Has sido llamado a caminar como hijo, no a arrastrarte como siervo. <button class='btn-verse' onclick='abrirModal(\"Romanos 8:15\", \"Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción, por el cual clamamos: ¡Abba, Padre!\")'>Romanos 8:15</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Ejemplo Actual:</strong> Imagina a un profesional que pierde su cargo, o a un padre de familia que comete un error grave. Se siente acabado y avergonzado. Pero al regresar a los brazos del Padre, descubre que su valor nunca dependió de su desempeño, sino de su origen celestial. Dios lo abraza, le calza los pies y lo invita a caminar de nuevo, ya no impulsado por la culpa para demostrar que 'ha cambiado', sino por la paz absoluta de saber que el amor de Dios no se puede comprar, ni perder."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He intentado 'negociar' con Dios un periodo de prueba en mis oraciones, creyendo que Su perdón requiere de mi buen comportamiento previo?",
+            "¿Soy verdaderamente consciente de que hoy, a pesar de mis imperfecciones, porto el 'anillo' de la autoridad de Cristo para bendecir mi hogar y mi entorno?",
+            "¿Sigo caminando 'descalzo' bajo el yugo de la esclavitud, cuando el Padre ya me entregó el calzado de la libertad?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Jornalero",
+          "origen": "Griego (Misthios)",
+          "significado": "Un trabajador contratado por un salario diario, sin derechos de herencia, protección ni intimidad familiar. En el contexto espiritual, representa al creyente que sirve a Dios por obligación, para ganar méritos o por temor al castigo, ignorando la revelación de la filiación (Huiothesia)."
+        },
+        {
+          "palabra": "El Mejor Vestido",
+          "origen": "Griego (Stolé ten proten)",
+          "significado": "Literalmente 'La túnica primera' o la 'túnica de honor'. No era ropa de diario, sino un ropaje reservado para dignatarios y para el sacerdote. Tipifica la 'Justicia Imputada' de Cristo que cubre perfectamente al creyente, haciéndolo digno de la presencia de Dios instantáneamente."
+        }
+      ],
+      "desafio_practico": "Amado hermano, hoy toma una decisión radical de fe: deja de 'pedir permiso' para ser perdonado y amado. Actúa con la confianza del anillo en tu mano. Levántate, ora por tu familia con la autoridad que se te ha devuelto, y cada vez que tu mente te recuerde el olor de los chiqueros de tu pasado, recuérdale tú el peso de la túnica de gracia que hoy descansa sobre tus hombros.",
+      "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "hijo-restituido"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "jose-egipto",
+            "nombre": "José",
+            "razon": "Recibió el anillo de sellar de Faraón y vestiduras de lino finísimo tras salir del calabozo, prefigurando la restitución acelerada y pública que Dios otorga."
+          },
+          {
+            "id": "mefiboset",
+            "nombre": "Mefiboset",
+            "razon": "Fue restaurado a la mesa del rey sin pasar por un periodo de prueba, siendo llevado desde la escasez de Lo-debar a la abundancia por causa exclusiva del pacto."
+          },
+          {
+            "id": "pablo",
+            "nombre": "Apóstol Pablo",
+            "razon": "Comprendió mejor que nadie esta transición, redactando la base teológica sobre el Espíritu de adopción que nos liberta del temor para siempre."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "egipto-jose",
+            "nombre": "Egipto (Palacio)",
+            "titulo": "Del Pozo al Palacio",
+            "razon": "Escenario histórico de la elevación de un esclavo a la máxima autoridad, reflejo terrenal de la restitución espiritual."
+          },
+          {
+            "id": "templo-jerusalen",
+            "nombre": "Templo de Jerusalén",
+            "titulo": "El Corazón de la Adoración",
+            "razon": "El hogar del Padre donde el velo ha sido rasgado de arriba a abajo para que los hijos entren confiadamente con su túnica."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "clamor-abba-padre",
+            "tema": "Adopción y Libertad",
+            "accion": "Orar rompiendo todo espíritu de esclavitud, orfandad y religiosidad, declarando la Palabra para comenzar a caminar en la libertad radical de ser hijos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "gedeon-guerrero-lagar",
+      "activo": false,
+      "fecha_programada": "2026-03-11",
+      "tipo": "tematico",
+      "titulo": "El Guerrero en el Lagar",
+      "subtitulo": "Descifrando la identidad del Reino frente al espejo de la supervivencia",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/trigo-en-el-lagar.webp",
+      "tags": [
+        "Identidad",
+        "Valentía",
+        "Gracia",
+        "Propósito",
+        "Gedeón"
+      ],
+      "versiculo_clave": {
+        "texto": "Y el ángel de Jehová se le apareció, y le dijo: Jehová está contigo, varón esforzado y valiente.",
+        "cita": "Jueces 6:12"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, existe una distancia abismal entre cómo nos vemos en el espejo de nuestras circunstancias y cómo nos contempla el Trono de la Gracia. Gedeón es el retrato perfecto de un creyente cuya identidad ha sido secuestrada por las crisis de su entorno. Aunque vivía en la tierra de la promesa, su mente habitaba en un calabozo emocional: un lugar de escasez, de miedo al enemigo y de profunda pérdida de propósito."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Lagar de la Supervivencia: Haciendo lo correcto en el lugar equivocado"
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/gedeon-angel.webp",
+          "descripcion": "Gedeón procesando el trigo en el hoyo rocoso del lagar, ilustrando a un hijo de Dios operando desde el miedo y la supervivencia en lugar de la libertad."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El libro de Jueces nos presenta una escena que, teológicamente, está llena de ironía y dolor. Nos muestra a un hombre sacudiendo trigo en un lagar. <button class='btn-verse' onclick='abrirModal(\"Jueces 6:11\", \"Y vino el ángel de Jehová, y se sentó debajo de la encina que está en Ofra... y su hijo Gedeón estaba sacudiendo el trigo en el lagar, para esconderlo de los madianitas.\")'>Jueces 6:11</button>. El trigo necesita ser procesado en una 'era' (un lugar alto y abierto) para que el viento se lleve el tamo. El lagar, en cambio, es un hoyo cavado en la roca, diseñado exclusivamente para pisar uvas. Gedeón estaba escondido en un hoyo porque el miedo a los madianitas lo había paralizado."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos hijos de Dios hoy viven exactamente así: en 'modo supervivencia'. Están usando sus talentos y dones, pero lo hacen escondidos en el lagar de sus inseguridades, evadiendo los problemas, creyendo erróneamente que su pequeñez o su bajo perfil los mantendrá a salvo del ataque del enemigo. Gedeón estaba haciendo lo correcto (proveer pan), pero en el lugar equivocado (un lagar) y por la motivación equivocada (el temor)."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> ¿En qué áreas de tu vida estás operando desde un 'lagar'? Quizás en tu trabajo evitas tomar el liderazgo por miedo a fracasar; quizás en tu familia callas la verdad de Cristo para evitar conflictos. No permitas que el temor convierta el diseño grandioso de tu llamado en un simple refugio de invisibilidad. Dios no te dio luz para esconderla en un hoyo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Nombre que Contradice tu Realidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es en este pozo de ansiedad donde la Gracia irrumpe. El Ángel de Jehová no lo reprende por su cobardía; lo llama por su destino: <button class='btn-verse' onclick='abrirModal(\"Jueces 6:12\", \"Y el ángel de Jehová se le apareció, y le dijo: Jehová está contigo, varón esforzado y valiente.\")'>Jueces 6:12</button>. Esta es una declaración profética de diseño, no una descripción de su condición actual. Gedeón reacciona inmediatamente argumentando sus limitaciones terrenales: 'Mi familia es pobre... y yo el menor' <button class='btn-verse' onclick='abrirModal(\"Jueces 6:15\", \"Entonces le respondió: Ah, señor mío, ¿con qué salvaré yo a Israel? He aquí que mi familia es pobre en Manasés, y yo el menor en la casa de mi padre.\")'>Jueces 6:15</button>."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Mientras Gedeón hablaba desde sus carencias, Dios le hablaba desde Su pacto. El Señor no miró el trigo escondido; miró al libertador que Él mismo había diseñado. <button class='btn-verse' onclick='abrirModal(\"1 Samuel 16:7\", \"...Jehová no mira lo que mira el hombre; pues el hombre mira lo que está delante de sus ojos, pero Jehová mira el corazón.\")'>1 Samuel 16:7</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor de la Gracia:</strong> El enemigo te llama por tu pecado y tus fracasos, pero Dios siempre te llamará por tu redención. Tienes que decidir a qué voz le vas a creer hoy: ¿Al reflejo de escasez que ves en tu espejo, o a la declaración de 'Hijo Valiente' que retumba desde el Trono de la Gracia?"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Reducción Necesaria: Quebrando el Cántaro"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una vez que Gedeón cree en su identidad, Dios hace algo que desafía la lógica humana: debilita su estructura. Para que la victoria sea atribuida únicamente a la Gracia y no al brazo de carne, Dios reduce el ejército de Gedeón de 32,000 hombres a solo 300. <button class='btn-verse' onclick='abrirModal(\"Jueces 7:2\", \"Y Jehová dijo a Gedeón: El pueblo que está contigo es mucho para que yo entregue a los madianitas en su mano, no sea que se alabe Israel contra mí, diciendo: Mi mano me ha salvado.\")'>Jueces 7:2</button>. La suficiencia humana debía ser desmantelada para que la presencia de Dios iluminara verdaderamente el valle."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En la batalla final, los 300 valientes no usaron espadas. Tuvieron que quebrar los cántaros de barro que llevaban para que la luz de las antorchas brillara y aterrorizara al enemigo. <button class='btn-verse' onclick='abrirModal(\"Jueces 7:20\", \"Y los tres escuadrones tocaron las trompetas, y quebrando los cántaros tomaron en la mano izquierda las teas, y en la derecha las trompetas con que tocaban, y gritaron: ¡Por la espada de Jehová y de Gedeón!\")'>Jueces 7:20</button>. Nuestra frágil humanidad es ese cántaro. A veces, Dios permite que nuestra autosuficiencia se quiebre para que la luz gloriosa de Cristo resplandezca a través de nuestras grietas."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Ejemplo Actual:</strong> Pensemos en una madre abrumada que siente que 'solo cuida niños' y no aporta nada grande, o en un profesional al que le han cerrado las puertas y siente que sus recursos se han reducido a '300'. Están en su propio lagar de inseguridad. Sin embargo, Dios te llama 'Guerrero Valiente'. Tu reducción no es un castigo; es la preparación divina para que, al romperse el cántaro de tu orgullo humano, la antorcha de la provisión de Cristo sea la única que pelee tus batallas."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Estoy procesando los talentos que Dios me dio (mi 'trigo') escondido en un lagar de miedo, rutina o vergüenza?",
+            "¿He aceptado las etiquetas de pobreza, fracaso o insignificancia de mi pasado, ignorando la declaración de 'Valiente' que Dios hizo sobre mí?",
+            "¿Estoy dispuesto a abrazar la 'reducción' de mis recursos y quebrar mi cántaro, para que la gloria de Cristo brille en mi debilidad?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Lagar",
+          "origen": "Hebreo (Gath)",
+          "significado": "Hoyo o prensa cavada en la roca, diseñada específicamente para pisar uvas y obtener mosto. Un lugar cerrado y hundido. Espiritualmente tipifica operar bajo opresión, escondido de los ataques, en lugar de vivir en la 'era' (lugar abierto) donde el viento del Espíritu fluye libremente."
+        },
+        {
+          "palabra": "Esforzado",
+          "origen": "Hebreo (Gibbor)",
+          "significado": "Significa un hombre poderoso, campeón, héroe o guerrero de valor. Es el mismo término usado para los 'valientes' del rey David, demostrando que Dios veía en Gedeón una realeza militar que ni él mismo conocía."
+        }
+      ],
+      "desafio_practico": "Amado hermano, identifica hoy una tarea, relación o proyecto que has estado realizando simplemente por 'supervivencia' o por miedo al fracaso. Sácalo del lagar. Afronta esa situación esta semana con la mentalidad y la postura de un 'Guerrero Valiente', sabiendo que la Presencia de Dios te respalda infinitamente más que tu propia fuerza.",
+      "gamificacion": {
+        "xp_lectura": 210,
+        "logro_id": "guerrero-del-lagar"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "gedeon",
+            "nombre": "Gedeón",
+            "razon": "El guerrero que tuvo que ver su reflejo en los ojos de Dios para salir de su escondite y liberar a una nación."
+          },
+          {
+            "id": "los-300",
+            "nombre": "Los 300 de Gedeón",
+            "razon": "Símbolo de la reducción necesaria y la confianza absoluta; aquellos que bebieron el agua de rodillas manteniéndose alerta."
+          },
+          {
+            "id": "acsa",
+            "nombre": "Acsa",
+            "razon": "El hermoso contraste de fe: ella entendió que el territorio heredado requiere pedir fuentes de agua vivas, en lugar de conformarse con sobrevivir."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "lagar-ofra",
+            "nombre": "Lagar de Ofra",
+            "titulo": "El Escondite Interrumpido",
+            "razon": "El lugar físico donde el miedo humano se encontró cara a cara con el llamado profético de la Gracia."
+          },
+          {
+            "id": "manantial-harod",
+            "nombre": "Manantial de Harod",
+            "titulo": "El Filtro de Dios",
+            "razon": "Donde se define quién pelea impulsado por el miedo a regresar y quién pelea enfocado en el propósito de Dios."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "rompiendo-el-lagar",
+            "tema": "Valentía y Verdadera Identidad",
+            "accion": "Orar renunciando a la voz del temor y la escasez, pidiendo al Espíritu Santo la valentía para salir del modo supervivencia y entrar en la herencia de hijos."
+          }
+        ]
+      }
+    },
+    {
+      "id": "perfume-invitado",
+      "activo": false,
+      "fecha_programada": "2026-03-16",
+      "tipo": "tematico",
+      "titulo": "El Perfume del Invitado",
+      "subtitulo": "¿Sacrificio para entrar o para celebrar? Descifrando el Código de la Gracia frente a la Moda Religiosa",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/perfume-invitado-portada.webp",
+      "tags": [
+        "Justicia Imputada",
+        "Gracia",
+        "Identidad",
+        "Adoración",
+        "Libertad"
+      ],
+      "versiculo_clave": {
+        "texto": "Y andad en amor, como también Cristo nos amó, y se entregó a sí mismo por nosotros, ofrenda y sacrificio a Dios en olor fragante.",
+        "cita": "Efesios 5:2"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "En la economía de la religión, el sacrificio suele verse como una moneda de cambio: 'Yo doy esto para recibir aquello'. Es una transacción fundamentada en el temor y en la sensación constante de insuficiencia. Pero en la economía del Reino, el sacrificio es una fragancia de respuesta. Para entender esta distinción vital que liberta el alma, debemos viajar al origen del 'Código' y descubrir por qué muchos hijos amados de Dios siguen intentando coser lo que el Padre ya vistió."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Fracaso de la 'Moda Religiosa' y la Túnica de Piel"
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/hojas-vs-mantel.webp",
+          "descripcion": "Un contraste dramático en el Edén: el esfuerzo humano de las hojas de higuera frente al sacrificio divino de la túnica de piel."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Tras la caída en el Edén, el hombre inventó la primera estructura religiosa de la historia: las hojas de higuera. Al verse desnudos, Adán y Eva intentaron 'coser' una solución a su vergüenza. <button class='btn-verse' onclick='abrirModal(\"Génesis 3:7\", \"Entonces fueron abiertos los ojos de ambos, y conocieron que estaban desnudos; entonces cosieron hojas de higuera, y se hicieron delantales.\")'>Génesis 3:7</button> Esas hojas representan nuestro propio esfuerzo humano: los rituales vacíos, las promesas de 'ser mejores' y las obras hechas con el único fin de que Dios no vea nuestras debilidades. Pero hay un problema técnico y espiritual ineludible: las hojas se secan. El esfuerzo humano es frágil, requiere mantenimiento constante y nunca extirpa verdaderamente el miedo al juicio."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Por eso, en un acto de amor insondable, el Padre sustituyó el esfuerzo 'botánico' por un sacrificio 'biológico': un inocente tuvo que derramar su sangre para vestir al culpable. <button class='btn-verse' onclick='abrirModal(\"Génesis 3:21\", \"Y Jehová Dios hizo al hombre y a su mujer túnicas de pieles, y los vistió.\")'>Génesis 3:21</button> Desde el Génesis, el Código es radicalmente claro: Tú no puedes vestirte a ti mismo con justicia; Dios te viste con la justicia de Otro."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Amado, te exhorto con amor: ¿sigues intentando coser hojas de higuera religiosas sobre la túnica inmaculada de justicia que Jesús ya te puso? Tu debilidad no es una sorpresa para Dios; Su provisión y Su Gracia infinita sí deberían ser el asombro diario de tu corazón."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Aroma Original: Cristo es la Fragancia Absoluta"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Antes de que intentemos 'oler bien' para agradar a Dios por nuestras propias fuerzas, debemos descansar en esta gloriosa verdad: el Cielo ya está plenamente satisfecho. El 'olor fragante' que deleita y apacigua la justicia del Padre es la obediencia perfecta de Jesús. Cuando estás revestido de Cristo, tú ya exhalas ese sacrificio. Dios no te acepta porque tus obras huelan bien hoy; te acepta y te abraza porque hueles a Su Hijo Amado. <button class='btn-verse' onclick='abrirModal(\"Efesios 5:2\", \"Y andad en amor, como también Cristo nos amó, y se entregó a sí mismo por nosotros, ofrenda y sacrificio a Dios en olor fragante.\")'>Efesios 5:2</button>"
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Piensa en el estrés y la presión que se vive al dirigir una cocina profesional para preparar un gran banquete; el afán desesperado por que todo sea perfecto para ganar la aprobación. A menudo, así vivimos nuestra fe: intentando 'cocinar' y perfeccionar nuestras obras para impresionar a Dios. Pero la Gracia te dice: 'Suelta el delantal de la obligación religiosa; el sacrificio perfecto ya fue consumado. Hoy no eres el empleado tratando de ganar favor, eres el invitado de honor llamado a sentarte y disfrutar de la mesa del Rey'."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Los Sacrificios de la 'Relación': Gratitud vs. Obligación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Bajo el yugo de la religiosidad, sacrificamos para obtener favor, manipular a Dios o ganar perdón. Bajo la luz resplandeciente de la Gracia, sacrificamos por pura y abrumadora gratitud. El Nuevo Testamento nos invita a ofrecer 'perfumes' que brotan naturalmente de un corazón que se sabe adoptado. Primero, el Sacrificio de Alabanza: <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:15\", \"Así que, ofrezcamos siempre a Dios, por medio de él, sacrificio de alabanza, es decir, fruto de labios que confiesan su nombre.\")'>Hebreos 13:15</button>. Segundo, el Sacrificio de la Generosidad: <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:16\", \"Y de hacer bien y de la ayuda mutua no os olvidéis; porque de tales sacrificios se agrada Dios.\")'>Hebreos 13:16</button>. Y tercero, el Sacrificio Vivo de rendir nuestra voluntad a Él: <button class='btn-verse' onclick='abrirModal(\"Romanos 12:1\", \"Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios, que es vuestro culto racional.\")'>Romanos 12:1</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Si hoy enfrentas tensiones o conflictos en tu círculo familiar, tu primer instinto humano será esforzarte por tener la razón o tratar de 'arreglar' al otro con tus propias fuerzas. El sacrificio vivo de la Gracia es distinto: significa actuar bajo la identidad del amor que ya recibiste. Al soltar la necesidad de cobrar deudas emocionales a los tuyos, permites que el perdón incondicional que Dios te dio sobreabunde en tu hogar."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. De la Obligación al Deleite: El Secreto del Nuevo Corazón"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Es aquí donde el velo de la esclavitud cae por tierra. San Agustín lo resumió de manera magistral: 'Ama a Dios y haz lo que quieras'. A la mente religiosa esto le suena peligroso, pero es la libertad más pura concebida. Cuando el Espíritu Santo te revela el costo de la sangre derramada por tu túnica, tu interior es transformado irrevocablemente. Ya no evitas el pecado por terror al castigo. <button class='btn-verse' onclick='abrirModal(\"1 Juan 4:18\", \"En el amor no hay temor, sino que el perfecto amor echa fuera el temor; porque el temor lleva en sí castigo. De donde el que teme, no ha sido perfeccionado en el amor.\")'>1 Juan 4:18</button> Dejas de pecar porque aborreces herir el corazón de Aquel que te lo dio todo. La santidad deja de ser un peso agotador para convertirse en tu mayor anhelo y deleite."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor de la Gracia:</strong> Sella esta hermosa verdad en tu espíritu hoy: 'Los sacrificios que el Señor te pide no son la cuota para pagar tu entrada, sino la danza con la que celebras tu estancia'. Ya no estás intentando ganar una invitación a la fiesta; ¡tú eres el hijo sentado a la mesa del Rey!"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Mi servicio a Dios hoy huele a la fragancia de un hijo agradecido o al sudor pesado de un esclavo religioso?",
+            "¿Sigo mirándome al espejo recordando mis 'hojas de higuera' pasadas, cuando el Padre ya me vistió de realeza?",
+            "¿He comprendido que mi identidad descansada en Su amor es el 'perfume' que mi familia y mi entorno necesitan oler hoy?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Olor Fragante",
+          "origen": "Griego (Osme Euodias)",
+          "significado": "Término sacrificial que tipifica la obediencia perfecta y el sacrificio de Cristo en la Cruz, el cual es total y eternamente satisfactorio para el Padre, aplacando la ira y cubriendo para siempre la hediondez de nuestro pecado."
+        }
+      ],
+      "desafio_practico": "Hoy, cuando sientas la tentación de servir, dar o relacionarte movido por la culpa o el afán, detente un instante. Respira, mírate al espejo de la Palabra y recuerda la túnica de justicia que portas. Actúa hoy con la mentalidad de un invitado de honor, amando y perdonando desde la abundancia de Su Gracia y no desde la ansiedad de una deuda imposible de pagar.",
+      "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "fragancia-de-gracia"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "jose-egipto",
+            "nombre": "José",
+            "razon": "Prefiguró a Cristo al ser vestido con túnicas reales tras salir del pozo, un aroma de restitución inmerecida."
+          },
+          {
+            "id": "maria-betania",
+            "nombre": "María de Betania",
+            "razon": "Derramó el nardo puro sin medir el costo, un sacrificio de gratitud absoluta que perfumó toda la casa."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "jardin-eden",
+            "nombre": "El Jardín del Edén",
+            "razon": "El lugar histórico donde la humanidad cambió la gloria de Dios por la fragilidad de las hojas de higuera."
+          },
+          {
+            "id": "templo-jerusalen",
+            "nombre": "El Templo (Lugar Santísimo)",
+            "razon": "El recinto donde el velo se rasgó, permitiendo que nuestra adoración entre confiadamente al Trono de la Gracia."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "perfume-de-hijo",
+            "tema": "Adoración y Libertad",
+            "accion": "Orar renunciando a todo espíritu de servidumbre religiosa, pidiendo revelación para caminar en el gozo de agradar al Padre."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "codigo-sacrificio",
+      "activo": false,
+      "fecha_programada": "2026-03-18",
+      "tipo": "tematico",
+      "titulo": "El Código del Sacrificio",
+      "subtitulo": "¿Ritual Obligatorio o Aroma de Confianza?",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "16 min",
+      "imagen_portada": "../img/estudios/codigo-sacrificio-portada.webp",
+      "tags": [
+        "Sacrificio",
+        "Gracia",
+        "Fe",
+        "Antiguo Testamento",
+        "Redención"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque no quieres sacrificio, que yo lo daría; No quieres holocausto. Los sacrificios de Dios son el espíritu quebrantado...",
+        "cita": "Salmos 51:16-17"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, en nuestra enseñanza anterior descubrimos que el Padre rechazó nuestro esfuerzo humano (las hojas de higuera) para vestirnos con Su gracia (la túnica de piel). Pero esto despierta una pregunta inevitable en el corazón de muchos creyentes: si Su plan siempre fue darnos todo por gracia, ¿por qué exigió tantos sacrificios en el Antiguo Testamento? A menudo, la religiosidad nos ha pintado a un Dios que 'reacciona' a nuestros errores con parches de emergencia. Pero hoy, al profundizar en las raíces del Códice, descubrimos una verdad que cambia las reglas del juego: el sacrificio no fue el 'Plan B' de Dios, sino Su Diseño Maestro."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Sacrificio de Cristo: La Ingeniería de la Redención"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Existe una idea profundamente errónea de que Dios se vio sorprendido por la caída del hombre en el Edén. Nada más lejos de la realidad. El Padre, como Arquitecto Supremo, conocía perfectamente nuestro 'hardware' (la carne); Él sabía que nuestra naturaleza caída nos llevaría inevitablemente al error."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>La Revelación del Plan A:</strong> Cristo no vino a la Tierra para ver si 'podía' salvarnos. La Biblia es contundente; Él es el <button class='btn-verse' onclick='abrirModal(\"Apocalipsis 13:8\", \"...el Cordero que fue inmolado desde el principio del mundo.\")'>Apocalipsis 13:8</button>. El sacrificio fue ideado antes de que el primer hombre respirara. No fue una reacción de emergencia, sino la única forma legal y amorosa de hacernos Sus hijos. Solo Su justicia perfecta —la verdadera túnica de piel— nos permite estar frente a Su santidad sin ser consumidos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Sacrificio de Animales: El Corazón frente al Cuchillo"
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/altar-corazon.webp",
+          "descripcion": "El altar del Antiguo Testamento no era un matadero, sino un escenario donde la fe del adorador se encontraba con la misericordia anticipada de Dios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Este es el gran momento de revelación que muchos hermanos necesitan comprender. Durante siglos, el velo de la religiosidad nos hizo creer que Dios 'disfrutaba' o 'necesitaba' la sangre de los animales. El velo nos hace pensar que el acto mecánico de matar al animal era lo que otorgaba la salvación. ¡Pero la sangre de los toros nunca pudo quitar el pecado! <button class='btn-verse' onclick='abrirModal(\"Hebreos 10:4\", \"porque la sangre de los toros y de los machos cabríos no puede quitar los pecados.\")'>Hebreos 10:4</button>"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>La Verdad:</strong> El animal era un símbolo de fe. Cuando un israelita ponía su mano sobre la víctima, estaba declarando: 'Señor, confío en que Tú proveerás un sustituto. Yo reconozco mi deuda, pero acepto Tu provisión'. El rey David lo entendió como nadie cuando, tras su peor pecado, escribió: <button class='btn-verse' onclick='abrirModal(\"Salmos 51:16-17\", \"Porque no quieres sacrificio, que yo lo daría; No quieres holocausto. Los sacrificios de Dios son el espíritu quebrantado; Al corazón contrito y humillado no despreciarás tú, oh Dios.\")'>Salmos 51:16-17</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "Dios nunca se fijó en el filo del cuchillo, sino en la fe de quien lo sostenía. Un cordero perfecto ofrecido con un corazón legalista era solo 'carne quemada'; una simple paloma ofrecida con confianza total en la Gracia subía como un aroma irresistible al Trono."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El ejemplo supremo de esto lo encontramos en el monte Moriah. Cuando Abraham levantó el cuchillo sobre su hijo amado, Isaac, obedeciendo la instrucción de Dios, el Ángel de Jehová detuvo su mano al instante. El Cielo nunca quiso la sangre del muchacho; lo que Dios estaba probando era la fe absoluta y el amor incondicional del patriarca. Al ver que el corazón de Abraham ya había entregado todo en fe, el Señor proveyó el carnero enredado en el zarzal. <button class='btn-verse' onclick='abrirModal(\"Génesis 22:12\", \"Y dijo: No extiendas tu mano sobre el muchacho, ni le hagas nada; porque ya conozco que temes a Dios, por cuanto no me rehusaste tu hijo, tu único.\")'>Génesis 22:12</button> El cuchillo de nuestro esfuerzo no es lo que salva ni agrada a Dios; es la fe que descansa confiada en Su provisión divina."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> ¿Cuántas veces vas a la iglesia, sirves en un ministerio o lees tu Biblia de forma mecánica, creyendo que el 'acto' en sí mismo o tu sacrificio personal apaciguará a Dios? Hermano, Él no necesita la 'carne quemada' de tu agotamiento religioso; Él anhela el 'espíritu quebrantado' que confía en que Cristo, el Cordero provisto, ya pagó todo el precio."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Olor Fragante: El Aroma de la Confianza"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "¿A qué huele realmente el 'olor fragante' para el Padre? Huele a confianza absoluta. Cuando un hijo deja de coser desesperadamente sus propias 'hojas de higuera' (sus obras y esfuerzos por ser aceptado) y descansa plenamente en lo que Dios ya ha provisto, ese alivio y esa fe desprenden el perfume más dulce que existe. Dios no es un juez implacable que busca castigo; es un Padre compasivo que busca que Sus hijos confíen ciegamente en Su Palabra y en Su amor."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor del Velo:</strong> Hermano, si quieres que tu relación con Dios cambie radicalmente hoy, memoriza este código: 'El Señor nunca buscó la muerte de animales ni tu agotamiento; buscó la vida de hijos que confiaran en Su Palabra. El verdadero aroma que llena el cielo no es el sudor de tu esfuerzo, sino la paz de tu confianza'."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He visto la Cruz como el 'Plan B' de Dios o como el Diseño Maestro de Su amor incondicional por mí?",
+            "Al igual que Abraham, ¿estoy dispuesto a rendirle a Dios lo que más amo, confiando en que Él es Jehová-Jireh (Dios Proveerá)?",
+            "¿Estoy exhalando en mi hogar y en mi trabajo el 'sudor de mi esfuerzo' religioso o el 'aroma de la paz' que proviene de descansar en Cristo?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Jehová-Jireh",
+          "origen": "Hebreo (YHWH Yireh)",
+          "significado": "Significa 'El Señor Proveerá' o 'El Señor Verá'. Es el nombre que Abraham le dio al monte Moriah tras descubrir que Dios no deseaba el sacrificio humano, sino que Él mismo proveería el sustituto perfecto."
+        }
+      ],
+      "desafio_practico": "El día de hoy, identifica una carga espiritual, una culpa o un 'Isaac' (algo a lo que te aferras o intentas ganar con tus fuerzas). Suéltalo. Ora declarando: 'Padre, como Abraham, confío en Tu provisión. Descanso en el sacrificio de Cristo y renuncio a tratar de impresionarte con mi propio cuchillo'.",
+      "gamificacion": {
+        "xp_lectura": 190,
+        "logro_id": "aroma-de-confianza"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "abraham",
+            "nombre": "Abraham",
+            "razon": "El padre de la fe que demostró que la obediencia motivada por el amor agrada a Dios mucho más que el acto ritual en sí mismo."
+          },
+          {
+            "id": "david",
+            "nombre": "Rey David",
+            "razon": "Comprendió que el verdadero sacrificio que Dios anhela es un corazón contrito y humillado, más allá de los rituales del Templo."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "monte-moriah",
+            "nombre": "Monte Moriah",
+            "razon": "El lugar donde Abraham experimentó la revelación de que Dios mismo proveería el cordero para el holocausto, deteniendo la religión del mérito humano."
+          },
+          {
+            "id": "golgota",
+            "nombre": "El Gólgota",
+            "razon": "El monte donde el Diseño Maestro se consumó y cesó para siempre la necesidad de sacrificios temporales."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "confianza-absoluta",
+            "tema": "Descanso y Fe",
+            "accion": "Orar rindiendo el perfeccionismo religioso y abrazando la paz de confiar únicamente en la obra redentora de Jesús."
+          }
+        ]
+      }
+    },
+    {
+      "id": "paradoja-yugo",
+      "activo": false,
+      "fecha_programada": "2026-03-20",
+      "tipo": "tematico",
+      "titulo": "La Paradoja del Yugo",
+      "subtitulo": "¿Por qué esforzarse más no siempre rompe las cadenas?",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/paradoja-yugo-portada.webp",
+      "tags": [
+        "Libertad",
+        "Unción",
+        "Gracia",
+        "Identidad",
+        "Descanso"
+      ],
+      "versiculo_clave": {
+        "texto": "Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no estéis otra vez sujetos al yugo de esclavitud.",
+        "cita": "Gálatas 5:1"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, en nuestra cultura occidental del 'esfuerzo', nos han enseñado que para romper un hábito, superar un pecado recurrente o alcanzar la santidad, debemos apretar los dientes y luchar con más fuerza. Pero en el Código del Reino, la lógica celestial es completamente inversa: el yugo de la esclavitud no se rompe tirando con más saña de la cuerda, sino soltándola por completo y rindiéndose a un Amor superior."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Error de la 'Fuerza de Voluntad'"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El apóstol Pablo nos hace una advertencia contundente y llena de gracia: <button class='btn-verse' onclick='abrirModal(\"Gálatas 5:1\", \"Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no estéis otra vez sujetos al yugo de esclavitud.\")'>Gálatas 5:1</button>. Fíjate maravillosamente en el orden de las palabras: Cristo <em>ya</em> nos hizo libres. No es una libertad en pausa ni en proceso de aprobación."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sin embargo, la religiosidad nos susurra al oído que esa libertad es frágil y que depende exclusivamente de nuestra fuerza humana mantenerla. Cuando intentamos 'no pecar' usando solo nuestra fuerza de voluntad, estamos tratando de romper un yugo espiritual con manos de carne. ¿Cuál es el resultado inevitable? Un agotamiento crónico, frustración, y la mentira de sentir que Dios está constantemente decepcionado de nosotros."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Si llevas años luchando contra la misma debilidad, la misma ansiedad o el mismo mal carácter, y sientes que cada vez que te prometes 'no volver a hacerlo' terminas fallando peor, detente. Tu fuerza de voluntad ya demostró que no es suficiente. Dios no te pide que seas más fuerte; te pide que te rindas a Su fuerza."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Yugo que se Rompe por 'Gordura'"
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/yugo-roto-uncion.webp",
+          "descripcion": "El yugo de madera estallando no por la fuerza del animal, sino por la sobreabundancia de su crecimiento y alimento."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Hay una revelación profunda en el Antiguo Testamento que explica este diseño técnico de la Gracia. El profeta declara: <button class='btn-verse' onclick='abrirModal(\"Isaías 10:27\", \"Acontecerá en aquel tiempo que su carga será quitada de tu hombro, y su yugo de tu cerviz, y el yugo se pudrirá a causa de la unción.\")'>Isaías 10:27</button>. En el original hebreo, la palabra para unción (<em>Shemen</em>) también se refiere a la 'gordura' o abundancia."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<strong>La Revelación:</strong> En la antigüedad, cuando un buey era trasladado a pastos verdes, comía bien y crecía, su cuello se ensanchaba. Llegaba un punto donde el yugo de madera, que tenía una medida fija, terminaba por estallar desde adentro hacia afuera. El yugo no se rompió porque el buey luchara violentamente contra el madero, sino porque su crecimiento interior hizo que la esclavitud ya no pudiera sujetarlo."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Deja de pelear contra la madera de tu problema. Empieza a alimentarte del pasto verde de Su Palabra, de Su Gracia y de Su identidad en ti. Cuando engordes espiritualmente del amor de Dios, el pecado simplemente ya no te quedará a la medida; el yugo estallará solo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Rendirse al Amor: El Interruptor de la Victoria"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Aquí es donde el velo cae por completo. La verdadera libertad no viene de concentrarte neuróticamente en 'el pecado que quieres dejar', sino de enfocar tu mirada en 'el Amor que ya te aceptó'."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>El enfoque religioso:</strong> Se concentra en la cadena. 'Tengo que dejar de hacer esto porque Dios me va a castigar' (Esfuerzo humano basado en el temor).",
+            "<strong>El enfoque de la Gracia:</strong> Se concentra en la túnica. 'Dios me ama tanto, me ha dado tanto valor y ha pagado un precio tan alto por mí, que ya no quiero aquello que me destruye' (Rendición al amor)."
+          ]
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando te rindes al amor del Padre, te 'ensanchas' por dentro. Su fidelidad y Su misericordia te llenan de tal manera que el yugo de la vieja vida simplemente se pudre y se cae. Ya no cabe en ti."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor de la Gracia:</strong> Si hoy te sientes cansado de luchar contra lo mismo una y otra vez, mueve el interruptor: 'Deja de esforzarte en tus fuerzas para ganar una libertad que ya tienes; empieza a confiar en el Amor que ya te hizo libre'."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal para el Fin de Semana"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Estoy intentando romper mis cadenas a base de pura fuerza de voluntad, o estoy dejando que el amor de Dios me ensanche por dentro?",
+            "¿Mi enfoque diario está puesto en no pecar (mirando el yugo) o en amar más a Cristo (mirando a mi Salvador)?",
+            "¿Estoy dispuesto hoy a dejar de luchar y sentarme a comer a la mesa del Rey para 'engordar' mi espíritu de Su Gracia?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Unción",
+          "origen": "Hebreo (Shemen) / Griego (Chrísma)",
+          "significado": "Literalmente significa 'grosura' o 'aceite'. En el contexto bíblico, es la abundancia interna que produce el Espíritu Santo en el creyente. El yugo se rompe no por fuerza externa o reglas religiosas, sino porque la vida de Dios nos hace 'crecer' tanto por dentro que las cadenas externas ya no pueden sujetarnos. Al estar unidos a Cristo (el Ungido), Su abundancia nos reviste y nuestra nueva identidad hace estallar las viejas prisiones."
+        }
+      ],
+      "desafio_practico": "No es tu lucha la que vence al mundo; es tu fe en que la lucha de Jesús en la Cruz fue suficiente para ti. Hoy, viernes, es un día para soltar el esfuerzo propio y descansar. Tu desafío de este fin de semana es detener tu lucha interna: no te enfoques en el yugo, siéntate a la mesa del Rey, lee sobre Su amor, adórale, porque la cena ya está servida y tu túnica está impecable.",
+      "gamificacion": {
+        "xp_lectura": 200,
+        "logro_id": "yugo-roto-por-amor"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "isaias",
+            "nombre": "Profeta Isaías",
+            "razon": "Recibió la revelación de que es la sobreabundancia de la unción (la presencia y vida de Dios), y no la fuerza humana, la que pudre los yugos de esclavitud."
+          },
+          {
+            "id": "pablo",
+            "nombre": "Apóstol Pablo",
+            "razon": "Exhortó a la iglesia de Galacia a no volver a someterse al yugo de la ley y el esfuerzo humano, sino a permanecer firmes en la gracia consumada por Cristo."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "galacia",
+            "nombre": "Región de Galacia",
+            "razon": "El lugar donde los creyentes intentaron perfeccionar por la carne (esfuerzo) lo que habían comenzado por el Espíritu, recordándonos el peligro de volver al yugo."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "descanso-en-su-amor",
+            "tema": "Libertad y Descanso",
+            "accion": "Orar rindiendo la fuerza de voluntad carnal, pidiendo al Espíritu Santo que nos llene de la 'gordura' de Su amor para que todo yugo caiga por sí solo."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "ciudadanos-cielo",
+      "activo": false,
+      "fecha_programada": "2026-03-23",
+      "tipo": "tematico",
+      "titulo": "Embajadores en Tierra Ajena",
+      "subtitulo": "¿Por qué el mundo no puede ser nuestro hogar definitivo?",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "17 min",
+      "imagen_portada": "../img/estudios/tienda-vs-ciudad.webp",
+      "tags": [
+        "Eternidad",
+        "Peregrinos",
+        "Identidad",
+        "Propósito",
+        "Reino de Dios"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque no tenemos aquí ciudad permanente, sino que buscamos la por venir.",
+        "cita": "Hebreos 13:14"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, uno de los mayores peligros en la vida cristiana no es perder la fe de golpe, sino sufrir de una lenta amnesia espiritual: olvidar de dónde venimos y hacia dónde vamos. A menudo, intentamos construir mansiones definitivas en lo que Dios diseñó como una simple sala de espera. La Palabra nos confronta con una verdad ineludible: nuestra ciudadanía no está aquí. Vivimos en este mundo de pasada, y aunque estamos en él, definitivamente no pertenecemos a él. <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:14\", \"porque no tenemos aquí ciudad permanente, sino que buscamos la por venir.\")'>Hebreos 13:14</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. La Ilusión de la Permanencia (El mundo es temporal)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Todo en esta vida tiene fecha de caducidad. El apóstol Juan nos lo advierte con claridad: <button class='btn-verse' onclick='abrirModal(\"1 Juan 2:17\", \"Y el mundo pasa, y sus deseos; pero el que hace la voluntad de Dios permanece para siempre.\")'>1 Juan 2:17</button>. Sin embargo, el corazón humano, seducido por el afán diario, invierte su mayor energía en cosas que inevitablemente se desvanecerán. Santiago nos recuerda la fragilidad de nuestros planes terrenales: <button class='btn-verse' onclick='abrirModal(\"Santiago 4:13-14\", \"¡Vamos ahora! los que decís: Hoy y mañana iremos a tal ciudad, y estaremos allá un año, y traficaremos, y ganaremos; cuando no sabéis lo que será mañana. Porque ¿qué es vuestra vida? Ciertamente es neblina que se aparece por un poco de tiempo, y luego se desvanece.\")'>Santiago 4:13-14</button>."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El problema espiritual surge cuando te enamoras tanto de lo de 'aquí' que te desenfocas de la ruta hacia donde vas. Jesús nos dio la fórmula infalible para evaluar nuestro corazón: <button class='btn-verse' onclick='abrirModal(\"Mateo 6:19-21\", \"No os hagáis tesoros en la tierra, donde la polilla y el orín corrompen, y donde ladrones minan y hurtan; sino haceos tesoros en el cielo... Porque donde esté vuestro tesoro, allí estará también vuestro corazón.\")'>Mateo 6:19-21</button>. No puedes hacer tesoros en el cielo si tu única interacción con Dios es una visita dominical a la iglesia. El tesoro celestial requiere una relación diaria y constante con el Padre."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Revisa tu agenda y tus preocupaciones financieras de esta semana. Si pierdes el sueño por acumular estatus terrenal o retener posesiones materiales, estás anclando tu corazón a un barco que se hunde. El afán corrompe tu propósito. La verdadera riqueza no es lo que logras retener en tus manos, sino lo que logras depositar en la eternidad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Pasaporte del Cielo (Embajadores del Reino)"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para el creyente que ha rendido su vida a Cristo, el concepto de ser extranjero no debería ser extraño. <button class='btn-verse' onclick='abrirModal(\"Filipenses 3:20\", \"Mas nuestra ciudadanía está en los cielos, de donde también esperamos al Salvador, al Señor Jesucristo;\")'>Filipenses 3:20</button>. Somos embajadores. Un embajador reside en una nación extranjera, respeta sus leyes y la bendice, pero jamás adopta su cultura por encima de la de su propio rey, ni pierde su pasaporte original."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El patriarca Abraham entendió esto a la perfección. Vivió en tiendas de campaña toda su vida dentro de la misma Tierra Prometida, porque sus ojos estaban fijos en algo mayor: <button class='btn-verse' onclick='abrirModal(\"Hebreos 11:9-10\", \"Por la fe habitó como extranjero en la tierra prometida como en tierra ajena, morando en tiendas con Isaac y Jacob... porque esperaba la ciudad que tiene fundamentos, cuyo arquitecto y constructor es Dios.\")'>Hebreos 11:9-10</button>. Si amas más a este mundo que a tu verdadera nación, es muy probable que aún no hayas conocido la belleza de la patria a la que perteneces."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Peligro de Acostumbrarse al Exilio"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Ser un peregrino no es solo una posición geográfica; es una postura espiritual defensiva. <button class='btn-verse' onclick='abrirModal(\"1 Pedro 2:11\", \"Amados, yo os ruego como a extranjeros y peregrinos, que os abstengáis de los deseos carnales que batallan contra el alma.\")'>1 Pedro 2:11</button>. Lo que la carne te exige son deleites que son absolutamente incompatibles con tu ciudadanía celestial. Por eso, el mandato es la transformación constante: <button class='btn-verse' onclick='abrirModal(\"Romanos 12:2\", \"No os conforméis a este siglo, sino transformaos por medio de la renovación de vuestro entendimiento...\")'>Romanos 12:2</button>. Al conocer a Cristo, no puedes seguir hablando, pensando ni viviendo como antes."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/lot-vs-daniel.webp",
+          "descripcion": "El contraste del exilio: Daniel de pie, íntegro en Babilonia, frente a Lot siendo arrastrado por los ángeles fuera de las comodidades de Sodoma."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Pensemos en el contraste brutal entre Daniel y Lot. Cuando Daniel fue llevado a Babilonia, le cambiaron el nombre, la ropa y el idioma, pero él se negó a contaminarse con la comida del rey; conservó su identidad de peregrino. Lot, por el contrario, amó el mundo. <button class='btn-verse' onclick='abrirModal(\"1 Juan 2:15\", \"No améis al mundo, ni las cosas que están en el mundo. Si alguno ama al mundo, el amor del Padre no está en él.\")'>1 Juan 2:15</button>. Lot se acostumbró tanto al confort y al pecado de Sodoma, que cuando llegó el juicio, los ángeles literalmente tuvieron que arrastrarlo fuera de allí para salvarlo. <button class='btn-verse' onclick='abrirModal(\"Génesis 19:15-16\", \"...Y deteniéndose él, los varones asieron de su mano, y de la mano de su mujer y de las manos de sus dos hijas, según la misericordia de Jehová para con él; y lo sacaron y lo pusieron fuera de la ciudad.\")'>Génesis 19:15-16</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor de la Eternidad:</strong> Cuando el mundo se convierte en nuestro hogar, perdemos nuestra sensibilidad espiritual. Hoy el Señor te recuerda Su promesa más hermosa: <button class='btn-verse' onclick='abrirModal(\"Juan 14:2-3\", \"En la casa de mi Padre muchas moradas hay... voy, pues, a preparar lugar para vosotros. Y si me fuere y os preparare lugar, vendré otra vez, y os tomaré a mí mismo, para que donde yo estoy, vosotros también estéis.\")'>Juan 14:2-3</button>. No te aferres a una tierra de llanto y dolor, cuando se te ha prometido una eternidad donde Dios mismo enjugará cada lágrima (<button class='btn-verse' onclick='abrirModal(\"Apocalipsis 21:4\", \"Enjugará Dios toda lágrima de los ojos de ellos; y ya no habrá muerte, ni habrá más llanto, ni clamor, ni dolor; porque las primeras cosas pasaron.\")'>Apocalipsis 21:4</button>). Lo mejor de Dios para ti siempre está por venir."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Dónde está hoy mi tesoro principal: en mis cuentas bancarias, en mi estatus profesional, o en mi relación diaria con Dios?",
+            "¿Me siento y actúo como un embajador de Cristo en mi lugar de trabajo, o me he 'mimetizado' para agradar a la cultura que me rodea?",
+            "Al igual que Lot, ¿hay algún área de pecado o mundanalidad en mi vida a la que me he acostumbrado tanto que ya no quiero dejarla?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Ciudadanía",
+          "origen": "Griego (Politeuma)",
+          "significado": "Se refiere a una colonia de extranjeros. En la antigüedad, ciudades como Filipos eran colonias romanas; sus habitantes vestían y hablaban como romanos, representando al emperador en tierra extranjera. Pablo usa este término para recordar a la iglesia que su comportamiento, leyes y lealtad suprema pertenecen al Rey del Cielo, no al territorio terrenal donde residen temporalmente."
+        },
+        {
+          "palabra": "Peregrino",
+          "origen": "Griego (Parepidemos)",
+          "significado": "Alguien que se instala temporalmente junto a los nativos de un lugar; un forastero de paso. No echa raíces profundas porque sabe que su estancia es efímera y su destino final es otro."
+        }
+      ],
+      "desafio_practico": "Esta semana, evalúa el origen de tus mayores ansiedades. Si tu preocupación principal se basa en cosas temporales (dinero, reconocimiento terrenal, bienes), haz un alto. Dedica intencionalmente un tiempo extra de intimidad en tu aposento con Dios, pidiendo que recalibre tu visión y ponga tu corazón nuevamente en los tesoros del cielo.",
+      "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "embajador-del-reino"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "abraham",
+            "nombre": "Abraham",
+            "razon": "El padre de la fe que, a pesar de recibir la promesa de la tierra, decidió vivir en tiendas, manteniendo sus ojos puestos en la ciudad arquitecturada por Dios."
+          },
+          {
+            "id": "daniel",
+            "nombre": "Profeta Daniel",
+            "razon": "El ejemplo perfecto del embajador del Reino: vivió en medio del imperio más pagano del mundo sin comprometer jamás su identidad, su dieta espiritual ni su lealtad a Dios."
+          },
+          {
+            "id": "lot",
+            "nombre": "Lot",
+            "razon": "La advertencia trágica del creyente que, por amar la comodidad del mundo (Sodoma), perdió su legado familiar y tuvo que ser salvado 'como por fuego'."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "babilonia",
+            "nombre": "Babilonia",
+            "razon": "El sistema terrenal de exilio que constantemente presiona al creyente para que se amolde, cambie su identidad e incline su rodilla ante lo pasajero."
+          },
+          {
+            "id": "nueva-jerusalen",
+            "nombre": "La Nueva Jerusalén",
+            "razon": "La ciudad permanente que desciende del cielo, el verdadero hogar donde la comunión con el Padre será eterna y sin intermediarios."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "anhelo-de-eternidad",
+            "tema": "Propósito y Eternidad",
+            "accion": "Orar renunciando al amor excesivo por este mundo y pidiendo al Espíritu Santo que renueve nuestro entendimiento y nuestra pasión por los tesoros eternos."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "verdad-liberta",
+      "activo": false,
+      "fecha_programada": "2026-03-25",
+      "tipo": "tematico",
+      "titulo": "La Verdad con Rostro",
+      "subtitulo": "Descubriendo que la libertad no nace de un concepto, sino de una Persona",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/la-verdad-liberta.webp",
+      "tags": [
+        "Verdad",
+        "Libertad",
+        "Identidad",
+        "Gracia",
+        "Sanidad"
+      ],
+      "versiculo_clave": {
+        "texto": "y conoceréis la verdad, y la verdad os hará libres.",
+        "cita": "Juan 8:32"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, el mundo entero vive en una búsqueda exhaustiva de la 'verdad'. La buscan en filosofías, en la ciencia, en el misticismo o en el relativismo moral. Pero el Evangelio nos presenta un paradigma radicalmente distinto: la Verdad no es una idea que se debate, ni un significado de diccionario que se memoriza. La Verdad respira. <button class='btn-verse' onclick='abrirModal(\"Juan 14:6\", \"Jesús le dijo: Yo soy el camino, y la verdad, y la vida; nadie viene al Padre, sino por mí.\")'>Juan 14:6</button>. Igual que Dios no solo 'tiene' amor sino que <em>es</em> amor, Jesús no solo dice la verdad; Él <em>es</em> la Verdad absoluta. Y cuando una persona tiene un encuentro genuino con Él, el resultado inevitable es la libertad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Bisturí de la Gracia: Confrontación sin Condenación"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La religión usa la verdad como un martillo para aplastar al pecador; Cristo usa la Verdad como un bisturí quirúrgico para extirpar la muerte y salvar al paciente. Vemos esto magistralmente en el encuentro con la mujer sorprendida en adulterio. Mientras los fariseos usaban la ley para apedrearla, Jesús desarmó a los acusadores y se quedó a solas con ella. <button class='btn-verse' onclick='abrirModal(\"Juan 8:10-11\", \"Enderezándose Jesús, y no viendo a nadie sino a la mujer, le dijo: Mujer, ¿dónde están los que te acusaban? ¿Ninguno te condenó? Ella dijo: Ninguno, Señor. Entonces Jesús le dijo: Ni yo te condeno; vete, y no peques más.\")'>Juan 8:10-11</button>."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/gracia-vs-piedras.webp",
+          "descripcion": "El contraste de la Verdad: las piedras de la condenación religiosa abandonadas en el polvo, frente a la Gracia que restaura sin aplastar."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Observa el orden divino: primero le otorga la gracia (<em>'Ni yo te condeno'</em>) y luego la confronta con la verdad para proteger su futuro (<em>'vete, y no peques más'</em>). Confrontar el pecado es la única manera de hacernos entender que ciertas áreas nos están destruyendo. Dios no expone nuestro pecado para avergonzarnos públicamente, sino para que tomemos la decisión de abandonarlo y alcanzar misericordia. <button class='btn-verse' onclick='abrirModal(\"Proverbios 28:13\", \"El que encubre sus pecados no prosperará; Mas el que los confiesa y se aparta alcanzará misericordia.\")'>Proverbios 28:13</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌉 <strong>Puente al Hoy:</strong> Si el Espíritu Santo te está señalando un área oscura en tu vida (una adicción, un rencor, una práctica deshonesta), no huyas. Esa convicción no es el rechazo de Dios; es Su amor rescatándote. La Verdad te confronta hoy para que la mentira no te destruya mañana."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Las Cadenas Invisibles del 'Padre de Mentira'"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si la Verdad liberta, la consecuencia lógica es que la mentira esclaviza. Jesús desenmascaró la estrategia de nuestro adversario: <button class='btn-verse' onclick='abrirModal(\"Juan 8:44\", \"...Cuando habla mentira, de suyo habla; porque es mentiroso, y padre de mentira.\")'>Juan 8:44</button>. El diablo no necesita cadenas de hierro para apresarte; le basta con un susurro al oído de tu alma."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Él lanza dardos en forma de pensamientos: <em>'No sirves para nada', 'Dios ya se cansó de perdonarte', 'Nunca vas a salir de esta crisis', 'Ese pecado es tu verdadera identidad'</em>. Cada vez que compras una de esas mentiras y la haces tuya, te pones un grillete espiritual. La esclavitud moderna de muchos creyentes no es física, es mental y emocional, producto de haber creído las falacias del enemigo en lugar del veredicto del Padre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Veredicto de la Verdad: Tu Nueva Identidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Frente al eco paralizante de las mentiras del enemigo, debemos levantar el estruendo de la Cruz. Para mantenernos verdaderamente libres (<button class='btn-verse' onclick='abrirModal(\"Juan 8:31\", \"...Si vosotros permaneciereis en mi palabra, seréis verdaderamente mis discípulos;\")'>Juan 8:31</button>), debemos anclar nuestra mente a verdades absolutas e innegociables:"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Eres una Creación Inédita:</strong> <button class='btn-verse' onclick='abrirModal(\"2 Corintios 5:17\", \"De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas.\")'>2 Corintios 5:17</button>. Tu pasado no dictamina tu futuro. El código de tu ADN espiritual ha sido reescrito.",
+            "<strong>Tu Deuda está Saldada:</strong> <button class='btn-verse' onclick='abrirModal(\"Efesios 1:7\", \"en quien tenemos redención por su sangre, el perdón de pecados según las riquezas de su gracia,\")'>Efesios 1:7</button>. No existe pecado tan oscuro que la sangre del Cordero no pueda limpiar. Su sacrificio fue perfecto y suficiente.",
+            "<strong>Perteneces a la Realeza:</strong> <button class='btn-verse' onclick='abrirModal(\"Juan 1:12\", \"Mas a todos los que le recibieron, a los que creen en su nombre, les dio potestad de ser hechos hijos de Dios;\")'>Juan 1:12</button>. Tienes el apellido del Cielo. Nadie, ni los demonios ni tus propios errores, pueden arrebatarte el título de Hijo."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Interruptor de la Victoria:</strong> Hoy tienes una verdad absoluta latiendo en tu pecho: Cristo habita en ti. Cuando el enemigo venga a recordarte tu pasado, recuérdale tú su futuro. Estás perdonado, estás limpio y tu libertad fue comprada a precio de sangre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Hay algún pecado oculto que me niego a confesar por miedo a la condenación, olvidando que Dios ya me ofrece Su gracia?",
+            "¿Cuáles son las mentiras del enemigo (inseguridades, temores, culpas) que he tolerado y que hoy me mantienen esclavizado?",
+            "¿Estoy caminando diario en mi identidad de 'nueva criatura', o sigo definiéndome por las cicatrices de mi vieja naturaleza?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Verdad",
+          "origen": "Griego (Aletheia)",
+          "significado": "Significa literalmente 'lo que no está oculto', 'la realidad evidente' o 'la esencia genuina de las cosas'. En el pensamiento bíblico, la verdad no es solo precisión intelectual, sino fidelidad, confiabilidad y rectitud moral encarnadas en la persona de Jesucristo."
+        }
+      ],
+      "desafio_practico": "Identifica hoy una mentira recurrente que el enemigo usa para desanimarte (ej. 'Dios no te escucha'). Toma tu Biblia, busca un versículo que desmienta esa falacia, escríbelo en un papel y decláralo en voz alta cada vez que ese pensamiento ataque tu mente. Reemplaza el susurro de la mentira con el rugido de la Verdad.",
+      "gamificacion": {
+        "xp_lectura": 210,
+        "logro_id": "cadenas-rotas"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "mujer-samaritana",
+            "nombre": "La Mujer Samaritana",
+            "razon": "Un ejemplo vivo de cómo un encuentro con la Verdad absoluta (Jesús en el pozo) confronta el pecado sin condenar, sacia la sed interna y transforma a una marginada en la primera evangelista de su ciudad."
+          },
+          {
+            "id": "mujer-adultera",
+            "nombre": "La Mujer Adúltera",
+            "razon": "Experimentó de primera mano la diferencia abismal entre la ley que exige la muerte por el pecado y la Gracia que perdona para otorgar una nueva vida libre."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "pozo-jacob",
+            "nombre": "Pozo de Jacob (Sicar)",
+            "razon": "El escenario de intimidad donde la religión y los prejuicios humanos cayeron ante la revelación del 'Agua Viva' que salta para vida eterna."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "rompiendo-mentiras",
+            "tema": "Identidad y Verdad",
+            "accion": "Orar renunciando a todo argumento, altivez y mentira que se levanta contra el conocimiento de Dios, llevando cautivo todo pensamiento a la obediencia a Cristo."
+          }
+        ]
+      }
+    }
+
+    
+    
+]

@@ -1,0 +1,21 @@
+{
+  "name": "Maná - Códice Bíblico",
+  "short_name": "Maná",
+  "description": "Devocionales bíblicos diarios.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#1a1c20",
+  "theme_color": "#1a1c20",
+  "icons": [
+    {
+      "src": "/img/mana-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/mana-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+/* --- VARIABLES DE MARCA --- */
+:root {
+    --bg-dark: #0f172a;
+    --bg-panel: #1e293b;
+    --gold: #d4b483;
+    --gold-bright: #fcd34d;
+    --text-main: #e2e8f0;
+    --text-muted: #94a3b8;
+    --accent: #3498db;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* --- RESET Y BASE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-main);
+    overflow: hidden;
+    height: 100vh;
+}
+
+h1, h2, h3, .cinzel {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1px;
+}
+
+.hidden { display: none !important; }
+
+/* --- MAPA --- */
+#map {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* --- BOTÓN RETORNO INTELIGENTE --- */
+#btn-retorno-estudio {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    animation: slideInLeft 0.5s ease forwards;
+}
+
+#btn-retorno-estudio button {
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid var(--gold);
+    color: var(--gold);
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    backdrop-filter: blur(5px);
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+#btn-retorno-estudio button:hover {
+    background: var(--gold);
+    color: var(--bg-dark);
+}
+
+/* --- BUSCADOR --- */
+.search-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Mantiene la barra a un lado y el botón al otro */
+    gap: 15px; 
+}
+
+/* 2. El input de texto (para que ocupe el centro y empuje los botones a las orillas) */
+.search-container input {
+    flex-grow: 1; /* Toma todo el espacio sobrante */
+    margin: 0; 
+    padding: 0; /* Ajusta el padding según necesites, pero sin desfasar la altura */
+}
+
+.btn-launcher {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 0; 
+    margin: 0; /* ¡CORREGIDO! Quitamos el margen negativo, ya no hace falta */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    line-height: 0; 
+    color: #d4b483; /* Aseguramos que sea dorado */
+}
+
+.btn-launcher svg {
+    display: block;
+}
+
+/* 2. CAJA DEL BUSCADOR */
+.search-box {
+    background: rgba(30, 41, 59, 0.95);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    backdrop-filter: blur(10px);
+    flex: 1; /* ¡NUEVO! Le dice a la caja negra que ocupe todo el espacio sobrante */
+}
+
+.search-box input {
+    background: none;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+}
+
+/* 3. CONTENEDOR DEL BOTÓN Y MENÚ */
+.ecosystem-nav-container {
+    position: relative; /* Para que el menú de 9 puntos flote desde aquí */
+    display: flex;
+    align-items: center;
+}
+
+/* 4. RESULTADOS DE BÚSQUEDA (LA MAGIA) */
+.search-results-list {
+    position: absolute; /* ¡VITAL! Saca los resultados de la fila para que floten por encima del mapa */
+    top: 100%; /* Le dice que empiece exactamente debajo de la barra */
+    left: 0;
+    width: 100%; /* Para que mida exactamente el mismo ancho que la .search-container */
+    
+    background: rgba(30, 41, 59, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 180, 131, 0.2);
+    border-radius: 12px;
+    margin-top: 10px; /* Separación con la barra */
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+/* Cada ítem de resultado */
+.search-item {
+    padding: 12px 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.2s;
+}
+
+.search-item:hover {
+    background: rgba(212, 180, 131, 0.1);
+}
+
+.search-item i {
+    color: var(--gold);
+    font-size: 0.9rem;
+}
+
+.search-item .info {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-item .name {
+    font-size: 0.95rem;
+    color: var(--gold-bright);
+    font-weight: 600;
+}
+
+.search-item .sub {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+/* Estado Base del Visor */
+#place-visor {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 400px;
+    background: var(--bg-panel);
+    z-index: 1001;
+    border-radius: 20px;
+    box-shadow: -10px 0 30px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.05);
+    
+    /* EFECTO DE ENTRADA: Empezar fuera a la derecha */
+    transform: translateX(120%); 
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    max-height: calc(100vh - 40px); /* Evita que se salga de la pantalla en PC */
+}
+
+/* ESTADO ACTIVO: Se activa con JS */
+#place-visor.active {
+    transform: translateX(0);
+}
+
+/* --- CABECERA E IMAGEN --- */
+.visor-header {
+    position: relative;
+    height: 250px;
+    min-height: 250px;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#p-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: zoom-in;
+    transition: transform 0.5s ease;
+}
+
+#p-img:hover { transform: scale(1.05); }
+
+.img-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 40px 20px 20px;
+    background: linear-gradient(transparent, var(--bg-panel));
+}
+
+#p-nombre { font-size: 1.5rem; color: var(--gold-bright); }
+#p-subtitulo { font-size: 0.9rem; color: var(--text-muted); margin-top: 5px; }
+
+/* --- PESTAÑAS --- */
+.visor-tabs {
+    display: flex;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background: rgba(15, 23, 42, 0.3);
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 15px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition);
+}
+
+.tab-btn.active {
+    color: var(--gold);
+    border-bottom: 2px solid var(--gold);
+}
+
+#tab-content {
+    touch-action: pan-y;
+    padding-bottom: 60px; /* Un poco más de espacio para que el footer no tape la última línea */
+    display: block;
+}
+
+/* --- CONTENIDO --- */
+/* El área de contenido es la que debe tener el scroll */
+/* 🛠️ ESTO ES LO QUE FALTA: El contenedor interno debe ocupar todo el alto */
+.sheet-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%;
+    overflow: hidden; /* Evita que el contenedor entero scrollee */
+}
+
+/* El área de contenido ocupa el espacio restante y habilita el scroll */
+.visor-content {
+    flex: 1; /* Toma todo el espacio entre las pestañas y el footer */
+    overflow-y: auto !important; /* HABILITA EL SCROLL */
+    padding: 20px;
+    background-color: var(--bg-panel); /* Asegura consistencia visual */
+    
+    /* Suavizado para móviles */
+    -webkit-overflow-scrolling: touch;
+}
+
+/* OPCIONAL: Haz que la barra de scroll sea visible y dorada */
+.visor-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.visor-content::-webkit-scrollbar-thumb {
+    background: var(--gold);
+    border-radius: 10px;
+}
+
+/* Estilos dentro del contenido dinámico */
+.section-block { margin-bottom: 25px; }
+.section-title { color: var(--gold); font-size: 0.8rem; text-transform: uppercase; margin-bottom: 10px; display: block; }
+.selah-text { font-style: italic; color: var(--text-muted); border-left: 2px solid var(--gold); padding-left: 15px; margin: 15px 0; }
+
+/* --- FOOTER Y ACCIONES --- */
+.visor-footer {
+    padding: 20px;
+    background: rgba(15, 23, 42, 0.5);
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.share-title { font-size: 0.7rem; text-transform: uppercase; color: var(--text-muted); text-align: center; margin-bottom: 15px; }
+
+/* --- CONTENEDOR DE ACCIONES --- */
+.action-buttons {
+    display: flex;
+    justify-content: center; /* Centrados como en la imagen */
+    gap: 20px;
+    padding: 10px 0;
+}
+
+/* --- ESTILO BASE DEL BOTÓN CIRCULAR --- */
+.btn-action {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%; /* Los hace circulares */
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-action:hover {
+    transform: scale(1.15);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* --- COLORES ESPECÍFICOS (SEGÚN TU DISEÑO) --- */
+
+/* Botón de Notas (Dorado) */
+.btn-action.nota {
+    background: linear-gradient(135deg, #d4b483, #aa8a59);
+    color: #0f172a;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Botón de WhatsApp (Verde) */
+.btn-action.wa {
+    background: linear-gradient(135deg, #4ade80, #166534);
+    color: white;
+}
+
+/* Botón de Facebook (Azul) */
+.btn-action.fb {
+    background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+    color: white;
+}
+
+/* Botón de Copiar (Cian/Transparente con borde) */
+.btn-action.copy {
+    background: rgba(34, 211, 238, 0.1);
+    border: 2px solid #22d3ee;
+    color: #22d3ee;
+}
+
+/* --- LIGHTBOX --- */
+#lightbox {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95);
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#lightbox-img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+
+.lightbox-caption { margin-top: 20px; color: var(--text-muted); }
+
+/* --- RESPONSIVE (MÓVIL) --- */
+@media (max-width: 768px) {
+    #place-visor {
+        width: 100%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: auto;
+        height: 75vh;
+        transform: translateY(110%); /* Escondido abajo */
+        border-radius: 25px 25px 0 0;
+        height: 92vh;
+    }
+    #place-visor.active {
+        transform: translateY(0);
+    }
+
+    .sheet-handle {
+        width: 50px;
+        height: 6px;
+        background: rgba(212, 180, 131, 0.4); /* Dorado translúcido */
+        border-radius: 10px;
+        margin: 12px auto;
+        display: block;
+        flex-shrink: 0; /* Evita que se aplaste */
+    }
+
+    .visor-header { height: 220px; /* Bajamos de 200px a 160px */
+        min-height: 160px;}
+    
+    .search-container {
+        top: 10px; /* Un poco más arriba para ganar espacio */
+        width: 95%;
+    }
+    
+    .search-box {
+        padding: 10px 15px; /* Más compacto */
+    }
+
+    .search-item .name {
+        font-size: 0.85rem; /* Texto ligeramente más pequeño */
+    }
+
+    #btn-retorno-estudio {
+        top: auto;
+        bottom: 72vh; /* Justo arriba del visor expandido */
+        left: 10px;
+    }
+
+    /* Reducimos el padding general del visor para ganar espacio */
+    .visor-content {
+        padding: 15px 15px 5px 15px; /* Menos espacio abajo */
+    }
+
+    /* Hacemos el footer más compacto */
+    .visor-footer {
+        padding: 10px 15px; /* Reducción drástica de padding */
+    }
+
+    .share-title {
+        margin-bottom: 8px; /* Menos margen en el título "Propagar la palabra" */
+        font-size: 0.65rem; /* Texto un poco más pequeño */
+    }
+
+    /* Reducimos el tamaño de los botones solo en celular */
+    .btn-action {
+        width: 45px;  /* Bajamos de 55px a 45px */
+        height: 45px;
+        font-size: 1.1rem;
+    }
+
+    .action-buttons {
+        gap: 12px; /* Espacio más estrecho entre botones */
+    }
+    
+    /* Opcional: Si aún sientes que falta espacio, 
+       podemos hacer que el footer aparezca al final del scroll 
+       en lugar de estar siempre fijo */
+    /*
+    .sheet-container {
+        display: block; 
+        overflow-y: auto;
+    }
+    .visor-footer {
+        position: static;
+    }
+    */
+}
+
+/* Animaciones */
+@keyframes slideInLeft {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* Animación de pulso dorado */
+@keyframes pulse-highlight {
+    0% { filter: drop-shadow(0 0 2px var(--gold)); transform: scale(1); }
+    50% { filter: drop-shadow(0 0 15px var(--gold-bright)); transform: scale(1.3); }
+    100% { filter: drop-shadow(0 0 2px var(--gold)); transform: scale(1); }
+}
+
+.marker-highlight {
+    animation: pulse-highlight 1.5s infinite ease-in-out;
+    z-index: 1000 !important; /* Asegura que brille por encima de otros puntos */
+}
+
+#p-img {
+    filter: sepia(20%) contrast(110%) brightness(90%);
+    transition: filter 0.5s ease;
+}
+
+#p-img:hover {
+    filter: none; /* Se ilumina al pasar el ratón */
+}
+
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.galeria-thumb {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.galeria-thumb:hover {
+    transform: scale(1.05);
+    border-color: var(--gold-bright);
+}
+
+/* =========================================
+   Estilos para Etiquetas/Vínculos Relacionados
+   ========================================= */
+
+.link-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background-color: rgba(212, 180, 131, 0.08); /* Fondo dorado muy sutil */
+    border: 1px solid rgba(212, 180, 131, 0.3); /* Borde semitransparente */
+    border-radius: 20px; /* Forma de píldora elegante */
+    color: var(--gold-bright, #D4B483); /* Texto dorado */
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transición suave para el hover */
+    backdrop-filter: blur(4px); /* Si tienes un fondo con algo de textura, esto le da un toque premium */
+}
+
+/* Efecto al pasar el mouse por encima */
+.link-badge:hover {
+    background-color: rgba(212, 180, 131, 0.2);
+    border-color: rgba(212, 180, 131, 0.8);
+    color: #FFF; /* El texto se ilumina */
+    transform: translateY(-2px); /* Se levanta un poco */
+    box-shadow: 0 4px 12px rgba(212, 180, 131, 0.15); /* Resplandor suave */
+}
+
+/* Efecto al hacer clic */
+.link-badge:active {
+    transform: translateY(0); /* Vuelve a bajar */
+    box-shadow: 0 2px 4px rgba(212, 180, 131, 0.1);
+}
+
+#lightbox-caption {
+    position: absolute;
+    bottom: 30px; /* Un poco más separado del borde inferior */
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.85); /* Un fondo oscuro más sólido */
+    color: var(--gold-bright, #D4B483);
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    pointer-events: none; 
+    z-index: 1000; /* ESTO ES CLAVE: Lo pone por encima de todo */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+    width: max-content; /* Se ajusta al ancho del texto */
+    max-width: 90%; /* Evita que se desborde en móviles */
+}
+
+/* Es vital que el contenedor padre de la imagen tenga posición relativa */
+#lightbox-img {
+    position: relative; 
+}
+
+/* =========================================
+   MENÚ ECOSISTEMA FLOTANTE (LAUNCHER)
+   ========================================= */
+.eco-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    background: rgba(15, 23, 42, 0.95);
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    
+    /* Animaciones */
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none; /* Evita clics fantasma cuando está invisible */
+}
+
+.eco-menu.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: all;
+}
+
+.eco-menu.hidden {
+    display: none;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #cbd5e1;
+    padding: 10px 5px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    background: rgba(212, 180, 131, 0.1);
+    color: #fcd34d;
+}
+
+.menu-item .icon {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/* Para resaltar en qué app estamos actualmente */
+.menu-item.active-app {
+    background: rgba(59, 130, 246, 0.15);
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    color: #60a5fa;
+}
+
+.huellas{
+    filter: grayscale(100%) brightness(500%);
+}
+
+
+
+
+/* TOAST DE SUGERENCIA DEL DÍA */
+.codice-daily-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: rgba(15, 23, 42, 0.95); /* Azul oscuro Códice */
+    border-left: 4px solid #d4b483; /* Dorado Códice */
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    z-index: 1000;
+    width: calc(100% - 40px);
+    max-width: 340px;
+    cursor: pointer;
+    backdrop-filter: blur(5px);
+    
+    /* Animación de entrada por abajo */
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.codice-daily-toast.mostrar {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.codice-daily-toast img {
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    object-fit: cover;
+    border: 1px solid rgba(212, 180, 131, 0.3);
+}
+
+.codice-daily-toast .toast-info {
+    flex-grow: 1;
+}
+
+.codice-daily-toast h4 {
+    color: #d4b483;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0 0 4px 0;
+}
+
+.codice-daily-toast p {
+    color: #e2e8f0;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.codice-daily-toast .cerrar-btn {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px;
+}
+.codice-daily-toast .cerrar-btn:hover { color: #fff; }

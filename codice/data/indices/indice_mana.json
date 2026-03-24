@@ -1,0 +1,4312 @@
+{
+  "1 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 1,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1000,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 2,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1001,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 3,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1002,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 4,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1003,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 5,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1004,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 6,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1005,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 7,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1006,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 8,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1007,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 9,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1008,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 10,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1009,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 11,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1010,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 12,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1011,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 13,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1012,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 14,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1013,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 15,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1014,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 16,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1015,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 17,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1016,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 18,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1017,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 19,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1018,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 20,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1019,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 21,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1020,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 22,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1021,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 23,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1022,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 24,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1023,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 25,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1024,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 26,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1025,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 27,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1026,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 28,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1027,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 29,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1028,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 30,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1029,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Enero": [
+    {
+      "grupo": "pentateuco",
+      "id": 31,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1030,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 32,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1031,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 33,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1032,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 34,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1033,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 35,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1034,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 36,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1035,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 37,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1036,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 38,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1037,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 39,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1038,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 40,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1039,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 41,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1040,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 42,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1041,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 43,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1042,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 44,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1043,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 45,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1044,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 46,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1045,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 47,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1046,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 48,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1047,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 49,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1048,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 50,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1049,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 51,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1050,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 52,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1051,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 53,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1052,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 54,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1053,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 55,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1054,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 56,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1055,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 57,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1056,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 58,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1057,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Febrero": [
+    {
+      "grupo": "pentateuco",
+      "id": 59,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1058,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 60,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1059,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 61,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1060,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 62,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1061,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 63,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1062,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 64,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1063,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 65,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1064,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 66,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1065,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 67,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1066,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 68,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1067,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 69,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1068,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 70,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1069,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 71,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1070,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 72,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1071,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 73,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1072,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Marzo": [
+    {
+      "grupo": "pentateuco",
+      "id": 74,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1073,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 75,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1074,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 76,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1075,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 77,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1076,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 78,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1077,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 79,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1078,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 80,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1079,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 81,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1080,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 82,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1081,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 83,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1082,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 84,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1083,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 85,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1084,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 86,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1085,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 87,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1086,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 88,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1087,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 89,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1088,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Marzo": [
+    {
+      "grupo": "historicos",
+      "id": 90,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1089,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 91,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1090,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 92,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1091,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 93,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1092,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 94,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1093,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 95,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1094,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 96,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1095,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 97,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1096,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 98,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1097,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 99,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1098,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 100,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1099,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 101,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1100,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 102,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1101,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 103,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1102,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 104,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1103,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 105,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1104,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 106,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1105,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 107,
+      "testamento": "antiguo"
+    }
+  ],
+  "18 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 108,
+      "testamento": "antiguo"
+    }
+  ],
+  "19 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 109,
+      "testamento": "antiguo"
+    }
+  ],
+  "20 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 110,
+      "testamento": "antiguo"
+    }
+  ],
+  "21 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 111,
+      "testamento": "antiguo"
+    }
+  ],
+  "22 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 112,
+      "testamento": "antiguo"
+    }
+  ],
+  "23 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 113,
+      "testamento": "antiguo"
+    }
+  ],
+  "24 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 114,
+      "testamento": "antiguo"
+    }
+  ],
+  "25 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 115,
+      "testamento": "antiguo"
+    }
+  ],
+  "26 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 116,
+      "testamento": "antiguo"
+    }
+  ],
+  "27 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 117,
+      "testamento": "antiguo"
+    }
+  ],
+  "28 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 118,
+      "testamento": "antiguo"
+    }
+  ],
+  "29 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 119,
+      "testamento": "antiguo"
+    }
+  ],
+  "30 de Abril": [
+    {
+      "grupo": "historicos",
+      "id": 120,
+      "testamento": "antiguo"
+    }
+  ],
+  "1 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 121,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1120,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 122,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1121,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 123,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1122,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 124,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1123,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 125,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1124,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 126,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1125,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 127,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1126,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 128,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1127,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 129,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1128,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 130,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1129,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 131,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1130,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 132,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1131,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 133,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1132,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 134,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1133,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 135,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1134,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 136,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1135,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 137,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1136,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 138,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1137,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 139,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1138,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 140,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1139,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 141,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1140,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 142,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1141,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 143,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1142,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 144,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1143,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 145,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1144,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 146,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1145,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 147,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1146,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 148,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1147,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 149,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1148,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 150,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1149,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Mayo": [
+    {
+      "grupo": "historicos",
+      "id": 151,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1150,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 152,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1151,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 153,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1152,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 154,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1153,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 155,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1154,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 156,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1155,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 157,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1156,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 158,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1157,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 159,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1158,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 160,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1159,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 161,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1160,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 162,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1161,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 163,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1162,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 164,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1163,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 165,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1164,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Junio": [
+    {
+      "grupo": "historicos",
+      "id": 166,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1165,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 167,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "evangelios",
+      "id": 1166,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 168,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1167,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 169,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1168,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 170,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1169,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 171,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1170,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 172,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1171,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 173,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1172,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 174,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1173,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 175,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1174,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 176,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1175,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 177,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1176,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 178,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1177,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 179,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1178,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 180,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1179,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Junio": [
+    {
+      "grupo": "poeticos",
+      "id": 181,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1180,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 182,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1181,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 183,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1182,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 184,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1183,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 185,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1184,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 186,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1185,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 187,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1186,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 188,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1187,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 189,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1188,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 190,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1189,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 191,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1190,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 192,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1191,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 193,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1192,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 194,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1193,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 195,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1194,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 196,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1195,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 197,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1196,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 198,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1197,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 199,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1198,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 200,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1199,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 201,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1200,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 202,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1201,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 203,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1202,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 204,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1203,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 205,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1204,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 206,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1205,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 207,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1206,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 208,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1207,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 209,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1208,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 210,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1209,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 211,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1210,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Julio": [
+    {
+      "grupo": "poeticos",
+      "id": 212,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "hechos",
+      "id": 1211,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 213,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1212,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 214,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1213,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 215,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1214,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 216,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1215,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 217,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1216,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 218,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1217,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 219,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1218,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 220,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1219,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 221,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1220,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 222,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1221,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 223,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1222,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 224,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1223,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 225,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1224,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 226,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1225,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 227,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1226,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 228,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1227,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 229,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1228,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 230,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1229,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 231,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1230,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 232,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1231,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 233,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1232,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 234,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1233,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 235,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1234,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 236,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1235,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 237,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1236,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 238,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1237,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 239,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1238,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 240,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1239,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 241,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1240,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 242,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1241,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Agosto": [
+    {
+      "grupo": "poeticos",
+      "id": 243,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1242,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 244,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1243,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 245,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1244,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 246,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1245,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 247,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1246,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 248,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1247,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 249,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1248,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 250,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1249,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 251,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1250,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 252,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1251,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 253,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1252,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 254,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1253,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 255,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1254,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 256,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1255,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 257,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1256,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 258,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1257,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 259,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1258,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 260,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1259,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 261,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1260,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 262,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1261,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 263,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1262,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 264,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1263,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 265,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1264,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Septiembre": [
+    {
+      "grupo": "poeticos",
+      "id": 266,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1265,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 267,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1266,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 268,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1267,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 269,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1268,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 270,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1269,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 271,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1270,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 272,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1271,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Septiembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 273,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1272,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 274,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1273,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 275,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1274,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 276,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1275,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 277,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1276,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 278,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1277,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 279,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1278,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 280,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1279,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 281,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1280,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 282,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1281,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 283,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1282,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 284,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1283,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 285,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1284,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 286,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1285,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 287,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1286,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 288,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1287,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 289,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1288,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 290,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1289,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 291,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1290,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 292,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1291,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 293,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1292,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 294,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1293,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 295,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1294,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 296,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1295,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 297,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1296,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 298,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1297,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 299,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1298,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 300,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1299,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 301,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1300,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 302,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1301,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 303,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1302,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Octubre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 304,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1303,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 305,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1304,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 306,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1305,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 307,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1306,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 308,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1307,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 309,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1308,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 310,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1309,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 311,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1310,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 312,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1311,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 313,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1312,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 314,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1313,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 315,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1314,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 316,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1315,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 317,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1316,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 318,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1317,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 319,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1318,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 320,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1319,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 321,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1320,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 322,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1321,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 323,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1322,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 324,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1323,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 325,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1324,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 326,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1325,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 327,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1326,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 328,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1327,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 329,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1328,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 330,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1329,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 331,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1330,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 332,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1331,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 333,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1332,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Noviembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 334,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1333,
+      "testamento": "nuevo"
+    }
+  ],
+  "1 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 335,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1334,
+      "testamento": "nuevo"
+    }
+  ],
+  "2 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 336,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1335,
+      "testamento": "nuevo"
+    }
+  ],
+  "3 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 337,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1336,
+      "testamento": "nuevo"
+    }
+  ],
+  "4 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 338,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1337,
+      "testamento": "nuevo"
+    }
+  ],
+  "5 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 339,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1338,
+      "testamento": "nuevo"
+    }
+  ],
+  "6 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 340,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1339,
+      "testamento": "nuevo"
+    }
+  ],
+  "7 de Diciembre": [
+    {
+      "grupo": "profetas_mayores",
+      "id": 341,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1340,
+      "testamento": "nuevo"
+    }
+  ],
+  "8 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 342,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1341,
+      "testamento": "nuevo"
+    }
+  ],
+  "9 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 343,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1342,
+      "testamento": "nuevo"
+    }
+  ],
+  "10 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 344,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1343,
+      "testamento": "nuevo"
+    }
+  ],
+  "11 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 345,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1344,
+      "testamento": "nuevo"
+    }
+  ],
+  "12 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 346,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "epistolas",
+      "id": 1345,
+      "testamento": "nuevo"
+    }
+  ],
+  "13 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 347,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1346,
+      "testamento": "nuevo"
+    }
+  ],
+  "14 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 348,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1347,
+      "testamento": "nuevo"
+    }
+  ],
+  "15 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 349,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1348,
+      "testamento": "nuevo"
+    }
+  ],
+  "16 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 350,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1349,
+      "testamento": "nuevo"
+    }
+  ],
+  "17 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 351,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1350,
+      "testamento": "nuevo"
+    }
+  ],
+  "18 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 352,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1351,
+      "testamento": "nuevo"
+    }
+  ],
+  "19 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 353,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1352,
+      "testamento": "nuevo"
+    }
+  ],
+  "20 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 354,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1353,
+      "testamento": "nuevo"
+    }
+  ],
+  "21 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 355,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1354,
+      "testamento": "nuevo"
+    }
+  ],
+  "22 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 356,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1355,
+      "testamento": "nuevo"
+    }
+  ],
+  "23 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 357,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1356,
+      "testamento": "nuevo"
+    }
+  ],
+  "24 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 358,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1357,
+      "testamento": "nuevo"
+    }
+  ],
+  "25 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 359,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1358,
+      "testamento": "nuevo"
+    }
+  ],
+  "26 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 360,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1359,
+      "testamento": "nuevo"
+    }
+  ],
+  "27 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 361,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1360,
+      "testamento": "nuevo"
+    }
+  ],
+  "28 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 362,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1361,
+      "testamento": "nuevo"
+    }
+  ],
+  "29 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 363,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1362,
+      "testamento": "nuevo"
+    }
+  ],
+  "30 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 364,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1363,
+      "testamento": "nuevo"
+    }
+  ],
+  "31 de Diciembre": [
+    {
+      "grupo": "profetas_menores",
+      "id": 365,
+      "testamento": "antiguo"
+    },
+    {
+      "grupo": "otros",
+      "id": 1364,
+      "testamento": "nuevo"
+    }
+  ]
+}

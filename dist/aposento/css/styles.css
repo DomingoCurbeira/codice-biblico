@@ -1,0 +1,543 @@
+:root {
+    --bg-dark: #111827;
+    --card-dark: #1f2937;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+    --gold: #d4b483; /* Un dorado suave tipo iglesia antigua */
+    --accent: #6366f1;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    animation: fadeIn 0.5s ease;
+}
+
+.hidden { display: none; }
+
+/* INICIO */
+header { text-align: center; margin-top: 2rem; margin-bottom: 3rem; }
+header h1 { font-family: 'Lora', serif; font-size: 2.5rem; color: var(--gold); }
+
+/* Contenedor del Título + Logo */
+.brand-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;       /* <--- ¡CLAVE! Separación elegante */
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo del Logo */
+.logo-glow {
+    width: 3.5rem;   /* Un pelín más discreto para no competir con el texto */
+    height: auto;    /* Mantiene la proporción siempre */
+    /* Este filtro le da el brillo azul de "fuego espiritual" */
+    filter: drop-shadow(0 0 10px rgba(96, 165, 250, 0.5)); 
+    transition: transform 0.3s ease; /* Un efecto suave al pasar el mouse */
+}
+
+/* Efecto interactivo opcional */
+.logo-glow:hover {
+    transform: scale(1.1); /* Crece un poquito si lo tocas */
+}
+
+/* Subtítulo */
+.subtitle {
+    color: var(--text-muted); /* O el color gris que uses */
+    font-size: 1rem;
+    margin-top: 0;
+}
+.grid-emociones {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.btn-emocion {
+    background: var(--card-dark);
+    border: 1px solid #374151;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+    text-align: left;
+}
+.btn-emocion:active { transform: scale(0.98); background: #2d3748; }
+
+/* TARJETA ORACIÓN */
+.card-oracion {
+    background: var(--card-dark);
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    margin-bottom: 100px; /* Espacio para el player */
+}
+
+h2 { font-family: 'Lora', serif; color: var(--gold); margin-bottom: 0.5rem; }
+.cita { color: var(--text-muted); font-style: italic; font-size: 0.9rem; margin-bottom: 1.5rem; }
+.divider { height: 1px; background: #374151; margin-bottom: 1.5rem; }
+
+.texto-lectura {
+    font-family: 'Lora', serif;
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #e5e7eb;
+}
+
+/* PLAYER FLOTANTE */
+.player-floating {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(31, 41, 55, 0.95);
+    backdrop-filter: blur(10px);
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    border: 1px solid #374151;
+    z-index: 100;
+    width: 90%;
+    max-width: 400px;
+    justify-content: center;
+}
+
+.btn-audio {
+    background: var(--gold);
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.status-text { font-size: 0.8rem; color: var(--text-muted); }
+.btn-back { background: none; border: none; color: var(--text-muted); cursor: pointer; margin-bottom: 10px; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+/* NUEVO HEADER DISTRIBUIDO */
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Separa logo (izq) y menú (der) */
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 1rem auto;
+    position: relative;
+}
+
+/* Ajuste del contenedor del logo para que no se mueva */
+.brand-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* BOTÓN DE LOS 9 PUNTOS (LAUNCHER) */
+.menu-launcher {
+    color: var(--text-muted);
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-launcher:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+}
+
+.menu-launcher svg {
+    width: 28px;
+    height: 28px;
+}
+
+.icon-book{
+    font-size: 2.2rem;
+}
+
+/* EFECTO HOVER: Color dorado + Rotación + Escala */
+.btn-launcher:hover {
+    color: var(--accent); /* Se pone dorado */
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: rotate(90deg) scale(1.1); /* Gira y crece */
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.3); /* Resplandor suave */
+}
+
+/* --- BOTÓN LAUNCHER (9 PUNTOS) --- */
+.btn-launcher {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto rebote suave */
+}
+
+/* EFECTO HOVER: Color dorado + Rotación + Escala */
+.btn-launcher:hover {
+    color: var(--accent); /* Se pone dorado */
+    background-color: rgba(255, 255, 255, 0.05);
+    transform: rotate(90deg) scale(1.1); /* Gira y crece */
+    box-shadow: 0 0 15px rgba(245, 158, 11, 0.3); /* Resplandor suave */
+}
+
+/* --- MENÚ DESPLEGABLE (ECOSISTEMA) --- */
+.eco-menu {
+    position: fixed;
+    top: 70px; /* Justo debajo del nav */
+    right: 20px;
+    background: rgba(15, 23, 42, 0.95); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px); /* Efecto cristal */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    
+    /* Animación de entrada */
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+    transition: all 0.3s ease;
+    pointer-events: none; /* Para no clickear cuando está invisible */
+}
+
+.eco-menu.active {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: all;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 220px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: background 0.2s;
+}
+
+.menu-item:hover {
+    background: rgba(245, 158, 11, 0.35); /* Fondo dorado suave */
+    color: var(--accent);
+}
+
+.menu-item .icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.menu-item.active {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+}
+
+.coming-soon {
+    opacity: 0.5;
+    cursor: default;
+    background: #162032; 
+    border-style: dashed;
+    cursor: not-allowed;
+}
+
+.brand { display: flex; align-items: center; gap: 10px; }
+.brand h1 { font-family: var(--font-book); font-size: 1.8rem; letter-spacing: -0.5px; }
+.icon-book { font-size: 1.8rem; }
+
+.coming-soon {
+    opacity: 0.5;
+    cursor: default;
+    background: #162032; 
+    border-style: dashed;
+    cursor: not-allowed;
+}
+
+.huellas{
+    filter: grayscale(100%) brightness(500%);
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* --- GRILLA DE TEMAS --- */
+.grid-temas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Se adaptan */
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* --- TARJETA DE ORACIÓN (BOTÓN) --- */
+.btn-tema-card {
+    background: rgba(30, 41, 59, 0.7); /* Fondo oscuro semitransparente */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 1.5rem;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row; /* Icono a la izquierda, texto derecha */
+    align-items: center;
+    gap: 1rem;
+    transition: all 0.3s ease;
+    text-align: left;
+}
+
+.btn-tema-card:hover {
+    background: rgba(40, 55, 80, 0.9);
+    transform: translateY(-3px); /* Se levanta un poco */
+    border-color: #d4b483; /* Borde dorado */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.icono-grande {
+    font-size: 1.8rem;
+}
+
+.titulo-tema {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* Ajuste para que los botones generados se vean como los tuyos */
+        .grid-temas {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 2rem;
+            padding-bottom: 6rem; /* Espacio para el player */
+        }
+        
+        .btn-tema-card {
+            background-color: #1f2937; /* Tu color oscuro */
+            border: 1px solid #374151;
+            border-radius: 12px;
+            padding: 1.25rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: white;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 500;
+            cursor: pointer;
+            text-align: left;
+            transition: all 0.2s;
+            width: 100%;
+        }
+
+        .btn-tema-card:hover {
+            background-color: #374151;
+            border-color: #d4b483; /* Tu color dorado */
+            transform: translateY(-2px);
+        }
+
+        .icono-grande {
+            font-size: 1.5rem;
+        }
+
+        /* Estilo visual para el SELAH en el texto */
+        .selah-visual {
+            text-align: center;
+            color: #d4b483;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            margin: 2rem 0;
+            opacity: 0.8;
+            font-size: 0.95rem;
+            letter-spacing: 1px;
+        }
+
+        /* CLASE DE UTILIDAD PARA OCULTAR */
+.hidden {
+    display: none !important;
+}
+
+/* ASEGURAR QUE EL PLAYER FLOTANTE TENGA POSICIÓN PERO RESPETE EL HIDDEN */
+.player-floating {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    /* ... resto de tus estilos ... */
+}
+
+/* Contenedor de Compartir en Aposento */
+.share-container-aposento {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    
+    /* ⚠️ EL CAMBIO CLAVE ESTÁ AQUÍ ABAJO: */
+    padding-bottom: 150px; /* Espacio suficiente para que el reproductor no lo tape */
+    position: relative;    /* Para asegurar que se comporte bien en el flujo */
+    z-index: 1;           /* Nivel base */
+}
+
+/* El resto sigue igual... */
+.share-label {
+    color: #9ca3af;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/* ... etc ... */
+
+.share-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Botones Base */
+.btn-share {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-share:hover {
+    transform: scale(1.15) translateY(-2px);
+    filter: brightness(1.2);
+}
+
+.btn-share svg {
+    pointer-events: none; /* Para evitar problemas al clickear el icono */
+}
+
+/* Colores Específicos */
+.btn-share.wa {
+    background: linear-gradient(135deg, #25D366, #128C7E);
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn-share.fb {
+    background: linear-gradient(135deg, #1877F2, #1659b1);
+    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
+}
+
+.btn-share.copy {
+    background: transparent;
+    border: 2px solid #38bdf8; /* Azul cielo neón */
+    color: #38bdf8;
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
+}
+
+.btn-share.copy:hover {
+    background: rgba(56, 189, 248, 0.1);
+    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
+
+
+/* --- FOOTER GLOBAL MODERNO --- */
+.app-footer {
+    width: 100%;
+    padding: 3rem 1rem 2rem 1rem;
+    background: linear-gradient(to top, #020617 0%, rgba(15, 23, 42, 0) 100%); /* Degradado suave hacia transparente */
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.05); /* Línea muy sutil */
+    margin-top: 4rem; /* Separación del contenido */
+    position: relative;
+    z-index: 10;
+    padding-bottom: 150px;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.footer-brand {
+    font-family: 'Merriweather', serif; /* O la fuente elegante que uses */
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer-dev {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    color: #64748b; /* Gris suave */
+}
+
+.footer-dev span {
+    color: #d4b483; /* Dorado suave para tu nombre */
+    font-weight: 500;
+}
+
+/* Animación sutil al pasar el mouse por tu nombre */
+.footer-dev span:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(212, 180, 131, 0.5);
+    cursor: default;
+}
+
+.footer-year {
+    font-size: 0.75rem;
+    color: #475569;
+    margin-top: 5px;
+}

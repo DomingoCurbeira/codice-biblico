@@ -1,0 +1,21 @@
+{
+  "name": "Virtus - Códice Bíblico",
+  "short_name": "Virtus",
+  "description": "Desafío de trivia y conocimiento bíblico.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "img/virtus-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/virtus-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

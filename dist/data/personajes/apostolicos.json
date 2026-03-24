@@ -1,0 +1,3058 @@
+[
+  {
+  "id": "esteban-martir",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Esteban",
+    "titulo_corto": "El Primer Mártir",
+    "significado_nombre": "Corona / Victorioso (Stephanos)",
+    "ocupacion": "Diácono y Apologista de la Iglesia Primitiva",
+    "familia": {
+      "origen": "Judío helenista (de habla griega)",
+      "vinculos": "Parte de los Siete Elegidos"
+    },
+    "imagen": "/img/perfiles/esteban.webp",
+    "icono_mapa": "/img/ui/markers/martir.svg"
+  },
+  "contexto": {
+    "testamento": "Nuevo",
+    "libros_aparicion": [
+      "Hechos 6",
+      "Hechos 7",
+      "Hechos 11",
+      "Hechos 22"
+    ],
+    "era_biblica": "Iglesia Primitiva (Post-Pentecostés)"
+  },
+  "narrativa": {
+    "resumen_epico": "Esteban fue el hombre que demostró que no hay división entre el servicio práctico y el poder espiritual. Elegido originalmente como uno de los siete diáconos para resolver un conflicto de distribución de alimentos entre viudas, Esteban rápidamente se destacó por una sabiduría y un poder milagroso que silenciaba a sus opositores en las sinagogas. Su arresto bajo falsas acusaciones de blasfemia desembocó en el discurso más largo del libro de Hechos: una revisión magistral de la historia de Israel que exponía la resistencia sistemática del pueblo a los mensajeros de Dios. Su muerte por lapidación, lejos de ser un final, fue el 'encendido' de la misión mundial de la Iglesia, dejando una huella imborrable en un joven testigo llamado Saulo de Tarso.",
+    "dato_curioso": "En el momento de su muerte, Esteban describió ver a Jesús 'de pie' a la diestra de Dios. En casi todas las demás referencias bíblicas, se dice que Jesús está 'sentado'. Los teólogos sugieren que Cristo se puso de pie en un gesto de honor para recibir al primer guerrero que entregaba su vida por el Evangelio.",
+    "conexion_jesus": "Esteban es el reflejo perfecto de Cristo en el sufrimiento. Al igual que Jesús, fue juzgado por el Sanedrín bajo falsos testigos, murió fuera de la ciudad, encomendó su espíritu al Padre y, en un acto de amor radical, murió orando por el perdón de quienes sostenían las piedras.",
+    "diagrama_referencia": ""
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Lleno de serenidad y convicción absoluta. Esteban poseía una 'faz como el rostro de un ángel' incluso bajo la presión del juicio. Su temperamento no era reactivo ni violento, sino fundamentado en una paz que sobrepasaba el instinto de supervivencia. Su capacidad para perdonar en el clímax del dolor físico revela una madurez espiritual que lo convirtió en el estándar de oro para los mártires venideros.",
+    "fortalezas": [
+      "Integridad total entre el servicio humilde (diaconado) y la alta teología",
+      "Dominio magistral de las Escrituras y la historia de la salvación",
+      "Perdón heroico que rompió el ciclo de la venganza"
+    ],
+    "debilidades": [
+      "Ninguna registrada; su vida se presenta como un testimonio de plenitud espiritual."
+    ],
+    "simbologia": [
+      {
+        "objeto": "Las Piedras",
+        "significado": "Representan la dureza de corazón del sistema religioso que Esteban confrontó. Lo que pretendía silenciar su voz, terminó amplificando su mensaje a través de los siglos."
+      },
+      {
+        "objeto": "Los Cielos Abiertos",
+        "significado": " Simboliza la validación divina. Para el mundo, Esteban era un criminal ejecutado; para el Cielo, era un héroe siendo recibido con una ovación de pie."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "No hay tareas 'pequeñas' en el Reino; el mismo Espíritu que te capacita para servir una mesa te da la fuerza para enfrentar un tribunal.",
+    "preguntas_reflexion": [
+      "¿Estás descuidando las tareas prácticas pensando que son menos 'espirituales' que la predicación?",
+      "¿Tu conocimiento de la Biblia te lleva a la soberbia o a un perdón radical como el de Esteban?",
+      "Si hoy fueras confrontado por tu fe, ¿reflejaría tu rostro la paz del cielo o la angustia del mundo?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Servicio",
+      "evento": "Es elegido diácono para asegurar la equidad en la atención a las viudas helenistas.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Hechos 6:1-5"
+    },
+    {
+      "fase": "Conflicto",
+      "evento": "Debate con la Sinagoga de los Libertos; al no poder vencer su sabiduría, lo acusan falsamente.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Hechos 6:9-14"
+    },
+    {
+      "fase": "Apología",
+      "evento": "Pronuncia su gran discurso ante el Sanedrín, acusándolos de resistir al Espíritu Santo.",
+      "vinculo_mapa": "sanedrin-jerusalen",
+      "referencia": "Hechos 7:1-53"
+    },
+    {
+      "fase": "Martirio",
+      "evento": "Es sacado de la ciudad y apedreado; Saulo guarda las ropas de los verdugos.",
+      "vinculo_mapa": "puerta-de-jerusalen",
+      "referencia": "Hechos 7:54-60"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "jerusalen",
+      "valle-de-cedron",
+      "antioquia"
+    ],
+    "estudios": [
+      "el-origen-del-diaconado",
+      "helenistas-vs-hebreos-en-la-iglesia",
+      "la-teologia-del-discurso-de-esteban"
+    ],
+    "devocionales": [
+      "el-rostro-del-angel",
+      "perdonar-bajo-las-piedras",
+      "cuando-jesus-se-pone-de-pie"
+    ],
+    "personajes_relacionados": [
+      "pablo",
+      "pedro",
+      "gamaliel"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 300,
+    "logro_id": "primera-corona"
+  }
+},
+  
+  {
+    "id": "felipe-evangelista",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Felipe (El Evangelista)",
+      "titulo_corto": "El Misionero sin Fronteras",
+      "significado_nombre": "Amante de caballos",
+      "ocupacion": "Evangelista, Diácono",
+      "familia": {
+        "hijas": "Cuatro hijas vírgenes que profetizaban"
+      },
+      "imagen": "/img/perfiles/felipe_evangelista.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Primitiva / Expansión Misionera",
+      "ubicacion_principal": "Samaria, Cesarea"
+    },
+    "narrativa": {
+      "resumen_epico": "Felipe fue el pionero que rompió las barreras geográficas y raciales del Evangelio. Iniciando como diácono junto a Esteban, la persecución lo impulsó a llevar la luz a los samaritanos, antiguos enemigos de los judíos. Con una obediencia radical, dejó avivamientos multitudinarios para atender a una sola persona en el desierto, un eunuco etíope, asegurando que el mensaje de Jesús llegara hasta los confines de África.",
+      "dato_curioso": "Fue el primer 'viajero transdimensional' del Nuevo Testamento; tras bautizar al etíope, el Espíritu del Señor lo 'arrebató' o transportó sobrenaturalmente desde el camino del desierto hasta la ciudad de Azoto.",
+      "conexion_jesus": "Felipe personifica la gran comisión de Jesús al pie de la letra. Al usar Isaías 53 para explicarle al eunuco quién era el Cordero de Dios, conectó directamente el sacrificio profético con la persona de Jesucristo.",
+      "diagrama_referencia": "Mapa del viaje de Felipe desde Jerusalén a Samaria, Gaza y Cesarea"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Felipe posee una psicología de disponibilidad absoluta. No tiene prejuicios ni apegos al éxito visible. Su alegría reside en la obediencia rápida al Espíritu Santo. Es un hombre que sabe transitar de las masas a lo individual, manteniendo la misma pasión y sencillez tanto en un palacio como en una carreta en el desierto.",
+      "fortalezas": [
+        "Sensibilidad espiritual para escuchar la guía de Dios",
+        "Habilidad para explicar las Escrituras de forma clara y cristocéntrica",
+        "Valentía para entrar en territorios hostiles con el mensaje de paz"
+      ],
+      "debilidades": [
+        "Ninguna registrada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Carro",
+          "significado": "Representa la oportunidad divina que aparece en el camino de la vida para compartir la fe."
+        },
+        {
+          "objeto": "Agua en el desierto",
+          "significado": "Símbolo de la provisión sobrenatural y el bautismo que sella la fe incluso en lugares áridos."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El éxito ministerial no se mide por el tamaño de la audiencia, sino por la precisión de nuestra obediencia al Espíritu.",
+      "preguntas_reflexion": [
+        "¿Estarías dispuesto a dejar un lugar de éxito para ir a un 'camino desierto' si Dios te lo pide?",
+        "¿Tienes prejuicios que te impiden compartir el amor de Dios con ciertos grupos de personas?",
+        "¿Sabes explicar cómo Jesús cumple las promesas de la Biblia a alguien que no entiende?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Avivamiento",
+        "evento": "Predica en Samaria, donde muchos se convierten y son liberados de demonios.",
+        "vinculo_mapa": "samaria",
+        "referencia": "Hechos 8:5-8"
+      },
+      {
+        "fase": "El Llamado",
+        "evento": "Un ángel le ordena ir al sur, por el camino desierto que baja de Jerusalén a Gaza.",
+        "vinculo_mapa": "camino-gaza",
+        "referencia": "Hechos 8:26"
+      },
+      {
+        "fase": "El Encuentro",
+        "evento": "Explica Isaías al eunuco etíope y lo bautiza en el camino.",
+        "vinculo_mapa": "camino-gaza",
+        "referencia": "Hechos 8:30-38"
+      },
+      {
+        "fase": "Estabilidad",
+        "evento": "Se establece en Cesarea, donde años después hospeda al apóstol Pablo.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 21:8"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "samaria",
+        "azoto",
+        "cesarea",
+        "gaza"
+      ],
+      "estudios": [
+        "evangelismo-personal",
+        "isaias-53-cristocentrico",
+        "misiones-transculturales"
+      ],
+      "devocionales": [
+        "obediencia-al-espiritu",
+        "corazon-de-evangelista"
+      ],
+      "personajes_relacionados": [
+        "esteban-martir",
+        "simon-el-mago",
+        "eunuco-etiope",
+        "pablo"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 130,
+      "logro_id": "evangelista-veloz"
+    }
+  },
+  {
+    "id": "santiago-justo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Santiago el Justo",
+      "titulo_corto": "El Hermano del Señor",
+      "significado_nombre": "Suplantador (Jacob)",
+      "ocupacion": "Líder de la Iglesia de Jerusalén",
+      "familia": {
+        "hermano": "Jesús",
+        "padres": "José y María",
+        "hermanos": "José, Judas y Simón"
+      },
+      "imagen": "/img/perfiles/santiago-justo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "Santiago",
+        "Gálatas",
+        "1 Corintios"
+      ],
+      "era_biblica": "Iglesia Apostólica",
+      "ubicacion_principal": "Jerusalén"
+    },
+    "narrativa": {
+      "resumen_epico": "Santiago vivió bajo la sombra de la incredulidad hasta que el resplandor de la resurrección lo cambió para siempre. Habiendo crecido en el mismo hogar que Jesús, no fue sino hasta un encuentro personal con el Cristo resucitado que Santiago pasó de pariente escéptico a 'columna' de la Iglesia. Como líder en Jerusalén, unió la piedad judía con la libertad cristiana, abogando por una fe que no se queda en palabras, sino que se traduce en una vida de justicia y servicio práctico.",
+      "dato_curioso": "Se le apodaba 'Rodillas de Camello' debido a la dureza de su piel, resultado de las largas horas que pasaba de rodillas en el Templo intercediendo por el pueblo de Israel.",
+      "conexion_jesus": "Su relación con Jesús es el puente entre lo físico y lo espiritual. Aunque era Su medio hermano, Santiago nunca usó ese parentesco para ganar estatus, presentándose humildemente en su epístola como 'siervo de Dios y del Señor Jesucristo'.",
+      "diagrama_referencia": "Estructura del Concilio de Jerusalén bajo la presidencia de Santiago"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Santiago personifica la integridad y la ecuanimidad. Poseía una psicología de sabio antiguo: reflexivo, lento para hablar y pronto para oír. Su liderazgo era conciliador, capaz de mediar entre los cristianos de origen judío y los gentiles, manteniendo siempre un estándar ético riguroso que no admitía la hipocresía.",
+      "fortalezas": [
+        "Liderazgo estable y mediador en tiempos de crisis doctrinal",
+        "Disciplina espiritual extrema (oración constante)",
+        "Coherencia absoluta entre teología y conducta"
+      ],
+      "debilidades": [
+        "Resistencia inicial a la identidad mesiánica de Jesús durante Su ministerio terrenal"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Lengua y el Freno",
+          "significado": "Representa el dominio propio y la madurez espiritual a través del control del habla."
+        },
+        {
+          "objeto": "Las Obras",
+          "significado": "Símbolo de la fe viva; la evidencia externa de una transformación interna real."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La fe no es un concepto intelectual, sino una fuerza que debe manifestarse en acciones concretas.",
+      "preguntas_reflexion": [
+        "¿Es tu fe una 'fe viva' que otros pueden ver a través de tus actos?",
+        "¿Cómo manejas el escepticismo de quienes te conocen desde pequeño al ver tu cambio espiritual?",
+        "¿Están tus 'rodillas' marcadas por la oración o buscas soluciones solo con tus fuerzas?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Conflicto",
+        "evento": "Junto a sus hermanos, intenta detener a Jesús pensando que ha perdido el juicio.",
+        "vinculo_mapa": "nazaret",
+        "referencia": "Marcos 3:21"
+      },
+      {
+        "fase": "Revelación",
+        "evento": "Jesús resucitado se le aparece de forma privada, transformando su vida.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "1 Corintios 15:7"
+      },
+      {
+        "fase": "Presidencia",
+        "evento": "Dirige el Concilio de Jerusalén, estableciendo los requisitos para los gentiles.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 15:13-21"
+      },
+      {
+        "fase": "Martirio",
+        "evento": "Muere en Jerusalén tras dar testimonio firme de que Jesús es el Hijo del Hombre.",
+        "vinculo_mapa": "templo-jerusalen",
+        "referencia": "Tradición Histórica"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "nazaret"
+      ],
+      "estudios": [
+        "epistola-de-santiago",
+        "concilio-de-jerusalen",
+        "judaismo-mesianico"
+      ],
+      "devocionales": [
+        "fe-con-obras",
+        "la-sabiduria-de-lo-alto"
+      ],
+      "personajes_relacionados": [
+        "jesus",
+        "pedro",
+        "pablo",
+        "judas-tadeo"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 160,
+      "logro_id": "columna-de-la-iglesia"
+    }
+  },
+  {
+    "id": "pablo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Pablo de Tarso (Saulo)",
+      "titulo_corto": "El Apóstol de las Naciones",
+      "significado_nombre": "Pablo: Pequeño (Latín) / Saulo: Pedido a Dios (Hebreo)",
+      "ocupacion": "Apóstol, Teólogo, Fabricante de tiendas",
+      "familia": {
+        "tribu": "Benjamín",
+        "formacion": "Alumno de Gamaliel"
+      },
+      "imagen": "/img/perfiles/pablo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "Epístolas Paulinas"
+      ],
+      "era_biblica": "Iglesia Apostólica / Expansión Gentil",
+      "ubicacion_principal": "Imperio Romano"
+    },
+    "narrativa": {
+      "resumen_epico": "Nadie personifica la fuerza de la gracia como Pablo. De ser un fariseo implacable que respiraba amenazas y muerte contra los cristianos, pasó a ser el mayor arquitecto teológico y misionero de la fe. Tras un encuentro cegador con Jesús en el camino a Damasco, Pablo dedicó su intelecto brillante y su resistencia inquebrantable a cruzar mares y fronteras, fundando iglesias en el corazón del mundo pagano y redactando las cartas que sostendrían la doctrina cristiana por milenios.",
+      "dato_curioso": "Pablo poseía la ciudadanía romana por nacimiento, una 'carta de triunfo' legal que usó estratégicamente para proteger el Evangelio y apelar directamente ante el César en Roma.",
+      "conexion_jesus": "Su teología es la explicación definitiva de la Cruz. Pablo no conoció a Jesús en la carne, sino por revelación directa del Espíritu, lo que le permitió entender la justificación por la fe como el regalo gratuito que rompe las cadenas de la ley.",
+      "diagrama_referencia": "Cronología de los tres viajes misioneros de Pablo"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Pablo poseía una personalidad intensa, apasionada y a menudo confrontativa. Su psicología era la de un estratega incansable, impulsado por un sentido de urgencia eterna. Aunque era un hombre de intelecto superior, vivió marcado por una profunda humildad nacida de su pasado como perseguidor y por un 'aguijón en la carne' que le recordaba constantemente su total dependencia de la fortaleza de Dios.",
+      "fortalezas": [
+        "Resiliencia física y emocional ante naufragios, azotes y prisiones",
+        "Capacidad intelectual para traducir el Evangelio a diferentes culturas",
+        "Celo incansable por la pureza de la doctrina"
+      ],
+      "debilidades": [
+        "Luchas con conflictos interpersonales (Bernabé, Marcos, Pedro)",
+        "Un temperamento que podía ser percibido como áspero o severo"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Espada",
+          "significado": "Representa la Palabra de Dios y también el instrumento de su martirio en Roma."
+        },
+        {
+          "objeto": "Las Cadenas",
+          "significado": "Símbolo de su cautiverio físico que, paradójicamente, expandió la libertad del Evangelio."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Dios no llama a los capacitados, sino que capacita a los llamados; ningún pasado es tan oscuro que la gracia no pueda redimirlo.",
+      "preguntas_reflexion": [
+        "¿Estás permitiendo que tu pasado te detenga o lo estás rindiendo a la gracia de Dios?",
+        "¿Qué 'aguijón' en tu vida te está enseñando que la gracia de Dios es suficiente para ti?",
+        "¿Tienes el valor de cruzar tus propias fronteras culturales para compartir tu fe?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Transformación",
+        "evento": "Encuentro con Cristo en el camino a Damasco; de perseguidor a perseguido.",
+        "vinculo_mapa": "damasco",
+        "referencia": "Hechos 9:3-9"
+      },
+      {
+        "fase": "Misión",
+        "evento": "Inicia sus viajes por Asia Menor y Grecia, estableciendo centros de fe.",
+        "vinculo_mapa": "antioquia",
+        "referencia": "Hechos 13:1-3"
+      },
+      {
+        "fase": "Defensa",
+        "evento": "Comparece ante filósofos, reyes y gobernadores dando razón de su esperanza.",
+        "vinculo_mapa": "atenas",
+        "referencia": "Hechos 17:22"
+      },
+      {
+        "fase": "Sacrificio",
+        "evento": "Escribe sus últimas cartas desde la prisión romana antes de su ejecución.",
+        "vinculo_mapa": "roma",
+        "referencia": "2 Timoteo 4:6-8"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "tarso",
+        "damasco",
+        "efeso",
+        "corinto",
+        "roma"
+      ],
+      "estudios": [
+        "justificacion-por-fe",
+        "viajes-paulinos",
+        "armadura-de-dios"
+      ],
+      "devocionales": [
+        "gracia-suficiente",
+        "la-carrera-de-la-fe"
+      ],
+      "personajes_relacionados": [
+        "lucas",
+        "timoteo",
+        "bernabe",
+        "pedro",
+        "esteban-martir"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "apostol-de-las-naciones"
+    }
+  },
+  {
+    "id": "lucas",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Lucas",
+      "titulo_corto": "El Médico Amado",
+      "significado_nombre": "Luminoso (Lucanus)",
+      "ocupacion": "Médico, Historiador",
+      "familia": {
+        "origen": "Gentil (Probablemente de Antioquía)"
+      },
+      "imagen": "/img/perfiles/lucas.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Lucas",
+        "Hechos",
+        "Colosenses",
+        "2 Timoteo",
+        "Filemón"
+      ],
+      "era_biblica": "Iglesia Apostólica / Expansión Gentil",
+      "ubicacion_principal": "Roma y Viajes Paulinos"
+    },
+    "narrativa": {
+      "resumen_epico": "Lucas es el cronista supremo del cristianismo primitivo. Siendo un médico de origen gentil, puso su rigor científico y su pluma magistral al servicio de la fe, investigando minuciosamente los eventos para redactar el Evangelio más detallado y el libro de Hechos. Más que un historiador, fue el compañero de armas más leal de Pablo, permaneciendo a su lado en naufragios, prisiones y en el invierno final en Roma cuando todos los demás se habían marchado.",
+      "dato_curioso": "Es el único autor no judío de toda la Biblia. Sus escritos contienen un vocabulario médico técnico (como al describir la fiebre de la suegra de Pedro o el sudor de sangre de Jesús) y es quien da mayor protagonismo a las mujeres y a los marginados sociales en su relato.",
+      "conexion_jesus": "Lucas presenta a Jesús como el 'Hijo del Hombre', el Salvador Universal. Su enfoque resalta la humanidad de Cristo y Su compasión médica por los enfermos, enfatizando que la salvación es una medicina gratuita disponible para todas las naciones sin excepción.",
+      "diagrama_referencia": "Ruta del viaje de Lucas junto a Pablo hacia Roma"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Lucas proyecta una psicología de observación empática y fidelidad silenciosa. No busca el protagonismo (se incluye discretamente en los pasajes 'nosotros' de Hechos), sino que encuentra su propósito en servir a la verdad y a sus amigos. Su carácter es el de un intelectual humilde, cuya seguridad no reside en su estatus de médico, sino en la certeza histórica y espiritual del mensaje que documenta.",
+      "fortalezas": [
+        "Lealtad inquebrantable en situaciones de peligro de muerte",
+        "Rigor investigativo y compromiso con la precisión histórica",
+        "Sensibilidad social hacia los desposeídos y olvidados"
+      ],
+      "debilidades": [
+        "Ninguna registrada en el canon bíblico"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Pluma y el Tintero",
+          "significado": "Representan la consagración del intelecto y la escritura como herramientas de edificación eterna."
+        },
+        {
+          "objeto": "El Instrumental Médico",
+          "significado": "Símbolo de la ciencia puesta al servicio de la fe y la atención a la fragilidad humana."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu profesión y tus talentos académicos son vehículos sagrados para expandir el Reino de Dios.",
+      "preguntas_reflexion": [
+        "¿Estás usando tu educación y habilidades técnicas para dar gloria a Dios?",
+        "¿Eres el tipo de amigo que permanece al lado de otros cuando 'todos los demás se han ido'?",
+        "¿Te has tomado el tiempo de investigar las bases de tu fe para tener una certeza firme?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Iniciación",
+        "evento": "Se une al equipo misionero de Pablo en Troas tras una visión del apóstol.",
+        "vinculo_mapa": "troas",
+        "referencia": "Hechos 16:10"
+      },
+      {
+        "fase": "Investigación",
+        "evento": "Recopila testimonios oculares para redactar sus dos tratados a Teófilo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Lucas 1:1-4"
+      },
+      {
+        "fase": "Prueba",
+        "evento": "Sobrevive al naufragio en Malta, atendiendo a los enfermos de la isla.",
+        "vinculo_mapa": "malta",
+        "referencia": "Hechos 28:1-10"
+      },
+      {
+        "fase": "Fidelidad Final",
+        "evento": "Acompaña a Pablo en su última prisión romana antes del martirio.",
+        "vinculo_mapa": "roma",
+        "referencia": "2 Timoteo 4:11"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "antioquia",
+        "troas",
+        "malta",
+        "roma"
+      ],
+      "estudios": [
+        "evangelio-de-lucas",
+        "hechos-de-los-apostoles",
+        "medicina-en-la-antiguedad"
+      ],
+      "devocionales": [
+        "lealtad-cristiana",
+        "servicio-profesional"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "teofilo",
+        "maria"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 180,
+      "logro_id": "el-cronista-fiel"
+    }
+  },
+  {
+    "id": "timoteo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Timoteo",
+      "titulo_corto": "El Hijo en la Fe",
+      "significado_nombre": "El que honra a Dios",
+      "ocupacion": "Pastor, Evangelista",
+      "familia": {
+        "madre": "Eunice",
+        "abuela": "Loida",
+        "padre": "Griego (Gentil)",
+        "mentor": "Apóstol Pablo"
+      },
+      "imagen": "/img/perfiles/timoteo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "1 Timoteo",
+        "2 Timoteo",
+        "Hebreos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Transición de Liderazgo",
+      "ubicacion_principal": "Éfeso y Listra"
+    },
+    "narrativa": {
+      "resumen_epico": "Timoteo representa el relevo generacional de la fe. Descubierto por Pablo en la provincia de Galacia, este joven de temperamento sensible y salud frágil se convirtió en el discípulo más amado del gran apóstol. A pesar de su juventud y su tendencia a la timidez, Timoteo aceptó el desafío de pastorear la influyente y conflictiva iglesia de Éfeso, portando el legado de la sana doctrina frente a las primeras herejías y manteniendo la llama del Evangelio viva para la siguiente generación.",
+      "dato_curioso": "Timoteo es el destinatario de la carta más íntima de Pablo (2 Timoteo), escrita desde el corredor de la muerte. En ella, Pablo no le pide que sea un gran estratega, sino que 'avive el fuego del don de Dios' y que sea fiel a la herencia espiritual que recibió de su madre y su abuela.",
+      "conexion_jesus": "Timoteo encarna el modelo del Pastor de Cristo. Su liderazgo se basa en el carácter y la pureza ('sé ejemplo de los creyentes'), reflejando el cuidado de Jesús por el rebaño y la importancia de transmitir el mensaje sin manchas.",
+      "diagrama_referencia": "Cadena de discipulado: Loida -> Eunice -> Timoteo -> Líderes fieles"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Timoteo posee una psicología de sensibilidad y devoción filial. Lucha constantemente con la sombra de la intimidación y el peso de las expectativas ajenas, lo que Pablo trata de sanar recordándole su identidad en Dios. Su fortaleza no es el carisma arrollador, sino una fidelidad mansa y una capacidad para el sacrificio personal que lo hace 'único' en su preocupación genuina por los demás.",
+      "fortalezas": [
+        "Sólida base bíblica desde la infancia (herencia familiar)",
+        "Disponibilidad total para misiones de alto riesgo y reconciliación",
+        "Lealtad absoluta a la doctrina apostólica"
+      ],
+      "debilidades": [
+        "Tendencia a la timidez y a ser menospreciado por su edad",
+        "Somatización del estrés (problemas estomacales frecuentes)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Llama",
+          "significado": "Representa el don de Dios que debe ser avivado constantemente para no apagarse ante el miedo."
+        },
+        {
+          "objeto": "Las Sagradas Escrituras",
+          "significado": "Símbolo de la herramienta que lo hace sabio para la salvación y apto para toda buena obra."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu juventud o tus debilidades físicas no anulan el llamado de Dios; tu ejemplo es tu mayor autoridad.",
+      "preguntas_reflexion": [
+        "¿Estás avivando diariamente el don que Dios puso en ti o te has dejado apagar por la timidez?",
+        "¿Quién es el 'Pablo' en tu vida que te mentorea, y a qué 'líderes fieles' estás enseñando tú?",
+        "¿Estás siendo un ejemplo en tu conducta y pureza, independientemente de tu edad?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Llamado",
+        "evento": "Se une a Pablo y Silas en su segundo viaje misionero tras recibir buen testimonio local.",
+        "vinculo_mapa": "listra",
+        "referencia": "Hechos 16:1-3"
+      },
+      {
+        "fase": "Misión Independiente",
+        "evento": "Es enviado a Tesalónica para fortalecer a la iglesia en medio de la persecución.",
+        "vinculo_mapa": "tesalonica",
+        "referencia": "1 Tesalonicenses 3:2"
+      },
+      {
+        "fase": "Pastorazgo",
+        "evento": "Pablo lo establece en Éfeso para poner orden y combatir falsas doctrinas.",
+        "vinculo_mapa": "efeso",
+        "referencia": "1 Timoteo 1:3"
+      },
+      {
+        "fase": "Testamento",
+        "evento": "Recibe el encargo final de Pablo para perseverar hasta el fin.",
+        "vinculo_mapa": "roma",
+        "referencia": "2 Timoteo 4:1-5"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "listra",
+        "efeso",
+        "corinto",
+        "tesalonica"
+      ],
+      "estudios": [
+        "discipulado-biblico",
+        "pastorado-juvenil",
+        "herencia-de-fe"
+      ],
+      "devocionales": [
+        "aviva-el-fuego",
+        "ejemplo-de-los-creyentes"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "eunice",
+        "loida",
+        "erasto"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 140,
+      "logro_id": "heredero-de-la-fe"
+    }
+  },
+  {
+    "id": "silas",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Silas (Silvano)",
+      "titulo_corto": "El Compañero de Alabanza",
+      "significado_nombre": "Del bosque (Silvanus)",
+      "ocupacion": "Misionero, Escriba, Líder Profético",
+      "familia": {
+        "comunidad": "Líder de la iglesia en Jerusalén",
+        "estatus": "Ciudadano Romano"
+      },
+      "imagen": "/img/perfiles/silas.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "1 Tesalonicenses",
+        "2 Tesalonicenses",
+        "1 Pedro"
+      ],
+      "era_biblica": "Iglesia Apostólica / Viajes Misioneros",
+      "ubicacion_principal": "Filipos y Corinto"
+    },
+    "narrativa": {
+      "resumen_epico": "Silas no fue solo un compañero de viaje; fue la voz que cantó en medio de la oscuridad. Elegido por su integridad como líder en Jerusalén, se convirtió en el apoyo fundamental de Pablo tras la separación de Bernabé. Su momento cumbre ocurrió en el calabozo más profundo de Filipos: con la espalda lacerada y los pies en el cepo, Silas no eligió la queja, sino la adoración. Sus himnos a medianoche desataron un terremoto divino que no solo rompió cadenas físicas, sino que abrió las puertas de la salvación para el mundo gentil.",
+      "dato_curioso": "Silas poseía la ciudadanía romana, un privilegio que compartía con Pablo. Esta condición legal fue clave para proteger al equipo misionero ante las autoridades locales y para garantizar que el Evangelio fuera respetado como una fe legítima en el imperio.",
+      "conexion_jesus": "Silas encarnó el 'gozo inefable' que Jesús prometió. Su capacidad de adorar en el sufrimiento demuestra que el Reino de Dios no es comida ni bebida, sino justicia, paz y gozo en el Espíritu Santo, reflejando la victoria de Cristo sobre la opresión.",
+      "diagrama_referencia": "Esquema de la prisión de Filipos y el impacto del terremoto espiritual"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Silas proyecta una psicología de resiliencia mística. Poseía una estabilidad emocional blindada por su identidad profética; no se dejaba arrastrar por las circunstancias externas. Su carácter es el de un escudero espiritual: alguien que sabe brillar en equipo, que no busca el primer plano pero cuya presencia garantiza que la atmósfera de fe se mantenga incluso bajo tortura.",
+      "fortalezas": [
+        "Inquebrantable espíritu de alabanza en medio de la crisis",
+        "Lealtad ministerial absoluta y capacidad de trabajo en equipo",
+        "Habilidad como amanuense (escriba) para los grandes apóstoles"
+      ],
+      "debilidades": [
+        "Ninguna debilidad moral registrada en el canon"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Cepo",
+          "significado": "Representa las limitaciones humanas que son superadas por la libertad del espíritu a través de la oración."
+        },
+        {
+          "objeto": "El Canto de Medianoche",
+          "significado": "Símbolo de la fe que ve la luz de Dios antes de que amanezca el día de la liberación."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu alabanza en la noche de tu dolor es la llave que abre las cárceles de quienes te rodean.",
+      "preguntas_reflexion": [
+        "¿Cuál es tu canción cuando tu 'espalda sangra' por los azotes de la vida?",
+        "¿Eres el tipo de compañero que motiva a otros a orar en medio del calabozo?",
+        "¿Confías en que tu integridad puede salvar incluso a tus 'carceleros'?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Elección",
+        "evento": "Es enviado desde Jerusalén a Antioquía para confirmar el decreto del Concilio.",
+        "vinculo_mapa": "antioquia",
+        "referencia": "Hechos 15:22"
+      },
+      {
+        "fase": "Compañerismo",
+        "evento": "Pablo lo elige para sustituir a Bernabé en el segundo viaje misionero.",
+        "vinculo_mapa": "listra",
+        "referencia": "Hechos 15:40"
+      },
+      {
+        "fase": "Adoración",
+        "evento": "Canta himnos en la cárcel de Filipos, provocando la liberación sobrenatural.",
+        "vinculo_mapa": "filipos",
+        "referencia": "Hechos 16:25-26"
+      },
+      {
+        "fase": "Legado Escrito",
+        "evento": "Sirve como redactor y portador de las cartas de Pedro a las iglesias.",
+        "vinculo_mapa": "ponto",
+        "referencia": "1 Pedro 5:12"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "filipos",
+        "tesalonica",
+        "corinto"
+      ],
+      "estudios": [
+        "alabanza-como-arma",
+        "ciudadania-romana-en-el-nt",
+        "el-segundo-viaje-misionero"
+      ],
+      "devocionales": [
+        "gozo-en-la-prueba",
+        "cantando-en-la-noche"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "pedro",
+        "timoteo",
+        "bernabe"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 140,
+      "logro_id": "rompedor-de-cadenas"
+    }
+  },
+  {
+    "id": "priscila-aquila",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Priscila y Aquila",
+      "titulo_corto": "El Equipo Matrimonial",
+      "significado_nombre": "Priscila: Anciana/Digna (Latín) / Aquila: Águila (Latín)",
+      "ocupacion": "Fabricantes de Tiendas, Maestros, Líderes de Casa-Iglesia",
+      "familia": {
+        "vinculo": "Matrimonio",
+        "origen": "Aquila de Ponto; exiliados de Roma"
+      },
+      "imagen": "/img/perfiles/priscila_aquila.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "Romanos",
+        "1 Corintios",
+        "2 Timoteo"
+      ],
+      "era_biblica": "Iglesia Apostólica / Misiones Urbanas",
+      "ubicacion_principal": "Corinto, Éfeso y Roma"
+    },
+    "narrativa": {
+      "resumen_epico": "Priscila y Aquila son la personificación del ministerio compartido. Expulsados de Roma por su fe, convirtieron su taller de costura en Corinto en el cuartel general de la expansión del Evangelio. No solo ofrecieron refugio y sustento al apóstol Pablo, sino que arriesgaron sus cuellos físicamente para protegerlo. Juntos, formaron una unidad teológica tan sólida que fueron capaces de mentorear al elocuente Apolos, demostrando que el hogar cristiano es la incubadora más poderosa de líderes y la plataforma más eficaz para el Reino.",
+      "dato_curioso": "En las menciones bíblicas, Priscila suele aparecer antes que Aquila. Para la cultura del siglo I, esto era una señal disruptiva que indicaba que ella poseía una prominencia espiritual, una capacidad docente o un estatus ministerial destacado, validando el papel vital de la mujer en la enseñanza.",
+      "conexion_jesus": "Ellos reflejan la hospitalidad de Jesús. Al abrir sus casas para que funcionaran como iglesias, imitaron al Señor que prepara mesa para sus amigos, convirtiendo lo cotidiano (fabricar tiendas) en algo sagrado (edificar el Cuerpo de Cristo).",
+      "diagrama_referencia": "Estructura de una casa-iglesia en el siglo I bajo el liderazgo de los esposos"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Este matrimonio proyecta una psicología de interdependencia y servicio sacrificial. No competían por el protagonismo, sino que operaban como una sola voluntad dirigida por el Espíritu. Poseían una resiliencia migratoria asombrosa, mudándose de ciudad en ciudad por el Evangelio sin perder su enfoque. Su madurez teológica les permitía corregir con amor y sutileza a otros líderes, siempre con el objetivo de que el 'camino de Dios' se explicara con mayor exactitud.",
+      "fortalezas": [
+        "Sinergia matrimonial perfecta puesta al servicio de la Iglesia",
+        "Valentía heroica para enfrentar peligros por la causa de Cristo",
+        "Hospitalidad estratégica: sus casas eran centros de formación"
+      ],
+      "debilidades": [
+        "No se registran debilidades en el texto apostólico"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Aguja y el Cuero",
+          "significado": "Representan el trabajo digno que financia la misión y permite el contacto con el mercado laboral para evangelizar."
+        },
+        {
+          "objeto": "La Mesa Abierta",
+          "significado": "Símbolo de la enseñanza privada y el discipulado relacional que transforma vidas."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu matrimonio y tu trabajo diario no son obstáculos para el ministerio; son las herramientas de tu ministerio.",
+      "preguntas_reflexion": [
+        "¿Es tu hogar un refugio donde otros pueden aprender el 'camino de Dios'?",
+        "¿Estás trabajando con tu cónyuge o amigos en una misma visión espiritual?",
+        "¿Estarías dispuesto a 'arriesgar tu cuello' por un hermano en la fe?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Encuentro",
+        "evento": "Reciben a Pablo en Corinto tras ser expulsados de Roma por el edicto de Claudio.",
+        "vinculo_mapa": "corinto",
+        "referencia": "Hechos 18:2-3"
+      },
+      {
+        "fase": "Mentoría",
+        "evento": "Escuchan a Apolos en Éfeso y lo instruyen con mayor exactitud en la fe.",
+        "vinculo_mapa": "efeso",
+        "referencia": "Hechos 18:26"
+      },
+      {
+        "fase": "Sacrificio",
+        "evento": "Arriesgan sus vidas por Pablo, ganándose la gratitud de todas las iglesias gentiles.",
+        "vinculo_mapa": "roma",
+        "referencia": "Romanos 16:3-4"
+      },
+      {
+        "fase": "Persistencia",
+        "evento": "Siguen liderando iglesias en sus casas años después en Éfeso.",
+        "vinculo_mapa": "efeso",
+        "referencia": "2 Timoteo 4:19"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "roma",
+        "corinto",
+        "efeso",
+        "ponto"
+      ],
+      "estudios": [
+        "ministerio-en-pareja",
+        "la-iglesia-en-las-casas",
+        "el-rol-de-la-mujer-en-el-nt"
+      ],
+      "devocionales": [
+        "equipos-de-poder",
+        "hospitalidad-radical"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "apolos",
+        "timoteo",
+        "claudio-cesar"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 160,
+      "logro_id": "unidad-del-reino"
+    }
+  },
+  {
+    "id": "apolos",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Apolos",
+      "titulo_corto": "El Orador Elocuente",
+      "significado_nombre": "Destructor (Relacionado con el dios Apolo)",
+      "ocupacion": "Maestro, Apologista",
+      "familia": {
+        "origen": "Judío de Alejandría"
+      },
+      "imagen": "/img/perfiles/apolos.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "1 Corintios",
+        "Tito"
+      ],
+      "era_biblica": "Iglesia Apostólica / Expansión en Acaya",
+      "ubicacion_principal": "Corinto y Éfeso"
+    },
+    "narrativa": {
+      "resumen_epico": "Proveniente de Alejandría, el epicentro intelectual del mundo antiguo, Apolos llegó a Éfeso como un torrente de elocuencia y conocimiento bíblico. Aunque su fervor era innegable, su mensaje estaba incompleto hasta que fue mentoreado por el matrimonio de Priscila y Aquila. Una vez instruido en la plenitud del camino de Cristo, se convirtió en un defensor formidable de la fe, cruzando a Corinto para regar las semillas que Pablo había plantado y demostrando con vehemencia irresistible que Jesús era el Mesías prometido.",
+      "dato_curioso": "Su influencia en Corinto fue tan poderosa que, sin desearlo, se convirtió en el centro de una división partidista. Los creyentes se dividieron entre los que preferían la lógica profunda de Pablo y los que amaban la oratoria brillante de Apolos, obligando al apóstol a escribir sobre la unidad del cuerpo de Cristo.",
+      "conexion_jesus": "Apolos es el modelo del heraldo cristocéntrico. Su ministerio se basaba en 'demostrar por las Escrituras' que Jesús es el Cristo, conectando cada profecía del Antiguo Testamento con la persona y obra del Salvador.",
+      "diagrama_referencia": "Mapa de los centros intelectuales del siglo I: Alejandría, Éfeso y Corinto"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Apolos manifiesta una psicología de erudición apasionada. Poseía un 'hervor de espíritu' que combinaba el intelecto con la emoción. Su rasgo más distintivo fue su humildad intelectual: a pesar de su vasta cultura alejandrina, tuvo la docilidad de dejarse corregir por una pareja de humildes artesanos, demostrando que el verdadero conocimiento de Dios requiere un corazón enseñable.",
+      "fortalezas": [
+        "Elocuencia extraordinaria y capacidad de persuasión pública",
+        "Profundo dominio de las Escrituras (Antiguo Testamento)",
+        "Humildad para reconocer las lagunas en su propia doctrina"
+      ],
+      "debilidades": [
+        "Su carisma personal fue utilizado por otros para crear divisiones en la iglesia (aunque él no las promoviera)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Riego",
+          "significado": "Representa su función ministerial de nutrir y fortalecer lo que otros han plantado."
+        },
+        {
+          "objeto": "El Pergamino Abierto",
+          "significado": "Símbolo de su autoridad bíblica y su capacidad para desentrañar los misterios de las Escrituras."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El talento natural y el conocimiento son herramientas poderosas, pero solo alcanzan su pleno potencial cuando se rinden a la instrucción del Espíritu Santo.",
+      "preguntas_reflexion": [
+        "¿Tienes la humildad de aprender de personas con menos educación académica que tú si conocen mejor el camino de Dios?",
+        "¿Estás usando tu capacidad de comunicación para 'regar' y edificar a otros?",
+        "¿Tu lealtad está en el mensaje de Jesús o en el carisma del mensajero?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Inicios",
+        "evento": "Llega a Éfeso enseñando con fervor lo que sabía sobre el bautismo de Juan.",
+        "vinculo_mapa": "efeso",
+        "referencia": "Hechos 18:24-25"
+      },
+      {
+        "fase": "Instrucción",
+        "evento": "Priscila y Aquila lo llevan aparte y le explican más exactamente el camino de Dios.",
+        "vinculo_mapa": "efeso",
+        "referencia": "Hechos 18:26"
+      },
+      {
+        "fase": "Apología",
+        "evento": "Viaja a Acaya y refuta públicamente a los opositores demostrando que Jesús es el Cristo.",
+        "vinculo_mapa": "corinto",
+        "referencia": "Hechos 18:27-28"
+      },
+      {
+        "fase": "Madurez",
+        "evento": "Pablo lo reconoce como un colaborador esencial en la edificación de la iglesia.",
+        "vinculo_mapa": "corinto",
+        "referencia": "1 Corintios 3:6"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "alejandria",
+        "efeso",
+        "corinto",
+        "creta"
+      ],
+      "estudios": [
+        "apologetica-cristiana",
+        "la-iglesia-de-corinto",
+        "unidad-del-cuerpo"
+      ],
+      "devocionales": [
+        "corazon-enseñable",
+        "el-hervor-del-espiritu"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "priscila-aquila",
+        "juan-apostol"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 120,
+      "logro_id": "orador-alejandrino"
+    }
+  },
+  {
+    "id": "onesimo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Onésimo",
+      "titulo_corto": "El Hermano Libre",
+      "significado_nombre": "Útil, Provechoso",
+      "ocupacion": "Esclavo (anteriormente), Mensajero de la Iglesia",
+      "familia": {
+        "amo": "Filemón",
+        "padre_espiritual": "Apóstol Pablo"
+      },
+      "imagen": "/img/perfiles/onesimo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Filemón",
+        "Colosenses"
+      ],
+      "era_biblica": "Iglesia Apostólica / Cartas de la Prisión",
+      "ubicacion_principal": "Colosas y Roma"
+    },
+    "narrativa": {
+      "resumen_epico": "La vida de Onésimo es el testimonio viviente de que nadie está demasiado perdido para la gracia. Fugitivo de la justicia y marcado por el robo a su amo Filemón, Onésimo huyó a Roma buscando anonimato, pero encontró la redención. En las cadenas de Pablo, el esclavo 'inútil' se convirtió en un hijo amado y un colaborador fiel. Su regreso a Colosas no fue como un criminal, sino como un hermano, portando una carta que desafiaba las estructuras sociales de todo un imperio con el poder del perdón.",
+      "dato_curioso": "Pablo realiza un juego de palabras brillante en su carta: Onésimo significa 'Útil'. El apóstol escribe que, aunque antes fue 'inútil' (un juego con su nombre), ahora ha hecho honor a su significado original, siendo de gran provecho para el ministerio.",
+      "conexion_jesus": "La historia de Onésimo prefigura la doctrina de la imputación. Pablo le dice a Filemón: 'Si en algo te dañó, ponlo a mi cuenta'. Esto es exactamente lo que Cristo hizo por nosotros: tomó nuestra deuda y nuestra culpa para que pudiéramos regresar al Padre como hijos libres.",
+      "diagrama_referencia": "Infografía sobre la esclavitud y la manumisión en el Imperio Romano"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Onésimo representa la psicología de la restitución. Tras su conversión, no se conformó con la libertad espiritual, sino que tuvo la valentía de enfrentar las consecuencias legales de su pasado. Su carácter pasó del miedo y la huida a la responsabilidad y el servicio, demostrando que la verdadera conversión produce un cambio en la ética del trabajo y en la lealtad personal.",
+      "fortalezas": [
+        "Valor para regresar voluntariamente a su amo y enfrentar el juicio",
+        "Fidelidad extrema en el servicio a Pablo durante su encarcelamiento",
+        "Transformación total de su identidad y comportamiento"
+      ],
+      "debilidades": [
+        "Pasado marcado por el robo y la deslealtad antes de conocer a Cristo"
+      ],
+      "simbologia": [
+        {
+          "objeto": "Las Cadenas Rotas",
+          "significado": "Representan la libertad espiritual que trasciende la condición física de esclavitud."
+        },
+        {
+          "objeto": "La Carta de Filemón",
+          "significado": "Símbolo de la intercesión y la gracia que paga las deudas ajenas."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "En Cristo, tu pasado no dicta tu utilidad futura; Él transforma lo que era 'inútil' en algo 'provechoso' para Su Reino.",
+      "preguntas_reflexion": [
+        "¿Hay algo en tu pasado que debas enfrentar o restituir para vivir en plena libertad?",
+        "¿Estás dispuesto a ver a otros no por sus errores anteriores, sino como 'hermanos amados'?",
+        "¿Estás haciendo honor a tu llamado de ser 'útil' para Dios en tu situación actual?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Fuga",
+        "evento": "Onésimo huye de su amo Filemón en Colosas, posiblemente tras cometer un robo.",
+        "vinculo_mapa": "colosas",
+        "referencia": "Filemón 1:18"
+      },
+      {
+        "fase": "Encuentro",
+        "evento": "Encuentra a Pablo en Roma y se convierte bajo su ministerio en la cárcel.",
+        "vinculo_mapa": "roma",
+        "referencia": "Filemón 1:10"
+      },
+      {
+        "fase": "Servicio",
+        "evento": "Se vuelve indispensable para Pablo, sirviéndole en sus cadenas.",
+        "vinculo_mapa": "roma",
+        "referencia": "Filemón 1:13"
+      },
+      {
+        "fase": "Restitución",
+        "evento": "Regresa a Colosas llevando la epístola de Pablo para solicitar su perdón y libertad.",
+        "vinculo_mapa": "colosas",
+        "referencia": "Colosenses 4:9"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "colosas",
+        "roma"
+      ],
+      "estudios": [
+        "epistola-a-filemon",
+        "esclavitud-en-el-nuevo-testamento",
+        "la-doctrina-de-la-restitucion"
+      ],
+      "devocionales": [
+        "de-inutil-a-util",
+        "el-poder-del-perdon"
+      ],
+      "personajes_relacionados": [
+        "filemon",
+        "pablo",
+        "tiquico"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 100,
+      "logro_id": "hermano-util"
+    }
+  },
+  {
+    "id": "juan-patmos",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Juan (Patmos)",
+      "titulo_corto": "El Visionario del Fin",
+      "significado_nombre": "Jehová es misericordioso",
+      "ocupacion": "Apóstol, Profeta",
+      "familia": {
+        "padre": "Zebedeo",
+        "hermano": "Santiago (el mayor)"
+      },
+      "imagen": "/img/perfiles/juan_patmos.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Apocalipsis",
+        "Juan",
+        "1, 2 y 3 Juan"
+      ],
+      "era_biblica": "Iglesia Apostólica Tardía",
+      "ubicacion_principal": "Isla de Patmos"
+    },
+    "narrativa": {
+      "resumen_epico": "El último de los doce, el anciano Juan, se convirtió en el centinela de la eternidad. Tras sobrevivir a las persecuciones de Jerusalén y Éfeso, fue desterrado a la solitaria y rocosa isla de Patmos por orden del emperador Domiciano. Allí, en medio del silencio del exilio, los cielos se rasgaron para él. Juan no solo vio el futuro de la humanidad y el juicio de las naciones, sino que contempló al Cristo glorificado, cuya voz como estruendo de muchas aguas le confió el mensaje final de esperanza para una iglesia atribulada.",
+      "dato_curioso": "A diferencia de sus compañeros mártires que murieron por la espada o la cruz, Juan sufrió el 'martirio blanco': la soledad extrema en una isla penal. La tradición cuenta que antes de ser exiliado, sobrevivió milagrosamente a un caldero de aceite hirviente en Roma.",
+      "conexion_jesus": "Juan cierra el canon bíblico con el cumplimiento final de la promesa de Jesús. El 'discípulo amado' que una vez recostó su cabeza en el pecho del Maestro, ahora cae a Sus pies ante Su majestad divina, sirviendo como el puente entre el ministerio terrenal de Cristo y Su reinado eterno.",
+      "diagrama_referencia": "Mapa de la Isla de Patmos y las Siete Iglesias de Asia Menor"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Juan manifiesta una psicología de trascendencia. Su madurez espiritual le permite procesar visiones que harían colapsar a otros: dragones, copas de ira y guerras celestiales. A pesar de su vejez física, su espíritu permanece vibrante y agudo, caracterizado por una esperanza inquebrantable que no se inmuta ante el poder político de Roma ni ante la aparente derrota de la iglesia.",
+      "fortalezas": [
+        "Resistencia espiritual inigualable en la senectud",
+        "Fidelidad absoluta como último testigo ocular de la vida de Jesús",
+        "Capacidad profética para interpretar el lenguaje del cielo"
+      ],
+      "debilidades": [
+        "Sobrecarga sensorial y temor ante la gloria de Dios (Apoc 1:17)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Águila",
+          "significado": "Representa la altura teológica y la visión profética que alcanza lo celestial."
+        },
+        {
+          "objeto": "La Ciudad de Oro",
+          "significado": "Símbolo de la Nueva Jerusalén y la esperanza de la morada final con Dios."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El aislamiento físico puede convertirse en la plataforma para la mayor revelación espiritual de tu vida.",
+      "preguntas_reflexion": [
+        "¿Estás permitiendo que tu soledad se convierta en un espacio de encuentro con Dios?",
+        "¿Tu esperanza está basada en las noticias de este mundo o en el triunfo final del Cordero?",
+        "¿Cómo estás preparando tu espíritu para las 'revelaciones' que Dios quiere darte en tu madurez?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Destierro",
+        "evento": "Es exiliado a Patmos por causa del testimonio de Jesucristo.",
+        "vinculo_mapa": "isla-patmos",
+        "referencia": "Apocalipsis 1:9"
+      },
+      {
+        "fase": "Revelación",
+        "evento": "Tiene la visión del Hijo del Hombre caminando entre los siete candeleros.",
+        "vinculo_mapa": "isla-patmos",
+        "referencia": "Apocalipsis 1:12-16"
+      },
+      {
+        "fase": "Mandato",
+        "evento": "Se le ordena escribir a las siete iglesias de Asia Menor.",
+        "vinculo_mapa": "asia-menor",
+        "referencia": "Apocalipsis 2 y 3"
+      },
+      {
+        "fase": "Consumación",
+        "evento": "Ve el descenso de la Nueva Jerusalén y el fin del dolor y la muerte.",
+        "vinculo_mapa": "nueva-jerusalen",
+        "referencia": "Apocalipsis 21"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "patmos",
+        "efeso",
+        "nueva-jerusalen"
+      ],
+      "estudios": [
+        "escatologia-biblica",
+        "las-siete-iglesias",
+        "simbologia-del-apocalipsis"
+      ],
+      "devocionales": [
+        "esperanza-eterna",
+        "fiel-hasta-la-muerte"
+      ],
+      "personajes_relacionados": [
+        "jesus",
+        "domiciano",
+        "miguel-arcangel"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "visionario-del-alpha-y-omega"
+    }
+  },
+  {
+    "id": "bernabe",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Bernabé",
+      "titulo_corto": "El Hijo de Consolación",
+      "significado_nombre": "Hijo de Profecía / Hijo de Consolación",
+      "ocupacion": "Levita, Misionero, Apóstol",
+      "familia": {
+        "origen": "Levita de Chipre",
+        "primo": "Juan Marcos"
+      },
+      "imagen": "/img/perfiles/bernabe.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "Gálatas",
+        "1 Corintios"
+      ],
+      "era_biblica": "Iglesia Apostólica Temprana",
+      "ubicacion_principal": "Antioquía y Chipre"
+    },
+    "narrativa": {
+      "resumen_epico": "Bernabé fue el gran arquitecto de puentes en la iglesia primitiva. Como un hombre lleno de gracia, tuvo el ojo espiritual para ver al apóstol en el perseguidor y al misionero en el joven que falló. Fue él quien avaló a Saulo (Pablo) ante una comunidad temerosa y quien rescató a Juan Marcos de su fracaso inicial. Su generosidad comenzó con la entrega de sus bienes terrenales y culminó con la entrega de su vida al servicio transcultural, demostrando que el ministerio de animar a otros es el pegamento que sostiene el avance del Reino.",
+      "dato_curioso": "Originalmente se llamaba José, pero los apóstoles le cambiaron el nombre a 'Bernabé' (Consolación) debido a su asombrosa capacidad para restaurar y animar a los hermanos. Era tan respetado que en Listra los paganos intentaron adorarlo como si fuera el dios Zeus.",
+      "conexion_jesus": "Bernabé refleja al Espíritu Santo en Su rol de 'Parakletos' (Consolador/Abogado). Actuó como el abogado de Pablo ante los doce y como el consolador de Marcos tras su deserción, imitando la naturaleza restauradora de Jesús con Sus discípulos.",
+      "diagrama_referencia": "Ruta del primer viaje misionero de Pablo y Bernabé"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Bernabé posee una psicología de abundancia y confianza radical. No padece de inseguridad competitiva; está feliz de menguar para que otros (como Pablo) crezcan. Su corazón es una incubadora de líderes: tiene la paciencia necesaria para trabajar con el 'material humano' imperfecto, creyendo que la gracia de Dios siempre es capaz de dar segundas oportunidades.",
+      "fortalezas": [
+        "Generosidad desprendida de bienes y estatus",
+        "Visión para identificar el potencial oculto en los demás",
+        "Carácter conciliador que suaviza las tensiones doctrinales y personales"
+      ],
+      "debilidades": [
+        "Vulnerabilidad a la presión social de sus pares (incidente con Pedro en Antioquía sobre la circuncisión)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Campo Vendido",
+          "significado": "Representa el desprendimiento total de las raíces terrenales por la causa de la iglesia."
+        },
+        {
+          "objeto": "La Mano Extendida",
+          "significado": "Símbolo de su ministerio de conexión y aval para los marginados."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "A veces el mayor impacto que puedes tener no es a través de tus sermones, sino a través de las personas en las que decides creer.",
+      "preguntas_reflexion": [
+        "¿A quién en tu entorno podrías 'avalar' o animar hoy mismo?",
+        "¿Estás dispuesto a ceder tu lugar para que alguien con más talento que tú prospere?",
+        "¿Eres capaz de dar una segunda oportunidad a quien te falló en el pasado?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Consagración",
+        "evento": "Vende una heredad en Chipre y pone el dinero a los pies de los apóstoles.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 4:36-37"
+      },
+      {
+        "fase": "Intercesión",
+        "evento": "Busca a Saulo en Tarso y lo integra al liderazgo en Antioquía.",
+        "vinculo_mapa": "antioquia",
+        "referencia": "Hechos 11:25-26"
+      },
+      {
+        "fase": "Misión",
+        "evento": "Es enviado por el Espíritu Santo junto a Pablo al primer viaje misionero.",
+        "vinculo_mapa": "chipre",
+        "referencia": "Hechos 13:2-4"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Se separa de Pablo para llevar a Juan Marcos a una nueva oportunidad misionera.",
+        "vinculo_mapa": "chipre",
+        "referencia": "Hechos 15:37-39"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "chipre",
+        "antioquia",
+        "listra",
+        "jerusalen"
+      ],
+      "estudios": [
+        "discipulado-y-mentoreo",
+        "el-primer-viaje-misionero",
+        "historia-de-antioquia"
+      ],
+      "devocionales": [
+        "el-poder-del-animo",
+        "segundas-oportunidades"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "juan-marcos",
+        "pedro",
+        "zeus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 150,
+      "logro_id": "hijo-de-la-consolacion"
+    }
+  },
+  {
+    "id": "juan-marcos",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Juan Marcos",
+      "titulo_corto": "El Joven Restaurado",
+      "significado_nombre": "Juan (Gracia) Marcos (Martillo/Guerrero)",
+      "ocupacion": "Misionero, Evangelista",
+      "familia": {
+        "madre": "María de Jerusalén",
+        "tio": "Bernabé"
+      },
+      "imagen": "/img/perfiles/juan-marcos.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos",
+        "Marcos",
+        "Colosenses",
+        "2 Timoteo",
+        "1 Pedro"
+      ],
+      "era_biblica": "Iglesia Apostólica / Expansión Misionera",
+      "ubicacion_principal": "Jerusalén, Roma"
+    },
+    "narrativa": {
+      "resumen_epico": "Hijo de la iglesia primitiva y sobrino del gran consolador Bernabé, Juan Marcos es el rostro de la redención tras el fracaso. Aunque su camino misionero comenzó con una huida vergonzosa que fracturó la relación entre Pablo y Bernabé, su historia no terminó en el abandono. Bajo la tutela de su tío y la guía espiritual de Pedro, Marcos transformó su inestabilidad juvenil en una pluma poderosa, redactando el Evangelio de la acción y convirtiéndose, al final de sus días, en un colaborador indispensable para aquel mismo Pablo que una vez lo rechazó.",
+      "dato_curioso": "Se le identifica tradicionalmente como el joven que huyó desnudo en Getsemaní dejando su sábana atrás (Marcos 14:51-52). Esta mención, única en su Evangelio, se interpreta como su 'firma' personal, recordando el momento en que su miedo fue mayor que su fidelidad.",
+      "conexion_jesus": "Marcos presenta a Jesús como el Siervo Sufriente que actúa con urgencia ('euthus'). Su propia restauración es un testimonio vivo de la gracia del Maestro: el joven que huyó en el huerto terminó siendo quien documentó la victoria del Cordero para todo el Imperio Romano.",
+      "diagrama_referencia": "Esquema del círculo de restauración: Bernabé (Apoyo) -> Pedro (Mentoreo) -> Pablo (Reconocimiento)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Juan Marcos muestra una psicología de crecimiento bajo presión. Su inmadurez inicial y miedo al riesgo misionero reflejan la lucha de todo joven ante el sacrificio. Sin embargo, su capacidad para aceptar la corrección y someterse a un nuevo proceso de discipulado revela una humildad profunda. Pasó de ser un joven dependiente a ser un hombre 'útil', demostrando que la identidad no se define por el error cometido, sino por la respuesta a la gracia.",
+      "fortalezas": [
+        "Humildad para reconocer su error y volver a intentarlo",
+        "Capacidad de síntesis narrativa y enfoque en los hechos (Evangelio de Marcos)",
+        "Lealtad restaurada hacia sus mentores"
+      ],
+      "debilidades": [
+        "Falta de perseverancia inicial y susceptibilidad al temor en la adversidad"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Sábana de Lino",
+          "significado": "Representa el miedo del pasado que queda atrás para revestirse de la armadura de Dios."
+        },
+        {
+          "objeto": "La Pluma del Escriba",
+          "significado": "Símbolo de su utilidad final como cronista de los hechos de Jesús."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Un fracaso momentáneo no anula tu propósito eterno; las segundas oportunidades son la especialidad de Dios.",
+      "preguntas_reflexion": [
+        "¿Hay algún 'fracaso' en tu pasado que te impide creer que Dios puede usarte hoy?",
+        "¿Estás dispuesto a ser un 'Marcos' y volver con humildad a los que te corrigieron?",
+        "¿Tienes un 'Bernabé' en tu vida que te anime a intentar la misión de nuevo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Crisis",
+        "evento": "Abandona el primer viaje misionero en Perge, regresando a la seguridad de Jerusalén.",
+        "vinculo_mapa": "panfilia",
+        "referencia": "Hechos 13:13"
+      },
+      {
+        "fase": "Ruptura",
+        "evento": "Su presencia causa una fuerte disputa entre Pablo y Bernabé, resultando en la división del equipo.",
+        "vinculo_mapa": "antioquia",
+        "referencia": "Hechos 15:37-39"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Sirve junto a Pedro en Roma, quien lo llama 'mi hijo Marcos'.",
+        "vinculo_mapa": "roma",
+        "referencia": "1 Pedro 5:13"
+      },
+      {
+        "fase": "Vindicación",
+        "evento": "Pablo, antes de morir, pide expresamente su presencia por serle 'útil'.",
+        "vinculo_mapa": "roma",
+        "referencia": "2 Timoteo 4:11"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "chipre",
+        "roma",
+        "panfilia"
+      ],
+      "estudios": [
+        "el-evangelio-de-marcos",
+        "segundas-oportunidades-biblicas",
+        "historia-de-la-iglesia-primitiva"
+      ],
+      "devocionales": [
+        "util-para-el-ministerio",
+        "venciendo-el-miedo"
+      ],
+      "personajes_relacionados": [
+        "bernabe",
+        "pedro",
+        "pablo",
+        "maria"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 120,
+      "logro_id": "segunda-oportunidad"
+    }
+  },
+  {
+    "id": "cornelio",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Cornelio",
+      "titulo_corto": "El Primer Gentil",
+      "significado_nombre": "De un cuerno (Símbolo de fuerza)",
+      "ocupacion": "Centurión del regimiento 'La Italiana'",
+      "familia": {
+        "rol": "Cabeza de familia y líder de su casa"
+      },
+      "imagen": "/img/perfiles/cornelio.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Apertura a los Gentiles",
+      "ubicacion_principal": "Cesarea Marítima"
+    },
+    "narrativa": {
+      "resumen_epico": "Centurión del temido ejército romano, Cornelio fue el hombre elegido por Dios para derribar los muros de exclusividad religiosa. Siendo un gentil 'piadoso y temeroso de Dios', su búsqueda sincera fue respondida con una visita angelical que lo guio hasta el apóstol Pedro. Su casa en Cesarea se convirtió en el escenario de un nuevo Pentecostés, donde el Espíritu Santo descendió sobre los no judíos, confirmando que la salvación no conoce fronteras raciales ni culturales.",
+      "dato_curioso": "Como centurión romano, Cornelio representaba el poder opresor para los judíos; sin embargo, el texto enfatiza que 'daba muchas limosnas al pueblo', ganándose el respeto de la nación que su imperio dominaba.",
+      "conexion_jesus": "Cornelio es el cumplimiento de la promesa de que Jesús vendría a ser 'luz para las naciones'. Su conversión valida que la sangre de Cristo ha hecho de ambos pueblos (judíos y gentiles) uno solo, derribando la pared intermedia de separación.",
+      "diagrama_referencia": "Mapa de la ruta de los mensajeros de Cornelio desde Cesarea a Jope"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Cornelio manifiesta una psicología de hambre espiritual y humildad disciplinada. A pesar de su rango militar de autoridad, se postró ante Pedro, reconociendo que la jerarquía espiritual de Dios es superior a la del César. Representa al buscador que, teniendo éxito terrenal, comprende que su alma sigue necesitando la verdad que solo el Evangelio puede ofrecer.",
+      "fortalezas": [
+        "Disciplina en la oración y la generosidad constante",
+        "Liderazgo integral (influyó en toda su casa y soldados)",
+        "Obediencia inmediata a las instrucciones divinas"
+      ],
+      "debilidades": [
+        "Ninguna registrada en el contexto de su fe"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Uniforme Romano",
+          "significado": "Representa que la gracia de Dios puede penetrar incluso en los sistemas más rígidos y hostiles."
+        },
+        {
+          "objeto": "La Puerta Abierta",
+          "significado": "Símbolo de la entrada oficial de las naciones gentiles al pacto de Dios."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu sinceridad en la búsqueda de Dios y tu generosidad hacia los necesitados nunca pasan desapercibidas ante el cielo.",
+      "preguntas_reflexion": [
+        "¿Están tus oraciones y actos de amor 'subiendo como memoria' delante de Dios?",
+        "¿Estás dispuesto a recibir a personas que tu cultura o religión considerarían 'impuras'?",
+        "¿Ejerces un liderazgo que motiva a toda tu familia a buscar al Señor?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Visión",
+        "evento": "A la hora novena, un ángel le instruye buscar a Simón Pedro en Jope.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 10:3-5"
+      },
+      {
+        "fase": "Expectación",
+        "evento": "Reúne a sus parientes y amigos íntimos para escuchar el mensaje de Dios.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 10:24"
+      },
+      {
+        "fase": "Confirmación",
+        "evento": "El Espíritu Santo cae sobre los gentiles mientras Pedro aún hablaba.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 10:44"
+      },
+      {
+        "fase": "Sello",
+        "evento": "Es bautizado en el nombre de Jesucristo junto con todos los de su casa.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 10:48"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "cesarea-maritima",
+        "jope",
+        "roma"
+      ],
+      "estudios": [
+        "el-evangelio-a-los-gentiles",
+        "visiones-y-el-espiritu-santo",
+        "el-centurion-piadoso"
+      ],
+      "devocionales": [
+        "dios-no-hace-acepcion",
+        "oracion-y-accion"
+      ],
+      "personajes_relacionados": [
+        "pedro",
+        "felipe-evangelista",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 100,
+      "logro_id": "primicia-de-las-naciones"
+    }
+  },
+  {
+    "id": "berenice",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Berenice",
+      "titulo_corto": "La Princesa del Escándalo",
+      "significado_nombre": "Portadora de victoria (Pherenike)",
+      "ocupacion": "Princesa de Judea",
+      "familia": {
+        "padre": "Herodes Agripa I",
+        "hermanos": "Agripa II, Drusila",
+        "dinastia": "Herodiana"
+      },
+      "imagen": "/img/perfiles/berenice.webp",
+      "icono_mapa": "/img/ui/markers/rey.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Juicio de Pablo",
+      "ubicacion_principal": "Cesarea Marítima"
+    },
+    "narrativa": {
+      "resumen_epico": "Berenice fue la mujer más poderosa y controvertida de la Judea del siglo I. Poseedora de una belleza legendaria y una influencia política que llegaba hasta los pasillos imperiales de Roma, su vida fue una sucesión de alianzas estratégicas y escándalos morales que escandalizaron a su propio pueblo. Su momento cumbre en la narrativa bíblica ocurre en Cesarea, donde entró a la sala de audiencias con una pompa deslumbrante para escuchar al apóstol Pablo. Ante la verdad cortante del Evangelio, Berenice prefirió el brillo de su corona y la comodidad de su pecado, convirtiéndose en el símbolo de la gloria que se desvanece frente a lo eterno.",
+      "dato_curioso": "Berenice estuvo a un paso de ser emperatriz de Roma. Su romance con el futuro emperador Tito fue tan intenso que él la llevó a Roma; sin embargo, el odio del Senado hacia una reina judía obligó a Tito a enviarla de regreso a Judea 'invitus invitam' (contra el deseo de ambos).",
+      "conexion_jesus": "Berenice representa el contraste absoluto con Cristo: mientras Jesús, siendo Dios, se despojó de Su gloria para servir, Berenice se aferró a su 'pompa' terrenal. Es la imagen del corazón que escucha la Palabra pero no permite que la luz de Cristo penetre en sus tinieblas privadas.",
+      "diagrama_referencia": "Árbol genealógico de la Dinastía Herodiana y su relación con el poder Romano"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Berenice manifiesta una psicología de autopreservación y narcisismo aristocrático. Su seguridad dependía de su estatus y su apariencia. A pesar de su curiosidad intelectual por los asuntos espirituales, su voluntad estaba encadenada a su estilo de vida. Representa la tragedia de los que están 'casi persuadidos', pero cuyo amor por el reconocimiento mundano y el placer prohibido actúa como un ancla que les impide la conversión.",
+      "fortalezas": [
+        "Aguda inteligencia política y diplomática",
+        "Capacidad para moverse con éxito en las altas esferas del Imperio Romano",
+        "Interés por el pensamiento y la oratoria de primer nivel"
+      ],
+      "debilidades": [
+        "Inmoralidad persistente (relación incestuosa con su hermano)",
+        "Dependencia extrema del lujo y la validación externa",
+        "Indiferencia espiritual ante la confrontación del pecado"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Púrpura Real",
+          "significado": "Representa el poder terrenal que busca ocultar la miseria moral interna."
+        },
+        {
+          "objeto": "La Sala de Audiencia",
+          "significado": "Símbolo del tribunal de Dios donde el hombre, creyéndose juez, termina siendo el juzgado por la verdad."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No confundas el interés intelectual por el Evangelio con una rendición genuina del corazón a Jesús.",
+      "preguntas_reflexion": [
+        "¿Qué 'pompa' o orgullo personal te está impidiendo humillarte ante Dios?",
+        "¿Estás escuchando la verdad solo como un espectáculo o como un llamado a cambiar tu vida?",
+        "¿Valoras más la aprobación de tu círculo social que la justicia de Dios?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Poder",
+        "evento": "Consolida su influencia en Judea tras varios matrimonios estratégicos.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 25:13"
+      },
+      {
+        "fase": "La Audiencia",
+        "evento": "Entra con gran ostentación para escuchar la defensa del apóstol Pablo.",
+        "vinculo_mapa": "audiencia-cesarea",
+        "referencia": "Hechos 25:23"
+      },
+      {
+        "fase": "El Juicio",
+        "evento": "Concluye junto a Agripa II que Pablo no ha hecho nada digno de muerte, pero no acepta su mensaje.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 26:30-31"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "cesarea-maritima",
+        "roma",
+        "jerusalen"
+      ],
+      "estudios": [
+        "los-herodes-en-el-nuevo-testamento",
+        "historia-del-imperio-romano",
+        "pablo-ante-los-reyes"
+      ],
+      "devocionales": [
+        "el-peligro-de-la-pompa",
+        "corazones-endurecidos"
+      ],
+      "personajes_relacionados": [
+        "herodes-agripa-ii",
+        "pablo",
+        "festo",
+        "herodes-agripa"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 60,
+      "logro_id": "casi-persuadida"
+    }
+  },
+  {
+    "id": "ananias-y-safira",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Ananías y Safira",
+      "titulo_corto": "Los Falsos Generosos",
+      "significado_nombre": "Ananías: Jehová es gracioso / Safira: Hermosa o Zafiro",
+      "ocupacion": "Miembros de la iglesia primitiva",
+      "familia": {
+        "vinculo": "Matrimonio"
+      },
+      "imagen": "/img/perfiles/ananias-safira.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Primitiva / Crecimiento en Jerusalén",
+      "ubicacion_principal": "Jerusalén"
+    },
+    "narrativa": {
+      "resumen_epico": "En el amanecer de la Iglesia, donde todo era compartido con alegría, Ananías y Safira intentaron comprar una reputación espiritual con una mentira. Vendieron una propiedad y, de común acuerdo, entregaron solo una parte a los apóstoles mientras fingían que era el total. Su pecado no fue retener el dinero, sino intentar engañar al Espíritu Santo. Su muerte repentina sirvió como un recordatorio severo de que la santidad de la Iglesia no es un juego y que la integridad es el fundamento del Reino.",
+      "dato_curioso": "Este es el primer caso registrado de disciplina divina fatal en el Nuevo Testamento, trazando un paralelo con el pecado de Acán en el Antiguo Testamento; ambos ocurrieron justo cuando el pueblo de Dios comenzaba una nueva etapa.",
+      "conexion_jesus": "Contrastan con el sacrificio de Cristo: Jesús lo dio todo con sinceridad para dar vida; ellos dieron una parte con falsedad y encontraron la muerte. Representan la hipocresía que Jesús tanto denunció en los fariseos.",
+      "diagrama_referencia": "Cuadro comparativo: La generosidad de Bernabé vs. La falsedad de Ananías"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Su psicología estaba dominada por la vanagloria y el miedo a la escasez. Querían la admiración que recibían los generosos como Bernabé, pero sin el costo del desprendimiento total. Su complicidad matrimonial en el engaño muestra una relación basada en la apariencia externa más que en el temor a Dios, priorizando la aprobación humana sobre la divina.",
+      "fortalezas": [
+        "Poseían bienes y capacidad de gestión",
+        "Participaban activamente en la vida comunitaria de la iglesia"
+      ],
+      "debilidades": [
+        "Amor al reconocimiento y la reputación espiritual falsa",
+        "Codicia disfrazada de piedad",
+        "Falta de temor reverente al Espíritu Santo"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Dinero del Precio",
+          "significado": "Representa la tentación de ofrecer a Dios lo que nos sobra pretendiendo que es nuestro todo."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "A Dios no le impresiona el tamaño de tu ofrenda, sino la honestidad de tu corazón.",
+      "preguntas_reflexion": [
+        "¿Estás tratando de proyectar una imagen de santidad que no tienes en privado?",
+        "¿Tus actos de generosidad buscan la gloria de Dios o el aplauso de los hombres?",
+        "¿Eres honesto con Dios respecto a lo que le entregas de tu tiempo y recursos?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "La Venta",
+        "evento": "Venden una heredad y sustraen parte del precio de común acuerdo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 5:1-2"
+      },
+      {
+        "fase": "El Juicio de Ananías",
+        "evento": "Pedro confronta a Ananías; este cae y expira ante el temor de todos.",
+        "vinculo_mapa": "casa-apostoles",
+        "referencia": "Hechos 5:3-5"
+      },
+      {
+        "fase": "El Juicio de Safira",
+        "evento": "Tres horas después, Safira repite la mentira y sufre el mismo destino.",
+        "vinculo_mapa": "casa-apostoles",
+        "referencia": "Hechos 5:7-10"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen"
+      ],
+      "estudios": [
+        "santidad-en-la-iglesia",
+        "disciplina-eclesiastica",
+        "el-pecado-de-hipocresia"
+      ],
+      "devocionales": [
+        "integridad-ante-todo",
+        "el-peligro-de-la-apariencia"
+      ],
+      "personajes_relacionados": [
+        "pedro",
+        "bernabe",
+        "espiritu-santo"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 50,
+      "logro_id": "leccion-de-integridad"
+    }
+  },
+  {
+    "id": "gamaliel",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Gamaliel",
+      "titulo_corto": "El Maestro de la Prudencia",
+      "significado_nombre": "Recompensa de Dios",
+      "ocupacion": "Fariseo, Doctor de la Ley",
+      "familia": {
+        "linaje": "Nieto del famoso Hillel el Sabio",
+        "discípulo": "Saulo de Tarso (Pablo)"
+      },
+      "imagen": "/img/perfiles/gamaliel.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Primitiva / Conflictos en el Sanedrín",
+      "ubicacion_principal": "Jerusalén (Sanedrín)"
+    },
+    "narrativa": {
+      "resumen_epico": "En un Sanedrín encendido por el odio hacia los apóstoles, Gamaliel fue la voz de la sensatez. Este prestigioso maestro judío intervino para salvar la vida de Pedro y los suyos con un argumento histórico y lógico: si la obra de los apóstoles era humana, se desvanecería sola; pero si venía de Dios, nadie podría detenerla. Su consejo no solo evitó una masacre, sino que estableció un principio de discernimiento que ha perdurado por siglos.",
+      "dato_curioso": "Era el maestro más respetado de su tiempo; tanto que Pablo usaba su nombre como credencial de máxima excelencia educativa diciendo: 'Instruido a los pies de Gamaliel'.",
+      "conexion_jesus": "Aunque no se registra su conversión, su lógica reconoció la posibilidad de que Dios estuviera detrás del movimiento de Jesús. Es el contrapunto sabio a la ceguera religiosa de Caifás.",
+      "diagrama_referencia": "Estructura del Sanedrín y la posición de los doctores de la ley"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Gamaliel representa la psicología de la objetividad y la cautela académica. No se deja llevar por el fanatismo ni por el miedo al cambio. Su sabiduría reside en observar los frutos antes de emitir un juicio definitivo, demostrando una madurez que entiende que la verdad de Dios no necesita defensa violenta.",
+      "fortalezas": [
+        "Prestigio intelectual y autoridad moral indiscutible",
+        "Prudencia política en momentos de alta tensión",
+        "Capacidad de análisis histórico comparativo"
+      ],
+      "debilidades": [
+        "Su neutralidad lo mantuvo al margen del compromiso personal con el Evangelio"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Cátedra",
+          "significado": "Representa la enseñanza de la ley y el peso de la tradición equilibrada."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No te apresures a juzgar lo que no entiendes; si es de Dios, prevalecerá.",
+      "preguntas_reflexion": [
+        "¿Tus decisiones nacen de la sabiduría o del impulso emocional?",
+        "¿Sabes escuchar la voz de la prudencia cuando otros piden violencia?",
+        "¿Eres capaz de reconocer la mano de Dios en lugares o personas inesperadas?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Formación",
+        "evento": "Se consolida como el principal rabino de la escuela de Hillel.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 22:3"
+      },
+      {
+        "fase": "Intervención",
+        "evento": "Defiende a los apóstoles ante el Sanedrín citando los casos de Teudas y Judas el galileo.",
+        "vinculo_mapa": "sanedrin",
+        "referencia": "Hechos 5:34-39"
+      },
+      {
+        "fase": "Legado",
+        "evento": "Su influencia perdura a través de su alumno Pablo, quien reformula la ley desde Cristo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 22:3"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen"
+      ],
+      "estudios": [
+        "ley-y-gracia",
+        "historia-del-sanedrin",
+        "discernimiento-espiritual"
+      ],
+      "devocionales": [
+        "el-valor-de-la-prudencia",
+        "dejalo-en-manos-de-dios"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "pedro",
+        "caifas"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 100,
+      "logro_id": "sabio-del-sanedrin"
+    }
+  },
+  {
+    "id": "agabo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Agabo",
+      "titulo_corto": "El Profeta de los Hechos",
+      "significado_nombre": "Langosta o Amado",
+      "ocupacion": "Profeta",
+      "familia": {
+        "comunidad": "Profetas de Jerusalén"
+      },
+      "imagen": "/img/perfiles/agabo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Expansión a los Gentiles",
+      "ubicacion_principal": "Antioquía y Cesarea"
+    },
+    "narrativa": {
+      "resumen_epico": "Agabo fue el profeta itinerante que preparó a la Iglesia para las crisis. Con una precisión asombrosa, predijo una gran hambruna mundial que movilizó a los gentiles a ayudar a los judíos, uniendo a la Iglesia en caridad. Más tarde, protagonizó una dramática profecía visual al atarse las manos y los pies con el cinto de Pablo, advirtiendo al apóstol sobre su inminente arresto en Jerusalén. Representa la voz de advertencia que Dios usa para fortalecer y preparar a Sus hijos para el sufrimiento.",
+      "dato_curioso": "Agabo utilizaba 'actos proféticos' similares a los de Ezequiel en el Antiguo Testamento. No solo hablaba, sino que dramatizaba el mensaje para que el impacto visual fuera inolvidable.",
+      "conexion_jesus": "Refleja el don profético de Cristo que anunció Su propia entrega. Agabo anuncia el sufrimiento de Pablo como un paso necesario en el plan de Dios, tal como Jesús anunció Su cruz.",
+      "diagrama_referencia": "Cronología de las profecías de Agabo y su cumplimiento"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Agabo posee una psicología de servicio y sobriedad. Su propósito no es asustar, sino preparar. Es un hombre de profunda sensibilidad espiritual que puede sentir el peso del futuro, pero que entrega el mensaje con la paz de quien sabe que Dios tiene el control. Muestra una lealtad absoluta a la comunidad, viajando largas distancias solo para entregar advertencias vitales.",
+      "fortalezas": [
+        "Precisión profética comprobada históricamente",
+        "Valentía para entregar mensajes de sufrimiento a líderes importantes",
+        "Capacidad de movilizar la solidaridad social mediante la profecía"
+      ],
+      "debilidades": [
+        "Ninguna registrada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Cinto de Pablo",
+          "significado": "Representa la sujeción voluntaria del creyente al destino que Dios ha trazado, incluso si implica cadenas."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La profecía no es para satisfacer la curiosidad, sino para preparar el corazón para la acción o la resistencia.",
+      "preguntas_reflexion": [
+        "¿Escuchas las advertencias de Dios para prepararte o las ignoras por miedo?",
+        "¿Estás dispuesto a usar lo que Dios te revela para ayudar a otros en crisis?",
+        "¿Aceptarías un camino de 'cadenas' si supieras que es la voluntad de Dios?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Advertencia Social",
+        "evento": "Predice en Antioquía una gran hambre que vendría sobre toda la tierra habitable.",
+        "vinculo_mapa": "antioquia",
+        "referencia": "Hechos 11:28"
+      },
+      {
+        "fase": "Advertencia Personal",
+        "evento": "Toma el cinto de Pablo en Cesarea y profetiza su arresto en Jerusalén.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 21:10-11"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "antioquia",
+        "cesarea",
+        "jerusalen"
+      ],
+      "estudios": [
+        "profecia-en-el-nuevo-testamento",
+        "actos-profeticos",
+        "historia-del-primer-siglo"
+      ],
+      "devocionales": [
+        "preparacion-espiritual",
+        "la-voz-de-dios"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "bernabe",
+        "felipe-evangelista"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 80,
+      "logro_id": "voz-de-advertencia"
+    }
+  },
+  {
+    "id": "eutico",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Eutico",
+      "titulo_corto": "El Joven que Volvió a la Vida",
+      "significado_nombre": "Afortunado",
+      "ocupacion": "Joven oyente",
+      "familia": {
+        "comunidad": "Iglesia en Troas"
+      },
+      "imagen": "/img/perfiles/eutico.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Viajes de Pablo",
+      "ubicacion_principal": "Troas"
+    },
+    "narrativa": {
+      "resumen_epico": "En una calurosa noche de prédica interminable, el joven Eutico se convirtió en el protagonista de un milagro asombroso. Sentado en una ventana del tercer piso mientras Pablo hablaba hasta la medianoche, el sueño lo venció y cayó al vacío, siendo levantado muerto. Pablo bajó, lo abrazó y declaró que su vida estaba en él. Eutico no solo despertó, sino que su resurrección trajo un consuelo inmenso a la iglesia, recordándoles que el poder de Dios es mayor que la fatiga y la muerte.",
+      "dato_curioso": "Lucas, el médico, es quien narra la historia y asegura técnicamente que Eutico fue 'levantado muerto'. Su nombre, 'Afortunado', cobró un sentido literal esa noche.",
+      "conexion_jesus": "Su resurrección es un eco de las resurrecciones realizadas por Jesús y prefigura la esperanza final de todos los creyentes: que aunque el sueño de la muerte nos alcance, despertaremos ante Su abrazo.",
+      "diagrama_referencia": "Recreación de la casa en Troas y el lugar de la caída"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Representa la fragilidad humana y la lucha entre el deseo espiritual (querer escuchar a Pablo) y la limitación física (el sueño). Su historia muestra a un Dios que no juzga nuestra debilidad, sino que responde con gracia y restauración. Eutico personifica a una generación joven que, aunque a veces 'se duerme' o cae, es profundamente amada y rescatada por el ministerio apostólico.",
+      "fortalezas": [
+        "Deseo de estar presente en la enseñanza a pesar del cansancio",
+        "Símbolo de vida y consuelo para su comunidad"
+      ],
+      "debilidades": [
+        "Vulnerabilidad física y falta de precaución al situarse en la ventana"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Ventana",
+          "significado": "Representa el lugar de peligro donde la distracción o el cansancio pueden hacernos caer si no estamos alertas."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Dios tiene el poder de restaurar incluso nuestras caídas más fatales y convertir nuestra debilidad en un testimonio de vida.",
+      "preguntas_reflexion": [
+        "¿En qué áreas de tu vida espiritual te has 'dormido' y corres riesgo de caer?",
+        "¿Confías en que Dios puede darte una 'segunda oportunidad' después de un error grave?",
+        "¿Buscas el consuelo de Dios cuando ves a otros caer a tu alrededor?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "La Reunión",
+        "evento": "Se sienta en una ventana durante una larga reunión de despedida en Troas.",
+        "vinculo_mapa": "troas",
+        "referencia": "Hechos 20:9"
+      },
+      {
+        "fase": "La Caída",
+        "evento": "Vencido por el sueño, cae desde el tercer piso y muere.",
+        "vinculo_mapa": "troas",
+        "referencia": "Hechos 20:9"
+      },
+      {
+        "fase": "El Milagro",
+        "evento": "Pablo lo abraza y el joven vuelve a la vida; luego todos cenan con gozo.",
+        "vinculo_mapa": "troas",
+        "referencia": "Hechos 20:10-12"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "troas"
+      ],
+      "estudios": [
+        "milagros-de-resurreccion",
+        "la-liturgia-en-la-iglesia-primitiva",
+        "juventud-y-vigilia"
+      ],
+      "devocionales": [
+        "no-te-duermas",
+        "vida-despues-de-la-caida"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "lucas"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 60,
+      "logro_id": "el-afortunado"
+    }
+  },
+  {
+    "id": "febe",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Febe",
+      "titulo_corto": "La Diaconisa de Cencrea",
+      "significado_nombre": "Radiante, Brillante, Pura",
+      "ocupacion": "Diaconisa, Líder, Patrona",
+      "familia": {
+        "comunidad": "Iglesia en Cencrea (Puerto de Corinto)"
+      },
+      "imagen": "/img/perfiles/febe.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Romanos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Viajes de Pablo",
+      "ubicacion_principal": "Cencrea / Roma"
+    },
+    "narrativa": {
+      "resumen_epico": "Febe fue la portadora de la carta más importante de la historia cristiana: la Epístola a los Romanos. Siendo una líder respetada en el puerto de Cencrea, Pablo la describe como una 'diaconisa' y una 'protectora' de muchos. Cruzó mares para entregar el tratado teológico de Pablo a la iglesia en Roma, sirviendo como el puente de confianza entre el apóstol y la capital del imperio. Su vida es el testimonio de la autoridad y el servicio femenino que sostuvo la expansión del Evangelio.",
+      "dato_curioso": "El término griego que Pablo usa para ella, 'prostatis', sugiere que era una mujer de gran estatus y recursos que actuaba como patrona legal o protectora financiera de la iglesia, incluyendo al propio Pablo.",
+      "conexion_jesus": "Febe refleja el servicio de las mujeres que sostenían el ministerio de Jesús con sus bienes. Ella encarna la luz de Cristo (su nombre significa radiante) al llevar la revelación de la gracia a la ciudad más influyente del mundo.",
+      "diagrama_referencia": "Ruta marítima de Febe desde el puerto de Cencrea hacia Roma"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de confiabilidad y valentía ejecutiva. Era una mujer que inspiraba una seguridad tal que Pablo le confió su escrito más complejo. Su carácter combina la diligencia del servicio (diaconía) con la generosidad de quien pone su influencia social al servicio de los perseguidos.",
+      "fortalezas": [
+        "Lealtad probada y confiabilidad ministerial",
+        "Independencia y valor para viajar sola en misiones oficiales",
+        "Generosidad como benefactora de la obra apostólica"
+      ],
+      "debilidades": [
+        "Ninguna registrada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Pergamino",
+          "significado": "Representa la responsabilidad de custodiar y transmitir la sana doctrina."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No subestimes el valor de ser un 'portador' confiable de la verdad; Dios usa tu reputación para abrir puertas al Evangelio.",
+      "preguntas_reflexion": [
+        "¿Eres una persona en quien los líderes pueden confiar misiones críticas?",
+        "¿Estás usando tu estatus o recursos para proteger y ayudar a otros creyentes?",
+        "¿Cómo puedes ser un 'brillo' (Febe) en tu comunidad laboral o social?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Liderazgo",
+        "evento": "Se establece como diaconisa y protectora de la iglesia en Cencrea.",
+        "vinculo_mapa": "cencrea",
+        "referencia": "Romanos 16:1"
+      },
+      {
+        "fase": "Encomienda",
+        "evento": "Recibe de Pablo la carta a los Romanos para entregarla en la capital.",
+        "vinculo_mapa": "corinto",
+        "referencia": "Romanos 16:1"
+      },
+      {
+        "fase": "Misión",
+        "evento": "Viaja a Roma y es recomendada por Pablo para recibir toda ayuda necesaria.",
+        "vinculo_mapa": "roma",
+        "referencia": "Romanos 16:2"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "cencrea",
+        "corinto",
+        "roma"
+      ],
+      "estudios": [
+        "mujeres-en-el-nuevo-testamento",
+        "el-diaconado-femenino",
+        "epistola-a-los-romanos"
+      ],
+      "devocionales": [
+        "servicio-radiante",
+        "fidelidad-en-la-mision"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "priscila-aquila"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 110,
+      "logro_id": "portadora-de-la-carta"
+    }
+  },
+  {
+    "id": "gayo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Gayo",
+      "titulo_corto": "El Anfitrión de la Iglesia",
+      "significado_nombre": "Señor, Alegre, Terrenal",
+      "ocupacion": "Líder de casa-iglesia, Hospedador",
+      "familia": {
+        "mentor": "Apóstol Juan (3 Juan) y Pablo (Romanos)"
+      },
+      "imagen": "/img/perfiles/gayo.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "3 Juan",
+        "Romanos",
+        "1 Corintios"
+      ],
+      "era_biblica": "Iglesia Apostólica Tardía",
+      "ubicacion_principal": "Corinto / Asia Menor"
+    },
+    "narrativa": {
+      "resumen_epico": "Gayo es el modelo del creyente cuya alma y acciones están en perfecta sintonía. Reconocido por su hospitalidad incondicional, Gayo abría su hogar a los misioneros itinerantes, asegurando que el mensaje de Cristo nunca se detuviera por falta de refugio. El apóstol Juan lo describe como alguien que 'anda en la verdad', destacando su generosidad frente al egoísmo de líderes como Diótrefes. Su vida demuestra que hospedar a un siervo de Dios es participar directamente en la Gran Comisión.",
+      "dato_curioso": "Pablo lo llama 'hospedador mío y de toda la iglesia', lo que sugiere que su casa en Corinto era tan grande que servía como el punto de reunión principal para todos los cristianos de la ciudad.",
+      "conexion_jesus": "Gayo imita la hospitalidad de Jesús, quien prepara mesa para Sus discípulos. Al recibir a los hermanos, Gayo cumplía la promesa de Jesús: 'El que a vosotros recibe, a mí me recibe'.",
+      "diagrama_referencia": "Esquema del flujo de hospitalidad misionera en el siglo I"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Gayo manifiesta una psicología de salud integral. Juan ora para que sea prosperado 'así como prospera su alma', indicando una madurez espiritual que se reflejaba en su bienestar físico y generosidad material. Es un hombre de carácter estable, no dado a las intrigas de poder, sino enfocado en la logística del amor cristiano.",
+      "fortalezas": [
+        "Hospitalidad radical hacia conocidos y extraños por causa de Cristo",
+        "Integridad doctrinal ('anda en la verdad')",
+        "Salud espiritual y emocional equilibrada"
+      ],
+      "debilidades": [
+        "Ninguna registrada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Puerta Abierta",
+          "significado": "Representa el corazón dispuesto y la casa convertida en santuario para los misioneros."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu mayor ministerio puede ser tan sencillo y poderoso como abrir tu casa y tu mesa para apoyar a quienes sirven a Dios.",
+      "preguntas_reflexion": [
+        "¿Está tu alma tan 'próspera' que tu generosidad es natural e inevitable?",
+        "¿Cómo estás apoyando a los que llevan el Evangelio a lugares donde tú no puedes ir?",
+        "¿Es tu hogar un lugar donde la verdad de Dios se vive y se respira?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Bautismo",
+        "evento": "Es uno de los pocos que Pablo bautizó personalmente en Corinto.",
+        "vinculo_mapa": "corinto",
+        "referencia": "1 Corintios 1:14"
+      },
+      {
+        "fase": "Servicio",
+        "evento": "Hospeda a Pablo y a toda la iglesia durante la redacción de Romanos.",
+        "vinculo_mapa": "corinto",
+        "referencia": "Romanos 16:23"
+      },
+      {
+        "fase": "Vindicación",
+        "evento": "Recibe la tercera carta de Juan, siendo alabado por su fidelidad frente a la oposición.",
+        "vinculo_mapa": "asia-menor",
+        "referencia": "3 Juan 1:1-8"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "corinto",
+        "efeso"
+      ],
+      "estudios": [
+        "la-hospitalidad-cristiana",
+        "epistolas-juaninas",
+        "liderazgo-de-servicio"
+      ],
+      "devocionales": [
+        "alma-prospera",
+        "la-verdad-en-accion"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "juan-apostol",
+        "diotrefes"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 90,
+      "logro_id": "hospedador-del-reino"
+    }
+  },
+  {
+    "id": "tito",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Tito",
+      "titulo_corto": "El Estratega en Creta",
+      "significado_nombre": "Honrado (Latín)",
+      "ocupacion": "Misionero, Pastor, Delegado Apostólico",
+      "familia": {
+        "mentor": "Apóstol Pablo",
+        "origen": "Griego (Gentil)"
+      },
+      "imagen": "/img/perfiles/tito.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Tito",
+        "2 Corintios",
+        "Gálatas"
+      ],
+      "era_biblica": "Iglesia Apostólica / Consolidación de Iglesias",
+      "ubicacion_principal": "Creta / Dalmacia"
+    },
+    "narrativa": {
+      "resumen_epico": "Tito fue el hombre de confianza para las misiones imposibles. A diferencia de Timoteo, que era más joven y tímido, Tito poseía un carácter firme y una habilidad especial para resolver conflictos y organizar estructuras eclesiásticas en entornos hostiles. Pablo lo envió a la isla de Creta —famosa por la mala fama de sus habitantes— con la misión de 'corregir lo deficiente' y establecer un liderazgo sólido. Fue el ejemplo viviente de que un gentil puede ser un pilar de santidad y orden en el Reino de Dios.",
+      "dato_curioso": "Tito fue el 'caso de prueba' en el Concilio de Jerusalén. Pablo se negó rotundamente a que Tito fuera circuncidado para demostrar que los gentiles son salvos solo por gracia, sin necesidad de ritos judíos.",
+      "conexion_jesus": "Tito representa la obra de Cristo que transforma las culturas más difíciles. Su ministerio en Creta demuestra que el Evangelio es capaz de poner orden en el caos y de producir buenas obras en personas que antes eran 'mentirosas y malas bestias'.",
+      "diagrama_referencia": "Estructura de liderazgo eclesial propuesta por Pablo a Tito"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Tito manifiesta una psicología de ejecutor y pacificador. Poseía una 'gran solicitud' por los hermanos y una integridad que lo hacía inmune a las acusaciones financieras. Su carácter era resuelto y valiente, capaz de confrontar a falsos maestros con autoridad sin perder el enfoque en la gracia que enseña a vivir sobriamente.",
+      "fortalezas": [
+        "Habilidad organizativa y administrativa excepcional",
+        "Valentía para pastorear en culturas difíciles y rebeldes",
+        "Integridad absoluta en el manejo de recursos colectivos"
+      ],
+      "debilidades": [
+        "Ninguna registrada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Cincel",
+          "significado": "Representa su labor de 'corregir lo deficiente' y dar forma al liderazgo de la iglesia."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Dios te llama a poner orden y a ser ejemplo de buenas obras en los entornos más difíciles y descuidados.",
+      "preguntas_reflexion": [
+        "¿Eres capaz de ser un agente de orden donde hay confusión?",
+        "¿Tu conducta está 'adornando' la doctrina de Dios ante los que no creen?",
+        "¿Te atreves a enfrentar lo que está mal con la autoridad de la Palabra?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Testimonio",
+        "evento": "Acompaña a Pablo a Jerusalén como prueba de la fe gentil sin circuncisión.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Gálatas 2:1-3"
+      },
+      {
+        "fase": "Conciliación",
+        "evento": "Lleva la carta de Pablo a Corinto y logra la reconciliación de la iglesia.",
+        "vinculo_mapa": "corinto",
+        "referencia": "2 Corintios 7:6-7"
+      },
+      {
+        "fase": "Organización",
+        "evento": "Es dejado en Creta para establecer ancianos en cada ciudad.",
+        "vinculo_mapa": "creta",
+        "referencia": "Tito 1:5"
+      },
+      {
+        "fase": "Misión Final",
+        "evento": "Se dirige a Dalmacia para continuar la expansión apostólica.",
+        "vinculo_mapa": "dalmacia",
+        "referencia": "2 Timoteo 4:10"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "creta",
+        "corinto",
+        "jerusalen",
+        "dalmacia"
+      ],
+      "estudios": [
+        "liderazgo-biblico",
+        "gracia-y-buenas-obras",
+        "historia-de-creta"
+      ],
+      "devocionales": [
+        "corregir-lo-deficiente",
+        "vida-sobria"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "timoteo",
+        "artemas"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 150,
+      "logro_id": "arquitecto-de-iglesias"
+    }
+  },
+  {
+    "id": "diotrefes",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Diótrefes",
+      "titulo_corto": "El Líder Dominante",
+      "significado_nombre": "Criado por Júpiter / Alimentado por Zeus",
+      "ocupacion": "Líder de una iglesia local",
+      "familia": {
+        "oponente": "Apóstol Juan y Gayo"
+      },
+      "imagen": "/img/perfiles/diotrefes.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "3 Juan"
+      ],
+      "era_biblica": "Iglesia Apostólica Tardía",
+      "ubicacion_principal": "Asia Menor"
+    },
+    "narrativa": {
+      "resumen_epico": "Diótrefes es la advertencia bíblica sobre la ambición de poder dentro de la Iglesia. En lugar de servir al rebaño, amaba 'tener el primado' (ser el primero). Su arrogancia llegó al punto de rechazar la autoridad del anciano apóstol Juan, prohibir la hospitalidad a los misioneros y expulsar de la congregación a quienes no se sometían a su control dictatorial. Su figura representa el peligro de convertir el liderazgo espiritual en una tiranía personal.",
+      "dato_curioso": "Es el único caso mencionado en el Nuevo Testamento donde un líder local se atreve a rechazar abiertamente una carta y la autoridad de un apóstol directo de Jesús.",
+      "conexion_jesus": "Diótrefes es el antítesis de Jesús. Mientras Cristo se humilló hasta la muerte, Diótrefes buscaba la exaltación propia. Ignoró el mandato de Jesús: 'El que quiera ser el primero entre vosotros, será vuestro siervo'.",
+      "diagrama_referencia": "Contraste de liderazgo: Gayo (Servidor) vs. Diótrefes (Dominante)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de inseguridad disfrazada de autoritarismo. Su necesidad de control (primado) lo llevaba a usar la calumnia (palabras maliciosas) para desacreditar a otros. Poseía una mentalidad de 'dueño de la iglesia', olvidando que el único Dueño es Cristo. Su falta de hospitalidad era un síntoma de su miedo a cualquier influencia externa que pudiera amenazar su estatus.",
+      "fortalezas": [
+        "Fuerte carisma o capacidad de mando (lograba que la gente lo siguiera)"
+      ],
+      "debilidades": [
+        "Orgullo egocéntrico y ansia de preeminencia",
+        "Falta de sumisión a la autoridad apostólica",
+        "Uso del chisme y la expulsión como herramientas de control"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Trono Vacío",
+          "significado": "Representa el lugar que él quería ocupar en la iglesia, desplazando la autoridad de Cristo y Sus enviados."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El liderazgo cristiano no se trata de tener el control, sino de ser el último de todos y el servidor de todos.",
+      "preguntas_reflexion": [
+        "¿Buscas el reconocimiento y 'ser el primero' en lo que haces para Dios?",
+        "¿Cómo reaccionas cuando alguien con autoridad espiritual te corrige?",
+        "¿Eres una puerta abierta para los demás o eres un obstáculo para los que quieren servir?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Ascenso",
+        "evento": "Toma el liderazgo de una congregación local en Asia Menor.",
+        "vinculo_mapa": "asia-menor",
+        "referencia": "3 Juan 1:9"
+      },
+      {
+        "fase": "Rebelión",
+        "evento": "Rechaza la autoridad de Juan y habla palabras maliciosas contra los apóstoles.",
+        "vinculo_mapa": "asia-menor",
+        "referencia": "3 Juan 1:10"
+      },
+      {
+        "fase": "Tiranía",
+        "evento": "Expulsa a los hermanos que quieren hospedar a los misioneros itinerantes.",
+        "vinculo_mapa": "asia-menor",
+        "referencia": "3 Juan 1:10"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "efeso",
+        "asia-menor"
+      ],
+      "estudios": [
+        "abuso-espiritual",
+        "autoridad-apostolica",
+        "la-iglesia-local"
+      ],
+      "devocionales": [
+        "el-peligro-del-orgullo",
+        "liderazgo-de-siervo"
+      ],
+      "personajes_relacionados": [
+        "juan-apostol",
+        "gayo",
+        "demetrio"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 50,
+      "logro_id": "leccion-de-humildad"
+    }
+  },
+  {
+    "id": "felix",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Antonio Félix",
+      "titulo_corto": "El Procurador Indeciso",
+      "significado_nombre": "Feliz, Afortunado",
+      "ocupacion": "Procurador Romano de Judea",
+      "familia": {
+        "esposa": "Drusila (Hija de Herodes Agripa I)"
+      },
+      "imagen": "/img/perfiles/felix.webp",
+      "icono_mapa": "/img/ui/markers/rey.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Juicio de Pablo",
+      "ubicacion_principal": "Cesarea Marítima"
+    },
+    "narrativa": {
+      "resumen_epico": "Félix fue el gobernador romano que tuvo la oportunidad de ser libre pero prefirió esperar un 'momento oportuno' que nunca llegó. Conocido por su crueldad y por haber sido un esclavo que ascendió al poder, escuchó a Pablo hablar sobre la justicia, el dominio propio y el juicio venidero. Aunque tembló de miedo ante la verdad, su codicia por un soborno y su deseo de agradar a los judíos lo llevaron a dejar a Pablo preso injustamente durante dos años, demostrando que la indecisión frente a Dios es en realidad un rechazo.",
+      "dato_curioso": "El historiador Tácito dijo de él: 'Ejerció el poder real con el instinto de un esclavo, con toda crueldad y lujuria'. Representaba la decadencia moral de la administración romana en Judea.",
+      "conexion_jesus": "Félix es un paralelo de Pilato. Ambos reconocieron la inocencia de sus prisioneros (Jesús y Pablo), pero ambos prefirieron la conveniencia política y la seguridad personal por encima de la justicia divina.",
+      "diagrama_referencia": "Mapa de la administración romana en Judea (Sedes de poder)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de postergación y codicia. Su reacción ante Pablo (el temblor) muestra que su conciencia no estaba totalmente muerta, pero su voluntad estaba cautiva por el materialismo. Era un hombre que buscaba beneficios inmediatos; mandaba llamar a Pablo con frecuencia no por hambre espiritual, sino con la esperanza de que el apóstol le ofreciera dinero por su libertad.",
+      "fortalezas": [
+        "Conocimiento de las costumbres judías (por su esposa Drusila)"
+      ],
+      "debilidades": [
+        "Indecisión crónica ante la verdad espiritual",
+        "Corrupción y búsqueda de sobornos",
+        "Crueldad y pragmatismo amoral"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Balanza Inclinada",
+          "significado": "Representa su justicia corrompida por el interés personal y el soborno."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No esperes a un 'momento oportuno' para responder a Dios; el mañana es la trampa favorita del enemigo.",
+      "preguntas_reflexion": [
+        "¿Estás postergando decisiones espirituales importantes por miedo o conveniencia?",
+        "¿Tiemblas ante la Palabra pero sigues viviendo igual que antes?",
+        "¿Valoras más tu seguridad material que tu integridad ante la verdad?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Juicio",
+        "evento": "Recibe a Pablo en Cesarea y escucha las acusaciones de Tértulo.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 24:1-9"
+      },
+      {
+        "fase": "Convicción",
+        "evento": "Escucha a Pablo hablar del juicio venidero y tiembla de miedo.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 24:25"
+      },
+      {
+        "fase": "Injusticia",
+        "evento": "Mantiene a Pablo preso por dos años esperando un soborno.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 24:26"
+      },
+      {
+        "fase": "Relevo",
+        "evento": "Es sustituido por Porcio Festo y deja a Pablo preso para congraciarse con los judíos.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 24:27"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "cesarea-maritima",
+        "roma"
+      ],
+      "estudios": [
+        "gobierno-romano-en-judea",
+        "juicios-de-pablo",
+        "la-dinastia-herodiana"
+      ],
+      "devocionales": [
+        "el-momento-oportuno",
+        "venciendo-la-indecision"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "drusila",
+        "festo",
+        "tertulo"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 60,
+      "logro_id": "leccion-de-procrastinacion"
+    }
+  },
+  {
+    "id": "festo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Porcio Festo",
+      "titulo_corto": "El Procurador Sensato",
+      "significado_nombre": "Festivo, Alegre",
+      "ocupacion": "Procurador Romano de Judea",
+      "familia": {
+        "sucesor": "Sustituyó a Félix"
+      },
+      "imagen": "/img/perfiles/porcio-festo.webp",
+      "icono_mapa": "/img/ui/markers/rey.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Iglesia Apostólica / Juicio de Pablo",
+      "ubicacion_principal": "Cesarea Marítima / Jerusalén"
+    },
+    "narrativa": {
+      "resumen_epico": "Festo fue el administrador romano que, queriendo ser justo, se encontró atrapado en un conflicto religioso que no comprendía. A diferencia del corrupto Félix, Festo actuó con mayor eficiencia y respeto por la ley romana. Al ver que no podía resolver el caso de Pablo sin enviarlo a una muerte segura en Jerusalén, permitió que el apóstol apelara al César. Festo representa la lógica secular que, aunque honesta en sus términos, considera la resurrección y los milagros como una 'locura' o una cuestión de superstición ajena.",
+      "dato_curioso": "Fue Festo quien gritó la famosa frase: '¡Estás loco, Pablo! Las muchas letras te vuelven loco', después de que Pablo explicara la resurrección de Cristo ante el Rey Agripa.",
+      "conexion_jesus": "Representa al mundo intelectual y político que no puede procesar la locura de la Cruz. Su honestidad administrativa no le alcanzó para ver la verdad espiritual, demostrando que la razón humana tiene un límite que solo la fe puede cruzar.",
+      "diagrama_referencia": "Procedimiento de apelación al César en el derecho romano"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de pragmatismo burocrático. Su prioridad era la paz social y la eficiencia legal. Era un hombre directo que no buscaba sobornos, pero que estaba perplejo ante la intensidad de las disputas teológicas de los judíos. Consideraba a Pablo un hombre culto pero fanático, tratándolo con una mezcla de respeto profesional y condescendencia intelectual.",
+      "fortalezas": [
+        "Integridad administrativa superior a su predecesor",
+        "Respeto por el debido proceso romano",
+        "Diligencia para resolver casos estancados"
+      ],
+      "debilidades": [
+        "Ceguera espiritual ante lo sobrenatural",
+        "Cierta tendencia a complacer a los líderes locales por estabilidad política"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Tribunal de Mármol",
+          "significado": "Símbolo de la frialdad de la ley humana frente al fuego de la revelación divina."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La educación y la honestidad intelectual no son suficientes para entender a Dios; se necesita la revelación del Espíritu.",
+      "preguntas_reflexion": [
+        "¿Consideras el Evangelio como algo 'ilógico' o 'loco' porque no encaja en tus esquemas?",
+        "¿Estás buscando soluciones legales a problemas que son puramente espirituales?",
+        "¿Tu 'sensatez' te está impidiendo creer en el poder de la resurrección?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Ascenso",
+        "evento": "Llega a la provincia y visita Jerusalén, donde los judíos piden el traslado de Pablo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hechos 25:1-3"
+      },
+      {
+        "fase": "Apelación",
+        "evento": "Preside el juicio en Cesarea y acepta la apelación de Pablo al César.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 25:11-12"
+      },
+      {
+        "fase": "Consulta",
+        "evento": "Pide consejo al Rey Agripa II para saber qué escribir en los cargos contra Pablo.",
+        "vinculo_mapa": "cesarea",
+        "referencia": "Hechos 25:14-22"
+      },
+      {
+        "fase": "Conclusión",
+        "evento": "Escucha el discurso final de Pablo y lo interrumpe llamándolo loco.",
+        "vinculo_mapa": "audiencia-cesarea",
+        "referencia": "Hechos 26:24"
+      }
+    ],
+    "vinculos": {
+      "places": [
+        "cesarea-maritima",
+        "jerusalen",
+        "roma"
+      ],
+      "studies": [
+        "derecho-romano-y-cristianismo",
+        "la-resurreccion-como-locura",
+        "procuradores-de-judea"
+      ],
+      "devocionals": [
+        "sabiduria-humana-vs-divina",
+        "el-juicio-de-la-verdad"
+      ],
+      "related_characters": [
+        "pablo",
+        "agripa-ii",
+        "berenice",
+        "felix"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 70,
+      "logro_id": "juicio-de-la-razon"
+    }
+  },
+  {
+    "id": "herodes-agripa-ii",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Herodes Agripa II",
+      "titulo_corto": "El Casi Persuadido",
+      "significado_nombre": "Héroe nacido con dolor",
+      "ocupacion": "Rey vasallo de Roma",
+      "familia": {
+        "padre": "Agripa I",
+        "hermanas": [
+          "Berenice",
+          "Drusila"
+        ],
+        "bisabuelo": "Herodes el Grande"
+      },
+      "imagen": "/img/perfiles/herodes_agripa_ii.webp",
+      "icono_mapa": "/img/ui/markers/rey.svg"
+    },
+    "contexto": {
+      "testamento": "Nuevo",
+      "libros_aparicion": [
+        "Hechos"
+      ],
+      "era_biblica": "Expansión de la Iglesia / Juicios de Pablo"
+    },
+    "narrativa": {
+      "resumen_epico": "Herodes Agripa II fue el último eslabón de una dinastía obsesionada con el poder y el prestigio. Conocedor experto de las leyes y profecías judías, se encontró cara a cara con la Verdad en la voz del apóstol Pablo. En la majestuosa Cesarea, rodeado de pompa y pecado, Agripa escuchó un testimonio que sacudió su intelecto pero no quebrantó su voluntad. Su respuesta ha quedado grabada como el epitafio de la indecisión: 'Por poco me persuades'. Reconoció la inocencia del mensajero, pero rechazó el mensaje, eligiendo el brillo pasajero de su corona sobre la eternidad de la Cruz.",
+      "dato_curioso": "Fue el último de los Herodes. Tras la destrucción de Jerusalén en el año 70 d.C., Agripa II se retiró a Roma, donde vivió el resto de sus días como un aristócrata jubilado, viendo cómo el reino que sus antepasados intentaron proteger mediante el crimen se desvanecía en la historia.",
+      "conexion_jesus": "Agripa representa la culminación del rechazo herodiano. Mientras que su bisabuelo intentó matar a Jesús niño y su tío se burló de Jesús adulto, Agripa II intentó racionalizar el Evangelio, demostrando que el conocimiento intelectual de la Biblia sin entrega personal es inútil.",
+      "diagrama_referencia": "Infografía: La dinastía herodiana y su relación con el Nuevo Testamento"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de cinismo sofisticado y postergación. Agripa poseía una mente educada capaz de apreciar la lógica de Pablo, pero un corazón cautivo de su propia imagen pública y sus relaciones escandalosas. Representa al hombre 'moderno' de su tiempo: religioso por cultura, pero secular por convicción, que prefiere la comodidad del status quo al riesgo de la fe radical.",
+      "fortalezas": [
+        "Vasto conocimiento de las Escrituras y tradiciones judías",
+        "Objetividad judicial inicial al declarar a Pablo libre de culpa"
+      ],
+      "debilidades": [
+        "Cobardía moral ante la Verdad",
+        "Vida personal marcada por la inmoralidad (relación con Berenice)",
+        "Priorización del prestigio romano sobre la revelación espiritual"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Silla del Tribunal",
+          "significado": "Representa la autoridad humana que, aunque juzga a los hombres de Dios, será juzgada por el Dios de los hombres."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Estar 'casi persuadido' es estar totalmente perdido; la fe requiere un paso de decisión que el intelecto solo no puede dar.",
+      "preguntas_reflexion": [
+        "¿Estás dejando que tu posición social o tu pasado te impidan dar el paso definitivo hacia Cristo?",
+        "¿Eres un 'experto' en religión que sigue viviendo lejos de la justicia y el dominio propio?",
+        "¿Qué es ese 'por poco' que te separa hoy de una entrega total a Dios?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Cortesía",
+        "evento": "Llega a Cesarea con Berenice para saludar al nuevo gobernador Festo.",
+        "vinculo_mapa": "cesarea-maritima",
+        "referencia": "Hechos 25:13"
+      },
+      {
+        "fase": "Confrontación",
+        "evento": "Escucha la defensa de Pablo; es interpelado directamente sobre su fe en los profetas.",
+        "vinculo_mapa": "cesarea-maritima",
+        "referencia": "Hechos 26:1-27"
+      },
+      {
+        "fase": "Rechazo",
+        "evento": "Evade la decisión personal con una frase cínica y se retira reconociendo la inocencia de Pablo.",
+        "vinculo_mapa": "cesarea-maritima",
+        "referencia": "Hechos 26:28-32"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "cesarea-maritima",
+        "jerusalen",
+        "roma"
+      ],
+      "estudios": [
+        "defensa-de-pablo-ante-agripa",
+        "arqueologia-de-cesarea",
+        "la-caida-de-la-dinastia-herodiana"
+      ],
+      "devocionales": [
+        "casi-persuadido",
+        "la-trampa-del-prestigio"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "festo",
+        "berenice"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 150,
+      "logro_id": "por-poco"
+    },
+    "grupo": "apostolicos"
+  },
+  
+  {
+  "id": "priscila-aquila",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Priscila y Aquila",
+    "titulo_corto": "El Equipo Matrimonial",
+    "significado_nombre": "Priscila (Anciana/Digna) y Aquila (Águila)",
+    "ocupacion": "Fabricantes de Tiendas (Empresarios Textiles)",
+    "familia": {
+      "estado": "Matrimonio unido en el ministerio",
+      "origen": "Aquila era natural del Ponto; expulsados de Roma por el edicto de Claudio",
+      "aliado_principal": "Apóstol Pablo",
+      "discipulo": "Apolos de Alejandría"
+    },
+    "imagen": "/img/perfiles/priscila_aquila.webp",
+    "icono_mapa": "/img/ui/markers/matrimonio_iglesia.svg"
+  },
+  "contexto": {
+    "testamento": "Nuevo",
+    "libros_aparicion": [
+      "Hechos",
+      "Romanos",
+      "1 Corintios",
+      "2 Timoteo"
+    ],
+    "era_biblica": "Misiones Apostólicas (Corinto, Éfeso, Roma)"
+  },
+  "narrativa": {
+    "resumen_epico": "Priscila y Aquila representan la columna vertebral de la iglesia primitiva: el laicado comprometido. Expulsados de Roma por su fe judía, se establecieron en Corinto donde su oficio de fabricantes de tiendas les permitió conectar con Pablo. Lo que comenzó como una sociedad laboral se transformó en una de las amistades más profundas del Nuevo Testamento. No solo fueron anfitriones de iglesias en sus casas en tres ciudades diferentes (Corinto, Éfeso y Roma), sino que también actuaron como teólogos precisos; cuando el elocuente Apolos predicaba un evangelio incompleto, este matrimonio lo tomó aparte para explicarle 'más exactamente el camino de Dios'. Pablo los llamó sus 'colaboradores' y destacó que arriesgaron literalmente sus cuellos por salvar su vida.",
+    "dato_curioso": "De las seis veces que se mencionan en la Biblia, en cuatro de ellas el nombre de Priscila aparece antes que el de Aquila. En una cultura donde el hombre siempre era nombrado primero, esto sugiere fuertemente que Priscila poseía un liderazgo espiritual, capacidad docente o estatus social particularmente prominente en la comunidad cristiana.",
+    "conexion_jesus": "Reflejan el modelo de servicio de Jesús, quien no vino para ser servido, sino para servir. Al abrir su hogar y sus recursos, encarnaron la hospitalidad del Reino y el cuidado por el 'Cuerpo de Cristo', demostrando que el discipulado ocurre tanto en el taller de costura como en el púlpito.",
+    "diagrama_referencia": ""
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Resilientes, generosos y profundamente equilibrados. Este matrimonio muestra una unidad emocional envidiable; enfrentaron el destierro, el riesgo de muerte y los constantes viajes sin que su fe o su relación se fracturaran. Poseían la humildad de los grandes maestros: en lugar de corregir a Apolos públicamente, usaron la hospitalidad privada para pulir su doctrina, demostrando una madurez afectiva y espiritual superior.",
+    "fortalezas": [
+      "Sinergia matrimonial (operaban como una sola unidad en el trabajo y el espíritu)",
+      "Hospitalidad estratégica (usaron su casa como base logística para la expansión del Evangelio)",
+      "Discernimiento teológico (capacidad para identificar y corregir errores doctrinales con amor)"
+    ],
+    "debilidades": [
+      "No se registran; son presentados como el estándar de fidelidad laica."
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Tienda de Campaña",
+        "significado": "Representa la intersección entre el trabajo secular y el ministerio. Simboliza que la fe no está separada de la vida profesional y que el taller puede ser un santuario."
+      },
+      {
+        "objeto": "La Mesa de Hospitalidad",
+        "significado": " El lugar donde la iglesia se reunía y donde Apolos fue discipulado. Simboliza que el hogar es la unidad básica del crecimiento del Reino."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu profesión y tu hogar no son obstáculos para el ministerio, sino tus herramientas más poderosas para extender el Reino de Dios.",
+    "preguntas_reflexion": [
+      "¿Estás trabajando con tu cónyuge o amigos como un equipo que potencia el Evangelio o compites por protagonismo?",
+      "¿Es tu casa un lugar de refugio y enseñanza para otros creyentes, o es solo un espacio privado?",
+      "¿Tienes la madurez de Priscila y Aquila para corregir a otros en privado y con amor en lugar de criticar públicamente?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Destierro y Encuentro",
+      "evento": "Llegan a Corinto tras ser expulsados de Roma por Claudio; conocen a Pablo y trabajan juntos.",
+      "vinculo_mapa": "corinto",
+      "referencia": "Hechos 18:1-3"
+    },
+    {
+      "fase": "Misión en Éfeso",
+      "evento": "Viajan con Pablo a Éfeso y se quedan allí para establecer la obra mientras Pablo sigue su viaje.",
+      "vinculo_mapa": "efeso",
+      "referencia": "Hechos 18:18-19"
+    },
+    {
+      "fase": "Mentoreo de Apolos",
+      "evento": "Escuchan a Apolos, lo hospedan y le enseñan el camino de Dios con mayor exactitud.",
+      "vinculo_mapa": "efeso",
+      "referencia": "Hechos 18:24-26"
+    },
+    {
+      "fase": "Regreso a Roma",
+      "evento": "Vuelven a Roma (tras la muerte de Claudio) y fundan una iglesia en su casa; Pablo les envía saludos.",
+      "vinculo_mapa": "roma",
+      "referencia": "Romanos 16:3-5"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "roma",
+      "corinto",
+      "efeso",
+      "ponto"
+    ],
+    "estudios": [
+      "el-oficio-de-fabricante-de-tiendas-en-el-siglo-i",
+      "mujeres-en-el-liderazgo-paulinio",
+      "la-iglesia-en-las-casas-modelo-biblico"
+    ],
+    "devocionales": [
+      "matrimonios-con-proposito",
+      "la-teologia-del-taller",
+      "corrigiendo-con-amor"
+    ],
+    "personajes_relacionados": [
+      "pablo",
+      "apolos",
+      "timoteo"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 250,
+    "logro_id": "equipo-imbatible"
+  }
+}
+]

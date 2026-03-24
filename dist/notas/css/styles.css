@@ -1,0 +1,310 @@
+/* --- VARIABLES & BASE --- */
+:root {
+    --bg-dark: #0f172a;      /* Fondo Principal */
+    --bg-sidebar: #1e293b;   /* Fondo Barra Lateral */
+    --bg-active: #334155;    /* Nota Seleccionada */
+    --text-main: #e2e8f0;    /* Texto Blanco */
+    --text-muted: #94a3b8;   /* Texto Gris */
+    --accent: #d4b483;       /* Dorado Códice */
+    --danger: #ef4444;       /* Rojo Borrar */
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif;
+    height: 100vh;
+    overflow: hidden; /* Evita scroll en el body, el scroll va dentro de los paneles */
+}
+
+/* --- LAYOUT PRINCIPAL (DESKTOP FIRST) --- */
+.app-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* --- SIDEBAR (IZQUIERDA) --- */
+.sidebar {
+    width: 350px;
+    background-color: var(--bg-sidebar);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0; /* No dejes que se encoja */
+}
+
+.sidebar-header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box {
+    padding: 0 20px 20px 20px;
+}
+
+.search-box input {
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: white;
+    outline: none;
+}
+
+.notes-list {
+    overflow-y: auto; /* Scroll si hay muchas notas */
+    flex: 1;
+}
+
+/* Tarjeta de Nota en la lista */
+.note-item {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.note-item:hover { background-color: rgba(255,255,255,0.02); }
+.note-item.active { background-color: var(--bg-active); border-left: 3px solid var(--accent); }
+
+.note-item h3 { font-size: 1rem; margin-bottom: 5px; color: #fff; }
+.note-item p { font-size: 0.85rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.note-item .date { font-size: 0.75rem; color: #64748b; display: block; margin-top: 8px; }
+
+
+/* --- EDITOR (DERECHA) --- */
+.editor-panel {
+    flex: 1; /* Ocupa todo el resto */
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-dark);
+    position: relative;
+}
+
+.editor-header {
+    height: 60px;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meta-info { font-size: 0.8rem; color: var(--text-muted); }
+
+.editor-content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+    max-width: 800px; /* Ancho máximo de lectura cómodo */
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Inputs del Editor */
+#nota-titulo {
+    width: 100%;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 20px;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+
+#nota-cuerpo {
+    width: 100%;
+    height: calc(100% - 100px);
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-main);
+    resize: none;
+    outline: none;
+    font-family: 'Merriweather', serif;
+}
+
+/* Botones */
+.btn-icon {
+    background: transparent;
+    border: none;
+    color: var(--text-main);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-icon:hover { background: rgba(255,255,255,0.1); }
+.btn-icon.primary { color: var(--accent); }
+.btn-icon.danger { color: var(--danger); }
+.mobile-only { display: none; } /* Oculto en PC por defecto */
+
+
+/* =========================================
+   📱 MEDIA QUERIES (MODO CELULAR)
+   ========================================= */
+@media (max-width: 768px) {
+    
+    .app-container {
+        display: block; /* Ya no es flex lado a lado */
+        position: relative;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: 100vh;
+        border-right: none;
+        position: absolute; /* Para poder ocultarlo/mostrarlo */
+        z-index: 10;
+        transition: transform 0.3s ease;
+    }
+
+    .editor-panel {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 20;
+        top: 0;
+        left: 0;
+        background-color: var(--bg-dark);
+        transform: translateX(100%); /* Por defecto, el editor está escondido a la derecha */
+        transition: transform 0.3s ease;
+    }
+
+    /* CLASES PARA ACTIVAR/DESACTIVAR VISTAS EN JS */
+    
+    /* Cuando estamos viendo la lista */
+    .app-container.view-list .editor-panel {
+        transform: translateX(100%); /* Editor fuera */
+    }
+    .app-container.view-list .sidebar {
+        transform: translateX(0); /* Lista visible */
+    }
+
+    /* Cuando estamos viendo una nota */
+    .app-container.view-note .editor-panel {
+        transform: translateX(0); /* Editor entra */
+    }
+    .app-container.view-note .sidebar {
+        transform: translateX(-20%); /* Efecto visual sutil (parallax) */
+    }
+
+    /* Elementos móviles */
+    .mobile-only { display: flex; } /* Aparece el botón volver */
+    .editor-content { padding: 20px; }
+}
+
+#nota-cuerpo {
+    /* ... tus otros estilos ... */
+    resize: none; /* Quita la esquina para arrastrar manual */
+    overflow-y: hidden; /* Oculta el scrollbar feo */
+    min-height: 300px; /* Altura mínima inicial */
+}
+
+.empty-state {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: var(--bg-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5; /* Por encima del editor */
+    text-align: center;
+}
+.empty-state.hidden { display: none; }
+.empty-content h2 { color: var(--text-main); margin-top: 20px; }
+.empty-content p { color: var(--text-muted); }
+
+/* --- MENÚ ECOSISTEMA (LAUNCHER) --- */
+.eco-menu {
+    position: absolute;
+    top: 60px; /* Justo debajo del header */
+    left: 10px;
+    width: 220px;
+    background: rgba(15, 23, 42, 0.95); /* Fondo oscuro semitransparente */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    z-index: 100;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: all 0.2s ease;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.eco-menu.hidden {
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 10px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-main);
+    transition: background 0.2s;
+}
+
+.menu-item:hover {
+    background: rgba(255, 255, 255, 0.35);
+    transform: scale(1.05);
+}
+
+.menu-icon { font-size: 1.5rem; margin-bottom: 5px; }
+.menu-label { font-size: 0.75rem; color: var(--text-muted); }
+
+.coming-soon {
+    opacity: 0.5;
+    cursor: default;
+    background: #162032; 
+    border-style: dashed;
+    cursor: not-allowed;
+}
+
+.huellas{
+    filter: grayscale(100%) brightness(500%);
+}
+
+/* Contenedor de los botones de acción (Compartir y Borrar) */
+.editor-actions {
+    display: flex;           /* Los pone en fila */
+    align-items: center;     /* Los centra verticalmente */
+    gap: 15px;               /* Espacio entre botones */
+}
+
+/* Estilo específico para el botón de Compartir */
+#btn-share-nota {
+    color: var(--accent);    /* Color Dorado (#d4b483) */
+    transition: transform 0.2s ease, color 0.2s;
+}
+
+#btn-share-nota:hover {
+    transform: translateY(-2px); /* Pequeño salto al pasar el mouse */
+    color: #fff;                 /* Se vuelve blanco al tocarlo */
+    background-color: rgba(212, 180, 131, 0.1); /* Fondo sutil dorado */
+}
+

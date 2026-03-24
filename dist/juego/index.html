@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN4P6WTVWE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EN4P6WTVWE');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Virtus | Desafío Bíblico</title>
+
+    <meta name="theme-color" content="#0f172a">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="img/virtus-192.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+
+    <meta property="og:title" content="Virtus: ¿Cuánto sabes realmente de la Biblia?">
+    <meta property="og:description" content="Acepta el desafío Virtus. Pon a prueba tu conocimiento y sube de nivel en el ecosistema Códice Bíblico.">
+    <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-virtus.jpg">
+    <meta property="og:url" content="https://codicebiblico.netlify.app/juego/index.html">
+    <meta property="og:type" content="website">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <button id="btn-launcher" class="btn-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"/></svg>
+        </button>
+    </div>
+
+    <div id="eco-menu" class="eco-menu hidden">
+        <div class="menu-grid">
+            <a href="../cronos/index.html" class="menu-item">
+                <span class="icon">🌍</span>
+                <span>Cronos</span>
+            </a>
+            <a href="../huellas/index.html" class="menu-item">
+                <span class="icon huellas">👣</span>
+                <span>Huellas</span>
+            </a>
+            <a href="../a_imagen_de_Dios/index.html" class="menu-item">
+                <span class="icon">🎓</span>
+                <span> Imagen</span>
+            </a>
+            <a href="../aposento/index.html" class="menu-item ">
+                <span class="icon">🔥</span>
+                <span>Aposento</span>
+            </a>
+            <a href="#" class="menu-item coming-soon">
+                <span class="icon">🎮</span>
+                <span>Kairos</span>
+            </a>
+            <a href="../notas/index.html" class="menu-item">
+                <span class="icon">📝</span>
+                <span>Escriba</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="app-container">
+
+        <section id="screen-home" class="screen active">
+            <div class="logo-container">
+                <div class="shield-icon">🛡️</div>
+                <h1 class="game-title">VIRTUS</h1>
+                <p class="game-subtitle">Demuestra tu conocimiento</p>
+            </div>
+            <button id="btn-start" class="btn-primary">EMPUÑA TU ESPADA</button>
+        </section>
+
+        <section id="screen-game" class="screen hidden">
+            <div class="game-header">
+                <div class="lives">❤️❤️❤️</div>
+                <div class="score">Puntos: <span id="score-val">0</span></div>
+            </div>
+            
+            <div class="card-question">
+                <span id="question-counter" class="q-counter">Pregunta 1</span>
+                <h2 id="question-text">¿Cargando pregunta...?</h2>
+            </div>
+
+            <div id="options-container" class="options-grid">
+                </div>
+        </section>
+
+        <section id="screen-result" class="screen hidden">
+            <h2 class="result-title">Partida Terminada</h2>
+            <div class="final-score">
+                <span id="final-points">0</span>
+                <small>PUNTOS</small>
+            </div>
+            <p id="result-message">¡Buen intento!</p>
+            <button id="btn-share" class="btn-secondary">
+                📢 PROCLAMAR VICTORIA
+            </button>
+            <button id="btn-restart" class="btn-primary">JUGAR DE NUEVO</button>
+        </section>
+
+    </div>
+
+    <div id="modal-medalla" class="modal hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(15, 23, 42, 0.9); z-index: 1000; display: flex; justify-content: center; align-items: center;">
+        <div class="modal-content" style="background: #1e293b; border: 2px solid #fcd34d; border-radius: 15px; padding: 2rem; text-align: center; max-width: 90%; width: 400px; box-shadow: 0 0 30px rgba(252, 211, 77, 0.3);">
+            
+            <h2 style="font-family: 'Cinzel', serif; color: #fcd34d; margin-bottom: 1rem; font-size: 1.8rem;">¡LOGRO DESBLOQUEADO!</h2>
+            
+            <div class="medalla-container" style="position: relative; margin: 20px auto; width: 180px; height: 180px;">
+                <div class="resplandor-medalla"></div>
+                <img src="/img/medalla-chibi.png" alt="Medalla Virtus" class="medalla-img">
+            </div>
+
+            <h3 style="color: #ffffff; font-family: 'Inter', sans-serif; font-size: 1.4rem; margin-bottom: 0.5rem;">Defensor de la Verdad</h3>
+            <p style="color: #94a3b8; font-size: 1rem; margin-bottom: 1.5rem; line-height: 1.5;">Has demostrado un conocimiento excepcional en las Escrituras. El Caballero te otorga esta insignia.</p>
+            
+            <button onclick="cerrarMedalla()" style="background: linear-gradient(135deg, #d4b483, #fcd34d); color: #0f172a; font-weight: bold; border: none; padding: 12px 25px; border-radius: 8px; cursor: pointer; font-size: 1.1rem; width: 100%;">
+                Continuar Aventura
+            </button>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/app.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js')
+                    .then(reg => console.log('Códice SW: Registrado con éxito en el ecosistema', reg.scope))
+                    .catch(err => console.warn('Códice SW: Error al registrar', err));
+            });
+        }
+    </script>
+</body>
+</html>

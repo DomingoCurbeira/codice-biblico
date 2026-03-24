@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>🛡️ Auditor de Versiones - Schema 3.0</title>
+    <style>
+        body { font-family: monospace; background: #0f172a; color: #e2e8f0; padding: 20px; }
+        h1 { color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 10px; }
+        
+        /* DASHBOARD */
+        .dashboard { display: flex; gap: 15px; margin-bottom: 30px; }
+        .stat-box { background: #1e293b; padding: 20px; border-radius: 8px; flex: 1; text-align: center; border: 1px solid #334155; }
+        .stat-number { font-size: 2.5em; font-weight: bold; display: block; }
+        .stat-label { color: #94a3b8; font-size: 0.85em; text-transform: uppercase; letter-spacing: 1px; }
+        .error-box { border-left: 4px solid #ef4444; color: #fca5a5; }
+        .success-box { border-left: 4px solid #10b981; color: #a7f3d0; }
+
+        /* TARJETAS DE ERROR */
+        .card { background: #1e293b; padding: 15px; margin-bottom: 10px; border-radius: 6px; border: 1px solid #334155; display: flex; justify-content: space-between; align-items: center; }
+        .card.bad { border-left: 4px solid #ef4444; }
+        .card.good { border-left: 4px solid #10b981; }
+
+        .info-col { flex: 1; }
+        .id-text { font-weight: bold; font-size: 1.1em; color: #e2e8f0; }
+        .file-badge { background: #334155; color: #fcd34d; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; margin-left: 10px; }
+        .err-msg { color: #ef4444; display: block; margin-top: 5px; font-size: 0.9em; }
+        
+        button.main-btn { padding: 15px 30px; font-size: 1.2em; cursor: pointer; background: #38bdf8; color: #0f172a; border: none; border-radius: 5px; font-weight: bold; width: 100%; margin-bottom: 20px; transition: background 0.2s; }
+        button.main-btn:hover { background: #0ea5e9; }
+
+        button.copy-btn { background: #475569; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 0.8em; }
+        button.copy-btn:hover { background: #10b981; }
+
+        #loading { display:none; text-align: center; color: #fcd34d; padding: 20px; font-size: 1.2em; }
+        #log-area { margin-top: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>🛡️ Auditor de Versiones (Schema 3.0)</h1>
+    <p>Verifica que todos los personajes tengan <code>"version": "3.0-deep"</code> en sus metadatos.</p>
+    
+    <div id="stats-area"></div>
+
+    <button class="main-btn" onclick="iniciarAuditoria()">▶️ ESCANEAR ARCHIVOS AHORA</button>
+    <div id="loading">⏳ Leyendo base de datos...</div>
+
+    <div id="log-area"></div>
+
+<script>
+    // --- ⚙️ CONFIGURACIÓN ---
+    const URL_INDICE = 'data/indices/indice_personajes.json'; 
+    const URL_BASE = 'data/personajes/';
+    const VERSION_OBJETIVO = "3.0-deep"; // 🎯 EL OBJETIVO
+
+    async function iniciarAuditoria() {
+        const log = document.getElementById('log-area');
+        const loading = document.getElementById('loading');
+        const statsArea = document.getElementById('stats-area');
+        
+        log.innerHTML = '';
+        statsArea.innerHTML = '';
+        loading.style.display = 'block';
+
+        try {
+            // 1. Cargar Índice
+            const resIndice = await fetch(URL_INDICE + '?v=' + Date.now());
+            if(!resIndice.ok) throw new Error("No encuentro el índice de personajes.");
+            
+            const indice = await resIndice.json();
+            const gruposUnicos = [...new Set(Object.values(indice))];
+            
+            // 2. Cargar Archivos
+            const promesas = gruposUnicos.map(async g => {
+                try {
+                    const r = await fetch(`${URL_BASE}${g}.json?v=${Date.now()}`);
+                    if(!r.ok) return [];
+                    const data = await r.json();
+                    return data.map(p => ({ ...p, _archivo_origen: g }));
+                } catch (e) {
+                    console.error(`Error cargando ${g}:`, e);
+                    return []; // Si falla un archivo, continuamos con los demás
+                }
+            });
+
+            const resultados = await Promise.all(promesas);
+            const todos = resultados.flat();
+
+            // 3. AUDITAR VERSIONES
+            let errores = 0;
+            let htmlResultados = '';
+
+            todos.forEach(p => {
+                let fallo = null;
+
+                // Verificación estricta
+                if (!p.meta) {
+                    fallo = "❌ Falta el objeto 'meta' completo.";
+                } else if (p.meta.version !== VERSION_OBJETIVO) {
+                    fallo = `⚠️ Versión incorrecta: "${p.meta.version || 'indefinida'}" (Se requiere "${VERSION_OBJETIVO}")`;
+                }
+
+                if (fallo) {
+                    errores++;
+                    const nombreMostrar = p.perfil?.nombre || p.id;
+                    const archivoJSON = `${p._archivo_origen}.json`;
+
+                    htmlResultados += `
+                        <div class="card bad">
+                            <div class="info-col">
+                                <span class="id-text">${nombreMostrar}</span> 
+                                <span class="file-badge">📂 ${archivoJSON}</span>
+                                <span class="err-msg">${fallo}</span>
+                            </div>
+                            <button class="copy-btn" onclick="copiarCorreccion()">📋 Copiar Fix</button>
+                        </div>
+                    `;
+                }
+            });
+
+            // 4. RESULTADOS FINALES
+            if (errores === 0) {
+                htmlResultados = `
+                    <div class="card good" style="justify-content:center; padding:30px;">
+                        <h3>✨ ¡Perfecto! Los ${todos.length} personajes tienen la versión ${VERSION_OBJETIVO}.</h3>
+                    </div>`;
+            }
+
+            // Renderizar Dashboard
+            statsArea.innerHTML = `
+                <div class="dashboard">
+                    <div class="stat-box">
+                        <span class="stat-number">${todos.length}</span>
+                        <span class="stat-label">Personajes Escaneados</span>
+                    </div>
+                    <div class="stat-box ${errores > 0 ? 'error-box' : 'success-box'}">
+                        <span class="stat-number">${errores}</span>
+                        <span class="stat-label">Fallos de Versión</span>
+                    </div>
+                </div>
+            `;
+
+            log.innerHTML = `<h2>Reporte de Fallos:</h2>${htmlResultados}`;
+
+        } catch (e) {
+            console.error(e);
+            log.innerHTML = `<h3 style="color:#ef4444">💥 Error Crítico: ${e.message}</h3>`;
+        } finally {
+            loading.style.display = 'none';
+        }
+    }
+
+    // Función para facilitar la corrección
+    function copiarCorreccion() {
+        const texto = `"meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  }`;
+        navigator.clipboard.writeText(texto).then(() => {
+            alert("✅ Bloque 'meta' copiado.\n\nBusca el personaje en el archivo JSON y pega esto reemplazando su meta antiguo.");
+        });
+    }
+</script>
+
+<script>
+    // Limpieza de caché
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister();
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

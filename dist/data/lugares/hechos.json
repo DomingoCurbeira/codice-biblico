@@ -1,0 +1,923 @@
+[
+    {
+        "id": "aposento-alto",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.7721, 35.2294],
+            "zoom": 17,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "El Aposento Alto (Cenáculo)",
+            "titulo_corto": "La Cuna de la Iglesia",
+            "significado_nombre": "Cenáculo (Comedor superior)",
+            "ubicacion_geografica": "Monte Sión, Jerusalén, cerca de la Puerta de Sión.",
+            "clima_entorno": "Habitación en el piso superior de una casa típica de Jerusalén, diseñada para la privacidad y la comunión.",
+            "imagen_principal": "/img/lugares/cenaculo.webp",
+            "galeria": [
+                "/img/lugares/pentecostes-fuego.webp",
+                "/img/lugares/monte-sion.webp",
+                "/img/lugares/predica-pedro.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Lucas", "Hechos"],
+            "era_biblica": "Nacimiento de la Iglesia (33 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Estructura sobre la Tumba de David",
+            "descripcion": "Aunque la estructura actual es gótica, se asienta sobre cimientos mucho más antiguos que la tradición cristiana ha identificado desde el siglo II como el sitio de la 'Iglesia de Sión'. Los nichos arqueológicos sugieren un uso litúrgico temprano por parte de los judeocristianos."
+        },
+        "narrativa": {
+            "resumen_epico": "Este lugar es el puente entre los Evangelios y Hechos. Fue aquí donde Jesús celebró la Pascua y lavó los pies de los discípulos. Sin embargo, en Hechos 2, el Aposento Alto se convirtió en un 'horno espiritual'. Los 120 discípulos, en oración unánime, recibieron el estruendo de un viento recio y lenguas de fuego. Lo que era un grupo escondido por miedo se transformó en un movimiento imparable. El Aposento Alto es donde el sacrificio de Cristo se convirtió en el poder de la Iglesia.",
+            "dato_curioso": "Es probable que esta fuera la casa de María, la madre de Juan Marcos, un centro de operaciones clave para los primeros cristianos.",
+            "conexion_jesus": "Cumplimiento de la promesa: 'No os dejaré huérfanos; os enviaré otro Consolador'. Aquí, Jesús comenzó a vivir *en* Sus discípulos a través del Espíritu Santo.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la unidad, la espera paciente y la investidura de poder. Transmite un paso del miedo a la audacia.",
+            "simbologia": [
+                {
+                    "objeto": "Lenguas de Fuego",
+                    "significado": "Representan la pasión y la purificación divina que capacita al creyente para hablar las maravillas de Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No salgas a cumplir tu misión sin antes ser revestido de poder. La unidad y la oración son el terreno fértil para el actuar de Dios.",
+            "preguntas_reflexion": [
+                "¿Estás operando en tus propias fuerzas o has tenido tu propio 'Pentecostés' de dependencia de Dios?",
+                "¿Eres una persona que une al cuerpo de Cristo en oración o que lo divide?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Promesa",
+                "evento": "La Última Cena e institución de la Eucaristía.",
+                "referencia": "Lucas 22:14-20"
+            },
+            {
+                "fase": "El Cumplimiento",
+                "evento": "Venida del Espíritu Santo y nacimiento de la Iglesia.",
+                "referencia": "Hechos 2:1-4",
+                "vinculo_id": "pentecostes"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "monte-olivos-zacarias"],
+            "personajes_relacionados": ["pedro", "maria"],
+            "estudios": ["el-espiritu-santo", "la-vida-en-comunidad"]
+        },
+        "gamificacion": {
+            "xp_lectura": 350,
+            "logro_id": "bautizado-en-fuego"
+        }
+    },
+    {
+        "id": "camino-damasco",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [33.5138, 36.2965],
+            "zoom": 10,
+            "icono_mapa": "/img/ui/markers/viaje.svg",
+            "marcador_color": "#8e44ad"
+        },
+        "perfil": {
+            "nombre": "Camino a Damasco",
+            "titulo_corto": "El Encuentro Radical",
+            "significado_nombre": "Damasco: Lugar de actividad o Regadío",
+            "ubicacion_geografica": "Ruta desértica que conecta Jerusalén con la capital de Siria.",
+            "clima_entorno": "Vía comercial calurosa y polvorienta, flanqueada por las montañas del Antilíbano.",
+            "imagen_principal": "/img/lugares/camino-damasco.webp",
+            "galeria": [
+                "/img/lugares/luz-del-cielo.webp",
+                "/img/lugares/saulo-ceguera.webp",
+                "/img/lugares/ananias-saulo.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos", "Gálatas"],
+            "era_biblica": "Inicios de la Iglesia (Conversión de Pablo)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Vía Recta (Calle Derecha) en Damasco",
+            "descripcion": "Damasco es una de las ciudades más antiguas del mundo. La 'Calle llamada Derecha' (Hechos 9:11) todavía existe hoy y atraviesa el casco antiguo, confirmando la precisión geográfica del relato del encuentro de Saulo con Ananías."
+        },
+        "narrativa": {
+            "resumen_epico": "Saulo de Tarso viajaba por este camino con cartas de arresto para destruir la Iglesia. Pero a las puertas de Damasco, una luz superior al sol lo derribó. El perseguidor escuchó la voz de la Víctima: 'Saulo, ¿por qué me persigues?'. En ese instante, la ceguera física dio paso a la visión espiritual. El hombre más peligroso para el evangelio se convirtió en su mayor embajador. El Camino a Damasco representa que nadie está fuera del alcance de la gracia de Dios.",
+            "dato_curioso": "La conversión de Saulo fue tan impactante que Hechos registra el relato tres veces para enfatizar su importancia.",
+            "conexion_jesus": "Jesús resucitado sigue actuando. No es un recuerdo histórico, sino un Rey vivo que intercepta a sus enemigos para convertirlos en amigos.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el quebrantamiento total de la voluntad propia y el renacimiento de la identidad. Transmite una sensación de shock divino.",
+            "simbologia": [
+                {
+                    "objeto": "La Luz del Mediodía",
+                    "significado": "Representa la gloria de Dios que expone la oscuridad de nuestras propias intenciones."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu pasado no define tu futuro cuando te encuentras con Cristo. Dios puede convertir tu mayor defecto en tu mayor herramienta para Su reino.",
+            "preguntas_reflexion": [
+                "¿Estás corriendo hacia tus propios objetivos o estás dispuesto a ser 'derribado' por la voluntad de Dios?",
+                "¿Crees que alguien es 'demasiado malo' para ser salvo, olvidando la historia de Pablo?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Intercepción",
+                "evento": "Cristo se aparece a Saulo y este queda ciego.",
+                "referencia": "Hechos 9:3-9",
+                "vinculo_id": "conversion-pablo"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "antioquia-mision"],
+            "personajes_relacionados": ["pablo", "jesus"],
+            "estudios": ["la-gracia-transformadora", "misiones-cristianas"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "embajador-del-rey"
+        }
+    },
+    {
+        "id": "antioquia-mision",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [36.2021, 36.1605],
+            "zoom": 13,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e74c3c"
+        },
+        "perfil": {
+            "nombre": "Antioquía de Siria",
+            "titulo_corto": "La Cuna del Nombre Cristiano",
+            "significado_nombre": "En honor a Antíoco",
+            "ubicacion_geografica": "A orillas del río Orontes, actual Turquía (Antakya).",
+            "clima_entorno": "Metrópolis cosmopolita, la tercera ciudad más importante del Imperio Romano, centro de comercio y cultura.",
+            "imagen_principal": "/img/lugares/antioquia.webp",
+            "galeria": [
+                "/img/lugares/rio-orontes.webp",
+                "/img/lugares/gruta-san-pedro.webp",
+                "/img/lugares/envio-misioneros.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos", "Gálatas"],
+            "era_biblica": "Expansión de la Iglesia (Aprox. 40-50 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Gruta de San Pedro",
+            "descripcion": "Una cueva en las faldas del monte Starius que tradicionalmente se considera uno de los primeros lugares de reunión de la iglesia en Antioquía. Sus fachadas e inscripciones datan de los primeros siglos del cristianismo."
+        },
+        "narrativa": {
+            "resumen_epico": "Antioquía fue donde el Evangelio rompió las barreras raciales. Aquí, por primera vez, creyentes judíos y gentiles adoraron juntos, y fue aquí donde el mundo acuñó el término 'Cristianos' (pequeños Cristos). Bajo el liderazgo de Bernabé y Saulo, la iglesia creció tanto que se convirtió en la base desde la cual el Espíritu Santo envió los primeros viajes misioneros hacia Europa y Asia Menor. Antioquía representa la visión global del Reino de Dios.",
+            "dato_curioso": "La ciudad era famosa por su alumbrado público nocturno y su calle principal flanqueada por columnas de mármol, reflejando su inmensa riqueza.",
+            "conexion_jesus": "Cumple el mandato de ser testigos 'hasta lo último de la tierra'. Jesús dejó de ser visto como el Mesías de un solo pueblo para ser reconocido como el Salvador de todas las naciones.",
+            "imagen_de_apoyo": "[Image of the ancient city layout of Antioch on the Orontes showing its strategic location between mountains and river]"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la diversidad, el dinamismo y el sacrificio misionero. Transmite una atmósfera de innovación espiritual y generosidad.",
+            "fortalezas": ["Comunidad multicultural", "Liderazgo sólido", "Espíritu generoso (enviaron ayuda a Jerusalén)"],
+            "debilidades": ["Entorno de inmoralidad pagana extrema"],
+            "simbologia": [
+                {
+                    "objeto": "El Barco Misionero",
+                    "significado": "Representa el movimiento constante del Evangelio hacia nuevos territorios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu fe debe ser lo suficientemente grande como para amar y servir a personas que no se parecen a ti ni comparten tu cultura.",
+            "preguntas_reflexion": [
+                "¿Eres un 'cristiano' cuyo estilo de vida refleja tanto a Jesús que otros pueden identificarlo fácilmente?",
+                "¿Estás apoyando activamente la expansión del mensaje de Dios más allá de tu propia comunidad?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Avivamiento",
+                "evento": "Bernabé busca a Saulo en Tarso para enseñar en Antioquía.",
+                "referencia": "Hechos 11:25-26"
+            },
+            {
+                "fase": "El Envío",
+                "evento": "El Espíritu Santo aparta a Bernabé y Saulo para la obra.",
+                "referencia": "Hechos 13:1-3",
+                "vinculo_id": "viajes-pablo"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "efeso-teatro"],
+            "personajes_relacionados": ["bernabe", "pablo", "lucas"],
+            "estudios": ["misiones-transculturales", "identidad-cristiana"]
+        },
+        "gamificacion": {
+            "xp_lectura": 280,
+            "logro_id": "embajador-de-naciones"
+        }
+    },
+    {
+        "id": "carcel-filipos",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [41.0131, 24.2861],
+            "zoom": 15,
+            "icono_mapa": "/img/ui/markers/milagro.svg",
+            "marcador_color": "#2c3e50"
+        },
+        "perfil": {
+            "nombre": "Cárcel de Filipos",
+            "titulo_corto": "El Terremoto de la Libertad",
+            "significado_nombre": "Filipos: Ciudad de Filipo (padre de Alejandro Magno)",
+            "ubicacion_geografica": "Norte de Grecia (Macedonia).",
+            "clima_entorno": "Colonia romana militar; ciudad próspera con fuertes leyes imperiales.",
+            "imagen_principal": "/img/lugares/filipos-ruinas.webp",
+            "galeria": [
+                "/img/lugares/celda-pablo.webp",
+                "/img/lugares/rio-lydia.webp",
+                "/img/lugares/milagro-prision.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos", "Filipenses"],
+            "era_biblica": "Segundo Viaje Misionero (Aprox. 50 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "El Foro y la Prisión Tradicional",
+            "descripcion": "Se conservan los restos del foro romano y una estructura identificada tradicionalmente como la prisión donde Pablo y Silas fueron custodiados. La arqueología del sitio muestra muros de piedra masivos que explican la magnitud del terremoto divino descrito en Hechos."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras ser azotados y encarcelados injustamente, Pablo y Silas no se hundieron en la queja. A medianoche, desde lo más profundo del calabozo, sus himnos de alabanza hacían eco en las paredes de piedra. Dios respondió con un terremoto que no destruyó el edificio, sino que abrió todas las puertas y soltó todas las cadenas. El resultado no fue una huida, sino la salvación del carcelero y toda su familia. Filipos nos enseña que la alabanza es un arma de guerra espiritual que libera no solo al que canta, sino a los que escuchan.",
+            "dato_curioso": "Filipos fue la primera ciudad de Europa donde se predicó el Evangelio, cumpliendo la visión del 'varón macedonio' que pidió ayuda a Pablo.",
+            "conexion_jesus": "Refleja la victoria de Cristo sobre la tumba. Así como la piedra fue removida por poder divino, las puertas de la cárcel cedieron ante la adoración de Sus siervos.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el gozo inefable, la resiliencia y el poder milagroso. Transmite una seguridad absoluta en medio del dolor físico.",
+            "simbologia": [
+                {
+                    "objeto": "Las Cadenas Caídas",
+                    "significado": "Representan la liberación de las ataduras del miedo y el pecado por la intervención de Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu actitud en la crisis determina el impacto de tu testimonio. Una canción de alabanza en tu noche más oscura puede abrir puertas que ningún esfuerzo humano lograría.",
+            "preguntas_reflexion": [
+                "¿Qué estás 'cantando' cuando las cosas van mal: quejas o promesas de Dios?",
+                "¿Eres consciente de que tus 'cadenas' (pruebas) pueden ser el medio para que otros conozcan la libertad en Cristo?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Crisis",
+                "evento": "Pablo y Silas son azotados y puestos en el cepo.",
+                "referencia": "Hechos 16:22-24"
+            },
+            {
+                "fase": "La Liberación",
+                "evento": "Terremoto y conversión del carcelero.",
+                "referencia": "Hechos 16:25-34",
+                "vinculo_id": "gozo-en-la-prueba"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["antioquia-mision"],
+            "personajes_relacionados": ["pablo", "silas", "lidia-filipos"],
+            "estudios": ["el-poder-de-la-alabanza", "evangelizacion-en-europa"]
+        },
+        "gamificacion": {
+            "xp_lectura": 320,
+            "logro_id": "cantor-de-medianoche"
+        }
+    },
+    {
+        "id": "areopago-atenas",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [37.9722, 23.7236],
+            "zoom": 17,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#ffffff"
+        },
+        "perfil": {
+            "nombre": "El Areópago (Colina de Marte)",
+            "titulo_corto": "Al Dios No Conocido",
+            "significado_nombre": "Areios Pagos: Colina de Ares",
+            "ubicacion_geografica": "Atenas, Grecia; una colina de mármol situada justo debajo de la Acrópolis.",
+            "clima_entorno": "Lugar abierto, elevado y ventoso, centro de los debates filosóficos y judiciales de la ciudad.",
+            "imagen_principal": "/img/lugares/areopago.webp",
+            "galeria": [
+                "/img/lugares/partenon-desde-abajo.webp",
+                "/img/lugares/altar-desconocido.webp",
+                "/img/lugares/predica-areopago.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos"],
+            "era_biblica": "Segundo Viaje Misionero (Aprox. 51 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Inscripción a Dioses Desconocidos",
+            "descripcion": "Aunque no se ha hallado el altar exacto que vio Pablo, historiadores como Pausanias confirman que en Atenas existían altares dedicados a 'dioses desconocidos'. La colina de mármol sigue siendo un punto geográfico inalterado donde se realizaban las asambleas del consejo supremo.",
+            "imagen_de_apoyo": ""
+        },
+        "narrativa": {
+            "resumen_epico": "Atenas era el centro intelectual del mundo, llena de ídolos y filósofos epicúreos y estoicos. Pablo, provocado por la idolatría, fue llevado al Areópago para explicar su 'nueva doctrina'. Utilizando un altar local dedicado 'Al Dios No Conocido', Pablo presentó al Dios Creador que no habita en templos hechos de manos. Les habló de la resurrección, lo cual provocó burlas en unos y curiosidad en otros. Fue el momento en que el Evangelio demostró que puede hablarle tanto al pescador sencillo como al filósofo más sofisticado.",
+            "dato_curioso": "Pablo citó a poetas griegos (como Arato y Epiménides) para conectar con su audiencia, mostrando su asombrosa capacidad de adaptación cultural.",
+            "conexion_jesus": "Jesús es presentado como el Juez de toda la tierra, nombrado por Dios y confirmado por Su resurrección de entre los muertos."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el desafío intelectual, la observación aguda y la elocuencia. Transmite una atmósfera de debate elevado y búsqueda de la verdad.",
+            "simbologia": [
+                {
+                    "objeto": "El Altar Vacío",
+                    "significado": "Representa el hambre espiritual del hombre que, a pesar de toda su sabiduría, no conoce a su Creador."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No temas presentar tu fe en entornos intelectuales o académicos. El Evangelio tiene respuestas para las preguntas más profundas de la humanidad.",
+            "preguntas_reflexion": [
+                "¿Sabes explicar tu fe de una manera que las personas que no conocen la Biblia puedan entender?",
+                "¿Cuáles son los 'ídolos' intelectuales de nuestra sociedad actual a los que el Evangelio debe confrontar?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Observación",
+                "evento": "Pablo recorre Atenas y observa la ciudad entregada a la idolatría.",
+                "referencia": "Hechos 17:16"
+            },
+            {
+                "fase": "El Discurso",
+                "evento": "Pablo predica en el Areópago sobre el Dios desconocido.",
+                "referencia": "Hechos 17:22-31",
+                "vinculo_id": "discurso-atenas"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["estadio-istmia", "efeso-teatro", "jerusalen-sion"],
+            "personajes_relacionados": ["pablo"],
+            "estudios": ["apologetica-cristiana", "evangelio-y-cultura"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "pensador-del-reino"
+        }
+    },
+    {
+        "id": "efeso-teatro",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [37.9412, 27.3419],
+            "zoom": 15,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Éfeso (El Gran Teatro)",
+            "titulo_corto": "Evangelio vs Diana",
+            "significado_nombre": "Deseable",
+            "ubicacion_geografica": "Costa oeste de Asia Menor, actual Turquía.",
+            "clima_entorno": "Puerto comercial masivo y centro religioso mundial debido al Templo de Artemisa (una de las 7 maravillas).",
+            "imagen_principal": "/img/lugares/efeso-teatro.webp",
+            "galeria": [
+                "/img/lugares/biblioteca-celso.webp",
+                "/img/lugares/templo-artemisa.webp",
+                "/img/lugares/quema-pergaminos.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos", "Efesios", "Apocalipsis"],
+            "era_biblica": "Tercer Viaje Misionero (Aprox. 53-56 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "El Gran Teatro de Éfeso",
+            "descripcion": "Un teatro con capacidad para 25,000 personas que se conserva en excelente estado. Es el sitio exacto del disturbio provocado por Demetrio el platero, donde la multitud gritó por dos horas: '¡Grande es Diana de los efesios!'."
+        },
+        "narrativa": {
+            "resumen_epico": "Éfeso fue la base de Pablo por tres años. Aquí, el poder de Dios era tan palpable que incluso los pañuelos de Pablo sanaban enfermos. El impacto fue tal que los que practicaban magia quemaron sus libros costosos y los fabricantes de ídolos perdieron su negocio, provocando un motín en el gran teatro. Éfeso representa el momento en que el Evangelio deja de ser una idea para convertirse en una fuerza que altera la economía y la cultura de una metrópolis.",
+            "dato_curioso": "Pablo escribió 1 Corintios desde aquí, y más tarde el apóstol Juan haría de esta ciudad su hogar junto a María, la madre de Jesús.",
+            "conexion_jesus": "Jesús es presentado como el Señor sobre todos los principados y potestades, cuya luz disipa las tinieblas del ocultismo profundamente arraigado.",
+            "imagen_de_apoyo": "[Image of the Great Theatre of Ephesus and the Arcadian Way leading to the ancient harbor]"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la confrontación espiritual y el poder transformador. Transmite una atmósfera de victoria sobre lo sobrenatural maligno.",
+            "simbologia": [
+                {
+                    "objeto": "Libros de Magia Quemados",
+                    "significado": "Representan la renuncia total al pasado y la supremacía de la verdad de Dios sobre el engaño."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Cuando el Evangelio llega de verdad a una vida o ciudad, los 'ídolos' (dinero, vicios, falsas creencias) deben caer. No puede haber neutralidad.",
+            "preguntas_reflexion": [
+                "¿Qué 'libros de magia' o ataduras de tu pasado necesitas quemar hoy para ser libre?",
+                "¿Tu fe es lo suficientemente real como para incomodar a los sistemas de injusticia a tu alrededor?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Avivamiento",
+                "evento": "Pablo enseña en la escuela de Tiranno y ocurren milagros extraordinarios.",
+                "referencia": "Hechos 19:8-12"
+            },
+            {
+                "fase": "El Conflicto",
+                "evento": "Disturbio en el teatro por causa de los plateros.",
+                "referencia": "Hechos 19:23-41",
+                "vinculo_id": "motin-efeso"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["antioquia-mision", "estadio-istmia", "patmos-revelacion"],
+            "personajes_relacionados": ["pablo", "timoteo", "apolos", "priscila-aquila"],
+            "estudios": ["guerra-espiritual", "armadura-de-dios"]
+        },
+        "gamificacion": {
+            "xp_lectura": 350,
+            "logro_id": "vencedor-de-artemisa"
+        }
+    },
+    {
+        "id": "roma-prision",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [41.8902, 12.4922],
+            "zoom": 14,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#000000"
+        },
+        "perfil": {
+            "nombre": "Roma (La Casa alquilada)",
+            "titulo_corto": "Sin Impedimento",
+            "significado_nombre": "Fuerza",
+            "ubicacion_geografica": "Capital del Imperio Romano, Italia.",
+            "clima_entorno": "El epicentro del mundo conocido, una ciudad de mármol, leyes y un poder militar absoluto.",
+            "imagen_principal": "/img/lugares/roma-foro.webp",
+            "galeria": [
+                "/img/lugares/carcer-mamertina.webp",
+                "/img/lugares/via-appia.webp",
+                "/img/lugares/predica-en-cadenas.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos", "Romanos", "2 Timoteo"],
+            "era_biblica": "Final de Hechos (Aprox. 60-62 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Cárcel Mamertina y la Vía Appia",
+            "descripcion": "Se puede visitar la Vía Appia por donde Pablo entró a la ciudad y la prisión donde, según la tradición, pasó sus últimos días. La arqueología confirma que Pablo vivió en una casa alquilada bajo custodia militar, una práctica romana común (custodia libera)."
+        },
+        "narrativa": {
+            "resumen_epico": "El libro de Hechos termina con una imagen poderosa: Pablo, el prisionero de Cristo, en la capital del mundo, predicando el Reino de Dios a todo el que lo visitaba 'sin impedimento alguno'. Aunque encadenado a un soldado romano, su palabra era libre. Desde Roma, el Evangelio se infiltró en la guardia pretoriana y hasta en la casa del César. Roma es el testimonio de que ninguna cadena humana puede detener el avance del Reino de Dios.",
+            "dato_curioso": "A pesar de ser prisionero, Pablo escribió desde aquí sus 'Epístolas de la Prisión' (Efesios, Filipenses, Colosenses y Filemón).",
+            "conexion_jesus": "Jesús es el Rey cuyo trono es eterno, frente al cual incluso el poder de Roma tuvo que ceder espacio para la semilla de la Iglesia.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la culminación, la perseverancia y la soberanía divina. Transmite una sensación de victoria estratégica a pesar de las circunstancias físicas.",
+            "simbologia": [
+                {
+                    "objeto": "La Cadena",
+                    "significado": "Símbolo de que el sufrimiento del testigo es el combustible para la libertad del mensaje."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu situación actual (tu 'casa alquilada' o limitación) no es un obstáculo para Dios, sino tu púlpito asignado para influenciar a otros.",
+            "preguntas_reflexion": [
+                "¿Te quejas de tus limitaciones o las usas como una oportunidad para mostrar el poder de Dios?",
+                "¿Estás consciente de que el Evangelio que hoy tienes llegó a ti porque hombres como Pablo no se rindieron en Roma?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Llegada",
+                "evento": "Pablo llega a Roma tras el naufragio y es recibido por los hermanos.",
+                "referencia": "Hechos 28:14-16"
+            },
+            {
+                "fase": "El Final Abierto",
+                "evento": "Pablo predica el Reino de Dios sin impedimento.",
+                "referencia": "Hechos 28:30-31",
+                "vinculo_id": "evangelio-libre"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "malta-naufragio"],
+            "personajes_relacionados": ["pablo", "lucas", "augusto-cesar"],
+            "estudios": ["el-evangelio-en-roma", "perseverancia-de-los-santos"]
+        },
+        "gamificacion": {
+            "xp_lectura": 400,
+            "logro_id": "conquistador-de-roma"
+        }
+    },
+    {
+        "id": "patmos-revelacion",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [37.315, 26.545],
+            "zoom": 12,
+            "icono_mapa": "/img/ui/markers/milagro.svg",
+            "marcador_color": "#ffffff"
+        },
+        "perfil": {
+            "nombre": "Isla de Patmos",
+            "titulo_corto": "La Ventana a la Eternidad",
+            "significado_nombre": "Mortal o Trementina",
+            "ubicacion_geografica": "Pequeña isla rocosa en el Mar Egeo, Grecia.",
+            "clima_entorno": "Terreno volcánico escarpado, usado por los romanos como lugar de destierro para prisioneros políticos.",
+            "imagen_principal": "/img/lugares/patmos-cueva.webp",
+            "galeria": [
+                "/img/lugares/mar-egeo-patmos.webp",
+                "/img/lugares/vision-apocalipsis.webp",
+                "/img/lugares/escribiendo-apocalipsis.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Apocalipsis"],
+            "era_biblica": "Final del Siglo I (Aprox. 95 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Cueva del Apocalipsis",
+            "descripcion": "Existe una cueva sagrada en la ladera de la montaña donde la tradición sostiene que el apóstol Juan tuvo las visiones del Apocalipsis. La geografía de la isla, con sus vistas al mar y sus horizontes abiertos, coincide con las imágenes de 'islas huyendo' y 'mares de cristal' descritas en el libro."
+        },
+        "narrativa": {
+            "resumen_epico": "Patmos fue el lugar del exilio final de Juan. En el 'día del Señor', estando en el Espíritu, Juan escuchó una voz como de trompeta. Lo que comenzó como una prisión en una roca solitaria se convirtió en la sala del trono de Dios. Aquí, el Códice se cierra: Juan vio el fin del mal, el juicio de las naciones y el descenso de la Nueva Jerusalén. Patmos representa que, aunque el mundo intente aislar a los siervos de Dios, nunca puede cerrar el cielo sobre ellos.",
+            "dato_curioso": "Juan era el único de los doce apóstoles originales que seguía vivo, siendo ya un anciano de unos 90 años durante este exilio.",
+            "conexion_jesus": "Jesús aparece aquí como el Alfa y la Omega, el Cordero que fue inmolado y el León que reina. Es el cierre del círculo que comenzó en el Génesis.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el asombro cósmico, la esperanza última y la victoria definitiva. Transmite una sensación de cierre y de nuevos comienzos eternos.",
+            "simbologia": [
+                {
+                    "objeto": "El Mar de Cristal",
+                    "significado": "Representa la paz y la transparencia absoluta ante el trono de Dios, donde ya no hay tormentas."
+                },
+                {
+                    "objeto": "La Llave de David",
+                    "significado": "Símbolo de la autoridad total de Cristo sobre la historia y la eternidad."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu 'isla de soledad' puede ser el lugar de tu revelación más grande. Dios usa los momentos de aislamiento para mostrarnos Su gloria venidera.",
+            "preguntas_reflexion": [
+                "¿Estás mirando las rocas de tu situación actual o el cielo abierto de las promesas de Dios?",
+                "¿Vives con la certeza de que, al final, Dios enjugará toda lágrima y hará nuevas todas las cosas?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Visión",
+                "evento": "Juan recibe la revelación de Jesucristo para las siete iglesias.",
+                "referencia": "Apocalipsis 1:9-19",
+                "vinculo_id": "vision-juan"
+            },
+            {
+                "fase": "El Final",
+                "evento": "Visión de la Nueva Jerusalén y la restauración total.",
+                "referencia": "Apocalipsis 21-22",
+                "vinculo_id": "nueva-jerusalen"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["efeso-teatro", "jerusalen-sion"],
+            "personajes_relacionados": ["juan-apostol"],
+            "estudios": ["escatologia-biblica", "la-victoria-final"]
+        },
+        "gamificacion": {
+            "xp_lectura": 500,
+            "logro_id": "visionario-del-final"
+        }
+    },
+    
+    {
+        "id": "estadio-istmia",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [37.9135, 22.9908],
+            "zoom": 15,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d35400"
+        },
+        "perfil": {
+            "nombre": "Estadio de Istmia (Corinto)",
+            "titulo_corto": "La Meta Incorruptible",
+            "significado_nombre": "Istmo: Paso estrecho entre dos mares",
+            "ubicacion_geografica": "Santuario de Poseidón en el Istmo de Corinto, Grecia.",
+            "clima_entorno": "Zona de vientos marinos y gran afluencia comercial; sede de los Juegos Ístmicos que atraían a miles de visitantes.",
+            "imagen_principal": "/img/lugares/estadio-corinto.webp",
+            "galeria": [
+                "/img/lugares/linea-salida.webp",
+                "/img/lugares/teatro-istmia.webp",
+                "/img/lugares/corona-laurel.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["1 Corintios", "2 Timoteo"],
+            "era_biblica": "Ministerio de Pablo en Corinto (Aprox. 51-52 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "El Estadio y las Piedras de Salida (Balbis)",
+            "descripcion": "Se han conservado los mecanismos de salida para los corredores y la estructura del estadio. Como fabricante de tiendas (skenopoios), Pablo probablemente trabajó proveyendo refugio a los atletas y espectadores, lo que le dio una visión directa de la rigurosa preparación deportiva."
+        },
+        "narrativa": {
+            "resumen_epico": "Corinto era una ciudad obsesionada con el éxito y la competición. Pablo, observando a los atletas en este estadio, escribió una de sus metáforas más famosas: la vida cristiana es una carrera de resistencia. Mientras los atletas se abstenían de todo por una corona de apio o laurel que se marchitaba, el creyente debe disciplinar su cuerpo por una recompensa eterna. El estadio de Istmia es el recordatorio de que la fe no es pasiva, sino un esfuerzo enfocado hacia una meta superior.",
+            "dato_curioso": "Los Juegos Ístmicos eran tan importantes que se concedía una tregua sagrada en toda Grecia para que los atletas pudieran viajar seguros.",
+            "conexion_jesus": "Jesús es presentado como el premio supremo y el Juez de la carrera que ya ha vencido, dándonos el ejemplo de perseverancia hasta el final.",
+            "imagen_de_apoyo": "[Image of the ancient starting lines and stadium layout at the Isthmian sanctuary near Corinth]"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el esfuerzo, la determinación y el autocontrol. Transmite una energía de competitividad santa y propósito claro.",
+            "simbologia": [
+                {
+                    "objeto": "La Corona de Laurel",
+                    "significado": "Representa los logros temporales del mundo que, aunque exigen sacrificio, no tienen valor eterno."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No corras sin rumbo. La disciplina en tu vida espiritual no es una carga, sino el entrenamiento necesario para alcanzar tu propósito.",
+            "preguntas_reflexion": [
+                "¿Te estás esforzando en tu vida espiritual con la misma intensidad con la que buscas el éxito profesional o físico?",
+                "¿Qué 'pesos' o distracciones necesitas dejar a un lado para correr más ligero hoy?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Instrucción",
+                "evento": "Pablo escribe a los Corintios usando la metáfora de la carrera.",
+                "referencia": "1 Corintios 9:24-27",
+                "vinculo_id": "carrera-fe"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["estadio-istmia", "areopago-atenas", "efeso-teatro"],
+            "personajes_relacionados": ["pablo"],
+            "estudios": ["disciplina-espiritual", "la-recompensa-eterna"]
+        },
+        "gamificacion": {
+            "xp_lectura": 220,
+            "logro_id": "atleta-de-cristo"
+        }
+    },
+    {
+        "id": "malta-naufragio",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [35.9483, 14.3986],
+            "zoom": 12,
+            "icono_mapa": "/img/ui/markers/viaje.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Isla de Malta (Bahía de San Pablo)",
+            "titulo_corto": "Providencia en la Tormenta",
+            "significado_nombre": "Melita: Refugio o Miel",
+            "ubicacion_geografica": "Isla en el centro del Mar Mediterráneo, al sur de Sicilia.",
+            "clima_entorno": "Islas rocosas propensas a tormentas violentas (Euroclidón) en invierno.",
+            "imagen_principal": "/img/lugares/malta-bahia.webp",
+            "galeria": [
+                "/img/lugares/vipers-island.webp",
+                "/img/lugares/cuevas-malta.webp",
+                "/img/lugares/pablo-vibora.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Hechos"],
+            "era_biblica": "Viaje de Pablo a Roma (Aprox. 60 d.C.)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Anclas de la época romana en San Pablo",
+            "descripcion": "Se han descubierto anclas de plomo de barcos romanos del siglo I en la bahía de San Pablo, consistentes con el relato de Hechos 27 donde se soltaron cuatro anclas para evitar que el barco se estrellara contra las rocas."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras 14 días a la deriva en una tormenta pavorosa donde 'toda esperanza de salvarse se había perdido', el barco de Pablo encalló en Malta. Ni una sola vida se perdió, tal como Dios había prometido. En la orilla, Pablo sobrevivió a la picadura de una víbora y sanó al padre del gobernador Publio. Malta representa el 'refugio de gracia' que Dios provee cuando nuestros propios planes y naves naufragan. Es el lugar donde el desastre se convierte en una oportunidad para la evangelización.",
+            "dato_curioso": "Los habitantes de la isla fueron llamados 'bárbaros' por Lucas, no por ser salvajes, sino porque no hablaban griego ni latín, sino un dialecto fenicio.",
+            "conexion_jesus": "Muestra el poder de Jesús sobre la creación y Su fidelidad. Así como Jesús calmó la tormenta en Galilea, Su Espíritu preservó a Pablo en el Mediterráneo para que el mensaje llegara al corazón del Imperio.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el alivio, la gratitud y la invulnerabilidad del siervo de Dios. Transmite la seguridad de que nada puede detener el propósito de Dios.",
+            "simbologia": [
+                {
+                    "objeto": "La Fogata en la Playa",
+                    "significado": "Representa la calidez de la bondad humana y el consuelo de Dios tras una prueba extrema."
+                },
+                {
+                    "objeto": "La Víbora Sacudida",
+                    "significado": "Símbolo de la autoridad del creyente sobre el veneno del enemigo mientras está en la voluntad de Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "A veces el 'naufragio' de tus planes es la plataforma que Dios usa para llevarte a personas que nunca hubieras conocido de otra manera.",
+            "preguntas_reflexion": [
+                "¿Puedes confiar en la promesa de Dios incluso cuando parece que tu 'barco' se está deshaciendo?",
+                "¿Cómo reaccionas ante los imprevistos: con pánico o buscando a quién puedes servir en tu nueva ubicación?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Naufragio",
+                "evento": "El barco encalla y los 276 pasajeros llegan a salvo a la orilla.",
+                "referencia": "Hechos 27:39-44"
+            },
+            {
+                "fase": "La Sanidad",
+                "evento": "Pablo sana a los enfermos de la isla antes de partir hacia Roma.",
+                "referencia": "Hechos 28:7-10",
+                "vinculo_id": "milagros-malta"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["roma-prision"],
+            "personajes_relacionados": ["pablo", "lucas"],
+            "estudios": ["la-soberania-de-dios-en-la-crisis", "hospitalidad-cristiana"]
+        },
+        "gamificacion": {
+            "xp_lectura": 260,
+            "logro_id": "sobreviviente-de-la-tormenta"
+        }
+    },
+    {
+        "id": "galacia",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-20"
+        },
+        "mapa": {
+            "coords": [39.0000, 32.5000],
+            "zoom": 6,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e74c3c"
+        },
+        "perfil": {
+            "nombre": "Región de Galacia",
+            "titulo_corto": "El Campo de Batalla de la Gracia",
+            "significado_nombre": "Tierra de los Galos (celtas que migraron a Asia Menor)",
+            "ubicacion_geografica": "Región central de Asia Menor (actual Turquía), que incluía ciudades clave como Antioquía de Pisidia, Iconio, Listra y Derbe.",
+            "clima_entorno": "Meseta alta, clima continental árido con inviernos fríos y veranos calurosos. Terreno montañoso y estepario, atravesado por importantes rutas comerciales del Imperio Romano.",
+            "imagen_principal": "/img/lugares/galacia.webp",
+            "galeria": [
+            "/img/lugares/camino-romano-galacia.webp",
+            "/img/lugares/ruinas-pisidia.webp",
+            "/img/lugares/templo-augusto-ancira.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": [
+            "Hechos",
+            "Gálatas",
+            "1 Corintios",
+            "2 Timoteo",
+            "1 Pedro"
+            ],
+            "era_biblica": "Era Apostólica / Expansión de la Iglesia"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Inscripciones y Vía Sebaste",
+            "descripcion": "Las excavaciones en Antioquía de Pisidia han revelado restos de sinagogas de la época y la 'Vía Sebaste', el sistema de calzadas romanas que el apóstol Pablo utilizó durante sus viajes para conectar estas ciudades de la provincia de Galacia."
+        },
+        "narrativa": {
+            "resumen_epico": "Galacia no fue solo un destino geográfico; se convirtió en el epicentro de la primera gran crisis teológica de la iglesia primitiva. Aquí, paganos abrazaron el Evangelio con un fervor ardiente, experimentando el poder del Espíritu Santo tras la predicación de Pablo. Sin embargo, la región pronto se vio ensombrecida por la llegada de falsos maestros (los judaizantes), quienes convencieron a los nuevos creyentes de que la fe en Cristo no era suficiente. Les enseñaron que debían someterse al yugo de la ley mosaica y perfeccionar por el esfuerzo humano (la carne) lo que habían recibido por gracia. La carta a los Gálatas nació de este conflicto: un grito apasionado para rescatar a la iglesia de la esclavitud religiosa y declarar la victoria definitiva de la libertad en Cristo.",
+            "dato_curioso": "Los habitantes originales de Galacia eran tribus celtas (galos) conocidas en la antigüedad por su naturaleza guerrera, impulsiva y voluble. Esto explica teológicamente el asombro de Pablo ante la rapidez con la que pasaron de recibirlo 'como a un ángel' a abandonar el Evangelio verdadero.",
+            "conexion_jesus": "Galacia es el recordatorio perpetuo de que Cristo nos hizo libres para la libertad. Añadir cualquier obra humana, rito religioso o condición a la obra terminada de Jesús en la cruz no mejora el Evangelio, sino que anula por completo el sacrificio y la Gracia del Salvador.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Un entorno marcado por el conflicto espiritual intenso. Transmite la pasión efímera de los inicios, la confusión y ceguera producidas por el legalismo, y el celo protector, casi maternal, de un apóstol luchando por el alma de su congregación.",
+            "fortalezas": [
+            "Fe ferviente y receptividad radical en sus inicios",
+            "Disposición inicial a sufrir junto a Pablo por el Evangelio"
+            ],
+            "debilidades": [
+            "Inconstancia teológica e inestabilidad emocional",
+            "Fácil manipulación ante el legalismo y las falsas doctrinas",
+            "Tendencia a confiar en las obras y volver al yugo de esclavitud"
+            ],
+            "simbologia": [
+            {
+                "objeto": "El Yugo de Esclavitud",
+                "significado": "Representa el peso aplastante e imposible del legalismo religioso y la ley, del cual Cristo rompió las cadenas."
+            },
+            {
+                "objeto": "La Semilla y el Fruto",
+                "significado": "El contraste enseñado por Pablo en esta región: las obras destructivas de la carne frente al fruto natural y vivificante del Espíritu."
+            }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La gracia no es solo la puerta de entrada a la vida cristiana, es el camino completo. Intentar agradar a Dios mediante el perfeccionismo, el propio esfuerzo y el cumplimiento de reglas es caer de la gracia.",
+            "preguntas_reflexion": [
+            "¿Estás intentando perfeccionar en tus propias fuerzas (la carne) lo que Dios comenzó en ti puramente por Su Espíritu?",
+            "¿Qué 'yugos' o reglas religiosas te has autoimpuesto creyendo erróneamente que te hacen más aceptable ante Dios?",
+            "¿Vives con el asombro y la libertad genuina de la gracia, o bajo la ansiedad constante de tener que ganar tu salvación cada día?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+            "fase": "La Fundación",
+            "evento": "Pablo y Bernabé predican en las ciudades del sur de Galacia durante el primer viaje misionero, estableciendo las iglesias entre persecuciones.",
+            "referencia": "Hechos 13-14",
+            "vinculo_id": "primer-viaje-pablo"
+            },
+            {
+            "fase": "La Infiltración",
+            "evento": "Llegada de los judaizantes que exigen la circuncisión y la estricta observancia de la ley a los creyentes gentiles gálatas.",
+            "referencia": "Gálatas 2:4",
+            "vinculo_id": "crisis-judaizante"
+            },
+            {
+            "fase": "La Confrontación",
+            "evento": "Pablo escribe su carta más severa y directa, 'Gálatas', para defender la pureza de la justificación exclusivamente por la fe.",
+            "referencia": "Gálatas 3:1-3",
+            "vinculo_id": "epistola-galatas"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+            "antioquia-mision", 
+            "templo-jerusalen", 
+            "camino-damasco"
+            ],
+            "personajes_relacionados": [
+            "pablo",
+            "bernabe",
+            "pedro"
+            ],
+            "estudios": [
+            "la-ley-vs-la-gracia",
+            "obras-de-la-carne-fruto-del-espiritu",
+            "libres-en-cristo"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 350,
+            "logro_id": "defensor-de-la-gracia"
+        }
+    }
+]

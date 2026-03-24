@@ -1,0 +1,208 @@
+{
+    "estudios": [
+        {
+            "id": "adoracion-espiritu",
+            "titulo": "Adoradores en Espíritu y Verdad",
+            "subtitulo": "¿Busca Dios música o busca corazones rendidos?",
+            "autor": "Teología A Imagen",
+            "fecha": "07 Feb 2026",
+            "tiempo_lectura": "8 min",
+            "tags": ["Adoración", "Juan 4", "Vida Cristiana"],
+            "imagen_portada": "img/cover-adoracion.jpg",
+            
+            "versiculo_clave": {
+                "cita": "Juan 4:23-24",
+                "texto": "Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que le adoren. Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren."
+            },
+
+            "contexto_historico": "El diálogo ocurre en Samaria, territorio hostil para un judío. La disputa sobre 'dónde adorar' (Monte Gerizim vs. Jerusalén) era el debate teológico y racial central de la época. Jesús rompe el paradigma geográfico para establecer uno espiritual.",
+            
+            "contenido": [
+                {
+                    "tipo": "parrafo",
+                    "texto": "A menudo reducimos la adoración a la parte lenta del servicio dominical, a cerrar los ojos y levantar las manos cuando suena el piano. Pero cuando Jesús habla con la mujer samaritana, no está hablando de liturgia ni de música; está hablando de una postura del alma que no depende del lugar ni del ambiente."
+                },
+                {
+                    "tipo": "subtitulo",
+                    "texto": "La Geografía vs. La Teología"
+                },
+                {
+                    "tipo": "parrafo",
+                    "texto": "La mujer quería ganar un debate teológico sobre lugares sagrados ('Nuestros padres adoraron en este monte...'). Jesús le revela que el lugar sagrado ya no es un templo de piedra, sino el corazón del creyente redimido. La adoración en el Nuevo Pacto no es un evento al que asistes, es una realidad en la que vives."
+                },
+                {
+                    "tipo": "parrafo",
+                    "texto": "Adorar en 'Espíritu' significa que nace de nuestro interior renovado por el Espíritu Santo, no de ritos externos. Adorar en 'Verdad' significa que adoramos conforme a quién es Dios realmente revelado en la Biblia, no a un dios hecho a nuestra medida."
+                }
+            ],
+
+            "palabras_clave": [
+                {
+                    "palabra": "Proskuneo (προσκυνέω)",
+                    "origen": "Griego",
+                    "significado": "Besar la mano, postrarse. Describe la actitud de un perro lamiendo la mano de su amo. Denota sumisión total, reverencia y reconocimiento de autoridad. No tiene nada que ver con cantar."
+                },
+                {
+                    "palabra": "Avodah (עֲבוֹדָה)",
+                    "origen": "Hebreo",
+                    "significado": "Una palabra única que significa simultáneamente: Trabajo, Servicio y Adoración. Para la mente hebrea, trabajar con excelencia y servir a Dios en el templo eran el mismo acto sagrado."
+                }
+            ],
+
+            "referencias_cruzadas": [
+                { 
+                    "cita": "Romanos 12:1", 
+                    "nota": "La adoración racional es la entrega total de la vida.",
+                    "texto": "Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios, que es vuestro culto racional."
+                },
+                { 
+                    "cita": "Salmos 51:17", 
+                    "nota": "Lo que Dios realmente valora por encima de los ritos.",
+                    "texto": "Los sacrificios de Dios son el espíritu quebrantado; al corazón contrito y humillado no despreciarás tú, oh Dios."
+                },
+                { 
+                    "cita": "Amós 5:23-24", 
+                    "nota": "Dios rechaza la adoración musical sin justicia.",
+                    "texto": "Quita de mí la multitud de tus cantares, pues no escucharé las salmodias de tus instrumentos. Pero corra el juicio como las aguas, y la justicia como impetuoso arroyo."
+                }
+            ],
+
+            "desafio_practico": "Esta semana, elige una actividad secular (limpiar la casa, hacer un informe en el trabajo) y realízala conscientemente como un acto de adoración (Avodah) a Dios, haciéndolo con excelencia para Él.",
+
+            "conexiones": {
+                "cronos": { "lugar_id": "pozo-jacob", "lugar": "Samaria", "coordenadas": "32.21, 35.28" },
+                "huellas": [{ "nombre": "Mujer Samaritana", "id": "samaritana" }],
+                "mana": { "titulo": "Más que canciones", "id": "dev-adoracion" }
+            }
+        },
+        {
+            "id": "identidad-cristo",
+            "titulo": "¿Quién dices que soy yo?",
+            "subtitulo": "La confesión que define nuestra eternidad.",
+            "autor": "Estudio Bíblico",
+            "fecha": "06 Feb 2026",
+            "tiempo_lectura": "6 min",
+            "tags": ["Identidad", "Mateo 16", "Fundamentos"],
+            
+            "versiculo_clave": {
+                "cita": "Mateo 16:15-16",
+                "texto": "Él les dijo: Y vosotros, ¿quién decís que soy yo? Respondiendo Simón Pedro, dijo: Tú eres el Cristo, el Hijo del Dios viviente."
+            },
+
+            "contexto_historico": "Cesarea de Filipo era una ciudad gentil llena de ídolos. Tenía un templo dedicado al dios Pan (mitad hombre, mitad cabra) y un templo de mármol blanco dedicado a la divinidad del César Augusto. En medio de este 'supermercado de dioses', Jesús pregunta por su identidad exclusiva.",
+
+            "contenido": [
+                {
+                    "tipo": "parrafo",
+                    "texto": "La pregunta más importante de tu vida no es '¿Qué haré?' o '¿Con quién me casaré?', sino '¿Quién es Jesús para mí?'. En un entorno hostil y pagano, Pedro recibe una revelación que no vino de carne ni sangre, sino del Padre."
+                },
+                {
+                    "tipo": "subtitulo",
+                    "texto": "No es un apellido, es un Título"
+                },
+                {
+                    "tipo": "parrafo",
+                    "texto": "Al decir 'Tú eres el Cristo', Pedro no estaba usando un apellido. Estaba declarando 'Tú eres el Mesías esperado, el Rey Ungido'. Reconocer a Jesús como Salvador es fácil; reconocerlo como el Rey absoluto (Cristo/Señor) implica rendición total."
+                }
+            ],
+
+            "palabras_clave": [
+                {
+                    "palabra": "Christós (Χριστός)",
+                    "origen": "Griego",
+                    "significado": "El Ungido. Equivalente exacto al hebreo 'Mashíaj' (Mesías). En el Antiguo Testamento, solo se ungía a Profetas, Sacerdotes y Reyes. Jesús ocupa los tres oficios."
+                },
+                {
+                    "palabra": "Ekklesia (ἐκκλησία)",
+                    "origen": "Griego",
+                    "significado": "Asamblea de los llamados hacia afuera. Jesús elige una palabra política (la asamblea de ciudadanos griegos), no religiosa, para definir a su pueblo. Somos ciudadanos del Reino en tierra extranjera."
+                }
+            ],
+
+            "referencias_cruzadas": [
+                { 
+                    "cita": "Isaías 9:6", 
+                    "nota": "Profecía sobre los títulos divinos del Mesías.",
+                    "texto": "Porque un niño nos es nacido, hijo nos es dado, y el principado sobre su hombro; y se llamará su nombre Admirable, Consejero, Dios Fuerte, Padre Eterno, Príncipe de Paz."
+                },
+                { 
+                    "cita": "Colosenses 1:15", 
+                    "nota": "La supremacía de Cristo sobre todo.",
+                    "texto": "Él es la imagen del Dios invisible, el primogénito de toda creación."
+                }
+            ],
+
+            "desafio_practico": "Escribe en una hoja quién es Jesús para ti hoy, sin usar frases prefabricadas de iglesia. ¿Es tu Salvador útil o es tu Señor (Dueño) absoluto?",
+
+            "conexiones": {
+                "cronos": { "lugar_id": "Cesarea de Filipo", "coordenadas": "33.24, 35.69" },
+                "huellas": [{ "nombre": "Simón Pedro", "id": "pedro" }]
+            }
+        },
+        {
+            "id": "ansiedad-paz",
+            "titulo": "La Paz que hace guardia",
+            "subtitulo": "Cómo blindar tu mente contra la ansiedad.",
+            "autor": "A Imagen",
+            "fecha": "05 Feb 2026",
+            "tiempo_lectura": "5 min",
+            "tags": ["Paz", "Salud Mental", "Filipenses"],
+            
+            "versiculo_clave": {
+                "cita": "Filipenses 4:6-7",
+                "texto": "Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias. Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús."
+            },
+
+            "contexto_historico": "Pablo escribe esto desde una prisión en Roma, encadenado y esperando una posible ejecución. No lo escribe desde un spa o un palacio. Esto valida que la paz de la que habla no depende de las circunstancias externas.",
+
+            "contenido": [
+                {
+                    "tipo": "parrafo",
+                    "texto": "La ansiedad es como una mecedora: te da algo que hacer, pero no te lleva a ninguna parte. Pablo nos da un mandato contraintuitivo: 'Por nada estéis afanosos'. Parece imposible, hasta que leemos la segunda parte: el intercambio divino."
+                },
+                {
+                    "tipo": "subtitulo",
+                    "texto": "El Centinela Divino"
+                },
+                {
+                    "tipo": "parrafo",
+                    "texto": "La promesa no es que los problemas desaparecerán, sino que la Paz de Dios actuará como un guardia armado en la puerta de nuestra mente, impidiendo que el pánico tome el control."
+                }
+            ],
+
+            "palabras_clave": [
+                {
+                    "palabra": "Phrouresei (φρουρήσει)",
+                    "origen": "Griego",
+                    "significado": "Traducido como 'guardará'. Es un término militar. Significa 'hacer guardia, vigilar, proteger con una guarnición'. La paz de Dios es un soldado que monta guardia frente a tus pensamientos."
+                },
+                {
+                    "palabra": "Merimnao (μεριμνάω)",
+                    "origen": "Griego",
+                    "significado": "Afanarse o estar ansioso. Viene de una raíz que significa 'dividir en partes'. La ansiedad divide tu mente, fragmentando tu atención y tus fuerzas."
+                }
+            ],
+
+            "referencias_cruzadas": [
+                { 
+                    "cita": "1 Pedro 5:7", 
+                    "nota": "La acción de lanzar la ansiedad.",
+                    "texto": "Echando toda vuestra ansiedad sobre él, porque él tiene cuidado de vosotros."
+                },
+                { 
+                    "cita": "Isaías 26:3", 
+                    "nota": "La condición para la paz perfecta.",
+                    "texto": "Tú guardarás en completa paz a aquel cuyo pensamiento en ti persevera; porque en ti ha confiado."
+                }
+            ],
+
+            "desafio_practico": "Cada vez que sientas un pensamiento ansioso hoy, visualiza a un soldado romano (la Paz de Dios) deteniéndolo en la puerta de tu mente y diciéndole: 'No tienes permiso para entrar aquí'.",
+
+            "conexiones": {
+                "cronos": { "lugar_id": "Prisión de Roma", "coordenadas": "41.89, 12.48" },
+                "huellas": [{ "nombre": "Pablo de Tarso", "id": "pablo" }],
+                "mana": { "titulo": "Intercambio de Cargas", "id": "dev-paz" }
+            }
+        }
+    ]
+}

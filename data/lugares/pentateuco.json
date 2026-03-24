@@ -1,0 +1,2915 @@
+[
+    {
+      "id": "jardin-eden",
+      "activo": true,
+      "meta": {
+          "version": "4.0-cronos-deep",
+          "fecha_actualizacion": "2026-02-18"
+      },
+      "mapa": {
+          "coords": [32.0, 47.0],
+          "zoom": 5,
+          "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+          "marcador_color": "#27ae60"
+      },
+      "perfil": {
+          "nombre": "Jardín del Edén",
+          "titulo_corto": "La Cuna de la Humanidad",
+          "significado_nombre": "Lugar de Deleite o Placer",
+          "ubicacion_geografica": "Mesopotamia, entre los ríos Tigris y Éufrates",
+          "clima_entorno": "Perfección climática original, regado por un manantial que se dividía en cuatro brazos.",
+          "imagen_principal": "/img/lugares/eden.webp",
+          "galeria": [
+              "/img/lugares/eden-rios.webp",
+              "/img/lugares/arbol-vida.webp"
+          ]
+      },
+      "contexto": {
+          "testamento": "Antiguo Testamento",
+          "libros_aparicion": ["Génesis"],
+          "era_biblica": "Creación / Pre-Diluviana"
+      },
+      "evidencia_arqueologica": {
+          "hallazgo_clave": "Geografía de Mesopotamia",
+          "descripcion": "La descripción bíblica menciona los ríos Tigris (Hiddekel) y Éufrates, situando el origen de la civilización en la región conocida como la Media Luna Fértil."
+      },
+      "narrativa": {
+          "resumen_epico": "Dios plantó un huerto al oriente, en Edén, diseñando un espacio sagrado donde la divinidad y la humanidad coexistían en perfecta armonía. No era solo un parque, sino el primer templo de la Tierra, un lugar de abundancia absoluta donde el árbol de la vida simbolizaba la provisión eterna antes de que la entrada del pecado alterara el destino del hombre.",
+          "dato_curioso": "A diferencia del resto del mundo, el Edén no dependía de la lluvia, sino de un vapor o manantial que subía de la tierra para regar toda la superficie.",
+          "conexion_jesus": "Jesús es llamado el 'Postrer Adán'. Mientras el primer Adán falló en un jardín (Edén), Jesús venció la tentación en otro jardín (Getsemaní) y nos prometió que el vencedor comería de nuevo del árbol de la vida que está en el paraíso."
+      },
+      "analisis_profundo": {
+          "perfil_emocional": "Representa el anhelo más profundo del alma humana: la nostalgia de una comunión sin barreras con el Creador. Es el estándar de justicia y paz que el creyente busca recuperar a través de la fe.",
+          "fortalezas": ["Comunión directa con Dios", "Abundancia sin esfuerzo", "Propósito definido"],
+          "debilidades": ["Vulnerabilidad al libre albedrío", "Riesgo de desobediencia"],
+          "simbologia": [
+              {
+                  "objeto": "El Árbol de la Vida",
+                  "significado": "La inmortalidad derivada de la cercanía y obediencia a la fuente de vida (Dios)."
+              },
+              {
+                  "objeto": "Los Querubines y la Espada",
+                  "significado": "La santidad de Dios que impide que lo impuro habite en Su presencia sin una redención previa."
+              }
+          ]
+      },
+      "aplicacion_personal": {
+          "leccion_clave": "Tu verdadera identidad y propósito solo florecen cuando habitas en la presencia de Dios.",
+          "preguntas_reflexion": [
+              "¿Qué 'árboles' o distracciones en tu vida te están alejando de la comunión diaria con tu Creador?",
+              "¿Estás cuidando y labrando el 'jardín' de tu corazón para que sea un lugar donde Dios pueda caminar contigo?"
+          ]
+      },
+      "linea_tiempo": [
+          {
+              "fase": "La Creación",
+              "evento": "Dios coloca al hombre en el jardín para que lo labre y lo guarde.",
+              "referencia": "Génesis 2:15",
+              "vinculo_id": "adan"
+          },
+          {
+              "fase": "La Caída",
+              "evento": "Desobediencia y expulsión del Edén; promesa del Redentor.",
+              "referencia": "Génesis 3:15-24",
+              "vinculo_id": "eva"
+          }
+      ],
+      "vinculos": {
+          "lugares_relacionados": ["monte-moriah"],
+          "personajes_relacionados": ["adan", "eva", "serpiente"],
+          "estudios": ["el-origen-del-mal", "la-promesa-de-redencion"]
+      },
+      "gamificacion": {
+          "xp_lectura": 200,
+          "logro_id": "testigo-del-origen"
+      }
+    },
+      {
+        "id": "montanas-ararat",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [39.7025, 44.2991],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#95a5a6"
+        },
+        "perfil": {
+            "nombre": "Montañas de Ararat",
+            "titulo_corto": "El Resurgir de la Vida",
+            "significado_nombre": "Tierra Alta o Montaña Sagrada",
+            "ubicacion_geografica": "Región fronteriza entre Turquía, Armenia e Irán",
+            "clima_entorno": "Clima de alta montaña con picos cubiertos de glaciares perpetuos.",
+            "imagen_principal": "/img/lugares/ararat.webp",
+            "galeria": [
+                "/img/lugares/ararat-pico.webp",
+                "/img/lugares/arca-reconstruccion.webp",
+                "/img/lugares/arca-interior-ruinas.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis"],
+            "era_biblica": "Era Post-Diluviana"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Formaciones de madera petrificada",
+            "descripcion": "A lo largo de los siglos, diversas expediciones han reportado avistamientos de estructuras de madera a grandes altitudes, aunque la geología volcánica del monte dificulta la datación definitiva."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras el juicio purificador de las aguas, el Ararat se convirtió en el primer punto de contacto entre el cielo y la tierra renovada. El Arca, portadora de la semilla de toda vida, reposó en estas cumbres, marcando el fin de la destrucción y el inicio de una nueva dispensación. No fue solo un desembarque, sino el renacimiento de la esperanza humana bajo un cielo despejado.",
+            "dato_curioso": "El Ararat es en realidad un volcán inactivo con dos picos: el Gran Ararat (5,137m) y el Pequeño Ararat.",
+            "conexion_jesus": "Así como el Arca salvó a Noé del juicio de las aguas al elevarse sobre ellas, Jesús es nuestra 'Arca' espiritual que nos rescata del juicio del pecado, llevándonos a un 'terreno firme' de paz con el Padre."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el alivio absoluto tras la tormenta. Es el lugar donde el temor al juicio se transforma en gratitud por la misericordia. Simboliza el 'suelo firme' que Dios provee después de los periodos de incertidumbre.",
+            "fortalezas": ["Lugar de refugio divino", "Punto de reinicio", "Visibilidad de la gloria de Dios"],
+            "debilidades": ["Aislamiento extremo", "Exigencia de fe para descender de nuevo"],
+            "simbologia": [
+                {
+                    "objeto": "El Arcoíris",
+                    "significado": "El pacto unilateral de Dios de no volver a destruir la tierra con agua; un puente de luz entre lo divino y lo terrenal."
+                },
+                {
+                    "objeto": "El Altar de Noé",
+                    "significado": "La respuesta prioritaria del hombre salvado: la adoración antes que la edificación propia."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Después de la tormenta más larga, Dios siempre tiene preparado un monte de reposo para tu alma.",
+            "preguntas_reflexion": [
+                "¿Qué es lo primero que haces cuando Dios te saca de una crisis: buscas tu propio beneficio o construyes un 'altar' de gratitud?",
+                "¿Eres capaz de ver el 'arcoíris' de la promesa divina incluso cuando el suelo todavía está húmedo por la prueba?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Reposo",
+                "evento": "El Arca se detiene sobre las montañas en el mes séptimo.",
+                "referencia": "Génesis 8:4",
+                "vinculo_id": "noe"
+            },
+            {
+                "fase": "El Nuevo Pacto",
+                "evento": "Dios establece el arcoíris como señal de su promesa eterna.",
+                "referencia": "Génesis 9:12-17",
+                "vinculo_id": "pacto-eterno"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "torre-babel"],
+            "personajes_relacionados": ["noe", "sem", "cam", "jafet"],
+            "estudios": ["el-diluvio-y-la-gracia", "pactos-biblicos"]
+        },
+        "gamificacion": {
+            "xp_lectura": 150,
+            "logro_id": "superviviente-del-diluvio"
+        }
+      },
+      {
+        "id": "torre-babel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [32.5364, 44.4208],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Torre de Babel",
+            "titulo_corto": "El Monumento al Orgullo",
+            "significado_nombre": "Puerta de Dios (Acadio) o Confusión (Hebreo)",
+            "ubicacion_geografica": "Llanura de Sinar, antigua Babilonia (actual Irak)",
+            "clima_entorno": "Clima árido y desértico, caracterizado por el uso de arcilla y asfalto para la construcción.",
+            "imagen_principal": "/img/lugares/babel.webp",
+            "galeria": [
+                "/img/lugares/babel-zigurat.webp",
+                "/img/lugares/babel-confusion.webp",
+                "/img/lugares/babel-cima.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis"],
+            "era_biblica": "Era Post-Diluviana (Descendientes de Noé)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Etemenanki (El Zigurát de Babilonia)",
+            "descripcion": "Estructura piramidal escalonada dedicada a Marduk. Sus dimensiones masivas y base cuadrangular coinciden con la descripción de una torre que 'intentaba tocar el cielo'."
+        },
+        "narrativa": {
+            "resumen_epico": "En la llanura de Sinar, la humanidad unida decidió desafiar el mandato divino de llenar la tierra. Usando ladrillo en lugar de piedra y asfalto en lugar de mezcla, buscaron hacerse un nombre propio mediante una estructura colosal. Dios no intervino por temor a su construcción, sino para frenar una rebelión que los llevaría a la autodestrucción, confundiendo sus lenguas y dando origen a la diversidad de naciones.",
+            "dato_curioso": "Babel es el origen bíblico de Babilonia, ciudad que a lo largo de toda la Biblia representa el sistema del mundo en oposición al Reino de Dios.",
+            "conexion_jesus": "Babel es el anti-Pentecostés. En Babel, las lenguas se confundieron para separar a los hombres orgullosos; en Pentecostés (Hechos 2), el Espíritu Santo permitió que todos se entendieran para unir a los hombres humildes bajo un mismo mensaje."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la autosuficiencia y el deseo humano de alcanzar la divinidad por méritos propios. Es el símbolo del esfuerzo religioso sin Dios.",
+            "fortalezas": ["Unidad de propósito", "Innovación tecnológica", "Visión a gran escala"],
+            "debilidades": ["Motivación egoísta", "Desobediencia directa", "Fragilidad ante la soberanía divina"],
+            "simbologia": [
+                {
+                    "objeto": "El Ladrillo",
+                    "significado": "Representa lo hecho por el hombre (uniformidad artificial), a diferencia de la piedra (creada por Dios) usada en los altares de los patriarcas."
+                },
+                {
+                    "objeto": "La Cúspide en el Cielo",
+                    "significado": "El intento de la criatura de invadir el dominio del Creador para evitar depender de Él."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Cualquier proyecto que intentes edificar para 'hacerte un nombre' terminará en confusión si Dios no es el arquitecto.",
+            "preguntas_reflexion": [
+                "¿Estás construyendo tu vida con 'ladrillos' de orgullo propio o sobre la 'Roca' que es Cristo?",
+                "¿Hay algún área de tu vida donde estés intentando ser autosuficiente y te sientas en 'confusión'?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Ambición",
+                "evento": "Nimrod y el pueblo deciden edificar una ciudad y una torre.",
+                "referencia": "Génesis 11:3-4",
+                "vinculo_id": "nimrod"
+            },
+            {
+                "fase": "El Juicio",
+                "evento": "Dios desciende, confunde el lenguaje y detiene la edificación.",
+                "referencia": "Génesis 11:7-9",
+                "vinculo_id": "juicio-naciones"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["ur-caldeos", "babilonia", "jerusalen-sion"],
+            "personajes_relacionados": ["nimrod", "sem", "cam", "jafet"],
+            "estudios": ["el-orgullo-y-la-caida", "pentecostes-vs-babel"]
+        },
+        "gamificacion": {
+            "xp_lectura": 150,
+            "logro_id": "descifrador-de-lenguas"
+        }
+      },
+      {
+        "id": "ur-caldeos",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [30.9629, 46.1031],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d4b483"
+        },
+        "perfil": {
+            "nombre": "Ur de los Caldeos",
+            "titulo_corto": "La Metrópolis del Llamado",
+            "significado_nombre": "Luz o Ciudad de Luz",
+            "ubicacion_geografica": "Cerca de la antigua desembocadura del Éufrates, actual Irak",
+            "clima_entorno": "Llanura aluvial fértil, extremadamente calurosa, dependiente del riego de los ríos Tigris y Éufrates.",
+            "imagen_principal": "/img/lugares/ur.webp",
+            "galeria": [
+                "/img/lugares/ur-estandarte.webp",
+                "/img/lugares/estilo-vida-sumeria.webp",
+                "/img/lugares/ur-puerto.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Nehemías", "Hechos"],
+            "era_biblica": "Época Patriarcal"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "El Gran Zigurat de Ur",
+            "descripcion": "Excavado por Sir Leonard Woolley, este enorme templo dedicado al dios Nanna confirma que Ur era un centro religioso y económico avanzado con sistemas de escritura y leyes complejas."
+        },
+        "narrativa": {
+            "resumen_epico": "Ur no era una aldea, sino una de las ciudades más prósperas y avanzadas de la antigüedad. En medio de este centro de idolatría lunar y comodidad urbana, la voz del Dios Único irrumpió en la vida de Abraham. Dejar Ur significaba renunciar a la seguridad ciudadana, a la herencia familiar y a la sofisticación sumeria para abrazar una promesa que solo existía en la voz de aquel que lo llamaba.",
+            "dato_curioso": "Ur poseía un puerto comercial que conectaba con el Golfo Pérsico, lo que la convertía en una 'Nueva York' de la Edad de Bronce.",
+            "conexion_jesus": "Así como Abraham fue llamado a salir de Ur para fundar una nación, Jesús nos llama a salir de nuestro 'mundo' (sistema de valores egocéntrico) para heredar el Reino de Dios, convirtiéndonos en extranjeros y peregrinos en la tierra."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el 'confort del pasado' que debe ser abandonado. Simboliza la seguridad material que compite con la obediencia espiritual.",
+            "fortalezas": ["Riqueza cultural", "Estabilidad económica", "Avance tecnológico"],
+            "debilidades": ["Idolatría sistémica", "Orgullo humano", "Dependencia de lo visible"],
+            "simbologia": [
+                {
+                    "objeto": "El Zigurat",
+                    "significado": "El intento humano de construir escaleras al cielo mediante la religión formalizada."
+                },
+                {
+                    "objeto": "La Puerta de la Ciudad",
+                    "significado": "El punto de decisión final entre la seguridad de lo conocido y el desierto de la promesa."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "El llamado de Dios a menudo requiere dejar atrás lo que te da seguridad para que Él se convierta en tu única provisión.",
+            "preguntas_reflexion": [
+                "¿Cuál es tu 'Ur' hoy: aquello a lo que te aferras por miedo a la incertidumbre del camino de Dios?",
+                "¿Estás dispuesto a seguir una promesa aunque no tengas el mapa completo del destino?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Vida en Ur",
+                "evento": "Abraham vive en la ciudad con su esposa Sara y su sobrino Lot.",
+                "referencia": "Génesis 11:31",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "El Éxodo Patriarcal",
+                "evento": "Taré toma a su familia y salen de Ur hacia Canaán, pero se detienen en Harán.",
+                "referencia": "Hechos 7:2-4",
+                "vinculo_id": "tare"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["haran", "siquem", "egipto-plagas", "egipto-jose"],
+            "personajes_relacionados": ["abraham", "sara", "lot"],
+            "estudios": ["el-llamado-de-abraham", "de-la-idolatria-a-la-fe"]
+        },
+        "gamificacion": {
+            "xp_lectura": 175,
+            "logro_id": "pasaporte-patrimonial"
+        }
+      },
+      {
+        "id": "haran",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [36.87, 39.03],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d4b483"
+        },
+        "perfil": {
+            "nombre": "Harán",
+            "titulo_corto": "La Estación de la Espera",
+            "significado_nombre": "Camino, Ruta o Lugar Quemado",
+            "ubicacion_geografica": "Alta Mesopotamia, actualmente en el sureste de Turquía",
+            "clima_entorno": "Clima estepario y semiárido, famoso por sus icónicas casas 'colmena' de adobe que protegen del calor extremo.",
+            "imagen_principal": "/img/lugares/haran.webp",
+            "galeria": [
+                "/img/lugares/haran-casas.webp",
+                "/img/lugares/haran-caravana.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Hechos"],
+            "era_biblica": "Época Patriarcal"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Arquitectura de Adobe y Rutas Comerciales",
+            "descripcion": "Harán fue un centro vital en la red de caravanas que conectaba Mesopotamia con el Mediterráneo. Las excavaciones confirman su importancia como centro de comercio y su persistente cultura de construcción en barro."
+        },
+        "narrativa": {
+            "resumen_epico": "Harán fue el lugar de la pausa necesaria y, a veces, dolorosa. Aquí, la caravana de la fe de Abraham se detuvo durante años. No era el destino final, sino una sala de espera donde la familia se asentó hasta la muerte de Taré. Representa ese puente espiritual entre el pasado en Ur y el futuro desconocido en Canaán; el lugar donde el llamado original tuvo que ser renovado tras el duelo.",
+            "dato_curioso": "Al igual que Ur, Harán era un centro principal de adoración a Sin (el dios luna), lo que indica que Abraham seguía rodeado de un entorno pagano antes de su partida final.",
+            "conexion_jesus": "Así como Abraham tuvo que dejar Harán tras la muerte de su padre para entrar en la promesa, Jesús nos enseña que seguirle requiere una entrega que a menudo nos pide soltar los lazos de comodidad y seguridad terrenal para heredar lo eterno."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Refleja el estado de 'estancamiento productivo'. Es la zona de confort que amenaza con convertirse en destino. Simboliza la lucha entre honrar el pasado y obedecer al futuro.",
+            "fortalezas": ["Lugar de descanso", "Punto de provisión", "Centro de decisiones"],
+            "debilidades": ["Peligro de conformismo", "Duelo paralizante", "Influencias paganas persistentes"],
+            "simbologia": [
+                {
+                    "objeto": "La Encrucijada",
+                    "significado": "Representa el momento de decisión donde el creyente elige entre quedarse en la comodidad de la parada o retomar la dureza del camino."
+                },
+                {
+                    "objeto": "La Casa de Adobe",
+                    "significado": "Símbolo de lo temporal y terrenal frente a la ciudad 'de fundamentos eternos' que Abraham buscaba."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios permite 'paradas' en nuestro camino para purificar nuestras intenciones, pero nunca debemos confundir una estación de descanso con nuestra meta final.",
+            "preguntas_reflexion": [
+                "¿Hay alguna 'parada cómoda' en tu vida que te esté impidiendo avanzar hacia la plenitud de lo que Dios te prometió?",
+                "¿Estás dispuesto a dejar atrás tus seguridades familiares para seguir la voz de Dios hacia lo desconocido?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Pausa",
+                "evento": "Taré y su familia salen de Ur pero deciden establecerse en Harán.",
+                "referencia": "Génesis 11:31",
+                "vinculo_id": "tare"
+            },
+            {
+                "fase": "El Gran Paso",
+                "evento": "Tras la muerte de Taré, Abraham recibe la orden directa de partir hacia Canaán.",
+                "referencia": "Génesis 12:1-4",
+                "vinculo_id": "abraham"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["ur-caldeos", "siquem", "betel"],
+            "personajes_relacionados": ["abraham", "sara", "lot"],
+            "estudios": ["el-costo-del-seguimiento", "tiempos-de-espera"]
+        },
+        "gamificacion": {
+            "xp_lectura": 160,
+            "logro_id": "peregrino-de-la-promesa"
+        }
+      },
+      {
+        "id": "siquem",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [32.2133, 35.2856],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d4b483"
+        },
+        "perfil": {
+            "nombre": "Siquem",
+            "titulo_corto": "El Valle de la Promesa",
+            "significado_nombre": "Hombro, Espalda o Cresta",
+            "ubicacion_geografica": "Situada en el paso entre los montes Gerizim y Ebal",
+            "clima_entorno": "Valle fértil y bien regado, estratégico por ser el paso natural entre la costa y el valle del Jordán.",
+            "imagen_principal": "/img/lugares/siquem.webp",
+            "galeria": [
+                "/img/lugares/encina-more.webp",
+                "/img/lugares/valle-siquem.webp",
+                "/img/lugares/siquem-altar-piedra.webp",
+                "/img/lugares/siquem-puerta-ciudad.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Josué", "Jueces", "Juan"],
+            "era_biblica": "Época Patriarcal / Conquista"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Tel Balata (Ruinas de Siquem)",
+            "descripcion": "Restos de una ciudad cananea fortificada con un templo masivo y una 'piedra enhiesta' (Matzebah) que coinciden con los relatos de los pactos de Abraham y Josué."
+        },
+        "narrativa": {
+            "resumen_epico": "Siquem fue la primera 'oficina' de Dios para Abraham en la Tierra Prometida. Bajo la encina de More, el patriarca escuchó por primera vez la confirmación de que esa tierra sería para su descendencia. Fue aquí donde Abraham construyó su primer altar en Canaán, marcando el territorio no con armas, sino con adoración. Siglos después, este mismo lugar vería a los israelitas declarar su lealtad a Dios tras la conquista.",
+            "dato_curioso": "Es el lugar donde Jacob compró una parcela de tierra y donde se encuentra el famoso pozo de Jacob, el cual todavía existe hoy.",
+            "conexion_jesus": "En este mismo valle (Sicar), Jesús se encontró con la mujer samaritana junto al pozo de Jacob, revelando que el verdadero culto no depende de una montaña física (Gerizim o Jerusalén), sino del espíritu y la verdad."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la confirmación de la fe. Es el lugar donde la promesa abstracta se convierte en una realidad geográfica. Simboliza el compromiso y el pacto renovado.",
+            "fortalezas": ["Ubicación estratégica", "Fertilidad agrícola", "Historia de pactos"],
+            "debilidades": ["Lugar de conflictos tribales", "Vulnerabilidad política por ser paso obligado"],
+            "simbologia": [
+                {
+                    "objeto": "La Encina de More",
+                    "significado": "Representa el lugar de instrucción y revelación; bajo su sombra se escuchó la voz de Dios."
+                },
+                {
+                    "objeto": "El Altar de Piedra",
+                    "significado": "Símbolo de posesión espiritual y gratitud inmediata tras recibir una promesa."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Cuando Dios te da una promesa, tu primera respuesta debe ser establecer un 'altar' de adoración que marque ese nuevo territorio en tu vida.",
+            "preguntas_reflexion": [
+                "¿Cuál es la 'encina' en tu vida, ese lugar donde Dios te habla claramente al corazón?",
+                "¿Has levantado un recordatorio de gratitud por las promesas que Dios ya te ha confirmado?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Primera Promesa",
+                "evento": "Abraham llega a Siquem y edifica un altar tras la aparición de Dios.",
+                "referencia": "Génesis 12:6-7",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "El Pacto Nacional",
+                "evento": "Josué reúne a las tribus para renovar el pacto y levanta una gran piedra.",
+                "referencia": "Josué 24:1-26",
+                "vinculo_id": "josue"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["betel"],
+            "personajes_relacionados": ["abraham", "jacob", "josue", "jesus"],
+            "estudios": ["el-primer-altar", "el-pozo-de-la-revelacion"]
+        },
+        "gamificacion": {
+            "xp_lectura": 180,
+            "logro_id": "heredero-de-la-promesa"
+        }
+      },
+      {
+        "id": "betel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.93, 35.22],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#f1c40f"
+        },
+        "perfil": {
+            "nombre": "Betel",
+            "titulo_corto": "La Puerta del Cielo",
+            "significado_nombre": "Casa de Dios (Beth-El)",
+            "ubicacion_geografica": "Tierras altas de Samaria, al norte de Jerusalén",
+            "clima_entorno": "Región montañosa y rocosa, propicia para el pastoreo y conocida por sus cielos despejados durante la noche.",
+            "imagen_principal": "/img/lugares/betel.webp",
+            "galeria": [
+                "/img/lugares/escalera-jacob.webp",
+                "/img/lugares/betel-ruinas.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Jueces", "1 Reyes", "Amós"],
+            "era_biblica": "Época Patriarcal / Reino Dividido"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Santuario de la Edad del Bronce",
+            "descripcion": "Las excavaciones en Beitin identifican a Betel como uno de los centros de culto más antiguos y persistentes de Canaán, confirmando su importancia religiosa desde tiempos de los patriarcas."
+        },
+        "narrativa": {
+            "resumen_epico": "Betel es el lugar donde el mundo invisible se hizo visible para un hombre en fuga. Jacob, durmiendo con una piedra por cabecera, vio una escalera que conectaba la tierra con el cielo, con ángeles que ascendían y descendían. Al despertar, comprendió que la presencia de Dios no estaba limitada a un territorio familiar, sino que estaba presente incluso en el desierto de su incertidumbre. Este sitio pasó de ser un campo rocoso a convertirse en el santuario nacional de Israel.",
+            "dato_curioso": "Originalmente la ciudad se llamaba Luz, pero Jacob le cambió el nombre a Betel tras su experiencia sobrenatural.",
+            "conexion_jesus": "Jesús hace una referencia directa a Betel cuando le dice a Natanael (Juan 1:51) que verá 'el cielo abierto y a los ángeles de Dios subir y descender sobre el Hijo del Hombre', revelando que Jesús mismo es la verdadera Escalera (el puente) entre Dios y la humanidad."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el asombro ante la santidad de Dios. Es el lugar donde el ser humano reconoce su pequeñez frente a la majestuosidad divina. Simboliza el despertar espiritual y el fin de la soledad.",
+            "fortalezas": ["Acceso a la revelación", "Punto de renovación de pactos", "Identidad espiritual"],
+            "debilidades": ["Peligro de idolatría (en tiempos de Jeroboam)", "Lugar de conflicto entre el culto verdadero y el falso"],
+            "simbologia": [
+                {
+                    "objeto": "La Piedra / Cabecera",
+                    "significado": "Representa la dureza de la prueba que se convierte en el fundamento (altar) de una nueva relación con Dios."
+                },
+                {
+                    "objeto": "La Escalera",
+                    "significado": "Símbolo de la comunicación ininterrumpida entre el Creador y su creación; la mediación divina."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios está presente incluso en tus noches más oscuras y rocosas, aunque tú no lo sepas.",
+            "preguntas_reflexion": [
+                "¿Cuáles son las 'piedras' en tu vida actual que Dios podría estar usando para revelarte Su gloria?",
+                "¿Has reconocido que el lugar donde te encuentras hoy, por difícil que parezca, puede ser la 'Puerta del Cielo' para tu propósito?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Visión",
+                "evento": "Jacob tiene el sueño de la escalera y unge la piedra con aceite.",
+                "referencia": "Génesis 28:18-19",
+                "vinculo_id": "jacob"
+            },
+            {
+                "fase": "El Regreso",
+                "evento": "Jacob vuelve a Betel para edificar un altar tras su reencuentro con Esaú.",
+                "referencia": "Génesis 35:1-7",
+                "vinculo_id": "jacob"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["siquem", "peniel", "jerusalen-sion"],
+            "personajes_relacionados": ["abraham", "jacob", "jeroboam"],
+            "estudios": ["encuentros-con-dios", "la-presencia-omnipresente"]
+        },
+        "gamificacion": {
+            "xp_lectura": 190,
+            "logro_id": "visionario-del-cielo"
+        }
+      },
+      {
+        "id": "sodoma-gomorra",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.1, 35.5],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e74c3c"
+        },
+        "perfil": {
+            "nombre": "Sodoma y Gomorra",
+            "titulo_corto": "El Juicio de las Ciudades de la Llanura",
+            "significado_nombre": "Sodoma (Ardiendo) y Gomorra (Sumergida o Montón de ruinas)",
+            "ubicacion_geografica": "Extremo sur del Mar Muerto, Valle del Jordán",
+            "clima_entorno": "Región de calor extremo y aridez absoluta, rica en depósitos de betún, azufre y sal.",
+            "imagen_principal": "/img/lugares/sodoma.webp",
+            "galeria": [
+                "/img/lugares/formaciones-azufre.webp",
+                "/img/lugares/sodoma-estatua-sal.webp",
+                "/img/lugares/sodoma-arquitectura-quemada.webp",
+                "/img/lugares/sodoma-ceniza.webp"
+
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Deuteronomio", "Isaías", "Judas"],
+            "era_biblica": "Época de los Patriarcas (Abraham y Lot)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Bolas de Azufre y Capas de Ceniza",
+            "descripcion": "En sitios como Bab edh-Dhra, se han hallado depósitos de azufre puro al 95% y capas de ceniza de varios metros de espesor que indican un incendio repentino y masivo de origen no volcánico."
+        },
+        "narrativa": {
+            "resumen_epico": "Sodoma y Gomorra fueron una vez parte de una llanura tan fértil que se comparaba con el jardín de Edén. Sin embargo, su degradación moral llegó a tal punto que el clamor contra ellas subió hasta Dios. En un acto de juicio catastrófico, el cielo llovió fuego y azufre, borrando no solo las ciudades, sino toda la vegetación y la vida del valle. El resultado fue un paisaje de desolación que permanece como una advertencia perpetua a través de los siglos.",
+            "dato_curioso": "El Mar Muerto, que bordea estas ruinas, tiene una salinidad tan alta (34%) que es imposible que cualquier pez o planta sobreviva en él.",
+            "conexion_jesus": "Jesús utilizó a Sodoma como un punto de comparación para advertir sobre la responsabilidad de recibir el mensaje del Reino. Dijo que en el día del juicio, el castigo para Sodoma sería más tolerable que para las ciudades que vieron Sus milagros y no se arrepintieron (Mateo 11:23-24)."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el miedo al juicio y la tragedia de la pérdida total. Simboliza la ceguera espiritual de quien se aferra a un sistema condenado, personificado en la esposa de Lot mirando hacia atrás.",
+            "fortalezas": ["Prosperidad inicial", "Belleza geográfica original", "Autosuficiencia"],
+            "debilidades": ["Maldad sistémica", "Falta de intercesores (menos de 10 justos)", "Apego a lo material"],
+            "simbologia": [
+                {
+                    "objeto": "La Estatua de Sal",
+                    "significado": "Representa el corazón dividido; aquel que ha salido del pecado físicamente pero cuyo corazón sigue anclado en él."
+                },
+                {
+                    "objeto": "Fuego y Azufre",
+                    "significado": "Símbolos del juicio divino final y la purificación radical de la tierra ante la iniquidad."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La misericordia de Dios provee una salida antes del juicio, pero la seguridad depende de no mirar atrás hacia lo que Dios ya ha condenado.",
+            "preguntas_reflexion": [
+                "¿Hay algo en tu 'pasado' que te impide correr libremente hacia la salvación que Dios te ofrece?",
+                "¿Estás intercediendo por aquellos que viven en lugares o situaciones de riesgo espiritual, como hizo Abraham?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Intercesión",
+                "evento": "Abraham negocia con Dios por la vida de los justos en Sodoma.",
+                "referencia": "Génesis 18:23-33",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "La Destrucción",
+                "evento": "Lot y sus hijas escapan mientras las ciudades son consumidas por fuego del cielo.",
+                "referencia": "Génesis 19:24-26",
+                "vinculo_id": "lot"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["encinar-mamre"],
+            "personajes_relacionados": ["lot", "abraham"],
+            "estudios": ["el-juicio-y-la-gracia", "la-intercesion-de-abraham"]
+        },
+        "gamificacion": {
+            "xp_lectura": 200,
+            "logro_id": "testigo-del-juicio"
+        }
+      },
+      {
+        "id": "encinar-mamre",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.55, 35.1],
+            "zoom": 13,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#2ecc71"
+        },
+        "perfil": {
+            "nombre": "Encinar de Mamre",
+            "titulo_corto": "El Lugar de la Visitación",
+            "significado_nombre": "Fuerza o Vigor (Mamre era también el nombre de un aliado de Abraham)",
+            "ubicacion_geografica": "Cerca de Hebrón, en las montañas de Judea",
+            "clima_entorno": "Tierras altas con suelo fértil, caracterizadas por robles antiguos y brisas frescas de montaña.",
+            "imagen_principal": "/img/lugares/mamre.webp",
+            "galeria": [
+                "/img/lugares/roble-abraham.webp",
+                "/img/lugares/mamre-hospitalidad.webp",
+                "/img/lugares/mamre-cueva-macpela.webp",
+                "/img/lugares/mamre-vida-nomada.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis"],
+            "era_biblica": "Época Patriarcal"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Recinto de Ramat el-Khalil",
+            "descripcion": "Estructuras de piedra masivas que datan de la época herodiana y romana, construidas para proteger el lugar tradicional donde Abraham recibió a los ángeles, confirmando la veneración milenaria del sitio."
+        },
+        "narrativa": {
+            "resumen_epico": "A la sombra de los grandes robles de Mamre, Abraham vivió uno de los encuentros más íntimos con lo divino. Mientras descansaba al calor del día, recibió a tres visitantes misteriosos con una hospitalidad desbordante. Bajo esas ramas, el anuncio de un hijo imposible provocó la risa de Sara, pero también la pregunta eterna que resuena en todo el Códice: '¿Hay para Dios alguna cosa difícil?'. Mamre es el testimonio de que Dios cumple Su palabra incluso cuando el tiempo humano parece haberse agotado.",
+            "dato_curioso": "El sitio fue tan sagrado que, durante siglos, judíos, cristianos y paganos celebraban ferias y cultos juntos en este lugar debido a la figura unificadora de Abraham.",
+            "conexion_jesus": "La hospitalidad de Abraham en Mamre es vista como un tipo de la acogida que debemos dar a Cristo. Además, muchos teólogos ven en los tres visitantes una manifestación temprana de la Trinidad o una Cristofanía (una aparición de Cristo antes de su encarnación).",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la paz de la madurez espiritual y la confianza del amigo de Dios. Es el lugar de la espera que está a punto de convertirse en cumplimiento.",
+            "fortalezas": ["Hospitalidad radical", "Amistad con Dios", "Intercesión"],
+            "debilidades": ["Incredulidad momentánea (la risa de Sara)", "Vulnerabilidad a la duda por la vejez"],
+            "simbologia": [
+                {
+                    "objeto": "La Sombra del Encinar",
+                    "significado": "Representa el descanso y la protección divina en medio de las pruebas de la vida (el calor del día)."
+                },
+                {
+                    "objeto": "El Pan y la Mantequilla",
+                    "significado": "Símbolos de dar lo mejor de nuestra casa a Dios; la adoración a través del servicio y la generosidad."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu disposición para servir y ser hospitalario puede abrir la puerta a la visitación de Dios y al cumplimiento de Sus promesas.",
+            "preguntas_reflexion": [
+                "¿Estás ofreciendo lo mejor de tu tiempo y recursos a Dios, o solo lo que te sobra?",
+                "Cuando Dios te hace una promesa que parece imposible, ¿te ríes con incredulidad o descansas en Su soberanía?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Asentamiento",
+                "evento": "Abraham edifica un altar a Jehová en el encinar de Mamre.",
+                "referencia": "Génesis 13:18",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "La Visitación",
+                "evento": "Dios promete el nacimiento de Isaac a pesar de la vejez de Abraham y Sara.",
+                "referencia": "Génesis 18:1-15",
+                "vinculo_id": "sara"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["sodoma-gomorra"],
+            "personajes_relacionados": ["abraham", "sara"],
+            "estudios": ["hospitalidad-sagrada", "la-risa-de-la-promesa"]
+        },
+        "gamificacion": {
+            "xp_lectura": 170,
+            "logro_id": "anfitrion-del-cielo"
+        }
+      },
+      {
+        "id": "monte-moriah",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.778, 35.2354],
+            "zoom": 14,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#f39c12"
+        },
+        "perfil": {
+            "nombre": "Monte Moriah",
+            "titulo_corto": "El Monte de la Provisión",
+            "significado_nombre": "Visto por Dios o Provisto por Dios",
+            "ubicacion_geografica": "Ciudad de Jerusalén, actual Explanada de las Mezquitas",
+            "clima_entorno": "Clima mediterráneo de montaña, cumbre rocosa que domina el valle del Cedrón.",
+            "imagen_principal": "/img/lugares/moriah.webp",
+            "galeria": [
+                "/img/lugares/moriah-altar-detalle.webp",
+                "/img/lugares/moriah-carnero.webp",
+                "/img/lugares/moriah-camino.webp",
+                "/img/lugares/jerusalen-davidica.webp",
+                "/img/lugares/templo-jerusalen.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "2 Crónicas"],
+            "era_biblica": "Época Patriarcal / Era Monárquica"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Roca Fundacional",
+            "descripcion": "Ubicada bajo la Cúpula de la Roca, se cree que esta es la cumbre original del monte donde Abraham preparó el altar. Siglos después, este mismo sitio albergó el Lugar Santísimo del Templo de Salomón."
+        },
+        "narrativa": {
+            "resumen_epico": "Moriah es el escenario del acto de fe más estremecedor de la historia patriarcal. Por orden divina, Abraham viajó tres días para ofrecer a su hijo de la promesa, Isaac, en este monte. En el momento culminante, cuando el cuchillo estaba en el aire, el Ángel del Señor detuvo la mano del padre y reveló un carnero trabado en un zarzal. Este monte dejó de ser un pico solitario para convertirse en 'Jehová Jireh': El Señor Proveerá.",
+            "dato_curioso": "Es el único lugar en la Biblia que conecta directamente la era de los patriarcas, el templo de Salomón y, simbólicamente, el sacrificio de Cristo en una misma zona geográfica.",
+            "conexion_jesus": "Isaac cargando la leña monte arriba es un 'tipo' o sombra perfecta de Jesús cargando la cruz. Así como Dios proveyó un carnero para sustituir a Isaac, Jesús es el Cordero de Dios provisto por el Padre para ser nuestro sustituto final en el juicio."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la rendición absoluta y la confianza ciega en el carácter de Dios por encima de la lógica humana. Es el lugar donde la obediencia se encuentra con la provisión milagrosa.",
+            "fortalezas": ["Lugar de santidad máxima", "Centro de adoración sacrificial", "Fundamento del Templo"],
+            "debilidades": ["Punto de conflicto espiritual e histórico", "Exigencia de sacrificio total"],
+            "simbologia": [
+                {
+                    "objeto": "El Carnero",
+                    "significado": "La provisión divina que toma el lugar del pecador; la sustitución."
+                },
+                {
+                    "objeto": "La Leña",
+                    "significado": "El peso del sacrificio que debe ser cargado por el propio hijo."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios no quiere tu 'Isaac' (lo que más amas) para quitártelo, sino para probar si Él sigue siendo el primero en tu corazón. Tu obediencia libera Su provisión.",
+            "preguntas_reflexion": [
+                "¿Hay algo que ames tanto que te costaría ponerlo en el altar si Dios te lo pidiera hoy?",
+                "¿Confías en que Dios es tu Proveedor incluso cuando no ves el 'carnero' antes de dar el paso de fe?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Prueba de Fe",
+                "evento": "Abraham ofrece a Isaac y Dios provee el carnero sustituto.",
+                "referencia": "Génesis 22:1-14",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "La Casa de Dios",
+                "evento": "Salomón comienza la construcción del Templo en este mismo monte.",
+                "referencia": "2 Crónicas 3:1",
+                "vinculo_id": "salomon"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion", "golgota-sepulcro"],
+            "personajes_relacionados": ["abraham", "isaac", "angel-de-jehova", "salomon"],
+            "estudios": ["el-padre-y-el-hijo", "tipos-y-sombras-de-cristo"]
+        },
+        "gamificacion": {
+            "xp_lectura": 250,
+            "logro_id": "fe-de-patriarca"
+        }
+      },
+      {
+        "id": "peniel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [32.18, 35.56],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#8e44ad"
+        },
+        "perfil": {
+            "nombre": "Peniel",
+            "titulo_corto": "El Rostro de Dios",
+            "significado_nombre": "El Rostro de Dios (Pniel)",
+            "ubicacion_geografica": "Junto al vado del río Jaboc, al este del Jordán",
+            "clima_entorno": "Valle fluvial encajonado, con vegetación densa de ribera y colinas escarpadas.",
+            "imagen_principal": "/img/lugares/peniel.webp",
+            "galeria": [
+                "/img/lugares/peniel-vado-jaboc.webp",
+                "/img/lugares/peniel-jacob-cojo.webp",
+                "/img/lugares/peniel-bendicion.webp",
+                "/img/lugares/jacob-lucha.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Jueces", "Oseas"],
+            "era_biblica": "Época Patriarcal (Regreso de Jacob)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Tulul adh-Dhahab",
+            "descripcion": "Dos montículos gemelos en el valle del Jaboc que han revelado fortificaciones de la Edad del Hierro, situando la ciudad de Peniel en un punto estratégico para controlar el paso del río."
+        },
+        "narrativa": {
+            "resumen_epico": "A orillas del Jaboc, en la soledad más absoluta de la noche y bajo el terror del encuentro inminente con su hermano Esaú, Jacob se quedó solo. Allí, un 'varón' misterioso luchó con él hasta el rayar del alba. No fue una batalla física ordinaria, sino un combate espiritual donde Jacob, aunque herido en el encaje de su muslo, se negó a soltar a su oponente hasta recibir una bendición. Peniel es el lugar donde el suplantador murió para que naciera el príncipe de Dios.",
+            "dato_curioso": "Jacob llamó al lugar Peniel diciendo: 'Vi a Dios cara a cara, y fue librada mi alma'. A pesar de salir cojeando, salió con una luz nueva en su espíritu.",
+            "conexion_jesus": "Muchos estudiosos ven en el oponente de Jacob una Cristofanía (una aparición de Cristo antes de su encarnación). Además, la lucha de Jacob prefigura la agonía de Jesús en Getsemaní, donde a través de una lucha intensa y rendición, se aseguró la bendición para toda la humanidad.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la crisis de identidad y el punto de rendición total. Es el lugar donde los recursos humanos se agotan y solo queda aferrarse a la gracia divina. Simboliza que para 'vencer' con Dios, primero hay que ser 'vencido' por Él.",
+            "fortalezas": ["Persistencia espiritual", "Nueva identidad", "Protección divina confirmada"],
+            "debilidades": ["Miedo al pasado", "Aislamiento", "Vulnerabilidad física"],
+            "simbologia": [
+                {
+                    "objeto": "El Muslo Descoyuntado",
+                    "significado": "Representa el fin de la fuerza propia y la dependencia total en Dios a partir de la debilidad."
+                },
+                {
+                    "objeto": "El Nombre 'Israel'",
+                    "significado": "Símbolo de la transformación: de 'engañador' (Jacob) a 'el que lucha con Dios' (Israel)."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tus mayores crisis suelen ser el escenario donde Dios desea cambiar tu nombre y tu propósito eterno.",
+            "preguntas_reflexion": [
+                "¿Estás luchando con Dios para obtener Su bendición o estás luchando contra Su voluntad por tus propios miedos?",
+                "¿Cuál es el 'Jaboc' en tu vida hoy, ese lugar donde necesitas quedarte a solas con Dios hasta que algo cambie en tu interior?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Lucha Nocturna",
+                "evento": "Jacob lucha con el ángel y recibe el nombre de Israel.",
+                "referencia": "Génesis 32:24-28",
+                "vinculo_id": "jacob"
+            },
+            {
+                "fase": "El Amanecer",
+                "evento": "Sale el sol mientras Jacob pasa por Peniel, cojeando de su cadera.",
+                "referencia": "Génesis 32:31",
+                "vinculo_id": "jacob"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["betel", "siquem"],
+            "personajes_relacionados": ["jacob", "angel-de-jehova", "esau"],
+            "estudios": ["lucha-y-rendicion", "la-transformacion-del-caracter"]
+        },
+        "gamificacion": {
+            "xp_lectura": 190,
+            "logro_id": "vencedor-en-peniel"
+        }
+      },
+      {
+        "id": "dotan",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [32.41, 35.24],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Dotán",
+            "titulo_corto": "El Valle de la Conspiración",
+            "significado_nombre": "Dos Pozos o Dos Fuentes",
+            "ubicacion_geografica": "Al norte de Siquem, en una llanura fértil de Samaria",
+            "clima_entorno": "Llanura aluvial rica en pastos, rodeada de colinas bajas, ideal para el ganado mayor.",
+            "imagen_principal": "/img/lugares/dotan.webp",
+            "galeria": [
+                "/img/lugares/dotan-pozo-seco.webp",
+                "/img/lugares/dotan-tunica-colores.webp",
+                "/img/lugares/dotan-caravana.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "2 Reyes"],
+            "era_biblica": "Época Patriarcal (Historia de José)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Tel Dothan",
+            "descripcion": "Un gran montículo arqueológico que muestra una ocupación continua desde la Edad del Bronce. Se han hallado numerosas cisternas excavadas en la roca, características del periodo patriarcal."
+        },
+        "narrativa": {
+            "resumen_epico": "Dotán fue el escenario donde la túnica de colores se manchó de sangre. José, enviado por su padre para buscar a sus hermanos, fue avistado desde lejos. En este valle, la envidia se convirtió en complot. Arrojado a una cisterna vacía y oscura, José pasó de ser el hijo amado a ser una mercancía vendida por veinte piezas de plata a una caravana que descendía a Egipto. Lo que sus hermanos planearon para mal, Dios lo estaba utilizando para posicionar al salvador de la familia.",
+            "dato_curioso": "Siglos más tarde, en este mismo lugar, el profeta Eliseo vería el monte lleno de carros de fuego protegiéndolo de los sirios (2 Reyes 6).",
+            "conexion_jesus": "José es uno de los tipos más claros de Cristo: fue enviado por su padre a sus hermanos, fue odiado sin causa, conspiraron para matarlo, fue vendido por plata y, a través de su sufrimiento, se convirtió en el salvador del mundo conocido.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el abismo de la traición familiar y la soledad más profunda. Es el lugar donde los sueños parecen morir en la oscuridad de un pozo.",
+            "fortalezas": ["Soberanía divina invisible", "Preservación de la vida (gracias a Rubén y Judá)"],
+            "debilidades": ["Envidia destructiva", "Falsa apariencia", "Codicia"],
+            "simbologia": [
+                {
+                    "objeto": "La Cisterna Vacía",
+                    "significado": "Representa el punto más bajo del sufrimiento humano antes de la exaltación divina."
+                },
+                {
+                    "objeto": "Las 20 piezas de plata",
+                    "significado": "Símbolo del valor terrenal que se le da a una vida, prefigurando la traición de Judas a Jesús."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Un 'pozo' en tu vida no es el final de tu historia, sino a menudo el pasaje necesario hacia tu destino en 'el palacio'.",
+            "preguntas_reflexion": [
+                "¿Cómo reaccionas cuando aquellos en quienes confías te traicionan o te abandonan en un 'pozo'?",
+                "¿Puedes confiar en que Dios tiene el control de la caravana que parece llevarte lejos de tus sueños?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Conspiración",
+                "evento": "Los hermanos de José lo ven llegar y planean matarlo.",
+                "referencia": "Génesis 37:18-20",
+                "vinculo_id": "jose"
+            },
+            {
+                "fase": "La Venta",
+                "evento": "José es sacado del pozo y entregado a los ismaelitas.",
+                "referencia": "Génesis 37:28",
+                "vinculo_id": "jose"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["siquem", "egipto-plagas", "egipto-jose"],
+            "personajes_relacionados": ["jose-egipto", "juda", "ruben", "ismael"],
+            "estudios": ["del-pozo-al-palacio", "la-tunica-de-colores"]
+        },
+        "gamificacion": {
+            "xp_lectura": 180,
+            "logro_id": "sobreviviente-del-pozo"
+        }
+      },
+      {
+        "id": "egipto-jose",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [29.9792, 31.1342],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#f39c12"
+        },
+        "perfil": {
+            "nombre": "Egipto (Tierra de Gosén)",
+            "titulo_corto": "Del Pozo al Palacio",
+            "significado_nombre": "Tierra de los Coptos o Restricción (Mizraim)",
+            "ubicacion_geografica": "Delta del Nilo y región de Menfis",
+            "clima_entorno": "Clima desértico dependiente totalmente de las crecidas anuales del río Nilo para la agricultura.",
+            "imagen_principal": "/img/lugares/egipto-jose.webp",
+            "galeria": [
+                "/img/lugares/egipto-nilo-gosen.webp",
+                "/img/lugares/egipto-prision-real.webp",
+                "/img/lugares/egipto-sueño-faraon.webp",
+                "/img/lugares/egipto-anillo-faraon.webp",
+                "/img/lugares/egipto-banquete-jose.webp",
+                "/img/lugares/egipto-graneros.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Éxodo"],
+            "era_biblica": "Época Patriarcal / Era de los Hicsos"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Papiro de Leiden / Canal de José (Bahr Yussef)",
+            "descripcion": "Existe un canal milenario que conecta el Nilo con el oasis de El Fayum conocido tradicionalmente como el 'Río de José', sugiriendo grandes obras de ingeniería hidráulica para combatir las hambrunas."
+        },
+        "narrativa": {
+            "resumen_epico": "Egipto fue el crisol donde la familia de Jacob se transformó en una nación. José llegó encadenado, pero su integridad en la casa de Potifar y su paciencia en la cárcel lo prepararon para el momento en que interpretaría los sueños del Faraón. Bajo su mando, Egipto se convirtió en el granero del mundo, permitiendo que la línea mesiánica sobreviviera a una hambruna mortal. Lo que comenzó como un destierro terminó en una reunión familiar llena de perdón.",
+            "dato_curioso": "José fue nombrado 'Zafenat-panea', un título egipcio que probablemente significa 'Dios habla y él vive' o 'Revelador de secretos'.",
+            "conexion_jesus": "José en Egipto prefigura a Jesús en su humillación y exaltación. Ambos fueron injustamente acusados, ambos sufrieron entre gentiles y ambos se convirtieron en los dadores del 'pan de vida' para salvar a aquellos que antes los habían rechazado."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el proceso de refinamiento a través del sufrimiento injusto. Es el lugar donde se aprende que el favor de Dios no depende de la ubicación física, sino de la obediencia interna.",
+            "fortalezas": ["Poder económico mundial", "Sabiduría administrativa", "Refugio en crisis"],
+            "debilidades": ["Sistema idólatra", "Esclavitud potencial", "Orgullo imperial"],
+            "simbologia": [
+                {
+                    "objeto": "El Anillo de Sellar",
+                    "significado": "Símbolo de la autoridad delegada por Dios a aquellos que han sido fieles en lo poco."
+                },
+                {
+                    "objeto": "Las Siete Espigas",
+                    "significado": "Representan los ciclos de abundancia y escasez, y la necesidad de una administración divina de los recursos."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu carácter se forja en el 'anonimato' de tus pruebas más duras antes de ser exhibido en el 'palacio' de tu propósito.",
+            "preguntas_reflexion": [
+                "¿Estás manteniendo tu integridad cuando nadie te ve, como lo hizo José en la casa de Potifar?",
+                "¿Eres capaz de perdonar a quienes te 'vendieron' al ver que Dios usó ese mal para un bien mayor?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Esclavitud y Prueba",
+                "evento": "José sirve en casa de Potifar y es encarcelado injustamente.",
+                "referencia": "Génesis 39:1-20",
+                "vinculo_id": "jose"
+            },
+            {
+                "fase": "La Exaltación",
+                "evento": "José interpreta el sueño de Faraón y es nombrado gobernador de Egipto.",
+                "referencia": "Génesis 41:37-44",
+                "vinculo_id": "faraon-jose"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["dotan"],
+            "personajes_relacionados": ["jose-egipto", "potifar", "faraon", "jacob"],
+            "estudios": ["integridad-en-la-prueba", "la-soberania-de-dios"]
+        },
+        "gamificacion": {
+            "xp_lectura": 200,
+            "logro_id": "visir-del-reino"
+        }
+      },
+    
+      {
+        "id": "piton-y-ramses",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [30.79, 31.97],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#c0392b"
+        },
+        "perfil": {
+            "nombre": "Pitón y Ramsés",
+            "titulo_corto": "Las Ciudades de la Aflicción",
+            "significado_nombre": "Pitón (Casa de Atum) y Ramsés (Hijo de Ra)",
+            "ubicacion_geografica": "Región de Gosén, Delta del Nilo, Egipto",
+            "clima_entorno": "Clima húmedo del delta, suelos de arcilla ideales para la fabricación de ladrillos.",
+            "imagen_principal": "/img/lugares/ramses.webp",
+            "galeria": [
+                "/img/lugares/egipto-capataz.webp",
+                "/img/lugares/egipto-muro-inscripcion.webp",
+                "/img/lugares/egipto-estatua-ramses.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Números"],
+            "era_biblica": "Era de la Esclavitud / El Éxodo"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Pi-Ramsés (Qantir) y Tell el-Retaba",
+            "descripcion": "Excavaciones han revelado bases de enormes almacenes y barrios de trabajadores que utilizaban ladrillos de barro cocido al sol, algunos con paja y otros sin ella, tal como describe el texto bíblico."
+        },
+        "narrativa": {
+            "resumen_epico": "Lo que una vez fue el refugio de Gosén bajo José, se convirtió en una prisión de ladrillo y lodo bajo un nuevo Faraón. Pitón y Ramsés no fueron solo ciudades de almacenaje, sino monumentos al intento humano de aplastar el crecimiento del pueblo de Dios. Bajo el sol abrasador y el látigo egipcio, el sudor de Israel se mezcló con el barro, pero fue precisamente en este lugar de máxima opresión donde el clamor de libertad ascendió al cielo, moviendo la mano de Dios para enviar a un libertador.",
+            "dato_curioso": "La construcción de estas ciudades fue un proyecto de ingeniería masivo que buscaba asegurar la frontera oriental de Egipto contra invasiones asiáticas.",
+            "conexion_jesus": "Así como Israel fue esclavizado para construir los tesoros de Faraón, la humanidad está esclavizada por el pecado. Moisés sacó al pueblo de estas ciudades de servidumbre, pero Jesús nos saca de la esclavitud espiritual, llevándonos de la 'casa de servidumbre' al Reino de la Luz.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el agotamiento físico y el quebrantamiento del espíritu. Es el lugar donde la esperanza parece haber muerto, pero donde nace la necesidad absoluta de un Salvador.",
+            "fortalezas": ["Resiliencia del pueblo", "Crecimiento demográfico bajo presión", "Preservación de la identidad"],
+            "debilidades": ["Miedo al opresor", "Agotamiento extremo", "Olvido temporal de la promesa"],
+            "simbologia": [
+                {
+                    "objeto": "El Ladrillo de Barro",
+                    "significado": "Representa el esfuerzo humano bajo esclavitud y la fragilidad de las obras mundanas frente a la eternidad."
+                },
+                {
+                    "objeto": "El Látigo del Capataz",
+                    "significado": "Símbolo de la ley del mundo que exige resultados sin proveer los medios (la paja)."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu situación más difícil es a menudo el lugar donde Dios comienza a preparar tu milagro de liberación más grande.",
+            "preguntas_reflexion": [
+                "¿Qué 'ladrillos' estás tratando de fabricar hoy con tus propias fuerzas y sin la ayuda de Dios?",
+                "¿Has permitido que tu aflicción se convierta en un clamor que busque la intervención del Libertador?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Esclavitud",
+                "evento": "Israel es forzado a edificar las ciudades de almacenaje.",
+                "referencia": "Éxodo 1:11",
+                "vinculo_id": "israel-esclavo"
+            },
+            {
+                "fase": "La Salida",
+                "evento": "Los israelitas parten de Ramsés hacia Sucot tras la décima plaga.",
+                "referencia": "Éxodo 12:37",
+                "vinculo_id": "moises"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["mar-rojo", "monte-sinai"],
+            "personajes_relacionados": ["moises", "faraon", "aaron"],
+            "estudios": ["el-clamor-del-pueblo", "de-la-esclavitud-a-la-libertad"]
+        },
+        "gamificacion": {
+            "xp_lectura": 175,
+            "logro_id": "primer-paso-libertad"
+        }
+      },
+      {
+        "id": "rio-nilo",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [30.0444, 31.2357],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Río Nilo",
+            "titulo_corto": "Las Aguas de Vida y Juicio",
+            "significado_nombre": "Río o Valle (del griego Neilos)",
+            "ubicacion_geografica": "Eje central de Egipto, desde el Alto Egipto hasta el Delta",
+            "clima_entorno": "Clima árido suavizado por la humedad del río; esencial para la supervivencia en el desierto.",
+            "imagen_principal": "/img/lugares/nilo1.webp",
+            "galeria": [
+                "/img/lugares/nilo-papiro.webp",
+                "/img/lugares/nilo-primera-plaga.webp",
+                "/img/lugares/nilo-vida-cotidiana.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Éxodo"],
+            "era_biblica": "Era de la Esclavitud / Plagas de Egipto"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Nilómetros antiguos",
+            "descripcion": "Estructuras de piedra escalonadas usadas por los faraones para medir el nivel de las crecidas. Estas mediciones determinaban la prosperidad o hambruna de la nación, subrayando la dependencia total de Egipto hacia el río."
+        },
+        "narrativa": {
+            "resumen_epico": "El Nilo no era solo un río para los egipcios; era una deidad viviente llamada Hapi. Sin embargo, en el diseño del Códice, sus aguas sirven a propósitos superiores. Fue el escondite seguro para una arquilla de juncos que portaba al libertador de Israel y, décadas después, fue el primer escenario del juicio contra el orgullo de Faraón. Al convertirse en sangre, el río demostró que el Creador tiene autoridad sobre lo que el mundo considera su mayor fuente de seguridad.",
+            "dato_curioso": "El Nilo es el río más largo del mundo y fluye de sur a norte, una anomalía geográfica que los antiguos egipcios veían como un misterio divino.",
+            "conexion_jesus": "Así como el Nilo trajo muerte (decreto de Faraón) pero también salvación (Moisés), Jesús pasó por el río de la muerte en su crucifixión para emerger como el dador de 'Agua Viva'. Además, en su infancia, Jesús fue llevado a Egipto y probablemente bebió de estas mismas aguas para ser preservado de Herodes.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el conflicto entre la provisión natural y el juicio espiritual. Es un lugar de paradojas: donde el enemigo intenta destruir la descendencia de Dios, pero donde Dios prepara Su plan de rescate.",
+            "fortalezas": ["Recurso inagotable", "Vía de transporte", "Sustento agrícola"],
+            "debilidades": ["Objeto de idolatría", "Vulnerable a plagas", "Lugar de decretos de muerte"],
+            "simbologia": [
+                {
+                    "objeto": "La Arquilla de Juncos",
+                    "significado": "Representa la protección divina y la fragilidad humana que, puesta en las manos de Dios, sobrevive a la corriente del mundo."
+                },
+                {
+                    "objeto": "Agua convertida en Sangre",
+                    "significado": "Símbolo de la exposición de la muerte oculta bajo la superficie de la prosperidad mundana."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Lo que el enemigo usa como tumba para tus sueños, Dios puede usarlo como vehículo para tu propósito.",
+            "preguntas_reflexion": [
+                "¿Hay alguna 'corriente' en tu vida que parece amenazar con hundirte, pero donde Dios podría estar guardando tu milagro?",
+                "¿Estás confiando en los recursos del 'Nilo' (seguridad terrenal) más que en el Dios que controla las aguas?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Preservación",
+                "evento": "La madre de Moisés lo coloca en el río y es hallado por la hija de Faraón.",
+                "referencia": "Éxodo 2:3-5",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Primera Plaga",
+                "evento": "Aarón golpea el río con la vara y las aguas se convierten en sangre.",
+                "referencia": "Éxodo 7:17-21",
+                "vinculo_id": "plagas-egipto"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["piton-y-ramses", "mar-rojo", "monte-sinai"],
+            "personajes_relacionados": ["moises", "faraon", "hija-faraon", "aaron"],
+            "estudios": ["las-diez-plagas", "moises-el-libertador"]
+        },
+        "gamificacion": {
+            "xp_lectura": 160,
+            "logro_id": "navegante-del-nilo"
+        }
+      },
+      {
+        "id": "monte-horeb",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.57, 33.94],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Monte Horeb",
+            "titulo_corto": "El Monte de Dios",
+            "significado_nombre": "Desierto o Desolado (También conocido como el Monte Sinaí)",
+            "ubicacion_geografica": "Península del Sinaí, región montañosa del sur",
+            "clima_entorno": "Ambiente desértico extremo, caracterizado por picos de granito rojo y valles profundos y secos.",
+            "imagen_principal": "/img/lugares/zarza.webp",
+            "galeria": [
+                "/img/lugares/horeb-cima.webp",
+                "/img/lugares/horeb-cuevas.webp",
+                "/img/lugares/horeb-inscripciones.webp",
+                "/img/lugares/monasterio-santa-catalina.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "1 Reyes", "Deuteronomio"],
+            "era_biblica": "El Éxodo / Ministerio de Moisés"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Jebel Musa (Montaña de Moisés)",
+            "descripcion": "Identificado por la tradición milenaria como el sitio de la revelación. En sus faldas se encuentra una especie de zarza (Rubus sanctus) que es nativa de la zona y que los monjes locales han preservado durante siglos como recordatorio del milagro."
+        },
+        "narrativa": {
+            "resumen_epico": "El Horeb fue el lugar donde el tiempo se detuvo para un Moisés fugitivo que pastoreaba ovejas ajenas. En la soledad de sus faldas, una zarza ardía con un fuego sobrenatural que no consumía las ramas. Aquí, Dios reveló Su nombre eterno: 'YO SOY EL QUE SOY'. Lo que comenzó como un día ordinario de trabajo se convirtió en el nacimiento de una misión libertadora; el monte dejó de ser tierra común para convertirse en suelo sagrado ante la santidad de Dios.",
+            "dato_curioso": "Siglos más tarde, el profeta Elías huiría a este mismo monte para refugiarse en una cueva, donde escucharía a Dios no en el viento o el terremoto, sino en un silbo apacible.",
+            "conexion_jesus": "La zarza que arde pero no se consume es un símbolo de la Encarnación: la divinidad de Dios (el fuego) habitando en la humanidad (la zarza) sin destruirla. Jesús, el 'Yo Soy', es la zarza ardiente definitiva que nos revela el carácter y la santidad de Dios de manera perfecta.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el asombro y el temor reverente ante lo sagrado. Es el lugar del llamado que interrumpe la rutina para asignar un propósito eterno. Simboliza la necesidad de 'quitarse las sandalias' (el orgullo y el pasado) para acercarse a Dios.",
+            "fortalezas": ["Lugar de revelación directa", "Santuario natural", "Punto de refugio profético"],
+            "debilidades": ["Aislamiento geográfico", "Entorno hostil para quien no tiene guía"],
+            "simbologia": [
+                {
+                    "objeto": "La Zarza Ardiente",
+                    "significado": "Representa la presencia de Dios que purifica pero no destruye; la eternidad manifestada en lo temporal."
+                },
+                {
+                    "objeto": "Las Sandalias Quitadas",
+                    "significado": "Símbolo de humildad, respeto y el reconocimiento de que estamos en territorio que le pertenece exclusivamente al Creador."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No importa cuán ordinaria o 'desierta' parezca tu vida actual, Dios puede convertirla en tierra santa en un instante con Su presencia.",
+            "preguntas_reflexion": [
+                "¿Cuáles son las 'sandalias' que necesitas quitarte hoy para poder escuchar la voz de Dios con claridad?",
+                "¿Estás atento a las 'zarzas ardientes' (señales divinas) que Dios pone en tu camino cotidiano?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Llamado",
+                "evento": "Moisés ve la zarza y Dios le ordena liberar a Su pueblo de Egipto.",
+                "referencia": "Éxodo 3:1-10",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Renovación",
+                "evento": "Elías viaja 40 días al Horeb y recibe nuevas instrucciones divinas.",
+                "referencia": "1 Reyes 19:8-15",
+                "vinculo_id": "elias"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["piton-y-ramses", "mar-rojo", "monte-sinai"],
+            "personajes_relacionados": ["moises", "elias", "jetro"],
+            "estudios": ["el-nombre-de-dios", "llamado-y-proposito"]
+        },
+        "gamificacion": {
+            "xp_lectura": 190,
+            "logro_id": "testigo-de-la-zarza"
+        }
+      },
+      {
+        "id": "egipto-plagas",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [29.9792, 31.1342],
+            "zoom": 8,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#c0392b"
+        },
+        "perfil": {
+            "nombre": "Egipto (Las Plagas)",
+            "titulo_corto": "El Juicio a los Dioses",
+            "significado_nombre": "Mizraim (Las dos tierras)",
+            "ubicacion_geografica": "Todo el territorio de Egipto, con foco en la capital del Delta (Avaris/Ramsés)",
+            "clima_entorno": "Clima desértico alterado por fenómenos sobrenaturales: granizo con fuego, oscuridad palpable y plagas biológicas.",
+            "imagen_principal": "/img/lugares/plagas.webp",
+            "galeria": [
+                "/img/lugares/plaga-tinieblas.webp",
+                "/img/lugares/plaga-granizo-fuego.webp",
+                "/img/lugares/pascua-puerta.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Salmos"],
+            "era_biblica": "El Éxodo (Liberación de la esclavitud)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Papiro de Ipuwer",
+            "descripcion": "Un antiguo manuscrito egipcio que describe una serie de calamidades nacionales: el río se convierte en sangre, hay hambre, muerte por doquier y los esclavos huyen, guardando un paralelismo asombroso con el relato del Éxodo."
+        },
+        "narrativa": {
+            "resumen_epico": "Egipto no solo sufrió desastres naturales, sino un juicio directo contra su panteón. Cada plaga fue un ataque quirúrgico a una deidad específica: desde el Nilo (Hapi) hasta la oscuridad que anuló al mismísimo Sol (Ra). El clímax llegó con la décima plaga, donde la muerte de los primogénitos forzó a Faraón a reconocer que no había dios como el de Israel. Este escenario marca la transición de un pueblo de esclavos a una nación libre bajo el pacto de la Pascua.",
+            "dato_curioso": "La plaga de las tinieblas fue descrita como una 'oscuridad que se podía palpar', sugiriendo un fenómeno que afectaba no solo la vista sino todos los sentidos.",
+            "conexion_jesus": "La última plaga introdujo el concepto del Cordero Pascual. Así como la sangre en los dinteles de las puertas protegió a Israel de la muerte en Egipto, Jesús es nuestra Pascua definitiva (1 Corintios 5:7), cuya sangre nos libra del juicio eterno.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el terror ante la soberanía divina y la terquedad del orgullo humano (el endurecimiento del corazón de Faraón). Es un lugar de separación definitiva entre el sistema del mundo y el pueblo de Dios.",
+            "fortalezas": ["Poder demostrativo de Dios", "Protección sobrenatural en Gosén", "Liberación final"],
+            "debilidades": ["Destrucción económica total de Egipto", "Pérdida de vidas", "Orgullo nacional herido"],
+            "simbologia": [
+                {
+                    "objeto": "La Vara de Aarón",
+                    "significado": "Representa la autoridad divina delegada que devora los trucos y falsificaciones del enemigo."
+                },
+                {
+                    "objeto": "La Sangre en el Dintel",
+                    "significado": "Símbolo de redención y sustitución; la diferencia entre la vida y la muerte por medio de la fe."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios no solo nos saca de la esclavitud, sino que expone y destruye los ídolos que nos mantenían atados.",
+            "preguntas_reflexion": [
+                "¿Hay algún 'dios' o seguridad en tu vida que Dios esté 'sacudiendo' para que confíes solo en Él?",
+                "¿Estás bajo la protección de la 'sangre del Cordero' o sigues intentando negociar con Faraón (el mundo)?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Duelo de Poder",
+                "evento": "Moisés y Aarón ante Faraón; inicio de la serie de 10 plagas.",
+                "referencia": "Éxodo 7-11",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Pascua",
+                "evento": "Institución de la cena pascual y muerte de los primogénitos.",
+                "referencia": "Éxodo 12",
+                "vinculo_id": "pascua"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["rio-nilo", "piton-y-ramses", "mar-rojo"],
+            "personajes_relacionados": ["moises", "aaron", "faraon"],
+            "estudios": ["las-diez-plagas", "el-cordero-pascual"]
+        },
+        "gamificacion": {
+            "xp_lectura": 250,
+            "logro_id": "sobreviviente-de-egipto"
+        }
+      },
+      {
+        "id": "mar-rojo",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [29.5, 32.5],
+            "zoom": 8,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Mar Rojo (Yam Suph)",
+            "titulo_corto": "El Camino en las Aguas",
+            "significado_nombre": "Mar de los Juncos o Mar Rojo",
+            "ubicacion_geografica": "Golfo de Suez / Mar Rojo, entre Egipto y la Península del Sinaí",
+            "clima_entorno": "Clima costero desértico, caracterizado por vientos fuertes (solano) y aguas profundas flanqueadas por acantilados.",
+            "imagen_principal": "/img/lugares/mar_rojo1.webp",
+            "galeria": [
+                "/img/lugares/mar-rojo-columna-fuego.webp",
+                "/img/lugares/mar-rojo-ruinas-egipcias.webp",
+                "/img/lugares/mar-rojo-pueblo-cruzando.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Salmos", "Hebreos"],
+            "era_biblica": "El Éxodo (La Gran Liberación)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Formaciones coralinas en forma de rueda",
+            "descripcion": "Diversas expediciones marinas en el Golfo de Aqaba han reportado estructuras de coral que preservan la forma de ruedas de carros de cuatro y seis radios, coherentes con la tecnología militar de la XVIII Dinastía egipcia."
+        },
+        "narrativa": {
+            "resumen_epico": "Atrapados entre los muros de las montañas y el mar embravecido, con el ejército de Faraón cerrando el paso, Israel se enfrentó a su aparente fin. Sin embargo, ante el golpe de la vara de Moisés y un viento recio, el mar se dividió, levantando muros de agua a derecha e izquierda. El pueblo caminó por tierra seca hacia la libertad, mientras que las mismas aguas que fueron salvación para unos, se convirtieron en el juicio final para los opresores que intentaron seguirlos.",
+            "dato_curioso": "El texto hebreo utiliza el término 'Yam Suph', que suele traducirse como Mar de los Juncos, sugiriendo un área que, aunque pantanosa en las orillas, tenía profundidad suficiente para ahogar a un ejército.",
+            "conexion_jesus": "El cruce del Mar Rojo es el símbolo bíblico del bautismo (1 Corintios 10:1-2). Así como Israel pasó por las aguas para dejar atrás la esclavitud de Egipto, el creyente pasa por el agua del bautismo para dejar atrás la esclavitud del pecado y nacer a una nueva vida en Cristo.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el paso del miedo paralizante a la fe triunfante. Es el lugar del 'no retorno'; una vez cruzado el mar, la vida antigua ha muerto y la nueva nación ha nacido bajo la protección de Dios.",
+            "fortalezas": ["Poder absoluto sobre la creación", "Protección sobrenatural (Nube de Fuego)", "Fin de la persecución"],
+            "debilidades": ["Pánico colectivo", "Falta de visión ante la imposibilidad física"],
+            "simbologia": [
+                {
+                    "objeto": "La Vara de Moisés",
+                    "significado": "Representa la autoridad divina que abre caminos donde el hombre no ve salida."
+                },
+                {
+                    "objeto": "El Muro de Agua",
+                    "significado": "Símbolo de la protección de Dios que suspende las leyes naturales para preservar a Sus hijos."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Cuando Dios te dice 'avanza', Él mismo se encarga de abrir camino a través de lo imposible.",
+            "preguntas_reflexion": [
+                "¿Te sientes hoy atrapado entre tu pasado (Egipto) y un obstáculo insuperable (el Mar)? ¿Confías en que Dios puede dividir tus problemas?",
+                "¿Estás dispuesto a 'mojarte los pies' y dar el primer paso de fe antes de ver el milagro completo?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Encierro",
+                "evento": "Faraón persigue a Israel y los acorrala frente al mar.",
+                "referencia": "Éxodo 14:5-12",
+                "vinculo_id": "faraon"
+            },
+            {
+                "fase": "La Victoria",
+                "evento": "Israel cruza en seco y entona el Cántico de Moisés tras la derrota egipcia.",
+                "referencia": "Éxodo 15:1-21",
+                "vinculo_id": "moises"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["piton-y-ramses", "marah", "elim", "monte-sinai"],
+            "personajes_relacionados": ["moises", "aaron"],
+            "estudios": ["el-paso-de-la-libertad", "tipologia-del-bautismo"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "caminante-sobre-el-abismo"
+        }
+      },
+      {
+        "id": "marah",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [29.2, 33.0],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Mara",
+            "titulo_corto": "De la Amargura a la Dulzura",
+            "significado_nombre": "Amarga / Amargura",
+            "ubicacion_geografica": "Desierto de Shur, Península del Sinaí (posiblemente Ein Hawara)",
+            "clima_entorno": "Zona desértica árida con manantiales salobres de alto contenido mineral (sulfato de magnesio).",
+            "imagen_principal": "/img/lugares/mara.webp",
+            "galeria": [
+                "/img/lugares/manantial-desierto.webp",
+                "/img/lugares/marah-arbol-salvador.webp",
+                "/img/lugares/marah-quejas-pueblo.webp",
+                "/img/lugares/marah-camino-seco.webp",
+                "/img/lugares/marah-flora-arbusto-retama.webp",
+                "/img/lugares/flora-sinai.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Números"],
+            "era_biblica": "El Éxodo (Primeras etapas en el desierto)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Ein Hawara",
+            "descripcion": "Un manantial situado en la ruta tradicional del Éxodo cuyas aguas siguen siendo famosas por su sabor amargo y salobre, coincidiendo con la descripción geográfica tras tres días de camino desde el Mar Rojo."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras la euforia de la victoria en el Mar Rojo, Israel caminó tres días por el desierto de Shur sin hallar agua. Al llegar a Mara, la desesperación estalló: el agua estaba allí, pero era imbebible. El pueblo murmuró, pero Dios reveló un secreto a Moisés: un árbol específico que, al ser arrojado a la fuente, sanó las aguas. Mara no fue solo una parada de sed, sino el lugar donde Dios se presentó como 'Jehová Rapha', el sanador de Su pueblo.",
+            "dato_curioso": "El agua de esta región suele ser amarga debido a la alta concentración de sales de magnesio, que tienen efectos laxantes, haciendo que el milagro de endulzarlas fuera vital para evitar la deshidratación del pueblo.",
+            "conexion_jesus": "El árbol que Moisés arrojó al agua para quitar la amargura es un símbolo de la Cruz de Cristo. Así como ese madero endulzó las aguas de Mara, el sacrificio en el madero de la Cruz transforma la amargura del pecado y del juicio en la dulzura de la gracia y la vida eterna.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la desilusión inmediata después de una gran bendición. Es el lugar donde se prueba si la fe del creyente depende de las circunstancias o del carácter de Dios.",
+            "fortalezas": ["Revelación de un nuevo nombre de Dios", "Provisión en la escasez", "Sanidad divina"],
+            "debilidades": ["Murmuración rápida", "Memoria corta del milagro anterior", "Impaciencia"],
+            "simbologia": [
+                {
+                    "objeto": "El Árbol",
+                    "significado": "Representa el agente de transformación divina; el sacrificio que quita la amargura del mundo."
+                },
+                {
+                    "objeto": "Las Aguas Amargas",
+                    "significado": "Símbolo de las pruebas de la vida que buscan revelar lo que hay en el corazón del hombre."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios tiene el 'árbol' preparado para cada situación amarga de tu vida; Su presencia puede cambiar tu desierto en un oasis.",
+            "preguntas_reflexion": [
+                "¿Cómo reaccionas cuando tu 'Mar Rojo' de victoria es seguido por un 'Mara' de necesidad?",
+                "¿Estás permitiendo que Dios sane las raíces de amargura en tu corazón, o sigues murmurando por las circunstancias?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Crisis",
+                "evento": "El pueblo no puede beber el agua y murmura contra Moisés.",
+                "referencia": "Éxodo 15:23-24",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "El Estatuto de Sanidad",
+                "evento": "Dios endulza el agua y se revela como Jehová Rapha (Tu Sanador).",
+                "referencia": "Éxodo 15:25-26",
+                "vinculo_id": "jehova-rapha"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["mar-rojo", "elim", "refidim"],
+            "personajes_relacionados": ["moises"],
+            "estudios": ["dios-nuestro-sanador", "la-prueba-del-desierto"]
+        },
+        "gamificacion": {
+            "xp_lectura": 160,
+            "logro_id": "corazon-endulzado"
+        }
+      },
+      {
+        "id": "elim",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [29.1, 33.1],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#27ae60"
+        },
+        "perfil": {
+            "nombre": "Elim",
+            "titulo_corto": "El Oasis de las Doce Fuentes",
+            "significado_nombre": "Árboles Grandes o Robles/Palmeras",
+            "ubicacion_geografica": "Wadi Gharandel, Península del Sinaí",
+            "clima_entorno": "Microclima de oasis; un vergel de sombra y agua fresca rodeado por la aridez del desierto de Sin.",
+            "imagen_principal": "/img/lugares/elim.webp",
+            "galeria": [
+                "/img/lugares/elim-campamento-noche.webp",
+                "/img/lugares/elim-recoleccion-datiles.webp",
+                "/img/lugares/fuentes-agua.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Números"],
+            "era_biblica": "El Éxodo (Ruta hacia el Sinaí)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Wadi Gharandel",
+            "descripcion": "Identificado por la mayoría de los geógrafos bíblicos como Elim, este wadi sigue siendo hoy uno de los lugares con más agua y vegetación de todo el Sinaí occidental, manteniendo la tradición de sus abundantes palmeras."
+        },
+        "narrativa": {
+            "resumen_epico": "Después de la prueba de fe en las aguas amargas de Mara, Dios condujo a Su pueblo a Elim. No era solo un pozo, sino un despliegue de generosidad sobrenatural: doce fuentes de agua y setenta palmeras esperaban a la multitud. Fue el lugar del reposo necesario donde Israel acampó junto a las aguas, demostrando que Dios no solo provee lo básico para sobrevivir, sino que también prepara lugares de deleite y restauración para el alma fatigada.",
+            "dato_curioso": "La proporción de Elim es perfecta: una fuente para cada una de las 12 tribus y una palmera para cada uno de los 70 ancianos de Israel.",
+            "conexion_jesus": "Elim prefigura la plenitud del Reino. Jesús envió a 12 apóstoles y luego a 70 discípulos (Lucas 10) para llevar las 'aguas de vida' a las naciones. Él es nuestro verdadero oasis que nos invita a venir a Él para hallar descanso para nuestras almas.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la consolación y la recompensa divina tras la perseverancia. Es el lugar donde el estrés del desierto es reemplazado por la paz de la provisión abundante.",
+            "fortalezas": ["Recursos abundantes", "Sombra protectora", "Orden divino (12 y 70)"],
+            "debilidades": ["Tentación de quedarse y no seguir hacia la meta final"],
+            "simbologia": [
+                {
+                    "objeto": "Las Doce Fuentes",
+                    "significado": "Representan la provisión específica para cada tribu; a nadie le faltó su fuente propia."
+                },
+                {
+                    "objeto": "Las Setenta Palmeras",
+                    "significado": "Símbolo de la cobertura y sabiduría de los ancianos que protegen y dan sombra al pueblo."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios siempre tiene un Elim preparado después de un Mara. El descanso no es una pérdida de tiempo, sino una parte esencial de Su plan para fortalecerte.",
+            "preguntas_reflexion": [
+                "¿Estás tomándote el tiempo para 'acampar junto a las aguas' y renovar tus fuerzas en la presencia de Dios?",
+                "¿Puedes ver la fidelidad de Dios al notar que Él conoce exactamente cuántas 'fuentes' necesitas para tu familia o ministerio?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Restauración",
+                "evento": "Israel llega a Elim tras salir de Mara y acampan junto a las aguas.",
+                "referencia": "Éxodo 15:27",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Partida",
+                "evento": "El pueblo sale de Elim hacia el desierto de Sin para recibir el Maná.",
+                "referencia": "Éxodo 16:1",
+                "vinculo_id": "pueblo-israel"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["marah", "desierto-de-sin", "monte-sinai"],
+            "personajes_relacionados": ["moises", "aaron"],
+            "estudios": ["el-descanso-del-creyente", "numerologia-biblica"]
+        },
+        "gamificacion": {
+            "xp_lectura": 160,
+            "logro_id": "reposo-del-peregrino"
+        }
+      },
+      {
+        "id": "desierto-de-sin",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.8, 33.3],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d4b483"
+        },
+        "perfil": {
+            "nombre": "Desierto de Sin",
+            "titulo_corto": "El Campo del Maná",
+            "significado_nombre": "Probablemente relacionado con 'Arcilla' o 'Cieno'",
+            "ubicacion_geografica": "Región costera entre Elim y el Monte Sinaí",
+            "clima_entorno": "Llanura árida y calurosa con poca vegetación, caracterizada por su suelo polvoriento y noches frías.",
+            "imagen_principal": "/img/lugares/mana.webp",
+            "galeria": [
+                "/img/lugares/sin-molienda.webp",
+                "/img/lugares/sin-mana-detalle.webp",
+                "/img/lugares/sin-codornices.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Números"],
+            "era_biblica": "El Éxodo (La marcha hacia el Sinaí)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "El fenómeno de la 'Maná' natural",
+            "descripcion": "En la península del Sinaí existe una secreción dulce de ciertos insectos en los arbustos de tamarisco conocida como 'man', que guarda similitudes físicas con el relato, aunque la escala y la periodicidad descritas en la Biblia señalan un evento sobrenatural único."
+        },
+        "narrativa": {
+            "resumen_epico": "Exactamente un mes después de salir de Egipto, las reservas de comida se agotaron y el desierto de Sin se llenó de murmullos. El pueblo, añorando las ollas de carne egipcias, enfrentó la realidad de su total dependencia. En respuesta, Dios desplegó un milagro diario: una fina capa de hojuelas sobre el suelo cada mañana. Durante 40 años, este desierto fue el comedor más grande del mundo, donde Dios enseñó que el hombre no vive solo de pan, sino de cada palabra que sale de Su boca.",
+            "dato_curioso": "El nombre 'Maná' proviene de la pregunta hebrea '¿Man Hu?', que significa '¿Qué es esto?', reflejando el asombro inicial del pueblo ante lo desconocido.",
+            "conexion_jesus": "Jesús se identificó como el cumplimiento de este milagro: 'Vuestros padres comieron el maná en el desierto, y murieron... Yo soy el pan vivo que descendió del cielo' (Juan 6:48-51). El maná sostenía el cuerpo, pero Cristo sostiene el alma eternamente.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el proceso de desaprendizaje de la mentalidad de esclavo. Es el lugar donde la ansiedad por el mañana debe ser reemplazada por la confianza diaria en la provisión del Padre.",
+            "fortalezas": ["Disciplina diaria", "Igualdad en la provisión", "Paciencia divina"],
+            "debilidades": ["Avaricia (intentar guardar para el día siguiente)", "Murmuración", "Nostalgia por la esclavitud"],
+            "simbologia": [
+                {
+                    "objeto": "El Maná",
+                    "significado": "Representa la Palabra de Dios; debe ser recolectada cada mañana y consumida diariamente para mantener la vida espiritual."
+                },
+                {
+                    "objeto": "Las Codornices",
+                    "significado": "Símbolo de la respuesta de Dios al deseo físico, pero también una advertencia sobre los peligros de la codicia."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La provisión de Dios es nueva cada mañana. No puedes vivir hoy con la 'comida espiritual' que recolectaste ayer.",
+            "preguntas_reflexion": [
+                "¿Estás buscando tu 'maná' (lectura y oración) todos los días, o estás tratando de vivir de experiencias pasadas?",
+                "¿Confías en que Dios te dará exactamente lo que necesitas para hoy, o te paraliza la ansiedad por el futuro?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Queja",
+                "evento": "El pueblo murmura contra Moisés por falta de comida.",
+                "referencia": "Éxodo 16:2-3",
+                "vinculo_id": "israel-pueblo"
+            },
+            {
+                "fase": "El Milagro",
+                "evento": "Dios envía codornices y comienza a caer el maná del cielo.",
+                "referencia": "Éxodo 16:13-15",
+                "vinculo_id": "jehova-jireh"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["elim", "refidim", "monte-sinai"],
+            "personajes_relacionados": ["moises", "aaron", "jesus"],
+            "estudios": ["el-pan-de-vida", "dependencia-vs-autosuficiencia"]
+        },
+        "gamificacion": {
+            "xp_lectura": 170,
+            "logro_id": "recolector-de-bendiciones"
+        }
+      },
+      {
+        "id": "monte-sinai",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.5397, 33.975],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#2c3e50"
+        },
+        "perfil": {
+            "nombre": "Monte Sinaí",
+            "titulo_corto": "La Cumbre del Pacto",
+            "significado_nombre": "Probablemente 'Monte de Sin' (dios lunar) o 'Zarza' (Senah)",
+            "ubicacion_geografica": "Sur de la Península del Sinaí, Egipto",
+            "clima_entorno": "Ambiente de alta montaña desértica; cumbres escarpadas de granito que se tornan púrpuras con la luz del atardecer.",
+            "imagen_principal": "/img/lugares/sinai.webp",
+            "galeria": [
+                "/img/lugares/sinai-tablas-ley.webp",
+                "/img/lugares/sinai-becerro-oro.webp",
+                "/img/lugares/sinai-rostro-moises.webp",
+                "/img/lugares/sinai-nube-fuego.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Levítico", "Gálatas"],
+            "era_biblica": "La Entrega de la Ley (Constitución de Israel)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Jebel Musa (Montaña de Moisés)",
+            "descripcion": "Aunque existen varias teorías sobre su ubicación exacta, la tradición cristiana desde el siglo IV ha identificado este pico como el Sinaí. En su base se encuentra una de las bibliotecas más antiguas del mundo dentro del Monasterio de Santa Catalina."
+        },
+        "narrativa": {
+            "resumen_epico": "Tres meses después de la salida de Egipto, Israel llegó a este coloso de piedra. El monte se convirtió en el punto de contacto entre el cielo y la tierra. Envuelto en humo, fuego y el sonido de una bocina sobrenatural, Dios descendió para hablar con Su pueblo. No fue solo una entrega de leyes, sino la firma de un pacto de sangre donde Israel se convirtió en 'un reino de sacerdotes y gente santa'. Aquí, el Creador escribió con Su propio dedo las bases morales de la civilización.",
+            "dato_curioso": "El monte Sinaí es mencionado más de 30 veces en la Biblia, siendo el lugar donde Moisés pasó un total de 80 días en presencia directa de Dios.",
+            "conexion_jesus": "Mientras que en el Sinaí Dios bajó a una montaña para dar una Ley que expone el pecado, en el Calvario (otro monte) Dios bajó a una cruz para dar la Gracia que quita el pecado. Jesús es el mediador de un nuevo y mejor pacto, no escrito en tablas de piedra, sino en los corazones (Hebreos 12:18-24).",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el temor reverente y la santidad absoluta. Es el lugar de la identidad: Israel dejó de ser una multitud de esclavos para ser el pueblo del pacto. Marca el límite entre lo humano y lo divino.",
+            "fortalezas": ["Claridad moral", "Presencia manifiesta de Dios", "Orden social"],
+            "debilidades": ["Distancia entre el hombre pecador y Dios", "Rigidez de la ley sin gracia", "Vulnerabilidad al ídolo (Becerro de Oro)"],
+            "simbologia": [
+                {
+                    "objeto": "Las Tablas de Piedra",
+                    "significado": "Representan la permanencia e inmutabilidad de la voluntad moral de Dios."
+                },
+                {
+                    "objeto": "El Humo y el Fuego",
+                    "significado": "Símbolos de la santidad purificadora de Dios que no puede ser abordada sin mediación."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "La santidad no es una opción, es el requisito para habitar con Dios. Sin embargo, Su ley no es para esclavizarnos, sino para que vivamos en verdadera libertad.",
+            "preguntas_reflexion": [
+                "¿Estás construyendo tu vida sobre los principios eternos revelados en el Sinaí, o según tus propias reglas?",
+                "¿Te acercas a Dios con el respeto y la reverencia que Su majestad merece?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Teofanía",
+                "evento": "Dios desciende sobre el monte y proclama los Diez Mandamientos.",
+                "referencia": "Éxodo 19 y 20",
+                "vinculo_id": "diez-mandamientos"
+            },
+            {
+                "fase": "El Pacto",
+                "evento": "Moisés rocía la sangre del pacto sobre el altar y el pueblo.",
+                "referencia": "Éxodo 24:8",
+                "vinculo_id": "pacto-sinaitico"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-horeb", "refidim", "el-tabernaculo"],
+            "personajes_relacionados": ["moises", "josue", "aaron"],
+            "estudios": ["la-ley-y-la-gracia", "los-diez-mandamientos"]
+        },
+        "gamificacion": {
+            "xp_lectura": 350,
+            "logro_id": "pactante-del-reino"
+        }
+      },
+      {
+        "id": "el-tabernaculo",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.55, 34.0],
+            "zoom": 13,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#f1c40f"
+        },
+        "perfil": {
+            "nombre": "El Tabernáculo",
+            "titulo_corto": "La Morada de la Gloria",
+            "significado_nombre": "Tienda de Reunión o Santuario (Mishkán)",
+            "ubicacion_geografica": "Al pie del Monte Sinaí (ubicación inicial)",
+            "clima_entorno": "Estructura diseñada para ser transportada a través del desierto árido, protegida por pieles y tejidos finos.",
+            "imagen_principal": "/img/lugares/tabernaculo.webp",
+            "galeria": [
+                "/img/lugares/lugar-santisimo.webp",
+                "/img/lugares/menorah-oro.webp",
+                "/img/lugares/mesa-panes.webp",
+                "/img/lugares/arca-pacto.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Levítico", "Hebreos"],
+            "era_biblica": "El Éxodo / Peregrinación en el desierto"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Dimensiones del Atrio en Tel Shiloh",
+            "descripcion": "En las excavaciones de Silo se han encontrado huellas de agujeros para postes en la roca que coinciden con las dimensiones bíblicas del Tabernáculo, lugar donde el santuario descansó por más de 300 años tras la conquista."
+        },
+        "narrativa": {
+            "resumen_epico": "Más que una tienda, el Tabernáculo fue un mapa físico de la redención. Construido con los tesoros que Israel sacó de Egipto, cada material —oro, plata, bronce y maderas preciosas— tenía un propósito teológico. Cuando se terminó, la Nube de Gloria (Shekinah) descendió con tal peso que ni Moisés podía entrar. A partir de ese momento, Dios no solo estaba 'arriba' en el Sinaí, sino 'en medio' de las doce tribus, guiando cada paso de su marcha.",
+            "dato_curioso": "El Tabernáculo siempre se orientaba hacia el Este, y las tribus acampaban a su alrededor en un orden específico, formando visualmente una cruz si se observa desde las alturas según el número de personas por tribu.",
+            "conexion_jesus": "El Evangelio de Juan dice que Jesús 'tabernaculizó' entre nosotros (Juan 1:14). El Tabernáculo es la sombra de Cristo: Él es la única puerta, el pan de vida (proposición), la luz del mundo (candelabro), nuestro intercesor (incienso) y el sacrificio final (altar).",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la reconciliación y el acceso restringido pero posible a la presencia de Dios. Simboliza el orden divino en medio del caos del desierto y la seguridad de ser guiados por una inteligencia superior.",
+            "fortalezas": ["Presencia real de Dios", "Unidad nacional", "Sistema de perdón (sacrificios)"],
+            "debilidades": ["Peligro de muerte por impureza", "Mantenimiento complejo", "Temporalidad (tienda móvil)"],
+            "simbologia": [
+                {
+                    "objeto": "El Arca del Pacto",
+                    "significado": "El trono de Dios en la tierra; el lugar donde la Ley y la Misericordia se encuentran bajo la sangre."
+                },
+                {
+                    "objeto": "El Velo",
+                    "significado": "La separación entre lo sagrado y lo profano, que se rasgó con la muerte de Jesús para darnos acceso total."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios desea habitar en los detalles de tu vida diaria, no solo en tus momentos de 'montaña' o éxtasis espiritual.",
+            "preguntas_reflexion": [
+                "¿Eres consciente de que bajo el Nuevo Pacto, tú eres ahora el 'Tabernáculo' del Espíritu Santo?",
+                "¿Estás cuidando el 'mobiliario' de tu corazón: tu oración (incienso), tu alimentación de la Palabra (pan) y tu testimonio (luz)?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Instrucción",
+                "evento": "Dios entrega los planos detallados a Moisés en el monte.",
+                "referencia": "Éxodo 25-31",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Dedicación",
+                "evento": "Se levanta el Tabernáculo y la gloria de Jehová lo llena.",
+                "referencia": "Éxodo 40:34-38",
+                "vinculo_id": "shekinah"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-sinai", "silo", "jerusalen-sion"],
+            "personajes_relacionados": ["moises", "bezaleel", "aaron"],
+            "estudios": ["tipologia-del-santuario", "la-gloria-postrera"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "arquitecto-espiritual"
+        }
+      },
+      {
+        "id": "refidim",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.71, 33.65],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Refidim",
+            "titulo_corto": "La Peña de Horeb",
+            "significado_nombre": "Lugares de descanso o Apoyos",
+            "ubicacion_geografica": "Wadi Feiran, Península del Sinaí",
+            "clima_entorno": "Valle desértico rodeado de montañas imponentes, conocido hoy como la 'Perla del Sinaí' por su oasis.",
+            "imagen_principal": "/img/lugares/refidim.webp",
+            "galeria": [
+                "/img/lugares/peña-moises.webp",
+                "/img/lugares/sed-alivio.webp",
+                "/img/lugares/refidim-manos-alzadas.webp",
+                "/img/lugares/refidim-altar-nissi.webp",
+                "/img/lugares/refidim-batalla-amalec.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Números"],
+            "era_biblica": "El Éxodo (Previo al Sinaí)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Wadi Feiran",
+            "descripcion": "Un oasis extenso que encaja con la descripción bíblica de un lugar capaz de albergar una gran multitud y que fue escenario de la primera gran batalla de Israel como pueblo libre."
+        },
+        "narrativa": {
+            "resumen_epico": "Refidim fue un lugar de contrastes extremos. Ante la falta de agua, el pueblo estuvo a punto de apedrear a Moisés, pero Dios ordenó golpear la roca de la cual brotó un río de vida. Poco después, las sombras de la guerra aparecieron con Amalec. Mientras Josué luchaba en el valle, Moisés sostenía la vara en la cumbre; cuando sus manos caían, Israel perdía. La victoria se ganó mediante la intercesión y el apoyo de Aarón y Hur, quienes sostuvieron los brazos del líder.",
+            "dato_curioso": "Moisés construyó un altar aquí y lo llamó 'Jehová-Nissi' (El Señor es mi Bandera).",
+            "conexion_jesus": "La roca golpeada es Cristo. San Pablo dice en 1 Corintios 10:4: 'y la roca era Cristo'. Así como la roca tuvo que ser golpeada para dar agua, Jesús fue herido para que de Él brotara el Espíritu Santo para nosotros."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la transición de la queja a la guerra espiritual. Es el lugar donde se aprende que la victoria no depende solo de la espada (Josué), sino de la intercesión (Moisés).",
+            "fortalezas": ["Unidad en la batalla", "Provisión sobrenatural", "Surgimiento de nuevos líderes"],
+            "debilidades": ["Murmuración (Masa y Meriba)", "Tentación de tentar a Dios"],
+            "simbologia": [
+                {
+                    "objeto": "La Roca",
+                    "significado": "La estabilidad de Dios que provee vida en medio de la aridez."
+                },
+                {
+                    "objeto": "Las manos alzadas",
+                    "significado": "La intercesión constante que asegura la victoria sobre el enemigo."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu victoria se decide en tu vida de oración (la montaña) antes de manifestarse en tus circunstancias (el valle).",
+            "preguntas_reflexion": [
+                "¿Quiénes son el 'Aarón' y el 'Hur' en tu vida que sostienen tus manos cuando te cansas?",
+                "¿Estás golpeando la roca de la duda o bebiendo del agua de la fe?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Milagro",
+                "evento": "Moisés golpea la peña en Horeb y sale agua para el pueblo.",
+                "referencia": "Éxodo 17:6",
+                "vinculo_id": "moises"
+            },
+            {
+                "fase": "La Batalla",
+                "evento": "Derrota de Amalec mediante la intercesión en el monte.",
+                "referencia": "Éxodo 17:11-13",
+                "vinculo_id": "josue"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-sinai", "desierto-de-sin"],
+            "personajes_relacionados": ["moises", "josue", "aaron", "hur"],
+            "estudios": ["la-intercesion", "cristo-nuestra-roca"]
+        },
+        "gamificacion": {
+            "xp_lectura": 180,
+            "logro_id": "brazos-firmes"
+        }
+      },
+      {
+        "id": "valle-becerro-oro",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.53, 33.97],
+            "zoom": 14,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e74c3c"
+        },
+        "perfil": {
+            "nombre": "Valle del Becerro de Oro",
+            "titulo_corto": "La Ruptura del Pacto",
+            "significado_nombre": "Lugar de la Apostasía",
+            "ubicacion_geografica": "Llanura de Er-Raha, al pie del Monte Sinaí",
+            "clima_entorno": "Llanura amplia capaz de albergar a cientos de miles de personas frente a la montaña.",
+            "imagen_principal": "/img/lugares/becerro.webp",
+            "galeria": [
+                "/img/lugares/moises-tablas-rotas.webp",
+                "/img/lugares/ofrenda-idolatrica.webp",
+                "/img/lugares/castigo-levitas.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Éxodo", "Salmos", "Hechos"],
+            "era_biblica": "La Entrega de la Ley"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Inscripciones y altares antiguos",
+            "descripcion": "En la llanura de Er-Raha existen restos de altares que la tradición asocia con el lugar donde se colocó el ídolo. La amplitud del valle confirma que el pueblo podía ver la gloria de Dios en la cumbre mientras pecaba en la base."
+        },
+        "narrativa": {
+            "resumen_epico": "Mientras la gloria de Dios envolvía la cumbre del Sinaí, el valle se hundía en la desesperación y la idolatría. Creyendo que Moisés había muerto, el pueblo presionó a Aarón para que les hiciera un dios visible. Con el oro de Egipto fundieron un becerro y proclamaron: 'Estos son tus dioses'. El contraste es brutal: arriba, Dios escribía el mandamiento 'No tendrás dioses ajenos'; abajo, el pueblo lo quebrantaba. Moisés descendió, rompió las tablas originales y el valle fue testigo de un juicio severo y una intercesión desesperada.",
+            "dato_curioso": "Moisés molió el becerro de oro hasta hacerlo polvo, lo esparció en el agua y obligó al pueblo a beberlo, simbolizando que debían cargar con las consecuencias de su pecado.",
+            "conexion_jesus": "Moisés intercede por el pueblo ofreciendo su propia vida si Dios no los perdona. Esto prefigura a Jesús, quien no solo ofreció Su vida, sino que la entregó realmente para que el juicio por nuestra idolatría no cayera sobre nosotros."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la impaciencia y la fragilidad del corazón humano. Es el recordatorio de que podemos estar cerca de lo sagrado y aun así elegir lo profano.",
+            "fortalezas": ["La intercesión de un mediador", "El celo de los Levitas"],
+            "debilidades": ["Miedo al silencio de Dios", "Influencia cultural egipcia", "Liderazgo débil (Aarón)"],
+            "simbologia": [
+                {
+                    "objeto": "El Becerro de Oro",
+                    "significado": "Representa la religión hecha a imagen y semejanza del hombre; la comodidad de lo visible frente a la fe en lo invisible."
+                },
+                {
+                    "objeto": "Las Tablas Rotas",
+                    "significado": "Símbolo de que el pecado rompe la relación legal y el pacto con Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu impaciencia ante el silencio de Dios puede empujarte a fabricar tus propios 'ídolos' de seguridad.",
+            "preguntas_reflexion": [
+                "¿Qué 'oro' estás fundiendo hoy para reemplazar la presencia de Dios en tu vida?",
+                "¿Eres capaz de esperar en el valle cuando Dios parece tardar en la montaña?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Apostasía",
+                "evento": "El pueblo fabrica el becerro mientras Moisés está en la cumbre.",
+                "referencia": "Éxodo 32:1-6",
+                "vinculo_id": "aaron"
+            },
+            {
+                "fase": "El Juicio e Intercesión",
+                "evento": "Moisés rompe las tablas y clama por el perdón del pueblo.",
+                "referencia": "Éxodo 32:15-32",
+                "vinculo_id": "moises"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-sinai", "el-tabernaculo"],
+            "personajes_relacionados": ["moises", "aaron"],
+            "estudios": ["la-idolatria", "el-mediador-del-pacto"]
+        },
+        "gamificacion": {
+            "xp_lectura": 220,
+            "logro_id": "fiel-al-invisible"
+        }
+      },
+      {
+        "id": "campamento-israel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.545, 33.98],
+            "zoom": 13,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#27ae60"
+        },
+        "perfil": {
+            "nombre": "El Campamento de Israel",
+            "titulo_corto": "Orden en el Desierto",
+            "significado_nombre": "Machaneh (Lugar de descanso o campamento)",
+            "ubicacion_geografica": "Llanura de Er-Raha, rodeando el Tabernáculo",
+            "clima_entorno": "Estructura social masiva organizada por clanes y tribus, con pasillos de circulación y áreas de purificación.",
+            "imagen_principal": "/img/lugares/campamento.webp",
+            "galeria": [
+                "/img/lugares/campamento-tienda-detalle.webp",
+                "/img/lugares/campamento-tribus-estandartes.webp",
+                "/img/lugares/campamento-tribus-estandartes1.webp",
+                "/img/lugares/campamento-tribus-estandartes2.webp",
+                "/img/lugares/campamento-noche-fuego.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Levítico", "Números"],
+            "era_biblica": "Peregrinación en el desierto"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Estructura de campamento nómada",
+            "descripcion": "Aunque las tiendas no dejan rastro, el patrón de organización de las doce tribus rodeando un centro sagrado ha sido estudiado como un modelo de eficiencia logística y militar único en el mundo antiguo."
+        },
+        "narrativa": {
+            "resumen_epico": "Levítico nos muestra que Dios es un Dios de orden. El campamento estaba organizado con precisión quirúrgica: el Tabernáculo en el centro, rodeado inmediatamente por los Levitas y sacerdotes, y luego las doce tribus en cuatro grupos de tres. Esta disposición aseguraba que cada israelita, al despertar y abrir su tienda, viera primero la columna de nube o fuego. El campamento era un espacio sagrado; la pureza no era solo ritual, sino una forma de vida para que la presencia de Dios pudiera permanecer entre ellos.",
+            "dato_curioso": "Se estima que el campamento ocupaba varios kilómetros cuadrados para albergar a más de dos millones de personas, funcionando como una ciudad móvil perfectamente coordinada.",
+            "conexion_jesus": "El campamento prefigura a la Iglesia: una comunidad diversa unida por un solo centro, que es la presencia de Dios. Así como los leprosos eran sanados para volver al campamento, Jesús restaura al marginado para que forme parte de la familia de Dios.",
+            "imagen_de_apoyo": "[Visual representation of the 12 tribes arranged by banners: Judah, Reuben, Ephraim, and Dan as leaders of each side]"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la seguridad de pertenecer a una comunidad con propósito. Transmite paz a través del orden y la cercanía de la protección divina.",
+            "fortalezas": ["Unidad estructural", "Identidad clara por tribus", "Presencia divina centralizada"],
+            "debilidades": ["Dificultad para mantener la pureza", "Riesgo de contagio de murmullos"],
+            "simbologia": [
+                {
+                    "objeto": "Las Banderas (Estandartes)",
+                    "significado": "Representan la identidad y el lugar específico que cada persona tiene en el plan de Dios."
+                },
+                {
+                    "objeto": "La Puerta del Campamento",
+                    "significado": "El límite entre la comunidad del pacto y el mundo exterior desordenado."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu vida solo encuentra verdadero orden cuando Dios ocupa el centro exacto de tus prioridades.",
+            "preguntas_reflexion": [
+                "¿Estás ocupando el lugar que Dios te asignó en 'el campamento' o estás tratando de estar en la tienda de otro?",
+                "¿Qué hay en el centro de tu vida hoy: tus propios intereses o la presencia de Dios?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "Organización",
+                "evento": "Dios ordena el censo y la posición de cada tribu.",
+                "referencia": "Números 2 (Contexto de Levítico)",
+                "vinculo_id": "doce-tribus"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["el-tabernaculo", "desierto-azazel"],
+            "personajes_relacionados": ["moises", "aaron"],
+            "estudios": ["el-orden-teocratico", "la-vida-en-santidad"]
+        },
+        "gamificacion": {
+            "xp_lectura": 200,
+            "logro_id": "ciudadano-de-israel"
+        }
+      },
+      {
+        "id": "desierto-azazel",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.51, 33.92],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#7f8c8d"
+        },
+        "perfil": {
+            "nombre": "El Desierto (Lugar de Azazel)",
+            "titulo_corto": "El Olvido del Pecado",
+            "significado_nombre": "Azazel: El chivo que se va o el emisario",
+            "ubicacion_geografica": "Zonas áridas y deshabitadas fuera de los límites del campamento de Israel",
+            "clima_entorno": "Tierra yerma, inhóspita y solitaria, simbolizando la separación de la vida y la presencia de Dios.",
+            "imagen_principal": "/img/lugares/azazel.webp",
+            "galeria": [
+                "/img/lugares/azazel-chivo-expiatorio.webp",
+                "/img/lugares/azazel-hilo-escarlata.webp",
+                "/img/lugares/azazel-desolacion-absoluta.webp",
+                "/img/lugares/fuera-del-campamento.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Levítico"],
+            "era_biblica": "Día de la Expiación (Yom Kippur)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Tradición del precipicio",
+            "descripcion": "Aunque es una ubicación móvil, la tradición posterior en Jerusalén identificaba un monte llamado 'Azazel' en el desierto de Judea, donde el animal era llevado para asegurar que el pecado no regresara nunca al pueblo."
+        },
+        "narrativa": {
+            "resumen_epico": "Una vez al año, en el día más sagrado de Israel, se presentaban dos machos cabríos. Uno era sacrificado, pero sobre el otro, el Sumo Sacerdote ponía sus manos y confesaba todos los pecados de la nación. Este animal, el 'chivo expiatorio', era llevado por un hombre designado hacia lo profundo del desierto, a un lugar deshabitado. Al verlo perderse en el horizonte, el pueblo entendía visualmente que Dios no solo perdonaba sus pecados, sino que los alejaba de ellos para siempre. Era el lugar donde el pasado moría.",
+            "dato_curioso": "El término 'Azazel' ha generado mucho debate; algunos creen que es el nombre de un lugar escarpado, otros que se refiere al espíritu del desierto, pero su función siempre fue la eliminación del pecado.",
+            "conexion_jesus": "Jesús es nuestro Azazel definitivo. Hebreos 13:12 dice que Jesús sufrió 'fuera de la puerta' (fuera del campamento) para santificar al pueblo. Él cargó con nuestros pecados y los llevó a un lugar donde Dios 'nunca más se acordará de ellos'.",
+            "imagen_de_apoyo": "[Illustration of a solitary goat being led into a rocky canyon by a single man under a vast desert sky]"
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Transmite una mezcla de alivio y solemnidad. Es la paz que viene después de la confesión; la liberación de la carga que ya no nos pertenece.",
+            "fortalezas": ["Libertad total de la culpa", "Renovación nacional"],
+            "debilidades": ["Soledad extrema", "Exclusión"],
+            "simbologia": [
+                {
+                    "objeto": "El Macho Cabrío Emisario",
+                    "significado": "Representa la eliminación total de la culpa y la remoción del pecado de la vista de Dios."
+                },
+                {
+                    "objeto": "Las Manos del Sacerdote",
+                    "significado": "Símbolo de la transferencia de la culpa del pecador al sustituto."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios no solo perdona tu pecado; lo envía tan lejos de ti como está el oriente del occidente.",
+            "preguntas_reflexion": [
+                "¿Sigues tratando de traer de vuelta al campamento pecados que Dios ya envió al desierto?",
+                "¿Confías plenamente en que la obra de Cristo ha borrado tu pasado por completo?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Expiación",
+                "evento": "Ritual anual donde el pecado de Israel es enviado al desierto.",
+                "referencia": "Levítico 16:20-22",
+                "vinculo_id": "yom-kippur"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["el-tabernaculo", "campamento-israel"],
+            "personajes_relacionados": ["aaron", "jesua-sacerdote"],
+            "estudios": ["el-dia-de-la-expiacion", "sustitucion-y-redencion"]
+        },
+        "gamificacion": {
+            "xp_lectura": 220,
+            "logro_id": "libre-de-carga"
+        }
+      },
+      {
+        "id": "puerta-del-atrio",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.5501, 34.0005],
+            "zoom": 15,
+            "icono_mapa": "../img/ui/markers/evento-biblico.svg",
+            "marcador_color": "#e74c3c"
+        },
+        "perfil": {
+            "nombre": "Puerta del Atrio",
+            "titulo_corto": "El Umbral de la Santidad",
+            "significado_nombre": "Entrada al Tabernáculo",
+            "ubicacion_geografica": "Costado oriental del Tabernáculo, frente al Campamento",
+            "clima_entorno": "Espacio abierto de reunión masiva donde se congregaba toda la congregación para los ritos públicos.",
+            "imagen_principal": "/img/lugares/puerta-atrio.webp"
+        },
+        "narrativa": {
+            "resumen_epico": "Este no es solo un punto de acceso, es el lugar de los contrastes. Aquí, bajo la mirada de todo Israel, Aarón y sus hijos fueron lavados y vestidos con ropas de gloria para servir a Dios. Pero también aquí, el fuego de la santidad divina salió para consumir a Nadab y Abiú cuando ofrecieron 'fuego extraño'. La Puerta del Atrio enseña que Dios desea que nos acerquemos, pero que Su santidad no puede ser tratada con ligereza.",
+            "conexion_jesus": "Jesús dijo: 'Yo soy la puerta; el que por mí entrare, será salvo' (Juan 10:9). Él es el único acceso al lugar santísimo, el único que no ofreció 'fuego extraño', sino que se ofreció a sí mismo como el sacrificio perfecto."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Transmite una mezcla de solemne temor y esperanza. Es el lugar de la rendición de cuentas.",
+            "simbologia": [
+                {
+                    "objeto": "El Aceite de la Unción",
+                    "significado": "Representa la capacitación del Espíritu Santo para el servicio."
+                },
+                {
+                    "objeto": "El Incensario",
+                    "significado": "Representa la oración; si no nace del fuego del altar de Dios, es rechazada."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No puedes servir a Dios a tu manera; debes hacerlo según Su diseño y con un corazón reverente.",
+            "preguntas_reflexion": [
+                "¿Estás tratando de acercarte a Dios bajo tus propias reglas o bajo las de Él?",
+                "¿Hay 'fuego extraño' (motivaciones falsas) en tu servicio hoy?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Consagración",
+                "evento": "Aarón y sus hijos son instalados en el sacerdocio.",
+                "referencia": "Levítico 8",
+                "vinculo_id": "aaron"
+            },
+            {
+                "fase": "El Juicio",
+                "evento": "Muerte de Nadab y Abiú por ofrecer fuego extraño.",
+                "referencia": "Levítico 10",
+                "vinculo_id": "nadab-abiu"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["el-tabernaculo", "campamento-israel"],
+            "personajes_relacionados": ["aaron", "moises", "nadab-y-abiu"]
+        },
+        "gamificacion": {
+            "xp_lectura": 210,
+            "logro_id": "sacerdote-del-altar"
+        }
+      },
+      {
+        "id": "cades-barnea",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [30.648, 34.421],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Cades-barnea",
+            "titulo_corto": "El Umbral del Gigante",
+            "significado_nombre": "Lugar Santo del Desierto de la Huida",
+            "ubicacion_geografica": "Frontera sur de Canaán, en el desierto de Parán",
+            "clima_entorno": "Un gran oasis con manantiales perennes rodeado de un desierto inhóspito.",
+            "imagen_principal": "/img/lugares/cades.webp",
+            "galeria": [
+                "/img/lugares/manantial-cades.webp",
+                "/img/lugares/espias-ciudades-amuralladas.webp",
+                "/img/lugares/el-fruto-de-escol.webp",
+                "/img/lugares/la-rebelion-nocturna.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Números", "Deuteronomio", "Josué"],
+            "era_biblica": "Peregrinación en el desierto (Año 2 y Año 40)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Ein el-Qudeirat",
+            "descripcion": "El oasis más grande del norte del Sinaí, donde se han hallado restos de fortalezas que datan de la Edad del Hierro, confirmando su importancia estratégica como puesto fronterizo."
+        },
+        "narrativa": {
+            "resumen_epico": "Cades-barnea es el escenario de la mayor tragedia de fe en el Códice. Aquí, Israel envió a 12 espías a Canaán. Diez regresaron con miedo, viendo gigantes donde Dios había prometido victoria; solo Josué y Caleb vieron la promesa. El llanto del pueblo esa noche ante la 'imposibilidad' resultó en una sentencia divina de 40 años de vagabundeo. Lo que debía ser una parada de días se convirtió en la sala de espera donde murió toda una generación.",
+            "dato_curioso": "Cades fue el 'hogar' de Israel durante la mayor parte de sus 40 años en el desierto. Aquí también murió y fue sepultada Miriam, la hermana de Moisés.",
+            "conexion_jesus": "Cades representa el descanso que no pudieron alcanzar por incredulidad. Hebreos 4 nos advierte que no hagamos lo mismo, pues Jesús es el 'Caleb' que ya entró y nos invita a entrar en el verdadero reposo de Dios sin temor a los 'gigantes'.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el conflicto entre la vista y la fe. Es un lugar de luto y de lecciones duras sobre las consecuencias de la incredulidad.",
+            "fortalezas": ["Recurso hídrico vital", "Posición estratégica"],
+            "debilidades": ["Mentalidad de esclavo persistente", "Miedo al conflicto"],
+            "simbologia": [
+                {
+                    "objeto": "El Fruto de la Tierra",
+                    "significado": "Representa la bondad de la promesa que está al alcance de la mano pero requiere valentía."
+                },
+                {
+                    "objeto": "Los Gigantes (Anaceos)",
+                    "significado": "Símbolo de los obstáculos que parecen mayores que la Palabra de Dios cuando nos miramos a nosotros mismos."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu percepción de los obstáculos depende de cuánto confíes en el Dios que te envió. No dejes que el miedo a los 'gigantes' te robe tu herencia.",
+            "preguntas_reflexion": [
+                "¿Eres de los 10 que ven problemas o de los 2 que ven oportunidades en Dios?",
+                "¿Estás hoy en la frontera de una decisión importante? ¿Vas a entrar por fe o vas a retroceder al desierto?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Rebelión",
+                "evento": "Informe de los espías y rechazo del pueblo a entrar en la tierra.",
+                "referencia": "Números 13 y 14",
+                "vinculo_id": "los-doce-espias"
+            },
+            {
+                "fase": "La Sentencia",
+                "evento": "Dios decreta 40 años de peregrinación.",
+                "referencia": "Números 14:33-34",
+                "vinculo_id": "juicio-desierto"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-sinai", "rio-jordan-bautismo"],
+            "personajes_relacionados": ["moises", "josue", "caleb", "miriam"]
+        },
+        "gamificacion": {
+            "xp_lectura": 250,
+            "logro_id": "vencedor-de-gigantes"
+        }
+      },
+      {
+        "id": "kibrot-hataava",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [28.9, 34.2],
+            "zoom": 10,
+            "icono_mapa": "../img/ui/markers/evento-biblico.svg",
+            "marcador_color": "#d35400"
+        },
+        "perfil": {
+            "nombre": "Kibrot-hataava",
+            "titulo_corto": "Los Sepulcros de la Codicia",
+            "significado_nombre": "Tumbas del deseo o de la codicia",
+            "ubicacion_geografica": "Desierto de Parán, a tres días de camino desde el Sinaí",
+            "clima_entorno": "Llanura desértica expuesta a vientos fuertes, donde las aves migratorias suelen descansar.",
+            "imagen_principal": "/img/lugares/codicia.webp",
+            "galeria": [
+                "/img/lugares/codornices-caida.webp", 
+                "/img/lugares/el-banquete-fatal.webp", 
+                "/img/lugares/las-tumbas-del-desierto.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Números", "Salmos"],
+            "era_biblica": "Peregrinación en el desierto (Año 2)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Rutas de migración de codornices",
+            "descripcion": "Se ha documentado que grandes bandadas de codornices cruzan el Mar Rojo y caen exhaustas en esta zona del Sinaí, lo que aporta una base naturalista al fenómeno, aunque la escala y el tiempo descritos en el Códice subrayan la intervención divina."
+        },
+        "narrativa": {
+            "resumen_epico": "Apenas tres días después de dejar la santidad del Sinaí, el pueblo permitió que la nostalgia por Egipto infectara su presente. Menospreciaron el Maná y exigieron carne con llanto y gritos. Dios, en Su justicia, envió un viento que trajo nubes de codornices. Pero la bendición se convirtió en veneno para los que la pidieron con el corazón torcido. Mientras la carne aún estaba en sus bocas, una plaga los hirió. El lugar se convirtió en un cementerio masivo, recordándonos que el deseo descontrolado es el camino más rápido a la tumba espiritual.",
+            "dato_curioso": "Moisés estaba tan abrumado por la queja del pueblo que pidió a Dios que le quitara la vida; fue aquí donde Dios repartió Su espíritu sobre 70 ancianos para ayudarle.",
+            "conexion_jesus": "Mientras que Israel murió por comer carne en desobediencia, Jesús nos invita a 'comer su carne' (creer en Su sacrificio) para tener vida eterna. Él es el pan que satisface el deseo que las codornices de este mundo nunca podrán llenar."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la insatisfacción crónica. Es el sentimiento de que lo que Dios da 'no es suficiente' y la creencia de que la felicidad está en lo que perdimos en el pasado.",
+            "fortalezas": ["Alivio de la carga de Moisés", "Justicia divina"],
+            "debilidades": ["Murmuración", "Codicia desenfrenada", "Memoria selectiva del pasado"],
+            "simbologia": [
+                {
+                    "objeto": "Las Codornices",
+                    "significado": "Representan los deseos mundanos que, cuando se obtienen fuera de la voluntad de Dios, asfixian la vida espiritual."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No dejes que lo que deseas te haga olvidar lo que ya tienes. La gratitud es el único antídoto contra la codicia.",
+            "preguntas_reflexion": [
+                "¿Estás pidiendo algo hoy que, de recibirlo, te alejaría de la presencia de Dios?",
+                "¿Es tu oración un diálogo de gratitud o una lista de exigencias?"
+            ]
+        },
+        "linea_tiempo": [
+            { "fase": "La Queja", "evento": "El populacho incita a Israel a llorar por carne.", "referencia": "Números 11:4-6" },
+            { "fase": "La Provisión y Juicio", "evento": "Dios envía aves y una plaga posterior.", "referencia": "Números 11:31-33" }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-sinai"],
+            "personajes_relacionados": ["moises"],
+            "estudios": ["el-peligro-de-la-queja", "el-corazon-agradecido"]
+        },
+        "gamificacion": { "xp_lectura": 175, "logro_id": "corazon-saciado" }
+      },
+      {
+        "id": "camino-de-edom",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [30.2, 35.4],
+            "zoom": 9,
+            "icono_mapa": "../img/ui/markers/milagro.svg",
+            "marcador_color": "#c0392b"
+        },
+        "perfil": {
+            "nombre": "Camino de Edom (Punón)",
+            "titulo_corto": "El Madero de la Sanidad",
+            "significado_nombre": "Edom: Rojo / Punón: Oscuridad o Distracción",
+            "ubicacion_geografica": "Región de las minas de cobre de la antigua Edom (actual Jordania)",
+            "clima_entorno": "Terreno extremadamente rocoso y árido, con altas temperaturas y presencia de reptiles venenosos.",
+            "imagen_principal": "/img/lugares/serpiente-bronce.webp",
+            "galeria": [
+                "/img/lugares/minas-cobre.webp",
+                "/img/lugares/minero-rostro-cansado.webp",
+                "/img/lugares/horno-fundicion-cobre.webp",
+                "/img/lugares/herramientas-lingotes-cobre.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Números", "Juan", "2 Reyes"],
+            "era_biblica": "Final de la Peregrinación (Año 40)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Minas de Cobre de Timna y Punón",
+            "descripcion": "La zona es rica en minerales de cobre. Se han hallado pequeñas figuras de serpientes de bronce en santuarios mineros de la época, lo que contextualiza el uso del material por parte de Moisés."
+        },
+        "narrativa": {
+            "resumen_epico": "El camino era largo y el alma del pueblo se desanimó. Nuevamente, la lengua de Israel se levantó contra Dios. El juicio vino en forma de serpientes ardientes que invadieron el campamento. Ante el arrepentimiento, Dios no eliminó las serpientes, sino que dio una solución contraintuitiva: Moisés debía forjar una serpiente de bronce —la imagen misma del juicio— y elevarla en un asta. El milagro no estaba en la medicina, sino en la mirada: 'todo aquel que mirare, vivirá'. Fue la demostración de que la salvación es un acto de fe ante una provisión divina levantada.",
+            "dato_curioso": "El bronce en la Biblia simboliza el juicio. Al poner la serpiente (pecado) en bronce (juicio), Dios estaba profetizando el juicio del pecado sobre un madero.",
+            "conexion_jesus": "Jesús usó este lugar como la explicación definitiva de Su misión. Así como la serpiente fue levantada para salvar del veneno físico, Jesús fue levantado en la cruz para salvar del veneno eterno del pecado. La salvación es 'mirar y vivir'."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Muestra la desesperación humana encontrándose con la gracia inesperada. Simboliza que la solución a nuestro pecado debe venir de fuera de nosotros mismos.",
+            "fortalezas": ["Gracia disponible para todos", "Simplicidad del método (mirar)"],
+            "debilidades": ["Desánimo por el cansancio", "Tendencia a la queja"],
+            "simbologia": [
+                { "objeto": "La Serpiente de Bronce", "significado": "Cristo hecho pecado por nosotros." },
+                { "objeto": "El Asta", "significado": "La Cruz del Calvario, el lugar de exposición pública del juicio." }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No mires tus heridas (tus pecados); mira a Aquel que fue levantado para sanarlas.",
+            "preguntas_reflexion": [
+                "¿Estás tratando de succionar tu propio veneno (limpiar tus pecados por obras) o estás mirando al Salvador?",
+                "¿Tu desánimo en el camino te está haciendo hablar contra el Dios que te guía?"
+            ]
+        },
+        "linea_tiempo": [
+            { "fase": "El Juicio", "evento": "Aparición de las serpientes ardientes.", "referencia": "Números 21:6" },
+            { "fase": "La Salvación", "evento": "Moisés levanta la serpiente de bronce.", "referencia": "Números 21:8-9" }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-sion"],
+            "personajes_relacionados": ["moises", "jesus", "ezequias"],
+            "estudios": ["tipologia-de-la-cruz", "mirar-y-vivir"]
+        },
+        "gamificacion": { "xp_lectura": 230, "logro_id": "mirada-de-fe" }
+      },
+      {
+        "id": "campos-de-moab",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.8, 35.7],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#8e44ad"
+        },
+        "perfil": {
+            "nombre": "Campos de Moab (Sitim)",
+            "titulo_corto": "La Última Frontera",
+            "significado_nombre": "Sitim: Lugar de las Acacias",
+            "ubicacion_geografica": "Llanuras fértiles al este del río Jordán, frente a Jericó",
+            "clima_entorno": "Clima tropical húmedo debido a la cercanía del valle del Jordán, con abundante vegetación.",
+            "imagen_principal": "/img/lugares/campos-moab.webp",
+            "galeria": [
+                "/img/lugares/rio-jordan-sitim.webp",
+                "/img/lugares/balaam-monte-peor.webp",
+                "/img/lugares/el-asna-de-balaam.webp",
+                "/img/lugares/baal-peor-el-idolo.webp",
+                "/img/lugares/monte-nebo-vista.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Números", "Josué", "Miqueas"],
+            "era_biblica": "Fin de la Peregrinación / Vísperas de la Conquista"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Inscripciones de Deir Alla",
+            "descripcion": "Se han hallado textos en Jordania que mencionan a 'Balaam, hijo de Beor', confirmando la existencia histórica del profeta mencionado en este escenario bíblico."
+        },
+        "narrativa": {
+            "resumen_epico": "Sitim fue el último campamento antes de cruzar a la Tierra Prometida, y quizás el más peligroso. Mientras Balaam intentaba inútilmente maldecir a Israel desde las cumbres, Dios transformaba sus palabras en bendiciones épicas. Sin embargo, lo que no pudo la maldición externa, lo logró la seducción interna. Las mujeres de Moab invitaron al pueblo a banquetes idólatras, llevando a Israel a la apostasía en Baal-peor. Fue una limpieza final de fuego: los que sobrevivieron fueron los que mantuvieron su integridad, listos para cruzar el Jordán.",
+            "dato_curioso": "Aquí Moisés escribió la mayor parte del libro de Deuteronomio, sus discursos finales de despedida.",
+            "conexion_jesus": "Sitim nos enseña que el enemigo suele usar la seducción sutil cuando la fuerza bruta falla. Jesús, en el desierto, venció la tentación del 'reino y su gloria', dándonos el poder para no caer ante las ofertas del mundo cuando estamos cerca de nuestra herencia.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la vulnerabilidad del éxito. Es el peligro de relajarse cuando la batalla parece ganada. Simboliza la guerra espiritual por la santidad del corazón.",
+            "fortalezas": ["Protección divina contra maldiciones", "Liderazgo renovado (Finees)"],
+            "debilidades": ["Seducción moral", "Idolatría sutil", "Relajamiento espiritual"],
+            "simbologia": [
+                { "objeto": "La Lanza de Finees", "significado": "Representa el celo por la santidad de Dios que detiene la mortandad." },
+                { "objeto": "Las Acacias", "significado": "Símbolo de la madera incorruptible usada para el Tabernáculo, que crece en medio de la prueba." }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Nadie puede maldecir lo que Dios ha bendecido, excepto tú mismo a través de tu desobediencia.",
+            "preguntas_reflexion": [
+                "¿Estás cuidando tus puertas espirituales ahora que estás cerca de alcanzar tus metas?",
+                "¿Confías en que las 'maldiciones' proferidas contra ti no tienen poder si caminas en obediencia?"
+            ]
+        },
+        "linea_tiempo": [
+            { "fase": "La Bendición", "evento": "Balaam profetiza sobre Israel desde los montes.", "referencia": "Números 23-24" },
+            { "fase": "La Caída", "evento": "Pecado en Baal-peor y juicio.", "referencia": "Números 25" }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["monte-nebo", "jerico"],
+            "personajes_relacionados": ["moises", "balaam", "finees", "josue"],
+            "estudios": ["el-peligro-de-la-seduccion", "la-soberania-de-dios"]
+        },
+        "gamificacion": { "xp_lectura": 240, "logro_id": "guardián-de-la-pureza" }
+      },
+      {
+        "id": "monte-nebo",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [31.7683, 35.7258],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#2c3e50"
+        },
+        "perfil": {
+            "nombre": "Monte Nebo (Cumbre de Pisga)",
+            "titulo_corto": "La Visión del Legado",
+            "significado_nombre": "Nebo: Profeta o El que anuncia / Pisga: La Cumbre",
+            "ubicacion_geografica": "Montañas de Abarim, frente a Jericó (actual Jordania)",
+            "clima_entorno": "Mirador natural a 817 metros sobre el nivel del mar, con una vista panorámica que abarca desde el Mar Muerto hasta las montañas de Judá y Galilea.",
+            "imagen_principal": "/img/lugares/nebo.webp",
+            "galeria": [
+                "/img/lugares/vista-jericó-nebo.webp",
+                "/img/lugares/la-vara-abandonada.webp",
+                "/img/lugares/tumba-desconocida.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo Testamento",
+            "libros_aparicion": ["Deuteronomio", "Números"],
+            "era_biblica": "Muerte de Moisés / Vísperas de la Conquista"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Memorial de Moisés (Siyagha)",
+            "descripcion": "Restos de una iglesia bizantina del siglo IV construida sobre un santuario anterior que conmemora el lugar de la muerte de Moisés. Desde este punto, la visibilidad de la Tierra Prometida coincide exactamente con la descripción bíblica."
+        },
+        "narrativa": {
+            "resumen_epico": "Tras 40 años de pastorear a un pueblo rebelde, Moisés subió solo a la cumbre del Nebo. Allí, Dios hizo lo que ningún ojo humano podía: le dio una visión sobrenatural de toda la tierra, de norte a sur, de este a oeste. Fue un momento de paz agridulce; Moisés vio el cumplimiento de la promesa pero no pudo entrar en ella debido a su desobediencia en Meriba. Allí, el siervo de Dios murió en la plenitud de sus fuerzas, y el mismo Dios lo sepultó en un valle desconocido para evitar que su tumba se convirtiera en un ídolo.",
+            "dato_curioso": "El libro de Judas (v. 9) menciona una disputa mística entre el arcángel Miguel y el diablo por el cuerpo de Moisés en este monte, subrayando la importancia espiritual de este lugar.",
+            "conexion_jesus": "Moisés representa la Ley: la Ley puede llevarnos hasta la frontera y mostrarnos la santidad de Dios, pero no puede introducirnos en la Promesa. Solo Josué (cuyo nombre en hebreo es *Yeshua*, igual que Jesús) puede hacernos cruzar el Jordán hacia nuestra herencia.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa la transición generacional y la aceptación de la voluntad divina. Es un lugar de cierre de ciclos y de entrega de la estafeta.",
+            "fortalezas": ["Claridad profética", "Comunión final con Dios"],
+            "debilidades": ["Consecuencias de la desobediencia pasada", "Soledad en la muerte"],
+            "simbologia": [
+                {
+                    "objeto": "La Vista desde la Cumbre",
+                    "significado": "Representa la fe que ve lo invisible y confía en que las promesas de Dios se cumplirán para la siguiente generación."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu éxito no se mide solo por lo que logras entrar a poseer, sino por cuán fielmente preparaste el camino para los que vienen detrás de ti.",
+            "preguntas_reflexion": [
+                "¿Estás viviendo de tal manera que tu legado sea una bendición para la siguiente generación?",
+                "¿Puedes confiar en la bondad de Dios incluso cuando Él te dice 'no' a un deseo personal?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Discurso Final",
+                "evento": "Moisés entrega la Ley (Deuteronomio) al pueblo en las llanuras.",
+                "referencia": "Deuteronomio 1-31"
+            },
+            {
+                "fase": "La Partida",
+                "evento": "Ascenso al Nebo, visión de la tierra y muerte de Moisés.",
+                "referencia": "Deuteronomio 34",
+                "vinculo_id": "muerte-moises"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["campos-de-moab", "jerico"],
+            "personajes_relacionados": ["moises", "josue", "dios-jehova"],
+            "estudios": ["el-legado-de-moises", "la-ley-vs-la-gracia"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "vision-del-legado"
+        }
+      },
+      {
+            "id": "hebron",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-03-17"
+            },
+            "mapa": {
+                "coords": [31.5326, 35.0998],
+                "zoom": 13,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#8b4513"
+            },
+            "perfil": {
+                "nombre": "Hebrón (Quiriat-arba)",
+                "titulo_corto": "La Ciudad de la Alianza y las Promesas",
+                "significado_nombre": "Hebrón: Alianza, Comunión o Amistad / Quiriat-arba: Ciudad de los Cuatro (o del Gigante Arba)",
+                "ubicacion_geografica": "Región montañosa de Judá, a unos 30 km al sur de Jerusalén.",
+                "clima_entorno": "Valle fértil situado a 930 metros sobre el nivel del mar, históricamente famoso por sus abundantes viñedos (Valle de Escol), manantiales puros y antiguos robledales como el Encinar de Mamre.",
+                "imagen_principal": "/img/lugares/hebron.webp",
+                "galeria": [
+                    "/img/lugares/cueva-macpela.webp",
+                    "/img/lugares/encinar-mamre.webp",
+                    "/img/lugares/valle-escol.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": [
+                    "Génesis",
+                    "Números",
+                    "Josué",
+                    "Jueces",
+                    "2 Samuel"
+                ],
+                "era_biblica": "Era Patriarcal / Conquista de Canaán / Monarquía Unida"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "La Tumba de los Patriarcas (Cueva de Macpela)",
+                "descripcion": "Un imponente complejo arquitectónico de la época herodiana construido sobre la cueva original que Abraham compró a Efrón el hitita. Es uno de los santuarios más antiguos del mundo con continuidad ininterrumpida, albergando las tumbas de Abraham, Sara, Isaac, Rebeca, Jacob y Lea."
+            },
+            "narrativa": {
+                "resumen_epico": "Hebrón no es una simple coordenada geográfica; es el **ancla inamovible de la fe patriarcal**. Fue bajo las sombras del encinar de Mamre donde Abraham construyó un altar y cultivó una intimidad tan profunda con el Creador que fue coronado con el título de *'amigo de Dios'*. En esta tierra se selló la promesa de una descendencia innumerable. Siglos después, cuando diez espías temblaron ante los gigantes anaceos que habitaban estas montañas, el corazón de Caleb no vio obstáculos insuperables, vio la herencia que le pertenecía por pacto. A sus 85 años, con un espíritu inquebrantable, Caleb reclamó esta misma montaña fortificada, demostrando que **la fe madura conquista lo que el miedo abandona**. Finalmente, fue en la madurez espiritual de Hebrón donde David fue ungido y coronado rey por primera vez, reinando siete años antes de tomar Jerusalén. Es, por excelencia, la ciudad de los comienzos, la resistencia y las coronaciones.",
+                "dato_curioso": "El valle de Escol, ubicado en Hebrón, era tan fértil que los espías enviados por Moisés tuvieron que colgar un solo racimo de uvas en un palo cargado entre dos hombres para poder transportarlo de regreso al campamento israelita.",
+                "conexion_jesus": "El nombre Hebrón significa *Comunión*. Cristo es el cumplimiento definitivo de esa comunión perdida en el Edén. Así como Hebrón fue el primer lugar de asentamiento del reinado de David (el rey ungido), el corazón del creyente en íntima *comunión* con el Padre es el primer territorio donde Jesús (el Hijo de David) establece Su trono de gracia antes de extender Su gobierno a todas las demás áreas de nuestra vida.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Un refugio de paciencia, comunión íntima y tenacidad espiritual. Representa la resistencia de la fe a lo largo del tiempo y el coraje para enfrentar gigantes basándose en promesas eternas.",
+                "fortalezas": [
+                    "Intimidad y comunión con el Padre",
+                    "Persistencia en la fe a través de las generaciones",
+                    "Fundamento legal y espiritual del Reino"
+                ],
+                "debilidades": [
+                    "Presencia intimidante de gigantes (Anaceos) antes de la conquista",
+                    "Lugar donde Absalón incubó su rebelión contra David"
+                ],
+                "simbologia": [
+                    {
+                        "objeto": "La Cueva de Macpela",
+                        "significado": "La primera propiedad legalmente comprada por Abraham en la Tierra Prometida. Simboliza la certeza absoluta de la herencia futura y la fe en la resurrección, sembrando a los patriarcas como semilla en la tierra que Dios prometió."
+                    },
+                    {
+                        "objeto": "El Encinar de Mamre",
+                        "significado": "El lugar del altar y la sombra del descanso. Representa el aposento de oración y la comunión constante donde Dios se revela a Sus amigos."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "Los gigantes que hoy habitan el territorio de tu promesa no son el final de tu historia, sino el escenario preparado para que tu fe reclame su herencia, respaldada por el pacto de la Gracia.",
+                "preguntas_reflexion": [
+                    "¿Estás cultivando un 'encinar de Mamre' en tu rutina diaria, un espacio sagrado de comunión ininterrumpida con el Señor?",
+                    "¿Qué 'gigante' de miedo, adicción o inseguridad en tu vida presente está esperando ser derribado por la promesa que Dios ya te entregó?",
+                    "¿Tienes la paciencia de Caleb para mantener viva la promesa de Dios durante décadas sin perder el vigor espiritual?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "El Altar de la Comunión",
+                    "evento": "Abraham se establece en el encinar de Mamre, edifica un altar y recibe la visita de Dios.",
+                    "referencia": "Génesis 13:18 / Génesis 18",
+                    "vinculo_id": "visita-mamre"
+                },
+                {
+                    "fase": "La Compra de la Herencia",
+                    "evento": "Abraham compra la cueva de Macpela para sepultar a Sara, estableciendo el primer derecho legal en Canaán.",
+                    "referencia": "Génesis 23",
+                    "vinculo_id": "cueva-macpela"
+                },
+                {
+                    "fase": "La Conquista de la Fe",
+                    "evento": "Caleb, a los 85 años, reclama el monte de Hebrón y expulsa a los tres hijos del gigante Anac.",
+                    "referencia": "Josué 14:13-15",
+                    "vinculo_id": "herencia-caleb"
+                },
+                {
+                    "fase": "El Trono Inicial",
+                    "evento": "David es ungido rey sobre la casa de Judá y reina desde Hebrón durante siete años y medio.",
+                    "referencia": "2 Samuel 2:1-4",
+                    "vinculo_id": "uncion-david"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": [
+                    "jerusalen-sion",
+                    "cades-barnea",
+                    "encinar-mamre"
+                ],
+                "personajes_relacionados": [
+                    "abraham",
+                    "caleb",
+                    "david"
+                ],
+                "estudios": [
+                    "la-fe-de-caleb",
+                    "el-pacto-abrahamico",
+                    "derribando-gigantes"
+                ]
+            },
+            "gamificacion": {
+                "xp_lectura": 350,
+                "logro_id": "conquistador-de-gigantes"
+            }
+        }
+]

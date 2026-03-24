@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Códice Bíblico - Maná Visual</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- RESET Y CAJA --- */
+        * { 
+    box-sizing: border-box; 
+    overflow-wrap: break-word; 
+    word-wrap: break-word; 
+}
+
+        body { 
+            font-family: 'Lora', serif; 
+            background: #f4f1ea; 
+            margin: 0; 
+            padding: 0; 
+            color: #333; 
+        }
+
+        /* Contenedor para centrar la UI sin afectar el renderizado */
+        .ui-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .dashboard { 
+            width: 100%;
+            max-width: 600px; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
+            text-align: center; 
+            border-top: 5px solid #8b0000; 
+            margin-bottom: 20px;
+        }
+
+        h2 { font-family: 'Playfair Display', serif; color: #1a1a1a; margin-top: 0; }
+        
+        .btn-group { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+        
+        button { 
+            background: #8b0000; 
+            color: white; 
+            border: none; 
+            padding: 12px 25px; 
+            font-size: 0.9rem; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            transition: 0.3s; 
+            font-family: 'Lora', serif; 
+            font-weight: bold; 
+        }
+        
+        button:hover { background: #a00000; transform: translateY(-1px); }
+        .btn-dark { background: #2c2c2c; }
+        .btn-dark:hover { background: #000; }
+
+        #status { margin-top: 15px; font-size: 0.85rem; color: #666; font-style: italic; }
+
+        /* --- ESTILOS DE LA FICHA (PDF) --- */
+        #render-area { position: absolute; left: -9999px; top: 0; width: 794px; }
+        
+        /* Simulación de página A4 (794px aprox a 96dpi) */
+        .pdf-page { 
+    width: 794px; 
+    height: 1122px; 
+    padding: 65px; /* Aumentamos el margen exterior de seguridad */
+    background: white; 
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
+}
+
+       .ficha-estudio { 
+    border: 1px solid #e0d7c6; 
+    padding: 45px; /* Espaciado interno para que el texto respire */
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column;
+    overflow: hidden; /* Corta cualquier posible desborde */
+    position: relative;
+}
+
+        header { border-bottom: 2px solid #8b0000; margin-bottom: 25px; padding-bottom: 15px; text-align: center; }
+        .testamento-tag { text-transform: uppercase; font-size: 0.7rem; letter-spacing: 2px; color: #8b0000; font-weight: 700; display: block; margin-bottom: 5px; }
+        .titulo-biblico { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.3rem; /* Reducimos ligeramente para mayor seguridad */
+    margin: 0; 
+    color: #1a1a1a; 
+    line-height: 1.2;
+    max-width: 100%;
+}
+        .tema-estudio { font-style: italic; font-size: 1.2rem; color: #555; margin-top: 5px; }
+
+        .mensaje-central { 
+    background: #fdfaf4; 
+    padding: 20px 30px; 
+    border-left: 5px solid #8b0000; 
+    font-style: italic; 
+    font-size: 1.05rem; 
+    margin: 20px 0; 
+    text-align: center; 
+    color: #1a1a1a;
+}
+
+        .punto-estudio { margin-bottom: 30px; page-break-inside: avoid; }
+        .punto-estudio h3 { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: #8b0000 !important; margin-bottom: 10px; border-bottom: 1px solid #eee; display: inline-block; }
+        .punto-estudio p { 
+    text-align: justify; 
+    margin-bottom: 15px; 
+    font-size: 1rem;
+    line-height: 1.5;
+}
+        
+        .dios-te-dice { 
+    background: #fff; 
+    border: 1px dashed #c0b283; 
+    padding: 18px; 
+    font-weight: 600; 
+    color: #222; 
+    font-size: 0.9rem; 
+    margin-top: 10px;
+    width: 100%;
+}
+        .dios-te-dice::before { content: "EL ALFARERO TE DICE HOY:"; display: block; font-size: 0.65rem; letter-spacing: 1px; color: #8b0000; margin-bottom: 3px; }
+
+        footer { margin-top: auto; text-align: center; font-size: 0.8rem; color: #999; border-top: 1px solid #eee; padding-top: 15px; font-style: italic; }
+
+        /* --- VISTA PREVIA --- */
+        #preview-container { 
+            margin-top: 20px; 
+            width: 834px; /* Un poco más ancho para el borde del contenedor */
+            padding: 20px;
+            background: #555; 
+            border-radius: 4px;
+            display: none; 
+        }
+        #preview-container h3 { color: white; text-align: center; font-family: sans-serif; margin-bottom: 15px; font-size: 0.9rem; }
+        #preview-content { display: flex; justify-content: center; }
+    </style>
+</head>
+<body>
+
+    <div class="ui-wrapper">
+        <div class="dashboard">
+            <h2>Códice Bíblico: Escriba Digital</h2>
+            <p>Gestiona el Maná Visual de tu Ecosistema Espiritual.</p>
+            
+            <div class="btn-group">
+                <button onclick="vistaPrevia()">VISTA PREVIA</button>
+                <button onclick="iniciarProceso()" class="btn-dark">GENERACIÓN MASIVA</button>
+            </div>
+            
+            <div id="status">Esperando instrucciones del Alfarero... [cite: 8]</div>
+        </div>
+
+        <div id="preview-container">
+            <h3>VISTA PREVIA DE LA MAQUETACIÓN</h3>
+            <div id="preview-content"></div>
+        </div>
+    </div>
+
+    <div id="render-area"></div>
+
+    <script>
+        const archivos = [
+            // 'pentateuco.json', 'historicos.json', 'profetas_mayores.json', 
+            // 'profetas_menores.json', 'poeticos.json', 'hechos.json', 
+            'epistolas.json', 
+            // 'evangelios.json', 'otros.json'
+        ];
+
+        // Función constructora de HTML para evitar duplicidad
+        function generarHTML(item) {
+            const testamento = item.testamento.includes('nuevo') ? 'Nuevo' : 'Antiguo';
+            return `
+                <div class="pdf-page">
+                    <div class="ficha-estudio">
+                        <header>
+                            <span class="testamento-tag">${testamento} Testamento</span>
+                            <h1 class="titulo-biblico">${item.titulo}</h1>
+                            <div class="tema-estudio">"${item.tema}"</div>
+                        </header>
+                        <div class="mensaje-central">"${item.mensaje}"</div>
+                        <div class="seccion-explicacion">
+                            ${item.explicacion.map(exp => `
+                                <div class="punto-estudio">
+                                    <h3>${exp.titulo}</h3>
+                                    <div class="dios-te-dice">${exp.mensaje}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                        <footer>Códice Bíblico — Tu Ecosistema Espiritual © 2026</footer>
+                    </div>
+                </div>
+            `;
+        }
+
+        async function vistaPrevia() {
+            const status = document.getElementById('status');
+            const previewContainer = document.getElementById('preview-container');
+            const previewContent = document.getElementById('preview-content');
+            
+            status.innerText = "Preparando vista previa...";
+            
+            try {
+                // Intentamos cargar el primero de evangelios para la prueba
+                const response = await fetch(`data/mana/evangelios.json`);
+                if (!response.ok) throw new Error("No se pudo cargar el archivo de datos.");
+                const data = await response.json();
+                
+                previewContent.innerHTML = generarHTML(data[0]);
+                previewContainer.style.display = 'block';
+                status.innerText = "Vista previa lista. Revisa el centrado.";
+                window.scrollTo({ top: previewContainer.offsetTop, behavior: 'smooth' });
+            } catch (e) {
+                status.innerText = "Error: Asegúrate de usar un servidor local (Live Server).";
+                console.error(e);
+            }
+        }
+
+        async function iniciarProceso() {
+            const status = document.getElementById('status');
+            const renderArea = document.getElementById('render-area');
+            
+            for (const archivo of archivos) {
+                status.innerText = `Accediendo a: ${archivo}...`;
+                try {
+                    const response = await fetch(`data/mana/${archivo}`);
+                    if (!response.ok) continue;
+                    const data = await response.json();
+
+                    for (const item of data) {
+                        status.innerText = `Sellando PDF: ${item.titulo}...`;
+                        
+                        renderArea.innerHTML = generarHTML(item);
+
+                        const opt = {
+                            margin: 0,
+                            filename: `Codice_${archivo.replace('.json', '')}_${item.id}.pdf`,
+                            image: { type: 'jpeg', quality: 0.98 },
+                            html2canvas: { 
+                                scale: 2, 
+                                useCORS: true,
+                                width: 794 // Forzamos el ancho de captura
+                            },
+                            jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
+                        };
+
+                        const element = renderArea.querySelector('.pdf-page');
+                        await html2pdf().set(opt).from(element).save();
+                        
+                        await new Promise(resolve => setTimeout(resolve, 600));
+                    }
+                } catch (e) {
+                    console.error("Error en " + archivo, e);
+                }
+            }
+            status.innerText = "¡Misión cumplida! El Maná Visual ha sido distribuido.";
+        }
+    </script>
+</body>
+</html>

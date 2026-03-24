@@ -1,0 +1,43 @@
+[
+  {
+    "id": "adoracion-espiritu",
+    "titulo": "Adoradores en Espíritu y Verdad",
+    "subtitulo": "¿Busca Dios música o busca corazones rendidos?",
+    "autor": "Teología A Imagen",
+    "categoria": "vida_cristiana",
+    "nivel": "intermedio",
+    "tiempo_lectura": "8 min",
+    "fecha_publicacion": "2026-02-07",
+    "imagen_portada": "../img/estudios/cover-adoracion.jpg",
+    "versiculo_clave": {
+      "cita": "Juan 4:23-24",
+      "texto": "Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad..."
+    },
+    "tags": ["Adoración", "Juan 4", "Espíritu Santo"],
+    "contenido": [
+      {
+        "tipo": "parrafo",
+        "texto": "A menudo reducimos la adoración a la parte lenta del servicio dominical..."
+      },
+      { "tipo": "subtitulo", "texto": "La Geografía vs. La Teología" },
+      {
+        "tipo": "parrafo",
+        "texto": "La mujer quería ganar un debate teológico sobre lugares sagrados..."
+      }
+    ],
+    "diccionario": [
+      {
+        "palabra": "Proskuneo (προσκυνέω)",
+        "origen": "Griego",
+        "significado": "Besar la mano, postrarse. Denota sumisión total."
+      }
+    ],
+    "conexiones": {
+      "cronos": [ { "id": "siquem", "nombre": "Sicar (Pozo de Jacob)" } ],
+      "huellas": [ { "id": "samaritana", "nombre": "La Mujer Samaritana" } ]
+    },
+    "desafio_practico": "Esta semana, elige una actividad secular y hazla como acto de adoración."
+  }
+  
+  
+]

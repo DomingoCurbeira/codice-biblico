@@ -1,0 +1,3497 @@
+[
+  {
+    "id": "isaias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Isaías",
+      "titulo_corto": "El Profeta Mesiánico",
+      "significado_nombre": "Jehová es salvación",
+      "ocupacion": "Profeta de la corte, Escriba real",
+      "familia": {
+        "padre": "Amoz",
+        "esposa": "Una profetisa",
+        "hijos": [
+          "Sear-jasub",
+          "Maher-salal-has-baz"
+        ]
+      },
+      "imagen": "/img/perfiles/isaias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Isaías",
+        "2 Reyes",
+        "2 Crónicas"
+      ],
+      "era_biblica": "Crisis Asiria (Reino de Judá)"
+    },
+    "narrativa": {
+      "resumen_epico": "Isaías es el gigante de la revelación bíblica, el hombre cuyos ojos atravesaron los siglos para ver la gloria del Mesías. Su ministerio comenzó con una visión estremecedora del trono de Dios que lo dejó deshecho ante la santidad divina, pero purificado para una misión sin igual. Fue el consejero de reyes en tiempos de asedio y la voz que dio esperanza a una nación al borde del abismo. Su pluma, movida por el Espíritu, describió con precisión quirúrgica el nacimiento virginal, el sacrificio del Calvario y el futuro reino de paz, convirtiéndose en el evangelista del Antiguo Testamento.",
+      "dato_curioso": "La tradición judía (y algunos escritos antiguos) afirma que Isaías murió como mártir durante el reinado del malvado Manasés, siendo aserrado por la mitad dentro de un tronco hueco. Esta es la referencia probable de Hebreos 11:37 cuando menciona a los héroes de la fe que 'fueron aserrados'.",
+      "conexion_jesus": "Es el profeta que más detalles dio sobre Jesús. Presentó al Mesías como el 'Emanuel' (Dios con nosotros), el 'Renuevo' de Isaí, el 'Príncipe de Paz' y, sobre todo, el 'Siervo Sufriente' que cargó con nuestros pecados en la cruz.",
+      "diagrama_referencia": "Esquema: Las tres visiones de Isaías (El Trono, El Siervo, El Reino Nuevo)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de profunda humildad ante la majestuosidad divina. Isaías vivió en una tensión constante: una conciencia aguda de su propia imperfección frente a la visión del 'Santo de Israel'. Su disposición absoluta ('Heme aquí') revela un alma rendida, capaz de soportar el peso de un mensaje de juicio con la esperanza inquebrantable de la redención futura.",
+      "fortalezas": [
+        "Disponibilidad radical al llamado divino",
+        "Integridad política y valentía ante el poder real",
+        "Elocuencia y profundidad teológica inigualables"
+      ],
+      "debilidades": [
+        "Sentimiento inicial de incapacidad por su naturaleza pecaminosa (superado por la gracia)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Carbón encendido",
+          "significado": "Representa la purificación de los labios y el corazón para el servicio sagrado."
+        },
+        {
+          "objeto": "El Siervo Sufriente",
+          "significado": "Símbolo de la sustitución y el sacrificio redentor."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Un encuentro real con la santidad de Dios nos deja sin excusas y nos capacita para misiones imposibles.",
+      "preguntas_reflexion": [
+        "¿Cuál es tu respuesta cuando Dios busca a alguien: 'Heme aquí' o 'Envía a otro'?",
+        "¿Eres consciente de que Dios controla el destino de las naciones, por muy oscuras que parezcan las noticias?",
+        "¿Reconoces la santidad de Dios en tu vida diaria o te has acostumbrado a lo sagrado?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Llamado",
+        "evento": "Visión del Templo: ve al Señor excelso y es purificado por un serafín.",
+        "vinculo_mapa": "jerusalen-templo",
+        "referencia": "Isaías 6"
+      },
+      {
+        "fase": "Profecía",
+        "evento": "Anuncia a Acaz la señal de Emanuel y el nacimiento virginal.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Isaías 7"
+      },
+      {
+        "fase": "Crisis",
+        "evento": "Asesora al rey Ezequías durante el asedio asirio de Senaquerib.",
+        "vinculo_mapa": "muros-de-jerusalen",
+        "referencia": "Isaías 37"
+      },
+      {
+        "fase": "Revelación",
+        "evento": "Escribe las visiones del Siervo Sufriente y la gloria de la nueva creación.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Isaías 53"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "babilonia",
+        "asiria"
+      ],
+      "estudios": [
+        "cristologia-en-isaias",
+        "la-santidad-de-dios",
+        "profecia-asiria"
+      ],
+      "devocionales": [
+        "heme-aqui",
+        "el-siervo-sufriente"
+      ],
+      "personajes_relacionados": [
+        "ezequias",
+        "acaz",
+        "manases",
+        "juan-bautista",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 600,
+      "logro_id": "vidente-mesiánico"
+    }
+  },
+  {
+    "id": "jeremias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Jeremías",
+      "titulo_corto": "El Profeta Llorón",
+      "significado_nombre": "Jehová levanta",
+      "ocupacion": "Sacerdote, Profeta",
+      "familia": {
+        "padre": "Hicías (Sacerdote)",
+        "colaborador": "Baruc (Escriba)"
+      },
+      "imagen": "/img/perfiles/jeremias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Jeremías",
+        "Lamentaciones",
+        "2 Crónicas"
+      ],
+      "era_biblica": "Ocaso de Judá y Cautiverio Babilónico"
+    },
+    "narrativa": {
+      "resumen_epico": "Jeremías fue el hombre enviado a predicar a una pared de granito. Llamado desde antes de nacer, su misión fue la más dolorosa de las Escrituras: anunciar la muerte de su propia amada nación. Durante cuarenta años, soportó el odio de los reyes, la traición de sus amigos y la soledad de un mensaje que nadie quería oír. Con el corazón desgarrado, vio cómo el fuego consumía el Templo y la ciudad que tanto amaba. Sin embargo, en medio de los escombros y las lágrimas, Jeremías fue quien vio el futuro más glorioso: un Nuevo Pacto donde Dios escribiría Su ley no en piedra, sino en el corazón humano.",
+      "dato_curioso": "Jeremías vivió una 'profecía encarnada' muy dura: Dios le prohibió casarse, tener hijos e incluso asistir a funerales o fiestas. Su vida entera debía ser una señal visual del juicio inminente que dejaría a Judá sin familias y sin alegría.",
+      "conexion_jesus": "Jeremías es el profeta que más se asemeja al 'Varón de Dolores'. Ambos lloraron sobre Jerusalén presintiendo su destrucción, ambos fueron rechazados por sus propios familiares y líderes religiosos, y ambos prometieron un Nuevo Pacto sellado por la fidelidad divina.",
+      "diagrama_referencia": "Infografía: Los símbolos visuales de Jeremías (El cinto, el yugo, la vasija)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de extrema sensibilidad y honestidad brutal ante Dios. Jeremías no ocultó su angustia; sus 'confesiones' revelan una lucha interna con la depresión, el sentimiento de soledad y la incomprensión. Es el ejemplo del siervo que cumple su deber no porque sea fácil o gratificante, sino porque la Palabra de Dios es un 'fuego ardiendo en sus huesos' que no puede contener.",
+      "fortalezas": [
+        "Perseverancia heroica bajo persecución física y mental",
+        "Fidelidad absoluta a un mensaje impopular y costoso",
+        "Empatía profunda por el pueblo que lo perseguía"
+      ],
+      "debilidades": [
+        "Momentos de desesperación profunda y quejas amargas contra su destino"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Yugo de Madera",
+          "significado": "Representa la necesidad de someterse al juicio de Dios bajo Babilonia."
+        },
+        {
+          "objeto": "La Vasija de Barro rota",
+          "significado": "Símbolo de la ruina irreversible de la nación por su obstinación."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El éxito para Dios no se mide por cuántas personas te escuchan, sino por cuánta fidelidad mantienes al mensaje que se te confió.",
+      "preguntas_reflexion": [
+        "¿Estás dispuesto a seguir a Dios incluso cuando los resultados parecen ser solo fracasos externos?",
+        "¿Eres honesto con Dios sobre tus dudas y dolores en la oración?",
+        "¿Deseas que la Ley de Dios esté escrita en tu corazón o te conformas con normas externas?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Llamado",
+        "evento": "Dios lo llama siendo muy joven; toca su boca y le prohíbe el matrimonio.",
+        "vinculo_mapa": "anatot",
+        "referencia": "Jeremías 1"
+      },
+      {
+        "fase": "Persecución",
+        "evento": "Es golpeado y puesto en el cepo por el sacerdote Pasur por sus profecías.",
+        "vinculo_mapa": "jerusalen-templo",
+        "referencia": "Jeremías 20"
+      },
+      {
+        "fase": "Cisterna",
+        "evento": "Los príncipes lo arrojan a una cisterna fangosa para que muera de hambre.",
+        "vinculo_mapa": "cisterna-de-malquías",
+        "referencia": "Jeremías 38"
+      },
+      {
+        "fase": "Lamento",
+        "evento": "Presencia la caída de Jerusalén y llora sobre las ruinas escribiendo Lamentaciones.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Lamentaciones 1"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "anatot",
+        "egipto",
+        "babilonia"
+      ],
+      "estudios": [
+        "el-nuevo-pacto",
+        "arqueologia-de-jeremias",
+        "las-lamentaciones-hebreas"
+      ],
+      "devocionales": [
+        "fuego-en-los-huesos",
+        "esperanza-en-las-ruinas"
+      ],
+      "personajes_relacionados": [
+        "josias",
+        "sedequias-rey",
+        "ebed-melec",
+        "nabucodonosor",
+        "baruc"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 500,
+      "logro_id": "corazon-quebrantado"
+    }
+  },
+  {
+    "id": "ezequiel",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Ezequiel",
+      "titulo_corto": "El Visionario del Exilio",
+      "significado_nombre": "Dios fortalece",
+      "ocupacion": "Sacerdote, Profeta",
+      "familia": {
+        "padre": "Buzi",
+        "esposa": "Fallecida (La delicia de sus ojos)"
+      },
+      "imagen": "/img/perfiles/ezequiel.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Ezequiel"
+      ],
+      "era_biblica": "Exilio Babilónico"
+    },
+    "narrativa": {
+      "resumen_epico": "Ezequiel fue el profeta de lo imposible, el hombre que vio los cielos abrirse mientras las cadenas del cautiverio lo rodeaban junto al río Quebar. Sacerdote de linaje, su vida se convirtió en un teatro profético donde su propio cuerpo ilustraba el juicio y la esperanza. Desde sus visiones de ruedas de fuego y seres vivientes hasta la estremecedora resurrección de un valle de huesos secos, Ezequiel anunció que la gloria de Dios no estaba confinada a un edificio, sino que acompañaba a Su pueblo en el desierto, prometiendo un corazón nuevo para una nación restaurada.",
+      "dato_curioso": "Ezequiel fue un maestro del 'arte de acción' profética. Pasó 390 días acostado sobre su lado izquierdo y 40 sobre el derecho para cargar simbólicamente la culpa de Israel. Comió pan cocinado con estiércol y se rasuró la cabeza con una espada, todo como señales visuales impactantes para un pueblo que ya no escuchaba palabras.",
+      "conexion_jesus": "Ezequiel es llamado casi 100 veces 'Hijo de hombre', el mismo título que Jesús eligió como Su favorito. Vio al Mesías como el 'Buen Pastor' que busca a la perdida (Ez 34) y como el dador del agua viva que fluye del Templo (Ez 47), imagen que Cristo reclama en los Evangelios.",
+      "diagrama_referencia": "Visión de Ezequiel: El Carro de la Gloria y las Ruedas dentro de Ruedas"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de obediencia absoluta y resistencia emocional extrema. Soportó la mudez impuesta y la muerte repentina de su esposa sin poder expresar luto público, convirtiendo su propio dolor en un mensaje. Su carácter es el de un centinela espiritual que entiende la responsabilidad individual ante Dios, manteniendo la fe en un sistema religioso que se había quedado sin Templo.",
+      "fortalezas": [
+        "Obediencia radical a mandatos extraños y costosos",
+        "Resiliencia espiritual ante el cautiverio y la soledad",
+        "Capacidad para ver la esperanza donde solo había muerte (Huesos secos)"
+      ],
+      "debilidades": [
+        "Vulnerabilidad al peso abrumador de la gloria divina (caía postrado con frecuencia)",
+        "Luchas con el aislamiento social por su mensaje de juicio"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Valle de los Huesos Secos",
+          "significado": "Representa la restauración espiritual de una nación muerta por el soplo del Espíritu."
+        },
+        {
+          "objeto": "El Corazón de Piedra vs Carne",
+          "significado": "Símbolo de la regeneración espiritual que Dios promete en el Nuevo Pacto."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No importa cuán 'seca' o muerta parezca una situación en tu vida, el Espíritu de Dios puede soplar sobre ella y traer una resurrección total.",
+      "preguntas_reflexion": [
+        "¿Estás dispuesto a que tu vida misma sea un mensaje de Dios, incluso si te pide sacrificios incómodos?",
+        "¿Sientes que tu corazón se ha vuelto 'de piedra' ante las necesidades de otros?",
+        "¿Reconoces que eres responsable de tus propias acciones ante Dios, más allá de tu herencia familiar?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Llamado",
+        "evento": "Visión del Carro de la Gloria junto al río Quebar en el quinto año del exilio.",
+        "vinculo_mapa": "rio-quebar",
+        "referencia": "Ezequiel 1"
+      },
+      {
+        "fase": "Señal",
+        "evento": "Muerte de su esposa; Dios le prohíbe llorar como señal del asedio de Jerusalén.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Ezequiel 24"
+      },
+      {
+        "fase": "Esperanza",
+        "evento": "Visión del Valle de los huesos secos y la unión de las dos varas.",
+        "vinculo_mapa": "valle-de-huesos",
+        "referencia": "Ezequiel 37"
+      },
+      {
+        "fase": "Gloria",
+        "evento": "Visión del nuevo Templo y el río de agua de vida que sana el Mar Muerto.",
+        "vinculo_mapa": "jerusalen-futura",
+        "referencia": "Ezequiel 40-48"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "rio-quebar",
+        "babilonia",
+        "jerusalen"
+      ],
+      "estudios": [
+        "el-espiritu-santo-en-ezequiel",
+        "el-templo-milenial",
+        "la-gloria-shakinah"
+      ],
+      "devocionales": [
+        "vivan-estos-huesos",
+        "centinelas-de-dios"
+      ],
+      "personajes_relacionados": [
+        "jeremias",
+        "daniel",
+        "nabucodonosor"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 500,
+      "logro_id": "visionario-del-exilio"
+    }
+  },
+  {
+    "id": "daniel",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Daniel",
+      "titulo_corto": "El Sabio en Babilonia",
+      "significado_nombre": "Dios es mi Juez",
+      "ocupacion": "Gobernador, Consejero Real, Profeta",
+      "familia": {
+        "linaje": "Nobleza/Realeza de Judá",
+        "compañeros": [
+          "Ananías",
+          "Misael",
+          "Azarías"
+        ]
+      },
+      "imagen": "/img/perfiles/daniel.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Daniel",
+        "Ezequiel",
+        "Mateo"
+      ],
+      "era_biblica": "Exilio Babilónico y Persa"
+    },
+    "narrativa": {
+      "resumen_epico": "Daniel es el estándar de la excelencia y la integridad en territorio hostil. Llevado como cautivo adolescente a la capital del imperio babilónico, se propuso en su corazón no contaminarse con la cultura que intentaba borrar su identidad. Con una sabiduría que superaba por diez a los sabios locales, Daniel escaló los rangos del poder sin comprometer su fe. Interpretó los sueños de los emperadores más poderosos, sobrevivió a complots asesinos y a la fosa de los leones, y recibió las visiones más detalladas sobre el fin de los tiempos, demostrando que Dios domina sobre los reinos de los hombres.",
+      "dato_curioso": "Daniel sirvió activamente durante más de 70 años bajo dos imperios mundiales distintos (Babilonia y Persia) y al menos cuatro reyes diferentes. Su excelencia profesional era tan impecable que incluso sus enemigos, tras una auditoría exhaustiva, no pudieron encontrar ni una sola falta o corrupción en su trabajo administrativo.",
+      "conexion_jesus": "Daniel profetizó el tiempo exacto de la venida del Mesías (las 70 semanas) y vio a Jesús en visión como el 'Hijo del Hombre' recibiendo un reino eterno. Cristo mismo citó a Daniel al hablar de los eventos finales, validando su ministerio profético.",
+      "diagrama_referencia": "La Estatua de Nabucodonosor: Sucesión de los Imperios Mundiales"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de integridad inquebrantable, paz interior y disciplina férrea. Daniel poseía una mente brillante equilibrada con un espíritu de oración constante (tres veces al día). Representa al creyente que no se aísla del mundo, sino que influye en él mediante la excelencia técnica y la fidelidad espiritual, manteniendo la calma incluso frente a las garras de los leones.",
+      "fortalezas": [
+        "Integridad moral absoluta bajo presión extrema",
+        "Sabiduría analítica y don sobrenatural de interpretación",
+        "Disciplina espiritual inamovible (oración persistente)"
+      ],
+      "debilidades": [
+        "No se registran manchas en su carácter; su figura es presentada como un modelo de santidad"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Foso de los Leones",
+          "significado": "Representa la protección divina sobre aquellos que prefieren la muerte antes que la idolatría."
+        },
+        {
+          "objeto": "Las Legumbres y el Agua",
+          "significado": "Símbolo de la consagración y la identidad apartada para Dios."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Tu integridad no se negocia por conveniencia; la excelencia en tu trabajo es tu mayor testimonio ante quienes no conocen a Dios.",
+      "preguntas_reflexion": [
+        "¿Has 'propuesto en tu corazón' límites que nunca vas a cruzar, pase lo que pase?",
+        "¿Tu trabajo es tan excelente que incluso tus críticos no pueden hallar falta en ti?",
+        "¿Tu vida de oración depende de tus circunstancias o es una disciplina innegociable?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Prueba",
+        "evento": "Rechaza la comida del rey y demuestra ser más sano comiendo legumbres.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Daniel 1"
+      },
+      {
+        "fase": "Sabiduría",
+        "evento": "Interpreta el sueño de la gran estatua, revelando el futuro de los imperios.",
+        "vinculo_mapa": "palacio-real",
+        "referencia": "Daniel 2"
+      },
+      {
+        "fase": "Justicia",
+        "evento": "Lee la escritura en la pared durante el banquete de Belsasar; el imperio cae esa noche.",
+        "vinculo_mapa": "palacio-de-belsasar",
+        "referencia": "Daniel 5"
+      },
+      {
+        "fase": "Milagro",
+        "evento": "Es arrojado al foso de los leones por orar a Dios y sale ileso.",
+        "vinculo_mapa": "foso-de-leones",
+        "referencia": "Daniel 6"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "babilonia",
+        "susan",
+        "jerusalen"
+      ],
+      "estudios": [
+        "las-70-semanas",
+        "apocaliptica-biblica",
+        "imperios-del-exilio"
+      ],
+      "devocionales": [
+        "no-contaminarse",
+        "leones-y-oracion"
+      ],
+      "personajes_relacionados": [
+        "nabucodonosor",
+        "ciro",
+        "dario",
+        "gabriel-angel"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 600,
+      "logro_id": "sabio-de-imperios"
+    }
+  },
+  {
+    "id": "nabucodonosor",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Nabucodonosor II",
+      "titulo_corto": "El Rey de Oro",
+      "significado_nombre": "Nabu proteja mi frontera",
+      "ocupacion": "Emperador del Imperio Neobabilónico",
+      "familia": {
+        "padre": "Nabopolasar",
+        "hijo": "Evil-merodac"
+      },
+      "imagen": "/img/perfiles/nabucodonosor.webp",
+      "icono_mapa": "/img/ui/markers/rey.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Daniel",
+        "2 Reyes",
+        "Jeremías",
+        "Ezequiel"
+      ],
+      "era_biblica": "Cautiverio Babilónico"
+    },
+    "narrativa": {
+      "resumen_epico": "Nabucodonosor fue el coloso del mundo antiguo, el 'Rey de Reyes' que convirtió a Babilonia en la maravilla del mundo. Destructor de Jerusalén y martillo de las naciones, su poder parecía no tener límites hasta que chocó con el Dios de un joven cautivo llamado Daniel. Su historia es una de las más asombrosas de la Biblia: el hombre que se creía un dios fue humillado hasta vivir como una bestia en el campo, perdiendo la razón durante siete años para aprender que la verdadera soberanía no reside en los tronos de oro, sino en el Rey del Cielo.",
+      "dato_curioso": "Nabucodonosor es el autor de uno de los capítulos de la Biblia. Daniel 4 está escrito como una carta abierta del propio emperador a todo el mundo, confesando su locura y su restauración, convirtiéndose en un testimonio histórico único de un monarca pagano reconociendo a Jehová.",
+      "conexion_jesus": "Nabucodonosor es la 'cabeza de oro' de la estatua que vio en sueños, representando el pináculo del orgullo humano. Su humillación y posterior reconocimiento del Reino de Dios prefiguran el día en que todo reino terrenal se postrará ante Jesucristo, la Roca que desmenuza los imperios.",
+      "diagrama_referencia": "Babilonia en tiempos de Nabucodonosor: La Puerta de Ishtar y el Etemenanki"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de grandeza narcisista mezclada con una curiosidad espiritual genuina. Era un hombre de extremos: capaz de una crueldad aterradora (el horno de fuego) y de una admiración profunda por la sabiduría divina en Daniel. Su proceso de 'licantropía clínica' o locura fue la terapia divina para curar su soberbia crónica. Representa la mente humana que debe reconocer su pequeñez ante lo infinito.",
+      "fortalezas": [
+        "Genio administrativo y capacidad constructora monumental",
+        "Liderazgo militar que unificó el mundo antiguo",
+        "Honestidad final para confesar su humillación públicamente"
+      ],
+      "debilidades": [
+        "Orgullo egocéntrico patológico",
+        "Temperamento violento e impulsivo",
+        "Idolatría basada en su propia imagen"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Estatua de Oro",
+          "significado": "Representa la soberbia humana que exige adoración total."
+        },
+        {
+          "objeto": "El Árbol Cortado",
+          "significado": "Símbolo de la caída del poderoso cuya soberbia es juzgada pero cuya raíz es preservada por misericordia."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No hay posición tan alta que Dios no pueda humillar, ni caída tan baja de la que Dios no pueda restaurar si hay un corazón que reconoce Su soberanía.",
+      "preguntas_reflexion": [
+        "¿Qué 'Babilonia' (éxito personal) has construido sobre la cual te estás jactando hoy?",
+        "¿Necesitas que Dios te quite algo para que puedas reconocer que Él es el dueño de todo?",
+        "¿Estás dispuesto a publicar tu testimonio incluso si revela tus momentos más bajos y vergonzosos?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Conquista",
+        "evento": "Sitia Jerusalén, destruye el Templo y lleva cautivos a los nobles judíos.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "2 Reyes 25"
+      },
+      {
+        "fase": "Soberbia",
+        "evento": "Construye una estatua de oro y echa a los amigos de Daniel al horno ardiente.",
+        "vinculo_mapa": "llanura-de-dura",
+        "referencia": "Daniel 3"
+      },
+      {
+        "fase": "Humillación",
+        "evento": "Pierde la razón y vive como un animal comiendo hierba por siete años.",
+        "vinculo_mapa": "jardines-de-babilonia",
+        "referencia": "Daniel 4:28-33"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Recobra el juicio, bendice al Altísimo y es restaurado en su trono con mayor gloria.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Daniel 4:34-37"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "babilonia",
+        "jerusalen",
+        "tiro",
+        "egipto"
+      ],
+      "estudios": [
+        "historia-neobabilónica",
+        "arqueologia-biblica",
+        "profecia-de-imperios"
+      ],
+      "devocionales": [
+        "el-orgullo-antes-de-la-caida",
+        "soberania-divina"
+      ],
+      "personajes_relacionados": [
+        "daniel",
+        "sedequias-rey",
+        "jeremias",
+        "sadrac-mesac-abednego"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "emperador-humillado"
+    }
+  },
+  {
+    "id": "tres-hebreos",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Ananías, Misael y Azarías",
+      "titulo_corto": "Fe a Prueba de Fuego",
+      "significado_nombre": "Sadrac, Mesac y Abed-nego (Nombres de cautiverio)",
+      "ocupacion": "Altos funcionarios de la provincia de Babilonia",
+      "familia": {
+        "tribu": "Judá",
+        "linaje": "Nobleza real",
+        "amigo_hermano": "Daniel"
+      },
+      "imagen": "/img/perfiles/tres_hebreos.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Daniel"
+      ],
+      "era_biblica": "Exilio Babilónico"
+    },
+    "narrativa": {
+      "resumen_epico": "Ananías, Misael y Azarías son el símbolo eterno de la resistencia espiritual inquebrantable. Como jóvenes nobles en una corte pagana, enfrentaron el dilema definitivo: arrodillarse ante el orgullo de un emperador o morir en las llamas. Su respuesta a Nabucodonosor es el manifiesto de la fe pura: declararon que Dios podía salvarlos, pero que aun si no lo hacía, su lealtad no estaba a la venta. Al ser lanzados al horno siete veces más caliente, el fuego no fue su final, sino el escenario de un encuentro celestial. Pasearon libres en medio del incendio, demostrando que quien camina con Dios nunca está solo en la prueba.",
+      "dato_curioso": "Aunque Daniel era su amigo íntimo, no aparece en este relato. Esto resalta que la fe de estos tres jóvenes no era dependiente del liderazgo de Daniel; ellos tenían una convicción propia y colectiva lo suficientemente fuerte como para enfrentar la muerte sin su mentor cerca.",
+      "conexion_jesus": "El 'cuarto hombre' en el horno es considerado una Cristofanía (aparición pre-encarnada de Cristo). Jesús se manifiesta no para evitar que entren al fuego, sino para caminar con ellos *dentro* del fuego, liberándolos de sus ataduras y preservando sus vidas.",
+      "diagrama_referencia": "Infografía: Los tres nombres hebreos (Honor a Dios) vs Los tres babilónicos (Honor a ídolos)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiestan una psicología de solidaridad heroica y paz trascendental. No hay rastro de pánico en su diálogo con el rey; poseen la calma de quienes ya han muerto a su propio ego antes de entrar al horno. Representan la fuerza de la comunidad creyente: se sostuvieron mutuamente en una cultura diseñada para aislarlos y asimilarlos.",
+      "fortalezas": [
+        "Valentía colectiva y lealtad recíproca",
+        "Fe incondicional que no exige garantías de milagros",
+        "Integridad absoluta bajo amenaza de tortura"
+      ],
+      "debilidades": [
+        "No se registran manchas en su integridad durante este episodio"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Horno de Fuego",
+          "significado": "Representa las pruebas extremas que purifican la fe y queman solo las ataduras del mundo."
+        },
+        {
+          "objeto": "La Ropa Intacta",
+          "significado": "Símbolo de la protección total de Dios sobre la identidad del creyente."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La verdadera fe no es creer que Dios hará lo que tú quieres, sino confiar en Él pase lo que pase, incluso si el milagro no llega de la forma esperada.",
+      "preguntas_reflexion": [
+        "¿Tu fidelidad a Dios depende de que Él te libre de los problemas?",
+        "¿Tienes amigos que fortalezcan tu fe cuando el sistema te presiona para que te inclines?",
+        "¿Eres capaz de decir 'Y si no...' y mantenerte firme en tus valores cristianos?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Conflicto",
+        "evento": "Se niegan a adorar la estatua de oro en la llanura de Dura ante la música real.",
+        "vinculo_mapa": "llanura-de-dura",
+        "referencia": "Daniel 3:12"
+      },
+      {
+        "fase": "Confesión",
+        "evento": "Responden al rey Nabucodonosor con valentía absoluta, rechazando la apostasía.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Daniel 3:16-18"
+      },
+      {
+        "fase": "Prueba",
+        "evento": "Son atados y lanzados al horno de fuego calentado siete veces más de lo normal.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Daniel 3:19-23"
+      },
+      {
+        "fase": "Vindicación",
+        "evento": "Salen del fuego sin olor a quemado; el rey reconoce la soberanía de Dios.",
+        "vinculo_mapa": "babilonia",
+        "referencia": "Daniel 3:26-30"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "babilonia",
+        "jerusalen"
+      ],
+      "estudios": [
+        "cristofanias-en-at",
+        "resistencia-cultural-en-el-exilio",
+        "idolatria-estatal"
+      ],
+      "devocionales": [
+        "y-si-no",
+        "el-cuarto-hombre-en-el-fuego"
+      ],
+      "personajes_relacionados": [
+        "daniel",
+        "nabucodonosor",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "fe-incombustible"
+    }
+  },
+  {
+    "id": "oseas",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Oseas",
+      "titulo_corto": "El Profeta del Amor Doloroso",
+      "significado_nombre": "Salvación",
+      "ocupacion": "Profeta de Jehová",
+      "familia": {
+        "padre": "Beeri",
+        "esposa": "Gomer",
+        "hijos": [
+          "Jezreel",
+          "Lo-ruhama",
+          "Lo-ammi"
+        ]
+      },
+      "imagen": "/img/perfiles/oseas.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Oseas"
+      ],
+      "era_biblica": "Decadencia del Reino del Norte (Israel)"
+    },
+    "narrativa": {
+      "resumen_epico": "Oseas fue el hombre cuya propia vida se convirtió en el sermón más desgarrador de la Biblia. Por mandato divino, se casó con una mujer que le sería infiel, transformando su hogar en una parábola viviente de la relación entre Dios e Israel. Mientras el pueblo abandonaba a Jehová por ídolos, Oseas experimentaba en carne propia el dolor de la traición y el abandono de su esposa Gomer. Sin embargo, su historia alcanzó una cumbre de gracia cuando Dios le ordenó rescatar a su esposa del mercado de esclavos, amándola de nuevo y restaurando su dignidad, revelando que el amor de Dios es una fuerza perseguidora que nunca se rinde.",
+      "dato_curioso": "Los nombres de sus hijos eran profecías ambulantes: 'Lo-ruhama' significaba 'No compadecida' y 'Lo-ammi' significaba 'No mi pueblo'. Cada vez que Oseas llamaba a sus hijos por su nombre, estaba anunciando el juicio de Dios sobre la nación, hasta que el mensaje cambió a la misericordia.",
+      "conexion_jesus": "Oseas comprando a su esposa en el mercado de esclavos por 15 piezas de plata y cebada es una prefiguración exacta de la Redención. Cristo pagó el precio de Su propia vida para rescatar a Su Iglesia (Su esposa) de la esclavitud del pecado y la idolatría.",
+      "diagrama_referencia": "Ciclo de Oseas: Pecado (Adulterio) -> Juicio (Abandono) -> Gracia (Redención)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de empatía divina y sufrimiento consagrado. Oseas sintió en su propio corazón el celo y el dolor de Dios. Su carácter muestra una resiliencia emocional asombrosa, capaz de perdonar lo imperdonable y de mantener una ternura persistente en medio de la humillación pública. Representa el amor que sufre pero que espera contra toda esperanza.",
+      "fortalezas": [
+        "Obediencia radical en las áreas más íntimas de su vida",
+        "Capacidad para comunicar teología a través de la emoción pura",
+        "Fidelidad al ministerio a pesar del dolor personal"
+      ],
+      "debilidades": [
+        "Vulnerabilidad al escarnio social por su situación matrimonial"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Adulterio",
+          "significado": "Representa la idolatría de Israel al buscar satisfacción en otros dioses."
+        },
+        {
+          "objeto": "Las Piezas de Plata y Cebada",
+          "significado": "Simbolizan el precio humilde pero costoso del rescate y la restauración."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No importa cuán lejos te hayas ido o cuántas veces hayas fallado, el amor de Dios es lo suficientemente grande como para ir a buscarte y pagar el precio de tu regreso.",
+      "preguntas_reflexion": [
+        "¿Hay 'amantes' (ídolos, prioridades, vicios) que están ocupando el lugar de Dios en tu corazón?",
+        "¿Estás dispuesto a perdonar y restaurar a otros como Oseas hizo con Gomer?",
+        "¿Entiendes que tu relación con Dios es un pacto de amor y no solo un conjunto de reglas?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Mandato",
+        "evento": "Dios le ordena casarse con Gomer para ilustrar la infidelidad de la nación.",
+        "vinculo_mapa": "israel-norte",
+        "referencia": "Oseas 1:2"
+      },
+      {
+        "fase": "Dolor",
+        "evento": "Gomer lo abandona por otros amantes; Oseas cría a sus hijos con nombres proféticos.",
+        "vinculo_mapa": "israel-norte",
+        "referencia": "Oseas 2"
+      },
+      {
+        "fase": "Rescate",
+        "evento": "Por orden de Dios, compra a Gomer en esclavitud y la lleva de vuelta a casa.",
+        "vinculo_mapa": "valle-de-acor",
+        "referencia": "Oseas 3:1-3"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "israel",
+        "valle-de-acor",
+        "samaria"
+      ],
+      "estudios": [
+        "el-amor-hesed",
+        "la-idolatria-como-adulterio",
+        "redencion-matrimonial"
+      ],
+      "devocionales": [
+        "amor-perseguidor",
+        "nombres-de-misericordia"
+      ],
+      "personajes_relacionados": [
+        "gomer",
+        "baal"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 400,
+      "logro_id": "amor-que-restaura"
+    }
+  },
+  {
+    "id": "joel",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Joel",
+      "titulo_corto": "El Profeta del Pentecostés",
+      "significado_nombre": "Jehová es Dios",
+      "ocupacion": "Profeta de Judá",
+      "familia": {
+        "padre": "Petuel"
+      },
+      "imagen": "/img/perfiles/joel.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Joel",
+        "Hechos"
+      ],
+      "era_biblica": "Periodo de Judá (Crisis Ambiental y Espiritual)"
+    },
+    "narrativa": {
+      "resumen_epico": "Joel fue el profeta que vio en una plaga de langostas el eco de un ejército divino. Mientras la tierra era devorada y la alegría desaparecía de los campos, Joel alzó su voz para anunciar el 'Día de Jehová'. No predicó una religión de apariencias, sino un arrepentimiento que rasga el corazón antes que las vestiduras. Su visión trascendió su tiempo, saltando siglos hasta un aposento alto en Jerusalén, donde su promesa del derramamiento del Espíritu Santo sobre toda carne se convirtió en la chispa que encendió la Iglesia global.",
+      "dato_curioso": "Joel es el profeta que nos dio la esperanza de la 'restitución del tiempo perdido'. Dios le prometió al pueblo: 'Os restituiré los años que comió la langosta', un mensaje poderoso de que Dios puede devolver la vida y la abundancia incluso tras desastres que parecen terminales.",
+      "conexion_jesus": "Joel es el puente directo hacia el ministerio del Espíritu Santo enviado por Jesús. En el día de Pentecostés, el apóstol Pedro identificó lo que estaba ocurriendo como el cumplimiento exacto de la profecía de Joel, validando que el Reino de Cristo es para todos: hijos, hijas, ancianos y jóvenes.",
+      "diagrama_referencia": "Estructura del libro: El Juicio (Langostas) -> El Arrepentimiento -> La Promesa (Espíritu)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de urgencia profética y discernimiento espiritual agudo. Joel era un observador de la naturaleza que sabía interpretar los tiempos; veía el mensaje de Dios en los eventos climáticos y económicos. Su carácter es el de un restaurador que cree firmemente en la misericordia de Dios si hay una humillación genuina. Representa la voz que convoca a la unidad nacional ante la crisis.",
+      "fortalezas": [
+        "Capacidad para movilizar a toda la nación hacia el ayuno y la oración",
+        "Claridad para distinguir entre el ritualismo externo y el arrepentimiento interno",
+        "Visión escatológica profunda sobre la era del Espíritu Santo"
+      ],
+      "debilidades": [
+        "No se registran; su figura se funde totalmente con su mensaje profético"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Langosta",
+          "significado": "Representa el juicio de Dios y la fragilidad de la seguridad económica humana."
+        },
+        {
+          "objeto": "El Aceite y el Vino",
+          "significado": "Símbolos de la alegría y la bendición que Dios restaura tras el arrepentimiento."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El arrepentimiento verdadero no es un acto religioso público, sino un quebrantamiento íntimo que abre la puerta a la restauración total de Dios.",
+      "preguntas_reflexion": [
+        "¿Estás 'rasgando tus vestidos' (apariencias) o tu corazón delante de Dios?",
+        "¿Confías en que Dios puede restituirte los años que has perdido por tus propios errores o crisis externas?",
+        "¿Vives consciente de que el Espíritu Santo ha sido derramado sobre ti para profetizar y tener visión?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Crisis",
+        "evento": "La plaga de langostas devora los cultivos y la nación cae en miseria profunda.",
+        "vinculo_mapa": "juda",
+        "referencia": "Joel 1"
+      },
+      {
+        "fase": "Convocatoria",
+        "evento": "Joel llama a un ayuno solemne y a congregar a los ancianos y niños en el Templo.",
+        "vinculo_mapa": "jerusalen-templo",
+        "referencia": "Joel 2:15-17"
+      },
+      {
+        "fase": "Promesa",
+        "evento": "Anuncia el derramamiento del Espíritu Santo sobre toda carne y señales en el cielo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Joel 2:28-32"
+      },
+      {
+        "fase": "Juicio Final",
+        "evento": "Profetiza el juicio de las naciones en el Valle de Josafat.",
+        "vinculo_mapa": "valle-de-josafat",
+        "referencia": "Joel 3"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "sion",
+        "valle-de-josafat"
+      ],
+      "estudios": [
+        "el-dia-de-jehova",
+        "pneumatologia-biblica",
+        "restitucion-divina"
+      ],
+      "devocionales": [
+        "rasgad-el-corazon",
+        "los-años-de-la-langosta"
+      ],
+      "personajes_relacionados": [
+        "pedro",
+        "espiritu-santo",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "visionario-del-espiritu"
+    }
+  },
+  {
+    "id": "amos",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Amós",
+      "titulo_corto": "El Pastor de Justicia",
+      "significado_nombre": "Carga o Cargador",
+      "ocupacion": "Boyero, Agricultor de higos silvestres",
+      "familia": {
+        "origen": "Tecoa (Judá)",
+        "estatus": "Trabajador rural sin linaje profético"
+      },
+      "imagen": "/img/perfiles/amos.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Amós"
+      ],
+      "era_biblica": "Monarquía Dividida (Prosperidad y Corrupción en Israel)"
+    },
+    "narrativa": {
+      "resumen_epico": "Amós fue el rugido de un león en medio de la complacencia de un reino. Sin títulos ni formación teológica, fue arrancado de detrás del ganado en Judá para confrontar a la élite opresora del Reino del Norte. En una época donde los templos estaban llenos pero los juzgados estaban corrompidos, Amós denunció que Dios aborrecía las canciones y ritos de quienes vendían al pobre por un par de zapatos. Su voz fue la de la conciencia social de Dios, exigiendo que la justicia fluyera no como un goteo, sino como un torrente impetuoso capaz de lavar la iniquidad de una nación.",
+      "dato_curioso": "A diferencia de otros profetas, Amós era un experto en agricultura. Cultivaba 'higos silvestres' (sicómoros), una fruta que requería ser punzada individualmente para madurar. Esta paciencia y atención al detalle en lo pequeño fue la que Dios usó para diseccionar la compleja red de pecado de Israel.",
+      "conexion_jesus": "Amós denunció la religión de fachada, un eco directo de las palabras de Jesús contra los fariseos. Además, profetizó la restauración del 'tabernáculo caído de David', una promesa que el Nuevo Testamento identifica con la apertura de la salvación a todas las naciones a través de la Iglesia (Hechos 15).",
+      "diagrama_referencia": "Esquema: Las 5 visiones de juicio de Amós"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de integridad ruda y franqueza absoluta. Amós no posee la melancolía de Jeremías ni el éxtasis de Ezequiel; es un hombre de la tierra, práctico y valiente. Representa la indignación santa: un carácter que no se deja deslumbrar por el lujo palaciego porque sus ojos están puestos en el estándar de la 'plomada' divina.",
+      "fortalezas": [
+        "Valentía indomable ante la autoridad política y religiosa",
+        "Claridad moral para priorizar la justicia social sobre el ritualismo",
+        "Humildad para reconocer su origen sencillo sin complejos"
+      ],
+      "debilidades": [
+        "Su mensaje es casi exclusivamente de juicio, con escasa consolación inmediata para su audiencia"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Plomada de albañil",
+          "significado": "Representa el juicio recto y vertical de Dios que mide la torcedura moral del pueblo."
+        },
+        {
+          "objeto": "El Canastillo de fruta de verano",
+          "significado": "Símbolo de que Israel estaba 'maduro' para el juicio final; el tiempo se había agotado."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La adoración que Dios acepta es inseparable de la manera en que tratas al vulnerable en tu vida cotidiana.",
+      "preguntas_reflexion": [
+        "¿Tu vida religiosa es solo una fachada o hay justicia real en tus tratos con los demás?",
+        "¿Estás usando tus talentos y posición para defender al que no tiene voz?",
+        "¿Aceptarías un llamado de Dios que te saque de tu comodidad para decir verdades incómodas?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Llamado",
+        "evento": "Es tomado por Dios mientras cuidaba el ganado en las colinas de Tecoa.",
+        "vinculo_mapa": "tecoa",
+        "referencia": "Amós 7:14-15"
+      },
+      {
+        "fase": "Proclamación",
+        "evento": "Llega a Samaria y Bet-el para anunciar juicios contra las naciones y contra Israel.",
+        "vinculo_mapa": "samaria",
+        "referencia": "Amós 1-2"
+      },
+      {
+        "fase": "Confrontación",
+        "evento": "El sacerdote Amasías intenta expulsarlo; Amós profetiza la caída de la casa del sacerdote.",
+        "vinculo_mapa": "betel",
+        "referencia": "Amós 7:10-17"
+      },
+      {
+        "fase": "Promesa",
+        "evento": "Finaliza su mensaje con la visión de la restauración futura del linaje de David.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Amós 9:11-15"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "tecoa",
+        "betel",
+        "samaria",
+        "jerusalen"
+      ],
+      "estudios": [
+        "justicia-social-biblica",
+        "el-sicomoro-en-israel",
+        "profetas-menores"
+      ],
+      "devocionales": [
+        "ruge-el-leon",
+        "la-plomada-de-dios"
+      ],
+      "personajes_relacionados": [
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "pastor-de-justicia"
+    }
+  },
+  {
+    "id": "abdias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Abdías",
+      "titulo_corto": "El Mensajero contra el Orgullo",
+      "significado_nombre": "Siervo de Jehová",
+      "ocupacion": "Profeta",
+      "familia": {
+        "descendencia": "Desconocida"
+      },
+      "imagen": "/img/perfiles/abdias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Abdías"
+      ],
+      "era_biblica": "Periodo de la caída de Jerusalén (Juicio a las naciones)"
+    },
+    "narrativa": {
+      "resumen_epico": "Abdías es la voz de la justicia poética de Dios. Aunque su mensaje es el más breve del Antiguo Testamento, tiene la fuerza de un terremoto. Se dirigió a Edom, los hermanos de sangre de Israel que, desde sus ciudades talladas en roca inaccesible, se burlaron y saquearon a Jerusalén en su peor momento. Abdías anunció que ninguna altura física puede proteger al soberbio del alcance de Dios. Su profecía es un recordatorio de que Dios no olvida la traición entre hermanos y que, al final, el Reino no pertenecerá a los fuertes de este mundo, sino a Jehová.",
+      "dato_curioso": "La capital de Edom, Petra, era considerada militarmente imposible de conquistar debido a sus estrechos desfiladeros y viviendas en las peñas. Abdías usa esta geografía para su mensaje: 'Aunque te remontares como águila... de allí te haré descender'. Hoy, Edom como nación no existe, tal como Abdías predijo.",
+      "conexion_jesus": "Al final de su libro, Abdías profetiza que 'subirán salvadores al monte de Sion' y que el Reino será de Jehová. Esto apunta a la victoria final de Cristo, el Gran Salvador, quien establece un Reino que derriba toda altivez humana y restaura a Su pueblo.",
+      "diagrama_referencia": "Infografía: La ubicación estratégica de Edom y las grietas de las peñas"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de celo por la justicia familiar y fidelidad al remanente. Abdías siente el dolor de la traición de Edom (descendientes de Esaú) contra Jacob. Representa la convicción de que el silencio de Dios ante la maldad es solo temporal y que la soberbia es, en sí misma, el cimiento de la propia caída.",
+      "fortalezas": [
+        "Precisión profética y enfoque inalterable",
+        "Confianza absoluta en la soberanía de Dios sobre la historia",
+        "Lealtad al pacto de hermandad que Edom violó"
+      ],
+      "debilidades": [
+        "Figura personal casi invisible detrás de la potencia del mensaje"
+      ],
+      "simbologia": [
+        {
+          "objeto": "Las Hendiduras de las peñas",
+          "significado": "Representan la falsa seguridad material y el aislamiento del orgullo humano."
+        },
+        {
+          "objeto": "El Nido del águila",
+          "significado": "Símbolo de la ambición que busca elevarse por encima de la ley de Dios."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Nunca te alegres del fracaso de otros, especialmente de tus hermanos; lo que siembras en el dolor ajeno, lo cosecharás en tu propio juicio.",
+      "preguntas_reflexion": [
+        "¿En qué 'rocas' o seguridades humanas estás confiando hoy?",
+        "¿Has sentido satisfacción secreta cuando alguien que te cae mal ha sufrido una desgracia?",
+        "¿Confías en que Dios es el juez final que restaurará todas las injusticias?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Observación",
+        "evento": "Edom se burla y colabora en la destrucción de Jerusalén por los babilonios.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Abdías 1:11-14"
+      },
+      {
+        "fase": "Profecía",
+        "evento": "Abdías recibe la visión del juicio inminente y la caída de las ciudades de Edom.",
+        "vinculo_mapa": "edom",
+        "referencia": "Abdías 1:1-4"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Anuncia el regreso de los cautivos de Israel y la posesión de las tierras enemigas.",
+        "vinculo_mapa": "monte-sion",
+        "referencia": "Abdías 1:17-21"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "edom",
+        "petra",
+        "monte-sion",
+        "neguev"
+      ],
+      "estudios": [
+        "historia-de-esau-y-jacob",
+        "la-soberbia-en-la-biblia",
+        "geografia-de-petra"
+      ],
+      "devocionales": [
+        "la-trampa-del-orgullo",
+        "justicia-para-el-hermano"
+      ],
+      "personajes_relacionados": [
+        "esau",
+        "jacob",
+        "nabucodonosor"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 100,
+      "logro_id": "vindicador-de-hermanos"
+    }
+  },
+  {
+    "id": "jonas",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Jonás",
+      "titulo_corto": "El Misionero Rebelde",
+      "significado_nombre": "Paloma",
+      "ocupacion": "Profeta de Israel",
+      "familia": {
+        "padre": "Amitai",
+        "origen": "Gat-hefer (Galilea)"
+      },
+      "imagen": "/img/perfiles/jonas.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Jonás",
+        "2 Reyes",
+        "Mateo"
+      ],
+      "era_biblica": "Reinado de Jeroboam II (Expansión de Israel / Amenaza Asiria)"
+    },
+    "narrativa": {
+      "resumen_epico": "Jonás es el profeta que intentó huir de la omnipresencia de Dios. Enviado a predicar a Nínive, la capital de un imperio famoso por su crueldad, su nacionalismo pudo más que su obediencia. En lugar de ir al este, huyó al extremo oeste, desencadenando una tormenta divina y un encuentro sobrenatural en las profundidades del mar. Jonás experimentó una 'muerte y resurrección' simbólica dentro de un gran pez para terminar cumpliendo su misión a regañadientes. Su historia es una sátira divina sobre el prejuicio religioso y un monumento a la misericordia de Dios, que ama incluso a los enemigos que nosotros odiamos.",
+      "dato_curioso": "Es el único profeta que se enoja porque su predicación tuvo éxito. Mientras que otros profetas sufrían porque nadie los escuchaba, Jonás cayó en depresión porque 120,000 asirios se arrepintieron, revelando que él prefería ver el fuego del juicio que el abrazo del perdón.",
+      "conexion_jesus": "Jesús usó la 'señal de Jonás' como la única prueba que daría a Su generación. Así como Jonás estuvo tres días y noches en el vientre del pez, Jesús estaría tres días en el corazón de la tierra antes de resucitar. Jonás prefigura la resurrección y la misión a los gentiles.",
+      "diagrama_referencia": "Infografía: El viaje de Jonás - El camino de la huida vs El camino de la obediencia"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de etnocentrismo, rebeldía y honestidad brutal. Jonás es profundamente humano: prefiere morir antes que ver a sus enemigos perdonados. Su lucha interna no es de duda, sino de desacuerdo con el carácter de Dios. Representa al creyente que quiere una misericordia exclusiva para los 'suyos' y un juicio implacable para los 'otros'.",
+      "fortalezas": [
+        "Honestidad radical para admitir su culpa ante los marineros",
+        "Eficacia profética (logró el mayor avivamiento masivo de la Biblia)",
+        "Capacidad de oración profunda en momentos de crisis absoluta"
+      ],
+      "debilidades": [
+        "Nacionalismo ciego que limita la gracia de Dios",
+        "Desobediencia deliberada y falta de compasión",
+        "Temperamento volátil y propenso a la queja"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Gran Pez",
+          "significado": "Representa la disciplina de Dios que rescata al profeta de su propia destrucción."
+        },
+        {
+          "objeto": "La Calabacera (planta)",
+          "significado": "Símbolo de la comodidad pasajera y de la falta de perspectiva sobre el valor de las almas."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No puedes huir de la presencia de Dios; Su misericordia es siempre más grande que tus prejuicios y fronteras nacionales.",
+      "preguntas_reflexion": [
+        "¿A quién has decidido que Dios no debería perdonar en tu corazón?",
+        "¿Estás huyendo hacia tu propio 'Tarsis' para evitar una tarea difícil que Dios te dio?",
+        "¿Te preocupas más por tus pequeñas comodidades (tu planta) que por las miles de personas que se pierden a tu alrededor?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Fuga",
+        "evento": "Huye a Jope y toma un barco a Tarsis para escapar de la presencia de Jehová.",
+        "vinculo_mapa": "jope",
+        "referencia": "Jonás 1:1-3"
+      },
+      {
+        "fase": "Crisis",
+        "evento": "Es lanzado al mar durante la tormenta y tragado por un gran pez; ora desde el abismo.",
+        "vinculo_mapa": "mar-mediterraneo",
+        "referencia": "Jonás 1-2"
+      },
+      {
+        "fase": "Misión",
+        "evento": "Predica en Nínive: 'De aquí a 40 días Nínive será destruida'. La ciudad se arrepiente.",
+        "vinculo_mapa": "ninive",
+        "referencia": "Jonás 3"
+      },
+      {
+        "fase": "Lección",
+        "evento": "Se enoja con Dios por Su piedad; Dios lo confronta mediante una planta y un gusano.",
+        "vinculo_mapa": "ninive",
+        "referencia": "Jonás 4"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "gat-hefer",
+        "jope",
+        "ninive",
+        "tarsis"
+      ],
+      "estudios": [
+        "el-imperio-asirio",
+        "la-señal-de-jonas",
+        "misionologia-biblica"
+      ],
+      "devocionales": [
+        "no-puedes-huir",
+        "el-profeta-enojado"
+      ],
+      "personajes_relacionados": [
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "misionero-a-regañadientes"
+    }
+  },
+  {
+    "id": "miqueas",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Miqueas",
+      "titulo_corto": "El Profeta de Belén",
+      "significado_nombre": "¿Quién como Jehová?",
+      "ocupacion": "Profeta rural",
+      "familia": {
+        "origen": "Moreset-gat (Judá)"
+      },
+      "imagen": "/img/perfiles/miqueas.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Miqueas",
+        "Jeremías"
+      ],
+      "era_biblica": "Monarquía Dividida (Crisis Asiria)"
+    },
+    "narrativa": {
+      "resumen_epico": "Mientras Isaías hablaba en los palacios, Miqueas rugía desde los campos. Como defensor incansable de los oprimidos, denunció a una élite que 'desollaba' al pueblo para construir mansiones sobre sangre. Su voz fue un martillo contra la injusticia social y la religión de fachada. Sin embargo, en medio de sus truenos de juicio, Miqueas soltó la promesa más brillante de su siglo: que de la pequeña y humilde Belén saldría el Gobernante eterno. Fue el profeta que unió la ética más estricta con la esperanza mesiánica más dulce.",
+      "dato_curioso": "Miqueas salvó indirectamente la vida de Jeremías siglos después de su muerte. Cuando los príncipes querían matar a Jeremías por profetizar la destrucción del Templo, los ancianos recordaron que Miqueas de Moreset había dicho lo mismo en tiempos de Ezequías y no fue muerto, sentando un precedente de protección para los profetas.",
+      "conexion_jesus": "Es el geógrafo del Mesías. Su profecía en Miqueas 5:2 fue la que consultaron los Reyes Magos y los escribas de Herodes para identificar el lugar de nacimiento de Jesús. Además, su llamado a la justicia y misericordia es el corazón del mensaje del Reino de Dios.",
+      "diagrama_referencia": "Infografía: La ubicación de Moreset y Belén en el mapa de Judá"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de empatía profunda y valentía campesina. Miqueas sentía el dolor de los desposeídos como si fuera propio. Su carácter es el de un hombre que aborrece la hipocresía; no temía quedar solo contra el sistema religioso y político de Jerusalén con tal de ser fiel a la 'plomada' de la justicia divina.",
+      "fortalezas": [
+        "Valentía para confrontar pecados sistémicos (corrupción inmobiliaria y judicial)",
+        "Claridad ética insuperable (resumió la ley en tres pilares)",
+        "Precisión profética sobre el origen del Mesías"
+      ],
+      "debilidades": [
+        "Angustia emocional abrumadora por la caída inevitable de Samaria y Jerusalén"
+      ],
+      "simbologia": [
+        {
+          "objeto": "Belén Efrata",
+          "significado": "Representa la elección divina de lo pequeño y humilde para avergonzar a lo grande y soberbio."
+        },
+        {
+          "objeto": "Las Espadas convertidas en Rejas de arado",
+          "significado": "Símbolo de la paz universal bajo el reino del Mesías."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Dios no está impresionado con tus rituales religiosos si no hay justicia en tus manos y humildad en tu caminar diario.",
+      "preguntas_reflexion": [
+        "¿Estás practicando la justicia y la misericordia con aquellos que no pueden darte nada a cambio?",
+        "¿Valoras los 'pequeños comienzos' en tu vida, sabiendo que Dios suele usarlos para Sus planes más grandes?",
+        "¿Caminas con humildad ante Dios o te has vuelto arrogante debido a tu conocimiento o posición?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Denuncia",
+        "evento": "Anuncia el juicio contra Samaria y Jerusalén por la explotación de los pobres.",
+        "vinculo_mapa": "moreset-gat",
+        "referencia": "Miqueas 1-2"
+      },
+      {
+        "fase": "Promesa",
+        "evento": "Profetiza el nacimiento del Mesías en Belén Efrata.",
+        "vinculo_mapa": "belen",
+        "referencia": "Miqueas 5:2"
+      },
+      {
+        "fase": "Pleito",
+        "evento": "Presenta el caso de Dios contra Israel ante los montes y la naturaleza.",
+        "vinculo_mapa": "juda",
+        "referencia": "Miqueas 6"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "belen",
+        "jerusalen",
+        "moreset-gat",
+        "samaria"
+      ],
+      "estudios": [
+        "justicia-social-profetica",
+        "profecias-mesianicas-at",
+        "el-reino-milenial"
+      ],
+      "devocionales": [
+        "el-resumen-de-la-vida",
+        "pequeña-pero-grande"
+      ],
+      "personajes_relacionados": [
+        "isaias",
+        "ezequias",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "defensor-del-pobre"
+    }
+  },
+  {
+    "id": "nahum",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Nahúm",
+      "titulo_corto": "El Vengador de Nínive",
+      "significado_nombre": "Consolador",
+      "ocupacion": "Profeta de Judá",
+      "familia": {
+        "origen": "Elcos (Galilea o Judá)"
+      },
+      "imagen": "/img/perfiles/nahum.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Nahúm"
+      ],
+      "era_biblica": "Caída del Imperio Asirio"
+    },
+    "narrativa": {
+      "resumen_epico": "Si Jonás fue el profeta de la misericordia para Nínive, Nahúm fue el profeta de su sentencia final. Cien años después de que la capital asiria se arrepintiera temporalmente, la ciudad había regresado a una crueldad que hacía temblar al mundo. Nahúm alzó su voz no para invitar al arrepentimiento, sino para anunciar que el tiempo de la paciencia divina se había agotado. Con una poesía vívida y aterradora, describió la caída de la ciudad 'sanguinaria', trayendo un consuelo paradójico a las naciones oprimidas: el tirano finalmente iba a caer por orden del Dios celoso y vengador.",
+      "dato_curioso": "Nahúm profetizó que Nínive sería destruida por el fuego y el agua (Nahúm 2:6). La arqueología confirmó que durante el asedio final en el 612 a.C., una crecida inusual del río Tigris derribó parte del muro, permitiendo que los medos y babilonios entraran y quemaran la ciudad hasta sus cimientos.",
+      "conexion_jesus": "Nahúm cita que 'hermosos son sobre los montes los pies del que trae alegres nuevas' (1:15). Este versículo es el cimiento de la misión evangelizadora en el Nuevo Testamento (Romanos 10:15), pues la derrota del enemigo (Asiria/Satanás) es la buena noticia de paz para el pueblo de Dios.",
+      "diagrama_referencia": "Esquema: La caída de Nínive según la profecía de Nahúm vs evidencia arqueológica"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de celo por la justicia y alivio nacional. Nahúm representa el sentimiento de las víctimas de la tiranía que ven finalmente la intervención de Dios. Su carácter es severo y majestuoso, centrado en el poder de Dios como guerrero soberano. No hay vacilación en su voz; es la voz del juicio que ya no puede ser detenido.",
+      "fortalezas": [
+        "Confianza absoluta en que Dios no dejará al culpable impune",
+        "Capacidad poética para describir la soberanía de Dios sobre la naturaleza",
+        "Enfoque en el consuelo que trae la justicia a los oprimidos"
+      ],
+      "debilidades": [
+        "Su mensaje carece de ofertas de redención para el enemigo, pues escribe desde el punto de no retorno"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El León herido",
+          "significado": "Representa al Imperio Asirio, antes depredador y ahora víctima del juicio de Dios."
+        },
+        {
+          "objeto": "El Torbellino y la Nube",
+          "significado": "Símbolos de la presencia de Dios que viene a ejecutar juicio con rapidez."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La justicia de Dios puede tardar, pero es segura; ningún sistema de maldad es eterno frente al Señor de la historia.",
+      "preguntas_reflexion": [
+        "¿Confías en que Dios es tu fortaleza en el día de la angustia?",
+        "¿Te desesperas ante la injusticia del mundo olvidando que Dios tiene la última palabra?",
+        "¿Eres capaz de ver a Dios como un protector celoso que sale en defensa de Su pueblo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Visión",
+        "evento": "Nahúm recibe la revelación del carácter de Dios como vengador y bondadoso a la vez.",
+        "vinculo_mapa": "judá",
+        "referencia": "Nahúm 1:1-7"
+      },
+      {
+        "fase": "Sentencia",
+        "evento": "Anuncia el fin del yugo asirio sobre Judá.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Nahúm 1:13-15"
+      },
+      {
+        "fase": "Asedio",
+        "evento": "Describe proféticamente el asalto y la destrucción de Nínive.",
+        "vinculo_mapa": "ninive",
+        "referencia": "Nahúm 2"
+      },
+      {
+        "fase": "Ruina",
+        "evento": "Declara la herida incurable de Asiria por su maldad constante.",
+        "vinculo_mapa": "ninive",
+        "referencia": "Nahúm 3"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "ninive",
+        "elcos",
+        "tebas"
+      ],
+      "estudios": [
+        "caida-del-imperio-asirio",
+        "poesia-profetica",
+        "justicia-divina-at"
+      ],
+      "devocionales": [
+        "fortaleza-en-la-angustia",
+        "buenas-nuevas-de-paz"
+      ],
+      "personajes_relacionados": [
+        "jonas",
+        "josias",
+        "senaquerib"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 150,
+      "logro_id": "vengador-divino"
+    }
+  },
+  {
+    "id": "habacuc",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Habacuc",
+      "titulo_corto": "El Profeta que Preguntó ¿Por qué?",
+      "significado_nombre": "El que abraza",
+      "ocupacion": "Profeta, Músico del Templo (Levita)",
+      "familia": {
+        "estatus": "Posiblemente del gremio de cantores levitas"
+      },
+      "imagen": "/img/perfiles/habacuc.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Habacuc"
+      ],
+      "era_biblica": "Vísperas del Exilio Babilónico"
+    },
+    "narrativa": {
+      "resumen_epico": "Habacuc es el profeta que se atrevió a cuestionar a Dios en su cara. Mientras otros profetas traían mensajes de Dios al pueblo, Habacuc llevó las quejas del pueblo a Dios. En un diálogo honesto y angustiante, luchó por entender cómo un Dios santo podía usar a naciones más malvadas (Babilonia) para castigar a Su propio pueblo. Subió a su torre de vigilancia a esperar una respuesta y bajó con una de las verdades más grandes del cristianismo: que en medio del caos, el justo vivirá por su fe. Su historia no termina con respuestas lógicas, sino con un abrazo de confianza total y un canto de alegría en medio de la ruina.",
+      "dato_curioso": "El libro de Habacuc es técnicamente un oratorio musical. Termina con la instrucción: 'Al jefe de los cantores, sobre mis instrumentos de cuerdas'. Esto indica que sus dudas más profundas y su fe más alta estaban destinadas a ser cantadas comunitariamente en el Templo.",
+      "conexion_jesus": "La frase 'El justo por su fe vivirá' (2:4) es el corazón del Evangelio. Pablo la usa como el eje central de Romanos y Gálatas para explicar que la salvación viene por la fe en Jesucristo y no por el cumplimiento de la ley. Habacuc plantó la semilla de la Reforma Protestante.",
+      "diagrama_referencia": "Infografía: El proceso de la fe de Habacuc - Queja -> Espera -> Revelación -> Adoración"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de honestidad intelectual y resiliencia espiritual. Habacuc no se conformaba con respuestas religiosas superficiales ante el dolor y la injusticia. Su proceso muestra una evolución de la perplejidad a la paz; representa al creyente que procesa su duda en la presencia de Dios en lugar de huir de ella. Su carácter es el de un 'abrazador' que se aferra a Dios incluso cuando no entiende Sus métodos.",
+      "fortalezas": [
+        "Honestidad radical en la oración",
+        "Paciencia para esperar la respuesta divina ('Estaré sobre mi guarda')",
+        "Capacidad de gozo incondicional (independiente de la economía o el éxito)"
+      ],
+      "debilidades": [
+        "Vulnerabilidad al desánimo y a la duda inicial sobre el carácter de Dios"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Torre de Guarda",
+          "significado": "Representa la actitud de vigilia, oración y aislamiento necesario para escuchar la voz de Dios."
+        },
+        {
+          "objeto": "La Higuera que no florece",
+          "significado": "Símbolo de la pérdida total de seguridad económica y material."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La fe no es la ausencia de preguntas, sino la decisión de confiar en el carácter de Dios cuando Sus métodos no tienen sentido para nosotros.",
+      "preguntas_reflexion": [
+        "¿Estás llevando tus dudas reales a Dios en oración o las estás guardando para ti?",
+        "¿Tu gozo depende de lo que tienes en el banco o de quién es Dios en tu vida?",
+        "¿Estás dispuesto a 'esperar en tu torre' hasta que Dios te responda en Su tiempo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Conflicto",
+        "evento": "Habacuc clama a Dios por la violencia y la injusticia en Judá.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Habacuc 1:1-4"
+      },
+      {
+        "fase": "Perplejidad",
+        "evento": "Dios responde que usará a los caldeos; Habacuc se escandaliza por la maldad de ellos.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Habacuc 1:5-17"
+      },
+      {
+        "fase": "Visión",
+        "evento": "Sube a la torre y recibe la visión de que el justo vivirá por su fe.",
+        "vinculo_mapa": "torre-de-guarda",
+        "referencia": "Habacuc 2"
+      },
+      {
+        "fase": "Adoración",
+        "evento": "Compone un cántico de triunfo y alegría suprema a pesar de la crisis inminente.",
+        "vinculo_mapa": "templo-jerusalen",
+        "referencia": "Habacuc 3"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "babilonia"
+      ],
+      "estudios": [
+        "la-justificacion-por-la-fe",
+        "el-problema-del-mal",
+        "musica-en-el-at"
+      ],
+      "devocionales": [
+        "aunque-la-higuera-no-florezca",
+        "vivir-por-fe"
+      ],
+      "personajes_relacionados": [
+        "pablo",
+        "nabucodonosor"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "vencedor-de-dudas"
+    }
+  },
+  {
+    "id": "sofonias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Sofonías",
+      "titulo_corto": "La Lámpara de Jehová",
+      "significado_nombre": "Jehová esconde / protege",
+      "ocupacion": "Profeta, Príncipe de Judá",
+      "familia": {
+        "tatarabuelo": "Rey Ezequías",
+        "padre": "Cusi"
+      },
+      "imagen": "/img/perfiles/sofonias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Sofonías"
+      ],
+      "era_biblica": "Reforma de Josías (Pre-exilio)"
+    },
+    "narrativa": {
+      "resumen_epico": "Sofonías fue la voz real que denunció la podredumbre desde adentro. Como tataranieto del rey Ezequías, poseía el estatus para callar, pero eligió rugir contra la complacencia de Jerusalén. En una época donde la gente creía que Dios era indiferente al mal, Sofonías describió a Jehová escudriñando cada rincón de la ciudad con linternas para exponer la suciedad oculta. Su mensaje fue un trueno que anunció el 'Día de la Ira', pero su visión terminó en una de las promesas más bellas de la Biblia: un Dios que, tras purificar a Su pueblo, guarda silencio de amor y rompe a cantar de alegría sobre ellos.",
+      "dato_curioso": "Es el único profeta que rastrea su genealogía hasta cuatro generaciones atrás. Esto lo hizo para validar su linaje real y demostrar que, a pesar de ser de la nobleza, no se dejaría comprar por los intereses de la corte mientras el pueblo adoraba a dioses paganos en los terrados.",
+      "conexion_jesus": "Sofonías profetiza el tiempo en que Dios dará a todos los pueblos 'labios puros' para que le invoquen. Esto apunta directamente al Nuevo Pacto en Cristo, donde la barrera de las naciones se rompe y el Evangelio llega a los confines de la tierra, unificando la adoración bajo un solo nombre.",
+      "diagrama_referencia": "Infografía: Los tres círculos del juicio en Sofonías (Judá, Naciones vecinas, El Mundo)"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de celo incorruptible y ternura final. Sofonías no es un cínico, sino un purificador. Su carácter es el de alguien que ama tanto la casa de Dios que no soporta verla manchada de indiferencia. Representa la conciencia despierta en medio de una generación que ha confundido la paciencia de Dios con Su ausencia.",
+      "fortalezas": [
+        "Integridad para señalar el pecado de su propia clase social",
+        "Visión aguda del carácter activo y justo de Dios",
+        "Capacidad para consolar con imágenes poéticas sublimes"
+      ],
+      "debilidades": [
+        "No se registran; su figura aparece como un heraldo fiel de la reforma de Josías"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Linterna",
+          "significado": "Representa el escrutinio divino que nada puede ocultar; la luz que penetra en la complacencia espiritual."
+        },
+        {
+          "objeto": "El Cántico Divino",
+          "significado": "Símbolo de la restauración total donde Dios mismo se deleita en Su creación redimida."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "La neutralidad espiritual es una ilusión; Dios no tolera a los que dicen en su corazón que 'Él no hará ni bien ni mal'.",
+      "preguntas_reflexion": [
+        "¿Te has vuelto complaciente en tu fe, pensando que tus acciones no importan realmente?",
+        "¿Si Dios pasara hoy una 'linterna' por tu vida privada, qué encontraría?",
+        "¿Eres capaz de imaginar a Dios cantando de alegría por el simple hecho de que has vuelto a Él?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Denuncia",
+        "evento": "Anuncia el juicio sobre los idólatras que adoran en los terrados y los que se visten con ropas extranjeras.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Sofonías 1"
+      },
+      {
+        "fase": "Exhortación",
+        "evento": "Llama a los humildes de la tierra a buscar justicia y mansedumbre.",
+        "vinculo_mapa": "juda",
+        "referencia": "Sofonías 2:1-3"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Profetiza la eliminación de los soberbios y la alegría del remanente en Sion.",
+        "vinculo_mapa": "sion",
+        "referencia": "Sofonías 3:11-20"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "sion",
+        "etiopia",
+        "ninive"
+      ],
+      "estudios": [
+        "el-dia-de-jehova",
+        "la-reforma-de-josias",
+        "genealogia-real-profetica"
+      ],
+      "devocionales": [
+        "dios-canta-sobre-ti",
+        "la-lampara-de-jehova"
+      ],
+      "personajes_relacionados": [
+        "josias",
+        "ezequias",
+        "jeremias"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 200,
+      "logro_id": "centinela-real"
+    }
+  },
+  {
+    "id": "hageo",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Hageo",
+      "titulo_corto": "El Constructor del Templo",
+      "significado_nombre": "Festivo",
+      "ocupacion": "Profeta del retorno",
+      "familia": {
+        "rol": "Posiblemente un anciano que vio el antiguo Templo de Salomón"
+      },
+      "imagen": "/img/perfiles/hageo.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Hageo",
+        "Esdras"
+      ],
+      "era_biblica": "Post-exilio (Reconstrucción)"
+    },
+    "narrativa": {
+      "resumen_epico": "Hageo fue el hombre que sacó a Israel de su letargo egoísta. Tras volver del exilio, el pueblo se enfocó en sus propios lujos, dejando la casa de Dios en ruinas. Con un mensaje de apenas dos capítulos, Hageo lanzó una pregunta que atravesó los siglos: ¿Cómo pueden vivir en la opulencia mientras lo sagrado está desierto? Su predicación fue un catalizador de acción inmediata; no buscó emociones, sino un cambio de prioridades. Bajo su aliento, los cimientos del Templo volvieron a vibrar, asegurando que la gloria de Dios volvería a habitar en medio de su pueblo.",
+      "dato_curioso": "Es uno de los profetas con mayor éxito 'ejecutivo' de la Biblia. Solo le tomó cuatro mensajes breves en un lapso de cuatro meses para lograr que toda la nación reiniciara la obra que llevaba 16 años estancada. La respuesta fue tan rápida que en 24 días ya estaban trabajando.",
+      "conexion_jesus": "Hageo profetizó que Dios haría temblar las naciones y que vendría 'el Deseado de todas las naciones'. Cristo es el cumplimiento de esa gloria postrera, cuya presencia santificó el Templo de tal manera que superó la magnificencia física del oro de Salomón.",
+      "diagrama_referencia": "Esquema comparativo: Prioridades del pueblo vs Mandato de Dios"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de realismo práctico y sabiduría de mentor. Hageo es directo, lógico y empírico. Utiliza la economía cotidiana (el jornal en saco roto, la escasez de comida) para mostrar que descuidar lo espiritual tiene consecuencias físicas. Representa la voz de la experiencia que sabe que sin la presencia de Dios, cualquier esfuerzo humano es estéril.",
+      "fortalezas": [
+        "Habilidad motivacional extraordinaria para mover a las masas",
+        "Claridad para identificar las prioridades espirituales",
+        "Persistencia para supervisar el progreso de la obra"
+      ],
+      "debilidades": [
+        "No se registran; su brevedad es su mayor sello de eficiencia"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Saco roto",
+          "significado": "Representa la futilidad de acumular riquezas cuando se ignora la voluntad de Dios."
+        },
+        {
+          "objeto": "La Casa artesonada",
+          "significado": "Símbolo del egoísmo y el lujo personal a expensas de la comunidad espiritual."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Cuando pones los intereses de Dios en el centro de tu vida, Él bendice todo lo que tus manos tocan; si te pones a ti mismo primero, siempre sentirás que te falta algo.",
+      "preguntas_reflexion": [
+        "¿Estás invirtiendo tu tiempo en construir tu propio 'techo' mientras descuidas tu relación con Dios?",
+        "¿Sientes que trabajas mucho pero tus frutos desaparecen como en un 'saco roto'?",
+        "¿Estás dispuesto a meditar seriamente sobre tus caminos hoy mismo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Confrontación",
+        "evento": "Primer mensaje: Reprende al pueblo por su apatía y el descuido del Templo.",
+        "vinculo_mapa": "jerusalen-templo",
+        "referencia": "Hageo 1:1-11"
+      },
+      {
+        "fase": "Acción",
+        "evento": "Zorobabel y el pueblo comienzan la obra apenas 24 días después del mensaje.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Hageo 1:12-15"
+      },
+      {
+        "fase": "Aliento",
+        "evento": "Promete que la gloria de este nuevo Templo será mayor que la del anterior.",
+        "vinculo_mapa": "jerusalen-templo",
+        "referencia": "Hageo 2:1-9"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "babilonia"
+      ],
+      "estudios": [
+        "cronologia-del-retorno",
+        "arqueologia-del-segundo-templo",
+        "mayordomia-biblica"
+      ],
+      "devocionales": [
+        "meditad-vuestros-caminos",
+        "el-deseado-de-las-naciones"
+      ],
+      "personajes_relacionados": [
+        "zorobabel",
+        "jesua-sacerdote",
+        "zacarias"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 150,
+      "logro_id": "arquitecto-de-prioridades"
+    }
+  },
+  {
+    "id": "zacarias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Zacarías",
+      "titulo_corto": "El Profeta de las Visiones",
+      "significado_nombre": "Jehová recuerda",
+      "ocupacion": "Sacerdote, Profeta",
+      "familia": {
+        "padre": "Berequías",
+        "abuelo": "Iddo (líder sacerdotal)"
+      },
+      "imagen": "/img/perfiles/zacarias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Zacarías",
+        "Esdras",
+        "Mateo"
+      ],
+      "era_biblica": "Post-exilio (Restauración y Futuro)"
+    },
+    "narrativa": {
+      "resumen_epico": "Zacarías fue el joven visionario que pintó el futuro de Israel con los colores de la esperanza apocalíptica. Mientras su compañero Hageo ponía ladrillos, Zacarías ponía sueños. A través de ocho visiones nocturnas cargadas de simbolismo —jinetes, candelabros de oro y ángeles—, reveló que el Templo no se levantaría por fuerza humana, sino por el soplo del Espíritu Santo. Fue el profeta que vio con más claridad al Mesías humilde entrando en un pollino, al Pastor herido y al Rey que finalmente establecería la paz universal en una Jerusalén restaurada.",
+      "dato_curioso": "Zacarías murió como el último de los mártires del Antiguo Testamento según el canon judío. Jesús mismo lo recordó ante los fariseos (Mateo 23:35), mencionando que fue asesinado 'entre el templo y el altar', sellando con su sangre su fidelidad al mensaje divino.",
+      "conexion_jesus": "Zacarías es una fuente inagotable de detalles mesiánicos: predijo la entrada triunfal de Jesús (9:9), el precio de Su traición por 30 piezas de plata (11:12), las heridas en Sus manos (13:6) y el momento en que el pueblo lloraría al ver al que traspasaron (12:10).",
+      "diagrama_referencia": "Infografía: Las 8 visiones nocturnas de Zacarías y su significado"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de asombro místico y responsabilidad pastoral. Zacarías es el puente entre lo terrenal y lo celestial; se siente abrumado por sus visiones pero impulsado a explicar la justicia de Dios. Su carácter es el de un restaurador que entiende que la reconstrucción material del Templo es inútil sin una transformación espiritual profunda basada en el arrepentimiento.",
+      "fortalezas": [
+        "Visión profética y escatológica de gran alcance",
+        "Profundo conocimiento de la liturgia y santidad sacerdotal",
+        "Habilidad para comunicar conceptos complejos mediante imágenes"
+      ],
+      "debilidades": [
+        "Sus visiones son de difícil interpretación, lo que lo hacía una figura incomprendida en su tiempo"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Candelabro de Oro y los Olivos",
+          "significado": "Representan la provisión continua y directa del Espíritu Santo para la obra de Dios."
+        },
+        {
+          "objeto": "La Piedra con siete ojos",
+          "significado": "Símbolo de la omnisciencia divina y del fundamento sólido del Reino futuro."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Los proyectos que Dios te encarga no se logran con tu inteligencia o tu fuerza, sino permitiendo que Su Espíritu fluya a través de tu debilidad.",
+      "preguntas_reflexion": [
+        "¿Estás confiando en tus propios recursos (ejército y fuerza) o en el Espíritu de Dios?",
+        "¿Eres capaz de valorar el 'día de las pequeñeces' en tu vida, confiando en lo que Dios hará al final?",
+        "¿Tu adoración a Dios te lleva a practicar la justicia y la misericordia con el prójimo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Visiones",
+        "evento": "Recibe ocho visiones nocturnas que alientan a Zorobabel a terminar el Templo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Zacarías 1-6"
+      },
+      {
+        "fase": "Ética",
+        "evento": "Responde sobre el ayuno, enfatizando que Dios prefiere la justicia a los ritos.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Zacarías 7-8"
+      },
+      {
+        "fase": "Mesiánica",
+        "evento": "Profetiza la llegada del Rey humilde y el rechazo del Buen Pastor.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Zacarías 9-11"
+      },
+      {
+        "fase": "Final",
+        "evento": "Visión del juicio de las naciones y el establecimiento del Reino de Dios en la tierra.",
+        "vinculo_mapa": "monte-de-los-olivos",
+        "referencia": "Zacarías 12-14"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "monte-de-los-olivos",
+        "babilonia"
+      ],
+      "estudios": [
+        "apocaliptica-biblica",
+        "profecias-mesiánicas-cumplidas",
+        "el-dia-de-las-pequeñeces"
+      ],
+      "devocionales": [
+        "no-con-ejercito",
+        "la-niña-de-sus-ojos"
+      ],
+      "personajes_relacionados": [
+        "hageo",
+        "zorobabel",
+        "jesua-sacerdote",
+        "jesus"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 450,
+      "logro_id": "visionario-del-espiritu"
+    }
+  },
+  {
+    "id": "malaquias",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Malaquías",
+      "titulo_corto": "El Último Mensajero",
+      "significado_nombre": "Mi mensajero",
+      "ocupacion": "Profeta de la restauración",
+      "familia": {
+        "descendencia": "Desconocida"
+      },
+      "imagen": "/img/perfiles/malaquias.webp",
+      "icono_mapa": "/img/ui/markers/profeta.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Malaquías"
+      ],
+      "era_biblica": "Periodo Post-exílico (Ocaso del Canon)"
+    },
+    "narrativa": {
+      "resumen_epico": "Malaquías fue el centinela que vigiló la última hora del Antiguo Testamento. Surgió en una época de cinismo espiritual, donde el entusiasmo por el retorno del exilio se había podrido en una apatía letal. Con un estilo dialéctico de pregunta y respuesta, Malaquías confrontó a una nación que ofrecía sobras en el altar y traicionaba sus pactos familiares. Su voz no fue solo una denuncia, sino el puente de fuego que cerró las Escrituras hebreas, anunciando que el sol se ponía para el viejo pacto pero que un Sol de Justicia estaba por nacer con sanidad en Sus alas.",
+      "dato_curioso": "Tras el último versículo de Malaquías, se abrieron los llamados '400 años de silencio' profético (Periodo Intertestamentario). No hubo voz divina en Israel hasta que Juan el Bautista apareció en el Jordán, vistiendo y hablando exactamente como el 'Elías' que Malaquías había prometido en su cierre.",
+      "conexion_jesus": "Malaquías profetizó la llegada del 'Mensajero del Pacto' a Su templo. Jesús cumplió esto no solo físicamente al entrar en el Templo de Jerusalén, sino teológicamente al ser el Sol de Justicia que trae la salvación definitiva y el juicio purificador.",
+      "diagrama_referencia": "Infografía: Los 400 años de silencio entre Malaquías y el Nuevo Testamento"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de firmeza lógica y celo por la santidad. Malaquías opera como un fiscal celestial; su tono es agudo y no admite excusas sentimentales. Representa la voz de la conciencia que no se deja engañar por la rutina religiosa. A pesar de su severidad, trasluce un amor herido de parte de Dios que busca desesperadamente que Su pueblo valore el honor de Su nombre.",
+      "fortalezas": [
+        "Claridad retórica y capacidad de confrontación lógica",
+        "Defensa inquebrantable de la pureza en el culto y el matrimonio",
+        "Visión escatológica que preparó el camino para el Mesías"
+      ],
+      "debilidades": [
+        "Tuvo que lidiar con la frustración de predicar a un pueblo emocionalmente endurecido"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Sol de Justicia",
+          "significado": "Representa la luz del Mesías que disipa las tinieblas y sana las heridas del alma."
+        },
+        {
+          "objeto": "El Fuego del fundidor",
+          "significado": "Símbolo de la purificación necesaria para que la adoración sea aceptable."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Dios no acepta una adoración de sobras; Él busca la excelencia del corazón y la fidelidad en los pactos más íntimos de nuestra vida.",
+      "preguntas_reflexion": [
+        "¿Le estás dando a Dios tus 'animales enfermos' (tiempo sobrante, esfuerzo mínimo) o lo mejor de tu vida?",
+        "¿Eres consciente de que Dios escribe un 'libro de memorias' sobre tus conversaciones y temores hacia Él?",
+        "¿Tu vida refleja la santidad que Dios exige en tus relaciones familiares y espirituales?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Querella",
+        "evento": "Inicia su mensaje recordando el amor de Dios por Jacob frente a Esaú.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Malaquías 1:1-5"
+      },
+      {
+        "fase": "Purificación",
+        "evento": "Reprende a los sacerdotes por profanar el altar con sacrificios mediocres.",
+        "vinculo_mapa": "templo-de-jerusalen",
+        "referencia": "Malaquías 1:6-2:9"
+      },
+      {
+        "fase": "Justicia",
+        "evento": "Denuncia el robo en los diezmos y el cinismo social del pueblo.",
+        "vinculo_mapa": "jerusalen",
+        "referencia": "Malaquías 3:7-12"
+      },
+      {
+        "fase": "Cierre",
+        "evento": "Anuncia la venida de Elías y el Día de Jehová, cerrando el canon profético.",
+        "vinculo_mapa": "israel",
+        "referencia": "Malaquías 4:1-6"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "jerusalen",
+        "templo-de-jerusalen"
+      ],
+      "estudios": [
+        "el-estilo-de-disputa-profetica",
+        "periodo-intertestamentario",
+        "teología-del-diezmo-en-malaquías"
+      ],
+      "devocionales": [
+        "el-sol-de-justicia",
+        "el-libro-de-las-memorias"
+      ],
+      "personajes_relacionados": [
+        "elias",
+        "juan-bautista",
+        "esdras",
+        "nehemias"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "mensajero-del-ocaso"
+    }
+  },
+  {
+    "id": "amigos-job",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Elifaz, Bildad y Zofar",
+      "titulo_corto": "Los Consoladores Molestos",
+      "significado_nombre": "Elifaz (Dios es oro), Bildad (Hijo de contención), Zofar (Chirriador)",
+      "ocupacion": "Sabios de Oriente, Consejeros",
+      "familia": {
+        "rol": "Amigos íntimos y rivales intelectuales de Job"
+      },
+      "imagen": "/img/perfiles/amigos_job.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Job"
+      ],
+      "era_biblica": "Periodo de los Patriarcas (contemporáneos de Abraham)"
+    },
+    "narrativa": {
+      "resumen_epico": "Elifaz, Bildad y Zofar representan el fracaso de la religión sin revelación personal. Llegaron a la ceniza de Job con la mejor intención, guardando un silencio respetuoso que prometía consuelo. Sin embargo, cuando abrieron la boca, su teología se convirtió en látigo. Encerrados en la lógica de que 'todo sufrimiento es castigo', intentaron forzar a un hombre íntegro a confesar pecados que no había cometido para proteger su propio sistema de creencias. Su historia es la gran advertencia bíblica sobre la soberbia de quienes creen entender los planes de Dios basándose solo en la tradición o la lógica humana.",
+      "dato_curioso": "Elifaz se basaba en la experiencia mística ('una palabra me fue hurtada'), Bildad en la tradición de los antepasados y Zofar en el dogma legalista. Aunque usaron argumentos diferentes, todos llegaron a la misma conclusión errónea sobre el dolor de Job.",
+      "conexion_jesus": "Estos amigos prefiguran a los fariseos que acusaban a los enfermos de haber pecado ellos o sus padres. Contrastan con Jesús, quien es el Amigo que se sienta en nuestra ceniza no para acusarnos, sino para cargar nuestro dolor y justificarnos ante el Padre.",
+      "diagrama_referencia": "Esquema: Los tres ciclos de discursos y la escalada de la acusación"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiestan una psicología de rigidez dogmática y falta de empatía situacional. Su inseguridad ante el sufrimiento inexplicado de Job los llevó a defender a Dios atacando a la víctima. Representan el 'sesgo de confirmación': solo veían evidencias que apoyaran su teoría de la retribución. Al final, su arrogancia intelectual fue lo que más encendió la ira divina, demostrando que Dios prefiere la queja honesta de Job que la defensa hipócrita de sus amigos.",
+      "fortalezas": [
+        "Lealtad inicial (viajaron grandes distancias para acompañar al caído)",
+        "Capacidad de empatía silenciosa (los primeros siete días de duelo)"
+      ],
+      "debilidades": [
+        "Juicio temerario y falta de compasión real",
+        "Teología de 'cajón' que no admite excepciones ni misterios",
+        "Orgullo espiritual que se disfraza de celo por Dios"
+      ],
+      "simbologia": [
+        {
+          "objecto": "El Polvo y la Ceniza",
+          "significado": "Representan la fragilidad humana donde la sabiduría de los hombres se deshace ante el misterio del dolor."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El silencio compasivo es infinitamente superior a la teología correcta aplicada con falta de amor.",
+      "preguntas_reflexion": [
+        "¿Has juzgado el sufrimiento de alguien asumiendo que es su propia culpa?",
+        "¿Estás dispuesto a sentarte en el silencio con alguien que sufre sin tratar de darle respuestas fáciles?",
+        "¿Tu concepto de Dios es lo suficientemente grande como para aceptar que Él tiene propósitos que tú no entiendes?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Empatía",
+        "evento": "Llegan a Uz, lloran con Job y se sientan en silencio con él siete días y siete noches.",
+        "vinculo_mapa": "tierra-de-uz",
+        "referencia": "Job 2:11-13"
+      },
+      {
+        "fase": "Conflicto",
+        "evento": "Inician tres ciclos de debates donde acusan a Job de hipocresía y pecado oculto.",
+        "vinculo_mapa": "tierra-de-uz",
+        "referencia": "Job 4-25"
+      },
+      {
+        "fase": "Juicio",
+        "evento": "Dios se manifiesta y reprende a los tres amigos por no hablar rectamente como Job.",
+        "vinculo_mapa": "tierra-de-uz",
+        "referencia": "Job 42:7-8"
+      },
+      {
+        "fase": "Gracia",
+        "evento": "Son perdonados solo cuando Job ofrece sacrificio y ora por ellos.",
+        "vinculo_mapa": "tierra-de-uz",
+        "referencia": "Job 42:9"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "tierra-de-uz",
+        "temán"
+      ],
+      "estudios": [
+        "el-problema-del-sufrimiento",
+        "teologia-de-la-retribucion",
+        "literatura-sapiencial-antigua"
+      ],
+      "devocionales": [
+        "consoladores-molestos",
+        "el-valor-del-silencio"
+      ],
+      "personajes_relacionados": [
+        "job"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 200,
+      "logro_id": "aprendiz-de-compasion"
+    }
+  },
+  {
+    "id": "gomer",
+    "activo": true,
+    "meta": {
+      "version": "3.0-deep",
+      "fecha_actualizacion": "2026-02-09",
+      "estandar": "codice-master"
+    },
+    "perfil": {
+      "nombre": "Gomer",
+      "titulo_corto": "La Esposa Redimida",
+      "significado_nombre": "Completo o Carbón encendido",
+      "ocupacion": "Ama de casa (con un pasado y presente tormentoso)",
+      "familia": {
+        "padre": "Diblaim",
+        "esposo": "Oseas (profeta)",
+        "hijos": [
+          "Jezreel",
+          "Lo-ruhama",
+          "Lo-ammi"
+        ]
+      },
+      "imagen": "/img/perfiles/gomer.webp",
+      "icono_mapa": "/img/ui/markers/patriarca.svg"
+    },
+    "contexto": {
+      "testamento": "Antiguo",
+      "libros_aparicion": [
+        "Oseas"
+      ],
+      "era_biblica": "Decadencia del Reino del Norte (Israel)"
+    },
+    "narrativa": {
+      "resumen_epico": "Gomer es el mensaje viviente más doloroso y hermoso de la Biblia. Por orden de Dios, el profeta Oseas se casó con ella sabiendo que le sería infiel. Su vida se convirtió en una parábola trágica de la relación entre Dios e Israel. Gomer abandonó su hogar por otros amantes, cayendo finalmente en la esclavitud y la miseria. Pero la historia no termina en el juicio, sino en un mercado de esclavos donde su esposo, por mandato divino, la compró de nuevo, no para castigarla, sino para restaurarla con amor. Su redención es el eco del corazón de Dios que persigue al errante hasta rescatarlo.",
+      "dato_curioso": "Los nombres de sus hijos fueron dictados por Dios para profetizar el juicio de Israel: Jezreel (Dios siembra/dispersa), Lo-ruhama (No compadecida) y Lo-ammi (No es mi pueblo). Sin embargo, tras la restauración de Gomer, Dios promete cambiar el significado de esos nombres a esperanza.",
+      "conexion_jesus": "Gomer es una tipología de la humanidad pecadora y de la Iglesia. Así como Oseas pagó un precio (plata y cebada) para sacar a Gomer de la esclavitud, Jesús pagó Su propia sangre para rescatar a Su esposa, la Iglesia, del mercado del pecado.",
+      "diagrama_referencia": "Infografía: El ciclo de infidelidad y redención en Oseas"
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Manifiesta una psicología de inquietud y búsqueda errónea de satisfacción. Gomer representa el alma que se deja seducir por lo pasajero, confundiendo el placer con la provisión. Su caída hacia la esclavitud muestra la degradación progresiva de quien abandona la fuente del amor verdadero. Su posterior restauración sugiere un proceso de sanidad emocional a través de un amor que no se basa en el mérito.",
+      "fortalezas": [
+        "Su vida sirve como el canal más profundo de revelación del amor de Dios para el mundo"
+      ],
+      "debilidades": [
+        "Inconstancia afectiva y tendencia a la infidelidad espiritual y física",
+        "Vulnerabilidad a las falsas promesas de los 'amantes' (ídolos)"
+      ],
+      "simbologia": [
+        {
+          "objeto": "Las 15 piezas de plata y la cebada",
+          "significado": "Representan el precio del rescate; un valor humilde que muestra que Dios nos ama por quién es Él, no por lo que valemos en el mercado del mundo."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "No importa cuán lejos te hayas ido o cuán bajo hayas caído, el amor redentor de Dios está dispuesto a pagar el precio para llevarte de vuelta a casa.",
+      "preguntas_reflexion": [
+        "¿Hay algún 'amante' (ídolo, hábito, ambición) que te esté alejando de tu primer amor con Dios?",
+        "¿Eres capaz de mostrar un amor restaurador a otros, como el que Oseas mostró a Gomer?",
+        "¿Reconoces que tu valor no está en tu pasado, sino en el precio que Dios pagó por ti?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Unión",
+        "evento": "Se casa con Oseas por mandato divino y tiene tres hijos con significados proféticos.",
+        "vinculo_mapa": "israel",
+        "referencia": "Oseas 1"
+      },
+      {
+        "fase": "Abandono",
+        "evento": "Se va tras sus amantes creyendo que ellos le daban su pan y su agua.",
+        "vinculo_mapa": "israel",
+        "referencia": "Oseas 2:5"
+      },
+      {
+        "fase": "Redención",
+        "evento": "Oseas la compra de la esclavitud por 15 piezas de plata y un homer y medio de cebada.",
+        "vinculo_mapa": "israel",
+        "referencia": "Oseas 3:1-2"
+      },
+      {
+        "fase": "Restauración",
+        "evento": "Es llevada al desierto para que Dios hable a su corazón y le devuelva su dignidad.",
+        "vinculo_mapa": "desierto",
+        "referencia": "Oseas 2:14-15"
+      }
+    ],
+    "vinculos": {
+      "lugares": [
+        "israel",
+        "valle-de-acor"
+      ],
+      "estudios": [
+        "el-amor-hesed-de-dios",
+        "profecia-viviente",
+        "matrimonio-y-pacto"
+      ],
+      "devocionales": [
+        "comprada-de-nuevo",
+        "nombres-de-esperanza"
+      ],
+      "personajes_relacionados": [
+        "oseas",
+        "baal"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "amor-que-rescata"
+    },
+    "grupo": "profetas"
+  },
+  {
+  "id": "jesua-sacerdote",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-10",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Jesúa (Josué)",
+    "titulo_corto": "El Sumo Sacerdote del Retorno",
+    "significado_nombre": "Jehová es Salvación",
+    "ocupacion": "Sumo Sacerdote",
+    "familia": {
+      "padre": "Josadac",
+      "abuelo": "Seraías",
+      "aliado": "Zorobabel"
+    },
+    "imagen": "/img/perfiles/jesua-sacerdote.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Esdras",
+      "Nehemías",
+      "Hageo",
+      "Zacarías"
+    ],
+    "era_biblica": "Post-exilio (Restauración del Templo)"
+  },
+  "narrativa": {
+    "resumen_epico": "Jesúa fue el pilar espiritual del primer grupo que regresó de Babilonia para reconstruir Jerusalén. Junto a Zorobabel, levantó el altar de Jehová antes incluso de poner los cimientos del Templo, priorizando la adoración sobre la seguridad física. Su ministerio estuvo marcado por la resistencia externa y la purificación interna. En una visión profética estremecedora, fue visto con ropas sucias ante Dios mientras Satanás lo acusaba, solo para ser vestido con galas reales, simbolizando que el perdón de Dios es el único fundamento para el nuevo comienzo de la nación.",
+    "dato_curioso": "Zacarías profetizó que Jesúa recibiría una corona hecha de plata y oro, un acto inusual ya que las coronas eran para reyes y no para sacerdotes, señalándolo como un tipo del Mesías que uniría ambos oficios.",
+    "conexion_jesus": "Su nombre es el mismo que 'Jesús' en hebreo (Yeshua). Representa a Cristo como nuestro Sumo Sacerdote que quita nuestras ropas sucias de pecado y nos viste de Su justicia para servir en la presencia del Padre.",
+    "diagrama_referencia": "Infografía: Los líderes del retorno - Zorobabel (Línea Real) y Jesúa (Línea Sacerdotal)"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de resiliencia sacrificial y conciencia de santidad. Representa al líder que entiende que el éxito material (el edificio) es secundario a la restauración del altar (el corazón). Soportó la carga de representar a un pueblo culpable, experimentando la liberación que viene de la gracia divina sobre la condenación del acusador.",
+    "fortalezas": [
+      "Valentía para restaurar el culto en medio de escombros",
+      "Unidad perfecta con el liderazgo civil (Zorobabel)",
+      "Humildad para aceptar la purificación divina"
+    ],
+    "debilidades": [
+      "Vulnerabilidad ante la acusación espiritual (simbolizada por las vestiduras viles)"
+    ],
+    "simbologia": [
+      {
+        "objeto": "Las Vestiduras Sucias",
+        "significado": "Representan el pecado del pueblo y la incapacidad humana para presentarse ante Dios por mérito propio."
+      },
+      {
+        "objeto": "La Mitra limpia",
+        "significado": "Símbolo de la santidad restaurada y el derecho renovado a ministrar ante Jehová."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Antes de intentar construir cualquier cosa para Dios, asegúrate de haber levantado primero el altar de la adoración y el arrepentimiento en tu vida.",
+    "preguntas_reflexion": [
+      "¿Estás permitiendo que las acusaciones de tu pasado te impidan servir a Dios hoy?",
+      "¿Es tu prioridad la 'construcción' de tus metas o la restauración de tu comunión con Dios?",
+      "¿Confías en que Dios tiene el poder de cambiar tus ropas de vergüenza por vestiduras de honra?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Retorno",
+      "evento": "Lidera el regreso de los cautivos desde Babilonia junto a Zorobabel.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Esdras 2:1-2"
+    },
+    {
+      "fase": "Restauración",
+      "evento": "Edifican el altar de Dios para ofrecer holocaustos antes de reconstruir el Templo.",
+      "vinculo_mapa": "jerusalen-templo",
+      "referencia": "Esdras 3:2-3"
+    },
+    {
+      "fase": "Visión",
+      "evento": "Zacarías lo ve en visión siendo purificado y defendido por el Ángel de Jehová.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Zacarías 3:1-5"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "jerusalen",
+      "babilonia"
+    ],
+    "estudios": [
+      "el-segundo-templo",
+      "tipologia-del-sumo-sacerdote",
+      "periodo-postexilico"
+    ],
+    "devocionales": [
+      "el-altar-primero",
+      "vestiduras-nuevas"
+    ],
+    "personajes_relacionados": [
+      "zorobabel",
+      "hageo",
+      "zacarias"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 350,
+    "logro_id": "sacerdote-de-la-gracia"
+  }
+},
+{
+  "id": "baruc",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-10",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Baruc",
+    "titulo_corto": "El Escriba Fiel",
+    "significado_nombre": "Bendito (o Bendecido)",
+    "ocupacion": "Escriba real, Secretario y Profeta",
+    "familia": {
+      "padre": "Nerías",
+      "hermano": "Seraías (oficial del rey Sedequías)"
+    },
+    "imagen": "/img/perfiles/baruc.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Jeremías"],
+    "era_biblica": "Caída de Jerusalén (Exilio Babilónico)"
+  },
+  "narrativa": {
+    "resumen_epico": "Baruc fue la pluma que registró las lágrimas y las advertencias de Jeremías. En el momento más peligroso de la historia de Judá, Baruc no solo escribió las palabras del profeta, sino que tuvo la valentía de leerlas públicamente en el Templo, desafiando la ira de los príncipes y del rey Joacim. Su vida es el modelo del colaborador indispensable: aquel que permanece en la sombra para asegurar que la voz de Dios sea preservada. Soportó el odio, la persecución y el exilio forzado, siendo el guardián de los rollos que alimentarían la fe de Israel durante los 70 años de cautiverio.",
+    "dato_curioso": "En excavaciones arqueológicas modernas se ha encontrado una 'bulla' (sello de arcilla) con la inscripción 'Perteneciente a Berequiah (Baruc), hijo de Neriyahu (Nerías), el escriba', confirmando arqueológicamente su existencia y cargo oficial.",
+    "conexion_jesus": "Baruc registró las promesas del Nuevo Pacto dadas a Jeremías. Como escriba de la palabra de Dios, prefigura a los evangelistas que registraron la vida del Verbo encarnado, Jesús, asegurando que la Verdad llegara a todas las naciones.",
+    "diagrama_referencia": "Infografía: El proceso de escritura de los rollos de Jeremías"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de lealtad sacrificial bajo presión extrema. Baruc experimentó momentos de profundo desánimo ('¡Ay de mí ahora!'), pero fue fortalecido directamente por Dios, quien le prometió su vida como botín. Representa la integridad del intelectual que pone su pluma al servicio de la verdad, incluso cuando el mensaje es impopular y peligroso.",
+    "fortalezas": [
+      "Valentía civil para confrontar al liderazgo corrupto",
+      "Habilidad técnica y precisión en la escritura sagrada",
+      "Lealtad inquebrantable a su mentor y a la visión profética"
+    ],
+    "debilidades": [
+      "Vulnerabilidad al cansancio emocional y la autocompasión en tiempos de crisis"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Tintero y la Pluma",
+        "significado": "Representan la preservación de la revelación divina a través de la historia humana."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu mayor servicio a Dios puede ser ayudar a otros a cumplir su llamado; la fidelidad en la 'sombra' produce frutos eternos.",
+    "preguntas_reflexion": [
+      "¿Estás dispuesto a ser la 'pluma' de Dios, registrando y defendiendo Su verdad aunque nadie te aplauda?",
+      "¿Cómo reaccionas cuando el mensaje de Dios confronta tu propia comodidad?",
+      "¿Eres un compañero leal para aquellos que están en la línea de fuego por la verdad?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Escriba",
+      "evento": "Escribe en un rollo todas las palabras que Dios le dictó a Jeremías.",
+      "vinculo_mapa": "jerusalen",
+      "referencia": "Jeremías 36:4"
+    },
+    {
+      "fase": "Confrontación",
+      "evento": "Lee el rollo en el Templo ante todo el pueblo y luego ante los príncipes.",
+      "vinculo_mapa": "jerusalen-templo",
+      "referencia": "Jeremías 36:10-15"
+    },
+    {
+      "fase": "Exilio",
+      "evento": "Es llevado por la fuerza a Egipto junto con Jeremías tras el asesinato de Gedalías.",
+      "vinculo_mapa": "egipto",
+      "referencia": "Jeremías 43:6-7"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["jerusalen", "egipto", "babilonia"],
+    "estudios": ["el-ministerio-de-los-escribas", "arqueologia-biblica-bullas", "el-libro-de-jeremias"],
+    "devocionales": ["fidelidad-en-la-brecha", "la-pluma-del-espiritu"],
+    "personajes_relacionados": ["jeremias"]
+  },
+  "gamificacion": {
+    "xp_lectura": 250,
+    "logro_id": "escriba-de-la-eternidad"
+  }
+},
+{
+  "id": "ciro",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-10",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Ciro el Grande",
+    "titulo_corto": "El Pastor Ungido de las Naciones",
+    "significado_nombre": "Ciro (Como el Sol / Joven / Heredero)",
+    "ocupacion": "Rey de Persia y Fundador del Imperio Aqueménida",
+    "familia": {
+      "padre": "Cambises I",
+      "hijo": "Cambises II"
+    },
+    "imagen": "/img/perfiles/ciro.webp",
+    "icono_mapa": "/img/ui/markers/rey.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["2 Crónicas", "Esdras", "Isaías", "Daniel"],
+    "era_biblica": "Fin del Cautiverio Babilónico (539 a.C.)"
+  },
+  "narrativa": {
+    "resumen_epico": "Ciro es el único monarca extranjero en la Biblia que recibe el título de 'Ungido' (Mesías). 150 años antes de su nacimiento, el profeta Isaías lo llamó por su nombre, describiéndolo como el pastor que Dios usaría para liberar a Su pueblo. Al conquistar Babilonia en una sola noche, Ciro emitió el edicto de libertad más importante del Antiguo Testamento, permitiendo a los judíos regresar a Jerusalén y financiando la reconstrucción del Templo. Ciro representa la soberanía absoluta de Dios sobre la política mundial, demostrando que incluso el corazón de los emperadores paganos es un instrumento en Sus manos.",
+    "dato_curioso": "El 'Cilindro de Ciro', descubierto en el siglo XIX, registra su política de tolerancia religiosa y el retorno de los pueblos desplazados a sus tierras, validando históricamente el relato bíblico de Esdras.",
+    "conexion_jesus": "Ciro es un tipo de Cristo como Libertador. Así como Ciro liberó a Israel de la esclavitud física de Babilonia y restauró el Templo, Jesús nos libera de la esclavitud espiritual del pecado y restaura nuestra relación con el Padre.",
+    "diagrama_referencia": "Mapa: La expansión del Imperio Persa bajo Ciro el Grande"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de magnanimidad ilustrada y visión estratégica. Ciro rompió con el modelo de terror de los asirios y babilonios, utilizando la tolerancia como herramienta de cohesión imperial. Aunque no conocía personalmente a Jehová de manera salvífica al principio, su carácter fue moldeado por la Providencia para actuar con justicia y misericordia hacia los oprimidos.",
+    "fortalezas": [
+      "Genio militar y estratega sin precedentes",
+      "Liderazgo basado en la tolerancia y el respeto cultural",
+      "Fidelidad a la misión divina de restauración (aunque fuera inconsciente)"
+    ],
+    "debilidades": [
+      "Su visión, aunque justa, estaba limitada a los intereses de su propio imperio terrenal"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Cilindro de Ciro",
+        "significado": "Representa el primer registro de derechos humanos y la soberanía de Dios sobre los edictos reales."
+      },
+      {
+        "objeto": "El Pastor",
+        "significado": "Símbolo de la protección y guía que Dios ejerce sobre Su pueblo a través de líderes inesperados."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Dios puede usar a cualquier persona, incluso a quienes no le conocen, para cumplir Sus promesas y bendecir tu vida.",
+    "preguntas_reflexion": [
+      "¿Reconoces la mano de Dios en las autoridades y líderes que te rodean?",
+      "¿Confías en que Dios tiene el control de la 'política' de tu vida para tu bien?",
+      "¿Estás preparado para el momento en que Dios dé la orden de tu liberación?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Profecía",
+      "evento": "Isaías lo llama por nombre 150 años antes de que nazca.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Isaías 44:28-45:1"
+    },
+    {
+      "fase": "Conquista",
+      "evento": "Derrota a Babilonia y asume el control del imperio mundial.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 5:30-31"
+    },
+    {
+      "fase": "Edicto",
+      "evento": "Emite el decreto que permite el regreso de los judíos y la reconstrucción del Templo.",
+      "vinculo_mapa": "susa",
+      "referencia": "Esdras 1:1-4"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["persia", "babilonia", "jerusalen", "pasargada"],
+    "estudios": ["el-imperio-persa-y-la-biblia", "arqueologia-el-cilindro-de-ciro", "profecias-de-isaias"],
+    "devocionales": ["dios-mueve-a-los-reyes", "el-pastor-de-las-naciones"],
+    "personajes_relacionados": ["daniel", "esdras", "zorobabel", "isaias"]
+  },
+  "gamificacion": {
+    "xp_lectura": 400,
+    "logro_id": "libertador-de-naciones"
+  }
+},
+{
+  "id": "dario",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Darío el Medo",
+    "titulo_corto": "El Rey del Foso",
+    "significado_nombre": "Poseedor del Bien (o Aquel que mantiene el orden)",
+    "ocupacion": "Rey de Babilonia (bajo el Imperio Medo-Persa)",
+    "familia": {
+      "superior": "Ciro el Grande",
+      "aliados": "Daniel (su consejero principal)"
+    },
+    "imagen": "/img/perfiles/dario.webp",
+    "icono_mapa": "/img/ui/markers/rey.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Daniel"
+    ],
+    "era_biblica": "Exilio Babilónico / Transición Medo-Persa"
+  },
+  "narrativa": {
+    "resumen_epico": "Darío el Medo asumió el control de Babilonia tras la estrepitosa caída de Belsasar. Aunque era un monarca poderoso, se convirtió en víctima de su propia vanidad y de una intriga política orquestada por sus sátrapas celosos. Tras firmar un edicto irrevocable que lo obligó a lanzar a su amigo y consejero más leal, Daniel, al foso de los leones, Darío pasó una noche de insomnio y angustia. Su alegría al ver a Daniel ileso por la mañana lo llevó a proclamar un decreto que honraba al Dios de Israel en todo su imperio, reconociendo que existe un Reino que no puede ser destruido por manos humanas.",
+    "dato_curioso": "Darío es el único rey pagano registrado que pasó una noche entera en ayuno voluntario, no por ritos religiosos, sino por el dolor y la culpa de haber sentenciado a un hombre justo.",
+    "conexion_jesus": "Darío intentó salvar a Daniel pero fue atado por su propia ley. Pilato intentó salvar a Jesús pero fue atado por la presión política. A diferencia de Darío, Dios el Padre no solo libró a Su Hijo del foso de la muerte (la tumba), sino que lo hizo para que Su edicto de vida fuera eterno para todos.",
+    "diagrama_referencia": "Esquema: La administración del Imperio Medo-Persa (Sátrapas y Gobernadores)"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de justicia cautiva y respeto por la integridad. Darío apreciaba el carácter de Daniel por encima de la religión o el origen étnico. Representa al líder que, aunque tiene autoridad, se siente solo y manipulado por las estructuras de poder que lo rodean. Su arrepentimiento y posterior edicto revelan un alma que buscaba una verdad superior a la burocracia imperial.",
+    "fortalezas": [
+      "Habilidad para delegar en hombres íntegros",
+      "Capacidad de reconocer y admitir errores públicos",
+      "Lealtad personal profunda"
+    ],
+    "debilidades": [
+      "Vulnerabilidad a la adulación y al orgullo de posición",
+      "Debilidad ante la presión de su propio consejo legal"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Anillo del Sello",
+        "significado": "Representa la irrevocabilidad de la ley humana frente a la soberanía de la ley divina."
+      },
+      {
+        "objeto": "El Foso de los Leones",
+        "significado": "Símbolo de la prueba final donde la fe es lo único que puede detener el juicio de este mundo."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Ten cuidado con los edictos que firmas en momentos de orgullo; una sola decisión basada en tu ego puede atrapar a las personas que más valoras.",
+    "preguntas_reflexion": [
+      "¿Te dejas influir por personas que halagan tu ego para manipular tus decisiones?",
+      "¿Eres capaz de ayunar y clamar por la justicia de aquellos que han sido injustamente acusados bajo tu cargo?",
+      "¿Reconoces la autoridad de Dios por encima de las 'leyes' que rigen tu entorno laboral o social?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Ascenso",
+      "evento": "Toma el reino de Babilonia a los 62 años de edad.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 5:31"
+    },
+    {
+      "fase": "Crisis",
+      "evento": "Es engañado por los sátrapas y arroja a Daniel al foso de los leones.",
+      "vinculo_mapa": "foso-de-los-leones",
+      "referencia": "Daniel 6:14-17"
+    },
+    {
+      "fase": "Vindicación",
+      "evento": "Halla a Daniel vivo y decreta que todos teman al Dios de Daniel.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 6:25-27"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "babilonia",
+      "susa",
+      "media"
+    ],
+    "estudios": [
+      "imperio-medo-persa",
+      "la-ley-de-los-medos-y-persas",
+      "administracion-de-satrapas"
+    ],
+    "devocionales": [
+      "fidelidad-en-el-foso",
+      "lecciones-de-una-noche-en-vela"
+    ],
+    "personajes_relacionados": [
+      "daniel",
+      "ciro",
+      "sadrac-mesac-abednego"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 200,
+    "logro_id": "justicia-imperial"
+  }
+},
+{
+  "id": "gabriel-angel",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Gabriel",
+    "titulo_corto": "El Mensajero de la Redención",
+    "significado_nombre": "Poder de Dios (o Héroe de Dios)",
+    "ocupacion": "Arcángel y Mensajero de la presencia divina",
+    "familia": {
+      "superior": "Jehová de los Ejércitos"
+    },
+    "imagen": "/img/perfiles/gabriel-angel.webp",
+    "icono_mapa": "/img/ui/markers/profeta.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo / Nuevo",
+    "libros_aparicion": [
+      "Daniel",
+      "Lucas"
+    ],
+    "era_biblica": "Exilio / Anunciación"
+  },
+  "narrativa": {
+    "resumen_epico": "Gabriel es el ángel que habita en la presencia inmediata de Dios, encargado de revelar los misterios más profundos del plan de redención. No es solo un mensajero, sino el arquitecto de la esperanza; él fue quien explicó a Daniel la cronología de las 70 semanas y quien siglos después rompió el silencio celestial para anunciar el nacimiento de Juan el Bautista y del Mesías. Su presencia impone un temor que suele comenzar con la frase 'No temas', pues su brillo refleja la majestad del trono que sirve. Gabriel une los dos testamentos, asegurando que cada detalle del tiempo de Dios se cumpla con precisión quirúrgica.",
+    "dato_curioso": "Gabriel es uno de los pocos ángeles mencionados por nombre en toda la Biblia. A diferencia de Miguel, que es presentado como un guerrero, Gabriel se enfoca en la comunicación y la interpretación de visiones.",
+    "conexion_jesus": "Él es el autor de la Anunciación. Fue Gabriel quien pronunció el nombre de 'Jesús' por primera vez a María, estableciendo la identidad del Salvador como el Hijo del Altísimo antes de Su concepción.",
+    "diagrama_referencia": "Esquema: Las jerarquías celestiales - El lugar de los arcángeles"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de obediencia absoluta y celo por la gloria de Dios. Su autoridad es tal que silenció a Zacarías por su incredulidad, demostrando que la palabra que porta no admite dudas. Representa la intersección entre la eternidad y el tiempo humano; un ser que entiende el 'Kairós' de Dios y lo traduce al 'Cronos' del hombre.",
+    "fortalezas": [
+      "Acceso directo a la presencia de Dios",
+      "Habilidad para interpretar profecías complejas",
+      "Autoridad sobre las realidades espirituales y físicas"
+    ],
+    "debilidades": [
+      "Ninguna registrada; es un ser de luz inquebrantable"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Libro Sellado / El Pergamino",
+        "significado": "Representa la revelación de los misterios divinos que solo el Espíritu puede abrir."
+      },
+      {
+        "objeto": "La Trompeta (Tradicional)",
+        "significado": "Símbolo del anuncio final y el llamado a la atención de todas las naciones."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Cuando Dios envía un mensaje, el cielo entero se detiene; tu respuesta debe ser la fe, no la duda basada en tu lógica humana.",
+    "preguntas_reflexion": [
+      "¿Estás atento a los 'mensajes' que Dios envía a tu vida a través de Su palabra?",
+      "¿Respondes con la fe de María ('hágase en mí') o con la duda de Zacarías?",
+      "¿Reconoces el 'tiempo de tu visitación' o estás demasiado distraído por lo terrenal?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Explicación",
+      "evento": "Explica a Daniel la visión del carnero y el macho cabrío.",
+      "vinculo_mapa": "rio-ulai",
+      "referencia": "Daniel 8:16"
+    },
+    {
+      "fase": "Profecía",
+      "evento": "Anuncia la profecía de las 70 semanas mientras Daniel oraba.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 9:21"
+    },
+    {
+      "fase": "Anunciación",
+      "evento": "Aparece a María en Nazaret para anunciar la encarnación del Verbo.",
+      "vinculo_mapa": "nazaret",
+      "referencia": "Lucas 1:26-38"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "babilonia",
+      "jerusalen-templo",
+      "nazaret"
+    ],
+    "estudios": [
+      "angelologia-biblica",
+      "las-setenta-semanas-de-daniel",
+      "el-evangelio-de-la-infancia"
+    ],
+    "devocionales": [
+      "no-temas",
+      "mensajeros-de-esperanza"
+    ],
+    "personajes_relacionados": [
+      "daniel",
+      "maria",
+      "zacarias"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 500,
+    "logro_id": "oido-celestial"
+  }
+},
+{
+  "id": "sadrac-mesac-abednego",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Ananías, Misael y Azarías",
+    "titulo_corto": "Los Tres del Horno",
+    "significado_nombre": "Ananías (Dios es clemente), Misael (¿Quién es como Dios?), Azarías (Dios ha ayudado)",
+    "ocupacion": "Administradores de la provincia de Babilonia",
+    "familia": {
+      "linaje": "Nobleza de Judá",
+      "companero": "Daniel"
+    },
+    "imagen": "/img/perfiles/sadrac-mesac-abednego.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Daniel"
+    ],
+    "era_biblica": "Exilio Babilónico (Reinado de Nabucodonosor)"
+  },
+  "narrativa": {
+    "resumen_epico": "Sadrac, Mesac y Abed-nego representan la fe inquebrantable que no necesita condiciones para obedecer. Llevados cautivos a Babilonia, fueron obligados a cambiar sus nombres y su cultura, pero nunca su altar. Cuando el rey Nabucodonosor levantó una estatua de oro de 30 metros y ordenó adorarla bajo pena de muerte, estos tres jóvenes se mantuvieron de pie mientras un imperio se arrodillaba. Su declaración ante el horno de fuego ardiente es el clímax de la confianza: 'Nuestro Dios puede librarnos... y si no, sepas, oh rey, que no adoraremos a tus dioses'. No solo sobrevivieron al fuego, sino que caminaron en él junto a una cuarta figura que parecía el Hijo de Dios.",
+    "dato_curioso": "Sus nombres babilónicos (Sadrac, Mesac, Abed-nego) hacían referencia a los dioses de Babilonia (Aku, Shach, Nego), en un intento del imperio por borrar su identidad hebrea. Sin embargo, en el horno, lo que se quemó no fueron ellos, sino las cuerdas que los ataban.",
+    "conexion_jesus": "La 'cuarta figura' en el horno es identificada como una Cristofanía (aparición de Cristo antes de Su encarnación). Jesús es el Dios que no nos libra del fuego, sino que se mete en el fuego con nosotros para que las llamas no tengan poder sobre nuestra vida.",
+    "diagrama_referencia": "Infografía: La estatua de Nabucodonosor y el campo de Dura"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de integridad colectiva y desapego al resultado. Su fe no era una transacción por seguridad, sino una devoción por identidad. Representan la resistencia pasiva más poderosa de la Biblia: no atacaron al rey, simplemente se negaron a comprometer su santidad. Su paz interior era tal que Nabucodonosor se asombró de verlos paseando tranquilamente en medio del castigo.",
+    "fortalezas": [
+      "Unidad absoluta en la toma de decisiones",
+      "Coraje moral frente a la presión social masiva",
+      "Capacidad técnica para administrar asuntos estatales en tierra extraña"
+    ],
+    "debilidades": [
+      "Ninguna registrada; son modelos de fidelidad bajo fuego"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Horno de Fuego",
+        "significado": "Representan las pruebas extremas que purifican la fe y destruyen las ataduras mundanas."
+      },
+      {
+        "objeto": "La Estatua de Oro",
+        "significado": "Símbolo del orgullo humano y el sistema mundial que exige adoración total."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu fe debe decir 'Y si no' (aunque Dios no me libre, le seguiré siendo fiel); esa es la fe que el fuego no puede quemar.",
+    "preguntas_reflexion": [
+      "¿Te estás arrodillando ante las 'estatuas' de tu cultura por miedo al qué dirán?",
+      "¿Es tu fe una negociación con Dios o una entrega incondicional?",
+      "¿Confías en que Jesús está contigo en medio de tus pruebas más ardientes?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Dilema",
+      "evento": "Se niegan a comer la comida del rey para no contaminarse.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 1:8-16"
+    },
+    {
+      "fase": "Conflicto",
+      "evento": "Rechazan adorar la estatua de oro en el campo de Dura.",
+      "vinculo_mapa": "campo-de-dura",
+      "referencia": "Daniel 3:12"
+    },
+    {
+      "fase": "Milagro",
+      "evento": "Son lanzados al horno, caminan con el Hijo de Dios y salen sin olor a humo.",
+      "vinculo_mapa": "babilonia",
+      "referencia": "Daniel 3:24-27"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "babilonia",
+      "campo-de-dura",
+      "jerusalen"
+    ],
+    "estudios": [
+      "resistencia-espiritual",
+      "nombres-hebreos-vs-babilonicos",
+      "cristofanias-en-el-antiguo-testamento"
+    ],
+    "devocionales": [
+      "el-cuarto-hombre",
+      "fe-a-prueba-de-fuego"
+    ],
+    "personajes_relacionados": [
+      "daniel",
+      "nabucodonosor",
+      "jesus"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 400,
+    "logro_id": "intocable-por-el-fuego"
+  }
+},
+{
+  "id": "jared",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Jared",
+    "titulo_corto": "El Patriarca del Descenso",
+    "significado_nombre": "Descenso (o Aquel que baja)",
+    "ocupacion": "Patriarca antediluviano",
+    "familia": {
+      "padre": "Mahalaleel",
+      "hijo": "Enoc (el que caminó con Dios)",
+      "nieto": "Matusalén"
+    },
+    "imagen": "/img/perfiles/jared.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Génesis",
+      "1 Crónicas",
+      "Lucas"
+    ],
+    "era_biblica": "Periodo Antediluviano"
+  },
+  "narrativa": {
+    "resumen_epico": "Jared pertenece a la línea de Set, el linaje de la esperanza tras la caída. Su vida transcurrió en una era de longevidad asombrosa y crecimiento demográfico masivo. Aunque los detalles de sus acciones son escasos, su posición en la genealogía es vital: fue el padre de Enoc, el hombre que rompió el ciclo de la muerte al caminar con Dios. Jared representa la continuidad de la fe en un mundo que comenzaba a degradarse, siendo un eslabón inquebrantable que permitió que la revelación divina llegara hasta Noé y, finalmente, a toda la humanidad.",
+    "dato_curioso": "Jared vivió 962 años, lo que lo convierte en el segundo hombre más longevo de la Biblia, superado únicamente por su nieto Matusalén.",
+    "conexion_jesus": "Jared es un ancestro directo de Jesús según la genealogía de Lucas 3. Su nombre, que significa 'Descenso', es visto por algunos estudiosos como una alusión profética al descenso de la gracia divina o del Espíritu sobre la humanidad en tiempos de su hijo Enoc.",
+    "diagrama_referencia": "Esquema: Genealogía de Set hasta Noé - Los Patriarcas Antediluvianos"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de estabilidad y preservación. En un mundo que 'descendía' moralmente (como sugiere su nombre), Jared se mantuvo como un guardián de la herencia espiritual de sus padres. Representa la fidelidad silenciosa de quien cumple su propósito biológico y espiritual sin necesidad de protagonismo, preparando el terreno para la santidad excepcional de su hijo.",
+    "fortalezas": [
+      "Resiliencia y longevidad extrema",
+      "Fidelidad al linaje de la promesa",
+      "Capacidad para transmitir valores que produjeron a un hombre como Enoc"
+    ],
+    "debilidades": [
+      "No se registran; su vida es un pilar de la genealogía sagrada"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Árbol Genealógico",
+        "significado": "Representa la importancia de cada eslabón en la historia de la salvación."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu mayor éxito puede ser criar a la siguiente generación para que camine con Dios más profundamente de lo que tú lo hiciste.",
+    "preguntas_reflexion": [
+      "¿Estás siendo un eslabón fuerte de fe para tus hijos y nietos?",
+      "¿Cómo manejas la 'rutina' de una vida larga: con propósito o solo dejando pasar el tiempo?",
+      "¿Eres consciente de que tu fidelidad hoy prepara el milagro de mañana?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Nacimiento",
+      "evento": "Nace de Mahalaleel en la sexta generación desde Adán.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:15"
+    },
+    {
+      "fase": "Paternidad",
+      "evento": "Engendra a Enoc a los 162 años.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:18"
+    },
+    {
+      "fase": "Final",
+      "evento": "Muere a los 962 años tras ver a su hijo ser llevado por Dios.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:20"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "eden-region",
+      "tierra-del-oriente"
+    ],
+    "estudios": [
+      "longevidad-antediluviana",
+      "linea-de-set-vs-cain",
+      "genealogia-mesianica"
+    ],
+    "devocionales": [
+      "el-valor-de-la-continuidad",
+      "padres-de-gigantes-espirituales"
+    ],
+    "personajes_relacionados": [
+      "enoc",
+      "matusalen",
+      "mahalaleel",
+      "set"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "eslabon-eterno"
+  }
+},
+{
+  "id": "moab",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Moab",
+    "titulo_corto": "El Patriarca del Conflicto",
+    "significado_nombre": "Del Padre (o Semilla del Padre)",
+    "ocupacion": "Fundador de la nación moabita",
+    "familia": {
+      "padre": "Lot",
+      "madre": "Hija mayor de Lot",
+      "hermano": "Ben-ammi (padre de los Amonitas)"
+    },
+    "imagen": "/img/perfiles/moab.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Génesis"
+    ],
+    "era_biblica": "Periodo de los Patriarcas (Post-Sodoma)"
+  },
+  "narrativa": {
+    "resumen_epico": "Moab nació de las cenizas de Sodoma y del caos moral de una familia en crisis. Tras la destrucción de las ciudades de la llanura, su origen quedó marcado por el incidente en la cueva de Zoar. Moab creció para fundar una nación poderosa al oriente del Mar Muerto, en las altas mesetas que llevarían su nombre. Aunque su linaje fue a menudo enemigo de Israel, su historia es un recordatorio de la soberanía de Dios, quien sacaría de las montañas de Moab a mujeres de fe como Rut para redimir incluso los orígenes más oscuros.",
+    "dato_curioso": "El nombre Moab es un juego de palabras en hebreo ('Me-ab') que significa literalmente 'de mi padre', una declaración abierta del origen incestuoso del cual provino, grabado para siempre en la identidad de su pueblo.",
+    "conexion_jesus": "Moab es el ancestro de Rut. A pesar de la prohibición de que los moabitas entraran en la congregación de Jehová, la gracia de Dios permitió que una descendiente de Moab se convirtiera en la bisabuela del Rey David y ancestro directo de Jesucristo.",
+    "diagrama_referencia": "Mapa: Territorio de Moab al oriente del Mar Muerto"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de aislamiento y resiliencia en la adversidad. Nacido en una cueva tras perderlo todo, Moab representa la capacidad humana de construir naciones a partir del trauma y el error. Su carácter se refleja en un pueblo orgulloso de su territorio pero espiritualmente distante de la casa de Abraham, marcando una identidad de 'pariente lejano' que lucha por su propio espacio.",
+    "fortalezas": [
+      "Capacidad de supervivencia y expansión en terrenos difíciles",
+      "Fundación de una identidad cultural y nacional duradera"
+    ],
+    "debilidades": [
+      "Origen marcado por la falta de fe de sus progenitores",
+      "Heredero de una rivalidad ancestral con el pueblo del pacto"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Cueva de Zoar",
+        "significado": "Representa el refugio que se convierte en prisión moral y el nacimiento de una nación fuera del diseño divino."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Dios tiene el poder de redimir cualquier historia, sin importar cuán oscuro o vergonzoso sea el origen de una familia.",
+    "preguntas_reflexion": [
+      "¿Estás permitiendo que un pasado familiar vergonzoso detenga tu futuro espiritual?",
+      "¿Reconoces que Dios puede sacar bendición de las circunstancias más caóticas de tu vida?",
+      "¿Ves a los 'extranjeros' o 'enemigos' con los ojos de la gracia de Dios o con el prejuicio de la historia?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Origen",
+      "evento": "Nace en una cueva cerca de Zoar tras la huida de Lot de Sodoma.",
+      "vinculo_mapa": "zoar",
+      "referencia": "Génesis 19:37"
+    },
+    {
+      "fase": "Expansión",
+      "evento": "Sus descendientes expulsan a los emitas y se asientan en las montañas del oriente.",
+      "vinculo_mapa": "moab",
+      "referencia": "Deuteronomio 2:9-11"
+    },
+    {
+      "fase": "Legado",
+      "evento": "Su nación se convierte en un vecino y rival constante de Israel durante siglos.",
+      "vinculo_mapa": "rio-arnon",
+      "referencia": "Números 21:13"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "moab",
+      "zoar",
+      "sodoma",
+      "rio-arnon"
+    ],
+    "estudios": [
+      "historia-de-los-moabitas",
+      "la-vida-de-lot",
+      "geografia-de-la-transjordania"
+    ],
+    "devocionales": [
+      "redencion-de-raices",
+      "mas-alla-del-trauma"
+    ],
+    "personajes_relacionados": [
+      "lot",
+      "ben-ammi",
+      "rut",
+      "abraham"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "ancestro-de-la-meseta"
+  }
+},
+{
+  "id": "mahalaleel",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Mahalaleel",
+    "titulo_corto": "El Alabador de Dios",
+    "significado_nombre": "Alabanza de Dios (o Resplandor de Dios)",
+    "ocupacion": "Patriarca antediluviano",
+    "familia": {
+      "padre": "Cainán",
+      "hijo": "Jared",
+      "bisnieto": "Enoc"
+    },
+    "imagen": "/img/perfiles/mahalaleel.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Génesis", "1 Crónicas", "Lucas"],
+    "era_biblica": "Periodo Antediluviano"
+  },
+  "narrativa": {
+    "resumen_epico": "Mahalaleel es el quinto eslabón en la genealogía de Set, la línea que preservó la invocación del nombre de Jehová. Su nombre resuena con una nota de adoración en medio de una era donde la humanidad se alejaba de su Creador. Al ser el padre de Jared (Descenso), su vida marca el punto de inflexión generacional que culminaría en la justicia de Enoc. Mahalaleel representa la estabilidad de la fe patriarcal: una vida dedicada a la familia, la longevidad productiva y el mantenimiento del resplandor divino a través del ejemplo familiar.",
+    "dato_curioso": "El nombre Mahalaleel es uno de los primeros nombres teofóricos (que incluyen el nombre de Dios, 'El') en la Biblia, subrayando la identidad espiritual de su linaje frente a los cainitas.",
+    "conexion_jesus": "Figura en la genealogía de Cristo en Lucas 3, asegurando que el linaje de Jesús esté conectado con la alabanza y el resplandor de Dios desde los orígenes de la humanidad.",
+    "diagrama_referencia": "Infografía: Los diez patriarcas antediluvianos y sus años de vida"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de gratitud y reverencia. Mahalaleel representa la paz de un hogar cimentado en la alabanza. En una era de sombras crecientes, su carácter fue un 'resplandor' de constancia. No se registran conflictos en su historia, lo que sugiere una vida de integridad que permitió la transferencia exitosa de la bendición a su hijo Jared.",
+    "fortalezas": [
+      "Fidelidad generacional ininterrumpida",
+      "Identidad basada en la adoración a Dios",
+      "Longevidad dedicada a la preservación de la familia"
+    ],
+    "debilidades": [
+      "Ninguna registrada; su papel es el de pilar genealógico"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Lámpara",
+        "significado": "Representa el resplandor de la presencia de Dios que Mahalaleel mantuvo vivo en su generación."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu mayor contribución puede ser simplemente mantener el 'resplandor' de Dios vivo en tu familia, sirviendo como puente para los milagros de tus descendientes.",
+    "preguntas_reflexion": [
+      "¿Es tu vida una 'alabanza a Dios' que otros pueden notar?",
+      "¿Estás cuidando la identidad espiritual de tu hogar en medio de un mundo confuso?",
+      "¿Te ves a ti mismo como un eslabón necesario en el plan eterno de Dios?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Inicio",
+      "evento": "Nace de Cainán, continuando la línea santa de Set.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:12"
+    },
+    {
+      "fase": "Paternidad",
+      "evento": "Engendra a Jared a los 65 años.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:15"
+    },
+    {
+      "fase": "Transición",
+      "evento": "Muere a los 895 años, dejando un legado de estabilidad espiritual.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:17"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["eden-region"],
+    "estudios": ["genealogias-antediluvianas", "nombres-hebreos-y-significados", "linea-mesianica"],
+    "devocionales": ["la-herencia-de-la-alabanza", "fieles-en-la-rutina"],
+    "personajes_relacionados": ["jared", "enoc", "set"]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "alabanza-eterna"
+  }
+},
+{
+  "id": "ben-ammi",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Ben-ammi",
+    "titulo_corto": "El Padre de los Amonitas",
+    "significado_nombre": "Hijo de mi pueblo",
+    "ocupacion": "Patriarca y fundador nacional",
+    "familia": {
+      "padre": "Lot",
+      "madre": "Hija menor de Lot",
+      "hermano": "Moab (medio hermano)"
+    },
+    "imagen": "/img/perfiles/ben-ammi.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": ["Génesis"],
+    "era_biblica": "Post-Sodoma (Periodo Patriarcal)"
+  },
+  "narrativa": {
+    "resumen_epico": "Ben-ammi es el ancestro de Amón, nacido en las sombras de una cueva tras el cataclismo de Sodoma. Su origen, aunque marcado por la desesperación y el error ético de su familia, dio lugar a una nación que se asentaría en la meseta de la Transjordania. Los amonitas, descendientes de Ben-ammi, fueron parientes constantes pero conflictivos de Israel. Su historia es un testimonio de la expansión de las naciones en el mundo antiguo y de cómo los lazos de sangre (su nombre significa 'Hijo de mi pueblo') pueden definir la hostilidad o la alianza a través de los siglos.",
+    "dato_curioso": "A diferencia de su hermano Moab, cuyo nombre declaraba el origen ('del padre'), Ben-ammi recibió un nombre que enfatizaba la pertenencia al pueblo, buscando legitimar un linaje nacido en circunstancias de aislamiento total.",
+    "conexion_jesus": "Ben-ammi representa la expansión de la humanidad fuera del pacto de Abraham. Dios, sin embargo, protegió su territorio inicialmente ('no los molestéis', Deuteronomio 2:19), mostrando que Su providencia alcanza incluso a los linajes nacidos del error.",
+    "diagrama_referencia": "Mapa: Territorio de Amón al noreste de Moab"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de supervivencia tribal y hermetismo. Representa el nacimiento de una identidad nacional basada en el instinto de preservación ante el juicio externo. Su carácter evoca el inicio de una cultura que se volvió defensiva y a menudo cruel (adoradores de Moloc en el futuro), reflejando la amargura de sus orígenes sombríos.",
+    "fortalezas": [
+      "Capacidad para fundar una nación guerrera y resiliente",
+      "Mantenimiento de una identidad tribal fuerte (Amonitas)"
+    ],
+    "debilidades": [
+      "Heredero de un linaje desconectado de la guía ética de Abraham",
+      "Progenitor de una nación que se opondría sistemáticamente a los planes de Dios"
+    ],
+    "simbologia": [
+      {
+        "objeto": "La Roca de la Meseta",
+        "significado": "Representa la dureza y el aislamiento de una nación que creció sin el pan de la revelación."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tus orígenes no tienen que dictar tu moralidad, pero la falta de guía espiritual en una familia suele proyectar sombras por muchas generaciones.",
+    "preguntas_reflexion": [
+      "¿Estás construyendo tu identidad sobre el 'qué dirá mi pueblo' o sobre la verdad de Dios?",
+      "¿Eres consciente de cómo las decisiones desesperadas de hoy afectan el carácter de tus descendientes?",
+      "¿Buscas la paz con tus 'parientes' espirituales o alimentas rivalidades ancestrales?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Origen",
+      "evento": "Nace en una cueva cerca de Zoar como hijo de la hija menor de Lot.",
+      "vinculo_mapa": "zoar",
+      "referencia": "Génesis 19:38"
+    },
+    {
+      "fase": "Asentamiento",
+      "evento": "Sus descendientes expulsan a los zanzumitas y ocupan el área de Rabá.",
+      "vinculo_mapa": "rabá-amón",
+      "referencia": "Deuteronomio 2:19-21"
+    },
+    {
+      "fase": "Conflicto",
+      "evento": "La nación de Amón se convierte en un rival perenne de Israel en el periodo de los Jueces.",
+      "vinculo_mapa": "galaad",
+      "referencia": "Jueces 10:6"
+    }
+  ],
+  "vinculos": {
+    "lugares": ["zoar", "rabá-amón", "galaad"],
+    "estudios": ["historia-de-los-amonitas", "geografia-de-transjordania", "el-incesto-en-el-genesis"],
+    "devocionales": ["la-gracia-sobre-la-culpa", "relaciones-familiares-rotas"],
+    "personajes_relacionados": ["lot", "moab", "abraham", "moloc"]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "patriarca-de-la-meseta"
+  }
+},
+{
+  "id": "moloc",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Moloc",
+    "titulo_corto": "El Devorador de Hijos",
+    "significado_nombre": "Rey (Melek)",
+    "ocupacion": "Deidad nacional de los Amonitas",
+    "familia": {
+      "origen": "Relacionado con Milcom y el culto fenicio"
+    },
+    "imagen": "/img/perfiles/moloc.webp",
+    "icono_mapa": "/img/ui/markers/rey.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Levítico",
+      "1 Reyes",
+      "2 Reyes",
+      "Jeremías"
+    ],
+    "era_biblica": "Periodo de la Monarquía (Apostatía)"
+  },
+  "narrativa": {
+    "resumen_epico": "Moloc representa la cara más oscura y cruel de la idolatría antigua. No era simplemente una estatua, sino un sistema de terror religioso que exigía el sacrificio de lo más preciado: los hijos primogénitos, que eran pasados por fuego en el valle de Hinom. Su culto se infiltró en Judá bajo el reinado de reyes como Acaz y Manasés, convirtiendo la bendición de la descendencia en una ofrenda de sangre. Moloc es el símbolo de la deshumanización absoluta y la rebelión total contra el Dios que ama la vida, provocando la ira divina que finalmente llevó a la nación al exilio.",
+    "dato_curioso": "La palabra 'Gehena' (infierno) proviene de 'Ge-Hinom' (Valle de Hinom), el lugar real en las afueras de Jerusalén donde se quemaban los sacrificios a Moloc. Jesús usó este lugar de horror histórico para ilustrar el destino eterno de la maldad.",
+    "conexion_jesus": "Moloc pedía la muerte de los hijos por los pecados de los padres. Jesús, el Hijo de Dios, hizo lo opuesto: se ofreció a Sí mismo para morir por los pecados de Sus hijos, terminando para siempre con la necesidad de sacrificios crueles y restaurando el valor sagrado de la vida.",
+    "diagrama_referencia": "Esquema: Ubicación del Valle de Hinom respecto a los muros de Jerusalén"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Como arquetipo de maldad, Moloc encarna la psicología de la crueldad absoluta y la codicia espiritual. Representa el egoísmo humano llevado al extremo: sacrificar el futuro (los hijos) para intentar asegurar un beneficio presente o calmar un miedo irracional. Es la antítesis del amor paternal, simbolizando la frialdad del metal que consume la carne inocente.",
+    "fortalezas": [
+      "Poder de intimidación y control social a través del miedo",
+      "Seducción del poder político (reyes que buscaban favores en el fuego)"
+    ],
+    "debilidades": [
+      "Impotencia total ante el juicio de Jehová",
+      "Dependencia de la ceguera espiritual de sus adoradores"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Horno de Bronce",
+        "significado": "Representa la insaciabilidad del pecado y la destrucción de la inocencia."
+      },
+      {
+        "objeto": "El Valle de Hinom",
+        "significado": "Símbolo de la vergüenza, el desperdicio y el juicio eterno."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Cualquier 'dios' o ideología que te pida sacrificar tu familia o tu integridad por éxito personal es un 'Moloc' moderno que terminará por devorarte.",
+    "preguntas_reflexion": [
+      "¿Qué cosas importantes estás 'pasando por el fuego' hoy en busca de éxito o aceptación?",
+      "¿Eres capaz de reconocer los 'valles de Hinom' en tu propia cultura y apartarte de ellos?",
+      "¿Confías en que el sacrificio de Cristo es suficiente para romper cualquier herencia de dolor en tu familia?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Prohibición",
+      "evento": "Dios prohíbe terminantemente el culto a Moloc bajo pena de muerte.",
+      "vinculo_mapa": "sinai",
+      "referencia": "Levítico 20:2"
+    },
+    {
+      "fase": "Apostatía",
+      "evento": "Salomón edifica un lugar alto a Moloc por influencia de sus mujeres amonitas.",
+      "vinculo_mapa": "monte-de-la-pervencion",
+      "referencia": "1 Reyes 11:7"
+    },
+    {
+      "fase": "Juicio",
+      "evento": "Josías destruye y profana el Tofet en el valle de Hinom para detener el culto.",
+      "vinculo_mapa": "valle-de-hinom",
+      "referencia": "2 Reyes 23:10"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "valle-de-hinom",
+      "jerusalen",
+      "amon"
+    ],
+    "estudios": [
+      "cultos-cananeos-y-amonitas",
+      "el-significado-de-gehena",
+      "reformas-de-josias"
+    ],
+    "devocionales": [
+      "vida-vs-muerte",
+      "idolos-que-consumen"
+    ],
+    "personajes_relacionados": [
+      "salomon",
+      "josias",
+      "jeremias"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 200,
+    "logro_id": "vencedor-del-tofet"
+  }
+},
+{
+  "id": "enos",
+  "activo": true,
+  "meta": {
+    "version": "3.0-deep",
+    "fecha_actualizacion": "2026-02-11",
+    "estandar": "codice-master"
+  },
+  "perfil": {
+    "nombre": "Enós",
+    "titulo_corto": "El Iniciador del Clamor",
+    "significado_nombre": "Hombre (Mortal / Frágil)",
+    "ocupacion": "Patriarca antediluviano",
+    "familia": {
+      "padre": "Set",
+      "abuelo": "Adán",
+      "hijo": "Cainán"
+    },
+    "imagen": "/img/perfiles/enos.webp",
+    "icono_mapa": "/img/ui/markers/patriarca.svg"
+  },
+  "contexto": {
+    "testamento": "Antiguo",
+    "libros_aparicion": [
+      "Génesis",
+      "1 Crónicas",
+      "Lucas"
+    ],
+    "era_biblica": "Periodo Antediluviano"
+  },
+  "narrativa": {
+    "resumen_epico": "Enós representa el momento en que la humanidad reconoció su propia fragilidad y volvió su mirada al Creador. Tras el caos de Caín y el nacimiento de Set, la Biblia marca un hito bajo el tiempo de Enós: 'Entonces los hombres comenzaron a invocar el nombre de Jehová'. Su nombre, que enfatiza la mortalidad del hombre, es la clave de su legado; fue bajo su patriarcado que nació la oración pública y el culto organizado. Enós es el eslabón que convirtió el dolor de la caída en un clamor de dependencia divina.",
+    "dato_curioso": "A diferencia de los cainitas que nombraban ciudades por su propia fuerza, el linaje de Enós se definió por reconocer que el hombre es 'mortal' y necesita desesperadamente la intervención de Dios.",
+    "conexion_jesus": "Enós es el ancestro de Jesús que establece la línea de los 'hijos de Dios'. Prefigura la humanidad de Cristo, quien siendo el 'Hijo del Hombre' (el verdadero Enós mortal), invocó al Padre para darnos acceso eterno a Su presencia.",
+    "diagrama_referencia": "Infografía: La línea de Set - De la caída a la invocación"
+  },
+  "analisis_profundo": {
+    "perfil_emocional": "Manifiesta una psicología de humildad consciente y esperanza. Enós no confía en la técnica ni en las murallas, sino en la relación espiritual. Representa el despertar de la conciencia religiosa: el paso de vivir para sí mismo a vivir en invocación constante. Su carácter es el de un mediador que une a su familia en torno al altar de la oración.",
+    "fortalezas": [
+      "Reconocimiento de la soberanía de Dios",
+      "Liderazgo en la restauración del culto espiritual",
+      "Transmisión de un legado de dependencia divina"
+    ],
+    "debilidades": [
+      "Ninguna registrada; su vida es la base del linaje de fe"
+    ],
+    "simbologia": [
+      {
+        "objeto": "El Altar de Invocación",
+        "significado": "Representa la oración como el primer recurso de la humanidad frágil."
+      }
+    ]
+  },
+  "aplicacion_personal": {
+    "leccion_clave": "Tu fortaleza real comienza el día que reconoces tu fragilidad y decides invocar el nombre del Señor sobre cada área de tu vida.",
+    "preguntas_reflexion": [
+      "¿Estás confiando en tu propia fuerza o eres consciente de tu necesidad de Dios (tu Enós interno)?",
+      "¿Es la oración un recurso de emergencia para ti o es el fundamento de tu vida como lo fue para Enós?",
+      "¿Qué 'nombre' estás invocando hoy para encontrar seguridad?"
+    ]
+  },
+  "linea_tiempo": [
+    {
+      "fase": "Nacimiento",
+      "evento": "Nace de Set cuando este tenía 105 años.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 4:26"
+    },
+    {
+      "fase": "Avivamiento",
+      "evento": "Bajo su tiempo se inicia la invocación pública del nombre de Jehová.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 4:26"
+    },
+    {
+      "fase": "Legado",
+      "evento": "Muere a los 905 años habiendo preservado la línea de la fe.",
+      "vinculo_mapa": "tierra-del-oriente",
+      "referencia": "Génesis 5:11"
+    }
+  ],
+  "vinculos": {
+    "lugares": [
+      "eden-region",
+      "tierra-del-oriente"
+    ],
+    "estudios": [
+      "origen-de-la-oracion",
+      "genealogias-antediluvianas",
+      "linea-de-set-vs-cain"
+    ],
+    "devocionales": [
+      "invocar-su-nombre",
+      "el-poder-de-la-fragilidad"
+    ],
+    "personajes_relacionados": [
+      "set",
+      "adan",
+      "enoc"
+    ]
+  },
+  "gamificacion": {
+    "xp_lectura": 150,
+    "logro_id": "intercesor-primitivo"
+  }
+}
+]

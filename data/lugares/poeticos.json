@@ -1,0 +1,451 @@
+[
+  {
+    "id": "tierra-uz",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-19"
+    },
+    "mapa": {
+        "coords": [30.5852, 35.9234],
+        "zoom": 9,
+        "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#7f8c8d"
+    },
+    "perfil": {
+        "nombre": "Tierra de Uz",
+        "titulo_corto": "El Escenario de la Prueba",
+        "significado_nombre": "Uz: Consejo o Madera Firme",
+        "ubicacion_geografica": "Al oriente de Israel, probablemente entre Edom y Arabia.",
+        "clima_entorno": "Región de estepa fértil rodeada de desierto, vulnerable a ataques de tribus nómadas (caldeos y sabeos).",
+        "imagen_principal": "/img/lugares/uz.webp",
+        "galeria": [
+            "/img/lugares/job-ceniza.webp",
+            "/img/lugares/los-tres-amigos.webp",
+            "/img/lugares/tesoros-restaurados.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Job", "Lamentaciones"],
+        "era_biblica": "Era Patriarcal (Contemporáneo a Abraham)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Menciones en la Septuaginta y geografía de Edom",
+        "descripcion": "Aunque Uz es el escenario de un libro poético, las referencias cruzadas en Lamentaciones y la genealogía de Génesis sitúan esta región en la periferia de Edom, confirmando su existencia como una zona geográfica real conocida por los antiguos hebreos."
+    },
+    "narrativa": {
+        "resumen_epico": "Uz no era solo una región de inmensa riqueza, sino el escenario de un conflicto cósmico invisible. Aquí, Job, el hombre más íntegro de su tiempo, perdió sus siete mil ovejas, sus hijos y su salud en un solo día. En las afueras de la ciudad, sentado entre cenizas, Uz se convirtió en el epicentro de la discusión más profunda sobre la soberanía de Dios y el sufrimiento humano, culminando con la voz de Dios respondiendo desde un torbellino.",
+        "dato_curioso": "Aunque Job es un libro poético, Uz es tratada como una ubicación geográfica real, mencionada también por Jeremías.",
+        "conexion_jesus": "Job es un 'tipo' de Cristo en su sufrimiento injusto. Así como Job fue despojado de todo y abandonado por sus amigos en Uz, Jesús fue despojado y abandonado en la cruz para ser luego restaurado y exaltado por el Padre.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el quebrantamiento total y la paciencia. Es el lugar donde la teología humana falla y solo queda la fe desnuda.",
+        "fortalezas": ["Integridad inquebrantable", "Paciencia en la aflicción"],
+        "debilidades": ["Limitación del entendimiento humano", "Juicio de los amigos"],
+        "simbologia": [
+            {
+                "objeto": "Las Cenizas",
+                "significado": "Representan la humillación máxima y la finitud del hombre frente a la eternidad."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu integridad no depende de tu prosperidad, sino de tu confianza en el carácter de Dios incluso cuando no hay explicaciones.",
+        "preguntas_reflexion": [
+            "¿Puedes alabar a Dios en tu propia 'Uz' cuando las bendiciones se retiran?",
+            "¿Estás buscando respuestas lógicas o un encuentro real con el Creador en medio de tu tormenta?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Prosperidad",
+            "evento": "Job vive como el hombre más rico y justo del oriente.",
+            "referencia": "Job 1:1-5"
+        },
+        {
+            "fase": "La Calamidad",
+            "evento": "Pérdida de familia, bienes y salud en un solo día.",
+            "referencia": "Job 1:13-22",
+            "vinculo_id": "prueba-de-job"
+        },
+        {
+            "fase": "La Restauración",
+            "evento": "Dios responde desde el torbellino y duplica los bienes de Job.",
+            "referencia": "Job 42"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["camino-de-edom", "babilonia"],
+        "personajes_relacionados": ["job", "amigos-job"],
+        "estudios": ["el-problema-del-mal", "la-restauracion-de-job"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "paciencia-de-job"
+    }
+},
+  {
+    "id": "valle-sombra-muerte",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-19"
+    },
+    "mapa": {
+        "coords": [31.775, 35.350],
+        "zoom": 13,
+        "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#2c3e50"
+    },
+    "perfil": {
+        "nombre": "Valle de Sombra de Muerte",
+        "titulo_corto": "El Paso del Pastor",
+        "significado_nombre": "Tzalmavet: Sombra profunda o densa oscuridad",
+        "ubicacion_geografica": "Wadis profundos y estrechos del Desierto de Judea, entre Belén y el Mar Muerto.",
+        "clima_entorno": "Cañones escarpados donde la luz solar apenas llega al fondo, creando sombras constantes y ecos que alertan a los depredadores.",
+        "imagen_principal": "/img/lugares/valle-sombra.webp",
+        "galeria": [
+            "/img/lugares/pastor-judea.webp",
+            "/img/lugares/wadi-qelt.webp",
+            "/img/lugares/vara-cayado.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Salmos", "Job", "Isaías"],
+        "era_biblica": "Atemporal / Poesía Davídica"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Wadi Qelt (El camino de Jericó)",
+        "descripcion": "Este cañón es la representación física más fiel de la metáfora davídica. Sus senderos peligrosos, flanqueados por cuevas de fieras y desfiladeros sombríos, eran la ruta obligada para los pastores que buscaban pastos estacionales, validando la descripción del Salmo 23."
+    },
+    "narrativa": {
+        "resumen_epico": "Aunque se lee como una metáfora del alma, el Valle de Sombra de Muerte nace de la experiencia real de David como pastor en las grietas de Judea. Es el lugar donde la luz se pierde y el peligro es tangible. Sin embargo, el Salmo 23 lo transforma en un lugar de victoria: el énfasis no está en la oscuridad, sino en la compañía del Pastor. Es el punto del Códice donde la geografía física se rinde ante la paz espiritual.",
+        "dato_curioso": "En hebreo, la palabra sugiere una oscuridad tan densa que parece tener sustancia propia, aplicada a menudo a la oscuridad del sepulcro.",
+        "conexion_jesus": "Jesús es el Buen Pastor que no solo nos guía a través del valle, sino que entró en la sombra de la muerte definitiva (la tumba) para iluminarla. Al resucitar, convirtió cada 'valle oscuro' de nuestra vida en un pasaje hacia Su luz eterna.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el miedo humano enfrentado a la seguridad divina. Transmite una calma sobrenatural en medio de un entorno hostil.",
+        "fortalezas": ["Presencia divina constante", "Consuelo en la crisis"],
+        "debilidades": ["Vulnerabilidad ante el entorno", "Miedo a lo desconocido"],
+        "simbologia": [
+            {
+                "objeto": "La Vara y el Cayado",
+                "significado": "La vara para defensa contra ataques y el cayado para dirección y rescate; representan la autoridad y el cuidado de Dios."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "El valle es un lugar de paso, no una residencia. No importa cuán oscuro sea el camino, la meta es la mesa preparada por el Padre.",
+        "preguntas_reflexion": [
+            "¿Estás mirando las sombras del valle o los ojos del Pastor?",
+            "¿Puedes sentir el consuelo de Dios incluso cuando no ves la salida del túnel?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Pastoreo de David",
+            "evento": "David protege sus ovejas en los cañones de Judea.",
+            "referencia": "1 Samuel 17:34-36"
+        },
+        {
+            "fase": "La Composición",
+            "evento": "David escribe el Salmo 23 bajo inspiración divina.",
+            "referencia": "Salmo 23",
+            "vinculo_id": "fe-en-el-valle"
+        },
+        {
+            "fase": "El Cumplimiento",
+            "evento": "Jesús atraviesa el valle de la muerte por la humanidad.",
+            "referencia": "Mateo 27 / Lucas 24"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["belen-nacimiento"],
+        "personajes_relacionados": ["david"],
+        "estudios": ["el-salmo-23", "confianza-en-la-crisis"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "caminante-de-fe"
+    }
+},
+  {
+    "id": "cumbres-norte",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [33.4111, 35.8583],
+        "zoom": 10,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#3498db"
+    },
+    "perfil": {
+        "nombre": "Cumbres del Norte (Hermón y Líbano)",
+        "titulo_corto": "La Majestad de las Alturas",
+        "significado_nombre": "Hermón: Santuario o Sagrado / Líbano: Blanco (por sus nieves)",
+        "ubicacion_geografica": "Frontera norte de Israel, cordilleras que dominan la visión del horizonte.",
+        "clima_entorno": "Clima alpino con nieves perpetuas que alimentan las fuentes del Jordán; bosques de cedros milenarios.",
+        "imagen_principal": "/img/lugares/hermon.webp",
+        "galeria": [
+            "/img/lugares/cedros-libano-detalle.webp",
+            "/img/lugares/templos-cima-hermon.webp",
+            "/img/lugares/fuentes-del-jordan-nieve.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Salmos", "Cantares", "Oseas"],
+        "era_biblica": "Atemporal / Gloria de la Creación"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Templos en la cima del Hermón",
+        "descripcion": "Existen restos de santuarios antiguos en sus picos, confirmando que desde la antigüedad era considerado el 'Monte Sagrado' que presidía la región, tal como los Salmos lo describen como lugar de bendición descendente."
+    },
+    "narrativa": {
+        "resumen_epico": "En la poesía hebrea, estas montañas son los pilares del cielo. El Hermón es el origen del rocío que simboliza la unidad de los hermanos (Salmo 133), una bendición que baja desde lo más alto hasta los valles. Los cedros del Líbano son descritos como los árboles que Dios mismo plantó, símbolos de fuerza, longevidad y orgullo que, sin embargo, se quiebran ante la voz de Jehová. Representan el límite norte de la tierra prometida y la magnitud del poder creativo de Dios.",
+        "dato_curioso": "El rocío del Hermón es tan abundante que incluso en verano mantiene la vegetación circundante, una metáfora perfecta de la gracia que sostiene en tiempos de sequía.",
+        "conexion_jesus": "El Hermón es un fuerte candidato para ser el lugar de la Transfiguración (junto con el Tabor). La blancura de sus nieves evoca la pureza de los vestidos de Jesús en aquella cumbre, donde Su gloria divina fue revelada por encima de toda majestad terrenal.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la grandeza, la frescura y la unidad. Transmite una sensación de aire puro y perspectiva divina sobre las llanuras de la vida cotidiana.",
+        "simbologia": [
+            {
+                "objeto": "El Cedro",
+                "significado": "Representa la firmeza y la prosperidad del justo ('florecerá como cedro en el Líbano'), pero también el orgullo humano que Dios humilla."
+            },
+            {
+                "objeto": "El Rocío",
+                "significado": "Símbolo de la unidad fraternal y la bendición que refresca el espíritu sin esfuerzo humano."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu fortaleza debe ser como la del cedro: raíces profundas en la Palabra para soportar los vientos, pero siempre bajo la autoridad de Aquel que rompe los cedros con Su voz.",
+        "preguntas_reflexion": [
+            "¿Es tu relación con tus hermanos como el 'rocío del Hermón', que refresca y da vida, o es un desierto de conflictos?",
+            "¿Estás creciendo hacia el cielo con la dignidad de un cedro plantado por Dios?"
+        ]
+    },
+    "vinculos": {
+        "lugares_relacionados": ["rio-jordan-bautismo"],
+        "personajes_relacionados": ["salomon", "jesus"],
+        "estudios": ["la-unidad-de-los-santos", "la-voz-de-dios-en-la-creacion"]
+    },
+    "gamificacion": {
+        "xp_lectura": 180,
+        "logro_id": "frescura-del-hermon"
+    }
+  },
+  {
+    "id": "estanques-salomon",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.6894, 35.1664],
+        "zoom": 15,
+        "icono_mapa": "/img/ui/markers/monumento.svg",
+        "marcador_color": "#3498db"
+    },
+    "perfil": {
+        "nombre": "Estanques de Salomón",
+        "titulo_corto": "Las Obras del Predicador",
+        "significado_nombre": "Piscinas de almacenamiento de agua",
+        "ubicacion_geografica": "Cerca de Belén, en el camino hacia Hebrón.",
+        "clima_entorno": "Valle alto con manantiales naturales, transformado en un complejo sistema de ingeniería hidráulica.",
+        "imagen_principal": "/img/lugares/estanques.webp",
+        "galeria": [
+            "/img/lugares/estanques-vuelo.webp",
+            "/img/lugares/fortaleza-el-burak.webp",
+            "/img/lugares/sellada-fuente.webp",
+            "/img/lugares/acueducto-jerusalen.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Eclesiastés", "Cantares"],
+        "era_biblica": "Reinado de Salomón"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Tres grandes piscinas de piedra",
+        "descripcion": "Aunque las estructuras visibles actuales tienen reconstrucciones posteriores (herodianas y romanas), el sistema de recolección de agua original data de la época monárquica, confirmando las 'grandes obras' y 'huertos' que Salomón describe en sus escritos."
+    },
+    "narrativa": {
+        "resumen_epico": "En su búsqueda de sentido 'debajo del sol', Salomón construyó estos estanques para regar sus inmensos jardines y bosques. Representan la cúspide del esfuerzo humano por hallar felicidad en la creación y el dominio de la naturaleza. Sin embargo, en Eclesiastés, Salomón mira estas mismas aguas y concluye: 'Todo es vanidad y correr tras el viento'. Los estanques son un monumento a la belleza que el hombre puede crear, pero también a la sed del alma que ninguna obra humana puede saciar.",
+        "dato_curioso": "El sistema era tan eficiente que suministró agua a Jerusalén por gravedad durante casi dos mil años.",
+        "conexion_jesus": "Jesús, frente a las obras de los hombres, ofreció el 'agua viva' de la cual quien beba no tendrá sed jamás. Salomón construyó estanques que se secan o se rompen; Jesús ofrece una fuente interna que salta para vida eterna.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la melancolía del éxito material. Transmite la paradoja de tener abundancia externa y vacío interno.",
+        "simbologia": [
+            {
+                "objeto": "El Agua Estancada",
+                "significado": "Representa los placeres temporales que deben ser constantemente rellenados y que no pueden dar vida por sí mismos."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Puedes construir los estanques más grandes del mundo, pero si Dios no llena tu corazón, siempre sentirás que te falta algo.",
+        "preguntas_reflexion": [
+            "¿Estás tratando de llenar tu 'sed' con logros materiales o con una relación con el Creador?",
+            "¿Qué obras en tu vida hoy son para tu propia gloria y cuáles son para Dios?"
+        ]
+    },
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion", "belen-nacimiento"],
+        "personajes_relacionados": ["salomon"],
+        "estudios": ["la-vanidad-de-la-vida", "el-agua-viva"]
+    },
+    "gamificacion": {
+        "xp_lectura": 200,
+        "logro_id": "sabio-del-viento"
+    }
+  },
+  {
+    "id": "en-gadi-poetico",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.465, 35.390],
+        "zoom": 14,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#27ae60"
+    },
+    "perfil": {
+        "nombre": "En-gadi",
+        "titulo_corto": "Las Viñas de la Fragancia",
+        "significado_nombre": "Manantial del Cabrito",
+        "ubicacion_geografica": "Orilla oeste del Mar Muerto, un oasis literal en medio del desierto de Judea.",
+        "clima_entorno": "Microclima tropical con cascadas de agua dulce, vegetación exuberante y plantas aromáticas (alheña).",
+        "imagen_principal": "/img/lugares/engadi.webp",
+        "galeria": [
+            "/img/lugares/balsamo-engadi-detalle.webp",
+            "/img/lugares/cuevas-refugio-david.webp",
+            "/img/lugares/fauna-ibex-engadi.webp",
+            "/img/lugares/viñas-alhena-aroma.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Cantares", "1 Samuel", "Ezequiel"],
+        "era_biblica": "Atemporal / Poesía de Salomón"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Terrazas de cultivo de perfumes",
+        "descripcion": "Se han encontrado restos de instalaciones para la producción de bálsamos y perfumes preciosos que datan de la época monárquica, lo que valida la mención de Cantares sobre los 'racimos de alheña en las viñas de En-gadi'."
+    },
+    "narrativa": {
+        "resumen_epico": "En el lenguaje de Cantares, En-gadi representa el refugio de la intimidad. Es un contraste violento con el desierto circundante; donde hay muerte y sal a pocos metros, En-gadi ofrece vida y fragancia. El amado es comparado con un racimo de alheña de este oasis, simbolizando aquello que es hermoso, valioso y que refresca los sentidos en medio de la aridez. Es el lugar donde la naturaleza celebra el encuentro del amor.",
+        "dato_curioso": "David se escondió aquí de Saúl, pero en la poesía de Salomón, el lugar se transforma de un refugio de guerra a un refugio de paz y deleite.",
+        "conexion_jesus": "Jesús es nuestro 'En-gadi' espiritual. En un mundo árido y sin esperanza, Su presencia es el oasis de agua viva y la fragancia que restaura el alma. Él es el refugio donde el creyente encuentra descanso y deleite en medio de las pruebas.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el deleite, la frescura y la exclusividad. Transmite una sensación de descubrimiento: hallar un tesoro en el lugar menos esperado.",
+        "simbologia": [
+            {
+                "objeto": "La Alheña (Henna)",
+                "significado": "Representa la belleza que cautiva y el perfume que perdura; símbolo de la gracia que atrae al corazón."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Incluso en tus temporadas más desérticas, Dios puede hacer brotar un oasis de amor y comunión que sobrepasa tu entorno.",
+        "preguntas_reflexion": [
+            "¿Estás cultivando un 'oasis' de intimidad con Dios en medio de tus desiertos cotidianos?",
+            "¿Tu vida exhala la fragancia de Cristo para aquellos que están sedientos a tu alrededor?"
+        ]
+    },
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion"],
+        "personajes_relacionados": ["salomon", "sulamita"],
+        "estudios": ["el-jardin-del-amor", "belleza-en-el-desierto"]
+    },
+    "gamificacion": {
+        "xp_lectura": 190,
+        "logro_id": "oasis-del-alma"
+    }
+  },
+  {
+    "id": "sulam-origen",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [32.605, 35.332],
+        "zoom": 13,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#d4af37"
+    },
+    "perfil": {
+        "nombre": "Sulam (Sunem)",
+        "titulo_corto": "La Belleza del Campo",
+        "significado_nombre": "Lugar de reposo o Doble descanso",
+        "ubicacion_geografica": "En el valle de Jezreel, al pie del monte Moreh.",
+        "clima_entorno": "Valle agrícola rico y abierto, rodeado de montes, conocido por sus campos de grano y su belleza rural.",
+        "imagen_principal": "/img/lugares/sulam.webp",
+        "galeria": [
+            "/img/lugares/valle-jezreel-campo.webp",
+            "/img/lugares/rosas-saron.webp",
+            "/img/lugares/torre-vigilancia-viñedo.webp",
+            "/img/lugares/huerto-frutal.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Cantares", "2 Reyes", "Josué"],
+        "era_biblica": "Época de la Monarquía"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Ruinas de Sunem (Sulam)",
+        "descripcion": "El pueblo actual de Sulam conserva el nombre y la ubicación de la antigua Sunem. La fertilidad de sus campos sigue siendo evidente hoy, confirmando el trasfondo pastoril y agrícola de la amada de Cantares."
+    },
+    "narrativa": {
+        "resumen_epico": "Sulam es el hogar de la 'Sulamita'. Representa la sencillez del campo frente a la sofisticación de la corte en Jerusalén. En Cantares, la amada es descrita como alguien cuya belleza fue forjada por el sol del campo ('negra soy, pero hermosa'). Es un lugar de huertos, de granados y de flores silvestres. Simboliza que el amor más puro de Dios no busca el lujo externo, sino la autenticidad del corazón que ha crecido trabajando en el viñedo.",
+        "dato_curioso": "El término 'Sulamita' es la forma femenina del nombre Salomón (Shelomoh), sugiriendo que ella es su contraparte perfecta en paz y armonía.",
+        "conexion_jesus": "La Sulamita representa a la Iglesia, que no viene de la alcurnia del mundo, sino de la sencillez del campo. Jesús, el Rey, se enamora de Su Esposa y la llama desde su lugar de trabajo para compartir Su trono. Así como la Sulamita es transformada por el amor del Rey, nosotros somos transformados por el amor de Cristo.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la humildad, la autenticidad y la pertenencia. Transmite una sensación de raíces profundas y belleza natural.",
+        "simbologia": [
+            {
+                "objeto": "El Huerto de Granados",
+                "significado": "Representa la fecundidad y la riqueza interior de la vida espiritual que agrada al Rey."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios te ama por quien eres en tu labor cotidiana. Tu belleza para Él no reside en lo que aparentas, sino en la fidelidad con la que cuidas tus viñedos.",
+        "preguntas_reflexion": [
+            "¿Buscas impresionar a Dios con adornos externos o cultivas la belleza de un corazón sencillo?",
+            "¿Puedes escuchar el llamado del Rey que te busca en medio de tus tareas diarias?"
+        ]
+    },
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion"],
+        "personajes_relacionados": ["salomon", "sulamita"],
+        "estudios": ["el-amor-de-cristo-por-la-iglesia", "identidad-en-el-amado"]
+    },
+    "gamificacion": {
+        "xp_lectura": 170,
+        "logro_id": "amada-del-rey"
+    }
+  }
+]

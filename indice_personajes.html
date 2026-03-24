@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>🚑 Diagnóstico de JSON</title>
+    <style>
+        body { font-family: monospace; background: #0f172a; color: #e2e8f0; padding: 20px; }
+        h1 { color: #fcd34d; }
+        .log { margin-top: 20px; padding: 15px; background: #1e293b; border: 1px solid #334155; height: 300px; overflow-y: auto; }
+        .error-card { background: #450a0a; border: 1px solid #ef4444; color: #fecaca; padding: 15px; margin-bottom: 10px; border-radius: 5px; }
+        .success-card { background: #064e3b; border: 1px solid #10b981; color: #a7f3d0; padding: 10px; margin-bottom: 5px; border-radius: 5px; }
+        button { padding: 15px 30px; font-size: 1.2rem; background: #3b82f6; color: white; border: none; cursor: pointer; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>🚑 Diagnóstico de Archivos JSON</h1>
+    <button onclick="diagnosticar()">INICIAR DIAGNÓSTICO</button>
+    <div id="log" class="log">Esperando...</div>
+    <textarea id="output" style="width:100%; height:200px; margin-top:20px; background:#000; color:#0f0;"></textarea>
+
+<script>
+    const URL_BASE = 'data/personajes/';
+    const ARCHIVOS = ["patriarcas", "exodo_jueces", "monarquia", "apostolicos", "cautiverio", "evangelios", "profetas"];
+
+    async function diagnosticar() {
+        const log = document.getElementById('log');
+        const output = document.getElementById('output');
+        log.innerHTML = "🔍 Iniciando revisión...<br>";
+        const nuevoIndice = {};
+
+        for (const archivo of ARCHIVOS) {
+            try {
+                // Truco anti-caché
+                const respuesta = await fetch(`${URL_BASE}${archivo}.json?v=${Date.now()}`);
+                
+                if (!respuesta.ok) {
+                    log.innerHTML += `<div class="error-card">❌ ARCHIVO NO ENCONTRADO: ${archivo}.json <br> (Revisa el nombre o la carpeta)</div>`;
+                    continue;
+                }
+
+                // Intentamos leer el texto primero para ver si está vacío
+                const texto = await respuesta.text();
+                if (!texto.trim()) {
+                    log.innerHTML += `<div class="error-card">⚠️ ARCHIVO VACÍO: ${archivo}.json</div>`;
+                    continue;
+                }
+
+                // Intentamos convertir a JSON (Aquí es donde suele fallar)
+                const data = JSON.parse(texto);
+
+                if (Array.isArray(data)) {
+                    log.innerHTML += `<div class="success-card">✅ ${archivo}.json está PERFECTO (${data.length} personajes)</div>`;
+                    
+                    // Agregamos al índice
+                    data.forEach(p => {
+                        if (p.id) nuevoIndice[p.id] = archivo;
+                    });
+                } else {
+                    log.innerHTML += `<div class="error-card">⚠️ ${archivo}.json no es una lista (Array). ¿Faltan los corchetes [ ]?</div>`;
+                }
+
+            } catch (error) {
+                // ¡AQUÍ CAPTURAMOS EL ERROR DE SINTAXIS!
+                log.innerHTML += `
+                    <div class="error-card">
+                        💥 <b>ERROR GRAVE EN: ${archivo}.json</b><br>
+                        El código JSON está roto. No se puede leer.<br>
+                        <small>Detalle técnico: ${error.message}</small>
+                    </div>`;
+            }
+        }
+
+        // Generar resultado final
+        const ordenado = Object.keys(nuevoIndice).sort().reduce((obj, key) => { obj[key] = nuevoIndice[key]; return obj; }, {});
+        output.value = JSON.stringify(ordenado, null, 2);
+    }
+</script>
+</body>
+</html>

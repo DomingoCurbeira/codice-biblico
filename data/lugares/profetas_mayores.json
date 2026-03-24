@@ -1,0 +1,315 @@
+[
+  {
+    "id": "acueducto-acaz",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.772, 35.232],
+        "zoom": 16,
+        "icono_mapa": "/img/ui/markers/evento-biblico.svg",
+        "marcador_color": "#3498db"
+    },
+    "perfil": {
+        "nombre": "Acueducto del Estanque Superior",
+        "titulo_corto": "El Camino del Lavador",
+        "significado_nombre": "Fuente de agua y profecía",
+        "ubicacion_geografica": "Extremo sur del valle del Cedrón, cerca de la piscina de Siloé.",
+        "clima_entorno": "Zona de huertos regados por las aguas de Gihón, vital para la supervivencia durante los asedios.",
+        "imagen_principal": "/img/lugares/acueducto-isaias.webp",
+        "galeria": [
+            "/img/lugares/piscina-siloe-antigua.webp",
+            "/img/lugares/encuentro-excavadores.webp",
+            "/img/lugares/confrontacion-rey.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Isaías", "2 Reyes"],
+        "era_biblica": "Invasión Sirio-Efraimita / Reinado de Acaz"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Canal de Siloé y Acueducto de Acaz",
+        "descripcion": "Se han identificado túneles y canales de superficie que datan del siglo VIII a.C. El lugar donde Isaías se encontró con Acaz era el punto estratégico donde el rey revisaba las defensas de agua ante la inminente invasión."
+    },
+    "narrativa": {
+        "resumen_epico": "En un momento de pánico nacional, cuando dos reyes sitiaban Jerusalén, Dios envió a Isaías a encontrarse con el rey Acaz en el acueducto. Acaz, temeroso, buscaba ayuda en Asiria, pero Isaías le ofreció una señal del cielo. Ante el rechazo del rey, el profeta lanzó la profecía más famosa del Antiguo Testamento: 'He aquí que la virgen concebirá, y dará a luz un hijo, y llamará su nombre Emanuel'. El lugar del agua física se convirtió en el lugar de la promesa del Agua Viva.",
+        "dato_curioso": "El 'Campo del Lavador' mencionado era el lugar donde se blanqueaban las telas usando el agua del estanque, un proceso que requería mucha agua y espacio abierto.",
+        "conexion_jesus": "Emanuel significa 'Dios con nosotros'. Mateo 1:23 cita directamente este evento en el acueducto como el cumplimiento total en el nacimiento de Jesús, quien es la verdadera seguridad de Su pueblo frente a cualquier enemigo.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la tensión entre la confianza política (Acaz) y la confianza espiritual (Isaías). Es el lugar donde la eternidad interrumpe la desesperación temporal.",
+        "fortalezas": ["Claridad profética", "Ubicación estratégica de vida (agua)"],
+        "debilidades": ["Incredulidad del liderazgo humano", "Temor al hombre"],
+        "simbologia": [
+            {
+                "objeto": "El Agua del Estanque",
+                "significado": "Representa la provisión de Dios que es 'desechada' por el pueblo a cambio de alianzas extranjeras (Isaías 8:6)."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Cuando tus recursos parecen agotarse y tus enemigos te rodean, no busques ayuda en 'Asiria' (el mundo); busca la señal de Emanuel.",
+        "preguntas_reflexion": [
+            "¿Estás confiando en tus 'acueductos' (planes propios) o en la promesa de que Dios está contigo?",
+            "¿Qué 'señales' de la fidelidad de Dios has ignorado por causa del miedo?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Crisis",
+            "evento": "Siria e Israel suben contra Jerusalén; el corazón del rey tiembla.",
+            "referencia": "Isaías 7:1-2"
+        },
+        {
+            "fase": "La Señal",
+            "evento": "Isaías da la profecía de Emanuel en el acueducto.",
+            "referencia": "Isaías 7:10-14",
+            "vinculo_id": "emanuel"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["jerusalen-sion", "jerusalen-muros", "belen-nacimiento"],
+        "personajes_relacionados": ["isaias", "acaz", "jesus"],
+        "estudios": ["el-mesias-en-isaias", "fe-vs-politica"]
+    },
+    "gamificacion": {
+        "xp_lectura": 350,
+        "logro_id": "testigo-de-emanuel"
+    }
+  },
+  {
+    "id": "casa-alfarero",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-18"
+    },
+    "mapa": {
+        "coords": [31.768, 35.228],
+        "zoom": 16,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#d35400"
+    },
+    "perfil": {
+        "nombre": "La Casa del Alfarero",
+        "titulo_corto": "El Barro en Sus Manos",
+        "significado_nombre": "Yotzer (El que da forma)",
+        "ubicacion_geografica": "Sector sur de Jerusalén, cerca de la Puerta del Muladar, en la entrada del Valle de Hinom.",
+        "clima_entorno": "Zona industrial antigua rica en arcilla debido a la convergencia de los valles.",
+        "imagen_principal": "/img/lugares/alfarero.webp",
+        "galeria": [
+            "/img/lugares/rueda-alfarero.webp",
+            "/img/lugares/vasija-quebrada.webp",
+            "/img/lugares/vasija-restaurada.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Jeremías"],
+        "era_biblica": "Vísperas del Exilio Babilónico"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Talleres de cerámica del siglo VII a.C.",
+        "descripcion": "Se han hallado en el Valle de Hinom (Akeldama) restos de hornos y miles de fragmentos de cerámica que confirman que esta zona era el centro de producción de vasijas de Jerusalén durante el tiempo de Jeremías."
+    },
+    "narrativa": {
+        "resumen_epico": "Dios ordenó a Jeremías bajar a este taller para observar un proceso cotidiano: un alfarero trabajando el barro. Cuando la vasija se echaba a perder, el alfarero no la desechaba, sino que la volvía a deshacer para formar una nueva. La lección fue clara: Israel estaba en las manos de Dios como el barro en las del alfarero. Fue un mensaje de juicio pero también de esperanza radical: Dios tiene el poder de rehacer lo que el pecado ha deformado.",
+        "dato_curioso": "En el capítulo 19, Jeremías regresó a esta misma zona con los ancianos para romper una vasija de barro terminada, simbolizando que había un punto de no retorno donde el juicio ya no se podía 'reformar'.",
+        "conexion_jesus": "El 'Campo del Alfarero' en el Valle de Hinom fue comprado con las 30 piezas de plata de la traición de Judas (Mateo 27:7). Lo que en tiempos de Jeremías era un lugar de enseñanza sobre la soberanía, en el Nuevo Testamento se convirtió en un lugar de sepultura para extranjeros, pagado con el precio de la sangre de Cristo.",
+        "imagen_de_apoyo": "[Image of a traditional pottery workshop in the Near East with a potter's wheel and clay vessels]"
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la vulnerabilidad y la maleabilidad humana ante la voluntad divina. Transmite una mezcla de temor (juicio) y consuelo (restauración).",
+        "simbologia": [
+            {
+                "objeto": "La Rueda del Alfarero",
+                "significado": "Representa las circunstancias de la vida y el tiempo sobre los cuales Dios ejerce control absoluto para darnos forma."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "No eres un producto terminado; eres barro en proceso. Deja que Dios deshaga tus áreas deformadas para que Su gloria brille en la nueva vasija.",
+        "preguntas_reflexion": [
+            "¿Estás endurecido contra las manos de Dios o eres dócil para ser reformado?",
+            "¿Confías en el diseño del Alfarero incluso cuando el proceso de 'deshacer' es doloroso?"
+        ]
+    },
+    "vinculos": {
+        "lugares_relacionados": [ "jerusalen-sion"],
+        "personajes_relacionados": ["jeremias", "judas-iscariote"],
+        "estudios": ["la-soberania-de-dios", "el-proceso-de-quebrantamiento"]
+    },
+    "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "barro-en-sus-manos"
+    }
+  },
+  {
+    "id": "rio-quebar",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-21"
+    },
+    "mapa": {
+        "coords": [32.321, 45.123],
+        "zoom": 10,
+        "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#3498db"
+    },
+    "perfil": {
+        "nombre": "Río Quebar",
+        "titulo_corto": "El Canal de la Gloria",
+        "significado_nombre": "Grande o Abundante (Nar Kabari)",
+        "ubicacion_geografica": "Un gran canal de irrigación cerca de la ciudad de Nippur, en Babilonia.",
+        "clima_entorno": "Llanura aluvial polvorienta cruzada por canales artificiales masivos que hacían posible la agricultura babilónica.",
+        "imagen_principal": "/img/lugares/quebar.webp",
+        "galeria": [
+            "/img/lugares/vision-querubines.webp",
+            "/img/lugares/lamento-exiliados.webp",
+            "/img/lugares/tel-abib.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Ezequiel"],
+        "era_biblica": "El Exilio (Ministerio de Ezequiel)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Canal 'Nar Kabari'",
+        "descripcion": "Tablillas cuneiformes halladas en Nippur mencionan explícitamente el canal 'Nar Kabari' (Río Grande), confirmando la ubicación exacta donde los exiliados judíos, incluyendo al sacerdote Ezequiel, fueron asentados para realizar trabajos agrícolas."
+    },
+    "narrativa": {
+        "resumen_epico": "A orillas de este canal, lejos de la santidad del Templo de Jerusalén, los cielos se abrieron para Ezequiel. Vio la 'Carroza de la Gloria de Dios' (Merkabah) moviéndose con querubines y ruedas llenas de ojos. El Río Quebar es el testimonio de que la presencia de Dios no está confinada a un edificio o a una tierra, sino que sigue a Su pueblo incluso al centro de un imperio pagano. Aquí, el profeta fue llamado a ser el 'atalaya' de Israel en el exilio.",
+        "dato_curioso": "Ezequiel estuvo sentado en silencio y asombro durante siete días entre los exiliados de Tel-abib antes de comenzar su ministerio público.",
+        "conexion_jesus": "La visión de la gloria de Dios en el Quebar prefigura la revelación de Cristo. Los cuatro seres vivientes han sido interpretados históricamente como los cuatro aspectos de Jesús reflejados en los Evangelios (León, Buey, Hombre y Águila). Jesús es la 'Gloria de Jehová' que habitó entre nosotros.",
+        "imagen_de_apoyo": "/img/lugares/lamento-exiliados.webp"
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa el asombro ante la majestad divina en medio de la depresión del exilio. Transmite la idea de que Dios es móvil y soberano sobre toda la tierra.",
+        "simbologia": [
+            {
+                "objeto": "Las Ruedas dentro de Ruedas",
+                "significado": "Simbolizan la providencia de Dios; Su capacidad de actuar en todas las direcciones y en todos los niveles de la historia simultáneamente."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Dios puede encontrarte en tu lugar de 'cautiverio' o trabajo ordinario tanto como en una catedral. Tu ubicación geográfica nunca es una barrera para Su revelación.",
+        "preguntas_reflexion": [
+            "¿Estás limitando la presencia de Dios a ciertos lugares o momentos 'sagrados'?",
+            "¿Eres capaz de ver la gloria de Dios incluso cuando te sientes 'exiliado' de tus sueños o comodidades?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Exilio",
+            "evento": "Ezequiel es llevado cautivo a Babilonia y asentado junto al río Quebar.",
+            "referencia": "Ezequiel 1:1-2"
+        },
+        {
+            "fase": "La Visión",
+            "evento": "Los cielos se abren y Ezequiel recibe la visión de la gloria de Dios.",
+            "referencia": "Ezequiel 1:4-28"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["babilonia", "jerusalen-muros"],
+        "personajes_relacionados": ["ezequiel"],
+        "estudios": ["la-omnipresencia-de-dios", "el-llamado-del-atalaya"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "visionario-del-exilio"
+    }
+},
+  {
+    "id": "llanura-dura",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-02-21"
+    },
+    "mapa": {
+        "coords": [32.485, 44.432],
+        "zoom": 12,
+        "icono_mapa": "/img/ui/markers/milagro.svg",
+        "marcador_color": "#f1c40f"
+    },
+    "perfil": {
+        "nombre": "Llanura de Dura",
+        "titulo_corto": "El Horno de la Fidelidad",
+        "significado_nombre": "Dura: Muralla o Lugar Cercado",
+        "ubicacion_geografica": "Provincia de Babilonia, probablemente al sureste de la capital.",
+        "clima_entorno": "Vasta llanura abierta, ideal para concentraciones masivas, caracterizada por el calor intenso y el viento del desierto.",
+        "imagen_principal": "/img/lugares/llanura-dura.webp",
+        "galeria": [
+            "/img/lugares/estatua-oro.webp",
+            "/img/lugares/horno-siete-veces.webp",            
+            "/img/lugares/cuarto-hombre-fuego.webp"           
+
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": ["Daniel"],
+        "era_biblica": "Imperio Babilónico (Reinado de Nabucodonosor)"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "Montículo de Duair",
+        "descripcion": "Cerca de las ruinas de Babilonia existe un montículo llamado 'Duair' donde se halló una gran base cuadrangular de ladrillo que podría haber sostenido una estructura colosal, coherente con las dimensiones de la estatua de 30 metros descrita en el Códice."
+    },
+    "narrativa": {
+        "resumen_epico": "Nabucodonosor erigió una estatua de oro masiva y ordenó que, al sonar la música, todos se postraran. En esta llanura, tres jóvenes hebreos —Sadrac, Mesac y Abed-nego— desafiaron al imperio. No se arrodillaron ante el oro, prefiriendo el fuego. Arrojados a un horno calentado siete veces más de lo normal, el rey no vio a tres hombres morir, sino a cuatro caminando ilesos en medio de las llamas. La Llanura de Dura es el testimonio eterno de que Dios no siempre evita el fuego, pero siempre camina con Sus hijos dentro de él.",
+        "dato_curioso": "La estatua medía 60 codos de alto por 6 de ancho, una proporción que sugiere una figura estilizada o un obelisco recubierto de láminas de oro para ser visto desde kilómetros.",
+        "conexion_jesus": "El 'cuarto hombre' en el horno, con aspecto de 'hijo de los dioses', es una Cristofanía (aparición de Cristo antes de su encarnación). Jesús es el Emanuel que baja al fuego de nuestra aflicción para librarnos de la muerte y romper nuestras ataduras mientras las llamas no nos tocan.",
+        "imagen_de_apoyo": "/img/lugares/cuarto-hombre-fuego.webp"
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Representa la valentía civil, la paz sobrenatural y el asombro. Transmite la idea de que la verdadera libertad se encuentra en la obediencia exclusiva a Dios.",
+        "simbologia": [
+            {
+                "objeto": "La Estatua de Oro",
+                "significado": "Representa el orgullo humano y el intento de los sistemas políticos de ocupar el lugar de Dios."
+            },
+            {
+                "objeto": "El Horno",
+                "significado": "Símbolo de la prueba de fuego que purifica la fe y consume las ataduras, pero no al creyente."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu 'no' a los ídolos del mundo es un 'sí' a la compañía de Dios en tus momentos más difíciles. Dios es fiel aunque el horno esté ardiendo.",
+        "preguntas_reflexion": [
+            "¿Ante qué 'estatuas' de éxito, dinero o aprobación social te estás sintiendo presionado a postrarte?",
+            "¿Confías en que Dios caminará contigo si decides ser fiel a Sus principios cueste lo que cueste?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "El Edicto",
+            "evento": "Nabucodonosor convoca a los gobernantes a la llanura de Dura.",
+            "referencia": "Daniel 3:1-7"
+        },
+        {
+            "fase": "La Liberación",
+            "evento": "Los tres jóvenes son salvados del fuego por el cuarto hombre.",
+            "referencia": "Daniel 3:24-27",
+            "vinculo_id": "cuarto-hombre"
+        }
+    ],
+    "vinculos": {
+        "lugares_relacionados": ["babilonia", "susa-palacio"],
+        "personajes_relacionados": ["nabucodonosor", "sadrac-mesac-abednego", "jesus"],
+        "estudios": ["fidelidad-bajo-presion", "cristofanias-en-el-at"]
+    },
+    "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "prueba-de-fuego"
+    }
+}
+]

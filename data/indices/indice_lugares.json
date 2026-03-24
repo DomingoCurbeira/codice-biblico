@@ -1,0 +1,1315 @@
+[
+  {
+    "id": "acueducto-acaz",
+    "nombre": "Acueducto del Estanque Superior",
+    "titulo": "El Camino del Lavador",
+    "archivo": "profetas_mayores.json",
+    "coords": [
+      31.772,
+      35.232
+    ],
+    "era": "Invasión Sirio-Efraimita / Reinado de Acaz",
+    "testamento": "Antiguo Testamento",
+    "tags": "acueducto acaz, acueducto del estanque superior, isaías, 2 reyes"
+  },
+  {
+    "id": "antioquia-mision",
+    "nombre": "Antioquía de Siria",
+    "titulo": "La Cuna del Nombre Cristiano",
+    "archivo": "hechos.json",
+    "coords": [
+      36.2021,
+      36.1605
+    ],
+    "era": "Expansión de la Iglesia (Aprox. 40-50 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "antioquia mision, antioquía de siria, hechos, gálatas"
+  },
+  {
+    "id": "babilonia",
+    "nombre": "Babilonia",
+    "titulo": "El Crisol del Exilio",
+    "archivo": "historicos.json",
+    "coords": [
+      32.5364,
+      44.4208
+    ],
+    "era": "El Exilio Babilónico",
+    "testamento": "Antiguo Testamento",
+    "tags": "babilonia, 2 reyes, daniel, jeremías, apocalipsis"
+  },
+  {
+    "id": "belen-rut",
+    "nombre": "Belén",
+    "titulo": "Los Campos de la Gracia",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7049,
+      35.2038
+    ],
+    "era": "Periodo de los Jueces / Origen de la Dinastía Davídica",
+    "testamento": "Antiguo Testamento",
+    "tags": "belen rut, belén, rut, miqueas, mateo"
+  },
+  {
+    "id": "belen-nacimiento",
+    "nombre": "Belén (Efrata)",
+    "titulo": "La Cuna del Mesías",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7049,
+      35.2038
+    ],
+    "era": "Nacimiento de Jesús (aprox. 4 a.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "belen nacimiento, belén (efrata), mateo, lucas, miqueas"
+  },
+  {
+    "id": "betel-amos",
+    "nombre": "Bet-el",
+    "titulo": "El Santuario de la Confrontación",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      31.93,
+      35.221
+    ],
+    "era": "Reinado de Jeroboam II (Siglo VIII a.C.)",
+    "testamento": "Antiguo Testamento",
+    "tags": "betel amos, bet-el, amós, 1 reyes, génesis"
+  },
+  {
+    "id": "betania-lazaro",
+    "nombre": "Betania",
+    "titulo": "El Refugio del Maestro",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7711,
+      35.2602
+    ],
+    "era": "Ministerio de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "betania lazaro, betania, mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "betel",
+    "nombre": "Betel",
+    "titulo": "La Puerta del Cielo",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.93,
+      35.22
+    ],
+    "era": "Época Patriarcal / Reino Dividido",
+    "testamento": "Antiguo Testamento",
+    "tags": "betel, génesis, jueces, 1 reyes, amós"
+  },
+  {
+    "id": "betsaida",
+    "nombre": "Betsaida",
+    "titulo": "La Orilla de los Milagros",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.905,
+      35.625
+    ],
+    "era": "Ministerio de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "betsaida, mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "cades-barnea",
+    "nombre": "Cades-barnea",
+    "titulo": "El Umbral del Gigante",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.648,
+      34.421
+    ],
+    "era": "Peregrinación en el desierto (Año 2 y Año 40)",
+    "testamento": "Antiguo Testamento",
+    "tags": "cades barnea, cades-barnea, números, deuteronomio, josué"
+  },
+  {
+    "id": "camino-damasco",
+    "nombre": "Camino a Damasco",
+    "titulo": "El Encuentro Radical",
+    "archivo": "hechos.json",
+    "coords": [
+      33.5138,
+      36.2965
+    ],
+    "era": "Inicios de la Iglesia (Conversión de Pablo)",
+    "testamento": "Nuevo Testamento",
+    "tags": "camino damasco, camino a damasco, hechos, gálatas"
+  },
+  {
+    "id": "camino-de-edom",
+    "nombre": "Camino de Edom (Punón)",
+    "titulo": "El Madero de la Sanidad",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.2,
+      35.4
+    ],
+    "era": "Final de la Peregrinación (Año 40)",
+    "testamento": "Antiguo Testamento",
+    "tags": "camino de edom, camino de edom (punón), números, juan, 2 reyes"
+  },
+  {
+    "id": "campos-de-moab",
+    "nombre": "Campos de Moab (Sitim)",
+    "titulo": "La Última Frontera",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.8,
+      35.7
+    ],
+    "era": "Fin de la Peregrinación / Vísperas de la Conquista",
+    "testamento": "Antiguo Testamento",
+    "tags": "campos de moab, campos de moab (sitim), números, josué, miqueas"
+  },
+  {
+    "id": "capernaum-base",
+    "nombre": "Capernaum (Cafarnaúm)",
+    "titulo": "La Ciudad del Mesías",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.8805,
+      35.5753
+    ],
+    "era": "Ministerio de Jesús (27-30 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "capernaum base, capernaum (cafarnaúm), mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "carcel-filipos",
+    "nombre": "Cárcel de Filipos",
+    "titulo": "El Terremoto de la Libertad",
+    "archivo": "hechos.json",
+    "coords": [
+      41.0131,
+      24.2861
+    ],
+    "era": "Segundo Viaje Misionero (Aprox. 50 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "carcel filipos, cárcel de filipos, hechos, filipenses"
+  },
+  {
+    "id": "cesarea-filipo",
+    "nombre": "Cesarea de Filipo",
+    "titulo": "La Declaración del Reino",
+    "archivo": "evangelios.json",
+    "coords": [
+      33.2483,
+      35.6942
+    ],
+    "era": "Ministerio de Jesús (Retiro al Norte)",
+    "testamento": "Nuevo Testamento",
+    "tags": "cesarea filipo, cesarea de filipo, mateo, marcos"
+  },
+  {
+    "id": "cueva-adulam",
+    "nombre": "Cueva de Adulam",
+    "titulo": "El Refugio de los Quebrantados",
+    "archivo": "historicos.json",
+    "coords": [
+      31.6517,
+      34.9514
+    ],
+    "era": "El Ascenso de David (Periodo como fugitivo)",
+    "testamento": "Antiguo Testamento",
+    "tags": "cueva adulam, cueva de adulam, 1 samuel, 2 samuel, 1 crónicas, salmos"
+  },
+  {
+    "id": "cumbres-norte",
+    "nombre": "Cumbres del Norte (Hermón y Líbano)",
+    "titulo": "La Majestad de las Alturas",
+    "archivo": "poeticos.json",
+    "coords": [
+      33.4111,
+      35.8583
+    ],
+    "era": "Atemporal / Gloria de la Creación",
+    "testamento": "Antiguo Testamento",
+    "tags": "cumbres norte, cumbres del norte (hermón y líbano), salmos, cantares, oseas"
+  },
+  {
+    "id": "desierto-de-sin",
+    "nombre": "Desierto de Sin",
+    "titulo": "El Campo del Maná",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.8,
+      33.3
+    ],
+    "era": "El Éxodo (La marcha hacia el Sinaí)",
+    "testamento": "Antiguo Testamento",
+    "tags": "desierto de sin, éxodo, números"
+  },
+  {
+    "id": "dotan",
+    "nombre": "Dotán",
+    "titulo": "El Valle de la Conspiración",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.41,
+      35.24
+    ],
+    "era": "Época Patriarcal (Historia de José)",
+    "testamento": "Antiguo Testamento",
+    "tags": "dotan, dotán, génesis, 2 reyes"
+  },
+  {
+    "id": "efeso-teatro",
+    "nombre": "Éfeso (El Gran Teatro)",
+    "titulo": "Evangelio vs Diana",
+    "archivo": "hechos.json",
+    "coords": [
+      37.9412,
+      27.3419
+    ],
+    "era": "Tercer Viaje Misionero (Aprox. 53-56 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "efeso teatro, éfeso (el gran teatro), hechos, efesios, apocalipsis"
+  },
+  {
+    "id": "egipto-plagas",
+    "nombre": "Egipto (Las Plagas)",
+    "titulo": "El Juicio a los Dioses",
+    "archivo": "pentateuco.json",
+    "coords": [
+      29.9792,
+      31.1342
+    ],
+    "era": "El Éxodo (Liberación de la esclavitud)",
+    "testamento": "Antiguo Testamento",
+    "tags": "egipto plagas, egipto (las plagas), éxodo, salmos"
+  },
+  {
+    "id": "egipto-jose",
+    "nombre": "Egipto (Tierra de Gosén)",
+    "titulo": "Del Pozo al Palacio",
+    "archivo": "pentateuco.json",
+    "coords": [
+      29.9792,
+      31.1342
+    ],
+    "era": "Época Patriarcal / Era de los Hicsos",
+    "testamento": "Antiguo Testamento",
+    "tags": "egipto jose, egipto (tierra de gosén), génesis, éxodo"
+  },
+  {
+    "id": "aposento-alto",
+    "nombre": "El Aposento Alto (Cenáculo)",
+    "titulo": "La Cuna de la Iglesia",
+    "archivo": "hechos.json",
+    "coords": [
+      31.7721,
+      35.2294
+    ],
+    "era": "Nacimiento de la Iglesia (33 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "aposento alto, el aposento alto (cenáculo), lucas, hechos"
+  },
+  {
+    "id": "areopago-atenas",
+    "nombre": "El Areópago (Colina de Marte)",
+    "titulo": "Al Dios No Conocido",
+    "archivo": "hechos.json",
+    "coords": [
+      37.9722,
+      23.7236
+    ],
+    "era": "Segundo Viaje Misionero (Aprox. 51 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "areopago atenas, el areópago (colina de marte), hechos"
+  },
+  {
+    "id": "campamento-israel",
+    "nombre": "El Campamento de Israel",
+    "titulo": "Orden en el Desierto",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.545,
+      33.98
+    ],
+    "era": "Peregrinación en el desierto",
+    "testamento": "Antiguo Testamento",
+    "tags": "campamento israel, el campamento de israel, levítico, números"
+  },
+  {
+    "id": "desierto-azazel",
+    "nombre": "El Desierto (Lugar de Azazel)",
+    "titulo": "El Olvido del Pecado",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.51,
+      33.92
+    ],
+    "era": "Día de la Expiación (Yom Kippur)",
+    "testamento": "Antiguo Testamento",
+    "tags": "desierto azazel, el desierto (lugar de azazel), levítico"
+  },
+  {
+    "id": "lagar-ofra",
+    "nombre": "El Lagar de Ofra",
+    "titulo": "El Escondite de la Identidad Secuestrada",
+    "archivo": "historicos.json",
+    "coords": [
+      32.3025,
+      35.2144
+    ],
+    "era": "Periodo de los Jueces (Opresión Madianita)",
+    "testamento": "Antiguo Testamento",
+    "tags": "lagar ofra, el lagar de ofra, jueces"
+  },
+  {
+    "id": "el-tabernaculo",
+    "nombre": "El Tabernáculo",
+    "titulo": "La Morada de la Gloria",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.55,
+      34
+    ],
+    "era": "El Éxodo / Peregrinación en el desierto",
+    "testamento": "Antiguo Testamento",
+    "tags": "el tabernaculo, el tabernáculo, éxodo, levítico, hebreos"
+  },
+  {
+    "id": "templo-salomon",
+    "nombre": "El Templo de Salomón (Primer Templo)",
+    "titulo": "La Gloria del Reino",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7781,
+      35.2353
+    ],
+    "era": "Era Monárquica (Edad de Oro de Israel)",
+    "testamento": "Antiguo Testamento",
+    "tags": "templo salomon, el templo de salomón (primer templo), 1 reyes, 2 crónicas, salmos, ezequiel"
+  },
+  {
+    "id": "elim",
+    "nombre": "Elim",
+    "titulo": "El Oasis de las Doce Fuentes",
+    "archivo": "pentateuco.json",
+    "coords": [
+      29.1,
+      33.1
+    ],
+    "era": "El Éxodo (Ruta hacia el Sinaí)",
+    "testamento": "Antiguo Testamento",
+    "tags": "elim, éxodo, números"
+  },
+  {
+    "id": "camino-emaus",
+    "nombre": "Emaús",
+    "titulo": "El Corazón que Arde",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.8394,
+      35.0119
+    ],
+    "era": "Apariciones Post-Resurrección",
+    "testamento": "Nuevo Testamento",
+    "tags": "camino emaus, emaús, lucas"
+  },
+  {
+    "id": "en-gadi-poetico",
+    "nombre": "En-gadi",
+    "titulo": "Las Viñas de la Fragancia",
+    "archivo": "poeticos.json",
+    "coords": [
+      31.465,
+      35.39
+    ],
+    "era": "Atemporal / Poesía de Salomón",
+    "testamento": "Antiguo Testamento",
+    "tags": "en gadi poetico, en-gadi, cantares, 1 samuel, ezequiel"
+  },
+  {
+    "id": "encinar-mamre",
+    "nombre": "Encinar de Mamre",
+    "titulo": "El Lugar de la Visitación",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.55,
+      35.1
+    ],
+    "era": "Época Patriarcal",
+    "testamento": "Antiguo Testamento",
+    "tags": "encinar mamre, encinar de mamre, génesis"
+  },
+  {
+    "id": "estadio-istmia",
+    "nombre": "Estadio de Istmia (Corinto)",
+    "titulo": "La Meta Incorruptible",
+    "archivo": "hechos.json",
+    "coords": [
+      37.9135,
+      22.9908
+    ],
+    "era": "Ministerio de Pablo en Corinto (Aprox. 51-52 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "estadio istmia, estadio de istmia (corinto), 1 corintios, 2 timoteo"
+  },
+  {
+    "id": "estanque-betesda",
+    "nombre": "Estanque de Betesda",
+    "titulo": "El Lugar de la Misericordia",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7812,
+      35.2363
+    ],
+    "era": "Ministerio de Jesús en Jerusalén",
+    "testamento": "Nuevo Testamento",
+    "tags": "estanque betesda, estanque de betesda, juan"
+  },
+  {
+    "id": "estanque-siloe",
+    "nombre": "Estanque de Siloé",
+    "titulo": "Las Aguas del Enviado",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7705,
+      35.2348
+    ],
+    "era": "Ministerio de Jesús (y Monarquía Tardía)",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "estanque siloe, estanque de siloé, juan, isaías, nehemías"
+  },
+  {
+    "id": "estanques-salomon",
+    "nombre": "Estanques de Salomón",
+    "titulo": "Las Obras del Predicador",
+    "archivo": "poeticos.json",
+    "coords": [
+      31.6894,
+      35.1664
+    ],
+    "era": "Reinado de Salomón",
+    "testamento": "Antiguo Testamento",
+    "tags": "estanques salomon, estanques de salomón, eclesiastés, cantares"
+  },
+  {
+    "id": "gilgal",
+    "nombre": "Gilgal",
+    "titulo": "El Círculo de Piedras",
+    "archivo": "historicos.json",
+    "coords": [
+      31.8667,
+      35.4833
+    ],
+    "era": "La Conquista de Canaán",
+    "testamento": "Antiguo Testamento",
+    "tags": "gilgal, josué, 1 samuel"
+  },
+  {
+    "id": "golgota-sepulcro",
+    "nombre": "Gólgota / Santo Sepulcro",
+    "titulo": "La Victoria sobre la Muerte",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7785,
+      35.2297
+    ],
+    "era": "Pasión y Resurrección (33 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "golgota sepulcro, gólgota / santo sepulcro, mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "haran",
+    "nombre": "Harán",
+    "titulo": "La Estación de la Espera",
+    "archivo": "pentateuco.json",
+    "coords": [
+      36.87,
+      39.03
+    ],
+    "era": "Época Patriarcal",
+    "testamento": "Antiguo Testamento",
+    "tags": "haran, harán, génesis, hechos"
+  },
+  {
+    "id": "hebron",
+    "nombre": "Hebrón (Quiriat-arba)",
+    "titulo": "La Ciudad de la Alianza y las Promesas",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.5326,
+      35.0998
+    ],
+    "era": "Era Patriarcal / Conquista de Canaán / Monarquía Unida",
+    "testamento": "Antiguo Testamento",
+    "tags": "hebron, hebrón (quiriat-arba), génesis, números, josué, jueces, 2 samuel"
+  },
+  {
+    "id": "malta-naufragio",
+    "nombre": "Isla de Malta (Bahía de San Pablo)",
+    "titulo": "Providencia en la Tormenta",
+    "archivo": "hechos.json",
+    "coords": [
+      35.9483,
+      14.3986
+    ],
+    "era": "Viaje de Pablo a Roma (Aprox. 60 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "malta naufragio, isla de malta (bahía de san pablo), hechos"
+  },
+  {
+    "id": "patmos-revelacion",
+    "nombre": "Isla de Patmos",
+    "titulo": "La Ventana a la Eternidad",
+    "archivo": "hechos.json",
+    "coords": [
+      37.315,
+      26.545
+    ],
+    "era": "Final del Siglo I (Aprox. 95 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "patmos revelacion, isla de patmos, apocalipsis"
+  },
+  {
+    "id": "jardin-eden",
+    "nombre": "Jardín del Edén",
+    "titulo": "La Cuna de la Humanidad",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32,
+      47
+    ],
+    "era": "Creación / Pre-Diluviana",
+    "testamento": "Antiguo Testamento",
+    "tags": "jardin eden, jardín del edén, génesis"
+  },
+  {
+    "id": "jerico",
+    "nombre": "Jericó",
+    "titulo": "La Ciudad de las Palmeras",
+    "archivo": "historicos.json",
+    "coords": [
+      31.87,
+      35.44
+    ],
+    "era": "La Conquista de Canaán",
+    "testamento": "Antiguo Testamento",
+    "tags": "jerico, jericó, josué, 2 reyes, lucas, hebreos"
+  },
+  {
+    "id": "jerusalen-sion",
+    "nombre": "Jerusalén (Ciudad de David)",
+    "titulo": "La Capital del Gran Rey",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7733,
+      35.2351
+    ],
+    "era": "Establecimiento de la Monarquía Unificada",
+    "testamento": "Antiguo Testamento",
+    "tags": "jerusalen sion, jerusalén (ciudad de david), 2 samuel, 1 crónicas, salmos"
+  },
+  {
+    "id": "jerusalen-ministerio",
+    "nombre": "Jerusalén (Ministerio de Jesús)",
+    "titulo": "La Ciudad del Gran Rey",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7767,
+      35.2345
+    ],
+    "era": "Ministerio de Jesús y Era Apostólica",
+    "testamento": "Nuevo Testamento",
+    "tags": "jerusalen ministerio, jerusalén (ministerio de jesús), mateo, marcos, lucas, juan, hechos"
+  },
+  {
+    "id": "kibrot-hataava",
+    "nombre": "Kibrot-hataava",
+    "titulo": "Los Sepulcros de la Codicia",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.9,
+      34.2
+    ],
+    "era": "Peregrinación en el desierto (Año 2)",
+    "testamento": "Antiguo Testamento",
+    "tags": "kibrot hataava, kibrot-hataava, números, salmos"
+  },
+  {
+    "id": "casa-alfarero",
+    "nombre": "La Casa del Alfarero",
+    "titulo": "El Barro en Sus Manos",
+    "archivo": "profetas_mayores.json",
+    "coords": [
+      31.768,
+      35.228
+    ],
+    "era": "Vísperas del Exilio Babilónico",
+    "testamento": "Antiguo Testamento",
+    "tags": "casa alfarero, la casa del alfarero, jeremías"
+  },
+  {
+    "id": "era-arauna",
+    "nombre": "La Era de Arauna (Monte Moriah)",
+    "titulo": "El Altar de la Misericordia",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7781,
+      35.2353
+    ],
+    "era": "Final del Reinado de David / Preparación para el Templo",
+    "testamento": "Antiguo Testamento",
+    "tags": "era arauna, la era de arauna (monte moriah), 2 samuel, 1 crónicas, 2 crónicas"
+  },
+  {
+    "id": "nueva-jerusalen",
+    "nombre": "La Nueva Jerusalén",
+    "titulo": "La Ciudad de la Promesa Eterna",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7774,
+      35.2343
+    ],
+    "era": "La Eternidad / Consumación de los Tiempos",
+    "testamento": "Nuevo Testamento",
+    "tags": "nueva jerusalen, la nueva jerusalén, apocalipsis, hebreos, gálatas, juan"
+  },
+  {
+    "id": "torre-vigia-habacuc",
+    "nombre": "La Torre de Vigía",
+    "titulo": "El Lugar de la Respuesta Divina",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      31.7766,
+      35.2276
+    ],
+    "era": "Inminencia de la invasión Caldea (Siglo VII a.C.)",
+    "testamento": "Antiguo Testamento",
+    "tags": "torre vigia habacuc, la torre de vigía, habacuc"
+  },
+  {
+    "id": "lago-genesaret",
+    "nombre": "Lago de Genesaret",
+    "titulo": "El Escenario de los Milagros",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.8227,
+      35.5898
+    ],
+    "era": "Ministerio de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "lago genesaret, lago de genesaret, mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "llanura-dura",
+    "nombre": "Llanura de Dura",
+    "titulo": "El Horno de la Fidelidad",
+    "archivo": "profetas_mayores.json",
+    "coords": [
+      32.485,
+      44.432
+    ],
+    "era": "Imperio Babilónico (Reinado de Nabucodonosor)",
+    "testamento": "Antiguo Testamento",
+    "tags": "llanura dura, llanura de dura, daniel"
+  },
+  {
+    "id": "llanura-sinar",
+    "nombre": "Llanura de Sinar",
+    "titulo": "La Cuna de la Rebelión",
+    "archivo": "historicos.json",
+    "coords": [
+      32.5364,
+      44.4208
+    ],
+    "era": "Era Post-Diluviana y Exilio Babilónico",
+    "testamento": "Antiguo Testamento",
+    "tags": "llanura sinar, llanura de sinar, génesis, isaías, daniel, zacarías"
+  },
+  {
+    "id": "jerusalen-muros",
+    "nombre": "Los Muros de Jerusalén",
+    "titulo": "La Muralla de la Fe",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7767,
+      35.2345
+    ],
+    "era": "Post-exilio (Reconstrucción)",
+    "testamento": "Antiguo Testamento",
+    "tags": "jerusalen muros, los muros de jerusalén, nehemías, esdras, salmos"
+  },
+  {
+    "id": "manantial-harod",
+    "nombre": "Manantial de Harod",
+    "titulo": "El Filtro de Dios",
+    "archivo": "historicos.json",
+    "coords": [
+      32.5483,
+      35.355
+    ],
+    "era": "Periodo de los Jueces (Gedeón)",
+    "testamento": "Antiguo Testamento",
+    "tags": "manantial harod, manantial de harod, jueces, 2 samuel"
+  },
+  {
+    "id": "mar-rojo",
+    "nombre": "Mar Rojo (Yam Suph)",
+    "titulo": "El Camino en las Aguas",
+    "archivo": "pentateuco.json",
+    "coords": [
+      29.5,
+      32.5
+    ],
+    "era": "El Éxodo (La Gran Liberación)",
+    "testamento": "Antiguo Testamento",
+    "tags": "mar rojo, mar rojo (yam suph), éxodo, salmos, hebreos"
+  },
+  {
+    "id": "marah",
+    "nombre": "Mara",
+    "titulo": "De la Amargura a la Dulzura",
+    "archivo": "pentateuco.json",
+    "coords": [
+      29.2,
+      33
+    ],
+    "era": "El Éxodo (Primeras etapas en el desierto)",
+    "testamento": "Antiguo Testamento",
+    "tags": "marah, mara, éxodo, números"
+  },
+  {
+    "id": "montanas-ararat",
+    "nombre": "Montañas de Ararat",
+    "titulo": "El Resurgir de la Vida",
+    "archivo": "pentateuco.json",
+    "coords": [
+      39.7025,
+      44.2991
+    ],
+    "era": "Era Post-Diluviana",
+    "testamento": "Antiguo Testamento",
+    "tags": "montanas ararat, montañas de ararat, génesis"
+  },
+  {
+    "id": "monte-carmelo",
+    "nombre": "Monte Carmelo",
+    "titulo": "El Altar del Fuego",
+    "archivo": "historicos.json",
+    "coords": [
+      32.6736,
+      35.0908
+    ],
+    "era": "Reino Dividido (Ministerio de Elías)",
+    "testamento": "Antiguo Testamento",
+    "tags": "monte carmelo, 1 reyes, 2 reyes, isaías, cantares"
+  },
+  {
+    "id": "monte-bienaventuranzas",
+    "nombre": "Monte de las Bienaventuranzas",
+    "titulo": "El Púlpito de la Gracia",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.8805,
+      35.5501
+    ],
+    "era": "Ministerio de Jesús (Sermón del Monte)",
+    "testamento": "Nuevo Testamento",
+    "tags": "monte bienaventuranzas, monte de las bienaventuranzas, mateo, lucas"
+  },
+  {
+    "id": "monte-de-los-olivos",
+    "nombre": "Monte de los Olivos",
+    "titulo": "El Mirador de la Agonía y la Gloria",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7781,
+      35.2422
+    ],
+    "era": "Monarquía Unida, Profetas y Ministerio/Pasión de Jesús",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "monte de los olivos, 2 samuel, zacarías, mateo, marcos, lucas, juan, hechos"
+  },
+  {
+    "id": "monte-olivos-zacarias",
+    "nombre": "Monte de los Olivos",
+    "titulo": "La Cumbre de la Promesa",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      31.7781,
+      35.2411
+    ],
+    "era": "Profética y Vida de Jesús",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "monte olivos zacarias, monte de los olivos, zacarías, ezequiel, evangelios, hechos"
+  },
+  {
+    "id": "monte-horeb",
+    "nombre": "Monte Horeb",
+    "titulo": "El Monte de Dios",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.57,
+      33.94
+    ],
+    "era": "El Éxodo / Ministerio de Moisés",
+    "testamento": "Antiguo Testamento",
+    "tags": "monte horeb, éxodo, 1 reyes, deuteronomio"
+  },
+  {
+    "id": "monte-moriah",
+    "nombre": "Monte Moriah",
+    "titulo": "El Monte de la Provisión",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.778,
+      35.2354
+    ],
+    "era": "Época Patriarcal / Era Monárquica",
+    "testamento": "Antiguo Testamento",
+    "tags": "monte moriah, génesis, 2 crónicas"
+  },
+  {
+    "id": "monte-nebo",
+    "nombre": "Monte Nebo (Cumbre de Pisga)",
+    "titulo": "La Visión del Legado",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.7683,
+      35.7258
+    ],
+    "era": "Muerte de Moisés / Vísperas de la Conquista",
+    "testamento": "Antiguo Testamento",
+    "tags": "monte nebo, monte nebo (cumbre de pisga), deuteronomio, números"
+  },
+  {
+    "id": "monte-sinai",
+    "nombre": "Monte Sinaí",
+    "titulo": "La Cumbre del Pacto",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.5397,
+      33.975
+    ],
+    "era": "La Entrega de la Ley (Constitución de Israel)",
+    "testamento": "Antiguo Testamento",
+    "tags": "monte sinai, monte sinaí, éxodo, levítico, gálatas"
+  },
+  {
+    "id": "monte-tabor",
+    "nombre": "Monte Tabor",
+    "titulo": "La Cumbre de la Estrategia Divina",
+    "archivo": "historicos.json",
+    "coords": [
+      32.6866,
+      35.3908
+    ],
+    "era": "Periodo de los Jueces / Vida de Jesús",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "monte tabor, jueces, salmos, mateo"
+  },
+  {
+    "id": "monte-transfiguracion",
+    "nombre": "Monte Tabor / Hermón",
+    "titulo": "La Revelación de la Gloria",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.6869,
+      35.3922
+    ],
+    "era": "Ministerio de Jesús (Hacia Jerusalén)",
+    "testamento": "Nuevo Testamento",
+    "tags": "monte transfiguracion, monte tabor / hermón, mateo, marcos, lucas"
+  },
+  {
+    "id": "nazaret-hogar",
+    "nombre": "Nazaret",
+    "titulo": "La Aldea del Crecimiento",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.7019,
+      35.3033
+    ],
+    "era": "Infancia y Juventud de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "nazaret hogar, nazaret, mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "ninive-ciudad",
+    "nombre": "Nínive",
+    "titulo": "La Metrópolis del Arrepentimiento",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      36.3586,
+      43.1511
+    ],
+    "era": "Apogeo del Imperio Asirio",
+    "testamento": "Antiguo Testamento",
+    "tags": "ninive ciudad, nínive, jonás, nahum, sofonías, mateo"
+  },
+  {
+    "id": "peniel",
+    "nombre": "Peniel",
+    "titulo": "El Rostro de Dios",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.18,
+      35.56
+    ],
+    "era": "Época Patriarcal (Regreso de Jacob)",
+    "testamento": "Antiguo Testamento",
+    "tags": "peniel, génesis, jueces, oseas"
+  },
+  {
+    "id": "piton-y-ramses",
+    "nombre": "Pitón y Ramsés",
+    "titulo": "Las Ciudades de la Aflicción",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.79,
+      31.97
+    ],
+    "era": "Era de la Esclavitud / El Éxodo",
+    "testamento": "Antiguo Testamento",
+    "tags": "piton y ramses, pitón y ramsés, éxodo, números"
+  },
+  {
+    "id": "pozo-jacob",
+    "nombre": "Pozo de Jacob",
+    "titulo": "El Encuentro en Sicar",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.2094,
+      35.2852
+    ],
+    "era": "Patriarcal y Ministerio de Jesús",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "pozo jacob, pozo de jacob, génesis, juan"
+  },
+  {
+    "id": "puerta-del-atrio",
+    "nombre": "Puerta del Atrio",
+    "titulo": "El Umbral de la Santidad",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.5501,
+      34.0005
+    ],
+    "era": "No definida",
+    "testamento": "",
+    "tags": "puerta del atrio"
+  },
+  {
+    "id": "quiriat-jearim",
+    "nombre": "Quiriat-jearim",
+    "titulo": "El Resguardo del Arca",
+    "archivo": "historicos.json",
+    "coords": [
+      31.8105,
+      35.1011
+    ],
+    "era": "Periodo de los Jueces y Monarquía Unida",
+    "testamento": "Antiguo Testamento",
+    "tags": "quiriat jearim, quiriat-jearim, 1 samuel, 2 samuel, 1 crónicas"
+  },
+  {
+    "id": "refidim",
+    "nombre": "Refidim",
+    "titulo": "La Peña de Horeb",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.71,
+      33.65
+    ],
+    "era": "El Éxodo (Previo al Sinaí)",
+    "testamento": "Antiguo Testamento",
+    "tags": "refidim, éxodo, números"
+  },
+  {
+    "id": "galacia",
+    "nombre": "Región de Galacia",
+    "titulo": "El Campo de Batalla de la Gracia",
+    "archivo": "hechos.json",
+    "coords": [
+      39,
+      32.5
+    ],
+    "era": "Era Apostólica / Expansión de la Iglesia",
+    "testamento": "Nuevo Testamento",
+    "tags": "galacia, región de galacia, hechos, gálatas, 1 corintios, 2 timoteo, 1 pedro"
+  },
+  {
+    "id": "rio-jordan-bautismo",
+    "nombre": "Río Jordán (Betania de Transjordania)",
+    "titulo": "El Escenario de la Confirmación",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.8388,
+      35.5452
+    ],
+    "era": "Inicio del Ministerio (27 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "rio jordan bautismo, río jordán (betania de transjordania), mateo, marcos, lucas, juan"
+  },
+  {
+    "id": "rio-nilo",
+    "nombre": "Río Nilo",
+    "titulo": "Las Aguas de Vida y Juicio",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.0444,
+      31.2357
+    ],
+    "era": "Era de la Esclavitud / Plagas de Egipto",
+    "testamento": "Antiguo Testamento",
+    "tags": "rio nilo, río nilo, génesis, éxodo"
+  },
+  {
+    "id": "rio-quebar",
+    "nombre": "Río Quebar",
+    "titulo": "El Canal de la Gloria",
+    "archivo": "profetas_mayores.json",
+    "coords": [
+      32.321,
+      45.123
+    ],
+    "era": "El Exilio (Ministerio de Ezequiel)",
+    "testamento": "Antiguo Testamento",
+    "tags": "rio quebar, río quebar, ezequiel"
+  },
+  {
+    "id": "roma-prision",
+    "nombre": "Roma (La Casa alquilada)",
+    "titulo": "Sin Impedimento",
+    "archivo": "hechos.json",
+    "coords": [
+      41.8902,
+      12.4922
+    ],
+    "era": "Final de Hechos (Aprox. 60-62 d.C.)",
+    "testamento": "Nuevo Testamento",
+    "tags": "roma prision, roma (la casa alquilada), hechos, romanos, 2 timoteo"
+  },
+  {
+    "id": "sela-petra",
+    "nombre": "Sela (Petra)",
+    "titulo": "La Fortaleza de Roca",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      30.3285,
+      35.4444
+    ],
+    "era": "Juicio a Edom (Post-caída de Jerusalén)",
+    "testamento": "Antiguo Testamento",
+    "tags": "sela petra, sela (petra), abdías, 2 reyes, isaías"
+  },
+  {
+    "id": "silo",
+    "nombre": "Silo",
+    "titulo": "El Centro de Adoración",
+    "archivo": "historicos.json",
+    "coords": [
+      32.0556,
+      35.2897
+    ],
+    "era": "Conquista y Periodo de los Jueces",
+    "testamento": "Antiguo Testamento",
+    "tags": "silo, josué, jueces, 1 samuel, salmos"
+  },
+  {
+    "id": "siquem",
+    "nombre": "Siquem",
+    "titulo": "El Valle de la Promesa",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.2133,
+      35.2856
+    ],
+    "era": "Época Patriarcal / Conquista",
+    "testamento": "Antiguo Testamento",
+    "tags": "siquem, génesis, josué, jueces, juan"
+  },
+  {
+    "id": "sodoma-gomorra",
+    "nombre": "Sodoma y Gomorra",
+    "titulo": "El Juicio de las Ciudades de la Llanura",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.1,
+      35.5
+    ],
+    "era": "Época de los Patriarcas (Abraham y Lot)",
+    "testamento": "Antiguo Testamento",
+    "tags": "sodoma gomorra, sodoma y gomorra, génesis, deuteronomio, isaías, judas"
+  },
+  {
+    "id": "sulam-origen",
+    "nombre": "Sulam (Sunem)",
+    "titulo": "La Belleza del Campo",
+    "archivo": "poeticos.json",
+    "coords": [
+      32.605,
+      35.332
+    ],
+    "era": "Época de la Monarquía",
+    "testamento": "Antiguo Testamento",
+    "tags": "sulam origen, sulam (sunem), cantares, 2 reyes, josué"
+  },
+  {
+    "id": "susa-palacio",
+    "nombre": "Susa (La Ciudadela)",
+    "titulo": "El Trono de la Providencia",
+    "archivo": "historicos.json",
+    "coords": [
+      32.189,
+      48.258
+    ],
+    "era": "Periodo Persa (Post-exilio)",
+    "testamento": "Antiguo Testamento",
+    "tags": "susa palacio, susa (la ciudadela), ester, nehemías, daniel"
+  },
+  {
+    "id": "tecoa-amos",
+    "nombre": "Tecoa",
+    "titulo": "El Origen del Profeta Pastor",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      31.6361,
+      35.2131
+    ],
+    "era": "Reinado de Uzías (Judá) y Jeroboam II (Israel)",
+    "testamento": "Antiguo Testamento",
+    "tags": "tecoa amos, tecoa, amós, 2 samuel, 2 crónicas"
+  },
+  {
+    "id": "templo-jerusalen",
+    "nombre": "Templo de Jerusalén",
+    "titulo": "El Corazón de la Adoración a Yahveh",
+    "archivo": "historicos.json",
+    "coords": [
+      31.778,
+      35.2354
+    ],
+    "era": "Monarquía Unida, Reino Dividido, Retorno del Exilio y Ministerio de Jesús",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "templo jerusalen, templo de jerusalén, 1 reyes, 2 crónicas, esdras, mateo, marcos, lucas, juan, hechos"
+  },
+  {
+    "id": "tierra-uz",
+    "nombre": "Tierra de Uz",
+    "titulo": "El Escenario de la Prueba",
+    "archivo": "poeticos.json",
+    "coords": [
+      30.5852,
+      35.9234
+    ],
+    "era": "Era Patriarcal (Contemporáneo a Abraham)",
+    "testamento": "Antiguo Testamento",
+    "tags": "tierra uz, tierra de uz, job, lamentaciones"
+  },
+  {
+    "id": "torre-babel",
+    "nombre": "Torre de Babel",
+    "titulo": "El Monumento al Orgullo",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.5364,
+      44.4208
+    ],
+    "era": "Era Post-Diluviana (Descendientes de Noé)",
+    "testamento": "Antiguo Testamento",
+    "tags": "torre babel, torre de babel, génesis"
+  },
+  {
+    "id": "ur-caldeos",
+    "nombre": "Ur de los Caldeos",
+    "titulo": "La Metrópolis del Llamado",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.9629,
+      46.1031
+    ],
+    "era": "Época Patriarcal",
+    "testamento": "Antiguo Testamento",
+    "tags": "ur caldeos, ur de los caldeos, génesis, nehemías, hechos"
+  },
+  {
+    "id": "valle-ajalon",
+    "nombre": "Valle de Ajalón",
+    "titulo": "El Milagro Cósmico",
+    "archivo": "historicos.json",
+    "coords": [
+      31.84,
+      35.02
+    ],
+    "era": "La Conquista de Canaán (Campaña del Sur)",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle ajalon, valle de ajalón, josué, 1 crónicas"
+  },
+  {
+    "id": "valle-ela",
+    "nombre": "Valle de Ela",
+    "titulo": "El Desafío de la Fe",
+    "archivo": "historicos.json",
+    "coords": [
+      31.6883,
+      34.9247
+    ],
+    "era": "Inicios de la Monarquía (Reinado de Saúl)",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle ela, valle de ela, 1 samuel, 2 samuel"
+  },
+  {
+    "id": "valle-jezreel",
+    "nombre": "Valle de Jezreel",
+    "titulo": "El Valle de la Decisión Final",
+    "archivo": "historicos.json",
+    "coords": [
+      32.6101,
+      35.3204
+    ],
+    "era": "Conquista, Jueces, Monarquía Dividida, Escatología del Nuevo Testamento",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "valle jezreel, valle de jezreel, josué, jueces, 1 samuel, 1 reyes, 2 reyes, oseas, apocalipsis"
+  },
+  {
+    "id": "valle-josafat",
+    "nombre": "Valle de Josafat (Cedrón)",
+    "titulo": "El Escenario del Juicio Final",
+    "archivo": "profetas_menores.json",
+    "coords": [
+      31.7772,
+      35.2392
+    ],
+    "era": "Profética / Escatológica",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle josafat, valle de josafat (cedrón), joel, zacarías, 2 crónicas, juan"
+  },
+  {
+    "id": "valle-sombra-muerte",
+    "nombre": "Valle de Sombra de Muerte",
+    "titulo": "El Paso del Pastor",
+    "archivo": "poeticos.json",
+    "coords": [
+      31.775,
+      35.35
+    ],
+    "era": "Atemporal / Poesía Davídica",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle sombra muerte, valle de sombra de muerte, salmos, job, isaías"
+  },
+  {
+    "id": "valle-becerro-oro",
+    "nombre": "Valle del Becerro de Oro",
+    "titulo": "La Ruptura del Pacto",
+    "archivo": "pentateuco.json",
+    "coords": [
+      28.53,
+      33.97
+    ],
+    "era": "La Entrega de la Ley",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle becerro oro, valle del becerro de oro, éxodo, salmos, hechos"
+  }
+]

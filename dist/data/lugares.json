@@ -1,0 +1,87 @@
+[
+    {
+        "id": "lago-genesaret",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-02-18"
+        },
+        "mapa": {
+            "coords": [32.8227, 35.5898],
+            "zoom": 13,
+            "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#3498db"
+        },
+        "perfil": {
+            "nombre": "Lago de Genesaret",
+            "titulo_corto": "El Escenario de los Milagros",
+            "significado_nombre": "Jardín de Riquezas o Arpa (por su forma)",
+            "ubicacion_geografica": "Región de Galilea, Norte de Israel",
+            "clima_entorno": "Microclima tropical, propenso a vientos repentinos del norte.",
+            "imagen_principal": "/img/lugares/lago-genesaret.webp",
+            "galeria": [
+            "/img/lugares/lago-amanecer.webp",
+            "/img/lugares/barca-arqueologia.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": ["Mateo", "Marcos", "Lucas", "Juan"],
+            "era_biblica": "Ministerio de Jesús"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Barca de Galilea (Siglo I)",
+            "descripcion": "Un navío de pesca real descubierto en el fango en 1986, que confirma las técnicas de construcción descritas en los Evangelios."
+        },
+        "narrativa": {
+            "resumen_epico": "Conocido también como el Mar de Galilea, este cuerpo de agua dulce no es solo un accidente geográfico, sino el púlpito natural más grande donde Jesús impartió sus enseñanzas. Sus aguas fueron testigos de lo imposible: hombres caminando sobre el mar, tormentas que enmudecen ante una orden y redes vacías que estallan de provisión sobrenatural.",
+            "dato_curioso": "Se encuentra a unos 210 metros bajo el nivel del mar, lo que lo convierte en el lago de agua dulce más bajo de la Tierra.",
+            "conexion_jesus": "Fue el centro neurálgico del ministerio de Cristo, donde llamó a sus primeros discípulos y realizó la mayoría de sus milagros de autoridad sobre la naturaleza."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Representa el entorno cotidiano del creyente que es interrumpido por lo divino. Para los discípulos, el lago era su zona de confort y trabajo, pero Jesús lo transformó en un campo de entrenamiento para la fe.",
+            "fortalezas": ["Recurso vital de vida", "Punto de encuentro de naciones", "Fuente de provisión"],
+            "debilidades": ["Vulnerable a tormentas repentinas", "Lugar de riesgo físico sin guía"],
+            "simbologia": [
+            {
+                "objeto": "La Barca",
+                "significado": "Representa la Iglesia o la vida del creyente donde Jesús decide sentarse para enseñar."
+            },
+            {
+                "objeto": "La Red Llena",
+                "significado": "Símbolo de la abundancia que viene exclusivamente de la obediencia a la Palabra."
+            }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios utiliza tu lugar de trabajo y tus herramientas cotidianas para manifestar Su gloria.",
+            "preguntas_reflexion": [
+            "¿Has permitido que Jesús suba a tu 'barca' (trabajo o familia) para dirigir tus proyectos?",
+            "¿Estás dispuesto a 'bogar mar adentro' aunque te sientas cansado?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+            "fase": "El Llamado",
+            "evento": "Jesús llama a Pedro, Andrés, Jacobo y Juan mientras trabajaban en la orilla.",
+            "referencia": "Mateo 4:18-22",
+            "vinculo_id": "pedro"
+            },
+            {
+            "fase": "Poder sobre el Caos",
+            "evento": "Jesús calma la tempestad reprendiendo al viento y al mar.",
+            "referencia": "Marcos 4:35-41",
+            "vinculo_id": "jesus"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["capernaum", "tabgha", "tiberias"],
+            "personajes_relacionados": ["pedro", "juan-apostol", "jesus"],
+            "estudios": ["pesca-milagrosa", "caminando-sobre-las-aguas"]
+        },
+        "gamificacion": {
+            "xp_lectura": 150,
+            "logro_id": "explorador-de-galilea"
+        }
+    }
+]
