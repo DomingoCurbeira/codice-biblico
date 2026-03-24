@@ -1277,5 +1277,123 @@
         "xp_lectura": 250,
         "logro_id": "aguas-de-obediencia"
         }
-    }
+    },
+    {
+        "id": "betsaida",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-03-24"
+        },
+        "mapa": {
+            "coords": [
+            32.905,
+            35.625
+            ],
+            "zoom": 15,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#27ae60"
+        },
+        "perfil": {
+            "nombre": "Betsaida",
+            "titulo_corto": "La Orilla de los Milagros",
+            "significado_nombre": "Casa de Pesca o Casa del Pescador (Arameo)",
+            "ubicacion_geografica": "Costa noreste del Mar de Galilea, cerca de la desembocadura del río Jordán en el lago.",
+            "clima_entorno": "Un entorno costero fértil y estratégico, caracterizado por brisas lacustres, puertos de madera rústica y una vibrante actividad pesquera artesanal.",
+            "imagen_principal": "../img/lugares/betsaida.webp",
+            "galeria": [
+            "../img/lugares/barcas-galilea.webp",
+            "../img/lugares/llanura-multiplicacion.webp",
+            "../img/lugares/ruinas-casa-pedro.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": [
+            "Mateo",
+            "Marcos",
+            "Lucas",
+            "Juan"
+            ],
+            "era_biblica": "Ministerio de Jesús"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Basílica de los Apóstoles en El-Araj (2019)",
+            "descripcion": "Excavaciones recientes han descubierto una basílica bizantina construida sobre lo que la tradición identifica como la casa de los apóstoles Pedro y Andrés, resolviendo debates siglos de antigüedad sobre la ubicación real de la ciudad."
+        },
+        "narrativa": {
+            "resumen_epico": "Betsaida no fue solo un puerto; fue el aula a cielo abierto donde el Maestro transformó a humildes pescadores en pilares de la fe. En sus llanuras, la lógica de la escasez fue aplastada cuando cinco panes alimentaron a miles, y en sus orillas, la fe de hombres como Pedro y Andrés comenzó a forjarse entre redes y tormentas. Es el lugar donde lo ordinario del trabajo diario se cruzó con la gloria extraordinaria de la provisión divina.",
+            "dato_curioso": "A pesar de ser la cuna de tres de los apóstoles más cercanos a Jesús, fue una de las tres ciudades que Él reprendió severamente con un '¡Ay de ti!' debido a que, tras presenciar milagros asombrosos, sus habitantes no se arrepintieron.",
+            "conexion_jesus": "Representa el lugar del llamado y la capacitación. Jesús elige un entorno de esfuerzo físico y cotidiano para demostrar que Su Reino no se edifica con títulos, sino con corazones dispuestos a dejar las redes por Su Palabra.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Evoca una mezcla de laboriosidad, asombro y, trágicamente, una familiaridad que puede llevar a la indiferencia. Es el escenario de la transición del sustento humano al sustento espiritual.",
+            "simbologia": [
+            {
+                "objeto": "La Red de Pesca",
+                "significado": "Simboliza la misión evangelizadora de reunir a la humanidad bajo la Gracia."
+            },
+            {
+                "objeto": "El Pan de Cebada",
+                "significado": "Representa la humildad de los recursos humanos que, puestos en manos de Dios, se vuelven infinitos."
+            }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios no necesita grandes infraestructuras para hacer grandes milagros; solo necesita que alguien entregue su 'almuerzo' y esté dispuesto a caminar fuera de la barca.",
+            "preguntas_reflexion": [
+            "¿Has permitido que la familiaridad con las cosas de Dios te haga indiferente a Sus milagros cotidianos?",
+            "¿Qué redes de seguridad estás reteniendo que te impiden seguir plenamente el llamado del Maestro?",
+            "¿Confías en que tu 'Casa de Pesca' (tu trabajo y hogar) puede ser el escenario del próximo milagro de Dios?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+            "fase": "La Cuna de Apóstoles",
+            "evento": "Llamado inicial de Pedro, Andrés y Felipe, quienes eran originarios de esta ciudad.",
+            "referencia": "Juan 1:44"
+            },
+            {
+            "fase": "El Banquete en el Desierto",
+            "evento": "Alimentación de los cinco mil en las llanuras pertenecientes a Betsaida.",
+            "referencia": "Lucas 9:10-17"
+            },
+            {
+            "fase": "La Vista Progresiva",
+            "evento": "Sanidad del ciego de Betsaida a quien Jesús toca dos veces para restaurar su visión.",
+            "referencia": "Marcos 8:22-26"
+            },
+            {
+            "fase": "El Juicio de la Incredulidad",
+            "evento": "Jesús pronuncia juicio sobre la ciudad por su falta de arrepentimiento ante los milagros vistos.",
+            "referencia": "Mateo 11:21"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+            "lago-genesaret",
+            "capernaum-base",
+            "cesarea-filipo",
+            "monte-bienaventuranzas",
+            "rio-jordan-bautismo"
+            ],
+            "personajes_relacionados": [
+            "pedro",
+            "andres",
+            "felipe-apostol",
+            "el-joven-de-los-panes",
+            "jesus"
+            ],
+            "estudios": [
+            "multiplicacion-sobrenatural",
+            "pescadores-de-hombres",
+            "la-paradoja-de-la-provision"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "orillas-de-provision"
+        }
+        }
 ]

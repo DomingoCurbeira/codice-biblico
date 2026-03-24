@@ -104,6 +104,19 @@
     "tags": "betel, génesis, jueces, 1 reyes, amós"
   },
   {
+    "id": "betsaida",
+    "nombre": "Betsaida",
+    "titulo": "La Orilla de los Milagros",
+    "archivo": "evangelios.json",
+    "coords": [
+      32.905,
+      35.625
+    ],
+    "era": "Ministerio de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "betsaida, mateo, marcos, lucas, juan"
+  },
+  {
     "id": "cades-barnea",
     "nombre": "Cades-barnea",
     "titulo": "El Umbral del Gigante",

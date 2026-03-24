@@ -1,12 +1,39 @@
-# Dependencias (pesan mucho y no se suben)
+# Dependencias de Node
 node_modules/
 
-# Basura y Archivos temporales
-basura.js
-obsoletos.html
+# Carpetas y archivos de respaldo manual
 copia/
-buckup.js
-.DS_Store
-
-# Carpeta de salida (Si dejas que Netlify construya el sitio)
+descargas/
 dist/
+backup.js
+basura.js
+
+# Scripts de desarrollo y migraciones (si los metes en una carpeta, descomenta la siguiente línea)
+# scripts-dev/
+migrar_lugares.js
+listar.js
+migracion.js
+ver_estructura.js
+preparar_grupos.js
+analizar_mana.js
+listar_libros.js
+migrar_mana.js
+webp.js
+reorganizar_personajes.js
+comparar.js
+netlify.js
+
+# Archivos de auditoría y generadores internos
+auditoria.html
+auditoriaLugares.html
+generadorLugares.html
+indice_personajes.html
+aditor_personajes-mapas.html
+visor_directo.html
+auditorCronos.html
+obsoletos.html
+generadorPdf.html
+
+# Archivos ocultos del sistema operativo (Mac/Windows)
+.DS_Store
+Thumbs.db

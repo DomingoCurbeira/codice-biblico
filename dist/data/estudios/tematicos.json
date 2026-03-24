@@ -2223,6 +2223,267 @@
           }
         ]
       }
+    },
+    {
+      "id": "principios-activan-milagros",
+      "activo": false,
+      "fecha_programada": "2026-03-27",
+      "tipo": "tematico",
+      "titulo": "El Código de lo Imposible",
+      "subtitulo": "5 principios espirituales que mueven la mano de Dios a tu favor",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "22 min",
+      "imagen_portada": "../img/estudios/activando-milagros.webp",
+      "tags": [
+        "Milagros",
+        "Fe",
+        "Obediencia",
+        "Gratitud",
+        "Perseverancia"
+      ],
+      "versiculo_clave": {
+        "texto": "Pero sin fe es imposible agradar a Dios; porque es necesario que el que se acerca a Dios crea que le hay, y que es galardonador de los que le buscan.",
+        "cita": "Hebreos 11:6"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Un milagro no es simplemente un evento afortunado; es la intervención sobrenatural de Dios en la esfera de lo humano. Es aquello que anhelas profundamente pero que tus manos no pueden alcanzar. Un milagro comienza donde terminan tus recursos. Sin embargo, los milagros no ocurren en el vacío; responden a principios espirituales que, al ser activados, provocan que el Cielo responda a la tierra."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Principio de la Fe Activa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La fe no es un sentimiento pasivo, es una fuerza que se mueve. La mujer con flujo de sangre no se quedó en su casa esperando un milagro; ella <em>provocó</em> el encuentro. <button class='btn-verse' onclick='abrirModal(\"Marcos 5:28\", \"Porque decía: Si tocare tan solamente su manto, seré salva.\")'>Marcos 5:28</button>. Ella ignoró la multitud, rompió el protocolo religioso y se enfocó exclusivamente en Jesús."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🚀 <strong>Conexión Vital:</strong> Dios siempre respalda a quien se mueve. Tu fe activa rompe barreras y activa el poder que sale del Maestro. Si quieres algo que nunca has tenido, debes moverte como nunca te has movido."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Principio de la Obediencia Radical"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Naamán era un hombre de éxito, pero estaba herido por la lepra. Su milagro estaba a siete zambullidas de distancia, pero su orgullo casi le roba la sanidad. <button class='btn-verse' onclick='abrirModal(\"2 Reyes 5:11-12\", \"Y Naamán se fue enojado... Abana y Farfar, ríos de Damasco, ¿no son mejores que todas las aguas de Israel?\")'>2 Reyes 5:11-12</button>. La obediencia a medias no trae milagros; es la obediencia completa, incluso cuando parece ilógica, la que restaura la carne como la de un niño."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/naaman-jordan.webp",
+          "descripcion": "El momento de la rendición: Naamán descendiendo a las aguas del Jordán, dejando atrás el orgullo para recibir la pureza."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Principio de la Gratitud Anticipada"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Jesús nos enseñó el código más potente frente a la muerte: dar gracias antes de ver el resultado. Ante la tumba de Lázaro, no pidió permiso, dio gracias. <button class='btn-verse' onclick='abrirModal(\"Juan 11:41\", \"Entonces quitaron la piedra... Y Jesús, alzando los ojos a lo alto, dijo: Padre, gracias te doy por haberme oído.\")'>Juan 11:41</button>. La gratitud es la evidencia de que ya hemos creído el veredicto del Cielo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. El Principio de la Perseverancia Inquebrantable"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Hay milagros que requieren insistencia. La parábola de la viuda y el juez injusto nos revela que el clamor persistente 'mueve' la justicia. <button class='btn-verse' onclick='abrirModal(\"Lucas 18:7\", \"¿Y acaso Dios no hará justicia a sus escogidos, que claman a él día y noche?\")'>Lucas 18:7</button>. No te canses de hacer el bien ni de clamar; la cosecha tiene un tiempo asignado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "5. El Principio de la Expectativa y Visión"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En Betesda, el paralítico esperaba el agua, pero Jesús le ofreció Su Palabra. <button class='btn-verse' onclick='abrirModal(\"Juan 5:6\", \"Cuando Jesús lo vio acostado... le dijo: ¿Quieres ser sano?\")'>Juan 5:6</button>. La expectativa debe estar puesta en la Persona, no en el método. Los que esperan en Jehová no solo reciben el milagro, sino que reciben nuevas fuerzas para volar sobre la crisis."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Mi fe se está quedando en palabras o estoy dando pasos concretos de acción hoy?",
+            "¿Hay algún 'río Jordán' (un acto de obediencia sencillo) que estoy despreciando por orgullo?",
+            "¿Soy capaz de agradecer a Dios por mi sanidad o provisión mientras la 'piedra' sigue puesta en la tumba?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Milagro",
+          "origen": "Latín (Miraculum) / Griego (Dynamis)",
+          "significado": "Literalmente 'poder' o 'hecho portentoso'. En la Biblia, los milagros son 'señales' (semeion) que apuntan a la soberanía de Dios y Su deseo de restaurar la creación rota."
+        }
+      ],
+      "desafio_practico": "Elige una de las áreas donde necesitas un milagro. Hoy, en lugar de pedir, dedica 10 minutos exclusivamente a dar gracias como si ya hubiera ocurrido. Luego, identifica una acción pequeña (obra) que demuestre que crees que Dios ya está operando.",
+      "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "activador-de-fe"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "naaman-el-sirio",
+            "nombre": "Naamán el Sirio",
+            "razon": "El ejemplo máximo de cómo la obediencia derrota al orgullo para activar la sanidad."
+          },
+          {
+            "id": "mujer-flujo-sangre",
+            "nombre": "La Mujer del Flujo de Sangre",
+            "razon": "Demuestra cómo una fe que arrebata puede extraer poder de Dios en medio de la multitud."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "estanque-betesda",
+            "nombre": "Estanque de Betesda",
+            "razon": "Escenario donde la expectativa humana se encontró con la autoridad inmediata de Cristo."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "oracion-de-gratitud",
+            "tema": "Gratitud y Milagros",
+            "accion": "Declarar la victoria antes de que la circunstancia cambie, siguiendo el ejemplo de Jesús ante Lázaro."
+          }
+        ]
+      }
+    },
+    {
+      "id": "la-paradoja-de-la-provision",
+      "activo": false,
+      "fecha_programada": "2026-03-30",
+      "tipo": "tematico",
+      "titulo": "La Paradoja de la Provisión",
+      "subtitulo": "Descubriendo la matemática del Reino: Por qué dar es la ruta más corta hacia la abundancia",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Marzo 2026",
+      "tiempo_lectura": "20 min",
+      "imagen_portada": "../img/estudios/la-paradoja-de-la-provision.webp",
+      "tags": [
+        "Generosidad",
+        "Prosperidad",
+        "Economía del Reino",
+        "Mayordomía",
+        "Fe"
+      ],
+      "versiculo_clave": {
+        "texto": "Hay quienes reparten, y les es añadido más; Y hay quienes retienen más de lo que es justo, pero vienen a pobreza. El alma generosa será prosperada; Y el que saciare, él también será saciado.",
+        "cita": "Proverbios 11:24-25"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, el sistema del mundo nos enseña que para tener más, debemos acumular, guardar y retener con puño cerrado. Sin embargo, la Biblia nos presenta una lógica que desafía toda razón humana: <strong>la economía de Dios funciona por soltar, no por acaparar</strong>. Proverbios 11 nos revela que nuestra salud financiera y espiritual no depende de cuánto logramos retener, sino de cuánto nos atrevemos a repartir. En el Reino, lo que guardas para ti es lo único que puedes perder, pero lo que entregas a Dios es lo único que realmente posees."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Misterio del Reparto: Sembrar no es Perder"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El texto comienza con una afirmación contundente: <em>'Hay quienes reparten, y les es añadido más'</em>. A los ojos del mundo, repartir es restar; a los ojos de Dios, repartir es multiplicar. Cuando un agricultor esparce la semilla en la tierra, no está tirando su sustento, está activando una cosecha. <button class='btn-verse' onclick='abrirModal(\"2 Corintios 9:6\", \"Pero esto digo: El que siembra escasamente, también segará escasamente; y el que siembra generosamente, generosamente también segará.\")'>2 Corintios 9:6</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "💰 <strong>Puente al Hoy:</strong> Generosidad no es dar lo que te sobra, es repartir lo que Dios te ha confiado como semilla. Si tu mano está siempre cerrada para proteger lo que tienes, también estará cerrada para recibir lo que Dios quiere añadirte."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Trampa de la Retención Injusta"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La segunda parte del verso es una advertencia solemne: <em>'Hay quienes retienen más de lo que es justo, pero vienen a pobreza'</em>. Existe una retención que Dios llama 'injusta'. Es el miedo a la escasez convertido en idolatría. Cuando retenemos lo que Dios nos pidió entregar (ya sea un diezmo, una ofrenda o una ayuda al necesitado), ese dinero se 'oxida' en nuestras manos. La tacañería no es ahorro, es un imán para la escasez espiritual."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/puño-cerrado-vs-mano-abierta.webp",
+          "descripcion": "El contraste visual entre el puño que asfixia la moneda y termina en escasez, frente a la mano extendida que permite el flujo de la bendición divina."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Diseño del Alma Generosa"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<em>'El alma generosa será prosperada'</em>. Nota que la Biblia no dice 'el bolsillo generoso', sino el <strong>alma</strong>. La generosidad es un estado del corazón antes de ser un movimiento de la cuenta bancaria. Un alma generosa es aquella que ha sido libre del espíritu de Mamón (el amor al dinero) y ha entendido que Dios es su Fuente inagotable. <button class='btn-verse' onclick='abrirModal(\"1 Timoteo 6:18-19\", \"Que hagan bien, que sean ricos en buenas obras, dadivosos, generosos... para que echen mano de la vida eterna.\")'>1 Timoteo 6:18-19</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "4. El Ciclo del Saciador"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "<em>'Y el que saciare, él también será saciado'</em>. Este es el principio de reciprocidad del Reino. Dios utiliza canales, no depósitos. Si te conviertes en un canal a través del cual Dios puede bendecir a otros, Dios se encargará de que el canal nunca esté seco. Tu capacidad de saciar la necesidad ajena determina la velocidad con la que Dios saciará la tuya."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Revelación Clave:</strong> No esperes a tener mucho para ser generoso. La viuda de Sarepta sació al profeta con su último bocado de pan, y como resultado, su vasija nunca escaseó. Tu milagro de provisión está escondido en tu acto de generosidad hoy."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Estoy reteniendo 'más de lo que es justo' por miedo al futuro, olvidando que mi Padre es el dueño del oro y la plata?",
+            "¿Veo mis recursos como un depósito privado o como un canal de bendición para saciar a otros?",
+            "¿Cuándo fue la última vez que hice un acto de generosidad que requirió fe y no solo cálculo matemático?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Generosa (Alma)",
+          "origen": "Hebreo (Bĕrakah)",
+          "significado": "Literalmente significa 'alma de bendición'. Describe a una persona que no solo da cosas, sino que ella misma se convierte en una fuente de bendición y paz para los demás."
+        },
+        {
+          "palabra": "Saciare",
+          "origen": "Hebreo (Ravah)",
+          "significado": "Significa 'empapar', 'embriagar' o 'dar de beber abundantemente'. Sugiere una generosidad que no es escasa, sino desbordante."
+        }
+      ],
+      "desafio_practico": "Esta semana, identifica a alguien en tu entorno que tenga una necesidad (financiera, de tiempo o de aliento). Rompe la lógica de la retención y bendícele 'repartiendo' de lo que tienes, aunque sientas que es poco. Hazlo como un acto de adoración, declarando que Dios es tu Proveedor.",
+      "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "corazon-de-siervo"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "viuda-de-sarepta",
+            "nombre": "La Viuda de Sarepta",
+            "razon": "Ella repartió su última harina y aceite, y como resultado, fue saciada durante toda la sequía."
+          },
+          {
+            "id": "el-joven-de-los-panes",
+            "nombre": "El Joven de los Panes y Peces",
+            "razon": "Entregó lo poco que tenía para saciar a una multitud, y le fue añadido mucho más de lo que entregó."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "betsaida",
+            "nombre": "Betsaida",
+            "razon": "Lugar donde la generosidad de un niño activó la multiplicación más grande registrada en el Nuevo Testamento."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "libertad-de-mamon",
+            "tema": "Generosidad y Confianza",
+            "accion": "Orar renunciando al espíritu de tacañería y pidiendo un corazón que confíe plenamente en la provisión del Padre."
+          }
+        ]
+      }
     }
 
     

@@ -6572,5 +6572,240 @@
         "xp_lectura": 350,
         "logro_id": "testigo-valiente"
       }
+    },
+    {
+      "id": "naaman-el-sirio",
+      "perfil": {
+        "nombre": "Naamán el Sirio",
+        "titulo_corto": "El General Sanado",
+        "significado_nombre": "\"Agradable\" o \"Delicioso\" (del hebreo Na’aman).",
+        "ocupacion": "General en jefe del ejército del Rey de Siria.",
+        "familia": {
+          "esposa": "Mencionada como la señora de la muchacha israelita cautiva."
+        },
+        "imagen": "/img/perfiles/naaman-el-sirio.webp",
+        "icono_mapa": "/img/ui/markers/rey.svg"
+      },
+      "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": [
+          "2 Reyes",
+          "Lucas"
+        ],
+        "era_biblica": "Monarquía Dividida / Ministerio de Eliseo"
+      },
+      "narrativa": {
+        "resumen_epico": "Naamán era la personificación del éxito terrenal: un estratega brillante, favorito del rey de Siria y héroe nacional. Sin embargo, su armadura de hierro ocultaba una realidad devastadora: ***era leproso***. Su gloria externa se desmoronaba ante una enfermedad que lo condenaba al aislamiento. La sugerencia de una joven esclava israelita lo llevó a las puertas de Eliseo, donde su **orgullo** fue confrontado más que su enfermedad. Naamán no necesitaba un ritual ostentoso, sino una ***rendición total***. Al sumergirse siete veces en las aguas turbias del Jordán, no solo dejó atrás su lepra, sino también el ídolo de su propia soberbia, emergiendo con una piel renovada y un corazón convertido al único Dios verdadero.",
+        "dato_curioso": "A pesar de ser un comandante extranjero de una nación pagana enemiga de Israel, la Biblia declara que Dios le dio la victoria a Siria a través de él. Fue un instrumento divino incluso antes de conocer a Jehová.",
+        "conexion_jesus": "Jesús cita a Naamán en Lucas 4:27 para confrontar el exclusivismo religioso, demostrando que la ***Gracia de Dios*** siempre ha buscado a las naciones. Naamán prefigura la purificación que Cristo ofrece a todos los 'leprosos espirituales' del mundo a través del paso por las aguas de la obediencia.",
+        "analisis_profundo": {
+          "perfil_emocional": "Naamán posee una psicología de mando; está acostumbrado a que su voluntad sea ley. Su lucha interna es el choque entre su *estatus social* y su *vulnerabilidad física*. Experimenta una ira profunda cuando el profeta Eliseo no lo recibe personalmente, sintiéndose insultado en su dignidad. Sin embargo, muestra una notable apertura al ser capaz de escuchar el razonamiento de sus criados, permitiendo que la lógica de la fe sustituya a su indignación herida.",
+          "fortalezas": [
+            "Valentía probada en el campo de batalla",
+            "Capacidad de escuchar consejos sabios de sus subordinados",
+            "Gratitud profunda y generosidad tras recibir su milagro"
+          ],
+          "debilidades": [
+            "Orgullo nacional y personal excesivo",
+            "Temperamento explosivo ante la falta de reconocimiento",
+            "Prejuicio cultural sobre los métodos de Dios"
+          ],
+          "simbologia": [
+            {
+              "objeto": "El Río Jordán",
+              "significado": "Representa el lugar de la humillación necesaria; aguas comunes que se vuelven extraordinarias por la Palabra."
+            },
+            {
+              "objeto": "Siete inmersiones",
+              "significado": "Simboliza la perfección de la obediencia y el proceso de purificación completa del alma y el cuerpo."
+            },
+            {
+              "objeto": "Dos cargas de tierra",
+              "significado": "El deseo de Naamán de llevarse tierra de Israel simboliza su reconocimiento de que Jehová es el único Dios soberano de toda la tierra."
+            }
+          ]
+        }
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "La obediencia completa, incluso en lo que parece pequeño o humillante, es la llave que activa los milagros que el orgullo bloquea.",
+        "preguntas_reflexion": [
+          "¿Hay algún 'Río Jordán' en tu vida que estás despreciando porque esperabas que Dios actuara de forma más espectacular?",
+          "¿Estás dispuesto a escuchar la voz de Dios a través de personas sencillas o subordinadas, tal como hizo Naamán?",
+          "¿Qué parte de tu 'armadura' de orgullo necesitas quitarte hoy para que la Gracia de Dios pueda sanar lo que hay debajo?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La Gloria y la Peste",
+          "evento": "Naamán goza de fama militar en Damasco, pero padece lepra en secreto bajo su uniforme.",
+          "vinculo_mapa": "damasco",
+          "referencia": "2 Reyes 5:1"
+        },
+        {
+          "fase": "La Voz de la Cautiva",
+          "evento": "Una joven esclava israelita le habla de un profeta en Samaria que tiene poder para sanarlo.",
+          "vinculo_mapa": "damasco",
+          "referencia": "2 Reyes 5:2-4"
+        },
+        {
+          "fase": "El Choque de Reinos",
+          "evento": "Llega a Samaria con tesoros y cartas reales, pero Eliseo ni siquiera sale a recibirlo, enviando solo un mensaje.",
+          "vinculo_mapa": "samaria",
+          "referencia": "2 Reyes 5:9-10"
+        },
+        {
+          "fase": "El Quebranto en el Jordán",
+          "evento": "Vence su orgullo y se sumerge siete veces en el río, recuperando una piel limpia como la de un niño.",
+          "vinculo_mapa": "rio-jordan",
+          "referencia": "2 Reyes 5:14"
+        },
+        {
+          "fase": "La Confesión de Fe",
+          "evento": "Regresa ante Eliseo no para comprar el milagro, sino para declarar que no hay Dios en toda la tierra sino en Israel.",
+          "vinculo_mapa": "samaria",
+          "referencia": "2 Reyes 5:15"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "rio-jordan",
+          "damasco",
+          "samaria"
+        ],
+        "estudios": [
+          "la-obediencia-radical",
+          "milagros-y-humildad",
+          "gracia-para-las-naciones"
+        ],
+        "devocionales": [
+          "siete-veces-en-el-jordan",
+          "armaduras-rotas",
+          "la-voz-de-los-pequeños"
+        ],
+        "personajes_relacionados": [
+          "eliseo",
+          "gehazi",
+          "muchacha-israelita",
+          "ben-adad-ii"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 400,
+        "logro_id": "orgullo-derrotado"
+      }
+    },
+    {
+      "id": "el-joven-de-los-panes",
+      "perfil": {
+        "nombre": "El Joven de los Panes y Peces",
+        "titulo_corto": "El Pequeño Gigante de la Multiplicación",
+        "significado_nombre": "Anónimo en las escrituras; su identidad quedó ligada para siempre a su sencilla ofrenda.",
+        "ocupacion": "Asistente anónimo (probablemente un niño ayudando a un pariente o simplemente presente entre la multitud).",
+        "familia": {
+          "padres": "No se menciona a su familia, pero es probable que viajara con parientes o como parte de un grupo mayor."
+        },
+        "imagen": "/img/perfiles/el-joven-de-los-panes.webp",
+        "icono_mapa": "/img/ui/markers/discipulo.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": [
+          "Mateo",
+          "Marcos",
+          "Lucas",
+          "Juan"
+        ],
+        "era_biblica": "Ministerio de Jesús"
+      },
+      "narrativa": {
+        "resumen_epico": "Un joven muchacho, perdido entre la multitud, sostenía un almuerzo humilde: cinco panes de cebada y dos peces pequeños. Mientras los discípulos calculaban la imposibilidad humana, este niño anónimo se convirtió en el catalizador de un milagro cósmico. No ofreció un gran tesoro, sino que entregó su ***todo***. Su sencillo acto de rendición encendió el poder multidimensional de Jesús, alimentando a miles. Su pequeña cesta se transformó en un recipiente infinito, demostrando que en las manos del Salvador, ***nada es demasiado pequeño para ser multiplicado***.",
+        "dato_curioso": "Los panes de cebada eran el pan más simple y barato de la época, típicamente asociado con los más pobres. Él ofreció el almuerzo de un plebeyo, no un banquete real.",
+        "conexion_jesus": "Representa la rendición total y el corazón del discipulado verdadero: ofrecer lo que se tiene, por insignificante que parezca, y confiar en que el Maestro lo multiplicará. Este milagro prefigura la Eucaristía, donde Jesús alimenta a Su pueblo con Su propia provisión divina."
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Comienza como una figura pequeña e inadvertida en una vasta multitud. Al ser abordado por Andrés, probablemente experimentó una mezcla de timidez y disposición. Su transformación de ser un rostro anónimo a ser el origen instrumental de un milagro lo define como un alma de fe sencilla pero absoluta.",
+        "fortalezas": [
+          "Generosidad desinteresada",
+          "Confianza inmediata en la autoridad de los discípulos y Jesús",
+          "Sencillez de corazón"
+        ],
+        "debilidades": [
+          "Vulnerabilidad física y social ante la gran multitud",
+          "Limitación natural para comprender la magnitud de lo que iba a suceder"
+        ],
+        "simbologia": [
+          {
+            "objeto": "Cinco panes de cebada y dos peces",
+            "significado": "Representan la insuficiencia humana que, entregada a Dios, se convierte en provisión infinita."
+          },
+          {
+            "objeto": "La multitud hambrienta",
+            "significado": "Simboliza la profunda necesidad espiritual y física de la humanidad que solo Cristo puede saciar."
+          },
+          {
+            "objeto": "Doce cestas de sobras",
+            "significado": "Representan la sobreabundancia de la Gracia; Dios no solo da lo necesario, sino que siempre da de más."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "No permitas que la pequeñez de tu ofrenda te impida entregarla a Dios. Nunca se trata del tamaño del regalo, sino de las manos que lo sostienen.",
+        "preguntas_reflexion": [
+          "¿Te abstienes de servir o dar porque sientes que lo que tienes para ofrecer es insignificante?",
+          "Ante una necesidad masiva, ¿te enfocas en los cálculos humanos o en la capacidad multiplicadora de Jesús?",
+          "¿Estás dispuesto a entregar tu 'almuerzo completo' hoy, confiando ciegamente en el resultado del Maestro?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La condición originaria",
+          "evento": "Un joven entre miles escucha a Jesús, portando apenas cinco panes de cebada y dos peces.",
+          "vinculo_mapa": "betsaida",
+          "referencia": "Juan 6:1-9"
+        },
+        {
+          "fase": "El acercamiento",
+          "evento": "Andrés identifica al muchacho y presenta su pequeña provisión ante la duda de los demás discípulos.",
+          "vinculo_mapa": "betsaida",
+          "referencia": "Juan 6:8-9"
+        },
+        {
+          "fase": "La entrega y el milagro",
+          "evento": "Entrega su comida; Jesús da gracias y los alimentos comienzan a multiplicarse milagrosamente.",
+          "vinculo_mapa": "betsaida",
+          "referencia": "Juan 6:10-11"
+        },
+        {
+          "fase": "La abundancia y el testimonio",
+          "evento": "Toda la multitud es saciada y se recogen doce cestas llenas, sobrando más de lo que había al inicio.",
+          "vinculo_mapa": "betsaida",
+          "referencia": "Juan 6:12-13"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "betsaida",
+          "lago-genesaret"
+        ],
+        "estudios": [
+          "multiplicacion-sobrenatural",
+          "mayordomia-y-generosidad",
+          "nada-es-demasiado-pequeno"
+        ],
+        "devocionales": [
+          "un-pequeno-almuerzo",
+          "gracia-que-sobra",
+          "el-milagro-en-tus-manos"
+        ],
+        "personajes_relacionados": [
+          "jesus",
+          "andres",
+          "felipe-apostol"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "pequeno-gigante"
+      }
     }
 ]
