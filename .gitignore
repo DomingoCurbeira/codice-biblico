@@ -5,7 +5,7 @@ node_modules/
 copia/
 descargas/
 dist/
-backup.js
+buckup.js
 basura.js
 
 # Scripts de desarrollo y migraciones (si los metes en una carpeta, descomenta la siguiente línea)
@@ -28,6 +28,7 @@ auditoria.html
 auditoriaLugares.html
 generadorLugares.html
 indice_personajes.html
+indice_lugares.html
 aditor_personajes-mapas.html
 visor_directo.html
 auditorCronos.html
