@@ -1,0 +1,2301 @@
+[
+  {
+    "id": 1,
+    "titulo": "Génesis 1-3",
+    "tema": "Propósito y Restauración",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 1,
+      "fin": 3
+    },
+    "testamento": "antiguo",
+    "mensaje": "Te creé con propósito, me importa tu dolor, te busco aunque te escondas y tengo el poder para cubrir tus fallas y restaurar tu vida.",
+    "imagen": "../img/genesis1-3.webp",
+    "fecha": "1 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No eres un producto del azar, eres un diseño mío\" (Génesis 1)",
+        "texto": "En un mundo que a veces te hace sentir insignificante o uno más del montón, Dios te recuerda que fuiste creado con intención.",
+        "mensaje": "Tu vida tiene un propósito específico. No estás aquí por accidente. Tu valor no depende de tu cuenta bancaria o de tus logros, sino de tu origen: fuiste hecho a imagen de Dios. Tienes dignidad y valor intrínseco."
+      },
+      {
+        "titulo": "\"Me importan tus necesidades y tu soledad\" (Génesis 2)",
+        "texto": "Dios vio que \"no era bueno\" que el hombre estuviera solo. Antes de que Adán lo pidiera, Dios ya estaba trabajando en la solución para su soledad.",
+        "mensaje": "Dios no es indiferente a tus vacíos emocionales o a tu necesidad de compañía. Él está atento a lo que te falta (pareja, amigos, propósito) y está trabajando para proveer esa \"ayuda idónea\" o esa comunidad que necesitas para estar completo."
+      },
+      {
+        "titulo": "\"Cuando falles, no corras DE mí, corre HACIA mí\" (Génesis 3)",
+        "texto": "El instinto de Adán y Eva al pecar fue esconderse entre los árboles por miedo y vergüenza. Pero Dios salió a buscarlos preguntando: \"¿Dónde estás tú?\".",
+        "mensaje": "Todos fallamos. Pero el error más grande no es caer, sino alejarse de Dios por culpa. Dios te está diciendo: \"No te escondas. Yo ya sé lo que hiciste y aun así te estoy buscando para restaurarte, no para destruirte\"."
+      },
+      {
+        "titulo": "\"Yo soy quien cubre tu vergüenza\" (Génesis 3)",
+        "texto": "Adán y Eva trataron de cubrirse con hojas de higuera (esfuerzo humano, soluciones temporales). Dios les hizo túnicas de pieles (sacrificio, solución duradera).",
+        "mensaje": "Deja de tratar de arreglar tus errores o tapar tu vergüenza con tus propias fuerzas (\"hojas\"). Deja que Dios te cubra con su gracia y su perdón. Su cobertura es la única que realmente quita el peso de la culpa y te permite empezar de nuevo."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "Génesis 4-6",
+    "tema": "Juicio y Gracia",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 4,
+      "fin": 6
+    },
+    "testamento": "antiguo",
+    "mensaje": "El pecado es progresivo y mortal, pero Dios siempre preserva a aquellos que deciden caminar con Él y ofrece un refugio de gracia en medio del juicio.",
+    "imagen": "../img/genesis4-6.webp",
+    "fecha": "2 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Domina tu reacción antes de que te domine a ti\" (Génesis 4)",
+        "texto": "Dios advirtió a Caín cuando vio que su semblante había decaído por la envidia: 'El pecado está a la puerta acechando... pero tú debes dominarlo'.",
+        "mensaje": "No es pecado sentir enojo o frustración, pero sí lo es dejar que esas emociones controlen tus acciones. Dios te invita a ser honesto con lo que sientes, pero a entregárselo a Él antes de tomar decisiones permanentes basadas en emociones temporales."
+      },
+      {
+        "titulo": "\"Atrévete a caminar diferente al resto\" (Génesis 5-6)",
+        "texto": "Enoc caminó con Dios y desapareció porque Dios se lo llevó. Noé halló gracia en un mundo completamente corrompido.",
+        "mensaje": "A veces sentirás que eres el único tratando de hacer las cosas bien. Dios te dice: 'Tu fidelidad no pasa desapercibida'. No tengas miedo de ser diferente a la cultura que te rodea; caminar conmigo es el viaje más emocionante que puedes emprender."
+      },
+      {
+        "titulo": "\"Yo proveo refugio antes de enviar la lluvia\" (Génesis 6)",
+        "texto": "Antes de que cayera una sola gota de lluvia, Dios le dio a Noé el diseño exacto para salvarse. La gracia (el arca) vino antes que el juicio (el diluvio).",
+        "mensaje": "Si sientes que se avecina una tormenta en tu vida, recuerda que Dios siempre prepara un refugio para sus hijos. Él no te deja a la intemperie; Su gracia es tu arca y lugar seguro."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "Génesis 7-9",
+    "tema": "Protección Divina",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 7,
+      "fin": 9
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios es quien te encierra para protegerte, quien nunca te olvida en la espera, quien merece tu adoración al salir de la prueba y quien te sostiene con gracia porque sabe que, aun siendo 'bueno', sigues siendo humano.",
+    "imagen": "../img/genesis7-9.webp",
+    "fecha": "3 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"A veces soy Yo quien cierra la puerta\" (Génesis 7)",
+        "texto": "La Biblia dice específicamente que, una vez Noé entró, 'Jehová le cerró la puerta'. No fue Noé quien la cerró.",
+        "mensaje": "Cuando una puerta se cierra en tu vida (una oportunidad, una relación), no siempre es el enemigo o mala suerte. A veces soy Yo protegiéndote de lo que viene afuera o preservándote para un nuevo tiempo. Confía en mis cierres tanto como en mis aperturas."
+      },
+      {
+        "titulo": "\"El silencio no significa olvido\" (Génesis 8)",
+        "texto": "Después de días flotando en aguas infinitas, el texto dice: 'Y se acordó Dios de Noé'.",
+        "mensaje": "Estar en un tiempo de espera o silencio no significa que te he abandonado. Estoy contando los días para hacer bajar las aguas. Tu espera tiene un propósito y un final."
+      },
+      {
+        "titulo": "\"Tus tormentas tienen fecha de caducidad\" (Génesis 9)",
+        "texto": "Dios puso el arcoíris en las nubes como señal de pacto de que no volvería a destruir la tierra con agua.",
+        "mensaje": "Después de la tormenta, siempre traigo un nuevo comienzo. El arcoíris es mi recordatorio visual de que mis promesas de vida son más fuertes que cualquier crisis que hayas atravesado."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "Génesis 10-12",
+    "tema": "Fe y Llamado",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 10,
+      "fin": 12
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios desbarata los planes nacidos del orgullo (Babel), pero respalda a quienes se atreven a dejar su zona de confort por fe (Abram). Y aun cuando fallas por miedo, su gracia te cubre.",
+    "imagen": "../img/genesis10-12.webp",
+    "fecha": "4 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No construyas para tu ego, construye para mi Reino\" (Génesis 11)",
+        "texto": "En Babel, los hombres dijeron: 'Hagámonos un nombre'. Dios tuvo que interrumpir sus planes porque nacían del orgullo.",
+        "mensaje": "Cuando tus proyectos se tratan solo de tu fama o seguridad personal, producen confusión. Pero cuando construyes alineado a mi voluntad, Yo soy quien se encarga de engrandecer tu nombre (como prometí a Abraham)."
+      },
+      {
+        "titulo": "\"La bendición requiere movimiento\" (Génesis 12)",
+        "texto": "Dios le dijo a Abram: 'Vete de tu tierra y de tu parentela... y te bendeciré'.",
+        "mensaje": "A veces estás esperando mi bendición, pero Yo estoy esperando tu movimiento. Salir de tu zona de confort, dejar viejas costumbres o alejarte de influencias negativas es el primer paso para activar las promesas que tengo para ti."
+      },
+      {
+        "titulo": "\"Mi fidelidad supera tus miedos\" (Génesis 12)",
+        "texto": "Apenas recibió la promesa, Abram mintió en Egipto por miedo. A pesar de su error, Dios lo protegió y lo sacó de allí con más riquezas.",
+        "mensaje": "Tu fe no tiene que ser perfecta para que Yo cumpla mi propósito. A veces fallarás por miedo, pero mi pacto contigo no depende de tu perfección, sino de mi fidelidad. Yo cubro tus faltas."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "Génesis 13-15",
+    "tema": "Integridad",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 13,
+      "fin": 15
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios quiere que seas un pacificador generoso, un hombre de integridad que no se vende y, sobre todo, alguien que mira al cielo y le cree a Dios a pesar de las circunstancias.",
+    "imagen": "../img/genesis13-15.webp",
+    "fecha": "5 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Ganas más cuando cedes por la paz\" (Génesis 13)",
+        "texto": "Abram dejó que Lot eligiera primero las mejores tierras para evitar pleitos. Dios honró su generosidad dándole toda la tierra después.",
+        "mensaje": "No tienes que pelear ni manipular para obtener lo que es tuyo. Cuando confías en que Yo soy tu proveedor, puedes ser generoso y pacificador. Lo que sueltas por paz, Yo te lo devuelvo multiplicado."
+      },
+      {
+        "titulo": "\"Mira hacia arriba, tu visión es muy corta\" (Génesis 15)",
+        "texto": "Dios sacó a Abram fuera de su tienda y le dijo: 'Mira ahora los cielos, y cuenta las estrellas... así será tu descendencia'.",
+        "mensaje": "A veces te encierras en la 'tienda' de tus problemas y limitaciones. Necesito que salgas y mires al cielo. Mis planes para ti son más grandes de lo que tu mente lógica puede calcular ahora mismo."
+      },
+      {
+        "titulo": "\"Yo camino solo por el pacto\" (Génesis 15)",
+        "texto": "En el ritual del pacto, Dios (como antorcha de fuego) pasó solo entre los animales sacrificados mientras Abram dormía.",
+        "mensaje": "La salvación y las promesas eternas no dependen de tu capacidad de cumplir, sino de la mía. Yo he pagado el precio completo. Puedes descansar (como Abram) sabiendo que Yo sostengo tu futuro."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "Génesis 16-18",
+    "tema": "Paciencia y Esperanza",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 16,
+      "fin": 18
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios te pide paciencia para no cometer errores por prisa, te asegura que Él valora tu esfuerzo aunque te sientas solo, y te desafía a creer que Él puede hacer nacer vida donde parece que ya no hay esperanza.",
+    "imagen": "../img/genesis16-18.webp",
+    "fecha": "6 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No ayudes a Dios con atajos humanos\" (Génesis 16)",
+        "texto": "Sarai y Abram intentaron cumplir la promesa de Dios usando a Agar. Esto solo trajo dolor y conflicto familiar.",
+        "mensaje": "La impaciencia suele ser la madre de los mayores errores. No trates de forzar mis tiempos ni uses métodos 'lógicos' para cumplir promesas espirituales. Esperar en Mí es la ruta más segura, aunque parezca la más lenta."
+      },
+      {
+        "titulo": "\"El Roi: Yo soy el Dios que te ve\" (Génesis 16)",
+        "texto": "Agar, huyendo y sintiéndose usada y despreciada en el desierto, descubre que Dios la estaba mirando y cuidando.",
+        "mensaje": "Puedes sentirte invisible, maltratado o que estás en un desierto por errores propios o ajenos. Pero Yo te veo. Conozco tu dolor y tengo provisión para ti incluso en medio del desierto."
+      },
+      {
+        "titulo": "\"Te llamo por tu futuro, no por tu pasado\" (Génesis 17)",
+        "texto": "Dios le cambió el nombre a Abram (padre enaltecido) por Abraham (padre de multitudes) mucho antes de que naciera Isaac.",
+        "mensaje": "Yo defino tu identidad. No eres lo que dicen tus circunstancias actuales, eres quien Yo digo que serás. Empieza a responder al nombre y al propósito que Yo te he dado, aunque todavía no veas el resultado físico."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "Génesis 19 - 21",
+    "tema": "Miedo y Fidelidad",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 19,
+      "fin": 21
+    },
+    "testamento": "antiguo",
+    "mensaje": "El miedo te lleva a cuevas o a mentiras (Lot y Abraham), pero la fidelidad de Dios trae cumplimiento y risa (Isaac) a pesar de nuestros errores recurrentes.",
+    "imagen": "../img/genesis19-21.webp",
+    "fecha": "7 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"¿Hay algo difícil para Dios?\" (Génesis 18)",
+        "texto": "Sara se rió con incredulidad al escuchar que sería madre en su vejez. Dios respondió con esta pregunta retórica.",
+        "mensaje": "Cuando tu lógica te dice 'ya es tarde' o 'es imposible', Yo te pregunto: ¿Crees que tu problema es más grande que Yo? Déjame sorprenderte transformando tu risa de cinismo en una risa de asombro."
+      },
+      {
+        "titulo": "\"No mires atrás, te quedarás estancado\" (Génesis 19)",
+        "texto": "La mujer de Lot miró atrás hacia Sodoma, añorando su vida pasada, y se convirtió en estatua de sal.",
+        "mensaje": "No puedes avanzar hacia tu nuevo destino si sigues aferrado a lo que dejaste atrás (tus errores, tus viejas glorias o tus pecados). Mira al frente. Lo que tengo por delante es vida; lo que quedó atrás es ceniza."
+      },
+      {
+        "titulo": "\"Dios cumple a su tiempo\" (Génesis 21)",
+        "texto": "Visitó Jehová a Sara, como había dicho, e hizo Jehová con Sara como había hablado. Y Sara concibió.",
+        "mensaje": "Ninguna de mis palabras cae a tierra. Aunque parezca que el tiempo se agota, mi reloj es perfecto. Tu 'Isaac' (tu promesa, tu milagro) llegará en el momento designado para traerte alegría a ti y a los que te rodean."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "Génesis 22 - 24",
+    "tema": "Entrega y Provisión",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 22,
+      "fin": 24
+    },
+    "testamento": "antiguo",
+    "mensaje": "La verdadera fe se prueba cuando estás dispuesto a soltar lo que más amas, confiando en que Dios proveerá (Jehová Jireh) y guiará cada paso de tu futuro.",
+    "imagen": "../img/genesis22-24.webp",
+    "fecha": "8 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Entrégame tu Isaac\" (Génesis 22)",
+        "texto": "Dios pidió a Abraham lo que más amaba, su hijo de la promesa, no para quitárselo, sino para ver si Abraham amaba más al Dador que al regalo.",
+        "mensaje": "A veces te pediré que sueltes 'tu Isaac': ese sueño, esa relación o esa seguridad que amas tanto. No es para hacerte daño, es para asegurarme de que tu confianza está puesta en Mí y no en mis bendiciones. Cuando sueltas, abres las manos para recibir mi provisión."
+      },
+      {
+        "titulo": "\"Jehová Jireh: Dios proveerá\" (Génesis 22)",
+        "texto": "Justo cuando Abraham levantó el cuchillo, Dios proveyó un carnero. Abraham llamó al lugar 'El Señor Proveerá'.",
+        "mensaje": "Mi provisión a menudo llega en el último minuto, en el 'monte del Señor'. No te desesperes si no ves la solución ahora mismo; si estás caminando en obediencia, la provisión ya está esperando en el lugar de tu destino."
+      },
+      {
+        "titulo": "\"Guiado en el camino\" (Génesis 24)",
+        "texto": "El criado de Abraham oró pidiendo guía específica para encontrar esposa para Isaac, y Dios respondió antes de que terminara de hablar.",
+        "mensaje": "Cuando pones mis asuntos en primer lugar y buscas mi dirección en oración, Yo guío tus pasos con precisión. No confíes en tu propia prudencia para las grandes decisiones; pídeme señales y Yo te mostraré el camino claro."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "Génesis 25 - 26",
+    "tema": "Prioridades y Persistencia",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 25,
+      "fin": 26
+    },
+    "testamento": "antiguo",
+    "mensaje": "No cambies tus bendiciones eternas por placeres momentáneos, y aprende a cavar pozos de bendición incluso cuando la envidia o la oposición traten de detenerte.",
+    "imagen": "../img/genesis25-26.webp",
+    "fecha": "9 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No vendas tu futuro por un plato de lentejas\" (Génesis 25)",
+        "texto": "Esaú menospreció su primogenitura (su legado espiritual y futuro) por satisfacer un hambre momentánea con un guiso.",
+        "mensaje": "El enemigo siempre te ofrecerá placer inmediato a cambio de tu propósito eterno. No sacrifiques lo que quieres para toda la vida por lo que quieres ahora mismo. Tu identidad y tu llamado valen más que cualquier satisfacción temporal."
+      },
+      {
+        "titulo": "\"Sembrar en tiempos difíciles\" (Génesis 26)",
+        "texto": "Hubo hambre en la tierra, pero Isaac sembró en aquella tierra ese mismo año y cosechó al ciento por uno.",
+        "mensaje": "No esperes a que las condiciones sean perfectas para obedecerme o para ser generoso. Si siembras en medio de tu desierto o escasez, mi bendición sobrenatural romperá las leyes de la economía humana."
+      },
+      {
+        "titulo": "\"Cava otro pozo\" (Génesis 26)",
+        "texto": "Los filisteos taparon los pozos de Isaac por envidia. En lugar de pelear, Isaac se movió y cavó nuevos pozos hasta encontrar Rehobot (anchura).",
+        "mensaje": "Si te cierran una puerta o te quitan lo que has trabajado, no te amargues peleando. Tienes mi unción para prosperar en otro lugar. Sigue cavando, sigue intentándolo. Yo te daré un lugar de anchura donde nadie podrá detener tu fruto."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "Génesis 27 - 28",
+    "tema": "Gracia en el Desastre",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 27,
+      "fin": 28
+    },
+    "testamento": "antiguo",
+    "mensaje": "Aunque cometas errores o huyas de tus problemas, Dios puede encontrarte en medio de la nada (Betel) para asegurarte que Su presencia sigue contigo.",
+    "imagen": "../img/genesis27-28.webp",
+    "fecha": "10 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"La bendición irrevocable\" (Génesis 27)",
+        "texto": "A pesar del engaño de Jacob y la confusión familiar, la bendición de Dios prevaleció sobre los errores humanos.",
+        "mensaje": "Mis propósitos contigo son más fuertes que tus fallas o los enredos de tu familia. Aunque la situación parezca un desastre, mi mano soberana sigue dirigiendo la historia hacia el destino que tracé para ti."
+      },
+      {
+        "titulo": "\"Ciertamente Jehová está en este lugar\" (Génesis 28)",
+        "texto": "Jacob huía de su engaño, solo y asustado, durmiendo sobre una piedra. Allí Dios le mostró una escalera al cielo y le prometió estar con él.",
+        "mensaje": "Puedes pensar que por tus errores te has alejado de mi presencia, pero Yo estoy más cerca de lo que crees. Puedo convertir tu 'lugar duro' y tu almohada de piedra en una Casa de Dios (Betel). No te he abandonado en tu proceso."
+      },
+      {
+        "titulo": "\"Yo estoy contigo y te guardaré\" (Génesis 28)",
+        "texto": "Dios no reprendió a Jacob en el sueño, sino que le dio una promesa incondicional de protección y retorno.",
+        "mensaje": "Mi gracia no se basa en tu comportamiento perfecto, sino en mi pacto. Aunque tengas un largo camino de aprendizaje por delante, te prometo que no te dejaré hasta que haya hecho todo lo que te he dicho."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "Génesis 29 - 30",
+    "tema": "Valor y Comparación",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 29,
+      "fin": 30
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios ve a los menospreciados y les da fruto. La verdadera bendición no viene de ganar competencias humanas, sino de la gracia divina.",
+    "imagen": "../img/genesis29-30.webp",
+    "fecha": "11 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Cuando Dios vio que Lea era menospreciada\" (Génesis 29)",
+        "texto": "Lea no era la favorita, no era la elegida por su esposo, pero Dios la vio y abrió su matriz, dándole propósito y legado.",
+        "mensaje": "Quizás te sientes la 'segunda opción', no amado o ignorado por las personas importantes en tu vida. Pero Yo te veo. Donde los hombres te menosprecian, Yo derramo mi favor. No necesitas la validación humana para ser fructífero en mi Reino."
+      },
+      {
+        "titulo": "\"El amor que persevera\" (Génesis 29)",
+        "texto": "Jacob sirvió siete años por Raquel, y le parecieron como pocos días porque la amaba.",
+        "mensaje": "El verdadero amor y las grandes recompensas requieren perseverancia. No te canses de hacer el bien ni de trabajar por lo que amas. Cuando tu motivación es el amor, la carga se vuelve ligera y el tiempo de espera tiene sentido."
+      },
+      {
+        "titulo": "\"La trampa de la comparación\" (Génesis 30)",
+        "texto": "Raquel y Lea vivieron una guerra de envidias y competencia por ver quién tenía más hijos, perdiendo la paz en el proceso.",
+        "mensaje": "No mires la vida de los demás para medir tu éxito. La comparación te roba el gozo. He diseñado un camino único para ti. Confía en mis tiempos para tu vida en lugar de envidiar la cosecha ajena."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "Génesis 31 - 32",
+    "tema": "Identidad y Encuentro",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 31,
+      "fin": 32
+    },
+    "testamento": "antiguo",
+    "mensaje": "Llega un momento donde debes dejar de huir, enfrentar tu pasado y pelear con Dios por tu bendición hasta que tu identidad sea transformada.",
+    "imagen": "../img/genesis31-32.webp",
+    "fecha": "12 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Dios es tu defensa\" (Génesis 31)",
+        "texto": "Labán persiguió a Jacob para hacerle daño, pero Dios se le apareció en sueños y le advirtió: 'Guárdate de hablarle a Jacob descomedidamente'.",
+        "mensaje": "Cuando otros te tratan injustamente o cambian tu salario, no necesitas vengarte. Yo soy tu escudo. Yo veo tu aflicción y pongo límites a quienes intentan dañarte. Sal de los lugares de opresión confiando en que Yo cubro tu espalda."
+      },
+      {
+        "titulo": "\"No te dejaré si no me bendices\" (Génesis 32)",
+        "texto": "Jacob luchó con el ángel toda la noche. Estaba desesperado por un cambio real, no solo material.",
+        "mensaje": "Hay bendiciones que se reciben pidiendo, pero hay transformaciones que se consiguen peleando en oración. Aferrate a Mí en medio de tu crisis y no me sueltes hasta que Yo cambie tu naturaleza."
+      },
+      {
+        "titulo": "\"Ya no te llamarás Jacob, sino Israel\" (Génesis 32)",
+        "texto": "Dios le cambió el nombre de 'Impostor/Suplantador' a 'El que lucha con Dios'. Le dio una nueva identidad antes de enfrentar a su hermano.",
+        "mensaje": "Para enfrentar tus mayores miedos, necesitas saber quién eres. Dejo de llamarte por tus pecados o tus errores pasados. Te doy un nombre nuevo. Camina en la autoridad de tu nueva identidad."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "Génesis 33 - 35",
+    "tema": "Reconciliación y Renovación",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 33,
+      "fin": 35
+    },
+    "testamento": "antiguo",
+    "mensaje": "El perdón de Dios abre el camino para reconciliarnos con los demás y nos llama a volver al lugar del primer amor para limpiarnos de ídolos.",
+    "imagen": "../img/genesis33-35.webp",
+    "fecha": "13 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Ver tu rostro es como ver el rostro de Dios\" (Génesis 33)",
+        "texto": "Jacob temía que Esaú lo matara, pero Esaú corrió a abrazarlo. La gracia de Dios ablandó el corazón que Jacob pensó que estaría duro.",
+        "mensaje": "Esas situaciones catastróficas que has imaginado en tu mente a menudo se disuelven ante mi favor. No vivas sufriendo por el futuro. Yo puedo sanar relaciones que parecían muertas y ablandar corazones de piedra."
+      },
+      {
+        "titulo": "\"Levantémonos y subamos a Betel\" (Génesis 35)",
+        "texto": "Después de tiempos difíciles, Jacob ordenó a su familia quitar los dioses ajenos y volver al lugar donde Dios le habló primero.",
+        "mensaje": "Es tiempo de una limpieza espiritual. Saca los 'ídolos' (distracciones, pecados ocultos, rencores) que se han colado en tu vida y vuelve a tu 'Betel', al lugar de intimidad y adoración donde nos conocimos."
+      },
+      {
+        "titulo": "\"Hijo de mi diestra\" (Génesis 35)",
+        "texto": "Raquel, al morir dando a luz, llamó al niño 'Benoni' (hijo de mi tristeza), pero Jacob lo llamó 'Benjamín' (hijo de mi mano derecha).",
+        "mensaje": "El dolor a veces quiere ponerle nombre a tu futuro ('tristeza', 'fracaso'). Pero Yo intervengo para cambiar esa etiqueta. Donde hubo muerte o dolor, Yo decreto autoridad y fuerza. No dejes que tu dolor defina tu destino."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "Génesis 36 - 38",
+    "tema": "Soberanía en la Oscuridad",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 36,
+      "fin": 38
+    },
+    "testamento": "antiguo",
+    "mensaje": "Aun en los momentos más oscuros, cuando parece que el mal triunfa o que hemos fallado moralmente, Dios está tejiendo silenciosamente su plan de redención.",
+    "imagen": "../img/genesis36-38.webp",
+    "fecha": "14 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"El favor que provoca\" (Génesis 37)",
+        "texto": "Israel amaba a José más que a todos sus hijos y le hizo una túnica de colores, lo que provocó el odio de sus hermanos.",
+        "mensaje": "A veces, la túnica de favor que he puesto sobre ti provocará incomprensión o celos en otros. No te disculpes por la bendición que te he dado, pero prepárate: el favor de Dios a menudo atrae batallas antes de traerte al palacio."
+      },
+      {
+        "titulo": "\"El pozo y el silencio de Dios\" (Génesis 37)",
+        "texto": "José, el soñador, fue tirado a un pozo y vendido como esclavo por sus propios hermanos. Parecía el fin de sus sueños.",
+        "mensaje": "A veces, el camino hacia el palacio pasa por el pozo. Que estés pasando por una injusticia o un tiempo de dolor no significa que he dejado de trabajar. Estoy usando incluso la maldad de otros para posicionarte en tu propósito."
+      },
+      {
+        "titulo": "\"Gracia en medio del desastre moral\" (Génesis 38)",
+        "texto": "En medio de la historia de José, la Biblia cuenta el pecado de Judá y Tamar. Sin embargo, de ese linaje roto nacería el Mesías.",
+        "mensaje": "No hay familia tan rota ni error tan grande que mi gracia no pueda redimir. Soy experto en sacar linajes reales de situaciones vergonzosas. Tu pecado no es más fuerte que mi plan de salvación."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "Génesis 39 - 40",
+    "tema": "Integridad y Espera",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 39,
+      "fin": 40
+    },
+    "testamento": "antiguo",
+    "mensaje": "La presencia de Dios no evita que vayas a prisión, pero te prospera dentro de ella. Tu carácter se forja cuando decides ser fiel aunque nadie te vea y aunque otros te olviden.",
+    "imagen": "../img/genesis39-40.webp",
+    "fecha": "15 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Mas Jehová estaba con José\" (Génesis 39)",
+        "texto": "Esta frase se repite cuando José era esclavo y cuando era prisionero. Su circunstancia externa era terrible, pero su atmósfera espiritual era de favor.",
+        "mensaje": "Mi presencia contigo no depende de que todo te salga bien externamente. Puedo hacerte prosperar en medio de la escasez y darte favor en medio de la injusticia. Tu éxito no es el lugar donde estás, soy Yo contigo."
+      },
+      {
+        "titulo": "\"¿Cómo haría yo este gran mal contra Dios?\" (Génesis 39)",
+        "texto": "José huyó de la esposa de Potifar, prefiriendo la cárcel antes que pecar contra Dios.",
+        "mensaje": "La verdadera integridad es lo que haces cuando nadie te ve. Vale más tener la conciencia limpia en una prisión que vivir con culpa en un palacio. Honra mis principios y Yo me encargaré de tu defensa."
+      },
+      {
+        "titulo": "\"Servir en la espera\" (Génesis 40)",
+        "texto": "Aun en prisión y con sus propios problemas, José notó la tristeza del copero y el panadero y usó su don para servirles.",
+        "mensaje": "No dejes que tu dolor te vuelva egoísta. La llave para salir de tu propia 'cárcel' a menudo está en servir a otros mientras esperas tu milagro. Usa tus dones donde estás hoy, porque esa es la semilla de tu promoción mañana."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "Génesis 41 - 42",
+    "tema": "Promoción y Propósito",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 41,
+      "fin": 42
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios prepara tu ascenso en lo secreto para que, en el momento justo, pases del olvido al gobierno, no para tu gloria, sino para preservar vida.",
+    "imagen": "../img/genesis41-42.webp",
+    "fecha": "16 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"De la cárcel al palacio en un día\" (Génesis 41)",
+        "texto": "Después de años de espera, en una sola mañana José fue llamado, interpretó el sueño y fue nombrado gobernador.",
+        "mensaje": "No te desesperes por la espera. Cuando llega mi tiempo (Kairos), acelero los procesos. Años de preparación en la sombra son necesarios para sostener el peso de la gloria que viene. Prepárate, porque tu cambio puede llegar en un instante."
+      },
+      {
+        "titulo": "\"Dios lo ha hecho olvidar\" (Manasés)",
+        "texto": "José llamó a su primogénito Manasés: 'Dios me hizo olvidar todo mi trabajo y la casa de mi padre'.",
+        "mensaje": "Voy a bendecirte tanto en tu tierra de aflicción que el dolor del pasado perderá su poder sobre ti. Mi restitución te sanará la memoria de las heridas viejas, permitiéndote disfrutar el presente sin la amargura de ayer."
+      },
+      {
+        "titulo": "\"El despertar de la conciencia\" (Génesis 42)",
+        "texto": "Cuando los hermanos de José se vieron en aprietos, inmediatamente recordaron su pecado: 'Verdaderamente hemos pecado contra nuestro hermano'.",
+        "mensaje": "A veces permito la presión y la dificultad para despertar conciencias dormidas. No veas mis tratos duros como castigo, sino como una llamada de atención para traer arrepentimiento y sanidad real a situaciones que habían quedado enterradas."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "Génesis 43 - 45",
+    "tema": "Perdón y Soberanía",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 43,
+      "fin": 45
+    },
+    "testamento": "antiguo",
+    "mensaje": "El verdadero perdón nace al entender que Dios es soberano sobre las heridas que otros nos causaron, transformando el mal en un plan de salvación.",
+    "imagen": "../img/genesis43-45.webp",
+    "fecha": "17 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"El cambio de corazón\" (Génesis 44)",
+        "texto": "Judá, quien años antes propuso vender a José, ahora se ofrece como esclavo para salvar a Benjamín. José ve que sus hermanos han cambiado.",
+        "mensaje": "Yo soy el Dios de las segundas oportunidades y de los corazones transformados. No juzgues a las personas solo por su pasado; mi gracia puede convertir al egoísta en alguien dispuesto a dar la vida por otros. Ten fe en mi poder para cambiar a la gente."
+      },
+      {
+        "titulo": "\"Dios me envió delante de vosotros\" (Génesis 45)",
+        "texto": "José no culpó a sus hermanos. Entendió que, aunque ellos tenían mala intención, Dios estaba dirigiendo la historia para salvar vidas.",
+        "mensaje": "Deja de ver a las personas como tus enemigos y empieza a ver mi mano soberana. Lo que ellos planearon para destruirte, Yo lo usé para enviarte, posicionarte y prepararte. Suelta la amargura; ver el propósito divino te libera del rencor."
+      },
+      {
+        "titulo": "\"Yo soy José vuestro hermano\" (Génesis 45)",
+        "texto": "José se dio a conocer en intimidad, llorando a gritos, restaurando la relación rota sin barreras de protocolo.",
+        "mensaje": "Anhelo revelarme a ti no solo como Juez o Rey, sino como tu Hermano y Salvador. En la intimidad es donde restauro tu identidad, sano tus miedos y te doy provisión abundante para ti y tu familia."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "Génesis 46 - 48",
+    "tema": "Legado y Dirección",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 46,
+      "fin": 48
+    },
+    "testamento": "antiguo",
+    "mensaje": "No temas moverte hacia lo desconocido si Dios está contigo; Él asegura tu legado y a menudo bendice de maneras que rompen la lógica humana.",
+    "imagen": "../img/genesis46-48.webp",
+    "fecha": "18 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No temas descender a Egipto\" (Génesis 46)",
+        "texto": "Jacob, ya anciano, tenía miedo de dejar la tierra prometida, pero Dios le aseguró que ese movimiento era parte del plan.",
+        "mensaje": "A veces te pediré cambios que parecen retrocesos o que te dan miedo por ser desconocidos. Si Yo voy contigo, cualquier lugar es seguro. No te aferres a 'lo de siempre' cuando Yo te estoy moviendo a 'lo nuevo' para preservarte."
+      },
+      {
+        "titulo": "\"Portadores de bendición\" (Génesis 47)",
+        "texto": "Jacob, un pastor anciano y refugiado, bendijo a Faraón, el hombre más poderoso de la tierra.",
+        "mensaje": "Nunca subestimes lo que llevas dentro. El mundo puede tener el dinero y el poder político, pero tú tienes mi bendición. Te he puesto como luz para bendecir incluso a aquellos que parecen tenerlo todo. Tu autoridad es espiritual."
+      },
+      {
+        "titulo": "\"Cruzando las manos\" (Génesis 48)",
+        "texto": "Al bendecir a los hijos de José, Jacob cruzó sus manos intencionalmente para dar la mayor bendición al menor, rompiendo la tradición.",
+        "mensaje": "Yo no elijo como el hombre elige. No miro el orden de nacimiento, ni los méritos, ni la lógica humana. Mi gracia cruza las manos para alcanzar al que nadie esperaba. Has sido elegido por gracia, no por derecho."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "titulo": "Génesis 49 - 50",
+    "tema": "Final y Comienzo",
+    "referencia_biblica": {
+      "libro": "Génesis",
+      "inicio": 49,
+      "fin": 50
+    },
+    "testamento": "antiguo",
+    "mensaje": "La historia termina confirmando que Dios cambia el mal por bien y que, aunque los hombres mueran, las promesas de Dios siguen vivas.",
+    "imagen": "../img/genesis49-50.webp",
+    "fecha": "19 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"El cetro no se apartará de Judá\" (Génesis 49)",
+        "texto": "Entre todas las profecías, Jacob anuncia que de la tribu de Judá vendría el gobernante eterno (el Mesías, Siloh).",
+        "mensaje": "Desde el principio, mi plan ha sido enviarte un Salvador. A través de la historia, con todos sus giros y personajes imperfectos, he estado trazando el camino hacia Jesús. Él es el León que pelea por ti y el Rey que te gobierna."
+      },
+      {
+        "titulo": "\"Vosotros pensasteis mal... Dios lo encaminó a bien\" (Génesis 50)",
+        "texto": "La conclusión final de José sobre toda su vida de sufrimiento es la soberanía absoluta de Dios para transformar el mal en bendición.",
+        "mensaje": "Esta es la promesa con la que cierras este capítulo: Nada de lo que te ha pasado se desperdiciará. Tomaré cada lágrima, cada injusticia y cada error, y lo reciclaré para un bien mayor. Confía en mi guion para tu vida."
+      },
+      {
+        "titulo": "\"Ciertamente Dios os visitará\" (Génesis 50)",
+        "texto": "José murió con la certeza de que Egipto no era el final, pidiendo que llevaran sus huesos a la tierra prometida.",
+        "mensaje": "Tus circunstancias actuales no son tu destino final. Vive con la esperanza y la certeza de que cumpliré mis promesas, no solo en tu vida, sino en tus generaciones. Lo que Yo he dicho, se hará."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "titulo": "Éxodo 1-3",
+    "tema": "Esclavitud y Llamado",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 1,
+      "fin": 3
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios escucha tu clamor en medio de la opresión y levanta libertadores no por su perfección, sino por Su pacto eterno.",
+    "imagen": "../img/exodo1-3.webp",
+    "fecha": "20 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Dios oyó su gemido\" (Éxodo 2)",
+        "texto": "Los israelitas gemían a causa de la servidumbre... y Dios oyó su gemido y se acordó de su pacto.",
+        "mensaje": "Tu dolor no pasa desapercibido. Cuando sientes que estás en un callejón sin salida y clamas, Dios no es sordo. Él recuerda sus promesas y ya está poniendo en marcha un plan de rescate antes de que veas la solución."
+      },
+      {
+        "titulo": "\"La zarza que no se consume\" (Éxodo 3)",
+        "texto": "Moisés vio que la zarza ardía en fuego, y la zarza no se consumía. Dios lo llamó desde en medio de ella.",
+        "mensaje": "Dios busca personas que ardan con su fuego pero que no se consuman por su propio ego o fuerzas. Cuando Él te llama, te da una energía sobrenatural que te mantiene encendido sin quemarte (sin burnout)."
+      },
+      {
+        "titulo": "\"YO SOY EL QUE SOY\" (Éxodo 3)",
+        "texto": "Moisés preguntó el nombre de Dios, y Él respondió con una declaración de existencia eterna y autosuficiente.",
+        "mensaje": "Dios no es 'el que fue' (pasado) ni solo 'el que será' (futuro). Él es tu 'YO SOY' presente. Sea lo que sea que necesites hoy (paz, provisión, fuerza), Él ES eso para ti ahora mismo."
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "titulo": "Éxodo 4-6",
+    "tema": "Identidad y Obediencia",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 4,
+      "fin": 6
+    },
+    "testamento": "antiguo",
+    "mensaje": "Tus excusas no anulan tu llamado. Dios usa lo que tienes en la mano (aunque sea una vara) para enfrentar imperios, y endurece situaciones para mostrar Su poder.",
+    "imagen": "../img/exodo4-6.webp",
+    "fecha": "21 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"¿Qué es eso en tu mano?\" (Éxodo 4)",
+        "texto": "Moisés se sentía incapaz, pero Dios usó la vara simple de pastor que ya tenía para hacer milagros.",
+        "mensaje": "No necesitas más recursos para empezar tu propósito. Dios usa lo ordinario que ya tienes en la mano para hacer cosas extraordinarias. Entrégale tu talento 'simple' y Él lo convertirá en un instrumento de poder."
+      },
+      {
+        "titulo": "\"Envía a otro\" (Éxodo 4)",
+        "texto": "Moisés puso excusa tras excusa: 'no sé hablar', 'no me creerán'. Finalmente pidió que Dios enviara a otro.",
+        "mensaje": "La falsa humildad o la inseguridad pueden ser una afrenta a Dios. Si Él te eligió, Él te capacita. Confía más en la elección de Dios que en tus propias limitaciones percibidas."
+      },
+      {
+        "titulo": "\"Ahora verás lo que haré\" (Éxodo 6)",
+        "texto": "Las cosas se pusieron peor para Israel antes de mejorar. Faraón aumentó el trabajo. Pero Dios dijo: 'Ahora verás'.",
+        "mensaje": "A veces, cuando decides obedecer a Dios, la oposición aumenta. No te desanimes si las cosas se ponen difíciles al principio; es el escenario que Dios está preparando para mostrar su mano fuerte de una manera indiscutible."
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "titulo": "Éxodo 7-8",
+    "tema": "Soberanía sobre Ídolos",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 7,
+      "fin": 8
+    },
+    "testamento": "antiguo",
+    "mensaje": "Las plagas no fueron solo castigos, fueron un juicio directo contra los falsos dioses de Egipto, demostrando que solo Jehová tiene control sobre la naturaleza.",
+    "imagen": "../img/exodo7-8.webp",
+    "fecha": "22 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"La vara que traga serpientes\" (Éxodo 7)",
+        "texto": "La vara de Aarón devoró las varas de los hechiceros de Faraón.",
+        "mensaje": "El enemigo puede imitar ciertos milagros o tener cierto poder, pero el poder de Dios siempre es superior y 'devora' cualquier falsificación. No temas a la brujería ni a la oposición espiritual; Mayor es el que está en ti."
+      },
+      {
+        "titulo": "\"Dios contra el Nilo\" (Éxodo 7)",
+        "texto": "Convertir el Nilo en sangre fue un golpe directo a Hapi, el dios del Nilo. Dios mostró que Él es la verdadera fuente de vida.",
+        "mensaje": "Cualquier cosa que pongas en lugar de Dios (tu carrera, dinero, relaciones) se convertirá en 'sangre' (muerte/insatisfacción). Dios confrontará tus ídolos no para lastimarte, sino para que vuelvas a la Fuente verdadera."
+      },
+      {
+        "titulo": "\"Dedo de Dios es este\" (Éxodo 8)",
+        "texto": "Llegó un punto (plaga de piojos) donde los hechiceros ya no pudieron imitar el milagro y tuvieron que reconocer el poder divino.",
+        "mensaje": "Hay niveles de gloria y poder donde la imitación humana y diabólica no pueden llegar. Vive en una dimensión de santidad y poder tal que incluso tus enemigos tengan que reconocer que 'el dedo de Dios' está sobre ti."
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "titulo": "Éxodo 9-10",
+    "tema": "Distinción Divina",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 9,
+      "fin": 10
+    },
+    "testamento": "antiguo",
+    "mensaje": "En medio del juicio global, Dios hace una distinción sobrenatural con Su pueblo. La luz brilla en Gosén aunque haya tinieblas en todo Egipto.",
+    "imagen": "../img/exodo9-10.webp",
+    "fecha": "23 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Haré diferencia entre mi pueblo y el tuyo\" (Éxodo 9)",
+        "texto": "En la plaga del ganado y del granizo, Dios protegió sobrenaturalmente la tierra de Gosén donde vivía Israel.",
+        "mensaje": "No tengas miedo de las noticias mundiales o las crisis económicas. Tú perteneces al Reino de Dios. Hay una cobertura de protección y distinción sobre los hijos de Dios. Mientras el mundo vive en temor, tú puedes vivir en paz."
+      },
+      {
+        "titulo": "\"Tinieblas que se palpan\" (Éxodo 10)",
+        "texto": "Hubo oscuridad densa en Egipto por tres días, pero 'todos los hijos de Israel tenían luz en sus habitaciones'.",
+        "mensaje": "Cuando el mundo atraviesa sus momentos más oscuros y confusos, tú tienes la luz de Cristo. Tu hogar debe ser un faro de esperanza y claridad. No dejes que las tinieblas de la cultura apaguen la lámpara de tu fe."
+      },
+      {
+        "titulo": "\"Para qué he puesto estos prodigios\" (Éxodo 10)",
+        "texto": "Dios explica que endureció a Faraón para contar a las futuras generaciones sus señales.",
+        "mensaje": "Tus batallas actuales son los testimonios de tus hijos mañana. Dios permite situaciones imposibles para crear una historia de victoria tan grande que tu familia hablará de ella por generaciones."
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "titulo": "Éxodo 11-12",
+    "tema": "Redención y Sangre",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 11,
+      "fin": 12
+    },
+    "testamento": "antiguo",
+    "mensaje": "La libertad final no viene por negociación, sino por la sangre del Cordero. La Pascua marca el inicio de una nueva identidad como pueblo libre.",
+    "imagen": "../img/exodo11-12.webp",
+    "fecha": "24 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"La sangre será la señal\" (Éxodo 12)",
+        "texto": "El ángel de la muerte pasó por alto las casas marcadas con la sangre del cordero en los dinteles.",
+        "mensaje": "Tu protección no depende de lo buena persona que eres, sino de la Sangre que te cubre. La sangre de Jesús es tu marca de seguridad. El juicio pasa de largo cuando ve la sangre del Cordero aplicada en tu vida."
+      },
+      {
+        "titulo": "\"Este mes os será principio de los meses\" (Éxodo 12)",
+        "texto": "Con la Pascua, Dios reseteó el calendario de Israel. Su libertad marcó un nuevo comienzo.",
+        "mensaje": "El día que entregas tu vida a Dios es tu verdadero cumpleaños. Él borra tu pasado de esclavitud y te da un nuevo comienzo. No importa cuántos años perdiste en 'Egipto'; hoy empieza tu año nuevo espiritual."
+      },
+      {
+        "titulo": "\"No salieron con las manos vacías\" (Éxodo 12)",
+        "texto": "Dios hizo que los egipcios les dieran oro y plata al salir. Salieron recompensados por sus años de trabajo.",
+        "mensaje": "Dios es un Dios de justicia. El enemigo tuvo que devolver lo robado. Dios restaurará los años que la oruga se comió y te sacará de tu prueba no solo libre, sino con recursos para el viaje que tienes por delante."
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "titulo": "Éxodo 13-15",
+    "tema": "Liberación y Adoración",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 13,
+      "fin": 15
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios te guía por caminos que no entiendes para evitar guerras prematuras, abre el mar cuando no hay salida y convierte tu lamento en un cántico nuevo.",
+    "imagen": "../img/exodo13-15.webp",
+    "fecha": "25 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No por el camino corto\" (Éxodo 13)",
+        "texto": "Dios no los llevó por el camino de los filisteos, que era más cerca, para que no se arrepintieran al ver guerra.",
+        "mensaje": "Si sientes que estás dando vueltas o que el camino es largo, confía en el GPS de Dios. Él te evita batallas para las que todavía no estás listo. Su ruta más larga es a menudo la más segura para tu alma."
+      },
+      {
+        "titulo": "\"Estad firmes y ved la salvación\" (Éxodo 14)",
+        "texto": "Atrapados entre el mar y el ejército de Faraón, Dios les ordenó no tener miedo y marchar. El mar se abrió.",
+        "mensaje": "A veces Dios espera hasta que no tengas salida humana para intervenir, para que quede claro que fue Él. Cuando estés entre la espada y la pared, es el momento perfecto para un milagro. Solo marcha."
+      },
+      {
+        "titulo": "\"El cántico de Moisés\" (Éxodo 15)",
+        "texto": "Al otro lado del mar, Miriam y el pueblo cantaron. La primera reacción a la libertad fue la adoración espontánea.",
+        "mensaje": "No dejes que pase el milagro sin darle la gloria. La adoración sella tu victoria. Canta en medio de tu liberación; es la mejor forma de cerrar la puerta al pasado y declarar tu futuro."
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "titulo": "Éxodo 16-18",
+    "tema": "Provisión y Sabiduría",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 16,
+      "fin": 18
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios provee maná diario para enseñarte dependencia, agua de la roca para saciar tu sed y sabiduría de consejo para que no te agotes liderando solo.",
+    "imagen": "../img/exodo16-18.webp",
+    "fecha": "26 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Maná: Provisión diaria\" (Éxodo 16)",
+        "texto": "El maná caía cada día y se pudría si lo guardaban (excepto en sábado). Dios quería enseñarles a confiar día a día.",
+        "mensaje": "No trates de acumular gracia para el futuro. Dios te da la fuerza y provisión que necesitas para HOY. La ansiedad viene de querer controlar el mañana; la fe descansa en que mañana también habrá 'maná'."
+      },
+      {
+        "titulo": "\"Jehová Nisi: El Señor es mi Estandarte\" (Éxodo 17)",
+        "texto": "Mientras Moisés mantenía las manos alzadas (intercesión), Josué ganaba la batalla. Necesitó ayuda de Aarón y Hur.",
+        "mensaje": "No puedes ganar tus batallas solo. Necesitas intercesión y necesitas amigos que 'sostengan tus brazos' cuando te cansas. La victoria física de Josué dependía de la batalla espiritual de Moisés."
+      },
+      {
+        "titulo": "\"El consejo de Jetro\" (Éxodo 18)",
+        "texto": "El suegro de Moisés vio que se estaba agotando juzgando solo al pueblo y le enseñó a delegar.",
+        "mensaje": "Ser un líder espiritual no significa hacerlo todo tú solo; eso es orgullo o falta de sabiduría. Dios honra el orden y la delegación. Escucha el consejo de mentores sabios para no quemarte en el ministerio."
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "titulo": "Éxodo 19-21",
+    "tema": "Santidad y Pacto",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 19,
+      "fin": 21
+    },
+    "testamento": "antiguo",
+    "mensaje": "La relación con Dios requiere límites y reverencia. La Ley no se dio para esclavizar, sino para revelar el carácter santo de Dios y cómo vivir en comunidad.",
+    "imagen": "../img/exodo19-21.webp",
+    "fecha": "27 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Nación santa, real sacerdocio\" (Éxodo 19)",
+        "texto": "Antes de dar las leyes, Dios declaró su identidad: 'Vosotros me seréis un tesoro especial'.",
+        "mensaje": "La obediencia nace de la identidad, no al revés. Dios te recuerda quién eres para Él (su tesoro) para que luego quieras vivir según sus normas. Eres apartado (santo) con un propósito real."
+      },
+      {
+        "titulo": "\"No tendrás dioses ajenos\" (Éxodo 20)",
+        "texto": "El primer mandamiento establece la exclusividad. Dios es celoso porque sabe que otros 'dioses' te destruirán.",
+        "mensaje": "Dios no quiere ser el primero en tu lista; Él quiere ser el ÚNICO en el trono. Todo lo demás (familia, trabajo) debe derivar de tu relación con Él. Revisa si hay algo compitiendo por tu devoción suprema."
+      },
+      {
+        "titulo": "\"El temor de Dios\" (Éxodo 20)",
+        "texto": "El pueblo tembló ante los truenos y el humo del Sinaí. Comprendieron que Dios no es un amuleto, es Fuego Consumidor.",
+        "mensaje": "Hemos perdido a veces el temor reverente a Dios. Él es 'Abba' (Papá), pero también es el Rey del Universo. Acercarte con reverencia te guarda de tratar lo santo como algo común."
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "titulo": "Éxodo 22-24",
+    "tema": "Justicia y Relación",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 22,
+      "fin": 24
+    },
+    "testamento": "antiguo",
+    "mensaje": "La verdadera espiritualidad se demuestra en cómo tratas a tu prójimo, al extranjero y al vulnerable. El pacto se sella con sangre y con una visión de Dios.",
+    "imagen": "../img/exodo22-24.webp",
+    "fecha": "28 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"No afligirás al extranjero\" (Éxodo 22)",
+        "texto": "Dios manda tratar bien al vulnerable 'porque extranjeros fuisteis vosotros en la tierra de Egipto'.",
+        "mensaje": "Tu trato hacia los demás debe basarse en la gracia que tú mismo recibiste. Recuerda de dónde te sacó Dios; eso te mantendrá humilde y compasivo con quienes están en necesidad. La empatía es un mandato divino."
+      },
+      {
+        "titulo": "\"Serviréis a Jehová... y Él bendecirá tu pan\" (Éxodo 23)",
+        "texto": "Hay una promesa directa: si sirves a Dios, Él quita la enfermedad y bendice tus alimentos.",
+        "mensaje": "El servicio a Dios desata una bendición integral. No es un intercambio comercial, es una consecuencia de vivir bajo su cobertura. Al ocuparte de los asuntos de Dios, Él se ocupa de tu salud y provisión."
+      },
+      {
+        "titulo": "\"Vieron a Dios y comieron\" (Éxodo 24)",
+        "texto": "Los ancianos subieron al monte, vieron la gloria de Dios y celebraron una comida de pacto.",
+        "mensaje": "Dios busca intimidad. El objetivo final de la ley y la liberación era este: sentarse a la mesa con Dios. Tu destino final no es solo obedecer reglas, sino disfrutar de la comunión y la presencia de Dios."
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "titulo": "Éxodo 25-26",
+    "tema": "La Morada de Dios",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 25,
+      "fin": 26
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios pide una ofrenda voluntaria para construir un Santuario, no porque necesite casa, sino porque anhela habitar en medio de su pueblo.",
+    "imagen": "../img/exodo25-26.webp",
+    "fecha": "29 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Que me hagan un santuario\" (Éxodo 25)",
+        "texto": "El propósito del Tabernáculo: 'Y habitaré en medio de ellos'.",
+        "mensaje": "El deseo más grande de Dios es estar cerca de ti. Todo el detalle del tabernáculo apunta a una sola cosa: Emmanuel, Dios con nosotros. Hoy, tú eres ese templo. ¿Está tu vida ordenada para que Él habite cómodamente?"
+      },
+      {
+        "titulo": "\"Conforme al modelo mostrado\" (Éxodo 25)",
+        "texto": "Dios dio instrucciones precisas sobre medidas y materiales. No dejó nada a la imaginación humana.",
+        "mensaje": "Adoramos a Dios en SUS términos, no en los nuestros. No podemos inventar nuestra propia religión 'a mi manera'. Hay un diseño divino para la santidad y la adoración que debemos respetar para ver su gloria."
+      },
+      {
+        "titulo": "\"El Arca del Testimonio\" (Éxodo 25)",
+        "texto": "El mueble más importante, donde residía la presencia, estaba cubierto de oro y contenía la ley.",
+        "mensaje": "En el centro de todo debe estar la Presencia de Dios (el Arca). Si tienes una iglesia o una vida muy bonita por fuera (las cortinas), pero no tienes el Arca en el centro, está vacía. Cuida la Presencia por encima de la apariencia."
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "titulo": "Éxodo 27-28",
+    "tema": "Representación y Sacrificio",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 27,
+      "fin": 28
+    },
+    "testamento": "antiguo",
+    "mensaje": "El altar de bronce nos recuerda que se requiere sacrificio para acercarse, y las vestiduras sacerdotales muestran que necesitamos un mediador santo que nos lleve en su corazón.",
+    "imagen": "../img/exodo27-28.webp",
+    "fecha": "30 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"El fuego del altar\" (Éxodo 27)",
+        "texto": "El altar de bronce era lo primero que se encontraba al entrar. Sin sacrificio no hay acceso.",
+        "mensaje": "No podemos acercarnos a Dios casualmente ignorando nuestro pecado. Necesitamos el sacrificio de Jesús (nuestro altar). Agradece cada día que hay un camino abierto hacia el Padre gracias a la ofrenda perfecta de Cristo."
+      },
+      {
+        "titulo": "\"Llevará los nombres sobre su corazón\" (Éxodo 28)",
+        "texto": "El sumo sacerdote llevaba los nombres de las tribus en el pectoral, sobre su corazón, al entrar al Lugar Santo.",
+        "mensaje": "Jesús es tu Sumo Sacerdote. Él te lleva escrito en su corazón y en sus hombros. Cuando Él se presenta ante el Padre, tú estás representado allí. No estás olvidado; tu nombre está continuamente ante la presencia de Dios."
+      },
+      {
+        "titulo": "\"Aceite puro para la lámpara\" (Éxodo 27)",
+        "texto": "Mandaron traer aceite puro de olivas machacadas para hacer arder las lámparas continuamente.",
+        "mensaje": "Tu luz espiritual necesita combustible constante. El 'aceite' viene del prensado (las pruebas y la madurez) y de la unción del Espíritu. No dejes que tu lámpara se apague; mantén tu vida de oración encendida día y noche."
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "titulo": "Éxodo 29-30",
+    "tema": "Consagración y Olor Fragante",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 29,
+      "fin": 30
+    },
+    "testamento": "antiguo",
+    "mensaje": "Los sacerdotes debían ser lavados, ungidos y consagrados totalmente. El incienso representa nuestras oraciones que suben como olor grato ante Dios.",
+    "imagen": "../img/exodo29-30.webp",
+    "fecha": "31 de Enero",
+    "explicacion": [
+      {
+        "titulo": "\"Consagrados para servir\" (Éxodo 29)",
+        "texto": "El proceso de consagración implicaba sangre en la oreja derecha, pulgar derecho y pie derecho.",
+        "mensaje": "Dios reclama todo de ti: lo que oyes (oreja), lo que haces (mano) y por dónde caminas (pie). Servir a Dios requiere una vida apartada. Tu estilo de vida debe reflejar a quién perteneces."
+      },
+      {
+        "titulo": "\"El altar del incienso\" (Éxodo 30)",
+        "texto": "Estaba justo antes del velo. Aarón debía quemar incienso aromático cada mañana y cada tarde.",
+        "mensaje": "El incienso es la oración y adoración. Es lo que nos permite estar más cerca del corazón de Dios. Que tu vida de oración sea un perfume constante, no algo esporádico. Empieza y termina tu día con ese 'olor fragante'."
+      },
+      {
+        "titulo": "\"Santísimo es a Jehová\" (Éxodo 30)",
+        "texto": "Tanto el aceite de la unción como el incienso eran fórmulas únicas y sagradas, prohibidas para uso común.",
+        "mensaje": "No trates lo santo como algo común. La unción de Dios en tu vida no es para tu entretenimiento o beneficio personal, es para Su propósito. Guarda tu corazón y tus dones exclusivamente para Él."
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "titulo": "Éxodo 31-33",
+    "tema": "Gloria e Intercesión",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 31,
+      "fin": 33
+    },
+    "testamento": "antiguo",
+    "mensaje": "El talento artístico es un regalo del Espíritu, la impaciencia crea ídolos falsos, pero la intercesión apasionada atrae la presencia de Dios que nos distingue del resto del mundo.",
+    "imagen": "../img/exodo31-33.webp",
+    "fecha": "1 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Llenos del Espíritu para crear\" (Éxodo 31)",
+        "texto": "Dios llenó a Bezalel del Espíritu Santo, no para predicar, sino para trabajar en oro, plata y madera con excelencia.",
+        "mensaje": "Tu creatividad y tus habilidades técnicas son espirituales. No menosprecies tu arte o tu trabajo manual; cuando lo haces con excelencia para la gloria de Dios, estás ministrando bajo la unción del Espíritu tanto como un sacerdote."
+      },
+      {
+        "titulo": "\"La impaciencia crea ídolos\" (Éxodo 32)",
+        "texto": "Al ver que Moisés tardaba, el pueblo se desesperó y creó un becerro de oro para tener un 'dios visible' y manejable.",
+        "mensaje": "El ídolo nace cuando no sabemos esperar en Dios. Cuando te impacientas, corres el riesgo de fabricar soluciones humanas (becerros) que te esclavizan. Aprende a esperar en el silencio de Dios sin buscar sustitutos rápidos."
+      },
+      {
+        "titulo": "\"Si tu presencia no va conmigo\" (Éxodo 33)",
+        "texto": "Moisés se negó a dar un paso más hacia la Tierra Prometida si la presencia personal de Dios no iba con ellos.",
+        "mensaje": "El éxito no es llegar a la meta (la Tierra Prometida), el éxito es ir con Dios. No aceptes bendiciones, cargos o prosperidad si eso significa perder su Presencia. Es mejor el desierto con Él que el palacio sin Él."
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "titulo": "Éxodo 34-36",
+    "tema": "Restauración y Generosidad",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 34,
+      "fin": 36
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios renueva sus pactos con los que fallan, su cercanía hace brillar nuestro rostro y un corazón agradecido da con tanta generosidad que sobrepasa la necesidad.",
+    "imagen": "../img/exodo34-36.webp",
+    "fecha": "2 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Dios misericordioso y piadoso\" (Éxodo 34)",
+        "texto": "Tras el fracaso del becerro de oro, Dios se revela a sí mismo no como un juez iracundo, sino como 'lento para la ira y grande en misericordia'.",
+        "mensaje": "Tu error no es el final. Dios está dispuesto a escribir nuevas tablas de pacto contigo. Su naturaleza es perdonar y restaurar. No te alejes por culpa; acércate a su misericordia que es más grande que tu pecado."
+      },
+      {
+        "titulo": "\"El rostro resplandeciente\" (Éxodo 34)",
+        "texto": "Moisés no sabía que la piel de su rostro resplandecía después de hablar con Dios. La intimidad dejó una marca visible.",
+        "mensaje": "Pasar tiempo real con Dios te transforma. No tienes que anunciar que eres espiritual; si has estado en su presencia, la gente lo notará. Tu carácter y tu paz brillarán en medio de un mundo oscuro."
+      },
+      {
+        "titulo": "\"El pueblo trae mucho más de lo necesario\" (Éxodo 36)",
+        "texto": "Tuvieron que pedir al pueblo que dejara de ofrendar porque había sobrado material para la obra.",
+        "mensaje": "Cuando el corazón ha sido tocado por la gracia, la generosidad se desborda. No des a Dios las sobras ni lo mínimo indispensable. La verdadera adoración se nota en una entrega que supera las expectativas."
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "titulo": "Éxodo 37-38",
+    "tema": "Construyendo lo Sagrado",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 37,
+      "fin": 38
+    },
+    "testamento": "antiguo",
+    "mensaje": "La adoración requiere atención al detalle. Cada pieza del mobiliario sagrado apunta a Cristo: la luz, la intercesión y el sacrificio.",
+    "imagen": "../img/exodo37-38.webp",
+    "fecha": "3 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"El Arca: El centro de todo\" (Éxodo 37)",
+        "texto": "Bezalel hizo el arca de madera cubierta de oro puro. Era el trono de Dios en la tierra.",
+        "mensaje": "En el centro de tu vida (tu templo) debe estar el gobierno de Dios. Todo lo demás se construye alrededor de Su presencia. Si el Arca no está en su sitio, el resto de la estructura carece de propósito."
+      },
+      {
+        "titulo": "\"Una sola pieza de oro\" (Éxodo 37)",
+        "texto": "El candelabro no fue hecho de partes soldadas, sino labrado a martillo de una sola pieza de oro puro.",
+        "mensaje": "La unidad y la pureza son vitales. Dios te forma 'a martillo' (procesos difíciles) para que seas una pieza sólida y brillante que alumbre. No eres un remiendo, eres una obra de arte forjada por Dios."
+      },
+      {
+        "titulo": "\"El Altar y el Lavacro\" (Éxodo 38)",
+        "texto": "Hizo el altar de bronce para los sacrificios y la fuente de bronce con los espejos de las mujeres para la limpieza.",
+        "mensaje": "Para entrar en la presencia de Dios necesitas dos cosas: el sacrificio (Jesús en la cruz) y la limpieza diaria (santificación). No puedes saltarte el altar; la gracia es gratuita pero no es barata."
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "titulo": "Éxodo 39-40",
+    "tema": "Obediencia y Gloria",
+    "referencia_biblica": {
+      "libro": "Éxodo",
+      "inicio": 39,
+      "fin": 40
+    },
+    "testamento": "antiguo",
+    "mensaje": "La obediencia exacta a la Palabra de Dios prepara el escenario para que Su gloria descienda y llene cada rincón de nuestra vida.",
+    "imagen": "../img/exodo39-40.webp",
+    "fecha": "4 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Como Jehová lo había mandado\" (Éxodo 39)",
+        "texto": "Esta frase se repite constantemente como un sello de aprobación. No hicieron las cosas a su gusto, sino al de Dios.",
+        "mensaje": "La obediencia parcial es desobediencia. El secreto para ver la gloria de Dios no es la innovación, es la obediencia. Haz las cosas exactamente como Dios te dijo, sin añadir ni quitar, y verás el respaldo del cielo."
+      },
+      {
+        "titulo": "\"Moisés acabó la obra\" (Éxodo 40)",
+        "texto": "Cuando todo estuvo terminado y en orden, Moisés finalizó la tarea. Dios bendice lo que se termina, no solo lo que se empieza.",
+        "mensaje": "Sé un terminador. Muchos empiezan con entusiasmo, pero pocos acaban la obra. Dios te ha llamado a completar la carrera. No dejes proyectos espirituales a medias; la bendición está al final del proceso."
+      },
+      {
+        "titulo": "\"Y la gloria de Jehová llenó el tabernáculo\" (Éxodo 40)",
+        "texto": "Tan pronto como la obediencia fue completa, la nube cubrió la tienda y la gloria fue tan densa que ni Moisés podía entrar.",
+        "mensaje": "Este es el fin supremo: que Dios te llene. Cuando tu vida está ordenada según Su Palabra, su Gloria desciende con tal peso que el 'yo' (Moisés) tiene que salir para que Dios lo llene todo. Prepárate para ser inundado por Él."
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "titulo": "Levítico 1-3",
+    "tema": "Ofrenda y Entrega",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 1,
+      "fin": 3
+    },
+    "testamento": "antiguo",
+    "mensaje": "Acercarse a Dios requiere entrega total (holocausto) y gratitud (ofrenda de paz). Dios no busca solo obediencia, busca comunión voluntaria.",
+    "imagen": "../img/levitico1-3.webp",
+    "fecha": "5 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Ofrenda voluntaria\" (Levítico 1)",
+        "texto": "Dios especifica que la ofrenda debe ser 'de su propia voluntad'. Nadie te obliga a adorar; es un regalo que nace del corazón.",
+        "mensaje": "La religión obliga, la relación invita. Dios no quiere que te acerques a Él por miedo o rutina, sino porque tu corazón desea estar con Él. Tu entrega diaria es tu 'holocausto' espiritual."
+      },
+      {
+        "titulo": "\"Sin defecto\" (Levítico 1)",
+        "texto": "El animal ofrecido tenía que ser perfecto, sin mancha. No podías dar a Dios lo que te sobraba o lo que estaba enfermo.",
+        "mensaje": "Dios merece tu excelencia, no tus sobras. Cuando le sirves o le adoras, dale tu mejor tiempo y tu mejor energía, no los restos de tu día cuando ya estás agotado."
+      },
+      {
+        "titulo": "\"Ofrenda de Paz\" (Levítico 3)",
+        "texto": "Esta ofrenda era única porque el oferente podía comer parte de ella. Era una comida de amistad entre Dios y el hombre.",
+        "mensaje": "Dios quiere sentarse a la mesa contigo. No todo es pedir perdón; también hay momentos para simplemente disfrutar de su paz y darle gracias por la amistad que te ofrece."
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "titulo": "Levítico 4-6",
+    "tema": "Perdón y Restauración",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 4,
+      "fin": 6
+    },
+    "testamento": "antiguo",
+    "mensaje": "El pecado, aunque sea involuntario, mancha y requiere limpieza. Pero Dios provee un camino no solo para ser perdonado, sino para restaurar lo dañado.",
+    "imagen": "../img/levitico4-6.webp",
+    "fecha": "6 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Cuando pecare por yerro\" (Levítico 4)",
+        "texto": "Dios estableció sacrificios incluso para los pecados cometidos por error o ignorancia.",
+        "mensaje": "A veces herimos a otros o a Dios sin querer. La ignorancia no nos exime de responsabilidad, pero la gracia de Dios cubre incluso nuestros puntos ciegos. Pide al Espíritu que te revele lo que no ves."
+      },
+      {
+        "titulo": "\"Restituirá lo robado\" (Levítico 6)",
+        "texto": "Si alguien defraudaba a su prójimo, no bastaba con pedir perdón a Dios; tenía que devolver lo robado más un 20%.",
+        "mensaje": "El arrepentimiento real conlleva restitución. Si has dañado a alguien, no solo ores; ve y arregla el daño en la medida de lo posible. La fe se demuestra en cómo tratamos de corregir nuestros errores con los demás."
+      },
+      {
+        "titulo": "\"El fuego no se apagará\" (Levítico 6)",
+        "texto": "Los sacerdotes tenían la orden estricta de mantener el fuego del altar encendido día y noche. Nunca debía apagarse.",
+        "mensaje": "Tu vida espiritual es como ese fuego. No puedes dejar que se apague por descuido o pereza. Aliméntalo cada mañana con oración y gratitud. Un fuego desatendido se convierte en cenizas rápidamente."
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "titulo": "Levítico 7-9",
+    "tema": "Sacerdocio y Gloria",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 7,
+      "fin": 9
+    },
+    "testamento": "antiguo",
+    "mensaje": "Servir a Dios requiere paciencia y consagración, pero la obediencia estricta prepara el escenario para que la gloria de Dios se manifieste visiblemente.",
+    "imagen": "../img/levitico7-9.webp",
+    "fecha": "7 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Siete días a la puerta\" (Levítico 8)",
+        "texto": "Aarón y sus hijos tuvieron que esperar siete días a la entrada del tabernáculo para completar su consagración.",
+        "mensaje": "No te apresures a entrar en el ministerio o en grandes responsabilidades sin un tiempo de preparación. La espera te santifica. Aprende a estar quieto en la presencia de Dios antes de salir a hacer cosas por Él."
+      },
+      {
+        "titulo": "\"La sangre en la oreja, mano y pie\" (Levítico 8)",
+        "texto": "Moisés puso sangre en la oreja derecha, pulgar derecho y pie derecho de los sacerdotes.",
+        "mensaje": "Consagración total: Dios quiere limpiar lo que escuchas (oreja), lo que haces (mano) y hacia dónde caminas (pie). Tu vida entera debe estar marcada por la sangre de Jesús para servirle."
+      },
+      {
+        "titulo": "\"Y la gloria de Jehová se apareció\" (Levítico 9)",
+        "texto": "Después de seguir todas las instrucciones al pie de la letra, la gloria de Dios se manifestó a todo el pueblo y gritaron de júbilo.",
+        "mensaje": "La gloria es la respuesta de Dios a la obediencia de su pueblo. Si sientes que Dios está lejos, revisa si estás siguiendo sus instrucciones. Cuando el altar está en orden, el fuego del cielo desciende."
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "titulo": "Levítico 10-12",
+    "tema": "Santidad y Discernimiento",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 10,
+      "fin": 12
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios es Santo y no podemos acercarnos a Él bajo nuestros propios términos (fuego extraño). Debemos aprender a distinguir entre lo que nos edifica y lo que nos contamina.",
+    "imagen": "../img/levitico10-12.webp",
+    "fecha": "8 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Fuego extraño\" (Levítico 10)",
+        "texto": "Nadab y Abiú ofrecieron un fuego que Dios no había pedido y murieron. Intentaron adorar a su manera, no a la de Dios.",
+        "mensaje": "No podemos inventarnos nuestra propia manera de llegar a Dios ignorando su Palabra. La adoración no se trata de nuestra creatividad o emoción, sino de obediencia y reverencia. Acércate a Dios con respeto santo."
+      },
+      {
+        "titulo": "\"Para discernir entre lo santo y lo profano\" (Levítico 10)",
+        "texto": "Dios prohíbe a los sacerdotes beber vino al ministrar para que puedan tener la mente clara para enseñar y discernir.",
+        "mensaje": "Necesitas sobriedad espiritual. El mundo mezcla todo (lo bueno y lo malo), pero tú estás llamado a tener discernimiento. Cuida lo que entra en tu mente para que no pierdas la capacidad de distinguir la voz de Dios."
+      },
+      {
+        "titulo": "\"Lo limpio y lo inmundo\" (Levítico 11)",
+        "texto": "Las leyes sobre alimentos enseñaban al pueblo a vivir en distinción constante, separando lo que les hacía bien de lo que no.",
+        "mensaje": "Más allá de la dieta, el principio es la santidad diaria. No todo lo que el mundo te ofrece es bueno para tu alma. Aprende a decir 'no' a lo que contamina tu espíritu, aunque sea popular o culturalmente aceptado."
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "titulo": "Levítico 13-14",
+    "tema": "Diagnóstico y Limpieza",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 13,
+      "fin": 14
+    },
+    "testamento": "antiguo",
+    "mensaje": "El pecado, como la lepra, empieza pequeño pero se extiende y aísla. Solo el examen honesto y la intervención divina pueden traernos de vuelta a la comunidad.",
+    "imagen": "../img/levitico13-14.webp",
+    "fecha": "9 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"El sacerdote lo examinará\" (Levítico 13)",
+        "texto": "Ante cualquier mancha sospechosa, la persona debía ir al sacerdote para ser examinada, no esconderla.",
+        "mensaje": "No escondas tus 'manchas' espirituales. Lo que se oculta, crece e infecta. La verdadera sanidad comienza cuando tienes la valentía de exponer tu situación ante Dios y buscar ayuda antes de que se extienda."
+      },
+      {
+        "titulo": "\"Vivienda fuera del campamento\" (Levítico 13)",
+        "texto": "La consecuencia más dolorosa de la lepra no era física, sino social: la soledad y la separación de la familia y de Dios.",
+        "mensaje": "El pecado aísla. Te hace sentir indigno, te aleja de tu comunidad de fe y te encierra en soledad. Dios quiere sanarte para reintegrarte. No estás diseñado para vivir 'fuera del campamento', sino en comunión."
+      },
+      {
+        "titulo": "\"El ave que vuela libre\" (Levítico 14)",
+        "texto": "En el ritual de purificación, un ave moría y otra era soltada viva hacia el campo abierto, manchada con la sangre de la primera.",
+        "mensaje": "Esta es una imagen preciosa de tu libertad. Jesús murió (el ave sacrificada) para que tú pudieras volar libre (el ave viva), llevando la señal de su sangre. Ya no estás enfermo ni condenado; ¡vuela en tu libertad!"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "titulo": "Levítico 15-17",
+    "tema": "La Sangre y la Expiación",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 15,
+      "fin": 17
+    },
+    "testamento": "antiguo",
+    "mensaje": "Nuestra naturaleza humana es frágil, pero Dios estableció un día y un medio (la sangre) para cubrir todas nuestras faltas y reconciliarnos con Él.",
+    "imagen": "../img/levitico15-17.webp",
+    "fecha": "10 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"El chivo expiatorio\" (Levítico 16)",
+        "texto": "En el Día de la Expiación (Yom Kippur), el sumo sacerdote ponía las manos sobre un chivo, confesaba los pecados del pueblo y lo enviaba al desierto.",
+        "mensaje": "Jesús es nuestro chivo expiatorio. Él cargó sobre sí mismo todas tus culpas y se las llevó lejos, 'al desierto', donde no pueden ser encontradas. No cargues con pecados que Cristo ya se llevó."
+      },
+      {
+        "titulo": "\"Una vez al año\" (Levítico 16)",
+        "texto": "El acceso al Lugar Santísimo estaba restringido a un solo día al año, mostrando la inmensa santidad de Dios.",
+        "mensaje": "Valora tu acceso a Dios. Hoy, gracias a Jesús, el velo está roto y puedes entrar cada día. No tomes por barata una entrada que costó tanta sangre y siglos de espera. ¡Entra confiadamente!"
+      },
+      {
+        "titulo": "\"La vida está en la sangre\" (Levítico 17)",
+        "texto": "Dios prohibió comer sangre porque 'la vida de la carne en la sangre está' y es dada para expiación.",
+        "mensaje": "La sangre es sagrada porque representa la vida misma. La sangre de Cristo es poderosa porque contiene la vida incorruptible de Dios. Cuando aplicas su sangre sobre tu vida, estás aplicando Vida Eterna sobre tu situación mortal."
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "titulo": "Levítico 18-19",
+    "tema": "Ética de Santidad",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 18,
+      "fin": 19
+    },
+    "testamento": "antiguo",
+    "mensaje": "Ser santo no es solo ritual, es ético: es amar al prójimo, respetar la familia y ser diferentes a la cultura corrupta que nos rodea.",
+    "imagen": "../img/levitico18-19.webp",
+    "fecha": "11 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"No haréis como hacen en Egipto\" (Levítico 18)",
+        "texto": "Dios advirtió a su pueblo no imitar las costumbres de donde venían (Egipto) ni a donde iban (Canaan).",
+        "mensaje": "No copies la cultura que te rodea. Dios te llama a ser contracultura. Si todo el mundo lo hace, no significa que esté bien. Tu estándar de moralidad y relaciones no lo define Netflix o la sociedad, lo define tu Creador."
+      },
+      {
+        "titulo": "\"Santos seréis, porque santo soy yo\" (Levítico 19)",
+        "texto": "Este es el corazón de Levítico. La motivación para la santidad no es ganar el cielo, sino parecerse a Papá.",
+        "mensaje": "La santidad es una cuestión de familia. Como hijos de Dios, llevamos su apellido y debemos reflejar su carácter. Buscamos ser puros, justos y amorosos porque así es nuestro Padre."
+      },
+      {
+        "titulo": "\"Amarás a tu prójimo como a ti mismo\" (Levítico 19)",
+        "texto": "Siglos antes de que Jesús lo citara, Levítico ya establecía que la verdadera santidad es amar al vecino, no guardar rencor y ser justo.",
+        "mensaje": "No puedes decir que amas a Dios si tratas mal a la gente. La santidad se mide en cómo tratas al empleado, al extranjero, al anciano y al vecino. El amor práctico es la liturgia más alta."
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "titulo": "Levítico 20-21",
+    "tema": "Separación Radical",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 20,
+      "fin": 21
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios protege la vida y la familia con advertencias severas. Quienes lideran espiritualmente tienen un estándar más alto porque representan a Dios ante el pueblo.",
+    "imagen": "../img/levitico20-21.webp",
+    "fecha": "12 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"No darás tus hijos a Molec\" (Levítico 20)",
+        "texto": "Dios condenó severamente la práctica pagana de sacrificar hijos a los ídolos. Él es un defensor celoso de la vida.",
+        "mensaje": "Cuidado con los 'ídolos' modernos a los que sacrificamos a nuestros hijos (el éxito desmedido, la falta de tiempo, la tecnología sin control). Protege a tu familia; son herencia de Dios, no combustible para el sistema."
+      },
+      {
+        "titulo": "\"Serán santos a su Dios\" (Levítico 21)",
+        "texto": "Los sacerdotes tenían restricciones mayores sobre con quién casarse y cómo comportarse en duelos.",
+        "mensaje": "El liderazgo tiene un precio. Si quieres ser usado por Dios para guiar a otros, debes aceptar que no puedes hacer todo lo que hacen los demás. Tu vida es un mensaje y requiere un nivel mayor de disciplina."
+      },
+      {
+        "titulo": "\"Sin defecto\" (Levítico 21)",
+        "texto": "En el Antiguo Pacto, los defectos físicos impedían servir en el altar, simbolizando la perfección requerida.",
+        "mensaje": "Hoy, en el Nuevo Pacto, tus defectos físicos o pasados no te descalifican, porque Cristo es tu perfección. Pero el principio espiritual sigue: Dios busca corazones íntegros (sin doblez) para ministrar en su presencia."
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "titulo": "Levítico 22-23",
+    "tema": "Fiestas y Tiempos",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 22,
+      "fin": 23
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios establece citas divinas (fiestas) para que no vivamos solo trabajando, sino que tengamos ritmos de descanso, memoria y celebración con Él.",
+    "imagen": "../img/levitico22-23.webp",
+    "fecha": "13 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"No profanaréis mi santo nombre\" (Levítico 22)",
+        "texto": "Ofrecer a Dios algo dañado o robado era profanar su nombre. Él merece respeto en nuestra adoración.",
+        "mensaje": "Dios no es un basurero para nuestras sobras. Cuando le damos lo peor de nuestro tiempo o recursos, estamos diciendo al mundo que Él no vale mucho. Hónralo dándole el primer lugar en todo."
+      },
+      {
+        "titulo": "\"Estas son mis fiestas\" (Levítico 23)",
+        "texto": "Dios diseñó un calendario de 7 fiestas (Pascua, Pentecostés, Tabernáculos, etc.) para que el pueblo recordara su historia.",
+        "mensaje": "Necesitas 'fiestas' espirituales. Momentos agendados para parar, recordar lo que Dios ha hecho y celebrar. No vivas en automático; crea ritmos de celebración y memoria en tu vida."
+      },
+      {
+        "titulo": "\"Afligiréis vuestras almas\" (Levítico 23)",
+        "texto": "El Día de la Expiación era un día de ayuno y reflexión profunda, obligatorio para todos.",
+        "mensaje": "Hay tiempos para celebrar y tiempos para 'afligir el alma' (ayunar y reflexionar). No huyas de los momentos de seriedad espiritual; son necesarios para recalibrar tu brújula y alinear tu corazón con Dios."
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "titulo": "Levítico 24-25",
+    "tema": "Luz y Libertad",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 24,
+      "fin": 25
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios quiere una luz continua en su casa y proclama libertad para los endeudados. Él es el verdadero dueño de todo y nosotros solo administradores.",
+    "imagen": "../img/levitico24-25.webp",
+    "fecha": "14 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Las lámparas arderán continuamente\" (Levítico 24)",
+        "texto": "Aarón debía arreglar las lámparas cada tarde y mañana. La luz nunca debía faltar ante la presencia de Dios.",
+        "mensaje": "Sé una lámpara constante. Tu testimonio no debe ser intermitente (solo los domingos). Dios busca gente que brille continuamente en medio de la oscuridad cotidiana. Mantén tu aceite (Espíritu Santo) fresco."
+      },
+      {
+        "titulo": "\"Pregonaréis libertad\" (El Jubileo - Levítico 25)",
+        "texto": "Cada 50 años (Jubileo), las deudas se cancelaban, los esclavos eran libres y las tierras volvían a sus dueños originales.",
+        "mensaje": "Dios es un Dios de segundas oportunidades y nuevos comienzos. El Evangelio es tu Jubileo eterno: tus deudas espirituales han sido borradas y has sido liberado de la esclavitud del pecado. ¡Vive como alguien libre!"
+      },
+      {
+        "titulo": "\"La tierra mía es\" (Levítico 25)",
+        "texto": "Dios recuerda que no podían vender la tierra para siempre porque Él es el verdadero dueño; ellos eran forasteros y arrendatarios.",
+        "mensaje": "Nada de lo que tienes es realmente tuyo; todo es prestado por Dios. Eres un administrador. Esta verdad te libera del afán por poseer y te hace generoso. Suelta el apego a lo material; tu verdadera herencia es el Señor."
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "titulo": "Levítico 26-27",
+    "tema": "Pacto y Consecuencia",
+    "referencia_biblica": {
+      "libro": "Levítico",
+      "inicio": 26,
+      "fin": 27
+    },
+    "testamento": "antiguo",
+    "mensaje": "La obediencia trae lluvia y paz; la desobediencia trae sequía y temor. Pero incluso en el juicio, Dios promete no olvidar su pacto si hay arrepentimiento.",
+    "imagen": "../img/levitico26-27.webp",
+    "fecha": "15 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Yo andaré entre vosotros\" (Levítico 26)",
+        "texto": "La mayor bendición prometida por la obediencia no era la lluvia ni la cosecha, sino la presencia manifiesta de Dios caminando con ellos.",
+        "mensaje": "El premio final de la fe no son las cosas, es Dios mismo. Si le obedeces, Él promete ser tu compañero de viaje. No busques solo su mano (sus regalos), busca su rostro (su presencia)."
+      },
+      {
+        "titulo": "\"Si confesaren su iniquidad\" (Levítico 26)",
+        "texto": "Aun si el pueblo fuera castigado y exiliado, Dios promete recordar su pacto si ellos humillan su corazón.",
+        "mensaje": "Nunca es demasiado tarde para volver. No importa cuán lejos te hayas ido o cuán duras sean las consecuencias que vives; si te vuelves a Dios con humildad, Él recordará su amor por ti. Su fidelidad es mayor que tu falla."
+      },
+      {
+        "titulo": "\"Cosa consagrada es\" (Levítico 27)",
+        "texto": "El libro termina hablando sobre la seriedad de cumplir las promesas y votos hechos a Dios.",
+        "mensaje": "Toma en serio tus promesas a Dios. Si le has dedicado tu vida, tu tiempo o tus recursos, eso es 'santo'. No juegues con tus compromisos espirituales. Sé una persona de palabra ante tu Creador."
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "titulo": "Números 1-2",
+    "tema": "Identidad y Orden",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 1,
+      "fin": 2
+    },
+    "testamento": "antiguo",
+    "mensaje": "No eres uno más en la multitud; te conozco por tu nombre. Tu vida tiene un lugar específico y ordenado alrededor de mi Presencia.",
+    "imagen": "../img/numeros1-2.webp",
+    "fecha": "16 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Contados por sus nombres\" (Números 1)",
+        "texto": "Dios mandó hacer un censo, contando a cada hombre 'por sus cabezas, por sus nombres'.",
+        "mensaje": "En mi Reino, nadie es anónimo. No eres una estadística ni un número de serie. Te conozco íntimamente, por tu nombre y tu linaje. Importas individualmente para mi plan eterno."
+      },
+      {
+        "titulo": "\"Acamparán alrededor\" (Números 2)",
+        "texto": "Cada tribu tenía un lugar asignado, pero todas acampaban mirando hacia el Tabernáculo, el centro del campamento.",
+        "mensaje": "El orden trae paz. Tu vida funciona mejor cuando Yo estoy en el centro. No importa cuál sea tu 'tribu' (tu trabajo, tu rol), asegúrate de que tu vida gire alrededor de mi Presencia y no al revés."
+      },
+      {
+        "titulo": "\"Cada uno junto a su bandera\" (Números 2)",
+        "texto": "Los israelitas debían acampar junto a la bandera de su casa paterna. Tenían un sentido de pertenencia.",
+        "mensaje": "Te he dado una identidad y una familia espiritual. No camines solo. Levanta tu estandarte con orgullo, sabiendo a quién perteneces y cuál es tu posición en mi ejército."
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "titulo": "Números 3-4",
+    "tema": "Servicio y Consagración",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 3,
+      "fin": 4
+    },
+    "testamento": "antiguo",
+    "mensaje": "Tu servicio es sagrado, sin importar si parece visible o invisible. Te he escogido para cargar mi presencia y cuidar los detalles de mi casa.",
+    "imagen": "../img/numeros3-4.webp",
+    "fecha": "17 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Los he tomado para mí\" (Números 3)",
+        "texto": "Dios escogió a los levitas en lugar de los primogénitos para dedicarse exclusivamente al servicio del santuario.",
+        "mensaje": "Eres apartado para Mí. Mi elección sobre tu vida es un acto de redención. No veas tu servicio a Dios como una carga, sino como el honor de haber sido seleccionado personalmente para estar cerca de Mí."
+      },
+      {
+        "titulo": "\"El cuidado de lo sagrado\" (Números 4)",
+        "texto": "Los coatitas debían llevar los muebles sagrados sobre sus hombros, con sumo cuidado de no tocar lo santo para no morir.",
+        "mensaje": "Trata las cosas de Dios con reverencia. Tu ministerio o tu servicio no es una tarea mecánica; estás manejando cosas santas. Llevar mi presencia sobre tus hombros requiere santidad y atención al detalle."
+      },
+      {
+        "titulo": "\"Cada uno en su oficio\" (Números 4)",
+        "texto": "Unos llevaban las cortinas, otros las tablas, otros los utensilios. Nadie era menos importante; todos eran necesarios para mover el Tabernáculo.",
+        "mensaje": "No menosprecies tu función. Quizás te toca llevar 'estacas y cuerdas' (tareas invisibles), pero sin ti, mi casa no se sostiene. Yo valoro tu fidelidad en lo pequeño tanto como la del que ministra en público."
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "titulo": "Números 5-6",
+    "tema": "Bendición y Santidad",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 5,
+      "fin": 6
+    },
+    "testamento": "antiguo",
+    "mensaje": "Deseo bendecirte y guardarte, pero la bendición fluye mejor en un canal limpio. La confesión y la consagración abren la puerta a mi favor.",
+    "imagen": "../img/numeros5-6.webp",
+    "fecha": "18 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Confesarán su pecado\" (Números 5)",
+        "texto": "Para mantener la pureza del campamento, si alguien pecaba, debía confesarlo y restituir el daño.",
+        "mensaje": "La santidad requiere honestidad. No escondas tu basura 'debajo de la alfombra'. La confesión te libera y restaura tus relaciones. Mantén cuentas cortas conmigo y con tu prójimo."
+      },
+      {
+        "titulo": "\"El voto de nazareo\" (Números 6)",
+        "texto": "Cualquier persona podía hacer un voto especial de consagración (nazareato), absteniéndose de vino y dejando crecer su cabello.",
+        "mensaje": "A veces te llamaré a temporadas de consagración extra. A decir 'no' a cosas lícitas (como el vino) para buscarme con mayor intensidad. Esos tiempos de separación desatan un poder espiritual especial en tu vida."
+      },
+      {
+        "titulo": "\"Jehová te bendiga y te guarde\" (Números 6)",
+        "texto": "La famosa bendición sacerdotal: Jehová haga resplandecer su rostro sobre ti y ponga en ti paz.",
+        "mensaje": "Mi deseo final para ti es bendición, no maldición. Quiero poner mi Nombre sobre ti. Quiero mirarte cara a cara y darte paz. Recibe hoy mi favor; eres mi hijo amado y me deleito en bendecirte."
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "titulo": "Números 7-8",
+    "tema": "Ofrenda y Luz",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 7,
+      "fin": 8
+    },
+    "testamento": "antiguo",
+    "mensaje": "Me fijo en cada detalle de lo que me das. Tu generosidad y tu luz son necesarias para que mi obra avance y mi presencia brille.",
+    "imagen": "../img/numeros7-8.webp",
+    "fecha": "19 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Ofrendaron uno por uno\" (Números 7)",
+        "texto": "Aunque las ofrendas de los príncipes eran idénticas, Dios mandó registrarlas detalladamente día por día, no todas juntas.",
+        "mensaje": "Yo noto tu ofrenda personal. No eres parte de un 'paquete'. Valoro tu sacrificio individual, tu tiempo y tu generosidad. Ningún detalle de lo que me das pasa desapercibido ante mis ojos."
+      },
+      {
+        "titulo": "\"Para que alumbren hacia adelante\" (Números 8)",
+        "texto": "Las siete lámparas del candelabro debían colocarse de forma que iluminaran hacia el frente.",
+        "mensaje": "Tu luz debe tener propósito: iluminar el camino para otros y apuntar hacia Mí. No brilles para tu propia gloria. Deja que tu testimonio alumbre 'hacia adelante', guiando a otros a la verdad."
+      },
+      {
+        "titulo": "\"Purifícalos\" (Números 8)",
+        "texto": "Los levitas debían ser purificados con agua y rasurados antes de servir. Eran ofrecidos como ofrenda viva.",
+        "mensaje": "El servicio a Dios empieza con la limpieza. Antes de hacer cosas para Mí, permite que Yo trabaje en ti. Una vida purificada es una herramienta mucho más afilada y útil en mis manos."
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "titulo": "Números 9-11",
+    "tema": "Dirección y Queja",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 9,
+      "fin": 11
+    },
+    "testamento": "antiguo",
+    "mensaje": "Yo marco tus tiempos y te guío día y noche. No dejes que la queja amargue tu alma; aprende a confiar en mi provisión aunque no sea lo que se te antoja.",
+    "imagen": "../img/numeros9-11.webp",
+    "fecha": "20 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Al mandato de Jehová\" (Números 9)",
+        "texto": "El pueblo acampaba o marchaba solo cuando la nube se movía, ya fuera de día o de noche, por dos días o un año.",
+        "mensaje": "Aprende a moverte a mi ritmo. A veces te pediré que esperes mucho tiempo en un lugar; otras veces, que te muevas rápido. Tu seguridad está en seguir mi Nube (mi Espíritu), no en tu propia prisa o comodidad."
+      },
+      {
+        "titulo": "\"Nuestra alma tiene fastidio\" (Números 11)",
+        "texto": "El pueblo se quejó del maná y pidió carne, recordando con nostalgia la comida de Egipto.",
+        "mensaje": "La queja es peligrosa; ofende mi cuidado paternal. No desprecies mi provisión diaria (el maná) deseando los placeres de tu vida pasada (Egipto). La gratitud abre puertas, pero la queja trae sequedad espiritual."
+      },
+      {
+        "titulo": "\"Tomaré del espíritu que está en ti\" (Números 11)",
+        "texto": "Moisés no podía solo con la carga. Dios puso de su Espíritu en 70 ancianos para que le ayudaran.",
+        "mensaje": "No tienes que llevar la carga solo. Pedir ayuda no es debilidad, es sabiduría. He puesto personas a tu alrededor con mi Espíritu para compartir el peso. Déjate ayudar y comparte la visión."
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "titulo": "Números 12-14",
+    "tema": "Fe vs. Miedo",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 12,
+      "fin": 14
+    },
+    "testamento": "antiguo",
+    "mensaje": "El miedo te hace ver gigantes donde Yo veo pan. La incredulidad te roba la promesa, pero un espíritu diferente conquista lo imposible.",
+    "imagen": "../img/numeros12-14.webp",
+    "fecha": "21 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Moisés era muy manso\" (Números 12)",
+        "texto": "Míriam y Aarón criticaron a Moisés. Él no se defendió, pero Dios escuchó y salió en su defensa.",
+        "mensaje": "Cuando te critiquen injustamente, no necesitas defenderte tú mismo. Mantén tu corazón manso y humilde. Yo soy tu defensa. Quien se mete contigo, se mete conmigo. Deja tu reputación en mis manos."
+      },
+      {
+        "titulo": "\"Éramos como langostas\" (Números 13)",
+        "texto": "Diez espías vieron gigantes y se sintieron pequeños. Josué y Caleb vieron a Dios y dijeron: 'Más podremos nosotros'.",
+        "mensaje": "El problema no son los gigantes, es cómo te ves a ti mismo frente a ellos. Si te ves pequeño, perderás. Si ves cuán grande Soy Yo contigo, los gigantes son 'pan comido'. Tu perspectiva define tu victoria."
+      },
+      {
+        "titulo": "\"Como he hablado a mis oídos\" (Números 14)",
+        "texto": "El pueblo dijo 'ojalá muriéramos en el desierto', y Dios les concedió lo que dijeron. Solo Caleb y Josué entraron.",
+        "mensaje": "Tus palabras tienen poder de vida o muerte. Si declaras derrota, tendrás derrota. Ten un 'espíritu diferente' como Caleb; habla fe cuando todos hablan miedo. Yo te daré la tierra que tus pies pisen con fe."
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "titulo": "Números 15-16",
+    "tema": "Autoridad y Esperanza",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 15,
+      "fin": 16
+    },
+    "testamento": "antiguo",
+    "mensaje": "Aun después de fallar, te doy leyes para tu futuro. Respeta el orden que he establecido, porque la rebelión y la envidia traen destrucción.",
+    "imagen": "../img/numeros15-16.webp",
+    "fecha": "22 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Cuando entréis en la tierra\" (Números 15)",
+        "texto": "Justo después de condenarlos a vagar 40 años, Dios les da leyes para 'cuando entren'. Les reafirma que la promesa sigue en pie para sus hijos.",
+        "mensaje": "Mis planes pueden retrasarse por tu incredulidad, pero no se cancelan. Todavía tengo futuro para ti y tus generaciones. Incluso en medio de la disciplina, te hablo de esperanza y de la tierra que heredarás."
+      },
+      {
+        "titulo": "\"¡Basta ya de vosotros!\" (Números 16)",
+        "texto": "Coré se rebeló contra Moisés por envidia, queriendo el sacerdocio para sí, y la tierra se abrió y los tragó.",
+        "mensaje": "Cuidado con la envidia y la ambición de poder. No trates de usurpar lugares que no te he dado. Honra a las autoridades que he puesto. Florece donde te planté en lugar de codiciar la posición de otro."
+      },
+      {
+        "titulo": "\"Ponte entre los muertos y los vivos\" (Números 16)",
+        "texto": "Aarón corrió con el incensario en medio de la plaga para detener la mortandad y salvar al pueblo rebelde.",
+        "mensaje": "Esta es la labor del intercesor: pararse en la brecha. Aunque la gente te falle o critique, ora por ellos. Tu oración tiene poder para detener la muerte y traer sanidad. Sé un agente de vida."
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "titulo": "Números 17-19",
+    "tema": "Vida y Purificación",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 17,
+      "fin": 19
+    },
+    "testamento": "antiguo",
+    "mensaje": "Yo soy quien escoge y da vida a lo que estaba seco. He provisto un camino para limpiarte de toda muerte y contaminación.",
+    "imagen": "../img/numeros17-19.webp",
+    "fecha": "23 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"La vara que reverdeció\" (Números 17)",
+        "texto": "Para confirmar la elección de Aarón, Dios hizo que su vara seca floreciera y diera almendras en una noche.",
+        "mensaje": "La verdadera señal de mi respaldo no es el ruido, es el fruto. Puedo hacer que tu vida 'reverdezca' aunque te sientas seco o viejo. Donde hay vida sobrenatural y fruto, allí está mi elección."
+      },
+      {
+        "titulo": "\"Pacto de sal\" (Números 18)",
+        "texto": "Dios promete cuidar de los sacerdotes y sus familias perpetuamente. Ellos no tendrían heredad terrenal; Dios sería su heredad.",
+        "mensaje": "Si te dedicas a mis asuntos, Yo me dedico a los tuyos. No te preocupes por tu futuro financiero si me estás sirviendo. Yo soy tu herencia, tu salario y tu seguridad. Mi pacto contigo es inquebrantable."
+      },
+      {
+        "titulo": "\"El agua de la purificación\" (Números 19)",
+        "texto": "Las cenizas de la vaca alazana se usaban para preparar agua que limpiaba la inmundicia de muerte.",
+        "mensaje": "Vives en un mundo contaminado por la muerte y el pecado. Necesitas limpieza constante. La sangre de Jesús y el agua de mi Palabra están siempre disponibles para lavarte la conciencia y restaurar tu comunión conmigo."
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "titulo": "Números 20-22",
+    "tema": "Obediencia y Protección",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 20,
+      "fin": 22
+    },
+    "testamento": "antiguo",
+    "mensaje": "Confía en mis métodos, no solo en mi poder. Yo transformo las maldiciones en bendiciones y peleo batallas que tú ni siquiera ves.",
+    "imagen": "../img/numeros20-22.webp",
+    "fecha": "24 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Háblale a la roca\" (Números 20)",
+        "texto": "Moisés golpeó la roca con ira en lugar de hablarle como Dios mandó. El agua salió, pero le costó la entrada a la tierra.",
+        "mensaje": "La obediencia es precisa. No hagas las cosas 'a tu manera' solo porque funciona. Me importa más tu corazón y tu obediencia que tus resultados. Honra mi santidad en todo lo que haces."
+      },
+      {
+        "titulo": "\"La serpiente de bronce\" (Números 21)",
+        "texto": "El pueblo murmuró y fue mordido por serpientes. Dios mandó mirar una serpiente de bronce para ser sanados.",
+        "mensaje": "La cura para el veneno del pecado es mirar a la cruz. Deja de mirar tus heridas y mira a Jesús, quien se hizo maldición por ti para que fueras salvo. Pon tus ojos en Él y vivirás."
+      },
+      {
+        "titulo": "\"Balaam es contratado\" (Números 22)",
+        "texto": "El rey Balak contrató a un brujo para maldecir a Israel. Israel ni siquiera sabía lo que estaba pasando en las montañas.",
+        "mensaje": "Hay batallas espirituales sucediendo ahora mismo que tú desconoces. El enemigo planea maldecirte, pero Yo estoy interponiéndome. No temas a la brujería ni a las malas intenciones; mi protección te cubre aunque no lo veas."
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "titulo": "Números 23-25",
+    "tema": "Bendición Irrevocable",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 23,
+      "fin": 25
+    },
+    "testamento": "antiguo",
+    "mensaje": "Nadie puede maldecir lo que Yo he bendecido. Pero ten cuidado: lo que el enemigo no logra con poder, intentará lograrlo con seducción.",
+    "imagen": "../img/numeros23-25.webp",
+    "fecha": "25 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Dios no es hombre para que mienta\" (Números 23)",
+        "texto": "Balaam tuvo que confesar: 'He recibido orden de bendecir... no hay agüero contra Jacob'.",
+        "mensaje": "Lo que he dicho de ti, se cumplirá. No cambio de opinión. Ninguna maldición externa puede tocarte si estás en mi voluntad. Eres irrevocable e irreversiblemente bendecido por Mí."
+      },
+      {
+        "titulo": "\"Lo que ve Dios\" (Números 23)",
+        "texto": "Dios declaró: 'No ha notado iniquidad en Jacob'. A pesar de sus defectos, Dios los veía a través del pacto.",
+        "mensaje": "Cuando te miro a través de la sangre de Jesús, no veo tus fallas pasadas, veo tu potencial y mi justicia en ti. Eres mi pueblo especial, apartado y protegido."
+      },
+      {
+        "titulo": "\"La trampa de Baal-peor\" (Números 25)",
+        "texto": "Lo que Balaam no pudo hacer con maldiciones, lo logró con seducción. El pueblo cayó en inmoralidad e idolatría.",
+        "mensaje": "Cuidado cuando el enemigo cambia de estrategia. Si no puede destruirte con ataques frontales, tratará de seducirte para que tú mismo rompas el pacto. Guarda tu corazón de la mezcla con el mundo y la inmoralidad."
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "titulo": "Números 26-27",
+    "tema": "Herencia y Transición",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 26,
+      "fin": 27
+    },
+    "testamento": "antiguo",
+    "mensaje": "Soy el Dios de los nuevos comienzos. Pídeme tu herencia con valentía, porque tengo un lugar reservado para ti y para las nuevas generaciones.",
+    "imagen": "../img/numeros26-27.webp",
+    "fecha": "26 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"El nuevo censo\" (Números 26)",
+        "texto": "Después de la plaga, Dios contó a la nueva generación. La generación incrédula había muerto; era tiempo de un nuevo comienzo.",
+        "mensaje": "El pasado quedó atrás. Estoy levantando una nueva generación de fe que poseerá lo que sus padres perdieron. Prepárate para entrar en tu promesa; es tiempo de reinicio."
+      },
+      {
+        "titulo": "\"Danos heredad\" (Números 27)",
+        "texto": "Las hijas de Zelofehad tuvieron la valentía de pedir herencia aunque la ley no las favorecía, y Dios les dio la razón.",
+        "mensaje": "Me agrada la fe valiente que reclama sus promesas. No te conformes con lo que dice la tradición o la cultura. Si hay una promesa en mi Palabra, pídela. Acércate con confianza y reclama tu herencia en Cristo."
+      },
+      {
+        "titulo": "\"Un hombre en quien hay espíritu\" (Números 27)",
+        "texto": "Moisés pasa el liderazgo a Josué. La obra de Dios continúa más allá de una sola persona.",
+        "mensaje": "Mi propósito es eterno y trasciende a las personas. Confía en los nuevos líderes que levanto. Sé un mentor que prepara a otros (como Moisés) o un sucesor lleno del Espíritu (como Josué) listo para tomar la antorcha."
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "titulo": "Números 28-29",
+    "tema": "Adoración Constante",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 28,
+      "fin": 29
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dame tu tiempo. La adoración no es un evento aislado, es un estilo de vida de entrega diaria, mensual y anual.",
+    "imagen": "../img/numeros28-29.webp",
+    "fecha": "27 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"Mi ofrenda a su tiempo\" (Números 28)",
+        "texto": "Dios reitera la importancia de las ofrendas diarias (mañana y tarde), sabáticas y mensuales.",
+        "mensaje": "La constancia es clave en nuestra relación. No me busques solo cuando tienes problemas. Deseo una comunión diaria contigo, 'mañana y tarde'. La fidelidad en lo cotidiano construye una vida espiritual sólida."
+      },
+      {
+        "titulo": "\"Día de gran celebración\" (Números 29)",
+        "texto": "Se describen las fiestas del séptimo mes, llenas de sacrificios y alegría.",
+        "mensaje": "Quiero que celebres conmigo. Mi Reino no es solo disciplina, es gozo y fiesta. Dedica tiempos especiales para agradecer y celebrar mis bondades. Un corazón agradecido es un altar donde me gusta habitar."
+      },
+      {
+        "titulo": "\"Olor grato\" (Números 28-29)",
+        "texto": "Esta frase se repite docenas de veces. La obediencia y adoración del pueblo eran un perfume para Dios.",
+        "mensaje": "Tu vida puede ser un perfume para Mí. Cuando obedeces, adoras y te entregas, produces un aroma espiritual que cambia la atmósfera. Sé un olor grato de Cristo en medio de este mundo."
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "titulo": "Números 30-31",
+    "tema": "Palabra y Justicia",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 30,
+      "fin": 31
+    },
+    "testamento": "antiguo",
+    "mensaje": "Cumple tus promesas, porque Yo tomo en serio tus palabras. Soy un Dios de justicia que pelea por su pueblo y limpia el mal de en medio de ellos.",
+    "imagen": "../img/numeros30-31.webp",
+    "fecha": "28 de Febrero",
+    "explicacion": [
+      {
+        "titulo": "\"No invalidará su palabra\" (Números 30)",
+        "texto": "Moisés enseña sobre la seriedad de los votos y promesas hechos a Dios.",
+        "mensaje": "Sé íntegro. Que tu 'sí' sea 'sí'. No prometas cosas a Dios o a los hombres que no piensas cumplir. Tu palabra tiene valor y define tu carácter. Honra tus compromisos como Yo honro los míos contigo."
+      },
+      {
+        "titulo": "\"La venganza de Jehová\" (Números 31)",
+        "texto": "Dios ordenó la guerra contra Madián por haber seducido a Israel al pecado. Fue un acto de justicia divina.",
+        "mensaje": "No tomes venganza por tu propia mano, pero confía en que Yo soy un Dios justo. Yo pelearé contra aquello que trata de destruir tu alma (el pecado, la tentación). Sé radical al cortar con lo que te hace caer."
+      },
+      {
+        "titulo": "\"Purificad todo\" (Números 31)",
+        "texto": "Todo el botín de guerra tuvo que ser purificado por fuego o por agua antes de entrar al campamento.",
+        "mensaje": "No traigas cosas contaminadas a tu vida. Todo lo que recibes debe ser santificado. Cuida lo que entra en tu casa y en tu corazón. Vive una vida probada por fuego y lavada por agua."
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "titulo": "Números 32-33",
+    "tema": "Compromiso a Medias",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 32,
+      "fin": 33
+    },
+    "testamento": "antiguo",
+    "mensaje": "No busques tu propia comodidad antes de que tus hermanos tengan paz. Dios lleva un registro detallado de tu viaje para que recuerdes su fidelidad en cada etapa.",
+    "imagen": "../img/numeros32-33.webp",
+    "fecha": "1 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"No nos hagas pasar el Jordán\"",
+        "texto": "Las tribus de Rubén y Gad pidieron quedarse en la tierra que ya habían conquistado porque era buena para su ganado, sin cruzar a la Tierra Prometida.",
+        "mensaje": "Cuidado con el conformismo. A veces nos enamoramos de lo 'bueno' (la comodidad, lo material) y renunciamos a lo 'mejor' (la plenitud de la promesa de Dios). No te instales antes de tiempo."
+      },
+      {
+        "titulo": "\"¿Irán vuestros hermanos a la guerra y vosotros os quedaréis aquí?\"",
+        "texto": "Moisés reprendió su actitud egoísta. No podían descansar hasta que todas las tribus tuvieran su heredad.",
+        "mensaje": "En el Reino de Dios, no se vale buscar solo tu propio bienestar. Si tus hermanos siguen en batalla, tu compromiso es apoyarlos. La verdadera unidad es luchar hasta que todos ganen."
+      },
+      {
+        "titulo": "\"Escribió Moisés las salidas conforme a sus jornadas\"",
+        "texto": "Dios mandó registrar cada parada del desierto, desde Egipto hasta el Jordán.",
+        "mensaje": "Tu historia importa. Dios anota cada etapa de tu proceso, incluso los momentos difíciles en el desierto. Mirar atrás no es para volver, sino para ver la fidelidad de Dios en cada kilómetro recorrido."
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "titulo": "Números 34-36",
+    "tema": "Herencia y Refugio",
+    "referencia_biblica": {
+      "libro": "Números",
+      "inicio": 34,
+      "fin": 36
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios define tus límites para protegerte, provee refugio para tus errores y asegura que tu herencia no se pierda. Él es un Dios de justicia y protección.",
+    "imagen": "../img/numeros34-36.webp",
+    "fecha": "2 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Estos son los límites\"",
+        "texto": "Dios marcó fronteras específicas para la tierra. No era un territorio vago, tenía un diseño preciso.",
+        "mensaje": "Los límites no son para restringirte, sino para darte identidad y seguridad. Dios te ha asignado un territorio de influencia (familia, ministerio, trabajo). Florece allí y no codicies lo que está fuera de tu asignación."
+      },
+      {
+        "titulo": "\"Ciudades de refugio\"",
+        "texto": "Se establecieron ciudades donde el que mataba por accidente podía huir y salvarse del vengador.",
+        "mensaje": "Cristo es nuestra Ciudad de Refugio. Cuando fallamos, la ley exige pago, pero la gracia nos da un lugar donde correr. No huyas DE Dios cuando te equivoques, huye HACIA Él. En Él estás seguro."
+      },
+      {
+        "titulo": "\"Para que la heredad no pase a otra tribu\"",
+        "texto": "Se legisló para proteger la propiedad de las hijas de Zelofehad, asegurando que el legado familiar se mantuviera.",
+        "mensaje": "Dios cuida lo que te ha dado. Él es celoso de tu herencia espiritual. No permitas que el enemigo o las malas decisiones roben el legado que Dios preparó para ti y tus generaciones."
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "titulo": "Deuteronomio 1-2",
+    "tema": "Memoria y Avance",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 1,
+      "fin": 2
+    },
+    "testamento": "antiguo",
+    "mensaje": "Habéis estado bastante tiempo en este monte. Es hora de dejar de dar vueltas a los mismos problemas y avanzar, confiando en que Dios pelea por vosotros.",
+    "imagen": "../img/deuteronomio1-2.webp",
+    "fecha": "3 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Bastante habéis estado en este monte\"",
+        "texto": "Dios les ordenó romper el campamento. Llevaban demasiado tiempo estancados sin avanzar.",
+        "mensaje": "¿En qué área de tu vida llevas años dando vueltas a la misma montaña (el mismo pecado, la misma queja)? El estancamiento disfrazado de estabilidad es peligroso. Hoy Dios te dice: ¡Levanta el campamento y avanza!"
+      },
+      {
+        "titulo": "\"Jehová vuestro Dios os ha bendecido\"",
+        "texto": "Moisés les recuerda que en 40 años de desierto, 'nada te ha faltado'.",
+        "mensaje": "Antes de enfrentar los gigantes nuevos, recuerda las victorias viejas. Si Dios te sostuvo cuando no tenías nada en el desierto, ¿cómo no te va a sostener ahora que vas a la conquista? Tu confianza está en su fidelidad probada."
+      },
+      {
+        "titulo": "\"No os metáis con ellos\"",
+        "texto": "Dios les prohibió atacar a los descendientes de Esaú y de Lot, porque Él ya les había dado su propia tierra.",
+        "mensaje": "No todas las guerras son tuyas. Aprende a discernir qué batallas pelear y cuáles ignorar. No codicies la posición o el territorio de otro; enfócate en conquistar lo que Dios te prometió a ti."
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "titulo": "Deuteronomio 3-4",
+    "tema": "Obediencia y Fuego",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 3,
+      "fin": 4
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios es Fuego Consumidor y Dios Celoso. No hay otro como Él. Guardar sus palabras es vuestra sabiduría ante los ojos de las naciones.",
+    "imagen": "../img/deuteronomio3-4.webp",
+    "fecha": "4 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"No pases tú este Jordán\"",
+        "texto": "Moisés rogó entrar a la tierra, pero Dios le dijo: 'Basta, no me hables más de este asunto'.",
+        "mensaje": "Aceptar un 'No' de Dios requiere madurez. A veces tu rol es preparar el camino para que otros (tu Josué) entren donde tú no pudiste. Tu legado vale más que tu presencia física. Confía en la soberanía de Dios."
+      },
+      {
+        "titulo": "\"No añadiréis ni disminuiréis\"",
+        "texto": "La Palabra de Dios es perfecta. No podemos editarla para que se ajuste a nuestra cultura o comodidad.",
+        "mensaje": "El cristianismo 'a la carta' no existe. La obediencia parcial es desobediencia. Acepta la Palabra completa, con sus promesas y sus demandas. Ahí radica tu verdadera sabiduría."
+      },
+      {
+        "titulo": "\"Porque Dios celoso es\"",
+        "texto": "Dios se presenta como Fuego Consumidor. Él ama con una pasión que no admite rivales.",
+        "mensaje": "Los celos de Dios no son inseguridad, son protección. Él sabe que cualquier otro 'dios' (dinero, ego, placer) te destruirá. Él exige ser el único en el trono de tu corazón para poder preservarte con vida."
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "titulo": "Deuteronomio 5-7",
+    "tema": "El Gran Mandamiento",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 5,
+      "fin": 7
+    },
+    "testamento": "antiguo",
+    "mensaje": "Escucha, Israel: Amarás al Señor tu Dios con todo tu ser. Enséñalo a tus hijos, porque fuiste elegido por amor y no por mérito.",
+    "imagen": "../img/deuteronomio5-7.webp",
+    "fecha": "5 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Shemá Israel\" (Oye, Israel)",
+        "texto": "Jehová nuestro Dios, Jehová uno es. Y amarás a Jehová tu Dios de todo tu corazón, y de toda tu alma, y con todas tus fuerzas.",
+        "mensaje": "Este es el centro de todo. Dios no quiere solo tu obediencia externa, quiere tu afecto total. Ámalo con la mente, con las emociones y con la voluntad. Todo lo que hagas debe fluir de este amor apasionado."
+      },
+      {
+        "titulo": "\"Las repetirás a tus hijos\"",
+        "texto": "La fe se transmite en casa: al andar por el camino, al acostarte y al levantarte.",
+        "mensaje": "Tu hogar es la primera escuela de teología. No delegues la fe de tus hijos solo a la iglesia. Habla de Dios en la cena, en el auto, en lo cotidiano. Que vean que Dios es real en tu vida diaria, no solo un ritual de domingo."
+      },
+      {
+        "titulo": "\"No por ser los más numerosos\"",
+        "texto": "Dios no los eligió por ser grandes o fuertes, sino 'porque Jehová os amó'.",
+        "mensaje": "Quítate el peso de tener que impresionar a Dios. Él no te eligió por tus talentos, tu fuerza o tu bondad. Te eligió simplemente porque te ama. Su elección se basa en Su carácter, no en tus méritos."
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "titulo": "Deuteronomio 8-10",
+    "tema": "Humildad y Gratitud",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 8,
+      "fin": 10
+    },
+    "testamento": "antiguo",
+    "mensaje": "No digas en tu corazón 'mi poder hizo esta riqueza'. Recuerda que Él te da el poder. Lo que Dios pide de ti es sencillo: teme, ama y sirve.",
+    "imagen": "../img/deuteronomio8-10.webp",
+    "fecha": "6 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Para probarte\"",
+        "texto": "Te hizo pasar hambre y te dio maná para saber lo que había en tu corazón.",
+        "mensaje": "Las pruebas revelan lo que realmente eres. El desierto no forma el carácter, lo revela. Dios permite la escasez a veces para enseñarte que tu fuente no es el pan, sino Su Palabra. Aprende la lección de la dependencia."
+      },
+      {
+        "titulo": "\"No digas: Mi poder...\"",
+        "texto": "Cuando tengas casas llenas y oro multiplicado, cuídate de olvidar a Jehová. Él es quien te da el poder para hacer las riquezas.",
+        "mensaje": "El éxito es una prueba más difícil que el fracaso. Cuando te vaya bien, lucha contra el orgullo. No eres un 'hombre hecho a sí mismo'; eres un producto de la gracia. Todo lo que tienes vino de Él."
+      },
+      {
+        "titulo": "\"¿Qué pide Jehová de ti?\"",
+        "texto": "Solamente que temas a Jehová, que andes en sus caminos, que lo ames y sirvas con todo tu corazón.",
+        "mensaje": "No compliques la fe. Dios no pide cosas imposibles. Pide respeto (temor), dirección (caminos), afecto (amor) y acción (servicio). Si vives estos cuatro verbos, estás viviendo en el centro de su voluntad."
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "titulo": "Deuteronomio 11-13",
+    "tema": "Bendición y Advertencia",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 11,
+      "fin": 13
+    },
+    "testamento": "antiguo",
+    "mensaje": "La obediencia trae lluvia, la desobediencia trae sequía. Cuidado con los falsos profetas que hacen milagros pero te alejan de la verdad.",
+    "imagen": "../img/deuteronomio11-13.webp",
+    "fecha": "7 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"La tierra que cuida Jehová\"",
+        "texto": "La tierra prometida no es como Egipto (que requiere esfuerzo humano para regar); es tierra que bebe del agua de la lluvia del cielo.",
+        "mensaje": "Pasas de una vida de esfuerzo propio (Egipto) a una vida de dependencia divina (Canaan). Deja de tratar de 'bombear agua' con tus fuerzas y empieza a mirar al cielo. Tu provisión depende de tu relación con Dios."
+      },
+      {
+        "titulo": "\"Pongo delante de ti la bendición y la maldición\"",
+        "texto": "Dios da a elegir. No impone su voluntad, pero advierte las consecuencias claras de cada camino.",
+        "mensaje": "Tu vida hoy es el resultado de las decisiones de ayer. Dios te da la libertad de elegir, pero te ruega que elijas la vida y la bendición. La obediencia no es una carga, es el camino a la plenitud."
+      },
+      {
+        "titulo": "\"Si se levantare profeta...\"",
+        "texto": "Aunque haga señales y prodigios, si te dice 'vamos en pos de dioses ajenos', no lo escuches.",
+        "mensaje": "No te dejes deslumbrar por los milagros o el carisma. La prueba de un verdadero ministro no es el poder, es la verdad. Si alguien te aleja de la Biblia o de la santidad, sal de ahí, por muy espectacular que parezca."
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "titulo": "Deuteronomio 14-16",
+    "tema": "Santidad y Celebración",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 14,
+      "fin": 16
+    },
+    "testamento": "antiguo",
+    "mensaje": "Sois hijos de Dios, vivid diferentes. La generosidad con el pobre y la celebración de las fiestas mantienen el corazón alegre y libre de avaricia.",
+    "imagen": "../img/deuteronomio14-16.webp",
+    "fecha": "8 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Eres pueblo santo\"",
+        "texto": "Las leyes sobre comida limpia y diezmos recordaban que eran diferentes a las naciones vecinas.",
+        "mensaje": "Tu identidad define tu estilo de vida. No puedes hacer todo lo que hace el mundo porque tú tienes un Dueño diferente. La santidad es simplemente vivir a la altura de quien eres: un hijo de Dios."
+      },
+      {
+        "titulo": "\"No endurezcas tu corazón\"",
+        "texto": "Dios manda abrir la mano al hermano pobre y prestarle sin usura. 'Porque no faltarán menesterosos en la tierra'.",
+        "mensaje": "La generosidad es el antídoto contra el egoísmo. Dios te bendice para que seas un canal, no un depósito. Cuando das al necesitado, estás invirtiendo en el banco del cielo y rompiendo el poder de la avaricia."
+      },
+      {
+        "titulo": "\"Te alegrarás delante de Jehová\"",
+        "texto": "Las fiestas (Pascua, Semanas, Tabernáculos) eran mandatos de gozo y memoria.",
+        "mensaje": "Dios quiere que disfrutes tu relación con Él. La fe no es solo ayuno y seriedad; es fiesta, memoria y gratitud. Celebra tus victorias y recuerda que fuiste esclavo y ahora eres libre."
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "titulo": "Deuteronomio 17-19",
+    "tema": "Justicia y Liderazgo",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 17,
+      "fin": 19
+    },
+    "testamento": "antiguo",
+    "mensaje": "La justicia es el fundamento del trono de Dios. Los líderes (reyes, sacerdotes, profetas) deben estar sujetos a la Ley, no por encima de ella.",
+    "imagen": "../img/deuteronomio17-19.webp",
+    "fecha": "9 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"No se desviará su corazón\"",
+        "texto": "El rey debía escribir una copia de la ley y leerla todos los días para no elevar su corazón sobre sus hermanos.",
+        "mensaje": "El verdadero liderazgo es servicio, no superioridad. La única forma de mantener el corazón humilde cuando tienes poder es estar saturado de la Palabra de Dios. Si dejas de leerla, empezarás a creerte el dueño del trono."
+      },
+      {
+        "titulo": "\"Profeta les levantaré\"",
+        "texto": "Moisés profetiza la venida de un profeta como él (Jesús), a quien todos deben escuchar.",
+        "mensaje": "Toda la Escritura apunta a Cristo. Moisés fue grande, pero Jesús es el Profeta definitivo. Él es la voz de Dios que debemos obedecer. No busques nuevas revelaciones fuera de Él."
+      },
+      {
+        "titulo": "\"Justicia, justicia perseguirás\"",
+        "texto": "Dios aborrece el soborno y la parcialidad en el juicio.",
+        "mensaje": "Sé íntegro. En tus tratos, en tu negocio, en tus palabras. Dios es justo y espera que sus hijos reflejen esa justicia. No te dejes comprar ni tuerzas la verdad por conveniencia."
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "titulo": "Deuteronomio 20-22",
+    "tema": "Ética y Compasión",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 20,
+      "fin": 22
+    },
+    "testamento": "antiguo",
+    "mensaje": "Aun en la guerra, Dios pone límites. La bondad de Dios se extiende hasta el cuidado de los animales y la protección de la reputación del prójimo.",
+    "imagen": "../img/deuteronomio20-22.webp",
+    "fecha": "10 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"No temas, porque Jehová va contigo\"",
+        "texto": "Antes de la batalla, el sacerdote debía animar al pueblo. Pero los miedosos debían volver a casa para no contagiar el temor.",
+        "mensaje": "El miedo es contagioso, pero la fe también. Dios quiere guerreros que confíen en Su presencia, no en su número. Si Dios va contigo, la victoria no depende del tamaño del enemigo."
+      },
+      {
+        "titulo": "\"No verás el asno de tu hermano caído\"",
+        "texto": "Dios manda ayudar incluso con los animales perdidos o caídos del prójimo. No puedes hacerte el desentendido.",
+        "mensaje": "La indiferencia es pecado. No puedes decir 'no es mi problema' cuando ves la necesidad de tu hermano. El amor práctico se detiene a levantar lo que se ha caído, sea un animal o una vida."
+      },
+      {
+        "titulo": "\"Pondrás pretil a tu terrado\"",
+        "texto": "Se exigía poner barandillas en los techos para evitar accidentes. Dios se preocupa por la seguridad.",
+        "mensaje": "No seas negligente. Cuidar tu vida y la de los demás es un acto espiritual. Dios valora la vida y espera que tú tomes medidas preventivas para no causar daño a nadie."
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "titulo": "Deuteronomio 23-25",
+    "tema": "Pureza y Equidad",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 23,
+      "fin": 25
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios cuida la santidad del campamento y la dignidad de las personas. Aborrece las pesas falsas, pero ama la lealtad y el trato justo.",
+    "imagen": "../img/deuteronomio23-25.webp",
+    "fecha": "11 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Tu campamento ha de ser santo\"",
+        "texto": "Dios andaba en medio del campamento, por lo que debían mantener la higiene física y moral.",
+        "mensaje": "Dios es Santo y habita en ti. ¿Está tu 'campamento' (tu vida privada, tu mente) limpio? No puedes invitar a Dios a convivir con la suciedad. La santidad atrae su presencia; el pecado la aleja."
+      },
+      {
+        "titulo": "\"No tendrás pesas falsas\"",
+        "texto": "Dios detesta el engaño en el comercio. Pide pesas cabales y justas.",
+        "mensaje": "La honestidad financiera es una prueba de carácter. No trates de sacar ventaja engañando a otros. Dios bendice lo que se gana con justicia, pero sopla sobre lo que se gana con trampa."
+      },
+      {
+        "titulo": "\"No pondrás bozal al buey\"",
+        "texto": "Dios cuida que el que trabaja pueda comer de su trabajo. Pablo aplica esto a los ministros.",
+        "mensaje": "Sé justo con quienes trabajan para ti o te sirven. El obrero es digno de su salario. Dios observa cómo tratas a tus empleados o a quienes te bendicen espiritual o materialmente."
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "titulo": "Deuteronomio 26-27",
+    "tema": "Gratitud y Amen",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 26,
+      "fin": 27
+    },
+    "testamento": "antiguo",
+    "mensaje": "Trae tus primicias con memoria agradecida. Escribe la ley en piedras grandes y di 'Amén' a los caminos de Dios, reconociendo que Él es tu Dios.",
+    "imagen": "../img/deuteronomio26-27.webp",
+    "fecha": "12 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Un arameo a punto de perecer fue mi padre\"",
+        "texto": "Al traer las primicias, el israelita debía recitar su historia: fuimos esclavos, clamamos, y Dios nos dio esta tierra.",
+        "mensaje": "La gratitud nace de la memoria. Nunca olvides de dónde te sacó Dios. Cuando ofrendes, no lo hagas por rutina, hazlo recordando que todo lo que tienes es un regalo de gracia para alguien que 'estaba a punto de perecer'."
+      },
+      {
+        "titulo": "\"Has declarado solemnemente\"",
+        "texto": "Hoy has declarado que Jehová es tu Dios, y Él ha declarado que tú eres su pueblo.",
+        "mensaje": "El pacto es mutuo. Tú le perteneces a Él y Él se compromete contigo. Vive con la dignidad y la responsabilidad de ser 'propiedad exclusiva' del Rey del Universo."
+      },
+      {
+        "titulo": "\"Y todo el pueblo dirá: Amén\"",
+        "texto": "Desde el monte Ebal, se leyeron las maldiciones por desobedecer, y el pueblo debía estar de acuerdo.",
+        "mensaje": "Decir 'Amén' significa 'Así sea'. Es estar de acuerdo con el juicio de Dios, no solo con sus bendiciones. Acepta que los caminos de Dios son rectos, y que apartarse de ellos trae consecuencias naturales y espirituales."
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "titulo": "Deuteronomio 28-29",
+    "tema": "Elección y Consecuencia",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 28,
+      "fin": 29
+    },
+    "testamento": "antiguo",
+    "mensaje": "Si oyeres atentamente, bendiciones te perseguirán. Si te apartas, vendrá oscuridad. Las cosas secretas son de Dios, pero las reveladas son para nosotros.",
+    "imagen": "../img/deuteronomio28-29.webp",
+    "fecha": "13 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Bendiciones que te alcanzarán\"",
+        "texto": "Si obedeces, la bendición correrá más rápido que tú y te atrapará. Bendito en la ciudad, en el campo, al entrar y al salir.",
+        "mensaje": "No tienes que perseguir la bendición; persigue a Dios y la bendición te perseguirá a ti. Cuando tu vida está alineada con el cielo, el favor de Dios te encuentra dondequiera que estés."
+      },
+      {
+        "titulo": "\"Cabeza y no cola\"",
+        "texto": "Dios promete ponerte por encima de las circunstancias, no debajo, si guardas sus mandamientos.",
+        "mensaje": "Estás diseñado para liderar e influir, no para ser arrastrado por la corriente del mundo. Tu posición de autoridad depende de tu posición de obediencia. Sujétate a Dios y gobernarás en la vida."
+      },
+      {
+        "titulo": "\"Las cosas secretas pertenecen a Jehová\"",
+        "texto": "Hay misterios que no entenderemos, pero tenemos la Ley revelada para obedecer hoy.",
+        "mensaje": "No te obsesiones con lo que no sabes (el futuro, los porqués ocultos). Enfócate en lo que SÍ sabes: la voluntad de Dios revelada en su Palabra. Obedece lo que está claro y confía a Dios lo que es secreto."
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "titulo": "Deuteronomio 30-31",
+    "tema": "Vida y Legado",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 30,
+      "fin": 31
+    },
+    "testamento": "antiguo",
+    "mensaje": "La palabra está muy cerca de ti. Escoge la vida. Sé valiente, porque Dios va contigo y Él es quien cruza delante de ti.",
+    "imagen": "../img/deuteronomio30-31.webp",
+    "fecha": "14 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Escoge, pues, la vida\"",
+        "texto": "Pongo delante de ti la vida y la muerte. Escoge la vida para que vivas tú y tu descendencia.",
+        "mensaje": "Cada día tomas decisiones que traen vida o muerte a tu espíritu y a tu familia. No elijas por impulso; elige basándote en la eternidad. Tu elección de hoy define el futuro de tus hijos."
+      },
+      {
+        "titulo": "\"Esforzaos y cobrad ánimo\"",
+        "texto": "Moisés anima al pueblo y a Josué. 'No temas, porque Jehová tu Dios es el que va contigo; no te dejará'.",
+        "mensaje": "La valentía no es la ausencia de miedo, es la certeza de la compañía de Dios. Puedes enfrentar lo desconocido porque el Conocedor de todo va a tu lado. Cobra ánimo; no vas solo."
+      },
+      {
+        "titulo": "\"Este cántico testificará\"",
+        "texto": "Dios mandó escribir un cántico para que, cuando fallaran en el futuro, la canción les recordara la verdad.",
+        "mensaje": "La adoración es didáctica. Lo que cantas se graba en tu alma. Llena tu mente de canciones que contengan verdad bíblica, porque en el día de la prueba, esas letras serán el salvavidas que tu memoria traerá a flote."
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "titulo": "Deuteronomio 32-34",
+    "tema": "El Cántico y el Fin",
+    "referencia_biblica": {
+      "libro": "Deuteronomio",
+      "inicio": 32,
+      "fin": 34
+    },
+    "testamento": "antiguo",
+    "mensaje": "Dios es la Roca perfecta. Como el águila empuja a sus polluelos, así te guía Él. Moisés muere viendo la promesa, pero el Espíritu de sabiduría pasa a Josué.",
+    "imagen": "../img/deuteronomio32-34.webp",
+    "fecha": "15 de Marzo",
+    "explicacion": [
+      {
+        "titulo": "\"Como el águila excita su nidada\"",
+        "texto": "Dios describe su cuidado paternal: a veces mueve el nido para enseñarnos a volar, pero siempre nos atrapa en sus alas.",
+        "mensaje": "Si sientes que tu 'nido' (tu comodidad) se está moviendo, no entres en pánico. Dios te está empujando a crecer. Él no te dejará caer; te está enseñando a volar en las alturas de la fe, sostenido por Sus alas."
+      },
+      {
+        "titulo": "\"Murió allí Moisés... por dicho de Jehová\"",
+        "texto": "Moisés, el amigo de Dios, murió en intimidad con Él. Dios mismo lo enterró. Su visión no se había oscurecido.",
+        "mensaje": "Terminar bien es más importante que empezar bien. Moisés murió lleno de vigor y visión. Que tu meta sea llegar al final de tus días con los ojos puestos en la promesa y el corazón lleno de Dios."
+      },
+      {
+        "titulo": "\"Josué fue lleno del espíritu de sabiduría\"",
+        "texto": "Moisés había puesto sus manos sobre él. La obra de Dios continúa aunque los líderes cambien.",
+        "mensaje": "Dios nunca deja a su pueblo sin líder. Cuando una etapa termina, otra comienza. Respeta y apoya a los nuevos líderes que Dios levanta (Josué), sabiendo que el mismo Espíritu que estuvo en Moisés está en ellos."
+      }
+    ]
+  }
+]

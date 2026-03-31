@@ -5,7 +5,7 @@ node_modules/
 copia/
 descargas/
 dist/
-codice/
+codice/git rm -r --cached .
 buckup.js
 basura.js
 

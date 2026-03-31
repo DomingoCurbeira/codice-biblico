@@ -2484,6 +2484,385 @@
           }
         ]
       }
+    },
+
+    {
+      "id": "bios-vs-pneuma-identidad",
+      "activo": false,
+      "fecha_programada": "2026-04-06",
+      "tipo": "tematico",
+      "titulo": "Bios vs. Pneuma: El Despertar del Espíritu",
+      "subtitulo": "Descubriendo la diferencia entre estar biológicamente vivo y estar espiritualmente despierto",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/bios-pneuma.webp",
+      "tags": [
+        "Bios",
+        "Pneuma",
+        "Zoe",
+        "Identidad",
+        "Nuevo Nacimiento"
+      ],
+      "versiculo_clave": {
+        "texto": "Así también está escrito: Fue hecho el primer hombre Adán alma viviente; el postrer Adán, espíritu que vivifica.",
+        "cita": "1 Corintios 15:45"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, caminamos por el mundo creyendo que estamos 'vivos' simplemente porque nuestro corazón late y nuestros pulmones procesan oxígeno. Pero en el diseño original de Dios, existen dos niveles de existencia que a menudo confundimos. El mundo se agota tratando de mejorar su <strong>Bios</strong> (su vida natural, biológica y finita), sin darse cuenta de que fuimos diseñados para ser gobernados por el <strong>Pneuma</strong> (el soplo, el espíritu). <button class='btn-verse' onclick='abrirModal(\"Génesis 2:7\", \"Entonces Jehová Dios formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida, y fue el hombre un ser viviente.\")'>Génesis 2:7</button>. Sin ese soplo, solo somos barro animado; con Él, somos portadores de la eternidad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. Bios: La Vida que tiene Fecha de Caducidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El <em>Bios</em> es lo que compartimos con el resto de la creación biológica. Es la vida que depende del alimento, del descanso y del tiempo. Es una vida hermosa, pero limitada por la entropía y el desgaste. Cuando vivimos solo desde el <em>Bios</em>, nuestra mayor preocupación es la supervivencia, la comodidad y el miedo a la muerte. Es una vida que 'se tiene', pero que eventualmente 'se pierde'. La religión intenta 'arreglar' el Bios, pero Jesús no vino a darnos un Bios mejorado, sino una naturaleza completamente distinta."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/barro-y-soplo.webp",
+          "descripcion": "El contraste entre la fragilidad del barro (Bios) y la potencia invisible del hálito divino (Pneuma) que lo transforma en un ser viviente."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Pneuma: El Hálito que nos hace 'A Imagen de Dios'"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El <em>Pneuma</em> es el viento de Dios. Es la parte de nosotros que tiene la capacidad de 'resonar' con la frecuencia del Cielo. Mientras el Bios se mueve en el plano horizontal de lo visible, el Pneuma nos conecta con la verticalidad de lo eterno. <button class='btn-verse' onclick='abrirModal(\"Juan 3:6\", \"Lo que es nacido de la carne, carne es; y lo que es nacido del Espíritu, espíritu es.\")'>Juan 3:6</button>. Al nacer de nuevo, no recibimos un nuevo cuerpo (Bios), sino que se activa en nosotros una nueva vida (Zoe) a través del Espíritu (Pneuma)."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "💡 <strong>La Diferencia Vital:</strong> Estar vivo biológicamente es una condición de nacimiento; estar vivo espiritualmente es una decisión de resurrección. Puedes tener un Bios perfecto y un Pneuma dormido. El Evangelio es el despertador del Pneuma."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Gobierno del Espíritu sobre la Carne"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La meta de este camino no es despreciar el cuerpo, sino ponerlo bajo el orden correcto. El Bios debe ser el vehículo, pero el Pneuma debe ser el conductor. Cuando entiendes que eres un ser neumático (espiritual), dejas de ver a Dios como un concepto externo y empiezas a experimentarlo como la fuente de tu energía interna. <button class='btn-verse' onclick='abrirModal(\"Romanos 8:11\", \"Y si el Espíritu de aquel que levantó de los muertos a Jesús mora en vosotros, el que levantó de los muertos a Cristo Jesús vivificará también vuestros cuerpos mortales por su Espíritu que mora en vosotros.\")'>Romanos 8:11</button>."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Bios se preocupa, Pneuma confía:</strong> El Bios ve la escasez; el Pneuma ve la provisión del Padre.",
+            "<strong>Bios se agota, Pneuma se renueva:</strong> Aunque nuestro hombre exterior se desgaste, el interior se renueva de día en día.",
+            "<strong>Bios teme a la muerte, Pneuma sabe que es eterno:</strong> Para el espíritu, la muerte física es solo un cambio de vestidura."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Puente a la Inmanencia:</strong> Si logras identificar que tu verdadera identidad es <em>Pneuma</em>, comprender que Dios es el 'Espacio' donde vives se vuelve algo natural, porque el espíritu no entiende de distancias físicas, solo de unión espiritual."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He pasado la mayor parte de mi vida tratando de alimentar mi Bios mientras dejaba que mi Pneuma muriera de hambre?",
+            "¿Cómo cambiaría mi día de hoy si recordara que cada respiro biológico es una invitación para que el Espíritu de Dios fluya a través de mí?",
+            "¿Soy consciente de que el mismo Pneuma que levantó a Jesús habita hoy en mi interior?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Bios",
+          "origen": "Griego (Bíos)",
+          "significado": "Se refiere a la vida en su aspecto biológico, físico y temporal. Es la vida que se puede observar, medir y que eventualmente termina. De aquí provienen palabras como 'biología'."
+        },
+        {
+          "palabra": "Pneuma",
+          "origen": "Griego (Pneuma)",
+          "significado": "Significa 'espíritu', 'viento' o 'hálito'. En la Biblia, representa la fuerza vital divina, la parte del ser humano que puede comunicarse con Dios y la naturaleza misma del Espíritu Santo."
+        }
+      ],
+      "desafio_practico": "Hoy, haz tres pausas de un minuto. En cada pausa, respira profundo y di: 'Este aire alimenta mi Bios, pero Tu Espíritu alimenta mi Pneuma'. Intenta discernir la diferencia entre tu cuerpo cansado y tu espíritu que siempre está conectado a la Fuente.",
+      "gamificacion": {
+        "xp_lectura": 200,
+        "logro_id": "despertar-espiritual"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "adan",
+            "nombre": "Adán",
+            "razon": "El primer hombre que recibió el Pneuma directamente de Dios, pero que decidió vivir gobernado por los deseos del Bios."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "jardin-eden",
+            "nombre": "Jardín del Edén",
+            "razon": "El lugar geográfico y espiritual donde el Bios y el Pneuma caminaron en perfecta armonía por primera vez."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "activacion-espiritual",
+            "tema": "Identidad y Poder",
+            "accion": "Orar pidiendo que los ojos del entendimiento sean abiertos para reconocer la vida del Espíritu sobre la vida de la carne."
+          }
+        ]
+      }
+    },
+    {
+      "id": "dios-espacio-inmanencia",
+      "activo": false,
+      "fecha_programada": "2026-04-08",
+      "tipo": "tematico",
+      "titulo": "La Inmanencia: El Dios-Espacio",
+      "subtitulo": "Descubriendo que la distancia entre Dios y el hombre es cero",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "20 min",
+      "imagen_portada": "../img/estudios/dios-espacio.webp",
+      "tags": [
+        "Inmanencia",
+        "Presencia",
+        "Hechos 17",
+        "Identidad",
+        "Naturaleza Divina"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque en él vivimos, y nos movemos, y somos.",
+        "cita": "Hechos 17:28"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, la mayoría de nuestras crisis espirituales nacen de una mentira geográfica: la idea de que Dios está 'allá arriba' y nosotros 'aquí abajo'. Pasamos la vida tratando de 'atraer' Su presencia, como si Él fuera un visitante que viene y se va. Pero el Evangelio nos revela una realidad mucho más gloriosa. Dios no es un objeto dentro del espacio; Dios es el 'Espacio' que contiene todas las cosas. <button class='btn-verse' onclick='abrirModal(\"Hechos 17:28\", \"Porque en él vivimos, y nos movemos, y somos; como algunos de vuestros propios poetas también dijeron: Porque linaje suyo somos.\")'>Hechos 17:28</button>. No estás buscando a alguien lejano; estás despertando a Alguien que te rodea por completo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Dios que nos Contiene: El Ejemplo del Océano"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina a un pez nadando en la inmensidad del océano. El pez no necesita 'orar' para que el agua venga a él; el agua es su entorno, su sustento y su vida. Si el pez se mueve a la derecha, se mueve en agua; si baja al abismo, allí está el agua. De la misma manera, Dios es la realidad última que nos contiene. La inmanencia significa que Dios ocupa tanto tu interior como el espacio que separa tus manos. No hay un solo milímetro donde Dios termine y tú empieces; Su presencia es el lienzo invisible donde se pinta tu existencia."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/inmanencia-oceano.webp",
+          "descripcion": "La inmanencia divina: Dios como el medio vital donde el ser humano respira, se mueve y existe, eliminando toda brecha de separación."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "📍 <strong>Geografía Espiritual:</strong> Si Dios es omnipresente, la distancia entre Él y tú es <strong>CERO</strong>. No puedes acercarte más a alguien que ya te contiene. Lo que llamamos 'sentir la presencia' no es que Dios llegó, sino que nuestra consciencia finalmente se alineó con la realidad de Su cercanía constante."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Rompiendo el Ídolo del Dios Gigante y Lejano"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La religión a menudo crea un 'Dios objeto': un ser muy grande pero separado de nosotros. Pablo confrontó esto en el Areópago ante los filósofos más brillantes de su tiempo. <button class='btn-verse' onclick='abrirModal(\"Hechos 17:24\", \"El Dios que hizo el mundo y todas las cosas que en él hay, siendo Señor del cielo y de la tierra, no habita en templos hechos de manos,\")'>Hechos 17:24</button>. Si Dios no habita en templos de piedra, es porque Él mismo es el Tabernáculo que nos cubre. Cuando entiendes el 'Dios-Espacio', dejas de viajar mentalmente hacia las nubes para encontrarle, y empiezas a disfrutarle en el aire que respiras y en el silencio de tu habitación."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. En Él 'Somos': La Fuente de Nuestra Identidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nota que el versículo no dice solo que en Él 'estamos', sino que en Él <strong>'somos'</strong>. Tu identidad no es algo que posees independientemente de Dios. Tu verdadero 'yo' solo puede ser hallado dentro de Su naturaleza. Fuera de Dios no hay existencia, solo vacío. <button class='btn-verse' onclick='abrirModal(\"Colosenses 1:17\", \"Y Él es antes de todas las cosas, y todas las cosas en Él subsisten.\")'>Colosenses 1:17</button>. Eres porque Él es. Existes porque Su pensamiento te sostiene en este preciso instante."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Él es tu Interior:</strong> Conoce tus pensamientos antes que tú, porque Él habita en la raíz de tu espíritu.",
+            "<strong>Él es tu Exterior:</strong> Te protege como una atmósfera de amor que impide que las tinieblas te toquen sin Su permiso.",
+            "<strong>Él es tu Movimiento:</strong> Cada paso que das, lo das 'en Él'. No hay camino que recorras donde Su presencia no sea el suelo que pisas."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Puente al Descanso:</strong> Ya no tienes que esforzarte por alcanzar a Dios. Solo tienes que descansar en que Él ya te alcanzó. La inmanencia es el fin del esfuerzo religioso y el inicio de la intimidad relacional."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Sigo hablando con Dios como si estuviera al otro lado de la galaxia, o como con Alguien que me rodea y me habita?",
+            "Si la distancia es cero, ¿qué miedos o inseguridades deberían morir hoy en mi corazón?",
+            "¿Puedo ver la santidad en los lugares comunes (mi casa, mi trabajo), sabiendo que Dios es el espacio que esos lugares ocupan?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Inmanencia",
+          "origen": "Latín (Immanere)",
+          "significado": "La cualidad de Dios de estar presente y activo dentro de toda Su creación. Mientras que la 'Trascendencia' dice que Dios es superior y distinto al mundo, la 'Inmanencia' afirma que Él penetra y sostiene cada átomo de la realidad sin confundirse con ella."
+        }
+      ],
+      "desafio_practico": "Hoy, cada vez que bebas agua o sientas el aire en tu rostro, recuerda: 'Así como este elemento me rodea, así me rodea Dios'. Dedica 5 minutos a estar en silencio total, no pidiendo nada, sino simplemente reconociendo que estás inmerso en el Dios-Espacio.",
+      "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "consciencia-de-presencia"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "pablo",
+            "nombre": "Pablo de Tarso",
+            "razon": "El teólogo que transformó la visión del Dios local de los judíos en el Dios universal e inmanente que llena todas las cosas."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "areopago-atenas",
+            "nombre": "El Areópago",
+            "razon": "El escenario donde se reveló que Dios no está lejos de cada uno de nosotros, rompiendo siglos de paganismo y distancia religiosa."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "reposo-en-la-presencia",
+            "tema": "Paz y Reposo",
+            "accion": "Orar reconociendo que no hay lugar a donde ir para encontrar a Dios, pues ya estamos en Su centro."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "condescendencia-paciencia-desierto",
+      "activo": false,
+      "fecha_programada": "2026-04-10",
+      "tipo": "tematico",
+      "titulo": "La Condescendencia: El Dios que se Agacha",
+      "subtitulo": "El desierto no es un castigo, es el aula del silencio",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/dios-condescendencia.webp",
+      "tags": [
+        "Condescendencia",
+        "Paciencia",
+        "Desierto",
+        "Kénosis",
+        "Procesos"
+      ],
+      "versiculo_clave": {
+        "texto": "Sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres.",
+        "cita": "Filipenses 2:7"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, ¿alguna vez te has preguntado cómo un Dios que sostiene galaxias con un suspiro puede comunicarse con un ser tan pequeño como nosotros? La respuesta está en una palabra que la religión ha olvidado: <strong>Condescendencia</strong>. No en el sentido humano de 'mirar por encima del hombro', sino en el sentido divino de 'agacharse por amor'. <button class='btn-verse' onclick='abrirModal(\"Filipenses 2:7\", \"sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres;\")'>Filipenses 2:7</button>. Dios traduce el trueno de la eternidad al lenguaje de nuestra finitud para que podamos conocerle. Él se despoja de Su inmensidad para caber en nuestra comprensión."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Dios que se 'Agacha': La Kénosis del Lenguaje"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina a un padre tratando de enseñarle algo a su hijo de dos años. El padre no usa términos de física cuántica; se arrodilla, se pone a su altura y usa palabras sencillas. Eso es lo que Dios hace con nosotros. El desierto es el lugar donde Dios nos lleva para que Su 'balbuceo de amor' sea lo único que escuchemos. Él adapta Su voz a nuestro ruido interno para apagarlo. Si Dios no se agachara, Su gloria simplemente nos desintegraría; pero en Su condescendencia, Su gloria se vuelve nuestra medicina."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/dios-agacha-desierto.webp",
+          "descripcion": "La Condescendencia Divina: Un Dios infinito adaptando Su lenguaje a la fragilidad humana en la soledad del desierto."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🏜️ <strong>El Aula del Desierto:</strong> El desierto no es un lugar geográfico de carencia, es un estado espiritual de enfoque. Es donde el ruido de 'Egipto' (el mundo, las distracciones, el afán) se vuelve un murmullo lejano para que la voz de Dios se vuelva un estruendo nítido."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Cochera y el Desierto: El Valor de la Espera"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Muchos ven la espera como un tiempo perdido. Quizás hoy te sientes atrapado en una 'cochera' personal, en un garaje donde nada parece avanzar y solo hay herramientas, silencio y proyectos a medio terminar. Pero recuerda: Moisés no fue formado en el palacio de Faraón, sino cuidando ovejas en la soledad absoluta. <button class='btn-verse' onclick='abrirModal(\"Éxodo 3:1\", \"Apacentando Moisés las ovejas de Jetro su suegro... llevó las ovejas a través del desierto, y llegó hasta Horeb, monte de Dios.\")'>Éxodo 3:1</button>. <strong>Tu desierto</strong> no es un lugar de escasez, sino un taller de precisión. Es el refugio donde lo que hoy es invisible se está volviendo indestructible."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La paciencia en el desierto no es aguantar la respiración hasta que pase la tormenta; es aprender a respirar el aire de Dios mientras la tormenta está afuera. Dios tiene una paciencia infinita con nuestra finitud; por eso se toma el tiempo de procesarnos. Él no tiene prisa porque Él es el dueño del tiempo."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Despojarse para ser Llenado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para que la condescendencia de Dios nos transforme, nosotros debemos imitar Su <em>Kénosis</em> (vaciado). No podemos escuchar Su voz si estamos llenos de la nuestra. El desierto nos quita lo que 'creemos' ser para revelarnos quiénes somos en Él. <button class='btn-verse' onclick='abrirModal(\"Oseas 2:14\", \"Pero he aquí que yo la atraeré y la llevaré al desierto, y hablaré a su corazón.\")'>Oseas 2:14</button>."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Acepta el Ritmo:</strong> Si Dios te tiene en un tiempo de espera, no intentes forzar la puerta. Él está preparando el escenario para que no colapses cuando la bendición llegue.",
+            "<strong>Valora el Silencio:</strong> En la cochera o en el desierto, el silencio es una herramienta de cirugía. Dios está extirpando el ruido que te impide discernir Su voluntad.",
+            "<strong>Reconoce el Gesto:</strong> Dios se agachó en la Cruz y se sigue agachando hoy para hablarte al corazón. No ignores la humildad de un Dios que quiere ser tu Amigo."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Promesa para el Desierto:</strong> Tu tiempo de oscuridad o aislamiento no es un olvido de Dios, es Su inversión en ti. Si Él se está tomando Su tiempo, es porque la obra que está haciendo es eterna."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Estoy viendo mi situación actual como un castigo o como la condescendencia de Dios dándome un espacio de intimidad?",
+            "¿Qué ruidos de 'Egipto' sigo permitiendo que suenen en mi 'desierto' personal?",
+            "¿Estoy dispuesto a despojarme de mis planes para que el lenguaje de Dios sea mi nueva realidad?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Condescendencia",
+          "origen": "Griego (Synkatabasis)",
+          "significado": "El acto por el cual Dios, siendo infinito y trascendente, se adapta y se acomoda a la capacidad limitada de la mente y el lenguaje humano para revelarse a nosotros. Es la 'humillación amorosa' de Dios para ser comprendido."
+        },
+        {
+          "palabra": "Kénosis",
+          "origen": "Griego (Kenosis)",
+          "significado": "Literalmente 'vaciado' o 'despojamiento'. Se refiere al acto de Cristo de renunciar a Sus privilegios divinos para hacerse hombre y siervo, como se describe en Filipenses 2."
+        }
+      ],
+      "desafio_practico": "Hoy, dedica 10 minutos de tu tiempo a estar en un lugar de tu casa que consideres 'tu desierto' (puede ser tu cochera, un rincón o incluso tu oficina en silencio). No hables, no pidas nada. Solo dile: 'Señor, me despojo de mi ruido. Háblame en Tu lenguaje'. Escucha lo que surge en la paz.",
+      "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "paciencia-del-alfarero"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "moises",
+            "nombre": "Moisés",
+            "razon": "El hombre que pasó de ser un príncipe en el ruido de Egipto a ser el amigo de Dios en el silencio del desierto de Madián."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "monte-horeb",
+            "nombre": "Monte Horeb",
+            "razon": "El 'Monte de Dios' donde la voz divina se manifestó en una zarza que no se consumía, demostrando que Dios se agacha hasta lo más sencillo de la naturaleza para hablarnos."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "paciencia-en-el-proceso",
+            "tema": "Esperanza y Paciencia",
+            "accion": "Orar entregando el cronómetro a Dios, aceptando que Sus tiempos de silencio son tiempos de construcción interna."
+          }
+        ]
+      }
     }
 
     
