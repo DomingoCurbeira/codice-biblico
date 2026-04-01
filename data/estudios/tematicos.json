@@ -2867,7 +2867,7 @@
 
     {
       "id": "genos-divino-respiracion",
-      "activo": true,
+      "activo": false,
       "fecha_programada": "2026-04-08",
       "tipo": "tematico",
       "titulo": "El Genos Divino: El Código de la Eternidad",
