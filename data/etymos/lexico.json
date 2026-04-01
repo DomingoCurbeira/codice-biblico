@@ -1398,5 +1398,33 @@
     "perla_espiritual": "Decir 'Amén' al final de una oración no es simplemente el punto y final o el botón de enviar. Es una declaración atrevida. Es decirle al infierno y a la duda: 'Pongo todo mi peso, mi futuro y mi vida sobre la fidelidad de la promesa de Dios que acabo de orar, porque sé que Él es Roca firme y no me dejará caer'.",
     "ejemplo_biblico": "Apocalipsis 3:14 - '...He aquí el Amén, el testigo fiel y verdadero, el principio de la creación de Dios...'",
     "tags": ["oración", "fe", "verdad", "promesas"]
+  },
+  {
+    "id": "immanuel-heb",
+    "palabra_espanol": "Dios con nosotros (Inmanencia)",
+    "idioma": "Hebreo",
+    "original": "עִמָּנוּאֵל",
+    "transliteracion": "Immanuel",
+    "strong": "H6005",
+    "raiz": "De 'im' (con), 'anu' (nosotros) y 'El' (Dios).",
+    "definicion_corta": "La promesa de que el Dios todopoderoso habita íntimamente con su pueblo.",
+    "contexto_cultural": "En las religiones paganas de la antigüedad, los dioses eran vistos como entidades lejanas, caprichosas y trascendentes que vivían en las estrellas y rara vez se mezclaban con el barro humano a menos que quisieran castigar. La idea de un Dios supremo que decidiera 'embarrarse' y vivir con la gente común era impensable.",
+    "perla_espiritual": "Este es el milagro absoluto de la Inmanencia divina. Dios no se quedó en el balcón del cielo gritando instrucciones con un megáfono. 'Immanuel' significa que Él bajó al quirófano de la tierra. Jesús es la inmanencia encarnada: el Creador del universo experimentando hambre, lágrimas, traición y muerte, para decirnos: 'No estás solo en tu dolor, Yo estoy aquí adentro contigo'.",
+    "ejemplo_biblico": "Isaías 7:14 - '...He aquí que la virgen concebirá, y dará a luz un hijo, y llamará su nombre Emanuel (Immanuel).'",
+    "tags": ["nombres de dios", "encarnación", "presencia", "jesús"]
+  },
+  {
+    "id": "shakan-heb",
+    "palabra_espanol": "Morar / Habitar",
+    "idioma": "Hebreo",
+    "original": "שָׁכַן",
+    "transliteracion": "shakan",
+    "strong": "H7931",
+    "raiz": "Asentarse, residir, armar una tienda.",
+    "definicion_corta": "La presencia manifiesta de Dios que desciende para quedarse.",
+    "contexto_cultural": "De esta raíz proviene la famosa palabra extra-bíblica 'Shekinah' (la gloria visible de Dios). 'Shakan' se usaba para describir a los nómadas que llegaban a un lugar, bajaban su equipaje y armaban su tienda de campaña para establecerse y vivir allí junto a los demás.",
+    "perla_espiritual": "Dios le dijo a Moisés: 'Harán un santuario para mí, y habitaré (shakan) en medio de ellos'. El Dios inalcanzable quería 'acampar' en medio del desierto lleno de polvo, quejas y rebelión de Israel. En el Nuevo Testamento, Juan usa la versión griega de esta palabra para decir que Jesús 'armó su tienda' entre nosotros. Dios siempre ha querido ser tu vecino más cercano.",
+    "ejemplo_biblico": "Éxodo 25:8 - 'Y harán un santuario para mí, y habitaré (shakan) en medio de ellos.'",
+    "tags": ["presencia", "tabernáculo", "intimidad", "gloria"]
   }
 ]

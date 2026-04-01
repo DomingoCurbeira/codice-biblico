@@ -2615,7 +2615,7 @@
     {
       "id": "dios-espacio-inmanencia",
       "activo": false,
-      "fecha_programada": "2026-04-08",
+      "fecha_programada": "2026-04-03",
       "tipo": "tematico",
       "titulo": "La Inmanencia: El Dios-Espacio",
       "subtitulo": "Descubriendo que la distancia entre Dios y el hombre es cero",
@@ -2737,7 +2737,7 @@
     {
       "id": "condescendencia-paciencia-desierto",
       "activo": false,
-      "fecha_programada": "2026-04-10",
+      "fecha_programada": "2026-04-06",
       "tipo": "tematico",
       "titulo": "La Condescendencia: El Dios que se Agacha",
       "subtitulo": "El desierto no es un castigo, es el aula del silencio",
@@ -2780,11 +2780,11 @@
         },
         {
           "tipo": "subtitulo",
-          "texto": "2. La Cochera y el Desierto: El Valor de la Espera"
+          "texto": "2. El Desierto: El Valor de la Espera"
         },
         {
           "tipo": "parrafo",
-          "texto": "Muchos ven la espera como un tiempo perdido. Quizás hoy te sientes atrapado en una 'cochera' personal, en un garaje donde nada parece avanzar y solo hay herramientas, silencio y proyectos a medio terminar. Pero recuerda: Moisés no fue formado en el palacio de Faraón, sino cuidando ovejas en la soledad absoluta. <button class='btn-verse' onclick='abrirModal(\"Éxodo 3:1\", \"Apacentando Moisés las ovejas de Jetro su suegro... llevó las ovejas a través del desierto, y llegó hasta Horeb, monte de Dios.\")'>Éxodo 3:1</button>. <strong>Tu desierto</strong> no es un lugar de escasez, sino un taller de precisión. Es el refugio donde lo que hoy es invisible se está volviendo indestructible."
+          "texto": "Muchos ven la espera como un tiempo perdido. Quizás hoy te sientes atrapado en un desierto personal, en un lugar donde nada parece avanzar y solo hay silencio y proyectos a medio terminar. Pero recuerda: Moisés no fue formado en el palacio de Faraón, sino cuidando ovejas en la soledad absoluta. <button class='btn-verse' onclick='abrirModal(\"Éxodo 3:1\", \"Apacentando Moisés las ovejas de Jetro su suegro... llevó las ovejas a través del desierto, y llegó hasta Horeb, monte de Dios.\")'>Éxodo 3:1</button>. <strong>Tu desierto</strong> no es un lugar de escasez, sino un taller de precisión. Es el refugio donde lo que hoy es invisible se está volviendo indestructible."
         },
         {
           "tipo": "parrafo",
@@ -2802,7 +2802,7 @@
           "tipo": "lista",
           "items": [
             "<strong>Acepta el Ritmo:</strong> Si Dios te tiene en un tiempo de espera, no intentes forzar la puerta. Él está preparando el escenario para que no colapses cuando la bendición llegue.",
-            "<strong>Valora el Silencio:</strong> En la cochera o en el desierto, el silencio es una herramienta de cirugía. Dios está extirpando el ruido que te impide discernir Su voluntad.",
+            "<strong>Valora el Silencio:</strong> En el desierto, el silencio es una herramienta de cirugía. Dios está extirpando el ruido que te impide discernir Su voluntad.",
             "<strong>Reconoce el Gesto:</strong> Dios se agachó en la Cruz y se sigue agachando hoy para hablarte al corazón. No ignores la humildad de un Dios que quiere ser tu Amigo."
           ]
         },
@@ -2860,6 +2860,137 @@
             "id_oracion": "paciencia-en-el-proceso",
             "tema": "Esperanza y Paciencia",
             "accion": "Orar entregando el cronómetro a Dios, aceptando que Sus tiempos de silencio son tiempos de construcción interna."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "genos-divino-respiracion",
+      "activo": true,
+      "fecha_programada": "2026-04-08",
+      "tipo": "tematico",
+      "titulo": "El Genos Divino: El Código de la Eternidad",
+      "subtitulo": "Descubriendo la herencia espiritual que late en tu ADN",
+      "autor": "Domingo Curbeira",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/genos-divino.webp",
+      "tags": [
+        "Genos",
+        "Nishmat",
+        "Identidad",
+        "ADN Espiritual",
+        "Dependencia"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque en él vivimos, y nos movemos, y somos... Porque linaje suyo somos.",
+        "cita": "Hechos 17:28"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, la ciencia nos dice que nuestro ADN determina el color de nuestros ojos y nuestra estatura, pero la Biblia revela un código aún más profundo. No somos el resultado de una coincidencia biológica; somos portadores de una herencia genética celestial. Pablo, citando incluso a poetas antiguos, afirmó una verdad que debe sacudir tu identidad hoy: <strong>Linaje suyo somos</strong>. <button class='btn-verse' onclick='abrirModal(\"Hechos 17:28\", \"Porque en él vivimos, y nos movemos, y somos; como algunos de vuestros propios poetas también dijeron: Porque linaje suyo somos.\")'>Hechos 17:28</button>. La palabra griega para linaje es <em>Genos</em>, la raíz de 'genética'. Llevas en tu espíritu la marca del Creador."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Nishmat: El Beso de Dios que nos dio Vida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En el Génesis, vemos a Dios no solo hablando para crear, sino agachándose para 'soplar'. <button class='btn-verse' onclick='abrirModal(\"Génesis 2:7\", \"Entonces Jehová Dios formó al hombre del polvo de la tierra, y sopló en su nariz aliento de vida, y fue el hombre un ser viviente.\")'>Génesis 2:7</button>. Ese soplo no fue simple aire (<em>Ruach</em>), fue Su <strong>Nishmat Chayim</strong> (aliento de vidas). Dios compartió Su propia capacidad respiratoria con el barro. Cada vez que inhalas, estás experimentando un acto de misericordia divina que se repite 20,000 veces al día. No respiras porque seas autónomo; respiras porque Él sigue soplando."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/nishmat-adn.webp",
+          "descripcion": "La conexión invisible: El soplo de Dios integrándose en la estructura misma de la vida humana."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🧬 <strong>El Micro-Altar:</strong> Tu ADN es un templo de información. Si Dios habita en los enlaces que sostienen tu biología, entonces no hay parte de ti que sea 'secular' o 'común'. Tu misma genética es un testimonio de Su diseño."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Dependencia Total: El Ritmo de la Misericordia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nadie puede retener el aire por más de unos minutos. La respiración es el recordatorio físico de nuestra <strong>dependencia absoluta</strong>. Creemos que somos dueños de nuestro destino, pero dependemos de un regalo que recibimos cada cinco segundos. En el reino del espíritu, reconocer esta dependencia no es debilidad, es poder. El <em>Genos</em> divino se activa cuando dejamos de confiar en nuestras propias fuerzas y empezamos a fluir en la herencia de lo que ya somos en Él."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Como hijos de Su linaje, nuestra 'sangre espiritual' contiene los atributos del Padre: amor, paz, dominio propio y creatividad. El pecado es como una enfermedad genética que intenta ocultar esta realidad, pero la Cruz es el tratamiento que restaura el código original."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Viviendo como el Linaje del Altísimo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si eres linaje de Dios, tu identidad no puede ser definida por tus fracasos, por tu cuenta bancaria o por lo que otros dicen de ti. Tu apellido es el nombre de Cristo. <button class='btn-verse' onclick='abrirModal(\"Efesios 3:14-15\", \"Por esta causa doblo mis rodillas ante el Padre de nuestro Señor Jesucristo, de quien toma nombre toda familia en los cielos y en la tierra,\")'>Efesios 3:14-15</button>."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Reconoce tu Origen:</strong> No vienes de abajo, vienes de arriba. Tu espíritu tiene memoria de la eternidad.",
+            "<strong>Sincroniza tu Respiración:</strong> Aprende a vivir al ritmo de la gracia. Cada inhalación es Su provisión; cada exhalación es tu entrega.",
+            "<strong>Activa el Código:</strong> Vive con la altura de alguien que sabe que la genética del Rey corre por sus venas espirituales."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Revelación para el desierto:</strong> Incluso en los momentos de soledad o trabajo silencioso, tu cuerpo sigue respirando Su regalo. Estás conectado a la Fuente por un hilo invisible de aliento que nunca se corta."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He vivido hoy consciente de que cada respiración es un préstamo de la misericordia de Dios?",
+            "¿Sigo definiendo mi valor por mi 'Bios' (logros físicos) en lugar de mi 'Genos' (herencia espiritual)?",
+            "¿Qué atributos del Padre necesito que se manifiesten hoy en mi 'sangre espiritual' (paciencia, sabiduría, fe)?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Genos",
+          "origen": "Griego (Génos)",
+          "significado": "Significa linaje, raza, descendencia o familia. Sugiere una conexión por nacimiento o naturaleza compartida. En Hechos 17, Pablo lo usa para decir que somos la 'familia' o el 'producto' directo de la esencia de Dios."
+        },
+        {
+          "palabra": "Nishmat",
+          "origen": "Hebreo (Nishmát)",
+          "significado": "Es el aliento vital o capacidad respiratoria espiritual. A diferencia de 'Ruach' (espíritu/viento), 'Nishmat' suele referirse específicamente al aliento que Dios sopla en el ser humano para conferirle conciencia e identidad espiritual."
+        }
+      ],
+      "desafio_practico": "Hoy, cuando te sientas estresado o apurado, detente un momento. Haz una inhalación profunda y di mentalmente: 'Recibo Tu Nishmat'. Exhala y di: 'Confío en Tu Linaje'. Haz esto cinco veces y siente cómo tu identidad se ancla en lo eterno.",
+      "gamificacion": {
+        "xp_lectura": 240,
+        "logro_id": "herencia-real"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "adan",
+            "nombre": "Adán",
+            "razon": "El primer receptor del Nishmat divino, el punto de origen de nuestro linaje espiritual en la tierra."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "jardin-eden",
+            "nombre": "Jardín del Edén",
+            "razon": "Donde se registró el primer intercambio de respiración entre el Creador y Su creación."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "respirando-la-presencia",
+            "tema": "Dependencia y Paz",
+            "accion": "Orar entregando cada respiración como un acto de adoración consciente al Padre del Linaje."
           }
         ]
       }
