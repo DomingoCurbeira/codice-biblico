@@ -1,0 +1,197 @@
+/* Estilos específicos para la vista de detalle (palabra.html) */
+
+.detalle-container {
+    background: linear-gradient(145deg, #1e293b, #0f172a);
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    border-radius: 12px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #e2e8f0;
+}
+
+.btn-volver {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #d4b483;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s;
+}
+
+.btn-volver:hover { 
+    color: #fcd34d; 
+}
+
+.detalle-header { 
+    text-align: center; 
+    border-bottom: 1px solid rgba(212, 180, 131, 0.2); 
+    padding-bottom: 20px; 
+    margin-bottom: 25px; 
+}
+
+.detalle-original { 
+    font-size: 3.5rem; 
+    color: #d4b483; 
+    font-family: 'Merriweather', serif; 
+    margin-bottom: 5px; 
+    line-height: 1.1; 
+}
+
+.detalle-transliteracion { 
+    font-size: 1.2rem; 
+    font-style: italic; 
+    color: #cbd5e1; 
+    display: block; 
+    margin-bottom: 15px; 
+}
+
+.detalle-meta { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    font-size: 0.85rem; 
+    color: #94a3b8; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.detalle-seccion { 
+    margin-bottom: 25px; 
+}
+
+.detalle-seccion h3 { 
+    color: #d4b483; 
+    font-size: 1.1rem; 
+    margin-bottom: 10px; 
+    font-family: 'Inter', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    border-left: 3px solid #d4b483; 
+    padding-left: 10px; 
+}
+
+.detalle-seccion p { 
+    font-size: 1.05rem; 
+    line-height: 1.7; 
+    color: #cbd5e1; 
+}
+
+.perla-caja { 
+    background: rgba(212, 180, 131, 0.1); 
+    border: 1px solid rgba(212, 180, 131, 0.4); 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin-top: 30px; 
+}
+
+.perla-caja h3 { 
+    color: #fcd34d; 
+    border-left: none; 
+    padding-left: 0; 
+    display: flex; 
+    align-items: center; 
+    gap: 8px; 
+}
+
+/* ========================================================= */
+/* --- ESTILOS COMPARTIR ETYMOS (FILA HORIZONTAL PREMIUM)--- */
+/* ========================================================= */
+
+.etymos-share-section {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(212, 180, 131, 0.1);
+    text-align: center;
+}
+
+.share-title {
+    color: #d4b483; /* Dorado */
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+/* El contenedor principal que fuerza la fila */
+.share-actions {
+    display: flex;
+    flex-direction: row; /* Fuerza la dirección horizontal */
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite saltar de línea solo si la pantalla es enana */
+}
+
+/* Base de los botones (Heredando el estilo premium) */
+.btn-share-round {
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: inline-flex; /* Inline-flex ayuda a mantenerlos en fila */
+    align-items: center; 
+    justify-content: center;
+    text-decoration: none; /* Para quitar la línea de los enlaces <a> */
+    color: white;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    padding: 0; /* Asegura que el SVG quede centrado */
+}
+
+.btn-share-round:hover { 
+    transform: translateY(-4px); 
+    box-shadow: 0 8px 15px rgba(0,0,0,0.4); 
+}
+
+.btn-share-round:active { 
+    transform: scale(0.95); 
+}
+
+/* --- COLORES ESPECÍFICOS --- */
+
+/* Botón Escriba (Dorado sólido) */
+.btn-share-round.nota { 
+    background: linear-gradient(135deg, #fcd34d, #d4b483);
+    color: #0f172a; 
+}
+
+/* WhatsApp y Facebook (Degradados oficiales) */
+.btn-share-round.wa { 
+    background: linear-gradient(135deg, #25D366, #128C7E); 
+}
+.btn-share-round.fb { 
+    background: linear-gradient(135deg, #1877F2, #165EAB); 
+}
+
+/* Botón Copiar (Adaptado al tema oscuro/dorado de Etymos) */
+.btn-share-round.copy {
+    background: #0f172a; /* Color de fondo del body */
+    border: 2px solid #d4b483; /* Borde dorado */
+    color: #d4b483; /* Icono dorado */
+}
+
+.btn-share-round.copy:hover { 
+    background: #d4b483; 
+    color: #0f172a; 
+}
+
+/* Animación y estado visual al copiar con éxito */
+.btn-share-round.copy.copied {
+    background: #10b981; /* Verde éxito */
+    color: white;
+    border-color: #10b981;
+    animation: pulse 0.5s;
+}
+
+@keyframes pulse { 
+    0% { transform: scale(1); } 
+    50% { transform: scale(1.1); } 
+    100% { transform: scale(1); } 
+}

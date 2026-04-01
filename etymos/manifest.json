@@ -1,0 +1,21 @@
+{
+  "name": "Etymos - Léxico Bíblico",
+  "short_name": "Etymos",
+  "description": "Descubre el significado profundo de los textos bíblicos en Hebreo, Griego y Arameo.",
+  "start_url": "/etymos/index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/img/etymos-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/etymos-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
