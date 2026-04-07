@@ -1395,5 +1395,98 @@
             "xp_lectura": 300,
             "logro_id": "orillas-de-provision"
         }
+    },
+    {
+        "id": "noche-jerusalen",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-07"
+        },
+        "mapa": {
+            "coords": [31.7784, 35.2323],
+            "zoom": 18,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Noche en Jerusalén",
+            "titulo_corto": "El Aula del Maestro",
+            "significado_nombre": "Escenario del Diálogo Transformativo",
+            "ubicacion_geografica": "Una azotea privada en la zona alta de la Ciudad Vieja de Jerusalén.",
+            "clima_entorno": "Un ambiente íntimo y silencioso bajo el cielo estrellado, caracterizado por la brisa fresca de la noche judea y la tenue iluminación de lámparas de aceite.",
+            "imagen_principal": "../img/lugares/noche-jerusalen.webp",
+            "galeria": [
+            "../img/lugares/azotea-jerusalen.webp",
+            "../img/lugares/lamparas-aceite-antiguas.webp",
+            "../img/lugares/pergaminos-nicodemo.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo Testamento",
+            "libros_aparicion": [
+            "Juan"
+            ],
+            "era_biblica": "Ministerio de Jesús"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Arquitectura doméstica del siglo I d.C.",
+            "descripcion": "Excavaciones en el Barrio Judío de la Ciudad Vieja han revelado viviendas opulentas con 'mikvaot' (baños rituales) y amplias azoteas planas, coherentes con la residencia de un alto magistrado del Sanedrín como Nicodemo."
+        },
+        "narrativa": {
+            "resumen_epico": "Bajo el amparo de la oscuridad, un fariseo prominente y maestro de la Ley se atreve a confrontar la Luz verdadera. Este encuentro no fue un simple debate, sino la demolición del conocimiento humano rígido ante la revelación del Espíritu. Aquí, Nicodemo, cargado de prejuicios y formas legales, tuvo que 'desaprender' para entender que el Reino no se alcanza por mérito, sino por un nacimiento sobrenatural 'desde arriba'.",
+            "dato_curioso": "El hecho de que Nicodemo llegara 'de noche' sugiere no solo miedo a la élite judía, sino que simbólicamente representa el estado de oscuridad espiritual que buscaba ser iluminado por el Maestro.",
+            "conexion_jesus": "Jesús utiliza este escenario nocturno para revelar Su propia identidad como la única Fuente de Vida y Luz, y presenta la parábola teológica de la serpiente de bronce para anunciar Su propia crucifixión como el acto supremo de amor del Padre.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Evoca una mezcla de sumisión intelectual, expectativa y asombro. Es el lugar donde la autojustificación intelectual colisiona con la gracia transformadora del Espíritu.",
+            "simbologia": [
+            {
+                "objeto": "La Oscuridad de la Noche",
+                "significado": "Representa el estado del conocimiento humano autosuficiente antes de encontrarse con la Luz del Mundo. Nicodemo llega en tinieblas para ser iluminado."
+            },
+            {
+                "objeto": "El Viento (Pneuma)",
+                "significado": "Simboliza la soberanía y la fuerza invisible del Espíritu de Dios en el proceso del nuevo nacimiento. Sopla donde quiere."
+            }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "El milagro de la salvación exige que 'desaprendas' tus formas limitadas de entender a Dios y reconozcas tu total dependencia de Su Espíritu. Nacer de nuevo es vaciarte de ti mismo para ser lleno 'desde arriba'.",
+            "preguntas_reflexion": [
+            "¿Has vivido consciente de que cada aliento de vida y gracia es un préstamo de la misericordia de Dios?",
+            "¿Siguen tus conceptos religiosos limitando tu percepción de la inmensidad del Amor de Dios?",
+            "¿Estás dispuesto a caminar en fe a través de tus desiertos, confiando en que el Maestro sigue soplando Su 'Pneuma'?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+            "fase": "La Deconstrucción del Maestro",
+            "evento": "Nicodemo visita a Jesús de noche y es confrontado con la necesidad de nacer de nuevo.",
+            "referencia": "Juan 3:1-21"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+                "templo-jerusalen",
+                "estanque-betesda",
+                "monte-de-los-olivos",
+                "aposento-alto"
+            ],
+            "personajes_relacionados": [
+                "nicodemo",
+                "jesus"
+            ],
+            "estudios": [
+            "nacer-del-espiritu",
+            "la-luz-del-mundo",
+            "el-desaprendizaje-de-nicodemo"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 200,
+            "logro_id": "ojo-espiritual"
+        }
         }
 ]

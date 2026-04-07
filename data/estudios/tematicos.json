@@ -2994,6 +2994,252 @@
           }
         ]
       }
+    },
+
+    {
+      "id": "desaprendizaje-nicodemo-espiritu",
+      "activo": false,
+      "fecha_programada": "2026-04-10",
+      "tipo": "exegesis-profunda",
+      "titulo": "El Desaprendizaje de Nicodemo",
+      "subtitulo": "De la forma humana a la Esencia del Espíritu",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "12 min",
+      "imagen_portada": "../img/estudios/nicodemo-luz.webp",
+      "tags": [
+        "Nicodemo",
+        "Anoithen",
+        "Pneuma",
+        "Deconstrucción",
+        "Nacer de Nuevo"
+      ],
+      "versiculo_clave": {
+        "texto": "Respondió Jesús y le dijo: De cierto, de cierto te digo, que el que no naciere de nuevo, no puede ver el reino de Dios.",
+        "cita": "Juan 3:3"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Nicodemo no era un ignorante; era un <em>archōn</em> (magistrado), un experto en la Ley. Sin embargo, su conocimiento era su mayor obstáculo. Llegó a Jesús de noche, cargado de conceptos rígidos sobre un Dios que encajaba en moldes humanos. Jesús no le dio más información; le exigió una demolición. <button class='btn-verse' onclick='abrirModal(\"Juan 3:3\", \"Jesús le dijo: El que no naciere de nuevo, no puede ver el reino de Dios.\")'>Juan 3:3</button>. Para 'ver' el Reino, Nicodemo debía dejar de intentar 'entenderlo' con su lógica humanoide."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Enigma de 'Anoithen': ¿De nuevo o de arriba?"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La palabra clave aquí es <strong>Anoithen</strong> ($ἄνωθεν$). Nicodemo la entendió como 'por segunda vez' (biológicamente), pero Jesús la usaba como 'desde el origen' o 'desde arriba'. Nacer de nuevo no es repetir el pasado, es cambiar de naturaleza. Es desaprender la idea de un Dios con 'forma' para encontrarse con el Dios que es Fuente. Dios no es un hombre gigante en el cielo; <strong>Dios es Pneuma</strong> ($Πνεῦμα$ - Espíritu) <button class='btn-verse' onclick='abrirModal(\"Juan 4:24\", \"Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren.\")'>Juan 4:24</button>."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "💡 <strong>Revelación Exegética:</strong> El Reino de Dios no se 'analiza', se 'percibe'. Si tu concepto de Dios tiene límites físicos o prejuicios humanos, estás viendo un ídolo mental, no al Creador inmanente."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Vaciando el Odre: El Reto de volver a ser Niños"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Nicodemo preguntaba: '¿Cómo puede un hombre nacer siendo viejo?'. Su mente estaba llena de 'imposibles' humanos. Desaprender implica vaciar nuestra mente de la imagen de un Dios 'humanoide' que se enoja, se arrepiente o se limita como nosotros. Volver a ser niños es recuperar la capacidad de asombro ante una <strong>Fuente inagotable de Amor y Vida</strong> que no tiene bordes ni fronteras físicas."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/desaprendizaje-espiritu.webp",
+          "descripcion": "La deconstrucción del pensamiento religioso: Nicodemo soltando sus pergaminos ante la luz del Espíritu que sopla donde quiere."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. De la Religión de Formas a la Vida de Esencia"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando dejamos de ver a Dios como un 'ente externo' con forma humana y empezamos a experimentarlo como el <strong>Pneuma</strong> que sostiene cada átomo, nuestro miedo desaparece. El amor perfecto echa fuera el temor porque entendemos que somos parte de Su linaje espiritual. No servimos a una estatua mental; fluimos en la Vida misma."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Suelta el Antropomorfismo:</strong> Dios no tiene manos, pero sostiene todo; no tiene ojos físicos, pero nada le es oculto. Él es la Conciencia misma.",
+            "<strong>Acepta el Misterio:</strong> El viento (Pneuma) sopla donde quiere. No intentes domesticar a Dios con definiciones limitadas.",
+            "<strong>Vive en la Fuente:</strong> Nacer de nuevo es reconocer que tu origen no es el vientre de tu madre, sino el pensamiento eterno del Amor."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Nota Técnica:</strong> Para 'ver' el Reino, primero debes 'quitar' el velo de la autojustificación intelectual. Nicodemo tuvo que admitir que no sabía nada."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Anoithen",
+          "origen": "Griego (Ἄνωθεν)",
+          "significado": "Significa desde arriba, desde el principio o de nuevo. Jesús lo usa para indicar un origen celestial, no terrenal."
+        },
+        {
+          "palabra": "Pneuma",
+          "origen": "Griego (Πνεῦμα)",
+          "significado": "Espíritu, viento o aliento. Indica una esencia que no tiene forma física pero que posee una fuerza dinámica y vivificante."
+        }
+      ],
+      "desafio_practico": "Hoy, cierra los ojos por dos minutos. Imagina que Dios no está 'fuera' de ti, sino que es el espacio mismo donde existes. Deja ir cualquier imagen mental de un Dios con rostro humano y simplemente descansa en la idea de que eres amado por una Fuente Infinita de Vida. Di: 'Padre, desaprendo mis límites para conocer Tu inmensidad'.",
+      "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "ojo-espiritual"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "nicodemo",
+            "nombre": "Nicodemo",
+            "razon": "El maestro que tuvo que convertirse en alumno para entrar en la dimensión del Espíritu."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "noche-jerusalen",
+            "nombre": "Noche en Jerusalén",
+            "razon": "El escenario del encuentro donde las tinieblas del conocimiento humano se rindieron ante la Luz del Mundo."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "nacer-del-espiritu",
+            "tema": "Renovación Mental",
+            "accion": "Orar por la eliminación de conceptos religiosos que limitan nuestra percepción de la gloria de Dios."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "frecuencia-espiritu-sintonia",
+      "activo": false,
+      "fecha_programada": "2026-04-13",
+      "tipo": "tematico",
+      "titulo": "La Frecuencia del Espíritu: Sintonía vs. Esfuerzo",
+      "subtitulo": "Descubriendo el arte de conectar con la señal que nunca deja de emitir",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/frecuencia-espiritu.webp",
+      "tags": [
+        "Pneuma",
+        "Sintonía",
+        "Oración",
+        "Frecuencia",
+        "Gracia"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque ¿quién de los hombres sabe las cosas del hombre, sino el espíritu del hombre que está en él? Así tampoco nadie conoció las cosas de Dios, sino el Espíritu de Dios.",
+        "cita": "1 Corintios 2:11"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, si Dios es inmanente y la distancia entre Él y nosotros es cero, ¿por qué a veces sentimos que nuestras oraciones rebotan en el techo? El problema no es la <strong>distancia</strong>, sino la <strong>frecuencia</strong>. Pablo nos revela que solo el Espíritu de Dios conoce las profundidades de Dios <button class='btn-verse' onclick='abrirModal(\"1 Corintios 2:11\", \"Porque ¿quién de los hombres sabe las cosas del hombre, sino el espíritu del hombre que está en él? Así tampoco nadie conoció las cosas de Dios, sino el Espíritu de Dios.\")'>1 Corintios 2:11</button>. La vida espiritual no se trata de gritarle a un Dios lejano para que nos oiga, sino de sintonizar nuestro receptor interno con el 'Pneuma' que ya está fluyendo en el espacio que habitamos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Misterio de las Ondas: La Señal Invisible"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina una habitación llena de música de radio. No puedes ver las ondas, no puedes olerlas, pero están ahí. Si tu radio está apagada o mal sintonizada, solo escucharás estática o silencio. ¿Significa eso que la música no existe? No. Significa que tu aparato no está en la frecuencia correcta. Dios es <strong>Pneuma</strong> (Viento/Espíritu), una energía soberana y constante que 'sopla donde quiere' <button class='btn-verse' onclick='abrirModal(\"Juan 3:8\", \"El viento sopla de donde quiere, y oyes su sonido; mas ni sabes de dónde viene, ni a dónde va; así es todo aquel que es nacido del Espíritu.\")'>Juan 3:8</button>. Él siempre está emitiendo; nosotros somos los que debemos ajustar el dial."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/sintonia-espiritual.webp",
+          "descripcion": "El ajuste del dial interno: Pasando de la estática de la religiosidad a la claridad de la voz del Padre."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "📻 <strong>El Dial de la Gracia:</strong> La religiosidad nos enseña que debemos 'hacer esfuerzos musculares' (ayunos mecánicos, rezos repetitivos, sacrificios externos) para 'alcanzar' a Dios. Pero la sintonía no requiere fuerza, requiere <strong>precisión</strong>. Un milímetro de ajuste en el dial cambia el ruido por una sinfonía."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Interferencia: El Ruido de la Carne y el Pecado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En la radio, la interferencia ocurre cuando otros aparatos o tormentas eléctricas ensucian la señal. En nuestra vida, la <strong>interferencia</strong> tiene nombres específicos: ansiedad, pecado no confesado, falta de perdón o el orgullo de la autosuficiencia. Estos elementos crean una 'estática espiritual' que nos impide decodificar la voz del Padre. Pablo advierte que el hombre natural no puede percibir estas cosas porque se han de discernir espiritualmente <button class='btn-verse' onclick='abrirModal(\"1 Corintios 2:14\", \"Pero el hombre natural no percibe las cosas que son del Espíritu de Dios, porque para él son locura, y no las puede entender, porque se han de discernir espiritualmente.\")'>1 Corintios 2:14</button>."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Sintonizar no es fabricar la voz de Dios, es limpiar el canal para que lo que ya fue dicho se haga audible en nuestro espíritu. La oración efectiva es un ejercicio de <strong>silencio selectivo</strong>: apagar el ruido del mundo para que la frecuencia del Reino se vuelva nítida."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Ajuste Fino: Viviendo en la Frecuencia del Reino"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Una vez que encuentras la señal, el desafío es mantenerla. La vida en el Espíritu es un estado de sintonía constante. No encendemos la radio solo el domingo; somos portadores del receptor en cada momento del día."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Identifica la Estática:</strong> ¿Qué pensamiento o emoción está haciendo ruido en tu conexión hoy? Nombrarlo es el primer paso para filtrarlo.",
+            "<strong>Ajuste por la Palabra:</strong> La Biblia es el manual de frecuencias. Si lo que 'oyes' no resuena con el Código escrito, estás en la frecuencia equivocada.",
+            "<strong>Selah (La Pausa Técnica):</strong> Aprende a hacer silencios durante el día. En esos huecos de silencio es donde la sintonía se estabiliza."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Revelación para la frecuencia:</strong> No busques a Dios como quien busca a un ausente. Búscalo como quien ajusta su oído a un Susurro que nunca ha dejado de sonar a su alrededor."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Siento que mis oraciones son un esfuerzo por alcanzar a alguien lejos o un ajuste para escuchar a alguien que está aquí?",
+            "¿Qué 'estática' (preocupaciones, juicios, planes propios) está interfiriendo con mi paz hoy?",
+            "¿Estoy dispuesto a apagar mis propios argumentos para escuchar la frecuencia pura de Su amor?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Pneuma",
+          "origen": "Griego (Pneúma)",
+          "significado": "Literalmente viento o soplo. En el NT se refiere al Espíritu Santo como una fuerza invisible, poderosa y vital que llena el espacio y da vida. Sugiere una presencia que se siente pero no se ve, como las ondas de radio."
+        },
+        {
+          "palabra": "Discernir",
+          "origen": "Griego (Anakríno)",
+          "significado": "Significa examinar, investigar o decodificar. En el contexto de 1 Corintios, es la capacidad dada por el Espíritu para 'sintonizar' y entender las verdades divinas que son invisibles para la lógica natural."
+        }
+      ],
+      "desafio_practico": "Hoy, instala un 'Recordatorio de Sintonía'. Cada vez que escuches una notificación en tu celular, detente 10 segundos. No ores pidiendo cosas; simplemente di: 'Padre, ajusto mi frecuencia a Tu amor'. Limpia el ruido mental y reconoce Su presencia inmanente en ese lugar.",
+      "gamificacion": {
+        "xp_lectura": 260,
+        "logro_id": "radio-celestial"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "elias",
+            "nombre": "Elías",
+            "razon": "Aprendió que Dios no estaba en el estruendo (ruido), sino en un silbo apacible y delicado (la frecuencia correcta)."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "monte-horeb",
+            "nombre": "Monte Horeb",
+            "razon": "El lugar donde el ruido del desierto y la cueva se detuvieron para que la sintonía divina fuera restaurada."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "paz-mental",
+            "tema": "Centinela del Pensar",
+            "accion": "Orar para que la paz de Dios actúe como un filtro que elimine la estática de los pensamientos de ansiedad."
+          }
+        ]
+      }
     }
 
     

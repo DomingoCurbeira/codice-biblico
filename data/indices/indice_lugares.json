@@ -949,6 +949,19 @@
     "tags": "ninive ciudad, nínive, jonás, nahum, sofonías, mateo"
   },
   {
+    "id": "noche-jerusalen",
+    "nombre": "Noche en Jerusalén",
+    "titulo": "El Aula del Maestro",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7784,
+      35.2323
+    ],
+    "era": "Ministerio de Jesús",
+    "testamento": "Nuevo Testamento",
+    "tags": "noche jerusalen, noche en jerusalén, juan"
+  },
+  {
     "id": "peniel",
     "nombre": "Peniel",
     "titulo": "El Rostro de Dios",

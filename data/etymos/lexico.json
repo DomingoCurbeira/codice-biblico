@@ -1426,5 +1426,47 @@
     "perla_espiritual": "Dios le dijo a Moisés: 'Harán un santuario para mí, y habitaré (shakan) en medio de ellos'. El Dios inalcanzable quería 'acampar' en medio del desierto lleno de polvo, quejas y rebelión de Israel. En el Nuevo Testamento, Juan usa la versión griega de esta palabra para decir que Jesús 'armó su tienda' entre nosotros. Dios siempre ha querido ser tu vecino más cercano.",
     "ejemplo_biblico": "Éxodo 25:8 - 'Y harán un santuario para mí, y habitaré (shakan) en medio de ellos.'",
     "tags": ["presencia", "tabernáculo", "intimidad", "gloria"]
+  },
+  {
+    "id": "christos-gr",
+    "palabra_espanol": "Cristo / Mesías",
+    "idioma": "Griego / Hebreo",
+    "original": "Χριστός / מָשִׁיחַ",
+    "transliteracion": "Christos / Mashiach",
+    "strong": "G5547 / H4899",
+    "raiz": "χρίω (Chrio): Ungir, frotar con aceite.",
+    "definicion_corta": "El Ungido de Dios; aquel que ha sido legalmente habilitado para un cargo sagrado.",
+    "contexto_cultural": "En el antiguo Israel, no cualquiera podía ser rey o sacerdote; debían ser 'ungidos' con aceite santo. Este acto simbolizaba que la persona ya no actuaba por su cuenta, sino bajo la autoridad y el poder de quien lo ungió. Cristo no es el apellido de Jesús, es Su título oficial como el ejecutor del plan de Dios.",
+    "perla_espiritual": "Cuando dices 'Jesucristo', estás declarando legalmente que Jesús es el Rey que tiene el derecho de gobernar, el Sacerdote que te conecta con el Padre y el Profeta que trae la Verdad. Estar 'en Cristo' significa que la misma unción que lo habilitó a Él, ahora te cubre a ti para cumplir tu propósito.",
+    "ejemplo_biblico": "Mateo 16:16 - 'Respondió Simón Pedro: Tú eres el Cristo (Christos), el Hijo del Dios viviente.'",
+    "tags": ["jesús", "autoridad", "unción", "identidad"]
+  },
+  {
+    "id": "icabod-heb",
+    "palabra_espanol": "Icabod",
+    "idioma": "Hebreo",
+    "original": "אִי־כָבוֹד",
+    "transliteracion": "I-kabod",
+    "strong": "H0350",
+    "raiz": "Prefijo negativo 'I' (sin) + Kabod (peso/gloria).",
+    "definicion_corta": "La gloria ha partido; ausencia del peso de la presencia divina.",
+    "contexto_cultural": "Surge en un momento de crisis nacional cuando el Arca del Pacto fue capturada. Para el hebreo, la gloria (Kabod) no era algo etéreo, era algo que tenía 'peso'. Icabod describe una estructura religiosa que sigue en pie, pero que se ha vuelto 'ligera' o vacía porque el Dueño de la casa se ha ido.",
+    "perla_espiritual": "Icabod es el contrapunto exacto a la Inmanencia. Mientras que la Inmanencia nos enseña que Dios llena todo espacio, Icabod nos advierte que nuestra falta de reverencia o nuestra religiosidad vacía pueden hacernos vivir como si Él no estuviera. No permitas que tu 'Aposento' se vuelva un lugar de Icabod; mantén el peso de Su gloria mediante una sintonía constante.",
+    "ejemplo_biblico": "1 Samuel 4:21 - 'Y llamó al niño Icabod, diciendo: ¡Traspasada es la gloria de Israel! por haber sido tomada el arca de Dios.'",
+    "tags": ["presencia", "gloria", "reverencia", "juicio"]
+  },
+  {
+    "id": "kenosis-gr",
+    "palabra_espanol": "Kenosis (Vaciarse)",
+    "idioma": "Griego",
+    "original": "κένωσις",
+    "transliteracion": "kenosis",
+    "strong": "G2758 (verbo kenoō)",
+    "raiz": "Vaciar, despojarse, hacerse nulo.",
+    "definicion_corta": "El acto voluntario de Jesús de despojarse de Sus privilegios divinos para hacerse hombre.",
+    "contexto_cultural": "Describe el proceso de humillación voluntaria. No significa que Jesús dejó de ser Dios, sino que decidió no usar Sus atributos divinos en beneficio propio mientras estaba en la tierra, para poder experimentar nuestra limitación humana de forma real.",
+    "perla_espiritual": "La Kenosis es la máxima expresión de la Condescendencia. Jesús se 'vació' de Su comodidad celestial para llenarse de nuestra realidad. Si el Rey del universo se vació para alcanzarte, el desaprendizaje (como el de Nicodemo) es tu forma de 'vaciarte' de tus conceptos humanos para poder ser lleno de Su Espíritu. Sin vacío previo, no hay llenura nueva.",
+    "ejemplo_biblico": "Filipenses 2:7 - 'sino que se despojó (kenoō) a sí mismo, tomando forma de siervo...'",
+    "tags": ["jesús", "humildad", "condescendencia", "sacrificio"]
   }
 ]
