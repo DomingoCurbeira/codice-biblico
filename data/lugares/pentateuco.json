@@ -1,5 +1,90 @@
 [
     {
+        "id": "creacion-cosmos",
+        "activo": true,
+        "meta": {
+            "version": "5.0-pneuma-deep",
+            "fecha_actualizacion": "2026-04-09"
+        },
+        "mapa": {
+            "coords": [32.76, 44.82],
+            "zoom": 3,
+            "icono_mapa": "../img/ui/markers/punto-cero.svg",
+            "marcador_color": "#ff00ff"
+        },
+        "perfil": {
+            "nombre": "El Punto Cero (La Matriz de la Creación)",
+            "titulo_corto": "El Origen del Dios-Espacio",
+            "significado_nombre": "Bereshit: 'En el principio'. El estado de reposo absoluto desde donde emana la realidad.",
+            "ubicacion_geografica": "No-localizada; es la matriz que sostiene el espacio-tiempo en cada átomo.",
+            "clima_entorno": "Armonía fractal perfecta. Un entorno de puro Pneuma donde la luz es la sustancia misma de la vida.",
+            "imagen_principal": "/img/lugares/creacion-punto-cero.webp",
+            "galeria": [
+                "/img/lugares/expansion-luz.webp",
+                "/img/lugares/geometria-sagrada-cosmos.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Eternidad / Antiguo Testamento",
+            "libros_aparicion": ["Génesis", "Juan", "Colosenses", "Hebreos"],
+            "era_biblica": "Bereshit (El Principio)"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La Cohesión Atómica (Quintaesencia)",
+            "descripcion": "La ciencia detecta fuerzas fundamentales que mantienen unido el átomo; la revelación identifica esta fuerza como el Amor de Dios (Col. 1:17)."
+        },
+        "narrativa": {
+            "resumen_epico": "Antes de los ríos y las montañas, existió el Decreto. El Punto Cero es el momento en que el Amor dejó de ser un atributo interno de la Trinidad para expandirse y crear un 'lugar' donde la humanidad pudiera existir. No es un evento que terminó, es el software que sostiene tu respiración ahora mismo. Aquí, el Logos fue ejecutado por el Pneuma para tejer la materia a partir de la luz.",
+            "dato_curioso": "Científicamente, el universo está compuesto mayormente por 'espacio vacío'; teológicamente, ese vacío está saturado de la Quintaesencia divina que impide el colapso de la materia.",
+            "conexion_jesus": "Jesús es el Agente de la Creación. Él es el puente entre la luz invisible del Padre y el barro visible de nuestra biología. En Él, todas las cosas 'subsisten' (cohesionan)."
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Seguridad absoluta y asombro reverente. Representa la certeza de que no somos una coincidencia, sino un diseño sostenido intencionalmente.",
+            "fortalezas": ["Orden perfecto", "Sustentabilidad eterna", "Fuente de creatividad"],
+            "debilidades": ["Invisibilidad ante el ojo incrédulo", "Vulnerabilidad a la entropía espiritual"],
+            "simbologia": [
+                {
+                    "objeto": "El primer 'Sea la Luz'",
+                    "significado": "La activación del código divino penetrando el vacío para hacerlo fértil."
+                },
+                {
+                    "objeto": "La Quintaesencia",
+                    "significado": "El Amor como el 'pegamento' fundamental de los átomos y las galaxias."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Si Dios mantiene unidos tus átomos en este segundo, Su compromiso con tu vida es total e inquebrantable.",
+            "preguntas_reflexion": [
+                "¿Eres consciente de que flotas en un océano de Amor que sostiene tu misma biología?",
+                "¿Estás permitiendo que el miedo genere 'entropía' (desorden) en el diseño original de tu paz?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Logos Inicial",
+                "evento": "Dios habla al vacío y establece el código fuente de la realidad.",
+                "referencia": "Juan 1:1-3",
+                "vinculo_id": "logos-creador"
+            },
+            {
+                "fase": "La Cohesión",
+                "evento": "El Amor se establece como la sustancia que hace que todo subsista.",
+                "referencia": "Colosenses 1:17",
+                "vinculo_id": "quintaesencia"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jardin-eden"],
+            "personajes_relacionados": ["jesus", "adan"],
+            "estudios": ["quintaesencia-amor-sustancia", "codigo-palabra-logos-rhema"]
+        },
+        "gamificacion": {
+            "xp_lectura": 500,
+            "logro_id": "testigo-del-origen"
+        }
+    },
+    {
       "id": "jardin-eden",
       "activo": true,
       "meta": {

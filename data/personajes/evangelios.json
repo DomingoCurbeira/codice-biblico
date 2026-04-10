@@ -6807,5 +6807,214 @@
         "xp_lectura": 300,
         "logro_id": "pequeno-gigante"
       }
+    },
+    {
+      "id": "marta-maria",
+      "perfil": {
+        "nombre": "Marta y María de Betania",
+        "titulo_corto": "Sinfonía de Acción y Contemplación",
+        "significado_nombre": "Marta: 'Señora' o 'Jefa del hogar' (Arameo). María: 'La amada' o 'Gota de mar' (Hebreo/Latín).",
+        "ocupacion": "Anfitrionas y discípulas cercanas de Jesús.",
+        "familia": {
+          "hermanos": "Lázaro de Betania",
+          "dinamica": "Un hogar que se convirtió en el refugio favorito del Maestro cerca de Jerusalén."
+        },
+        "imagen": "/img/perfiles/marta-y-maria.webp",
+        "icono_mapa": "/img/ui/markers/discipulo.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": [
+          "Lucas",
+          "Juan"
+        ],
+        "era_biblica": "Ministerio de Jesús"
+      },
+      "narrativa": {
+        "resumen_epico": "En la pequeña aldea de Betania, dos hermanas personificaron los dos hemisferios del alma redimida. Marta, la fuerza motriz, convirtió su hospitalidad en una liturgia de servicio, preparando el escenario para la Presencia. María, el alma en reposo, se sentó a los pies del Maestro, escogiendo 'la mejor parte': la sintonía absoluta. No son figuras opuestas, sino un espejo de nuestra propia dualidad. Juntas, nos enseñan que el verdadero Reino se manifiesta cuando las manos trabajan con la diligencia de Marta mientras el corazón descansa con la quietud de María. En su casa, el servicio se hizo sagrado y el silencio se hizo enseñanza.",
+        "dato_curioso": "En la cultura judía del siglo I, que una mujer se sentara a los pies de un Rabino como María hizo era una postura técnica de discipulado académico, algo usualmente reservado solo para hombres.",
+        "conexion_jesus": "Representan la intimidad doméstica con Dios. Jesús no solo era su Señor, era su amigo. En ellas, Jesús validó que la devoción femenina es fundamental para el diseño del Reino, elevando el servicio cotidiano al nivel de revelación espiritual.",
+        "vinculo_a_imagen_de_god": "liturgia-del-caos-altar-cotidiano"
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Marta muestra una personalidad práctica, responsable y, en ocasiones, abrumada por la 'logística' de la santidad. María exhibe una sensibilidad espiritual profunda, priorizando la conexión relacional sobre la ejecución de tareas. Su dolor conjunto por la muerte de Lázaro revela una fe inquebrantable que procesa el duelo a través de la esperanza en la Resurrección.",
+        "fortalezas": [
+          "Hospitalidad sacrificial (Marta)",
+          "Discernimiento espiritual y sintonía (María)",
+          "Lealtad incondicional al Maestro"
+        ],
+        "debilidades": [
+          "Ansiedad por el perfeccionamiento del servicio (Marta)",
+          "Posible desconexión de las responsabilidades prácticas (María)",
+          "Incomprensión mutua inicial de sus roles"
+        ],
+        "simbologia": [
+          {
+            "objeto": "El Alabastro de perfume",
+            "significado": "Representa la adoración extravagante que no escatima en costos; el aroma de una vida derramada."
+          },
+          {
+            "objeto": "Los platos y el servicio",
+            "significado": "Simbolizan la 'Liturgia del Caos'; el servicio cotidiano que sostiene la comunidad de fe."
+          },
+          {
+            "objeto": "Los pies de Jesús",
+            "significado": "El lugar de la máxima autoridad y el máximo descanso; el aula del verdadero discípulo."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "No se trata de elegir entre ser Marta o ser María, sino de aprender a ser ambas: Servir como Marta con el corazón de María.",
+        "preguntas_reflexion": [
+          "¿Tu servicio para Dios te ha robado el tiempo para estar con Dios?",
+          "¿Puedes ver la santidad en el desorden de tu cocina o en el estrés de tu trabajo hoy?",
+          "¿Cuándo fue la última vez que te sentaste 'a los pies' del Maestro sin ninguna agenda más que escuchar Su voz?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La hospitalidad y la tensión",
+          "evento": "Marta recibe a Jesús en casa; María se sienta a escucharle mientras Marta se afana en el servicio.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Lucas 10:38-42"
+        },
+        {
+          "fase": "La crisis de fe",
+          "evento": "Muerte de Lázaro. Marta sale al encuentro de Jesús con una confesión teológica poderosa sobre la resurrección.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Juan 11:1-27"
+        },
+        {
+          "fase": "La revelación ante la tumba",
+          "evento": "Jesús resucita a Lázaro; ambas hermanas son testigos oculares de la victoria sobre la muerte.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Juan 11:38-44"
+        },
+        {
+          "fase": "La adoración extravagante",
+          "evento": "María unge los pies de Jesús con nardo puro; Marta sirve la cena. Acción y contemplación finalmente en armonía.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Juan 12:1-3"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "betania",
+          "jerusalen-ministerio"
+        ],
+        "estudios": [
+          "liturgia-del-caos-altar-cotidiano",
+          "dios-espacio-inmanencia",
+          "la-mejor-parte"
+        ],
+        "devocionales": [
+          "descanso-en-el-afán",
+          "el-perfume-derramado",
+          "el-refugio-de-betania"
+        ],
+        "personajes_relacionados": [
+          "jesus",
+          "lazaro",
+          "simon-el-leproso"
+        ]
+      },
+      "gamificacion": {
+        "count_lectura": 350,
+        "logro_id": "corazon-de-betania"
+      }
+    },
+    {
+      "id": "simon-el-leproso",
+      "perfil": {
+        "nombre": "Simón el Leproso",
+        "titulo_corto": "El Anfitrión de la Adoración",
+        "significado_nombre": "Simón: 'El que ha escuchado' (Hebreo). Su apodo recuerda una condición que solo Jesús pudo haber cambiado.",
+        "ocupacion": "Anfitrión y habitante de Betania; probablemente un ex-leproso sanado por Jesús.",
+        "familia": {
+          "relacion": "Se le asocia estrechamente con la familia de Lázaro, Marta y María; algunos estudios sugieren que era un pariente cercano o un amigo íntimo."
+        },
+        "imagen": "/img/perfiles/simon-leproso.webp",
+        "icono_mapa": "/img/ui/markers/discipulo.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": [
+          "Mateo",
+          "Marcos"
+        ],
+        "era_biblica": "Semana Mayor / Vísperas de la Pasión"
+      },
+      "narrativa": {
+        "resumen_epico": "Simón, un hombre cuya identidad estuvo marcada por el estigma de la lepra, abrió las puertas de su hogar para ofrecer un banquete al Maestro. Su casa en Betania se convirtió en el epicentro de uno de los actos más proféticos del Evangelio: la unción de Jesús. Mientras Simón ponía la mesa, el perfume de María llenaba la habitación, transformando su comedor en un santuario. Él representa a aquellos que, habiendo sido restaurados de sus 'lepras' personales, convierten su gratitud en un espacio de comunión para otros. Su hospitalidad permitió que la fragancia de la devoción se esparciera antes de la cruz.",
+        "dato_curioso": "Es fascinante que se le siga llamando 'el leproso'. En la cultura judía, un leproso no podía dar banquetes. Esto indica que ya estaba sano, pero conservaba el apodo como un testimonio viviente del milagro recibido.",
+        "conexion_jesus": "Es el modelo del agradecimiento tangible. Su casa fue el refugio de descanso de Jesús antes de enfrentar el Getsemaní y el Calvario."
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Es una figura de redención. Su disposición para recibir a una multitud en su casa sugiere una personalidad generosa y segura de su nueva identidad en Cristo, sin temor al juicio por su pasado.",
+        "fortalezas": [
+          "Hospitalidad radical",
+          "Gratitud demostrada con hechos",
+          "Generación de puentes entre discípulos y el Maestro"
+        ],
+        "debilidades": [
+          "Su identidad seguía ligada a su antigua enfermedad en la boca de los demás"
+        ],
+        "simbologia": [
+          {
+            "objeto": "La mesa servida",
+            "significado": "Representa la comunión y la aceptación; el lugar donde Jesús se siente 'en casa'."
+          },
+          {
+            "objeto": "La casa en Betania",
+            "significado": "El refugio de la inmanencia; Dios habitando y cenando con Sus amigos."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "Tu pasado (tu 'lepra') no es un impedimento para servir a Dios; al contrario, es el fundamento de tu mayor acto de hospitalidad.",
+        "preguntas_reflexion": [
+          "¿Has abierto las puertas de tu 'casa' (tu vida privada) para que el Maestro cene contigo?",
+          "¿Permites que tu antigua identidad limite el alcance de lo que Dios puede hacer a través de ti hoy?",
+          "¿Eres un facilitador para que otros adoren a los pies de Jesús?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "El encuentro restaurador",
+          "evento": "Simón es sanado por Jesús de su lepra (implícito en su capacidad de recibir invitados).",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Mateo 26:6"
+        },
+        {
+          "fase": "La hospitalidad en Betania",
+          "evento": "Simón ofrece una cena en honor a Jesús pocos días antes de la Pascua.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Marcos 14:3"
+        },
+        {
+          "fase": "Testigo de la unción",
+          "evento": "Presencia el momento en que María unge a Jesús; su casa se llena del aroma del nardo puro.",
+          "vinculo_mapa": "betania-lazaro",
+          "referencia": "Juan 12:1-3"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "betania"
+        ],
+        "estudios": [
+          "liturgia-del-caos-altar-cotidiano",
+          "la-mejor-parte"
+        ],
+        "personajes_relacionados": [
+          "jesus",
+          "marta-maria",
+          "lazaro"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "anfitrion-de-betania"
+      }
     }
 ]

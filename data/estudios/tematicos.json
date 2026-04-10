@@ -3240,6 +3240,400 @@
           }
         ]
       }
+    },
+
+    {
+      "id": "liturgia-del-caos-altar-cotidiano",
+      "activo": false,
+      "fecha_programada": "2026-04-15",
+      "tipo": "tematico",
+      "titulo": "La Liturgia del Caos: El Altar en lo Cotidiano",
+      "subtitulo": "Descubriendo que la distancia entre el templo y tu cocina es cero",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "25 min",
+      "imagen_portada": "../img/estudios/liturgia-caos.webp",
+      "tags": [
+        "Inmanencia",
+        "Sacrificio Vivo",
+        "Romanos 12",
+        "Vocación",
+        "Santidad Cotidiana"
+      ],
+      "versiculo_clave": {
+        "texto": "Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios, que es vuestro culto racional.",
+        "cita": "Romanos 12:1"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, la mayoría de nosotros vivimos una fe dividida. Tenemos un 'modo espiritual' para el domingo en el templo o para el momento de oración, y un 'modo secular' para el trabajo, los estudios o el caos de la casa. Esta desconexión es una herencia del paganismo, no del Evangelio. La inmanencia de Dios nos revela que Él no habita en templos hechos de manos, sino en la trama misma de nuestra rutina. Esta enseñanza te empoderará para ver tu vida diaria no como un obstáculo para tu espiritualidad, sino como la plataforma misma de tu adoración. <button class='btn-verse' onclick='abrirModal(\"Romanos 12:1\", \"Así que, hermanos, os ruego por las misericordias de Dios, que presentéis vuestros cuerpos en sacrificio vivo, santo, agradable a Dios, que es vuestro culto racional.\")'>Romanos 12:1</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Sacrificio Vivo: Tu Cuerpo es el Altar"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En el Antiguo Pacto, el sacrificio era un animal muerto puesto sobre un altar de piedra en un lugar específico. Pero Pablo altera radicalmente este diseño. <button class='btn-verse' onclick='abrirModal(\"Romanos 12:1\", \"...que presentéis vuestros cuerpos en sacrificio vivo...\")'>Romanos 12:1</button>. El sacrificio ya no es algo que traes; el sacrificio eres TÚ. Y no es un sacrificio muerto, sino <strong>VIVO</strong>. Esto significa que tu adoración no ocurre cuando dejas de vivir tu rutina, sino MIENTRAS la vives. Tu cuerpo, con sus manos que cocinan, sus pies que caminan al trabajo y su mente que resuelve problemas, es el altar donde la gloria de Dios desea manifestarse."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/altar-cocina.webp",
+          "descripcion": "La liturgia del caos: Una cocina desordenada se transforma en un espacio sagrado de adoración cuando se reconoce la inmanencia de Dios en los detalles cotidianos."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "📍 <strong>Geografía de la Santidad:</strong> Si Dios es inmanente, la distancia entre el Lugar Santísimo y tu fregadero es CERO. No hay lugares 'profanos'; solo hay mentes inconscientes de la Presencia que lo llena todo. Tu trabajo no es secular, es tu asignación sacerdotal en el mundo real."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Rompiendo la Dicotomía: Sagrado vs. Secular"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La religión nos ha enseñado a compartimentalizar nuestra vida. Creemos que orar es sagrado, pero que lavar los platos es secular. Sin embargo, si Dios sostiene cada átomo de la realidad, Él está tan presente en el aroma del incienso como en el olor del detergente. Pablo confrontó esta mentalidad al declarar que el 'culto racional' (logikē latreia) es la presentación de nuestra vida entera. <button class='btn-verse' onclick='abrirModal(\"1 Corintios 10:31\", \"Si, pues, coméis o bebéis, o hacéis otra cosa, hacedlo todo para la gloria de Dios.\")'>1 Corintios 10:31</button>. No hay acto demasiado pequeño que no pueda ser santificado por la consciencia de Su Presencia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Dios de los Detalles: Adoración en la Rutina"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La inmanencia significa que Dios es el 'Dios-Espacio', el medio vital donde existimos. Por lo tanto, Él no se encuentra al salir de la rutina, sino dentro de ella. Él es el Dios de los detalles en el diseño de tu vida diaria. Cuando preparas la comida para tu familia, estás replicando Su carácter proveedor. Cuando ordenas tu casa, reflejas Su diseño sobre el caos. Cuando trabajas con integridad, adoras al Arquitecto del Universo. Tu liturgia constante no es un sentimiento emocional, es una alineación consciente de cada acción con la realidad de Su cercanía."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>En el Trabajo:</strong> Tu excelencia es tu ofrenda; tu integridad es tu incienso.",
+            "<strong>En los Estudios:</strong> Tu enfoque es tu búsqueda de Su sabiduría; tu conocimiento es una herramienta para servir a Su propósito.",
+            "<strong>En el Hogar:</strong> Tu servicio es un reflejo de Cristo; tu orden es una manifestación de Su diseño fractal."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Fin del Esfuerzo Religioso:</strong> Ya no tienes que 'escapar' del mundo para encontrar a Dios. Solo tienes que despertar a que Él ya está en tu mundo, sosteniendo la sartén, el volante o el teclado."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Sigo viendo mi trabajo o mis tareas domésticas como un obstáculo para mi vida espiritual?",
+            "Si la cocina es tan sagrada como el altar, ¿cómo debería cambiar mi actitud al realizar las tareas del hogar?",
+            "¿Puedo ver la santidad en los detalles comunes (el tráfico, el desorden, los correos), sabiendo que Dios es el espacio que esos momentos ocupan?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Inmanencia",
+          "origen": "Latín (Immanere)",
+          "significado": "La cualidad de Dios de estar presente y activo dentro de toda Su creación. Mientras que la 'Trascendencia' dice que Dios es superior y distinto al mundo, la 'Inmanencia' afirma que Él penetra y sostiene cada átomo de la realidad sin confundirse con ella."
+        },
+        {
+          "palabra": "Culto Racional",
+          "origen": "Griego (Logikē Latreia)",
+          "significado": "No se refiere a un culto 'intelectual', sino a un servicio que es lógico y coherente con la realidad de quién es Dios. Es la respuesta lógica de una vida entregada por completo a Alguien que te contiene y te habita."
+        }
+      ],
+      "desafio_practico": "Hoy, elige una tarea cotidiana que normalmente consideras 'secular' o 'aburrida' (lavar los platos, conducir, responder correos). Antes de empezar, detente 10 segundos y di: 'Señor, este momento es Tu altar'. Realiza la tarea con máxima excelencia y consciencia de Su Presencia, reconociendo que estás inmerso en el Dios-Espacio.",
+      "gamificacion": {
+        "xp_lectura": 280,
+        "logro_id": "liturgia-constante-activada"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "pablo",
+            "nombre": "Pablo de Tarso",
+            "razon": "El teólogo que desencriptó el 'sacrificio vivo' como el verdadero culto, rompiendo el legalismo del templo local."
+          },
+          {
+            "id": "marta-maria",
+            "nombre": "Marta y María",
+            "razon": "La dicotomía clásica. Marta representa la acción en lo cotidiano y María la contemplación. Esta enseñanza une ambas: servir como Marta con el corazón de María."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "templo-jerusalen",
+            "nombre": "El Templo de Jerusalén",
+            "razon": "El lugar que representaba 'lo sagrado' localizado, cuya función terminó cuando Jesús nos hizo a nosotros el verdadero Templo e inherederos de Su presencia inmanente."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "reposo-inmanencia",
+            "tema": "Inmanencia y Paz",
+            "accion": "Orar activando la consciencia de que no hay lugar profano, pues ya estamos en Su centro, incluso en medio del caos."
+          }
+        ],
+        "virtus": {
+            "pregunta_id": "sacrificio-vivo-significado",
+            "trivia": "Trivia sobre Romanos",
+            "nivel": "Intermedio"
+        }
+      }
+    },
+    {
+      "id": "codigo-palabra-logos-rhema",
+      "activo": false,
+      "fecha_programada": "2026-04-17",
+      "tipo": "tematico",
+      "titulo": "El Código de la Palabra: Del Logos al Rhema",
+      "subtitulo": "Descubriendo que la Biblia no es un libro, es un Software Vivo",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "18 min",
+      "imagen_portada": "../img/estudios/logos-rhema.webp",
+      "tags": [
+        "Logos",
+        "Rhema",
+        "Pneuma",
+        "Revelación",
+        "Software Vivo"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos...",
+        "cita": "Hebreos 4:12"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, muchos se acercan a la Biblia como a un libro de historia o un manual de ética, pero las Escrituras se definen a sí mismas con una categoría distinta: <strong>Vida y Eficacia</strong>. <button class='btn-verse' onclick='abrirModal(\"Hebreos 4:12\", \"Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos, y discierne los pensamientos y las intenciones del corazón.\")'>Hebreos 4:12</button>. En Códice Bíblico entendemos que la Palabra no es tinta muerta, sino un 'Software Vivo' diseñado por el Arquitecto Eterno. Para que este código funcione en tu presente, necesitas pasar de los datos (Logos) a la instrucción específica (Rhema) mediante la activación del Espíritu (Pneuma)."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Logos: La Base de Datos Eterna"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El <strong>Logos</strong> es la palabra escrita, el consejo completo de Dios. Es la estructura, el código fuente que sostiene el universo. <button class='btn-verse' onclick='abrirModal(\"Juan 1:1\", \"En el principio era el Verbo (Logos), y el Verbo era con Dios, y el Verbo era Dios.\")'>Juan 1:1</button>. Estudiar el Logos es fundamental; es conocer la gramática del Reino. Sin embargo, leer solo el Logos sin el Espíritu es como tener un software potente instalado en una computadora sin electricidad: los datos están ahí, pero no pueden 'correr' ni transformar tu realidad."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/logos-binario.webp",
+          "descripcion": "El Logos como el código fuente divino: La estructura eterna de la verdad que espera ser activada."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "💻 <strong>Analogía Digital:</strong> El Logos es el archivo `.exe` guardado en tu disco duro. Contiene todas las funciones para sanarte, guiarte y prosperarte, pero necesita un clic de fe y un sistema operativo activo para ejecutarse."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Pneuma: La Corriente que Activa el Código"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para que la letra cobre vida, se requiere la intervención del <strong>Pneuma</strong> (el Espíritu/Viento de Dios). <button class='btn-verse' onclick='abrirModal(\"2 Corintios 3:6\", \"...porque la letra mata, mas el espíritu vivifica.\")'>2 Corintios 3:6</button>. El Pneuma es la energía que escanea la base de datos del Logos y selecciona el fragmento exacto que tu espíritu necesita hoy. Sin el Pneuma, la Biblia es información; con el Pneuma, la Biblia es una operación quirúrgica en tu alma."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Rhema: La Instrucción en Tiempo Real"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando el Pneuma activa un versículo del Logos y lo 'clava' en tu corazón para una situación específica, eso es un <strong>Rhema</strong>. El Rhema es la palabra hablada, la voz de Dios susurrando al oído de tu presente. <button class='btn-verse' onclick='abrirModal(\"Mateo 4:4\", \"El respondió y dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra (Rhema) que sale de la boca de Dios.\")'>Mateo 4:4</button>. El Logos te dice que Dios es Proveedor; el Rhema te dice: 'Paga esa deuda hoy, Yo estoy contigo'."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Del Intelecto al Espíritu:</strong> No leamos para acumular datos, leamos para ser 'hackeados' por la Verdad.",
+            "<strong>Sintonía Fina:</strong> El Rhema requiere silencio. Es el momento donde el código se convierte en una voz personal.",
+            "<strong>Eficacia Inmediata:</strong> Una sola palabra Rhema puede resolver un conflicto que años de análisis lógico no pudieron tocar."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Revelación de Software:</strong> Códice Bíblico no es una enciclopedia; es una terminal de acceso. Cada vez que abres la sección 'A Imagen de Dios', busca que el Logos se convierta en Rhema en tu terminal personal."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Estoy leyendo la Biblia para saber más *sobre* Dios o para escuchar *a* Dios?",
+            "¿Cuándo fue la última vez que un versículo saltó de la página y se convirtió en una instrucción viva para mi problema actual?",
+            "¿He invitado al Pneuma a ser el intérprete de mi lectura diaria hoy?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Logos",
+          "origen": "Griego (Lógos)",
+          "significado": "La palabra escrita, el pensamiento razonado, la base de datos completa de la revelación de Dios."
+        },
+        {
+          "palabra": "Rhema",
+          "origen": "Griego (Rhéma)",
+          "significado": "La palabra dicha, una expresión específica y oportuna de Dios para un individuo en un momento determinado."
+        },
+        {
+          "palabra": "Pneuma",
+          "origen": "Griego (Pneûma)",
+          "significado": "Espíritu, viento o aliento. La fuerza vital de Dios que comunica y vivifica la Verdad."
+        }
+      ],
+      "desafio_practico": "Toma un versículo que ya conozcas de memoria (Logos). Cierra los ojos y pide al Espíritu Santo: 'Activa este código como un Rhema para mi vida hoy'. Quédate en silencio 2 minutos y anota en la sección 'Escriba' de la App cualquier instrucción o paz específica que recibas.",
+      "gamificacion": {
+        "xp_lectura": 260,
+        "logro_id": "decodificador-activo"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "pablo",
+            "nombre": "Pablo de Tarso",
+            "razon": "Un experto en el Logos que fue transformado por un Rhema directo en el camino a Damasco."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "monte-sinai",
+            "nombre": "Monte Sinaí",
+            "razon": "Donde el Logos fue entregado en piedra para que el Rhema guiara a una nación en el desierto."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "escuchando-la-voz",
+            "tema": "Revelación y Guía",
+            "accion": "Orar pidiendo que la lectura del día sea vivificada por el Pneuma."
+          }
+        ]
+      }
+    },
+    {
+      "id": "quintaesencia-amor-sustancia",
+      "activo": false,
+      "fecha_programada": "2026-04-18",
+      "tipo": "tematico",
+      "titulo": "La Quintaesencia: El Amor como Sustancia Conectora",
+      "subtitulo": "Descubriendo la fuerza invisible que impide que el universo se desmorone",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "20 min",
+      "imagen_portada": "../img/estudios/quintaesencia-amor.webp",
+      "tags": [
+        "Quintaesencia",
+        "Fuerza Cohesiva",
+        "1 Juan 4",
+        "Entropía Espiritual",
+        "Sustancia Divina"
+      ],
+      "versiculo_clave": {
+        "texto": "Y él es antes de todas las cosas, y todas las cosas en él subsisten.",
+        "cita": "Colosenses 1:17"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, tendemos a pensar en el amor como una emoción pasajera o un sentimiento romántico. Pero en el diseño original, el Amor es una <strong>Sustancia Conectora</strong>. Es la 'Quintaesencia' que los antiguos buscaban: el elemento que mantiene la cohesión de todo lo existente. La Biblia no dice que Dios 'tiene' amor, sino que <strong>Dios ES Amor</strong>. <button class='btn-verse' onclick='abrirModal(\"1 Juan 4:8\", \"El que no ama, no ha conocido a Dios; porque Dios es amor.\")'>1 Juan 4:8</button>. Si Él es el espacio donde vivimos, entonces el Amor es el tejido mismo de la realidad. Sin esta fuerza, los átomos se separarían y el cosmos volvería al caos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. Subsistencia: El Pegamento Atómico de la Gloria"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La ciencia busca desesperadamente la 'Teoría del Todo' o la fuerza que mantiene unidos los núcleos atómicos. Pablo, bajo la revelación del Pneuma, la identificó hace dos mil años: en Cristo <strong>todas las cosas subsisten</strong>. <button class='btn-verse' onclick='abrirModal(\"Colosenses 1:17\", \"Y él es antes de todas las cosas, y todas las cosas en él subsisten.\")'>Colosenses 1:17</button>. La palabra griega para 'subsistir' es <em>sunistēmi</em>, que significa 'mantenerse unidos' o 'cohesionar'. El Amor es la gravedad espiritual que impide que tu vida y el universo entero se desintegren en el vacío."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/sustancia-amor-cosmos.webp",
+          "descripcion": "La Quintaesencia Divina: Una red de luz espectral (Pneuma) conectando galaxias y átomos, revelando el Amor como la fuerza fundamental de la física cuántica espiritual."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "⚛️ <strong>La Física del Espíritu:</strong> Si Dios retirara Su amor por un solo segundo, la materia dejaría de ser. Existimos porque somos amados activamente en este preciso instante. El Amor no es el resultado de nuestra conducta; es la causa de nuestra existencia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Entropía Espiritual: El Odio como Desintegración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En física, la entropía es la tendencia al desorden y la pérdida de energía. En el reino del espíritu, el odio, el miedo y el egoísmo son <strong>entropía espiritual</strong>. Son fuerzas que intentan romper la cohesión del diseño original. Cuando operamos fuera del amor, estamos literalmente 'desmoronándonos' por dentro. El pecado no es solo una falta moral, es una desconexión de la sustancia que nos mantiene íntegros."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Vibrando en la Sustancia Original"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Volver al diseño original es volver a vibrar en la frecuencia del Amor. No como un esfuerzo por ser 'buenos', sino como un reconocimiento de nuestra naturaleza. Si somos linaje (Genos) de Alguien que es Amor, nuestra salud biológica y espiritual depende de estar alineados con esa sustancia. Amar al prójimo no es un mandamiento religioso opcional, es una ley de mantenimiento para que nuestra propia estructura no colapse."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Conexión Total:</strong> Todo lo que haces con amor se vuelve eterno porque participa de la sustancia que hace subsistir el universo.",
+            "<strong>Resistencia a la Entropía:</strong> El perdón es el 'mantenimiento' que aplicas a tus relaciones para evitar que la entropía del odio las desintegre.",
+            "<strong>Identidad Cohesiva:</strong> Eres un ser completo solo cuando estás sumergido en el Dios-Espacio, permitiendo que Su Amor sea el pegamento de tu alma."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Revelación para la Terminal:</strong> No busques el amor como algo que debes conseguir. Despierta al hecho de que ya estás flotando en él. El espacio que ocupas ahora mismo está saturado de la Quintaesencia que te dio la vida."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Puedo ver el Amor de Dios no como un sentimiento, sino como la fuerza que mantiene mis latidos en este momento?",
+            "¿Qué áreas de mi vida están sufriendo 'entropía' (desorden/ruptura) por falta de la sustancia del Amor?",
+            "¿Soy consciente de que 'subsisto' en Él incluso cuando me siento solo o perdido?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Quintaesencia",
+          "origen": "Latín (Quinta Essentia)",
+          "significado": "El quinto elemento más allá de la tierra, agua, aire y fuego. En este contexto, representa al Amor de Dios como el elemento fundamental que impregna y sostiene a los demás."
+        },
+        {
+          "palabra": "Subsistir",
+          "origen": "Griego (Sunistēmi)",
+          "significado": "Poner juntos, unir partes para formar un todo, mantener la cohesión. Es la acción activa de Cristo de sostener la arquitectura del universo."
+        }
+      ],
+      "desafio_practico": "Identifica a una persona o situación que te genere conflicto (entropía). Hoy, visualiza ese vínculo no desde tu sentimiento, sino desde la 'Sustancia Conectora'. Di mentalmente: 'Cristo, Tú haces subsistir esta relación'. Suelta el juicio y permite que la Quintaesencia del Amor restaure la cohesión en tu pensamiento.",
+      "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "maestro-de-cohesion"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "juan-apostol",
+            "nombre": "Juan el Apóstol",
+            "razon": "El discípulo amado que desencriptó la naturaleza de Dios como Amor puro."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "creacion-cosmos",
+            "nombre": "La Creación",
+            "razon": "El momento donde el Amor se expandió para dar lugar al espacio-tiempo."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "sumergido-en-amor",
+            "tema": "Cohesión y Seguridad",
+            "accion": "Orar reconociendo que nada puede separarnos de la sustancia que nos sostiene."
+          }
+        ]
+      }
     }
 
     

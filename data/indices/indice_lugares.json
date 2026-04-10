@@ -364,6 +364,19 @@
     "tags": "lagar ofra, el lagar de ofra, jueces"
   },
   {
+    "id": "creacion-cosmos",
+    "nombre": "El Punto Cero (La Matriz de la Creación)",
+    "titulo": "El Origen del Dios-Espacio",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.76,
+      44.82
+    ],
+    "era": "Bereshit (El Principio)",
+    "testamento": "Eternidad / Antiguo Testamento",
+    "tags": "creacion cosmos, el punto cero (la matriz de la creación), génesis, juan, colosenses, hebreos"
+  },
+  {
     "id": "el-tabernaculo",
     "nombre": "El Tabernáculo",
     "titulo": "La Morada de la Gloria",
