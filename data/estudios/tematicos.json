@@ -3512,7 +3512,7 @@
     {
       "id": "quintaesencia-amor-sustancia",
       "activo": false,
-      "fecha_programada": "2026-04-18",
+      "fecha_programada": "2026-04-20",
       "tipo": "tematico",
       "titulo": "La Quintaesencia: El Amor como Sustancia Conectora",
       "subtitulo": "Descubriendo la fuerza invisible que impide que el universo se desmorone",
@@ -3631,6 +3631,132 @@
             "id_oracion": "sumergido-en-amor",
             "tema": "Cohesión y Seguridad",
             "accion": "Orar reconociendo que nada puede separarnos de la sustancia que nos sostiene."
+          }
+        ]
+      }
+    },
+    {
+      "id": "biologica-gracia-inmerecido-disenado",
+      "activo": true,
+      "fecha_programada": "2026-04-22",
+      "tipo": "tematico",
+      "titulo": "La Bio-Lógica de la Gracia: Inmerecido pero Diseñado",
+      "subtitulo": "La Gracia no es un permiso para fallar, es tu naturaleza original",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/biologica-gracia.webp",
+      "tags": [
+        "Gracia",
+        "Poiema",
+        "Physis",
+        "Diseño Original",
+        "Identidad"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios... porque somos hechura suya.",
+        "cita": "Efesios 2:8-10"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, es hora de despojar a la Gracia de la culpa religiosa. Muchos ven la Gracia como una 'red de seguridad' para cuando caemos, pero en el diseño del Códice, la Gracia es mucho más: es la <strong>atmósfera vital</strong> donde tu espíritu respira. No es un favor abstracto, es el entorno necesario para que tu herencia divina florezca. <button class='btn-verse' onclick='abrirModal(\"Efesios 2:8\", \"Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios;\")'>Efesios 2:8</button>. No te esfuerzas por la Gracia; te posicionas en ella como quien busca el sol."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El 'Poiema' de Dios: La Obra Maestra"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La Biblia dice que somos Su 'hechura'. En el griego original, la palabra es <strong>Poiema</strong>. Esto significa que no eres un producto olvidado; eres una pieza artesanal. La Gracia es el lugar donde el Autor decidió tu valor antes de que pudieras hacer nada para merecerlo. Como una planta no hace fuerza para recibir la lluvia, tú no tienes que fabricar la Gracia; simplemente fuiste diseñado para vivir y crecer dentro de ella."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/poiema-diseno-divino.webp",
+          "descripcion": "El Poiema Divino: Así como el fruto crece por su naturaleza en el entorno adecuado, el ser humano es una obra diseñada para florecer en la atmósfera de la Gracia."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌱 <strong>Leyes de la Vida Espiritual:</strong> Un árbol de naranjas no hace fuerza para dar frutos; los da porque es su naturaleza interna (Physis). La Gracia no te pide que 'intentes ser bueno', te invita a descansar en quién eres realmente."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Gracia: El Aliento de Vida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina que tu vida espiritual es como un jardín. El pecado y el legalismo son como la maleza o la falta de agua que intentan ahogar tu crecimiento. La Gracia no es algo que añades de vez en cuando; es el agua constante y el aire que permite que todo en ti funcione bien. <button class='btn-verse' onclick='abrirModal(\"Romanos 6:14\", \"Porque el pecado no se enseñoreará de vosotros; pues no estáis bajo la ley, sino bajo la gracia.\")'>Romanos 6:14</button>. Vivir bajo la Gracia es como estar en un suelo fértil donde la vida de Dios fluye sin obstáculos."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Del Esfuerzo a la Plenitud del Ser"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La religión a veces nos enseña a subir una montaña con nuestras propias fuerzas. Pero el diseño de Dios nos muestra que Él ya bajó hasta nosotros. Tu trabajo no es escalar por miedo, sino reconocer que ya eres un hijo amado. Cuando entiendes esto, dejas de trabajar 'para' Dios (con miedo a fallar) y empiezas a vivir 'con' Dios (con el deseo de amar). La Gracia es el sustento que hace que tu corazón se sienta seguro."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Recibe en lugar de fabricar:</strong> La Gracia es un regalo. Simplemente abre tus manos para recibirla cada mañana.",
+            "<strong>Mira tu valor real:</strong> Eres una obra maestra de Dios. Su amor por ti no cambia según tus aciertos, sino según Su fidelidad como Creador.",
+            "<strong>Camina con confianza:</strong> No estás luchando para alcanzar una meta lejana; estás viviendo desde el abrazo que Dios ya te dio."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Promesa para hoy:</strong> No fuiste creado para vivir con ansiedad, fuiste diseñado para vivir en paz. La Gracia es el amor de Dios en acción constante sobre tu vida."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Sigo tratando de comprar con mis obras lo que Dios ya me regaló por amor?",
+            "¿Me veo a mí mismo como alguien valioso para Dios o como alguien que siempre está fallando?",
+            "¿Cómo cambiaría mi paz hoy si aceptara que el amor de Dios es el aire que respiro y no un premio que debo ganar?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Poiema",
+          "origen": "Griego (G4161)",
+          "significado": "Obra maestra o hechura artesanal. Indica que cada persona es una creación única diseñada con amor y propósito."
+        },
+        {
+          "palabra": "Physis",
+          "origen": "Griego (G5449)",
+          "significado": "Naturaleza o constitución interna. Se refiere a la esencia de lo que somos por nacimiento (o nuevo nacimiento)."
+        }
+      ],
+      "desafio_practico": "Hoy, cada vez que sientas que no eres suficiente, detente un momento. Respira profundo y recuerda: 'Soy una obra de Dios, Su amor me sostiene'. Deja que esa verdad calme tu mente.",
+      "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "paz-en-el-diseno"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "simon-pedro",
+            "nombre": "Simón Pedro",
+            "razon": "El hombre que aprendió que el amor de Jesús era más fuerte que sus propios errores."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "mar-rojo",
+            "nombre": "Mar Rojo",
+            "razon": "Donde el pueblo vio que Dios los salvaba por Su poder y amor, no por sus propios planes."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "descanso-en-su-amor",
+            "tema": "Identidad y Gracia",
+            "accion": "Orar dando gracias por ser un hijo amado y descansar en que Su gracia es suficiente para hoy."
           }
         ]
       }
