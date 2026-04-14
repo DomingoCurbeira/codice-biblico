@@ -3637,7 +3637,7 @@
     },
     {
       "id": "biologica-gracia-inmerecido-disenado",
-      "activo": true,
+      "activo": false,
       "fecha_programada": "2026-04-22",
       "tipo": "tematico",
       "titulo": "La Bio-Lógica de la Gracia: Inmerecido pero Diseñado",
