@@ -3760,6 +3760,398 @@
           }
         ]
       }
+    },
+    {
+      "id": "filtro-observador-percepcion-revelacion",
+      "activo": false,
+      "fecha_programada": "2026-04-24",
+      "tipo": "tematico",
+      "titulo": "El Filtro del Observador: Percepción vs. Revelación",
+      "subtitulo": "Tu realidad cambia cuando cambias el cristal con el que la miras",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "16 min",
+      "imagen_portada": "../img/estudios/filtro-observador.webp",
+      "tags": [
+        "Revelación",
+        "Blesis",
+        "Fe",
+        "Visión Espiritual",
+        "Diseño"
+      ],
+      "versiculo_clave": {
+        "texto": "No mirando nosotros las cosas que se ven, sino las que no se ven; pues las cosas que se ven son temporales, pero las que no se ven son eternas.",
+        "cita": "2 Corintios 4:18"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, ¿alguna vez has sentido que el caos de tu día a día nubla por completo la presencia de Dios? A menudo creemos que nuestra realidad es 'lo que nos pasa', pero la verdad bíblica es que nuestra realidad depende de <strong>cómo miramos</strong> lo que nos pasa. La fe no es ignorar que hay problemas; la fe es usar un cristal de mayor resolución para ver lo que Dios está haciendo detrás de la cortina de lo natural. <button class='btn-verse' onclick='abrirModal(\"2 Corintios 4:18\", \"no mirando nosotros las cosas que se ven, sino las que no se ven...\")'>2 Corintios 4:18</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Cristal de la Carne: Una Visión Opaca"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina que intentas ver un hermoso paisaje a través de un cristal sucio y manchado. No importa qué tan bello sea el sol afuera, tú solo verás manchas y oscuridad. Eso es la <strong>Sarx</strong> (la carne). Cuando miras tu vida a través del miedo, el orgullo o la autosuficiencia, solo logras percibir caos y amenazas. En este estado, el observador (tú) afecta lo observado: si buscas problemas, tu visión se sintonizará para encontrar solo problemas."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/percepcion-vs-revelacion.webp",
+          "descripcion": "El Filtro del Observador: La diferencia entre ver el caos de lo temporal y percibir el diseño eterno a través de la Revelación."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "👁️ <strong>Blesis (Mirada):</strong> La palabra griega 'Blesis' no es solo tener ojos abiertos, es la facultad de procesar lo que ves. Tu 'Blesis' es el filtro que decide si hoy vas a ver una tragedia o una oportunidad de crecimiento diseñada por el Padre."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Revelación: Ver el Diseño en el Caos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La Revelación no es una información nueva, es una <strong>visión nueva</strong>. Es como cuando alguien limpia ese cristal sucio y, de repente, descubres que el paisaje siempre estuvo ahí, esperando a ser visto. Dios no tiene que 'empezar' a bendecirte hoy; Él ya lo está haciendo. Lo que necesitas es ajustar tu mirada al cristal del Espíritu (Pneuma) para ver el diseño que ya está operando en lo invisible."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Cuando cambias el cristal de la 'Percepción' (lo que dictan tus sentidos) por el de la 'Revelación' (lo que dicta Su Palabra), dejas de ser una víctima de las circunstancias para convertirte en un observador del Reino. Lo que antes parecía una montaña infranqueable, ahora se revela como el escenario donde Dios mostrará Su gloria."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Practicar el Silencio del Observador"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Para cambiar el código con el que miras tu vida, necesitas aprender a hacer silencio. No puedes ver el fondo de un lago si el agua está agitada por el viento del afán. Al aquietar tu mente, permites que el cristal de tu espíritu se limpie y la señal de Dios se vuelva nítida."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Identifica tu cristal:</strong> ¿Qué estás usando hoy para mirar tus finanzas o tu salud? ¿El cristal del miedo o el de la promesa?",
+            "<strong>Limpia la lente:</strong> La gratitud es el mejor limpiador. Cuando agradeces, quitas la mancha de la queja y empiezas a ver el favor de Dios donde antes no lo veías.",
+            "<strong>Enfoca lo invisible:</strong> Dedica tiempo a meditar en lo que Dios dice de ti, no en lo que las noticias o tus sentimientos dicen de ti."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Promesa para el Observador:</strong> Si cambias la forma en que miras las cosas, las cosas que miras cambian. Al mirar a través de la Revelación, activas la paz que el mundo no puede entender."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Cuál es el 'ruido' o la 'mancha' que más me impide ver el diseño de Dios hoy?",
+            "¿Estoy dispuesto a soltar mi 'lógica humana' para usar el filtro de mayor resolución que es la fe?",
+            "¿Qué pasaría con mi ansiedad si decidiera hoy mismo que Dios está trabajando activamente detrás de la cortina de lo que veo?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Blesis",
+          "origen": "Griego (G991)",
+          "significado": "La facultad de ver, mirar fijamente o el acto de percibir con discernimiento. Es el filtro mental y espiritual del observador."
+        },
+        {
+          "palabra": "Pneuma",
+          "origen": "Griego (G4151)",
+          "significado": "Espíritu, aliento o viento. Es la frecuencia divina que nos permite ver la realidad eterna por encima de la temporal."
+        }
+      ],
+      "desafio_practico": "Hoy, cuando te enfrentes a una situación difícil, no reacciones de inmediato. Detente, respira y di: 'Señor, limpio mi cristal. Muéstrame Tu diseño en esto'. Intenta encontrar tres cosas buenas ocultas en ese problema aparente.",
+      "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "vision-de-reino"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "eliseo",
+            "nombre": "Eliseo",
+            "razon": "El profeta que pidió a Dios que abriera los ojos de su siervo para que viera que eran más los que estaban con ellos que los que estaban en contra (2 Reyes 6:17)."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "monte-dotan",
+            "nombre": "Dotán",
+            "razon": "El lugar donde la percepción humana veía un ejército enemigo, pero la revelación espiritual veía carros de fuego rodeando la ciudad."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "limpieza-de-vision",
+            "tema": "Revelación y Claridad",
+            "accion": "Orar pidiendo que los ojos de nuestro entendimiento sean alumbrados para ver la esperanza de nuestro llamado."
+          }
+        ]
+      }
+    },
+    {
+      "id": "entropia-queja-energia-gratitud",
+      "activo": false,
+      "fecha_programada": "2026-04-27",
+      "tipo": "tematico",
+      "titulo": "La Entropía de la Queja vs. La Energía de la Gratitud",
+      "subtitulo": "La gratitud no es una norma moral, es una ley de flujo espiritual",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "14 min",
+      "imagen_portada": "../img/estudios/gratitud-flujo.webp",
+      "tags": [
+        "Eucharistos",
+        "Gratitud",
+        "Orden",
+        "Flujo",
+        "Sintonía"
+      ],
+      "versiculo_clave": {
+        "texto": "Dad gracias en todo, porque esta es la voluntad de Dios para con vosotros en Cristo Jesús.",
+        "cita": "1 Tesalonicenses 5:18"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, a menudo vemos la gratitud como una simple muestra de educación hacia Dios. Pero en el Diseño Original, la gratitud es mucho más: es la herramienta técnica que mantiene tu canal espiritual libre de obstrucciones. Mientras que la queja genera desorden y pérdida de fuerza, la gratitud funciona como el lubricante que permite que el engranaje de tu vida gire en sintonía con el cielo. <button class='btn-verse' onclick='abrirModal(\"1 Tesalonicenses 5:18\", \"Dad gracias en todo...\")'>1 Tesalonicenses 5:18</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. La Queja: El Óxido de la Entropía"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En el mundo físico, la entropía es la tendencia al desorden y al desgaste. En el espíritu, la queja produce ese mismo efecto. Cuando te quejas, estás declarando que el diseño de Dios es insuficiente o erróneo. Eso crea una 'fricción' interna que agota tu energía, ensucia tu sintonía y bloquea el flujo de la bendición. La queja es como poner arena en un motor: tarde o temprano, el movimiento se detiene y el corazón se endurece."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/queja-vs-gratitud.webp",
+          "descripcion": "La Alquimia de la Gratitud: Pablo y Silas en la prisión de Filipos. En el momento de mayor fricción y dolor, decidieron activar la frecuencia de la alabanza, demostrando que la gratitud es el lubricante que hace colapsar cualquier sistema de opresión."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "⚙️ <strong>Eucharistos (Agradecido):</strong> Esta palabra describe a alguien que vive en un estado constante de reconocimiento. Ser 'Eucharistos' no es dar gracias solo por los milagros, es mantener el altar encendido en lo cotidiano, permitiendo que la energía de Dios fluya sin resistencia."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Gratitud: El Lubricante del Flujo"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La gratitud expande tu capacidad de recibir. No es que Dios necesite tus 'gracias' para darte más, sino que tu agradecimiento despeja el canal para que lo que Él ya envió pueda llegar a ti. Cuando eres agradecido, estás alineando tu frecuencia con la generosidad del Padre. La gratitud limpia el 'sarro' de la autosuficiencia y te permite reconocer la presencia de Dios incluso en las cosas más pequeñas."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si la queja es un aislante que te separa de la fuente, la gratitud es un conductor excelente. Mantiene el 'altar en lo cotidiano' activo, convirtiendo cada tarea del día en un acto de conexión con lo eterno."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Cómo mantener el canal despejado"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Vivir en gratitud no significa ignorar las dificultades, sino decidir en qué frecuencia vas a operar mientras las atraviesas. Es elegir la energía que construye sobre el desorden que destruye."
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Detecta la fricción:</strong> Cada vez que sientas ganas de quejarte, detente. Esa queja es una señal de que estás perdiendo energía espiritual.",
+            "<strong>Activa el flujo:</strong> Sustituye la queja por un agradecimiento específico. 'Gracias Padre porque, aunque este camino es difícil, Tú eres mi guía'.",
+            "<strong>Mantén el altar:</strong> No esperes a grandes eventos. Agradece por el aire, por el agua, por el trabajo. La gratitud en lo pequeño mantiene el sistema listo para lo grande."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Ley de Flujo:</strong> Un corazón agradecido es un imán para la paz. Donde hay gratitud, la entropía no puede establecerse porque el orden de Dios gobierna la atmósfera."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿He notado cómo mi energía disminuye cuando paso el día quejándome?",
+            "¿Qué área de mi vida se siente 'trabada' o con fricción por falta de gratitud?",
+            "¿Estoy dispuesto a usar la gratitud como una herramienta técnica para limpiar mi sintonía con Dios?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Eucharistos",
+          "origen": "Griego (G2170)",
+          "significado": "Agradecido, consciente del favor y la gracia. Describe una naturaleza que reconoce constantemente la fuente de todo bien."
+        },
+        {
+          "palabra": "Entropía",
+          "origen": "Concepto de Orden",
+          "significado": "En este contexto, se refiere al desorden, caos y pérdida de energía espiritual causada por la desconexión y la queja."
+        }
+      ],
+      "desafio_practico": "Hoy, haz un 'ayuno de quejas'. Cada vez que sientas la tentación de quejarte por algo, transfórmalo en un agradecimiento inmediato. Al final del día, observa cómo ha cambiado tu nivel de paz y claridad.",
+      "gamificacion": {
+        "xp_lectura": 210,
+        "logro_id": "maestro-del-flujo"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "pablo",
+            "nombre": "Apóstol Pablo",
+            "razon": "El hombre que descubrió que la gratitud y la alabanza son armas legales para romper cadenas físicas y espirituales."
+          },
+          {
+            "id": "silas",
+            "nombre": "Silas",
+            "razon": "El compañero fiel que sintonizó la misma frecuencia de fe en medio de la crisis, demostrando que la gratitud colectiva acelera el flujo divino."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "desierto-de-sin",
+            "nombre": "Desierto de Sin",
+            "razon": "El escenario donde la queja por la falta de alimento generó una 'fricción' espiritual que ocultó temporalmente el diseño de provisión de Dios."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "activacion-de-gratitud",
+            "tema": "Gratitud y Flujo",
+            "accion": "Orar agradeciendo por lo visible y lo invisible para limpiar el canal de comunicación con el Padre."
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "cuerpo-templo-cuantico-unidad-rebano",
+      "activo": true,
+      "fecha_programada": "2026-04-29",
+      "tipo": "tematico",
+      "titulo": "El Cuerpo como Templo Cuántico: La Unidad del Rebaño",
+      "subtitulo": "No existe el cristiano aislado; somos células de un mismo organismo vivo",
+      "author": "Códice Bíblico",
+      "fecha_publicacion": "Mayo 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/unidad-cuerpo.webp",
+      "tags": [
+        "Unidad",
+        "Nishmat",
+        "Soma",
+        "Sunistemi",
+        "Cohesión"
+      ],
+      "versiculo_clave": {
+        "texto": "Porque así como el cuerpo es uno, y tiene muchos miembros, pero todos los miembros del cuerpo, siendo muchos, son un solo cuerpo, así también Cristo.",
+        "cita": "1 Corintios 12:12"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Amado hermano, hemos aprendido a sintonizar nuestra propia frecuencia con el Padre, pero el Diseño Original revela una verdad aún más asombrosa: no eres una antena aislada en el desierto. Eres una célula viva dentro de un organismo eterno. Si todos compartimos el mismo <strong>Nishmat</strong> (aliento de vida), nuestra conexión no es opcional, es biológica y espiritual. En el Reino, lo que afecta a uno, resuena en todos. <button class='btn-verse' onclick='abrirModal(\"1 Corintios 12:12\", \"Porque así como el cuerpo es uno...\")'>1 Corintios 12:12</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. La Analogía de la Célula: Una Vida Compartida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina una célula de tu propio cuerpo. Ella no intenta 'sobrevivir' por su cuenta; su salud depende de su conexión con el sistema sanguíneo y el sistema nervioso. En el Cuerpo de Cristo, cada creyente es una célula especializada. Algunos son manos, otros pies, otros ojos, pero todos son sostenidos por el mismo <strong>Sunistemi</strong> (la fuerza que lo mantiene todo unido). Cuando intentas vivir como un 'cristiano independiente', te desconectas del flujo de nutrientes que solo se recibe en la unidad."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/celulas-unidad.webp",
+          "descripcion": "La interconexión del Cuerpo: Células espirituales unidas por el mismo aliento divino, formando un solo organismo de luz."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🫂 <strong>Soma (El Cuerpo):</strong> En el griego bíblico, 'Soma' no es solo un bulto de carne; es un organismo coordinado. La salud del Soma depende de que cada célula cumpla su diseño sin competir con las demás. La unidad no es uniformidad, es armonía en la diversidad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. La Interferencia del Dolor y la Sintonía Colectiva"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Si te golpeas un dedo del pie, tu cerebro no dice 'ese es problema del dedo'. Todo tu cuerpo se detiene, tu ritmo cardíaco cambia y tu atención se enfoca allí. Así funciona el Templo Cuántico del Espíritu. Cuando un miembro del rebaño sufre, el sistema entero siente la interferencia. Si permitimos que el odio o la división entren, estamos creando una 'enfermedad autoinmune' que debilita nuestra capacidad de manifestar el Reino."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La verdadera potencia del Reino no se manifiesta en la sintonía de un solo hombre, sino en la <strong>Sintonía Colectiva</strong>. Cuando un grupo de células se pone de acuerdo en una misma frecuencia, la señal de Dios se vuelve un estruendo que transforma la tierra."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Mantener la Cohesión del Sistema"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Reconoce tu conexión:</strong> Tu crecimiento espiritual está ligado al crecimiento de tus hermanos. Si ellos prosperan, el sistema prospera.",
+            "<strong>Elimina el aislamiento:</strong> Busca la unidad. El aislamiento es el terreno donde la Sarx intenta convencernos de que no necesitamos a nadie más.",
+            "<strong>Sana la interferencia:</strong> El perdón y la intercesión son los mecanismos de 'limpieza' que mantienen el cuerpo libre de toxinas espirituales."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>La Ley de la Unidad:</strong> Donde hay dos o tres sintonizados en la misma frecuencia (acuerdo), el Cielo no solo escucha, sino que se manifiesta. La unidad es el conductor perfecto para el poder de Dios."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Me veo a mí mismo como una pieza aislada o como parte vital de un organismo vivo?",
+            "¿Siento el dolor de mis hermanos como si fuera el mío, o he creado una barrera de indiferencia?",
+            "¿Qué puedo hacer hoy para fortalecer la cohesión y la sintonía en mi comunidad o familia?"
+          ]
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Nishmat",
+          "origen": "Hebreo (H5397)",
+          "significado": "Aliento de vida, soplo divino. Es el elemento común que nos conecta a todos con la Fuente."
+        },
+        {
+          "palabra": "Sunistemi",
+          "origen": "Griego (G4921)",
+          "significado": "Consistir, mantener unido, sostener. La fuerza de cohesión que impide que el sistema se desmorone."
+        }
+      ],
+      "desafio_practico": "Hoy, contacta a un hermano o hermana que sepas que está pasando por una dificultad. No lo hagas por compromiso social, sino como una 'célula' que envía nutrientes a otra. Ora con esa persona, recordándole que no está sola en el sistema.",
+      "gamificacion": {
+        "xp_lectura": 240,
+        "logro_id": "miembro-activo-del-cuerpo"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "bernabe",
+            "nombre": "Bernabé",
+            "razon": "Conocido como el 'Hijo de Consolación', fue el puente vital que unió a los miembros del Cuerpo, demostrando que la unidad requiere de hombres que vean el diseño de Dios en los demás."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "aposento-alto",
+            "nombre": "Aposento Alto",
+            "razon": "El lugar donde la 'unanimidad' (sintonía total) permitió la irrupción del Espíritu Santo sobre todo el cuerpo reunido."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "cohesion-del-cuerpo",
+            "tema": "Unidad y Amor",
+            "accion": "Orar por la unidad de la iglesia, pidiendo que el Sunistemi de Dios sane toda división."
+          }
+        ]
+      }
     }
 
     
