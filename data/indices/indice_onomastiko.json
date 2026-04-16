@@ -2,15 +2,15 @@
   "meta": {
     "version": "4.1-object-id",
     "ultima_sincronizacion": "2026-04-16",
-    "total_global": 9
+    "total_global": 15
   },
   "identidades": [
     {
       "id": "onoma-abraham-fe",
-      "nombre": "Abraham",
-      "subtitulo": "El Arquitecto de la Promesa",
+      "nombre": "Abram",
+      "subtitulo": "Padre Enaltecido",
       "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/abraham.webp",
+      "imagen": "../img/perfiles/abram.webp",
       "tags": [
         "fe",
         "pacto",
@@ -30,6 +30,20 @@
         "creación",
         "identidad",
         "humanidad"
+      ]
+    },
+    {
+      "id": "onoma-aaron-kohen",
+      "nombre": "Aharón",
+      "subtitulo": "El Portavoz del Éxodo",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/aaron-voz.webp",
+      "tags": [
+        "sacerdote",
+        "tabernaculo",
+        "intercesión",
+        "aaron",
+        "levita"
       ]
     },
     {
@@ -61,6 +75,21 @@
       ]
     },
     {
+      "id": "onoma-isaac-fe",
+      "nombre": "Isaac",
+      "subtitulo": "El Hijo de la Risa",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/isaac-joven.webp",
+      "tags": [
+        "risa",
+        "herencia",
+        "paz",
+        "obediencia",
+        "isaac",
+        "pacto"
+      ]
+    },
+    {
       "id": "onoma-isaias-vision",
       "nombre": "Isaías",
       "subtitulo": "El Mensajero del Trono",
@@ -75,6 +104,20 @@
       ]
     },
     {
+      "id": "onoma-jacob-transicion",
+      "nombre": "Jacob",
+      "subtitulo": "El Suplantador",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/jacob.webp",
+      "tags": [
+        "patriarca",
+        "lucha",
+        "identidad",
+        "jacob",
+        "israel"
+      ]
+    },
+    {
       "id": "onoma-job-integridad",
       "nombre": "Job",
       "subtitulo": "El Centinela de la Integridad",
@@ -86,6 +129,34 @@
         "integridad",
         "poesía",
         "iyov"
+      ]
+    },
+    {
+      "id": "onoma-jose-fe",
+      "nombre": "José",
+      "subtitulo": "El Soñador de Canaán",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/jose-sonador.webp",
+      "tags": [
+        "soñador",
+        "egipto",
+        "providencia",
+        "jose",
+        "perdón"
+      ]
+    },
+    {
+      "id": "onoma-moises-fe",
+      "nombre": "Moshé",
+      "subtitulo": "El Príncipe de los Pastores",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/moises-pastor.webp",
+      "tags": [
+        "libertador",
+        "ley",
+        "exodo",
+        "moises",
+        "sinai"
       ]
     },
     {
@@ -114,6 +185,20 @@
         "apóstol",
         "epístolas",
         "paulos"
+      ]
+    },
+    {
+      "id": "onoma-sarah-fe",
+      "nombre": "Sarai",
+      "subtitulo": "La Princesa de Abram",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/sarai.webp",
+      "tags": [
+        "matriz",
+        "risa",
+        "promesa",
+        "sarah",
+        "pacto"
       ]
     },
     {

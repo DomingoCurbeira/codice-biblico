@@ -200,7 +200,10 @@ function abrirDetalleLugar(lugar) {
 
     // 5. Gestión de visibilidad y animaciones
     cambiarTab('narrativa');
-    renderizarBotonVolver();
+    // Disparamos la función varias veces para ganar la carrera al renderizado
+    window.renderizarBotonVolver(); // Intento inmediato
+    setTimeout(window.renderizarBotonVolver, 300); // Intento tras 300ms
+    setTimeout(window.renderizarBotonVolver, 1000);
     
     const visor = document.getElementById('place-visor');
     if (visor) {
@@ -252,7 +255,10 @@ async function viajarA(id) {
                 el.classList.remove('marker-highlight');
             }, 5000);
         }
-
+        
+        setTimeout(() => {
+            window.renderizarBotonVolver();
+        }, 200);
     } catch (error) {
         console.error("Error crítico en la navegación viajarA:", error);
     }
@@ -629,37 +635,111 @@ window.navegarA = function(tipo, id) {
     }
 };
 
-// --- DIBUJAR BOTÓN DE REGRESO INTERNO ---
-function renderizarBotonVolver() {
-    let btnAtras = document.getElementById('btn-volver-interno');
+// --- DIBUJAR BOTÓN DE REGRESO (INTERNO Y EXTERNO) ---
+window.renderizarBotonVolver = function() {
+    // 1. OBTENER PARÁMETROS Y RASTROS
+    const params = new URLSearchParams(window.location.search);
     
-    // Si hay historial acumulado, mostramos el botón
-    if (window.historialNavegacion && window.historialNavegacion.length > 0) {
-        const lugarAnterior = window.historialNavegacion[window.historialNavegacion.length - 1];
+    // --- AQUÍ VA EL CAMBIO ---
+    const rastroImagenDeDios = sessionStorage.getItem('rastro_estudio');
+    
+    // Si existe rastro de Imagen de Dios, anulamos retornoId para que no se pinte el botón dorado
+    const retornoId = rastroImagenDeDios ? null : (params.get('retorno') || localStorage.getItem('last_onoma_id'));
+    // -------------------------
 
-        // Si el botón no existe en el HTML, lo creamos mágicamente con JS
-        if (!btnAtras) {
-            btnAtras = document.createElement('button');
-            btnAtras.id = 'btn-volver-interno';
-            // Estilos del botón (lo hacemos parecer un tag pero más destacado)
-            btnAtras.style.cssText = "background: #334155; color: #fcd34d; border: 1px solid #d4b483; padding: 4px 10px; border-radius: 4px; cursor: pointer; margin-bottom: 12px; font-weight: bold; font-family: monospace; display: flex; align-items: center; gap: 5px; font-size: 0.85em;";
-            
-            // Lo inyectamos justo antes del título principal
-            const titulo = document.getElementById('p-nombre');
-            titulo.parentNode.insertBefore(btnAtras, titulo);
-        }
-        
-        btnAtras.innerHTML = `<span>⬅️ Volver a:</span> <b>${lugarAnterior.nombre}</b>`;
-        btnAtras.style.display = 'inline-flex';
-        
-        // Al hacer clic, sacamos el último lugar del historial y volvemos a él
-        btnAtras.onclick = function() {
-            const destino = window.historialNavegacion.pop();
-            viajarA(destino.id);
-        };
+    // 2. BUSQUEDA DEL CONTENEDOR (Igual que antes)
+    const tituloLugar = document.getElementById('p-nombre') || 
+                        document.querySelector('.p-nombre') || 
+                        document.querySelector('.narrativa-box h2') ||
+                        document.querySelector('.panel-informacion h2');
+
+    const panelPrincipal = document.getElementById('visor-lugar') || 
+                           document.querySelector('.panel-informacion') ||
+                           document.querySelector('.narrativa-box');
+
+    // 3. VALIDACIÓN DE SALIDA
+    // Si no hay retornoId (porque venimos de Imagen de Dios o no hay memoria), salimos.
+    if (!retornoId) {
+        console.log("No se inyecta botón de Onomastiko (Prioridad Imagen de Dios o sin rastro)");
+        return;
+    }
+
+    // Si el panel no existe todavía, el setTimeout de viajarA volverá a intentarlo
+    if (!tituloLugar && !panelPrincipal) {
+        console.log("Sigo buscando un lugar donde poner el botón...");
+        return;
+    }
+
+    // 3. Evitar duplicados
+    if (document.getElementById('btn-volver-onomastiko-fijo')) return;
+
+    // 4. CREACIÓN DEL BOTÓN
+    const btn = document.createElement('button');
+    btn.id = 'btn-volver-onomastiko-fijo';
+    btn.innerHTML = `<span>🆔</span> Regresar al Perfil`;
+    
+    btn.style.cssText = `
+        background: #1e293b; 
+        color: #fbbf24; 
+        border: 1px solid #fbbf24; 
+        padding: 10px 18px; 
+        border-radius: 25px; 
+        cursor: pointer; 
+        margin-bottom: 20px; 
+        font-weight: bold; 
+        display: inline-flex; 
+        align-items: center; 
+        gap: 8px; 
+        font-size: 0.9rem; 
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        z-index: 9999;
+        position: relative;
+    `;
+
+    // 5. INYECCIÓN (Donde sea que encuentre espacio)
+    if (tituloLugar) {
+        tituloLugar.parentNode.insertBefore(btn, tituloLugar);
     } else {
-        // Si el historial está vacío (entramos directo desde el mapa), lo ocultamos
-        if (btnAtras) btnAtras.style.display = 'none';
+        panelPrincipal.prepend(btn);
+    }
+
+    btn.onclick = () => {
+        // No borramos el localStorage aquí para permitir que el usuario 
+        // regrese si vuelve a entrar a otro lugar del mapa
+        window.location.href = `../onomastiko/nombre.html?id=${retornoId}`;
+    };
+    
+    console.log("🚀 ¡BOTÓN INYECTADO!");
+};
+
+// Función auxiliar para crear la estructura base del botón
+function crearBotonBase() {
+    const btn = document.createElement('button');
+    btn.id = 'btn-volver-interno';
+    btn.style.cssText = `
+        background: #1e293b; 
+        color: #fcd34d; 
+        border: 1px solid #d4b483; 
+        padding: 6px 12px; 
+        border-radius: 20px; 
+        cursor: pointer; 
+        margin-bottom: 15px; 
+        font-weight: bold; 
+        display: flex; 
+        align-items: center; 
+        gap: 8px; 
+        font-size: 0.85em;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        transition: all 0.3s ease;
+    `;
+    return btn;
+}
+
+// Función auxiliar para inyectar el botón en el panel lateral
+function inyectarBoton(btn) {
+    const titulo = document.getElementById('p-nombre');
+    if (titulo && titulo.parentNode) {
+        titulo.parentNode.insertBefore(btn, titulo);
     }
 }
 

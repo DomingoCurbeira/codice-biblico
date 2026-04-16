@@ -685,12 +685,19 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // 1. Navegar a Cronos (Lugares)
 window.irAlMapa = function(lugarId, nombreEstudio) {
+    // 1. LIMPIEZA CRÍTICA: Borramos el rastro de Onomastiko 
+    // para que no aparezca el botón dorado de Abraham/Jacob
+    localStorage.removeItem('last_onoma_id');
+
+    // 2. Creamos el rastro para Imagen de Dios (Cronos -> Imagen de Dios)
     const rastro = {
         nombrePersonaje: nombreEstudio,
         url: window.location.href 
     };
-    // Usamos 'rastro_estudio' que es el estándar que leen Huellas y Cronos
+    
     sessionStorage.setItem('rastro_estudio', JSON.stringify(rastro));
+    
+    // 3. Viajamos al mapa
     window.location.href = `../cronos/index.html?lugar=${lugarId}`;
 };
 

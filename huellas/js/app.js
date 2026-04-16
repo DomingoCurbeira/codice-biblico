@@ -689,62 +689,65 @@ if (document.readyState === 'loading') {
 }
 });
 
-// --- SISTEMA DE RETORNO A CRONOS (MAPAS) ---
+function manejarNavegacionRetorno() {
+    const params = new URLSearchParams(window.location.search);
+    const retornoId = params.get('retorno'); // Caso A: Viene de Onomastiko (URL)
+    const rastroRaw = sessionStorage.getItem('rastro_estudio'); // Caso B: Viene de Cronos (Session)
 
-// 1. Función para revisar si venimos de Cronos
-function checkRetornoCronos() {
-    // Buscamos si Cronos dejó una "miga de pan" en la memoria del navegador
-    const rastroRaw = sessionStorage.getItem('rastro_estudio');
-    
+    // 1. Prioridad: Retorno a Onomastiko (el que estamos creando hoy)
+    if (retornoId) {
+        crearBotonNavegacion(`🆔 Volver al Perfil`, `../onomastiko/nombre.html?id=${retornoId}`, "#fbbf24");
+        return; // Si venimos de Onomastiko, priorizamos este regreso
+    }
+
+    // 2. Segundo caso: Retorno a Cronos (tu sistema anterior)
     if (rastroRaw) {
         try {
             const rastro = JSON.parse(rastroRaw);
-            const btnRetorno = document.getElementById('btn-retorno-cronos');
-            const spanNombre = document.getElementById('nombre-origen-cronos');
-
-            // Si existe el rastro y tiene una URL guardada, mostramos el botón
-            if (btnRetorno && rastro.url) {
-                btnRetorno.style.display = 'inline-flex'; // Lo hacemos visible
-                
-                if (spanNombre && rastro.nombrePersonaje) {
-                    // Ponemos el nombre del lugar del que venimos (ej. "Jardín del Edén")
-                    spanNombre.innerText = rastro.nombrePersonaje; 
-                }
+            if (rastro.url) {
+                crearBotonNavegacion(`⬅ Volver a: ${rastro.nombrePersonaje || 'Mapa'}`, rastro.url, "#d4b483", true);
             }
-        } catch (error) {
-            console.error("Error leyendo el rastro de Cronos:", error);
-        }
+        } catch (e) { console.error("Error rastro:", e); }
     }
 }
 
-// 2. Función que se ejecuta al hacer clic en el botón de volver
-window.retornarACronos = function() {
-    const rastroRaw = sessionStorage.getItem('rastro_estudio');
+// Función auxiliar para no repetir código de creación de botones
+function crearBotonNavegacion(texto, url, colorAcento, esCronos = false) {
+    const btn = document.createElement('button');
+    btn.innerHTML = texto;
+    // Estilo unificado para que no tape el contenido
+    btn.style = `
+        position: fixed; top: 20px; left: 20px; z-index: 1100; 
+        background: #1e293b; color: ${colorAcento}; border: 1px solid ${colorAcento}; 
+        padding: 10px 18px; border-radius: 25px; cursor: pointer; 
+        font-weight: bold; box-shadow: 0 10px 25px rgba(0,0,0,0.5); 
+        transition: all 0.3s ease; font-family: 'Merriweather', serif;
+    `;
     
-    if (rastroRaw) {
-        const rastro = JSON.parse(rastroRaw);
-        
-        // Limpiamos la memoria para que el botón no se quede pegado para siempre
-        sessionStorage.removeItem('rastro_estudio');
-        
-        // ¡Viajamos de regreso a la URL exacta del mapa!
-        window.location.href = rastro.url;
-    }
-};
+    btn.onmouseover = () => {
+        btn.style.background = colorAcento;
+        btn.style.color = "#0f172a";
+        btn.style.transform = "translateY(-2px)";
+    };
+    btn.onmouseout = () => {
+        btn.style.background = "#1e293b";
+        btn.style.color = colorAcento;
+        btn.style.transform = "translateY(0)";
+    };
 
-// IMPORTANTE: Asegúrate de llamar a checkRetornoCronos() cuando cargue la página
-document.addEventListener('DOMContentLoaded', () => {
-    // ... tu código actual de inicio en Huellas ...
+    btn.onclick = () => {
+        if (esCronos) sessionStorage.removeItem('rastro_estudio');
+        window.location.href = url;
+    };
     
-    checkRetornoCronos(); // <--- Activa el detector de rastros
-});
-
+    document.body.appendChild(btn);
+}
 // =====================================================================
 // --- SISTEMA INTEGRAL DE ECOSISTEMA Y GAMIFICACIÓN (HUELLAS) ---
 // =====================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    
+    manejarNavegacionRetorno();
     // 1. BOTÓN DE RETORNO UNIVERSAL
     const rastroGuardado = sessionStorage.getItem('rastro_estudio');
     

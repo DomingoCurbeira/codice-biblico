@@ -89,29 +89,273 @@
         "id": "onoma-abraham-fe",
         "seccion": "ONOMASTIKO",
         "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
         "config_tarjeta": {
             "color_primario": "#10b981",
             "color_acento": "#a7f3d0",
-            "avatar_url": "../img/perfiles/abraham.webp",
+            "avatar_url": "../img/perfiles/abram.webp",
             "gradiente": "linear-gradient(135deg, #059669 0%, #0b0f19 100%)"
         },
         "perfil_card": {
-            "nombre_principal": "Abraham",
-            "subtitulo_rol": "El Arquitecto de la Promesa",
-            "bio_resumen": "Llamado a salir de lo conocido para heredar lo invisible. Su vida activó el protocolo de bendición para todas las familias de la tierra mediante una fe incondicional en la palabra del Creador.",
-            "logro_destacado": "Padre de Multitudes y del Pacto",
+            "nombre_principal": "Abram",
+            "subtitulo_rol": "Padre Enaltecido",
+            "bio_resumen": "Un hombre llamado a salir de su tierra y parentela. Representa el inicio de la obediencia, caminando hacia una promesa que aún no tenía nombre completo.",
+            "logro_destacado": "El Llamado Original",
             "iconos_accion": [
                 { "tipo": "huellas", "id": "abraham", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "avraham-he", "tooltip": "Etymos" },
+                { "tipo": "etymos", "id": "abram-he", "tooltip": "Etymos" },
                 { "tipo": "cronos", "id": "ur-caldeos", "tooltip": "Cronos" }
             ]
         },
+        "fases": {
+            "nueva": {
+                "nombre": "Abraham",
+                "titulo": "Padre de Multitudes",
+                "avatar": "../img/perfiles/abraham.webp",
+                "bio": "Al recibir el aliento de Dios en su nombre, su diseño se expandió. Su vida activó el protocolo de bendición global mediante una fe que llama a las cosas que no son como si fuesen.",
+                "etymos_id": "avraham-he"
+            }
+        },
         "datos_identidad": {
-            "original_idioma": "אַבְרָהָם",
-            "transliteracion": "Avrahám",
-            "significado_core": "Padre de una multitud",
+            "original_idioma": "אַבְרָם ➔ אַבְרָהָם",
+            "transliteracion": "Abrám ➔ Avrahám",
+            "significado_core": "Padre Enaltecido ➔ Padre de Multitudes",
             "perla_profunda": "La fe es el lenguaje que permite al hombre caminar en dimensiones que aún no se han manifestado físicamente."
         },
         "tags": ["fe", "pacto", "promesa", "patriarca", "avrahám"]
+    },
+    {
+        "id": "onoma-sarah-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#f59e0b",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/sarai.webp",
+            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Sarai",
+            "subtitulo_rol": "La Princesa de Abram",
+            "bio_resumen": "Compañera de fe y belleza legendaria. Su vida comenzó bajo un nombre que significaba 'mi princesa', limitada a la esfera de lo privado y la esterilidad del desierto.",
+            "logro_destacado": "Lealtad en el Peregrinaje",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "sara", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "sarai-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "hebron", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Sarah",
+                "titulo": "Princesa de Naciones",
+                "avatar": "../img/perfiles/sara.webp",
+                "bio": "Al recibir el aliento divino en su nombre, su esterilidad se convirtió en risa. Se convirtió en la madre de reyes y el prototipo de la mujer que confía en el Dios de lo imposible.",
+                "etymos_id": "sarah-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שָׂרַי ➔ שָׂרָה",
+            "transliteracion": "Saráy ➔ Sarah",
+            "significado_core": "Mi Princesa ➔ Princesa (Universal)",
+            "perla_profunda": "El diseño de Dios no te pide que seas 'alguien' para un hombre, sino que seas una 'matriz' de propósito para las naciones."
+        },
+        "tags": ["matriz", "risa", "promesa", "sarah", "pacto"]
+    },
+    {
+        "id": "onoma-isaac-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#10b981",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/isaac-joven.webp",
+            "gradiente": "linear-gradient(135deg, #064e3b 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Isaac",
+            "subtitulo_rol": "El Hijo de la Risa",
+            "bio_resumen": "Hijo milagroso de Abraham y Sara, cuyo nombre significa 'Risa'. Él es la garantía del Pacto, el eslabón que debe sostener la promesa mediante la obediencia y la paz.",
+            "logro_destacado": "Obediencia en Moriah",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "isaac", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "isaac-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "hebron", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Isaac Patriarch",
+                "titulo": "El Señor de Rehobot",
+                "avatar": "../img/perfiles/isaac.webp",
+                "bio": "En su madurez, Isaac demostró su fe no conquistando nuevas tierras, sino reabriendo los pozos de su padre. Su legado es la perseverancia y la paz que brota de la obediencia.",
+                "etymos_id": "isaac-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יִצְחָק",
+            "transliteracion": "Yitzhak",
+            "significado_core": "Risa / Aquel que ríe",
+            "perla_profunda": "La fe no siempre es gritar en la batalla; a veces es el sonido suave de quien confía tanto que puede reír ante lo imposible."
+        },
+        "tags": ["risa", "herencia", "paz", "obediencia", "isaac", "pacto"]
+    },
+    {
+        "id": "onoma-jacob-transicion",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#b45309",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/jacob.webp",
+            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Jacob",
+            "subtitulo_rol": "El Suplantador",
+            "bio_resumen": "Representa el esfuerzo humano y la astucia. Su diseño original fue procesado hasta convertirse en el príncipe que prevaleció ante Dios.",
+            "logro_destacado": "Heredero de la Promesa",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "jacob", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "yaakov-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "peniel", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Israel",
+                "titulo": "Príncipe de Dios",
+                "avatar": "../img/perfiles/israel.webp",
+                "bio": "Después de prevalecer en Peniel, su diseño fue actualizado. Marcando el nacimiento de una nación soberana.",
+                "etymos_id": "yisrael-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יַעֲקֹב / יִשְׂרָאֵל",
+            "transliteracion": "Ya'akov / Yisra'el",
+            "significado_core": "Suplantador / El que lucha con Dios",
+            "perla_profunda": "Dios no solo cambia tu nombre, cambia tu naturaleza de suplantador a heredero."
+        },
+        "tags": ["patriarca", "lucha", "identidad", "jacob", "israel"]
+    },
+    {
+        "id": "onoma-jose-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#0ea5e9",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/jose-sonador.webp",
+            "gradiente": "linear-gradient(135deg, #0c4a6e 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "José",
+            "subtitulo_rol": "El Soñador de Canaán",
+            "bio_resumen": "El hijo amado que vio en sueños su destino. Su túnica de colores fue el símbolo de un favor que despertó envidia, pero su verdadera fuerza residía en su capacidad de ver más allá de las circunstancias.",
+            "logro_destacado": "Integridad en la Prueba",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "jose-egipto", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "jose-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "dotan", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Zaphenat-Paneah",
+                "titulo": "Salvador del Mundo",
+                "avatar": "./img/perfiles/jose-egipto.webp",
+                "bio": "Tras el pozo y la cárcel, emergió como el hombre más sabio de Egipto. Su nombre egipcio significa 'El que revela lo oculto'. Perdonó a sus hermanos entendiendo que su dolor fue el vehículo para salvar naciones.",
+                "etymos_id": "zaphenat-paneah-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יוֹסֵף ➔ צָפְנַת פַּעְנֵחַ",
+            "transliteracion": "Yoséf ➔ Zaphenat-Paneah",
+            "significado_core": "Aquel que añade ➔ El que revela secretos",
+            "perla_profunda": "Lo que los hombres planearon para mal, el Diseño Divino lo procesó para el bien de muchos."
+        },
+        "tags": ["soñador", "egipto", "providencia", "jose", "perdón"]
+    },
+    {
+        "id": "onoma-moises-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#475569",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/moises-pastor.webp",
+            "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Moshé",
+            "subtitulo_rol": "El Príncipe de los Pastores",
+            "bio_resumen": "Rescatado de las aguas y criado en palacio, tuvo que perder su identidad egipcia en el desierto para encontrar su verdadera misión. Un hombre cuya mansedumbre superaba su elocuencia.",
+            "logro_destacado": "Humildad ante la Zarza",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "moises", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "moises-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "monte-sinai", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Moshé",
+                "titulo": "El Amigo de Dios",
+                "avatar": "../img/perfiles/moises.webp",
+                "bio": "El libertador de Israel y receptor de la Torá. Su rostro resplandecía tras hablar con el Creador. Llevó a una nación de la esclavitud a la frontera de la libertad.",
+                "etymos_id": "moises-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "מֹשֶׁה",
+            "transliteracion": "Moshé",
+            "significado_core": "Sacado de las aguas",
+            "perla_profunda": "No fue su fuerza lo que dividió el mar, sino su disposición a ser el cayado en manos del Todopoderoso."
+        },
+        "tags": ["libertador", "ley", "exodo", "moises", "sinai"]
+    },
+    {
+        "id": "onoma-aaron-kohen",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#b45309",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/aaron-voz.webp",
+            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Aharón",
+            "subtitulo_rol": "El Portavoz del Éxodo",
+            "bio_resumen": "Hermano mayor de Moisés y su voz ante el Faraón. Fue el apoyo constante en el desierto, aprendiendo que el liderazgo no es solo hablar, sino sostener las manos de quien guía.",
+            "logro_destacado": "Portavoz en Egipto",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "aaron", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "aaron-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "refidim", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Aharón HaKohen",
+                "titulo": "El Sumo Sacerdote",
+                "avatar": "../img/perfiles/aaron.webp",
+                "bio": "El primer Sumo Sacerdote de Israel. Revestido de santidad para interceder por el pueblo. Su linaje guardaría el fuego del Tabernáculo por generaciones.",
+                "etymos_id": "aaron-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "אַהֲרֹן",
+            "transliteracion": "Aharón",
+            "significado_core": "Montañés / Iluminado / Exaltado",
+            "perla_profunda": "El servicio sagrado requiere un corazón que sepa llevar los nombres de su pueblo sobre el pecho (el Pectoral) ante la presencia de Dios."
+        },
+        "tags": ["sacerdote", "tabernaculo", "intercesión", "aaron", "levita"]
     }
 ]
