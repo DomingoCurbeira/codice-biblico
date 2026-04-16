@@ -19,6 +19,8 @@ const ASSETS = [
   '/img/og-mana.jpg',
   '/img/og-aimagen.jpg',
   '/img/og-aposento.jpg',
+  '/img/og-etymos.jpg',
+  '/img/og-onomastiko.jpg',
   
   // Opcional: Puedes añadir las páginas de inicio de cada módulo para que funcionen offline
   '/juego/index.html',
@@ -26,6 +28,8 @@ const ASSETS = [
   '/mana/index.html',
   '/huellas/index.html',
   '/notas/index.html',
+  '/etymos/index.html',
+  '/onomastiko/index.html',
   '/a_imagen_de_Dios/index.html',
   '/aposento/index.html'
 ];

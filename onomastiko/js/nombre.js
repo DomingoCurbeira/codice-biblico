@@ -110,8 +110,9 @@ function getIconSymbol(tipo) {
 // --- LÓGICA DE COMPARTIR Y NOTAS ---
 
 function inyectarAccionesCompartir(personaje) {
+    console.log(personaje.perfil_card.nombre_principal);
     const currentUrl = window.location.href;
-    const msg = `Descubre el diseño original de ${personaje.nombre} en Onomastiko (Códice Bíblico):`;
+    const msg = `Descubre el diseño original de ${personaje.perfil_card.nombre_principal} en Onomastiko (Códice Bíblico):`;
     const linkWA = `https://api.whatsapp.com/send?text=${encodeURIComponent(msg + " " + currentUrl)}`;
     const linkFB = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
 
