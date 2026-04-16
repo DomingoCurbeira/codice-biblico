@@ -2,28 +2,39 @@
     {
         "id": "onoma-adan-prototipo",
         "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true, 
         "config_tarjeta": {
-        "color_primario": "#3E2723",
-        "color_acento": "#81C784",
-        "avatar_url": "../img/perfiles/adan.webp",
-        "gradiente": "linear-gradient(135deg, #1B5E20 0%, #3E2723 100%)"
+            "color_primario": "#3E2723",
+            "color_acento": "#81C784",
+            "avatar_url": "../img/perfiles/adan.webp",
+            "gradiente": "linear-gradient(135deg, #1B5E20 0%, #3E2723 100%)"
         },
         "perfil_card": {
-        "nombre_principal": "Adán",
-        "subtitulo_rol": "El Prototipo de la Humanidad",
-        "bio_resumen": "Formado del polvo y activado por el aliento divino (Pneuma). El primer administrador del Jardín y portador del Diseño Original.",
-        "logro_destacado": "Padre de la Raza Humana",
-        "iconos_accion": [
-            { "tipo": "huellas", "id": "adan", "tooltip": "Huellas" },
-            { "tipo": "etymos", "id": "pneuma-gr", "tooltip": "Etymos" },
-            { "tipo": "cronos", "id": "jardin-eden", "tooltip": "Cronos" }
-        ]
+            "nombre_principal": "Adán",
+            "subtitulo_rol": "El Prototipo de la Humanidad",
+            "bio_resumen": "Formado del polvo y activado por el aliento divino (Pneuma). El primer administrador del Jardín y portador del Diseño Original.",
+            "logro_destacado": "Padre de la Raza Humana",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "adan", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "pneuma-gr", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jardin-eden", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Adám",
+                "titulo": "El Custodio de la Promesa",
+                "avatar": "../img/perfiles/adan-esperanza.webp",
+                "bio": "Aunque perdió el Jardín, no perdió la esperanza. Se convirtió en el primer hombre en entender el costo del sacrificio y la promesa de un Redentor que vendría de su linaje.",
+                "etymos_id": "adan-pneuma-he"
+            }
         },
         "datos_identidad": {
-        "original_idioma": "אָדָם",
-        "transliteracion": "Adám",
-        "significado_core": "Hombre / Tierra Roja / Humanidad",
-        "perla_profunda": "Tu origen no es el barro, es el aliento que te dio forma. Eres un diseño eterno habitando un traje de tierra."
+            "original_idioma": "אָדָם ➔ אָדָם הַמְּתֻקָּן",
+            "transliteracion": "Adám ➔ Adám HaMetukkán",
+            "significado_core": "Tierra Roja ➔ Humanidad Restaurada",
+            "perla_profunda": "Nacimos del polvo para administrar la tierra, pero fuimos redimidos para heredar los cielos."
         },
         "tags": ["origen", "creación", "identidad", "humanidad"]
     },
@@ -31,6 +42,7 @@
         "id": "onoma-eva-vida",
         "seccion": "ONOMASTIKO",
         "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
         "config_tarjeta": {
             "color_primario": "#1B5E20",
             "color_acento": "#A5D6A7",
@@ -48,11 +60,20 @@
                 { "tipo": "cronos", "id": "jardin-eden", "tooltip": "Cronos" }
             ]
         },
+        "fases": {
+            "nueva": {
+                "nombre": "Chavváh",
+                "titulo": "Madre de todos los Vivientes",
+                "avatar": "../img/perfiles/eva-madre.webp",
+                "bio": "Su nombre se convirtió en su destino. A pesar del dolor, ella sostuvo la antorcha de la vida, creyendo fielmente que su descendencia heredería la victoria sobre la oscuridad.",
+                "etymos_id": "eva-pneuma-he"
+            }
+        },
         "datos_identidad": {
-            "original_idioma": "חַוָּה",
-            "transliteracion": "Chavvá",
-            "significado_core": "Vida / Viviente / Aliento",
-            "perla_profunda": "Tu identidad no es una derivación, es la manifestación de la vida que fluye desde el Arquitecto para llenar el vacío."
+            "original_idioma": "אִשָּׁה ➔ חַוָּה",
+            "transliteracion": "Ishsháh ➔ Chavváh",
+            "significado_core": "Varona ➔ Madre de los Vivientes",
+            "perla_profunda": "La vida es el diseño más resistente; incluso frente a la muerte, la vida encuentra el camino a través de la promesa."
         },
         "tags": ["vida", "origen", "creación", "identidad", "chavvah"]
     },
@@ -60,6 +81,7 @@
         "id": "onoma-noe-remanente",
         "seccion": "ONOMASTIKO",
         "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
         "config_tarjeta": {
             "color_primario": "#065f46",
             "color_acento": "#34d399",
@@ -77,11 +99,20 @@
                 { "tipo": "cronos", "id": "montanas-ararat", "tooltip": "Cronos" }
             ]
         },
+        "fases": {
+            "nueva": {
+                "nombre": "Nóaj",
+                "titulo": "Heredero del Nuevo Mundo",
+                "avatar": "../img/perfiles/noe-pacto.webp",
+                "bio": "Cruzó el juicio para fundar un nuevo comienzo. El arcoíris sobre sus hombros es el testimonio de que el Diseño Divino prefiere la misericordia antes que la destrucción.",
+                "etymos_id": "noe-pneuma-he"
+            }
+        },
         "datos_identidad": {
-            "original_idioma": "נֹחַ",
-            "transliteracion": "Nóaj",
-            "significado_core": "Descanso o Consuelo",
-            "perla_profunda": "El descanso no es la ausencia de tormenta, sino la seguridad de estar dentro del diseño que Dios proveyó para atravesarla."
+            "original_idioma": "נֹחַ ➔ נֹחַ הַבְּרִית",
+            "transliteracion": "Nóaj ➔ Nóaj HaBerit",
+            "significado_core": "Descanso ➔ El Descanso del Pacto",
+            "perla_profunda": "El verdadero descanso no es la calma después de la tormenta, sino la seguridad de estar bajo el arco del compromiso divino."
         },
         "tags": ["obediencia", "preservación", "pacto", "arca", "nóaj"]
     },
@@ -357,5 +388,122 @@
             "perla_profunda": "El servicio sagrado requiere un corazón que sepa llevar los nombres de su pueblo sobre el pecho (el Pectoral) ante la presencia de Dios."
         },
         "tags": ["sacerdote", "tabernaculo", "intercesión", "aaron", "levita"]
+    },
+    {
+        "id": "onoma-myriam-profetisa",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#0891b2",
+            "color_acento": "#fde68a",
+            "avatar_url": "../img/perfiles/myriam-niña.webp",
+            "gradiente": "linear-gradient(135deg, #164e63 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Myriam",
+            "subtitulo_rol": "La Guardiana de la Esperanza",
+            "bio_resumen": "Hermana mayor de Moisés. Su astucia y valentía a orillas del Nilo aseguraron que el libertador creciera bajo el cuidado de su propia madre en el palacio del Faraón.",
+            "logro_destacado": "Preservación del Linaje",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "miriam", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "myriam-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "rio-nilo", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Myriam HaNeviah",
+                "titulo": "La Profetisa de la Victoria",
+                "avatar": "../img/perfiles/miriam.webp",
+                "bio": "Líder espiritual que guió a las mujeres de Israel en cánticos y danzas de libertad. Su voz fue el eco de la victoria de Dios sobre la opresión.",
+                "etymos_id": "myriam-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "מִרְיָם",
+            "transliteracion": "Myriam",
+            "significado_core": "Amargura / Rebelión (Egipcio: Amada de Amón)",
+            "perla_profunda": "Ella transformó la amargura de la esclavitud en la dulzura del cántico profético."
+        },
+        "tags": ["profetisa", "cántico", "libertad", "myriam", "egipto"]
+    },
+    {
+        "id": "onoma-josue-conquista",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#92400e",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/josue-servidor.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Yehoshúa",
+            "subtitulo_rol": "El Siervo de Moshé",
+            "bio_resumen": "Antes de ser general, fue el servidor fiel que nunca se apartaba del Tabernáculo. Aprendió a liderar observando la gloria de Dios y la mansedumbre de su mentor.",
+            "logro_destacado": "Lealtad Inquebrantable",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "josue", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "josue-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jerico", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Josué",
+                "titulo": "El Conquistador de la Promesa",
+                "avatar": "../img/perfiles/josue.webp",
+                "bio": "Bajo su mando, el Jordán se detuvo y los muros cayeron. No por la fuerza de su espada, sino por la autoridad de su obediencia al Diseño Divino.",
+                "etymos_id": "josue-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יְהוֹשׁוּעַ",
+            "transliteracion": "Yehoshúa",
+            "significado_core": "YHWH es Salvación",
+            "perla_profunda": "La valentía de Josué no era ausencia de miedo, sino la presencia de una promesa que era más grande que sus gigantes."
+        },
+        "tags": ["conquista", "valentía", "jerico", "josue", "victoria"]
+    },
+    {
+        "id": "onoma-rajab-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#b91c1c",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/rajab-jerico.webp",
+            "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Rajab",
+            "subtitulo_rol": "La Fe de los Muros",
+            "bio_resumen": "Una mujer de Jericó que reconoció la autoridad del Dios de Israel antes de que los muros cayeran. Su valor no solo salvó a su familia, sino que la injertó en la historia misma de la redención.",
+            "logro_destacado": "El Cordón de Grana",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "rahab", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "rajab-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jerico", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Rajab",
+                "titulo": "Matriz de Reyes",
+                "avatar": "../img/perfiles/rahab.webp",
+                "bio": "Dejó atrás su pasado para convertirse en antepasada de reyes y del mismo Mesías. Su vida es el testimonio de que el Diseño Divino no mira el origen, sino la disposición del corazón.",
+                "etymos_id": "rajab-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "רָחָב",
+            "transliteracion": "Rachav",
+            "significado_core": "Ancha / Espaciosa",
+            "perla_profunda": "A veces, la fe más grande se encuentra en los lugares más inesperados; ella vio un Dios grande cuando su ciudad solo veía un enemigo."
+        },
+        "tags": ["fe", "transformación", "jerico", "rajab", "linaje"]
     }
 ]

@@ -1,31 +1,41 @@
 [
     {
-        "id": "onoma-david-malkhut",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "config_tarjeta": {
-            "color_primario": "#78350f",
-            "color_acento": "#f59e0b",
-            "avatar_url": "../img/perfiles/david.webp",
-            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
-        },
-        "perfil_card": {
-            "nombre_principal": "David",
-            "subtitulo_rol": "El Rey Conforme al Corazón",
-            "bio_resumen": "De pastor de ovejas a unificador de naciones. Un adorador cuya frecuencia musical alteraba la atmósfera espiritual y cuyo linaje portaba la promesa del Mesías.",
-            "logro_destacado": "Establecimiento del Trono de Israel",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "malkhut-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
-            ]
-        },
-        "datos_identidad": {
-            "original_idioma": "דָּוִד",
-            "transliteracion": "Dawid",
-            "significado_core": "Amado / El Elegido",
-            "perla_profunda": "La verdadera autoridad no nace de la corona, sino de la sintonía del corazón con el diseño del Arquitecto."
-        },
-        "tags": ["rey", "adoración", "linaje", "reino", "malkhut"]
-    }
+    "id": "onoma-david-rey",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+        "color_primario": "#1e3a8a",
+        "color_acento": "#fbbf24",
+        "avatar_url": "../img/perfiles/david-pastor.webp",
+        "gradiente": "linear-gradient(135deg, #172554 0%, #0b0f19 100%)"
+    },
+    "perfil_card": {
+        "nombre_principal": "David",
+        "subtitulo_rol": "El Pastor de Belén",
+        "bio_resumen": "El menor de sus hermanos, un joven músico y valiente defensor de su rebaño. Su fuerza no venía de su apariencia, sino de su íntima confianza en el Pastor de Israel.",
+        "logro_destacado": "Vencedor de Gigantes",
+        "iconos_accion": [
+            { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
+            { "tipo": "etymos", "id": "david-he", "tooltip": "Etymos" },
+            { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
+        ]
+    },
+    "fases": {
+        "nueva": {
+            "nombre": "Dawid",
+            "titulo": "El Ungido de Israel",
+            "avatar": "../img/perfiles/david.webp",
+            "bio": "El monarca que unificó a las tribus y estableció a Jerusalén como el centro del Diseño Divino. Un guerrero-poeta cuya mayor corona fue su arrepentimiento y su búsqueda del corazón de Dios.",
+            "etymos_id": "david-pneuma-he"
+        }
+    },
+    "datos_identidad": {
+        "original_idioma": "דָּוִד ➔ דָּוִד הַמֶּלֶךְ",
+        "transliteracion": "Dawíd ➔ Dawíd HaMélej",
+        "significado_core": "Amado ➔ El Rey Amado",
+        "perla_profunda": "Dios no mira lo que mira el hombre; el hombre mira la apariencia, pero el Diseño Divino mira el corazón."
+    },
+    "tags": ["realeza", "salmos", "jerusalén", "david", "linaje"]
+}
 ]

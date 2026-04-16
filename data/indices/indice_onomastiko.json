@@ -2,7 +2,7 @@
   "meta": {
     "version": "4.1-object-id",
     "ultima_sincronizacion": "2026-04-16",
-    "total_global": 15
+    "total_global": 18
   },
   "identidades": [
     {
@@ -47,17 +47,17 @@
       ]
     },
     {
-      "id": "onoma-david-malkhut",
+      "id": "onoma-david-rey",
       "nombre": "David",
-      "subtitulo": "El Rey Conforme al Corazón",
+      "subtitulo": "El Pastor de Belén",
       "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/david.webp",
+      "imagen": "../img/perfiles/david-pastor.webp",
       "tags": [
-        "rey",
-        "adoración",
-        "linaje",
-        "reino",
-        "malkhut"
+        "realeza",
+        "salmos",
+        "jerusalén",
+        "david",
+        "linaje"
       ]
     },
     {
@@ -160,6 +160,20 @@
       ]
     },
     {
+      "id": "onoma-myriam-profetisa",
+      "nombre": "Myriam",
+      "subtitulo": "La Guardiana de la Esperanza",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/myriam-niña.webp",
+      "tags": [
+        "profetisa",
+        "cántico",
+        "libertad",
+        "myriam",
+        "egipto"
+      ]
+    },
+    {
       "id": "onoma-noe-remanente",
       "nombre": "Noé",
       "subtitulo": "El Preservador del Diseño",
@@ -188,6 +202,20 @@
       ]
     },
     {
+      "id": "onoma-rajab-fe",
+      "nombre": "Rajab",
+      "subtitulo": "La Fe de los Muros",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/rajab-jerico.webp",
+      "tags": [
+        "fe",
+        "transformación",
+        "jerico",
+        "rajab",
+        "linaje"
+      ]
+    },
+    {
       "id": "onoma-sarah-fe",
       "nombre": "Sarai",
       "subtitulo": "La Princesa de Abram",
@@ -213,6 +241,20 @@
         "revelación",
         "evangelio",
         "kephas"
+      ]
+    },
+    {
+      "id": "onoma-josue-conquista",
+      "nombre": "Yehoshúa",
+      "subtitulo": "El Siervo de Moshé",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/josue-servidor.webp",
+      "tags": [
+        "conquista",
+        "valentía",
+        "jerico",
+        "josue",
+        "victoria"
       ]
     }
   ]
