@@ -2,7 +2,7 @@
   "meta": {
     "version": "4.1-object-id",
     "ultima_sincronizacion": "2026-04-16",
-    "total_global": 18
+    "total_global": 25
   },
   "identidades": [
     {
@@ -61,6 +61,34 @@
       ]
     },
     {
+      "id": "onoma-elias-fuego",
+      "nombre": "Elías",
+      "subtitulo": "El Profeta del Fuego",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/elias-tesbita.webp",
+      "tags": [
+        "profeta",
+        "fuego",
+        "elias",
+        "reforma",
+        "traslación"
+      ]
+    },
+    {
+      "id": "onoma-ester-salvacion",
+      "nombre": "Ester",
+      "subtitulo": "La Huérfana de Susa",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/ester-doncella.webp",
+      "tags": [
+        "reina",
+        "valentía",
+        "exilio",
+        "ester",
+        "providencia"
+      ]
+    },
+    {
       "id": "onoma-eva-vida",
       "nombre": "Eva",
       "subtitulo": "Madre de todos los Vivientes",
@@ -72,6 +100,20 @@
         "creación",
         "identidad",
         "chavvah"
+      ]
+    },
+    {
+      "id": "onoma-gedeon-libertador",
+      "nombre": "Gedeón",
+      "subtitulo": "El Labrador Temeroso",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/gedeon-campesino.webp",
+      "tags": [
+        "jueces",
+        "valentía",
+        "victoria",
+        "gedeon",
+        "restauración"
       ]
     },
     {
@@ -216,6 +258,48 @@
       ]
     },
     {
+      "id": "onoma-salomon-sabiduria",
+      "nombre": "Salomón",
+      "subtitulo": "El Heredero de la Paz",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/salomon-joven.webp",
+      "tags": [
+        "sabiduría",
+        "templo",
+        "paz",
+        "salomón",
+        "realeza"
+      ]
+    },
+    {
+      "id": "onoma-samuel-vidente",
+      "nombre": "Samuel",
+      "subtitulo": "El Hijo de la Oración",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/samuel-niño.webp",
+      "tags": [
+        "profeta",
+        "jueces",
+        "unción",
+        "samuel",
+        "vidente"
+      ]
+    },
+    {
+      "id": "onoma-sanson-redimido",
+      "nombre": "Sansón",
+      "subtitulo": "El Nazareo del Sol",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/sanson-nazareo.webp",
+      "tags": [
+        "jueces",
+        "fuerza",
+        "nazareo",
+        "sanson",
+        "redención"
+      ]
+    },
+    {
       "id": "onoma-sarah-fe",
       "nombre": "Sarai",
       "subtitulo": "La Princesa de Abram",
@@ -227,6 +311,20 @@
         "promesa",
         "sarah",
         "pacto"
+      ]
+    },
+    {
+      "id": "onoma-saul-primer-rey",
+      "nombre": "Saúl",
+      "subtitulo": "El Elegido del Pueblo",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/saul-joven.webp",
+      "tags": [
+        "rey",
+        "monarquía",
+        "saul",
+        "benjamin",
+        "caída"
       ]
     },
     {

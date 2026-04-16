@@ -1,41 +1,314 @@
 [
     {
-    "id": "onoma-david-rey",
-    "seccion": "ONOMASTIKO",
-    "archivo_fuente": "historicos.json",
-    "tiene_transicion": true,
-    "config_tarjeta": {
-        "color_primario": "#1e3a8a",
-        "color_acento": "#fbbf24",
-        "avatar_url": "../img/perfiles/david-pastor.webp",
-        "gradiente": "linear-gradient(135deg, #172554 0%, #0b0f19 100%)"
+        "id": "onoma-gedeon-libertador",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#451a03",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/gedeon-campesino.webp",
+            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Gedeón",
+            "subtitulo_rol": "El Labrador Temeroso",
+            "bio_resumen": "Escondido en un lagar para proteger el trigo, se veía a sí mismo como el menor en la familia más pobre. Necesitó señales para creer que Dios podía usar su debilidad.",
+            "logro_destacado": "Valiente Guerrero en Proceso",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "gedeon", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "gedeon-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "lagar-ofra", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Gid’on",
+                "titulo": "El Libertador de las Antorchas",
+                "avatar": "../img/perfiles/gedeon.webp",
+                "bio": "Con solo 300 hombres, cántaros y trompetas, demostró que la victoria no depende del número, sino de la obediencia al Diseño Divino. Derribó los altares de Baal para restaurar el culto verdadero.",
+                "etymos_id": "gedeon-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "גִּדְעוֹן ➔ יְרֻבַּעַל",
+            "transliteracion": "Gid’on ➔ Yerubbá’al",
+            "significado_core": "Guerrero / Talador ➔ Baal Contienda",
+            "perla_profunda": "Dios no te llama por lo que eres, sino por lo que Él ha depositado en ti. Un 'valiente guerrero' puede estar escondido detrás de un hombre con miedo."
+        },
+        "tags": ["jueces", "valentía", "victoria", "gedeon", "restauración"]
     },
-    "perfil_card": {
-        "nombre_principal": "David",
-        "subtitulo_rol": "El Pastor de Belén",
-        "bio_resumen": "El menor de sus hermanos, un joven músico y valiente defensor de su rebaño. Su fuerza no venía de su apariencia, sino de su íntima confianza en el Pastor de Israel.",
-        "logro_destacado": "Vencedor de Gigantes",
-        "iconos_accion": [
-            { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
-            { "tipo": "etymos", "id": "david-he", "tooltip": "Etymos" },
-            { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
-        ]
+    {
+        "id": "onoma-sanson-redimido",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#7c2d12",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/sanson-nazareo.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Sansón",
+            "subtitulo_rol": "El Nazareo del Sol",
+            "bio_resumen": "Consagrado desde el vientre, portador de una fuerza sobrenatural ligada a su voto de nazareato. Un juez carismático que luchó solo contra los opresores de su pueblo.",
+            "logro_destacado": "Fuerza Sobrenatural",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "sanson", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "sanson-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "valle-jezreel", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Shimshon",
+                "titulo": "El Héroe Restaurado",
+                "avatar": "../img/perfiles/sanson.webp",
+                "bio": "En su debilidad final encontró su mayor victoria. Al recuperar su comunión con el Diseño Divino, logró más en su muerte que en toda su vida, derribando las columnas del sistema opresor.",
+                "etymos_id": "sanson-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שִׁמְשׁוֹן ➔ שִׁמְשׁוֹן הַנָּזִיר",
+            "transliteracion": "Shimshon ➔ Shimshon HaNazir",
+            "significado_core": "Del Sol / Pequeño Sol ➔ El Nazareo Consagrado",
+            "perla_profunda": "La verdadera fuerza no reside en los músculos, sino en la integridad del pacto que guardas en tu corazón."
+        },
+        "tags": ["jueces", "fuerza", "nazareo", "sanson", "redención"]
     },
-    "fases": {
-        "nueva": {
-            "nombre": "Dawid",
-            "titulo": "El Ungido de Israel",
-            "avatar": "../img/perfiles/david.webp",
-            "bio": "El monarca que unificó a las tribus y estableció a Jerusalén como el centro del Diseño Divino. Un guerrero-poeta cuya mayor corona fue su arrepentimiento y su búsqueda del corazón de Dios.",
-            "etymos_id": "david-pneuma-he"
-        }
+    {
+        "id": "onoma-samuel-vidente",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#1e293b",
+            "color_acento": "#94a3b8",
+            "avatar_url": "../img/perfiles/samuel-niño.webp",
+            "gradiente": "linear-gradient(135deg, #0f172a 0%, #334155 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Samuel",
+            "subtitulo_rol": "El Hijo de la Oración",
+            "bio_resumen": "Entregado al servicio del Templo desde niño. Aprendió a distinguir la voz del Diseño Divino en medio del silencio, convirtiéndose en el oído de una nación que había olvidado escuchar.",
+            "logro_destacado": "Profeta del Despertar",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "samuel", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "samuel-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "silo", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Shemu'el",
+                "titulo": "El Instaurador de Reyes",
+                "avatar": "../img/perfiles/samuel.webp",
+                "bio": "El último de los Jueces y el primero de los grandes Profetas. Con el cuerno de aceite en su mano, ungió el destino de Israel, guiando la transición hacia el orden real con integridad intachable.",
+                "etymos_id": "samuel-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שְׁמוּאֵל ➔ שְׁמוּאֵל הַחֹזֶה",
+            "transliteracion": "Shemu'el ➔ Shemu'el HaChozéh",
+            "significado_core": "Escuchado por Dios ➔ Samuel el Vidente",
+            "perla_profunda": "La autoridad para hablar en nombre de Dios nace de la disposición absoluta a escucharle en lo secreto."
+        },
+        "tags": ["profeta", "jueces", "unción", "samuel", "vidente"]
     },
-    "datos_identidad": {
-        "original_idioma": "דָּוִד ➔ דָּוִד הַמֶּלֶךְ",
-        "transliteracion": "Dawíd ➔ Dawíd HaMélej",
-        "significado_core": "Amado ➔ El Rey Amado",
-        "perla_profunda": "Dios no mira lo que mira el hombre; el hombre mira la apariencia, pero el Diseño Divino mira el corazón."
+    {
+        "id": "onoma-saul-primer-rey",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#422006",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/saul-joven.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Saúl",
+            "subtitulo_rol": "El Elegido del Pueblo",
+            "bio_resumen": "Un joven de la tribu de Benjamín, notable por su estatura y humildad inicial. Fue ungido mientras buscaba las asnas perdidas de su padre, encontrando en su lugar el peso de una corona.",
+            "logro_destacado": "Primer Rey de Israel",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "saul", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "saul-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "valle-ela", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Sha'ul",
+                "titulo": "El Monarca Atormentado",
+                "avatar": "../img/perfiles/saul.webp",
+                "bio": "Su reinado estuvo marcado por la lucha entre la obediencia y la aprobación pública. Al apartarse del Diseño Divino, su paz fue reemplazada por la melancolía, sirviendo como advertencia sobre el peligro del orgullo.",
+                "etymos_id": "saul-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שָׁאוּל ➔ שָׁאוּל הַמֶּלֶךְ",
+            "transliteracion": "Sha'ul ➔ Sha'ul HaMélej",
+            "significado_core": "Deseado / Pedido ➔ El Rey Pedido",
+            "perla_profunda": "No basta con ser llamado y ungido; la verdadera realeza consiste en mantener el corazón sometido a la Voz que te dio la corona."
+        },
+        "tags": ["rey", "monarquía", "saul", "benjamin", "caída"]
     },
-    "tags": ["realeza", "salmos", "jerusalén", "david", "linaje"]
-}
+    {
+        "id": "onoma-david-rey",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#1e3a8a",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/david-pastor.webp",
+            "gradiente": "linear-gradient(135deg, #172554 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "David",
+            "subtitulo_rol": "El Pastor de Belén",
+            "bio_resumen": "El menor de sus hermanos, un joven músico y valiente defensor de su rebaño. Su fuerza no venía de su apariencia, sino de su íntima confianza en el Pastor de Israel.",
+            "logro_destacado": "Vencedor de Gigantes",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "david-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Dawid",
+                "titulo": "El Ungido de Israel",
+                "avatar": "../img/perfiles/david.webp",
+                "bio": "El monarca que unificó a las tribus y estableció a Jerusalén como el centro del Diseño Divino. Un guerrero-poeta cuya mayor corona fue su arrepentimiento y su búsqueda del corazón de Dios.",
+                "etymos_id": "david-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "דָּוִד ➔ דָּוִד הַמֶּלֶךְ",
+            "transliteracion": "Dawíd ➔ Dawíd HaMélej",
+            "significado_core": "Amado ➔ El Rey Amado",
+            "perla_profunda": "Dios no mira lo que mira el hombre; el hombre mira la apariencia, pero el Diseño Divino mira el corazón."
+        },
+        "tags": ["realeza", "salmos", "jerusalén", "david", "linaje"]
+    },
+    {
+        "id": "onoma-salomon-sabiduria",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#92400e",
+            "color_acento": "#fcd34d",
+            "avatar_url": "../img/perfiles/salomon-joven.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Salomón",
+            "subtitulo_rol": "El Heredero de la Paz",
+            "bio_resumen": "Hijo de David, elegido para consolidar el reino. En lugar de pedir riquezas o victorias militares, pidió un corazón entendido para discernir entre el bien y el mal.",
+            "logro_destacado": "Corazón Entendido",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "salomon", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "salomon-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "monte-moriah", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Shelomó",
+                "titulo": "El Arquitecto de la Gloria",
+                "avatar": "../img/perfiles/salomon.webp",
+                "bio": "Bajo su mando, Israel alcanzó su cénit. Constructor del Templo de Jerusalén y autor de miles de proverbios. Su sabiduría atrajo a las naciones, convirtiéndose en un faro del Diseño Divino en la tierra.",
+                "etymos_id": "salomon-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שְׁלֹמֹה ➔ יְדִידְיָהּ",
+            "transliteracion": "Shelomó ➔ Yedidyáh",
+            "significado_core": "Paz / Su Paz ➔ Amado de YHWH",
+            "perla_profunda": "La verdadera sabiduría no es acumular datos, sino alinear el corazón con la frecuencia de la paz divina para gobernar con justicia."
+        },
+        "tags": ["sabiduría", "templo", "paz", "salomón", "realeza"]
+    },
+    {
+        "id": "onoma-elias-fuego",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#451a03",
+            "color_acento": "#ea580c",
+            "avatar_url": "../img/perfiles/elias-tesbita.webp",
+            "gradiente": "linear-gradient(135deg, #7c2d12 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Elías",
+            "subtitulo_rol": "El Profeta del Fuego",
+            "bio_resumen": "Un hombre de pasiones semejantes a las nuestras, pero con una autoridad espiritual que cerró los cielos. Confrontó a los profetas de Baal en el Carmelo, restaurando el altar del Diseño Divino.",
+            "logro_destacado": "Restaurador del Altar",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "elias", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "elias-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "monte-carmelo", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Eliyahu",
+                "titulo": "El que Asciende en Torbellino",
+                "avatar": "../img/perfiles/elias.webp",
+                "bio": "Su ministerio no terminó con la muerte, sino con una traslación. Dejó su manto a Eliseo como símbolo de una doble porción de autoridad, ascendiendo en un carro de fuego hacia la presencia eterna.",
+                "etymos_id": "elias-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "אֵלִיָּהוּ ➔ אֵלִיָּהוּ הַנָּבִיא",
+            "transliteracion": "Eliyahu ➔ Eliyahu HaNaví",
+            "significado_core": "Mi Dios es YHWH ➔ Elías el Profeta",
+            "perla_profunda": "No es el fuego que desciende lo que define al profeta, sino el silbo apacible que le enseña a reconocer la voz de Dios en la soledad."
+        },
+        "tags": ["profeta", "fuego", "elias", "reforma", "traslación"]
+    },
+    {
+        "id": "onoma-ester-salvacion",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#4a044e",
+            "color_acento": "#f472b6",
+            "avatar_url": "../img/perfiles/ester-doncella.webp",
+            "gradiente": "linear-gradient(135deg, #701a75 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Ester",
+            "subtitulo_rol": "La Huérfana de Susa",
+            "bio_resumen": "Nacida como Hadassah, vivió bajo el cuidado de su primo Mardoqueo en el exilio persa. Su belleza y gracia la llevaron al palacio, pero su verdadera identidad permaneció oculta hasta el momento crítico.",
+            "logro_destacado": "Belleza con Propósito",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "ester", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "hadassah-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "susa-palacio", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Esther",
+                "titulo": "La Reina del Destino",
+                "avatar": "../img/perfiles/ester.webp",
+                "bio": "Entendió que su posición no era para su gloria personal, sino para un tiempo como este. Con ayuno y valentía, se presentó ante el rey desafiando la muerte para salvar a su pueblo del exterminio.",
+                "etymos_id": "ester-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "הֲדַסָּה ➔ אֶסְתֵּר",
+            "transliteracion": "Hadassáh ➔ Estér",
+            "significado_core": "Mirto ➔ Estrella / Oculto",
+            "perla_profunda": "A veces, Dios te posiciona en lugares de privilegio no para que te sientas cómodo, sino para que seas el puente de salvación para otros."
+        },
+        "tags": ["reina", "valentía", "exilio", "ester", "providencia"]
+    }
 ]
