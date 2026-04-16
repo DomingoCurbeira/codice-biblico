@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>🪪 Generador de Índice: ONOMASTIKON</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0b0f19; color: #e2e8f0; padding: 40px; line-height: 1.6; }
+        .container { max-width: 900px; margin: auto; }
+        h1 { color: #f59e0b; border-bottom: 2px solid #1e293b; padding-bottom: 10px; display: flex; align-items: center; gap: 15px; }
+        p { color: #94a3b8; }
+        .status-panel { background: #111827; border-radius: 12px; padding: 25px; margin: 25px 0; border: 1px solid #1f2937; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); }
+        .log-entry { margin-bottom: 10px; font-family: 'Fira Code', monospace; font-size: 0.9rem; }
+        .success { color: #10b981; }
+        .error { color: #f87171; background: #450a0a; padding: 8px; border-radius: 6px; margin: 5px 0; }
+        .info { color: #3b82f6; }
+        textarea { width: 100%; height: 350px; background: #000; color: #fbbf24; border: 1px solid #1f2937; border-radius: 10px; padding: 20px; font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; margin-top: 15px; resize: none; outline: none; }
+        button { background: #f59e0b; color: #000; border: none; padding: 14px 28px; border-radius: 8px; cursor: pointer; font-weight: 800; font-size: 0.9rem; transition: all 0.3s; text-transform: uppercase; letter-spacing: 1px; }
+        button:hover { background: #d97706; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3); }
+        .stats { margin-top: 15px; font-size: 1.1rem; color: #f8fafc; border-top: 1px solid #1f2937; padding-top: 15px; }
+        code { background: #1e293b; padding: 2px 6px; border-radius: 4px; color: #f59e0b; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🪪 ONOMASTIKON: Generador de Índice de Identidad</h1>
+    <p>Este script escanea los archivos de <code>data/onomastiko/</code> y genera el <code>index_onomastiko.json</code> para el mapa de identidades.</p>
+    
+    <button onclick="generarIndiceOnomastico()">🚀 SINCRONIZAR IDENTIDADES</button>
+
+    <div class="status-panel">
+        <div id="status-log" class="log-entry">Esperando comando de sintonía...</div>
+        <div id="stats" class="stats"></div>
+    </div>
+
+    <h3>Salida JSON (index_onomastiko.json)</h3>
+    <textarea id="output" readonly placeholder="El mapa de identidades aparecerá aquí..."></textarea>
+</div>
+
+<script>
+    async function generarIndiceOnomastico() {
+    const log = document.getElementById('status-log');
+    const stats = document.getElementById('stats');
+    const output = document.getElementById('output');
+    
+    log.innerHTML = "<span class='info'>⏳ Mapeando IDs individuales de ONOMASTIKON...</span><br><br>";
+    
+    const dataFinal = {
+        meta: {
+            version: "4.1-object-id",
+            ultima_sincronizacion: new Date().toISOString().split('T')[0],
+            total_global: 0
+        },
+        identidades: [] // Aquí irán todos los IDs individuales
+    };
+
+    const RUTA_ONOMASTIKO = 'data/onomastiko/';
+    const ARCHIVOS = ["pentateuco", "historicos", "poeticos", "profetas", "evangelios", "apostolicos"];
+
+    for (const nombre of ARCHIVOS) {
+        try {
+            const url = `${RUTA_ONOMASTIKO}${nombre}.json?v=${Date.now()}`;
+            const respuesta = await fetch(url);
+            
+            if (!respuesta.ok) continue;
+
+            const personajes = await respuesta.json();
+            
+            if (Array.isArray(personajes)) {
+                personajes.forEach(p => {
+                    dataFinal.identidades.push({
+                        id: p.id, // El ID único (ej: onoma-simon-leproso)
+                        nombre: p.perfil_card.nombre_principal,
+                        subtitulo: p.perfil_card.subtitulo_rol,
+                        archivo_fuente: `${nombre}.json`,
+                        imagen: p.config_tarjeta.avatar_url,
+                        tags: p.tags || []
+                    });
+                });
+                log.innerHTML += `<div class="success">✅ ${nombre}.json: ${personajes.length} IDs indexados.</div>`;
+            }
+        } catch (err) {
+            log.innerHTML += `<div class="error">❌ Error en ${nombre}.json: ${err.message}</div>`;
+        }
+    }
+
+    // Ordenar alfabéticamente por nombre para que el buscador sea más rápido
+    dataFinal.identidades.sort((a, b) => a.nombre.localeCompare(b.nombre));
+    dataFinal.meta.total_global = dataFinal.identidades.length;
+
+    output.value = JSON.stringify(dataFinal, null, 2);
+    stats.innerHTML = `📊 Total IDs mapeados: ${dataFinal.meta.total_global}`;
+}
+</script>
+</body>
+</html>

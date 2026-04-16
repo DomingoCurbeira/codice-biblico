@@ -2078,5 +2078,114 @@
             "xp_lectura": 260,
             "logro_id": "arqueologo-de-imperios"
         }
+    },
+    {
+        "id": "jerusalen-centro",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-15"
+        },
+        "mapa": {
+            "coords": [31.7767, 35.2345],
+            "zoom": 15,
+            "icono_mapa": "../img/ui/markers/epicentro-profetico.svg",
+            "marcador_color": "#FFD700"
+        },
+        "perfil": {
+            "nombre": "Jerusalén (Epicentro Global)",
+            "titulo_corto": "El Reloj del Arquitecto",
+            "significado_nombre": "Del hebreo 'Yerushalayim', posiblemente 'Cimiento de Paz' o 'Poseerá Paz'.",
+            "ubicacion_geografica": "Situada en las montañas de Judea, entre el mar Mediterráneo y el mar Muerto. Es el punto de intersección de tres continentes (Asia, África y Europa).",
+            "clima_entorno": "Ciudad de montaña con inviernos frescos y veranos secos. Su orografía de valles (Cedrón, Hinom) y montes (Sión, Moriah, Olivos) dicta su arquitectura espiritual de ascenso.",
+            "imagen_principal": "../img/lugares/jerusalen-epicentro.webp",
+            "galeria": [
+                "../img/lugares/jerusalen-vista-aerea.webp",
+                "../img/lugares/muro-occidental-amanecer.webp",
+                "../img/lugares/puertas-jerusalen.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Génesis", "Salmos", "Isaías", "Zacarías", "Mateo", "Hechos", "Apocalipsis"],
+            "era_biblica": "Atemporal / Desde Melquisedec hasta la Eternidad"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "La piedra fundamental y los estratos de continuidad",
+            "descripcion": "La arqueología en Jerusalén revela una superposición única de civilizaciones. A diferencia de otras ciudades que fueron abandonadas, Jerusalén muestra una persistencia de habitación que coincide con su rol de centro del diseño. Los hallazgos en el área del Monte del Templo confirman su relevancia central a través de todos los imperios de la historia."
+        },
+        "narrativa": {
+            "resumen_epico": "Jerusalén no es solo una capital política; es el 'Omphalos' (ombligo) del mundo y el nodo central de la red de Dios en la tierra. Es el escenario donde el Velo se rasgó, donde el tiempo se cruza con la eternidad y donde el Arquitecto ha decidido poner Su Nombre para siempre. Es el epicentro de la redención pasada, el conflicto presente y la gloria futura.",
+            "dato_curioso": "En los mapas medievales (Mapas de T en O), Jerusalén se dibujaba siempre en el centro exacto del mundo conocido, reflejando la blesis teológica de que todo el diseño de las naciones orbita alrededor de esta ciudad.",
+            "conexion_jesus": "Jesús no solo murió en Jerusalén; Él es el Rey que regresará a ella. La ciudad representa el trono terrestre del Mesías. Es el lugar donde Su sangre fue derramada para unir a judíos y gentiles (el Injerto Cuántico) en un solo Soma.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Un lugar de intensa gravedad espiritual. Transmite una sensación de urgencia profética, santidad inmanente y la tensión de ser el objeto de deseo de todas las naciones y el centro de la guerra espiritual.",
+            "simbologia": [
+                {
+                    "objeto": "La Puerta Dorada (Misericordia)",
+                    "significado": "Simboliza la expectativa del regreso del Rey y la apertura del canal final de redención."
+                },
+                {
+                    "objeto": "El Valle de Cedrón",
+                    "significado": "Representa la frontera entre la vida y el juicio, el paso necesario para la sintonía total con la gloria de Dios."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Sintonizar tu vida con Jerusalén es alinear tus prioridades con el Reloj de Dios. Cuando comprendes que hay un centro, tu propia vida deja de ser errática y encuentra su órbita correcta.",
+            "preguntas_reflexion": [
+                "¿Está tu 'reloj espiritual' sintonizado con el tiempo de Dios o con el ruido de las noticias del mundo?",
+                "¿Reconoces la Jerusalén espiritual en tu vida cotidiana, entendiendo que Su presencia está a 'distancia cero' de ti hoy?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Inicio del Diseño",
+                "evento": "Melquisedec, rey de Salem, bendice a Abraham, estableciendo el sacerdocio eterno en la ciudad.",
+                "referencia": "Génesis 14:18",
+                "vinculo_id": "abraham"
+            },
+            {
+                "fase": "El Cumplimiento de la Sangre",
+                "evento": "Jesús es crucificado y resucita en Jerusalén, rasgando el velo y unificando el diseño para todas las naciones.",
+                "referencia": "Lucas 24:46-47",
+                "vinculo_id": "jesucristo"
+            },
+            {
+                "fase": "La Sintonía Colectiva",
+                "evento": "Zacarías profetiza que todas las naciones subirán a Jerusalén para adorar al Rey, reconociendo el epicentro del diseño.",
+                "referencia": "Zacarías 14:16",
+                "vinculo_id": "naciones-unidas"
+            },
+            {
+                "fase": "La Restauración Final",
+                "evento": "La Nueva Jerusalén desciende del cielo, fusionando totalmente el diseño celestial con el terrenal.",
+                "referencia": "Apocalipsis 21:2",
+                "vinculo_id": "nueva-jerusalen"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": [
+                "jerusalen-sion",
+                "templo-jerusalen",
+                "monte-olivos"
+            ],
+            "personajes_relacionados": [
+                "melquisedec",
+                "david",
+                "jesucristo"
+            ],
+            "estudios": [
+                "reloj-profetico",
+                "el-injerto-cuantico",
+                "geografia-de-la-santidad"
+            ]
+        },
+        "gamificacion": {
+            "xp_lectura": 500,
+            "logro_id": "centinela-de-sion"
+        }
     }
 ]

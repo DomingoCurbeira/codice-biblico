@@ -1,0 +1,31 @@
+[
+  {
+      "id": "onoma-pedro-roca",
+      "seccion": "ONOMASTIKO",
+      "archivo_fuente": "evangelios.json",
+      "config_tarjeta": {
+          "color_primario": "#1e40af",
+          "color_acento": "#60a5fa",
+          "avatar_url": "../img/perfiles/pedro.webp",
+          "gradiente": "linear-gradient(135deg, #1e40af 0%, #0b0f19 100%)"
+      },
+      "perfil_card": {
+          "nombre_principal": "Simón Pedro",
+          "subtitulo_rol": "La Piedra de la Confesión",
+          "bio_resumen": "De pescador de Galilea a columna de la comunidad. Su diseño original fue reformateado por el Mesías, pasando de la inestabilidad del agua a la solidez de la roca mediante la revelación.",
+          "logro_destacado": "Portador de las Llaves del Reino",
+          "iconos_accion": [
+              { "tipo": "huellas", "id": "pedro", "tooltip": "Huellas" },
+              { "tipo": "etymos", "id": "kephas-gr", "tooltip": "Etymos" },
+              { "tipo": "cronos", "id": "lago-genesaret", "tooltip": "Cronos" }
+          ]
+      },
+      "datos_identidad": {  
+          "original_idioma": "שִׁמְעוֹן / Κηφᾶς",
+          "transliteracion": "Shim'ón / Kephás",
+          "significado_core": "El que oye / Roca",
+          "perla_profunda": "Tu verdadera identidad no es lo que eres por naturaleza, sino lo que el Arquitecto declara que eres por revelación."
+      },
+      "tags": ["apostol", "roca", "revelación", "evangelio", "kephas"]
+  }
+]

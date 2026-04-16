@@ -1,0 +1,31 @@
+[
+    {
+        "id": "onoma-job-integridad",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "poeticos.json",
+        "config_tarjeta": {
+            "color_primario": "#4c1d95",
+            "color_acento": "#c084fc",
+            "avatar_url": "../img/perfiles/job.webp",
+            "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Job",
+            "subtitulo_rol": "El Centinela de la Integridad",
+            "bio_resumen": "Aquel que sostuvo su integridad en el epicentro de la entropía. Su historia es el manual de la resiliencia espiritual y la confianza ciega en la soberanía del Arquitecto.",
+            "logro_destacado": "Restauración de la Doble Porción",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "job", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "iyov-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "tierra-uz", "tooltip": "Cronos" }
+            ]
+        },
+        "datos_identidad": {
+            "original_idioma": "אִיּוֹב",
+            "transliteracion": "Iyov",
+            "significado_core": "Aquel que se vuelve a Dios / Perseguido",
+            "perla_profunda": "En el silencio de la prueba extrema, la voz del Arquitecto se vuelve tu única y más sólida realidad."
+        },
+        "tags": ["resiliencia", "sabiduría", "integridad", "poesía", "iyov"]
+    }
+]

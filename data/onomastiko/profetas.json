@@ -1,0 +1,31 @@
+[
+    {
+    "id": "onoma-isaias-vision",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "config_tarjeta": {
+        "color_primario": "#7f1d1d",
+        "color_acento": "#f87171",
+        "avatar_url": "../img/perfiles/isaias.webp",
+        "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #0b0f19 100%)"
+    },
+    "perfil_card": {
+        "nombre_principal": "Isaías",
+        "subtitulo_rol": "El Mensajero del Trono",
+        "bio_resumen": "Aquel que contempló la gloria del Sunistemi y fue purificado por el fuego del altar. Sus visiones cartografiaron la venida del Mesías y el futuro del diseño eterno.",
+        "logro_destacado": "Profeta de la Redención Messiánica",
+        "iconos_accion": [
+            { "tipo": "huellas", "id": "isaias", "tooltip": "Huellas" },
+            { "tipo": "etymos", "id": "yeshayahu-he", "tooltip": "Etymos" },
+            { "tipo": "cronos", "id": "periodo-asirio", "tooltip": "Cronos" }
+        ]
+    },
+    "datos_identidad": {
+        "original_idioma": "יְשַׁעְיָהוּ",
+        "transliteracion": "Yeshayáhu",
+        "significado_core": "Yahveh es Salvación",
+        "perla_profunda": "Ver la santidad del Trono no solo te transforma, te obliga a convertirte en la voz que prepara el camino."
+    },
+    "tags": ["profecía", "visión", "mesías", "fuego", "yeshayahu"]
+}
+]

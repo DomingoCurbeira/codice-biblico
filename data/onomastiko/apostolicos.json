@@ -1,0 +1,31 @@
+[
+    {
+    "id": "onoma-pablo-expansion",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "config_tarjeta": {
+        "color_primario": "#1e293b",
+        "color_acento": "#94a3b8",
+        "avatar_url": "../img/perfiles/pablo.webp",
+        "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
+    },
+    "perfil_card": {
+        "nombre_principal": "Pablo",
+        "subtitulo_rol": "El Arquitecto de la Expansión",
+        "bio_resumen": "De perseguidor a máximo exponente de la revelación de la Gracia. Sus cartas cartografiaron el diseño de la Iglesia y su vida fue el motor de la expansión global del mensaje.",
+        "logro_destacado": "Cartografía de la Gracia y Misiones Globales",
+        "iconos_accion": [
+            { "tipo": "huellas", "id": "pablo", "tooltip": "Huellas" },
+            { "tipo": "etymos", "id": "paulos-gr", "tooltip": "Etymos" },
+            { "tipo": "cronos", "id": "antioquia-mision", "tooltip": "Cronos" }
+        ]
+    },
+    "datos_identidad": {
+        "original_idioma": "Παῦλος / שָׁאוּל",
+        "transliteracion": "Paulos",
+        "significado_core": "Pequeño / Humilde",
+        "perla_profunda": "La verdadera grandeza solo ocurre cuando te haces pequeño ante la inmensidad del Diseño del Arquitecto."
+    },
+    "tags": ["expansión", "gracia", "apóstol", "epístolas", "paulos"]
+}
+]

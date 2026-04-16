@@ -4029,7 +4029,7 @@
 
     {
       "id": "cuerpo-templo-cuantico-unidad-rebano",
-      "activo": true,
+      "activo": false,
       "fecha_programada": "2026-04-29",
       "tipo": "tematico",
       "titulo": "El Cuerpo como Templo Cuántico: La Unidad del Rebaño",

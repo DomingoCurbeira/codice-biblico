@@ -1,0 +1,59 @@
+[
+    {
+        "id": "onoma-adan-prototipo",
+        "seccion": "ONOMASTIKO",
+        "config_tarjeta": {
+        "color_primario": "#3E2723",
+        "color_acento": "#81C784",
+        "avatar_url": "../img/perfiles/adan.webp",
+        "gradiente": "linear-gradient(135deg, #1B5E20 0%, #3E2723 100%)"
+        },
+        "perfil_card": {
+        "nombre_principal": "Adán",
+        "subtitulo_rol": "El Prototipo de la Humanidad",
+        "bio_resumen": "Formado del polvo y activado por el aliento divino (Pneuma). El primer administrador del Jardín y portador del Diseño Original.",
+        "logro_destacado": "Padre de la Raza Humana",
+        "iconos_accion": [
+            { "tipo": "huellas", "id": "adan", "tooltip": "Huellas" },
+            { "tipo": "etymos", "id": "pneuma-gr", "tooltip": "Etymos" },
+            { "tipo": "cronos", "id": "jardin-eden", "tooltip": "Cronos" }
+        ]
+        },
+        "datos_identidad": {
+        "original_idioma": "אָדָם",
+        "transliteracion": "Adám",
+        "significado_core": "Hombre / Tierra Roja / Humanidad",
+        "perla_profunda": "Tu origen no es el barro, es el aliento que te dio forma. Eres un diseño eterno habitando un traje de tierra."
+        },
+        "tags": ["origen", "creación", "identidad", "humanidad"]
+    },
+    {
+        "id": "onoma-eva-vida",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "config_tarjeta": {
+            "color_primario": "#1B5E20",
+            "color_acento": "#A5D6A7",
+            "avatar_url": "../img/perfiles/eva.webp",
+            "gradiente": "linear-gradient(135deg, #1B5E20 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Eva",
+            "subtitulo_rol": "Madre de todos los Vivientes",
+            "bio_resumen": "La portadora de la vida y compañera del Prototipo. Su diseño original contiene la capacidad de nutrir y multiplicar la consciencia divina en la tierra.",
+            "logro_destacado": "Matriarca de la Humanidad",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "eva", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "chavvah-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jardin-eden", "tooltip": "Cronos" }
+            ]
+        },
+        "datos_identidad": {
+            "original_idioma": "חַוָּה",
+            "transliteracion": "Chavvá",
+            "significado_core": "Vida / Viviente / Aliento",
+            "perla_profunda": "Tu identidad no es una derivación, es la manifestación de la vida que fluye desde el Arquitecto para llenar el vacío."
+        },
+        "tags": ["vida", "origen", "creación", "identidad", "chavvah"]
+    }
+]

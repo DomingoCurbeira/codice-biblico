@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "version": "4.1-object-id",
+    "ultima_sincronizacion": "2026-04-15",
+    "total_global": 7
+  },
+  "identidades": [
+    {
+      "id": "onoma-adan-prototipo",
+      "nombre": "Adán",
+      "subtitulo": "El Prototipo de la Humanidad",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/adan.webp",
+      "tags": [
+        "origen",
+        "creación",
+        "identidad",
+        "humanidad"
+      ]
+    },
+    {
+      "id": "onoma-david-malkhut",
+      "nombre": "David",
+      "subtitulo": "El Rey Conforme al Corazón",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/david.webp",
+      "tags": [
+        "rey",
+        "adoración",
+        "linaje",
+        "reino",
+        "malkhut"
+      ]
+    },
+    {
+      "id": "onoma-eva-vida",
+      "nombre": "Eva",
+      "subtitulo": "Madre de todos los Vivientes",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/eva.webp",
+      "tags": [
+        "vida",
+        "origen",
+        "creación",
+        "identidad",
+        "chavvah"
+      ]
+    },
+    {
+      "id": "onoma-isaias-vision",
+      "nombre": "Isaías",
+      "subtitulo": "El Mensajero del Trono",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/isaias.webp",
+      "tags": [
+        "profecía",
+        "visión",
+        "mesías",
+        "fuego",
+        "yeshayahu"
+      ]
+    },
+    {
+      "id": "onoma-job-integridad",
+      "nombre": "Job",
+      "subtitulo": "El Centinela de la Integridad",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/job.webp",
+      "tags": [
+        "resiliencia",
+        "sabiduría",
+        "integridad",
+        "poesía",
+        "iyov"
+      ]
+    },
+    {
+      "id": "onoma-pablo-expansion",
+      "nombre": "Pablo",
+      "subtitulo": "El Arquitecto de la Expansión",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/pablo.webp",
+      "tags": [
+        "expansión",
+        "gracia",
+        "apóstol",
+        "epístolas",
+        "paulos"
+      ]
+    },
+    {
+      "id": "onoma-pedro-roca",
+      "nombre": "Simón Pedro",
+      "subtitulo": "La Piedra de la Confesión",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/pedro.webp",
+      "tags": [
+        "apostol",
+        "roca",
+        "revelación",
+        "evangelio",
+        "kephas"
+      ]
+    }
+  ]
+}

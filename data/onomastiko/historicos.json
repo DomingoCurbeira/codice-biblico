@@ -1,0 +1,31 @@
+[
+    {
+        "id": "onoma-david-malkhut",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "config_tarjeta": {
+            "color_primario": "#78350f",
+            "color_acento": "#f59e0b",
+            "avatar_url": "../img/perfiles/david.webp",
+            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "David",
+            "subtitulo_rol": "El Rey Conforme al Corazón",
+            "bio_resumen": "De pastor de ovejas a unificador de naciones. Un adorador cuya frecuencia musical alteraba la atmósfera espiritual y cuyo linaje portaba la promesa del Mesías.",
+            "logro_destacado": "Establecimiento del Trono de Israel",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "malkhut-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
+            ]
+        },
+        "datos_identidad": {
+            "original_idioma": "דָּוִד",
+            "transliteracion": "Dawid",
+            "significado_core": "Amado / El Elegido",
+            "perla_profunda": "La verdadera autoridad no nace de la corona, sino de la sintonía del corazón con el diseño del Arquitecto."
+        },
+        "tags": ["rey", "adoración", "linaje", "reino", "malkhut"]
+    }
+]

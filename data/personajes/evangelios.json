@@ -4954,118 +4954,6 @@
   }
 },
 {
-  "id": "espiritu-santo",
-  "activo": true,
-  "meta": {
-    "version": "3.0-deep",
-    "fecha_actualizacion": "2026-02-10",
-    "estandar": "codice-master"
-  },
-  "perfil": {
-    "nombre": "Espíritu Santo",
-    "titulo_corto": "El Consolador",
-    "significado_nombre": "Pneuma Hagion (Aliento Santo)",
-    "ocupacion": "Guía, Consolador, Santificador y Revelador",
-    "familia": {
-      "naturaleza": "Tercera Persona de la Trinidad (Coeterno con el Padre y el Hijo)"
-    },
-    "imagen": "/img/perfiles/espiritu-santo.webp",
-    "icono_mapa": "/img/ui/markers/patriarca.svg"
-  },
-  "contexto": {
-    "testamento": "Antiguo / Nuevo",
-    "libros_aparicion": [
-      "Génesis a Apocalipsis"
-    ],
-    "era_biblica": "Eternidad / Era de la Iglesia"
-  },
-  "narrativa": {
-    "resumen_epico": "El Espíritu Santo es la presencia activa y transformadora de Dios en el mundo. Desde el inicio, 'se movía sobre la faz de las aguas' en la creación, y a lo largo de la historia inspiró a profetas y capacitó a héroes. Su manifestación culminante ocurrió en Pentecostés, cuando descendió como fuego sobre los discípulos, transformando un grupo de hombres temerosos en una fuerza evangelizadora imparable. Él es quien convence al mundo de pecado, habita en el creyente como en un templo y garantiza la herencia eterna de los hijos de Dios.",
-    "dato_curioso": "En el idioma original del Nuevo Testamento (griego), Jesús lo llama 'Parakletos', que significa 'alguien llamado a estar al lado de otro' para ayudar, defender o consolar, como un abogado defensor.",
-    "conexion_jesus": "Jesús fue concebido por el Espíritu, ungido por el Espíritu en Su bautismo y resucitado por el poder del Espíritu. Jesús lo llamó 'el otro Consolador', indicando que el Espíritu continuaría Su obra de manera omnipresente en la Iglesia.",
-    "diagrama_referencia": "Infografía: Los Dones y Frutos del Espíritu Santo"
-  },
-  "analisis_profundo": {
-    "perfil_emocional": "Se revela como una Persona divina con sensibilidad y voluntad. La Biblia dice que puede ser 'contristado', lo que indica Su profundo amor y deseo de santidad para el hombre. Su carácter es de mansedumbre, guía paciente y poder soberano. Representa la cercanía más íntima de la Deidad con el alma humana.",
-    "fortalezas": [
-      "Omnipresencia y Omnisciencia",
-      "Poder de regeneración total del carácter humano",
-      "Inspiración infalible de las Escrituras"
-    ],
-    "debilidades": [
-      "No tiene; es Dios en plenitud"
-    ],
-    "simbologia": [
-      {
-        "objeto": "La Paloma",
-        "significado": "Representa la paz, la pureza y el descenso suave de la gracia divina."
-      },
-      {
-        "objeto": "El Fuego",
-        "significado": "Símbolo de la purificación, el celo ardiente y el poder de testimonio."
-      },
-      {
-        "objeto": "El Aceite / Agua / Viento",
-        "significado": "Representan la unción, la vida que fluye y la libertad soberana de Su acción."
-      }
-    ]
-  },
-  "aplicacion_personal": {
-    "leccion_clave": "No se trata de cuánto tienes tú del Espíritu, sino de cuánto tiene el Espíritu de ti para transformarte.",
-    "preguntas_reflexion": [
-      "¿Estás permitiendo que el Espíritu Santo guíe tus decisiones diarias o actúas por impulso?",
-      "¿Refleja tu vida el 'fruto del Espíritu' (amor, gozo, paz...) en tus relaciones?",
-      "¿Eres consciente de que tu cuerpo es un templo donde habita la presencia de Dios hoy?"
-    ]
-  },
-  "linea_tiempo": [
-    {
-      "fase": "Creación",
-      "evento": "Participa activamente en el ordenamiento del cosmos.",
-      "vinculo_mapa": "eden",
-      "referencia": "Génesis 1:2"
-    },
-    {
-      "fase": "Pentecostés",
-      "evento": "Desciende con poder sobre la Iglesia primitiva en Jerusalén.",
-      "vinculo_mapa": "aposento-alto",
-      "referencia": "Hechos 2:1-4"
-    },
-    {
-      "fase": "Actualidad",
-      "evento": "Habita y santifica a cada creyente en Cristo.",
-      "vinculo_mapa": "iglesia-global",
-      "referencia": "1 Corintios 6:19"
-    }
-  ],
-  "vinculos": {
-    "lugares": [
-      "jerusalen",
-      "rio-jordan",
-      "antioquia"
-    ],
-    "estudios": [
-      "pneumatologia-biblica",
-      "la-trinidad-en-la-escritura",
-      "historia-de-pentecostes"
-    ],
-    "devocionales": [
-      "ser-llenos-del-espiritu",
-      "el-fruto-del-espiritu"
-    ],
-    "personajes_relacionados": [
-      "padre-celestial",
-      "jesus",
-      "pedro",
-      "pablo"
-    ]
-  },
-  "gamificacion": {
-    "xp_lectura": 1000,
-    "logro_id": "templo-del-espiritu"
-  }
-},
-{
   "id": "jacobo-hijo-de-zebedeo",
   "activo": true,
   "meta": {
@@ -7015,6 +6903,313 @@
       "gamificacion": {
         "xp_lectura": 250,
         "logro_id": "anfitrion-de-betania"
+      }
+    },
+    {
+      "id": "jesucristo-pneuma",
+      "perfil": {
+        "nombre": "Jesucristo",
+        "titulo_corto": "El Diseño Original Encarnado",
+        "significado_nombre": "Jesús (Yeshua): 'El Señor es Salvación'. Cristo (Christos): 'El Ungido'. Jesucristo es la unión de Su función humana y Su autoridad eterna.",
+        "ocupacion": "Sumo Sacerdote eterno, Rey de Reyes y Arquitecto de la Restauración.",
+        "familia": {
+          "relacion": "Hijo unigénito de Dios; Cabeza del Soma (la Iglesia) e hijo de David según la carne."
+        },
+        "imagen": "/img/perfiles/jesucristo-glorificado.webp",
+        "icono_mapa": "/img/ui/markers/epicentro-profetico.svg"
+      },
+      "contexto": {
+        "testamento": "Antiguo y Nuevo Testamento",
+        "libros_aparicion": [
+          "Todo el Códice",
+          "Juan",
+          "Colosenses",
+          "Hebreos",
+          "Apocalipsis"
+        ],
+        "era_biblica": "Eternidad / Era de la Gracia y Restauración Final"
+      },
+      "narrativa": {
+        "resumen_epico": "Jesucristo es la 'Eikon' (imagen) invisible de Dios hecha visible. No es solo un personaje histórico, es la frecuencia en la que todo el universo cobra sentido y 'consiste' (Sunistemi). Él es el puente que eliminó la distancia entre el Cielo y la Tierra, permitiendo que la Geografía de la Santidad se manifieste en lo cotidiano. En Él, el 'Velo' no solo se rasgó en el Templo, sino que se eliminó en nuestra blesis espiritual. Es la culminación del Diseño Original que fue trazado desde el Bereshit.",
+        "dato_curioso": "A diferencia de otros personajes, Jesucristo es el único que aparece en el pasado (como el Verbo), en el presente (como el Intercesor) y en el futuro (como el Rey que regresa). Su nombre no es solo una etiqueta, es una autoridad legal en el mundo espiritual.",
+        "conexion_jesus": "Representa la parte espiritual, ascendida y gobernante. Mientras 'Jesús' nos muestra cómo caminar en la tierra, 'Jesucristo' nos muestra nuestra posición legal sentados con Él en lugares celestiales.",
+        "imagen_de_apoyo": ""
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Soberanía absoluta mezclada con una compasión infinita (Splagchnizomai). Transmite una paz (Eirene) que sobrepasa todo entendimiento y una seguridad inquebrantable.",
+        "fortalezas": [
+          "Unidad perfecta con el Padre",
+          "Autoridad total sobre toda potestad (Exousia)",
+          "Capacidad de habitar en el creyente (Inmanencia)"
+        ],
+        "debilidades": [
+          "No tiene debilidades; absorbió nuestra debilidad en la Cruz para transmutarla en poder (Dunamis)"
+        ],
+        "simbologia": [
+          {
+            "objeto": "El Velo Rasgado",
+            "significado": "Acceso directo y permanente a la Presencia sin intermediarios religiosos."
+          },
+          {
+            "objeto": "La Piedra Angular",
+            "significado": "El fundamento geométrico y espiritual sobre el cual se construye todo el Códice."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "Tu identidad no está definida por tus errores, sino por tu posición en Jesucristo. Él es el plano original de quién eres realmente.",
+        "preguntas_reflexion": [
+          "¿Reconoces a Jesucristo como el 'pegamento' (Sunistemi) que mantiene tu vida unida hoy?",
+          "¿Estás operando desde tu esfuerzo humano o desde la autoridad de estar injertado en Cristo?",
+          "¿Es tu vida una liturgia que refleja la frecuencia de Su Reino?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La Preexistencia",
+          "evento": "El Verbo (Logos) existe antes de toda la creación como el Arquitecto.",
+          "vinculo_mapa": "eternidad",
+          "referencia": "Juan 1:1"
+        },
+        {
+          "fase": "La Ascensión y Entronización",
+          "evento": "Tras la resurrección, Jesucristo asciende y toma posesión de Su autoridad legal sobre las naciones.",
+          "vinculo_mapa": "monte-olivos",
+          "referencia": "Hechos 1:9-11"
+        },
+        {
+          "fase": "La Sintonía Final",
+          "evento": "Su manifestación pública (Parousia) donde todo el diseño será revelado físicamente.",
+          "vinculo_mapa": "jerusalen-centro",
+          "referencia": "Apocalipsis 19:11-16"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "jerusalen-centro",
+          "monte-olivos",
+          "nueva-jerusalen"
+        ],
+        "estudios": [
+          "el-diseño-original",
+          "la-geografia-de-la-santidad",
+          "sunistemi-la-cohesion-de-cristo"
+        ],
+        "personajes_relacionados": [
+          "espiritu-santo",
+          "david",
+          "abraham"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 1000,
+        "logro_id": "heredero-del-reino"
+      }
+    },
+    {
+      "id": "espiritu-santo-pneuma",
+      "perfil": {
+        "nombre": "Espíritu Santo",
+        "titulo_corto": "El Ejecutor del Diseño",
+        "significado_nombre": "Pneuma (Griego): Viento, aliento, aire en movimiento. Ruach (Hebreo): Aliento divino, aliento de vida.",
+        "ocupacion": "Consolador (Parakletos), Revelador de la Verdad y Administrador de la Gracia.",
+        "familia": {
+          "relacion": "Tercera Persona de la Divinidad; el vínculo de amor entre el Padre y el Hijo que ahora habita en el Soma (la Iglesia)."
+        },
+        "imagen": "/img/perfiles/pneuma-energia.webp",
+        "icono_mapa": "/img/ui/markers/energia-divina.svg"
+      },
+      "contexto": {
+        "testamento": "Antiguo y Nuevo Testamento",
+        "libros_aparicion": [
+          "Génesis",
+          "Éxodo",
+          "Isaías",
+          "Juan",
+          "Hechos",
+          "Romanos",
+          "Efesios"
+        ],
+        "era_biblica": "Eternidad / Desde la Creación hasta la Gloria Final"
+      },
+      "narrativa": {
+        "resumen_epico": "El Espíritu Santo es la presencia inmanente de Dios en el mundo físico. En el Bereshit, Él era quien 'vibraba' (incubaba) sobre las aguas para traer orden al caos. Hoy, es el agente de la Metanoia (cambio de mente), quien descarga la blesis de Jesucristo directamente en nuestra conciencia. No es una fuerza impersonal, sino la Inteligencia Divina operando a 'distancia cero'. Es el que activa los dones, el que gime por nosotros y el que garantiza que el Diseño Original se cumpla en cada célula del creyente.",
+        "dato_curioso": "En el griego original, la palabra Pneuma está relacionada con la respiración. Esto significa que el Espíritu Santo es tan esencial y constante como el aire; no es algo que 'visita', es algo en lo que 'vivimos, nos movemos y somos'.",
+        "conexion_jesus": "Es el que ungió a Jesús para Su ministerio y el que lo levantó de los muertos. Ahora, hace lo mismo con nosotros: toma lo que es de Cristo y nos lo revela (Apokalupsis).",
+        "imagen_de_apoyo": "[Visual representation of wind and fire as golden data streams]"
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Sensibilidad extrema (puede ser contristado), Consolador incansable y una fuente de gozo (Chara) que no depende de las circunstancias.",
+        "fortalezas": [
+          "Omnipresencia (Conectividad total)",
+          "Capacidad de transformación genética/espiritual",
+          "Guía infalible hacia la Verdad (Logos)"
+        ],
+        "debilidades": [
+          "Su operación está limitada por la sintonía y la libertad del hombre (No fuerza el diseño)"
+        ],
+        "simbologia": [
+          {
+            "objeto": "El Viento (Pneuma)",
+            "significado": "Representa la libertad y la dirección impredecible pero perfecta del Espíritu."
+          },
+          {
+            "objeto": "El Fuego (Lenguas de Fuego)",
+            "significado": "La purificación y la pasión inteligente que quema la entropía y activa el propósito."
+          },
+          {
+            "objeto": "El Sello / Arras",
+            "significado": "La garantía legal y la firma digital de que pertenecemos al Reino."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "No intentes vivir el Códice con tu propia fuerza. El Espíritu Santo es la batería y el procesador que hace que el diseño funcione en ti.",
+        "preguntas_reflexion": [
+          "¿Estás operando en 'modo avión' (desconectado) o estás en sintonía constante con el Pneuma?",
+          "¿Permites que el Espíritu Santo recalibre tu blesis cuando el caos del mundo nubla tu visión?",
+          "¿Reconoces Su voz como la frecuencia maestra que guía tus decisiones cotidianas?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La Incubación Original",
+          "evento": "El Espíritu se movía sobre la faz de las aguas, preparando el escenario para la Palabra.",
+          "vinculo_mapa": "creacion",
+          "referencia": "Génesis 1:2"
+        },
+        {
+          "fase": "La Descarga de Poder",
+          "evento": "Pentecostés: El Espíritu desciende de forma colectiva, activando el Soma (la Iglesia).",
+          "vinculo_mapa": "jerusalen-centro",
+          "referencia": "Hechos 2:1-4"
+        },
+        {
+          "fase": "La Morada Interna",
+          "evento": "El Espíritu Santo establece Su templo en el cuerpo del creyente.",
+          "vinculo_mapa": "corazon-humano",
+          "referencia": "1 Corintios 6:19"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "jerusalen-centro",
+          "aposento-alto",
+          "rio-jordan"
+        ],
+        "estudios": [
+          "la-frecuencia-del-pneuma",
+          "metanoia-el-reset-divino",
+          "dones-y-frutos-del-sistema"
+        ],
+        "personajes_relacionados": [
+          "jesucristo",
+          "pedro",
+          "pablo"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 800,
+        "logro_id": "templo-del-pneuma"
+      }
+    },
+    {
+      "id": "discipulos-emaus",
+      "perfil": {
+        "nombre": "Los Discípulos de Emaús",
+        "titulo_corto": "Los Caminantes de la Revelación",
+        "significado_nombre": "Emaús: Probablemente 'Fuente termal'. Simboliza el lugar donde el corazón comienza a arder.",
+        "ocupacion": "Seguidores de Jesús (Cleofas y un acompañante no identificado, posiblemente su esposa o un amigo).",
+        "familia": {
+          "relacion": "Cleofas es mencionado por nombre; representan al creyente común que intenta procesar la pérdida y el caos."
+        },
+        "imagen": "/img/perfiles/discipulos-emaus.webp",
+        "icono_mapa": "/img/ui/markers/discipulo.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": [
+          "Lucas"
+        ],
+        "era_biblica": "Post-Resurrección / El Día Tercero"
+      },
+      "narrativa": {
+        "resumen_epico": "Caminaban de regreso a casa con el rostro ensombrecido por el caos de la crucifixión. Mientras debatían sobre un 'proyecto fallido', el propio Diseño (Jesucristo) se injertó en su conversación. No lo reconocieron por su blesis limitada, hasta que llegaron a la mesa. Emaús es el viaje de la decepción a la claridad. Representan el momento exacto en que la información teológica se convierte en revelación viva al partir el pan. Su historia nos enseña que Jesús camina con nosotros incluso cuando nuestra interpretación de los hechos es incorrecta.",
+        "dato_curioso": "Es el estudio bíblico más épico de la historia: Jesús mismo les dio una clase magistral de hermenéutica de 'Génesis a los Profetas' mientras caminaban 11 kilómetros.",
+        "conexion_jesus": "Son los receptores de la primera gran explicación del Códice Bíblico tras la resurrección. Jesús les muestra que Él es el hilo conductor de toda la Escritura.",
+        "imagen_de_apoyo": "[Visual of a dusty road turning into golden light paths]"
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Inician en un estado de entropía emocional (tristeza, confusión) y terminan en un estado de 'corazón ardiente' (pasión y urgencia por compartir).",
+        "fortalezas": [
+          "Hospitalidad (invitaron al extraño a cenar)",
+          "Sinceridad al expresar sus dudas",
+          "Velocidad de respuesta una vez que recibieron la blesis"
+        ],
+        "debilidades": [
+          "Lentitud de corazón para creer (Blesis nublada)",
+          "Enfoque en el pasado y en lo que 'esperaban que fuera'"
+        ],
+        "simbologia": [
+          {
+            "objeto": "El Camino",
+            "significado": "El proceso de aprendizaje y la transición entre el caos y el orden."
+          },
+          {
+            "objeto": "El Pan Partido",
+            "significado": "El trigger (activador) de la revelación; el momento donde la sintonía se completa."
+          },
+          {
+            "objeto": "El Corazón que Arde",
+            "significado": "La reacción física y espiritual cuando el Pneuma activa la Palabra en nosotros."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "A veces, la respuesta que buscas está caminando a tu lado, pero necesitas invitarla a tu mesa para poder verla.",
+        "preguntas_reflexion": [
+          "¿Estás tan enfocado en tu tristeza que no reconoces al Maestro caminando contigo en tu caos?",
+          "¿Le has pedido al Espíritu Santo que haga arder tu corazón al estudiar el Códice?",
+          "¿Qué 'pan' necesitas partir hoy para que tus ojos sean abiertos?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "El Caminar en Confusión",
+          "evento": "Dos discípulos huyen de Jerusalén hacia Emaús tras la muerte de Jesús.",
+          "vinculo_mapa": "camino-emaus",
+          "referencia": "Lucas 24:13-17"
+        },
+        {
+          "fase": "La Clase Magistral",
+          "evento": "Jesús les explica todas las Escrituras que hablaban de Él.",
+          "vinculo_mapa": "camino-emaus",
+          "referencia": "Lucas 24:25-27"
+        },
+        {
+          "fase": "La Apertura de Ojos",
+          "evento": "Al partir el pan en la cena, lo reconocen y Él desaparece; regresan corriendo a Jerusalén.",
+          "vinculo_mapa": "emaus-pueblo",
+          "referencia": "Lucas 24:30-35"
+        }
+      ],
+      "vinculos": {
+        "lugares": [
+          "jerusalen-centro",
+          "emaus-pueblo"
+        ],
+        "estudios": [
+          "metanoia-la-mente-del-reino",
+          "la-mesa-como-altar",
+          "hermeneutica-del-corazon"
+        ],
+        "personajes_relacionados": [
+          "jesucristo"
+        ]
+      },
+      "gamificacion": {
+        "xp_lectura": 400,
+        "logro_id": "corazon-ardiente"
       }
     }
 ]

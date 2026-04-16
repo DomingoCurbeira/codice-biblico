@@ -624,6 +624,19 @@
     "tags": "jerusalen sion, jerusalén (ciudad de david), 2 samuel, 1 crónicas, salmos"
   },
   {
+    "id": "jerusalen-centro",
+    "nombre": "Jerusalén (Epicentro Global)",
+    "titulo": "El Reloj del Arquitecto",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7767,
+      35.2345
+    ],
+    "era": "Atemporal / Desde Melquisedec hasta la Eternidad",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "jerusalen centro, jerusalén (epicentro global), génesis, salmos, isaías, zacarías, mateo, hechos, apocalipsis"
+  },
+  {
     "id": "jerusalen-ministerio",
     "nombre": "Jerusalén (Ministerio de Jesús)",
     "titulo": "La Ciudad del Gran Rey",
