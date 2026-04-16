@@ -55,5 +55,63 @@
             "perla_profunda": "Tu identidad no es una derivación, es la manifestación de la vida que fluye desde el Arquitecto para llenar el vacío."
         },
         "tags": ["vida", "origen", "creación", "identidad", "chavvah"]
+    },
+    {
+        "id": "onoma-noe-remanente",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "config_tarjeta": {
+            "color_primario": "#065f46",
+            "color_acento": "#34d399",
+            "avatar_url": "../img/perfiles/noe.webp",
+            "gradiente": "linear-gradient(135deg, #064e3b 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Noé",
+            "subtitulo_rol": "El Preservador del Diseño",
+            "bio_resumen": "Aquel que halló gracia ante los ojos de Dios en una era de entropía moral. Su obediencia construyó el vehículo de preservación que permitió que el Diseño Original no se extinguiera.",
+            "logro_destacado": "Arquitectura de Salvación (El Arca)",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "noe", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "noaj-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "montanas-ararat", "tooltip": "Cronos" }
+            ]
+        },
+        "datos_identidad": {
+            "original_idioma": "נֹחַ",
+            "transliteracion": "Nóaj",
+            "significado_core": "Descanso o Consuelo",
+            "perla_profunda": "El descanso no es la ausencia de tormenta, sino la seguridad de estar dentro del diseño que Dios proveyó para atravesarla."
+        },
+        "tags": ["obediencia", "preservación", "pacto", "arca", "nóaj"]
+    },
+    {
+        "id": "onoma-abraham-fe",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "pentateuco.json",
+        "config_tarjeta": {
+            "color_primario": "#10b981",
+            "color_acento": "#a7f3d0",
+            "avatar_url": "../img/perfiles/abraham.webp",
+            "gradiente": "linear-gradient(135deg, #059669 0%, #0b0f19 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Abraham",
+            "subtitulo_rol": "El Arquitecto de la Promesa",
+            "bio_resumen": "Llamado a salir de lo conocido para heredar lo invisible. Su vida activó el protocolo de bendición para todas las familias de la tierra mediante una fe incondicional en la palabra del Creador.",
+            "logro_destacado": "Padre de Multitudes y del Pacto",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "abraham", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "avraham-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "ur-caldeos", "tooltip": "Cronos" }
+            ]
+        },
+        "datos_identidad": {
+            "original_idioma": "אַבְרָהָם",
+            "transliteracion": "Avrahám",
+            "significado_core": "Padre de una multitud",
+            "perla_profunda": "La fe es el lenguaje que permite al hombre caminar en dimensiones que aún no se han manifestado físicamente."
+        },
+        "tags": ["fe", "pacto", "promesa", "patriarca", "avrahám"]
     }
 ]

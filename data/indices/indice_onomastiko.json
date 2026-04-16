@@ -1,10 +1,24 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-15",
-    "total_global": 7
+    "ultima_sincronizacion": "2026-04-16",
+    "total_global": 9
   },
   "identidades": [
+    {
+      "id": "onoma-abraham-fe",
+      "nombre": "Abraham",
+      "subtitulo": "El Arquitecto de la Promesa",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/abraham.webp",
+      "tags": [
+        "fe",
+        "pacto",
+        "promesa",
+        "patriarca",
+        "avrahám"
+      ]
+    },
     {
       "id": "onoma-adan-prototipo",
       "nombre": "Adán",
@@ -72,6 +86,20 @@
         "integridad",
         "poesía",
         "iyov"
+      ]
+    },
+    {
+      "id": "onoma-noe-remanente",
+      "nombre": "Noé",
+      "subtitulo": "El Preservador del Diseño",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/noe.webp",
+      "tags": [
+        "obediencia",
+        "preservación",
+        "pacto",
+        "arca",
+        "nóaj"
       ]
     },
     {

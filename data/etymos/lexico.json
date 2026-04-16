@@ -1986,6 +1986,34 @@
         "perla_espiritual": "Kephas representa la transformación de la materia prima por la Palabra. Simón era 'el que oye', pero Kefas es 'el que se sostiene'. La revelación del Mesías convierte a un hombre fluctuante como el agua en una base sólida para el Diseño del Arquitecto. Tu estabilidad no depende de tu carácter, sino de la Roca sobre la que estás edificado.",
         "ejemplo_biblico": "Juan 1:42 - 'Tú eres Simón... tú serás llamado Cefas (que quiere decir, Pedro).'",
         "tags": ["roca", "identidad", "transformación", "pedro", "kephas"]
+    },
+    {
+        "id": "noaj-he",
+        "palabra_espanol": "Noé (Descanso / Consuelo)",
+        "idioma": "Hebreo",
+        "original": "נֹחַ",
+        "transliteracion": "Nóaj",
+        "strong": "H5146",
+        "raiz": "De la raíz 'nuaj' (H5117), que significa descansar, posarse o establecerse.",
+        "definicion_corta": "Descanso, reposo o aquel que trae consuelo.",
+        "contexto_cultural": "En un mundo bajo la entropía del caos y la violencia, el nombre de Noé representaba la esperanza de un alivio o un 'descanso' de la labor penosa de la tierra.",
+        "perla_espiritual": "Nóaj no es solo el que sobrevive, es el que introduce el concepto del descanso después del juicio. Representa el punto del diseño donde Dios detiene la destrucción para preservar la vida. Su nombre nos enseña que el verdadero consuelo no viene de que cese la lluvia, sino de estar seguros en el lugar que Dios diseñó para nosotros.",
+        "ejemplo_biblico": "Génesis 5:29 - 'Y llamó su nombre Noé, diciendo: Este nos aliviará (consolaría) de nuestras obras y del trabajo de nuestras manos...'",
+        "tags": ["descanso", "consuelo", "preservación", "noe", "pacto"]
+    },
+    {
+        "id": "avraham-he",
+        "palabra_espanol": "Abraham (Padre de Multitudes)",
+        "idioma": "Hebreo",
+        "original": "אַבְרָהָם",
+        "transliteracion": "Avrahám",
+        "strong": "H85",
+        "raiz": "Contracción de 'Ab' (Padre) y una raíz relacionada con 'hamon' (multitud/muchedumbre).",
+        "definicion_corta": "Padre de una multitud de naciones.",
+        "contexto_cultural": "Originalmente 'Abram' (Padre enaltecido), Dios añade la letra 'He' (ה) a su nombre, la cual representa el aliento divino (Pneuma), expandiendo su destino de un estatus personal a una herencia global.",
+        "perla_espiritual": "Avrahám es el prototipo de la expansión por la fe. Su nombre es una profecía activa: fue llamado 'Padre de Multitudes' cuando aún no tenía un solo hijo. Esto nos enseña que en el diseño de Dios, la identidad no se basa en tu realidad presente, sino en la promesa futura que Él ha declarado sobre ti. La fe es llamar a las cosas que no son como si fuesen.",
+        "ejemplo_biblico": "Génesis 17:5 - 'Y no se llamará más tu nombre Abram, sino que será tu nombre Abraham, porque te he puesto por padre de muchedumbre de gentes.'",
+        "tags": ["pacto", "multitud", "fe", "identidad", "abraham"]
     }
 
 ]
