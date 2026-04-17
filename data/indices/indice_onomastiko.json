@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-16",
-    "total_global": 25
+    "ultima_sincronizacion": "2026-04-17",
+    "total_global": 38
   },
   "identidades": [
     {
@@ -47,6 +47,14 @@
       ]
     },
     {
+      "id": "onoma-daniel-sabio",
+      "nombre": "Daniel",
+      "subtitulo": "El Revelador de Misterios",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/daniel-babilonia.webp",
+      "tags": []
+    },
+    {
       "id": "onoma-david-rey",
       "nombre": "David",
       "subtitulo": "El Pastor de Belén",
@@ -59,6 +67,22 @@
         "david",
         "linaje"
       ]
+    },
+    {
+      "id": "onoma-qohelet-sabio",
+      "nombre": "El Predicador",
+      "subtitulo": "La Voz de la Sabiduría",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/qohelet-vanidad.webp",
+      "tags": []
+    },
+    {
+      "id": "onoma-david-salmista",
+      "nombre": "El Salmista",
+      "subtitulo": "El Dulce Cantor de Israel",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/david-cueva.webp",
+      "tags": []
     },
     {
       "id": "onoma-elias-fuego",
@@ -103,6 +127,14 @@
       ]
     },
     {
+      "id": "onoma-ezequiel-visionario",
+      "nombre": "Ezequiel",
+      "subtitulo": "El Profeta de la Gloria",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/ezequiel-exilio.webp",
+      "tags": []
+    },
+    {
       "id": "onoma-gedeon-libertador",
       "nombre": "Gedeón",
       "subtitulo": "El Labrador Temeroso",
@@ -115,6 +147,14 @@
         "gedeon",
         "restauración"
       ]
+    },
+    {
+      "id": "onoma-habacuc-vigia",
+      "nombre": "Habacuc",
+      "subtitulo": "El Profeta de la Torre",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/habacuc.webp",
+      "tags": []
     },
     {
       "id": "onoma-isaac-fe",
@@ -132,18 +172,12 @@
       ]
     },
     {
-      "id": "onoma-isaias-vision",
+      "id": "onoma-isaias-heraldo",
       "nombre": "Isaías",
-      "subtitulo": "El Mensajero del Trono",
+      "subtitulo": "El Profeta de la Redención",
       "archivo_fuente": "profetas.json",
-      "imagen": "../img/perfiles/isaias.webp",
-      "tags": [
-        "profecía",
-        "visión",
-        "mesías",
-        "fuego",
-        "yeshayahu"
-      ]
+      "imagen": "../img/perfiles/isaias-llamado.webp",
+      "tags": []
     },
     {
       "id": "onoma-jacob-transicion",
@@ -160,18 +194,34 @@
       ]
     },
     {
-      "id": "onoma-job-integridad",
+      "id": "onoma-jeremias-columna",
+      "nombre": "Jeremías",
+      "subtitulo": "El Profeta de las Naciones",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/jeremias-joven.webp",
+      "tags": []
+    },
+    {
+      "id": "onoma-job-vision",
       "nombre": "Job",
-      "subtitulo": "El Centinela de la Integridad",
+      "subtitulo": "El Hombre de Uz",
       "archivo_fuente": "poeticos.json",
-      "imagen": "../img/perfiles/job.webp",
+      "imagen": "../img/perfiles/job-prospero.webp",
       "tags": [
-        "resiliencia",
-        "sabiduría",
-        "integridad",
-        "poesía",
-        "iyov"
+        "sabiduria",
+        "prueba",
+        "uz",
+        "job",
+        "restauracion"
       ]
+    },
+    {
+      "id": "onoma-jonas-ninive",
+      "nombre": "Jonás",
+      "subtitulo": "El Profeta Fugitivo",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/jonas.webp",
+      "tags": []
     },
     {
       "id": "onoma-jose-fe",
@@ -188,6 +238,28 @@
       ]
     },
     {
+      "id": "onoma-sulamita-esposa",
+      "nombre": "La Sulamita",
+      "subtitulo": "La Amada del Cantar",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/sulamita.webp",
+      "tags": [
+        "amor",
+        "poesia",
+        "paz",
+        "shalom",
+        "cantar"
+      ]
+    },
+    {
+      "id": "onoma-malaquias-mensajero",
+      "nombre": "Malaquías",
+      "subtitulo": "El Mensajero del Pacto",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/malaquias.webp",
+      "tags": []
+    },
+    {
       "id": "onoma-moises-fe",
       "nombre": "Moshé",
       "subtitulo": "El Príncipe de los Pastores",
@@ -200,6 +272,14 @@
         "moises",
         "sinai"
       ]
+    },
+    {
+      "id": "onoma-mujer-virtuosa",
+      "nombre": "Mujer Virtuosa",
+      "subtitulo": "Eshet Chayil",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/mujer-fuerza.webp",
+      "tags": []
     },
     {
       "id": "onoma-myriam-profetisa",
@@ -216,6 +296,14 @@
       ]
     },
     {
+      "id": "onoma-nahum-vengador",
+      "nombre": "Nahúm",
+      "subtitulo": "El Profeta del Consuelo Divino",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/nahum.webp",
+      "tags": []
+    },
+    {
       "id": "onoma-noe-remanente",
       "nombre": "Noé",
       "subtitulo": "El Preservador del Diseño",
@@ -228,6 +316,28 @@
         "arca",
         "nóaj"
       ]
+    },
+    {
+      "id": "onoma-noemi-restaurada",
+      "nombre": "Noemí",
+      "subtitulo": "La Dulzura de Belén",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/noemi.webp",
+      "tags": [
+        "rut",
+        "belen",
+        "noemi",
+        "mara",
+        "restauración"
+      ]
+    },
+    {
+      "id": "onoma-oseas-redentor",
+      "nombre": "Oseas",
+      "subtitulo": "El Profeta del Amor Fiel",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/oseas.webp",
+      "tags": []
     },
     {
       "id": "onoma-pablo-expansion",

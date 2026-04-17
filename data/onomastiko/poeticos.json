@@ -1,31 +1,191 @@
 [
     {
-        "id": "onoma-job-integridad",
+        "id": "onoma-job-vision",
         "seccion": "ONOMASTIKO",
         "archivo_fuente": "poeticos.json",
+        "tiene_transicion": true,
         "config_tarjeta": {
-            "color_primario": "#4c1d95",
-            "color_acento": "#c084fc",
-            "avatar_url": "../img/perfiles/job.webp",
-            "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0b0f19 100%)"
+            "color_primario": "#1c1917",
+            "color_acento": "#eab308",
+            "avatar_url": "../img/perfiles/job-prospero.webp",
+            "gradiente": "linear-gradient(135deg, #44403c 0%, #0c0a09 100%)"
         },
         "perfil_card": {
             "nombre_principal": "Job",
-            "subtitulo_rol": "El Centinela de la Integridad",
-            "bio_resumen": "Aquel que sostuvo su integridad en el epicentro de la entropía. Su historia es el manual de la resiliencia espiritual y la confianza ciega en la soberanía del Arquitecto.",
-            "logro_destacado": "Restauración de la Doble Porción",
+            "subtitulo_rol": "El Hombre de Uz",
+            "bio_resumen": "Un hombre íntegro y recto que lo perdió todo en un día. Su historia es el escenario de la pregunta eterna sobre el sufrimiento, demostrando que la fe no se basa en lo que Dios da, sino en quién es Dios.",
+            "logro_destacado": "Fidelidad en la Prueba",
             "iconos_accion": [
                 { "tipo": "huellas", "id": "job", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "iyov-he", "tooltip": "Etymos" },
+                { "tipo": "etymos", "id": "job-he", "tooltip": "Etymos" },
                 { "tipo": "cronos", "id": "tierra-uz", "tooltip": "Cronos" }
             ]
         },
+        "fases": {
+            "nueva": {
+                "nombre": "Iyyov",
+                "titulo": "El que Vio a Dios",
+                "avatar": "../img/perfiles/job.webp",
+                "bio": "Después del torbellino, su queja se convirtió en adoración. 'De oídas te había oído; mas ahora mis ojos te ven'. Su identidad fue filtrada por el fuego para recibir una revelación que trasciende la lógica humana.",
+                "etymos_id": "job-pneuma-he"
+            }
+        },
         "datos_identidad": {
             "original_idioma": "אִיּוֹב",
-            "transliteracion": "Iyov",
-            "significado_core": "Aquel que se vuelve a Dios / Perseguido",
-            "perla_profunda": "En el silencio de la prueba extrema, la voz del Arquitecto se vuelve tu única y más sólida realidad."
+            "transliteracion": "Iyyóv",
+            "significado_core": "Aquel que se vuelve / Arrepentimiento",
+            "perla_profunda": "El silencio de Dios no es ausencia; es la preparación para que Su voz suene más fuerte en el torbellino."
         },
-        "tags": ["resiliencia", "sabiduría", "integridad", "poesía", "iyov"]
+        "tags": ["sabiduria", "prueba", "uz", "job", "restauracion"]
+    },
+    {
+        "id": "onoma-sulamita-esposa",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "poeticos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#78350f",
+            "color_acento": "#be123c",
+            "avatar_url": "../img/perfiles/sulamita.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #831843 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "La Sulamita",
+            "subtitulo_rol": "La Amada del Cantar",
+            "bio_resumen": "Representa el alma en busca de su Creador. Una mujer que, aunque marcada por el sol del trabajo arduo, es reconocida por su belleza interior y su lealtad inquebrantable al Amado.",
+            "logro_destacado": "Unión Perfecta",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "sulamita", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "sulamita-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "en-gadi-poetico", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Shulammit",
+                "titulo": "La Esposa del Rey",
+                "avatar": "../img/perfiles/sulamita-reina.webp",
+                "bio": "Al encontrarse con el Rey, su identidad es elevada. Ya no es la que guarda viñas ajenas, sino la que reina en el jardín del Amado, envuelta en especias y lino fino.",
+                "etymos_id": "shalam-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שׁוּלַמִּית",
+            "transliteracion": "Shulammit",
+            "significado_core": "Pacífica / Perfeccionada / Completa",
+            "perla_profunda": "El amor no solo te encuentra, el amor te define. Tu identidad alcanza su plenitud cuando descansas en el diseño de quien te amó primero."
+        },
+        "tags": ["amor", "poesia", "paz", "shalom", "cantar"]
+    },
+    {
+        "id": "onoma-david-salmista",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "poeticos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#1e3a8a",
+            "color_acento": "#60a5fa",
+            "avatar_url": "../img/perfiles/david-cueva.webp",
+            "gradiente": "linear-gradient(135deg, #172554 0%, #1e1b4b 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "El Salmista",
+            "subtitulo_rol": "El Dulce Cantor de Israel",
+            "bio_resumen": "Representa el alma que atraviesa el 'Valle de Sombra de Muerte'. Su identidad no se basa en sus victorias externas, sino en su capacidad de derramar su corazón ante el Creador en medio de la angustia.",
+            "logro_destacado": "Corazón Conforme a Dios",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "mizmor-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "valle-sombra-muerte", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Tehillim",
+                "titulo": "El Adorador del Trono",
+                "avatar": "../img/perfiles/david-arpa.webp",
+                "bio": "Cuando el lamento se convierte en danza. En esta fase, el Salmista entiende que su alabanza es un arma de guerra que activa el diseño celestial en la tierra.",
+                "etymos_id": "tehillah-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "תְּהִלִּים",
+            "transliteracion": "Tehillim",
+            "significado_core": "Alabanzas / Cantos de Exaltación",
+            "perla_profunda": "La adoración no cambia a Dios, cambia tu identidad para que puedas ver a Dios en medio de cualquier valle."
+        }
+    },
+    {
+        "id": "onoma-qohelet-sabio",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "poeticos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#451a03",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/qohelet-vanidad.webp",
+            "gradiente": "linear-gradient(135deg, #292524 0%, #44403c 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "El Predicador",
+            "subtitulo_rol": "La Voz de la Sabiduría",
+            "bio_resumen": "Aquel que analiza la vida 'bajo el sol'. Representa el proceso de despojo de las vanidades temporales para encontrar el propósito eterno.",
+            "logro_destacado": "Conclusión de la Sabiduría",
+            "iconos_accion": [
+                { "tipo": "etymos", "id": "qohelet-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "templo-jerusalen", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Sof-Davar",
+                "titulo": "El Fin del Discurso",
+                "avatar": "../img/perfiles/qohelet-revelacion.webp",
+                "bio": "Al final del camino, el sabio entiende que el todo del hombre es temer a Dios y guardar sus mandamientos. Es la transición de la filosofía humana al temor reverente.",
+                "etymos_id": "yirah-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "קֹהֶלֶת",
+            "transliteracion": "Qohélet",
+            "significado_core": "Aquel que convoca / El que habla a la asamblea",
+            "perla_profunda": "La verdadera sabiduría comienza donde termina la confianza en uno mismo."
+        }
+    },
+    {
+        "id": "onoma-mujer-virtuosa",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "poeticos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#831843",
+            "color_acento": "#f9a8d4",
+            "avatar_url": "../img/perfiles/mujer-fuerza.webp",
+            "gradiente": "linear-gradient(135deg, #500724 0%, #881337 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Mujer Virtuosa",
+            "subtitulo_rol": "Eshet Chayil",
+            "bio_resumen": "El arquetipo de la sabiduría en acción. Su nombre no se refiere solo a la moral, sino a la fuerza militar y el valor estratégico aplicado a la vida diaria.",
+            "logro_destacado": "Corona de su Marido",
+            "iconos_accion": [
+                { "tipo": "etymos", "id": "chayil-he", "tooltip": "Etymos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Corona Real",
+                "titulo": "Dignidad y Honor",
+                "avatar": "../img/perfiles/mujer-corona.webp",
+                "bio": "Fuerza y honor son su vestidura; y se ríe de lo por venir. Representa la identidad que no teme al futuro porque está cimentada en la gestión sabia del presente.",
+                "etymos_id": "tipharah-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "אֵשֶׁת חַיִל",
+            "transliteracion": "Eshet Chayil",
+            "significado_core": "Mujer de Valor / Fuerza / Ejército",
+            "perla_profunda": "Tu valor no se mide por lo que haces, sino por la fuerza espiritual con la que edificas tu entorno."
+        }
     }
 ]

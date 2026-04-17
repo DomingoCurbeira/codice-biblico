@@ -1,31 +1,344 @@
 [
+   {
+        "id": "onoma-isaias-heraldo",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#451a03",
+            "color_acento": "#ef4444",
+            "avatar_url": "../img/perfiles/isaias-llamado.webp",
+            "gradiente": "linear-gradient(135deg, #7c2d12 0%, #000000 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Isaías",
+            "subtitulo_rol": "El Profeta de la Redención",
+            "bio_resumen": "Sacerdote y consejero real que recibió una visión del Trono de Dios que cambió su vida. Su mensaje une la justicia divina con la esperanza más gloriosa del Mesías venidero.",
+            "logro_destacado": "Heraldo del Mesías",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "isaias", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "isaias-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yeshayahu",
+                "titulo": "Labios de Fuego",
+                "avatar": "../img/perfiles/isaias.webp",
+                "bio": "Tras ser purificado por el carbón encendido del altar, su identidad fue sellada. 'Heme aquí, envíame a mí'. Se convirtió en la voz que anunció el diseño eterno del Emmanuel.",
+                "etymos_id": "yeshayahu-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יְשַׁעְיָהוּ",
+            "transliteracion": "Yeshayahu",
+            "significado_core": "Yahweh es Salvación",
+            "perla_profunda": "Tu pasado no te descalifica para el diseño de Dios; un solo toque de Su fuego purifica tus labios para anunciar Su gloria."
+        }
+    },
     {
-    "id": "onoma-isaias-vision",
-    "seccion": "ONOMASTIKO",
-    "archivo_fuente": "profetas.json",
-    "config_tarjeta": {
-        "color_primario": "#7f1d1d",
-        "color_acento": "#f87171",
-        "avatar_url": "../img/perfiles/isaias.webp",
-        "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #0b0f19 100%)"
+        "id": "onoma-daniel-sabio",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#1e293b",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/daniel-babilonia.webp",
+            "gradiente": "linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Daniel",
+            "subtitulo_rol": "El Revelador de Misterios",
+            "bio_resumen": "Un joven cautivo en Babilonia que se negó a contaminarse. Su integridad lo llevó de las cortes imperiales a recibir las visiones más detalladas sobre el fin de los tiempos.",
+            "logro_destacado": "Intérprete de Visiones",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "daniel", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "daniel-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "babilonia", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Daniyyel",
+                "titulo": "El Vidente del Altísimo",
+                "avatar": "../img/perfiles/daniel.webp",
+                "bio": "En la madurez, su identidad se funde con el diseño apocalíptico. Vio al Anciano de Días y al Hijo del Hombre, recibiendo las llaves para entender el tiempo del fin.",
+                "etymos_id": "raz-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "דָּנִיֵּאל",
+            "transliteracion": "Daniyyel",
+            "significado_core": "Dios es mi Juez",
+            "perla_profunda": "Tu integridad en lo secreto determina tu autoridad en lo público y tu acceso a los misterios de Dios."
+        }
     },
-    "perfil_card": {
-        "nombre_principal": "Isaías",
-        "subtitulo_rol": "El Mensajero del Trono",
-        "bio_resumen": "Aquel que contempló la gloria del Sunistemi y fue purificado por el fuego del altar. Sus visiones cartografiaron la venida del Mesías y el futuro del diseño eterno.",
-        "logro_destacado": "Profeta de la Redención Messiánica",
-        "iconos_accion": [
-            { "tipo": "huellas", "id": "isaias", "tooltip": "Huellas" },
-            { "tipo": "etymos", "id": "yeshayahu-he", "tooltip": "Etymos" },
-            { "tipo": "cronos", "id": "periodo-asirio", "tooltip": "Cronos" }
-        ]
+    {
+        "id": "onoma-jeremias-columna",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#292524",
+            "color_acento": "#94a3b8",
+            "avatar_url": "../img/perfiles/jeremias-joven.webp",
+            "gradiente": "linear-gradient(135deg, #1c1917 0%, #44403c 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Jeremías",
+            "subtitulo_rol": "El Profeta de las Naciones",
+            "bio_resumen": "Llamado desde antes de nacer, Jeremías enfrentó la soledad y el rechazo para anunciar la verdad a un pueblo endurecido. Su vida es el testimonio de que la sensibilidad no es debilidad cuando Dios te sostiene.",
+            "logro_destacado": "Profeta del Nuevo Pacto",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "jeremias", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "jeremias-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yirmeyahu",
+                "titulo": "Columna de Hierro",
+                "avatar": "../img/perfiles/jeremias.webp",
+                "bio": "Aunque su corazón sufría, el diseño de Dios lo convirtió en una 'ciudad fortificada'. El fuego de la palabra en sus huesos lo sostuvo frente a reyes y ejércitos, anunciando la esperanza del Pacto Eterno.",
+                "etymos_id": "yirmeyahu-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יִרְמְיָהוּ",
+            "transliteracion": "Yirmeyahu",
+            "significado_core": "Yahweh Exalta / Yahweh Establece",
+            "perla_profunda": "Dios no llama a los capacitados, Él capacita a los que ha diseñado desde el vientre para ser Su voz."
+        }
     },
-    "datos_identidad": {
-        "original_idioma": "יְשַׁעְיָהוּ",
-        "transliteracion": "Yeshayáhu",
-        "significado_core": "Yahveh es Salvación",
-        "perla_profunda": "Ver la santidad del Trono no solo te transforma, te obliga a convertirte en la voz que prepara el camino."
+    {
+        "id": "onoma-ezequiel-visionario",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#0f172a",
+            "color_acento": "#38bdf8",
+            "avatar_url": "../img/perfiles/ezequiel-exilio.webp",
+            "gradiente": "linear-gradient(135deg, #1e293b 0%, #000000 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Ezequiel",
+            "subtitulo_rol": "El Profeta de la Gloria",
+            "bio_resumen": "Un sacerdote llevado al exilio que vio los cielos abrirse. Su ministerio está lleno de visiones complejas y actos proféticos que revelan la santidad de Dios y la promesa de un nuevo corazón.",
+            "logro_destacado": "Vigía de Israel",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "ezequiel", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "ezequiel-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "babilonia", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yejezquel",
+                "titulo": "El Rostro del Querubín",
+                "avatar": "../img/perfiles/ezequiel.webp",
+                "bio": "Al ver la carroza de fuego de Dios, su identidad fue absorbida por la Gloria. Se convirtió en el vigía que anuncia la restauración de los huesos secos y el descenso del nuevo Templo.",
+                "etymos_id": "kavod-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יְחֶזְקֵאל",
+            "transliteracion": "Yejezquel",
+            "significado_core": "Dios Fortalece",
+            "perla_profunda": "La verdadera fuerza no está en tus manos, sino en la visión que tienes de la Gloria de Dios cuando todo parece perdido."
+        }
     },
-    "tags": ["profecía", "visión", "mesías", "fuego", "yeshayahu"]
-}
+    {
+        "id": "onoma-jonas-ninive",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#0c4a6e",
+            "color_acento": "#38bdf8",
+            "avatar_url": "../img/perfiles/jonas.webp",
+            "gradiente": "linear-gradient(135deg, #082f49 0%, #0e7490 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Jonás",
+            "subtitulo_rol": "El Profeta Fugitivo",
+            "bio_resumen": "Intentó huir de su diseño cruzando el mar, pero descubrió que no hay lugar donde el Pneuma no pueda alcanzarlo. Su historia es el recordatorio de que la misericordia de Dios es más grande que nuestros prejuicios.",
+            "logro_destacado": "Evangelista de Naciones",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "jonas", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "jonas-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "ninive-ciudad", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yonah",
+                "titulo": "Resucitado de las Profundidades",
+                "avatar": "../img/perfiles/jonas-1.webp",
+                "bio": "Después de tres días en la oscuridad, su identidad fue procesada. Emergió no solo para salvar a una ciudad enemiga, sino para convertirse en la 'Señal' del sacrificio y resurrección del Mesías.",
+                "etymos_id": "jonas-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יוֹנָה",
+            "transliteracion": "Yonáh",
+            "significado_core": "Paloma",
+            "perla_profunda": "No puedes huir de quien te diseñó; tu resistencia solo alarga el camino hacia tu propósito."
+        }
+    },
+    {
+        "id": "onoma-oseas-redentor",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#831843",
+            "color_acento": "#f472b6",
+            "avatar_url": "../img/perfiles/oseas.webp",
+            "gradiente": "linear-gradient(135deg, #500724 0%, #be123c 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Oseas",
+            "subtitulo_rol": "El Profeta del Amor Fiel",
+            "bio_resumen": "Su vida familiar fue su púlpito. A través de su dolor personal, mostró el corazón de Dios: un amor que busca, perdona y restaura a pesar de la traición.",
+            "logro_destacado": "Espejo de la Fidelidad Divina",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "oseas", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "oseas-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "valle-jezreel", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Hoshea",
+                "titulo": "Redentor por Amor",
+                "avatar": "../img/perfiles/oseas-amor.webp",
+                "bio": "Al comprar a su esposa de la esclavitud, su identidad se volvió el Rhema vivo de la salvación. Entendió que el diseño de Dios no es solo juzgar, sino reconciliar a Su pueblo consigo mismo.",
+                "etymos_id": "chesed-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "הוֹשֵׁעַ",
+            "transliteracion": "Hoshea",
+            "significado_core": "Salvación",
+            "perla_profunda": "El amor verdadero no es un sentimiento, es una decisión de rescate que refleja el diseño del cielo."
+        }
+    },
+    {
+        "id": "onoma-habacuc-vigia",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#44403c",
+            "color_acento": "#f59e0b",
+            "avatar_url": "../img/perfiles/habacuc.webp",
+            "gradiente": "linear-gradient(135deg, #292524 0%, #78350f 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Habacuc",
+            "subtitulo_rol": "El Profeta de la Torre",
+            "bio_resumen": "A diferencia de otros profetas, Habacuc comenzó dialogando con Dios sobre la injusticia. Su identidad se forjó en la espera, aprendiendo que el justo vivirá por su fe, incluso cuando el panorama sea oscuro.",
+            "logro_destacado": "Centinela de la Fe",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "habacuc", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "habacuc-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "valle-josafat", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Javaquq",
+                "titulo": "El que se Abraza a la Visión",
+                "avatar": "../img/perfiles/habacuc-torre.webp",
+                "bio": "En su torre de vigilancia, su identidad fue elevada. Pasó de la queja al cántico, entendiendo que aunque la higuera no florezca, su alegría reside en el Dios de su salvación.",
+                "etymos_id": "habacuc-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "חֲבַקּוּק",
+            "transliteracion": "Javaquq",
+            "significado_core": "Abrazar / El que abraza",
+            "perla_profunda": "La fe no es ignorar la realidad, es abrazar la promesa de Dios hasta que Su visión se haga real ante tus ojos."
+        }
+    },
+    {
+        "id": "onoma-malaquias-mensajero",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#000000",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/malaquias.webp",
+            "gradiente": "linear-gradient(135deg, #0c0a09 0%, #451a03 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Malaquías",
+            "subtitulo_rol": "El Mensajero del Pacto",
+            "bio_resumen": "El último eco de la voz profética antes del silencio. Su mensaje confrontó la apatía espiritual y anunció que el Sol de Justicia nacería con sanidad en sus alas.",
+            "logro_destacado": "Precursor de la Esperanza",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "malaquias", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "malaquias-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Malají",
+                "titulo": "Heraldo del Sol de Justicia",
+                "avatar": "../img/perfiles/malaquias-justicia.webp",
+                "bio": "Su identidad se funde con la del mensajero que prepara el camino. Vio la llegada de Juan el Bautista y el Mesías, cerrando el canon con una promesa de restauración familiar y espiritual.",
+                "etymos_id": "malají-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "מַלְאָכִי",
+            "transliteracion": "Malají",
+            "significado_core": "Mi Mensajero / Mi Ángel",
+            "perla_profunda": "Incluso en el silencio aparente, Dios está preparando el camino para Su mayor revelación de amor."
+        }
+    },
+    {
+        "id": "onoma-nahum-vengador",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#450a0a",
+            "color_acento": "#f87171",
+            "avatar_url": "../img/perfiles/nahum.webp",
+            "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Nahúm",
+            "subtitulo_rol": "El Profeta del Consuelo Divino",
+            "bio_resumen": "Originario de Elcos, Nahúm recibió la carga de anunciar el fin del imperio más cruel de su tiempo. Su mensaje no es solo de destrucción, sino de alivio para aquellos que han sufrido bajo la opresión.",
+            "logro_destacado": "Anunciador de la Justicia",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "nahum", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "nahum-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "ninive-resurreccion", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Najum",
+                "titulo": "El Heraldo sobre los Montes",
+                "avatar": "../img/perfiles/nahum-pneuma.webp",
+                "bio": "Al ver la caída de la 'ciudad sanguinaria', su identidad se eleva como un mensajero de buenas nuevas. Entiende que la bondad de Dios incluye poner fin a la maldad para proteger a los que en Él confían.",
+                "etymos_id": "nahum-pneuma-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "נַחוּם",
+            "transliteracion": "Najum",
+            "significado_core": "Consuelo / Consolador",
+            "perla_profunda": "La justicia de Dios es la máxima forma de consuelo para el que ha sido quebrantado."
+        }
+    }
 ]

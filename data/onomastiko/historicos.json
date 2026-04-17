@@ -78,6 +78,45 @@
         "tags": ["jueces", "fuerza", "nazareo", "sanson", "redención"]
     },
     {
+        "id": "onoma-noemi-restaurada",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "historicos.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#2d5a27", 
+            "color_acento": "#d4af37",
+            "avatar_url": "../img/perfiles/noemi.webp",
+            "gradiente": "linear-gradient(135deg, #3f6212 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Noemí",
+            "subtitulo_rol": "La Dulzura de Belén",
+            "bio_resumen": "Su nombre significa 'placentera'. Tras años de pérdida en Moab, regresó a su tierra con las manos vacías pero con una fe que prepararía el linaje del Mesías.",
+            "logro_destacado": "Matriarca de Linaje",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "noemi", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "noemi-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "belen-rut", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Mara",
+                "titulo": "El Grito de la Amargura",
+                "avatar": "../img/perfiles/noemi-mara.webp",
+                "bio": "En un momento de profundo dolor, pidió ser llamada Mara. Representa el alma que, abrumada por la pérdida, olvida su diseño original para identificarse con su aflicción.",
+                "etymos_id": "mara-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "נָעֳמִי ➔ מָרָא",
+            "transliteracion": "Na'omiy ➔ Mará",
+            "significado_core": "Dulzura ➔ Amargura",
+            "perla_profunda": "No permitas que una temporada amarga le cambie el nombre a tu propósito eterno. Eres Noemí, incluso cuando te sientes Mara."
+        },
+        "tags": ["rut", "belen", "noemi", "mara", "restauración"]
+    },
+    {
         "id": "onoma-samuel-vidente",
         "seccion": "ONOMASTIKO",
         "archivo_fuente": "historicos.json",
