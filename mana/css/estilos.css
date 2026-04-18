@@ -1,239 +1,105 @@
 :root {
-    --bg-dark: #0f172a;
-    --bg-card: #1e293b;
-    --accent: #f59e0b; /* Dorado Maná */
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --font-serif: 'Cinzel', serif;
-    --font-sans: 'Lato', sans-serif;
+    --gold: #c5a059;
+    --gold-bright: #f3cf7a;
+    --bg-dark: #0f1012;
+    --card-bg: #1a1c20;
+    --text-main: #d1d1d1;
 }
-
-* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
     background-color: var(--bg-dark);
     color: var(--text-main);
-    font-family: var(--font-sans);
-    line-height: 1.6;
-    padding-bottom: 4rem;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-/* NAV */
-.top-nav {
+.cinzel-font { font-family: 'Cinzel', serif; }
+
+.overlay-texture {
+    position: fixed;
+    top:0; left:0; width:100%; height:100%;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+    opacity: 0.3;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.main-nav {
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(197, 160, 89, 0.1);
+}
+
+.gold-text { color: var(--gold); }
+
+.titles {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    background: rgba(15, 23, 42, 0.95);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    flex-direction: column;
+    margin-left: 10px;
 }
 
-.logo {
-    font-family: var(--font-serif);
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: var(--accent);
+.tagline-new {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.65rem;
     letter-spacing: 2px;
-}
-
-.date-picker-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    background: var(--bg-card);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-}
-
-.nav-btn {
-    background: none;
-    border: none;
-    color: var(--accent);
-    cursor: pointer;
-    font-size: 1.2rem;
-    padding: 0 5px;
-}
-
-/* HEADER */
-.dev-header {
-    text-align: center;
-    padding: 3rem 1.5rem 1rem;
-}
-
-.badge-tema {
     text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: 1.5px;
-    color: var(--text-muted);
-    border: 1px solid var(--text-muted);
-    padding: 2px 8px;
-    border-radius: 4px;
+    color: rgba(246, 243, 243, 0.7); /* Un blanco muy suave para que no compita con el oro */
+    margin: 0;
+    margin-top: -5px; /* Para pegarlo un poco al h1 */
 }
 
-h1 {
-    font-family: var(--font-serif);
-    font-size: 2rem;
-    margin: 1rem 0;
-    line-height: 1.2;
+.tagline {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    margin-top: 5px;
+    color: rgba(255,255,255,0.5);
 }
 
-.bible-ref {
-    color: var(--accent);
-    font-weight: 700;
-}
-
-/* HERO CARD */
-.card-hero {
-    margin: 1rem 1.5rem;
-    background: linear-gradient(145deg, #1e293b, #0f172a);
-    padding: 2rem;
-    border-radius: 12px;
-    border-left: 4px solid var(--accent);
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-}
-
-.main-message {
-    font-size: 1.1rem;
-    font-style: italic;
-    color: #e2e8f0;
-}
-
-/* PUNTOS EXPLICACION */
-.points-grid {
-    padding: 1.5rem;
-    display: grid;
-    gap: 1.5rem;
-}
-
-.point-card {
-    background: var(--bg-card);
-    padding: 1.5rem;
-    border-radius: 8px;
-}
-
-.point-title {
-    color: var(--accent);
-    font-family: var(--font-serif);
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
-}
-
-/* ECOSYSTEM LINKS */
-.ecosystem-links {
-    margin-top: 3rem;
-    text-align: center;
-    padding: 1.5rem;
-    border-top: 1px solid rgba(255,255,255,0.05);
-}
-
-.ecosystem-links h3 {
-    font-size: 0.9rem;
-    color: var(--text-muted);
-    margin-bottom: 1rem;
-}
-
-.links-row {
+.container-cards {
     display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-.app-link {
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    transition: transform 0.2s;
-    background: #334155;
-}
-
-.app-link:hover { transform: translateY(-2px); }
-
-.icono{
-    filter: grayscale(100%) brightness(500%);
-    margin-right: 0.5rem;
-}
-
-
-/* ANIMACION */
-.fade-in { animation: fadeIn 0.8s ease-in; }
-@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-
-/* --- IMAGEN HERO (Cabecera Mejorada) --- */
-.hero-image {
-    width: 100%;
-    /* 1. Un poco más alta para que luzca más la imagen */
-    height: 500px;
-
-    /* Configuración del fondo */
-    background-size: cover;
-    /* Centramos la imagen para que se vea lo importante */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: var(--bg-card); /* Color de carga */
-
+.mini-card {
+    background: var(--card-bg);
+    border-left: 3px solid var(--gold);
+    padding: 25px;
+    border-radius: 4px;
     position: relative;
-    z-index: 0; /* La imagen queda al fondo */
-
-    /* 2. Quitamos el borde dorado inferior, queda más limpio sin él */
-    /* border-bottom: 4px solid var(--accent); */
-
-    /* Hacemos que el contenido siguiente se monte más encima de la imagen */
-    margin-bottom: -50px;
-
-    /* --- 3. EL CAMBIO CLAVE --- */
-    /* BORRAMOS las líneas de mask-image que te di antes. */
-    /* En su lugar, usamos una sombra interna suave para oscurecer el fondo */
-    box-shadow: inset 0 -120px 120px -40px var(--bg-dark);
-    /* Esto crea un degradado oscuro solo en la parte inferior, dentro de la imagen */
-}
-
-/* Asegúrate de que los tabs tengan esto para quedar por encima */
-.testament-tabs {
-    position: relative;
-    z-index: 10; /* Mayor que la imagen para estar encima */
-    /* ... el resto de estilos de tabs que ya tenías ... */
-}
-
-/* Ajuste para celulares */
-@media (max-width: 600px) {
-    .hero-image {
-        height: 250px; /* Altura proporcional en móvil */
-         background-position: center top; /* En móvil suele convenir enfocar más arriba */
-    }
-}
-
-
-
-.tab {
-    background: rgba(30, 41, 59, 0.8);
-    border: 1px solid rgba(255,255,255,0.1);
-    color: var(--text-muted);
-    padding: 0.5rem 1.5rem;
-    border-radius: 20px;
+    transition: transform 0.3s ease;
     cursor: pointer;
-    font-family: var(--font-serif);
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-.tab:hover {
-    background: var(--bg-card);
-    color: white;
+.mini-card:active { transform: scale(0.98); }
+
+.testamento-label {
+    font-size: 0.65rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    display: block;
+    margin-bottom: 10px;
 }
 
-.tab.active {
-    background: var(--accent);
-    color: #0f172a; /* Texto oscuro sobre dorado */
-    font-weight: bold;
-    border-color: var(--accent);
-    box-shadow: 0 0 10px rgba(245, 158, 11, 0.4);
+.mini-card h2 {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+}
+
+.preview-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 15px;
+    color: #999;
+    font-weight: 300;
 }
 
 /* --- BOTÓN LAUNCHER (9 PUNTOS) --- */
@@ -259,6 +125,28 @@ h1 {
 }
 
 /* --- MENÚ DESPLEGABLE (ECOSISTEMA) --- */
+
+/* NAV */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    /* background: rgba(15, 23, 42, 0.95); */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.logo {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--accent);
+    letter-spacing: 2px;
+}
+
 .eco-menu {
     position: fixed;
     top: 70px; /* Justo debajo del nav */
@@ -328,204 +216,45 @@ h1 {
 }
 
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand h1 { font-family: var(--font-book); font-size: 1.8rem; letter-spacing: -0.5px; }
+/* .brand h1 { font-family: var(--font-book); font-size: 1.8rem; letter-spacing: -0.5px; } */
 .icon-book { font-size: 1.8rem; }
 
-/* --- SECCIÓN COMPARTIR --- */
-.share-container {
-    margin: 3rem 1.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
-}
-
-.share-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #94a3b8; /* Gris azulado claro */
-    margin-bottom: 1.5rem;
-}
-
-.share-actions {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-/* Botones Base */
-.btn-share {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.search-container {
     cursor: pointer;
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
-    color: white;
-    font-size: 1.2rem;
+    margin: 20px auto; /* Centrado automático */
+    padding: 0 15px;   /* Pequeño margen para que no toque bordes en móvil */
+    max-width: 500px;  /* EL CAMBIO CLAVE: Igualamos el ancho máximo a las cards */
+    width: 90%;        /* Para que en móviles pequeños sea flexible */
 }
 
-.btn-share:hover {
-    transform: scale(1.15) translateY(-2px);
-    filter: brightness(1.2);
-}
-
-.btn-share svg {
-    pointer-events: none; /* Para evitar problemas al clickear el icono */
-}
-
-/* Colores Específicos */
-.btn-share.wa {
-    background: linear-gradient(135deg, #25D366, #128C7E);
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
-}
-
-.btn-share.fb {
-    background: linear-gradient(135deg, #1877F2, #1659b1);
-    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
-}
-
-.btn-share.copy {
-    background: transparent;
-    border: 2px solid #38bdf8; /* Azul cielo neón */
-    color: #38bdf8;
-    box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
-}
-
-.btn-share.copy:hover {
-    background: rgba(56, 189, 248, 0.1);
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-}
-
-/* --- FRASE INTRODUCTORIA --- */
-.divine-intro {
-    font-family: var(--font-serif); /* Fuente elegante */
-    color: var(--accent); /* Color dorado */
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 0.5rem;
-    opacity: 0.8;
-    margin-top: 1rem;
-}
-
-/* --- CURSOR DE LA IMAGEN PRINCIPAL --- */
-#hero-image {
-    cursor: zoom-in; /* Lupa para indicar que se puede abrir */
-    transition: filter 0.3s;
-}
-
-#hero-image:hover {
-    filter: brightness(1.1); /* Brillo suave al pasar el mouse */
-}
-
-/* --- LIGHTBOX (PANTALLA COMPLETA) --- */
-.lightbox {
-    position: fixed;
-    z-index: 2000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.95);
+.search-box {
+    background: #f4ecd8;
+    border: 1px solid var(--gold);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease;
-}
-
-.lightbox.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.lightbox-content {
-    max-width: 95%;
-    max-height: 90%;
+    padding: 12px 20px;
     border-radius: 8px;
-    box-shadow: 0 0 30px rgba(245, 158, 11, 0.2); /* Resplandor dorado tenue */
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
 }
 
-.lightbox.active .lightbox-content {
-    transform: scale(1);
+.search-box:hover {
+    transform: translateY(-2px); /* Un pequeño efecto de elevación al pasar el mouse */
 }
 
-.close-lightbox {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    color: #fff;
-    font-size: 40px;
+.search-label {
+    color: #8b6d2a;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.input-mana {
+    border: none;
+    background: transparent;
+    color: #8b6d2a;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    font-size: 1rem;
     cursor: pointer;
-    transition: color 0.3s;
-}
-
-.close-lightbox:hover { color: var(--accent); }
-.huellas{
-    filter: grayscale(100%) brightness(500%);
-}
-
-/* --- FOOTER GLOBAL MODERNO --- */
-.app-footer {
-    width: 100%;
-    padding: 3rem 1rem 2rem 1rem; /* Espacio generoso arriba */
-    background: linear-gradient(to top, #020617 0%, rgba(15, 23, 42, 0) 100%); /* Degradado suave hacia transparente */
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.05); /* Línea muy sutil */
-    margin-top: 4rem; /* Separación del contenido */
-    position: relative;
-    z-index: 10;
-}
-
-.footer-content {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-}
-
-.footer-brand {
-    font-family: 'Merriweather', serif; /* O la fuente elegante que uses */
-    font-size: 1.1rem;
-    color: #e2e8f0;
-    letter-spacing: 1px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.footer-dev {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
-    color: #64748b; /* Gris suave */
-}
-
-.footer-dev span {
-    color: #d4b483; /* Dorado suave para tu nombre */
-    font-weight: 500;
-}
-
-/* Animación sutil al pasar el mouse por tu nombre */
-.footer-dev span:hover {
-    color: #fff;
-    text-shadow: 0 0 10px rgba(212, 180, 131, 0.5);
-    cursor: default;
-}
-
-.footer-year {
-    font-size: 0.75rem;
-    color: #475569;
-    margin-top: 5px;
 }

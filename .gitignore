@@ -8,6 +8,8 @@ dist/
 codice/git rm -r --cached .
 buckup.js
 basura.js
+mana-1/
+imgMana/
 
 # Scripts de desarrollo y migraciones (si los metes en una carpeta, descomenta la siguiente línea)
 # scripts-dev/
