@@ -1,4 +1,4 @@
-const CACHE_NAME = 'codice-v53'; // Subimos de versión para aplicar cambios
+const CACHE_NAME = 'codice-v56'; // Subimos de versión para aplicar cambios
 const ASSETS = [
   '/',
   '/index.html',
@@ -34,35 +34,54 @@ const ASSETS = [
   '/aposento/index.html'
 ];
 
-// Instalación: Cacheamos todo el ecosistema
+// 1. Instalación: Cacheamos lo esencial
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(CACHE_NAME).then((cache) => {
-      console.log('Códice Bíblico: Cacheando ecosistema completo...');
+      console.log('Códice Bíblico: Preparando despensa...');
       return cache.addAll(ASSETS);
     })
   );
+  self.skipWaiting(); // Fuerza a este SW a activarse de inmediato
 });
 
-// Activación: Borramos la versión v17 y anteriores
+// 2. Activación: Limpieza de versiones viejas
 self.addEventListener('activate', (e) => {
   e.waitUntil(
     caches.keys().then((keyList) => {
       return Promise.all(keyList.map((key) => {
         if (key !== CACHE_NAME) {
-          console.log('Códice Bíblico: Limpiando caché antigua:', key);
+          console.log('Códice Bíblico: Tirando ingredientes viejos:', key);
           return caches.delete(key);
         }
       }));
     })
   );
+  return self.clients.claim(); // Toma el control de las pestañas abiertas de inmediato
 });
 
-// Fetch: Estrategia "Cache First" (Velocidad máxima)
+// 3. Fetch: Estrategia Stale-While-Revalidate
 self.addEventListener('fetch', (e) => {
+  // Solo gestionamos peticiones GET (evita errores con Analytics o formularios)
+  if (e.request.method !== 'GET') return;
+
   e.respondWith(
-    caches.match(e.request).then((response) => {
-      return response || fetch(e.request);
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.match(e.request).then((cachedResponse) => {
+        const fetchedResponse = fetch(e.request).then((networkResponse) => {
+          // Si la red responde bien, actualizamos la caché en silencio
+          if (networkResponse && networkResponse.status === 200) {
+            cache.put(e.request, networkResponse.clone());
+          }
+          return networkResponse;
+        }).catch(() => {
+          // Si falla la red (offline) y no hay caché, podrías retornar una página de error
+          return cachedResponse;
+        });
+
+        // Retornamos la respuesta rápida (caché) o la lenta (red)
+        return cachedResponse || fetchedResponse;
+      });
     })
   );
 });

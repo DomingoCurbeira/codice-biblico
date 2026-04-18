@@ -104,17 +104,25 @@ function configurarBotonesCompartir(obj) {
         setTimeout(() => btn.style.color = "", 2000);
     };
     
-    // Integración con Escriba (Su módulo de notas)
-    document.getElementById('btn-nota-mana').onclick = () => {
-        // Guardamos el contenido en localStorage para que 'Escriba' lo recoja
-        const notaDraft = {
-            titulo: `Nota: ${obj.titulo}`,
-            contenido: `Referencia: ${obj.referencia_biblica.libro}\nMensaje: ${obj.mensaje}\n\n`,
-            source: "Maná Visual"
-        };
-        localStorage.setItem('draft_escriba', JSON.stringify(notaDraft));
-        window.location.href = '../notas/index.html'; // Redirigir a Escriba
+   
+
+const btnNota = document.getElementById('btn-nota-mana');
+
+if (btnNota) {
+    btnNota.onclick = () => {
+        const titulo = `Provisión: ${obj.titulo}`;
+        const cuerpo = `Estuve meditando en "Maná Visual" sobre ${obj.tema}.\n\nMensaje: "${obj.mensaje}"\n\nMis reflexiones:\n`;
+
+        // USAMOS RUTA ABSOLUTA: Esto evita errores de navegación entre carpetas
+        const baseUrl = window.location.origin; // Esto detecta si estás en 127.0.0.1 o en Netlify
+        const urlFinal = `${baseUrl}/notas/index.html?titulo=${encodeURIComponent(titulo)}&cuerpo=${encodeURIComponent(cuerpo)}`;
+        
+        console.log("Navegando a Escriba:", urlFinal);
+        window.location.href = urlFinal;
     };
+}
+
+    
 }
 
 cargarLectura();
