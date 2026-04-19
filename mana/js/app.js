@@ -18,28 +18,48 @@ async function iniciarMana() {
         const indice = await resIndice.json();
         
         const hoy = new Date();
+        // Generamos la fecha exacta: "19 de Abril"
         const fechaBuscada = `${hoy.getDate()} de ${MESES[hoy.getMonth()]}`;
+        console.log("Buscando provisión para:", fechaBuscada);
 
         const archivosDeHoy = indice[fechaBuscada]; 
 
-        if (!archivosDeHoy || archivosDeHoy.length === 0) {
-            launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">No hay provisión programada para hoy.</p>`;
+        console.log(archivosDeHoy)
+
+        if (!archivosDeHoy || !Array.isArray(archivosDeHoy) || archivosDeHoy.length === 0) {
+            launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">No hay provisión programada para hoy (${fechaBuscada}).</p>`;
             return;
+            a
         }
 
-        let lecturasCompletas = [];
-        for (const item of archivosDeHoy) {
-            const resData = await fetch(`${URL_BASE}${item.grupo}.json`);
-            const data = await resData.json();
-            const objetoFinal = data.find(d => d.id === item.id);
-            if (objetoFinal) lecturasCompletas.push(objetoFinal);
-        }
+        // Mapeamos los archivos de hoy para crear promesas de fetch simultáneas
+        const promesas = archivosDeHoy.map(async (item) => {
+            try {
+                const resData = await fetch(`${URL_BASE}${item.grupo}.json`);
+                const data = await resData.json();
+                // Usamos == para evitar errores de tipo string vs number en el ID
+                return data.find(d => d.id == item.id);
+            } catch (err) {
+                console.error(`Error cargando el grupo ${item.grupo}:`, err);
+                return null;
+            }
+        });
 
-        renderCards(lecturasCompletas);
+        // Esperamos a que todas las lecturas (AT y NT) se resuelvan
+        const lecturasCompletas = await Promise.all(promesas);
+
+        // Filtramos resultados nulos (por si un archivo falló)
+        const lecturasValidas = lecturasCompletas.filter(l => l !== null);
+
+        if (lecturasValidas.length > 0) {
+            renderCards(lecturasValidas);
+        } else {
+            throw new Error("No se encontraron los objetos en los archivos de datos");
+        }
 
     } catch (e) {
-        console.error("Error en la logística:", e);
-        launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">Buscando el pan de hoy...</p>`;
+        console.error("Error en la logística de Maná:", e);
+        launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">Hubo un problema al servir el pan de hoy.</p>`;
     }
 }
 

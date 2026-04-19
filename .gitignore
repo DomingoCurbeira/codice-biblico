@@ -38,6 +38,8 @@ visor_directo.html
 auditorCronos.html
 obsoletos.html
 generadorPdf.html
+generadorMaestroMana.html
+indice_mana.html
 
 # Archivos ocultos del sistema operativo (Mac/Windows)
 .DS_Store
