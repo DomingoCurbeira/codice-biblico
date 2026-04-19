@@ -541,3 +541,39 @@ h2 { font-family: 'Lora', serif; color: var(--gold); margin-bottom: 0.5rem; }
     color: #475569;
     margin-top: 5px;
 }
+
+.boton-kofi {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f4e4bc; /* Un tono pergamino más claro */
+  color: #3e2723; /* Marrón oscuro para el texto, muy legible */
+  padding: 10px 20px;
+  border-radius: 30px; /* Bordes suaves y elegantes */
+  text-decoration: none;
+  font-family: 'Playfair Display', serif; /* Usa la misma fuente elegante de tus títulos */
+  font-weight: bold;
+  font-size: 16px;
+  border: 2px solid #d4b483; /* Borde dorado para enmarcarlo */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave para darle volumen */
+  transition: all 0.3s ease; /* Animación suave al pasar el ratón */
+  margin: 20px auto; /* Centrado y con espacio alrededor */
+}
+
+.boton-kofi:hover {
+  background-color: #d4b483; /* Se vuelve dorado al pasar el ratón */
+  color: white; /* El texto cambia a blanco para contrastar */
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* La sombra crece */
+  transform: translateY(-2px); /* Se eleva un poquito */
+}
+
+.icono-kofi {
+  width: 24px;
+  height: auto;
+  margin-right: 12px;
+  /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
+  /* Truco de Chef: Convierte el icono en dorado */
+}
+
+.boton-kofi:hover .icono-kofi {
+  filter: brightness(0) invert(1); /* Se vuelve blanco en el hover */
+}

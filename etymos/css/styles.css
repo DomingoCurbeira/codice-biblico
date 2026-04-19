@@ -355,3 +355,11 @@ body {
     font-size: 0.9rem;
     font-family: 'Inter', sans-serif;
 }
+
+.icono-kofi {
+  width: 24px;
+  height: auto;
+  margin-right: 12px;
+  /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
+  /* Truco de Chef: Convierte el icono en dorado */
+}

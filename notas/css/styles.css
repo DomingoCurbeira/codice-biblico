@@ -308,3 +308,10 @@ body {
     background-color: rgba(212, 180, 131, 0.1); /* Fondo sutil dorado */
 }
 
+.icono-kofi {
+  width: 24px;
+  height: auto;
+  margin-right: 12px;
+  /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
+  /* Truco de Chef: Convierte el icono en dorado */
+}
