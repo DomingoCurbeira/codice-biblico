@@ -2861,7 +2861,112 @@
         "perla_espiritual": "Cuando el Pneuma activa el diseño de Nahúm, dejas de ver solo el juicio y empiezas a ver la liberación. El Rhema es: 'He aquí sobre los montes los pies del que trae buenas nuevas'. Tu identidad es anunciar que la esclavitud terminó.",
         "ejemplo_biblico": "Nahúm 1:15 - '¡He aquí sobre los montes los pies del que trae buenas nuevas (Mebasser), del que anuncia la paz!'",
         "tags": ["noticias", "paz", "pneuma"]
+    },
+    {
+        "id": "martys-gr",
+        "palabra_espanol": "Martys (Testigo)",
+        "idioma": "Griego",
+        "original": "Μάρτυς",
+        "transliteracion": "Martys",
+        "raiz": "Raíz de donde proviene la palabra 'mártir'.",
+        "definicion_corta": "Aquel que da testimonio de lo que ha visto o experimentado.",
+        "contexto_cultural": "En el contexto legal y espiritual, un Martys no es alguien que teoriza, sino alguien que presenta evidencia de un hecho real. David actúa como Martys en sus Salmos al declarar que Dios es refugio.",
+        "perla_espiritual": "La confianza no es un salto al vacío, es el resultado de ser un Martys de la fidelidad de Dios. Conocer Su nombre (Onomastiko) es tener la prueba de que en la angustia, Su diseño de protección nunca nos desampara.",
+        "ejemplo_biblico": "Salmos 9:10 - 'En ti confiarán los que conocen tu nombre, Por cuanto tú, oh Jehová, no desamparaste a los que te buscaron.'",
+        "tags": ["testimonio", "confianza", "refugio", "david"]
+    },
+    {
+        "id": "jattat-he",
+        "palabra_espanol": "Pecado (Jattat)",
+        "idioma": "Hebreo",
+        "original": "חַטָּאת",
+        "transliteracion": "Jattat",
+        "raiz": "Deriva de 'chata' (errar el camino, faltar, tropezar).",
+        "definicion_corta": "Errar el paso o faltar a un deber hacia Dios o hacia otros.",
+        "contexto_cultural": "En el sistema levítico, 'Jattat' no solo describe la falta, sino también la 'ofrenda por el pecado'. Enfoca el pecado como una deuda o una mancha que requiere un sacrificio para restaurar la pureza.",
+        "perla_espiritual": "Jattat nos enseña que el pecado interrumpe nuestra conexión con la Fuente. No es solo un error moral, es un tropiezo que nos aleja del camino de santidad diseñado para nosotros. <br><br>  <a href='palabra.html?id=hamartia-gr' class='link-estudio-cruzado'>Estudio Cruzado: Raíz Griega (Hamartia)</a>",
+        "ejemplo_biblico": "Génesis 4:7 - '...el pecado (jattat) está a la puerta; con todo esto, a ti será su deseo, y tú te enseñorearás de él.'",
+        "tags": ["pecado", "transgresión", "ofrenda", "purificación"]
+    },
+    {
+        "id": "hamartia-gr",
+        "palabra_espanol": "Pecado (Hamartia)",
+        "idioma": "Griego",
+        "original": "Ἁμαρτία",
+        "transliteracion": "Hamartia",
+        "raiz": "Compuesta por 'a' (negación) y 'meros' (parte, porción, destino).",
+        "definicion_corta": "Errar al blanco; no alcanzar la meta o el destino diseñado.",
+        "contexto_cultural": "Era un término usado en el tiro con arco. Si el arquero lanzaba la flecha y no daba en el centro, el juez gritaba: '¡Hamartia!'. Significa que la flecha perdió su propósito.",
+        "perla_espiritual": "Desde el Diseño Original, el pecado es una crisis de puntería. Dios te diseñó para dar en el blanco de Su gloria, pero la hamartia desvía tu vida hacia metas inferiores que no te sacian. <br><br> <a href='palabra.html?id=jattat-he' class='link-estudio-cruzado'>Estudio Cruzado: Raíz Hebrea (Jattat)</a>",
+        "ejemplo_biblico": "Romanos 3:23 - 'Por cuanto todos pecaron (hamartano), y están destituidos de la gloria de Dios.'",
+        "tags": ["pecado", "propósito", "meta", "diseño"]
+    },
+    {
+        "id": "avon-he",
+        "palabra_espanol": "Iniquidad (Avon)",
+        "idioma": "Hebreo",
+        "original": "עָוֺן",
+        "transliteracion": "Avon",
+        "raiz": "Deriva de 'avah' (torcer, doblar, estar deforma).",
+        "definicion_corta": "Maldad intrínseca, perversidad o una inclinación torcida de la voluntad.",
+        "contexto_cultural": "En el hebreo antiguo, 'Avon' no se refiere solo a una acción externa, sino a una condición interna. Imagina un metal que ha sido doblado por el calor; aunque intentes usarlo, su forma torcida le impide cumplir su función original.",
+        "perla_espiritual": "La Iniquidad es la distorsión de tu Diseño Original. Si el pecado es errar al blanco, la iniquidad es la curvatura en el arco que hace que siempre falles. Dios no solo perdona el acto (pecado), sino que desea enderezar tu esencia (avon) para que vuelvas a ser el diseño recto que Él trazó. <br><br> <a href='palabra.html?id=jattat-he' class='link-estudio-cruzado'>Estudio Cruzado: Raíz del Pecado (Jattat)</a>",
+        "ejemplo_biblico": "Salmos 32:5 - 'Mi pecado te declaré, y no encubrí mi iniquidad (avon).'",
+        "tags": ["iniquidad", "distorsión", "corazón", "restauración"]
+    },
+    {
+        "id": "daka-he",
+        "palabra_espanol": "Quebrantamiento (Daka)",
+        "idioma": "Hebreo",
+        "original": "דָּקָא",
+        "transliteracion": "Daka",
+        "raiz": "Significa 'desmenuzar', 'pulverizar' o 'hacer polvo'.",
+        "definicion_corta": "Ser reducido a lo más mínimo; un estado de contrición absoluta.",
+        "contexto_cultural": "En el mundo antiguo, 'Daka' describía el proceso de triturar una piedra hasta convertirla en polvo fino o desmenuzar el grano. No es romper algo para desecharlo, sino procesarlo para que pueda ser transformado en algo nuevo (como el grano en pan).",
+        "perla_espiritual": "El quebrantamiento es el proceso donde Dios elimina las durezas de nuestra Iniquidad (lo torcido) para devolvernos a nuestra esencia de barro (Adamah). Ser 'Daka' es permitir que Dios nos reduzca a nuestro diseño básico para que Su Pneuma pueda darnos una forma nueva. Es el paso previo a la verdadera restauración.",
+        "ejemplo_biblico": "Salmos 51:17 - 'Al corazón contrito y humillado (daka), no despreciarás tú, oh Dios.'",
+        "tags": ["quebrantamiento", "restauración", "proceso", "corazón"]
+    },
+    {
+        "id": "ra-he",
+        "palabra_espanol": "Maldad (Ra)",
+        "idioma": "Hebreo",
+        "original": "רַע",
+        "transliteracion": "Ra",
+        "raiz": "Se asocia con la idea de algo quebrado, deshecho o que causa aflicción.",
+        "definicion_corta": "Aquello que es malo, dañino, desastroso o éticamente perverso.",
+        "contexto_cultural": "En el pensamiento hebreo, 'Ra' no es solo una idea abstracta de malicia; es algo que 'rompe' el bienestar. Se usaba para describir comida podrida, un animal herido o una relación fracturada. Es lo que no funciona según su propósito.",
+        "perla_espiritual": "La maldad es la desintegración del Diseño Original. Dios creó todo en armonía, pero la 'Ra' es la fuerza que intenta romper esa estructura. Cuando hay maldad, el diseño se fragmenta. Por eso, vencer el mal no es solo portarse bien, sino permitir que Dios 'reintegre' las piezas rotas de nuestra vida bajo Su orden.",
+        "ejemplo_biblico": "Salmos 23:4 - 'Aunque ande en valle de sombra de muerte, No temeré mal (ra) alguno, porque tú estarás conmigo.'",
+        "tags": ["maldad", "fractura", "integridad", "caos"]
+    },
+    {
+        "id": "etymos-gr",
+        "palabra_espanol": "Etymos (Lo Verdadero)",
+        "idioma": "Griego",
+        "original": "ἔτυμος",
+        "transliteracion": "Etymos",
+        "raiz": "Significa 'verdadero', 'real', 'auténtico'.",
+        "definicion_corta": "La esencia real de una cosa; la verdad que no está oculta.",
+        "contexto_cultural": "En la antigua Grecia, el 'Etymos' de una palabra no era solo su origen gramatical, sino su significado profundo y real. Se creía que al encontrar el etymos de algo, se revelaba su verdadera naturaleza y el orden que ocupa en el universo.",
+        "perla_espiritual": "Buscar el Etymos es buscar el corazón de Dios en cada detalle. No nos conformamos con la superficie; cavamos hasta encontrar la verdad auténtica que sostiene nuestro Diseño Original. Estudiar el Etymos de tu vida es quitar las capas de mentira que el mundo ha puesto sobre ti para descubrir quién dijo Dios que eres en realidad.",
+        "ejemplo_biblico": "1 Timoteo 6:19 - '...que echen mano de la vida eterna (la vida que es etymos / verdadera).'",
+        "tags": ["verdad", "esencia", "raíz", "autenticidad"]
+    },
+    {
+        "id": "onomastiko-gr",
+        "palabra_espanol": "Onomastiko (Relativo al Nombre)",
+        "idioma": "Griego",
+        "original": "Ὀνομαστικός",
+        "transliteracion": "Onomastikos",
+        "raiz": "Deriva de 'onoma' (nombre).",
+        "definicion_corta": "El estudio o la ciencia de los nombres y su significado.",
+        "contexto_cultural": "En las culturas bíblicas, el nombre no era una etiqueta aleatoria; era una declaración de identidad, carácter y destino. Conocer el 'Onomastiko' de alguien era entender el propósito para el cual fue creado.",
+        "perla_espiritual": "Tu nombre en el diseño de Dios no es un accidente. Onomastiko es la sección donde redescubrimos que cada personaje bíblico —y tú también— tiene una identidad trazada por el Creador. Al estudiar los nombres, no solo vemos historia, vemos el eco de nuestro propio Diseño Original y el llamado que Dios ha puesto sobre nosotros.",
+        "ejemplo_biblico": "Apocalipsis 2:17 - '...y le daré una piedrita blanca, y en la piedrita escrito un nombre nuevo, el cual ninguno conoce sino aquel que lo recibe.'",
+        "tags": ["nombre", "identidad", "destino", "onomastica"]
     }
+
 
 
 ]
