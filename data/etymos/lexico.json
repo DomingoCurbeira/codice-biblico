@@ -2965,6 +2965,19 @@
         "perla_espiritual": "Tu nombre en el diseño de Dios no es un accidente. Onomastiko es la sección donde redescubrimos que cada personaje bíblico —y tú también— tiene una identidad trazada por el Creador. Al estudiar los nombres, no solo vemos historia, vemos el eco de nuestro propio Diseño Original y el llamado que Dios ha puesto sobre nosotros.",
         "ejemplo_biblico": "Apocalipsis 2:17 - '...y le daré una piedrita blanca, y en la piedrita escrito un nombre nuevo, el cual ninguno conoce sino aquel que lo recibe.'",
         "tags": ["nombre", "identidad", "destino", "onomastica"]
+    },
+    {
+        "id": "berit-he",
+        "palabra_espanol": "Pacto (Berit)",
+        "idioma": "Hebreo",
+        "original": "בְּרִית",
+        "transliteracion": "Berit",
+        "raiz": "Incierta, probablemente del hebreo 'barah' (cortar) o del acadio 'biritu' (enlace/cadena).",
+        "definicion_corta": "Un acuerdo solemne, vinculante y legal entre dos partes.",
+        "contexto_cultural": "En el antiguo Oriente Próximo, un 'Berit' no se firmaba con tinta, se 'cortaba'. Se dividían animales por la mitad y las partes pasaban por el medio, simbolizando que si alguien rompía el pacto, correría la misma suerte que los animales. Es un compromiso de vida o muerte.",
+        "perla_espiritual": "El Berit es la garantía de tu seguridad. Cuando Dios hace un pacto con Abraham (y contigo), Él pasa solo entre las piezas, asumiendo toda la responsabilidad del cumplimiento. Tu caminar con Dios no depende de un contrato de comportamiento, sino de un Berit de sangre donde Su propia existencia es el aval. <br><br> <a href='palabra.html?id=diatheke-gr' class='link-estudio-cruzado'>Estudio Cruzado: Raíz Griega (Diatheke)</a>",
+        "ejemplo_biblico": "Génesis 15:18 - 'En aquel día hizo Jehová un pacto (berit) con Abram...'",
+        "tags": ["pacto", "compromiso", "alianza", "fidelidad"]
     }
 
 
