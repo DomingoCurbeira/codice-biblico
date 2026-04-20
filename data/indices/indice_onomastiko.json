@@ -2,7 +2,7 @@
   "meta": {
     "version": "4.1-object-id",
     "ultima_sincronizacion": "2026-04-20",
-    "total_global": 38
+    "total_global": 39
   },
   "identidades": [
     {
@@ -249,6 +249,20 @@
         "arrepentimiento",
         "juan",
         "fidelidad"
+      ]
+    },
+    {
+      "id": "onoma-juan-discipulo",
+      "nombre": "Juan",
+      "subtitulo": "Hijo del Trueno (Boanerges)",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/juan_apostol.webp",
+      "tags": [
+        "amor",
+        "apocalipsis",
+        "discípulo",
+        "juan",
+        "quintaesencia"
       ]
     },
     {

@@ -1,41 +1,80 @@
 [
   {
-    "id": "onoma-juan-bautista",
-    "seccion": "ONOMASTIKO",
-    "archivo_fuente": "evangelios.json",
-    "tiene_transicion": true,
-    "config_tarjeta": {
-        "color_primario": "#78350f",
-        "color_acento": "#fbbf24",
-        "avatar_url": "../img/perfiles/juan-bautista.webp",
-        "gradiente": "linear-gradient(135deg, #451a03 0%, #0c0a09 100%)"
+        "id": "onoma-juan-bautista",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "evangelios.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#78350f",
+            "color_acento": "#fbbf24",
+            "avatar_url": "../img/perfiles/juan-bautista.webp",
+            "gradiente": "linear-gradient(135deg, #451a03 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Juan",
+            "subtitulo_rol": "La Voz del Desierto",
+            "bio_resumen": "Nacido de una promesa en la vejez de sus padres. Vivió en la austeridad del desierto, vistiendo piel de camello y alimentándose de lo que la tierra proveía, preparando el camino para algo mucho más grande.",
+            "logro_destacado": "Precursor del Reino",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "juan-bautista", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "kenosis-gr", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "rio-jordan-bautismo", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yojanán",
+                "titulo": "El que Mengua para que Él Crezca",
+                "avatar": "../img/perfiles/juan-rio.webp",
+                "bio": "Entendió que su propósito no era retener seguidores, sino transferirlos a la Verdad. Su Kenosis voluntaria fue el espacio necesario para que el Pleroma de Cristo se manifestara ante Israel.",
+                "etymos_id": "yojanan-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יוֹחָנָן",
+            "transliteracion": "Yojanán",
+            "significado_core": "YHVH es Gracioso / Dios ha dado Gracia",
+            "perla_profunda": "La verdadera grandeza no se mide por cuánto espacio ocupas, sino por cuánto espacio eres capaz de ceder para que la Gloria de Dios se manifieste."
+        },
+        "tags": ["precursor", "desierto", "arrepentimiento", "juan", "fidelidad"]
     },
-    "perfil_card": {
-        "nombre_principal": "Juan",
-        "subtitulo_rol": "La Voz del Desierto",
-        "bio_resumen": "Nacido de una promesa en la vejez de sus padres. Vivió en la austeridad del desierto, vistiendo piel de camello y alimentándose de lo que la tierra proveía, preparando el camino para algo mucho más grande.",
-        "logro_destacado": "Precursor del Reino",
-        "iconos_accion": [
-            { "tipo": "huellas", "id": "juan-bautista", "tooltip": "Huellas" },
-            { "tipo": "etymos", "id": "kenosis-gr", "tooltip": "Etymos" },
-            { "tipo": "cronos", "id": "rio-jordan-bautismo", "tooltip": "Cronos" }
-        ]
-    },
-    "fases": {
-        "nueva": {
-            "nombre": "Yojanán",
-            "titulo": "El que Mengua para que Él Crezca",
-            "avatar": "../img/perfiles/juan-rio.webp",
-            "bio": "Entendió que su propósito no era retener seguidores, sino transferirlos a la Verdad. Su Kenosis voluntaria fue el espacio necesario para que el Pleroma de Cristo se manifestara ante Israel.",
-            "etymos_id": "yojanan-he"
-        }
-    },
-    "datos_identidad": {
-        "original_idioma": "יוֹחָנָן",
-        "transliteracion": "Yojanán",
-        "significado_core": "YHVH es Gracioso / Dios ha dado Gracia",
-        "perla_profunda": "La verdadera grandeza no se mide por cuánto espacio ocupas, sino por cuánto espacio eres capaz de ceder para que la Gloria de Dios se manifieste."
-    },
-    "tags": ["precursor", "desierto", "arrepentimiento", "juan", "fidelidad"]
-}
+    {
+        "id": "onoma-juan-discipulo",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "evangelios.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#1e3a8a",
+            "color_acento": "#60a5fa",
+            "avatar_url": "../img/perfiles/juan_apostol.webp",
+            "gradiente": "linear-gradient(135deg, #1e40af 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Juan",
+            "subtitulo_rol": "Hijo del Trueno (Boanerges)",
+            "bio_resumen": "Hijo de Zebedeo y hermano de Jacobo. Originalmente poseía un carácter impetuoso y exclusivo, capaz de pedir fuego del cielo para consumir a quienes no le recibían. Un temperamento reactivo que necesitaba ser procesado.",
+            "logro_destacado": "De la Reactividad a la Revelación",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "juan-apostol", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "agape-gr", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "patmos-revelacion", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Yojanán",
+                "titulo": "El Discípulo Amado",
+                "avatar": "../img/perfiles/juan-anciano.webp",
+                "bio": "Tras descansar en el pecho del Maestro, su frecuencia cambió. Se convirtió en el guardián de la Quintaesencia, revelando que Dios no solo tiene amor, sino que ES Amor. El último de los apóstoles en dejar el plano físico.",
+                "etymos_id": "yojanan-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "יוֹחָנָן (Yojanán) / Βοανηργές (Boanerges)",
+            "transliteracion": "Yojanán / Boanerges",
+            "significado_core": "Gracia de Dios / Hijos del Trueno",
+            "perla_profunda": "El amor no es una debilidad del carácter, es la fuerza cuántica que estabiliza el espíritu. Juan pasó de querer destruir con fuego a sostener con amor."
+        },
+        "tags": ["amor", "apocalipsis", "discípulo", "juan", "quintaesencia"]
+    }
 ]
