@@ -1276,3 +1276,33 @@ body {
   /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
   /* Truco de Chef: Convierte el icono en dorado */
 }
+
+/* Estilo para los Enlaces de Estudio Cruzado en Etymos */
+.link-estudio-cruzado {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1); /* Efecto cristal */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 215, 0, 0.4); /* Borde dorado suave */
+    border-radius: 50px;
+    color: #ffd700 !important; /* Texto Dorado */
+    text-decoration: none !important;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.link-estudio-cruzado:hover {
+    background: rgba(255, 215, 0, 0.2);
+    border: 1px solid #ffd700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
+}
+
+.link-estudio-cruzado::before {
+    content: '🔗';
+    margin-right: 8px;
+}

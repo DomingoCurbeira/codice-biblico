@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-17",
+    "ultima_sincronizacion": "2026-04-20",
     "total_global": 38
   },
   "identidades": [
@@ -238,6 +238,20 @@
       ]
     },
     {
+      "id": "onoma-juan-bautista",
+      "nombre": "Juan",
+      "subtitulo": "La Voz del Desierto",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/juan-bautista.webp",
+      "tags": [
+        "precursor",
+        "desierto",
+        "arrepentimiento",
+        "juan",
+        "fidelidad"
+      ]
+    },
+    {
       "id": "onoma-sulamita-esposa",
       "nombre": "La Sulamita",
       "subtitulo": "La Amada del Cantar",
@@ -435,20 +449,6 @@
         "saul",
         "benjamin",
         "caída"
-      ]
-    },
-    {
-      "id": "onoma-pedro-roca",
-      "nombre": "Simón Pedro",
-      "subtitulo": "La Piedra de la Confesión",
-      "archivo_fuente": "evangelios.json",
-      "imagen": "../img/perfiles/pedro.webp",
-      "tags": [
-        "apostol",
-        "roca",
-        "revelación",
-        "evangelio",
-        "kephas"
       ]
     },
     {

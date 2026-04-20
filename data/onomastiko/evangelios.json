@@ -1,31 +1,41 @@
 [
   {
-      "id": "onoma-pedro-roca",
-      "seccion": "ONOMASTIKO",
-      "archivo_fuente": "evangelios.json",
-      "config_tarjeta": {
-          "color_primario": "#1e40af",
-          "color_acento": "#60a5fa",
-          "avatar_url": "../img/perfiles/pedro.webp",
-          "gradiente": "linear-gradient(135deg, #1e40af 0%, #0b0f19 100%)"
-      },
-      "perfil_card": {
-          "nombre_principal": "Simón Pedro",
-          "subtitulo_rol": "La Piedra de la Confesión",
-          "bio_resumen": "De pescador de Galilea a columna de la comunidad. Su diseño original fue reformateado por el Mesías, pasando de la inestabilidad del agua a la solidez de la roca mediante la revelación.",
-          "logro_destacado": "Portador de las Llaves del Reino",
-          "iconos_accion": [
-              { "tipo": "huellas", "id": "pedro", "tooltip": "Huellas" },
-              { "tipo": "etymos", "id": "kephas-gr", "tooltip": "Etymos" },
-              { "tipo": "cronos", "id": "lago-genesaret", "tooltip": "Cronos" }
-          ]
-      },
-      "datos_identidad": {  
-          "original_idioma": "שִׁמְעוֹן / Κηφᾶς",
-          "transliteracion": "Shim'ón / Kephás",
-          "significado_core": "El que oye / Roca",
-          "perla_profunda": "Tu verdadera identidad no es lo que eres por naturaleza, sino lo que el Arquitecto declara que eres por revelación."
-      },
-      "tags": ["apostol", "roca", "revelación", "evangelio", "kephas"]
-  }
+    "id": "onoma-juan-bautista",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+        "color_primario": "#78350f",
+        "color_acento": "#fbbf24",
+        "avatar_url": "../img/perfiles/juan-bautista.webp",
+        "gradiente": "linear-gradient(135deg, #451a03 0%, #0c0a09 100%)"
+    },
+    "perfil_card": {
+        "nombre_principal": "Juan",
+        "subtitulo_rol": "La Voz del Desierto",
+        "bio_resumen": "Nacido de una promesa en la vejez de sus padres. Vivió en la austeridad del desierto, vistiendo piel de camello y alimentándose de lo que la tierra proveía, preparando el camino para algo mucho más grande.",
+        "logro_destacado": "Precursor del Reino",
+        "iconos_accion": [
+            { "tipo": "huellas", "id": "juan-bautista", "tooltip": "Huellas" },
+            { "tipo": "etymos", "id": "kenosis-gr", "tooltip": "Etymos" },
+            { "tipo": "cronos", "id": "rio-jordan-bautismo", "tooltip": "Cronos" }
+        ]
+    },
+    "fases": {
+        "nueva": {
+            "nombre": "Yojanán",
+            "titulo": "El que Mengua para que Él Crezca",
+            "avatar": "../img/perfiles/juan-rio.webp",
+            "bio": "Entendió que su propósito no era retener seguidores, sino transferirlos a la Verdad. Su Kenosis voluntaria fue el espacio necesario para que el Pleroma de Cristo se manifestara ante Israel.",
+            "etymos_id": "yojanan-he"
+        }
+    },
+    "datos_identidad": {
+        "original_idioma": "יוֹחָנָן",
+        "transliteracion": "Yojanán",
+        "significado_core": "YHVH es Gracioso / Dios ha dado Gracia",
+        "perla_profunda": "La verdadera grandeza no se mide por cuánto espacio ocupas, sino por cuánto espacio eres capaz de ceder para que la Gloria de Dios se manifieste."
+    },
+    "tags": ["precursor", "desierto", "arrepentimiento", "juan", "fidelidad"]
+}
 ]

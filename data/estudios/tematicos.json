@@ -4152,6 +4152,144 @@
           }
         ]
       }
+    },
+
+    {
+      "id": "dinamica-kenosis-poder-vacio",
+      "activo": false,
+      "fecha_programada": "2026-05-01",
+      "tipo": "tematico",
+      "titulo": "La Dinámica del Kenosis: El Poder del Vacío",
+      "subtitulo": "Para que el diseño divino se ejecute, debemos liberar espacio en nuestra voluntad",
+      "author": "Códice Bíblico",
+      "fecha_publicacion": "Mayo 2026",
+      "tiempo_lectura": "12 min",
+      "imagen_portada": "../img/estudios/kenosis-vacio.webp",
+      "tags": [
+        "Kenosis",
+        "Capacidad",
+        "Plenitud",
+        "Humildad",
+        "Despojo"
+      ],
+      "versiculo_clave": {
+        "texto": "Sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres.",
+        "cita": "Filipenses 2:7"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Bienvenido a una de las leyes más contraintuitivas del Reino: la Ley del Vacío. En un mundo que nos empuja a 'llenarnos' de títulos, posesiones y opiniones, el Diseño Original nos invita al <strong>Kenosis</strong> (vaciarse). No es una pérdida de valor, sino una gestión de capacidad. Para que el 'Software Divino' corra con total fluidez en tu vida, es necesario liberar la memoria RAM de tu ego y tus propios métodos. <button class='btn-verse' onclick='abrirModal(\"Filipenses 2:7\", \"Sino que se despojó a sí mismo...\")'>Filipenses 2:7</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Recipiente y su Capacidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina un recipiente diseñado para contener un perfume precioso, pero que actualmente está lleno de agua estancada. Por muy valioso que sea el perfume, no puede ser vertido hasta que el agua sea eliminada. El <strong>Kenosis</strong> es ese proceso de vaciado. Si estamos llenos de nuestra 'justicia propia' o de nuestros planes personales, no queda espacio volumétrico para que la plenitud de Dios se manifieste. Vaciarse no es quedar en la nada, es quedar disponible para el Todo."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/vasija-luz.webp",
+          "descripcion": "El proceso de Kenosis: Una vasija que se vacía de sombras para ser inundada por la luz pura del diseño divino."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🍶 <strong>Kenosis (El Despojo):</strong> En el griego bíblico, esta palabra describe el acto de Cristo al dejar a un lado sus privilegios divinos para hacerse hombre. En nosotros, es el acto de soltar el control para que la voluntad del Padre sea la que opere el sistema."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Ganar Capacidad a través de la Reducción"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En cualquier proceso de creación, la reducción es clave para concentrar la esencia. Cuando 'reducimos' nuestras opiniones y nuestro afán de protagonismo, lo que queda es la esencia pura de Dios en nosotros. El mundo nos enseña que 'más es más', pero en la arquitectura del espíritu, <strong>menos de nosotros es más de Él</strong>. Al vaciar el ego, ganamos capacidad de respuesta ante la voz de Dios."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Este vacío no es un estado de carencia, sino un estado de <strong>Sintonía Limpia</strong>. Sin el ruido de nuestra propia 'justicia', la frecuencia del Espíritu suena con una claridad absoluta, permitiendo que el diseño se ejecute sin errores de proceso."
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "El mayor ejemplo humano de esta dinámica lo encontramos en aquel que entendió que su voz solo tenía sentido si anunciaba a la Palabra. Al vaciarse de su propia fama y seguidores, permitió que la luz del Mesías brillara sin estorbos. <br><br> <a href='../onomastiko/nombre.html?id=onoma-juan-bautista' class='link-estudio-cruzado'>Estudio de Identidad: Juan el Bautista (El que mengua)</a>"
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. Pasos para la Ejecución del Kenosis"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "<strong>Identifica el 'relleno':</strong> Reconoce qué áreas de tu vida están saturadas de tus propios esfuerzos y métodos manuales.",
+            "<strong>Suelto el control:</strong> Practica el despojo voluntario. Entiende que tu identidad no depende de lo que 'llenas', sino de quién te habita.",
+            "<strong>Habita el espacio:</strong> No temas al silencio o a la espera. Es en ese espacio vacío donde Dios está instalando Su nueva configuración."
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>La Paradoja del Reino:</strong> Tu verdadera plenitud no es la suma de tus logros, sino la resta de tus interferencias. Quien más se vacía de sí mismo, es quien más se llena de la Vida verdadera."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿De qué cosas me siento 'tan lleno' hoy que no dejo espacio para que Dios me sorprenda?",
+            "¿Siento miedo de vaciarme, pensando que perderé mi identidad o mi valor?",
+            "¿Qué 'justicia propia' puedo soltar hoy para que la Gracia de Dios corra sin obstáculos?"
+          ]
+        }
+      ],
+      "diccionario": [
+          {
+            "palabra": "Kenosis",
+            "origen": "Griego (G2758)",
+            "significado": "Vaciamiento, despojo voluntario. La acción de hacerse nada para ser llenado por otro. <br><br> <a href='../etymos/palabra.html?id=kenosis-gr' class='link-estudio-cruzado'>Etymos: Kenosis</a>"
+          },
+          {
+            "palabra": "Pleroma",
+            "origen": "Griego (G4138)",
+            "significado": "Plenitud, lo que llena completamente un espacio. Es el resultado directo de haber aplicado Kenosis. <br><br> <a href='../etymos/palabra.html?id=pleroma-gr' class='link-estudio-cruzado'>Etymos: Pleroma</a>"
+          }
+        ],
+      "desafio_practico": "Hoy, elige una situación donde normalmente impondrías tu opinión o tu control. Practica el Kenosis: guarda silencio, escucha y permite que Dios sea quien guíe el resultado. Observa cómo el 'espacio' que dejaste permite que ocurra algo mejor que lo que habías planeado.",
+      "gamificacion": {
+        "xp_lectura": 220,
+        "logro_id": "recipiente-disponible"
+      },
+      "conexiones": {
+        "onomastiko": [
+          {
+            "id": "onoma-juan-bautista",
+            "nombre": "Juan el Bautista",
+            "razon": "El mayor exponente del Kenosis humano. Su lema 'Es necesario que él crezca y que yo mengüe' es la clave para liberar espacio para el Rey."
+          }
+        ],
+        "huellas": [
+          {
+            "id": "maria",
+            "nombre": "María",
+            "razon": "Se vació de sus propios planes para ser el 'recipiente' (vasija) que traería la Luz al mundo."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "el-tabernaculo",
+            "nombre": "El Tabernáculo: La Morada de la Gloria",
+            "razon": "El modelo físico del Kenosis. Un espacio legislado y apartado que debió ser vaciado de lo común para que la Plenitud (Pleroma) de la Gloria divina pudiera habitar en medio del campamento."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "vaciado-espiritual",
+            "tema": "Entrega y Llenura",
+            "accion": "Orar pidiendo que el Espíritu Santo nos ayude a identificar y soltar todo aquello que ocupa el lugar que solo le pertenece a Él."
+          }
+        ]
+      }
     }
 
     

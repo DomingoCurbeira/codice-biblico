@@ -840,20 +840,6 @@
     "tags": ["victoria", "guerra espiritual", "apocalipsis", "testimonio"]
   },
   {
-    "id": "dunamis-gr",
-    "palabra_espanol": "Poder / Fuerza explosiva",
-    "idioma": "Griego",
-    "original": "δύναμις",
-    "transliteracion": "dynamis",
-    "strong": "G1411",
-    "raiz": "Fuerza, habilidad inherente, poder milagroso.",
-    "definicion_corta": "Poder en acción capaz de lograr grandes hazañas y milagros.",
-    "contexto_cultural": "De esta raíz griega derivan las palabras modernas 'dinamo', 'dinámico' y 'dinamita'. Representaba el poder bruto e inherente de la naturaleza, como un huracán o un terremoto incontrolable.",
-    "perla_espiritual": "Jesús prometió a sus discípulos que recibirían 'dunamis' al venir el Espíritu Santo. No se trataba de mera influencia intelectual o habilidades de oratoria; era un poder sobrenatural explosivo capaz de expulsar demonios, sanar cuerpos destruidos y derribar fortalezas mentales. Ese mismo poder vive físicamente en ti hoy.",
-    "ejemplo_biblico": "Hechos 1:8 - 'Pero recibiréis poder (dynamis), cuando haya venido sobre vosotros el Espíritu Santo...'",
-    "tags": ["poder", "espíritu santo", "milagros", "guerra espiritual"]
-  },
-  {
     "id": "exousia-gr",
     "palabra_espanol": "Autoridad delegada / Derecho legal",
     "idioma": "Griego",
@@ -3004,6 +2990,45 @@
         "perla_espiritual": "Toda palabra que Dios te da es una Sperma. Contiene el ADN completo de tu futuro. Cuando depositas tu 'Semilla' (en el Alfolí, en tiempo o en amor), no estás perdiendo nada, estás activando un algoritmo de multiplicación. Tu vida hoy es el resultado de las semillas de ayer; tu mañana depende del código que siembres hoy.",
         "ejemplo_biblico": "Lucas 8:11 - 'La semilla (sperma) es la palabra de Dios.'",
         "tags": ["semilla", "potencial", "siembra", "diseño"]
+    },
+    {
+        "id": "pleroma-gr",
+        "palabra_espanol": "Plenitud (Pleroma)",
+        "idioma": "Griego",
+        "original": "Πλήρωμα",
+        "transliteracion": "Pleroma",
+        "raiz": "Deriva de 'pleroō' (llenar completamente, completar).",
+        "definicion_corta": "Aquello que está lleno al máximo; plenitud, abundancia total.",
+        "contexto_cultural": "En el mundo náutico antiguo, se usaba para describir un barco totalmente cargado y listo para zarpar, o una ciudad con su población completa. No cabe nada más porque el espacio está optimizado al 100%.",
+        "perla_espiritual": "El Pleroma es el estado final del Diseño Original. Dios no quiere darte solo 'un poco' de Su presencia; Él busca el Pleroma en ti. Pero recuerda: la Plenitud es matemáticamente imposible sin el Kenosis previo. Dios llena cada centímetro que tú le entregas. Cuando te vacías de tu ego, te conviertes en un recipiente del Pleroma divino, listo para ejecutar tu propósito con potencia total.",
+        "ejemplo_biblico": "Efesios 1:23 - 'la cual es su cuerpo, la plenitud (pleroma) de Aquel que todo lo llena en todo.'",
+        "tags": ["plenitud", "abundancia", "completitud", "presencia"]
+    },
+    {
+        "id": "yojanan-he",
+        "palabra_espanol": "Juan (Yojanán)",
+        "idioma": "Hebreo",
+        "original": "יוֹחָנָן",
+        "transliteracion": "Yojanán",
+        "raiz": "Contracción de 'Yeho' (YHVH) y 'janán' (mostrar favor, ser clemente).",
+        "definicion_corta": "YHVH ha mostrado gracia o YHVH es un dador de gracia.",
+        "contexto_cultural": "En el contexto del Segundo Templo, el nombre Yojanán era una declaración de esperanza. Rompe un silencio profético de 400 años. Su nombre no fue elegido por sus padres por tradición familiar, sino impuesto por el cielo para anunciar que el tiempo de la ley estricta daría paso a la visitación de la Gracia.",
+        "perla_espiritual": "Juan no es solo un nombre, es una función del sistema. Su Etymos revela que antes de que el Mesías apareciera, Dios 'activó' la Gracia (Yojanán) para preparar el terreno. Ser un 'Juan' en el Reino es entender que tu vida es un regalo de gracia destinado a apuntar hacia la Fuente, no a retener la atención para ti mismo.",
+        "ejemplo_biblico": "Lucas 1:13 - '...y llamarás su nombre Juan (Yojanán).'",
+        "tags": ["juan", "gracia", "precursor", "favor", "identidad"]
+    },
+    {
+        "id": "diatheke-gr",
+        "palabra_espanol": "Pacto / Testamento (Diatheke)",
+        "idioma": "Griego",
+        "original": "Διαθήκη",
+        "transliteracion": "Diatheke",
+        "raiz": "Deriva de 'dia' (a través) y 'tithemi' (colocar/establecer).",
+        "definicion_corta": "Una disposición de última voluntad; un testamento o acuerdo unilateral.",
+        "contexto_cultural": "A diferencia de un contrato común (Syntheke), donde ambas partes negocian, una 'Diatheke' es establecida por una sola parte con total autoridad. En el mundo griego, se usaba para los testamentos: el heredero no negocia las condiciones, simplemente recibe el beneficio por la voluntad del testador.",
+        "perla_espiritual": "Aquí reside el secreto de tu seguridad: el Nuevo Pacto es una Diatheke. No es un contrato donde Dios y tú negocian; es un decreto legal donde Dios establece los términos y tú recibes la herencia por Su sola voluntad. Tu seguridad no depende de tu capacidad de mantener el trato, sino de la validez del 'testamento' que fue sellado con la sangre de Cristo. <br><br> <a href='palabra.html?id=berit-he' class='link-estudio-cruzado'>Estudio Cruzado: Raíz Hebrea (Berit)</a>",
+        "ejemplo_biblico": "Hebreos 9:15 - 'Así que, por eso es mediador de un nuevo pacto (diathekes)...'",
+        "tags": ["pacto", "testamento", "herencia", "seguridad", "voluntad"]
     }
 
 

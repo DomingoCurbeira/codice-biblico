@@ -265,3 +265,7 @@ body {
   /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
   /* Truco de Chef: Convierte el icono en dorado */
 }
+
+.huellas{
+    filter: grayscale(100%) brightness(500%);
+}
