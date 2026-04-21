@@ -7211,5 +7211,87 @@
         "xp_lectura": 400,
         "logro_id": "corazon-ardiente"
       }
+    },
+    {
+      "id": "bartimeo",
+      "perfil": {
+        "nombre": "Bartimeo",
+        "titulo_corto": "El Grito de la Visión",
+        "significado_nombre": "Bartimeo: 'Hijo de Timeo'. Su nombre cargaba el peso de su linaje (honor/valor) en contraste con su mendicidad.",
+        "ocupacion": "Ex-mendigo de Jericó; convertido en discípulo itinerante tras recuperar la vista.",
+        "familia": {
+          "relacion": "Hijo de un hombre respetado llamado Timeo, lo que acentuaba la tragedia de su exclusión social."
+        },
+        "imagen": "/img/perfiles/bartimeo.webp",
+        "icono_mapa": "/img/ui/markers/discipulo.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": ["Marcos", "Lucas", "Mateo"],
+        "era_biblica": "Último ascenso a Jerusalén / Ministerio Final"
+      },
+      "narrativa": {
+        "resumen_epico": "A las puertas de Jericó, Bartimeo era una figura invisible para la multitud pero sintonizada con la frecuencia del Reino. Aunque sus ojos estaban cerrados, su 'Blesis' (percepción espiritual) estaba más activa que la de muchos videntes. Al escuchar que Jesús de Nazaret pasaba, no pidió limosna, pidió misericordia y reconocimiento de su identidad mesiánica. Su grito rompió el protocolo religioso y detuvo los pies del Maestro. Al arrojar su manto —su único sistema de seguridad social—, Bartimeo demostró que para ver lo nuevo hay que soltar lo viejo. Pasó de estar sentado junto al camino a caminar en él.",
+        "dato_curioso": "Es uno de los pocos sanados por Jesús de quien el Evangelio registra el nombre propio. Esto indica que Bartimeo no solo recibió el milagro, sino que se convirtió en una figura conocida y activa en la iglesia primitiva.",
+        "conexion_jesus": "Representa la fe persistente que ignora el 'silencio' impuesto por la multitud. Es el modelo de cómo la necesidad desesperada se convierte en el combustible del discipulado."
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Es un hombre de una determinación inquebrantable. Su autoestima no dependía de su ceguera ni del desprecio de la gente, sino de la certeza de que el Hijo de David podía restaurar su diseño.",
+        "fortalezas": [
+          "Agudeza espiritual (Blesis)",
+          "Valentía para romper el aislamiento",
+          "Desapego radical (arrojó el manto)"
+        ],
+        "debilidades": [
+          "Dependencia inicial del sistema de mendicidad del mundo"
+        ],
+        "simbologia": [
+          {
+            "objeto": "El manto de mendigo",
+            "significado": "Representa la vieja identidad, el estigma de la carencia y la zona de confort de la víctima."
+          },
+          {
+            "objeto": "El camino de Jericó",
+            "significado": "El lugar de tránsito donde la fe decide si se queda como espectadora o se vuelve seguidora."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "Tu bendición está al otro lado de tu grito. Si la multitud intenta callarte, es señal de que el Maestro está lo suficientemente cerca para escucharte.",
+        "preguntas_reflexion": [
+          "¿Cuál es el 'manto' que hoy te da seguridad pero te mantiene sentado junto al camino?",
+          "¿Estás pidiendo 'monedas' (migajas) cuando el Rey te está ofreciendo 'Blesis' (visión completa)?",
+          "¿Te callas ante la presión social o gritas más fuerte ante la presencia de Dios?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "El estancamiento en la puerta",
+          "evento": "Bartimeo mendiga a las afueras de Jericó; oye a la multitud y pregunta qué sucede.",
+          "vinculo_mapa": "jerico-salida",
+          "referencia": "Marcos 10:46-47"
+        },
+        {
+          "fase": "El grito de interrupción",
+          "evento": "Identifica a Jesús como Hijo de David; grita por misericordia ignorando a quienes lo mandan callar.",
+          "vinculo_mapa": "jerico-salida",
+          "referencia": "Marcos 10:48"
+        },
+        {
+          "fase": "La restauración y el seguimiento",
+          "evento": "Arroja su manto, Jesús le abre los ojos y él decide seguirlo inmediatamente por el camino.",
+          "vinculo_mapa": "jerico-salida",
+          "referencia": "Marcos 10:50-52"
+        }
+      ],
+      "vinculos": {
+        "lugares": ["jerico", "jerusalen-centro"],
+        "estudios": ["el-grito-de-la-fe", "activando-tu-blesis"],
+        "personajes_relacionados": ["jesus"]
+      },
+      "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "vision-recuperada"
+      }
     }
 ]

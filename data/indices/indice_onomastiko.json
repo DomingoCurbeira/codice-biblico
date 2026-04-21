@@ -2,7 +2,7 @@
   "meta": {
     "version": "4.1-object-id",
     "ultima_sincronizacion": "2026-04-21",
-    "total_global": 40
+    "total_global": 50
   },
   "identidades": [
     {
@@ -44,6 +44,20 @@
         "intercesión",
         "aaron",
         "levita"
+      ]
+    },
+    {
+      "id": "onoma-bartimeo-ciego",
+      "nombre": "Bartimeo",
+      "subtitulo": "El Mendigo de Jericó",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/bartimeo-manto.webp",
+      "tags": [
+        "bartimeo",
+        "milagro",
+        "visión",
+        "jericó",
+        "fe"
       ]
     },
     {
@@ -110,6 +124,20 @@
         "fidelidad",
         "visión",
         "doble-porción"
+      ]
+    },
+    {
+      "id": "onoma-esteban-martir",
+      "nombre": "Esteban",
+      "subtitulo": "El Administrador de la Gracia",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/esteban-diacono.webp",
+      "tags": [
+        "esteban",
+        "mártir",
+        "visión",
+        "jerusalén",
+        "espíritu-santo"
       ]
     },
     {
@@ -280,6 +308,20 @@
       ]
     },
     {
+      "id": "onoma-mujer-samaritana",
+      "nombre": "La Samaritana",
+      "subtitulo": "La Mujer de Sicar",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/samaritana-cantaro.webp",
+      "tags": [
+        "samaritana",
+        "agua-viva",
+        "adoración",
+        "sicar",
+        "evangelismo"
+      ]
+    },
+    {
       "id": "onoma-sulamita-esposa",
       "nombre": "La Sulamita",
       "subtitulo": "La Amada del Cantar",
@@ -294,12 +336,54 @@
       ]
     },
     {
+      "id": "onoma-lazaro-resucitado",
+      "nombre": "Lázaro",
+      "subtitulo": "El Amigo de Betania",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/lazaro-sepulcro.webp",
+      "tags": [
+        "lázaro",
+        "resurrección",
+        "betania",
+        "vida",
+        "amistad"
+      ]
+    },
+    {
       "id": "onoma-malaquias-mensajero",
       "nombre": "Malaquías",
       "subtitulo": "El Mensajero del Pacto",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/malaquias.webp",
       "tags": []
+    },
+    {
+      "id": "onoma-maria-magdalena",
+      "nombre": "María Magdalena",
+      "subtitulo": "La Mujer de Magdala",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/maria-magdala.webp",
+      "tags": [
+        "magdalena",
+        "liberación",
+        "resurrección",
+        "fidelidad",
+        "testigo"
+      ]
+    },
+    {
+      "id": "onoma-mateo-publicano",
+      "nombre": "Mateo",
+      "subtitulo": "El Recaudador de Capernaum",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/levi-publicano.webp",
+      "tags": [
+        "mateo",
+        "leví",
+        "publicano",
+        "evangelista",
+        "redención"
+      ]
     },
     {
       "id": "onoma-moises-fe",
@@ -344,6 +428,20 @@
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/nahum.webp",
       "tags": []
+    },
+    {
+      "id": "onoma-nicodemo-maestro",
+      "nombre": "Nicodemo",
+      "subtitulo": "Maestro de Israel",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/nicodemo-noche.webp",
+      "tags": [
+        "nicodemo",
+        "nuevo-nacimiento",
+        "fariseo",
+        "maestro",
+        "valentía"
+      ]
     },
     {
       "id": "onoma-noe-remanente",
@@ -393,6 +491,20 @@
         "apóstol",
         "epístolas",
         "paulos"
+      ]
+    },
+    {
+      "id": "onoma-pedro-apostol",
+      "nombre": "Pedro",
+      "subtitulo": "El Pescador de Galilea",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/simon-pescador.webp",
+      "tags": [
+        "apostol",
+        "roca",
+        "pescador",
+        "pedro",
+        "restauración"
       ]
     },
     {
@@ -480,6 +592,20 @@
       ]
     },
     {
+      "id": "onoma-tomas-apostol",
+      "nombre": "Tomás",
+      "subtitulo": "El Dídimo de los Doce",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/tomas-duda.webp",
+      "tags": [
+        "tomás",
+        "duda",
+        "confesión",
+        "apóstol",
+        "india"
+      ]
+    },
+    {
       "id": "onoma-josue-conquista",
       "nombre": "Yehoshúa",
       "subtitulo": "El Siervo de Moshé",
@@ -491,6 +617,20 @@
         "jerico",
         "josue",
         "victoria"
+      ]
+    },
+    {
+      "id": "onoma-zaqueo-publicano",
+      "nombre": "Zaqueo",
+      "subtitulo": "El Jefe de los Publicanos",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/zaqueo-sicomoro.webp",
+      "tags": [
+        "zaqueo",
+        "jericó",
+        "restitución",
+        "hijo-de-abraham",
+        "justicia"
       ]
     }
   ]

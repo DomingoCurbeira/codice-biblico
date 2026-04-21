@@ -76,5 +76,395 @@
             "perla_profunda": "El amor no es una debilidad del carácter, es la fuerza cuántica que estabiliza el espíritu. Juan pasó de querer destruir con fuego a sostener con amor."
         },
         "tags": ["amor", "apocalipsis", "discípulo", "juan", "quintaesencia"]
-    }
+    },
+    {
+        "id": "onoma-pedro-apostol",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "evangelios.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#075985",
+            "color_acento": "#fcd34d",
+            "avatar_url": "../img/perfiles/simon-pescador.webp",
+            "gradiente": "linear-gradient(135deg, #075985 0%, #0c0a09 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Pedro",
+            "subtitulo_rol": "El Pescador de Galilea",
+            "bio_resumen": "Simón bar Jona era un pescador de temperamento impetuoso y volátil. Su vida en Capernaum estaba definida por las redes y el mar, hasta que un encuentro a la orilla del lago cambió su sistema de valores para siempre.",
+            "logro_destacado": "De las Redes a las Llaves",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "pedro", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "shimon-he", "tooltip": "Etymos: Simón" },
+                { "tipo": "cronos", "id": "cesarea-filipo", "tooltip": "Cronos: Revelación" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Petros",
+                "titulo": "La Roca de la Confesión",
+                "avatar": "../img/perfiles/pedro.webp",
+                "bio": "Tras reconocer al Mesías, su naturaleza de 'caña movediza' fue transformada en 'Roca'. Aunque falló en la noche de la traición, su restauración lo convirtió en el pilar que sostuvo la primera expansión del Reino.",
+                "etymos_id": "petros-gr"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "שִׁמְעוֹן ➔ Πέτρος",
+            "transliteracion": "Shim'ón ➔ Pétros",
+            "significado_core": "El que oye ➔ Fragmento de roca",
+            "perla_profunda": "Dios no te llama por lo que eres, sino por lo que Él ha decidido que llegues a ser. Tu debilidad es solo el material bruto para Su roca."
+        },
+        "tags": ["apostol", "roca", "pescador", "pedro", "restauración"]
+    },
+    {
+            "id": "onoma-maria-magdalena",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#4c1d95",
+                "color_acento": "#fbbf24",
+                "avatar_url": "../img/perfiles/maria-magdala.webp",
+                "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "María Magdalena",
+                "subtitulo_rol": "La Mujer de Magdala",
+                "bio_resumen": "Originaria de una próspera ciudad pesquera, María vivió bajo la sombra de un tormento espiritual extremo hasta su encuentro con Jesús. Su liberación no solo restauró su mente, sino que encendió una devoción incondicional que la llevó hasta la cruz.",
+                "logro_destacado": "Primera Testigo de la Resurrección",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "maria-magdalena", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "miriam-he", "tooltip": "Etymos: Miriam" },
+                    { "tipo": "cronos", "id": "golgota-sepulcro", "tooltip": "Cronos: Magdala" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Magdalena",
+                    "titulo": "La Atalaya de la Resurrección",
+                    "avatar": "../img/perfiles/maria_magdalena.webp",
+                    "bio": "Convertida en el baluarte del círculo de mujeres, permaneció cuando los demás huyeron. Su nombre pasó de indicar su procedencia a simbolizar su nueva naturaleza: una torre de fe que anunció la noticia más importante de la historia.",
+                    "etymos_id": "migdal-he"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "מִרְיָם ➔ Μαγδαληνή",
+                "transliteracion": "Miriam ➔ Magdalené",
+                "significado_core": "Amargura / Elevada ➔ Torre / Atalaya",
+                "perla_profunda": "Tu pasado de opresión no limita tu diseño; lo prepara. Quien fue liberada de mucho, es quien tiene la estructura para sostener la visión de lo imposible."
+            },
+            "tags": ["magdalena", "liberación", "resurrección", "fidelidad", "testigo"]
+    },
+    {
+            "id": "onoma-mateo-publicano",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#b45309",
+                "color_acento": "#60a5fa",
+                "avatar_url": "../img/perfiles/levi-publicano.webp",
+                "gradiente": "linear-gradient(135deg, #b45309 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Mateo",
+                "subtitulo_rol": "El Recaudador de Capernaum",
+                "bio_resumen": "Leví servía al sistema romano en una de las aduanas más lucrativas de Galilea. Visto como un traidor por su propio pueblo, su vida estaba regida por el cálculo y la ganancia, hasta que una sola palabra de Jesús lo levantó de su mesa de impuestos.",
+                "logro_destacado": "Del Tributo al Testimonio",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "mateo", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "levi-he", "tooltip": "Etymos: Leví" },
+                    { "tipo": "cronos", "id": "capernaum-base", "tooltip": "Cronos: Capernaum" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Mattityahu",
+                    "titulo": "El Escriba del Reino",
+                    "avatar": "../img/perfiles/mateo.webp",
+                    "bio": "Transformado en Mateo, utilizó sus habilidades de registro y orden para documentar la genealogía y el cumplimiento mesiánico de Jesús. Su pluma conectó las profecías antiguas con la realidad presente del Mesías.",
+                    "etymos_id": "mattityahu-he"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "לֵוִי ➔ מַתִּתְיָהוּ",
+                "transliteracion": "Leví ➔ Mattityáhu",
+                "significado_core": "Unido / Asociado ➔ Regalo de Jehová",
+                "perla_profunda": "Dios no descarta tus habilidades naturales; las redime. La misma mano que antes contaba monedas de tributo, fue la que registró las parábolas del Reino."
+            },
+            "tags": ["mateo", "leví", "publicano", "evangelista", "redención"]
+    },
+    {
+            "id": "onoma-zaqueo-publicano",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#166534",
+                "color_acento": "#fbbf24",
+                "avatar_url": "../img/perfiles/zaqueo-sicomoro.webp",
+                "gradiente": "linear-gradient(135deg, #166534 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Zaqueo",
+                "subtitulo_rol": "El Jefe de los Publicanos",
+                "bio_resumen": "Zaqueo era un hombre de gran riqueza y baja estatura, atrapado en un sistema de extorsión legalizada en Jericó. Su curiosidad por ver a Jesús lo llevó a subir a un sicómoro, un acto que rompió su protocolo social y abrió la puerta a una transformación radical en su hogar.",
+                "logro_destacado": "Restitución del Cuádruple",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "zaqueo", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "zakkay-he", "tooltip": "Etymos: Zaqueo" },
+                    { "tipo": "cronos", "id": "jerico", "tooltip": "Cronos: Jericó" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Zakkay",
+                    "titulo": "Hijo de Abraham",
+                    "avatar": "../img/perfiles/zaqueo.webp",
+                    "bio": "Al bajar del árbol y recibir a Jesús, su identidad de 'recaudador' murió para dar paso al verdadero 'Hijo de Abraham'. Su arrepentimiento se validó no con palabras, sino con una reestructuración económica: devolviendo lo robado y bendiciendo a los pobres.",
+                    "etymos_id": "tzedakah-he"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "זַכַּי ➔ Ζακχαῖος",
+                "transliteracion": "Zakkáy ➔ Zakchaíos",
+                "significado_core": "Puro / Inocente ➔ El que ha sido limpiado",
+                "perla_profunda": "La salvación no solo llega a tu espíritu, llega a tu mesa y a tu billetera. Un corazón limpio se manifiesta en una mano abierta."
+            },
+            "tags": ["zaqueo", "jericó", "restitución", "hijo-de-abraham", "justicia"]
+    },
+    {
+            "id": "onoma-nicodemo-maestro",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#1e293b",
+                "color_acento": "#94a3b8",
+                "avatar_url": "../img/perfiles/nicodemo-noche.webp",
+                "gradiente": "linear-gradient(135deg, #1e293b 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Nicodemo",
+                "subtitulo_rol": "Maestro de Israel",
+                "bio_resumen": "Nicodemo era un influyente fariseo y miembro del Sanedrín, un experto en la Ley que, intrigado por las señales de Jesús, decidió buscarlo bajo el amparo de la noche. Su mente estructurada chocó con la propuesta de un Reino que no se puede entender, sino que se debe nacer para ver.",
+                "logro_destacado": "Defensa Pública y Sepultura",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "nicodemo", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "nikodemos-gr", "tooltip": "Etymos: Nicodemo" },
+                    { "tipo": "cronos", "id": "templo-jerusalen", "tooltip": "Cronos: Jerusalén" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Anóthen",
+                    "titulo": "El que Nace de lo Alto",
+                    "avatar": "../img/perfiles/nicodemo.webp",
+                    "bio": "Al pie de la cruz, Nicodemo abandonó su anonimato. Junto a José de Arimatea, honró el cuerpo de Jesús con una mezcla de mirra y áloe de gran valor. El hombre que antes temía ser visto, terminó abrazando públicamente al Mesías en el momento de mayor oscuridad.",
+                    "etymos_id": "anothen-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "Νικόδημος ➔ ἄνωθεν",
+                "transliteracion": "Nikódēmos ➔ Anóthen",
+                "significado_core": "Vencedor del pueblo ➔ Desde arriba",
+                "perla_profunda": "No se trata de cuánto sabes de Dios, sino de cuánto de Dios ha nacido en ti. El intelecto te lleva a la puerta, pero solo el nuevo nacimiento te permite entrar."
+            },
+            "tags": ["nicodemo", "nuevo-nacimiento", "fariseo", "maestro", "valentía"]
+    },
+    {
+            "id": "onoma-tomas-apostol",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#334155",
+                "color_acento": "#38bdf8",
+                "avatar_url": "../img/perfiles/tomas-duda.webp",
+                "gradiente": "linear-gradient(135deg, #334155 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Tomás",
+                "subtitulo_rol": "El Dídimo de los Doce",
+                "bio_resumen": "Conocido por su honestidad brutal y su necesidad de pruebas tangibles, Tomás no se conformaba con testimonios de segunda mano. Su escepticismo no nacía de la incredulidad, sino de un deseo profundo de no ser engañado, buscando una conexión real con la verdad.",
+                "logro_destacado": "La Confesión de la Divinidad",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "tomas", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "toma-ar", "tooltip": "Etymos: Tomás" },
+                    { "tipo": "cronos", "id": "aposento-alto", "tooltip": "Cronos: Jerusalén" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Kyrios-Theos",
+                    "titulo": "El Testigo de la Herida",
+                    "avatar": "../img/perfiles/tomas.webp",
+                    "bio": "Al tocar las llagas del Resucitado, su estructura lógica se derrumbó para dar paso a una fe inquebrantable. Fue el primer apóstol en llamar a Jesús 'Señor mío y Dios mío', llevando después este testimonio hasta las fronteras de la India.",
+                    "etymos_id": "didymos-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "תּוֹמָא ➔ Δίδυμος",
+                "transliteracion": "Tomá ➔ Dídymos",
+                "significado_core": "Gemelo ➔ Doble / Duplicado",
+                "perla_profunda": "La duda no es el enemigo de la fe, es el proceso de un alma que busca fundamentos sólidos. El Maestro no rechazó su mano, la invitó a tocar la Realidad."
+            },
+            "tags": ["tomás", "duda", "confesión", "apóstol", "india"]
+    },
+    {
+            "id": "onoma-mujer-samaritana",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#0ea5e9",
+                "color_acento": "#f97316",
+                "avatar_url": "../img/perfiles/samaritana-cantaro.webp",
+                "gradiente": "linear-gradient(135deg, #0ea5e9 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "La Samaritana",
+                "subtitulo_rol": "La Mujer de Sicar",
+                "bio_resumen": "Marcada por el rechazo social y una historia de fracasos relacionales, acudía al pozo de Jacob a la hora de mayor calor para evitar el juicio de su comunidad. Su encuentro con Jesús no solo reveló su pasado, sino que desbloqueó su verdadera identidad como adoradora en espíritu y verdad.",
+                "logro_destacado": "Evangelista de Samaria",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "mujer-samaritana", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "shomron-he", "tooltip": "Etymos: Samaria" },
+                    { "tipo": "cronos", "id": "pozo-jacob", "tooltip": "Cronos: Sicar" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Photeiné",
+                    "titulo": "Manantial de Agua Viva",
+                    "avatar": "../img/perfiles/samaritana.webp",
+                    "bio": "Al dejar su cántaro, abandonó su vieja forma de buscar satisfacción. Se convirtió en el primer 'puente' mesiánico hacia los gentiles, demostrando que cuando el diseño de Dios fluye, el estigma desaparece. La tradición la llama Fotina: la iluminada por la Verdad.",
+                    "etymos_id": "pneuma-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "שֹׁמְרוֹן ➔ φωτεινή",
+                "transliteracion": "Shomrón ➔ Photeiné",
+                "significado_core": "Lugar de Vigilancia ➔ Iluminada / Luz",
+                "perla_profunda": "El Mesías no te pide agua porque tenga sed de líquido, sino porque tiene sed de tu libertad. Deja el cántaro de tus esfuerzos y conviértete en el río."
+            },
+            "tags": ["samaritana", "agua-viva", "adoración", "sicar", "evangelismo"]
+        },
+        {
+            "id": "onoma-lazaro-resucitado",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#2d3748",
+                "color_acento": "#d4af37",
+                "avatar_url": "../img/perfiles/lazaro-sepulcro.webp",
+                "gradiente": "linear-gradient(135deg, #2d3748 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Lázaro",
+                "subtitulo_rol": "El Amigo de Betania",
+                "bio_resumen": "Hermano de Marta y María, Lázaro disfrutaba de una relación de intimidad con Jesús. Su enfermedad y posterior muerte pusieron a prueba la fe de su familia, pero su tumba se convirtió en el escenario donde se reveló que el Mesías tiene autoridad absoluta sobre el Hades.",
+                "logro_destacado": "Testimonio de la Vida Eterna",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "lazaro", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "elazar-he", "tooltip": "Etymos: El'azar" },
+                    { "tipo": "cronos", "id": "betania-lazaro", "tooltip": "Cronos: Betania" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Zóé-Testimonio",
+                    "titulo": "El que Salió Fuera",
+                    "avatar": "../img/perfiles/lazaro-vida.webp",
+                    "bio": "Tras cuatro días de muerte, respondió al llamado de '¡Lázaro, ven fuera!'. Su resurrección fue tan impactante que muchos judíos creyeron en Jesús al verlo cenar con Él. Pasó de ser un cuerpo vendado en la oscuridad a ser la prueba irrefutable de la gloria de Dios.",
+                    "etymos_id": "zoe-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "אֶלְעָזָר ➔ ζωή",
+                "transliteracion": "El'azár ➔ Zōē",
+                "significado_core": "Dios ha Ayudado ➔ Vida Incorruptible",
+                "perla_profunda": "La demora de Dios no es falta de amor, es una preparación para un milagro que la lógica no puede explicar. Si Él te llama por tu nombre, hasta la muerte tiene que soltarte."
+            },
+            "tags": ["lázaro", "resurrección", "betania", "vida", "amistad"]
+        },
+        {
+            "id": "onoma-esteban-martir",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#b91c1c",
+                "color_acento": "#fef3c7",
+                "avatar_url": "../img/perfiles/esteban-diacono.webp",
+                "gradiente": "linear-gradient(135deg, #b91c1c 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Esteban",
+                "subtitulo_rol": "El Administrador de la Gracia",
+                "bio_resumen": "Elegido por su buen testimonio y plenitud del Espíritu, Esteban comenzó sirviendo en lo práctico, asegurando la equidad en la comunidad. Sin embargo, su diseño no se limitaba a las mesas; su comprensión de la historia de Israel lo convirtió en un orador cuya sabiduría nadie podía resistir.",
+                "logro_destacado": "El Primer Testigo de Sangre",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "esteban-martir", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "stephanos-gr", "tooltip": "Etymos: Esteban" },
+                    { "tipo": "cronos", "id": "jerusalen-centro", "tooltip": "Cronos: Jerusalén" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Martys-Visionario",
+                    "titulo": "El que Vio el Cielo Abierto",
+                    "avatar": "../img/perfiles/esteban.webp",
+                    "bio": "En el momento de su ejecución, su rostro resplandeció como el de un ángel. No murió bajo el peso de las piedras, sino bajo el peso de la gloria, viendo al Hijo del Hombre de pie a la diestra de Dios. Su sacrificio fue la semilla que germinó en la conversión de Saulo de Tarso.",
+                    "etymos_id": "martys-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "Στέφανος ➔ μάρτυς",
+                "transliteracion": "Stéphanos ➔ Mártys",
+                "significado_core": "Corona / Guirnalda ➔ Testigo / Mártir",
+                "perla_profunda": "No importa cuán bajo caigan las piedras sobre ti, si tus ojos están fijos en el Cielo abierto, tu corona ya es una realidad. El sacrificio no es pérdida, es siembra de gloria."
+            },
+            "tags": ["esteban", "mártir", "visión", "jerusalén", "espíritu-santo"]
+        },
+        {
+            "id": "onoma-bartimeo-ciego",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#78350f",
+                "color_acento": "#fde047",
+                "avatar_url": "../img/perfiles/bartimeo-manto.webp",
+                "gradiente": "linear-gradient(135deg, #78350f 0%, #0c0a09 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "Bartimeo",
+                "subtitulo_rol": "El Mendigo de Jericó",
+                "bio_resumen": "Hijo de Timeo, vivía sumido en la oscuridad física y la dependencia social a las puertas de Jericó. Su vida estaba limitada a su manto de mendigo y al sonido de la multitud, hasta que su fe reconoció la frecuencia del Mesías antes de verlo con sus ojos.",
+                "logro_destacado": "La Fe que detiene al Maestro",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "bartimeo", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "bartimai-ar", "tooltip": "Etymos: Bartimeo" },
+                    { "tipo": "cronos", "id": "jerico-salida", "tooltip": "Cronos: Jericó" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Blesis-Seguidor",
+                    "titulo": "Discípulo del Camino",
+                    "avatar": "../img/perfiles/bartimeo.webp",
+                    "bio": "Al recuperar la vista, su primera decisión no fue volver a su antigua vida, sino arrojar su manto y seguir a Jesús. Pasó de estar sentado junto al camino a caminar en él, convirtiéndose en un testimonio viviente de que la luz es para ser seguida.",
+                    "etymos_id": "blesis-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "בר-טימאי ➔ βλέψις",
+                "transliteracion": "Bar-Timay ➔ Blépsis",
+                "significado_core": "Hijo de lo Impuro ➔ Visión / Mirada",
+                "perla_profunda": "La verdadera ceguera no está en los ojos, sino en la falta de un grito que reconozca la visitación de Dios. Tu libertad comienza cuando sueltas el manto que te define como víctima."
+            },
+            "tags": ["bartimeo", "milagro", "visión", "jericó", "fe"]
+        }
 ]
