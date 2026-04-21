@@ -340,5 +340,44 @@
             "significado_core": "Consuelo / Consolador",
             "perla_profunda": "La justicia de Dios es la máxima forma de consuelo para el que ha sido quebrantado."
         }
+    },
+    {
+        "id": "onoma-eliseo-profeta",
+        "seccion": "ONOMASTIKO",
+        "archivo_fuente": "profetas.json",
+        "tiene_transicion": true,
+        "config_tarjeta": {
+            "color_primario": "#450a0a",
+            "color_acento": "#f87171",
+            "avatar_url": "../img/perfiles/eliseo-labrador.webp",
+            "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
+        },
+        "perfil_card": {
+            "nombre_principal": "Eliseo",
+            "subtitulo_rol": "El Labrador de Abel-mehola",
+            "bio_resumen": "Hijo de Safat, vivía una vida de labor constante en los campos hasta que el manto de Elías lo alcanzó. Su llamado no fue en un templo, sino en la tierra arada, demostrando que la fidelidad en lo poco precede a la autoridad en lo mucho.",
+            "logro_destacado": "Fidelidad en el Arado",
+            "iconos_accion": [
+                { "tipo": "huellas", "id": "eliseo", "tooltip": "Huellas" },
+                { "tipo": "etymos", "id": "elisha-he", "tooltip": "Etymos" },
+                { "tipo": "cronos", "id": "monte-carmeloe", "tooltip": "Cronos" }
+            ]
+        },
+        "fases": {
+            "nueva": {
+                "nombre": "Elisha",
+                "titulo": "El Profeta de la Doble Porción",
+                "avatar": "../img/perfiles/eliseo.webp",
+                "bio": "Al recibir el manto sucesor, operó en una dimensión de milagros sin precedentes. Su vida se convirtió en un testimonio de la provisión divina, abriendo los ojos de otros para ver los carros de fuego que protegen a los siervos de Dios.",
+                "etymos_id": "eliseo-blesis-he"
+            }
+        },
+        "datos_identidad": {
+            "original_idioma": "אֱלִישַׁע",
+            "transliteracion": "Elishá",
+            "significado_core": "Dios es mi Salvación",
+            "perla_profunda": "La verdadera visión no consiste en ignorar el peligro visible, sino en percibir la protección invisible que siempre te rodea."
+        },
+        "tags": ["profeta", "milagros", "fidelidad", "visión", "doble-porción"]
     }
 ]

@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;400;600&display=swap');
+
+:root {
+    --gold: #efc22f;
+    --gold-bright: #f2ce62;
+    --dark-bg: #0c0a09;
+    --glass: rgba(255, 255, 255, 0.03);
+    --border-glass: rgba(212, 175, 55, 0.3);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { background: #1a1a1a; }
+
+.page-a4 {
+    width: 210mm;
+    height: 297mm;
+    background: var(--dark-bg);
+    margin: 20px auto;
+    position: relative;
+    padding: 10mm 20mm;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Efecto de luz central */
+.aura {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, rgba(0,0,0,0) 70%);
+    pointer-events: none;
+}
+
+/* Header Estilo Premium */
+.main-header {
+    text-align: center;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+
+.brand {
+    font-size: bold;
+    letter-spacing: 4px;
+    color: var(--gold);
+    font-weight: 200;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 45pt;
+    margin: 10px 0;
+    background: linear-gradient(to bottom, var(--gold-bright), var(--gold));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 10px rgba(212,175,55,0.3));
+}
+
+/* Layout Dual */
+.dual-concept {
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+    z-index: 10;
+}
+
+.glass-card {
+    flex: 1;
+    background: var(--glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-glass);
+    padding: 15px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.image-frame {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    border-bottom: 2px solid var(--gold);
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(20%) contrast(1.1);
+}
+
+.label-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(0,0,0,0.8);
+    padding: 5px 12px;
+    font-size: 8pt;
+    letter-spacing: 2px;
+    border: 1px solid var(--gold);
+}
+
+.glass-card h2 {
+    font-family: 'Cinzel', serif;
+    color: var(--gold-bright);
+    font-size: 16pt;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.glass-card p {
+    font-size: 10.5pt;
+    line-height: 1.6;
+    font-weight: 200;
+    color: #d1d1d1;
+    text-align: justify;
+}
+
+/* Footer y Perla */
+.tech-specs {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9pt;
+    border-top: 1px solid rgba(212,175,55,0.2);
+    padding: 20px 0;
+    color: var(--gold-bright);
+    margin-top: -30px;
+}
+
+.perla-box {
+    background: linear-gradient(to right, rgba(212,175,55,0.05), transparent);
+    padding: 20px;
+    border-left: 3px solid var(--gold);
+    font-style: italic;
+    font-size: 11pt;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 8pt;
+    color: var(--gold);
+}
+
+.footer-line {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold), transparent);
+    margin-bottom: 10px;
+}
+
+/* Botón de Generación */
+/* Botones Estilo Códice */
+.print-controls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(12, 10, 9, 0.95);
+    border-bottom: 1px solid var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    z-index: 9999;
+    backdrop-filter: blur(15px);
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.control-group label {
+    font-size: 7pt;
+    letter-spacing: 2px;
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.btn-action, select, .btn-generate {
+    background: transparent;
+    border: 1px solid var(--border-glass);
+    color: white;
+    padding: 8px 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 9pt;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-generate {
+    background: var(--gold);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+}
+
+.btn-generate:hover { background: var(--gold-bright); box-shadow: 0 0 20px rgba(212,175,55,0.5); }
+
+/* --- MODO IMPRESIÓN (CREMA) --- */
+/* --- CORRECCIÓN MODO IMPRESIÓN (CREMA) --- */
+.page-a4.print-mode-light {
+    background: #fdfaf3 !important;
+    /* Cambiamos a un gris muy oscuro para legibilidad, nunca blanco */
+    color: #2c2c2c !important; 
+}
+
+/* Limpieza de los Badges (Etiquetas sobre la imagen) */
+.print-mode-light .label-badge {
+    background: rgba(0, 0, 0, 0.1) !important; /* Transparencia mínima */
+    color: #FFFFFF !important; /* Color tierra oscuro */
+    border: 1px solid rgba(120, 53, 15, 0.3) !important;
+    backdrop-filter: blur(2px);
+}
+
+.print-mode-light .label-badge.gold-badge {
+    background: rgba(212, 175, 55, 0.1) !important;
+    color: #FFFFFF !important;
+    border: 1px solid #d4af37 !important;
+}
+
+/* Ajuste de Títulos y Cuerpo en modo claro */
+.print-mode-light h1, 
+.print-mode-light h2 {
+    background: none !important;
+    -webkit-text-fill-color: #78350f !important;
+    color: #78350f !important;
+}
+
+.print-mode-light .glass-card {
+    background: rgba(255, 255, 255, 0.4) !important;
+    border: 1px solid rgba(212, 175, 55, 0.4) !important;
+    box-shadow: none !important;
+}
+
+.print-mode-light .glass-card p {
+    color: #3f3f46 !important; /* Gris zinc oscuro para el cuerpo */
+}
+
+/* Ajuste de la Perla en modo claro */
+.print-mode-light .perla-box {
+    background: #f4eee1 !important;
+    border-left: 4px solid #d4af37 !important;
+    color: #1a1a1a !important;
+}
+
+.print-mode-light .motto {
+    color: #57534e !important;
+}
+
+@media print {
+    .print-controls { display: none !important; }
+}
+
+/* Reorganización de Identidad */
+.identity-footer {
+    margin-top: auto; /* Empuja hacia abajo */
+    padding-bottom: 20px;
+}
+
+.tech-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    border-top: 1px solid rgba(212,175,55,0.3);
+    padding: 15px 0;
+    margin-bottom: 5px;
+}
+
+.tech-item {
+    font-size: 8.5pt;
+    letter-spacing: 1px;
+    color: var(--gold-bright);
+    text-transform: uppercase;
+}
+
+.tech-item strong {
+    color: var(--gold);
+    margin-right: 5px;
+}
+
+.perla-box {
+    background: linear-gradient(90deg, rgba(212,175,55,0.08) 0%, transparent 100%);
+    padding: 25px;
+    border-left: 2px solid var(--gold);
+    font-style: italic;
+    font-size: 11pt;
+    line-height: 1.6;
+    color: #e0e0e0;
+    backdrop-filter: blur(5px);
+}
+
+/* Ocultar botón al imprimir */
+@media print {
+    .print-controls { display: none; }
+    body { background: white; }
+
+    /* 1. Forzar el tamaño de la página y eliminar márgenes del sistema */
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
+    body {
+        background: #000 !important; /* Asegura fondo negro profundo */
+        -webkit-print-color-adjust: exact; /* CRITICO: Forza a imprimir fondos y colores */
+        print-color-adjust: exact;
+    }
+
+    .page-a4 {
+        margin: 0 !important;
+        border: none !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        box-shadow: none !important;
+        padding: 12mm !important; /* Margen de seguridad para la impresora */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Distribuye el contenido para llenar la hoja */
+    }
+
+    /* 2. Ocultar elementos de la interfaz web */
+    .print-controls, 
+    .btn-generate,
+    #loading-state {
+        display: none !important;
+    }
+
+    /* 3. Ajuste de imágenes para que no pesen demasiado pero mantengan calidad */
+    .hero-img {
+        filter: contrast(1.1) brightness(1.1); /* Compensa la pérdida de brillo en papel */
+    }
+
+    /* 4. Evitar saltos de página internos */
+    .dual-concept, .identity-footer, footer {
+        page-break-inside: avoid;
+    }
+
+    /* 5. Asegurar que los bordes de oro se vean */
+    .glass-card {
+        border: 1px solid rgba(212, 175, 55, 0.5) !important;
+        background: rgba(255, 255, 255, 0.05) !important;
+    }
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}

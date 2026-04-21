@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;400;600&display=swap');
+
+:root {
+    --gold: #d4af37;
+    --gold-bright: #f9e29f;
+    --dark-bg: #0c0a09;
+    --border-glass: rgba(212, 175, 55, 0.3);
+}
+
+/* ... (Mantener variables de color previas) ... */
+
+.linkedin-banner {
+    height: 120px;
+    background: linear-gradient(135deg, #1e1b18 0%, #d4af37 100%);
+    width: 100%;
+}
+
+.profile-header {
+    padding: 0 40px 20px 40px;
+    position: relative;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.avatar-container {
+    margin-top: -75px; /* Sube la foto sobre el banner */
+    margin-bottom: 15px;
+}
+
+.avatar-circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid var(--dark-bg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.headline {
+    font-size: 14pt;
+    color: var(--gold);
+    font-family: 'Cinzel', serif;
+    margin: 5px 0;
+}
+
+.location {
+    font-size: 10pt;
+    color: #888;
+}
+
+/* Estructura de Cuerpo */
+.profile-body { padding: 10px 40px; flex-grow: 1; }
+
+.profile-section h3 {
+    font-size: 12pt;
+    border-bottom: none;
+    margin-bottom: 15px;
+    color: var(--gold);
+}
+
+.about-text { line-height: 1.6; font-size: 10.5pt; text-align: justify; }
+.about-text{ margin: 0;}
+
+.profile-grid { display: flex; gap: 30px; margin-top: 20px; }
+.col-left { flex: 2; }
+.col-right { flex: 1; }
+
+/* Tarjetas de Experiencia */
+.exp-card {
+    display: flex;
+    gap: 15px;
+    /* margin-bottom: 20px; */
+    position: relative;
+    padding-left: 15px;
+    border-left: 1px solid var(--gold);
+}
+
+.exp-dot {
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    width: 9px;
+    height: 9px;
+    background: var(--gold);
+    border-radius: 50%;
+}
+
+.exp-info h4, .exp-info h5, .exp-info p{
+    margin: 10px 0;
+}
+
+/* Aptitudes */
+.skills-list { list-style: none; padding: 0; }
+.skill-item { font-size: 9pt; margin-bottom: 8px; color: #ccc; }
+.skill-item span { color: var(--gold); margin-right: 5px; }
+
+/* Modo Papel */
+.print-mode-light .avatar-circle { border-color: white; }
+.print-mode-light .linkedin-banner { background: #e7e2d8; }
+.print-mode-light .exp-card { border-left-color: #d4af37; }
+
+/* Botones Estilo Códice */
+.print-controls {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(12, 10, 9, 0.95);
+    border-bottom: 1px solid var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    z-index: 9999;
+    backdrop-filter: blur(15px);
+}
+
+.control-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.control-group label {
+    font-size: 7pt;
+    letter-spacing: 2px;
+    color: var(--gold);
+    font-weight: bold;
+}
+
+.btn-action, select, .btn-generate {
+    background: transparent;
+    border: 1px solid var(--border-glass);
+    color: white;
+    padding: 8px 15px;
+    font-family: 'Cinzel', serif;
+    font-size: 9pt;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-generate {
+    background: var(--gold);
+    color: black;
+    font-weight: bold;
+    border: none;
+    padding: 12px 25px;
+}
+
+.btn-generate:hover { background: var(--gold-bright); box-shadow: 0 0 20px rgba(212,175,55,0.5); }
+
+/* --- MODO IMPRESIÓN (CREMA) --- */
+/* --- CORRECCIÓN MODO IMPRESIÓN (CREMA) --- */
+.page-a4.print-mode-light {
+    background: #fdfaf3 !important;
+    /* Cambiamos a un gris muy oscuro para legibilidad, nunca blanco */
+    color: #2c2c2c !important; 
+}
+
+/* Limpieza de los Badges (Etiquetas sobre la imagen) */
+.print-mode-light .label-badge {
+    background: rgba(0, 0, 0, 0.1) !important; /* Transparencia mínima */
+    color: #FFFFFF !important; /* Color tierra oscuro */
+    border: 1px solid rgba(120, 53, 15, 0.3) !important;
+    backdrop-filter: blur(2px);
+}
+
+.print-mode-light .label-badge.gold-badge {
+    background: rgba(212, 175, 55, 0.1) !important;
+    color: #FFFFFF !important;
+    border: 1px solid #d4af37 !important;
+}
+
+.profile-footer{
+    text-align: center;
+}
+
+/* --- CONFIGURACIÓN DE IMPRESIÓN MAESTRA --- */
+@media print {
+
+    @page {
+        size: A4;
+        margin: 0;
+    }
+    /* 1. Ocultamos los botones y el panel de control */
+    .print-controls, 
+    .btn-action, 
+    .btn-generate,
+    #theme-selector {
+        display: none !important;
+    }
+
+    /* 2. Forzamos que el cuerpo no tenga márgenes extra del navegador */
+    body {
+        margin: 0 !important;
+        padding: 0 !important;
+        background: white !important; /* Evita gastar tinta innecesaria en bordes */
+    }
+
+    /* 3. Ajuste de la página A4 para que no se parta */
+    .page-a4 {
+        margin: 0 !important;
+        border: none !important;
+        box-shadow: none !important;
+        width: 100% !important;
+        height: 100% !important;
+        page-break-after: always; /* Cada perfil empieza en hoja nueva */
+        page-break-inside: avoid; /* Prohibido partir el contenido internamente */
+        overflow: hidden !important; /* Evita que contenido sobrante cree hoja en blanco */
+    }
+
+    /* 4. Ajuste de escala de fuentes para LinkedIn Style */
+    .profile-body {
+        padding: 15px 30px !important; /* Compactamos un poco para asegurar el encaje */
+    }
+
+    .about-text {
+        font-size: 10pt !important; /* Un poco más pequeña para ahorrar espacio */
+    }
+
+    /* 5. Asegurar que los colores se impriman (Especialmente el Banner) */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}

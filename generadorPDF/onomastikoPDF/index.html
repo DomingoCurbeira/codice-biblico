@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códice Bíblico - Collector's Edition</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="master-container">
+    </div>
+   <div class="print-controls">
+        <div class="control-group">
+            <label>VISUALIZACIÓN</label>
+            <select id="theme-selector" onchange="changeTheme(this.value)">
+                <option value="digital">MODO DIGITAL (NEGRO / ORO)</option>
+                <option value="papel">MODO IMPRESIÓN (CREMA / TIERRA)</option>
+            </select>
+        </div>
+        
+        <div class="control-group">
+            <label>ALCANCE</label>
+            <button onclick="generarLoteCompleto()" class="btn-action">CARGAR TODO EL ÍNDICE</button>
+        </div>
+
+        <button onclick="imprimirConNombre()" class="btn-generate">GENERAR PDF FINAL</button>
+    </div>
+
+    <div id="master-container"></div>
+</body>
+<script src="js/main.js"></script>
+</html>

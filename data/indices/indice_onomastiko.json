@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-20",
-    "total_global": 39
+    "ultima_sincronizacion": "2026-04-21",
+    "total_global": 40
   },
   "identidades": [
     {
@@ -96,6 +96,20 @@
         "elias",
         "reforma",
         "traslación"
+      ]
+    },
+    {
+      "id": "onoma-eliseo-profeta",
+      "nombre": "Eliseo",
+      "subtitulo": "El Labrador de Abel-mehola",
+      "archivo_fuente": "profetas.json",
+      "imagen": "../img/perfiles/eliseo-labrador.webp",
+      "tags": [
+        "profeta",
+        "milagros",
+        "fidelidad",
+        "visión",
+        "doble-porción"
       ]
     },
     {

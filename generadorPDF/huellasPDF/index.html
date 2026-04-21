@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Códice Bíblico - Huellas de Fe</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="print-controls">
+        <div class="control-group">
+            <label>VISUALIZACIÓN</label>
+            <select id="theme-selector" onchange="changeTheme(this.value)">
+                <option value="digital">MODO DIGITAL (NOCHE / ORO)</option>
+                <option value="papel">MODO IMPRESIÓN (PERGAMINO / TIERRA)</option>
+            </select>
+        </div>
+        
+        <div class="control-group">
+            <label>ACCIONES LOTE</label>
+            <button onclick="generarLoteCompleto()" class="btn-action">CARGAR TODAS LAS HUELLAS</button>
+        </div>
+
+        <button onclick="imprimirConNombre()" class="btn-generate">GENERAR PDF ÉPICO</button>
+    </div>
+
+    <div id="master-container">
+        </div>
+
+    <script src="js/app.js"></script>
+    
+    
+</body>
+</html>
