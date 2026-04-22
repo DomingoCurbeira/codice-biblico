@@ -1,151 +1,118 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
+const URL_INDICE = '../../data/indices/indice_onomastiko.json';
+const URL_DATA_BASE = '../../data/onomastiko/';
 
-    if (id) {
-        prepararImprenta(id);
-    } else {
-        console.log("Esperando acción del usuario.");
-    }
-});
-
-async function prepararImprenta(id) {
-    try {
-        const resIndex = await fetch('../../data/indices/indice_onomastiko.json');
-        const index = await resIndex.json();
-        
-        // En Onomastiko, el índice suele ser un array llamado 'identidades'
-        const ref = index.identidades.find(i => i.id === id);
-        if (!ref) throw new Error(`ID ${id} no encontrado en el índice.`);
-
-        const resData = await fetch(`../../data/onomastiko/${ref.archivo_fuente}`);
-        const dataList = await resData.json();
-        const p = dataList.find(item => item.id === id);
-
-        if (p) {
-            renderizarEnContenedor(p);
-        } else {
-            throw new Error("Datos no hallados dentro del JSON.");
-        }
-    } catch (err) {
-        console.error("❌ Fallo en Onomastiko:", err);
-    }
-}
-
-function renderizarEnContenedor(p) {
-    const container = document.getElementById('master-container');
-    if (!container) return;
-    
-    const selectedTheme = document.getElementById('theme-selector').value;
-    
-    // Creamos la página y le inyectamos los datos con validación
-    const div = document.createElement('div');
-    div.className = `page-a4 ${selectedTheme === 'papel' ? 'print-mode-light' : ''}`;
-    div.id = "documento"; 
-    
-    div.innerHTML = generarHTMLHoja(p);
-    container.innerHTML = ""; // Limpiamos lo anterior
-    container.appendChild(div);
-}
-
-function generarHTMLHoja(p) {
+function generarHTML(p) {
     const fixPath = (url) => url ? url.replace('../', '../../') : '';
     
-    // VALIDACIÓN DE DATOS (Para evitar que salga "Subtítulo" o "Bio...")
-    const nombre = p.perfil_card?.nombre_principal || "Nombre no definido";
-    const significado = p.datos_identidad?.significado_core || "Significado pendiente";
-    
-    // FASE ORIGEN
-    const imgIni = fixPath(p.config_tarjeta?.avatar_url || p.fases?.inicial?.avatar);
-    const subIni = p.perfil_card?.subtitulo_rol || "Origen";
-    const bioIni = p.perfil_card?.bio_resumen || "Relato inicial no disponible";
-
-    // FASE REVELACIÓN
-    const imgNva = fixPath(p.fases?.nueva?.avatar);
-    const subNva = p.fases?.nueva?.titulo || "Revelación";
-    const bioNva = p.fases?.nueva?.bio || "Relato de transformación no disponible";
-
     return `
-        <div class="aura"></div>
-        <header class="main-header">
-            <span class="brand">CÓDICE BÍBLICO</span>
-            <h1>${nombre}</h1>
-            <p class="motto">${significado}</p>
-        </header>
+        <div class="pdf-page">
+            <div class="ficha-onomastiko">
+                <header>
+                    <span class="brand">CÓDICE BÍBLICO — ONOMASTIKO</span>
+                    <h1 class="nombre-p">${p.perfil_card.nombre_principal}</h1>
+                    <div class="significado">"${p.datos_identidad.significado_core}"</div>
+                </header>
 
-        <main class="dual-concept">
-            <div class="glass-card left-wing">
-                <div class="image-frame">
-                    <div class="hero-img" style="background-image: url('${imgIni}')"></div>
-                    <div class="label-badge">EL ORIGEN</div>
-                </div>
-                <h2>${subIni}</h2>
-                <p>${bioIni}</p>
-            </div>
+                <main class="dual-concept">
+                    <div class="glass-card">
+                        <div class="image-frame" style="background-image: url('${fixPath(p.config_tarjeta?.avatar_url || p.fases?.inicial?.avatar)}')">
+                            <div class="label-badge">EL ORIGEN</div>
+                        </div>
+                        <h3>${p.perfil_card.subtitulo_rol}</h3>
+                        <p>${p.perfil_card.bio_resumen}</p>
+                    </div>
 
-            <div class="glass-card right-wing">
-                <div class="image-frame">
-                    <div class="hero-img" style="background-image: url('${imgNva}')"></div>
-                    <div class="label-badge gold-badge">LA REVELACIÓN</div>
-                </div>
-                <h2>${subNva}</h2>
-                <p>${bioNva}</p>
-            </div>
-        </main>
+                    <div class="glass-card">
+                        <div class="image-frame" style="background-image: url('${fixPath(p.fases?.nueva?.avatar)}')">
+                            <div class="label-badge gold-badge">LA REVELACIÓN</div>
+                        </div>
+                        <h3>${p.fases.nueva.titulo}</h3>
+                        <p>${p.fases.nueva.bio}</p>
+                    </div>
+                </main>
 
-        <section class="identity-footer">
-            <div class="tech-row">
-                <div class="tech-item"><strong>IDIOMA:</strong> ${p.datos_identidad?.original_idioma || 'S/N'}</div>
-                <div class="tech-item"><strong>TRANSLITERACIÓN:</strong> ${p.datos_identidad?.transliteracion || 'S/N'}</div>
-                <div class="tech-item"><strong>ETYMOS:</strong> ${p.fases?.nueva?.etymos_id?.toUpperCase() || 'S/N'}</div>
-            </div>
-            <div class="perla-box">
-                <p>${p.datos_identidad?.perla_profunda || 'Perla no disponible.'}</p>
-            </div>
-        </section>
+                <section class="common-footer">
+                    <div class="achievement-banner">
+                        <span class="achievement-title">LOGRO DESTACADO</span>
+                        <div class="achievement-text">"${p.perfil_card.logro_destacado || 'Hito de fe no registrado.'}"</div>
+                    </div>
 
-        <footer>
-            <div class="footer-line"></div>
-            <p>Material exclusivo de Códice Bíblico - Tu Ecosistema Espiritual</p>
-        </footer>
+                    <div class="perla-box">
+                        "${p.datos_identidad.perla_profunda}"
+                    </div>
+
+                    <div style="display: flex; justify-content: space-between; margin-top: 12px; font-size: 0.75rem; color: #64748b; font-weight: bold;">
+                        <span>ETYMOS: ${p.fases?.nueva?.etymos_id || 'N/A'}</span>
+                        <span>IDIOMA: ${p.datos_identidad?.original_idioma?.toUpperCase() || 'BÍBLICO'}</span>
+                        <span>SISTEMA: V.04-2026</span>
+                    </div>
+                </section>
+
+                <footer>Tu Ecosistema Espiritual — Documento Oficial de Identidad</footer>
+            </div>
+        </div>
     `;
 }
 
-// Botones de lote e impresión
-async function generarLoteCompleto() {
-    const container = document.getElementById('master-container');
-    const selectedTheme = document.getElementById('theme-selector').value;
-    container.innerHTML = "<div style='color:var(--gold); text-align:center; padding:100px;'>⚙️ Procesando Onomastiko...</div>";
-
+async function vistaPrevia() {
+    const status = document.getElementById('status');
+    const previewContainer = document.getElementById('preview-container');
+    const previewContent = document.getElementById('preview-content');
+    
+    status.innerText = "Cocinando muestra...";
     try {
-        const resIndex = await fetch('../../data/indices/indice_onomastiko.json');
-        const index = await resIndex.json();
-        container.innerHTML = ""; 
+        const res = await fetch(URL_INDICE);
+        const index = await res.json();
+        const ref = index.identidades[0];
 
-        for (const ref of index.identidades) {
-            const resData = await fetch(`../../data/onomastiko/${ref.archivo_fuente}`);
-            const dataList = await resData.json();
-            const p = dataList.find(item => item.id === ref.id);
-            
+        const resData = await fetch(`${URL_DATA_BASE}${ref.archivo_fuente}`);
+        const data = await resData.json();
+        const p = data.find(i => i.id === ref.id);
+
+        previewContent.innerHTML = generarHTML(p);
+        previewContainer.style.display = 'block';
+        status.innerText = "Vista previa lista. Revisa el emplatado.";
+    } catch (e) {
+        status.innerText = "Error: Revisa las rutas de los JSON.";
+    }
+}
+
+async function iniciarMasivo() {
+    const status = document.getElementById('status');
+    const renderArea = document.getElementById('render-area');
+    
+    try {
+        const resIndex = await fetch(URL_INDICE);
+        const index = await resIndex.json();
+        const identidades = index.identidades;
+
+        if(!confirm(`¿Iniciar impresión de ${identidades.length} personajes?`)) return;
+
+        for (const ref of identidades) {
+            status.innerText = `Imprimiendo: ${ref.id}...`;
+            const resData = await fetch(`${URL_DATA_BASE}${ref.archivo_fuente}`);
+            const data = await resData.json();
+            const p = data.find(i => i.id === ref.id);
+
             if (p) {
-                const div = document.createElement('div');
-                div.className = `page-a4 ${selectedTheme === 'papel' ? 'print-mode-light' : ''}`;
-                div.id = "documento";
-                div.innerHTML = generarHTMLHoja(p);
-                container.appendChild(div);
+                renderArea.innerHTML = generarHTML(p);
+                await new Promise(r => setTimeout(r, 400)); // Espera a imágenes
+
+                const opt = {
+                    margin: 0,
+                    filename: `Onomastiko_${p.perfil_card.nombre_principal.replace(/\s+/g, '_')}.pdf`,
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2, useCORS: true, width: 794, height: 1122 },
+                    jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
+                };
+
+                const element = renderArea.querySelector('.pdf-page');
+                await html2pdf().set(opt).from(element).save();
+                await new Promise(r => setTimeout(r, 600));
             }
         }
-    } catch (err) { console.error(err); }
-}
-
-function changeTheme(theme) {
-    const pages = document.querySelectorAll('.page-a4');
-    pages.forEach(p => theme === 'papel' ? p.classList.add('print-mode-light') : p.classList.remove('print-mode-light'));
-}
-
-function imprimirConNombre() {
-    const h1 = document.querySelector('h1');
-    const nombre = h1 ? h1.innerText : "Onomastiko";
-    document.title = `Onomastiko_${nombre.replace(/\s+/g, '_')}`;
-    window.print();
+        status.innerText = "¡Misión cumplida! Toda la biblioteca descargada.";
+    } catch (e) {
+        status.innerText = "Error en la descarga masiva.";
+    }
 }

@@ -1,0 +1,288 @@
+:root {
+    --etymos-gold: #c5a059;
+    --etymos-blue: #1e3a8a;
+    --paper: #ffffff;
+    --ink: #1f2937;
+}
+
+.pdf-page {
+    width: 794px; height: 1122px;
+    padding: 30px; background: #e5e7eb;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.etymos-card {
+    background: var(--paper);
+    border: 1px solid #d1d5db;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* DECORACIÓN DE ESQUINA */
+.etymos-card::before {
+    content: ""; position: absolute; top: 0; right: 0;
+    width: 0; height: 0;
+    border-style: solid; border-width: 0 30px 30px 0;
+    border-color: transparent var(--etymos-gold) transparent transparent;
+}
+
+header { border-bottom: 2px solid var(--etymos-blue); margin-bottom: 10px; }
+.lang-tag { font-size: 0.6rem; font-weight: bold; color: var(--etymos-gold); text-transform: uppercase; letter-spacing: 1px; }
+.word-main { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--ink); margin: 2px 0; }
+.original-script { font-size: 1.2rem; color: var(--etymos-blue); margin-bottom: 5px; text-align: right; }
+
+.section-label { font-size: 0.65rem; font-weight: bold; color: #6b7280; text-transform: uppercase; margin-top: 8px; display: block; }
+.content-text { font-size: 0.8rem; line-height: 1.4; text-align: justify; margin: 3px 0; color: #374151; }
+
+.perla-etymos {
+    background: #fffbeb; border-left: 3px solid var(--etymos-gold);
+    padding: 8px; margin-top: auto; font-style: italic; font-size: 0.75rem;
+}
+
+.footer-card {
+    margin-top: 10px; padding-top: 5px; border-top: 1px dashed #ccc;
+    display: flex; justify-content: space-between; font-size: 0.6rem; color: #9ca3af;
+}
+
+:root {
+    --etymos-gold: #c5a059;
+    --etymos-blue: #1e3a8a;
+    --wine: #8b0000;
+    --paper: #ffffff;
+    --ink: #1f2937;
+    --bg-ui: #f4f1ea;
+}
+
+/* --- ESTILOS DEL DASHBOARD (UI) --- */
+body { 
+    font-family: 'Lora', serif; 
+    background: var(--bg-ui); 
+    margin: 0; 
+    color: var(--ink); 
+}
+
+.ui-wrapper { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 40px 20px; 
+}
+
+.dashboard { 
+    width: 100%; 
+    max-width: 650px; 
+    background: white; 
+    padding: 35px; 
+    border-radius: 12px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+    text-align: center; 
+    border-top: 6px solid var(--etymos-blue); 
+}
+
+.version-tag {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    color: var(--etymos-gold);
+    font-weight: bold;
+}
+
+h2 { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 2.5rem; 
+    margin: 10px 0; 
+    color: #1a1a1a; 
+}
+
+.btn-group { 
+    display: flex; 
+    gap: 15px; 
+    justify-content: center; 
+    margin: 25px 0; 
+}
+
+button { 
+    padding: 14px 28px; 
+    font-size: 0.85rem; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: all 0.3s ease;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-preview { 
+    background: white; 
+    color: var(--etymos-blue); 
+    border: 2px solid var(--etymos-blue); 
+}
+
+.btn-preview:hover { 
+    background: var(--etymos-blue); 
+    color: white; 
+}
+
+.btn-dark { 
+    background: var(--dark-slate, #1e293b); 
+    color: white; 
+}
+
+.btn-dark:hover { 
+    background: #000; 
+    transform: translateY(-2px); 
+}
+
+#status { 
+    font-size: 0.85rem; 
+    color: #666; 
+    font-style: italic; 
+    margin-top: 10px;
+}
+
+/* --- CONTENEDOR DE VISTA PREVIA --- */
+#preview-container { 
+    margin-top: 30px; 
+    width: 854px; /* Un poco más que el A4 para el padding */
+    padding: 30px; 
+    background: #334155; 
+    border-radius: 8px; 
+    display: none; 
+}
+
+.preview-title { 
+    color: white; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    font-family: sans-serif; 
+    font-size: 0.9rem; 
+    letter-spacing: 2px;
+}
+
+#preview-content { 
+    display: flex; 
+    justify-content: center; 
+    transform: scale(0.9); /* Para que quepa bien en tu MacBook M4 */
+    transform-origin: top; 
+}
+
+/* --- MAQUETACIÓN A4 (PARA EL PDF) --- */
+#render-area { 
+    position: absolute; 
+    left: -9999px; 
+    top: 0; 
+    width: 794px; 
+}
+
+.pdf-page { 
+    width: 794px; 
+    height: 1122px; 
+    padding: 30px; 
+    background: #ffffff; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 20px; 
+    box-sizing: border-box; 
+    overflow: hidden;
+}
+
+/* --- ESTILO DE CADA TARJETA (CARD) --- */
+.etymos-card {
+    border: 1px solid #d1d5db;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: var(--paper);
+    box-shadow: 4px 4px 0px rgba(0,0,0,0.02);
+}
+
+/* El detalle dorado en la esquina */
+.etymos-card::before {
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    right: 0;
+    width: 0; 
+    height: 0;
+    border-style: solid; 
+    border-width: 0 35px 35px 0;
+    border-color: transparent var(--etymos-gold) transparent transparent;
+}
+
+header { 
+    border-bottom: 2px solid var(--etymos-blue); 
+    margin-bottom: 12px; 
+    padding-bottom: 8px;
+}
+
+.lang-tag { 
+    font-size: 0.65rem; 
+    font-weight: 800; 
+    color: var(--etymos-gold); 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px; 
+}
+
+.word-main { 
+    font-family: 'Playfair Display', serif; 
+    font-size: 1.6rem; 
+    color: var(--ink); 
+    margin: 4px 0; 
+}
+
+.original-script { 
+    font-size: 1.3rem; 
+    color: var(--etymos-blue); 
+    text-align: right; 
+    margin-top: -5px;
+}
+
+.section-label { 
+    font-size: 0.6rem; 
+    font-weight: bold; 
+    color: #9ca3af; 
+    text-transform: uppercase; 
+    margin-top: 10px; 
+    display: block; 
+    letter-spacing: 1px;
+}
+
+.content-text { 
+    font-size: 0.82rem; 
+    line-height: 1.5; 
+    text-align: justify; 
+    margin: 4px 0; 
+    color: #374151; 
+}
+
+/* Bloque de la Perla */
+.perla-etymos {
+    background: #fffbeb; 
+    border-left: 3px solid var(--etymos-gold);
+    padding: 10px; 
+    margin-top: auto; 
+    font-style: italic; 
+    font-size: 0.78rem;
+    line-height: 1.4;
+}
+
+.footer-card {
+    margin-top: 12px; 
+    padding-top: 8px; 
+    border-top: 1px dashed #e5e7eb;
+    display: flex; 
+    justify-content: space-between; 
+    font-size: 0.6rem; 
+    color: #9ca3af; 
+    font-weight: bold;
+}

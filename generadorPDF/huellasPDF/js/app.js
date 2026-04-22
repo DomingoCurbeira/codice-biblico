@@ -1,211 +1,182 @@
-// Ajustamos las URLs para subir DOS niveles hasta la raíz del proyecto
+// Actualizamos a los nombres reales de tus archivos
 const URL_INDICE = '../../data/indices/indice_personajes.json';
-const URL_BASE_DATOS = '../../data/personajes/';
+const URL_DATA_BASE = '../../data/personajes/'; 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    const id = params.get('id');
-
-    if (id) {
-        cargarPerfil(id);
-    } else {
-        console.log("Esperando carga masiva o selección de ID.");
-    }
-});
-
-async function cargarPerfil(id) {
-    try {
-        const resIndice = await fetch(URL_INDICE);
-        if (!resIndice.ok) throw new Error("No se pudo cargar el índice de personajes.");
-        const indice = await resIndice.json();
-
-        // 1. En este índice, el "grupo" (archivo) se obtiene directamente por la llave ID
-        const nombreArchivo = indice[id]; 
-        
-        if (!nombreArchivo) {
-            throw new Error(`El personaje "${id}" no existe en el índice.`);
-        }
-
-        console.log(`🔍 Buscando en el grupo: ${nombreArchivo}.json`);
-
-        // 2. Cargamos el archivo del grupo correspondiente
-        const resGrupo = await fetch(`${URL_BASE_DATOS}${nombreArchivo}.json`);
-        if (!resGrupo.ok) throw new Error(`No se encontró el archivo de datos: ${nombreArchivo}.json`);
-        
-        const datosGrupo = await resGrupo.json();
-
-        // 3. Buscamos al personaje específico dentro del array del archivo
-        const personaje = datosGrupo.find(p => p.id === id);
-        
-        if (personaje) {
-            renderizarPerfil(personaje);
-        } else {
-            throw new Error(`El ID "${id}" no está dentro del archivo ${nombreArchivo}.json`);
-        }
-
-    } catch (e) {
-        console.error("❌ Error:", e);
-        document.getElementById('master-container').innerHTML = `
-            <div style="color:white; text-align:center; padding:50px; font-family:sans-serif;">
-                <h2 style="color:var(--gold);">⚠️ Fallo de Sincronización</h2>
-                <p>${e.message}</p>
-                <small style="opacity:0.5;">Verifica que el archivo existas en: data/huellas/${indice[id]}.json</small>
-            </div>`;
-    }
-}
-
-function renderizarPerfil(h) {
-    const container = document.getElementById('master-container');
-    const selectedTheme = document.getElementById('theme-selector').value;
+function generarHTML(p) {
+    const fixPath = (url) => url ? url.replace('../', '../../').replace('/img/', '../../img/') : '';
     
-    // Limpiamos y creamos la página
-    container.innerHTML = "";
-    const div = document.createElement('div');
-    div.className = `page-a4 ${selectedTheme === 'papel' ? 'print-mode-light' : ''}`;
-    
-    // Inyectamos la estructura épica
-    div.innerHTML = generarContenidoInterno(h);
-    container.appendChild(div);
-}
-
-function generarContenidoInterno(h) {
-    const fixPath = (url) => url.replace('/img/', '../../img/');
-    
-    // Aptitudes (Fortalezas)
-    const aptitudesHTML = h.analisis_profundo.fortalezas
-        .map(f => `<li class="skill-item"><span>✔</span> ${f}</li>`).join('');
-
-    // Experiencia (Línea de tiempo)
-    const experienciaHTML = h.linea_tiempo.map(item => `
-        <div class="exp-card">
-            <div class="exp-dot"></div>
-            <div class="exp-info">
-                <h4>${item.fase}</h4>
-                <h5>${item.referencia}</h5>
-                <p>${item.evento}</p>
-            </div>
-        </div>
-    `).join('');
+    // Extraer simbología (primeros 2 objetos)
+    const simbolos = p.analisis_profundo?.simbologia || [];
+    const fortalezas = p.analisis_profundo?.fortalezas || [];
 
     return `
-        <div class="page-a4">
-            <div class="linkedin-banner"></div>
-            
-            <header class="profile-header">
-                <div class="avatar-container">
-                    <div class="avatar-circle" style="background-image: url('${fixPath(h.perfil.imagen)}')"></div>
-                </div>
-                <div class="profile-main-info">
-                    <h1>${h.perfil.nombre}</h1>
-                    <p class="headline">${h.perfil.titulo_corto} | ${h.perfil.ocupacion}</p>
-                    <p class="location">${h.contexto.era_biblica} • ${h.perfil.significado_nombre}</p>
-                </div>
-            </header>
-
-            <main class="profile-body">
-                <section class="profile-section">
-                    <p class="about-text">${h.narrativa.resumen_epico}</p>
-                    <div class="leccion-clave-box">
-                        <strong>Lección Clave:</strong> ${h.aplicacion_personal.leccion_clave}
-                    </div>
-                </section>
-
-                <div class="profile-grid">
-                    <section class="profile-section col-left">
-                        <h3>Experiencia Histórica</h3>
-                        <div class="timeline">
-                            ${experienciaHTML}
+        <div class="pdf-page">
+            <div class="cv-container">
+                <header class="cv-header">
+                    <div class="profile-img" style="background-image: url('${fixPath(p.perfil.imagen)}')"></div>
+                    <div class="header-info">
+                        <span style="font-size: 0.7rem; letter-spacing: 2px; opacity: 0.8;">CÓDICE BÍBLICO MASTER v3.0</span>
+                        <h1>${p.perfil.nombre}</h1>
+                        <h2>${p.perfil.titulo_corto}</h2>
+                        <div class="meta-chips">
+                            <span class="chip">📍 ${p.contexto.era_biblica}</span>
+                            <span class="chip">📖 ${p.contexto.testamento} Testamento</span>
+                            <span class="chip">🛠️ ${p.perfil.ocupacion}</span>
                         </div>
-                    </section>
+                    </div>
+                </header>
 
-                    <aside class="col-right">
-                        <section class="profile-section">
-                            <h3>Aptitudes Destacadas</h3>
-                            <ul class="skills-list">${aptitudesHTML}</ul>
+                <div class="cv-body">
+                    <div class="main-col">
+                        <section>
+                            <div class="section-title">Resumen Épico</div>
+                            <p class="resumen-text">${p.narrativa.resumen_epico}</p>
+                        </section>
+
+                        <section>
+                            <div class="section-title">Análisis Emocional y Perfil</div>
+                            <p class="resumen-text" style="font-style: italic;">${p.analisis_profundo.perfil_emocional}</p>
+                        </section>
+
+                        <section>
+                            <div class="section-title">Lección Clave del Reino</div>
+                            <div class="lesson-box">
+                                "${p.aplicacion_personal.leccion_clave}"
+                            </div>
                         </section>
                         
-                        <section class="profile-section">
-                            <h3>Simbología</h3>
-                            ${h.analisis_profundo.simbologia.map(s => `
-                                <div class="simbolo-mini">
-                                    <strong>${s.objeto}:</strong> <span>${s.significado}</span>
+                        <section>
+                            <div class="section-title">Dato Curioso (Escriba)</div>
+                            <p class="resumen-text" style="font-size: 0.8rem; color: #555;">${p.narrativa.dato_curioso}</p>
+                        </section>
+                    </div>
+
+                    <div class="side-col">
+                        <section>
+                            <div class="section-title">Fortalezas</div>
+                            <ul class="item-list">
+                                ${fortalezas.map(f => `<li>${f}</li>`).join('')}
+                            </ul>
+                        </section>
+
+                        <section>
+                            <div class="section-title">Simbología</div>
+                            ${simbolos.map(s => `
+                                <div class="symbol-box">
+                                    <strong>${s.objeto}</strong>
+                                    <p>${s.significado}</p>
                                 </div>
                             `).join('')}
                         </section>
-                    </aside>
-                </div>
-            </main>
 
-            <footer class="profile-footer">
-                <p>Perfil generado por Códice Bíblico • Tu Ecosistema Espiritual</p>
-            </footer>
+                        <section>
+                            <div class="section-title">Entorno y Alianzas</div>
+                            <div style="font-size: 0.75rem; line-height: 1.4;">
+                                <strong>Aliado:</strong> ${p.perfil.familia.aliado_principal}<br>
+                                <strong>Discípulo:</strong> ${p.perfil.familia.discipulo}<br>
+                                <strong>Origen:</strong> ${p.perfil.familia.origen}
+                            </div>
+                        </section>
+
+                        <section style="margin-top: auto;">
+                            <div class="section-title">Apariciones</div>
+                            <div style="display: flex; flex-wrap: wrap; gap: 5px;">
+                                ${p.contexto.libros_aparicion.map(libro => `<span class="chip" style="color: #666; border: 1px solid #ccc; background: none;">${libro}</span>`).join('')}
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <footer>
+                    Codice Bíblico — Tu Ecosistema Espiritual | XP: ${p.gamificacion.xp_lectura} | Logro: ${p.gamificacion.logro_id}
+                </footer>
+            </div>
         </div>
     `;
 }
 
-// Funciones para los botones del panel
-function changeTheme(theme) {
-    const pages = document.querySelectorAll('.page-a4');
-    pages.forEach(p => theme === 'papel' ? p.classList.add('print-mode-light') : p.classList.remove('print-mode-light'));
-}
-
-function imprimirConNombre() {
-    const h1 = document.querySelector('h1');
-    const nombre = h1 ? h1.innerText : "Perfil";
-    // Cambiamos el título para el "Guardar como"
-    document.title = `Perfil_${nombre.replace(/\s+/g, '_')}`;
-    window.print();
-}
-
-async function generarLoteCompleto() {
-    const container = document.getElementById('master-container');
-    const selectedTheme = document.getElementById('theme-selector').value;
+async function vistaPrevia() {
+    const status = document.getElementById('status');
+    const previewContainer = document.getElementById('preview-container');
+    const previewContent = document.getElementById('preview-content');
     
-    // 1. Limpiamos el contenedor y ponemos un mensaje de carga
-    container.innerHTML = `
-        <div style="color:var(--gold); text-align:center; padding:100px; font-family:'Cinzel', serif;">
-            <h2>📜 Forjando el Códice Completo...</h2>
-            <p style="color:white;">Esto puede tardar unos segundos dependiendo de la cantidad de personajes.</p>
-        </div>`;
-
+    status.innerText = "Analizando mapa de personajes...";
     try {
-        // 2. Cargamos el índice (el objeto plano que me pasaste)
-        const resIndice = await fetch(URL_INDICE);
-        const indice = await resIndice.json();
-        
-        container.innerHTML = ""; // Limpiamos para empezar a inyectar hojas
+        const res = await fetch(URL_INDICE);
+        const dataIndex = await res.json(); // Esto es el objeto { aaron: '...', ... }
 
-        // 3. Recorremos el índice (cada llave es un ID de personaje)
-        for (const id in indice) {
-            const nombreArchivo = indice[id];
+        // Convertimos las llaves del objeto en un arreglo para tomar el primero
+        const llaves = Object.keys(dataIndex);
+        
+        if (llaves.length === 0) throw new Error("El índice está vacío.");
+
+        // Tomamos el primer ID y su archivo correspondiente
+        const primerID = llaves[0];
+        const archivoFuente = dataIndex[primerID];
+
+        status.innerText = `Cargando ${primerID} desde ${archivoFuente}.json...`;
+
+        // Cargamos el archivo de datos (añadiendo .json si no lo tiene)
+        const nombreArchivo = archivoFuente.endsWith('.json') ? archivoFuente : `${archivoFuente}.json`;
+        const resData = await fetch(`${URL_DATA_BASE}${nombreArchivo}`);
+        const personajes = await resData.json();
+
+        // Buscamos el personaje por ID
+        const p = personajes.find(item => item.id.toLowerCase() === primerID.toLowerCase());
+
+        if (p) {
+            previewContent.innerHTML = generarHTML(p);
+            previewContainer.style.display = 'block';
+            status.innerText = "Muestra de Huellas lista.";
+        } else {
+            throw new Error(`No se encontró el contenido de ${primerID}`);
+        }
+    } catch (e) {
+        status.innerText = "❌ Error: " + e.message;
+        console.error(e);
+    }
+}
+
+async function iniciarMasivo() {
+    const status = document.getElementById('status');
+    const renderArea = document.getElementById('render-area');
+    
+    try {
+        const res = await fetch(URL_INDICE);
+        const dataIndex = await res.json();
+        const llaves = Object.keys(dataIndex);
+
+        if(!confirm(`¿Descargar los ${llaves.length} archivos de Huellas?`)) return;
+
+        for (const id of llaves) {
+            const archivoFuente = dataIndex[id];
+            status.innerText = `Procesando: ${id}...`;
+
+            const nombreArchivo = archivoFuente.endsWith('.json') ? archivoFuente : `${archivoFuente}.json`;
+            const resData = await fetch(`${URL_DATA_BASE}${nombreArchivo}`);
+            const personajes = await resData.json();
             
-            try {
-                // Cargamos el archivo del grupo
-                const resGrupo = await fetch(`${URL_BASE_DATOS}${nombreArchivo}.json`);
-                if (!resGrupo.ok) continue; // Si un archivo falta, saltamos al siguiente
-                
-                const datosGrupo = await resGrupo.json();
-                const personaje = datosGrupo.find(p => p.id === id);
-                
-                if (personaje) {
-                    // Creamos la hoja con el estilo LinkedIn
-                    const div = document.createElement('div');
-                    div.className = `page-a4 ${selectedTheme === 'papel' ? 'print-mode-light' : ''}`;
-                    div.innerHTML = generarContenidoInterno(personaje);
-                    container.appendChild(div);
-                }
-            } catch (err) {
-                console.warn(`No se pudo cargar el personaje: ${id}`, err);
+            const p = personajes.find(item => item.id.toLowerCase() === id.toLowerCase());
+
+            if (p) {
+                renderArea.innerHTML = generarHTML(p);
+                await new Promise(r => setTimeout(r, 400));
+
+                const opt = {
+                    margin: 0,
+                    filename: `Huella_${id}.pdf`,
+                    image: { type: 'jpeg', quality: 0.98 },
+                    html2canvas: { scale: 2, useCORS: true, width: 794, height: 1122 },
+                    jsPDF: { unit: 'pt', format: 'a4', orientation: 'portrait' }
+                };
+
+                const element = renderArea.querySelector('.pdf-page');
+                await html2pdf().set(opt).from(element).save();
+                await new Promise(r => setTimeout(r, 600));
             }
         }
-
-        console.log("✅ ¡Lote Completo Cargado!");
-        
-        // Opcional: Auto-scroll al inicio para que veas el resultado
-        window.scrollTo(0, 0);
-
-    } catch (err) {
-        console.error("Fallo masivo:", err);
-        container.innerHTML = `<div class="error">Error al cargar el lote: ${err.message}</div>`;
+        status.innerText = "✅ ¡Imprenta de Huellas completada!";
+    } catch (e) {
+        status.innerText = "❌ Error en la descarga masiva.";
     }
 }

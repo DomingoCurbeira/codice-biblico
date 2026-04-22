@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Códice Bíblico - Escriba Onomastiko</title>
+    <title>Códice Bíblico - Escriba de Enseñanzas</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -12,20 +12,24 @@
 
     <div class="ui-wrapper">
         <div class="dashboard">
-            <h2>Escriba Onomastiko</h2>
-            <p>Generación masiva de Identidades del Códice.</p>
-            
-            <div class="btn-group">
-                <button onclick="vistaPrevia()">VISTA PREVIA</button>
-                <button onclick="iniciarMasivo()" class="btn-dark">GENERACIÓN MASIVA</button>
+            <div class="branding-header">
+                <span class="version-tag">DOCENCIA BÍBLICA v3.0</span>
+                <h2>Escriba de Enseñanzas</h2>
+                <p>Maquetación profesional para estudios temáticos y revelaciones del Códice.</p>
             </div>
             
-            <div id="status">Esperando instrucciones, Chef...</div>
+            <div class="btn-group">
+                <button onclick="vistaPrevia()" class="btn-preview">PREVISUALIZAR ESTUDIO</button>
+                <button onclick="iniciarMasivo()" class="btn-dark">EXPORTAR LOTE PDF (A4)</button>
+            </div>
+            
+            <div id="status">Esperando instrucción docente, Chef...</div>
         </div>
 
         <div id="preview-container">
-            <h3 style="color:white; text-align:center; margin-bottom:15px;">MAQUETACIÓN DE IDENTIDAD A4</h3>
-            <div id="preview-content"></div>
+            <h3 class="preview-title">MAQUETACIÓN DE ENSEÑANZA A4</h3>
+            <div id="preview-content">
+                </div>
         </div>
     </div>
 

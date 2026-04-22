@@ -1,362 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@200;400;600&display=swap');
-
 :root {
-    --gold: #efc22f;
-    --gold-bright: #f2ce62;
-    --dark-bg: #0c0a09;
-    --glass: rgba(255, 255, 255, 0.03);
-    --border-glass: rgba(212, 175, 55, 0.3);
+    --gold: #d4b483;
+    --dark: #0f172a;
+    --wine: #8b0000;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+    font-family: 'Lora', serif; 
+    background: #f4f1ea; 
+    margin: 0; 
+    color: #333; 
+}
 
-body { background: #1a1a1a; }
+/* UI DASHBOARD */
+.ui-wrapper { display: flex; flex-direction: column; align-items: center; padding: 40px 20px; }
+.dashboard { 
+    width: 100%; max-width: 600px; 
+    background: white; padding: 30px; 
+    border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
+    text-align: center; border-top: 5px solid var(--wine); 
+}
+.btn-group { display: flex; gap: 10px; justify-content: center; margin-top: 20px; }
+button { 
+    background: var(--wine); color: white; border: none; 
+    padding: 12px 25px; font-size: 0.9rem; border-radius: 5px; 
+    cursor: pointer; font-weight: bold; transition: 0.3s; 
+}
+button:hover { background: #a00000; transform: translateY(-1px); }
+.btn-dark { background: #2c2c2c; }
+#status { margin-top: 15px; font-size: 0.85rem; color: #666; font-style: italic; }
 
-.page-a4 {
-    width: 210mm;
-    height: 297mm;
-    background: var(--dark-bg);
-    margin: 20px auto;
-    position: relative;
-    padding: 10mm 20mm;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    display: flex;
+/* CONFIGURACIÓN A4 */
+#render-area { position: absolute; left: -9999px; top: 0; width: 794px; }
+
+.pdf-page { 
+    width: 794px; 
+    height: 1122px; 
+    padding: 40px; 
+    background: white; 
+    display: flex; 
     flex-direction: column;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-/* Efecto de luz central */
-.aura {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 150%;
-    height: 150%;
-    background: radial-gradient(circle, rgba(212,175,55,0.08) 0%, rgba(0,0,0,0) 70%);
-    pointer-events: none;
+.ficha-onomastiko { 
+    border: 2px solid var(--gold); 
+    padding: 30px; 
+    height: 100%; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye el espacio sobrante entre bloques */
+    position: relative;
+    box-sizing: border-box;
 }
 
-/* Header Estilo Premium */
-.main-header {
-    text-align: center;
-    margin-bottom: 30px;
-    z-index: 10;
-}
+/* HEADER */
+header { border-bottom: 2px solid var(--gold); margin-bottom: 10px; text-align: center; padding-bottom: 10px; }
+.brand { font-size: 0.6rem; letter-spacing: 4px; color: var(--gold); font-weight: bold; }
+.nombre-p { font-family: 'Playfair Display', serif; font-size: 3rem; margin: 5px 0; color: #1a1a1a; }
+.significado { font-style: italic; color: #555; font-size: 1.1rem; }
 
-.brand {
-    font-size: bold;
-    letter-spacing: 4px;
-    color: var(--gold);
-    font-weight: 200;
-}
-
-h1 {
-    font-family: 'Cinzel', serif;
-    font-size: 45pt;
-    margin: 10px 0;
-    background: linear-gradient(to bottom, var(--gold-bright), var(--gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    filter: drop-shadow(0 0 10px rgba(212,175,55,0.3));
-}
-
-/* Layout Dual */
-.dual-concept {
-    display: flex;
-    gap: 30px;
-    flex-grow: 1;
-    z-index: 10;
+/* DUAL CONCEPT - SIMETRÍA TOTAL */
+.dual-concept { 
+    display: flex; 
+    gap: 20px; 
+    margin: 10px 0; 
+    align-items: stretch; /* Fuerza a que ambas cards tengan el mismo alto */
+    flex: 1; /* Permite que esta sección crezca para ocupar el centro */
 }
 
 .glass-card {
     flex: 1;
-    background: var(--glass);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--border-glass);
-    padding: 15px;
-    border-radius: 2px;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    background: #f8fafc;
+    border-radius: 4px;
     display: flex;
     flex-direction: column;
-    height: 90%;
 }
 
 .image-frame {
-    position: relative;
     width: 100%;
-    height: 280px;
-    border-bottom: 2px solid var(--gold);
-    margin-bottom: 20px;
-}
-
-.hero-img {
-    width: 100%;
-    height: 100%;
+    height: 240px;
+    border: 2px solid var(--gold);
     background-size: cover;
     background-position: center;
-    filter: grayscale(20%) contrast(1.1);
+    margin-bottom: 15px;
+    position: relative;
+    flex-shrink: 0;
 }
 
 .label-badge {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: rgba(0,0,0,0.8);
-    padding: 5px 12px;
-    font-size: 8pt;
-    letter-spacing: 2px;
-    border: 1px solid var(--gold);
+    position: absolute; bottom: -10px; left: 50%;
+    transform: translateX(-50%); background: var(--dark);
+    color: white; padding: 4px 12px; font-size: 0.6rem;
+    font-weight: bold; letter-spacing: 1px;
+}
+.gold-badge { background: var(--gold); color: var(--dark); }
+
+h3 { font-family: 'Playfair Display', serif; color: var(--wine); margin: 5px 0 10px; font-size: 1.2rem; }
+.glass-card p { font-size: 0.88rem; line-height: 1.5; text-align: justify; margin: 0; }
+
+/* LOGRO, PERLA Y DATOS TÉCNICOS */
+.common-footer { 
+    margin-top: 10px; 
+    padding: 20px; 
+    background: #fff; 
+    border: 1px solid var(--gold); 
+    border-style: double; 
 }
 
-.glass-card h2 {
-    font-family: 'Cinzel', serif;
-    color: var(--gold-bright);
-    font-size: 16pt;
-    margin-bottom: 15px;
-    line-height: 1.2;
-}
+.achievement-banner { text-align: center; margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 12px; }
+.achievement-title { font-size: 0.6rem; color: var(--wine); font-weight: bold; letter-spacing: 2px; }
+.achievement-text { font-family: 'Playfair Display', serif; font-size: 1.1rem; font-style: italic; color: var(--dark); }
 
-.glass-card p {
-    font-size: 10.5pt;
-    line-height: 1.6;
-    font-weight: 200;
-    color: #d1d1d1;
-    text-align: justify;
-}
+.perla-box { font-style: italic; color: #1e293b; font-size: 0.9rem; border-left: 4px solid var(--wine); padding-left: 15px; margin: 10px 0; }
 
-/* Footer y Perla */
-.tech-specs {
-    display: flex;
-    justify-content: space-between;
-    font-size: 9pt;
-    border-top: 1px solid rgba(212,175,55,0.2);
-    padding: 20px 0;
-    color: var(--gold-bright);
-    margin-top: -30px;
-}
+footer { margin-top: 10px; text-align: center; font-size: 0.7rem; color: #999; border-top: 1px solid #eee; padding-top: 10px; }
 
-.perla-box {
-    background: linear-gradient(to right, rgba(212,175,55,0.05), transparent);
-    padding: 20px;
-    border-left: 3px solid var(--gold);
-    font-style: italic;
-    font-size: 11pt;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
-
-footer {
-    text-align: center;
-    font-size: 8pt;
-    color: var(--gold);
-}
-
-.footer-line {
-    height: 1px;
-    background: linear-gradient(to right, transparent, var(--gold), transparent);
-    margin-bottom: 10px;
-}
-
-/* Botón de Generación */
-/* Botones Estilo Códice */
-.print-controls {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(12, 10, 9, 0.95);
-    border-bottom: 1px solid var(--gold);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    padding: 15px;
-    z-index: 9999;
-    backdrop-filter: blur(15px);
-}
-
-.control-group {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.control-group label {
-    font-size: 7pt;
-    letter-spacing: 2px;
-    color: var(--gold);
-    font-weight: bold;
-}
-
-.btn-action, select, .btn-generate {
-    background: transparent;
-    border: 1px solid var(--border-glass);
-    color: white;
-    padding: 8px 15px;
-    font-family: 'Cinzel', serif;
-    font-size: 9pt;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.btn-generate {
-    background: var(--gold);
-    color: black;
-    font-weight: bold;
-    border: none;
-    padding: 12px 25px;
-}
-
-.btn-generate:hover { background: var(--gold-bright); box-shadow: 0 0 20px rgba(212,175,55,0.5); }
-
-/* --- MODO IMPRESIÓN (CREMA) --- */
-/* --- CORRECCIÓN MODO IMPRESIÓN (CREMA) --- */
-.page-a4.print-mode-light {
-    background: #fdfaf3 !important;
-    /* Cambiamos a un gris muy oscuro para legibilidad, nunca blanco */
-    color: #2c2c2c !important; 
-}
-
-/* Limpieza de los Badges (Etiquetas sobre la imagen) */
-.print-mode-light .label-badge {
-    background: rgba(0, 0, 0, 0.1) !important; /* Transparencia mínima */
-    color: #FFFFFF !important; /* Color tierra oscuro */
-    border: 1px solid rgba(120, 53, 15, 0.3) !important;
-    backdrop-filter: blur(2px);
-}
-
-.print-mode-light .label-badge.gold-badge {
-    background: rgba(212, 175, 55, 0.1) !important;
-    color: #FFFFFF !important;
-    border: 1px solid #d4af37 !important;
-}
-
-/* Ajuste de Títulos y Cuerpo en modo claro */
-.print-mode-light h1, 
-.print-mode-light h2 {
-    background: none !important;
-    -webkit-text-fill-color: #78350f !important;
-    color: #78350f !important;
-}
-
-.print-mode-light .glass-card {
-    background: rgba(255, 255, 255, 0.4) !important;
-    border: 1px solid rgba(212, 175, 55, 0.4) !important;
-    box-shadow: none !important;
-}
-
-.print-mode-light .glass-card p {
-    color: #3f3f46 !important; /* Gris zinc oscuro para el cuerpo */
-}
-
-/* Ajuste de la Perla en modo claro */
-.print-mode-light .perla-box {
-    background: #f4eee1 !important;
-    border-left: 4px solid #d4af37 !important;
-    color: #1a1a1a !important;
-}
-
-.print-mode-light .motto {
-    color: #57534e !important;
-}
-
-@media print {
-    .print-controls { display: none !important; }
-}
-
-/* Reorganización de Identidad */
-.identity-footer {
-    margin-top: auto; /* Empuja hacia abajo */
-    padding-bottom: 20px;
-}
-
-.tech-row {
-    display: flex;
-    justify-content: space-between;
-    gap: 15px;
-    border-top: 1px solid rgba(212,175,55,0.3);
-    padding: 15px 0;
-    margin-bottom: 5px;
-}
-
-.tech-item {
-    font-size: 8.5pt;
-    letter-spacing: 1px;
-    color: var(--gold-bright);
-    text-transform: uppercase;
-}
-
-.tech-item strong {
-    color: var(--gold);
-    margin-right: 5px;
-}
-
-.perla-box {
-    background: linear-gradient(90deg, rgba(212,175,55,0.08) 0%, transparent 100%);
-    padding: 25px;
-    border-left: 2px solid var(--gold);
-    font-style: italic;
-    font-size: 11pt;
-    line-height: 1.6;
-    color: #e0e0e0;
-    backdrop-filter: blur(5px);
-}
-
-/* Ocultar botón al imprimir */
-@media print {
-    .print-controls { display: none; }
-    body { background: white; }
-
-    /* 1. Forzar el tamaño de la página y eliminar márgenes del sistema */
-    @page {
-        size: A4;
-        margin: 0;
-    }
-
-    body {
-        background: #000 !important; /* Asegura fondo negro profundo */
-        -webkit-print-color-adjust: exact; /* CRITICO: Forza a imprimir fondos y colores */
-        print-color-adjust: exact;
-    }
-
-    .page-a4 {
-        margin: 0 !important;
-        border: none !important;
-        width: 100vw !important;
-        height: 100vh !important;
-        box-shadow: none !important;
-        padding: 12mm !important; /* Margen de seguridad para la impresora */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between; /* Distribuye el contenido para llenar la hoja */
-    }
-
-    /* 2. Ocultar elementos de la interfaz web */
-    .print-controls, 
-    .btn-generate,
-    #loading-state {
-        display: none !important;
-    }
-
-    /* 3. Ajuste de imágenes para que no pesen demasiado pero mantengan calidad */
-    .hero-img {
-        filter: contrast(1.1) brightness(1.1); /* Compensa la pérdida de brillo en papel */
-    }
-
-    /* 4. Evitar saltos de página internos */
-    .dual-concept, .identity-footer, footer {
-        page-break-inside: avoid;
-    }
-
-    /* 5. Asegurar que los bordes de oro se vean */
-    .glass-card {
-        border: 1px solid rgba(212, 175, 55, 0.5) !important;
-        background: rgba(255, 255, 255, 0.05) !important;
-    }
-}
-
-.column{
-    display: flex;
-    flex-direction: column;
-}
+/* VISTA PREVIA */
+#preview-container { margin-top: 20px; width: 834px; padding: 20px; background: #334155; border-radius: 8px; display: none; }
+#preview-content { display: flex; justify-content: center; transform: scale(0.85); transform-origin: top; }
