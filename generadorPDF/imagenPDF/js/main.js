@@ -4,25 +4,28 @@ const URL_DATA = '../../data/estudios/tematicos.json';
 function generarHTML(e) {
     // Filtramos el contenido para dejar solo lo más potente
     const contenidoFiltrado = e.contenido.filter(bloque => 
-        ['intro', 'subtitulo', 'parrafo', 'destacado'].includes(bloque.tipo)
+        ['intro', 'subtitulo', 'parrafo', 'destacado'].includes(bloque.tipo) && 
+        bloque.texto !== "Reflexión Personal"
     );
 
     const contenidoHTML = contenidoFiltrado.map(bloque => {
+        console.log(bloque)
         switch (bloque.tipo) {
+            
             case 'intro': 
             case 'parrafo': return `<p class="parrafo-estudio">${bloque.texto}</p>`;
-            case 'subtitulo': return `<h3 class="subtitulo-estudio">${bloque.texto}</h3>`
-            // case 'destacado': return `<div class="destacado-estudio">${bloque.texto}
+            case 'subtitulo': return `<h3 class="subtitulo-estudio">${bloque.texto}</h3>`;
+           
+            case 'destacado': return `<div class="destacado-estudio">${bloque.texto}
             
-            // </div>`;
+            </div>`;
             default: return '';
         }
     }).join('');
-
+console.log(e)
     return `
         <div class="pdf-page">
             <header class="study-header">
-                <span class="version-tag">DOCENCIA BÍBLICA MASTER</span>
                 <h1>${e.titulo}</h1>
                 <h2>${e.subtitulo}</h2>
                 <div class="study-meta">
@@ -40,18 +43,13 @@ function generarHTML(e) {
             <div class="content-body">
                 ${contenidoHTML}
             </div>
-
-            <section style="margin-top: 15px; border-top: 1px dashed #cbd5e1; padding-top: 10px;">
-                <div style="font-size: 0.8rem; color: var(--accent-gold); font-weight: bold; margin-bottom: 5px;">
-                    DESAFÍO PRÁCTICO:
-                </div>
-                <p style="font-size: 0.78rem; font-style: italic; margin: 0;">${e.desafio_practico}</p>
-            </section>
+    
+            
 
             <footer>
-                <span>Códice Bíblico | XP: ${e.gamificacion.xp_lectura}</span>
-                <span>ID: ${e.id}</span>
-                <span>© 2026</span>
+                <span>Códice Bíblico </span>
+                <span>Fecha: ${e.fecha_programada}</span>
+                
             </footer>
         </div>
     `;
