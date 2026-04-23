@@ -1702,7 +1702,7 @@
             }
         ],
         "vinculos": {
-            "lugares_relacionados": ["jordan", "mar-muerto", "rediles-judea"],
+            "lugares_relacionados": ["rio-jordan", "mar-muerto", "rediles-judea"],
             "personajes_relacionados": ["jesus", "juan-el-bautista"],
             "estudios": ["frecuencia-en-el-silencio"]
         },
@@ -1774,5 +1774,86 @@
             "estudios": ["el-cordero-de-dios"]
         },
         "gamificacion": { "xp_lectura": 400, "logro_id": "testigo-de-la-torre" }
+    },
+    {
+        "id": "mar-muerto",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-23"
+        },
+        "mapa": {
+            "coords": [31.5000, 35.5000],
+            "zoom": 11,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#2c3e50"
+        },
+        "perfil": {
+            "nombre": "Mar Muerto",
+            "titulo_corto": "El Espejo de la Sal",
+            "significado_nombre": "Yam HaMélaj: Mar de la Sal",
+            "ubicacion_geografica": "El punto más bajo de la superficie terrestre, al final del valle del Jordán.",
+            "clima_entorno": "Aire denso y rico en oxígeno, calor sofocante, aguas aceitosas y cargadas de minerales que impiden la vida biológica común.",
+            "imagen_principal": "../img/lugares/mar-muerto-cristales.webp",
+            "galeria": [
+                "../img/lugares/columnas-sal.webp",
+                "../img/lugares/costa-evaporacion.webp",
+                "../img/lugares/cuevas-qumran.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Génesis", "Ezequiel", "Josué"],
+            "era_biblica": "Destrucción de Sodoma / Refugio de los Esenios"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Rollos del Mar Muerto (Qumrán).",
+            "descripcion": "El descubrimiento de manuscritos bíblicos en cuevas cercanas al Mar Muerto demuestra que la aridez del lugar sirvió como un 'archivo divino' para preservar el Código intacto por milenios."
+        },
+        "narrativa": {
+            "resumen_epico": "El Mar Muerto es el recordatorio del Códice de que un diseño sin salida genera entropía (muerte). El agua entra desde el Jordán pero no sale, evaporándose y dejando solo sal. Sin embargo, la profecía de Ezequiel nos da el giro técnico: un día, el diseño original fluirá desde el Templo y sanará estas aguas. Representa el juicio pasado, pero también la restauración futura de lo que el mundo considera muerto.",
+            "dato_curioso": "Debido a la alta salinidad, nada se hunde; es el lugar donde la 'densidad' del diseño te mantiene a flote por encima del juicio.",
+            "conexion_jesus": "Escenario del juicio sobre las ciudades de la llanura y lugar de preservación de Su Palabra escrita.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Juicio solemne, preservación y esperanza de restauración radical. Es la belleza de la desolación.",
+            "simbologia": [
+                {
+                    "objeto": "La Sal",
+                    "significado": "Representa tanto el juicio que esteriliza como el pacto eterno que preserva."
+                },
+                {
+                    "objeto": "El Nivel Bajo",
+                    "significado": "Simboliza el estado de la humanidad sin la fuente de vida continua."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Si recibes de Dios pero no entregas a otros, terminarás como el Mar Muerto: cargado de minerales pero sin vida. El flujo debe ser continuo para mantener la salud del diseño.",
+            "preguntas_reflexion": [
+                "¿Eres un canal de bendición o un depósito de estancamiento?",
+                "¿Confías en que Dios puede sanar las áreas de tu vida que parecen estériles?",
+                "¿Vives con la densidad de la fe que te permite flotar sobre las crisis?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Juicio del Sistema",
+                "evento": "Destrucción de Sodoma y Gomorra en la llanura del Mar Muerto.",
+                "referencia": "Génesis 19"
+            },
+            {
+                "fase": "La Sanidad Profética",
+                "evento": "Ezequiel ve las aguas del Mar Muerto siendo sanadas por el río del Templo.",
+                "referencia": "Ezequiel 47"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["sodoma-gomorra", "en-gadi", "rio-jordan"],
+            "personajes_relacionados": ["lot", "ezequiel"],
+            "estudios": ["el-ciclo-de-la-vida", "pacto-de-sal"]
+        },
+        "gamificacion": { "xp_lectura": 250, "logro_id": "sanador-de-aguas" }
     }
 ]

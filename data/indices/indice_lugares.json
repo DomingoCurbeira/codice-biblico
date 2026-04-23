@@ -806,6 +806,19 @@
     "tags": "manantial harod, manantial de harod, jueces, 2 samuel"
   },
   {
+    "id": "mar-muerto",
+    "nombre": "Mar Muerto",
+    "titulo": "El Espejo de la Sal",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.5,
+      35.5
+    ],
+    "era": "Destrucción de Sodoma / Refugio de los Esenios",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "mar muerto, génesis, ezequiel, josué"
+  },
+  {
     "id": "mar-rojo",
     "nombre": "Mar Rojo (Yam Suph)",
     "titulo": "El Camino en las Aguas",
