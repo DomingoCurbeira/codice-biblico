@@ -1488,5 +1488,291 @@
             "xp_lectura": 200,
             "logro_id": "ojo-espiritual"
         }
+    },
+
+    {
+        "id": "rediles-judea",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-23"
+        },
+        "mapa": {
+            "coords": [31.7049, 35.2038],
+            "zoom": 16,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#1a2e05"
+        },
+        "perfil": {
+            "nombre": "Rediles de Judea",
+            "titulo_corto": "El Perímetro de Seguridad",
+            "significado_nombre": "Escenario de la Protección Absoluta",
+            "ubicacion_geografica": "Zonas escarpadas y desérticas en los alrededores de Belén.",
+            "clima_entorno": "Un entorno hostil, de temperaturas extremas y silencio profundo, donde el eco de los lobos resalta la importancia de un refugio sólido.",
+            "imagen_principal": "../img/lugares/rediles-judea.webp",
+            "galeria": [
+                "../img/lugares/redil-piedra-antiguo.webp",
+                "../img/lugares/pasturas-desierto.webp",
+                "../img/lugares/entrada-estrecha.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Nuevo y Antiguo Testamento",
+            "libros_aparicion": ["Juan", "Salmos", "1 Samuel"],
+            "era_biblica": "Tradición de los Pastores de Judea"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Estructuras de pirca (piedra seca) del siglo I.",
+            "descripcion": "En las colinas de Belén aún se conservan cercos de piedra sin argamasa con una única abertura estrecha, diseñados específicamente para que el cuerpo del pastor selle la entrada."
+        },
+        "narrativa": {
+            "resumen_epico": "En estas colinas no hay espacio para la simulación. El redil de piedra es el único sistema de preservación contra la entropía del desierto. Aquí, el pastor no es un acompañante, es la infraestructura de defensa. Jesús utiliza este escenario para revelar que Su protección no es un concepto legal, sino una realidad física: Él es la barrera que se interpone entre la oveja y la muerte. En este desierto, aprendemos que estar a salvo no significa que no haya lobos, sino que el Pastor ha tomado Su posición en la entrada.",
+            "dato_curioso": "Estos rediles se construían con piedras del mismo terreno, simbolizando que Dios usa lo que parece 'seco o muerto' para construir un lugar de descanso seguro.",
+            "conexion_jesus": "Como descendiente de David (el pastor de estas mismas tierras), Jesús reclama el control total sobre el portal de acceso a la vida de Sus ovejas.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Transmite una sensación de resguardo absoluto en medio de la vulnerabilidad. Es el lugar donde el miedo al exterior muere ante la presencia del Guardián.",
+            "simbologia": [
+                {
+                    "objeto": "El Redil de Piedra",
+                    "significado": "Representa el ecosistema de la Iglesia o la vida bajo el Reino, donde hay límites que preservan la vida."
+                },
+                {
+                    "objeto": "La Entrada Estrecha",
+                    "significado": "Simboliza que solo hay un filtro legal y espiritual para entrar al reposo: el cuerpo del Mesías."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "No fuiste diseñado para dormir con un ojo abierto vigilando al lobo; fuiste diseñado para descansar mientras tu Pastor vigila la puerta. Tu seguridad es Su responsabilidad.",
+            "preguntas_reflexion": [
+                "¿Estás intentando construir tus propias paredes o descansas en el redil que Él ya preparó?",
+                "¿Confías en que nada puede cruzar esa entrada sin pasar por Su juicio previo?",
+                "¿Reconoces la paz que emana de saber que el Pastor está acostado en tu puerta?"
+            ]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "El Entrenamiento del Rey",
+                "evento": "David defiende a sus ovejas del león y el oso en estas colinas.",
+                "referencia": "1 Samuel 17:34-36"
+            },
+            {
+                "fase": "La Revelación de la Puerta",
+                "evento": "Jesús declara ser el Buen Pastor y la Puerta Viva.",
+                "referencia": "Juan 10:1-11"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["belen", "desierto-judea", "torre-del-rebaño"],
+            "personajes_relacionados": ["jesus", "david"],
+            "estudios": ["bio-logica-cobertura", "la-puerta-viva", "poimen-el-guardian"]
+        },
+        "gamificacion": {
+            "xp_lectura": 300,
+            "logro_id": "habitante-del-redil"
         }
+    },
+    {
+        "id": "belen",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-23"
+        },
+        "mapa": {
+            "coords": [31.7049, 35.2038],
+            "zoom": 16,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#e67e22"
+        },
+        "perfil": {
+            "nombre": "Belén",
+            "titulo_corto": "Cuna de la Realeza Humilde",
+            "significado_nombre": "Beit Lehem: Casa del Pan",
+            "ubicacion_geografica": "Montes de Judea, a unos 10 km al sur de Jerusalén.",
+            "clima_entorno": "Ambiente de colinas fértiles mezcladas con zonas áridas; aire fresco de montaña y valles de pastoreo.",
+            "imagen_principal": "../img/lugares/belen-panoramica.webp",
+            "galeria": [
+                "../img/lugares/campos-pastores.webp",
+                "../img/lugares/arquitectura-belen.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Miqueas", "Mateo", "Lucas"],
+            "era_biblica": "Nacimiento del Mesías / Dinastía Davídica"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Basílica de la Natividad y cuevas de pastoreo.",
+            "descripcion": "La estructura urbana de Belén conserva el diseño de 'casas-cueva' donde se refugiaban tanto familias como animales, validando el escenario del pesebre."
+        },
+        "narrativa": {
+            "resumen_epico": "Belén no es solo un punto en el mapa; es el útero del Diseño Mesiánico. Aquí se gestó la identidad del Pastor-Rey. De estos campos salió David y en estos mismos campos se anunció que el Pan de Vida había descendido. Es el lugar donde lo eterno decide entrar en la frecuencia del tiempo humano en la forma más vulnerable.",
+            "dato_curioso": "Aunque se le conoce como la ciudad de David, era una de las aldeas más insignificantes, cumpliendo la ley del Códice: Dios usa lo pequeño para confundir lo grande.",
+            "conexion_jesus": "Es el punto de origen de Su naturaleza humana legal como heredero del trono de David.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Evoca una mezcla de humildad, esperanza y cumplimiento profético. Es el suelo de las promesas cumplidas.",
+            "simbologia": [
+                {
+                    "objeto": "El Pan (Lehem)",
+                    "significado": "Representa la provisión fundamental del Pastor para Sus ovejas."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Tu origen no determina tu propósito. Dios puede sacar reyes de campos de pastoreo y salvadores de aldeas pequeñas.",
+            "preguntas_reflexion": ["¿Valorizas los comienzos pequeños en tu vida?", "¿Reconoces a Jesús como el Pan que sustenta tu sistema?"]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Semilla Real",
+                "evento": "David es ungido como rey mientras pastoreaba en estas colinas.",
+                "referencia": "1 Samuel 16"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jerusalen-centro", "rediles-judea"],
+            "personajes_relacionados": ["jesus", "david", "rut"],
+            "estudios": ["casa-del-pan", "linaje-real"]
+        },
+        "gamificacion": { "xp_lectura": 250, "logro_id": "visitante-de-belen" }
+    },
+    {
+        "id": "desierto-judea",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-23"
+        },
+        "mapa": {
+            "coords": [31.6500, 35.3500],
+            "zoom": 12,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#d4a373"
+        },
+        "perfil": {
+            "nombre": "Desierto de Judea",
+            "titulo_corto": "El Espacio de la Dependencia",
+            "significado_nombre": "Yeshimón: El Yermo / El Silencio",
+            "ubicacion_geografica": "Franja entre las montañas de Judea y el Mar Muerto.",
+            "clima_entorno": "Calor extremo, vientos secos y una soledad abrumadora. Un paisaje de cañones profundos y cuevas ocultas.",
+            "imagen_principal": "../img/lugares/desierto-judea.webp",
+            "galeria": [
+                "../img/lugares/cañones-judea.webp",
+                "../img/lugares/cuevas-en-la-roca.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Mateo", "Lucas", "Salmos"],
+            "era_biblica": "Tentación en el Desierto / Refugio de David"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Cuevas de Qumrán y fortalezas herodianas.",
+            "descripcion": "La presencia de comunidades esenias confirma que el desierto era el lugar elegido para la purificación y la desconexión del sistema del mundo."
+        },
+        "narrativa": {
+            "resumen_epico": "El desierto no es un lugar de castigo, es un laboratorio de diseño. Es el único lugar donde el ruido del mundo se apaga para que la voz del Pastor se escuche en alta fidelidad. Aquí es donde Jesús venció al sistema de la tentación operando solo bajo la frecuencia de 'Escrito Está'.",
+            "dato_curioso": "Es el escenario del Salmo 23; el 'valle de sombra de muerte' se refiere a los desfiladeros peligrosos de este desierto.",
+            "conexion_jesus": "Lugar de Su victoria sobre la carne y el enemigo antes de iniciar Su ministerio público.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Soledad productiva, vulnerabilidad y fortaleza espiritual. Es el lugar de la prueba que precede a la promoción.",
+            "simbologia": [
+                {
+                    "objeto": "La Roca",
+                    "significado": "Representa la inmutabilidad de Dios cuando todo lo demás es arena movediza."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Si Dios te ha llevado al desierto, no es para abandonarte, sino para revelarte Su provisión sobrenatural.",
+            "preguntas_reflexion": ["¿Estás usando el silencio para oír al Pastor?", "¿Confías en Su guía cuando no ves pastos verdes?"]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Victoria del Código",
+                "evento": "Jesús vence al tentador tras 40 días de ayuno.",
+                "referencia": "Mateo 4:1-11"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["jordan", "mar-muerto", "rediles-judea"],
+            "personajes_relacionados": ["jesus", "juan-el-bautista"],
+            "estudios": ["frecuencia-en-el-silencio"]
+        },
+        "gamificacion": { "xp_lectura": 350, "logro_id": "vencedor-del-yermo" }
+    },
+    {
+        "id": "torre-del-rebaño",
+        "activo": true,
+        "meta": {
+            "version": "4.0-cronos-deep",
+            "fecha_actualizacion": "2026-04-23"
+        },
+        "mapa": {
+            "coords": [31.7000, 35.2100],
+            "zoom": 17,
+            "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+            "marcador_color": "#7c2d12"
+        },
+        "perfil": {
+            "nombre": "Torre del Rebaño",
+            "titulo_corto": "El Observatorio de la Pureza",
+            "significado_nombre": "Migdal Eder: Torre del Rebaño",
+            "ubicacion_geografica": "En las afueras de Belén, en el camino hacia Jerusalén.",
+            "clima_entorno": "Vigilancia constante; un punto elevado con visión clara sobre los valles donde pastaban los animales del sacrificio.",
+            "imagen_principal": "../img/lugares/migdal-eder.webp",
+            "galeria": [
+                "../img/lugares/torre-vigilancia-antigua.webp",
+                "../img/lugares/corderos-sacrificio.webp"
+            ]
+        },
+        "contexto": {
+            "testamento": "Antiguo y Nuevo Testamento",
+            "libros_aparicion": ["Génesis", "Miqueas", "Lucas"],
+            "era_biblica": "Profecía Mesiánica / Servicio del Templo"
+        },
+        "evidencia_arqueologica": {
+            "hallazgo_clave": "Cimentaciones de torres de vigilancia de la Edad del Hierro y periodo Herodiano.",
+            "descripcion": "La existencia de torres para vigilar rebaños especiales (destinados al Templo) es un hecho documentado en la Mishná."
+        },
+        "narrativa": {
+            "resumen_epico": "Migdal Eder es el punto técnico donde la profecía se encuentra con la logística. Según la tradición, aquí nacían los corderos destinados al sacrificio en el Templo. Los pastores de esta torre no eran pastores comunes; eran expertos en la Ley que envolvían a los corderos primogénitos en pañales para protegerlos. Cuando el ángel anunció a los pastores que hallarían al niño 'envuelto en pañales', les dio la señal técnica: el Cordero de Dios había nacido en el lugar donde nacen los sacrificios.",
+            "dato_curioso": "Miqueas profetizó que el dominio vendría primero a la 'Torre del Rebaño', vinculando este lugar con el trono del Mesías.",
+            "conexion_jesus": "Lugar profético de Su manifestación como el Cordero que quita el pecado del mundo.",
+            "imagen_de_apoyo": ""
+        },
+        "analisis_profundo": {
+            "perfil_emocional": "Expectativa profética y precisión divina. Es el lugar donde el diseño de Dios se cumple al detalle.",
+            "simbologia": [
+                {
+                    "objeto": "Los Pañales",
+                    "significado": "Representan la preservación de la pureza en el diseño original."
+                }
+            ]
+        },
+        "aplicacion_personal": {
+            "leccion_clave": "Dios tiene un lugar y un tiempo exacto para tu manifestación. Nada en Su diseño es por accidente.",
+            "preguntas_reflexion": ["¿Reconoces las señales que Dios pone en tu camino?", "¿Entiendes el valor de tu propia pureza ante el diseño de Dios?"]
+        },
+        "linea_tiempo": [
+            {
+                "fase": "La Señal a los Pastores",
+                "evento": "Los ángeles anuncian el nacimiento en el sector de Migdal Eder.",
+                "referencia": "Lucas 2:8-12"
+            }
+        ],
+        "vinculos": {
+            "lugares_relacionados": ["belen", "templo-jerusalen"],
+            "personajes_relacionados": ["jesus", "pastores-de-migdal"],
+            "estudios": ["el-cordero-de-dios"]
+        },
+        "gamificacion": { "xp_lectura": 400, "logro_id": "testigo-de-la-torre" }
+    }
 ]

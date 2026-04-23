@@ -7293,5 +7293,88 @@
         "xp_lectura": 300,
         "logro_id": "vision-recuperada"
       }
+    },
+    {
+      "id": "el-buen-pastor",
+      "perfil": {
+        "nombre": "El Buen Pastor",
+        "titulo_corto": "La Ruta de la Cobertura",
+        "significado_nombre": "Poimēn: El Guardián del Perímetro. Su nombre define no solo a quien guía, sino a quien custodia el acceso.",
+        "ocupacion": "Arquitecto de seguridad itinerante; responsable de la integridad del rebaño en terrenos hostiles.",
+        "familia": {
+          "relacion": "El Guía que se identifica con sus ovejas hasta el punto de dar Su vida por el sistema."
+        },
+        "imagen": "/img/perfiles/buen-pastor-redil.webp",
+        "icono_mapa": "/img/ui/markers/pastor.svg"
+      },
+      "contexto": {
+        "testamento": "Nuevo Testamento",
+        "libros_aparicion": ["Juan", "Salmos", "Ezequiel"],
+        "era_biblica": "Ministerio de la Revelación del Reino / Tradición Davídica"
+      },
+      "narrativa": {
+        "resumen_epico": "A través de los escarpados Montes de Judea, las huellas del Buen Pastor no marcan un simple paseo, sino un protocolo de vigilancia. Su rastro se detiene allí donde el peligro comienza. En el diseño del Reino, el Pastor no busca solo pastos verdes, busca el 'Redil de Piedra' (el ecosistema de seguridad). Al llegar a la entrada, sus pasos se detienen para transformarse en posición: se acuesta en el umbral. Sus huellas terminan donde comienza Su cuerpo como 'Thúra' (Puerta). Es el modelo de cómo el movimiento del amor se convierte en el muro de la justicia.",
+        "dato_curioso": "Históricamente, los pastores de Judea conocían cada piedra del camino. Sus huellas eran seguidas por las ovejas no por vista, sino por la frecuencia de Su voz que resonaba en el trayecto.",
+        "conexion_jesus": "Representa la soberanía protectora que no deja brechas abiertas. Jesús no solo camina delante de nosotros para guiarnos, sino que se detiene en nuestra vulnerabilidad para protegernos.",
+        "imagen_de_apoyo": ""
+      },
+      "analisis_profundo": {
+        "perfil_emocional": "Es un perfil de alerta serena. No hay pánico en sus pasos porque conoce el terreno y tiene autoridad sobre los lobos que acechan en las sombras.",
+        "fortalezas": [
+          "Vigilancia lograda por el conocimiento del terreno",
+          "Decisión de posicionamiento (se vuelve la barrera)",
+          "Fidelidad al perímetro"
+        ],
+        "debilidades": [
+          "Exposición física total para garantizar la seguridad del sistema interno"
+        ],
+        "simbologia": [
+          {
+            "objeto": "Las huellas en el desierto",
+            "significado": "Representan la guía segura en medio de la incertidumbre y la escasez."
+          },
+          {
+            "objeto": "El umbral del redil",
+            "significado": "El punto exacto donde la guía se convierte en protección absoluta."
+          }
+        ]
+      },
+      "aplicacion_personal": {
+        "leccion_clave": "El Pastor ya caminó el terreno antes que tú. Si sigues Sus huellas, llegarás al lugar donde Él mismo se acostará en la puerta para que tú puedas descansar.",
+        "preguntas_reflexion": [
+          "¿Estás siguiendo las huellas de tu propia ansiedad o las huellas del Pastor que conoce el camino al redil?",
+          "¿Te has dado cuenta de que Sus pasos se detuvieron justo en tu debilidad para ser tu escudo?",
+          "¿Confías en la ruta que Él ha trazado, incluso cuando el camino parece árido?"
+        ]
+      },
+      "linea_tiempo": [
+        {
+          "fase": "La búsqueda del refugio",
+          "evento": "El pastor guía al rebaño por las colinas de Judea antes de que caiga la noche.",
+          "vinculo_mapa": "rediles-judea",
+          "referencia": "Salmos 23:1-3"
+        },
+        {
+          "fase": "El posicionamiento en la brecha",
+          "evento": "Llegada al redil; el pastor inspecciona a cada oveja y se coloca en la entrada.",
+          "vinculo_mapa": "rediles-judea",
+          "referencia": "Juan 10:7-9"
+        },
+        {
+          "fase": "La guardia nocturna",
+          "evento": "El pastor permanece como puerta viva mientras el rebaño descansa.",
+          "vinculo_mapa": "rediles-judea",
+          "referencia": "Juan 10:11"
+        }
+      ],
+      "vinculos": {
+        "lugares": ["rediles-judea", "belen"],
+        "estudios": ["bio-logica-cobertura", "la-puerta-viva"],
+        "personajes_relacionados": ["jesus", "david"]
+      },
+      "gamificacion": {
+        "xp_lectura": 300,
+        "logro_id": "pasos-de-seguridad"
+      }
     }
 ]

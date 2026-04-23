@@ -52,6 +52,19 @@
     "tags": "belen rut, belén, rut, miqueas, mateo"
   },
   {
+    "id": "belen",
+    "nombre": "Belén",
+    "titulo": "Cuna de la Realeza Humilde",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7049,
+      35.2038
+    ],
+    "era": "Nacimiento del Mesías / Dinastía Davídica",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "belen, belén, miqueas, mateo, lucas"
+  },
+  {
     "id": "belen-nacimiento",
     "nombre": "Belén (Efrata)",
     "titulo": "La Cuna del Mesías",
@@ -232,6 +245,19 @@
     "era": "Atemporal / Gloria de la Creación",
     "testamento": "Antiguo Testamento",
     "tags": "cumbres norte, cumbres del norte (hermón y líbano), salmos, cantares, oseas"
+  },
+  {
+    "id": "desierto-judea",
+    "nombre": "Desierto de Judea",
+    "titulo": "El Espacio de la Dependencia",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.65,
+      35.35
+    ],
+    "era": "Tentación en el Desierto / Refugio de David",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "desierto judea, desierto de judea, mateo, lucas, salmos"
   },
   {
     "id": "desierto-de-sin",
@@ -1053,6 +1079,19 @@
     "tags": "quiriat jearim, quiriat-jearim, 1 samuel, 2 samuel, 1 crónicas"
   },
   {
+    "id": "rediles-judea",
+    "nombre": "Rediles de Judea",
+    "titulo": "El Perímetro de Seguridad",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7049,
+      35.2038
+    ],
+    "era": "Tradición de los Pastores de Judea",
+    "testamento": "Nuevo y Antiguo Testamento",
+    "tags": "rediles judea, rediles de judea, juan, salmos, 1 samuel"
+  },
+  {
     "id": "refidim",
     "nombre": "Refidim",
     "titulo": "La Peña de Horeb",
@@ -1259,6 +1298,19 @@
     "era": "Era Post-Diluviana (Descendientes de Noé)",
     "testamento": "Antiguo Testamento",
     "tags": "torre babel, torre de babel, génesis"
+  },
+  {
+    "id": "torre-del-rebaño",
+    "nombre": "Torre del Rebaño",
+    "titulo": "El Observatorio de la Pureza",
+    "archivo": "evangelios.json",
+    "coords": [
+      31.7,
+      35.21
+    ],
+    "era": "Profecía Mesiánica / Servicio del Templo",
+    "testamento": "Antiguo y Nuevo Testamento",
+    "tags": "torre del rebaño, génesis, miqueas, lucas"
   },
   {
     "id": "ur-caldeos",

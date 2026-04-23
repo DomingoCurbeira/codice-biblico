@@ -18,12 +18,12 @@ function generarHTMLPagina(cuarteto) {
                 <p class="content-text">${p.contexto_cultural}</p>
 
                 <div class="perla-etymos">
-                    <strong>PERLA:</strong> "${p.perla_spiritual}"
+                    <strong>PERLA:</strong> "${p.perla_espiritual}"
                 </div>
 
                 <div class="footer-card">
                     <span>${p.ejemplo_biblico}</span>
-                    <span>#${p.id}</span>
+                    
                 </div>
             </div>
         `;

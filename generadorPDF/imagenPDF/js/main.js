@@ -1,37 +1,39 @@
 const URL_INDICE = '../../data/indices/indice_estudios.json';
 const URL_DATA = '../../data/estudios/tematicos.json';
 
+const estudiosLargos = ["el-dios-de-oportunidades", "frecuencia-espiritu-sintonia", "la-paradoja-de-la-provision", "gedeon-guerrero-lagar", 'perfume-invitado', 'codigo-sacrificio'];
+
 function generarHTML(e) {
-    // Filtramos el contenido para dejar solo lo más potente
+    // 1. Detección: ¿Es un plato de ración doble?
+    const esLargo = estudiosLargos.includes(e.id);
+    const claseExtra = esLargo ? "formato-compacto" : "";
+
+    // 2. Preparación: Filtramos los ingredientes (bloques)
     const contenidoFiltrado = e.contenido.filter(bloque => 
         ['intro', 'subtitulo', 'parrafo', 'destacado'].includes(bloque.tipo) && 
         bloque.texto !== "Reflexión Personal"
     );
 
+    // 3. Cocción: Mapeamos el contenido a HTML
     const contenidoHTML = contenidoFiltrado.map(bloque => {
-        console.log(bloque)
         switch (bloque.tipo) {
-            
             case 'intro': 
             case 'parrafo': return `<p class="parrafo-estudio">${bloque.texto}</p>`;
             case 'subtitulo': return `<h3 class="subtitulo-estudio">${bloque.texto}</h3>`;
-           
-            case 'destacado': return `<div class="destacado-estudio">${bloque.texto}
-            
-            </div>`;
+            case 'destacado': return `<div class="destacado-estudio">${bloque.texto}</div>`;
             default: return '';
         }
     }).join('');
-console.log(e)
+
+    // 4. Servicio: UN SOLO RETURN con toda la estructura
     return `
-        <div class="pdf-page">
+        <div class="pdf-page ${claseExtra}">
             <header class="study-header">
+                <span class="version-tag">CÓDICE BÍBLICO</span>
                 <h1>${e.titulo}</h1>
                 <h2>${e.subtitulo}</h2>
                 <div class="study-meta">
-                    <span>✍️ ${e.autor}</span>
-                    <span>⏱️ ${e.tiempo_lectura}</span>
-                    <span>📍 ESTUDIO TEMÁTICO</span>
+                   
                 </div>
             </header>
 
@@ -43,12 +45,9 @@ console.log(e)
             <div class="content-body">
                 ${contenidoHTML}
             </div>
-    
-            
 
             <footer>
-                <span>Códice Bíblico </span>
-                <span>Fecha: ${e.fecha_programada}</span>
+                <span>Códice Bíblico | Fecha: ${e.fecha_programada}</span>
                 
             </footer>
         </div>

@@ -3354,6 +3354,32 @@
           "perla_spiritual": "Bar-Timay es la etiqueta de 'hijo de la oscuridad' que te mantiene sentado al borde del camino. El diseño de Bartimeo nos enseña que tu linaje terrenal no dicta tu capacidad de oír al Mesías. Puedes ser 'Hijo de lo Impuro' para los hombres, pero ser reconocido como un hijo de fe para Dios. No dejes que tu nombre de mendigo silencie tu grito de hijo.",
           "ejemplo_biblico": "Marcos 10:46 - '...Bartimeo el ciego, hijo de Timeo, estaba sentado junto al camino mendigando.'",
           "tags": ["hijo", "arameo", "identidad", "jericó"]
+      },
+      {
+          "id": "poimen-gr",
+          "palabra_espanol": "Pastor (Poimēn)",
+          "idioma": "Griego",
+          "original": "ποιμήν",
+          "transliteracion": "Poimēn",
+          "raiz": "Deriva de una raíz que significa 'proteger' o 'guardar el rebaño'.",
+          "definicion_corta": "Aquel que alimenta, guía y custodia el rebaño.",
+          "contexto_cultural": "En el contexto de Judea, el pastor no era un acompañante pasivo. Era el responsable legal de la vida de cada oveja. Su posición física era la clave del diseño: él debía estar donde estuviera el peligro para interceptarlo.",
+          "perla_spiritual": "El Poimēn no vigila desde la comodidad; su diseño exige que su presencia sea el perímetro de seguridad. Si el Pastor es 'Bueno' (Kalos: excelente en su función), significa que su vigilancia es ininterrumpida. No eres una oveja a la deriva; eres una unidad de diseño bajo el cuidado de un experto en protección que prefiere poner Su vida antes que permitir una brecha en el sistema.",
+          "ejemplo_biblico": "Juan 10:11 - 'Yo soy el buen pastor; el buen pastor su vida da por las ovejas.'",
+          "tags": ["pastor", "protección", "autoridad", "cuidado"]
+      },
+      {
+          "id": "thura-gr",
+          "palabra_espanol": "Puerta (Thúra)",
+          "idioma": "Griego",
+          "original": "θύרה",
+          "transliteracion": "Thúra",
+          "raiz": "Se refiere a una abertura, portal o punto de acceso.",
+          "definicion_corta": "Portal de entrada o salida; el límite entre dos estados.",
+          "contexto_cultural": "En los rediles de piedra de las montañas, la 'Thúra' no era un objeto de madera, sino un espacio vacío que el pastor llenaba con su propio cuerpo al acostarse. La puerta era una persona, no un mueble.",
+          "perla_spiritual": "La Thúra es el 'Firewall' vivo de tu existencia. En el diseño del Reino, Jesús como Puerta actúa como un filtro inteligente: Él deja pasar la provisión y el descanso, pero bloquea la entropía y el ataque. Ser 'La Puerta' significa que nada cruza hacia tu sistema sin que Él lo procese primero. Tu descanso real comienza cuando dejas de intentar fabricar tus propias cerraduras y confías en la Barrera Viva que custodia tu entrada.",
+          "ejemplo_biblico": "Juan 10:9 - 'Yo soy la puerta; el que por mí entrare, será salvo...'",
+          "tags": ["puerta", "acceso", "seguridad", "filtro"]
       }
 
 

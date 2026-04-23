@@ -2,8 +2,10 @@ const URL_INDICE = '../../data/indices/indice_onomastiko.json';
 const URL_DATA_BASE = '../../data/onomastiko/';
 
 function generarHTML(p) {
-    const fixPath = (url) => url ? url.replace('../', '../../') : '';
     
+    const fixPath = (url) => url ? url.replace('../', '../../') : '';
+
+    console.log(fixPath)
     return `
         <div class="pdf-page">
             <div class="ficha-onomastiko">
@@ -67,6 +69,7 @@ async function vistaPrevia() {
 
         const resData = await fetch(`${URL_DATA_BASE}${ref.archivo_fuente}`);
         const data = await resData.json();
+        
         const p = data.find(i => i.id === ref.id);
 
         previewContent.innerHTML = generarHTML(p);

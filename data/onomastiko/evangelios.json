@@ -466,5 +466,44 @@
                 "perla_profunda": "La verdadera ceguera no está en los ojos, sino en la falta de un grito que reconozca la visitación de Dios. Tu libertad comienza cuando sueltas el manto que te define como víctima."
             },
             "tags": ["bartimeo", "milagro", "visión", "jericó", "fe"]
+        },
+        {
+            "id": "onoma-buen-pastor",
+            "seccion": "ONOMASTIKO",
+            "archivo_fuente": "evangelios.json",
+            "tiene_transicion": true,
+            "config_tarjeta": {
+                "color_primario": "#1a2e05", 
+                "color_acento": "#fbbf24",
+                "avatar_url": "../img/perfiles/buen-pastor-redil.webp",
+                "gradiente": "linear-gradient(135deg, #1a2e05 0%, #020617 100%)"
+            },
+            "perfil_card": {
+                "nombre_principal": "El Buen Pastor",
+                "subtitulo_rol": "La Barrera Viva",
+                "bio_resumen": "En el contexto de las montañas de Judea, el pastor no era un espectador, sino el cierre físico del redil. Al no haber puertas de madera, él mismo se acostaba en la entrada, convirtiendo su propio cuerpo en el único filtro contra la entropía y el peligro.",
+                "logro_destacado": "Vencer al Lobo desde el Suelo",
+                "iconos_accion": [
+                    { "tipo": "huellas", "id": "el-buen-pastor", "tooltip": "Huellas" },
+                    { "tipo": "etymos", "id": "poimen-gr", "tooltip": "Etymos" },
+                    { "tipo": "cronos", "id": "rediles-judea", "tooltip": "Cronos" }
+                ]
+            },
+            "fases": {
+                "nueva": {
+                    "nombre": "Thúra-Portal",
+                    "titulo": "La Puerta del Reino",
+                    "avatar": "../img/perfiles/jesus-puerta.webp",
+                    "bio": "Jesús eleva el diseño del pastor a una dimensión eterna: Él no solo cuida el redil, Él SE CONVIERTE en la Puerta. Ahora, ninguna crisis, enfermedad o ataque puede tocar tu sistema sin pasar primero por Su victoria. Él es el firewall vivo de tu herencia.",
+                    "etymos_id": "thura-gr"
+                }
+            },
+            "datos_identidad": {
+                "original_idioma": "רֹעֶה ➔ θύρα",
+                "transliteracion": "Ro'eh ➔ Thúra",
+                "significado_core": "Aquel que pastorea ➔ El Portal / La Entrada",
+                "perla_profunda": "Tu descanso no depende de la ausencia de lobos, sino de la posición de tu Pastor. Si Él es la Puerta, el enemigo tiene que pasar por encima de la Resurrección antes de llegar a ti."
+            },
+            "tags": ["pastor", "puerta", "cobertura", "judea", "seguridad"]
         }
 ]

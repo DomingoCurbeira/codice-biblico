@@ -1,8 +1,8 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-21",
-    "total_global": 50
+    "ultima_sincronizacion": "2026-04-23",
+    "total_global": 51
   },
   "identidades": [
     {
@@ -80,6 +80,20 @@
         "jerusalén",
         "david",
         "linaje"
+      ]
+    },
+    {
+      "id": "onoma-buen-pastor",
+      "nombre": "El Buen Pastor",
+      "subtitulo": "La Barrera Viva",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/buen-pastor-redil.webp",
+      "tags": [
+        "pastor",
+        "puerta",
+        "cobertura",
+        "judea",
+        "seguridad"
       ]
     },
     {

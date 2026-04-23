@@ -7,11 +7,12 @@
 
 .pdf-page {
     width: 794px; height: 1122px;
-    padding: 30px; background: #e5e7eb;
+    padding: 30px 40px;
+    background: #e5e7eb;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 15px;
+    gap: 10px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -19,11 +20,17 @@
 .etymos-card {
     background: var(--paper);
     border: 1px solid #d1d5db;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     position: relative;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.etymos-card header {
+    border-bottom: 1px solid #1e3a8a;
+    margin-bottom: 8px;
 }
 
 /* DECORACIÓN DE ESQUINA */
@@ -36,7 +43,7 @@
 
 header { border-bottom: 2px solid var(--etymos-blue); margin-bottom: 10px; }
 .lang-tag { font-size: 0.6rem; font-weight: bold; color: var(--etymos-gold); text-transform: uppercase; letter-spacing: 1px; }
-.word-main { font-family: 'Playfair Display', serif; font-size: 1.4rem; color: var(--ink); margin: 2px 0; }
+.word-main { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--ink); margin: 2px 0; }
 .original-script { font-size: 1.2rem; color: var(--etymos-blue); margin-bottom: 5px; text-align: right; }
 
 .section-label { font-size: 0.65rem; font-weight: bold; color: #6b7280; text-transform: uppercase; margin-top: 8px; display: block; }
@@ -225,12 +232,11 @@ header {
     padding-bottom: 8px;
 }
 
-.lang-tag { 
-    font-size: 0.65rem; 
-    font-weight: 800; 
-    color: var(--etymos-gold); 
-    text-transform: uppercase; 
-    letter-spacing: 1.5px; 
+.lang-tag {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: #c5a059;
+    font-weight: bold;
 }
 
 .word-main { 
@@ -247,19 +253,17 @@ header {
     margin-top: -5px;
 }
 
-.section-label { 
-    font-size: 0.6rem; 
-    font-weight: bold; 
-    color: #9ca3af; 
-    text-transform: uppercase; 
-    margin-top: 10px; 
-    display: block; 
-    letter-spacing: 1px;
+.section-label {
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: #64748b;
+    text-transform: uppercase;
+    margin-top: 5px;
 }
 
 .content-text { 
-    font-size: 0.82rem; 
-    line-height: 1.5; 
+    font-size: 0.75rem;
+    line-height: 1.3; 
     text-align: justify; 
     margin: 4px 0; 
     color: #374151; 
@@ -272,7 +276,7 @@ header {
     padding: 10px; 
     margin-top: auto; 
     font-style: italic; 
-    font-size: 0.78rem;
+    font-size: 0.72rem;
     line-height: 1.4;
 }
 
@@ -285,4 +289,41 @@ header {
     font-size: 0.6rem; 
     color: #9ca3af; 
     font-weight: bold;
+}
+
+/* Estilo del Botón de Regreso */
+.btn-regreso {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 18px;
+    background: #1e293b; /* Color oscuro coherente con el Códice */
+    color: #94a3b8;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000; /* Para que siempre esté por encima */
+}
+
+.btn-regreso:hover {
+    background: #0f172a;
+    color: #fde68a; /* Dorado al pasar el mouse */
+    border-color: #d97706;
+    transform: translateX(-5px);
+}
+
+.btn-regreso .icon {
+    font-size: 1rem;
+}
+
+/* Ajuste para que el dashboard de la app no choque con el botón */
+.ui-wrapper, .dashboard {
+    margin-top: 40px; 
 }

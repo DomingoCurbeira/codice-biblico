@@ -1,0 +1,143 @@
+:root {
+    --gold: #d97706;
+    --gold-light: #fde68a;
+    --dark-bg: #0f172a;
+    --card-bg: #1e293b;
+    --text-gray: #94a3b8;
+    --teal: #0d9488;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark-bg);
+    font-family: 'Lora', serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    padding: 40px;
+    text-align: center;
+}
+
+.brand-tag {
+    color: var(--gold);
+    font-size: 0.7rem;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.main-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin: 10px 0;
+    background: linear-gradient(to right, #ffffff, var(--gold-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-header p {
+    color: var(--text-gray);
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+/* Grid de Tarjetas */
+.grid-apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.app-card {
+    background: var(--card-bg);
+    border: 1px solid #334155;
+    padding: 30px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--gold);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background: #243146;
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.app-card h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold-light);
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.app-card p {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    line-height: 1.4;
+}
+
+.main-footer {
+    margin-top: 60px;
+    border-top: 1px solid #334155;
+    padding-top: 20px;
+    font-size: 0.75rem;
+    color: var(--text-gray);
+}
+
+/* Estilo del Botón de Regreso */
+.btn-regreso {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 18px;
+    background: #1e293b; /* Color oscuro coherente con el Códice */
+    color: #94a3b8;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid #334155;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000; /* Para que siempre esté por encima */
+}
+
+.btn-regreso:hover {
+    background: #0f172a;
+    color: #fde68a; /* Dorado al pasar el mouse */
+    border-color: #d97706;
+    transform: translateX(-5px);
+}
+
+.btn-regreso .icon {
+    font-size: 1rem;
+}
+
+/* Ajuste para que el dashboard de la app no choque con el botón */
+.ui-wrapper, .dashboard {
+    margin-top: 40px; 
+}
+
+.huellas{
+    filter: grayscale(100%) brightness(500%);
+}
