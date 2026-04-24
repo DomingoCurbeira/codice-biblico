@@ -284,3 +284,20 @@ input:checked + .slider:before {
     border-color: var(--color-acento-personaje); /* Puedes pasarle el color dinámicamente */
     transform: translateX(-5px);
 }
+
+.perfil-actions {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+/* .action-btn.rutas {
+    background: linear-gradient(135deg, #334155, #0f172a);
+    border: 1px solid var(--gold);
+} */
+
+.action-btn.rutas:hover {
+    background: var(--gold);
+    color: white;
+}

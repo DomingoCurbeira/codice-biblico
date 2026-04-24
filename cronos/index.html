@@ -10,6 +10,24 @@
 
     gtag('config', 'G-EN4P6WTVWE');
     </script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        fbq('init', '1062905893577259'); 
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" 
+            src="https://www.facebook.com/tr?id=1062905893577259&ev=PageView&noscript=1"/>
+    </noscript>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Cronos | Mapa Bíblico Interactivo</title>
@@ -44,6 +62,28 @@
         <button onclick="retornarAOrigen()">
             <i class="fas fa-arrow-left"></i> Volver al Estudio: <span id="nombre-origen"></span>
         </button>
+    </div>
+
+    <div id="control-ruta" 
+        class="hidden"
+        >
+        <div class="columna">
+            <div class="fila">
+                <div class="ruta-header">
+                    <span class="ruta-tag">SIGUIENDO RUTA</span>
+                    <h3 id="ruta-personaje-nombre">---</h3>
+                </div>
+                <button onclick="cerrarModoRuta()" class="btn-cerrar-ruta" title="Cerrar Trayectoria">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 6L6 18M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="distancia-info" class="distancia-badge">
+                <h3 class="ruta-personaje-nombre">Distancia Recorrida: <span id="distancia-ruta" class="ruta-personaje-nombre">   0 km</span></h3>
+                
+            </div>
+        </div>
     </div>
 
     
@@ -128,6 +168,8 @@
         <div id="search-results" class="search-results-list hidden"></div>
         
     </div>
+
+
     
     <div id="status-log" style="color: white; font-size: 12px; padding: 5px;"></div>
 
@@ -180,6 +222,19 @@
             </footer>
         </div>
     </div>
+
+    <div id="control-ruta" class="hidden">
+    <h2 id="ruta-personaje-nombre"></h2>
+    <div class="distancia-container">
+        <i class="fas fa-route"></i> <span id="distancia-ruta">Calculando...</span>
+    </div>
+    <button onclick="cerrarModoRuta()">×</button>
+</div>
+
+    <div id="timeline-ruta" class="hidden">
+        <div id="hitos-container"></div>
+    </div>
+
 
     <div id="lightbox" class="hidden" onclick="this.classList.add('hidden')">
         <img id="lightbox-img" src="" alt="Full Screen">

@@ -2993,5 +2993,229 @@
                 "xp_lectura": 350,
                 "logro_id": "conquistador-de-gigantes"
             }
+        },
+        {
+            "id": "valle-hebron",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
+            },
+            "mapa": {
+                "coords": [31.5350, 35.1050],
+                "zoom": 14,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#10b981"
+            },
+            "perfil": {
+                "nombre": "Valle de Hebrón",
+                "titulo_corto": "El Umbral del Proceso Divino",
+                "significado_nombre": "Lugar de comunión y transición.",
+                "ubicacion_geografica": "Tierras altas de Judá, rodeando la ciudad de Hebrón.",
+                "clima_entorno": "Valles fértiles con pastizales extensos, ideales para el ganado mayor.",
+                "imagen_principal": "../img/lugares/valle-hebron.webp",
+                "galeria": ["../img/lugares/pastizales-juda.webp"]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": ["Génesis"],
+                "era_biblica": "Era Patriarcal"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Terrazas de Cultivo Antiguas",
+                "descripcion": "Restos de sistemas agrícolas que datan de la Edad del Bronce Medio, confirmando la capacidad de la zona para sostener grandes clanes familiares como el de Jacob."
+            },
+            "narrativa": {
+                "resumen_epico": "Aquí, bajo la mirada de Jacob, José inició la caminata que cambiaría el destino del mundo. No sabía que al salir del valle dejaría atrás su túnica de colores para entrar en un largo invierno de servidumbre. Este lugar representa **el peso de la obediencia filial**: José fue enviado a buscar a sus hermanos y, a pesar de la tensión conocida, obedeció sin cuestionar.",
+                "dato_curioso": "Fue en este mismo valle donde siglos después los espías de Moisés encontrarían los racimos de uvas gigantes.",
+                "conexion_jesus": "José saliendo de Hebrón es un eco del Mesías saliendo del seno del Padre para buscar a sus hermanos (la humanidad), sabiendo que el recibimiento sería el rechazo y la entrega.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Inocencia, disposición y el dolor de la separación necesaria.",
+                "fortalezas": ["Obediencia absoluta", "Amor fraternal a pesar del rechazo"],
+                "debilidades": ["Vulnerabilidad ante la envidia"],
+                "simbologia": [
+                    {
+                        "objeto": "La Túnica de Colores",
+                        "significado": "Representa el favor del padre que, aunque es un regalo, se convierte en el catalizador del proceso de crisol en el desierto."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "A veces, el lugar de tu mayor comodidad es el punto de partida hacia tu mayor propósito.",
+                "preguntas_reflexion": [
+                    "¿Estás dispuesto a obedecer al Padre cuando el encargo te lleva hacia personas que te han rechazado?",
+                    "¿Puedes ver tu crisis actual como un 'envío' hacia un propósito mayor?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "El Envío",
+                    "evento": "Jacob envía a José desde el Valle de Hebrón hacia Siquem.",
+                    "referencia": "Génesis 37:14",
+                    "vinculo_id": "jose-envio"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": ["hebron", "dotan"],
+                "personajes_relacionados": ["jacob", "jose"],
+                "estudios": ["el-proceso-de-jose"]
+            },
+            "gamificacion": {
+                "xp_lectura": 200,
+                "logro_id": "hijo-obediente"
+            }
+        },
+        {
+            "id": "avaris-egipto",
+            "activo": true,
+            "meta": { "version": "4.0-cronos-deep", "fecha_actualizacion": "2026-04-24" },
+            "mapa": { "coords": [30.7875, 31.8214], "zoom": 12, "icono_mapa": "../img/ui/markers/lugar-biblico.svg", "marcador_color": "#10b981" },
+            "perfil": {
+                "nombre": "Avaris (Tell el-Dab'a)",
+                "titulo_corto": "La Capital de los Reyes Extranjeros",
+                "significado_nombre": "Sede del poder Hicsoc y portal hacia el Delta.",
+                "ubicacion_geografica": "Delta oriental del Nilo, Egipto.",
+                "clima_entorno": "Tierras bajas aluviales, clima húmedo y caluroso, centro de comercio internacional.",
+                "imagen_principal": "../img/lugares/avaris.webp",
+                "galeria": ["../img/lugares/delta-nilo.webp"]
+            },
+            "contexto": { "testamento": "Antiguo Testamento", "libros_aparicion": ["Génesis"], "era_biblica": "Segundo Período Intermedio / Era Patriarcal" },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "El Palacio del Funcionario Asiático",
+                "descripcion": "Se encontró una tumba con una estatua de un oficial con cabello de 'hongo' y túnica multicolor. Es la prueba arqueológica más cercana a la figura histórica de José en Egipto."
+            },
+            "narrativa": {
+                "resumen_epico": "Avaris es el lugar donde José aprendió el idioma de sus captores y la administración de un imperio. Fue aquí, en la casa de Potifar, donde José demostró que **la integridad no depende del entorno**. En medio de una cultura politeísta y sofisticada, el joven hebreo mantuvo su conexión con el Dios de sus padres, convirtiéndose en el administrador más próspero de la ciudad.",
+                "dato_curioso": "Avaris era una ciudad cosmopolita donde mercaderes de Creta, Canaán y Nubia se mezclaban.",
+                "conexion_jesus": "Cristo viviendo en el mundo sin ser del mundo. José en Avaris es el prototipo del creyente que influye en la cultura sin contaminarse de ella.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Resiliencia ante la injusticia y excelencia en la servidumbre.",
+                "fortalezas": ["Integridad moral", "Sabiduría administrativa"],
+                "debilidades": ["Aislamiento cultural"],
+                "simbologia": [
+                    { "objeto": "La Casa de Potifar", "significado": "El campo de entrenamiento donde lo privado (la tentación de la esposa de Potifar) precede a lo público (el trono)." }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "Dios puede prosperarte en el lugar de tu cautiverio si mantienes tu corazón en Su altar.",
+                "preguntas_reflexion": ["¿Estás trabajando con excelencia aun cuando nadie te reconoce?", "¿Tu integridad es negociable según el país o la cultura donde estés?"]
+            },
+            "linea_tiempo": [
+                { "fase": "La Servidumbre", "evento": "José es vendido a Potifar, oficial de Faraón.", "referencia": "Génesis 39:1", "vinculo_id": "jose-potifar" }
+            ],
+            "vinculos": { "lugares_relacionados": ["on-heliopolis", "egipto-jose"], "personajes_relacionados": ["jose", "potifar"], "estudios": ["integridad-en-egipto"] },
+            "gamificacion": { "xp_lectura": 300, "logro_id": "administrador-fiel" }
+        },
+        {
+    "id": "on-heliopolis",
+    "activo": true,
+    "meta": {
+        "version": "4.0-cronos-deep",
+        "fecha_actualizacion": "2026-04-24"
+    },
+    "mapa": {
+        "coords": [30.1297, 31.3075],
+        "zoom": 12,
+        "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+        "marcador_color": "#10b981"
+    },
+    "perfil": {
+        "nombre": "On (Heliópolis)",
+        "titulo_corto": "La Ciudad de los Sabios y el Sol",
+        "significado_nombre": "On: 'Pilar' o 'Ciudad del Sol'. Un centro de iluminación intelectual y espiritual.",
+        "ubicacion_geografica": "Vértice del Delta del Nilo, al norte de la actual El Cairo, Egipto.",
+        "clima_entorno": "Clima árido y soleado, dominado por la arquitectura monumental de caliza y obeliscos de granito rojo que reflejaban la luz del desierto.",
+        "imagen_principal": "../img/lugares/heliopolis.webp",
+        "galeria": [
+            "../img/lugares/obelisco-on.webp"
+        ]
+    },
+    "contexto": {
+        "testamento": "Antiguo Testamento",
+        "libros_aparicion": [
+            "Génesis",
+            "Éxodo",
+            "Ezequiel"
+        ],
+        "era_biblica": "Era Patriarcal / Reino Medio Egipcio"
+    },
+    "evidencia_arqueologica": {
+        "hallazgo_clave": "El Obelisco de Senusret I",
+        "descripcion": "Un monolito de granito rojo de 20 metros de altura que aún permanece en pie. Es uno de los pocos testigos mudos de la época de José, marcando el lugar exacto del gran Templo del Sol donde se concentraba la élite científica de la antigüedad."
+    },
+    "narrativa": {
+        "resumen_epico": "On no era una ciudad para soldados, sino para mentes brillantes. En el mundo antiguo, Heliópolis funcionaba como la universidad más prestigiosa del imperio, donde la astronomía y la teología se entrelazaban bajo la sombra de los obeliscos. Para José, llegar a On no fue solo un ascenso social al casarse con Asenat, hija del sacerdote Potifera; fue el escenario donde la <strong>revelación del Espíritu superó a la lógica humana</strong>. En esta ciudad de sabios, el ex-esclavo hebreo demostró que la sabiduría que proviene del Creador es capaz de descifrar los enigmas que la ciencia egipcia ni siquiera podía comprender. On representa el momento en que el Diseño Divino se posiciona por encima de las estructuras de poder intelectual más altas de la tierra.",
+        "dato_curioso": "Siglos después de José, se dice que sabios griegos como Platón y Solón viajaron a On para aprender de los sacerdotes egipcios las matemáticas y la astronomía que José ya dominaba por revelación.",
+        "conexion_jesus": "Cristo es la verdadera 'Luz del Mundo' que brilla con más fuerza que el sol de Heliópolis. Así como José trajo sabiduría y salvación a la capital del conocimiento pagano, Jesús es la Sabiduría encarnada que ilumina a toda nación, confundiendo a los sabios de este siglo.",
+        "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+        "perfil_emocional": "Autoridad espiritual, dignidad recuperada y la calma de quien posee una verdad superior.",
+        "fortalezas": [
+            "Revelación divina sobre el intelecto humano",
+            "Influencia en las esferas de poder más altas",
+            "Identidad intacta en entornos extranjeros"
+        ],
+        "debilidades": [
+            "Entorno de misticismo y politeísmo extremo",
+            "Riesgo de asimilación cultural y pérdida de raíces"
+        ],
+        "simbologia": [
+            {
+                "objeto": "El Obelisco",
+                "significado": "Representa el rayo del sol petrificado. Para el Códice, simboliza la estabilidad de la verdad de Dios que permanece firme frente al paso de los imperios."
+            },
+            {
+                "objeto": "El Lino Fino",
+                "significado": "La vestimenta de José en On simboliza la pureza y la justicia otorgada por Dios tras superar la prueba del crisol."
+            }
+        ]
+    },
+    "aplicacion_personal": {
+        "leccion_clave": "Tu preparación en el anonimato de la cárcel determina tu capacidad de gobierno en el palacio de los sabios. La sabiduría de Dios te dará un lugar en mesas que el esfuerzo humano jamás alcanzaría.",
+        "preguntas_reflexion": [
+            "¿Buscas respuestas en la sabiduría de este mundo o dependes de la revelación del Espíritu en tu toma de decisiones?",
+            "¿Estás preparado para mantener tu fe innegociable cuando Dios te otorgue influencia en lugares de poder?",
+            "¿Puedes reconocer que tu posición actual es una plataforma para que la luz de Dios brille en tu entorno profesional?"
+        ]
+    },
+    "linea_tiempo": [
+        {
+            "fase": "La Exaltación",
+            "evento": "José es presentado ante Faraón, interpreta el sueño de las vacas y es nombrado visir.",
+            "referencia": "Génesis 41:38-40",
+            "vinculo_id": "jose-visir"
+        },
+        {
+            "fase": "El Vínculo en On",
+            "evento": "Faraón entrega a Asenat como esposa a José, vinculándolo a la élite de Heliópolis.",
+            "referencia": "Génesis 41:45",
+            "vinculo_id": "boda-asenat"
         }
+    ],
+    "vinculos": {
+        "lugares_relacionados": [
+            "avaris-egipto",
+            "egipto-jose",
+            "valle-hebron"
+        ],
+        "personajes_relacionados": [
+            "jose",
+            "faraon",
+            "asenat"
+        ],
+        "estudios": [
+            "sabiduria-divina-vs-humana",
+            "el-caracter-en-la-exaltacion"
+        ]
+    },
+    "gamificacion": {
+        "xp_lectura": 400,
+        "logro_id": "luz-en-la-ciudad-del-sol"
+    }
+}
 ]

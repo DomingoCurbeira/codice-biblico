@@ -68,19 +68,20 @@ function renderCardHTML(p, ref) {
                 ? p.fases.nueva.etymos_id 
                 : icon.id;
 
-    // AÑADIMOS EL PARÁMETRO DE RETORNO (p.id)
     if (icon.tipo === "huellas") {
         href = `../huellas/perfil.html?id=${refId}&retorno=${p.id}`;
     } else if (icon.tipo === "etymos") {
         href = `../etymos/palabra.html?id=${refId}&retorno=${p.id}`;
     } else if (icon.tipo === "cronos") {
-       // 1. Guardamos el ID en la memoria persistente
         localStorage.setItem('last_onoma_id', p.id); 
-        
-        // 2. Navegamos (aunque el mapa limpie la URL, el localStorage resiste)
         href = `../cronos/index.html?lugar=${refId}&retorno=${p.id}`;
+    } 
+    // NUEVA LÓGICA PARA RUTAS
+    else if (icon.tipo === "rutas") {
+        localStorage.setItem('last_onoma_id', p.id);
+        // Enviamos el ID del personaje como parámetro de ruta
+        href = `../cronos/index.html?ruta=${p.id}&retorno=${p.id}`;
     }
-    // console.log(p.id)
 
     return `
         <a href="${href}" class="action-btn ${icon.tipo}" title="${icon.tooltip}">
@@ -147,8 +148,13 @@ function renderCardHTML(p, ref) {
 }
 
 function getIconSymbol(tipo) {
-    const icons = { 'huellas': '👣', 'etymos': '🔍', 'cronos': '🌎' };
-    return icons[tipo] || '•';
+    switch(tipo) {
+        case 'huellas': return '👣';
+        case 'etymos': return '🔍';
+        case 'cronos': return '🌎';
+        case 'rutas': return '🗺️'; // Icono de camino/ruta
+        default: return '✨';
+    }
 }
 
 function inyectarAccionesCompartir(p, info) {

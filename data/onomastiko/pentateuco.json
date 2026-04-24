@@ -135,7 +135,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "abraham", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "abram-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "ur-caldeos", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "ur-caldeos", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-abraham-fe", "tooltip": "Viajes" }
             ]
         },
         "fases": {
@@ -291,7 +292,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "jose-egipto", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "jose-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "dotan", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "dotan", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-jose-fe", "tooltip": "Trayectoria" }
             ]
         },
         "fases": {
@@ -330,7 +332,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "moises", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "moises-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "monte-sinai", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "monte-sinai", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-moises-fe", "tooltip": "Trayectoria" }
             ]
         },
         "fases": {

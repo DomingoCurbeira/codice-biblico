@@ -26,6 +26,19 @@
     "tags": "antioquia mision, antioquía de siria, hechos, gálatas"
   },
   {
+    "id": "avaris-egipto",
+    "nombre": "Avaris (Tell el-Dab'a)",
+    "titulo": "La Capital de los Reyes Extranjeros",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.7875,
+      31.8214
+    ],
+    "era": "Segundo Período Intermedio / Era Patriarcal",
+    "testamento": "Antiguo Testamento",
+    "tags": "avaris egipto, avaris (tell el-dab'a), génesis"
+  },
+  {
     "id": "babilonia",
     "nombre": "Babilonia",
     "titulo": "El Crisol del Exilio",
@@ -1027,6 +1040,19 @@
     "tags": "noche jerusalen, noche en jerusalén, juan"
   },
   {
+    "id": "on-heliopolis",
+    "nombre": "On (Heliópolis)",
+    "titulo": "La Ciudad de los Sabios",
+    "archivo": "pentateuco.json",
+    "coords": [
+      30.1297,
+      31.3075
+    ],
+    "era": "No definida",
+    "testamento": "",
+    "tags": "on heliopolis, on (heliópolis)"
+  },
+  {
     "id": "peniel",
     "nombre": "Peniel",
     "titulo": "El Rostro de Dios",
@@ -1363,6 +1389,19 @@
     "era": "Inicios de la Monarquía (Reinado de Saúl)",
     "testamento": "Antiguo Testamento",
     "tags": "valle ela, valle de ela, 1 samuel, 2 samuel"
+  },
+  {
+    "id": "valle-hebron",
+    "nombre": "Valle de Hebrón",
+    "titulo": "El Umbral del Proceso Divino",
+    "archivo": "pentateuco.json",
+    "coords": [
+      31.535,
+      35.105
+    ],
+    "era": "Era Patriarcal",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle hebron, valle de hebrón, génesis"
   },
   {
     "id": "valle-jezreel",

@@ -5,25 +5,37 @@
 let map;
 let todosLosLugares = [];
 const markersById = {};
+let capaRuta = null; // Para poder borrarla después
+
+const COLORES_SECCION = {
+    "pentateuco.json": "#10b981",   // Verde Esmeralda
+    "historicos.json": "#f59e0b",    // Ámbar
+    "poeticos.json": "#8b5cf6",      // Violeta
+    "profetas.json": "#ef4444",      // Rojo
+    "evangelios.json": "#0ea5e9",    // Azul Cielo
+    "apostolicos.json": "#64748b"    // Pizarra
+};
 
 document.addEventListener('DOMContentLoaded', async () => {
-    initMap();
+   initMap();
     checkRetorno();
-    // 1. Cargamos el archivo principal de puntos
-    await cargarMapaBase(); 
-    gestionarTabs();
     
-    const params = new URLSearchParams(window.location.search);
-    const lugarId = params.get('lugar');
-    if (lugarId) {
-        viajarA(lugarId);
-    } else {
-        const panel = document.getElementById('panel-detalle');
-        if (panel) panel.classList.add('hidden');
-    }
-
+    // 1. Cargamos el archivo principal de puntos (OBLIGATORIO ESPERAR)
+    await cargarMapaBase(); 
+    
+    gestionarTabs();
     inicializarBuscador();
+
+    const params = new URLSearchParams(window.location.search);
+    const rutaId = params.get('ruta');
+
+    if (rutaId) {
+        // Le damos un pequeño respiro al mapa para que se asiente
+       setTimeout(() => window.cargarTrayectoria(rutaId), 300);
+    }
 });
+
+
 
 function initMap() {
     map = L.map('map', { zoomControl: false, attributionControl: false })
@@ -743,6 +755,8 @@ function inyectarBoton(btn) {
     }
 }
 
+
+
 // ==========================================
 // LÓGICA DEL MENÚ ECOSISTEMA (LAUNCHER)
 // ==========================================
@@ -781,3 +795,185 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+
+// --- FUNCIONES GLOBALES (ACCESIBLES DESDE EL HTML) ---
+
+window.cargarTrayectoria = async function(id) {
+    console.log("Chef, montando ruta interactiva para:", id);
+    try {
+        const response = await fetch('../data/rutas/rutas_personajes.json');
+        const data = await response.json();
+        const infoRuta = data[id];
+
+        if (!infoRuta) return;
+
+        // 1. EXTRAER IDS DE LA RUTA
+        const idsRuta = infoRuta.hitos.map(h => h.id_lugar);
+
+        // 2. MODO ENFOQUE: Filtrar Marcadores
+        // Recorremos todos los marcadores que guardaste en markersById
+        Object.keys(markersById).forEach(lugarId => {
+            if (idsRuta.includes(lugarId)) {
+                // Si el punto es de la ruta, lo aseguramos en el mapa
+                if (!map.hasLayer(markersById[lugarId])) {
+                    markersById[lugarId].addTo(map);
+                }
+                // Opcional: Podrías cambiarle el color al icono aquí para que resalte más
+            } else {
+                // En lugar de borrar, cambiamos opacidad
+                Object.keys(markersById).forEach(lugarId => {
+                    const marker = markersById[lugarId];
+                    if (idsRuta.includes(lugarId)) {
+                        marker.getElement().style.opacity = "1";
+                        marker.getElement().style.filter = "drop-shadow(0 0 5px var(--gold))"; // Brillo especial
+                    } else {
+                        marker.getElement().style.opacity = "0.5"; // Casi invisible pero da contexto
+                        marker.getElement().style.filter = "grayscale(100%)"; // En blanco y negro
+                    }
+                });
+            }
+        });
+
+        const colorReferencia = COLORES_SECCION[infoRuta.archivo_fuente] || "#d4b483";
+
+        // 1. Panel de Control (Cabecera)
+        const panelRuta = document.getElementById('control-ruta');
+        if (panelRuta) {
+            panelRuta.classList.remove('hidden');
+            panelRuta.style.borderLeftColor = colorReferencia;
+        }
+        document.getElementById('ruta-personaje-nombre').innerText = infoRuta.nombre_ruta;
+
+        // 2. Mapeo de coordenadas y Generación de Timeline
+        const timeline = document.getElementById('timeline-ruta');
+        const container = document.getElementById('hitos-container');
+        if (container) container.innerHTML = ''; // Limpiamos mesa de trabajo
+
+        const puntosCoords = [];
+
+        infoRuta.hitos.forEach((hito, index) => {
+            const lugar = todosLosLugares.find(l => l.id === hito.id_lugar);
+            if (lugar) {
+                puntosCoords.push(lugar.mapa.coords);
+
+                // --- CREACIÓN DEL HITO INTERACTIVO ---
+                if (container) {
+                    const item = document.createElement('div');
+                    item.className = 'hito-item';
+                    item.innerHTML = `
+                        <div class="hito-numero" style="background:${colorReferencia}">${index + 1}</div>
+                        <span>${lugar.perfil.nombre}</span>
+                    `;
+                    
+                    item.onclick = () => {
+                        // Viajamos al punto exacto
+                        viajarA(lugar.id);
+                        // Feedback visual de "Activo"
+                        document.querySelectorAll('.hito-item').forEach(el => el.classList.remove('active'));
+                        item.classList.add('active');
+                    };
+                    container.appendChild(item);
+                }
+            }
+        });
+
+        
+
+        // Mostramos el timeline
+        if (timeline) timeline.classList.remove('hidden');
+
+        // 3. Renderizado de la Polilínea
+        if (window.capaRuta) map.removeLayer(window.capaRuta);
+        
+        window.capaRuta = L.polyline(puntosCoords, {
+            color: colorReferencia,
+            weight: 5,
+            dashArray: '12, 15',
+            lineCap: 'round',
+            opacity: 0.9,
+            shadowBlur: 5,
+            shadowColor: 'black'
+        }).addTo(map);
+
+        // 4. Encuadre inicial
+        if (puntosCoords.length > 0) {
+            map.fitBounds(window.capaRuta.getBounds(), { padding: [60, 60] });
+        }
+
+        // Usamos infoRuta.hitos (que es lo que ya tienes definido arriba)
+        const hitosOrdenados = infoRuta.hitos.sort((a, b) => a.orden - b.orden);
+        
+        // Llamamos a la función de distancia con los hitos reales
+        window.actualizarDistanciaVisual(hitosOrdenados);
+
+    } catch (error) {
+        console.error("Error en la cocina de rutas:", error);
+    }
+};
+
+window.cerrarModoRuta = function() {
+    console.log("Chef, restaurando mapa y regresando a origen...");
+
+    // 1. RESTAURAR VISIBILIDAD DE TODOS LOS MARCADORES
+    Object.values(markersById).forEach(marker => {
+        const elemento = marker.getElement();
+        if (elemento) {
+            elemento.style.opacity = "1";
+            elemento.style.filter = "none";
+            // Usamos una verificación de seguridad para el ZIndex
+            if (typeof marker.setZIndexOffset === 'function') {
+                marker.setZIndexOffset(0);
+            }
+        }
+    });
+
+    // 2. LIMPIAR CAPAS DE RUTA
+    if (window.capaRuta) {
+        map.removeLayer(window.capaRuta);
+        window.capaRuta = null;
+    }
+    
+    // 3. OCULTAR PANELES DE CRONOS
+    document.getElementById('control-ruta').classList.add('hidden');
+    document.getElementById('timeline-ruta').classList.add('hidden');
+
+    // 4. LÓGICA DE RETORNO AL PERFIL (ONOMASTIKO)
+    const params = new URLSearchParams(window.location.search);
+    const idRetorno = params.get('retorno') || params.get('ruta'); // Buscamos quién nos envió aquí
+
+    if (idRetorno) {
+        // Redirigimos de vuelta a la ficha del personaje en Onomastiko
+        // Ajusta la ruta según tu estructura de carpetas (ej: ../onomastiko/index.html)
+        window.location.href = `../onomastiko/nombre.html?id=${idRetorno}`;
+    } else {
+        // Si no hay origen claro, solo limpiamos la URL de Cronos
+        const url = new URL(window.location);
+        url.searchParams.delete('ruta');
+        url.searchParams.delete('retorno');
+        window.history.replaceState({}, '', url);
+    }
+};
+
+window.actualizarDistanciaVisual = function(hitos) {
+    let metrosTotales = 0;
+    
+    // Necesitamos al menos 2 puntos para medir
+    for (let i = 0; i < hitos.length - 1; i++) {
+        const marcadorA = markersById[hitos[i].id_lugar];
+        const marcadorB = markersById[hitos[i+1].id_lugar];
+        
+        if (marcadorA && marcadorB) {
+            const puntoA = marcadorA.getLatLng();
+            const puntoB = marcadorB.getLatLng();
+            metrosTotales += puntoA.distanceTo(puntoB);
+        }
+    }
+
+    const kilometros = (metrosTotales / 1000).toFixed(1);
+    const display = document.getElementById('distancia-ruta');
+    if (display) {
+        display.innerText = `${kilometros} km`;
+    }
+    console.log(`Chef, recorrido total: ${kilometros} km`);
+};

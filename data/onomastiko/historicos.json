@@ -213,7 +213,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "david-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-david-rey", "tooltip": "Trayectoria" }
             ]
         },
         "fases": {

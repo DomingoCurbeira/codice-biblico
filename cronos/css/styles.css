@@ -753,3 +753,201 @@ h1, h2, h3, .cinzel {
   /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
   /* Truco de Chef: Convierte el icono en dorado */
 }
+
+/* --- ESTILOS PARA RUTAS Y TRAYECTORIAS --- */
+#control-ruta {
+    position: fixed;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10000 !important; /* Por encima del buscador y del mapa */
+    background: var(--bg-panel);
+    border-left: 4px solid var(--gold);
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    min-width: 300px;
+}
+
+#control-ruta.hidden {
+    display: none !important;
+}
+
+.ruta-tag {
+    font-size: 0.65rem;
+    color: var(--gold);
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+#ruta-personaje-nombre, .ruta-personaje-nombre {
+    font-family: 'Cinzel', serif;
+    font-size: 0.8rem;
+    color: var(--text-main);
+    margin-top: 2px;
+}
+
+.btn-cerrar-ruta {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: var(--text-muted);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+
+.btn-cerrar-ruta:hover {
+    background: var(--gold);
+    color: white;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* --- LÍNEA DE TIEMPO (TRAYECTORIA) --- */
+#timeline-ruta {
+    position: fixed;
+   z-index: 1000;
+    background: rgba(15, 23, 42, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    border-radius: 12px;
+    display: flex;
+    overflow: auto;
+    transition: var(--transition);
+}
+
+/* --- MODO ESCRITORIO (Fila Inferior) --- */
+@media (min-width: 769px) {
+    #timeline-ruta {
+        bottom: 30px; /* Posición inferior */
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row; /* FUERZA LA FILA HORIZONTAL */
+        /* padding: 12px 20px; */
+        max-width: 90vw;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #hitos-container {
+        display: flex;
+        flex-direction: row; /* Hitos en fila */
+        gap: 15px;
+    }
+
+    .hito-item {
+        flex-direction: row;
+        min-width: max-content;
+        padding: 8px 15px;
+    }
+}
+
+/* --- MODO CELULAR (Columna Derecha y más abajo) --- */
+@media (max-width: 768px) {
+    #timeline-ruta {
+        bottom: 30px; /* Posición inferior */
+        left: 100px;
+        flex-direction: row; /* MANTIENE LA COLUMNA EN MÓVIL */
+        justify-content: center;
+        /* padding: 10px; */
+       max-width: 90vw; /* Estrecho para no tapar el mapa */
+        max-height: 50vh;
+        gap: 10px;
+    }
+
+    #hitos-container {
+        display: flex;
+        flex-direction: row; /* Hitos en fila */
+        gap: 15px;
+    }
+
+    /* En móvil ocultamos el texto para dejar solo los números redondos */
+    .hito-item span {
+        display: none;
+    }
+
+    .hito-item {
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+    }
+}
+
+/* Estilos comunes de los items */
+.hito-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* background: rgba(255, 255, 255, 0.05); */
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.hito-item:hover, .hito-item.active {
+    background: rgba(212, 180, 131, 0.15);
+    border-color: var(--gold);
+}
+
+.hito-numero {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.hito-item span {
+    margin-left: 10px;
+    font-size: 0.85rem;
+    color: var(--text-main);
+    white-space: nowrap;
+}
+
+.distancia-container {
+    background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+    color: #fbbf24; /* El color ámbar/oro que usamos para resaltar */
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Inter', sans-serif; /* O la que use en su proyecto */
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 5px;
+    border: 1px solid rgba(251, 191, 36, 0.3);
+    backdrop-filter: blur(4px); /* Efecto de vidrio esmerilado */
+}
+
+#distancia-ruta {
+    letter-spacing: 0.5px;
+}
+
+.fila{
+    display: flex;
+    flex-direction: row;
+}
+
+.columna{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,45 @@
+{
+    "onoma-abraham-fe": {
+        "nombre_ruta": "Camino de la Fe de Abraham",
+        "archivo_fuente": "pentateuco.json",
+        "hitos": [
+            { "id_lugar": "babilonia", "orden": 1, "nota": "Salida de Ur hacia lo desconocido." },
+            { "id_lugar": "haran", "orden": 2, "nota": "Estancia y muerte de Taré." },
+            { "id_lugar": "antioquia-mision", "orden": 3, "nota": "Paso por el Creciente Fértil." },
+            { "id_lugar": "hebron", "orden": 4, "nota": "Asentamiento final y promesa." }
+        ]
+    },
+    "onoma-moises-fe": {
+        "nombre_ruta": "Moisés: El Camino a la Libertad",
+        "archivo_fuente": "pentateuco.json",
+        "hitos": [
+            { "id_lugar": "rio-nilo", "orden": 1 },
+            { "id_lugar": "monte-sinai", "orden": 2 },
+            { "id_lugar": "mar-rojo", "orden": 3 },
+            { "id_lugar": "cades-barnea", "orden": 4 },
+            { "id_lugar": "monte-nebo", "orden": 5 }
+        ]
+    },
+        "onoma-jose-fe": {
+            "nombre_ruta": "José: De la Cisterna al Trono",
+            "archivo_fuente": "pentateuco.json",
+            "hitos": [
+                { "id_lugar": "valle-hebron", "orden": 1 },
+                { "id_lugar": "dotan", "orden": 2 },
+                { "id_lugar": "avaris-egipto", "orden": 3 },
+                { "id_lugar": "on-heliopolis", "orden": 4 },
+                { "id_lugar": "egipto-jose", "orden": 5 }
+            ]
+        },
+    "onoma-david-rey": {
+        "nombre_ruta": "David: Del Cayado a la Corona",
+        "archivo_fuente": "historicos.json",
+        "hitos": [
+            { "id_lugar": "belen-nacimiento", "orden": 1 },
+            { "id_lugar": "valle-ela", "orden": 2 },
+            { "id_lugar": "cueva-adulam", "orden": 3 },
+            { "id_lugar": "hebron", "orden": 4 },
+            { "id_lugar": "jerusalen-sion", "orden": 5 }
+        ]
+    }
+}
