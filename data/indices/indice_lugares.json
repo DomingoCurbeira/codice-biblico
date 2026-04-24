@@ -338,6 +338,19 @@
     "tags": "egipto jose, egipto (tierra de gosén), génesis, éxodo"
   },
   {
+    "id": "altar-pacto",
+    "nombre": "El Altar del Pacto (Faldas del Ararat)",
+    "titulo": "La Fragancia del Descanso",
+    "archivo": "pentateuco.json",
+    "coords": [
+      39.71,
+      44.3
+    ],
+    "era": "No definida",
+    "testamento": "",
+    "tags": "altar pacto, el altar del pacto (faldas del ararat)"
+  },
+  {
     "id": "aposento-alto",
     "nombre": "El Aposento Alto (Cenáculo)",
     "titulo": "La Cuna de la Iglesia",
@@ -362,6 +375,19 @@
     "era": "Segundo Viaje Misionero (Aprox. 51 d.C.)",
     "testamento": "Nuevo Testamento",
     "tags": "areopago atenas, el areópago (colina de marte), hechos"
+  },
+  {
+    "id": "astillero-arca",
+    "nombre": "El Astillero de la Salvación",
+    "titulo": "Arquitectura de la Obediencia Progresiva",
+    "archivo": "pentateuco.json",
+    "coords": [
+      34.02,
+      43.5
+    ],
+    "era": "Era de los Orígenes (Antediluviana)",
+    "testamento": "Antiguo Testamento",
+    "tags": "astillero arca, el astillero de la salvación, génesis"
   },
   {
     "id": "campamento-israel",
@@ -583,6 +609,19 @@
     "era": "Época Patriarcal",
     "testamento": "Antiguo Testamento",
     "tags": "haran, harán, génesis, hechos"
+  },
+  {
+    "id": "haran-padan-aram",
+    "nombre": "Harán (Padán-aram)",
+    "titulo": "La Tierra del Servicio",
+    "archivo": "pentateuco.json",
+    "coords": [
+      36.8647,
+      39.0319
+    ],
+    "era": "Era de los Patriarcas",
+    "testamento": "Antiguo Testamento",
+    "tags": "haran padan aram, harán (padán-aram), génesis"
   },
   {
     "id": "hebron",
@@ -1042,15 +1081,15 @@
   {
     "id": "on-heliopolis",
     "nombre": "On (Heliópolis)",
-    "titulo": "La Ciudad de los Sabios",
+    "titulo": "La Ciudad de los Sabios y el Sol",
     "archivo": "pentateuco.json",
     "coords": [
       30.1297,
       31.3075
     ],
-    "era": "No definida",
-    "testamento": "",
-    "tags": "on heliopolis, on (heliópolis)"
+    "era": "Era Patriarcal / Reino Medio Egipcio",
+    "testamento": "Antiguo Testamento",
+    "tags": "on heliopolis, on (heliópolis), génesis, éxodo, ezequiel"
   },
   {
     "id": "peniel",
@@ -1248,6 +1287,19 @@
     "tags": "siquem, génesis, josué, jueces, juan"
   },
   {
+    "id": "siquem-asentamiento",
+    "nombre": "Siquem (Valle de Nablus)",
+    "titulo": "El Vínculo de la Posesión",
+    "archivo": "pentateuco.json",
+    "coords": [
+      32.2131,
+      35.2822
+    ],
+    "era": "Era de los Patriarcas",
+    "testamento": "Antiguo Testamento",
+    "tags": "siquem asentamiento, siquem (valle de nablus), génesis, josué, juan"
+  },
+  {
     "id": "sodoma-gomorra",
     "nombre": "Sodoma y Gomorra",
     "titulo": "El Juicio de las Ciudades de la Llanura",
@@ -1428,6 +1480,19 @@
     "era": "Profética / Escatológica",
     "testamento": "Antiguo Testamento",
     "tags": "valle josafat, valle de josafat (cedrón), joel, zacarías, 2 crónicas, juan"
+  },
+  {
+    "id": "valle-mesopotamia-antiguo",
+    "nombre": "Valle de Mesopotamia (Mundo Antediluviano)",
+    "titulo": "El Epicentro de la Entropía",
+    "archivo": "pentateuco.json",
+    "coords": [
+      33.3152,
+      44.3661
+    ],
+    "era": "Era de los Orígenes (Antediluviana)",
+    "testamento": "Antiguo Testamento",
+    "tags": "valle mesopotamia antiguo, valle de mesopotamia (mundo antediluviano), génesis"
   },
   {
     "id": "valle-sombra-muerte",

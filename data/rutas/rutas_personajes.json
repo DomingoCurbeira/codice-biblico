@@ -20,6 +20,27 @@
             { "id_lugar": "monte-nebo", "orden": 5 }
         ]
     },
+        "onoma-noe-remanente": {
+            "nombre_ruta": "Noé: Del Caos al Nuevo Mundo",
+            "archivo_fuente": "pentateuco.json",
+            "hitos": [
+                { "id_lugar": "valle-mesopotamia-antiguo", "orden": 1 },
+                { "id_lugar": "astillero-arca", "orden": 2 },
+                { "id_lugar": "montanas-ararat", "orden": 3 },
+                { "id_lugar": "altar-pacto", "orden": 4 }
+            ]
+    },
+        "onoma-jacob-transicion": {
+            "nombre_ruta": "Jacob: El Camino de la Transformación",
+            "archivo_fuente": "pentateuco.json",
+            "hitos": [
+                { "id_lugar": "betel", "orden": 1 },
+                { "id_lugar": "haran-padan-aram", "orden": 2 },
+                { "id_lugar": "peniel", "orden": 3 },
+                { "id_lugar": "siquem-asentamiento", "orden": 4 },
+                { "id_lugar": "egipto-jose", "orden": 5 }
+            ]
+    },
         "onoma-jose-fe": {
             "nombre_ruta": "José: De la Cisterna al Trono",
             "archivo_fuente": "pentateuco.json",

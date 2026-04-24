@@ -96,7 +96,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "noe", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "noaj-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "montanas-ararat", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "montanas-ararat", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-noe-remanente", "tooltip": "Viajes" }
             ]
         },
         "fases": {
@@ -253,7 +254,8 @@
             "iconos_accion": [
                 { "tipo": "huellas", "id": "jacob", "tooltip": "Huellas" },
                 { "tipo": "etymos", "id": "yaakov-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "peniel", "tooltip": "Cronos" }
+                { "tipo": "cronos", "id": "peniel", "tooltip": "Cronos" },
+                { "tipo": "rutas", "id": "onoma-jacob-transicion", "tooltip": "Viajes" }
             ]
         },
         "fases": {

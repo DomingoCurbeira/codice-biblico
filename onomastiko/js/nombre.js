@@ -61,27 +61,44 @@ function renderCardHTML(p, ref) {
     loader.style.display = 'none';
     content.style.display = 'flex';
 
-    // Generar Iconos (Actualizando ID si es Etymos y es fase nueva)
-    const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map(icon => {
+   // Generar Iconos (Actualizando ID si es Etymos y es fase nueva)
+const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map(icon => {
     let href = "#";
+    
+    // 1. Determinar el ID de referencia
     const refId = (icon.tipo === "etymos" && isNueva && p.fases.nueva.etymos_id) 
                 ? p.fases.nueva.etymos_id 
                 : icon.id;
 
-    if (icon.tipo === "huellas") {
-        href = `../huellas/perfil.html?id=${refId}&retorno=${p.id}`;
-    } else if (icon.tipo === "etymos") {
-        href = `../etymos/palabra.html?id=${refId}&retorno=${p.id}`;
-    } else if (icon.tipo === "cronos") {
-        localStorage.setItem('last_onoma_id', p.id); 
-        href = `../cronos/index.html?lugar=${refId}&retorno=${p.id}`;
-    } 
-    // NUEVA LÓGICA PARA RUTAS
-    else if (icon.tipo === "rutas") {
-        localStorage.setItem('last_onoma_id', p.id);
-        // Enviamos el ID del personaje como parámetro de ruta
-        href = `../cronos/index.html?ruta=${p.id}&retorno=${p.id}`;
+    // 2. Construir el Href según el tipo
+    switch (icon.tipo) {
+        case "huellas":
+            href = `../huellas/perfil.html?id=${refId}&retorno=${p.id}`;
+            break;
+            
+        case "etymos":
+            href = `../etymos/palabra.html?id=${refId}&retorno=${p.id}`;
+            break;
+            
+        case "cronos":
+            localStorage.setItem('last_onoma_id', p.id); 
+            // Verificamos que refId exista para evitar enlaces rotos
+            href = refId ? `../cronos/index.html?lugar=${refId}&retorno=${p.id}` : "#";
+            break;
+
+        case "rutas":
+            localStorage.setItem('last_onoma_id', p.id);
+            // IMPORTANTE: Aquí enviamos el ID de la ruta (icon.id)
+            href = `../cronos/index.html?ruta=${refId}&retorno=${p.id}`;
+            break;
+            
+        default:
+            href = "#";
     }
+
+    // Retornar el HTML del botón (asegúrate de que el render use este href)
+//     return `<a href="${href}" class="btn-icono">${icon.tipo}</a>`; 
+// }).join('') : '';
 
     return `
         <a href="${href}" class="action-btn ${icon.tipo}" title="${icon.tooltip}">

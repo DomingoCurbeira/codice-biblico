@@ -3111,111 +3111,494 @@
             "gamificacion": { "xp_lectura": 300, "logro_id": "administrador-fiel" }
         },
         {
-    "id": "on-heliopolis",
-    "activo": true,
-    "meta": {
-        "version": "4.0-cronos-deep",
-        "fecha_actualizacion": "2026-04-24"
-    },
-    "mapa": {
-        "coords": [30.1297, 31.3075],
-        "zoom": 12,
-        "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
-        "marcador_color": "#10b981"
-    },
-    "perfil": {
-        "nombre": "On (Heliópolis)",
-        "titulo_corto": "La Ciudad de los Sabios y el Sol",
-        "significado_nombre": "On: 'Pilar' o 'Ciudad del Sol'. Un centro de iluminación intelectual y espiritual.",
-        "ubicacion_geografica": "Vértice del Delta del Nilo, al norte de la actual El Cairo, Egipto.",
-        "clima_entorno": "Clima árido y soleado, dominado por la arquitectura monumental de caliza y obeliscos de granito rojo que reflejaban la luz del desierto.",
-        "imagen_principal": "../img/lugares/heliopolis.webp",
-        "galeria": [
-            "../img/lugares/obelisco-on.webp"
-        ]
-    },
-    "contexto": {
-        "testamento": "Antiguo Testamento",
-        "libros_aparicion": [
-            "Génesis",
-            "Éxodo",
-            "Ezequiel"
-        ],
-        "era_biblica": "Era Patriarcal / Reino Medio Egipcio"
-    },
-    "evidencia_arqueologica": {
-        "hallazgo_clave": "El Obelisco de Senusret I",
-        "descripcion": "Un monolito de granito rojo de 20 metros de altura que aún permanece en pie. Es uno de los pocos testigos mudos de la época de José, marcando el lugar exacto del gran Templo del Sol donde se concentraba la élite científica de la antigüedad."
-    },
-    "narrativa": {
-        "resumen_epico": "On no era una ciudad para soldados, sino para mentes brillantes. En el mundo antiguo, Heliópolis funcionaba como la universidad más prestigiosa del imperio, donde la astronomía y la teología se entrelazaban bajo la sombra de los obeliscos. Para José, llegar a On no fue solo un ascenso social al casarse con Asenat, hija del sacerdote Potifera; fue el escenario donde la <strong>revelación del Espíritu superó a la lógica humana</strong>. En esta ciudad de sabios, el ex-esclavo hebreo demostró que la sabiduría que proviene del Creador es capaz de descifrar los enigmas que la ciencia egipcia ni siquiera podía comprender. On representa el momento en que el Diseño Divino se posiciona por encima de las estructuras de poder intelectual más altas de la tierra.",
-        "dato_curioso": "Siglos después de José, se dice que sabios griegos como Platón y Solón viajaron a On para aprender de los sacerdotes egipcios las matemáticas y la astronomía que José ya dominaba por revelación.",
-        "conexion_jesus": "Cristo es la verdadera 'Luz del Mundo' que brilla con más fuerza que el sol de Heliópolis. Así como José trajo sabiduría y salvación a la capital del conocimiento pagano, Jesús es la Sabiduría encarnada que ilumina a toda nación, confundiendo a los sabios de este siglo.",
-        "imagen_de_apoyo": ""
-    },
-    "analisis_profundo": {
-        "perfil_emocional": "Autoridad espiritual, dignidad recuperada y la calma de quien posee una verdad superior.",
-        "fortalezas": [
-            "Revelación divina sobre el intelecto humano",
-            "Influencia en las esferas de poder más altas",
-            "Identidad intacta en entornos extranjeros"
-        ],
-        "debilidades": [
-            "Entorno de misticismo y politeísmo extremo",
-            "Riesgo de asimilación cultural y pérdida de raíces"
-        ],
-        "simbologia": [
-            {
-                "objeto": "El Obelisco",
-                "significado": "Representa el rayo del sol petrificado. Para el Códice, simboliza la estabilidad de la verdad de Dios que permanece firme frente al paso de los imperios."
+            "id": "on-heliopolis",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
             },
-            {
-                "objeto": "El Lino Fino",
-                "significado": "La vestimenta de José en On simboliza la pureza y la justicia otorgada por Dios tras superar la prueba del crisol."
+            "mapa": {
+                "coords": [30.1297, 31.3075],
+                "zoom": 12,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#10b981"
+            },
+            "perfil": {
+                "nombre": "On (Heliópolis)",
+                "titulo_corto": "La Ciudad de los Sabios y el Sol",
+                "significado_nombre": "On: 'Pilar' o 'Ciudad del Sol'. Un centro de iluminación intelectual y espiritual.",
+                "ubicacion_geografica": "Vértice del Delta del Nilo, al norte de la actual El Cairo, Egipto.",
+                "clima_entorno": "Clima árido y soleado, dominado por la arquitectura monumental de caliza y obeliscos de granito rojo que reflejaban la luz del desierto.",
+                "imagen_principal": "../img/lugares/heliopolis.webp",
+                "galeria": [
+                    "../img/lugares/obelisco-on.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": [
+                    "Génesis",
+                    "Éxodo",
+                    "Ezequiel"
+                ],
+                "era_biblica": "Era Patriarcal / Reino Medio Egipcio"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "El Obelisco de Senusret I",
+                "descripcion": "Un monolito de granito rojo de 20 metros de altura que aún permanece en pie. Es uno de los pocos testigos mudos de la época de José, marcando el lugar exacto del gran Templo del Sol donde se concentraba la élite científica de la antigüedad."
+            },
+            "narrativa": {
+                "resumen_epico": "On no era una ciudad para soldados, sino para mentes brillantes. En el mundo antiguo, Heliópolis funcionaba como la universidad más prestigiosa del imperio, donde la astronomía y la teología se entrelazaban bajo la sombra de los obeliscos. Para José, llegar a On no fue solo un ascenso social al casarse con Asenat, hija del sacerdote Potifera; fue el escenario donde la <strong>revelación del Espíritu superó a la lógica humana</strong>. En esta ciudad de sabios, el ex-esclavo hebreo demostró que la sabiduría que proviene del Creador es capaz de descifrar los enigmas que la ciencia egipcia ni siquiera podía comprender. On representa el momento en que el Diseño Divino se posiciona por encima de las estructuras de poder intelectual más altas de la tierra.",
+                "dato_curioso": "Siglos después de José, se dice que sabios griegos como Platón y Solón viajaron a On para aprender de los sacerdotes egipcios las matemáticas y la astronomía que José ya dominaba por revelación.",
+                "conexion_jesus": "Cristo es la verdadera 'Luz del Mundo' que brilla con más fuerza que el sol de Heliópolis. Así como José trajo sabiduría y salvación a la capital del conocimiento pagano, Jesús es la Sabiduría encarnada que ilumina a toda nación, confundiendo a los sabios de este siglo.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Autoridad espiritual, dignidad recuperada y la calma de quien posee una verdad superior.",
+                "fortalezas": [
+                    "Revelación divina sobre el intelecto humano",
+                    "Influencia en las esferas de poder más altas",
+                    "Identidad intacta en entornos extranjeros"
+                ],
+                "debilidades": [
+                    "Entorno de misticismo y politeísmo extremo",
+                    "Riesgo de asimilación cultural y pérdida de raíces"
+                ],
+                "simbologia": [
+                    {
+                        "objeto": "El Obelisco",
+                        "significado": "Representa el rayo del sol petrificado. Para el Códice, simboliza la estabilidad de la verdad de Dios que permanece firme frente al paso de los imperios."
+                    },
+                    {
+                        "objeto": "El Lino Fino",
+                        "significado": "La vestimenta de José en On simboliza la pureza y la justicia otorgada por Dios tras superar la prueba del crisol."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "Tu preparación en el anonimato de la cárcel determina tu capacidad de gobierno en el palacio de los sabios. La sabiduría de Dios te dará un lugar en mesas que el esfuerzo humano jamás alcanzaría.",
+                "preguntas_reflexion": [
+                    "¿Buscas respuestas en la sabiduría de este mundo o dependes de la revelación del Espíritu en tu toma de decisiones?",
+                    "¿Estás preparado para mantener tu fe innegociable cuando Dios te otorgue influencia en lugares de poder?",
+                    "¿Puedes reconocer que tu posición actual es una plataforma para que la luz de Dios brille en tu entorno profesional?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "La Exaltación",
+                    "evento": "José es presentado ante Faraón, interpreta el sueño de las vacas y es nombrado visir.",
+                    "referencia": "Génesis 41:38-40",
+                    "vinculo_id": "jose-visir"
+                },
+                {
+                    "fase": "El Vínculo en On",
+                    "evento": "Faraón entrega a Asenat como esposa a José, vinculándolo a la élite de Heliópolis.",
+                    "referencia": "Génesis 41:45",
+                    "vinculo_id": "boda-asenat"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": [
+                    "avaris-egipto",
+                    "egipto-jose",
+                    "valle-hebron"
+                ],
+                "personajes_relacionados": [
+                    "jose",
+                    "faraon",
+                    "asenat"
+                ],
+                "estudios": [
+                    "sabiduria-divina-vs-humana",
+                    "el-caracter-en-la-exaltacion"
+                ]
+            },
+            "gamificacion": {
+                "xp_lectura": 400,
+                "logro_id": "luz-en-la-ciudad-del-sol"
             }
-        ]
-    },
-    "aplicacion_personal": {
-        "leccion_clave": "Tu preparación en el anonimato de la cárcel determina tu capacidad de gobierno en el palacio de los sabios. La sabiduría de Dios te dará un lugar en mesas que el esfuerzo humano jamás alcanzaría.",
-        "preguntas_reflexion": [
-            "¿Buscas respuestas en la sabiduría de este mundo o dependes de la revelación del Espíritu en tu toma de decisiones?",
-            "¿Estás preparado para mantener tu fe innegociable cuando Dios te otorgue influencia en lugares de poder?",
-            "¿Puedes reconocer que tu posición actual es una plataforma para que la luz de Dios brille en tu entorno profesional?"
-        ]
-    },
-    "linea_tiempo": [
-        {
-            "fase": "La Exaltación",
-            "evento": "José es presentado ante Faraón, interpreta el sueño de las vacas y es nombrado visir.",
-            "referencia": "Génesis 41:38-40",
-            "vinculo_id": "jose-visir"
         },
         {
-            "fase": "El Vínculo en On",
-            "evento": "Faraón entrega a Asenat como esposa a José, vinculándolo a la élite de Heliópolis.",
-            "referencia": "Génesis 41:45",
-            "vinculo_id": "boda-asenat"
+            "id": "valle-mesopotamia-antiguo",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
+            },
+            "mapa": {
+                "coords": [33.3152, 44.3661],
+                "zoom": 10,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#064e3b"
+            },
+            "perfil": {
+                "nombre": "Valle de Mesopotamia (Mundo Antediluviano)",
+                "titulo_corto": "El Epicentro de la Entropía",
+                "significado_nombre": "Mesopotamia: Tierra entre ríos. El lugar donde la civilización se desvió del Diseño.",
+                "ubicacion_geografica": "Cuenca de los ríos Tigris y Éufrates (actual Irak).",
+                "clima_entorno": "Llanuras aluviales fértiles, antaño exuberantes, transformadas en centros de rebelión y violencia generalizada.",
+                "imagen_principal": "../img/lugares/caos-mesopotamia.webp",
+                "galeria": [
+                    "../img/lugares/ciudades-antiguas.webp",
+                    "../img/lugares/corrupcion-tierra.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": ["Génesis"],
+                "era_biblica": "Era de los Orígenes (Antediluviana)"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Estratos de Sedimentos Aluviales Masivos",
+                "descripcion": "Excavaciones en ciudades como Ur y Shuruppak muestran capas de lodo de varios metros de espesor que separan periodos de ocupación, sugiriendo inundaciones catastróficas regionales en la antigüedad temprana."
+            },
+            "narrativa": {
+                "resumen_epico": "Este no es solo un lugar geográfico, es el símbolo de una humanidad que alcanzó su clímax de maldad. En estas llanuras, el hombre decidió que su propio diseño era mejor que el del Creador. Noé vivió aquí como una anomalía: un hombre 'justo y perfecto en sus generaciones' caminando en sentido contrario a una cultura que celebraba el caos. Fue aquí donde recibió el plano de la salvación mientras el mundo ignoraba las señales del juicio inminente.",
+                "dato_curioso": "La Biblia describe que la tierra estaba 'llena de violencia', una palabra hebrea (*chamas*) que implica una injusticia social tan profunda que rompe el tejido mismo de la creación.",
+                "conexion_jesus": "Como en los días de Noé, el mundo ignora la urgencia del arrepentimiento. Jesús advirtió que Su regreso sería similar: un momento donde la rutina diaria ciega a las personas ante la realidad del Reino que se acerca.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Soledad espiritual, resistencia inquebrantable y fidelidad en medio de la burla.",
+                "fortalezas": ["Integridad radical", "Capacidad de escuchar la voz de Dios en el ruido"],
+                "debilidades": ["Aislamiento social extremo"],
+                "simbologia": [
+                    {
+                        "objeto": "La Tierra Corrompida",
+                        "significado": "Representa el estado del corazón humano cuando se desconecta de su Fuente original."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "Hallar gracia ante los ojos de Dios es más valioso que hallar aprobación ante los ojos del mundo.",
+                "preguntas_reflexion": [
+                    "¿Tienes el valor de caminar en justicia cuando todos a tu alrededor celebran el caos?",
+                    "¿Estás atento a las instrucciones divinas para tu 'construcción' actual?"
+                ]
+            },
+            "gamificacion": {
+                "xp_lectura": 250,
+                "logro_id": "testigo-del-remanente"
+            }
+        },
+        {
+            "id": "altar-pacto",
+            "activo": true,
+            "meta": { "version": "4.0-cronos-deep", "fecha_actualizacion": "2026-04-24" },
+            "mapa": { "coords": [39.7100, 44.3000], "zoom": 12, "icono_mapa": "../img/ui/markers/lugar-biblico.svg", "marcador_color": "#34d399" },
+            "perfil": {
+                "nombre": "El Altar del Pacto (Faldas del Ararat)",
+                "titulo_corto": "La Fragancia del Descanso",
+                "significado_nombre": "El lugar donde el hombre y Dios vuelven a encontrarse en paz.",
+                "ubicacion_geografica": "Meseta inferior del Macizo de Ararat.",
+                "clima_entorno": "Aire puro de montaña, tierra húmeda regenerada y la luz del arcoíris cruzando el cielo.",
+                "imagen_principal": "../img/lugares/altar-noe.webp",
+                "galeria": ["../img/lugares/arcoiris-pacto.webp",
+                 "../img/lugares/ofrenda-quemada.webp"
+                ]
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Tradición de Culto en Cumbres Altas",
+                "descripcion": "La arqueología confirma que las civilizaciones más tempranas post-diluvianas en la región del Cáucaso priorizaban las cumbres montañosas para sus altares, buscando la cercanía con lo divino."
+            },
+            "narrativa": {
+                "resumen_epico": "Lo primero que hizo Noé al pisar el nuevo mundo no fue construir su casa, sino construir un altar. Este lugar representa la **prioridad del Reino**. El sacrificio de animales limpios subió como un 'olor grato' ante Dios, no porque Dios necesite sacrificios, sino porque vio un corazón agradecido que reconoció Su soberanía. Aquí se activó el pacto del arcoíris: la promesa de que la vida nunca volvería a ser destruida por agua.",
+                "conexion_jesus": "El arcoíris rodea el trono de Dios en el Apocalipsis. Jesús es el cumplimiento del pacto de paz; por Su sacrificio definitivo, ya no hay condenación para los que están en Él.",
+                "perfil_emocional": "Gratitud abrumadora, paz sobrenatural y sentido de propósito renovado."
+            },
+            "analisis_profundo": {
+                "fortalezas": ["Adoración espontánea", "Compromiso generacional"],
+                "simbologia": [
+                    { "objeto": "El Arcoíris", "significado": "Un arco de guerra 'colgado' (sin cuerda ni flecha), indicando que el juicio ha cesado y la paz ha sido establecida." }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "Tu primera reacción ante la liberación debe ser la adoración, no la ocupación.",
+                "preguntas_reflexion": [
+                    "¿Es la gratitud el fundamento de tus nuevos comienzos?",
+                    "¿Puedes ver las 'señales del pacto' (el arcoíris) de Dios en medio de tus días ordinarios?"
+                ]
+            },
+            "linea_tiempo": [
+                { "fase": "El Desembarco", "evento": "Noé sale del arca y edifica un altar a Jehová.", "referencia": "Génesis 8:20" },
+                { "fase": "La Promesa", "evento": "Dios establece el pacto del arcoíris con Noé y su descendencia.", "referencia": "Génesis 9:12-17" }
+            ],
+            "vinculos": {
+                "lugares_relacionados": ["montanas-ararat", "valle-mesopotamia-antiguo"],
+                "personajes_relacionados": ["noe"],
+                "estudios": ["el-pacto-noajico", "la-prioridad-del-altar"]
+            },
+            "gamificacion": { "xp_lectura": 400, "logro_id": "adorador-del-nuevo-mundo" }
+        },
+        {
+            "id": "astillero-arca",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
+            },
+            "mapa": {
+                "coords": [34.0200, 43.5000],
+                "zoom": 13,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#065f46"
+            },
+            "perfil": {
+                "nombre": "El Astillero de la Salvación",
+                "titulo_corto": "Arquitectura de la Obediencia Progresiva",
+                "significado_nombre": "Lugar de preparación, refugio y paciencia activa.",
+                "ubicacion_geografica": "Tierras altas de la cuenca mesopotámica.",
+                "clima_entorno": "Ambiente de trabajo rudo, caracterizado por el aroma persistente a madera de gofer recién cortada y resinas de sellado bajo un sol implacable.",
+                "imagen_principal": "../img/lugares/construccion-arca.webp",
+                "galeria": [
+                    "../img/lugares/madera-gofer.webp",
+                    "../img/lugares/brea-sellado.webp",
+                    "../img/lugares/planos-divinos.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": ["Génesis"],
+                "era_biblica": "Era de los Orígenes (Antediluviana)"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Técnicas de Calafateo en Embarcaciones Sumerias",
+                "descripcion": "El uso de betún y brea para impermeabilizar cascos de madera es una tecnología documentada desde los albores de la civilización en Mesopotamia, validando el método de construcción descrito para el Arca."
+            },
+            "narrativa": {
+                "resumen_epico": "Durante décadas, este sitio fue el púlpito más grande y silencioso de la historia. Cada martillazo de Noé era una advertencia física contra la entropía moral del mundo. Noé no estaba construyendo un barco para un viaje de recreo, sino un vehículo de preservación para el Diseño Original. El astillero representa la **fe que trabaja**: años de esfuerzo físico sin ver una sola gota de lluvia, confiando ciegamente en las dimensiones entregadas por el Arquitecto Supremo. Fue el lugar donde la paciencia de Dios esperó mientras se preparaba el refugio para el remanente.",
+                "dato_curioso": "Las dimensiones del Arca (300 x 50 x 30 codos) poseen una proporción de 6 a 1, la misma que utilizan los ingenieros navales modernos para garantizar la máxima estabilidad en alta mar.",
+                "conexion_jesus": "El Arca fue provista de una sola puerta lateral. Jesús declaró: 'Yo soy la puerta'. No existe otro acceso al refugio contra el juicio sino a través de la entrada que el Padre ha diseñado.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Tenacidad inquebrantable, enfoque absoluto frente al escarnio público y paz en la laboriosidad.",
+                "fortalezas": [
+                    "Precisión en el seguimiento de instrucciones divinas",
+                    "Resistencia a la presión social y la burla",
+                    "Protección del núcleo familiar a través del trabajo compartido"
+                ],
+                "debilidades": [
+                    "Fatiga física prolongada",
+                    "Aislamiento total de la cultura circundante"
+                ],
+                "simbologia": [
+                    {
+                        "objeto": "La Madera de Gofer",
+                        "significado": "Representa la materia prima que Dios elige para la salvación: algo terrenal que, bajo el diseño divino, se vuelve incorruptible ante las aguas del juicio."
+                    },
+                    {
+                        "objeto": "La Brea (Cofar)",
+                        "significado": "En hebreo, la palabra comparte raíz con 'Kippur' (Expiación). La brea sellaba el arca por dentro y por fuera, simbolizando que la redención nos protege del juicio externo y limpia nuestra naturaleza interna."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "La obediencia a largo plazo en las cosas pequeñas es lo que construye el vehículo para tu liberación en las crisis grandes.",
+                "preguntas_reflexion": [
+                    "¿Estás trabajando con excelencia en el proyecto que Dios te encomendó, aunque todavía no veas 'nubes de lluvia' en el horizonte?",
+                    "¿Estás sellando las 'fisuras' de tu carácter con la integridad (la brea divina) para que el mundo no se filtre en tu hogar?",
+                    "¿Confías más en los planos del Arquitecto que en la opinión de los espectadores?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "El Diseño",
+                    "evento": "Dios entrega las especificaciones técnicas a Noé.",
+                    "referencia": "Génesis 6:14-16"
+                },
+                {
+                    "fase": "La Construcción",
+                    "evento": "Décadas de trabajo manual y recolección de materiales.",
+                    "referencia": "Génesis 6:22",
+                    "vinculo_id": "obra-arca"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": [
+                    "valle-mesopotamia-antiguo",
+                    "montanas-ararat"
+                ],
+                "personajes_relacionados": [
+                    "noe",
+                    "sem",
+                    "jafet",
+                    "cam"
+                ],
+                "estudios": [
+                    "la-tecnologia-de-la-fe",
+                    "proporciones-de-estabilidad-espiritual"
+                ]
+            },
+            "gamificacion": {
+                "xp_lectura": 350,
+                "logro_id": "arquitecto-de-salvacion"
+            }
+        },
+        {
+            "id": "siquem-asentamiento",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
+            },
+            "mapa": {
+                "coords": [32.2131, 35.2822],
+                "zoom": 14,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#10b981"
+            },
+            "perfil": {
+                "nombre": "Siquem (Valle de Nablus)",
+                "titulo_corto": "El Vínculo de la Posesión",
+                "significado_nombre": "Siquem: 'Hombro' o 'Cresta'. Situada entre los montes Ebal y Gerizim.",
+                "ubicacion_geografica": "Paso estratégico en la cordillera central de Samaria.",
+                "clima_entorno": "Valle fértil y bien regado, cruce de caminos comerciales antiguos.",
+                "imagen_principal": "../img/lugares/siquem.webp",
+                "galeria": [
+                    "../img/lugares/pozo-jacob.webp",
+                    "../img/lugares/parcela-tierra.webp",
+                    "../img/lugares/monte-gerizim.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": ["Génesis", "Josué", "Juan"],
+                "era_biblica": "Era de los Patriarcas"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Tell Balata y el Pozo de Jacob",
+                "descripcion": "Las excavaciones en Tell Balata muestran una ciudad fortificada de la Edad del Bronce. El Pozo de Jacob, excavado en roca sólida, es uno de los sitios con mayor continuidad histórica, autenticado por tradiciones judías, cristianas y samaritanas."
+            },
+            "narrativa": {
+                "resumen_epico": "Siquem es el lugar de los comienzos y las compras legales. Tras su lucha en Peniel, Jacob no entró como un invasor, sino como un propietario. Compró una parcela a los hijos de Hamor por cien monedas de plata, marcando su intención de echar raíces. Sin embargo, Siquem también fue el escenario del dolor por lo sucedido con su hija Dina. Es una ubicación agridulce: el lugar donde la promesa de tierra se volvió tangible a través de una transacción legal, pero donde la convivencia con las naciones vecinas se tornó violenta.",
+                "dato_curioso": "El Pozo de Jacob es uno de los pocos lugares exactos donde podemos decir con seguridad que Jacob, Jesús y miles de peregrinos han bebido de la misma fuente de agua subterránea.",
+                "conexion_jesus": "Siglos después, en este mismo lugar (Sicar/Siquem), Jesús se sentó junto al pozo de su padre Jacob para ofrecerle 'agua viva' a la mujer samaritana, rompiendo barreras raciales y religiosas.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Deseo de pertenencia, pragmatismo legal y tensión cultural.",
+                "fortalezas": ["Establecimiento de propiedad legal", "Legado de infraestructura (el pozo)"],
+                "debilidades": ["Conflictos familiares no resueltos", "Falta de discernimiento en la convivencia"],
+                "simbologia": [
+                    {
+                        "objeto": "La Parcela de Tierra",
+                        "significado": "Representa la fe que no solo espera lo espiritual, sino que invierte en lo material para las futuras generaciones."
+                    },
+                    {
+                        "objeto": "El Pozo",
+                        "significado": "Símbolo de provisión continua en una tierra ajena. Jacob no solo heredó promesas, cavó realidades."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "A veces la mayor bendición no es lo que recibes milagrosamente, sino lo que construyes o compras con integridad para tu familia.",
+                "preguntas_reflexion": [
+                    "¿Estás dejando pozos de bendición para los que vienen después de ti?",
+                    "¿Cómo manejas tus 'transacciones' en un mundo que a menudo entra en conflicto con tus valores?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "La Compra",
+                    "evento": "Jacob compra la parcela y levanta un altar llamado El-Elohe-Israel.",
+                    "referencia": "Génesis 33:18-20"
+                },
+                {
+                    "fase": "El Legado",
+                    "evento": "José es sepultado en esta misma parcela siglos después.",
+                    "referencia": "Josué 24:32"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": ["betel-escalera", "peniel"],
+                "personajes_relacionados": ["jacob", "jose-egipto", "jesus"],
+                "estudios": ["el-pozo-de-la-revelacion", "derechos-de-propiedad-patriarcal"]
+            },
+            "gamificacion": {
+                "xp_lectura": 350,
+                "logro_id": "propietario-de-la-promesa"
+            }
+        },
+        {
+            "id": "haran-padan-aram",
+            "activo": true,
+            "meta": {
+                "version": "4.0-cronos-deep",
+                "fecha_actualizacion": "2026-04-24"
+            },
+            "mapa": {
+                "coords": [36.8647, 39.0319],
+                "zoom": 12,
+                "icono_mapa": "../img/ui/markers/lugar-biblico.svg",
+                "marcador_color": "#10b981"
+            },
+            "perfil": {
+                "nombre": "Harán (Padán-aram)",
+                "titulo_corto": "La Tierra del Servicio",
+                "significado_nombre": "Harán: 'Lugar chamuscado' o 'Camino'. Padán-aram: 'Campo de Aram'.",
+                "ubicacion_geografica": "Alta Mesopotamia, actualmente en el sureste de Turquía.",
+                "clima_entorno": "Llanura árida y calurosa, un centro comercial estratégico donde convergen rutas de caravanas.",
+                "imagen_principal": "../img/lugares/haran.webp",
+                "galeria": [
+                    "../img/lugares/casas-colmena-haran.webp",
+                    "../img/lugares/pastoreo-mesopotamia.webp",
+                    "../img/lugares/pozo-reencuentro.webp"
+                ]
+            },
+            "contexto": {
+                "testamento": "Antiguo Testamento",
+                "libros_aparicion": ["Génesis"],
+                "era_biblica": "Era de los Patriarcas"
+            },
+            "evidencia_arqueologica": {
+                "hallazgo_clave": "Arquitectura de Casas Colmena (Beehive Houses)",
+                "descripcion": "Harán es famosa por sus viviendas de adobe con techos cónicos, un diseño que ha persistido por milenios para mantener el frescor. Las inscripciones asirias mencionan a Harán como un centro de culto al dios lunar Sin, validando su importancia en la época de Jacob."
+            },
+            "narrativa": {
+                "resumen_epico": "Harán fue el crisol donde el carácter de Jacob fue forjado. Llegó como un fugitivo con solo un cayado y se fue 20 años después como un hombre rico y padre de naciones. Aquí experimentó el engaño de Labán, lo que le permitió entender su propio pasado como suplantador. Fue un lugar de espera activa: catorce años de trabajo por amor a Raquel y seis más por sus rebaños. Representa el periodo de 'entrenamiento' antes de heredar la promesa.",
+                "dato_curioso": "Fue en un pozo a las afueras de Harán donde Jacob conoció a Raquel, un eco del encuentro del siervo de Abraham con Rebeca en el mismo lugar años atrás.",
+                "conexion_jesus": "Harán simboliza el servicio humilde. Así como Jacob sirvió años por su esposa, Cristo se despojó a sí mismo y tomó forma de siervo por Su amada, la Iglesia.",
+                "imagen_de_apoyo": ""
+            },
+            "analisis_profundo": {
+                "perfil_emocional": "Resiliencia, paciencia ante la injusticia y maduración del carácter.",
+                "fortalezas": ["Capacidad de trabajo extremo", "Prosperidad bajo bendición divina pese a la oposición"],
+                "debilidades": ["Tensión familiar persistente", "Dependencia inicial del ingenio humano"],
+                "simbologia": [
+                    {
+                        "objeto": "El Cayado de Pastor",
+                        "significado": "Representa la transición de la nada a la abundancia a través de la fidelidad en lo ajeno."
+                    }
+                ]
+            },
+            "aplicacion_personal": {
+                "leccion_clave": "A menudo, el camino hacia tu propósito pasa por servir fielmente en los proyectos de otros.",
+                "preguntas_reflexion": [
+                    "¿Estás aprovechando tu tiempo de 'exilio' o espera para forjar tu carácter?",
+                    "¿Puedes mantener tu integridad cuando otros no son justos contigo?"
+                ]
+            },
+            "linea_tiempo": [
+                {
+                    "fase": "La Llegada",
+                    "evento": "Jacob llega a Harán y conoce a Raquel en el pozo.",
+                    "referencia": "Génesis 29:1-12"
+                },
+                {
+                    "fase": "El Servicio",
+                    "evento": "Jacob sirve a Labán durante 20 años por su familia y bienes.",
+                    "referencia": "Génesis 31:38-41"
+                }
+            ],
+            "vinculos": {
+                "lugares_relacionados": ["betel", "peniel"],
+                "personajes_relacionados": ["jacob", "laban", "raquel", "lea"],
+                "estudios": ["el-caracter-del-siervo", "leyes-de-pastoreo-antiguas"]
+            },
+            "gamificacion": {
+                "xp_lectura": 300,
+                "logro_id": "fiel-en-lo-ajeno"
+            }
         }
-    ],
-    "vinculos": {
-        "lugares_relacionados": [
-            "avaris-egipto",
-            "egipto-jose",
-            "valle-hebron"
-        ],
-        "personajes_relacionados": [
-            "jose",
-            "faraon",
-            "asenat"
-        ],
-        "estudios": [
-            "sabiduria-divina-vs-humana",
-            "el-caracter-en-la-exaltacion"
-        ]
-    },
-    "gamificacion": {
-        "xp_lectura": 400,
-        "logro_id": "luz-en-la-ciudad-del-sol"
-    }
-}
 ]

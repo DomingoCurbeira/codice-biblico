@@ -17,21 +17,28 @@ const COLORES_SECCION = {
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
-   initMap();
+    initMap();
     checkRetorno();
     
-    // 1. Cargamos el archivo principal de puntos (OBLIGATORIO ESPERAR)
+    // 1. Cargamos el archivo principal de puntos
     await cargarMapaBase(); 
     
     gestionarTabs();
     inicializarBuscador();
 
+    // --- LÓGICA DE RECEPCIÓN CORREGIDA ---
     const params = new URLSearchParams(window.location.search);
     const rutaId = params.get('ruta');
+    const lugarId = params.get('lugar'); // <--- NUEVO: Capturamos el lugar
 
     if (rutaId) {
-        // Le damos un pequeño respiro al mapa para que se asiente
-       setTimeout(() => window.cargarTrayectoria(rutaId), 300);
+        console.log("Chef, detectada ruta:", rutaId);
+        setTimeout(() => window.cargarTrayectoria(rutaId), 300);
+    } 
+    else if (lugarId) {
+        console.log("Chef, detectado lugar individual:", lugarId);
+        // Usamos viajarA porque ya tienes esa función que abre el visor y vuela al punto
+        setTimeout(() => viajarA(lugarId), 500);
     }
 });
 
