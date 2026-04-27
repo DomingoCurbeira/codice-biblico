@@ -1,0 +1,377 @@
+[
+    {
+      "id": "adan-diseno-original",
+      "activo": false,
+      "fecha_programada": "2026-04-27",
+      "tipo": "tematico",
+      "titulo": "El Protocolo del Origen: El Diseño de la Imagen",
+      "subtitulo": "Antes de la entropía, existía un estándar de plenitud que no dependía del esfuerzo",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "15 min",
+      "imagen_portada": "../img/estudios/adan-diseno.webp",
+      "tags": [
+        "Diseño Original",
+        "Tselem",
+        "Nishmat",
+        "Identidad",
+        "Edén"
+      ],
+      "versiculo_clave": {
+        "texto": "Y creó Dios al hombre a su imagen, a imagen de Dios lo creó; varón y hembra los creó.",
+        "cita": "Génesis 1:27"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Cuando leemos que fuimos hechos a 'imagen de Dios', solemos pensar en un parecido físico o una cualidad moral. Pero en el Códice del Origen, esta verdad es mucho más radical. Jesús no vino a 'mejorar' al ser humano, sino a restaurar un modelo que ya funcionaba a la perfección. Adán no era un hombre tratando de llegar a ser como Dios; era un ser diseñado para reflejar la plenitud de Dios de forma natural. Entender tu <strong>Diseño Original</strong> es dejar de luchar por ser alguien y empezar a descansar en quien ya fuiste creado para ser. <button class='btn-verse' onclick='abrirModal(\"Génesis 1:27\", \"Y creó Dios al hombre...\")'>Génesis 1:27</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Misterio del Espejo: Tselem y Demut"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina un espejo de alta resolución colocado frente a una luz intensa. El espejo no tiene luz propia, pero mientras esté orientado hacia la fuente, brilla con la misma intensidad que la luz misma. Eso es el <strong>Tselem</strong> (imagen). Adán era el espejo del cielo en la tierra. Su sabiduría, su paz y su autoridad no eran algo que él fabricaba con esfuerzo; eran el resultado de estar perfectamente alineado con el Padre. No había sombras, no había distorsión; el diseño fluía sin obstáculos."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🌬️ <strong>Nishmat Jayim (El Aliento Vital):</strong> Dios sopló Su propia esencia en el barro. No fue solo aire para los pulmones; fue la activación de la sintonía divina. Fue el momento en que el hardware de la tierra se conectó con el flujo de datos de la eternidad."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Una Conexión de Dos Mundos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dios formó al hombre del polvo (Adamah), pero le dio un espíritu que venía de Su propia boca. Esto nos convierte en el único ser que es un 'puente legal' entre lo visible e lo invisible. Adán podía tocar las plantas del Edén y, al mismo tiempo, percibir la frecuencia de la voz de Dios caminando en el huerto. No vivía dividido; operaba en una unidad total donde lo espiritual gobernaba sobre lo material sin ningún tipo de fricción."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/conexion-cielo-tierra.webp",
+          "descripcion": "El diseño original: El hombre como el punto de encuentro perfecto entre la realidad espiritual y la física."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Reposo como Punto de Partida"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "A diferencia de nosotros, que trabajamos para conseguir descanso, Adán comenzó su vida en el séptimo día: el día del reposo de Dios. Su primer día de existencia fue un día de descanso. Esto revela un secreto del Códice: el diseño original funciona de <strong>adentro hacia afuera</strong>. Primero recibes la plenitud de la fuente, y luego, desde ese estado de paz, gobiernas tu entorno. Adán no cuidaba el huerto para ser aceptado; lo cuidaba porque ya era el hijo amado y pleno."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>Blesis Pura:</strong> En el origen, la mirada del hombre no estaba nublada por la duda. Adán veía las cosas como Dios las veía, y por eso sus palabras tenían el poder de establecer identidad en todo lo que nombraba."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Siento que tengo que esforzarme para que Dios me ame, o puedo aceptar que ya soy Su diseño amado?",
+            "¿Estoy intentando brillar con mi propia luz o estoy alineando mi 'espejo' hacia la Fuente?",
+            "¿Cómo cambiaría mi día hoy si creyera que mi autoridad nace de mi descanso en Dios y no de mis logros?"
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Cumplimiento:</strong> Adán fue el espejo que se empañó, pero el Nuevo Testamento nos revela que Jesús es <em>'la imagen del Dios invisible'</em> (<button class='btn-verse' onclick='abrirModal(\"Colosenses 1:15\", \"Él es la imagen del Dios invisible...\")'>Colosenses 1:15</button>). En Él, el diseño no solo se restaura, sino que se perfecciona. Al unirte a Cristo, vuelves a ser el espejo limpio que fuiste diseñado para ser."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Tselem",
+          "origen": "Hebreo (H6754)",
+          "significado": "Imagen o sombra representativa. La capacidad de reflejar el carácter y la gloria de Dios. <br><br> <a href='../etymos/palabra.html?id=tselem-he' class='link-estudio-cruzado'>Etymos: Tselem</a>"
+        },
+        {
+          "palabra": "Nishmat",
+          "origen": "Hebreo (H5397)",
+          "significado": "Aliento o soplo de vida divina que otorga conciencia y conexión espiritual.<br><br> <a href='../etymos/palabra.html?id=nishmat-he' class='link-estudio-cruzado'>Etymos: Nishmat</a>"
+        }
+      ],
+      "desafio_practico": "Hoy, dedica 5 minutos al despertar solo para recordar que eres un diseño eterno. No pienses en tus tareas; piensa en tu origen. Declara: 'Soy imagen de Dios y hoy opero desde Su descanso'. Observa cómo cambia tu enfoque durante el día.",
+      "gamificacion": {
+        "xp_lectura": 250,
+        "logro_id": "identidad-original"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "adan",
+            "nombre": "Adán",
+            "razon": "El perfil del hombre que portó el código intacto de la creación."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "jardin-eden",
+            "nombre": "El Edén",
+            "razon": "El ecosistema diseñado para que el hombre gobernara en paz."
+          }
+        ],
+        
+        "aposento": [
+          {
+            "id_oracion": "vuelta-al-diseno",
+            "tema": "Alineación y Propósito",
+            "accion": "Oración para volver a sintonizar nuestra vida con el modelo original del Padre."
+          }
+        ]
+      }
+    },
+    {
+      "id": "caida-hombre-entropia",
+      "activo": false,
+      "fecha_programada": "2026-04-28",
+      "tipo": "tematico",
+      "titulo": "La Caída del Hombre: El Hackeo de la Percepción",
+      "subtitulo": "El miedo no nació por lo que Adán hizo, sino por lo que dejó de ver",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "14 min",
+      "imagen_portada": "../img/estudios/caida-percepcion.webp",
+      "tags": [
+        "Entropía",
+        "Blesis",
+        "Sarx",
+        "Desconexión",
+        "Identidad"
+      ],
+      "versiculo_clave": {
+        "texto": "Y él respondió: Oí tu voz en el huerto, y tuve miedo, porque estaba desnudo; y me escondí.",
+        "cita": "Génesis 3:10"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "Cuando Adán dijo: 'Tuve miedo porque estaba desnudo', estaba describiendo el primer gran colapso de la historia. Pero aquí hay una verdad que sacude los cimientos de lo que creemos: Adán no estaba 'más desnudo' después de comer del fruto que antes. Su cuerpo físico era el mismo. Lo que cambió fue su <strong>Blesis</strong> (su mirada). Antes, estaba envuelto en la frecuencia de la gloria de Dios; después, esa luz se apagó y quedó atrapado en la limitación de sus propios sentidos. <button class='btn-verse' onclick='abrirModal(\"Génesis 3:10\", \"Y él respondió: Oí tu voz...\")'>Génesis 3:10</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Efecto de la Lámpara Apagada"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina que caminas por una habitación llena de tesoros a plena luz del día. Te sientes seguro y en paz. De repente, la luz se apaga. Los tesoros siguen ahí, pero tú ya no los ves. En la oscuridad, cada sombra parece un enemigo. El miedo de Adán no fue porque Dios hubiera cambiado, sino porque su 'luz interna' se apagó al soltar la mano del Padre. El pecado no le dio sabiduría real; le dio <strong>oscuridad</strong>, y en la oscuridad, hasta el amor del Padre parece una amenaza."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "⚠️ <strong>Entropía Espiritual:</strong> Es el desorden que aparece cuando nos desconectamos de la fuente. Adán no fue castigado con miedo; el miedo fue el resultado natural de intentar procesar la vida con la lámpara de su espíritu apagada."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. Las Hojas de Higuera: El Intento de Autogestión"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "La reacción de Adán fue coser hojas para cubrirse. No era solo por pudor; era un intento de fabricar su propia seguridad. Las hojas de higuera representan cada vez que nosotros intentamos calmar nuestra ansiedad con dinero, control o méritos propios. Son parches que se secan. El hombre intentaba reparar con sus manos lo que solo se sana recuperando la sintonía con el Espíritu (Pneuma)."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/maná/filtro-miedo-vs-luz.webp",
+          "descripcion": "Visualización del cambio de percepción: De la seguridad en la luz a la vulnerabilidad en la sombra."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Pregunta que Busca Restauración"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dios llegó preguntando: '¿Dónde estás tú?'. No era una pregunta de ubicación, sino de <strong>identidad</strong>. Dios sabía dónde estaba el cuerpo de Adán; lo que quería era que Adán viera en qué estado había quedado su corazón. Al esconderse, Adán confesó que su miedo era ahora más grande que su confianza. Pero incluso en ese escondite, Dios ya estaba preparando la piel que lo cubriría de verdad."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🛡️ <strong>De la Sarx al Pneuma:</strong> La caída nos dejó operando en la 'carne' (Sarx), pero el diseño original nos llama a volver a vivir en la frecuencia del Espíritu, donde el miedo pierde su poder."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Cuáles son las 'hojas de higuera' con las que intento tapar mi inseguridad hoy?",
+            "¿Estoy huyendo de la presencia de Dios por sentirme indigno?",
+            "¿Puedo confiar en que Dios me busca no para juzgar mi desnudez, sino para vestirme con Su gracia?"
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "⚖️ <strong>El Balance Legal:</strong> La caída introdujo la entropía por un solo hombre, pero la solución también vino por un solo Hombre. Como dice <button class='btn-verse' onclick='abrirModal(\"Romanos 5:17\", \"Pues si por la transgresión de uno solo reinó la muerte...\")'>Romanos 5:17</button>, si por el error de Adán reinó la muerte, mucho más reinarán en vida los que reciben la abundancia de la gracia a través de Jesucristo. El fallo del sistema fue grave, pero la actualización de vida es infinitamente superior."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Blesis",
+          "origen": "Griego (G991)",
+          "significado": "La facultad de ver con discernimiento. El filtro con el que procesamos la realidad. <br><br> <a href='../etymos/palabra.html?id=blesis-gr' class='link-estudio-cruzado'>Etymos: Blesis</a>"
+        },
+        {
+          "palabra": "Sarx",
+          "origen": "Griego (G4561)",
+          "significado": "La naturaleza humana operando de forma autónoma, limitada a los sentidos físicos."
+        }
+      ],
+      "desafio_practico": "Hoy, identifica un pensamiento de miedo. No intentes combatirlo con lógica humana. Detente y di: 'Señor, enciende mi lámpara. Ayúdame a ver esta situación desde Tu diseño y no desde mi temor'.",
+      "gamificacion": {
+        "xp_lectura": 230,
+        "logro_id": "vision-recuperada"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "adan-huellas",
+            "nombre": "Adán",
+            "razon": "Aquel que nos muestra el primer choque entre la percepción humana y la revelación divina."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "jardin-eden",
+            "nombre": "El Edén",
+            "razon": "El lugar donde el hombre aprendió que la independencia es la raíz de la ansiedad."
+          }
+        ],
+        "manavirtual": [
+          {
+            "id": "el-filtro-del-miedo",
+            "nombre": "Infografía: Percepción vs. Revelación",
+            "razon": "Mapa visual de cómo la mirada de Adán cambió tras la desconexión."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "paz-en-la-presencia",
+            "tema": "Confianza y Seguridad",
+            "accion": "Oración para salir del escondite y volver a descansar en el amor del Padre."
+          }
+        ]
+      }
+    },
+    {
+      "id": "pacto-adanico-rescate",
+      "activo": false,
+      "fecha_programada": "2026-04-29",
+      "tipo": "tematico",
+      "titulo": "El Pacto Adánico: El Protocolo del Rescate",
+      "subtitulo": "Cuando la caída parecía el fin, Dios reveló que Su amor es más profundo que nuestro fallo",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "13 min",
+      "imagen_portada": "../img/estudios/pacto-adanico.webp",
+      "tags": ["Pacto", "Promesa", "Sustitución", "Génesis", "Esperanza"],
+      "versiculo_clave": {
+        "texto": "Y pondré enemistad entre ti y la mujer, y entre tu simiente y la simiente suya; esta te herirá en la cabeza, y tú le herirás en el calcañar.",
+        "cita": "Génesis 3:15"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "A menudo leemos el capítulo 3 del Génesis como la historia de un juicio severo, pero si ajustamos nuestra <strong>Blesis</strong>, descubriremos que es en realidad el acta de nacimiento de la esperanza. Antes de que Adán y Eva salieran del Edén, Dios no solo señaló el error; instaló un 'Protocolo de Rescate' que aseguraría que la humanidad nunca quedara atrapada en la <strong>Entropía</strong> para siempre. El Pacto Adánico no es una condena, es la promesa de que el Dueño del diseño vendría a recuperarlo personalmente. <button class='btn-verse' onclick='abrirModal(\"Génesis 3:15\", \"Y pondré enemistad...\")'>Génesis 3:15</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. La Semilla y el Antídoto"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Dios anunció que de la mujer nacería una 'Semilla' que aplastaría la cabeza de la serpiente. Imagina un campo que ha sido infectado por una plaga que marchita todo a su paso. El agricultor no abandona el campo; anuncia que plantará una semilla especial que tiene el poder no solo de resistir la plaga, sino de absorberla y transformarla en vida nueva. Esa semilla es la promesa del Mesías. Dios estaba diciendo: 'El mal parece haber ganado hoy, pero he puesto en marcha un proceso natural que el enemigo no puede detener'."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "✨ <strong>El Protoevangelio:</strong> Este es el primer destello de luz en la oscuridad de la caída. Es la declaración legal de que el mal tiene una fecha de vencimiento y que la victoria vendrá a través de un sacrificio."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Misterio de las Pieles: La Primera Cobertura"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Adán intentó cubrirse con hojas de higuera. Nosotros pensamos que era solo por pudor, pero era un intento de autogestión: tratar de resolver un problema espiritual con manos humanas. Pero las hojas se secan, pierden su color y se deshacen. Dios hizo algo radical: Él mismo sacrificó a un inocente para vestir a Adán con túnicas de piel. Fue la primera vez que la creación vio la muerte, y fue para que el hombre pudiera vivir con dignidad. Dios estaba enseñando que nuestras 'hojas' (esfuerzos) nunca serán suficientes, pero Su cobertura es permanente."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/maná/hojas-vs-pieles.webp",
+          "descripcion": "El contraste entre el esfuerzo humano (hojas marchitas) y la provisión divina (pieles que cubren y protegen)."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. La Puerta que se Cierra para Protegernos"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "A veces nos duele que Adán fuera expulsado del Edén, pero hay un secreto de amor en ese acto. Si Adán hubiera comido del Árbol de la Vida en su estado de desconexión, su <strong>Entropía</strong> (su miseria y dolor) se habría vuelto eterna. Al cerrar esa puerta, Dios estaba asegurando que el estado de caída fuera temporal. Nos sacó del jardín para poder redimirnos fuera de él y devolvernos un día a un diseño aún mayor. El límite no fue un castigo, fue una medida de seguridad divina."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🛡️ <strong>La Fidelidad del Diseñador:</strong> El Pacto Adánico nos revela que Dios está más interesado en nuestra restauración que en nuestra perfección. Él proveyó la salida antes de que nosotros termináramos de entender el problema."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Reflexión Personal"
+        },
+        {
+          "tipo": "lista",
+          "items": [
+            "¿Sigo intentando presentarme ante Dios con mis propias 'hojas de higuera' (mis logros y méritos)?",
+            "¿Puedo ver la disciplina de Dios no como un castigo, sino como una protección para mi futuro?",
+            "¿Confío en que la 'Semilla' que Dios plantó en mi corazón tiene el poder de vencer cualquier rastro de oscuridad en mi vida?"
+          ]
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🛡️ <strong>La Túnica Definitiva:</strong> Aquella primera túnica de piel que Dios hizo en el Edén era solo un avance de lo que vendría. En <button class='btn-verse' onclick='abrirModal(\"Gálatas 4:4\", \"Pero cuando vino el cumplimiento del tiempo, Dios envió a su Hijo...\")'>Gálatas 4:4</button> vemos a la 'Semilla' naciendo de mujer para rescatarnos. Hoy, ya no usas hojas de higuera ni pieles de animales; hoy estás 'vestido de Cristo'. Tu seguridad no depende de lo que haces, sino de la Cobertura que Él ya completó."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Pacto",
+          "origen": "Hebreo (Berit)",
+          "significado": "Un acuerdo o contrato legal soberano. Es el compromiso inquebrantable de Dios con Su creación."
+        },
+        {
+          "palabra": "Sustitución",
+          "origen": "Concepto Bíblico",
+          "significado": "El principio donde un inocente toma el lugar del culpable para restaurar su posición legal."
+        }
+      ],
+      "desafio_practico": "Hoy, identifica una situación en la que te sientas indigno o avergonzado. No te escondas entre los árboles de tu rutina. Acércate al Padre con honestidad y permite que Su promesa sea la 'vestidura' que te dé la fuerza para seguir adelante.",
+      "gamificacion": {
+        "xp_lectura": 240,
+        "logro_id": "testigo-del-pacto"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "adan-huellas",
+            "nombre": "Adán",
+            "razon": "El primer hombre en experimentar que la gracia de Dios es mayor que su desobediencia."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "salida-eden",
+            "nombre": "La Puerta del Edén",
+            "razon": "El lugar donde el hombre salió con lágrimas, pero con una vestidura hecha por Dios."
+          }
+        ],
+        "manavirtual": [
+          {
+            "id": "la-promesa-de-la-semilla",
+            "nombre": "Infografía: La Línea de Esperanza",
+            "razon": "Visualización de cómo la promesa de Génesis 3:15 atraviesa toda la historia bíblica."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "descanso-en-la-promesa",
+            "tema": "Gratitud y Seguridad",
+            "accion": "Oración para agradecer que Dios siempre tiene un plan de rescate listo para nosotros."
+          }
+        ]
+      }
+    }
+]

@@ -307,8 +307,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (readerHeader) {
         const params = new URLSearchParams(window.location.search);
         const idBuscado = params.get('id');
+        
         const estudio = estudios.find(e => e.id === idBuscado);
-
+        console.log(estudios)
         if (estudio) {
             readerHeader.innerHTML = `
                 <div class="card-meta">${estudio.fecha_publicacion || estudio.fecha} • ${estudio.autor}</div>
