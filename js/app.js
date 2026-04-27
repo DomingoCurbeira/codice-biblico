@@ -159,3 +159,32 @@ function renderizarFooter() {
 
     document.body.insertAdjacentHTML('beforeend', footerHTML);
 }
+
+// function inicializarActionHub() {
+//     const hubMain = document.getElementById('hubMain');
+//     const hubOptions = document.querySelector('.hub-options');
+//     const hubIcon = document.getElementById('hubIcon');
+
+//     hubMain.addEventListener('click', () => {
+//         const isActive = hubMain.classList.toggle('active');
+//         hubOptions.classList.toggle('show');
+
+//         // Cambiar icono de "mensaje" a "X" al abrir
+//         if (isActive) {
+//             hubIcon.className = 'fas fa-times';
+//         } else {
+//             hubIcon.className = 'fas fa-comment-dots';
+//         }
+//     });
+
+//     // Cerrar si se hace clic fuera del menú
+//     document.addEventListener('click', (e) => {
+//         if (!document.getElementById('actionHub').contains(e.target)) {
+//             hubMain.classList.remove('active');
+//             hubOptions.classList.remove('show');
+//             hubIcon.className = 'fas fa-comment-dots';
+//         }
+//     });
+// }
+
+// document.addEventListener('DOMContentLoaded', inicializarActionHub);
