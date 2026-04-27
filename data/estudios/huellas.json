@@ -171,7 +171,7 @@
         },
         {
           "tipo": "imagen",
-          "url": "../img/maná/filtro-miedo-vs-luz.webp",
+          "url": "../img/estudios/filtro-miedo-vs-luz.webp",
           "descripcion": "Visualización del cambio de percepción: De la seguridad en la luz a la vulnerabilidad en la sombra."
         },
         {
@@ -212,7 +212,7 @@
         {
           "palabra": "Sarx",
           "origen": "Griego (G4561)",
-          "significado": "La naturaleza humana operando de forma autónoma, limitada a los sentidos físicos."
+          "significado": "La naturaleza humana operando de forma autónoma, limitada a los sentidos físicos.<br><br> <a href='../etymos/palabra.html?id=sarx-gr' class='link-estudio-cruzado'>Etymos: Sarx</a>"
         }
       ],
       "desafio_practico": "Hoy, identifica un pensamiento de miedo. No intentes combatirlo con lógica humana. Detente y di: 'Señor, enciende mi lámpara. Ayúdame a ver esta situación desde Tu diseño y no desde mi temor'.",
@@ -223,7 +223,7 @@
       "conexiones": {
         "huellas": [
           {
-            "id": "adan-huellas",
+            "id": "adan",
             "nombre": "Adán",
             "razon": "Aquel que nos muestra el primer choque entre la percepción humana y la revelación divina."
           }
@@ -233,13 +233,6 @@
             "id": "jardin-eden",
             "nombre": "El Edén",
             "razon": "El lugar donde el hombre aprendió que la independencia es la raíz de la ansiedad."
-          }
-        ],
-        "manavirtual": [
-          {
-            "id": "el-filtro-del-miedo",
-            "nombre": "Infografía: Percepción vs. Revelación",
-            "razon": "Mapa visual de cómo la mirada de Adán cambió tras la desconexión."
           }
         ],
         "aposento": [
@@ -294,7 +287,7 @@
         },
         {
           "tipo": "imagen",
-          "url": "../img/maná/hojas-vs-pieles.webp",
+          "url": "../img/estudios/hojas-vs-pieles.webp",
           "descripcion": "El contraste entre el esfuerzo humano (hojas marchitas) y la provisión divina (pieles que cubren y protegen)."
         },
         {
@@ -330,7 +323,7 @@
         {
           "palabra": "Pacto",
           "origen": "Hebreo (Berit)",
-          "significado": "Un acuerdo o contrato legal soberano. Es el compromiso inquebrantable de Dios con Su creación."
+          "significado": "Un acuerdo o contrato legal soberano. Es el compromiso inquebrantable de Dios con Su creación. <br><br> <a href='../etymos/palabra.html?id=berit-he' class='link-estudio-cruzado'>Etymos: Berit</a>"
         },
         {
           "palabra": "Sustitución",
@@ -358,13 +351,7 @@
             "razon": "El lugar donde el hombre salió con lágrimas, pero con una vestidura hecha por Dios."
           }
         ],
-        "manavirtual": [
-          {
-            "id": "la-promesa-de-la-semilla",
-            "nombre": "Infografía: La Línea de Esperanza",
-            "razon": "Visualización de cómo la promesa de Génesis 3:15 atraviesa toda la historia bíblica."
-          }
-        ],
+        
         "aposento": [
           {
             "id_oracion": "descanso-en-la-promesa",
@@ -373,5 +360,594 @@
           }
         ]
       }
-    }
+    },
+    {
+      "id": "el-sacrificio-sustitutorio",
+      "activo": false,
+      "fecha_programada": "2026-04-30",
+      "tipo": "tematico",
+      "titulo": "El Sacrificio Sustitutorio: La Ley del Intercambio",
+      "subtitulo": "Cuando la vida de un inocente se convierte en el firewall legal de tu destino",
+      "autor": "Códice Bíblico",
+      "fecha_publicacion": "Abril 2026",
+      "tiempo_lectura": "14 min",
+      "imagen_portada": "../img/estudios/sacrificio-sustitutorio.webp",
+      "tags": ["Sustitución", "Redención", "Justicia", "Cobertura", "Vida"],
+      "versiculo_clave": {
+        "texto": "Porque también Cristo padeció sola una vez por los pecados, el justo por los injustos, para llevarnos a Dios.",
+        "cita": "1 Pedro 3:18"
+      },
+      "contenido": [
+        {
+          "tipo": "intro",
+          "texto": "A menudo imaginamos el sacrificio como un acto de castigo severo, pero en el Códice del Reino, el sacrificio es un <strong>Protocolo de Intercambio Legal</strong>. No se trata de un Dios enojado buscando sangre, sino de un Diseñador restaurando el equilibrio de un sistema que colapsó. La sustitución es la prueba de que, cuando tú no podías pagar la deuda de la <strong>Entropía</strong>, el Cielo envió un Sustituto para que Su plenitud fuera cargada en tu cuenta. <button class='btn-verse' onclick='abrirModal(\"1 Pedro 3:18\", \"Porque también Cristo...\")'>1 Pedro 3:18</button>."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "1. El Misterio de la Deuda de Sangre"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Imagina que una ciudad entera se queda a oscuras porque la fuente de energía principal ha sido saboteada. No importa cuánto se esfuercen los ciudadanos en encender velas; la red principal está caída. Para restaurar la luz, alguien tiene que pagar el costo de la reparación completa. Jesús no vino a darnos 'velas' (buenas obras); vino a pagar la factura total del sabotaje adánico para que la luz volviera a conectarse a nuestra red personal."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "⚖️ <strong>Sustitución Legal:</strong> En el tribunal del espíritu, no se trata de quién es 'bueno' o 'malo', sino de quién tiene la vida necesaria para sostener el sistema. Jesús puso Su Vida Perfecta en el lugar de nuestra vida fracturada."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "2. El Traspaso de Identidad"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "En la cruz ocurrió el intercambio más asombroso de la historia: Jesús tomó nuestra <strong>Sarx</strong> (naturaleza caída) y nos entregó Su <strong>Pneuma</strong> (Espíritu de vida). Él fue tratado como si hubiera cometido cada uno de nuestros errores, para que nosotros pudiéramos ser tratados como si hubiéramos vivido Su vida perfecta. Es como si un Rey se quitara Su corona para dársela a un mendigo, y se pusiera los harapos del mendigo para enfrentar el frío en su lugar."
+        },
+        {
+          "tipo": "imagen",
+          "url": "../img/estudios/el-gran-intercambio.webp",
+          "descripcion": "El intercambio legal: La corona de espinas por la corona de gloria."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "3. El Resultado: Una Cobertura Inmune"
+        },
+        {
+          "tipo": "parrafo",
+          "texto": "Gracias a este sacrificio, ya no operamos bajo el peso de la culpa. La culpa es la señal de que crees que todavía tienes una deuda pendiente. Pero si el Sustituto ya pagó, cobrarte de nuevo sería una injusticia. Ahora, cuando el Padre te mira, no ve tus 'parches de hojas de higuera'; ve la vestidura impecable que Su Hijo te entregó. Estás legalmente a salvo."
+        },
+        {
+          "tipo": "destacado",
+          "texto": "🛡️ <strong>El Cumplimiento:</strong> Lo que comenzó en el Edén con una túnica de piel, se perfeccionó en el Calvario con el Cordero de Dios. Tu cobertura ya no es temporal, es eterna."
+        }
+      ],
+      "diccionario": [
+        {
+          "palabra": "Redención",
+          "origen": "Griego (Apolytrosis)",
+          "significado": "Liberar mediante el pago de un rescate. El acto de comprar de nuevo lo que se había perdido. <br><br> <a href='../etymos/palabra.html?id=apolytrosis-gr' class='link-estudio-cruzado'>Etymos: Apolytrosis</a>"
+        },
+        {
+          "palabra": "Sustitución",
+          "origen": "Concepto Códice",
+          "significado": "El principio donde una vida perfecta toma el lugar legal de una vida en entropía para restaurar su propósito."
+        }
+      ],
+      "desafio_practico": "Hoy, cuando la culpa intente recordarte un error pasado, responde con esta verdad: 'Esa deuda ya fue pagada. Mi Sustituto tomó mi lugar y ahora camino bajo Su cobertura'.",
+      "gamificacion": {
+        "xp_lectura": 260,
+        "logro_id": "comprado-por-precio"
+      },
+      "conexiones": {
+        "huellas": [
+          {
+            "id": "jesus",
+            "nombre": "Jesús",
+            "razon": "El cumplimiento final del sacrificio que Dios anunció en el Edén."
+          }
+        ],
+        "cronos": [
+          {
+            "id": "golgota-sepulcro",
+            "nombre": "Gólgota",
+            "razon": "El lugar geográfico donde se firmó el acta de nuestra libertad."
+          }
+        ],
+        "aposento": [
+          {
+            "id_oracion": "paz-en-la-sustitucion",
+            "tema": "Aceptación y Libertad",
+            "accion": "Oración para apropiarse de la libertad que el sacrificio nos otorgó."
+          }
+        ]
+      }
+    },
+    {
+        "id": "heroes-de-la-fe",
+        "activo": false,
+        "fecha_programada": "2026-05-01",
+        "tipo": "tematico",
+        "titulo": "Héroes de la Fe: Las Antenas de la Eternidad",
+        "subtitulo": "Hombres y mujeres que aprendieron a sintonizar la realidad del Cielo en medio del caos",
+        "autor": "Códice Bíblico",
+        "fecha_publicacion": "Abril 2026",
+        "tiempo_lectura": "14 min",
+        "imagen_portada": "../img/estudios/heroes-fe.webp",
+        "tags": ["Fe", "Sintonía", "Visión", "Persistencia", "Realidad"],
+        "versiculo_clave": {
+          "texto": "Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.",
+          "cita": "Hebreos 11:1"
+        },
+        "contenido": [
+          {
+            "tipo": "intro",
+            "texto": "Solemos pensar que los héroes de la fe eran personas con una fuerza de voluntad sobrehumana. Pero la revelación es distinta: eran personas que decidieron confiar más en lo que Dios decía (el Diseño) que en lo que sus ojos veían (la Entropía). La fe no es 'creer que algo pasará', es <strong>saber que algo ya es real</strong> en la dimensión del Espíritu y actuar en consecuencia. Son las 'antenas' que trajeron el Reino a la tierra antes de tiempo. <button class='btn-verse' onclick='abrirModal(\"Hebreos 11:1\", \"Es, pues, la fe...\")'>Hebreos 11:1</button>."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "1. Ver a través de la Niebla"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Imagina que estás en un barco en medio de una niebla espesa. Tus ojos te dicen que no hay nada adelante, pero el radar te indica que hay un puerto seguro a pocos metros. Un 'héroe de la fe' es alguien que ignora la niebla y navega siguiendo el radar. No inventan el puerto; simplemente confían en el instrumento que detecta lo que los sentidos físicos no pueden percibir. La fe es el radar del espíritu."
+          },
+          {
+            "tipo": "destacado",
+            "texto": "📡 <strong>Sintonía Espiritual:</strong> La fe no crea la realidad de Dios, solo la sintoniza. Los héroes no hicieron que Dios actuara; ellos se alinearon con lo que Dios ya estaba haciendo."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "2. La Evidencia de lo Invisible"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Héroes como Noé o Abraham no tenían pruebas físicas de lo que Dios les pedía. Noé construyó un barco cuando nunca había llovido; Abraham salió hacia una tierra que no conocía. Su secreto fue que su <strong>Blesis</strong> (mirada) estaba fija en la Palabra del Diseñador. Para ellos, lo que Dios decía era más sólido que el suelo que pisaban. Entendieron que lo invisible es el 'código fuente' de lo visible."
+          },
+          {
+            "tipo": "imagen",
+            "url": "../img/estudios/radar-de-la-fe.webp",
+            "descripcion": "La fe como el radar que detecta la ciudad eterna mientras caminamos en el desierto temporal."
+          },
+          {
+            "tipo": "subtitulo",
+            "texto": "3. Un Legado de Frecuencias"
+          },
+          {
+            "tipo": "parrafo",
+            "texto": "Estos hombres y mujeres nos dejaron un rastro. No fueron perfectos —cometieron errores y sintieron miedo—, pero siempre volvían a sintonizar la frecuencia correcta. Su fe no los hizo escapar de los problemas, sino que les dio la capacidad de caminar sobre ellos. Al final, no fueron recordados por sus logros humanos, sino por cuánto confiaron en la fidelidad de Aquel que los llamó."
+          },
+          {
+            "tipo": "destacado",
+            "texto": "✨ <strong>El Cumplimiento:</strong> Hoy no caminamos solos. Estamos rodeados de una 'nube de testigos' que ya probaron que el sistema de la fe funciona. Si ellos pudieron sintonizar a Dios en su tiempo, tú puedes hacerlo hoy en el tuyo."
+          }
+        ],
+        "diccionario": [
+          {
+            "palabra": "Certeza",
+            "origen": "Griego (Hupóstasis)",
+            "significado": "Sustancia o base sólida. Tener fe es tener la 'escritura de propiedad' de algo que aún no has recibido físicamente. <br><br> <a href='../etymos/palabra.html?id=Hupostasis-gr' class='link-estudio-cruzado'>Etymos: Hupóstasis</a>"
+          },
+          {
+            "palabra": "Convicción",
+            "origen": "Griego (Élegkhos)",
+            "significado": "Evidencia interna que convence al corazón incluso cuando no hay pruebas externas.  <br><br> <a href='../etymos/palabra.html?id=elegkhos-gr' class='link-estudio-cruzado'>Etymos: Élegkhos</a>"
+          }
+        ],
+        "desafio_practico": "Hoy, identifica una 'niebla' en tu vida (un problema que no ves cómo resolver). En lugar de mirar la niebla, busca una promesa de Dios en Su Palabra y decide que esa promesa es más real que el problema. Camina siguiendo tu radar.",
+        "gamificacion": {
+          "xp_lectura": 240,
+          "logro_id": "antena-sintonizada"
+        },
+        "conexiones": {
+          "huellas": [
+            {
+              "id": "abraham",
+              "nombre": "Abraham",
+              "razon": "El ejemplo máximo de alguien que dejó su pasado por confiar en un diseño futuro."
+            }
+          ],
+          "cronos": [
+            {
+              "id": "encinar-mamre",
+              "nombre": "Las Encinas de Mamre",
+              "razon": "El lugar donde Abraham levantó un altar y decidió que la promesa de un hijo era más real que su propia vejez."
+            }
+          ],
+          "aposento": [
+            {
+              "id_oracion": "sintonía-de-fe",
+              "tema": "Visión y Confianza",
+              "accion": "Oración para limpiar nuestra visión y volver a confiar en la Palabra del Padre."
+            }
+          ]
+        }
+      },
+      {
+          "id": "la-sangre-de-cristo",
+          "activo": false,
+          "fecha_programada": "2026-05-04",
+          "tipo": "tematico",
+          "titulo": "La Sangre de Cristo: El Flujo de la Vida Eterna",
+          "subtitulo": "La ingeniería divina para limpiar el sistema y restaurar la genética del Reino",
+          "autor": "Códice Bíblico",
+          "fecha_publicacion": "Abril 2026",
+          "tiempo_lectura": "15 min",
+          "imagen_portada": "../img/estudios/sangre-cristo.webp",
+          "tags": ["Vida", "Redención", "Limpieza", "Pacto", "Nishmat"],
+          "versiculo_clave": {
+            "texto": "Porque la vida de la carne en la sangre está, y yo os la he dado para hacer expiación sobre el altar por vuestras almas.",
+            "cita": "Levítico 17:11"
+          },
+          "contenido": [
+            {
+              "tipo": "intro",
+              "texto": "Para entender el poder de la sangre de Jesús, debemos comprender una ley biológica del espíritu: la vida está en la sangre. En el Códice, la sangre de Cristo no es solo un símbolo de sacrificio, es el <strong>Antivirus Divino</strong>. Es el único elemento capaz de entrar en nuestro sistema, detectar el rastro de la <strong>Entropía</strong> y borrarlo por completo, devolviéndonos la frecuencia original del Padre. <button class='btn-verse' onclick='abrirModal(\"Levítico 17:11\", \"Porque la vida de la carne...\")'>Levítico 17:11</button>."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "1. El Portador de la Información Perfecta"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "Imagina que un virus ha corrompido todos los archivos de una gran red. Por más que intentes limpiar los archivos uno a uno, el virus sigue en el código fuente. La única solución es inyectar un código nuevo, limpio y superior que sobrescriba el error. La sangre de Jesús es ese código nuevo. Al ser una sangre que no provenía de la línea de Adán, no contenía la 'falla' del pecado. Es sangre con la genética pura del Cielo, diseñada para restaurar nuestra identidad."
+            },
+            {
+              "tipo": "destacado",
+              "texto": "🩸 <strong>Biología del Espíritu:</strong> La sangre de Cristo lleva el <strong>Nishmat</strong> (aliento de vida) sin contaminación. Cuando se aplica a nuestra vida, no solo nos perdona, sino que nos reconecta con la fuente de vida eterna."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "2. Una Voz que Habla Mejor"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "La Biblia dice que la sangre de Jesús 'habla'. Mientras que nuestra conciencia a veces nos grita 'fallaste' o 'no eres digno', la sangre de Cristo emite una frecuencia constante de 'justificado' y 'limpio'. Es una voz legal que silencia cualquier acusación. En el tribunal del espíritu, el testimonio de Su sangre es la evidencia final que garantiza nuestra paz. Ella habla de un pacto que no puede ser roto."
+            },
+            {
+              "tipo": "imagen",
+              "url": "../img/estudios/flujo-de-vida.webp",
+              "descripcion": "El flujo de la sangre de Cristo restaurando la conexión entre el hombre y el diseño original."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "3. Aplicando la Cobertura"
+            },
+            {
+              "tipo": "parrafo",
+              "texto": "En el antiguo pacto, la sangre se aplicaba en los dinteles de las puertas para que el destructor no pudiera entrar. Hoy, esa puerta es tu corazón y tu mente. Aplicar la sangre de Cristo es decidir que lo que Él hizo es más real que lo que tú sientes. Es vivir bajo un 'techo' de protección donde la culpa y la condenación no tienen permiso legal para residir. Estás bajo el amparo del Pacto Eterno."
+            },
+            {
+              "tipo": "destacado",
+              "texto": "🛡️ <strong>Seguridad Total:</strong> No estamos limpios por nuestro buen comportamiento, sino por la calidad de la Sangre que nos cubre. Nuestra confianza reside en el valor infinito de ese Flujo de Vida."
+            }
+          ],
+          "diccionario": [
+            {
+              "palabra": "Expiación",
+              "origen": "Hebreo (Kaphar)",
+              "significado": "Cubrir o cancelar una deuda. Es el acto de borrar legalmente el rastro de una falta. <br><br> <a href='../etymos/palabra.html?id=kaphar-he' class='link-estudio-cruzado'>Etymos: Kaphar</a>"
+            },
+            {
+              "palabra": "Pacto",
+              "origen": "Griego (Diatheke)",
+              "significado": "Un testamento o disposición legal que otorga beneficios a una de las partes basados en la fidelidad de la otra. <br><br> <a href='../etymos/palabra.html?id=diatheke-gr' class='link-estudio-cruzado'>Etymos: Diatheke</a>"
+            }
+          ],
+          "desafio_practico": "Hoy, si te sientes atacado por pensamientos de condenación, visualiza el flujo de vida de Jesús limpiando tu mente. Di en voz alta: 'La sangre de Cristo habla paz sobre mi vida y me declara libre de toda deuda'.",
+          "gamificacion": {
+            "xp_lectura": 270,
+            "logro_id": "redimido-por-el-flujo"
+          },
+          "conexiones": {
+            "huellas": [
+              {
+                "id": "jesus",
+                "nombre": "Jesús",
+                "razon": "Aquel cuya sangre estableció el nuevo y eterno protocolo de acceso al Padre."
+              }
+            ],
+            "cronos": [
+              {
+                "id": "aposento-alto",
+                "nombre": "El Aposento Alto",
+                "razon": "El lugar donde Jesús presentó el vino como símbolo del nuevo pacto en Su sangre."
+              }
+            ],
+            "aposento": [
+              {
+                "id_oracion": "vida-en-el-flujo",
+                "tema": "Purificación y Victoria",
+                "accion": "Oración para sumergir nuestra identidad en el poder limpiador de la sangre de Jesús."
+              }
+            ]
+          }
+        },
+        {
+                "id": "el-pacto-abrahamico",
+                "activo": false,
+                "fecha_programada": "2026-05-03",
+                "tipo": "tematico",
+                "titulo": "El Pacto Abrahámico: La Firma de la Eternidad",
+                "subtitulo": "El protocolo legal que blindó tu herencia antes de que nacieras",
+                "autor": "Códice Bíblico",
+                "fecha_publicacion": "Mayo 2026",
+                "tiempo_lectura": "16 min",
+                "imagen_portada": "../img/estudios/pacto-abrahamico.webp",
+                "tags": ["Pacto", "Herencia", "Legalidad", "Abraham", "Promesa"],
+                "versiculo_clave": {
+                  "texto": "En aquel día hizo Jehová un pacto con Abram, diciendo: A tu descendencia daré esta tierra...",
+                  "cita": "Génesis 15:18"
+                },
+                "contenido": [
+                  {
+                    "tipo": "intro",
+                    "texto": "Muchos ven la historia de Abraham como un relato de fe personal, pero en el Códice, es el registro de una <strong>Asociación Estratégica</strong>. Un pacto no es un acuerdo de caballeros; es una estructura jurídica donde Dios pone Su propia existencia como garantía. Abraham no 'ganó' la bendición, él firmó el acceso a un ecosistema de provisión que hoy te alcanza a ti. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:18\", \"En aquel día...\")'>Génesis 15:18</button>."
+                  },
+                  {
+                    "tipo": "subtitulo",
+                    "texto": "1. El Protocolo de las Mitades"
+                  },
+                  {
+                    "tipo": "parrafo",
+                    "texto": "En el contexto antiguo, un pacto se sellaba pasando entre animales divididos. Era una forma de decir: 'Que así me pase a mí si rompo mi palabra'. Pero aquí ocurre algo sorprendente: Abraham cae en un sueño profundo y es Dios mismo quien pasa por las mitades. Revela que el cumplimiento del contrato no depende de la fragilidad humana de Abraham, sino de la inmutabilidad divina. Es un pacto de gracia blindado contra el fallo humano."
+                  },
+                  {
+                    "tipo": "destacado",
+                    "texto": "📝 <strong>Seguridad Contractual:</strong> Tu herencia espiritual no depende de tu desempeño diario, sino de la firma de un Dios que no puede mentir. Eres beneficiario de un testamento que tú no tuviste que redactar."
+                  },
+                  {
+                    "tipo": "subtitulo",
+                    "texto": "2. La Expansión del Código Genético"
+                  },
+                  {
+                    "tipo": "parrafo",
+                    "texto": "Dios le pide a Abraham que mire las estrellas. No era un ejercicio de astronomía, era una visualización del <strong>Código de Expansión</strong>. El pacto con Abraham introdujo una nueva 'genética de fe' en la historia humana. A partir de aquí, la identidad ya no se define por la sangre biológica, sino por la conexión con la Promesa. Al entrar en este pacto, dejas de ser un átomo aislado para convertirte en parte de un linaje imparable."
+                  },
+                  {
+                    "tipo": "imagen",
+                    "url": "../img/estudios/las-estrellas-de-abraham.webp",
+                    "descripcion": "Abraham bajo el firmamento, visualizando el código de una descendencia incontable."
+                  },
+                  {
+                    "tipo": "subtitulo",
+                    "texto": "3. La Señal en la Carne"
+                  },
+                  {
+                    "tipo": "parrafo",
+                    "texto": "El pacto requería una marca. En el Códice, esto simboliza que la revelación debe tocar nuestra humanidad más profunda. No es un contrato externo, es una transformación de nuestra propia naturaleza. Estar pactado significa que llevas una 'marca legal' que el mundo espiritual reconoce. El enemigo no retrocede ante tus fuerzas, retrocede ante el contrato que te respalda."
+                  }
+                ],
+                "diccionario": [
+                  {
+                    "palabra": "Pacto",
+                    "origen": "Hebreo (Berit)",
+                    "significado": "Un corte o alianza que une a dos partes en un destino común. Es un vínculo que solo la muerte (o un sacrificio) puede establecer. <br><br> <a href='../etymos/palabra.html?id=berit-he' class='link-estudio-cruzado'>Etymos: Berit</a>"
+                  },
+                  {
+                    "palabra": "Descendencia",
+                    "origen": "Hebreo (Zera)",
+                    "significado": "Semilla. El potencial de vida contenido en una promesa que se multiplica exponencialmente. <br><br> <a href='../etymos/palabra.html?id=zera-he' class='link-estudio-cruzado'>Etymos: Zera</a>"
+                  }
+                ],
+                "desafio_practico": "Hoy, cuando te sientas inseguro sobre tu futuro, recuerda: 'Yo no camino bajo mi propia suerte, camino bajo el Pacto de Abraham'. Declara que las cláusulas de bendición de ese contrato están activas sobre tu casa.",
+                "gamificacion": {
+                  "xp_lectura": 300,
+                  "logro_id": "socio-del-pacto"
+                },
+                "conexiones": {
+                  "huellas": [
+                    {
+                      "id": "abraham",
+                      "nombre": "Abraham",
+                      "razon": "El hombre que creyó a Dios y le fue contado por justicia."
+                    }
+                  ],
+                  "cronos": [
+                    {
+                      "id": "encinar-mamre",
+                      "nombre": "Las Encinas de Mamre",
+                      "razon": "El centro de operaciones donde se gestionó la promesa."
+                    }
+                  ],
+                  
+                  "aposento": [
+                    {
+                      "id_oracion": "reposo-en-el-pacto",
+                      "tema": "Identidad y Seguridad",
+                      "accion": "Oración para descansar en la legalidad de la promesa abrahámica."
+                    }
+                  ]
+                }
+              },
+              {
+                  "id": "la-justificacion-por-fe",
+                  "activo": false,
+                  "fecha_programada": "2026-05-04",
+                  "tipo": "tematico",
+                  "titulo": "La Justificación por Fe: El Hackeo de la Justicia",
+                  "subtitulo": "Cómo la sintonía con la Palabra de Dios sobrescribe tu historial de errores",
+                  "autor": "Códice Bíblico",
+                  "fecha_publicacion": "Mayo 2026",
+                  "tiempo_lectura": "15 min",
+                  "imagen_portada": "../img/estudios/justificacion-fe.webp",
+                  "tags": ["Justicia", "Fe", "Legalidad", "Abraham", "Identidad"],
+                  "versiculo_clave": {
+                    "texto": "Y creyó a Jehová, y le fue contado por justicia.",
+                    "cita": "Génesis 15:6"
+                  },
+                  "contenido": [
+                    {
+                      "tipo": "intro",
+                      "texto": "En el mundo de la <strong>Entropía</strong>, todo se gana con esfuerzo; en el Reino del Diseño, todo se recibe por sintonía. La justificación no es un sentimiento de bondad, es un <strong>Traspaso Legal de Crédito</strong>. Abraham no hizo nada para ser justo; él simplemente le creyó al Arquitecto cuando todo lo visible decía lo contrario. Ese acto de confianza fue el 'código' que activó su aprobación absoluta ante el Cielo. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:6\", \"Y creyó a Jehová...\")'>Génesis 15:6</button>."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "1. El Tribunal del Observador"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Imagina que estás frente a un juez con un expediente lleno de deudas. De repente, alguien deposita una fortuna infinita en tu cuenta y el juez, al mirar el saldo, te declara solvente. No es que no debieras, es que la deuda fue sobrescrita. La fe de Abraham fue ese depósito. Él no miró su cuerpo envejecido (la deuda), miró la promesa (la fortuna). Al sintonizar Su mirada con la de Dios, su estatus legal cambió para siempre."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "⚖️ <strong>Justicia Imputada:</strong> La justicia no es algo que fabricas, es algo que se te acredita. Cuando crees lo que Dios dice de ti, Su justicia se carga en tu cuenta personal y tu pasado pierde su derecho legal de acusarte."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "2. La Muerte de la Autosuficiencia"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Abraham tuvo que esperar 25 años para ver el cumplimiento. En ese tiempo, sus fuerzas murieron. La justificación por fe ocurre cuando dejas de intentar 'ayudar' a Dios con tus métodos humanos (como el intento con Agar) y te rindes totalmente a Su método. Es el paso de la <strong>Sarx</strong> (la carne) al <strong>Pneuma</strong> (el Espíritu). Justificación es descansar en que Él es fiel aunque nosotros seamos frágiles."
+                    },
+                    {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/la-balanza-de-la-fe.webp",
+                      "descripcion": "La balanza del Reino: Un solo acto de fe pesando más que una vida de esfuerzos humanos."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. Amistad por Sintonía"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "El resultado de ser justificado no es solo el perdón, es la <strong>intimidad</strong>. Abraham fue llamado 'Amigo de Dios'. Cuando dejas de intentar impresionar a Dios con tus obras, empiezas a disfrutar de Su compañía. La fe abre un portal de comunicación bidireccional donde el Diseñador comparte Sus secretos contigo. Ya no eres un esclavo intentando no fallar, eres un socio caminando en acuerdo."
+                    }
+                  ],
+                  "diccionario": [
+                    {
+                      "palabra": "Justificación",
+                      "origen": "Griego (Dikaiosis)",
+                      "significado": "El acto legal de declarar a alguien justo. No es 'hacer' justo a alguien, sino 'declararlo' libre de toda culpa ante la ley. <br><br> <a href='../etymos/palabra.html?id=dikaiosis-gr' class='link-estudio-cruzado'>Etymos: Dikaiosis</a>"
+                    },
+                    {
+                      "palabra": "Contado",
+                      "origen": "Hebreo (Chashab)",
+                      "significado": "Término contable. Significa poner en la cuenta de alguien, imputar o calcular un valor. <br><br> <a href='../etymos/palabra.html?id=chashab-he' class='link-estudio-cruzado'>Etymos: Chashab</a>"
+                    }
+                  ],
+                  "desafio_practico": "Hoy, identifica un área de tu vida donde te sientes 'culpable' o 'insuficiente'. Deja de intentar arreglarlo con tu esfuerzo y di: 'Padre, creo lo que Tú dices de mí en esa área. Tu justicia es mi saldo actual'. Experimenta la paz del traspaso legal.",
+                  "gamificacion": {
+                    "xp_lectura": 280,
+                    "logro_id": "cuenta-saldada"
+                  },
+                  "connections": {
+                    "huellas": [
+                      {
+                        "id": "pablo",
+                        "nombre": "Pablo",
+                        "razon": "El perito arquitecto que explicó legalmente cómo la fe de Abraham nos justifica a nosotros hoy."
+                      }
+                    ],
+                    "cronos": [
+                      {
+                        "id": "encinar-mamre",
+                        "nombre": "Las Encinas de Mamre",
+                        "razon": "El lugar de reposo donde la fe de Abraham se consolidó como una amistad eterna."
+                      }
+                    ],
+                    "aposento": [
+                      {
+                        "id_oracion": "paz-en-la-justicia",
+                        "tema": "Reposo y Aceptación",
+                        "accion": "Oración para recibir la declaración de justicia sobre nuestra propia historia."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "hospitalidad-biblica",
+                  "activo": false,
+                  "fecha_programada": "2026-05-05",
+                  "tipo": "tematico",
+                  "titulo": "Hospitalidad Bíblica: El Portal de la Recepción",
+                  "subtitulo": "Cómo crear una atmósfera donde lo eterno decide quedarse y manifestarse",
+                  "autor": "Códice Bíblico",
+                  "fecha_publicacion": "Mayo 2026",
+                  "tiempo_lectura": "14 min",
+                  "imagen_portada": "../img/estudios/hospitalidad-portal.webp",
+                  "tags": ["Hospitalidad", "Aceleración", "Portal", "Abraham", "Honra"],
+                  "versiculo_clave": {
+                    "texto": "No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.",
+                    "cita": "Hebreos 13:2"
+                  },
+                  "contenido": [
+                    {
+                      "tipo": "intro",
+                      "texto": "Bajo las encinas de Mamre, Abraham ejecutó un protocolo que cambió su destino. La hospitalidad en el Códice es la capacidad de <strong>hacer espacio</strong> para lo que Dios trae, incluso cuando viene disfrazado de lo común. Abraham no vio ángeles al principio; vio a tres hombres cansados bajo el sol. Fue su disposición a servir lo que activó la manifestación de lo divino. <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:2\", \"No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.\")'>Hebreos 13:2</button>."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "1. La Ley de la Honra"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Honrar es asignar valor. Abraham corrió al encuentro de los visitantes y se postró. Él reconoció el valor de la visita antes de conocer su identidad. En el Reino, lo que honras es lo que recibes. Al honrar a los enviados, Abraham estaba honrando al Enviador. La hospitalidad es el sistema de ventilación que permite que el aroma del Cielo entre en tu casa y se lleve el olor a estancamiento de la espera."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "🚪 <strong>Activación de Portales:</strong> Tu hogar y tu corazón son portales potenciales. La hospitalidad es la llave que gira la cerradura. Cuando abres tu puerta con generosidad, estás autorizando legalmente la entrada de la bendición a tu territorio."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "2. Aceleración en la Mesa"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Fue sentado a la mesa donde Dios soltó la palabra: 'Al tiempo señalado volveré, y Sara tendrá un hijo'. La hospitalidad acorta los tiempos. Lo que Abraham había esperado por décadas, se concretó en una cena. Servir a otros con excelencia es una de las formas más rápidas de mover la aguja de tu propia promesa. Mientras Abraham saciaba el hambre de los visitantes, Dios saciaba la sed de herencia de Abraham."
+                    },
+                    {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/la-mesa-de-mamre.webp",
+                      "descripcion": "El momento del anuncio: Cuando lo eterno se sienta a la mesa de lo temporal."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. Sin Saberlo, Hospedaste Ángeles"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "El misterio de la hospitalidad es que lo extraordinario suele venir envuelto en lo ordinario. Si esperas a ver alas para servir, te perderás la visita. El Códice nos enseña a tratar cada encuentro como una cita divina. Tu próxima gran oportunidad o palabra de revelación puede venir a través de un gesto de generosidad hacia alguien que parece no tener nada que darte. En el Reino, el que sirve es el que realmente gobierna el portal."
+                    }
+                  ],
+                  "diccionario": [
+                    {
+                      "palabra": "Hospitalidad",
+                      "origen": "Griego (Philoxenia)",
+                      "significado": "Literalmente 'amor a los extraños'. Es la virtud de transformar a un extraño en un invitado de honor. <br><br> <a href='../etymos/palabra.html?id=philoxenia-gr' class='link-estudio-cruzado'>Etymos: Philoxenia</a>"
+                    },
+                    {
+                      "palabra": "Honra",
+                      "origen": "Hebreo (Kabod)",
+                      "significado": "Peso o importancia. Dar honra es dar importancia a alguien o algo por encima de uno mismo. <br><br> <a href='../etymos/palabra.html?id=kabod-he' class='link-estudio-cruzado'>Etymos: Kabod</a>"
+                    }
+                  ],
+                  "desafio_practico": "Esta semana, practica la 'Honra Proactiva'. Identifica a alguien a quien puedas servir o bendecir sin esperar nada a cambio. Hazlo con la consciencia de que estás abriendo un portal de bendición sobre tu propia vida.",
+                  "gamificacion": {
+                    "xp_lectura": 250,
+                    "logro_id": "guardian-del-portal"
+                  },
+                  "connections": {
+                    "huellas": [
+                      {
+                        "id": "viuda-de-sarepta",
+                        "nombre": "La Viuda de Sarepta",
+                        "razon": "Hospedó a un profeta con su último bocado y activó un portal de provisión inagotable."
+                      }
+                    ],
+                    "cronos": [
+                      {
+                        "id": "Encinar-mamre",
+                        "nombre": "Las Encinas de Mamre",
+                        "razon": "El lugar geográfico donde la hospitalidad humana y la soberanía divina se dieron la mano."
+                      }
+                    ],
+                    "aposento": [
+                      {
+                        "id_oracion": "corazon-hospedador",
+                        "tema": "Generosidad y Apertura",
+                        "accion": "Oración para convertir nuestro ser en un lugar de descanso para la presencia de Dios."
+                      }
+                    ]
+                  }
+                }
 ]
