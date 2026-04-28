@@ -1,9 +1,10 @@
-const CACHE_NAME = 'codice-v58'; // Subimos de versión para aplicar cambios
+const CACHE_NAME = 'codice-v59'; // Subimos de versión para aplicar cambios
 const ASSETS = [
   '/',
   '/index.html',
   '/css/styles.css',
   '/js/app.js',
+  '/js/global-hub.js',
   '/manifest.json',
   
   // Iconos PWA
