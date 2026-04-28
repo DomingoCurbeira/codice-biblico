@@ -1,4 +1,4 @@
-const CACHE_NAME = 'codice-v59'; // Subimos de versión para aplicar cambios
+const CACHE_NAME = 'codice-v60'; // Subimos de versión para aplicar cambios
 const ASSETS = [
   '/',
   '/index.html',
