@@ -1,0 +1,124 @@
+{
+                  "id": "ismael-bendicion-semilla-desplazada",
+                  "activo": true, 
+                  "fecha_programada": "2026-05-06",
+                  "tipo": "huellas",
+                  "titulo": "Ismael: La Bendición de la Semilla Desplazada",
+                  "subtitulo": "La Fidelidad del Creador hacia el Origen y la Identidad",
+                  "autor": "Códice Bíblico",
+                  "fecha_publicacion": "Mayo 2026",
+                  "tiempo_lectura": "11 min",
+                  "imagen_portada": "../img/estudios/ismael-desierto.webp",
+                  "tags": ["Identidad", "Soberanía", "Promesa", "Justicia"],
+                  "versiculo_clave": {
+                    "texto": "Y en cuanto a Ismael, también te he oído; he aquí que le bendeciré, y le haré fructificar y multiplicar mucho en gran manera.",
+                    "cita": "Génesis 17:20"
+                  },
+                  "contenido": [
+                    {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/ismael-agar-desterrados.webp",
+                      "descripcion": "Dios respondiendo al diseño de Ismael en medio de su desplazamiento."
+                    },
+                    {
+                      "tipo": "intro",
+                      "texto": "Ismael a menudo es interpretado como el resultado de un error humano, pero en el Códice del Reino, ninguna vida es un accidente. La historia de Ismael revela un protocolo de justicia divina: Dios es fiel a Su propio diseño y honra la semilla (Zera) por causa de su origen, incluso cuando esta se encuentra fuera del canal principal del pacto mesiánico."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "1. La Justicia del Origen: El Valor de la Zera"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Aunque Ismael no fue el hijo del pacto establecido con Isaac, Dios no ignoró su existencia. El reconocimiento legal de Ismael como descendencia de Abraham activó una protección soberana. Dios bendice a Ismael no por las circunstancias de su nacimiento, sino por la identidad del linaje al que pertenece. <button class='btn-verse' onclick='abrirModal(\"Génesis 21:13\", \"Y también del hijo de la sierva haré una nación, porque es tu descendencia.\")'>Génesis 21:13</button>"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> Muchas veces nos sentimos invalidados por los errores de nuestro pasado o por haber nacido en entornos de conflicto. Sin embargo, el diseño original enseña que tu valor no depende de la aprobación del sistema humano, sino del origen divino que portamos. Si Dios reconoció el diseño de Ismael en el desierto, Su mirada también valida tu existencia hoy, independientemente de tu ubicación actual."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "La bendición de Dios no es un respaldo al error del hombre, sino un testimonio de Su fidelidad hacia la vida que Él mismo permitió manifestar."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "2. El Protocolo de la Voz: Dios oye el Diseño"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "En el punto más crítico del desplazamiento, cuando el recurso humano se agotó, el Creador intervino. No respondió al llanto de la desesperación, sino a la voz de la identidad del muchacho. <button class='btn-verse' onclick='abrirModal(\"Génesis 21:17\", \"Y oyó Dios la voz del muchacho; y el ángel de Dios llamó a Agar desde el cielo, y le dijo: ¿Qué tienes, Agar? No temas; porque Dios ha oído la voz del muchacho donde está.\")'>Génesis 21:17</button>"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "<strong>Ubicación Legal:</strong> Dios oyó la voz del muchacho 'donde estaba'. No necesitó que estuviera en la tienda de Abraham para reconocerlo.",
+                        "<strong>Soberanía en el Desierto:</strong> El desierto no anuló la promesa de multiplicación; al contrario, fue el escenario donde se manifestó la independencia de la provisión divina.",
+                        "<strong>Potencial de Gobierno:</strong> Ismael fue constituido como padre de doce príncipes, reflejando que la bendición de la simiente de Abraham es masiva y trascendente."
+                      ]
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> El 'Efecto Espejo' nos muestra que tu situación presente no limita la frecuencia de Dios. Él oye tu diseño 'donde estás'. Estar en un periodo de desierto o desplazamiento no significa estar fuera de Su jurisdicción. Tu voz tiene peso legal ante el cielo porque eres portador de una herencia que trasciende las crisis temporales."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. La Bendición de la Semilla Desplazada"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Dios ratificó Su compromiso con la descendencia de Abraham multiplicando a Ismael. Esta generosidad revela que el Creador no escatima recursos para preservar el diseño, incluso cuando este opera bajo un orden distinto al del convenio principal. <button class='btn-verse' onclick='abrirModal(\"Génesis 16:10\", \"Le dijo también el ángel de Jehová: Multiplicaré tanto tu descendencia, que no podrá ser contada a causa de su multitud.\")'>Génesis 16:10</button>"
+                    },
+                     {
+                      "tipo": "destacado",
+                      "texto": "✨ <strong>El Cumplimiento:</strong> Adán fue el espejo que se empañó, pero el Nuevo Testamento nos revela que Jesús es <em>'la imagen del Dios invisible'</em> (<button class='btn-verse' onclick='abrirModal(\"Colosenses 1:15\", \"Él es la imagen del Dios invisible...\")'>Colosenses 1:15</button>). En Él, el diseño no solo se restaura, sino que se perfecciona. Al unirte a Cristo, vuelves a ser el espejo limpio que fuiste diseñado para ser."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "Reflexión Personal"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "¿Siento que tengo que esforzarme para que Dios me ame, o puedo aceptar que ya soy Su diseño amado?",
+                        "¿Estoy intentando brillar con mi propia luz o estoy alineando mi 'espejo' hacia la Fuente?",
+                        "¿Cómo cambiaría mi día hoy si creyera que mi autoridad nace de mi descanso en Dios y no de mis logros?"
+                      ]
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "Desafío Práctico"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Identifica un área de tu vida donde te sientas 'desplazado' o en 'desierto'. Declara hoy que el Creador oye tu voz en ese lugar y que Su provisión es independiente de las circunstancias externas."
+                    }
+                  ],
+                  "diccionario": [
+                      {
+                          "palabra": "Zera (Simiente)",
+                          "origen": "Hebreo",
+                          "significado": "Semilla o linaje. Representa el potencial de vida y la herencia legal que se transfiere de generación en generación. <br><br> <a href='../etymos/palabra.html?id=zera-he' class='link-estudio-cruzado'>Etymos: Zera</a>"
+                        }
+                    ],
+                    "desafio_practico": "Identifica un área de tu vida donde te sientas 'desplazado' o en 'desierto'. Declara hoy que el Creador oye tu voz en ese lugar y que Su provisión es independiente de las circunstancias externas.",
+                    "gamificacion": {
+                        "xp_lectura": 110,
+                        "logro_id": "vision-del-desierto"
+                      },
+                  "conexiones": {
+                    "huellas": [
+                      { "id": "hagar", "nombre": "Agar", "razon": "La mujer que reconoció a Dios como 'El Dios que ve' en medio de su expulsión." },
+                      { "id": "abraham", "nombre": "Abraham", "razon": "El portador original de la semilla cuya fidelidad atrajo bendición sobre toda su casa." }
+                    ],
+                    "cronos": [
+                        { 
+                            "id": "hebron", 
+                            "nombre": "Hebrón (Quiriat-arba)", 
+                            "razon": "La ciudad de la alianza desde donde la semilla fue desplazada, marcando el inicio de una nueva gestión soberana de Dios en el desierto[cite: 1]." 
+                        }
+                    ],
+                    "aposento": [
+                      { "id_oracion": "identidad-restaurada", "tema": "Validación Divina", "accion": "Orar por aquellos que se sienten excluidos de las promesas." }
+                    ]
+                  }
+                }
