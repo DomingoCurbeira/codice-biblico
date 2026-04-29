@@ -657,44 +657,53 @@
         },
         {
                 "id": "el-pacto-abrahamico",
-                "activo": false,
+                "activo": false, 
                 "fecha_programada": "2026-05-03",
                 "tipo": "tematico",
                 "titulo": "El Pacto Abrahámico: La Firma de la Eternidad",
-                "subtitulo": "El protocolo legal que blindó tu herencia antes de que nacieras",
+                "subtitulo": "El Protocolo Legal que Blindó tu Herencia y tu Identidad",
                 "autor": "Códice Bíblico",
                 "fecha_publicacion": "Mayo 2026",
                 "tiempo_lectura": "16 min",
                 "imagen_portada": "../img/estudios/pacto-abrahamico.webp",
-                "tags": ["Pacto", "Herencia", "Legalidad", "Abraham", "Promesa"],
+                "tags": ["Pacto", "Herencia", "Legalidad", "Zera", "Promesa"],
                 "versiculo_clave": {
                   "texto": "En aquel día hizo Jehová un pacto con Abram, diciendo: A tu descendencia daré esta tierra...",
                   "cita": "Génesis 15:18"
                 },
                 "contenido": [
                   {
+                    "tipo": "imagen",
+                    "url": "../img/estudios/pacto-abrahamico.webp",
+                    "descripcion": "La soberanía de Dios estableciendo un contrato inmutable con la simiente humana."
+                  },
+                  {
                     "tipo": "intro",
-                    "texto": "Muchos ven la historia de Abraham como un relato de fe personal, pero en el Códice, es el registro de una <strong>Asociación Estratégica</strong>. Un pacto no es un acuerdo de caballeros; es una estructura jurídica donde Dios pone Su propia existencia como garantía. Abraham no 'ganó' la bendición, él firmó el acceso a un ecosistema de provisión que hoy te alcanza a ti. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:18\", \"En aquel día...\")'>Génesis 15:18</button>."
+                    "texto": "Muchos ven la historia de Abraham como un relato de fe personal, pero en el Códice del Reino, es el registro de una <strong>Asociación Estratégica</strong> soberana. Un pacto no es un acuerdo de caballeros; es una estructura jurídica donde Dios pone Su propia existencia como garantía. Abraham no 'ganó' la bendición por mérito; él firmó el acceso a un ecosistema de provisión que hoy constituye tu herencia legal. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:18\", \"En aquel día hizo Jehová un pacto con Abram, diciendo: A tu descendencia daré esta tierra...\")'>Génesis 15:18</button>."
                   },
                   {
                     "tipo": "subtitulo",
-                    "texto": "1. El Protocolo de las Mitades"
+                    "texto": "1. El Protocolo de las Mitades: Blindaje Divino"
                   },
                   {
                     "tipo": "parrafo",
-                    "texto": "En el contexto antiguo, un pacto se sellaba pasando entre animales divididos. Era una forma de decir: 'Que así me pase a mí si rompo mi palabra'. Pero aquí ocurre algo sorprendente: Abraham cae en un sueño profundo y es Dios mismo quien pasa por las mitades. Revela que el cumplimiento del contrato no depende de la fragilidad humana de Abraham, sino de la inmutabilidad divina. Es un pacto de gracia blindado contra el fallo humano."
+                    "texto": "En la antigüedad, un <strong>Berit</strong> (pacto) se sellaba pasando entre animales divididos. Si una parte fallaba, el castigo era la muerte. Lo sorprendente es que Abraham cayó en un sueño profundo y fue el Creador mismo quien pasó por las mitades. Esto revela que el cumplimiento del contrato no depende de la fragilidad humana, sino de la inmutabilidad divina. Es un pacto blindado contra el fallo operativo del hombre."
+                  },
+                  {
+                    "tipo": "parrafo",
+                    "texto": "<strong>Reflejo de Identidad:</strong> Tu acceso a las promesas no depende de tu desempeño emocional diario, sino de la firma de un Dios que no puede mentir. Eres beneficiario de un testamento que tú no tuviste que redactar, pero que estás legalmente facultado para ejecutar."
                   },
                   {
                     "tipo": "destacado",
-                    "texto": "📝 <strong>Seguridad Contractual:</strong> Tu herencia espiritual no depende de tu desempeño diario, sino de la firma de un Dios que no puede mentir. Eres beneficiario de un testamento que tú no tuviste que redactar."
+                    "texto": "📝 <strong>Seguridad Contractual:</strong> Tu herencia espiritual está protegida por la soberanía del Padre. No caminas bajo 'suerte', sino bajo los términos de un contrato eterno."
                   },
                   {
                     "tipo": "subtitulo",
-                    "texto": "2. La Expansión del Código Genético"
+                    "texto": "2. La Expansión del Código: La Zera de las Estrellas"
                   },
                   {
                     "tipo": "parrafo",
-                    "texto": "Dios le pide a Abraham que mire las estrellas. No era un ejercicio de astronomía, era una visualización del <strong>Código de Expansión</strong>. El pacto con Abraham introdujo una nueva 'genética de fe' en la historia humana. A partir de aquí, la identidad ya no se define por la sangre biológica, sino por la conexión con la Promesa. Al entrar en este pacto, dejas de ser un átomo aislado para convertirte en parte de un linaje imparable."
+                    "texto": "Dios instruyó a Abraham para que visualizara las estrellas. No era astronomía, era la codificación de una nueva <strong>Zera</strong> (semilla). A partir de este pacto, la identidad ya no se define por la biología, sino por la conexión con la Promesa. Al entrar en este diseño, dejas de ser un individuo aislado para convertirte en parte de un linaje de expansión imparable."
                   },
                   {
                     "tipo": "imagen",
@@ -702,53 +711,52 @@
                     "descripcion": "Abraham bajo el firmamento, visualizando el código de una descendencia incontable."
                   },
                   {
-                    "tipo": "subtitulo",
-                    "texto": "3. La Señal en la Carne"
+                    "tipo": "parrafo",
+                    "texto": "<strong>Reflejo de Identidad:</strong> El 'Efecto Espejo' revela que tú eres parte de esa multitud estelar. Tu capacidad de multiplicarte y prosperar no está limitada por el entorno, sino por el código de expansión que Dios activó en Abraham. Eres portador de una semilla de victoria."
                   },
                   {
-                    "tipo": "parrafo",
-                    "texto": "El pacto requería una marca. En el Códice, esto simboliza que la revelación debe tocar nuestra humanidad más profunda. No es un contrato externo, es una transformación de nuestra propia naturaleza. Estar pactado significa que llevas una 'marca legal' que el mundo espiritual reconoce. El enemigo no retrocede ante tus fuerzas, retrocede ante el contrato que te respalda."
+                    "tipo": "destacado",
+                    "texto": "✨ <strong>El Cumplimiento:</strong> Adán perdió su dominio, pero en Cristo, la 'Semilla' de Abraham alcanza su máxima expresión. Como dice <button class='btn-verse' onclick='abrirModal(\"Gálatas 3:29\", \"Y si vosotros sois de Cristo, ciertamente linaje de Abraham sois, y herederos según la promesa.\")'>Gálatas 3:29</button>, al unirte a Jesús, te conviertes en el heredero legal de todo lo pactado. El espejo ha sido restaurado para reflejar tu verdadera posición."
+                  },
+                  {
+                    "tipo": "subtitulo",
+                    "texto": "Reflexión Personal"
+                  },
+                  {
+                    "tipo": "lista",
+                    "items": [
+                      "¿Estoy operando como un huérfano espiritual o como un heredero legítimo del pacto?",
+                      "¿He permitido que mis errores actuales nublen mi visión del contrato legal que Dios firmó por mí?",
+                      "¿Cómo cambiaría mi confianza hoy si aceptara que el cumplimiento de mi propósito depende de la fidelidad de Dios y no de mi fuerza?"
+                    ]
                   }
                 ],
                 "diccionario": [
                   {
-                    "palabra": "Pacto",
-                    "origen": "Hebreo (Berit)",
-                    "significado": "Un corte o alianza que une a dos partes en un destino común. Es un vínculo que solo la muerte (o un sacrificio) puede establecer. <br><br> <a href='../etymos/palabra.html?id=berit-he' class='link-estudio-cruzado'>Etymos: Berit</a>"
+                    "palabra": "Berit (Pacto)",
+                    "origen": "Hebreo (H1285)",
+                    "significado": "Un vínculo legal absoluto que une destinos. Es un compromiso soberano que garantiza la herencia a pesar de las circunstancias externas.<br><br> <a href='../etymos/palabra.html?id=berit-he' class='link-estudio-cruzado'>Etymos: Berit</a>"
                   },
                   {
-                    "palabra": "Descendencia",
-                    "origen": "Hebreo (Zera)",
-                    "significado": "Semilla. El potencial de vida contenido en una promesa que se multiplica exponencialmente. <br><br> <a href='../etymos/palabra.html?id=zera-he' class='link-estudio-cruzado'>Etymos: Zera</a>"
+                    "palabra": "Zera (Semilla)",
+                    "origen": "Hebreo (H2233)",
+                    "significado": "Descendencia o potencial de vida. Representa la información genética espiritual que se multiplica por la fe.<br><br> <a href='../etymos/palabra.html?id=zera-he' class='link-estudio-cruzado'>Etymos: Zera</a>"
                   }
                 ],
-                "desafio_practico": "Hoy, cuando te sientas inseguro sobre tu futuro, recuerda: 'Yo no camino bajo mi propia suerte, camino bajo el Pacto de Abraham'. Declara que las cláusulas de bendición de ese contrato están activas sobre tu casa.",
+                "desafio_practico": "Hoy, identifica un área de carencia en tu vida. En lugar de buscar soluciones humanas, declara: 'Yo no camino bajo mi propia fuerza. Opero bajo el Pacto de Abraham y reclamo las cláusulas de bendición y herencia que me corresponden por derecho legal en Cristo'.",
                 "gamificacion": {
                   "xp_lectura": 300,
                   "logro_id": "socio-del-pacto"
                 },
                 "conexiones": {
                   "huellas": [
-                    {
-                      "id": "abraham",
-                      "nombre": "Abraham",
-                      "razon": "El hombre que creyó a Dios y le fue contado por justicia."
-                    }
+                    { "id": "abraham", "nombre": "Abraham", "razon": "El gestor original de la fe que estableció la base legal de nuestra herencia espiritual." }
                   ],
                   "cronos": [
-                    {
-                      "id": "encinar-mamre",
-                      "nombre": "Las Encinas de Mamre",
-                      "razon": "El centro de operaciones donde se gestionó la promesa."
-                    }
+                    { "id": "encinar-mamre", "nombre": "Encinar de Mamre", "razon": "El centro operativo donde se ratificó el pacto y se visualizó la expansión del linaje.[cite: 1]" }
                   ],
-                  
                   "aposento": [
-                    {
-                      "id_oracion": "reposo-en-el-pacto",
-                      "tema": "Identidad y Seguridad",
-                      "accion": "Oración para descansar en la legalidad de la promesa abrahámica."
-                    }
+                    { "id_oracion": "reposo-en-el-pacto", "tema": "Identidad y Seguridad", "accion": "Oración para descansar en la legalidad inamovible de la promesa abrahámica." }
                   ]
                 }
               },
@@ -758,196 +766,227 @@
                   "fecha_programada": "2026-05-04",
                   "tipo": "tematico",
                   "titulo": "La Justificación por Fe: El Hackeo de la Justicia",
-                  "subtitulo": "Cómo la sintonía con la Palabra de Dios sobrescribe tu historial de errores",
+                  "subtitulo": "El Protocolo Contable que Sobrescribe tu Historial de Errores",
                   "autor": "Códice Bíblico",
                   "fecha_publicacion": "Mayo 2026",
                   "tiempo_lectura": "15 min",
                   "imagen_portada": "../img/estudios/justificacion-fe.webp",
-                  "tags": ["Justicia", "Fe", "Legalidad", "Abraham", "Identidad"],
+                  "tags": ["Justicia", "Chashab", "Legalidad", "Abraham", "Identidad"],
                   "versiculo_clave": {
                     "texto": "Y creyó a Jehová, y le fue contado por justicia.",
                     "cita": "Génesis 15:6"
                   },
                   "contenido": [
                     {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/justificacion-fe.webp",
+                      "descripcion": "El traspaso legal de crédito: La justicia divina imputada en la cuenta del hombre."
+                    },
+                    {
                       "tipo": "intro",
-                      "texto": "En el mundo de la <strong>Entropía</strong>, todo se gana con esfuerzo; en el Reino del Diseño, todo se recibe por sintonía. La justificación no es un sentimiento de bondad, es un <strong>Traspaso Legal de Crédito</strong>. Abraham no hizo nada para ser justo; él simplemente le creyó al Arquitecto cuando todo lo visible decía lo contrario. Ese acto de confianza fue el 'código' que activó su aprobación absoluta ante el Cielo. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:6\", \"Y creyó a Jehová...\")'>Génesis 15:6</button>."
+                      "texto": "En el sistema de la <strong>Entropía</strong>, todo se adquiere por esfuerzo; en el Reino del Diseño, todo se recibe por sintonía. La justificación no es un estado emocional, es un <strong>Traspaso Legal de Crédito</strong>. Abraham no fue declarado justo por sus obras, sino por su capacidad de creer al Arquitecto cuando lo visible dictaba lo contrario. Ese acto de confianza fue el 'código' que activó su aprobación absoluta ante el tribunal del Cielo. <button class='btn-verse' onclick='abrirModal(\"Génesis 15:6\", \"Y creyó a Jehová, y le fue contado por justicia.\")'>Génesis 15:6</button>."
                     },
                     {
                       "tipo": "subtitulo",
-                      "texto": "1. El Tribunal del Observador"
+                      "texto": "1. Chashab: El Tribunal de la Contabilidad Eterna"
                     },
                     {
                       "tipo": "parrafo",
-                      "texto": "Imagina que estás frente a un juez con un expediente lleno de deudas. De repente, alguien deposita una fortuna infinita en tu cuenta y el juez, al mirar el saldo, te declara solvente. No es que no debieras, es que la deuda fue sobrescrita. La fe de Abraham fue ese depósito. Él no miró su cuerpo envejecido (la deuda), miró la promesa (la fortuna). Al sintonizar Su mirada con la de Dios, su estatus legal cambió para siempre."
+                      "texto": "Imagina estar frente a un juez con un expediente de deudas impagables. De repente, una fuente externa deposita una fortuna infinita en tu cuenta. Al mirar el saldo, el juez te declara solvente; no porque nunca debieras, sino porque la deuda fue sobrescrita. La fe de Abraham fue ese depósito. Él no miró su cuerpo envejecido (la deuda), sino la promesa (la fortuna). Al alinear su mirada con la de Dios, su estatus legal —su <strong>Chashab</strong>— cambió para siempre."
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> La justicia no es algo que fabricas, es algo que se te acredita. Cuando decides creer lo que Dios dice sobre tu diseño, Su justicia se carga en tu cuenta personal y tu pasado pierde su derecho legal de acusarte. Eres legalmente inocente por el crédito de otro."
                     },
                     {
                       "tipo": "destacado",
-                      "texto": "⚖️ <strong>Justicia Imputada:</strong> La justicia no es algo que fabricas, es algo que se te acredita. Cuando crees lo que Dios dice de ti, Su justicia se carga en tu cuenta personal y tu pasado pierde su derecho legal de acusarte."
+                      "texto": "⚖️ <strong>Justicia Imputada:</strong> El acto donde el Cielo asigna el valor de la perfección del Hijo a la cuenta del hombre que sintoniza con Su Palabra."
                     },
                     {
                       "tipo": "subtitulo",
-                      "texto": "2. La Muerte de la Autosuficiencia"
+                      "texto": "2. El Fin de la Autosuficiencia: De la Sarx al Pneuma"
                     },
                     {
                       "tipo": "parrafo",
-                      "texto": "Abraham tuvo que esperar 25 años para ver el cumplimiento. En ese tiempo, sus fuerzas murieron. La justificación por fe ocurre cuando dejas de intentar 'ayudar' a Dios con tus métodos humanos (como el intento con Agar) y te rindes totalmente a Su método. Es el paso de la <strong>Sarx</strong> (la carne) al <strong>Pneuma</strong> (el Espíritu). Justificación es descansar en que Él es fiel aunque nosotros seamos frágiles."
+                      "texto": "La justificación operativa ocurre cuando abandonas el intento de 'ayudar' a Dios con métodos humanos (como el intento autónomo con Agar) y te rindes totalmente a Su gestión. Es el paso de la <strong>Sarx</strong> (esfuerzo independiente) al <strong>Pneuma</strong> (dependencia del Espíritu). Abraham tuvo que ver morir sus propias capacidades para entender que el cumplimiento depende de la fidelidad del Emisor y no de la fuerza del Receptor."
                     },
                     {
                       "tipo": "imagen",
                       "url": "../img/estudios/la-balanza-de-la-fe.webp",
-                      "descripcion": "La balanza del Reino: Un solo acto de fe pesando más que una vida de esfuerzos humanos."
-                    },
-                    {
-                      "tipo": "subtitulo",
-                      "texto": "3. Amistad por Sintonía"
+                      "descripcion": "La balanza del Reino: Un solo acto de sintonía pesando más que una vida de esfuerzos autónomos."
                     },
                     {
                       "tipo": "parrafo",
-                      "texto": "El resultado de ser justificado no es solo el perdón, es la <strong>intimidad</strong>. Abraham fue llamado 'Amigo de Dios'. Cuando dejas de intentar impresionar a Dios con tus obras, empiezas a disfrutar de Su compañía. La fe abre un portal de comunicación bidireccional donde el Diseñador comparte Sus secretos contigo. Ya no eres un esclavo intentando no fallar, eres un socio caminando en acuerdo."
+                      "texto": "<strong>Reflejo de Identidad:</strong> El 'Efecto Espejo' te muestra que tu valor hoy no fluctúa según tus logros. Si estás en Cristo, tu saldo está bloqueado en 'Justo'. Descansar en esta verdad es lo que te permite operar con autoridad, no para ganar aprobación, sino porque ya la posees."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. Amistad por Sintonía de Frecuencia"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "El resultado legal de ser justificado es la <strong>intimidad</strong>. Abraham fue llamado 'Amigo de Dios' porque dejó de intentar impresionar al Diseñador con obras externas y comenzó a caminar en acuerdo interno. La fe abre un portal donde el Padre comparte Sus secretos con el socio. Ya no eres un operario intentando no fallar, eres un hijo gestionando la herencia en total acuerdo con el Padre."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "✨ <strong>El Cumplimiento:</strong> Adán perdió su estatus legal por la duda, pero Jesús es <em>'nuestra justicia'</em> (<button class='btn-verse' onclick='abrirModal(\"1 Corintios 1:30\", \"...el cual nos ha sido hecho por Dios sabiduría, justificación...\")'>1 Corintios 1:30</button>). En Él, el espejo se limpia totalmente. Al unirte a Cristo, la declaración de 'Justo' se vuelve tu identidad eterna y el miedo al juicio desaparece."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "Reflexión Personal"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "¿Sigo intentando 'pagar' por mi aceptación mediante mi comportamiento o acepto el saldo acreditado por Cristo?",
+                        "¿Estoy alineando mi espejo hacia mi historial de errores o hacia la declaración de justicia del Padre?",
+                        "¿Cómo cambiaría mi descanso hoy si creyera que mi cuenta ante el cielo está totalmente saldada?"
+                      ]
                     }
+                    
                   ],
                   "diccionario": [
                     {
-                      "palabra": "Justificación",
-                      "origen": "Griego (Dikaiosis)",
-                      "significado": "El acto legal de declarar a alguien justo. No es 'hacer' justo a alguien, sino 'declararlo' libre de toda culpa ante la ley. <br><br> <a href='../etymos/palabra.html?id=dikaiosis-gr' class='link-estudio-cruzado'>Etymos: Dikaiosis</a>"
+                      "palabra": "Dikaiosis (Justificación)",
+                      "origen": "Griego (G1347)",
+                      "significado": "La declaración legal de inocencia. No es un proceso de cambio moral, sino un cambio de estatus ante la ley del espíritu.<br><br> <a href='../etymos/palabra.html?id=dikaiosis-gr' class='link-estudio-cruzado'>Etymos: Dikaiosis</a>"
                     },
                     {
-                      "palabra": "Contado",
-                      "origen": "Hebreo (Chashab)",
-                      "significado": "Término contable. Significa poner en la cuenta de alguien, imputar o calcular un valor. <br><br> <a href='../etymos/palabra.html?id=chashab-he' class='link-estudio-cruzado'>Etymos: Chashab</a>"
+                      "palabra": "Chashab (Contar)",
+                      "origen": "Hebreo (H2803)",
+                      "significado": "Imputar, calcular o inventariar. Colocar un valor en la cuenta de alguien de forma legal y permanente.<br><br> <a href='../etymos/palabra.html?id=chashab-he' class='link-estudio-cruzado'>Etymos: Chashab</a>"
                     }
                   ],
-                  "desafio_practico": "Hoy, identifica un área de tu vida donde te sientes 'culpable' o 'insuficiente'. Deja de intentar arreglarlo con tu esfuerzo y di: 'Padre, creo lo que Tú dices de mí en esa área. Tu justicia es mi saldo actual'. Experimenta la paz del traspaso legal.",
+                  "desafio_practico": "Hoy, cuando un pensamiento de insuficiencia te ataque, detente y haz un 'ajuste contable'. Declara: 'Este error no define mi saldo. Mi cuenta está marcada por la justicia de Cristo. Renuncio al esfuerzo de la Sarx y descanso en mi identidad de hijo justo'.",
                   "gamificacion": {
                     "xp_lectura": 280,
                     "logro_id": "cuenta-saldada"
                   },
-                  "connections": {
+                  "conexiones": {
                     "huellas": [
-                      {
-                        "id": "pablo",
-                        "nombre": "Pablo",
-                        "razon": "El perito arquitecto que explicó legalmente cómo la fe de Abraham nos justifica a nosotros hoy."
-                      }
+                      { "id": "pablo", "nombre": "Pablo", "razon": "El perito legal que descodificó cómo la fe de Abraham se convirtió en el protocolo de justicia para todos nosotros." }
                     ],
                     "cronos": [
-                      {
-                        "id": "encinar-mamre",
-                        "nombre": "Las Encinas de Mamre",
-                        "razon": "El lugar de reposo donde la fe de Abraham se consolidó como una amistad eterna."
-                      }
+                      { "id": "encinar-mamre", "nombre": "Encinar de Mamre", "razon": "El lugar de la visitación donde la fe de Abraham fue sellada como una amistad eterna con el Creador." }
                     ],
                     "aposento": [
-                      {
-                        "id_oracion": "paz-en-la-justicia",
-                        "tema": "Reposo y Aceptación",
-                        "accion": "Oración para recibir la declaración de justicia sobre nuestra propia historia."
-                      }
+                      { "id_oracion": "paz-en-la-justicia", "tema": "Reposo y Aceptación", "accion": "Oración para recibir la declaración legal de justicia sobre nuestra propia historia." }
                     ]
                   }
                 },
                 {
-                  "id": "hospitalidad-biblica",
-                  "activo": false,
-                  "fecha_programada": "2026-05-05",
-                  "tipo": "tematico",
-                  "titulo": "Hospitalidad Bíblica: El Portal de la Recepción",
-                  "subtitulo": "Cómo crear una atmósfera donde lo eterno decide quedarse y manifestarse",
-                  "autor": "Códice Bíblico",
-                  "fecha_publicacion": "Mayo 2026",
-                  "tiempo_lectura": "14 min",
-                  "imagen_portada": "../img/estudios/hospitalidad-portal.webp",
-                  "tags": ["Hospitalidad", "Aceleración", "Portal", "Abraham", "Honra"],
-                  "versiculo_clave": {
-                    "texto": "No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.",
-                    "cita": "Hebreos 13:2"
-                  },
-                  "contenido": [
-                    {
-                      "tipo": "intro",
-                      "texto": "Bajo las encinas de Mamre, Abraham ejecutó un protocolo que cambió su destino. La hospitalidad en el Códice es la capacidad de <strong>hacer espacio</strong> para lo que Dios trae, incluso cuando viene disfrazado de lo común. Abraham no vio ángeles al principio; vio a tres hombres cansados bajo el sol. Fue su disposición a servir lo que activó la manifestación de lo divino. <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:2\", \"No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.\")'>Hebreos 13:2</button>."
+                    "id": "hospitalidad-biblica",
+                    "activo": false,
+                    "fecha_programada": "2026-05-05",
+                    "tipo": "tematico",
+                    "titulo": "Hospitalidad Bíblica: El Portal de la Recepción",
+                    "subtitulo": "El Protocolo de Honra que Activa la Manifestación de lo Eterno",
+                    "autor": "Códice Bíblico",
+                    "fecha_publicacion": "Mayo 2026",
+                    "tiempo_lectura": "14 min",
+                    "imagen_portada": "../img/estudios/hospitalidad-portal.webp",
+                    "tags": ["Hospitalidad", "Kabod", "Portal", "Abraham", "Honra"],
+                    "versiculo_clave": {
+                      "texto": "No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.",
+                      "cita": "Hebreos 13:2"
                     },
-                    {
-                      "tipo": "subtitulo",
-                      "texto": "1. La Ley de la Honra"
-                    },
-                    {
-                      "tipo": "parrafo",
-                      "texto": "Honrar es asignar valor. Abraham corrió al encuentro de los visitantes y se postró. Él reconoció el valor de la visita antes de conocer su identidad. En el Reino, lo que honras es lo que recibes. Al honrar a los enviados, Abraham estaba honrando al Enviador. La hospitalidad es el sistema de ventilación que permite que el aroma del Cielo entre en tu casa y se lleve el olor a estancamiento de la espera."
-                    },
-                    {
-                      "tipo": "destacado",
-                      "texto": "🚪 <strong>Activación de Portales:</strong> Tu hogar y tu corazón son portales potenciales. La hospitalidad es la llave que gira la cerradura. Cuando abres tu puerta con generosidad, estás autorizando legalmente la entrada de la bendición a tu territorio."
-                    },
-                    {
-                      "tipo": "subtitulo",
-                      "texto": "2. Aceleración en la Mesa"
-                    },
-                    {
-                      "tipo": "parrafo",
-                      "texto": "Fue sentado a la mesa donde Dios soltó la palabra: 'Al tiempo señalado volveré, y Sara tendrá un hijo'. La hospitalidad acorta los tiempos. Lo que Abraham había esperado por décadas, se concretó en una cena. Servir a otros con excelencia es una de las formas más rápidas de mover la aguja de tu propia promesa. Mientras Abraham saciaba el hambre de los visitantes, Dios saciaba la sed de herencia de Abraham."
-                    },
-                    {
-                      "tipo": "imagen",
-                      "url": "../img/estudios/la-mesa-de-mamre.webp",
-                      "descripcion": "El momento del anuncio: Cuando lo eterno se sienta a la mesa de lo temporal."
-                    },
-                    {
-                      "tipo": "subtitulo",
-                      "texto": "3. Sin Saberlo, Hospedaste Ángeles"
-                    },
-                    {
-                      "tipo": "parrafo",
-                      "texto": "El misterio de la hospitalidad es que lo extraordinario suele venir envuelto en lo ordinario. Si esperas a ver alas para servir, te perderás la visita. El Códice nos enseña a tratar cada encuentro como una cita divina. Tu próxima gran oportunidad o palabra de revelación puede venir a través de un gesto de generosidad hacia alguien que parece no tener nada que darte. En el Reino, el que sirve es el que realmente gobierna el portal."
-                    }
-                  ],
-                  "diccionario": [
-                    {
-                      "palabra": "Hospitalidad",
-                      "origen": "Griego (Philoxenia)",
-                      "significado": "Literalmente 'amor a los extraños'. Es la virtud de transformar a un extraño en un invitado de honor. <br><br> <a href='../etymos/palabra.html?id=philoxenia-gr' class='link-estudio-cruzado'>Etymos: Philoxenia</a>"
-                    },
-                    {
-                      "palabra": "Honra",
-                      "origen": "Hebreo (Kabod)",
-                      "significado": "Peso o importancia. Dar honra es dar importancia a alguien o algo por encima de uno mismo. <br><br> <a href='../etymos/palabra.html?id=kabod-he' class='link-estudio-cruzado'>Etymos: Kabod</a>"
-                    }
-                  ],
-                  "desafio_practico": "Esta semana, practica la 'Honra Proactiva'. Identifica a alguien a quien puedas servir o bendecir sin esperar nada a cambio. Hazlo con la consciencia de que estás abriendo un portal de bendición sobre tu propia vida.",
-                  "gamificacion": {
-                    "xp_lectura": 250,
-                    "logro_id": "guardian-del-portal"
-                  },
-                  "connections": {
-                    "huellas": [
+                    "contenido": [
                       {
-                        "id": "viuda-de-sarepta",
-                        "nombre": "La Viuda de Sarepta",
-                        "razon": "Hospedó a un profeta con su último bocado y activó un portal de provisión inagotable."
+                        "tipo": "imagen",
+                        "url": "../img/estudios/hospitalidad-portal.webp",
+                        "descripcion": "La hospitalidad como la llave legal que abre portales de aceleración en el Reino."
+                      },
+                      {
+                        "tipo": "intro",
+                        "texto": "Bajo las encinas de Mamre, Abraham ejecutó un protocolo que alteró su línea de tiempo. En el Códice del Reino, la hospitalidad no es una cortesía social, es la capacidad técnica de <strong>hacer espacio</strong> para el Diseño Divino, incluso cuando viene revestido de lo común. Abraham no detectó ángeles inicialmente; detectó una oportunidad de servicio en tres hombres bajo el sol. Fue su <strong>Philoxenia</strong> lo que forzó la manifestación de lo extraordinario. <button class='btn-verse' onclick='abrirModal(\"Hebreos 13:2\", \"No olvidéis la hospitalidad, porque por ella algunos, sin saberlo, hospedaron ángeles.\")'>Hebreos 13:2</button>."
+                      },
+                      {
+                        "tipo": "subtitulo",
+                        "texto": "1. El Protocolo del Kabod (Honra)"
+                      },
+                      {
+                        "tipo": "parrafo",
+                        "texto": "Honrar es asignar 'peso' o valor legal a una visita. Abraham no esperó a conocer la identidad de sus invitados; les asignó el máximo <strong>Kabod</strong> desde el primer contacto. En el Reino, lo que honras es lo que estás autorizado a recibir. La hospitalidad funciona como un sistema de ventilación espiritual: permite que la atmósfera del Cielo desplace el estancamiento de la espera prolongada."
+                      },
+                      {
+                        "tipo": "parrafo",
+                        "texto": "<strong>Reflejo de Identidad:</strong> Tu capacidad de recibir lo nuevo de Dios es proporcional al espacio que creas para otros. El 'Efecto Espejo' te enseña que cuando cierras tu corazón por miedo o egoísmo, estás bloqueando involuntariamente el portal por donde debe entrar tu propia promesa."
+                      },
+                      {
+                        "tipo": "destacado",
+                        "texto": "🚪 <strong>Activación de Portales:</strong> Tu diseño está configurado para ser un anfitrión de la Gloria. La hospitalidad es la autorización legal para que la bendición se establezca en tu territorio."
+                      },
+                      {
+                        "tipo": "subtitulo",
+                        "texto": "2. Aceleración en la Mesa de la Provisión"
+                      },
+                      {
+                        "tipo": "parrafo",
+                        "texto": "Fue en el entorno de la mesa donde se soltó la frecuencia del cumplimiento: 'Al tiempo señalado volveré'. La hospitalidad tiene el poder de comprimir el tiempo. Lo que Abraham esperó por décadas se resolvió en una cena de honra. Servir con excelencia es el acelerador de tu propia herencia; mientras Abraham saciaba la necesidad de los visitantes, el Diseñador activaba la matriz de la promesa."
+                      },
+                      {
+                        "tipo": "imagen",
+                        "url": "../img/estudios/la-mesa-de-mamre.webp",
+                        "descripcion": "El momento del anuncio: Cuando la eternidad se sienta a la mesa de lo temporal para acelerar el diseño."
+                      },
+                      {
+                        "tipo": "parrafo",
+                        "texto": "<strong>Reflejo de Identidad:</strong> ¿Estás tan enfocado en tu propia escasez que no puedes ver a quién bendecir? El diseño original revela que tu autoridad y gobierno sobre el portal se activan en el servicio. Eres un gestor de frecuencias, no un acumulador de recursos."
+                      },
+                      {
+                        "tipo": "destacado",
+                        "texto": "✨ <strong>El Cumplimiento:</strong> Adán se escondió de la visita divina en el huerto, pero Jesús es el anfitrión perfecto que prepara mesa delante de nosotros. En Él, el espejo se limpia y la hospitalidad se vuelve nuestra naturaleza. Al unirte a Cristo, te conviertes en una casa abierta donde lo eterno decide quedarse (<button class='btn-verse' onclick='abrirModal(\"Apocalipsis 3:20\", \"He aquí, yo estoy a la puerta y llamo...\")'>Apocalipsis 3:20</button>)."
+                      },
+                      {
+                        "tipo": "subtitulo",
+                        "texto": "Reflexión Personal"
+                      },
+                      {
+                        "tipo": "lista",
+                        "items": [
+                          "¿Estoy tan ocupado en mis propios planes que no he dejado un 'asiento libre' para las visitas divinas?",
+                          "¿Soy capaz de ver el valor (Kabod) en lo común, o solo sirvo cuando espero un beneficio a cambio?",
+                          "¿Cómo cambiaría mi atmósfera hoy si decidiera convertir mi casa y mi trabajo en un portal de honra?"
+                        ]
+                      },
+                      {
+                        "tipo": "subtitulo",
+                        "texto": "Desafío Práctico"
                       }
                     ],
-                    "cronos": [
+                    "diccionario": [
                       {
-                        "id": "Encinar-mamre",
-                        "nombre": "Las Encinas de Mamre",
-                        "razon": "El lugar geográfico donde la hospitalidad humana y la soberanía divina se dieron la mano."
+                        "palabra": "Philoxenia (Hospitalidad)",
+                        "origen": "Griego (G5381)",
+                        "significado": "Amor proactivo hacia el extraño. La virtud de transformar a un desconocido en un invitado de honor mediante el servicio.<br><br> <a href='../etymos/palabra.html?id=philoxenia-gr' class='link-estudio-cruzado'>Etymos: Philoxenia</a>"
+                      },
+                      {
+                        "palabra": "Kabod (Honra)",
+                        "origen": "Hebreo (H3519)",
+                        "significado": "Peso, gloria o importancia. Asignar valor sustancial a algo o alguien por encima de la propia comodidad.<br><br> <a href='../etymos/palabra.html?id=kabod-he' class='link-estudio-cruzado'>Etymos: Kabod</a>"
                       }
                     ],
-                    "aposento": [
-                      {
-                        "id_oracion": "corazon-hospedador",
-                        "tema": "Generosidad y Apertura",
-                        "accion": "Oración para convertir nuestro ser en un lugar de descanso para la presencia de Dios."
-                      }
-                    ]
-                  }
-                },
+                    "desafio_practico": "Esta semana, ejecuta el protocolo de la 'Honra Proactiva'. Identifica a alguien fuera de tu círculo habitual y bríndale un gesto de servicio o generosidad sin previo aviso. Hazlo con la consciencia legal de que estás girando la llave de un portal sobre tu propia casa.",
+                    "gamificacion": {
+                      "xp_lectura": 250,
+                      "logro_id": "guardian-del-portal"
+                    },
+                    "conexiones": {
+                      "huellas": [
+                        { "id": "viuda-de-sarepta", "nombre": "La Viuda de Sarepta", "razon": "Operó el protocolo de hospitalidad con su último recurso y activó un portal de provisión inagotable." }
+                      ],
+                      "cronos": [
+                        { "id": "encinar-mamre", "nombre": "Encinar de Mamre", "razon": "El escenario geográfico donde la honra humana y la soberanía divina convergieron para acelerar la promesa." }
+                      ],
+                      "aposento": [
+                        { "id_oracion": "corazon-hospedador", "tema": "Generosidad y Apertura", "accion": "Oración para convertir el propio ser en un lugar de descanso para la Presencia." }
+                      ]
+                    }
+                  },
                 {
                   "id": "ismael-bendicion-semilla-desplazada",
                   "activo": false, 
-                  "fecha_programada": "2026-05-01",
+                  "fecha_programada": "2026-05-06",
                   "tipo": "tematico",
                   "titulo": "Ismael: La Bendición de la Semilla Desplazada",
                   "subtitulo": "La Fidelidad del Creador hacia el Origen y la Identidad",
@@ -1058,6 +1097,248 @@
                     ],
                     "aposento": [
                       { "id_oracion": "identidad-restaurada", "tema": "Validación Divina", "accion": "Orar por aquellos que se sienten excluidos de las promesas." }
+                    ]
+                  }
+                },
+                {
+                  "id": "el-roi-validacion-invisible",
+                  "activo": false,
+                  "fecha_programada": "2026-05-07",
+                  "tipo": "huellas",
+                  "titulo": "El-Roi: La Validación del Invisible",
+                  "subtitulo": "El Protocolo de Identidad que Rescata el Diseño en el Desierto",
+                  "autor": "Códice Bíblico",
+                  "fecha_publicacion": "Mayo 2026",
+                  "tiempo_lectura": "12 min",
+                  "imagen_portada": "../img/estudios/el-roi-mirada.webp",
+                  "tags": ["Identidad", "Gnosis", "Validación", "Soberanía", "Justicia"],
+                  "versiculo_clave": {
+                    "texto": "Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que ve; porque dijo: ¿No he visto también aquí al que me ve?",
+                    "cita": "Génesis 16:13"
+                  },
+                  "contenido": [
+                    {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/el-roi-mirada.webp",
+                      "descripcion": "La revelación de El-Roi: El momento donde la mirada divina otorga existencia legal al desplazado."
+                    },
+                    {
+                      "tipo": "intro",
+                      "texto": "En el sistema de la <strong>Entropía</strong> humana, si no eres visto por las figuras de autoridad, dejas de existir legalmente. Pero en el Códice, la historia de Agar revela una frecuencia superior: <strong>El-Roi</strong>. Esta revelación no se trata solo de un Dios que nos cuida, sino del Dios que otorga validación absoluta al diseño que el sistema ha intentado borrar. En el desierto, donde el recurso humano se agotó, Agar descubrió que su existencia estaba anclada en una mirada eterna. <button class='btn-verse' onclick='abrirModal(\"Génesis 16:13\", \"Entonces llamó el nombre de Jehová que con ella hablaba: Tú eres Dios que ve; porque dijo: ¿No he visto también aquí al que me ve?\")'>Génesis 16:13</button>."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "1. El Protocolo de la Visibilidad Legal"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Agar era una 'sierva desplazada', un eslabón que el sistema de la tienda consideraba prescindible. Sin embargo, el Ángel de Jehová no la buscó en el altar de Hebrón, sino junto a una fuente de agua en el desierto. Dios validó su ubicación 'donde estaba', revelando que Su jurisdicción no depende de jerarquías humanas. Ser visto por El-Roi significa que tu diseño tiene un peso legal que ninguna expulsión puede anular."
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> ¿Te has sentido invisible para aquellos que deberían haberte validado? El 'Efecto Espejo' te muestra que tu valor no es un 'me gusta' social ni institucional. Eres un diseño activo bajo la mirada de El-Roi. Tu visibilidad ante el Cielo es el fundamento de tu autoridad en la tierra, incluso cuando caminas en soledad."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "La mirada de Dios no es una observación pasiva; es un acto de mantenimiento soberano que sostiene tu estructura de identidad."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "2. Gnosis en el Desierto: El Conocimiento que Rescata"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Agar no recibió solo una promesa; recibió una <strong>Gnosis</strong> (conocimiento experimental). Ella dijo: '¿No he visto también aquí al que me ve?'. Este es el hackeo de la percepción: cuando te das cuenta de que eres visto, tu capacidad de 'ver' a Dios se activa. La crisis del desierto se convirtió en el laboratorio donde Agar pasó de la religión de otros a la relación propia con el Arquitecto. <button class='btn-verse' onclick='abrirModal(\"Génesis 16:13\", \"...¿No he visto también aquí al que me ve?\")'>Génesis 16:13</button>"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "<strong>Identidad Recuperada:</strong> Dios la llamó por su nombre ('Agar'), recordándole quién era antes de que el dolor la definiera.",
+                        "<strong>Dirección Soberana:</strong> La validación vino acompañada de una instrucción clara para su proceso legal de crecimiento.",
+                        "<strong>Promesa de Multiplicación:</strong> Al igual que con Ismael, la validación de la madre aseguró el futuro de la descendencia."
+                      ]
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> Tu desierto es el lugar donde las voces externas se apagan para que la frecuencia de El-Roi se vuelva nítida. No busques validación en las 'hojas de higuera' de tus logros; busca la Gnosis de saberte visto. Esa es la única base sólida para reconstruir tu historia."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. Beer-lajai-roi: El Pozo del Viviente"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "El lugar del encuentro fue llamado <strong>Beer-lajai-roi</strong>. Se convirtió en un memorial de que Dios no es una deidad distante, sino un Viviente involucrado en el proceso de Sus hijos. Este pozo representa la provisión que surge cuando alineamos nuestro espejo hacia la mirada del Padre. La fuente de agua no apareció por azar; estaba allí para sostener al diseño que acababa de ser validado legalmente."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "✨ <strong>El Cumplimiento:</strong> Adán se escondió de la mirada de Dios por miedo, pero en Jesús, <em>'la imagen del Dios invisible'</em> (<button class='btn-verse' onclick='abrirModal(\"Colosenses 1:15\", \"Él es la imagen del Dios invisible...\")'>Colosenses 1:15</button>), somos totalmente expuestos y amados. En Cristo, ya no tienes que temer ser visto; Su mirada es tu santuario y Su aprobación es tu túnica definitiva."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "Reflexión Personal"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "¿De quién estoy intentando obtener validación hoy, y por qué esa voz tiene más peso que la de El-Roi?",
+                        "¿Puedo confiar en que Dios conoce mi ubicación exacta y mi estado emocional en este desierto?",
+                        "¿Cómo cambiaría mi descanso hoy si aceptara que mi valor está blindado por la mirada del Padre?"
+                      ]
+                    }
+                  ],
+                  "diccionario": [
+                    {
+                      "palabra": "El-Roi",
+                      "origen": "Hebreo",
+                      "significado": "El Dios fuerte que ve. Implica una visión que penetra la superficie y reconoce el diseño interno de la persona. <br><br> <a href='../etymos/palabra.html?id=el-roi-he' class='link-estudio-cruzado'>Etymos: El-Roi</a>"
+                    },
+                    {
+                      "palabra": "Gnosis (Conocimiento)",
+                      "origen": "Griego",
+                      "significado": "Conocimiento profundo y experimental. No es información teórica, sino la certeza que nace del encuentro directo con la Verdad. <br><br> <a href='../etymos/palabra.html?id=gnosis-gr' class='link-estudio-cruzado'>Etymos: Gnosis</a>"
+                    }
+                  ],
+                  "desafio_practico": "Hoy, tómate 5 minutos de silencio absoluto. Cierra los ojos y simplemente declara: 'Tú eres el Dios que me ve. No necesito esconderme ni impresionar a nadie. Mi identidad está segura en Tu mirada'.",
+                  "gamificacion": {
+                    "xp_lectura": 120,
+                    "logro_id": "visto-por-el-padre"
+                  },
+                  "conexiones": {
+                    "huellas": [
+                      { "id": "agar", "nombre": "Agar", "razon": "La primera persona en las Escrituras en dar un nombre a Dios basado en su experiencia personal de validación." },
+                      { "id": "ismael", "nombre": "Ismael", "razon": "El portador del diseño que fue preservado gracias a la revelación de El-Roi a su madre." }
+                    ],
+                    "cronos": [
+                      { 
+                        "id": "cades-barnea", 
+                        "nombre": "Cades-barnea", 
+                        "razon": "Ubicación cercana a Beer-lajai-roi, donde se manifestó la providencia en el umbral del desierto[cite: 1]." 
+                      }
+                    ],
+                    "aposento": [
+                      { 
+                        "id_oracion": "visibilidad-soberana", 
+                        "tema": "Validación del Invisible", 
+                        "accion": "Orar para salir de la invisibilidad y descansar en la mirada del Padre." 
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "beer-lajai-roi-provision",
+                  "activo": false,
+                  "fecha_programada": "2026-05-08",
+                  "tipo": "huellas",
+                  "titulo": "Beer-lajai-roi: El Pozo del Viviente que me Ve",
+                  "subtitulo": "El Protocolo de Provisión que se Activa en la Validación",
+                  "author": "Códice Bíblico",
+                  "fecha_publicacion": "Mayo 2026",
+                  "tiempo_lectura": "11 min",
+                  "imagen_portada": "../img/estudios/beer-lajai-roi.webp",
+                  "tags": ["Provisión", "Jurisdicción", "Sustento", "Revelación", " Beer-lajai-roi"],
+                  "versiculo_clave": {
+                    "texto": "Por lo cual llamó al pozo: Pozo del Viviente que me ve. He aquí está entre Cades y Bered.",
+                    "cita": "Génesis 16:14"
+                  },
+                  "contenido": [
+                    {
+                      "tipo": "imagen",
+                      "url": "../img/estudios/beer-lajai-roi.webp",
+                      "descripcion": "El pozo en el desierto: El punto de intersección entre la necesidad humana y la fuente eterna."
+                    },
+                    {
+                      "tipo": "intro",
+                      "texto": "En el Códice, los pozos no son accidentes geográficos, sino <strong>estaciones de sintonía</strong>. Beer-lajai-roi es el memorial legal de un principio absoluto: Dios no solo ve el diseño, sino que lo sostiene materialmente fuera de los sistemas convencionales. Cuando Agar e Ismael fueron desplazados de la abundancia de Abraham, no cayeron en el vacío, sino en una nueva jurisdicción de provisión que solo aparece cuando la mirada de <strong>El-Roi</strong> es reconocida. <button class='btn-verse' onclick='abrirModal(\"Génesis 16:14\", \"Por lo cual llamó al pozo: Pozo del Viviente que me ve. He aquí está entre Cades y Bered.\")'>Génesis 16:14</button>."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "1. El Manantial de la Jurisdicción"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "El pozo estaba ubicado entre Cades (Santidad) y Bered (Granizo/Juicio). Esta posición geográfica simboliza el umbral donde el hombre debe decidir si operará bajo el miedo al juicio o bajo la santidad del diseño. El agua no brotó porque Agar fuera perfecta, sino porque ella reconoció al 'Viviente'. La provisión en el Reino es una respuesta mecánica a la <strong>Gnosis</strong> de ser visto. Si el Padre te ve, el Padre te sostiene."
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "<strong>Reflejo de Identidad:</strong> ¿Estás intentando cavar pozos con tu propio esfuerzo en un suelo seco? El 'Efecto Espejo' te muestra que la provisión que necesitas ya está asignada a tu ubicación legal. No busques el agua; busca la sintonía con el Viviente que te habita, y el 'pozo' se manifestará en tu realidad presente."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "La provisión divina no es un auxilio de emergencia, es el flujo natural que acompaña a todo diseño que se mantiene en su asignación."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "2. Rompiendo el Ciclo de la Escasez"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "La mayoría de nosotros operamos bajo la 'frecuencia de la carencia', temiendo que el desplazamiento signifique muerte. Pero Beer-lajai-roi enseña que el desierto es simplemente un cambio de administración. Al llamar al pozo por ese nombre, Agar estableció un precedente legal: el sustento ahora venía directamente de la Fuente, sin intermediarios. Ismael creció en ese desierto porque bebió de una fuente que el mundo no podía cerrar."
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "<strong>Independencia de la Tienda:</strong> La provisión de Dios es autónoma y no depende de la aprobación de tus antiguos proveedores.",
+                        "<strong>Sustento para la Semilla:</strong> Ismael no murió porque su diseño portaba una promesa que el agua del pozo estaba obligada a preservar.",
+                        "<strong>Ubicación Estratégica:</strong> Dios provee 'aquí', en el lugar exacto de tu proceso."
+                      ]
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "3. El Agua que Salta para Vida Eterna"
+                    },
+                    {
+                      "tipo": "parrafo",
+                      "texto": "Este pozo es el boceto de una realidad mayor. Siglos después, Jesús se sentaría junto a otro pozo para ofrecer un agua que se convierte en una fuente interna. Beer-lajai-roi ya no es solo un lugar físico entre Cades y Bered; es la condición de un corazón que sabe que es visto. La provisión más grande no es la que llena tu mano, sino la que inunda tu espíritu con la paz de la validación."
+                    },
+                    {
+                      "tipo": "destacado",
+                      "texto": "✨ <strong>El Cumplimiento:</strong> Jesús es la Fuente de Agua Viva (<button class='btn-verse' onclick='abrirModal(\"Juan 4:14\", \"mas el que bebiere del agua que yo le daré...\")'>Juan 4:14</button>). En Él, el espejo se limpia y descubrimos que el Pozo del Viviente está dentro de nosotros. Ya no tienes que peregrinar al desierto para encontrar sustento; al unirte a Cristo, te conviertes en una fuente que bendice incluso los lugares más secos."
+                    },
+                    {
+                      "tipo": "subtitulo",
+                      "texto": "Reflexión Personal"
+                    },
+                    {
+                      "tipo": "lista",
+                      "items": [
+                        "¿Siento que mi sustento depende de personas o instituciones, o he reconocido la jurisdicción de El-Roi sobre mis finanzas y mi paz?",
+                        "¿Estoy agradeciendo por el 'pozo' que ya tengo, o sigo lamentando la 'tienda' que dejé atrás?",
+                        "¿Cómo cambiaría mi gestión hoy si creyera que el Viviente ya ha asignado el recurso para mi diseño?"
+                      ]
+                    }
+                  ],
+                  "diccionario": [
+                    {
+                      "palabra": "Beer-lajai-roi",
+                      "origen": "Hebreo",
+                      "significado": "Pozo del Viviente que me ve. Representa el punto de intersección donde la soberanía divina se manifiesta como sustento práctico. <br><br> <a href='../etymos/palabra.html?id=beer-lajai-roi-he' class='link-estudio-cruzado'>Etymos: Beer-lajai-roi</a>"
+                    },
+                    {
+                      "palabra": "Jurisdicción",
+                      "origen": "Legal / Reino",
+                      "significado": "El ámbito de autoridad donde una ley o cobertura tiene efecto. En el desierto, Agar entró en la jurisdicción directa de Dios."
+                    }
+                  ],
+                  "desafio_practico": "Identifica una necesidad material o emocional que te genere ansiedad. Declara hoy: 'Mi provisión está vinculada a mi identidad. Yo pertenezco al Viviente que me ve, y Beer-lajai-roi es mi realidad legal'. Haz un acto de generosidad pequeña para romper la frecuencia de la escasez.",
+                  "gamificacion": {
+                    "xp_lectura": 115,
+                    "logro_id": "fuente-encontrada"
+                  },
+                  "conexiones": {
+                    "huellas": [
+                      { "id": "agar", "nombre": "Agar", "razon": "La mujer que descubrió que el desierto no es abandono, sino una nueva administración de la gracia." }
+                      
+                    ],
+                    "cronos": [
+                      { 
+                        "id": "cades-barnea", 
+                        "nombre": "Cades-barnea", 
+                        "razon": "Región estratégica donde la provisión y el juicio se encuentran, marcando el límite de la herencia." 
+                      }
+                    ],
+                    "aposento": [
+                      { "id_oracion": "provisión-del-viviente", "tema": "Sustento y Confianza", "accion": "Orar para reconocer las fuentes de provisión que Dios ha puesto en nuestro camino actual." }
                     ]
                   }
                 }

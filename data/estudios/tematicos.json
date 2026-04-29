@@ -305,7 +305,7 @@
           { "id": "valle-ela", "nombre": "Valle de Ela", "razon": "Escenario donde la fe venció a la intimidación mental." }
         ],
         "aposento": [
-          { "id_oracion": "paz-mental", "tema": "Paz y Salud Mental", "accion": "Orar contra la ansiedad." }
+          { "id_oracion": "paz-mental-ansiedad", "tema": "Paz y Salud Mental", "accion": "Orar contra la ansiedad." }
         ]
       }
     },
