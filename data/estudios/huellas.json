@@ -339,15 +339,15 @@
       "conexiones": {
         "huellas": [
           {
-            "id": "adan-huellas",
+            "id": "adan",
             "nombre": "Adán",
             "razon": "El primer hombre en experimentar que la gracia de Dios es mayor que su desobediencia."
           }
         ],
         "cronos": [
           {
-            "id": "salida-eden",
-            "nombre": "La Puerta del Edén",
+            "id": "jardin-eden",
+            "nombre": "Jardín del Edén",
             "razon": "El lugar donde el hombre salió con lágrimas, pero con una vestidura hecha por Dios."
           }
         ],
