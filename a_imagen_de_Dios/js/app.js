@@ -477,6 +477,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <span class="challenge-icon">🔥</span>
                         <p class="challenge-text"><strong>Desafío:</strong> "${estudio.desafio_practico}"</p>
                     </div>
+                    
+                    <div class="cb-semilla-container" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.3); text-align: center;">
+                        <p style="color: #f8fafc; font-style: italic; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                            "Damos de gracia lo que de gracia recibimos. Si sientes el deseo de apoyar este servicio, tu colaboración permite apoyar el crecimiento y mantenimiento de Códice Bíblico."
+                        </p>
+                        <a href="https://ko-fi.com/codicebiblico" target="_blank" class="cb-btn-kofi" 
+                        style="display: inline-flex; align-items: center; gap: 10px; background: #000; color: #fff; border: 1px solid #D4AF37; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; letter-spacing: 1px;">
+                            <i class="fas fa-gift" style="color: #D4AF37;"></i>
+                            APOYAR EL PROYECTO
+                        </a>
+                    </div>
                 `;
             }
 
@@ -509,6 +520,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // 7. SECCIÓN DE COMPARTIR
             const shareSection = `
+            
                 <div class="study-share-section">
                     <h3 class="share-title">COMPARTIR ESTE ESTUDIO</h3>
                     <div class="share-actions">

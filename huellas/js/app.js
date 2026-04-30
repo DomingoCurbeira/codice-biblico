@@ -491,6 +491,7 @@ function configurarBotonesCompartir(p) {
 
     // 3. HTML Estandarizado
     const shareHTML = `
+        <div id="estudio-content"></div>
         <div id="huellas-share-section" class="study-share-section" style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center; padding-bottom: 60px;">
             <h3 class="share-title" style="color: #9ca3af; font-size: 0.9rem; margin-bottom: 15px; letter-spacing: 1px; text-transform: uppercase;">Compartir Historia</h3>
             

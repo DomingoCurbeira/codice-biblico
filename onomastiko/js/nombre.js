@@ -150,10 +150,25 @@ const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map
                 <p style="font-size: 0.95rem;">"${p.datos_identidad.perla_profunda}"</p>
             </div>
         </article>
-    `;
+       
+            <div class="cb-semilla-container" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.3); text-align: center;">
+                <p style="color: #f8fafc; font-style: italic; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
+                    "Damos de gracia lo que de gracia recibimos. Si sientes el deseo de apoyar este servicio, tu colaboración permite apoyar el crecimiento y mantenimiento de Códice Bíblico."
+                </p>
+                <a href="https://ko-fi.com/codicebiblico" target="_blank" class="cb-btn-kofi" 
+                style="display: inline-flex; align-items: center; gap: 10px; background: #000; color: #fff; border: 1px solid #D4AF37; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; letter-spacing: 1px;">
+                    <i class="fas fa-gift" style="color: #D4AF37;"></i>
+                    APOYAR EL PROYECTO
+                </a>
+            </div>
+            `;
+
+    
 
     // Inyectar compartir después de renderizar el perfil
     inyectarAccionesCompartir(p, info);
+
+    
 
     // Evento del Switch
     if (p.tiene_transicion) {
@@ -191,6 +206,7 @@ function inyectarAccionesCompartir(p, info) {
                 <button id="btn-copy-link" class="btn-share-round copy"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></button>
             </div>
         </div>
+        <div id="estudio-content"></div>
     `;
 
     document.getElementById('perfil-content').insertAdjacentHTML('beforeend', shareHTML);
