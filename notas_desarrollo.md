@@ -85,4 +85,31 @@ Se ha establecido un lenguaje visual común para todo el proyecto:
 - [ ] **Audiolibro en Huellas:** Integrar el sistema de síntesis de voz de Aposento en las biografías de Huellas.
 
 ---
+
+## 📅 Actualización: 9 de Mayo, 2026 (Salto Cuántico)
+En esta jornada se ha completado la integración de contenidos de alta gama y la unificación visual definitiva del ecosistema.
+
+### 💎 Nuevo Módulo: RHEMA (Promesas Diarias)
+*   **Base de Datos 365:** Implementación de un ciclo anual completo de promesas bíblicas premium.
+*   **Diseño Generativo:** Integración de la librería `html2canvas` para permitir al usuario descargar promesas con diseño editorial (fusión de texto + imagen de fondo).
+*   **Conexión Etymos:** Cada promesa incluye el significado original de términos clave en Hebreo/Griego.
+*   **Compartir Inteligente:** Uso de la Web Share API para una integración nativa en dispositivos móviles.
+
+### 🖼️ Unificación Visual: El "Standard Hero"
+*   **Centralización de Activos:** Creación de la carpeta `img/hero/` para gestionar todas las cabeceras del ecosistema.
+*   **Identidad Visual:** Implementación de Heros cinemáticos con tipografía *Cinzel* en todos los módulos (Rhema, Aposento, Maná, Etymos, Imagen de Dios).
+*   **Prompts de Autor:** Generación de un set de 32 prompts de IA para mantener la coherencia estética en todo el proyecto.
+
+### 🏛️ Cátedra de Exégesis: Semana Shekhináh
+*   **Currículum Avanzado:** Generación de 5 enseñanzas de alto nivel teológico para el módulo "A Imagen de Dios" (Lunes a Viernes).
+*   **Ruta del Tabernáculo:** Un viaje inmersivo desde el Altar de Bronce hasta el Arca del Pacto, con conexiones dinámicas a Huellas, Cronos y Aposento.
+*   **Inmersión en Lectura:** Las portadas de los estudios ahora se renderizan dentro del lector para una experiencia visual continua.
+
+### 🛠️ Refuerzo Técnico y UX
+*   **Retorno Inteligente:** Implementación de botones de "Volver al Estudio" en Etymos para usuarios que llegan desde la biblioteca, evitando la pérdida del hilo de lectura.
+*   **Ordenamiento Cronológico:** Refactorización del motor de "A Imagen de Dios" para mezclar y ordenar estudios por fecha programada, creando una línea de tiempo unificada.
+*   **Service Worker v66:** Actualización del sistema de caché con filtros de protocolo para evitar errores de extensiones del navegador.
+*   **Blindaje de Componentes:** Refinamiento del script de limpieza de footers para proteger los elementos internos de las tarjetas.
+
+---
 *Desarrollado con excelencia por Domingo Curbeira — 2026*

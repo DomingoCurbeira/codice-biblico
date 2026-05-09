@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN4P6WTVWE"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-EN4P6WTVWE');
+    </script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        
+        fbq('init', '1062905893577259'); 
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" 
+            src="https://www.facebook.com/tr?id=1062905893577259&ev=PageView&noscript=1"/>
+    </noscript>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rhema | La Voz del Eterno Hoy</title>
+
+    <meta name="theme-color" content="#050608">
+    <link rel="manifest" href="../manifest.json">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="sanctuary-overlay"></div>
+    <div class="overlay-texture"></div>
+
+    <header class="rhema-hero">
+        <div class="hero-content">
+            <div class="hero-badge">REVELACIÓN DIARIA</div>
+            <h1 class="hero-title">RHEMA</h1>
+            <p class="hero-tagline">La Palabra que el Cielo habla hoy para ti</p>
+            <div class="day-indicator" id="day-of-year">Sintonizando fecha...</div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- TARJETA RHEMA (Lo que se descarga) -->
+        <div id="capture-area" class="rhema-card-container">
+            <article class="rhema-card" id="main-card">
+                <div class="card-bg-overlay"></div>
+                
+                <div class="card-content">
+                    <header class="card-header">
+                        <span class="card-cite" id="promise-cite">Isaías 41:10</span>
+                        <div class="etymos-tag" id="etymos-box">
+                            <span class="etymos-word" id="etymos-word">Eloheka</span>
+                            <span class="etymos-meaning" id="etymos-meaning">Tu Dios</span>
+                            <span class="etymos-lang" id="etymos-lang">Hebreo</span>
+                        </div>
+                    </header>
+
+                    <div class="card-body">
+                        <p class="promise-text" id="promise-text">Cargando tu palabra de hoy...</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <div class="decreto-box">
+                            <label>DECRETO DE HOY</label>
+                            <p id="promise-decreto">Mi fe silencia mis temores porque Su diestra me sostiene.</p>
+                        </div>
+                        <div class="brand-watermark">CÓDICE BÍBLICO</div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <!-- ACCIONES -->
+        <section class="rhema-actions">
+            <button id="btn-download" class="action-btn download" title="Descargar Imagen">
+                <i class="fas fa-download"></i> <span>Guardar Promesa</span>
+            </button>
+            <button id="btn-share" class="action-btn share" title="Compartir en Redes">
+                <i class="fas fa-share-alt"></i> <span>Proclamar</span>
+            </button>
+        </section>
+
+        <!-- NAVEGACIÓN EXTRA -->
+        <div class="extra-nav">
+            <button onclick="cambiarPromesaAleatoria()" class="btn-text">
+                <i class="fas fa-random"></i> Descubrir otra promesa
+            </button>
+        </div>
+
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
+    <script src="../js/global-hub.js"></script>
+    <script src="../js/global-footer.js"></script>
+</body>
+</html>

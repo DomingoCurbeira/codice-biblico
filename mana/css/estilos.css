@@ -53,7 +53,7 @@ body {
     height: 70vh;
     min-height: 500px;
     background: linear-gradient(to bottom, rgba(15, 16, 18, 0.4), var(--bg-dark)), 
-                url('https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=2070&auto=format&fit=crop');
+                url('../../img/hero/hero-mana.webp');
     background-size: cover;
     background-position: center;
     display: flex;

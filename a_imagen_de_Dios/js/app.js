@@ -108,6 +108,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             // 2. Si NO tiene fecha (o la fecha aún no llega), respetamos la regla del "activo"
             return est.activo !== false && est.activo !== "false";
         });
+
+        // --- ORDENAMIENTO CRONOLÓGICO GLOBAL ---
+        // Ordenamos por fecha_programada (de más reciente a más antigua)
+        estudiosActivos.sort((a, b) => {
+            const fA = a.fecha_programada || "2000-01-01";
+            const fB = b.fecha_programada || "2000-01-01";
+            return fB.localeCompare(fA);
+        });
     
         // 1. EXTRAER TAGS ÚNICOS (Solo de los estudios activos)
         const todosLosTags = new Set();
@@ -154,7 +162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // --- LÓGICA DE PAGINACIÓN NUMÉRICA ---
         const ESTUDIOS_POR_PAGINA = 8; // Aumentamos un poco por la grilla magazine
         let paginaActual = 1;
-        let estudiosFiltrados = [...estudiosActivos].reverse();
+        let estudiosFiltrados = [...estudiosActivos];
 
         const renderizarPagina = () => {
             listaDom.innerHTML = '';
@@ -259,7 +267,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const termino = inputBusqueda.value.toLowerCase();
             const tagSeleccionado = selectTags.value.toLowerCase();
 
-            estudiosFiltrados = [...estudiosActivos].reverse().filter(est => {
+            estudiosFiltrados = [...estudiosActivos].filter(est => {
                 const coincideTexto = est.titulo.toLowerCase().includes(termino) || 
                                       est.subtitulo.toLowerCase().includes(termino) ||
                                       (est.tags && est.tags.some(t => t.toLowerCase().includes(termino)));
@@ -287,8 +295,15 @@ document.addEventListener('DOMContentLoaded', async () => {
         
         const estudio = estudios.find(e => e.id === idBuscado);
         if (estudio) {
+            const imgHTML = estudio.imagen_portada ? `
+                <div class="reader-hero-wrapper" style="margin-bottom: 2rem; border-radius: 20px; overflow: hidden; height: 350px; border: 1px solid rgba(212, 180, 131, 0.2); box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
+                    <img src="${estudio.imagen_portada}" alt="${estudio.titulo}" style="width: 100%; height: 100%; object-fit: cover;">
+                </div>
+            ` : '';
+
             readerHeader.innerHTML = `
-                <div class="card-meta">${estudio.fecha_publicacion || estudio.fecha} • ${estudio.autor}</div>
+                ${imgHTML}
+                <div class="card-meta">${estudio.fecha_publicacion || estudio.fecha} • ${estudio.author || 'Códice Bíblico'}</div>
                 <h1 class="reader-title">${estudio.titulo}</h1>
                 <p style="color:var(--text-muted); font-size: 1.2rem; margin-top: 0.5rem;">${estudio.subtitulo}</p>
             `;
@@ -806,4 +821,4 @@ window.irAAposento = (temaParam, nombreEstudio) =>
     window.navegarConRastro(`../aposento/index.html?tema=${temaParam}`, nombreEstudio);
 
 window.irAEtymos = (palabraId, nombreEstudio) => 
-    window.navegarConRastro(`../etymos/palabra.html?id=${palabraId}`, nombreEstudio);
+    window.navegarConRastro(`../etymos/palabra.html?id=${palabraId}&ref=imagen`, nombreEstudio);

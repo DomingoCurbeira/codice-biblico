@@ -1,7 +1,7 @@
 [
   {
     "id": "proposito-diseno-original-maestro",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "Diseñados por Dios",
     "subtitulo": "Descubriendo el Propósito en el Taller del Maestro",
@@ -174,7 +174,7 @@
   },
   {
     "id": "diseno-original-familia-legado-eterno",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "El Diseño Original de la Familia",
     "subtitulo": "Descubriendo Edificando un Legado Eterno bajo el Diseño Divino",
@@ -330,7 +330,7 @@
   },
   {
     "id": "victoria-campo-batalla-mente",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "¿Qué tanto te angustian tus pensamientos?",
     "subtitulo": "Descubriendo Dominando la Mente para Conquistar la Paz",
@@ -499,7 +499,7 @@
   },
   {
     "id": "encuentros-transformadores-identidad-nueva",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "Encuentros que Transforman",
     "subtitulo": "Descubriendo De la Religiosidad y el Pasado a una Nueva Vida",
@@ -647,7 +647,7 @@
   },
   {
     "id": "presencia-vs-costumbre-honra-u-omision",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "Presencia vs. Costumbre",
     "subtitulo": "Descubriendo El Secreto de la Bendición en el Hogar",
@@ -787,7 +787,7 @@
   },
   {
     "id": "fortaleza-interior-cristiana-caracter",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "La Fortaleza Interior del Cristiano",
     "subtitulo": "Descubriendo Construyendo un Carácter Inamovible en un Mundo Inestable",
@@ -943,7 +943,7 @@
   },
   {
     "id": "pesca-milagrosa-obediencia-llamado",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "La Pesca Milagrosa: Cuando la Obediencia Activa lo Sobrenatural",
     "subtitulo": "Descubriendo Del Cansancio al Propósito: Dejando las Redes Vacías por una Vida de Fruto",
@@ -1119,7 +1119,7 @@
   },
   {
     "id": "sangre-cordero-antidoto-eterno",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "El Antídoto Eterno: La Ciencia y Fe de la Sangre del Cordero",
     "subtitulo": "Descubriendo Cómo el diseño biológico del suero antiofídico revela el plan de salvación",
@@ -1287,7 +1287,7 @@
   },
   {
     "id": "si-la-iglesia-calla-piedras-hablaran",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "Si la Iglesia Calla, las Piedras Hablarán",
     "subtitulo": "Descubriendo Cuando la Creación se convierte en el Testigo Irrefutable de la Verdad",
@@ -1452,7 +1452,7 @@
   },
   {
     "id": "el-dios-de-oportunidades",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "El Dios de Oportunidades",
     "subtitulo": "Descubriendo Nuevas son cada mañana: Gracia, Arrepentimiento y Restauración",
@@ -1645,7 +1645,7 @@
   },
   {
     "id": "pacto-mesa-del-rey",
-    "activo": true,
+    "activo": false,
     "tipo": "tematico",
     "titulo": "El Pacto que nos sentó a la Mesa del Rey",
     "subtitulo": "Descubriendo De la vergüenza de Lo-debar a la complacencia del Padre",
@@ -5644,6 +5644,584 @@
           "id_oracion": "vaciado-espiritual",
           "tema": "Entrega y Llenura",
           "accion": "Orar pidiendo que el Espíritu Santo nos ayude a identificar y soltar todo aquello que ocupa el lugar que solo le pertenece a Él."
+        }
+      ]
+    }
+  },
+  {
+    "id": "shekhinah-el-altar-de-bronce",
+    "activo": false,
+    "fecha_programada": "2026-05-11",
+    "tipo": "tematico",
+    "titulo": "El Altar de Bronce: El Fuego de la Identidad",
+    "subtitulo": "El primer paso hacia la Presencia: Purificación y Transferencia",
+    "author": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/hero-altar-bronce.webp",
+    "tags": [
+      "Shekhinah",
+      "Altar",
+      "Sacrificio",
+      "Identidad",
+      "Justicia"
+    ],
+    "versiculo_clave": {
+      "texto": "Harás también un altar de madera de acacia... y lo recubrirás de bronce.",
+      "cita": "Éxodo 27:1-2"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Imagina que te encuentras frente a la entrada del Tabernáculo. Antes de ver el oro del Lugar Santo o la luz de la Menorah, lo primero que detiene tus pasos es una estructura imponente de bronce de la cual emana un fuego constante. Este es el Mizbeach (Altar)."
+      },
+      {
+        "tipo": "lexico",
+        "termino": "Mizbeach",
+        "idioma": "Hebreo",
+        "significado": "El lugar legislado para el sacrificio donde lo humano es entregado para que lo divino pueda descender.",
+        "etymos_id": "mizbeach-he"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza"
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "1. El Bronce: La Justicia que Soporta el Fuego"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "En la simbología bíblica, el bronce representa la justicia divina en su capacidad de juicio. A diferencia del oro, que se funde, el bronce resiste el calor extremo. Esto nos enseña una verdad fundamental: el acceso a Dios no se basa en ignorar nuestras faltas, sino en satisfacer la justicia."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Ejemplos de nuestras 'faltas':</strong> No se trata solo de actos morales, sino de la 'deuda' de operar en nuestras propias fuerzas, el peso de los errores que intentamos compensar con buenas obras, y las etiquetas de identidad basadas en el desempeño ('soy lo que logro').",
+          "<strong>La Justicia Divina:</strong> Es el estándar perfecto del Reino. No puede haber comunión con el error. Por eso, el Altar es el lugar de la <em>Sustitución</em>: un inocente toma tu lugar legal, absorbiendo tu 'entropía' y cancelando tu deuda para que el tribunal del Cielo dicte tu libertad."
+        ]
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "Emergiendo desde el Fuego: El Diseño Original"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Cuando el fuego del altar consume el sacrificio, lo que desaparece es lo artificial: las máscaras, las pieles del pasado y las justificaciones humanas. Al quemarse lo temporal, lo que <em>emerge</em> es tu esencia espiritual, tu Diseño Original. Eres libre de las etiquetas que el sistema o el trauma te impusieron, permitiendo que tu identidad como hijo de Dios sea la única frecuencia que opere en tu vida."
+      },
+      {
+        "tipo": "puente",
+        "texto": "<strong>Reflexión Pastoral:</strong> Muchos intentan entrar a la presencia de Dios saltándose el altar. Quieren la paz (Shalom) sin la purificación. Pero el fuego del altar no es para castigarte, sino para liberarte de las pieles muertas que ya no pertenecen a tu nueva identidad."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "2. La Puerta de Entrada: El Protocolo de Rendición"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "El altar estaba situado en el atrio, justo después de la única puerta del Tabernáculo. Es el primer punto de contacto. Esto nos enseña que el acceso a la intimidad profunda requiere un protocolo de <strong>rendición</strong>."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>La Rendición no es derrota:</strong> En el Reino, rendirse es un acto legal de transferencia. Es decir: 'Señor, dejo de pelear con mis argumentos y acepto Tu victoria'.",
+          "<strong>Vaciado para Llenado:</strong> No puedes portar la Shekhináh si todavía estás lleno de ti mismo. El Altar es la aduana donde depones tus derechos y deudas. Solo cuando estás vacío de tus 'pieles' viejas, tienes capacidad para el oro de Su gloria."
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, en tu tiempo de oración, imagina que estás frente al Altar de Bronce. Entrega simbólicamente esa carga que te genera culpa o pesadez. Declara: 'Mi pasado es consumido por Tu justicia, y hoy entro a Tu presencia en pureza'.",
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "paso-por-el-fuego"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "moises",
+          "nombre": "Moisés",
+          "razon": "Recibió el diseño exacto del altar en el monte Sinaí, entendiendo que el orden precede a la gloria."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "el-tabernaculo",
+          "nombre": "El Tabernáculo",
+          "razon": "El contexto geográfico y legislativo donde el Altar de Bronce operaba como la frontera entre lo profano y lo sagrado."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "altar-purificacion",
+          "tema": "La Liturgia del Mizbeach",
+          "accion": "Cruzar la puerta de la rendición y permitir que el fuego consuma el pasado para liberar tu diseño."
+        }
+      ]
+    }
+  },
+  {
+    "id": "shekhinah-la-fuente-de-bronce",
+    "activo": false,
+    "fecha_programada": "2026-05-12",
+    "tipo": "tematico",
+    "titulo": "La Fuente de Bronce: El Espejo de la Palabra",
+    "subtitulo": "Enfrentando nuestra propia imagen antes de entrar a la Intimidad",
+    "author": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "13 min",
+    "imagen_portada": "../img/estudios/hero-fuente-bronce.webp",
+    "tags": [
+      "Shekhinah",
+      "Fuente",
+      "Palabra",
+      "Identidad",
+      "Reflexión"
+    ],
+    "versiculo_clave": {
+      "texto": "Harás también una fuente de bronce... para lavarse.",
+      "cita": "Éxodo 30:18"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Entre el Altar y el Lugar Santo se encontraba el Kiyor (Fuente). Este objeto marca el límite entre la purificación del pasado y la entrada a la intimidad con el Padre."
+      },
+      {
+        "tipo": "lexico",
+        "termino": "Kiyor",
+        "idioma": "Hebreo",
+        "significado": "Recipiente para lavar; un lugar de preparación y auto-examen antes de la ministración sagrada.",
+        "etymos_id": "kiyor-he"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza"
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "1. El Espejo de la Identidad Real"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "La fuente fue construida con los espejos de bronce pulido de las mujeres que servían a la puerta. Al inclinarse para lavarse, el sacerdote era confrontado por su propio reflejo. En el Códice, esto representa el espejo de la Palabra."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Espejos equivocados:</strong> A menudo nos miramos en el espejo de las redes sociales, del éxito financiero o de las opiniones ajenas. Esos espejos devuelven una imagen distorsionada y manchada.",
+          "<strong>El Reflejo del Kiyor:</strong> Al sumergir tu identidad en la Palabra, el 'barro' de las etiquetas del mundo se desprende. Dejas de ver al 'yo' cansado y empiezas a ver al 'hijo' diseñado para la gloria. El Kiyor te devuelve tu verdadera cara."
+        ]
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "2. Lavando la Operatividad: Manos y Pies"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "El protocolo exigía lavar específicamente las manos y los pies. Esto no es un rito higiénico, es una calibración de tu diseño operativo."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Manos (Proyectos):</strong> Purificar tus intenciones. Asegurarte de que tus obras no estén manchadas por la avaricia o el orgullo.",
+          "<strong>Pies (Dirección):</strong> Eliminar el 'polvo' de los caminos por los que has transitado. Alineando tu andar diario con los senderos de rectitud del Espíritu."
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Práctica"
+      },
+      {
+        "tipo": "aplicacion",
+        "items": [
+          "Mírate en la Verdad: Antes de interactuar con el mundo hoy, mírate en el Kiyor de la Palabra para recordar Quién te habita.",
+          "Limpia tu Agenda: Revisa tus planes para hoy. ¿Cuáles nacen del afán y cuáles del diseño divino? Lava tus manos en la rendición.",
+          "Cuida tu Influencia: Que tus pies solo pisen terrenos que tu Padre ha validado."
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, cada vez que te laves las manos, imagina que estás ante la Fuente de Bronce. Declara: 'Señor, purifica mis obras y mi andar. Que mi imagen sea un reflejo fiel de Tu diseño en mí'.",
+    "gamificacion": {
+      "xp_lectura": 230,
+      "logro_id": "reflejo-puro"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "bezaleel",
+          "nombre": "Bezaleel",
+          "razon": "El artesano que transformó los espejos en instrumentos de santidad, enseñándonos que nuestra vanidad puede ser redimida para Su gloria."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "el-tabernaculo",
+          "nombre": "El Tabernáculo",
+          "razon": "El atrio, donde la purificación física preparaba al hombre para la atmósfera espiritual del Lugar Santo."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "kiyor-reflexion",
+          "tema": "La Liturgia del Kiyor",
+          "accion": "Purificar la visión propia y las obras diarias mediante el espejo de la Verdad."
+        }
+      ]
+    }
+  },
+  {
+    "id": "shekhinah-la-menorah",
+    "activo": false,
+    "fecha_programada": "2026-05-13",
+    "tipo": "tematico",
+    "titulo": "La Menorah: El Sistema Operativo del Espíritu",
+    "subtitulo": "Activando la inteligencia espiritual y el discernimiento divino",
+    "author": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "14 min",
+    "imagen_portada": "../img/hero/hero-menorah.webp",
+    "tags": [
+      "Shekhinah",
+      "Menorah",
+      "Luz",
+      "Sabiduría",
+      "Espíritu"
+    ],
+    "versiculo_clave": {
+      "texto": "Y mandó Moisés... que te traigan aceite puro de olivas machacadas, para alumbrar continuamente.",
+      "cita": "Levítico 24:2"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Al cruzar el velo hacia el Lugar Santo, el mundo exterior desaparece. No hay ventanas. Toda la iluminación proviene de la Menorah. Ella es el recordatorio de que, en el Reino, la inteligencia humana es insuficiente sin el soplo del Espíritu."
+      },
+      {
+        "tipo": "lexico",
+        "termino": "Menorah",
+        "idioma": "Hebreo",
+        "significado": "Lámpara o portador de luz. Representa la plenitud de los siete espíritus de Dios.",
+        "etymos_id": "menorah-he"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza"
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "1. Aceite Machacado: Revelación bajo Presión"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "El combustible no era aceite común, sino de olivas 'machacadas'. Esto nos enseña que la luz más brillante a menudo surge de los momentos de mayor presión en nuestra vida. No rechaces el 'machacamiento'; es lo que produce el aceite para tu próxima revelación."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>El Sistema Operativo:</strong> La Menorah es la inteligencia estratégica. Sin ella, no podrías ver el Pan (provisión) ni el Incienso (adoración). Es la luz que hace operativa tu vida espiritual.",
+          "<strong>Unidad Sólida:</strong> Hecha de una sola pieza de oro labrada a martillo. Tu sabiduría no debe ser un parche de ideas humanas, sino una unidad forjada por la mano de Dios."
+        ]
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "2. Los Siete Brazos: El Espectro Total de la Sabiduría"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Representa los siete espíritus (Isaías 11:2). Al activar tu 'Menorah interna', dejas de reaccionar por instinto y comienzas a actuar por diseño estratétigo."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Ejemplos de falta de luz:</strong> Decisiones basadas en el miedo, inversiones por impulso emocional o palabras dichas en la 'oscuridad' de la ira.",
+          "<strong>Emergencia del Diseño:</strong> Cuando la luz de Dios se enciende, ves las oportunidades donde otros ven crisis. Tu mente se sincroniza con la frecuencia del Tercer Cielo."
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Práctica"
+      },
+      {
+        "tipo": "aplicacion",
+        "items": [
+          "Busca el Aceite Puro: No intentes brillar solo. Pide la llenura del Espíritu cada mañana antes de abrir tus correos o redes sociales.",
+          "Discierne lo Invisible: Ante un problema, no mires lo que sucede, pide la luz de la Menorah para ver lo que Dios está tramando detrás.",
+          "Sé un Portador: Tu función hoy es alumbrar con soluciones en lugares donde hay confusión."
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, cuando enfrentes una duda, no busques la respuesta primero en Google. Declara: 'El Espíritu de Sabiduría alumbra mi entendimiento y tengo claridad para decidir'.",
+    "gamificacion": {
+      "xp_lectura": 240,
+      "logro_id": "mente-iluminada"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "bezaleel",
+          "nombre": "Bezaleel",
+          "razon": "Lleno del Espíritu de Sabiduría para diseñar con inteligencia divina cada detalle de la Menorah."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "el-tabernaculo",
+          "nombre": "El Tabernáculo",
+          "razon": "El Lugar Santo, donde la luz divina permitía al sacerdote ver el Pan y el Incienso."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "menorah-iluminacion",
+          "tema": "La Liturgia de la Menorah",
+          "accion": "Encender la inteligencia del Espíritu para discernir tiempos y soluciones estratégicas."
+        }
+      ]
+    }
+  },
+  {
+    "id": "shekhinah-la-mesa-de-los-panes",
+    "activo": false,
+    "fecha_programada": "2026-05-14",
+    "tipo": "tematico",
+    "titulo": "La Mesa de los Panes: La Alianza de la Provisión",
+    "subtitulo": "El secreto del sustento continuo a través de la Comunión",
+    "author": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "11 min",
+    "imagen_portada": "../img/hero/hero-mesa-panes.webp",
+    "tags": [
+      "Shekhinah",
+      "Provisión",
+      "Pan",
+      "Comunión",
+      "Pacto"
+    ],
+    "versiculo_clave": {
+      "texto": "Y pondrás sobre la mesa los panes de la proposición delante de mí continuamente.",
+      "cita": "Éxodo 25:30"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Frente a la Menorah se encontraba la mesa recubierta de oro con doce panes frescos. Este mueble revela que Dios no solo quiere iluminar tu mente, sino sustentar tu operatividad diaria."
+      },
+      {
+        "tipo": "lexico",
+        "termino": "Lechem haPanim",
+        "idioma": "Hebreo",
+        "significado": "Pan de los Rostros. Nos enseña que el sustento (Lechem) está ligado a habitar ante el Rostro (Presencia) de Dios.",
+        "etymos_id": "lechem-he"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñañza"
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "1. El Pan de los Rostros: Suministro por Intimidad"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "En el sistema del mundo, el pan es el resultado de la ansiedad. En el Códice, el pan es el resultado de la mirada. Cuando habitas ante Su Rostro, el sustento para tu propósito se hornea automáticamente."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>El Presupuesto del Reino:</strong> Había doce panes, uno por cada tribu. Esto significa que Dios tiene un presupuesto asignado para tu diseño específico. Tu talento tiene un respaldo financiero en los cielos.",
+          "<strong>Frescura Continua:</strong> Los panes se renovaban cada Shabat. No puedes vivir con la provisión de ayer. Tu operatividad requiere una palabra fresca del Padre hoy."
+        ]
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "2. La Alianza de la Mesa"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Comer en la mesa de alguien era un acto de pacto y amistad íntima. Dios te invita hoy no como un mendigo buscando migajas, sino como un socio en Su mesa de oro."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Ejemplos de falta de provisión:</strong> Operar bajo orfandad, creer que si no te estresas no comes, y cerrar tus manos por miedo a la escasez.",
+          "<strong>Emergencia del Diseño:</strong> Al sentarte a la mesa del Padre, tu mente descansa. Operas desde la suficiencia y la multiplicación, no desde la carencia."
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Práctica"
+      },
+      {
+        "tipo": "aplicacion",
+        "items": [
+          "Busca el Rostro antes que la Mano: Pasa tiempo en comunión antes de salir a 'luchar' por el pan. El sustento siempre sigue a la Presencia.",
+          "Confía en tu Asignación: Si estás ejecutando un plan divino, el Padre tiene la obligación legal de poner el pan en tu mesa hoy.",
+          "Sé Generoso: Como el pan de la mesa era compartido, permite que tu abundancia sea un canal para bendecir a otros."
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, al comer, declara: 'Mi diseño tiene un presupuesto asignado por el Cielo. Nada me falta porque habito ante Su Rostro'.",
+    "gamificacion": {
+      "xp_lectura": 220,
+      "logro_id": "invitado-a-la-mesa"
+    },
+    "conexiones": {
+      "mana": [
+        {
+          "id": "mana-del-dia",
+          "nombre": "Maná Diario",
+          "razon": "La conexión entre el alimento que caía del cielo y el pan que se presentaba en la mesa sagrada."
+        }
+      ],
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey que entendió que el pan sagrado es el derecho legal de los que tienen hambre de Dios."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "el-tabernaculo",
+          "nombre": "El Tabernáculo",
+          "razon": "Ubicado en el Lugar Santo, recordándonos que el sustento es una atmósfera sagrada."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "mesa-provision",
+          "tema": "La Liturgia de la Mesa",
+          "accion": "Reclamar la provisión del Reino y agradecer por el presupuesto asignado a tu propósito."
+        }
+      ]
+    }
+  },
+  {
+    "id": "shekhinah-el-arca-del-pacto",
+    "activo": true,
+    "fecha_programada": "2026-05-15",
+    "tipo": "tematico",
+    "titulo": "El Arca del Pacto: El Epicentro de la Gloria",
+    "subtitulo": "El destino final: Habitar en el Lugar Santísimo bajo cielos abiertos",
+    "author": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "16 min",
+    "imagen_portada": "../img/estudios/hero-arca-pacto.webp",
+    "tags": [
+      "Shekhinah",
+      "Arca",
+      "Gloria",
+      "Pacto",
+      "Autoridad"
+    ],
+    "versiculo_clave": {
+      "texto": "Y de allí me declararé a ti, y hablaré contigo de sobre el propiciatorio.",
+      "cita": "Éxodo 25:22"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Tras el velo, en la oscuridad absoluta del Lugar Santísimo, se encontraba el Arca del Pacto. Este era el trono de Dios en la tierra, el punto exacto donde la eternidad intersectaba con el tiempo para dictar decretos de victoria."
+      },
+      {
+        "tipo": "lexico",
+        "termino": "Aron Habrit",
+        "idioma": "Hebreo",
+        "significado": "Arca del Pacto. El contenedor legislado de los testimonios de Dios y el soporte físico de Su Gloria (Shekhináh).",
+        "etymos_id": "aron-he"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza"
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "1. Madera y Oro: La Fusión de tu Identidad"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "El Arca estaba hecha de madera de acacia (humanidad incorruptible) recubierta por dentro y por fuera de oro puro (naturaleza divina). Esto define tu diseño en el Códice."
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>El Error de la Madera:</strong> Verte solo como un ser frágil, limitado por tu biología o tus traumas. Esa es la madera sin el oro.",
+          "<strong>El Revestimiento de Oro:</strong> Aceptar que, aunque eres humano, has sido revestido por la gloria de Dios. Tu Diseño Original es una fusión perfecta de lo terrenal y lo celestial. Hoy no operes desde tu escasez, opera desde el oro de Su presencia."
+        ]
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "2. El Contenido: Orden, Provisión y Autoridad"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Dentro del Arca había tres elementos que activan tu gobierno espiritual:"
+      },
+      {
+        "tipo": "lista",
+        "items": [
+          "<strong>Tablas de la Ley (Orden):</strong> Para que tus pensamientos y decisiones estén alineados al código del Reino.",
+          "<strong>Maná (Provisión):</strong> Sustento que no depende de la siembra humana, sino del cielo abierto.",
+          "<strong>Vara de Aarón (Autoridad):</strong> Capacidad de florecer y gobernar incluso en terrenos secos o bajo oposición."
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Práctica"
+      },
+      {
+        "tipo": "aplicacion",
+        "items": [
+          "Entra tras el Velo: El velo ya se rompió. No te quedes en el atrio de las quejas; entra a la intimidad profunda donde Dios te habla cara a cara hoy.",
+          "Activa tu Vara: Si un área de tu vida parece 'muerta', ponla ante el Arca. Lo que habita en Su presencia tiene la obligación legal de florecer.",
+          "Sé un Portador: Recuerda que el Arca era llevada en hombros. Tú eres hoy el responsable de portar la atmósfera de la Gloria en tu familia y trabajo."
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, aparta 10 minutos de silencio absoluto. Visualiza el Arca y escucha el susurro del Padre. No pidas nada, solo deja que Su Gloria recalibre tu espíritu.",
+    "gamificacion": {
+      "xp_lectura": 300,
+      "logro_id": "portador-de-gloria"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "aaron",
+          "nombre": "Aarón",
+          "razon": "El sumo sacerdote que tenía el derecho legal de entrar ante el Arca, representando la intercesión exitosa."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "el-tabernaculo",
+          "nombre": "El Tabernáculo",
+          "razon": "El Lugar Santísimo, el destino final de toda la ruta de luz y purificación."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "arca-gloria",
+          "tema": "La Liturgia del Arca",
+          "accion": "Habitar en el epicentro de la Gloria y activar el orden, la provisión y la autoridad divina."
         }
       ]
     }

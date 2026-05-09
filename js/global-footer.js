@@ -88,11 +88,10 @@
 
     function limpiarFootersAntiguos() {
         const SELECTORES = [
-            'footer', 
+            'body > footer', // Solo footers que son hijos directos del body
             '.app-footer', 
             '.modern-footer', 
             '.portal-footer', 
-            '.main-share-container',
             '.footer-dev'
         ];
         
@@ -126,7 +125,7 @@
         const path = window.location.pathname.toLowerCase();
         
         // Si estamos en la raíz (no hay subcarpetas de apps conocidas)
-        const apps = ['mana', 'huellas', 'cronos', 'a_imagen_de_dios', 'aposento', 'etymos', 'onomastiko', 'notas', 'juego'];
+        const apps = ['mana', 'huellas', 'rhema', 'cronos', 'a_imagen_de_dios', 'aposento', 'etymos', 'onomastiko', 'notes', 'juego'];
         const estaEnSubcarpeta = apps.some(app => path.includes(`/${app}/`));
         
         const rootPath = estaEnSubcarpeta ? '../index.html' : './index.html';

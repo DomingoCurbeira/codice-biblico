@@ -11,6 +11,7 @@
     const APPS = [
         { id: 'cronos', nombre: 'Cronos', icon: '🌍', path: 'cronos/index.html', class: 'cronos' },
         { id: 'mana', nombre: 'Maná', icon: '🍞', path: 'mana/index.html', class: 'mana' },
+        { id: 'rhema', nombre: 'Rhema', icon: '💎', path: 'rhema/index.html', class: 'rhema' },
         { id: 'huellas', nombre: 'Huellas', icon: '👣', path: 'huellas/index.html', class: 'huellas' },
         { id: 'imagen', nombre: 'Imagen', icon: '🎓', path: 'a_imagen_de_dios/index.html', class: 'imagen' },
         { id: 'aposento', nombre: 'Aposento', icon: '🔥', path: 'aposento/index.html', class: 'aposento' },

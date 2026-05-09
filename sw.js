@@ -1,32 +1,26 @@
-const CACHE_NAME = 'codice-v64'; // Subimos de versión para aplicar cambios
+const CACHE_NAME = 'codice-v66'; // Subimos de versión para aplicar cambios
 const ASSETS = [
   '/',
   '/index.html',
   '/css/styles.css',
   '/js/app.js',
   '/js/global-hub.js',
+  '/js/ecosistema-hub.js',
+  '/js/global-footer.js',
   '/manifest.json',
+  
+  // Datos Críticos
+  '/data/promesas/promesas_365.json',
   
   // Iconos PWA
   '/img/icon-192.png',
   '/img/icon-512.png',
   
-  // Imágenes de Compartir (Nuevas)
-  '/img/og-home.jpg',
-  '/img/og-virtus.jpg',
-  '/img/og-cronos.jpg',
-  '/img/og-huellas.jpg',
-  '/img/og-escriba.jpg',
-  '/img/og-mana.jpg',
-  '/img/og-aimagen.jpg',
-  '/img/og-aposento.jpg',
-  '/img/og-etymos.jpg',
-  '/img/og-onomastiko.jpg',
-  
-  // Opcional: Puedes añadir las páginas de inicio de cada módulo para que funcionen offline
+  // Páginas de inicio de cada módulo
   '/juego/index.html',
   '/cronos/index.html',
   '/mana/index.html',
+  '/rhema/index.html',
   '/huellas/index.html',
   '/notas/index.html',
   '/etymos/index.html',
@@ -63,6 +57,9 @@ self.addEventListener('activate', (e) => {
 
 // 3. Fetch: Estrategia Stale-While-Revalidate
 self.addEventListener('fetch', (e) => {
+  // Filtrar solo peticiones HTTP/HTTPS (evita errores con chrome-extension, etc.)
+  if (!e.request.url.startsWith('http')) return;
+
   // Solo gestionamos peticiones GET (evita errores con Analytics o formularios)
   if (e.request.method !== 'GET') return;
 

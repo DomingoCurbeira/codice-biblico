@@ -23,6 +23,7 @@ async function cargarPalabra() {
         if (palabra) {
             renderizarPalabra(palabra);
             inicializarMejorasLector();
+            verificarRetornoEstudio(); // <--- NUEVO: Retorno inteligente
         } else {
             throw new Error("Palabra no encontrada en el registro.");
         }
@@ -30,6 +31,55 @@ async function cargarPalabra() {
     } catch (e) {
         console.error(e);
         contentDom.innerHTML = `<p style="text-align:center; padding: 50px; color:#d4b483">⚠️ ${e.message}</p>`;
+    }
+}
+
+// --- NUEVO: FUNCIÓN PARA BOTÓN DE REGRESO AL ESTUDIO ---
+function verificarRetornoEstudio() {
+    const params = new URLSearchParams(window.location.search);
+    const ref = params.get('ref');
+    const rastroRaw = sessionStorage.getItem('rastro_estudio');
+
+    if (ref === 'imagen' && rastroRaw) {
+        try {
+            const rastro = JSON.parse(rastroRaw);
+            const nav = document.querySelector('.reading-nav');
+            
+            if (nav && rastro.url) {
+                const btnBackStudy = document.createElement('a');
+                btnBackStudy.href = rastro.url;
+                btnBackStudy.className = 'btn-return-study';
+                btnBackStudy.style.cssText = `
+                    display: inline-block;
+                    margin-left: 20px;
+                    padding: 8px 15px;
+                    background: rgba(212, 180, 131, 0.1);
+                    border: 1px solid #d4b483;
+                    color: #d4b483;
+                    border-radius: 8px;
+                    text-decoration: none;
+                    font-size: 0.75rem;
+                    font-weight: 800;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    transition: all 0.3s ease;
+                `;
+                btnBackStudy.innerHTML = `<i class="fas fa-book-open"></i> Volver al Estudio: ${rastro.nombrePersonaje || 'Anterior'}`;
+                
+                btnBackStudy.onmouseover = () => {
+                    btnBackStudy.style.background = '#d4b483';
+                    btnBackStudy.style.color = '#0f172a';
+                };
+                btnBackStudy.onmouseout = () => {
+                    btnBackStudy.style.background = 'rgba(212, 180, 131, 0.1)';
+                    btnBackStudy.style.color = '#d4b483';
+                };
+
+                nav.appendChild(btnBackStudy);
+            }
+        } catch (e) {
+            console.error("Error al procesar el rastro de retorno:", e);
+        }
     }
 }
 
