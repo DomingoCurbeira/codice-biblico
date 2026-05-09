@@ -42,8 +42,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // --- 3. CARGA DE DATOS INTELIGENTE ---
     try {
-        console.log("📖 Cargando A Imagen...");
-        
         const params = new URLSearchParams(window.location.search);
         const idSolicitado = params.get('id');
 
@@ -63,7 +61,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
     } catch (error) {
-        console.error("❌ Error Fatal:", error);
         if(listaDom || readerHeader) {
              document.body.innerHTML = "<h1 style='color:white;text-align:center;margin-top:20%'>Error de conexión con Códice.</h1>";
         }
@@ -125,11 +122,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const headerIndex = document.createElement('div');
         headerIndex.className = 'index-header-tools';
         headerIndex.innerHTML = `
-            <div class="search-container" style="margin-bottom: 20px; display: flex; gap: 10px; flex-wrap: wrap;">
-                <input type="text" id="input-busqueda" placeholder="🔍 Buscar enseñanza..." 
-                    style="flex: 1; min-width: 200px; padding: 12px 20px; border-radius: 25px; border: 1px solid rgba(212, 180, 131, 0.3); background: rgba(15, 23, 42, 0.8); color: white; outline: none; font-family: inherit;">
+            <div class="search-container">
+                <input type="text" id="input-busqueda" placeholder="🔍 Buscar enseñanza...">
                 
-                <select id="select-tags" style="padding: 12px 20px; border-radius: 25px; border: 1px solid rgba(212, 180, 131, 0.3); background: rgba(15, 23, 42, 0.8); color: white; outline: none; font-family: inherit; cursor: pointer;">
+                <select id="select-tags">
                     <option value="todos">🏷️ Todos los temas</option>
                     ${tagsOrdenados.map(tag => `<option value="${tag.toLowerCase()}">${tag}</option>`).join('')}
                 </select>
@@ -155,37 +151,40 @@ document.addEventListener('DOMContentLoaded', async () => {
             placeholder.appendChild(headerIndex);
         }
 
-        const ESTUDIOS_POR_PAGINA = 6;
-        let cantidadMostrada = 0;
-        
-        // Iniciamos la lista visual usando solo los activos
+        // --- LÓGICA DE PAGINACIÓN NUMÉRICA ---
+        const ESTUDIOS_POR_PAGINA = 8; // Aumentamos un poco por la grilla magazine
+        let paginaActual = 1;
         let estudiosFiltrados = [...estudiosActivos].reverse();
 
-        const renderizarBloque = (limpiarLista = false) => {
-            if (limpiarLista) {
-                listaDom.innerHTML = '';
-                cantidadMostrada = 0;
-            }
-
-            const siguienteBloque = estudiosFiltrados.slice(cantidadMostrada, cantidadMostrada + ESTUDIOS_POR_PAGINA);
+        const renderizarPagina = () => {
+            listaDom.innerHTML = '';
             
             if (estudiosFiltrados.length === 0) {
-                listaDom.innerHTML = '<p style="color:var(--text-muted); text-align:center; padding: 2rem;">No se encontraron resultados para tu búsqueda.</p>';
-                actualizarBotonVerMas();
+                listaDom.innerHTML = '<p style="color:var(--text-muted); text-align:center; padding: 2rem; grid-column: 1/-1;">No se encontraron resultados para tu búsqueda.</p>';
+                renderizarPaginacion(0);
                 return;
             }
 
-            siguienteBloque.forEach((estudio, index) => {
-                let etiquetaNuevo = (cantidadMostrada === 0 && index === 0) ? '<span class="badge-new">NOVEDAD</span>' : '';
+            // Calcular rango
+            const inicio = (paginaActual - 1) * ESTUDIOS_POR_PAGINA;
+            const fin = inicio + ESTUDIOS_POR_PAGINA;
+            const bloque = estudiosFiltrados.slice(inicio, fin);
+
+            bloque.forEach((estudio, index) => {
+                // El primer elemento de la primera página es la "novedad"
+                let etiquetaNuevo = (paginaActual === 1 && index === 0) ? '<span class="badge-new">NOVEDAD</span>' : '';
                 const card = document.createElement('article');
                 card.className = 'card-estudio';
-                const tagsHtml = (estudio.tags || []).map(tag => `<span class="tag">${tag}</span>`).join('');
+                const tagsHtml = (estudio.tags || []).slice(0, 3).map(tag => `<span class="tag">${tag}</span>`).join('');
                 const imgCover = estudio.imagen_portada || 'https://via.placeholder.com/400x200';
 
                 card.innerHTML = `
-                    <div class="card-img" style="background-image: url('${imgCover}'); height: 180px; background-size: cover; background-position: center;"></div>
-                    <div class="card-content" style="padding: 1.5rem;">
-                        <div class="card-meta"><span>${estudio.fecha_publicacion || estudio.fecha}</span><span>⏱ ${estudio.tiempo_lectura}</span></div>
+                    <div class="card-img" style="background-image: url('${imgCover}')"></div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <span>${estudio.fecha_publicacion || estudio.fecha}</span>
+                            <span>⏱ ${estudio.tiempo_lectura}</span>
+                        </div>
                         <h2 class="card-title">${estudio.titulo} ${etiquetaNuevo}</h2>
                         <p class="card-excerpt">${estudio.subtitulo}</p>
                         <div class="tags">${tagsHtml}</div>
@@ -195,25 +194,64 @@ document.addEventListener('DOMContentLoaded', async () => {
                 listaDom.appendChild(card);
             });
 
-            cantidadMostrada += siguienteBloque.length;
-            actualizarBotonVerMas();
+            renderizarPaginacion(estudiosFiltrados.length);
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         };
 
-        const actualizarBotonVerMas = () => {
-            const btnPrevio = document.getElementById('btn-load-more');
-            if(btnPrevio) btnPrevio.remove();
-            if (cantidadMostrada < estudiosFiltrados.length) {
-                const btnMore = document.createElement('button');
-                btnMore.id = 'btn-load-more';
-                btnMore.className = 'btn-primary-outline';
-                btnMore.innerText = 'Cargar más enseñanzas';
-                btnMore.style = "display: block; margin: 2rem auto; padding: 1rem 2rem; cursor: pointer;";
-                btnMore.onclick = () => renderizarBloque();
-                listaDom.after(btnMore);
+        const renderizarPaginacion = (totalItems) => {
+            const totalPaginas = Math.ceil(totalItems / ESTUDIOS_POR_PAGINA);
+            
+            // Eliminar paginador anterior si existe
+            const paginadorPrevio = document.querySelector('.pagination-container');
+            if (paginadorPrevio) paginadorPrevio.remove();
+
+            if (totalPaginas <= 1) return;
+
+            const container = document.createElement('div');
+            container.className = 'pagination-container';
+
+            // Botón Anterior
+            const btnPrev = document.createElement('button');
+            btnPrev.className = 'page-btn';
+            btnPrev.innerHTML = '<span class="page-arrow">❮</span>';
+            btnPrev.disabled = paginaActual === 1;
+            btnPrev.onclick = () => { paginaActual--; renderizarPagina(); };
+            container.appendChild(btnPrev);
+
+            // Botones de Números
+            for (let i = 1; i <= totalPaginas; i++) {
+                // Lógica para no mostrar demasiados números si hay muchas páginas
+                if (totalPaginas > 7) {
+                    if (i > 1 && i < totalPaginas && (i < paginaActual - 1 || i > paginaActual + 1)) {
+                        if (i === paginaActual - 2 || i === paginaActual + 2) {
+                            const dots = document.createElement('span');
+                            dots.innerText = '...';
+                            dots.style.color = 'var(--text-muted)';
+                            container.appendChild(dots);
+                        }
+                        continue;
+                    }
+                }
+
+                const btn = document.createElement('button');
+                btn.className = `page-btn ${i === paginaActual ? 'active' : ''}`;
+                btn.innerText = i;
+                btn.onclick = () => { paginaActual = i; renderizarPagina(); };
+                container.appendChild(btn);
             }
+
+            // Botón Siguiente
+            const btnNext = document.createElement('button');
+            btnNext.className = 'page-btn';
+            btnNext.innerHTML = '<span class="page-arrow">❯</span>';
+            btnNext.disabled = paginaActual === totalPaginas;
+            btnNext.onclick = () => { paginaActual++; renderizarPagina(); };
+            container.appendChild(btnNext);
+
+            listaDom.after(container);
         };
 
-        // 3. LÓGICA DE FILTRADO COMBINADO (Input + Select)
+        // 3. LÓGICA DE FILTRADO COMBINADO
         const inputBusqueda = document.getElementById('input-busqueda');
         const selectTags = document.getElementById('select-tags');
 
@@ -221,86 +259,25 @@ document.addEventListener('DOMContentLoaded', async () => {
             const termino = inputBusqueda.value.toLowerCase();
             const tagSeleccionado = selectTags.value.toLowerCase();
 
-            // Filtramos siempre sobre la base de 'estudiosActivos'
             estudiosFiltrados = [...estudiosActivos].reverse().filter(est => {
-                // Filtro 1: Texto
                 const coincideTexto = est.titulo.toLowerCase().includes(termino) || 
                                       est.subtitulo.toLowerCase().includes(termino) ||
                                       (est.tags && est.tags.some(t => t.toLowerCase().includes(termino)));
                 
-                // Filtro 2: Tag del Select
                 const coincideTag = tagSeleccionado === 'todos' || 
                                     (est.tags && est.tags.some(t => t.toLowerCase() === tagSeleccionado));
 
                 return coincideTexto && coincideTag;
             });
-            renderizarBloque(true);
+            
+            paginaActual = 1; // Resetear a la primera página al filtrar
+            renderizarPagina();
         };
 
         if (inputBusqueda) inputBusqueda.addEventListener('input', aplicarFiltros);
         if (selectTags) selectTags.addEventListener('change', aplicarFiltros);
 
-        renderizarBloque();
-
-        // =========================================================
-        // --- SISTEMA: ENSEÑANZA RECOMENDADA DEL DÍA (TOAST) ---
-        // =========================================================
-        setTimeout(() => {
-            const hoyStr = new Date().toDateString(); // Ej: "Wed Mar 11 2026"
-            const toastVistoHoy = localStorage.getItem('codice_toast_dia');
-
-            // 1. Si ya lo cerró hoy, no lo molestamos más
-            if (toastVistoHoy === hoyStr) return;
-
-            // 2. Filtramos SOLO los estudios que ya son públicos hoy
-            const hoy = new Date();
-            const estudiosPublicados = estudios.filter(est => {
-                if (est.fecha_programada) {
-                    const fechaLanzamiento = new Date(est.fecha_programada + 'T00:00:00-06:00');
-                    if (hoy < fechaLanzamiento) return false;
-                }
-                return est.activo !== false && est.activo !== "false";
-            });
-
-            if (estudiosPublicados.length === 0) return;
-
-            // 3. Calculamos qué día del año es para ir rotando (del 1 al 365)
-            const inicioAno = new Date(hoy.getFullYear(), 0, 0);
-            const diff = hoy - inicioAno;
-            const diaDelAno = Math.floor(diff / (1000 * 60 * 60 * 24));
-            
-            // 4. Seleccionamos el estudio del día rotativamente
-            const indice = diaDelAno % estudiosPublicados.length;
-            const estudioDelDia = estudiosPublicados[indice];
-
-            // 5. Construimos el HTML del Toast
-            const toast = document.createElement('div');
-            toast.className = 'codice-daily-toast';
-            toast.innerHTML = `
-                <img src="${estudioDelDia.imagen_portada}" alt="Sugerencia" onerror="this.src='https://via.placeholder.com/60'">
-                <div class="toast-info" onclick="window.location.href='leer.html?id=${estudioDelDia.id}'">
-                    <h4>Sugerencia del Día 💡</h4>
-                    <p>${estudioDelDia.titulo}</p>
-                </div>
-                <button class="cerrar-btn" aria-label="Cerrar">&times;</button>
-            `;
-
-            // 6. Lógica de cierre y guardado
-            const btnCerrar = toast.querySelector('.cerrar-btn');
-            btnCerrar.onclick = (e) => {
-                e.stopPropagation(); // Evita que se dispare el clic de ir al estudio
-                toast.classList.remove('mostrar');
-                localStorage.setItem('codice_toast_dia', hoyStr); // Guardamos que ya lo vio HOY
-                setTimeout(() => toast.remove(), 600);
-            };
-
-            // 7. Lo inyectamos en la pantalla y lo mostramos a los 2 segundos
-            document.body.appendChild(toast);
-            setTimeout(() => {
-                toast.classList.add('mostrar');
-            }, 2000);
-
-        }, 500); // Pequeño delay para no saturar la carga inicial
+        renderizarPagina();
     }
 
     // B) SI ESTAMOS LEYENDO (Lector de un estudio específico)
@@ -309,7 +286,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         const idBuscado = params.get('id');
         
         const estudio = estudios.find(e => e.id === idBuscado);
-        console.log(estudios)
         if (estudio) {
             readerHeader.innerHTML = `
                 <div class="card-meta">${estudio.fecha_publicacion || estudio.fecha} • ${estudio.autor}</div>
@@ -327,21 +303,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <span class="key-verse-cite">— ${estudio.versiculo_clave.cita}</span>
                     </div>
                 `;
-            }
-
-            const diccionario = estudio.diccionario || estudio.palabras_clave;
-            if (diccionario && diccionario.length > 0) {
-                htmlContent += `<div class="roots-section"><h3 class="section-title">Profundizando en el Original</h3><div class="roots-grid">`;
-                diccionario.forEach(palabra => {
-                    htmlContent += `
-                        <div class="root-card">
-                            <div class="root-word">${palabra.palabra}</div>
-                            <span class="root-origin">${palabra.origen}</span>
-                            <p class="root-meaning">${palabra.significado}</p>
-                        </div>
-                    `;
-                });
-                htmlContent += `</div></div>`;
             }
 
             if (estudio.contenido) {
@@ -378,14 +339,56 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 ${bloque.descripcion ? `<figcaption>${bloque.descripcion}</figcaption>` : ''}
                             </figure>
                         `;
+                    } else if (bloque.tipo === 'seccion_titulo') {
+                        htmlContent += `<h2 class="section-master-title">${bloque.texto}</h2>`;
+                    } else if (bloque.tipo === 'lexico') {
+                        const etymosBtn = bloque.etymos_id ? `
+                            <button class="btn-etymos-link" onclick="irAEtymos('${bloque.etymos_id}', '${estudio.titulo}')">
+                                <i class="fas fa-search"></i> Ver en Etymos
+                            </button>
+                        ` : '';
+
+                        htmlContent += `
+                            <div class="lexicon-card">
+                                <div class="lexicon-header">
+                                    <span class="lexicon-term">${bloque.termino}</span>
+                                    <span class="lexicon-lang">${bloque.idioma}</span>
+                                </div>
+                                <p class="lexicon-meaning">${bloque.significado}</p>
+                                ${etymosBtn}
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'puente') {
+                        htmlContent += `
+                            <div class="pastoral-bridge">
+                                <div class="bridge-icon">💡</div>
+                                <div class="bridge-content">${bloque.texto}</div>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'concordancia') {
+                        htmlContent += `<div class="concordance-box"><h4 class="concordance-title">📖 Concordancia y Referencias</h4><ul class="concordance-list">`;
+                        bloque.referencias.forEach(ref => {
+                            htmlContent += `<li><strong>${ref.cita}:</strong> ${ref.texto}</li>`;
+                        });
+                        htmlContent += `</ul></div>`;
+                    } else if (bloque.tipo === 'aplicacion') {
+                        htmlContent += `
+                            <div class="application-section">
+                                <h4 class="application-title">🎯 Pasos de Aplicación</h4>
+                                <ul class="application-list">
+                                    ${bloque.items.map(item => `<li>${item}</li>`).join('')}
+                                </ul>
+                            </div>
+                        `;
                     }
                 });
             }
 
             // 5. CONEXIONES DEL ECOSISTEMA
-            if (estudio.conexiones) {
+            const conexiones = estudio.connections || estudio.conexiones;
+            if (conexiones) {
                 const perfil = JSON.parse(localStorage.getItem('codice_perfil')) || { logros: [] };
-                const huellasRelacionadas = estudio.conexiones.huellas || [];
+                const huellasRelacionadas = conexiones.huellas || [];
                 const logrosObtenidos = huellasRelacionadas.filter(p => perfil.logros.includes(p.id));
 
                 let mensajeCompletado = "";
@@ -433,8 +436,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 }
 
                 // B) Cronos (Lugares con RETORNO INTELIGENTE)
-                if (estudio.conexiones.cronos) {
-                    estudio.conexiones.cronos.forEach(c => {
+                if (conexiones.cronos) {
+                    conexiones.cronos.forEach(c => {
                         const nombreOrigen = estudio.titulo; 
                         
                         htmlContent += `
@@ -449,10 +452,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                         </div>`;
                     });
                 }
+
+                // C) Etymos (Etimología con RETORNO INTELIGENTE)
+                if (conexiones.etymos) {
+                    conexiones.etymos.forEach(e => {
+                        const nombreOrigen = estudio.titulo;
+                        htmlContent += `
+                        <div class="connect-card etymos" 
+                            style="cursor:pointer;" 
+                            onclick="irAEtymos('${e.id}', '${nombreOrigen}')">
+                            <span class="connect-icon" style="color:#22d3ee;">🔍</span>
+                            <div class="connect-info">
+                                <strong>${e.nombre}</strong>
+                                <span>${e.razon}</span>
+                            </div>
+                        </div>`;
+                    });
+                }
                 
-                // C) Aposento (Oración con RETORNO INTELIGENTE)
-                if (estudio.conexiones.aposento) {
-                    estudio.conexiones.aposento.forEach(a => {
+                // D) Aposento (Oración con RETORNO INTELIGENTE)
+                if (conexiones.aposento) {
+                    conexiones.aposento.forEach(a => {
                         const linkParam = a.id_oracion || encodeURIComponent(a.tema);
                         const nombreOrigen = estudio.titulo; // Guardamos el nombre del estudio actual
                         
@@ -579,7 +599,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             
                             if (!card.classList.contains('unlocked')) {
                                 card.classList.add('unlocked');
-                                audioRecompensa.play().catch(e => console.log("Audio requiere interacción previa"));
+                                audioRecompensa.play().catch(e => {});
 
                                 const xpGanada = estudio.gamificacion.xp_lectura;
                                 const idLogro = estudio.gamificacion.logro_id;
@@ -593,7 +613,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                                     perfilUsuario.logros.push(idLogro);
                                     
                                     localStorage.setItem('codice_perfil', JSON.stringify(perfilUsuario));
-                                    console.log(`✨ ¡Puntos guardados! Total: ${perfilUsuario.xp} XP`);
                                 }
 
                                 observer.unobserve(card);
@@ -609,6 +628,68 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             readerHeader.innerHTML = `<h1>Estudio no encontrado 😕</h1>`;
         }
+
+        // --- 10. MEJORAS DE UX LECTOR: BARRA DE PROGRESO Y CONTROL DE FUENTE ---
+        
+        // A) Inyectar Barra de Progreso
+        const progressContainer = document.createElement('div');
+        progressContainer.className = 'reading-progress-container';
+        progressContainer.innerHTML = '<div id="reading-progress" class="reading-progress-bar"></div>';
+        document.body.appendChild(progressContainer);
+
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            const bar = document.getElementById("reading-progress");
+            if (bar) bar.style.width = scrolled + "%";
+        });
+
+        // B) Inyectar Control de Fuente
+        const fontWrapper = document.createElement('div');
+        fontWrapper.className = 'font-control-wrapper';
+        fontWrapper.innerHTML = `
+            <button id="btn-font-toggle" class="btn-font-toggle" title="Ajustar texto">
+                <i class="fas fa-font"></i>
+            </button>
+            <div id="font-panel" class="font-control-panel">
+                <button id="btn-font-up" class="btn-font-action" title="Aumentar">A+</button>
+                <button id="btn-font-down" class="btn-font-action" title="Disminuir">A-</button>
+            </div>
+        `;
+        document.body.appendChild(fontWrapper);
+
+        const btnToggle = document.getElementById('btn-font-toggle');
+        const fontPanel = document.getElementById('font-panel');
+        const readerBody = document.getElementById('reader-content');
+
+        // Aplicamos tamaño guardado o base
+        let currentSize = parseInt(localStorage.getItem('codice_font_size')) || 18; 
+        if (readerBody) readerBody.style.fontSize = currentSize + 'px';
+
+        btnToggle.onclick = (e) => {
+            e.stopPropagation();
+            fontPanel.classList.toggle('active');
+        };
+
+        document.getElementById('btn-font-up').onclick = () => {
+            if (currentSize < 30) {
+                currentSize += 2;
+                readerBody.style.fontSize = currentSize + 'px';
+                localStorage.setItem('codice_font_size', currentSize);
+            }
+        };
+
+        document.getElementById('btn-font-down').onclick = () => {
+            if (currentSize > 14) {
+                currentSize -= 2;
+                readerBody.style.fontSize = currentSize + 'px';
+                localStorage.setItem('codice_font_size', currentSize);
+            }
+        };
+
+        document.addEventListener('click', () => fontPanel.classList.remove('active'));
+        fontPanel.onclick = (e) => e.stopPropagation();
     }
 
     // --- LÓGICA DEL MENÚ ECOSISTEMA (LAUNCHER) ---
@@ -696,41 +777,33 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // --- FUNCIONES DE NAVEGACIÓN Y RETORNO (VÍNCULOS DE ECOSISTEMA) ---
 
-// 1. Navegar a Cronos (Lugares)
-window.irAlMapa = function(lugarId, nombreEstudio) {
-    // 1. LIMPIEZA CRÍTICA: Borramos el rastro de Onomastiko 
-    // para que no aparezca el botón dorado de Abraham/Jacob
-    localStorage.removeItem('last_onoma_id');
+/**
+ * Función unificada para navegar entre módulos guardando el rastro
+ * para permitir el retorno inteligente al estudio actual.
+ */
+window.navegarConRastro = function(urlDestino, nombreOrigen, esMapa = false) {
+    if (esMapa) {
+        // Limpieza específica para el módulo Cronos/Onomastiko
+        localStorage.removeItem('last_onoma_id');
+    }
 
-    // 2. Creamos el rastro para Imagen de Dios (Cronos -> Imagen de Dios)
     const rastro = {
-        nombrePersonaje: nombreEstudio,
+        nombrePersonaje: nombreOrigen, // Estandarizado como 'nombrePersonaje' para compatibilidad
         url: window.location.href 
     };
     
     sessionStorage.setItem('rastro_estudio', JSON.stringify(rastro));
-    
-    // 3. Viajamos al mapa
-    window.location.href = `../cronos/index.html?lugar=${lugarId}`;
+    window.location.href = urlDestino;
 };
 
-// 2. Navegar a Huellas (Personajes) - NUEVO
-window.irAHuellas = function(personajeId, nombreEstudio) {
-    const rastro = {
-        nombrePersonaje: nombreEstudio,
-        url: window.location.href 
-    };
-    // Usamos 'rastro_estudio' exactamente igual que Cronos
-    sessionStorage.setItem('rastro_estudio', JSON.stringify(rastro));
-    window.location.href = `../huellas/perfil.html?id=${personajeId}`;
-};
+window.irAlMapa = (lugarId, nombreEstudio) => 
+    window.navegarConRastro(`../cronos/index.html?lugar=${lugarId}`, nombreEstudio, true);
 
-// 3. Navegar a Aposento (Oración) - NUEVO
-window.irAAposento = function(temaParam, nombreEstudio) {
-    const rastro = {
-        nombrePersonaje: nombreEstudio, // Usamos la misma propiedad para estandarizar
-        url: window.location.href 
-    };
-    sessionStorage.setItem('rastro_estudio', JSON.stringify(rastro));
-    window.location.href = `../aposento/index.html?tema=${temaParam}`;
-};
+window.irAHuellas = (personajeId, nombreEstudio) => 
+    window.navegarConRastro(`../huellas/perfil.html?id=${personajeId}`, nombreEstudio);
+
+window.irAAposento = (temaParam, nombreEstudio) => 
+    window.navegarConRastro(`../aposento/index.html?tema=${temaParam}`, nombreEstudio);
+
+window.irAEtymos = (palabraId, nombreEstudio) => 
+    window.navegarConRastro(`../etymos/palabra.html?id=${palabraId}`, nombreEstudio);

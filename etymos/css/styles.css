@@ -3,363 +3,372 @@
 /* ========================================================= */
 
 :root {
-    --bg-dark: #0f172a;      /* Fondo base */
-    --card-bg: #1e293b;      /* Fondo tarjetas */
-    --primary: #22d3ee;      /* Turquesa Neón */
-    --text-main: #f1f5f9;    /* Blanco suave */
-    --text-muted: #94a3b8;   /* Gris pizarra */
+    --bg-dark: #0f172a;
+    --card-bg: #1e293b;
+    --gold: #d4b483;
+    --gold-glow: rgba(212, 180, 131, 0.3);
+    --greek-blue: #22d3ee;
+    --greek-glow: rgba(34, 211, 238, 0.3);
+    --aramaic-purple: #a855f7;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
     --font-ui: 'Inter', sans-serif;
     --font-book: 'Merriweather', serif;
+    --font-display: 'Cinzel', serif;
 }
 
 body {
     background-color: var(--bg-dark);
     color: var(--text-main);
     font-family: var(--font-ui);
-    padding-bottom: 40px;
+    overflow-x: hidden;
 }
 
-/* Herramientas de búsqueda y filtros */
-.etymos-tools {
+/* --- HERO ETYMOS (Arqueológico) --- */
+.etymos-hero {
+    height: 75vh;
+    min-height: 550px;
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.4) 0%, var(--bg-dark) 100%),
+                url('https://images.unsplash.com/photo-1534067783941-51c9c23ecefd?q=80&w=2070&auto=format&fit=crop');
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 30px;
+    justify-content: center;
+    position: relative;
+    padding: 0 2rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at center, transparent 10%, var(--bg-dark) 100%);
+    opacity: 0.7;
+}
+
+.hero-content {
+    max-width: 900px;
+    z-index: 10;
+    animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.hero-badge {
+    background: rgba(212, 180, 131, 0.1);
+    color: var(--gold);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 5px;
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.hero-title {
+    font-family: var(--font-book);
+    font-size: clamp(3rem, 10vw, 5.5rem);
+    color: var(--gold);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 10px 40px rgba(0,0,0,0.6);
+}
+
+.hero-translit {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.hero-meaning {
+    font-family: var(--font-display);
+    font-size: 2.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+
+.hero-actions { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+
+.btn-hero-primary {
+    background: var(--gold);
+    color: #0f172a;
+    border: none;
+    padding: 16px 45px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(212, 180, 131, 0.3);
+    transition: all 0.3s ease;
+    display: flex; align-items: center; gap: 12px;
+}
+
+.btn-hero-primary:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(212, 180, 131, 0.5);
+    background: #fff;
+}
+
+.btn-hero-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 16px 45px;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-hero-secondary:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: #fff;
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .etymos-hero { height: 60vh; }
+    .hero-title { font-size: 3rem; }
+    .hero-meaning { font-size: 1.5rem; }
+}
+
+/* --- HERRAMIENTAS DE BÚSQUEDA --- */
+.etymos-tools {
+    max-width: 900px;
+    margin: 0 auto 3rem;
+    padding: 0 1.5rem;
+    text-align: center;
 }
 
 #busqueda-etymos {
     width: 100%;
-    padding: 15px 20px;
-    border-radius: 25px;
-    border: 1px solid rgba(212, 180, 131, 0.4);
-    background: rgba(15, 23, 42, 0.8);
+    max-width: 600px;
+    padding: 16px 25px;
+    border-radius: 50px;
+    border: 1px solid rgba(212, 180, 131, 0.2);
+    background: rgba(30, 41, 59, 0.6);
     color: #fff;
-    font-family: 'Inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     outline: none;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    margin-bottom: 1.5rem;
 }
 
 #busqueda-etymos:focus {
-    border-color: #d4b483;
-    box-shadow: 0 0 10px rgba(212, 180, 131, 0.2);
+    border-color: var(--gold);
+    box-shadow: 0 0 20px var(--gold-glow);
 }
 
-/* Filtros deslizables (Scroll horizontal suave para móviles) */
 .filtros-idioma {
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    gap: 12px;
     overflow-x: auto;
     padding-bottom: 10px;
-    scrollbar-width: none; /* Oculta scrollbar en Firefox */
+    scrollbar-width: none;
 }
-
-.filtros-idioma::-webkit-scrollbar {
-    display: none; /* Oculta scrollbar en Chrome/Safari */
-}
+.filtros-idioma::-webkit-scrollbar { display: none; }
 
 .btn-filtro {
-    background: transparent;
-    border: 1px solid #d4b483;
-    color: #d4b483;
-    padding: 8px 16px;
-    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-muted);
+    padding: 10px 22px;
+    border-radius: 30px;
     cursor: pointer;
-    white-space: nowrap;
-    font-family: 'Inter', sans-serif;
-    font-size: 0.9rem;
-    transition: all 0.3s ease;
-}
-
-.btn-filtro.activo, .btn-filtro:hover {
-    background: #d4b483;
-    color: #0f172a;
     font-weight: 600;
+    transition: all 0.3s;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
-/* Cuadrícula de Fichas Lexicográficas */
+.btn-filtro.activo {
+    background: var(--gold);
+    color: #0f172a;
+    border-color: var(--gold);
+    box-shadow: 0 5px 15px var(--gold-glow);
+}
+
+/* --- GRID MAGAZINE ETYMOS --- */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+
 .grid-lexico {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-    padding-bottom: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 2rem;
+    padding-bottom: 4rem;
 }
 
-/* Diseño de la Tarjeta (Efecto cristal/pergamino oscuro) */
+/* Estilo Revista: Destacamos algunas fichas */
+@media (min-width: 1000px) {
+    .card-lexico:nth-child(10n + 1) {
+        grid-column: span 2;
+    }
+}
+
 .card-lexico {
-    background: linear-gradient(145deg, #1e293b, #0f172a);
-    border: 1px solid rgba(212, 180, 131, 0.2);
-    border-radius: 12px;
-    padding: 20px;
+    background: var(--card-bg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 24px;
+    padding: 2.5rem 2rem;
     position: relative;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
     display: flex;
     flex-direction: column;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
+/* Temas por Idioma */
+.card-lexico.hebreo { --lang-color: var(--gold); --lang-glow: var(--gold-glow); }
+.card-lexico.griego { --lang-color: var(--greek-blue); --lang-glow: var(--greek-glow); }
+.card-lexico.arameo { --lang-color: var(--aramaic-purple); --lang-glow: rgba(168, 85, 247, 0.3); }
+
 .card-lexico:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
-    border-color: rgba(212, 180, 131, 0.5);
+    transform: translateY(-10px);
+    border-color: var(--lang-color);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 20px var(--lang-glow);
 }
+
+/* Marca de agua tipográfica */
+.lang-watermark {
+    position: absolute;
+    top: -10px; right: -20px;
+    font-family: var(--font-book);
+    font-size: 8rem;
+    opacity: 0.03;
+    color: var(--lang-color);
+    pointer-events: none;
+    z-index: 0;
+    transition: opacity 0.5s;
+}
+.card-lexico:hover .lang-watermark { opacity: 0.08; }
 
 .lexico-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid rgba(212, 180, 131, 0.1);
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-}
-
-.lexico-idioma {
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #94a3b8;
-    font-weight: 600;
-}
-
-/* Tipografía grande y clásica (Merriweather) para el Griego/Hebreo */
-.lexico-original {
-    font-size: 2.2rem;
-    color: #d4b483; /* Dorado característico */
-    font-family: 'Merriweather', serif;
-    margin-bottom: 5px;
-    line-height: 1.2;
-}
-
-.lexico-transliteracion {
-    font-style: italic;
-    color: #cbd5e1;
-    margin-bottom: 15px;
-    display: block;
-    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
 }
 
 .lexico-espanol {
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
     color: #fff;
-    margin-bottom: 10px;
-    font-family: 'Inter', sans-serif;
+    letter-spacing: 1px;
+}
+
+.lexico-idioma-badge {
+    font-size: 0.65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--lang-color);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lexico-original {
+    font-family: var(--font-book);
+    font-size: 2.8rem;
+    color: var(--lang-color);
+    margin-bottom: 0.5rem;
+    line-height: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.lexico-transliteracion {
+    font-size: 1rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    display: block;
 }
 
 .lexico-definicion {
-    font-size: 0.95rem;
-    color: #94a3b8;
+    font-size: 1rem;
     line-height: 1.6;
-    margin-bottom: 15px;
-    flex-grow: 1; /* Empuja el ejemplo hacia abajo si la definición es corta */
+    color: #cbd5e1;
+    margin-bottom: 2rem;
+    flex-grow: 1;
 }
 
-/* Caja especial para el versículo de ejemplo */
-.lexico-ejemplo {
-    background: rgba(15, 23, 42, 0.6);
-    padding: 12px;
-    border-left: 3px solid #d4b483; 
-    font-size: 0.85rem;
-    color: #e2e8f0;
-    border-radius: 0 6px 6px 0;
-    font-style: italic;
-}
-
-/* Etiquetas extra (Tags como "Antiguo Testamento", "Jesús") */
-.lexico-tags {
+.btn-profundizar {
+    margin-top: auto;
     display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.lexico-tag {
-    font-size: 0.7rem;
-    color: #64748b;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 4px 8px;
-    border-radius: 4px;
+    align-items: center;
+    gap: 10px;
+    color: var(--lang-color);
+    font-weight: bold;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
-/* --- BOTÓN LAUNCHER (9 PUNTOS) --- */
-.btn-launcher {
-    background: transparent;
-    border: none;
-    color: var(--text-muted);
-    cursor: pointer;
-    padding: 8px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Efecto rebote suave */
-}
-
-/* EFECTO HOVER: Color dorado + Rotación + Escala */
-.btn-launcher:hover {
-    color: var(--accent); /* Se pone dorado */
-    background-color: rgba(255, 255, 255, 0.05);
-    transform: rotate(90deg) scale(1.1); /* Gira y crece */
-    box-shadow: 0 0 15px rgba(245, 158, 11, 0.3); /* Resplandor suave */
-}
-
-/* --- MENÚ DESPLEGABLE (ECOSISTEMA) --- */
-.eco-menu {
-    position: fixed;
-    top: 70px; /* Justo debajo del nav */
-    right: 20px;
-    background: rgba(15, 23, 42, 0.95); /* Fondo oscuro semitransparente */
-    backdrop-filter: blur(10px); /* Efecto cristal */
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 16px;
-    padding: 1rem;
-    z-index: 1000;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    
-    /* Animación de entrada */
-    opacity: 0;
-    transform: translateY(-20px) scale(0.95);
-    transition: all 0.3s ease;
-    pointer-events: none; /* Para no clickear cuando está invisible */
-}
-
-.eco-menu.active {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    pointer-events: all;
-}
-
-.menu-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    width: 220px;
-}
-
-.menu-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 1rem;
-    border-radius: 12px;
-    text-decoration: none;
-    color: var(--text-main);
-    transition: background 0.2s;
-}
-
-.menu-item:hover {
-    background: rgba(245, 158, 11, 0.35); /* Fondo dorado suave */
-    color: var(--accent);
-}
-
-.menu-item .icon {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.menu-item.active {
-    border: 1px solid var(--accent);
-    color: var(--accent);
-}
-
-.huellas{
-    filter: grayscale(100%) brightness(500%);
-}
-
-
-/* HEADER */
-.library-header {
-    /* padding: 2rem 1.5rem; */
-    background: linear-gradient(to bottom, #1e293b, #0f172a);
-    border-bottom: 1px solid #334155;
-    margin-bottom: 2rem;
-}
-
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.top-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-.brand { display: flex; align-items: center; gap: 10px; }
-.brand h1 { font-family: var(--font-book); color: var(--text-main); font-size: 1.6rem; letter-spacing: -0.5px; }
-.icon-book { font-size: 1.8rem; }
-.subtitle { max-width: 800px; margin-left: 1rem; color: var(--text-muted); font-size: 0.9rem; }
-
-/* MENÚ LAUNCHER */
-.menu-launcher {
-    color: var(--text-muted);
-    padding: 8px;
-    border-radius: 50%;
-    transition: 0.3s;
-    display: flex;
-}
-.menu-launcher:hover { color: var(--primary); background: rgba(34, 211, 238, 0.1); }
-
-
-/* ========================================================= */
-/* --- PAGINACIÓN ETYMOS ---                                 */
-/* ========================================================= */
+/* --- PAGINACIÓN PREMIUM --- */
 .paginacion-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    gap: 10px;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
-.btn-paginacion {
-    background: rgba(15, 23, 42, 0.8);
-    border: 1px solid #d4b483;
-    color: #d4b483;
-    padding: 8px 20px;
-    border-radius: 25px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
+.page-btn {
+    min-width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
     cursor: pointer;
-    transition: all 0.3s ease;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex; align-items: center; justify-content: center;
 }
 
-.btn-paginacion:hover:not(:disabled) {
-    background: #d4b483;
+.page-btn:hover:not(:disabled) {
+    border-color: var(--gold);
+    color: var(--gold);
+    background: rgba(212, 180, 131, 0.1);
+}
+
+.page-btn.active {
+    background: var(--gold);
     color: #0f172a;
+    border-color: var(--gold);
 }
 
-.btn-paginacion:disabled {
-    border-color: #334155;
-    color: #64748b;
-    cursor: not-allowed;
-    background: transparent;
+.page-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+
+@media (max-width: 600px) {
+    .grid-lexico { grid-template-columns: 1fr; }
+    .lexico-original { font-size: 2.4rem; }
+    .card-lexico:nth-child(10n + 1) { grid-column: span 1; }
 }
 
-.paginacion-info {
-    color: #cbd5e1;
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-}
-
-.icono-kofi {
-  width: 24px;
-  height: auto;
-  margin-right: 12px;
-  /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
-  /* Truco de Chef: Convierte el icono en dorado */
-}
+.loading { text-align: center; color: var(--gold); padding: 4rem; font-size: 1.2rem; font-family: var(--font-display); letter-spacing: 2px; }

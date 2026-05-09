@@ -98,49 +98,9 @@
         </div>
 
         <div class="ecosystem-nav-container">
-            <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                    <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/>
-                </svg>
-            </button>
+            
 
-            <div id="eco-menu" class="eco-menu hidden">
-                <div class="menu-grid">
-                    <a href="../mana/index.html" class="menu-item">
-                        <span class="icon">🍞</span>
-                        <span>Maná</span>
-                    </a>
-                    <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                        <span class="icon">🎓</span>
-                        <span>A Imagen</span>
-                    </a>
-                    <a href="../aposento/index.html" class="menu-item">
-                        <span class="icon">🔥</span>
-                        <span>Aposento</span>
-                    </a>
-                    <a href="../huellas/index.html" class="menu-item">
-                        <span class="icon huellas">👣</span>
-                        <span>Huellas</span>
-                    </a>
-                    <a href="../onomastiko/index.html" class="menu-item">
-                        <span class="icon">🆔</span>
-                        <span>Onomastiko</span>
-                    </a>
-                    <a href="../etymos/index.html" class="menu-item ">
-                        <span class="icon">🔍</span>
-                        <span>Etymos</span>
-                    </a>
-                    <a href="../notas/index.html" class="menu-item">
-                        <span class="icon">📝</span>
-                        <span>Escriba</span>
-                    </a>
-                    <a href="../juego/index.html" class="menu-item">
-                        <span class="icon">🛡️</span>
-                        <span>Virtus</span>
-                    </a>
-                    
-                </div>
-            </div>
+            
         </div>
 
         <div id="search-results" class="search-results-list hidden"></div>
@@ -201,18 +161,26 @@
         </div>
     </div>
 
-    <div id="control-ruta" class="hidden">
-    <h2 id="ruta-personaje-nombre"></h2>
-    <div class="distancia-container">
-        <i class="fas fa-route"></i> <span id="distancia-ruta">Calculando...</span>
-    </div>
-    <button onclick="cerrarModoRuta()">×</button>
-</div>
-
     <div id="timeline-ruta" class="hidden">
         <div id="hitos-container"></div>
     </div>
 
+    <!-- TIME SLIDER (FILTRO POR ERAS) -->
+    <div id="time-slider-container">
+        <div class="slider-header">
+            <span id="slider-era-label">Todas las Eras</span>
+            <button id="btn-reset-slider" class="hidden" onclick="resetSlider()">Mostrar Todo</button>
+        </div>
+        <input type="range" id="era-slider" min="0" max="5" value="0" step="1">
+        <div class="slider-ticks">
+            <span>Orígenes</span>
+            <span>Patriarcas</span>
+            <span>Éxodo</span>
+            <span>Reyes</span>
+            <span>Cristo</span>
+            <span>Iglesia</span>
+        </div>
+    </div>
 
     <div id="lightbox" class="hidden" onclick="this.classList.add('hidden')">
         <img id="lightbox-img" src="" alt="Full Screen">
@@ -220,8 +188,10 @@
     </div>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="js/app.js" type="module"></script>
+    <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
+    <script src="../js/global-footer.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {

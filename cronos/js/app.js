@@ -25,11 +25,18 @@ document.addEventListener('DOMContentLoaded', async () => {
     
     gestionarTabs();
     inicializarBuscador();
+    inicializarTimeSlider();
 
     // --- LÓGICA DE RECEPCIÓN CORREGIDA ---
     const params = new URLSearchParams(window.location.search);
     const rutaId = params.get('ruta');
-    const lugarId = params.get('lugar'); // <--- NUEVO: Capturamos el lugar
+    const lugarId = params.get('lugar'); 
+    
+    // --- NUEVO: Ocultar slider si entramos por ruta (ej. desde Onomastiko) ---
+    if (rutaId) {
+        const slider = document.getElementById('time-slider-container');
+        if (slider) slider.classList.add('hidden');
+    }
 
     if (rutaId) {
         console.log("Chef, detectada ruta:", rutaId);
@@ -99,12 +106,31 @@ async function cargarMapaBase() {
         // 2. Renderizado en el mapa
         todosLosLugares.forEach(lugar => {
             if (lugar.mapa && lugar.mapa.coords) {
-                const marker = L.circleMarker(lugar.mapa.coords, {
-                    radius: 9,
-                    fillColor: lugar.mapa.marcador_color || "#d4b483",
-                    color: "#0f172a",
-                    weight: 2,
-                    fillOpacity: 1
+                // --- NUEVO: Iconos Temáticos Inteligentes ---
+                let iconSymbol = '📍'; 
+                let iconColor = lugar.mapa.marcador_color || "#d4b483";
+                
+                const tagsStr = (lugar.tags || "").toLowerCase();
+                const titleStr = (lugar.perfil?.titulo_corto || "").toLowerCase();
+                const nombreStr = (lugar.perfil?.nombre || "").toLowerCase();
+                const combo = tagsStr + " " + titleStr + " " + nombreStr;
+
+                if (combo.includes('templo') || combo.includes('altar') || combo.includes('santuario') || combo.includes('tabernáculo')) iconSymbol = '🏛️';
+                else if (combo.includes('campamento') || combo.includes('desierto') || combo.includes('valle')) iconSymbol = '⛺';
+                else if (combo.includes('batalla') || combo.includes('conquista') || combo.includes('sangre') || combo.includes('jueces')) iconSymbol = '⚔️';
+                else if (combo.includes('mar ') || combo.includes('lago') || combo.includes('rio') || combo.includes('río') || combo.includes('naufragio') || combo.includes('estanque')) iconSymbol = '🌊';
+                else if (combo.includes('monte ') || combo.includes('cueva') || combo.includes('cumbre') || combo.includes('montaña')) iconSymbol = '⛰️';
+                else if (combo.includes('pozo') || combo.includes('manantial')) iconSymbol = '💧';
+
+                const customIcon = L.divIcon({
+                    className: 'custom-map-marker',
+                    html: `<div class="marker-pin"><span class="marker-icon">${iconSymbol}</span></div>`,
+                    iconSize: [0, 0], // El tamaño real lo controla el CSS .marker-pin
+                    iconAnchor: [0, 0]
+                });
+
+                const marker = L.marker(lugar.mapa.coords, {
+                    icon: customIcon
                 }).addTo(map);
 
                 markersById[lugar.id] = marker;
@@ -117,68 +143,6 @@ async function cargarMapaBase() {
         if (Object.keys(markersById).length > 0) {
             map.fitBounds(group.getBounds(), { padding: [50, 50] });
         }
-
-        // =========================================================
-        // --- 4. SISTEMA: LUGAR RECOMENDADO DEL DÍA (CRONOS) ---
-        // =========================================================
-       setTimeout(() => {
-            const hoyStr = new Date().toDateString();
-            const toastVistoHoy = localStorage.getItem('cronos_toast_dia'); 
-
-            if (toastVistoHoy === hoyStr) return;
-            
-            // Usamos tu arreglo global 'todosLosLugares'
-            if (!todosLosLugares || todosLosLugares.length === 0) return;
-
-            const hoy = new Date();
-            const inicioAno = new Date(hoy.getFullYear(), 0, 0);
-            const diff = hoy - inicioAno;
-            const diaDelAno = Math.floor(diff / (1000 * 60 * 60 * 24));
-            
-            // Rotación diaria basada en el total de lugares cargados
-            const indice = diaDelAno % todosLosLugares.length;
-            const lugarDelDia = todosLosLugares[indice];
-
-            // ==========================================
-            // 1. BUSCADOR INTELIGENTE DE NOMBRES
-            // ==========================================
-            const nombreLugar = lugarDelDia.perfil.nombre || lugarDelDia.lugar || lugarDelDia.titulo || "Descubrir lugar";
-
-            // ==========================================
-            // 2. BUSCADOR INTELIGENTE DE IMÁGENES
-            // ==========================================
-            let rutaImg = lugarDelDia.perfil.imagen_principal  || '../img/ui/placeholder.webp';
-            if (typeof rutaImg === 'string' && rutaImg.startsWith('./')) {
-                rutaImg = rutaImg.replace('./', '../');
-            }
-
-            console.log(lugarDelDia.id);
-            console.log(nombreLugar);
-
-            const toast = document.createElement('div');
-            toast.className = 'codice-daily-toast';
-            toast.innerHTML = `
-                <img src="${rutaImg}" alt="${nombreLugar}" onerror="this.src='../img/ui/placeholder.webp'">
-                <div class="toast-info" onclick="window.location.href='index.html?lugar=${lugarDelDia.id}'">
-                    <h4 style="color:#f59e0b">Lugar del Día 🌍</h4>
-                    <p>${nombreLugar}</p>
-                    <small style="color:#94a3b8; font-size:0.75rem">${lugarDelDia.perfil.ubicacion_geografica || 'Explorar en el mapa'}</small>
-                </div>
-                <button class="cerrar-btn" aria-label="Cerrar">&times;</button>
-            `;
-
-            const btnCerrar = toast.querySelector('.cerrar-btn');
-            btnCerrar.onclick = (e) => {
-                e.stopPropagation();
-                toast.classList.remove('mostrar');
-                localStorage.setItem('cronos_toast_dia', hoyStr); 
-                setTimeout(() => toast.remove(), 600);
-            };
-
-            document.body.appendChild(toast);
-            setTimeout(() => toast.classList.add('mostrar'), 2000);
-
-        }, 800);
 
     } catch (error) {
         console.error("Error cargando la base de datos de lugares:", error);
@@ -225,10 +189,16 @@ function abrirDetalleLugar(lugar) {
     setTimeout(window.renderizarBotonVolver, 1000);
     
     const visor = document.getElementById('place-visor');
+    const timeSlider = document.getElementById('time-slider-container');
+
     if (visor) {
         visor.classList.remove('hidden');
-        // El pequeño delay de 10ms es vital para que la transición CSS 'active' funcione
-        setTimeout(() => visor.classList.add('active'), 10);
+        setTimeout(() => {
+            visor.classList.add('active');
+            if (window.innerWidth <= 768 && timeSlider) {
+                timeSlider.classList.add('hidden-by-sheet');
+            }
+        }, 10);
     }
 }
 
@@ -237,8 +207,11 @@ function abrirDetalleLugar(lugar) {
 // NO OLVIDES ACTUALIZAR TU FUNCIÓN DE CIERRE
 window.cerrarVisor = function() {
     const visor = document.getElementById('place-visor');
+    const timeSlider = document.getElementById('time-slider-container');
+
     if (visor) {
         visor.classList.remove('active');
+        if (timeSlider) timeSlider.classList.remove('hidden-by-sheet');
         setTimeout(() => visor.classList.add('hidden'), 500); 
     }
     // Limpieza de URL
@@ -495,10 +468,6 @@ window.abrirLightbox = function(src) {
         lb.classList.remove('hidden');
     }
 };
-
-window.cerrarVisor = function() {
-    document.getElementById('place-visor').classList.add('hidden');
-}
 
 // Función para compartir el lugar actual
 window.compartir = function(plataforma) {
@@ -944,6 +913,10 @@ window.cerrarModoRuta = function() {
     // 3. OCULTAR PANELES DE CRONOS
     document.getElementById('control-ruta').classList.add('hidden');
     document.getElementById('timeline-ruta').classList.add('hidden');
+    
+    // RESTAURAR SLIDER DE ERAS
+    const slider = document.getElementById('time-slider-container');
+    if (slider) slider.classList.remove('hidden');
 
     // 4. LÓGICA DE RETORNO AL PERFIL (ONOMASTIKO)
     const params = new URLSearchParams(window.location.search);
@@ -983,4 +956,81 @@ window.actualizarDistanciaVisual = function(hitos) {
         display.innerText = `${kilometros} km`;
     }
     console.log(`Chef, recorrido total: ${kilometros} km`);
+};
+
+// --- FILTRO DE TIEMPO (SLIDER) ---
+const ERAS_MAP = {
+    0: { label: "Todas las Eras", keywords: [] },
+    1: { label: "Orígenes y Patriarcas", keywords: ["orígenes", "patriarca", "antediluviana", "post-diluviana"] },
+    2: { label: "Éxodo y Conquista", keywords: ["éxodo", "peregrinación", "conquista", "jueces", "esclavitud"] },
+    3: { label: "Reino y Exilio", keywords: ["monarquía", "reinado", "reino", "exilio", "profeta", "profética", "babilónico", "persa"] },
+    4: { label: "Vida de Cristo", keywords: ["jesús", "mesías", "evangelios", "nacimiento", "ministerio", "pasión", "resurrección"] },
+    5: { label: "Iglesia Apostólica", keywords: ["iglesia", "apostólica", "viaje misionero", "pablo", "hechos", "apocalipsis", "escatológica"] }
+};
+
+window.inicializarTimeSlider = function() {
+    const slider = document.getElementById('era-slider');
+    const label = document.getElementById('slider-era-label');
+    const btnReset = document.getElementById('btn-reset-slider');
+
+    if (!slider) return;
+
+    slider.addEventListener('input', (e) => {
+        const val = parseInt(e.target.value);
+        const eraData = ERAS_MAP[val];
+        
+        label.innerText = eraData.label;
+
+        if (val === 0) {
+            btnReset.classList.add('hidden');
+            mostrarTodosLosMarcadores();
+        } else {
+            btnReset.classList.remove('hidden');
+            filtrarMarcadoresPorEra(eraData.keywords);
+        }
+    });
+};
+
+window.filtrarMarcadoresPorEra = function(keywords) {
+    Object.keys(markersById).forEach(lugarId => {
+        const marker = markersById[lugarId];
+        const lugar = todosLosLugares.find(l => l.id === lugarId);
+        const eraLugar = (lugar?.contexto?.era_biblica || lugar?.era || "").toLowerCase();
+        
+        let coincide = false;
+        if (eraLugar) {
+            coincide = keywords.some(kw => eraLugar.includes(kw));
+        }
+
+        if (coincide) {
+            marker.getElement().style.opacity = "1";
+            marker.getElement().style.pointerEvents = "auto";
+            marker.getElement().style.filter = "none";
+        } else {
+            marker.getElement().style.opacity = "0.15";
+            marker.getElement().style.pointerEvents = "none";
+            marker.getElement().style.filter = "grayscale(100%)";
+        }
+    });
+};
+
+window.mostrarTodosLosMarcadores = function() {
+    Object.values(markersById).forEach(marker => {
+        const el = marker.getElement();
+        if (el) {
+            el.style.opacity = "1";
+            el.style.pointerEvents = "auto";
+            el.style.filter = "none";
+        }
+    });
+};
+
+window.resetSlider = function() {
+    const slider = document.getElementById('era-slider');
+    if (slider) {
+        slider.value = 0;
+        document.getElementById('slider-era-label').innerText = ERAS_MAP[0].label;
+        document.getElementById('btn-reset-slider').classList.add('hidden');
+        mostrarTodosLosMarcadores();
+    }
 };

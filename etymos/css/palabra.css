@@ -1,227 +1,84 @@
-/* Estilos específicos para la vista de detalle (palabra.html) */
-
-.detalle-container {
-    background: linear-gradient(145deg, #1e293b, #0f172a);
-    border: 1px solid rgba(212, 180, 131, 0.3);
-    border-radius: 12px;
-    padding: 30px 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: #e2e8f0;
+/* --- DISEÑO DE PÁGINA DE DETALLE (PERGAMINO) --- */
+.palabra-view {
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: radial-gradient(circle at center, #1e293b 0%, #0b0f19 100%);
 }
 
-.btn-volver {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    color: #d4b483;
-    text-decoration: none;
-    font-weight: 600;
-    margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;
-    transition: color 0.3s;
+.pergamino-detalle {
+    background-color: #f4ecd8;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    color: #2c241a;
+    max-width: 850px;
+    margin: 20px auto 60px;
+    border-radius: 4px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.6);
+    padding: 4rem 3rem;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #dcd0b8;
+    animation: fadeIn 0.6s ease-out;
 }
 
-.btn-volver:hover { 
-    color: #fcd34d; 
+/* Colores de acento por idioma */
+.pergamino-detalle.hebreo { border-top: 8px solid var(--gold); }
+.pergamino-detalle.griego { border-top: 8px solid var(--greek-blue); }
+.pergamino-detalle.arameo { border-top: 8px solid var(--aramaic-purple); }
+
+.lang-watermark-large {
+    position: absolute; top: -20px; right: -30px;
+    font-size: 15rem; opacity: 0.04; color: #8b6d2a;
+    pointer-events: none; z-index: 0;
 }
 
-.detalle-header { 
-    text-align: center; 
-    border-bottom: 1px solid rgba(212, 180, 131, 0.2); 
-    padding-bottom: 20px; 
-    margin-bottom: 25px; 
-}
+.detalle-header { text-align: center; margin-bottom: 3rem; position: relative; z-index: 1; }
+.detalle-idioma-tag { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 3px; color: #6d6d6d; font-weight: 800; }
+.detalle-original { font-family: var(--font-book); font-size: 4rem; color: #8b6d2a; margin: 10px 0; line-height: 1; }
+.detalle-transliteracion { font-style: italic; color: #4a4136; font-size: 1.2rem; margin-bottom: 10px; }
+.detalle-espanol { font-family: var(--font-display); font-size: 2rem; color: #2c241a; text-transform: uppercase; letter-spacing: 2px; }
 
-.detalle-original { 
-    font-size: 3.5rem; 
-    color: #d4b483; 
-    font-family: 'Merriweather', serif; 
-    margin-bottom: 5px; 
-    line-height: 1.1; 
-}
+.seccion-bloque { margin-bottom: 2.5rem; position: relative; z-index: 1; }
+.seccion-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: #8b6d2a; font-weight: 800; margin-bottom: 1rem; border-bottom: 1px solid rgba(139, 109, 42, 0.2); padding-bottom: 5px; display: inline-block; }
 
-.detalle-transliteracion { 
-    font-size: 1.2rem; 
-    font-style: italic; 
-    color: #cbd5e1; 
-    display: block; 
-    margin-bottom: 15px; 
-}
+.texto-definicion { font-family: var(--font-book); font-size: var(--reading-size, 18px); line-height: 1.8; text-align: justify; }
 
-.detalle-meta { 
-    display: flex; 
-    justify-content: center; 
-    gap: 15px; 
-    font-size: 0.85rem; 
-    color: #94a3b8; 
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-}
+.quote-bloque { background: rgba(139, 109, 42, 0.05); padding: 2rem; border-radius: 12px; border-left: 4px solid #8b6d2a; }
+.perla-texto { font-family: var(--font-book); font-style: italic; font-size: calc(var(--reading-size, 18px) * 1.1); line-height: 1.8; color: #4a4136; }
 
-.detalle-seccion { 
-    margin-bottom: 25px; 
-}
+.referencias-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
+.ref-item { background: rgba(255, 255, 255, 0.3); padding: 1.2rem; border-radius: 8px; border: 1px solid rgba(139, 109, 42, 0.1); }
+.ref-item strong { display: block; color: #8b6d2a; margin-bottom: 5px; font-size: 0.95rem; }
+.ref-item p { font-size: 0.9rem; line-height: 1.5; color: #5a5146; margin: 0; }
 
-.detalle-seccion h3 { 
-    color: #d4b483; 
-    font-size: 1.1rem; 
-    margin-bottom: 10px; 
-    font-family: 'Inter', sans-serif; 
-    text-transform: uppercase; 
-    letter-spacing: 1px; 
-    border-left: 3px solid #d4b483; 
-    padding-left: 10px; 
-}
+/* --- CONTROLES DE FUENTE --- */
+.font-control-wrapper { position: fixed; bottom: 30px; left: 25px; z-index: 3000; display: flex; flex-direction: column-reverse; align-items: center; gap: 12px; }
+.btn-font-toggle { background: #1e293b; border: 1px solid var(--gold); color: var(--gold); width: 50px; height: 50px; border-radius: 50%; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 20px rgba(0,0,0,0.4); transition: 0.3s; }
+.btn-font-toggle:hover { background: var(--gold); color: #0f1012; transform: scale(1.1); }
+.font-control-panel { background: rgba(15, 16, 18, 0.9); backdrop-filter: blur(10px); border: 1px solid rgba(197, 160, 89, 0.3); padding: 10px; border-radius: 30px; display: flex; flex-direction: column; gap: 10px; opacity: 0; transform: translateY(10px); transition: 0.3s; pointer-events: none; }
+.font-control-panel.active { opacity: 1; transform: translateY(0); pointer-events: all; }
+.btn-font-action { background: rgba(255,255,255,0.05); border: 1px solid rgba(197, 160, 89, 0.2); color: white; width: 38px; height: 38px; border-radius: 50%; cursor: pointer; font-weight: bold; display: flex; align-items: center; justify-content: center; }
+.btn-font-action:hover { background: var(--gold); color: #0f1012; }
 
-.detalle-seccion p { 
-    font-size: 1.05rem; 
-    line-height: 1.7; 
-    color: #cbd5e1; 
-}
+/* --- BARRA DE PROGRESO --- */
+.reading-progress-container { position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: rgba(0,0,0,0.2); z-index: 2000; }
+.reading-progress-bar { height: 100%; background: var(--gold); width: 0%; transition: width 0.1s ease; box-shadow: 0 0 10px var(--gold); }
 
-.perla-caja { 
-    background: rgba(212, 180, 131, 0.1); 
-    border: 1px solid rgba(212, 180, 131, 0.4); 
-    border-radius: 8px; 
-    padding: 20px; 
-    margin-top: 30px; 
-}
+/* --- COMPARTIR --- */
+.share-container { max-width: 850px; margin: 0 auto 5rem; text-align: center; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.05); }
+.share-title { font-size: 0.8rem; letter-spacing: 3px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2rem; }
+.share-actions { display: flex; justify-content: center; gap: 1.5rem; }
+.btn-share { width: 55px; height: 55px; border-radius: 50%; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.3s; color: white; font-size: 1.2rem; }
+.btn-share:hover { transform: translateY(-5px) scale(1.1); }
+.btn-share.nota { background: #d4b483; color: #0f172a; box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3); }
+.btn-share.nota:hover { background: #f3cf7a; }
+.btn-share.wa { background: linear-gradient(135deg, #25D366, #128C7E); }
+.btn-share.fb { background: linear-gradient(135deg, #1877F2, #1659b1); }
+.btn-share.copy { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; }
 
-.perla-caja h3 { 
-    color: #fcd34d; 
-    border-left: none; 
-    padding-left: 0; 
-    display: flex; 
-    align-items: center; 
-    gap: 8px; 
-}
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
-/* ========================================================= */
-/* --- ESTILOS COMPARTIR ETYMOS (FILA HORIZONTAL PREMIUM)--- */
-/* ========================================================= */
-
-.etymos-share-section {
-    margin-top: 50px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(212, 180, 131, 0.1);
-    text-align: center;
-}
-
-.share-title {
-    color: #d4b483; /* Dorado */
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
-}
-
-/* El contenedor principal que fuerza la fila */
-.share-actions {
-    display: flex;
-    flex-direction: row; /* Fuerza la dirección horizontal */
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* Permite saltar de línea solo si la pantalla es enana */
-}
-
-/* Base de los botones (Heredando el estilo premium) */
-.btn-share-round {
-    width: 50px; 
-    height: 50px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-    display: inline-flex; /* Inline-flex ayuda a mantenerlos en fila */
-    align-items: center; 
-    justify-content: center;
-    text-decoration: none; /* Para quitar la línea de los enlaces <a> */
-    color: white;
-    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    padding: 0; /* Asegura que el SVG quede centrado */
-}
-
-.btn-share-round:hover { 
-    transform: translateY(-4px); 
-    box-shadow: 0 8px 15px rgba(0,0,0,0.4); 
-}
-
-.btn-share-round:active { 
-    transform: scale(0.95); 
-}
-
-/* --- COLORES ESPECÍFICOS --- */
-
-/* Botón Escriba (Dorado sólido) */
-.btn-share-round.nota { 
-    background: linear-gradient(135deg, #fcd34d, #d4b483);
-    color: #0f172a; 
-}
-
-/* WhatsApp y Facebook (Degradados oficiales) */
-.btn-share-round.wa { 
-    background: linear-gradient(135deg, #25D366, #128C7E); 
-}
-.btn-share-round.fb { 
-    background: linear-gradient(135deg, #1877F2, #165EAB); 
-}
-
-/* Botón Copiar (Adaptado al tema oscuro/dorado de Etymos) */
-.btn-share-round.copy {
-    background: #0f172a; /* Color de fondo del body */
-    border: 2px solid #d4b483; /* Borde dorado */
-    color: #d4b483; /* Icono dorado */
-}
-
-.btn-share-round.copy:hover { 
-    background: #d4b483; 
-    color: #0f172a; 
-}
-
-/* Animación y estado visual al copiar con éxito */
-.btn-share-round.copy.copied {
-    background: #10b981; /* Verde éxito */
-    color: white;
-    border-color: #10b981;
-    animation: pulse 0.5s;
-}
-
-@keyframes pulse { 
-    0% { transform: scale(1); } 
-    50% { transform: scale(1.1); } 
-    100% { transform: scale(1); } 
-}
-
-/* Estilo para los Enlaces de Estudio Cruzado en Etymos */
-.link-estudio-cruzado {
-    display: inline-flex;
-    align-items: center;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.1); /* Efecto cristal */
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 215, 0, 0.4); /* Borde dorado suave */
-    border-radius: 50px;
-    color: #ffd700 !important; /* Texto Dorado */
-    text-decoration: none !important;
-    font-weight: bold;
-    font-size: 0.9em;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.link-estudio-cruzado:hover {
-    background: rgba(255, 215, 0, 0.2);
-    border: 1px solid #ffd700;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.3);
-}
-
-.link-estudio-cruzado::before {
-    content: '🔗';
-    margin-right: 8px;
+@media (max-width: 600px) {
+    .pergamino-detalle { padding: 3rem 1.5rem; margin: 10px; }
+    .detalle-original { font-size: 3rem; }
+    .referencias-grid { grid-template-columns: 1fr; }
 }

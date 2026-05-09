@@ -1,23 +1,47 @@
+/* ========================================================= */
+/* --- VIRTUS: CAMPO DE ENTRENAMIENTO BÍBLICO 🛡️ ---      */
+/* ========================================================= */
+
 :root {
-    --bg-dark: #0f172a;
-    --card-bg: #1e293b;
-    --accent: #d4b483;   /* Dorado */
-    --accent-hover: #c19f6a;
-    --text: #e2e8f0;
-    --danger: #ef4444;   /* Rojo Romano */
-    --success: #10b981;
+    --bg-dark: #050608;
+    --card-bg: rgba(30, 41, 59, 0.5);
+    --gold: #d4b483;
+    --gold-bright: #fcd34d;
+    --red-roman: #ef4444;
+    --text-main: #f1f5f9;
+    --text-muted: #94a3b8;
+    --font-serif: 'Cinzel', serif;
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
     background-color: var(--bg-dark);
-    color: var(--text);
+    color: var(--text-main);
     font-family: 'Inter', sans-serif;
     height: 100vh;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+
+/* --- ATMÓSFERA CINEMÁTICA --- */
+.sanctuary-overlay {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: radial-gradient(circle at center, #1e293b 0%, #050608 100%);
+    z-index: -2;
+    animation: breathingBackground 15s ease-in-out infinite;
+}
+
+@keyframes breathingBackground {
+    0%, 100% { transform: scale(1); opacity: 0.8; }
+    50% { transform: scale(1.1); opacity: 1; }
+}
+
+.overlay-texture {
+    position: fixed; top:0; left:0; width:100%; height:100%;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+    opacity: 0.15; z-index: -1; pointer-events: none;
 }
 
 /* --- LAYOUT GENERAL --- */
@@ -28,7 +52,7 @@ body {
     align-items: center;
     padding: 20px;
     position: relative;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     width: 100%;
 }
@@ -42,170 +66,239 @@ body {
     opacity: 0;
     pointer-events: none;
     position: absolute;
-    transition: opacity 0.4s ease;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .screen.active {
     opacity: 1;
     pointer-events: all;
     position: relative;
+    transform: scale(1);
 }
 
-.screen.hidden { display: none; }
+.screen.hidden { display: none !important; }
+/* --- PANTALLA INICIO (HERO CINEMÁTICO) --- */
+.hero-content {
+    animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* --- PANTALLA INICIO --- */
-.logo-container { margin-bottom: 3rem; }
-.shield-icon { font-size: 5rem; margin-bottom: 10px; animation: pulse 2s infinite; }
-.game-title { 
-    font-family: 'Merriweather', serif; 
-    font-size: 3.5rem; 
-    color: var(--accent); 
+.hero-badge {
+    background: rgba(212, 180, 131, 0.1);
+    color: var(--gold);
+    display: inline-block;
+    padding: 6px 20px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.7rem;
     letter-spacing: 5px;
+    border: 1px solid rgba(212, 180, 131, 0.3);
+    margin-bottom: 2rem;
     text-transform: uppercase;
 }
-.game-subtitle { color: #64748b; font-size: 1.1rem; }
 
-/* --- PANTALLA JUEGO --- */
+.hero-stats-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 2.5rem 0 3.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    padding: 20px 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+}
+
+.hero-stat { display: flex; flex-direction: column; align-items: center; }
+.stat-label { font-size: 0.6rem; text-transform: uppercase; letter-spacing: 2px; color: var(--text-muted); margin-bottom: 5px; }
+.stat-value { font-size: 1.4rem; font-weight: 900; color: #fff; }
+.stat-value.gold { color: var(--gold-bright); text-shadow: 0 0 10px rgba(212, 180, 131, 0.3); }
+
+.hero-divider { width: 1px; height: 40px; background: rgba(212, 180, 131, 0.2); }
+
+.hero-actions { width: 100%; }
+
+/* --- PANTALLA INICIO (Antiguo) --- */
+.logo-container { margin-bottom: 4rem; }
+.shield-icon { 
+...
+    font-size: 6rem; margin-bottom: 20px; 
+    filter: drop-shadow(0 0 20px rgba(212, 180, 131, 0.4));
+    animation: floatingShield 3s ease-in-out infinite;
+}
+
+@keyframes floatingShield {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+.game-title { 
+    font-family: var(--font-serif); 
+    font-size: clamp(3rem, 10vw, 4.5rem);
+    color: #fff; 
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    text-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+.game-subtitle { 
+    color: var(--gold); 
+    font-family: var(--font-serif);
+    font-size: 1.1rem; 
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+/* --- HUD DE GUERRERO (HEADER) --- */
 .game-header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.card-question {
-    background: var(--card-bg);
-    padding: 30px;
-    border-radius: 16px;
-    width: 100%;
-    border: 1px solid rgba(255,255,255,0.05);
+    align-items: center;
     margin-bottom: 30px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    padding: 15px 25px;
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
 }
 
-.q-counter { display: block; color: var(--accent); font-size: 0.9rem; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; }
-#question-text { font-family: 'Merriweather', serif; font-size: 1.4rem; line-height: 1.5; }
+.lives { font-size: 1.4rem; letter-spacing: 5px; filter: drop-shadow(0 0 5px var(--red-roman)); }
+.score-wrapper { display: flex; flex-direction: column; align-items: flex-end; }
+.score-label { font-size: 0.6rem; color: var(--gold); letter-spacing: 2px; text-transform: uppercase; font-weight: 800; }
+.score { font-size: 1.6rem; font-weight: 900; color: #fff; line-height: 1; }
 
+/* --- CARTA DE PREGUNTA SACRA --- */
+.card-question {
+    background: #fdfaf1;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    padding: 3.5rem 2.5rem;
+    border-radius: 4px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.6);
+    margin-bottom: 40px;
+    border: 1px solid #dcd0b8;
+}
+
+.q-counter { 
+    position: absolute; top: 15px; left: 0; right: 0;
+    color: #8b6d2a; font-size: 0.75rem; 
+    text-transform: uppercase; letter-spacing: 4px; font-weight: 800;
+}
+
+#question-text { 
+    font-family: 'Merriweather', serif; 
+    font-size: 1.6rem; 
+    line-height: 1.4; 
+    color: #2c241a;
+    font-weight: 700;
+}
+
+/* --- OPCIONES DE RESPUESTA --- */
 .options-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 12px;
     width: 100%;
 }
 
 .btn-option {
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(255,255,255,0.1);
-    color: var(--text);
-    padding: 15px;
-    border-radius: 12px;
-    font-size: 1rem;
+    background: rgba(30, 41, 59, 0.5);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-main);
+    padding: 18px 25px;
+    border-radius: 16px;
+    font-size: 1.05rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-align: left;
-}
-
-.btn-option:hover { background: rgba(255,255,255,0.1); border-color: var(--accent); }
-.btn-option.correct { background: var(--success); color: #000; border-color: var(--success); }
-.btn-option.wrong { background: var(--danger); color: #fff; border-color: var(--danger); }
-
-/* --- BOTONES --- */
-.btn-primary {
-    background: var(--accent);
-    color: #0f172a;
-    border: none;
-    padding: 16px 40px;
-    font-size: 1.1rem;
-    font-weight: 700;
-    border-radius: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 0 20px rgba(212, 180, 131, 0.4);
-    transition: transform 0.2s;
-}
-.btn-primary:active { transform: scale(0.95); }
-
-/* Botón Secundario (Borde Dorado) */
-.btn-secondary {
-    background: transparent;
-    border: 2px solid var(--accent); /* Dorado */
-    color: var(--accent);
-    padding: 12px 30px;
-    font-size: 1rem;
-    font-weight: 700;
-    border-radius: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.2s ease;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin: 10px auto; /* Centrado */
+    gap: 15px;
 }
 
-.btn-secondary:hover {
-    background: rgba(212, 180, 131, 0.1); /* Fondo dorado muy suave */
-    transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+.btn-option::before {
+    content: ''; width: 8px; height: 8px; border-radius: 50%;
+    background: rgba(255,255,255,0.2); transition: all 0.3s;
 }
 
-.btn-secondary:active {
-    transform: scale(0.95);
+.btn-option:hover { transform: translateX(10px); background: rgba(30, 41, 59, 0.8); border-color: var(--gold); }
+.btn-option:hover::before { background: var(--gold); box-shadow: 0 0 10px var(--gold); }
+
+.btn-option.correct { background: #10b981 !important; color: #000; border-color: #10b981; }
+.btn-option.wrong { background: var(--red-roman) !important; color: #fff; border-color: var(--red-roman); }
+
+/* --- PANTALLA RESULTADOS --- */
+.result-title { font-family: var(--font-serif); font-size: 2.5rem; color: var(--gold); margin-bottom: 2rem; letter-spacing: 5px; }
+.final-score {
+    width: 200px; height: 200px;
+    border: 4px double var(--gold); border-radius: 50%;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    margin-bottom: 3rem; background: rgba(212, 180, 131, 0.05);
+}
+#final-points { font-size: 4rem; font-weight: 900; line-height: 1; }
+.final-score small { letter-spacing: 4px; font-weight: 800; color: var(--gold); }
+
+/* --- BOTONES PREMIUM --- */
+.btn-primary {
+    background: linear-gradient(135deg, var(--gold), var(--gold-bright));
+    color: #050608; border: none; padding: 18px 50px;
+    font-size: 1.1rem; font-weight: 800; border-radius: 50px;
+    cursor: pointer; text-transform: uppercase; letter-spacing: 2px;
+    box-shadow: 0 10px 30px rgba(212, 180, 131, 0.4);
+    transition: all 0.3s;
+}
+.btn-primary:hover { transform: translateY(-3px) scale(1.02); box-shadow: 0 15px 40px rgba(212, 180, 131, 0.6); }
+.btn-primary:active { transform: scale(0.95); }
+
+.btn-secondary {
+    background: transparent; border: 2px solid var(--gold); color: var(--gold);
+    padding: 14px 35px; border-radius: 50px; font-weight: 700;
+    cursor: pointer; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 1rem;
+    transition: 0.3s;
+}
+.btn-secondary:hover { background: rgba(212, 180, 131, 0.1); }
+
+/* --- MODAL MEDALLA PREMIUM --- */
+.modal {
+    position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(5, 6, 8, 0.95); z-index: 10000;
+    display: flex; justify-content: center; align-items: center;
+    backdrop-filter: blur(10px);
 }
 
-/* --- EXTRAS (Menu, Footer) --- */
-.top-bar { position: absolute; top: 20px; left: 20px; z-index: 50; }
-.btn-icon { background:none; border:none; color:#fff; cursor:pointer; }
-.app-footer { padding: 20px; text-align: center; color: #64748b; font-size: 0.9rem; margin-top: auto; }
-.eco-menu { /* Copiar estilos del menu de las otras apps */ position: absolute; top: 60px; left: 20px; background: rgba(15,23,42,0.95); padding: 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); z-index: 100; }
-.hidden { display: none !important; }
-.menu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.menu-item { display:flex; flex-direction:column; align-items:center; text-decoration:none; color:#fff; padding:10px; background:rgba(255,255,255,0.05); border-radius:8px; }
-.menu-icon svg { width: 1.5rem; height: 1.5rem; }
-
-@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
-
-.menu-item .icon {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+.modal-content {
+    background: radial-gradient(circle at center, #1e293b 0%, #050608 100%);
+    border: 2px solid var(--gold-bright);
+    border-radius: 30px; padding: 3rem 2rem; text-align: center;
+    max-width: 400px; width: 90%;
+    box-shadow: 0 0 50px rgba(212, 180, 131, 0.2);
+    animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.menu-item:hover {
-    background: rgba(245, 158, 11, 0.35); /* Fondo dorado suave */
-}
-.huellas{
-    filter: grayscale(100%) brightness(500%);
-}
+.modal-title { font-family: 'Cinzel', serif; color: var(--gold-bright); margin-bottom: 1.5rem; font-size: 1.8rem; letter-spacing: 2px; }
+.modal-name { color: #ffffff; font-size: 1.5rem; margin-bottom: 0.8rem; font-weight: 800; }
+.modal-desc { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2.5rem; line-height: 1.6; }
 
-/* Animaciones para la Medalla Virtus */
-.medalla-img {
-    width: 100%;
-    position: relative;
-    z-index: 2;
-    animation: popIn 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
-    transform: scale(0);
-}
-
+.medalla-container { position: relative; margin: 30px auto; width: 160px; height: 160px; }
+.medalla-img { width: 100%; position: relative; z-index: 2; }
 .resplandor-medalla {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 250px;
-    height: 250px;
+    position: absolute; top: 50%; left: 50%; width: 250px; height: 250px;
     transform: translate(-50%, -50%);
     background: radial-gradient(circle, rgba(252,211,77,0.4) 0%, rgba(252,211,77,0) 70%);
-    z-index: 1;
-    animation: latidoDorado 2s infinite;
+    z-index: 1; animation: latidoDorado 2s infinite;
 }
 
 @keyframes popIn {
-    0% { transform: scale(0) rotate(-15deg); }
-    100% { transform: scale(1) rotate(0deg); }
+    0% { transform: scale(0.5) rotate(-10deg); opacity: 0; }
+    100% { transform: scale(1) rotate(0deg); opacity: 1; }
 }
 
 @keyframes latidoDorado {
@@ -214,13 +307,5 @@ body {
     100% { transform: translate(-50%, -50%) scale(0.8); opacity: 0.5; }
 }
 
-/* Ocultar el modal por defecto */
+/* --- CLASE DE OCULTACIÓN GLOBAL --- */
 .hidden { display: none !important; }
-
-.icono-kofi {
-  width: 24px;
-  height: auto;
-  margin-right: 12px;
-  /* filter: sepia(1) saturate(5) hue-rotate(-10deg);  */
-  /* Truco de Chef: Convierte el icono en dorado */
-}

@@ -54,9 +54,9 @@
                 <h1>A Imagen de Dios</h1>
             </div>
             
-            <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
+            <!-- <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
                 <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/></svg>
-            </button>
+            </button> -->
         </nav>
         
         <p class="subtitle">Teología para la vida diaria.</p>
@@ -64,6 +64,20 @@
 
     
         
+
+    <header class="library-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge">CÁTEDRA DE EXÉGESIS</div>
+            <h1 class="hero-title">BIBLIOTECA DE REVELACIÓN</h1>
+            <p class="hero-desc">Profundiza en la profundidad de las Escrituras a través del análisis teológico y el estudio de los diseños originales de Dios.</p>
+            <div class="hero-actions">
+                <button class="btn-hero-primary" onclick="document.querySelector('.grid-estudios').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-book-open"></i> Explorar Catálogo
+                </button>
+            </div>
+        </div>
+    </header>
 
     <main class="container">
         <div id="header-tools-placeholder"></div>
@@ -86,46 +100,12 @@
     </main>
 
 
-    <div id="eco-menu" class="eco-menu ">
-        <div class="menu-grid">
-                <a href="../cronos/index.html" class="menu-item">
-                    <span class="icon">🌍</span>
-                    <span>Cronos</span>
-                </a>
-                <a href="../huellas/index.html" class="menu-item">
-                    <span class="icon huellas">👣</span>
-                    <span>Huellas</span>
-                </a>
-                <a href="../mana/index.html" class="menu-item">
-                    <span class="icon">🍞</span>
-                    <span>Maná</span>
-                </a>
-                <a href="../aposento/index.html" class="menu-item ">
-                    <span class="icon">🔥</span>
-                    <span>Aposento</span>
-                </a>
-                <a href="../onomastiko/index.html" class="menu-item">
-                    <span class="icon">🆔</span>
-                    <span>Onomastiko</span>
-                </a>
-                <a href="../etymos/index.html" class="menu-item ">
-                    <span class="icon">🔍</span>
-                    <span>Etymos</span>
-                </a>
-                <a href="../juego/index.html" class="menu-item">
-                    <span class="icon">🛡️</span>
-                    <span>Virtus</span>
-                </a>
-                <a href="../notas/index.html" class="menu-item">
-                    <span class="icon">📝</span>
-                    <span>Escriba</span>
-                </a>
-                
-            </div>
-    </div>
+    
 
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
+    <script src="../js/global-footer.js"></script>
     
     <script>
     if ('serviceWorker' in navigator) {

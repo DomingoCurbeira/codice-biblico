@@ -1,128 +1,176 @@
-const URL_INDICE = '/data/indices/indice_mana.json';
+// --- CONFIGURACIÓN ---
 const URL_BASE = '../data/mana/';
+const URL_INDICE = '../data/indices/indice_mana.json';
+
+// --- ELEMENTOS DEL DOM ---
+const contentDom = document.getElementById('lectura-content');
 
 async function cargarLectura() {
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
-    const container = document.getElementById('lectura-content');
+
+    if (!id) {
+        window.location.href = 'index.html';
+        return;
+    }
 
     try {
-        // 1. Buscamos en el índice en qué archivo está este ID
+        // 1. Buscamos en qué archivo está este ID usando el índice
         const resIndice = await fetch(URL_INDICE);
         const indice = await resIndice.json();
-
-        // Buscamos el registro que coincida con el ID dentro de los valores del índice
-        let infoArchivo = null;
-        for (const dia in indice) {
-            const registro = indice[dia].find(r => r.id == id);
-            if (registro) {
-                infoArchivo = registro;
+        
+        let metaData = null;
+        // El índice de maná está organizado por FECHAS, buscamos el ID dentro de los valores
+        for (const fecha in indice) {
+            const item = indice[fecha].find(i => i.id == id);
+            if (item) {
+                metaData = item;
                 break;
             }
         }
 
-        if (!infoArchivo) throw new Error("Lectura no encontrada");
+        if (!metaData) throw new Error("Lectura no localizada");
 
-        // 2. Cargamos el archivo específico (ej. mateo.json)
-        const resData = await fetch(`${URL_BASE}${infoArchivo.grupo}.json`);
+        // 2. Cargamos el archivo del mes/grupo
+        const resData = await fetch(`${URL_BASE}${metaData.grupo}.json`);
         const data = await resData.json();
-        const devocional = data.find(d => d.id == id);
+        const lectura = data.find(d => d.id == id);
 
-        renderVistaEpica(devocional, container);
+        if (lectura) {
+            renderizarLectura(lectura);
+            inicializarMejorasLector();
+        }
 
     } catch (e) {
-        container.innerHTML = `<p style="text-align:center; color:var(--gold); margin-top:50px;">Error al abrir el Códice.</p>`;
+        console.error(e);
+        contentDom.innerHTML = `<p style="text-align:center; padding: 50px;">⚠️ Error al cargar el maná: ${e.message}</p>`;
     }
 }
 
-const nombreDesarrollador = "Domingo Curbeira"; // <--- ¡PON TU NOMBRE AQUÍ!
-    const year = new Date().getFullYear();
+function renderizarLectura(l) {
+    const esNT = l.testamento === 'nuevo';
+    const sub = esNT ? 'Nuevo Testamento' : 'Antiguo Testamento';
 
-function renderVistaEpica(obj, container) {
-    
-    container.innerHTML = `
-        <article class="hero-lectura">
-            <div class="bg-title-fade">${obj.referencia_biblica.libro}</div>
-            <h1 class="main-title">${obj.titulo}</h1>
-            <p class="tema-subtitle">${obj.tema}</p>
-        </article>
+    // 1. Header y Mensaje Central
+    let html = `
+        <div class="hero-lectura">
+            <div class="bg-title-fade">${l.titulo.split(' ')[0]}</div>
+            <p class="tema-subtitle">${sub}</p>
+            <h1 class="main-title">${l.titulo}</h1>
+        </div>
 
-        <section class="mensaje-central">
-            <p>${obj.mensaje}</p>
-        </section>
-
-        <section class="perlas-grid">
-            ${obj.explicacion.map(perla => `
-                <div class="perla-card">
-                    <h3>${perla.titulo}</h3>
-                    <p class="perla-contexto">${perla.texto}</p>
-                    <div class="perla-revelacion">
-                        <span>💎</span> ${perla.mensaje}
-                    </div>
-                </div>
-            `).join('')}
-        </section>
-        
-         <footer class="app-footer" style="padding: 20px 0; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.05); margin-top: auto; text-align: center;">
-            <div class="footer-content">
-                <a href="../index.html" class="footer-brand" style="text-decoration: none; color: #060606; display: inline-block; margin-bottom: 5px; cursor: pointer;">
-                    <span style="font-size: 1.1em;">📜</span> Códice Bíblico
-                </a>
-                
-                <p class="footer-dev" style="color: #64748b; margin: 0;">
-                    Desarrollado por <span style="color:#d4b483">${nombreDesarrollador}</span>
-                </p>
-                <p class="footer-year" style="color:#475569; margin: 0; font-size: 0.7rem;">© ${year}</p>
-            </div>
-        </footer>
+        <div class="mensaje-central">
+            ${l.mensaje}
+        </div>
     `;
 
-configurarBotonesCompartir(obj)
+    // 2. Mapear 'explicacion' a las Perlas Visuales
+    const perlas = l.explicacion || l.perlas || [];
     
+    if (perlas.length > 0) {
+        html += `<div class="perlas-grid">`;
+        perlas.forEach(p => {
+            html += `
+                <div class="perla-card">
+                    <h3>${p.titulo || p.titulo_perla}</h3>
+                    <p class="perla-contexto">${p.texto || p.contexto}</p>
+                    <div class="perla-revelacion">
+                        ✨ ${p.mensaje || p.revelacion}
+                    </div>
+                </div>
+            `;
+        });
+        html += `</div>`;
+    }
+
+    contentDom.innerHTML = html;
+    document.title = `${l.titulo} | Maná Visual`;
+
+    // Configurar botones de compartir
+    configurarBotonesCompartir(l);
 }
 
-function configurarBotonesCompartir(obj) {
-    const urlLink = window.location.href;
-    const textoCompartir = `📖 Maná Visual: ${obj.titulo} - "${obj.tema}"\n\nLee este estudio aquí: `;
-    
-    console.log(obj)
-    // WhatsApp
-    document.getElementById('btn-wa').onclick = () => {
-        window.open(`https://api.whatsapp.com/send?text=${encodeURIComponent(textoCompartir + urlLink)}`, '_blank');
-    };
-    
-    // Facebook
-    document.getElementById('btn-fb').onclick = () => {
-        window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlLink)}`, '_blank');
-    };
-    
-    // Copiar Enlace
-    document.getElementById('btn-copy').onclick = (e) => {
-        navigator.clipboard.writeText(urlLink);
-        const btn = e.currentTarget;
-        btn.style.color = "#4ade80"; // Verde éxito
-        setTimeout(() => btn.style.color = "", 2000);
-    };
-    
-   
+function inicializarMejorasLector() {
+    // 1. Barra de Progreso
+    const progressContainer = document.createElement('div');
+    progressContainer.className = 'reading-progress-container';
+    progressContainer.innerHTML = '<div id="reading-progress" class="reading-progress-bar"></div>';
+    document.body.prepend(progressContainer);
 
-const btnNota = document.getElementById('btn-nota-mana');
+    window.addEventListener('scroll', () => {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        const bar = document.getElementById("reading-progress");
+        if (bar) bar.style.width = scrolled + "%";
+    });
 
-if (btnNota) {
-    btnNota.onclick = () => {
-        const titulo = `Provisión: ${obj.titulo}`;
-        const cuerpo = `Estuve meditando en "Maná Visual" sobre ${obj.tema}.\n\nMensaje: "${obj.mensaje}"\n\nMis reflexiones:\n`;
+    // 2. Control de Fuente
+    const fontWrapper = document.createElement('div');
+    fontWrapper.className = 'font-control-wrapper';
+    fontWrapper.innerHTML = `
+        <button id="btn-font-toggle" class="btn-font-toggle" title="Ajustar texto">
+            <i class="fas fa-font"></i>
+        </button>
+        <div id="font-panel" class="font-control-panel">
+            <button id="btn-font-up" class="btn-font-action" title="Aumentar">A+</button>
+            <button id="btn-font-down" class="btn-font-action" title="Disminuir">A-</button>
+        </div>
+    `;
+    document.body.appendChild(fontWrapper);
 
-        // USAMOS RUTA ABSOLUTA: Esto evita errores de navegación entre carpetas
-        const baseUrl = window.location.origin; // Esto detecta si estás en 127.0.0.1 o en Netlify
-        const urlFinal = `${baseUrl}/notas/index.html?titulo=${encodeURIComponent(titulo)}&cuerpo=${encodeURIComponent(cuerpo)}`;
-        
-        console.log("Navegando a Escriba:", urlFinal);
-        window.location.href = urlFinal;
+    const btnToggle = document.getElementById('btn-font-toggle');
+    const fontPanel = document.getElementById('font-panel');
+
+    let currentSize = parseInt(localStorage.getItem('mana_font_size')) || 18;
+    document.documentElement.style.setProperty('--reading-size', currentSize + 'px');
+
+    btnToggle.onclick = (e) => {
+        e.stopPropagation();
+        fontPanel.classList.toggle('active');
+    };
+
+    document.getElementById('btn-font-up').onclick = () => {
+        if (currentSize < 32) {
+            currentSize += 2;
+            document.documentElement.style.setProperty('--reading-size', currentSize + 'px');
+            localStorage.setItem('mana_font_size', currentSize);
+        }
+    };
+
+    document.getElementById('btn-font-down').onclick = () => {
+        if (currentSize > 14) {
+            currentSize -= 2;
+            document.documentElement.style.setProperty('--reading-size', currentSize + 'px');
+            localStorage.setItem('mana_font_size', currentSize);
+        }
+    };
+
+    document.addEventListener('click', () => fontPanel.classList.remove('active'));
+    fontPanel.onclick = (e) => e.stopPropagation();
+}
+
+function configurarBotonesCompartir(l) {
+    const btnWa = document.getElementById('btn-wa');
+    const btnFb = document.getElementById('btn-fb');
+    const btnCopy = document.getElementById('btn-copy');
+    const btnNota = document.getElementById('btn-nota-mana');
+
+    const currentUrl = window.location.href;
+    const text = `📖 Mi Maná de hoy: "${l.titulo}". Léelo aquí:`;
+
+    if(btnWa) btnWa.onclick = () => window.open(`https://wa.me/?text=${encodeURIComponent(text + ' ' + currentUrl)}`, '_blank');
+    if(btnFb) btnFb.onclick = () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`, '_blank');
+    if(btnCopy) btnCopy.onclick = () => {
+        navigator.clipboard.writeText(currentUrl).then(() => {
+            alert("Enlace copiado al portapapeles");
+        });
+    };
+    if(btnNota) btnNota.onclick = () => {
+        const titulo = `Nota de Maná: ${l.titulo}`;
+        const ref = `mana&id=${l.id}`;
+        window.location.href = `../notas/index.html?titulo=${encodeURIComponent(titulo)}&ref=${ref}`;
     };
 }
 
-    
-}
-
-cargarLectura();
+document.addEventListener('DOMContentLoaded', cargarLectura);

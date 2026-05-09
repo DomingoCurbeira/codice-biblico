@@ -28,91 +28,41 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Etymos | Detalle de la Palabra</title>
+    <title>Detalle de la Palabra | Etymos</title>
 
     <meta name="theme-color" content="#0f172a">
-    <meta property="og:title" content="Etymos | Léxico Bíblico">
-    <meta property="og:description" content="Profundizando en las raíces de la Palabra en sus idiomas originales.">
-    <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-etymos.jpeg">
-    <meta property="og:type" content="article">
     <link rel="manifest" href="../manifest.json">
+    <link rel="apple-touch-icon" href="/img/imagen-192.png">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔍</text></svg>">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,300;0,700;1,300&family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/palabra.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/palabra.css">
 </head>
-<body>
+<body class="palabra-view">
 
-    <header class="library-header">
-        <nav class="top-nav">
-            <div class="brand">
-                <span class="icon-book">🔍</span>
-                <h1>Etymos</h1>
-            </div>
-            
-            <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/></svg>
-            </button>
-        </nav>
-        <p class="subtitle">Profundizando en la Palabra.</p>
-    </header>
+    <nav class="reading-nav" style="padding: 2rem; max-width: 900px; margin: 0 auto;">
+        <a href="index.html" class="back-btn" style="color: var(--gold); text-decoration: none; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">← Volver al Léxico</a>
+    </nav>
 
-    <main class="container">
-        <div id="back-container" class="back-nav"></div>
-        <a href="index.html" class="btn-volver">← Volver al Índice</a>
-
-        <div id="loading-msg" class="loading" style="text-align: center; padding: 50px; color: #d4b483;">Buscando en los pergaminos...</div>
-
-        <div id="detalle-contenido" class="detalle-container" style="display: none;">
-            </div>
+    <main id="palabra-content">
+        <div class="loading">Sintonizando frecuencia original...</div>
     </main>
 
-    <div id="eco-menu" class="eco-menu">
-         <div class="menu-grid">
-            <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                <span class="icon">🎓</span>
-                <span>Imagen</span>
-            </a>
-            <a href="../cronos/index.html" class="menu-item">
-                <span class="icon">🌍</span>
-                <span>Cronos</span>
-            </a>
-            <a href="../huellas/index.html" class="menu-item">
-                <span class="icon huellas">👣</span>
-                <span>Huellas</span>
-            </a>
-            <a href="../mana/index.html" class="menu-item">
-                <span class="icon">🍞</span>
-                <span>Maná</span>
-            </a>
-            <a href="../onomastiko/index.html" class="menu-item">
-                <span class="icon">🆔</span>
-                <span>Onomastiko</span>
-            </a>
-            <a href="../aposento/index.html" class="menu-item ">
-                <span class="icon">🔥</span>
-                <span>Aposento</span>
-            </a>
-            <a href="../juego/index.html" class="menu-item">
-                <span class="icon">🛡️</span>
-                <span>Virtus</span>
-            </a>
-            <a href="../notas/index.html" class="menu-item">
-                <span class="icon">📝</span>
-                <span>Escriba</span>
-            </a>
-            
+    <section class="share-container">
+        <h3 class="share-title">Compartir este Tesoro</h3>
+        <div class="share-actions">
+            <button id="btn-nota-etymos" class="btn-share nota" aria-label="Crear Nota"><i class="fas fa-pen-fancy"></i></button>
+            <button id="btn-wa" class="btn-share wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></button>
+            <button id="btn-fb" class="btn-share fb" aria-label="Facebook"><i class="fab fa-facebook"></i></button>
+            <button id="btn-copy" class="btn-share copy" aria-label="Copiar Link"><i class="fas fa-link"></i></button>
         </div>
-        
-    </div>
+    </section>
 
     <script src="js/palabra.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
-    <script src="../js/colaboracion.js"></script>
-    
 </body>
 </html>

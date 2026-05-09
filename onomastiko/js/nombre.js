@@ -120,34 +120,34 @@ const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map
 
     // Inyectamos el contenido principal
     content.innerHTML = `
-        <article class="virtual-card-full transition-fade" style="background: ${cardBackground} !important; border: 2px solid ${p.config_tarjeta.color_acento};">
+        <article class="virtual-card-full transition-fade" style="--card-accent: ${p.config_tarjeta.color_acento}; border-color: ${p.config_tarjeta.color_acento};">
             ${switchHtml}
             
-            <img src="../${avatar}" alt="${info.nombre_principal || info.nombre}" class="profile-avatar" style="border-color: ${p.config_tarjeta.color_acento}">
+            <img src="../${avatar}" alt="${info.nombre_principal || info.nombre}" class="profile-avatar">
             
-            <h2 style="color: ${p.config_tarjeta.color_acento}; margin: 0; font-family: 'Merriweather', serif;">
+            <h2 style="color: ${p.config_tarjeta.color_acento}; margin: 0; font-family: 'Merriweather', serif; font-size: 2.5rem;">
                 ${info.nombre_principal || info.nombre}
             </h2>
-            <p style="text-transform: uppercase; letter-spacing: 2px; opacity: 0.8; margin-top: 5px;">
+            <p style="text-transform: uppercase; letter-spacing: 3px; opacity: 0.8; margin-top: 8px; font-size: 0.8rem; font-weight: 800;">
                 ${info.subtitulo_rol || info.titulo}
             </p>
             
-            <p style="margin: 20px 0; line-height: 1.6; font-size: 1.05rem;">
+            <p style="margin: 25px 0; line-height: 1.8; font-size: 1.1rem; color: #cbd5e1; font-family: 'Inter', sans-serif;">
                 ${info.bio_resumen || info.bio}
             </p>
 
             <div class="action-bar">${iconosHtml}</div>
 
-            <div class="logro-box" style="border: 1px dashed ${p.config_tarjeta.color_acento}88;">
-                <small style="color: ${p.config_tarjeta.color_acento};">LOGRO DESTACADO</small>
-                <p>${p.perfil_card.logro_destacado || 'Registro Original'}</p>
+            <div class="logro-box">
+                <small style="color: ${p.config_tarjeta.color_acento}; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase;">Logro Destacado</small>
+                <p style="margin-top: 5px; font-size: 0.95rem;">${p.perfil_card.logro_destacado || 'Registro Original'}</p>
             </div>
             
-            <div class="perla-box" style="border-left: 4px solid ${p.config_tarjeta.color_acento};">
-                <p style="color: ${p.config_tarjeta.color_acento}; font-size: 1.4rem; margin: 0;">${p.datos_identidad.original_idioma}</p>
-                <p style="font-style: italic; opacity: 0.7;">${p.datos_identidad.significado_core}</p>
-                <hr style="opacity: 0.1; margin: 15px 0;">
-                <p style="font-size: 0.95rem;">"${p.datos_identidad.perla_profunda}"</p>
+            <div class="perla-box">
+                <p class="perla-original" style="--card-accent: ${p.config_tarjeta.color_acento}">${p.datos_identidad.original_idioma}</p>
+                <p style="font-style: italic; opacity: 0.9; color: ${p.config_tarjeta.color_acento}; font-weight: 600; margin-bottom: 15px;">${p.datos_identidad.significado_core}</p>
+                <hr style="opacity: 0.1; margin: 15px 0; border: none; border-top: 1px solid white;">
+                <p style="font-size: 1rem; font-style: italic;">"${p.datos_identidad.perla_profunda}"</p>
             </div>
         </article>
        
@@ -173,8 +173,15 @@ const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map
     // Evento del Switch
     if (p.tiene_transicion) {
         document.getElementById('toggle-transicion').addEventListener('change', (e) => {
+            const card = document.querySelector('.virtual-card-full');
+            if (card) card.classList.add('transforming');
+            
             faseActual = e.target.checked ? 'nueva' : 'anterior';
-            renderCardHTML(window.personajeActual, window.refActual);
+            
+            setTimeout(() => {
+                renderCardHTML(window.personajeActual, window.refActual);
+                // La nueva card renderizada no tendrá la clase, la animación dura 1.5s en CSS
+            }, 300);
         });
     }
 }

@@ -58,27 +58,24 @@
                 <a href="#fila-nt">N.T.</a>
             </div>
         </div>
-        <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/>
-            </svg>
-        </button>
-
-        
     </nav>
 
-    <header class="netflix-hero">
+    <header class="netflix-hero" id="hero-featured">
         <div class="hero-content">
+            <div class="hero-badge" id="hero-badge">RECOMENDADO PARA TI</div>
             <h1 class="hero-title" id="hero-title">HÉROES</h1>
             <p class="hero-desc" id="hero-desc">Descubre las historias de hombres y mujeres comunes usados por un Dios extraordinario.</p>
-            <button class="btn-play" onclick="document.getElementById('fila-at').scrollIntoView({behavior: 'smooth'})">
-                <span>▶</span> Explorar
-            </button>
+            <div class="hero-buttons">
+                <button class="btn-play" id="btn-hero-main">
+                    <i class="fas fa-play"></i> Ver Historia
+                </button>
+                <button class="btn-info" onclick="document.getElementById('title-at').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-info-circle"></i> Catálogo
+                </button>
+            </div>
         </div>
         <div class="hero-overlay"></div>
-        
-        <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=2070&auto=format&fit=crop" class="hero-bg" alt="Desierto Bíblico">
-
+        <img src="https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=2070&auto=format&fit=crop" class="hero-bg" id="hero-bg" alt="Fondo Protagonista">
     </header>
 
     <div class="filter-bar">
@@ -93,70 +90,57 @@
     </div>
     
     <div class="search-container">
-        <span style="position: absolute; left: 35px; top: 18px; opacity: 0.5;">🔍</span>
+        <span class="search-icon">🔍</span>
         <input type="text" id="buscador-input" placeholder="Buscar personaje (ej: Moisés, Ester...)" autocomplete="off">
+        <button id="btn-clear-search" class="btn-clear-search" aria-label="Limpiar búsqueda" style="display: none;">&times;</button>
     </div>
     
     
 
     <main class="netflix-container">
         
-        <h3 class="category-title">Antiguo Testamento</h3>
+        <!-- SECCIÓN DE RESULTADOS DINÁMICA -->
+        <div id="seccion-resultados" class="hidden">
+            <h3 class="category-title" style="color: #d4b483;">Resultados de Búsqueda</h3>
+            <div class="carousel-wrapper">
+                <div class="carousel" id="fila-resultados"></div>
+            </div>
+            <div style="height: 40px;"></div> <!-- Espaciador -->
+        </div>
+
+        <h3 class="category-title" id="title-top">Tendencias: Héroes de la Fe</h3>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="fila-top"></div>
+        </div>
+
+        <h3 class="category-title" id="title-mujeres">Mujeres de Valor</h3>
+        <div class="carousel-wrapper">
+            <div class="carousel" id="fila-mujeres"></div>
+        </div>
+
+        <h3 class="category-title" id="title-at">Antiguo Testamento</h3>
         <div class="carousel-wrapper">
             <div class="carousel" id="fila-at">
-                <div class="loading-msg">Cargando catálogo...</div>
+                <!-- Skeletons iniciales -->
+                <div class="poster-card skeleton"></div>
+                <div class="poster-card skeleton"></div>
+                <div class="poster-card skeleton"></div>
+                <div class="poster-card skeleton"></div>
+                <div class="poster-card skeleton"></div>
             </div>
         </div>
 
-        <h3 class="category-title">Nuevo Testamento</h3>
+        <h3 class="category-title" id="title-nt">Nuevo Testamento</h3>
         <div class="carousel-wrapper">
-            <div class="carousel" id="fila-nt">
-                </div>
+            <div class="carousel" id="fila-nt"></div>
         </div>
 
     </main>
 
-    <div id="eco-menu" class="eco-menu hidden">
-            <div class="menu-grid">
-                <a href="../cronos/index.html" class="menu-item">
-                    <span class="icon">🌍</span>
-                    <span>Cronos</span>
-                </a>
-                <a href="../mana/index.html" class="menu-item">
-                    <span class="icon">🍞</span>
-                    <span>Maná</span>
-                </a>
-                <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                    <span class="icon">🎓</span>
-                    <span> Imagen</span>
-                </a>
-                <a href="../aposento/index.html" class="menu-item ">
-                    <span class="icon">🔥</span>
-                    <span>Aposento</span>
-                </a>
-                <a href="../onomastiko/index.html" class="menu-item">
-                    <span class="icon">🆔</span>
-                    <span>Onomastiko</span>
-                </a>
-                <a href="../etymos/index.html" class="menu-item ">
-                    <span class="icon">🔍</span>
-                    <span>Etymos</span>
-                </a>
-                <a href="../juego/index.html" class="menu-item">
-                    <span class="icon">🛡️</span>
-                    <span>Virtus</span>
-                </a>
-                <a href="../notas/index.html" class="menu-item">
-                    <span class="icon">📝</span>
-                    <span>Escriba</span>
-                </a>
-                
-   
-            </div>
-        </div>
-
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
+    <script src="../js/global-footer.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {

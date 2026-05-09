@@ -7,159 +7,140 @@ const MESES = [
     "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
 ];
 
+const DIAS_SEMANA = ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"];
+
+const VERSICULOS_MANA = [
+    { texto: "No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios.", cita: "Mateo 4:4" },
+    { texto: "Lámpara es a mis pies tu palabra, y lumbrera a mi camino.", cita: "Salmos 119:105" },
+    { texto: "Tu palabra es la verdad.", cita: "Juan 17:17" },
+    { texto: "Toda la Escritura es inspirada por Dios y útil para enseñar.", cita: "2 Timoteo 3:16" },
+    { texto: "Sécase la hierba, marchítase la flor; mas la palabra del Dios nuestro permanece para siempre.", cita: "Isaías 40:8" }
+];
+
+let fechaSeleccionadaGlobal = new Date();
+
 // --- FUNCIONES DE CARGA Y RENDERIZADO ---
 
 async function iniciarMana() {
+    actualizarHero(fechaSeleccionadaGlobal);
+    renderDaysBar();
+    await cargarProvision(fechaSeleccionadaGlobal);
+}
+
+function actualizarHero(fecha) {
+    const labelDate = document.getElementById('hero-date-label');
+    const labelDay = document.getElementById('hero-day-num');
+    const labelMonth = document.getElementById('hero-month-label');
+    const verseBox = document.getElementById('hero-verse-box');
+
+    const diaSemana = DIAS_SEMANA[fecha.getDay()].toUpperCase();
+    const diaMes = fecha.getDate();
+    const mes = MESES[fecha.getMonth()].toUpperCase();
+
+    if (labelDate) labelDate.innerText = `${diaSemana}, ${diaMes} DE ${mes}`;
+    if (labelDay) labelDay.innerText = diaMes < 10 ? `0${diaMes}` : diaMes;
+    if (labelMonth) labelMonth.innerText = mes;
+
+    if (verseBox) {
+        const v = VERSICULOS_MANA[diaMes % VERSICULOS_MANA.length];
+        verseBox.innerHTML = `"${v.texto}"<br><small>${v.cita}</small>`;
+    }
+}
+
+function renderDaysBar() {
+    const slider = document.getElementById('days-slider');
+    if (!slider) return;
+    slider.innerHTML = '';
+
+    // Generamos un rango de 7 días (hoy y los 6 anteriores)
+    for (let i = 0; i < 7; i++) {
+        const d = new Date();
+        d.setDate(d.getDate() - i);
+        
+        const isSelected = d.toDateString() === fechaSeleccionadaGlobal.toDateString();
+        
+        const item = document.createElement('div');
+        item.className = `day-item ${isSelected ? 'active' : ''}`;
+        
+        const nombreDia = DIAS_SEMANA[d.getDay()].substring(0, 3);
+        const numeroDia = d.getDate();
+
+        item.innerHTML = `
+            <span class="day-name">${nombreDia}</span>
+            <span class="day-num">${numeroDia}</span>
+        `;
+
+        item.onclick = () => {
+            fechaSeleccionadaGlobal = new Date(d);
+            actualizarHero(fechaSeleccionadaGlobal);
+            renderDaysBar();
+            cargarProvision(fechaSeleccionadaGlobal);
+        };
+
+        slider.appendChild(item);
+    }
+}
+
+async function cargarProvision(fecha) {
     const launcher = document.getElementById('app-launcher');
-    if (!launcher) return;
+    launcher.innerHTML = '<div class="skeleton-loader">Buscando el pan de vida...</div>';
 
     try {
         const resIndice = await fetch(URL_INDICE);
         const indice = await resIndice.json();
         
-        const hoy = new Date();
-        // Generamos la fecha exacta: "19 de Abril"
-        const fechaBuscada = `${hoy.getDate()} de ${MESES[hoy.getMonth()]}`;
-        console.log("Buscando provisión para:", fechaBuscada);
+        const fechaKey = `${fecha.getDate()} de ${MESES[fecha.getMonth()]}`;
+        const archivos = indice[fechaKey]; 
 
-        const archivosDeHoy = indice[fechaBuscada]; 
-
-        console.log(archivosDeHoy)
-
-        if (!archivosDeHoy || !Array.isArray(archivosDeHoy) || archivosDeHoy.length === 0) {
-            launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">No hay provisión programada para hoy (${fechaBuscada}).</p>`;
-            return;
-            a
-        }
-
-        // Mapeamos los archivos de hoy para crear promesas de fetch simultáneas
-        const promesas = archivosDeHoy.map(async (item) => {
-            try {
-                const resData = await fetch(`${URL_BASE}${item.grupo}.json`);
-                const data = await resData.json();
-                // Usamos == para evitar errores de tipo string vs number en el ID
-                return data.find(d => d.id == item.id);
-            } catch (err) {
-                console.error(`Error cargando el grupo ${item.grupo}:`, err);
-                return null;
-            }
-        });
-
-        // Esperamos a que todas las lecturas (AT y NT) se resuelvan
-        const lecturasCompletas = await Promise.all(promesas);
-
-        // Filtramos resultados nulos (por si un archivo falló)
-        const lecturasValidas = lecturasCompletas.filter(l => l !== null);
-
-        if (lecturasValidas.length > 0) {
-            renderCards(lecturasValidas);
-        } else {
-            throw new Error("No se encontraron los objetos en los archivos de datos");
-        }
-
-    } catch (e) {
-        console.error("Error en la logística de Maná:", e);
-        launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">Hubo un problema al servir el pan de hoy.</p>`;
-    }
-}
-
-async function cargarManaPorFecha(fecha) {
-    const launcher = document.getElementById('app-launcher');
-    try {
-        const resIndice = await fetch(URL_INDICE);
-        const indice = await resIndice.json();
-        const archivosDeEsaFecha = indice[fecha]; 
-
-        if (!archivosDeEsaFecha) {
-            launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">No hay lecturas para el ${fecha}.</p>`;
+        if (!archivos || archivos.length === 0) {
+            launcher.innerHTML = `<p style="color:var(--gold); text-align:center; padding: 3rem;">No hay provisión programada para el ${fechaKey}.</p>`;
             return;
         }
 
-        let lecturasCompletas = [];
-        for (const item of archivosDeEsaFecha) {
+        const promesas = archivos.map(async (item) => {
             const resData = await fetch(`${URL_BASE}${item.grupo}.json`);
             const data = await resData.json();
-            const objetoFinal = data.find(d => d.id === item.id);
-            if (objetoFinal) lecturasCompletas.push(objetoFinal);
-        }
-        renderCards(lecturasCompletas);
+            return data.find(d => d.id == item.id);
+        });
+
+        const lecturas = (await Promise.all(promesas)).filter(l => l);
+        renderDiptico(lecturas);
+
     } catch (e) {
-        launcher.innerHTML = `<p style="color:var(--gold)">Error al buscar en el archivo.</p>`;
+        launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">Hubo un error al servir la mesa.</p>`;
     }
 }
 
-function renderCards(mensajes) {
+function renderDiptico(mensajes) {
     const launcher = document.getElementById('app-launcher');
-    if (!launcher) return;
     launcher.innerHTML = ''; 
 
     mensajes.forEach(item => {
         const card = document.createElement('div');
         card.className = 'mini-card';
+        
+        const esNT = item.testamento === 'nuevo';
+        const icon = esNT ? '✝️' : '📜';
+        const label = esNT ? 'Nuevo Testamento' : 'Antiguo Testamento';
+
         card.innerHTML = `
-            <span class="testamento-label">${item.testamento === 'nuevo' ? 'Nuevo Testamento' : 'Antiguo Testamento'}</span>
+            <div class="testamento-icon">${icon}</div>
+            <span class="testamento-label">${label}</span>
             <h2 class="cinzel-font">${item.titulo}</h2>
-            <p class="preview-text">${item.mensaje.substring(0, 100)}...</p>
-            <div style="margin-top:15px; font-size:0.7rem; color:var(--gold); letter-spacing:1px;">
-                LEER MÁS →
+            <p class="preview-text">${item.mensaje.substring(0, 120)}...</p>
+            <div class="btn-read">
+                Comenzar Lectura <i class="fas fa-chevron-right"></i>
             </div>
         `;
-        card.addEventListener('click', () => {
-            window.location.href = `lectura.html?id=${item.id}`;
-        });
+        
+        card.onclick = () => window.location.href = `lectura.html?id=${item.id}`;
         launcher.appendChild(card);
     });
 }
 
-// --- UTILIDADES ---
-
-function renderizarFooter() {
-    if (document.querySelector('.app-footer')) return;
-    const year = new Date().getFullYear();
-    const footerHTML = `
-
-        <div class="cb-semilla-container" style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid rgba(212, 175, 55, 0.3); text-align: center;">
-                <p style="color: #f8fafc; font-style: italic; font-size: 1.1rem; line-height: 1.6; margin-bottom: 1.5rem;">
-                    "Damos de gracia lo que de gracia recibimos. Si sientes el deseo de apoyar este servicio, tu colaboración permite apoyar el crecimiento y mantenimiento de Códice Bíblico."
-                </p>
-                <a href="https://ko-fi.com/codicebiblico" target="_blank" class="cb-btn-kofi" 
-                style="display: inline-flex; align-items: center; gap: 10px; background: #000; color: #fff; border: 1px solid #D4AF37; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; letter-spacing: 1px;">
-                    <i class="fas fa-gift" style="color: #D4AF37;"></i>
-                    APOYAR EL PROYECTO
-                </a>
-            </div>
-
-        <footer class="app-footer" style="padding: 20px 0; font-size: 0.8rem; border-top: 1px solid rgba(255,255,255,0.05); margin-top: auto; text-align: center;">
-            <div class="footer-content">
-                <p style="color: #64748b; margin: 0;">Desarrollado por <span style="color:#d4b483">Domingo Curbeira</span></p>
-                <p style="color:#475569; margin: 0; font-size: 0.7rem;">© ${year} • Códice Bíblico</p>
-            </div>
-        </footer>
-    `;
-    document.body.insertAdjacentHTML('beforeend', footerHTML);
-}
-
-// --- INICIALIZACIÓN SEGURA ---
+// --- INICIALIZACIÓN ---
 
 function masterInit() {
-    console.log("Mise en place lista: Iniciando Maná Visual...");
-    
-    // 1. Menú Ecosistema
-    const btnLauncher = document.getElementById('btn-launcher');
-    const ecoMenu = document.getElementById('eco-menu');
-    if (btnLauncher && ecoMenu) {
-        btnLauncher.onclick = (e) => {
-            e.stopPropagation();
-            ecoMenu.classList.toggle('active');
-        };
-        document.onclick = (e) => {
-            if (!ecoMenu.contains(e.target) && !btnLauncher.contains(e.target)) {
-                ecoMenu.classList.remove('active');
-            }
-        };
-    }
-
-    // 2. Lógica del Buscador (Todo protegido con IFs)
     const contenedorBuscador = document.getElementById('abrir-calendario');
     const inputFecha = document.getElementById('fecha-buscada');
 
@@ -169,24 +150,15 @@ function masterInit() {
             else inputFecha.focus();
         };
 
-        inputFecha.onchange = async (e) => {
-            const fechaSeleccionada = new Date(e.target.value + 'T00:00:00');
-            const dia = fechaSeleccionada.getDate();
-            const mes = MESES[fechaSeleccionada.getMonth()];
-            const fechaBuscada = `${dia} de ${mes}`;
-            await cargarManaPorFecha(fechaBuscada);
+        inputFecha.onchange = (e) => {
+            fechaSeleccionadaGlobal = new Date(e.target.value + 'T00:00:00');
+            actualizarHero(fechaSeleccionadaGlobal);
+            renderDaysBar();
+            cargarProvision(fechaSeleccionadaGlobal);
         };
     }
 
-    // 3. Carga inicial
     iniciarMana();
-    renderizarFooter();
 }
 
-// Ejecución controlada
-if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    masterInit();
-} else {
-    document.addEventListener('DOMContentLoaded', masterInit);
-}
-
+document.addEventListener('DOMContentLoaded', masterInit);

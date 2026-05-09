@@ -54,69 +54,50 @@
                 <h1>Onomastiko</h1>
             </div>
             
-            <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/></svg>
-            </button>
+            
         </nav>
         <p class="subtitle">Identidad y Diseño Original.</p>
     </header>
 
-    <main class="container">
+    <header class="identity-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" id="hero-badge">REVELACIÓN DE IDENTIDAD</div>
+            <h1 class="hero-title" id="hero-name-display">EL NOMBRE</h1>
+            <p class="hero-desc" id="hero-meaning-display">Descubre el diseño original y el propósito eterno codificado en los nombres de las Escrituras.</p>
+            <div class="hero-actions">
+                <button class="btn-hero-primary" id="btn-hero-identity">
+                    <i class="fas fa-fingerprint"></i> Ver Identidad
+                </button>
+                <button class="btn-hero-secondary" onclick="document.querySelector('.search-section').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-search"></i> Diccionario
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container magazine-layout">
         <div class="search-section">
             <div class="search-bar-container">
-                <input type="text" id="search-input" class="search-input" placeholder="Buscar nombre (ej. Adán, Simón, Moshé)..." autocomplete="off">
+                <input type="text" id="search-input" class="search-input" placeholder="Buscar identidad (ej. Adán, Simón, Moshé)..." autocomplete="off">
             </div>
         </div>
 
         <nav class="alphabet-nav" id="alphabet-container"></nav>
 
         <div id="main-grid" class="results-grid">
-            <div class="loading-msg">Sintonizando frecuencias de identidad...</div>
+            <div class="loading-msg">Sintonizando registros de identidad...</div>
         </div>
     </main>
 
    
 
-    <div id="eco-menu" class="eco-menu ">
-        <div class="menu-grid">
-            <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                <span class="icon">🎓</span>
-                <span>Imagen</span>
-            </a>
-            <a href="../cronos/index.html" class="menu-item">
-                <span class="icon">🌍</span>
-                <span>Cronos</span>
-            </a>
-            <a href="../huellas/index.html" class="menu-item">
-                <span class="icon huellas">👣</span>
-                <span>Huellas</span>
-            </a>
-            <a href="../etymos/index.html" class="menu-item">
-                <span class="icon">🔍</span>
-                <span>Etymos</span>
-            </a>
-            <a href="../mana/index.html" class="menu-item">
-                <span class="icon">🍞</span>
-                <span>Maná</span>
-            </a>
-            <a href="../aposento/index.html" class="menu-item ">
-                <span class="icon">🔥</span>
-                <span>Aposento</span>
-            </a>
-            <a href="../juego/index.html" class="menu-item">
-                <span class="icon">🛡️</span>
-                <span>Virtus</span>
-            </a>
-            <a href="../notas/index.html" class="menu-item">
-                <span class="icon">📝</span>
-                <span>Escriba</span>
-            </a>
-            
-        </div>
-    </div>
+    
 
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
+    <script src="../js/global-footer.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {

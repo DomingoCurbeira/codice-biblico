@@ -28,7 +28,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Etymos | Raíces de la Palabra</title>
+    <title>Etymos | Tesoro de la Palabra</title>
 
     <meta name="theme-color" content="#0f172a">
     <link rel="manifest" href="../manifest.json">
@@ -41,100 +41,54 @@
     <meta property="og:url" content="https://codicebiblico.netlify.app/etymos/index.html">
     <meta property="og:type" content="website">
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,300;0,700;1,300&family=Cinzel:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
-    <header class="library-header">
-        <nav class="top-nav">
-            <div class="brand">
-                <span class="icon-book">🔍</span>
-                <h1>Etymos</h1>
+    <header class="etymos-hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-badge" id="hero-lang-badge">TESORO LINGÜÍSTICO</div>
+            <h1 class="hero-title" id="hero-word-original">ETYMOS</h1>
+            <p class="hero-translit" id="hero-word-translit">Descifrando la Verdad</p>
+            <h2 class="hero-meaning" id="hero-word-spanish">Raíces de Sabiduría</h2>
+            <div class="hero-actions">
+                <button class="btn-hero-primary" id="btn-hero-word">
+                    <i class="fas fa-scroll"></i> Profundizar
+                </button>
+                <button class="btn-hero-secondary" onclick="document.querySelector('.etymos-tools').scrollIntoView({behavior: 'smooth'})">
+                    <i class="fas fa-search"></i> Explorar Léxico
+                </button>
             </div>
-            
-            <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/></svg>
-            </button>
-        </nav>
-        
-        <p class="subtitle">Etimología y significado.</p>
+        </div>
     </header>
 
-    <main class="container">
-        <div id="header-tools-placeholder"></div>
-
-        <div class="etymos-tools" style="margin-bottom: 30px;">
-            <input type="text" id="busqueda-etymos" placeholder="Buscar palabra (ej. Vida, Pneuma, Bios)..." 
-                   style="width: 90%; padding: 15px 20px; border-radius: 25px; border: 1px solid rgba(212, 180, 131, 0.4); background: rgba(15, 23, 42, 0.8); color: #fff; font-size: 1rem; outline: none; margin: 0 auto 15px auto;">
+    <main class="container magazine-layout">
+        
+        <section class="etymos-tools">
+            <input type="text" id="busqueda-etymos" placeholder="Buscar tesoro lingüístico (ej. Pneuma, Vida)..." autocomplete="off">
             
-            <div class="filtros-idioma" style="display: flex; gap: 10px; overflow-x: auto; padding-bottom: 5px;">
+            <div class="filtros-idioma">
                 <button class="btn-filtro activo" data-idioma="todos">Todos</button>
                 <button class="btn-filtro" data-idioma="hebreo">Hebreo</button>
                 <button class="btn-filtro" data-idioma="griego">Griego</button>
                 <button class="btn-filtro" data-idioma="arameo">Arameo</button>
             </div>
-        </div>
+        </section>
 
-        <div id="lista-etymos" class="grid-lexico" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;">
-            <div class="loading" id="loading-msg">Cargando léxico...</div>
+        <div id="lista-etymos" class="grid-lexico">
+            <div class="loading">Abriendo el Códice de Raíces...</div>
         </div>
 
         <div id="paginacion-etymos" class="paginacion-container"></div>
     </main>
 
-
-    <div id="eco-menu" class="eco-menu ">
-        <div class="menu-grid">
-            <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                <span class="icon">🎓</span>
-                <span>Imagen</span>
-            </a>
-            <a href="../cronos/index.html" class="menu-item">
-                <span class="icon">🌍</span>
-                <span>Cronos</span>
-            </a>
-            <a href="../huellas/index.html" class="menu-item">
-                <span class="icon huellas">👣</span>
-                <span>Huellas</span>
-            </a>
-            <a href="../mana/index.html" class="menu-item">
-                <span class="icon">🍞</span>
-                <span>Maná</span>
-            </a>
-            <a href="../onomastiko/index.html" class="menu-item">
-                <span class="icon">🆔</span>
-                <span>Onomastiko</span>
-            </a>
-            <a href="../aposento/index.html" class="menu-item ">
-                <span class="icon">🔥</span>
-                <span>Aposento</span>
-            </a>
-            <a href="../juego/index.html" class="menu-item">
-                <span class="icon">🛡️</span>
-                <span>Virtus</span>
-            </a>
-            <a href="../notas/index.html" class="menu-item">
-                <span class="icon">📝</span>
-                <span>Escriba</span>
-            </a>
-            
-     
-        </div>
-    </div>
-
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
-    <script>
-    if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js')
-                .then(reg => console.log('Códice SW: Registrado con éxito en el ecosistema', reg.scope))
-                .catch(err => console.warn('Códice SW: Error al registrar', err));
-        });
-    }
-    </script>
+    <script src="../js/global-footer.js"></script>
 </body>
 </html>

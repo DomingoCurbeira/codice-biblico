@@ -1,229 +1,188 @@
-/* Estilos de Lectura */
-
 :root {
     --gold: #c5a059;
     --gold-bright: #f3cf7a;
     --bg-dark: #0f1012;
-    --card-bg: #1a1c20;
-    --text-main: #d1d1d1;
+    --paper: #f4ecd8;
+    --ink: #2c241a;
+    --text-muted: #64748b;
+    --font-ui: 'Lato', sans-serif;
+    --font-serif: 'Cinzel', serif;
+    --font-book: 'Merriweather', serif;
+    --reading-size: 18px;
 }
 
-/* 1. Mantenemos el fondo oscuro original de Maná en el body */
-.reading-mode {
-    /* background-color: var(--card-bg); */
+body {
+    background-color: var(--bg-dark);
     margin: 0;
     padding: 0;
+    font-family: var(--font-ui);
+    overflow-x: hidden;
 }
 
-.reading-nav { padding: 20px; }
-.back-btn { color: var(--gold); text-decoration: none; font-size: 0.9rem; letter-spacing: 1px; }
-
-.hero-lectura {
-    text-align: center;
-    padding: 40px 20px;
-    position: relative;
-}
-
-.bg-title-fade {
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Cinzel', serif;
-    font-size: 5rem;
-    opacity: 0.05;
-    color: white;
-    white-space: nowrap;
+.overlay-texture {
+    position: fixed;
+    top:0; left:0; width:100%; height:100%;
+    background-image: url('https://www.transparenttextures.com/patterns/dark-leather.png');
+    opacity: 0.2;
     z-index: -1;
+    pointer-events: none;
 }
 
-.main-title { font-family: 'Cinzel', serif; color: var(--gold); font-size: 2.2rem; margin: 0; }
-.tema-subtitle { font-size: 1rem; text-transform: uppercase; letter-spacing: 3px; color: #888; }
+/* --- BARRA DE PROGRESO --- */
+.reading-progress-container {
+    position: fixed; top: 0; left: 0; width: 100%; height: 4px;
+    background: rgba(0,0,0,0.2); z-index: 2000;
+}
+.reading-progress-bar {
+    height: 100%; background: var(--gold-bright); width: 0%;
+    transition: width 0.1s ease; box-shadow: 0 0 10px var(--gold);
+}
+
+/* --- NAV --- */
+.reading-nav {
+    padding: 1.5rem 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.back-btn {
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.back-btn:hover { color: var(--gold-bright); transform: translateX(-5px); }
+
+/* --- CONTENEDOR TIPO PERGAMINO --- */
+#lectura-content {
+    background-color: var(--paper);
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    color: var(--ink);
+    max-width: 850px;
+    margin: 20px auto 50px;
+    border-radius: 4px;
+    box-shadow: 0 30px 70px rgba(0,0,0,0.6), inset 0 0 100px rgba(197, 160, 89, 0.05);
+    padding: 4rem 3rem;
+    min-height: 80vh;
+    position: relative;
+    border: 1px solid #dcd0b8;
+}
+
+/* --- TYPOGRAPHY ZEN --- */
+.hero-lectura { text-align: center; margin-bottom: 4rem; position: relative; }
+.bg-title-fade {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-family: var(--font-serif); font-size: 6rem; opacity: 0.05;
+    color: var(--ink); white-space: nowrap; z-index: 0; pointer-events: none;
+}
+
+.main-title {
+    font-family: var(--font-serif); color: #8b6d2a;
+    font-size: 2.8rem; margin: 0; position: relative; z-index: 1;
+    line-height: 1.1;
+}
+.tema-subtitle {
+    font-size: 0.9rem; text-transform: uppercase; letter-spacing: 4px;
+    color: #6d6d6d; margin-top: 10px; font-weight: 700;
+}
 
 .mensaje-central {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 0 25px;
-    font-size: 1.2rem;
-    line-height: 1.8;
-    text-align: center;
-    font-style: italic;
-    border-left: 2px solid var(--gold);
-    border-right: 2px solid var(--gold);
+    font-family: var(--font-book);
+    font-size: var(--reading-size);
+    line-height: 2;
+    text-align: justify;
+    color: var(--ink);
+    margin: 2rem 0;
 }
 
-.perlas-grid {
-    max-width: 800px;
-    margin: 50px auto;
-    display: grid;
-    gap: 30px;
-    padding: 20px;
+/* Letra Capitular */
+.mensaje-central::first-letter {
+    float: left; font-family: var(--font-serif);
+    font-size: 5rem; line-height: 1; padding-right: 15px;
+    color: #8b6d2a; font-weight: bold;
 }
+
+/* --- PERLAS (REVELACIÓN) --- */
+.perlas-grid { display: flex; flex-direction: column; gap: 2.5rem; margin-top: 4rem; }
 
 .perla-card {
-    background: rgba(255, 255, 255, 0.03);
-    border: 1px solid rgba(197, 160, 89, 0.1);
-    padding: 30px;
-    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.02);
+    border-left: 4px solid #8b6d2a;
+    padding: 2rem;
+    border-radius: 0 15px 15px 0;
+    transition: 0.3s;
+}
+.perla-card:hover { background: rgba(197, 160, 89, 0.05); }
+
+.perla-card h3 {
+    font-family: var(--font-serif); color: #8b6d2a;
+    font-size: 1.4rem; margin-top: 0; margin-bottom: 1rem;
 }
 
-.perla-card h3 { 
-    font-family: 'Cinzel', serif; 
-    color: var(--gold-bright); 
-    margin-top: 0; 
-    border-bottom: 1px solid rgba(197, 160, 89, 0.2);
-    padding-bottom: 10px;
+.perla-contexto {
+    font-family: var(--font-book);
+    font-size: calc(var(--reading-size) * 0.95);
+    line-height: 1.8; color: #4a4136;
 }
-
-.perla-contexto { color: #ccc; line-height: 1.6; font-size: 1rem; }
 
 .perla-revelacion {
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 1px dashed rgba(197, 160, 89, 0.3);
-    color: var(--gold);
-    font-weight: 700;
-}
-
-/* 2. El contenedor principal como un Pergamino */
-.fade-in {
-    background-color: #f4ecd8; /* Color crema/pergamino */
-    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png'); /* Textura sutil de papel */
-    color: #2c241a; /* Texto marrón muy oscuro para que no sea negro puro */
-    max-width: 800px;
-    margin: 20px 10px;
-    border-radius: 10px;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.8), inset 0 0 100px rgba(197, 160, 89, 0.1);
-    padding-bottom: 40px;
-    min-height: 100vh;
-    border: 1px solid #dcd0b8;
-    
-    /* box-shadow: inset 0 0 30px rgba(139, 109, 42, 0.05), 0 5px 15px rgba(0,0,0,0.05); */
-}
-
-/* 3. Ajuste de títulos para que resalten sobre el papel claro */
-.fade-in .main-title {
-    color: #8b6d2a; /* Un dorado más oscuro y terroso */
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
-}
-
-.fade-in .bg-title-fade {
-    color: #8b6d2a;
-    opacity: 0.1; /* Un poco más visible sobre el fondo claro */
-}
-
-.fade-in .tema-subtitle {
-    color: #6d6d6d;
-}
-
-/* 4. Las Perlas sobre el pergamino */
-.fade-in .perla-card {
-    background: rgba(0, 0, 0, 0.03); /* Sombra muy suave en lugar de fondo oscuro */
-    border: 1px solid rgba(139, 109, 42, 0.2);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
-}
-
-.fade-in .perla-card h3 {
-    color: #8b6d2a;
-    border-bottom: 1px solid rgba(139, 109, 42, 0.3);
-}
-
-.fade-in .perla-contexto {
-    color: #4a4136;
-}
-
-.fade-in .perla-revelacion {
+    margin-top: 1.5rem; padding: 1rem;
     background: rgba(197, 160, 89, 0.1);
-    padding: 10px;
-    border-radius: 4px;
-    border-top: none;
-    border-left: 3px solid #8b6d2a;
+    border-radius: 8px; font-weight: 700; color: #8b6d2a;
+    font-size: calc(var(--reading-size) * 0.9);
 }
 
-/* 5. El botón de volver fuera del pergamino */
-.reading-nav .back-btn {
-    color: var(--gold);
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 10px;
+/* --- CONTROLES DE FUENTE --- */
+.font-control-wrapper {
+    position: fixed; bottom: 30px; left: 25px; z-index: 3000;
+    display: flex; flex-direction: column-reverse; align-items: center; gap: 12px;
 }
-
-@media (min-width: 600px) {
-    .fade-in {
-        /* El margen que pidió para pantallas grandes */
-        margin: 20px auto;
-        
-        max-width: 800px;
-        padding: 50px 40px;
-        box-shadow: 0 20px 50px rgba(0,0,0,0.8), inset 0 0 100px rgba(197, 160, 89, 0.1);
-    }
+.btn-font-toggle {
+    background: #1e293b; border: 1px solid var(--gold); color: var(--gold);
+    width: 50px; height: 50px; border-radius: 50%; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4); transition: 0.3s;
 }
+.btn-font-toggle:hover { background: var(--gold); color: #0f1012; transform: scale(1.1); }
 
+.font-control-panel {
+    background: rgba(15, 16, 18, 0.9); backdrop-filter: blur(10px);
+    border: 1px solid rgba(197, 160, 89, 0.3); padding: 10px;
+    border-radius: 30px; display: flex; flex-direction: column; gap: 10px;
+    opacity: 0; transform: translateY(10px); transition: 0.3s; pointer-events: none;
+}
+.font-control-panel.active { opacity: 1; transform: translateY(0); pointer-events: all; }
+
+.btn-font-action {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(197, 160, 89, 0.2);
+    color: white; width: 38px; height: 38px; border-radius: 50%;
+    cursor: pointer; font-weight: bold; display: flex; align-items: center; justify-content: center;
+}
+.btn-font-action:hover { background: var(--gold); color: #0f1012; }
+
+/* --- COMPARTIR --- */
 .share-container {
-    margin: 3rem 1.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    text-align: center;
+    max-width: 850px; margin: 0 auto 5rem; text-align: center;
+    padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.05);
 }
+.share-title { font-size: 0.8rem; letter-spacing: 3px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2rem; }
+.share-actions { display: flex; justify-content: center; gap: 1.5rem; }
 
-.share-title {
-    font-family: var(--font-sans);
-    font-weight: 700;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #94a3b8; /* Gris azulado claro */
-    margin-bottom: 1.5rem;
-}
-
-.share-actions {
-    display: flex;
-    justify-content: center;
-    gap: 1.5rem;
-}
-
-/* Botones Base */
 .btn-share {
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
-    color: white;
-    font-size: 1.2rem;
+    width: 55px; height: 55px; border-radius: 50%; border: none;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer; transition: 0.3s; color: white;
 }
+.btn-share:hover { transform: translateY(-5px) scale(1.1); }
+.btn-share.wa { background: linear-gradient(135deg, #25D366, #128C7E); }
+.btn-share.fb { background: linear-gradient(135deg, #1877F2, #1659b1); }
+.btn-share.copy { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; }
 
-.btn-share:hover {
-    transform: scale(1.15) translateY(-2px);
-    filter: brightness(1.2);
-}
-
-.btn-share svg {
-    pointer-events: none; /* Para evitar problemas al clickear el icono */
-}
-
-/* Colores Específicos */
-.btn-share.wa {
-    background: linear-gradient(135deg, #25D366, #128C7E);
-    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
-}
-
-.btn-share.fb {
-    background: linear-gradient(135deg, #1877F2, #1659b1);
-    box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3);
-}
-
-.btn-share.copy {
-    background: transparent;
-    border: 2px solid #38bdf8; /* Azul cielo neón */
-    color: #38bdf8;
-    box-shadow: 0 0 10px rgba(56, 189, 248, 0.1);
-}
-
-.btn-share.copy:hover {
-    background: rgba(56, 189, 248, 0.1);
-    box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    #lectura-content { padding: 3rem 1.5rem; margin: 10px; }
+    .main-title { font-size: 2rem; }
+    .bg-title-fade { font-size: 4rem; }
 }

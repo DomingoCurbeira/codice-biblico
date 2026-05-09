@@ -34,11 +34,33 @@ async function initOnomastiko() {
         
         renderAlphabet();
         renderGrid(identidadesGlobal);
+        seleccionarNombreDelDia(identidadesGlobal); // <--- NUEVO: Hero Místico
     } catch (err) {
         document.getElementById('main-grid').innerHTML = 
             `<div class="error" style="grid-column: 1/-1; text-align: center; padding: 50px;">
                 ⚠️ Error sintonizando identidades: ${err.message}
             </div>`;
+    }
+}
+
+// --- NUEVO: FUNCIÓN PARA HERO DINÁMICO (NOMBRE DEL DÍA) ---
+function seleccionarNombreDelDia(lista) {
+    if (!lista || lista.length === 0) return;
+    
+    // 1. Buscamos personajes con significado interesante
+    const hoy = lista[Math.floor(Math.random() * lista.length)];
+
+    // 2. Elementos DOM
+    const hName = document.getElementById('hero-name-display');
+    const hMean = document.getElementById('hero-meaning-display');
+    const hBtn = document.getElementById('btn-hero-identity');
+
+    // 3. Animación y Cambio
+    if (hName) hName.innerText = hoy.nombre.toUpperCase();
+    if (hMean) hMean.innerText = hoy.subtitulo;
+    
+    if (hBtn) {
+        hBtn.onclick = () => window.location.href = `nombre.html?id=${hoy.id}`;
     }
 }
 
@@ -57,11 +79,11 @@ function renderGrid(lista) {
         return `
         <article class="mini-card" 
                  onclick="openDetails('${item.id}')" 
-                 style="border-left: 5px solid ${colorBorder}">
-            <img src="../${item.imagen}" alt="${item.nombre}" style="border-color: ${colorBorder}">
+                 style="--border-color: ${colorBorder}">
+            <img src="../${item.imagen}" alt="${item.nombre}">
             <div class="mini-card-info">
-                <h3 style="margin:0; color:${colorBorder}; font-size:1.1rem;">${item.nombre}</h3>
-                <p style="margin:5px 0 0; font-size:0.8rem; color:#94a3b8;">${item.subtitulo}</p>
+                <h3 style="color:${colorBorder}">${item.nombre}</h3>
+                <p>${item.subtitulo}</p>
             </div>
         </article>
         `;

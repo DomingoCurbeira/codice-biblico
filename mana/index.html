@@ -28,9 +28,9 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Maná Visual | Alimento Diario</title>
+    <title>Maná Visual | Tu Alimento Diario</title>
 
-    <meta name="theme-color" content="#1a1c20"> 
+    <meta name="theme-color" content="#0f1012"> 
     <link rel="manifest" href="manifest.json">
     <link rel="apple-touch-icon" href="/img/mana-192.png">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍞</text></svg>">
@@ -42,19 +42,12 @@
     <meta property="og:type" content="website">
 
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
 </head>
 <body>
     <div class="overlay-texture"></div>
-<!-- 
-    <header class="main-nav">
-        <div class="logo-container">
-            <h1 class="cinzel-font">CÓDICE <span class="gold-text">BÍBLICO</span></h1>
-            <p class="tagline">MANÁ VISUAL</p>
-        </div>
-    </header> -->
 
     <nav class="top-nav">
         <div class="brand">
@@ -64,57 +57,28 @@
                 <p class="tagline-new">Tu Biblia completa en un año</p>
             </div>
         </div>
-        
-        
-
-        <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
-                <path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/>
-            </svg>
-        </button>
     </nav>
 
-    <div id="eco-menu" class="eco-menu hidden">
-        <div class="menu-grid">
-            <a href="../cronos/index.html" class="menu-item">
-                <span class="icon">🌍</span>
-                <span>Cronos</span>
-            </a>
-            <a href="../huellas/index.html" class="menu-item">
-                <span class="icon huellas">👣</span>
-                <span>Huellas</span>
-            </a>
-            <a href="../a_imagen_de_Dios/index.html" class="menu-item">
-                <span class="icon">🎓</span>
-                <span> Imagen</span>
-            </a>
-            <a href="../aposento/index.html" class="menu-item ">
-                <span class="icon">🔥</span>
-                <span>Aposento</span>
-            </a>
-            <a href="../onomastiko/index.html" class="menu-item">
-                <span class="icon">🆔</span>
-                <span>Onomastiko</span>
-            </a>
-            <a href="../etymos/index.html" class="menu-item ">
-                    <span class="icon">🔍</span>
-                    <span>Etymos</span>
-                </a>
-            <a href="#" class="menu-item ">
-                <span class="icon">🛡️</span>
-                <span>Virtus</span>
-            </a>
-            <a href="../notas/index.html" class="menu-item">
-                <span class="icon">📝</span>
-                <span>Escriba</span>
-            </a>
-            
+    <header class="hero-mana">
+        <div class="hero-date" id="hero-date-label">VIERNES, 08 DE MAYO</div>
+        <div class="hero-day-number" id="hero-day-num">08</div>
+        <div class="hero-month" id="hero-month-label">MAYO</div>
+        <div class="hero-verse" id="hero-verse-box">
+            "No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios."
+            <br><small>Mateo 4:4</small>
+        </div>
+    </header>
+
+    <div class="days-bar-container">
+        <div class="days-bar" id="days-slider">
+            <!-- Inyectado por JS -->
         </div>
     </div>
 
-    <section class="search-container" id="abrir-calendario">
-        <div class="search-box">
-            <span class="search-label cinzel-font">Consultar Fecha</span>
+    <section class="search-container">
+        <div class="search-box" id="abrir-calendario">
+            <i class="fas fa-calendar-alt" style="color: var(--gold)"></i>
+            <span class="search-label cinzel-font">Otras Fechas</span>
             <input type="date" id="fecha-buscada" class="input-mana">
         </div>
     </section>
@@ -124,6 +88,8 @@
     </main>
 
     <script src="js/app.js" type="module"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js" type="module"></script>
+    <script src="../js/global-footer.js"></script>
 </body>
 </html>

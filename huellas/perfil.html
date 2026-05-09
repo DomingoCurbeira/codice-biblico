@@ -52,28 +52,41 @@
         </div>
         <h1 id="p-nombre" class="profile-name">...</h1>
         <div id="p-role" class="profile-role">...</div>
+        
+        <!-- Nuevo: Perfil Emocional como Badge debajo del título -->
+        <div id="p-perfil-emocional" class="psychology-badge"></div>
     </header>
 
     <main id="profile-view" class="cv-container">
         
-        <div class="cv-card quote-card">
-            <p id="p-resumen">...</p>
-        </div>
+        <!-- Resumen Épico con estilo de Crónica -->
+        <section class="epic-chronicle">
+            <div id="p-resumen" class="chronicle-text">...</div>
+        </section>
 
         <div class="cv-card">
             <h3 class="cv-title">Expediente Personal</h3>
-            <div class="data-grid-3">
-                <div class="data-item">
-                    <label>Ocupación</label>
-                    <span id="p-ocupacion">-</span>
+            <div class="data-grid-modern">
+                <div class="data-item-modern">
+                    <div class="icon-circle"><i class="fas fa-briefcase"></i></div>
+                    <div class="data-info">
+                        <label>Ocupación</label>
+                        <span id="p-ocupacion">-</span>
+                    </div>
                 </div>
-                <div class="data-item">
-                    <label>Origen / Lugares</label>
-                    <span id="p-origen">-</span>
+                <div class="data-item-modern">
+                    <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                    <div class="data-info">
+                        <label>Origen / Lugares</label>
+                        <span id="p-origen">-</span>
+                    </div>
                 </div>
-                <div class="data-item">
-                    <label>Familia</label>
-                    <span id="p-familia">-</span>
+                <div class="data-item-modern">
+                    <div class="icon-circle"><i class="fas fa-users"></i></div>
+                    <div class="data-info">
+                        <label>Familia</label>
+                        <span id="p-familia">-</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,6 +145,7 @@
     <a href="index.html" class="fab-back-cv">← Volver</a>
 
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js"></script>
     <script src="../js/colaboracion.js"></script>
 </body>

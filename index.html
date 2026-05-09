@@ -28,110 +28,118 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Códice Bíblico | Tu Ecosistema Espiritual</title>
-    <meta name="description" content="Ecosistema unificado para el estudio (Cronos, Huellas), la oración (Aposento) y la vida espiritual.">
+    <title>Códice Bíblico | Tu Portal Espiritual Premium</title>
+    <meta name="description" content="Ecosistema unificado para el estudio, la oración y la vida espiritual.">
 
-    <meta name="theme-color" content="#1e293b">
+    <meta name="theme-color" content="#050608">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>">
     <link rel="apple-touch-icon" href="img/icon-192.png">
 
-    <meta property="og:title" content="Códice Bíblico: Tu Ecosistema Espiritual">
-    <meta property="og:description" content="Todas tus herramientas bíblicas en un solo lugar. Mapas, Biografías, Notas, Trivia y Oración.">
+    <meta property="og:title" content="Códice Bíblico: El Portal de la Verdad">
+    <meta property="og:description" content="Explora el ecosistema digital bíblico más avanzado. Geografía, Identidad, Provisión y Oración.">
     <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-home.jpg">
-    <meta property="og:url" content="https://codicebiblico.netlify.app/index.html">
-    <meta property="og:type" content="website">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Inter:wght@400;600;800&family=Merriweather:ital,wght@0,300;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <header>
-        <div class="brand-container">
-            <h1>CÓDICE BÍBLICO</h1>
-            <img src="./img/logo.png" alt="Logo Códice" class="brand-logo">
+    <header class="portal-hero">
+        <div class="brand-wrapper">
+            <h1 class="portal-title">CÓDICE BÍBLICO</h1>
+            <p class="portal-tagline">Ecosistema Digital de Revelación</p>
+            
+            <button id="btn-install" class="btn-install hidden">
+                📲 Instalar Aplicación
+            </button>
         </div>
-        
-        <p class="subtitle">Ecosistema digital de herramientas para el estudio, la oración y la vida espiritual.</p>
-        
-        <button id="btn-install" class="btn-install hidden">
-            📲 Instalar App
-        </button>
     </header>
 
-    <main class="app-grid">
+    <section class="user-dashboard">
+        <div class="dash-stat">
+            <span class="stat-label">Rango Espiritual</span>
+            <span class="stat-value gold" id="dash-rango">Sintonizando...</span>
+        </div>
+        <div class="dash-stat">
+            <span class="stat-label">Revelaciones (XP)</span>
+            <span class="stat-value" id="dash-xp">0</span>
+        </div>
+        <div class="dash-stat">
+            <span class="stat-label">Logros Reales</span>
+            <span class="stat-value" id="dash-logros">🏆 0</span>
+        </div>
+        <div class="dash-stat" id="shortcut-continue" style="opacity: 0.5;">
+            <span class="stat-label">Último Estudio</span>
+            <span class="stat-value" style="font-size: 0.9rem;">Continuar donde lo dejaste</span>
+        </div>
+    </section>
+
+    <main class="portal-grid">
         
-        <a href="mana/index.html" class="app-card active" target="_blank">
+        <a href="mana/index.html" class="app-card">
             <div class="icon">🍞</div>
             <div class="app-name">Maná Visual</div>
-            <div class="app-desc">Lectura diaria</div>
+            <div class="app-desc">Recibe tu provisión diaria de la Palabra.</div>
         </a>
 
-        <a href="huellas/index.html" class="app-card active" target="_blank">
-            <div class="icon huellas">👣</div>
+        <a href="huellas/index.html" class="app-card">
+            <div class="icon">👣</div>
             <div class="app-name">Huellas de Fe</div>
-            <div class="app-desc">Biografías y contexto</div>
-            <!-- <span class="badge badge-new">Update</span> -->
+            <div class="app-desc">Descubre el diseño original en las biografías.</div>
         </a>
 
-        <a href="cronos/index.html" class="app-card active" target="_blank">
+        <a href="cronos/index.html" class="app-card">
             <div class="icon">🌍</div>
             <div class="app-name">Cronos</div>
-            <div class="app-desc">Geografía interactiva</div>
+            <div class="app-desc">Viaja por la geografía sagrada interactiva.</div>
         </a>
 
-        <a href="a_imagen_de_Dios/index.html" class="app-card active" target="_blank">
+        <a href="a_imagen_de_Dios/index.html" class="app-card">
             <div class="icon">🎓</div>
             <div class="app-name">A Imagen de Dios</div>
-            <div class="app-desc">Teología y Exégesis</div>
+            <div class="app-desc">Profundiza con exégesis y teología de altura.</div>
         </a>
 
-       <a href="aposento/index.html" class="app-card active" target="_blank">
-            <!-- <div class="badge badge-soon">Pronto</div> -->
+       <a href="aposento/index.html" class="app-card">
             <div class="icon">🔥</div>
             <div class="app-name">Aposento</div>
-            <div class="app-desc">Oración y Ministración</div>
+            <div class="app-desc">Entra en tu lugar secreto de oración.</div>
        </a>
-       <a href="etymos/index.html" class="app-card active" target="_blank">
-            <!-- <div class="badge badge-soon">Pronto</div> -->
+
+       <a href="etymos/index.html" class="app-card">
             <div class="icon">🔍</div>
             <div class="app-name">Etymos</div>
-            <div class="app-desc">Etimología y significado</div>
+            <div class="app-desc">Descifra las raíces en los idiomas originales.</div>
        </a>
-       <a href="onomastiko/index.html" class="app-card active" target="_blank">
+
+       <a href="onomastiko/index.html" class="app-card">
             <div class="icon">🆔</div>
             <div class="app-name">Onomastiko</div>
-            <div class="app-desc">Identidad y Diseño Original</div>
+            <div class="app-desc">El significado profundo de tu identidad.</div>
         </a>
        
-       <a href="notas/index.html" class="app-card active" target="_blank">
-           <!-- <div class="badge active">update</div> -->
+       <a href="notas/index.html" class="app-card">
            <div class="icon">📝</div>
            <div class="app-name">Escriba</div>
-           <div class="app-desc">Libreta personal</div>
+           <div class="app-desc">Guarda tus revelaciones en tu diario personal.</div>
        </a>
 
-        <a href="../juego/index.html" class="app-card active" target="_blank">
-            <!-- <div class="badge badge-soon">update</div> -->
+        <a href="juego/index.html" class="app-card">
             <div class="icon">🛡️</div>
             <div class="app-name">Virtus</div>
-            <div class="app-desc">Trivia Bíblica</div>
+            <div class="app-desc">Desafía tu conocimiento y sube de rango.</div>
         </a>
-
 
     </main>
 
-    <div id="estudio-content"></div>
-    
-
-    
-
-    <script src="js/app.js" defer></script>
-    <script src="js/global-hub.js?v=1.1"></script>
+    <script src="js/app.js"></script>
+    <script src="js/global-hub.js"></script>
+    <script src="js/global-footer.js"></script>
     <script src="js/colaboracion.js"></script>
     
 </body>

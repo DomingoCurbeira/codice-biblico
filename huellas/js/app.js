@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // VARIABLES GLOBALES
     let cachePersonajes = []; // <--- NUEVO: Aquí guardaremos todos los datos para buscar rápido
+    let filtroActivo = 'todos';
+    let terminoBusqueda = '';
 
     // CONFIGURACIÓN DE RUTAS CENTRALIZADAS
     const URL_INDICE = '../data/indices/indice_personajes.json';
@@ -24,6 +26,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         await cargarPerfil(idSolicitado);
     } else if (filaAT || filaNT) {
         // ESTAMOS EN INDEX.HTML (PORTADA)
+        // --- LIMPIEZA CRÍTICA ---
+        // Si entramos a la galería general, borramos el rastro de estudios previos
+        sessionStorage.removeItem('rastro_estudio');
+        
         await cargarPortada();
         inicializarBuscador(); // <--- NUEVO: Activamos la escucha del buscador
     }
@@ -95,195 +101,321 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Renderizar todo al inicio
             renderizarListasPortada(cachePersonajes);
             inicializarFiltros(); // <--- NUEVO: Activamos los botones de las eras
-
-            // =========================================================
-            // --- SISTEMA: PERSONAJE RECOMENDADO DEL DÍA (HUELLAS) ---
-            // =========================================================
-            setTimeout(() => {
-                const hoyStr = new Date().toDateString();
-                const toastVistoHoy = localStorage.getItem('huellas_toast_dia'); // <-- CLAVE ÚNICA
-
-                if (toastVistoHoy === hoyStr) return;
-                
-                // Usamos el caché de personajes que ya cargamos
-                if (!cachePersonajes || cachePersonajes.length === 0) return;
-
-                const hoy = new Date();
-                const inicioAno = new Date(hoy.getFullYear(), 0, 0);
-                const diff = hoy - inicioAno;
-                const diaDelAno = Math.floor(diff / (1000 * 60 * 60 * 24));
-                
-                // Rotación diaria basada en el total de personajes
-                const indice = diaDelAno % cachePersonajes.length;
-                const personajeDelDia = cachePersonajes[indice];
-
-                // Aseguramos la ruta de la imagen
-                let rutaImg = personajeDelDia.imagen || '../img/ui/placeholder.webp';
-                if (rutaImg.startsWith('./')) rutaImg = rutaImg.replace('./', '../');
-
-                const toast = document.createElement('div');
-                toast.className = 'codice-daily-toast';
-                toast.innerHTML = `
-                    <img src="${rutaImg}" alt="${personajeDelDia.nombre}" onerror="this.src='../img/ui/placeholder.webp'">
-                    <div class="toast-info" onclick="window.location.href='perfil.html?id=${personajeDelDia.id}'">
-                        <h4 style="color:#10b981">Personaje del Día 👣</h4>
-                        <p>${personajeDelDia.nombre}</p>
-                        <small style="color:#94a3b8; font-size:0.75rem">${personajeDelDia.titular || ''}</small>
-                    </div>
-                    <button class="cerrar-btn" aria-label="Cerrar">&times;</button>
-                `;
-
-                const btnCerrar = toast.querySelector('.cerrar-btn');
-                btnCerrar.onclick = (e) => {
-                    e.stopPropagation();
-                    toast.classList.remove('mostrar');
-                    localStorage.setItem('huellas_toast_dia', hoyStr); 
-                    setTimeout(() => toast.remove(), 600);
-                };
-
-                document.body.appendChild(toast);
-                setTimeout(() => toast.classList.add('mostrar'), 2000);
-
-            }, 800);
+            seleccionarHeroDestacado(cachePersonajes); // <--- NUEVO: Hero Dinámico
 
         } catch (e) {
             console.error(e);
             mostrarError("Error cargando la galería.");
         }
-
-
     }
 
     // --- LÓGICA DE BOTONES DE FILTRO (TAGS) ---
+    // Función auxiliar para ignorar acentos y mayúsculas
+    const normalizar = (str) => {
+        return String(str || '')
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase()
+            .trim();
+    };
+
     function inicializarFiltros() {
         const contenedorFiltros = document.querySelector('.filter-bar');
         if (!contenedorFiltros) return;
 
         contenedorFiltros.addEventListener('click', (e) => {
             if (e.target.classList.contains('filter-btn')) {
-                // UI: Cambiar botón activo
                 document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
                 e.target.classList.add('active');
 
-                const grupoSeleccionado = e.target.getAttribute('data-grupo');
+                filtroActivo = e.target.getAttribute('data-grupo');
+                aplicarFiltrosUnificados();
                 
-                // Si es "todos", mostrar caché completo, si no, filtrar por la era_grupo
-                const filtrados = (grupoSeleccionado === 'todos') 
-                    ? cachePersonajes 
-                    : cachePersonajes.filter(p => p.era_grupo === grupoSeleccionado);
-
-                // Si filtramos por era, ocultamos los títulos de AT/NT para que se vea como una sola galería limpia
-                mostrarTitulos(grupoSeleccionado === 'todos');
-                renderizarListasPortada(filtrados);
-                
-                // Scroll suave arriba al filtrar
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             }
         });
     }
 
-   // --- 🔍 LÓGICA DEL BUSCADOR (CORREGIDA Y BLINDADA) ---
     function inicializarBuscador() {
         if (!inputBuscador) return;
+        const btnClear = document.getElementById('btn-clear-search');
 
         inputBuscador.addEventListener('input', (e) => {
-            const termino = e.target.value.toLowerCase().trim();
-
-            if (termino === '') {
-                // Si está vacío, mostramos todo
-                renderizarListasPortada(cachePersonajes);
-                mostrarTitulos(true);
-            } else {
-                // Filtramos
-                const filtrados = cachePersonajes.filter(p => {
-                    // 🛡️ PROTECCIÓN TOTAL DE TIPOS
-                    // Convertimos todo a String() antes de usar toLowerCase()
-                    // Así, si 'lugares' es un Array ["A", "B"], se convierte en texto "A,B" y no da error.
-                    
-                    const nombre = String(p.nombre || '').toLowerCase();
-                    const titular = String(p.titular || '').toLowerCase();
-                    const resumen = String(p.resumen || '').toLowerCase();
-                    
-                    // Aquí estaba el error:
-                    const lugares = String(p.datos?.lugares || '').toLowerCase(); 
-                    
-                    // También buscamos en ocupación por si acaso
-                    const ocupacion = String(p.datos?.ocupacion || '').toLowerCase();
-
-                    return nombre.includes(termino) || 
-                           titular.includes(termino) || 
-                           lugares.includes(termino) ||
-                           ocupacion.includes(termino) ||
-                           resumen.includes(termino);
-                });
-                
-                renderizarListasPortada(filtrados);
-                mostrarTitulos(false); 
+            terminoBusqueda = e.target.value; // Guardamos el original para el input
+            
+            // Mostrar/Ocultar botón X
+            if (btnClear) {
+                btnClear.style.display = terminoBusqueda.trim() === '' ? 'none' : 'flex';
             }
+
+            aplicarFiltrosUnificados();
         });
+
+        if (btnClear) {
+            btnClear.addEventListener('click', () => {
+                inputBuscador.value = '';
+                terminoBusqueda = '';
+                btnClear.style.display = 'none';
+                aplicarFiltrosUnificados();
+                inputBuscador.focus();
+            });
+        }
     }
 
-    function mostrarTitulos(visible) {
-        // Oculta/Muestra los H2 de las secciones
-        const titulos = document.querySelectorAll('.section-title'); 
-        titulos.forEach(t => t.style.display = visible ? 'block' : 'none');
+    function aplicarFiltrosUnificados() {
+        // 1. Filtrar por categoría
+        let filtrados = (filtroActivo === 'todos') 
+            ? cachePersonajes 
+            : cachePersonajes.filter(p => p.era_grupo === filtroActivo);
+
+        // 2. Filtrar por término de búsqueda (sobre el resultado anterior)
+        if (terminoBusqueda.trim() !== '') {
+            const busquedaLimpia = normalizar(terminoBusqueda);
+
+            filtrados = filtrados.filter(p => {
+                const nombre = normalizar(p.nombre);
+                const titular = normalizar(p.titular);
+                const lugares = normalizar(p.datos?.lugares); 
+                const ocupacion = normalizar(p.datos?.ocupacion);
+                const resumen = normalizar(p.resumen_puro || p.resumen);
+
+                return nombre.includes(busquedaLimpia) || 
+                       titular.includes(busquedaLimpia) || 
+                       lugares.includes(busquedaLimpia) ||
+                       ocupacion.includes(busquedaLimpia) ||
+                       resumen.includes(busquedaLimpia);
+            });
+        }
+
+        // UI: Ocultar títulos AT/NT si hay filtros o búsqueda activa
+        // (Ahora se maneja automáticamente dentro de renderizarListasPortada)
+        
+        renderizarListasPortada(filtrados);
     }
+
+    window.limpiarTodo = function() {
+        // Reset variables
+        filtroActivo = 'todos';
+        terminoBusqueda = '';
+        
+        // UI: Reset input
+        if (inputBuscador) inputBuscador.value = '';
+        const btnClear = document.getElementById('btn-clear-search');
+        if (btnClear) btnClear.style.display = 'none';
+
+        // UI: Reset filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('data-grupo') === 'todos') btn.classList.add('active');
+        });
+
+        // Aplicar
+        aplicarFiltrosUnificados();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     // --- RENDERIZADO DE PORTADA ---
     function renderizarListasPortada(lista) {
-        console.log(`📥 Procesando ${lista.length} personajes...`);
+        const filaResultados = document.getElementById('fila-resultados');
+        const seccionResultados = document.getElementById('seccion-resultados');
         
-        if(filaAT) filaAT.innerHTML = '';
-        if(filaNT) filaNT.innerHTML = '';
+        // Nuevas filas
+        const filaTop = document.getElementById('fila-top');
+        const filaMujeres = document.getElementById('fila-mujeres');
+        
+        const titleAT = document.getElementById('title-at');
+        const titleNT = document.getElementById('title-nt');
+        const titleTop = document.getElementById('title-top');
+        const titleMujeres = document.getElementById('title-mujeres');
+
+        const carousels = [
+            filaAT?.parentElement, 
+            filaNT?.parentElement, 
+            filaTop?.parentElement, 
+            filaMujeres?.parentElement
+        ];
+
+        // Limpiar todo
+        [filaAT, filaNT, filaTop, filaMujeres, filaResultados].forEach(f => { if(f) f.innerHTML = ''; });
+
+        const esBusqueda = (filtroActivo !== 'todos' || terminoBusqueda.trim() !== '');
 
         if (lista.length === 0) {
-            if(filaAT) filaAT.innerHTML = '<div style="grid-column: 1/-1; text-align:center; padding:2rem; color:#94a3b8;">No se encontraron personajes con ese nombre.</div>';
+            // Manejar caso sin resultados
+            seccionResultados?.classList.remove('hidden');
+            [...carousels, titleAT, titleNT, titleTop, titleMujeres].forEach(el => el?.classList.add('hidden'));
+
+            if(filaResultados) {
+                filaResultados.innerHTML = `
+                    <div style="grid-column: 1/-1; text-align:center; padding:3rem 1rem; color:#94a3b8; width: 100%;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🔍</div>
+                        <h3 style="color: white; margin-bottom: 0.5rem;">No se encontraron personajes</h3>
+                        <p style="margin-bottom: 1.5rem;">Prueba con otro nombre o limpia los filtros.</p>
+                        <button onclick="limpiarTodo()" style="background:rgba(212, 180, 131, 0.1); border:1px solid #d4b483; color:#d4b483; padding:8px 20px; border-radius:20px; cursor:pointer;">
+                            Limpiar todo
+                        </button>
+                    </div>
+                `;
+            }
             return;
         }
 
-        lista.forEach(p => {
-            // Nota: Ya vienen normalizados desde cargarPortada, pero por seguridad:
-            // const p = normalizarPersonaje(itemOriginal); <--- Ya no es necesario aquí si usamos caché normalizada
+        // --- INTERFAZ DINÁMICA ---
+        if (esBusqueda) {
+            seccionResultados?.classList.remove('hidden');
+            [...carousels, titleAT, titleNT, titleTop, titleMujeres].forEach(el => el?.classList.add('hidden'));
+        } else {
+            seccionResultados?.classList.add('hidden');
+            [...carousels, titleAT, titleNT, titleTop, titleMujeres].forEach(el => el?.classList.remove('hidden'));
+        }
 
-            // FILTRO ANTI-FANTASMAS
+        // Listas especiales para filas temáticas
+        const nombresTop = ['moises', 'david', 'abraham', 'pedro', 'pablo', 'ester', 'maria', 'noe', 'jose', 'salomon'];
+        
+        lista.forEach(p => {
             if (!p || !p.id || !p.nombre) return;
 
-            const card = document.createElement('div');
-            card.className = 'poster-card';
-            card.style.animation = "fadeIn 0.5s ease";
-            card.onclick = () => window.location.href = `perfil.html?id=${p.id}`;
-            
-            // IMAGEN Y RUTAS
-            let rutaImagen = p.imagen || '';
-            if (rutaImagen.startsWith('/')) {
-                rutaImagen = '..' + rutaImagen;
-            } else if (rutaImagen.startsWith('./')) {
-                rutaImagen = rutaImagen.replace('./', '../');
-            }
-            
-            const rutaPlaceholder = '../img/ui/placeholder.webp'; 
-            if (!rutaImagen) rutaImagen = rutaPlaceholder;
+            const card = crearTarjetaPoster(p, esBusqueda);
 
-            card.innerHTML = `
-                <img src="${rutaImagen}" 
-                     class="poster-img" 
-                     loading="lazy" 
-                     alt="${p.nombre}" 
-                     onerror="this.onerror=null; this.src='${rutaPlaceholder}'"> 
-                <div class="poster-overlay">
-                    <div class="poster-name">${p.nombre}</div>
-                    
-                </div>
-            `;
-
-            const testamento = (p.testamento || '').toLowerCase();
-            
-            if (testamento.includes('antiguo')) {
-                if(filaAT) filaAT.appendChild(card);
+            if (esBusqueda) {
+                if(filaResultados) filaResultados.appendChild(card);
             } else {
-                if(filaNT) filaNT.appendChild(card);
+                // Lógica de Categorías Temáticas
+                const testamento = (p.testamento || '').toLowerCase();
+                const esAT = testamento.includes('antiguo');
+
+                // 1. Fila de Mujeres (Detección simple por palabras clave en resumen o familia)
+                const esMujer = p.resumen_puro?.toLowerCase().includes('mujer') || 
+                                p.titular?.toLowerCase().includes('reina') ||
+                                p.id === 'ester' || p.id === 'maria' || p.id === 'rut' || p.id === 'debora';
+                
+                if (esMujer && filaMujeres) {
+                    filaMujeres.appendChild(card.cloneNode(true));
+                    // Nota: cloneNode(true) pierde los event listeners de onclick si se asignaron con JS
+                    // Por eso mejor usamos la función para crear una nueva cada vez o asignamos el onclick después
+                }
+
+                // 2. Fila Top
+                if (nombresTop.includes(p.id) && filaTop) {
+                    filaTop.appendChild(card.cloneNode(true));
+                }
+
+                // 3. Filas Base (AT / NT)
+                if (esAT) {
+                    if(filaAT) filaAT.appendChild(card);
+                } else {
+                    if(filaNT) filaNT.appendChild(card);
+                }
             }
         });
+
+        // Re-asignar clicks a los clones (si los hay)
+        document.querySelectorAll('.poster-card').forEach(c => {
+            const id = c.getAttribute('data-id');
+            if (id) c.onclick = () => window.location.href = `perfil.html?id=${id}`;
+        });
+    }
+
+    function crearTarjetaPoster(p, mostrarBadge) {
+        const card = document.createElement('div');
+        card.className = 'poster-card';
+        card.setAttribute('data-id', p.id);
+        
+        // --- NUEVO: Icono de Rol ---
+        const rolIcon = obtenerIconoRol(p.titular || p.datos?.ocupacion || '');
+        
+        let rutaImagen = p.imagen || '';
+        if (rutaImagen.startsWith('/')) rutaImagen = '..' + rutaImagen;
+        else if (rutaImagen.startsWith('./')) rutaImagen = rutaImagen.replace('./', '../');
+        
+        const rutaPlaceholder = '../img/ui/placeholder.webp'; 
+        if (!rutaImagen) rutaImagen = rutaPlaceholder;
+
+        const testamento = (p.testamento || '').toLowerCase();
+        const esAT = testamento.includes('antiguo');
+        const badgeTestamento = mostrarBadge ? `<span class="badge-testamento">${esAT ? 'A.T.' : 'N.T.'}</span>` : '';
+
+        card.innerHTML = `
+            <img src="${rutaImagen}" class="poster-img" loading="lazy" alt="${p.nombre}" onerror="this.onerror=null; this.src='${rutaPlaceholder}'"> 
+            ${badgeTestamento}
+            <div class="role-icon-badge">${rolIcon}</div>
+            <div class="poster-overlay">
+                <div class="poster-name">${p.nombre}</div>
+            </div>
+        `;
+        
+        card.onclick = () => window.location.href = `perfil.html?id=${p.id}`;
+        return card;
+    }
+
+    // Helper para detectar roles y asignar iconos
+    function obtenerIconoRol(texto) {
+        const t = texto.toLowerCase();
+        if (t.includes('rey') || t.includes('reina')) return '<i class="fas fa-crown"></i>';
+        if (t.includes('profeta') || t.includes('profetisa')) return '<i class="fas fa-scroll"></i>';
+        if (t.includes('guerrero') || t.includes('soldado') || t.includes('juez')) return '<i class="fas fa-shield-alt"></i>';
+        if (t.includes('apostol') || t.includes('discipulo')) return '<i class="fas fa-dove"></i>';
+        if (t.includes('sacerdote')) return '<i class="fas fa-fire-alt"></i>';
+        if (t.includes('patriarca')) return '<i class="fas fa-mountain"></i>';
+        return '<i class="fas fa-user"></i>';
+    }
+
+    // --- NUEVO: FUNCIÓN PARA HERO DINÁMICO ---
+    function seleccionarHeroDestacado(lista) {
+        if (!lista || lista.length === 0) return;
+        
+        // 1. Filtrar personajes con buena imagen y resumen
+        const candidatos = lista.filter(p => p.imagen && p.resumen_puro && p.resumen_puro.length > 50);
+        const destacado = candidatos[Math.floor(Math.random() * candidatos.length)] || lista[0];
+
+        // 2. Elementos del DOM
+        const hTitle = document.getElementById('hero-title');
+        const hDesc = document.getElementById('hero-desc');
+        const hBg = document.getElementById('hero-bg');
+        const hBtn = document.getElementById('btn-hero-main');
+        const hBadge = document.getElementById('hero-badge');
+
+        // 3. Aplicar Cambios con pequeña animación
+        if (hTitle) {
+            hTitle.style.opacity = '0';
+            setTimeout(() => {
+                hTitle.innerText = destacado.nombre.toUpperCase();
+                hTitle.style.opacity = '1';
+            }, 300);
+        }
+
+        if (hDesc) hDesc.innerText = destacado.resumen_puro;
+        
+        if (hBg && destacado.imagen) {
+            let ruta = destacado.imagen;
+            
+            // CORRECCIÓN DE RUTA (Sincronizada con crearTarjetaPoster)
+            if (ruta.startsWith('/')) ruta = '..' + ruta;
+            else if (ruta.startsWith('./')) ruta = ruta.replace('./', '../');
+            
+            // Animación de cambio de imagen
+            hBg.style.transition = 'opacity 0.5s ease';
+            hBg.style.opacity = '0';
+            
+            setTimeout(() => {
+                hBg.src = ruta;
+                hBg.onload = () => hBg.style.opacity = '0.8';
+                hBg.onerror = () => {
+                    hBg.src = 'https://images.unsplash.com/photo-1542401886-65d6c61db217?q=80&w=2070&auto=format&fit=crop';
+                    hBg.style.opacity = '0.5';
+                };
+            }, 300);
+        }
+
+        if (hBtn) {
+            hBtn.onclick = () => window.location.href = `perfil.html?id=${destacado.id}`;
+        }
+
+        // Cambiar el badge aleatoriamente para dar variedad
+        if (hBadge) {
+            const labels = ["RECOMENDADO", "PERSONAJE DEL DÍA", "HISTORIA ÉPICA", "DESTACADO"];
+            hBadge.innerText = labels[Math.floor(Math.random() * labels.length)];
+        }
     }
 
     // --- RENDERIZADO DE PERFIL (CON LIGHTBOX) ---
@@ -295,8 +427,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         setText('p-nombre', p.nombre);
         setText('p-role', p.titular);
         
+        // --- MEJORA: Separación de Perfil Emocional y Resumen ---
+        const emocionalEl = document.getElementById('p-perfil-emocional');
+        if (emocionalEl) {
+            if (p.perfil_emocional_raw) {
+                emocionalEl.innerHTML = `<i class="fas fa-brain"></i> Análisis: ${p.perfil_emocional_raw}`;
+                emocionalEl.style.display = 'inline-flex';
+            } else {
+                emocionalEl.style.display = 'none';
+            }
+        }
+
         const resumenEl = document.getElementById('p-resumen');
-        if (resumenEl) resumenEl.innerHTML = p.resumen;
+        if (resumenEl) {
+            resumenEl.innerHTML = p.resumen_puro;
+            // Añadimos clase para letra capitular si el texto es largo
+            if (p.resumen_puro.length > 50) {
+                resumenEl.classList.add('has-dropcap');
+            }
+        }
 
         // 3. IMAGEN (CON ZOOM / LIGHTBOX)
         const imgEl = document.getElementById('p-foto');
@@ -330,22 +479,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         setText('p-curioso', p.dato_curioso || "No registrado.");
         setText('p-conexion', p.conexion_jesus || "Pendiente.");
 
-        // 7. TIMELINE
+        // 7. TIMELINE MEJORADA (VISUAL)
         const timeline = document.getElementById('p-timeline');
         if (timeline) {
             timeline.innerHTML = '';
             if (p.hitos && p.hitos.length > 0) {
-                p.hitos.forEach(h => {
-                    timeline.innerHTML += `
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <span class="timeline-year">${h.anio}</span>
-                                <p>${h.evento}</p>
-                            </div>
+                const wrapper = document.createElement('div');
+                wrapper.className = 'visual-timeline-track';
+                
+                p.hitos.forEach((h, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'timeline-visual-node';
+                    item.style.animationDelay = `${index * 0.1}s`;
+                    item.innerHTML = `
+                        <div class="node-marker"></div>
+                        <div class="node-content">
+                            <span class="node-year">${h.anio}</span>
+                            <p class="node-event">${h.evento}</p>
                         </div>
                     `;
+                    wrapper.appendChild(item);
                 });
+                timeline.appendChild(wrapper);
             } else {
                 timeline.innerHTML = "<p style='color:#666; font-style:italic; padding:10px'>Sin hitos registrados.</p>";
             }
@@ -408,6 +563,67 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (typeof configurarBotonesCompartir === 'function') {
             configurarBotonesCompartir(p);
         }
+
+        // --- 11. MEJORAS DE UX LECTOR: BARRA DE PROGRESO Y CONTROL DE FUENTE ---
+        
+        // A) Inyectar Barra de Progreso
+        const progressContainer = document.createElement('div');
+        progressContainer.className = 'reading-progress-container';
+        progressContainer.innerHTML = '<div id="reading-progress" class="reading-progress-bar"></div>';
+        document.body.appendChild(progressContainer);
+
+        window.addEventListener('scroll', () => {
+            const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrolled = (winScroll / height) * 100;
+            const bar = document.getElementById("reading-progress");
+            if (bar) bar.style.width = scrolled + "%";
+        });
+
+        // B) Inyectar Control de Fuente
+        const fontWrapper = document.createElement('div');
+        fontWrapper.className = 'font-control-wrapper';
+        fontWrapper.innerHTML = `
+            <button id="btn-font-toggle" class="btn-font-toggle" title="Ajustar texto">
+                <i class="fas fa-font"></i>
+            </button>
+            <div id="font-panel" class="font-control-panel">
+                <button id="btn-font-up" class="btn-font-action" title="Aumentar">A+</button>
+                <button id="btn-font-down" class="btn-font-action" title="Disminuir">A-</button>
+            </div>
+        `;
+        document.body.appendChild(fontWrapper);
+
+        const btnToggle = document.getElementById('btn-font-toggle');
+        const fontPanel = document.getElementById('font-panel');
+
+        // Aplicamos tamaño guardado o base usando Variables CSS
+        let currentSize = parseInt(localStorage.getItem('codice_font_size')) || 18; 
+        document.documentElement.style.setProperty('--bio-size', currentSize + 'px');
+
+        btnToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            fontPanel.classList.toggle('active');
+        });
+
+        document.getElementById('btn-font-up').addEventListener('click', () => {
+            if (currentSize < 30) {
+                currentSize += 2;
+                document.documentElement.style.setProperty('--bio-size', currentSize + 'px');
+                localStorage.setItem('codice_font_size', currentSize);
+            }
+        });
+
+        document.getElementById('btn-font-down').addEventListener('click', () => {
+            if (currentSize > 14) {
+                currentSize -= 2;
+                document.documentElement.style.setProperty('--bio-size', currentSize + 'px');
+                localStorage.setItem('codice_font_size', currentSize);
+            }
+        });
+
+        document.addEventListener('click', () => fontPanel.classList.remove('active'));
+        fontPanel.addEventListener('click', (e) => e.stopPropagation());
         
     }
 
@@ -603,6 +819,16 @@ function configurarBotonesCompartir(p) {
     // --- MENÚ ECOSISTEMA ---
     const btnLauncher = document.getElementById('btn-launcher');
     const ecoMenu = document.getElementById('eco-menu');
+    const nav = document.querySelector('.netflix-nav');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            nav?.classList.add('scrolled');
+        } else {
+            nav?.classList.remove('scrolled');
+        }
+    });
+
     if (btnLauncher && ecoMenu) {
         btnLauncher.addEventListener('click', (e) => { e.stopPropagation(); ecoMenu.classList.toggle('active'); btnLauncher.style.transform = ecoMenu.classList.contains('active') ? 'rotate(90deg)' : 'rotate(0deg)'; });
         document.addEventListener('click', (e) => { if (!ecoMenu.contains(e.target) && !btnLauncher.contains(e.target)) { ecoMenu.classList.remove('active'); btnLauncher.style.transform = 'rotate(0deg)'; }});
@@ -622,8 +848,11 @@ function configurarBotonesCompartir(p) {
             else if (p.aplicacion_personal?.leccion_clave) versiculoAdaptado = { texto: p.aplicacion_personal.leccion_clave, cita: "Lección Clave" };
 
             const simbologiaTexto = p.analisis_profundo?.simbologia ? p.analisis_profundo.simbologia.map(s => `🔮 ${s.objeto}: ${s.significado}`) : [];
-            let resumenFinal = p.narrativa?.resumen_epico || "Sin biografía.";
-            if (p.analisis_profundo?.perfil_emocional) resumenFinal = `<strong style="color:#94a3b8; display:block; margin-bottom:8px;">🧠 Perfil: ${p.analisis_profundo.perfil_emocional}</strong>` + resumenFinal;
+            
+            // --- NUEVO: Extraemos los campos por separado ---
+            const perfilEmocionalRaw = p.analisis_profundo?.perfil_emocional || "";
+            const resumenPuro = p.narrativa?.resumen_epico || "Sin biografía.";
+
             const librosTexto = p.contexto?.libros_aparicion ? p.contexto.libros_aparicion.join(", ") : (p.libro_origen || "-");
 
             return {
@@ -631,7 +860,8 @@ function configurarBotonesCompartir(p) {
                 nombre: p.perfil.nombre,
                 titular: `${p.perfil.titulo_corto} ${p.perfil.significado_nombre ? `• "${p.perfil.significado_nombre}"` : ''}`,
                 imagen: p.perfil.imagen,
-                resumen: resumenFinal,
+                perfil_emocional_raw: perfilEmocionalRaw,
+                resumen_puro: resumenPuro,
                 dato_curioso: p.narrativa?.dato_curioso,
                 conexion_jesus: p.narrativa?.conexion_jesus,
                 analisis: {
@@ -681,8 +911,6 @@ function renderizarFooter() {
 }
 
 // Ejecutamos la función automáticamente al cargar
-// (Si ya tienes un addEventListener DOMContentLoaded, puedes llamar a renderizarFooter() dentro,
-// o dejar esta línea suelta al final del archivo para que se ejecute sola)
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', renderizarFooter);
 } else {
@@ -690,92 +918,78 @@ if (document.readyState === 'loading') {
 }
 });
 
+/**
+ * Sistema Unificado de Retorno Inteligente
+ */
 function manejarNavegacionRetorno() {
     const params = new URLSearchParams(window.location.search);
     const retornoId = params.get('retorno'); // Caso A: Viene de Onomastiko (URL)
-    const rastroRaw = sessionStorage.getItem('rastro_estudio'); // Caso B: Viene de Cronos (Session)
+    const rastroRaw = sessionStorage.getItem('rastro_estudio'); // Caso B: Viene de Imagen de Dios / Cronos
 
-    // 1. Prioridad: Retorno a Onomastiko (el que estamos creando hoy)
+    // 1. Retorno a Onomastiko (Perfil de nombre)
     if (retornoId) {
-        crearBotonNavegacion(`🆔 Volver al Perfil`, `../onomastiko/nombre.html?id=${retornoId}`, "#fbbf24");
-        return; // Si venimos de Onomastiko, priorizamos este regreso
-    }
-
-    // 2. Segundo caso: Retorno a Cronos (tu sistema anterior)
-    if (rastroRaw) {
+        crearBotonNavegacion(`🆔 Regresar al Perfil`, `../onomastiko/nombre.html?id=${retornoId}`, "#fbbf24");
+    } 
+    // 2. Retorno al Ecosistema (Imagen de Dios / Estudios)
+    else if (rastroRaw) {
         try {
             const rastro = JSON.parse(rastroRaw);
             if (rastro.url) {
-                crearBotonNavegacion(`⬅ Volver a: ${rastro.nombrePersonaje || 'Mapa'}`, rastro.url, "#d4b483", true);
+                crearBotonNavegacion(`<i class="fas fa-arrow-left"></i> Volver al Estudio: ${rastro.nombrePersonaje || 'Enseñanza'}`, rastro.url, "#d4b483");
             }
         } catch (e) { console.error("Error rastro:", e); }
     }
 }
 
-// Función auxiliar para no repetir código de creación de botones
-function crearBotonNavegacion(texto, url, colorAcento, esCronos = false) {
+function crearBotonNavegacion(texto, url, colorAcento) {
     const btn = document.createElement('button');
+    btn.id = 'btn-retorno-huellas';
     btn.innerHTML = texto;
-    // Estilo unificado para que no tape el contenido
-    btn.style = `
-        position: fixed; top: 20px; left: 20px; z-index: 1100; 
-        background: #1e293b; color: ${colorAcento}; border: 1px solid ${colorAcento}; 
-        padding: 10px 18px; border-radius: 25px; cursor: pointer; 
-        font-weight: bold; box-shadow: 0 10px 25px rgba(0,0,0,0.5); 
-        transition: all 0.3s ease; font-family: 'Merriweather', serif;
+    
+    btn.style.cssText = `
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 5000;
+        background: rgba(15, 23, 42, 0.9);
+        border: 1px solid ${colorAcento};
+        color: ${colorAcento};
+        padding: 10px 18px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-family: 'Inter', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        backdrop-filter: blur(5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
     `;
     
     btn.onmouseover = () => {
         btn.style.background = colorAcento;
         btn.style.color = "#0f172a";
-        btn.style.transform = "translateY(-2px)";
+        btn.style.transform = "scale(1.05)";
     };
     btn.onmouseout = () => {
-        btn.style.background = "#1e293b";
+        btn.style.background = "rgba(15, 23, 42, 0.9)";
         btn.style.color = colorAcento;
-        btn.style.transform = "translateY(0)";
+        btn.style.transform = "scale(1)";
     };
 
-    btn.onclick = () => {
-        if (esCronos) sessionStorage.removeItem('rastro_estudio');
-        window.location.href = url;
-    };
-    
+    btn.onclick = () => window.location.href = url;
     document.body.appendChild(btn);
 }
+
 // =====================================================================
-// --- SISTEMA INTEGRAL DE ECOSISTEMA Y GAMIFICACIÓN (HUELLAS) ---
+// --- SISTEMA INTEGRAL DE GAMIFICACIÓN (HUELLAS) ---
 // =====================================================================
 
 document.addEventListener('DOMContentLoaded', () => {
     manejarNavegacionRetorno();
-    // 1. BOTÓN DE RETORNO UNIVERSAL
-    const rastroGuardado = sessionStorage.getItem('rastro_estudio');
     
-    if (rastroGuardado) {
-        try {
-            const rastro = JSON.parse(rastroGuardado);
-            
-            if (rastro.url) {
-                const btnVolver = document.createElement('button');
-                btnVolver.innerHTML = `⬅ Volver a: ${rastro.nombrePersonaje}`;
-                btnVolver.style = "position: fixed; top: 20px; left: 20px; z-index: 1000; background: #d4b483; color: #0f172a; border: none; padding: 10px 15px; border-radius: 20px; cursor: pointer; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: transform 0.2s;";
-                
-                btnVolver.onmouseover = () => btnVolver.style.transform = "scale(1.05)";
-                btnVolver.onmouseout = () => btnVolver.style.transform = "scale(1)";
-
-                btnVolver.onclick = () => {
-                    sessionStorage.removeItem('rastro_estudio');
-                    window.location.href = rastro.url; 
-                };
-                
-                document.body.appendChild(btnVolver);
-            }
-        } catch (error) {
-            console.error("Error leyendo el rastro del ecosistema:", error);
-        }
-    }
-
     // 2. SISTEMA DE LOGROS Y AUDIO AL LEER EL PERFIL (HUELLAS)
     setTimeout(() => {
         const targetElement = document.getElementById('huellas-share-section') || document.getElementById('p-relacionados-container');

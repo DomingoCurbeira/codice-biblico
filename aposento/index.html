@@ -47,6 +47,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+    <div class="sanctuary-overlay"></div>
+    <div class="overlay-texture"></div>
 
     <div id="pantalla-inicio" class="container">
         
@@ -58,12 +60,11 @@
                         <h1>El Aposento</h1>
                     </div>
                 </div>
-                <button id="btn-launcher" class="btn-launcher" aria-label="Abrir Ecosistema">
-                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M4 4h4v4H4V4zm6 0h4v4h-4V4zm6 0h4v4h-4V4zM4 10h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4zM4 16h4v4H4v-4zm6 0h4v4h-4v-4zm6 0h4v4h-4v-4z"/></svg>
-                </button>
             </div>
             <p class="subtitle">¿Cómo está tu corazón hoy?</p>
         </header>
+
+        <div id="filter-bar" class="filter-bar"></div>
 
         <div id="lista-temas" class="grid-temas"></div>
     </div>
@@ -80,13 +81,13 @@
         </button>
 
         <main class="card-oracion">
-            <h2 id="titulo-oracion" style="font-family:'Lora', serif; color:#d4b483; font-size:1.8rem; margin-bottom:0.5rem;">Cargando...</h2>
-            <p id="cita-biblica" class="cita" style="color:#9ca3af; font-style:italic; margin-bottom:1.5rem;">...</p>
+            <h2 id="titulo-oracion" class="titulo">Cargando...</h2>
+            <p id="cita-biblica" class="cita">...</p>
             
-            <div class="divider" style="height:1px; background:#374151; margin-bottom:1.5rem;"></div>
+            <div class="divider"></div>
             
-            <div id="texto-oracion" class="texto-lectura" style="line-height:1.8; font-size:1.1rem; color:#e5e7eb;">
-                </div>
+            <div id="texto-oracion" class="texto-lectura">
+            </div>
         </main>
     </div>
 
@@ -97,43 +98,16 @@
         <p id="estado-audio" class="status-text">Listo para orar</p>
     </div>
 
-    <div id="eco-menu" class="eco-menu hidden">
-        <div class="menu-grid">
-            <a href="../cronos/index.html" class="menu-item">
-                <span class="icon">🌍</span><span>Cronos</span>
-            </a>
-            <a href="../huellas/index.html" class="menu-item">
-                <span class="icon huellas">👣</span><span>Huellas</span>
-            </a>
-            <a href="../mana/index.html" class="menu-item">
-                <span class="icon">🍞</span><span>Maná</span>
-            </a>
-            <a href="../a_imagen_de_Dios/index.html" class="menu-item ">
-                <span class="icon">🎓</span><span> Imagen</span>
-            </a>
-            <a href="../onomastiko/index.html" class="menu-item">
-                <span class="icon">🆔</span>
-                <span>Onomastiko</span>
-            </a>
-            <a href="../etymos/index.html" class="menu-item ">
-                    <span class="icon">🔍</span>
-                    <span>Etymos</span>
-                </a>
-            <a href="../notas/index.html" class="menu-item"> <span class="icon">📝</span><span>Escriba</span>
-            </a>
-            <a href="../juego/index.html" class="menu-item">
-                <span class="icon">🛡️</span><span>Virtus</span>
-            </a>
-            
-        </div>
-    </div>
+    
 
     <audio id="musica-fondo" loop>
         <source src="audio/fondo.mp3" type="audio/mpeg">
     </audio>
 
     <script src="js/app.js"></script>
+    <script src="../js/ecosistema-hub.js"></script>.
     <script src="../js/global-hub.js"></script>
+    
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
