@@ -6113,7 +6113,7 @@
   },
   {
     "id": "shekhinah-el-arca-del-pacto",
-    "activo": true,
+    "activo": false,
     "fecha_programada": "2026-05-15",
     "tipo": "tematico",
     "titulo": "El Arca del Pacto: El Epicentro de la Gloria",
