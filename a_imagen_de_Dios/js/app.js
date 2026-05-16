@@ -1,3 +1,4 @@
+// Códice Bíblico - v1.1 Premium Build
 let estudios = [];
 
 document.addEventListener('DOMContentLoaded', async () => {
