@@ -24,7 +24,7 @@ migrar_mana.js
 webp.js
 reorganizar_personajes.js
 comparar.js
-netlify.js
+# netlify.js (removed from ignore to allow auto-build)
 
 # Archivos de auditoría y generadores internos
 auditoria.html
