@@ -2140,7 +2140,7 @@
   },
   {
     "id": "josue-jurisdiccion-conquista",
-    "activo": true,
+    "activo": false,
     "fecha_programada": "2026-05-16",
     "tipo": "huellas",
     "titulo": "Josué: La Jurisdicción de la Conquista",
