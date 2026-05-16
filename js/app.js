@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (dashLogros) dashLogros.innerText = `🏆 ${perfil.logros.length}`;
 
         // Lógica de "Continuar donde lo dejaste"
-        const rastro = JSON.parse(sessionStorage.getItem('rastro_estudio'));
+        const rastro = JSON.parse(localStorage.getItem('rastro_estudio'));
         if (rastro && rastro.url && shortcutContinue) {
             shortcutContinue.style.opacity = "1";
             shortcutContinue.style.cursor = "pointer";

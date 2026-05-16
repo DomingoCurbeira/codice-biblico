@@ -1,162 +1,139 @@
 {
-    "id": "ismael-bendicion-semilla-desplazada",
-    "activo": true,
-    "fecha_programada": "2026-05-06",
-    "tipo": "huellas",
-    "titulo": "Ismael: La Bendición de la Semilla Desplazada",
-    "subtitulo": "La Fidelidad del Creador hacia el Origen y la Identidad",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "15 min",
-    "imagen_portada": "../img/estudios/ismael-desierto.webp",
-    "tags": [
-      "Identidad",
-      "Soberanía",
-      "Exégesis",
-      "Justicia"
-    ],
-    "versiculo_clave": {
-      "texto": "Y también del hijo de la sierva haré una nación, porque es tu descendencia.",
-      "cita": "Génesis 21:13"
+  "id": "ismael-misterio-semilla-desplazada",
+  "activo": true,
+  "fecha_programada": "2026-05-14",
+  "tipo": "huellas",
+  "titulo": "Ismael: El Misterio de la Semilla Desplazada",
+  "subtitulo": "Revelación del Diseño Divino sobre el Origen y la Identidad",
+  "autor": "Códice Bíblico",
+  "fecha_publicacion": "Mayo 2026",
+  "tiempo_lectura": "20 min",
+  "imagen_portada": "../img/estudios/ismael-desierto.webp",
+  "tags": [
+    "Identidad",
+    "Soberanía",
+    "Cristocentrismo",
+    "Exégesis"
+  ],
+  "versiculo_clave": {
+    "texto": "Y también del hijo de la sierva haré una nación, porque es tu descendencia.",
+    "cita": "Génesis 21:13"
+  },
+  "contenido": [
+    {
+      "tipo": "seccion_titulo",
+      "texto": "I. El Escenario del Espíritu (Contexto)"
     },
-    "contenido": [
-      {
-        "tipo": "imagen",
-        "url": "../img/estudios/ismael-agar-desterrados.webp",
-        "descripcion": "Dios respondiendo al diseño de Ismael en medio de su desplazamiento."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Lente del Exégeta (Contexto y Lexicografía)"
-      },
-      {
-        "tipo": "parrafo",
-        "texto": "Para entender este protocolo, debemos mirar el nombre Ismael. En el diseño del Reino, los nombres no son etiquetas, sino asignaciones. Su historia no es un relato de rechazo, sino un despliegue de Jurisdicción Divina."
-      },
-      {
-        "tipo": "lexico",
-        "termino": "Ismael (יִשְׁמָעֵאל - Yishma'el)",
-        "idioma": "Hebreo",
-        "significado": "Significa 'Dios oirá'. No fue una elección humana, sino una asignación divina dada en el desierto antes de su nacimiento (Génesis 16:11). Dios estaba decretando: 'No importa dónde estés, Yo siempre tendré el oído inclinado a tu diseño'."
-      },
-      {
-        "tipo": "lexico",
-        "termino": "Zera (זֶרַע)",
-        "idioma": "Hebreo",
-        "significado": "Semilla o descendencia. Dios bendice a Ismael no por su conducta, sino por su ORIGEN. Él portaba el ADN del hombre del Pacto (Abraham), y Dios es fiel a Su propia semilla."
-      },
-      {
-        "tipo": "lexico",
-        "termino": "Ekballō (ἐκβάλλω)",
-        "idioma": "Griego",
-        "significado": "Lanzar fuera o enviar fuera. Aunque humanamente suena a expulsión, en el diseño soberano es un 'lanzamiento' hacia un nuevo territorio. Ser enviado fuera de una estructura humana no significa ser lanzado fuera del ojo de Dios."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "subtitulo",
-        "texto": "1. La Justicia del Origen: El Valor de lo que Portas"
-      },
-      {
-        "tipo": "parrafo",
-        "texto": "El Creador no olvida el linaje. Dios le confirma a Abraham que Ismael recibirá una bendición precisamente por ser su semilla. En el diseño del Reino, nada queda al azar; tu identidad no se borra por los cambios de geografía o de estatus relacional."
-      },
-      {
-        "tipo": "puente",
-        "texto": "<strong>Reflexión Pastoral:</strong> Tu valor no depende de si estás en 'la tienda de Abraham' (la estructura cómoda), sino de quién es tu Padre Celestial. Si Él te permitió nacer, Él tiene la obligación legal de sostenerte. No permitas que el sistema humano invalide lo que el cielo ya selló."
-      },
-      {
-        "tipo": "concordancia",
-        "referencias": [
-          {
-            "cita": "Romanos 11:29",
-            "texto": "Porque irrevocables son los dones y el llamamiento de Dios."
-          },
-          {
-            "cita": "Salmos 139:16",
-            "texto": "Mi embrión vieron tus ojos, y en tu libro estaban escritas todas aquellas cosas..."
-          }
-        ]
-      },
-      {
-        "tipo": "subtitulo",
-        "texto": "2. El Dios que Oye en el Desierto"
-      },
-      {
-        "tipo": "parrafo",
-        "texto": "Ismael representa la revelación de que el auxilio divino llega precisamente en el lugar de la escasez. Cuando el agua se acabó en el desierto de Beerseba, ocurrió un protocolo asombroso: Dios no oyó la queja de la madre, sino la voz del muchacho (Génesis 21:17)."
-      },
-      {
-        "tipo": "destacado",
-        "texto": "Dios no responde a tu queja, responde a tu Identidad. El desierto no es un lugar de abandono, sino un portal de sintonía donde Dios manifiesta que Él es el Dios que oye."
-      },
-      {
-        "tipo": "subtitulo",
-        "texto": "3. Un Futuro con Diseño y Multiplicación"
-      },
-      {
-        "tipo": "parrafo",
-        "texto": "Ismael recibió una promesa de multiplicación que resuena hasta el día de hoy. Esto nos enseña que el desplazamiento humano a menudo es el preludio de una expansión divina. Lo que el hombre llama 'rechazo', Dios lo llama 'preparación para el gobierno'."
-      },
-      {
-        "tipo": "puente",
-        "texto": "<strong>Puente al Hoy:</strong> Un despido, una traición o un cambio forzoso pueden ser el 'lanzamiento' (ekballō) necesario para que dejes de ser sombra de otros y te conviertas en cabeza de tu propio territorio. El desierto es el gimnasio donde se entrena el carácter de los que van a gobernar."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Práctica"
-      },
-      {
-        "tipo": "aplicacion",
-        "items": [
-          "<strong>Reconoce tu Linaje:</strong> Deja de verte como alguien 'olvidado'. Declara hoy: 'Mi situación presente no anula mi origen eterno'.",
-          "<strong>Sintoniza en el Desierto:</strong> No pelees contra tu temporada de soledad; úsala para escuchar la voz que te llama por tu nombre.",
-          "<strong>Opera desde la Bendición:</strong> Entiende que tu futuro no depende de la aprobación de las estructuras humanas, sino del diseño que el Creador escribió sobre tu identidad."
-        ]
-      }
-    ],
-    "gamificacion": {
-      "xp_lectura": 150,
-      "logro_id": "semilla-preservada"
+    {
+      "tipo": "contexto_historico",
+      "titulo": "Jurisdicción y Linaje en el Antiguo Cercano Oriente",
+      "texto": "En la cultura de Abraham, el hijo de una sierva podía ser heredero legal si el padre lo reconocía. El desplazamiento de Ismael no fue un error administrativo, sino una colisión entre el esfuerzo humano (Agar) y la promesa divina (Sara). Dios interviene no para validar el error de Abraham, sino para honrar Su propia Semilla."
     },
-    "diccionario": [
-      {
-        "word": "Beer-lahai-roi",
-        "origin": "Hebreo",
-        "meaning": "Significa 'El Pozo del Viviente que me ve'. Fue el lugar donde Agar tuvo su primer encuentro con el Ángel de Jehová."
-      }
-    ],
-    "desafio_practico": "Identifica un área donde te sientas 'desplazado' y declara hoy que Dios oye tu voz en ese lugar.",
-    "connections": {
-      "huellas": [
+    {
+      "tipo": "lexico_profundo",
+      "termino": "Yishma'el (יִשְׁמָעֵאל)",
+      "idioma": "Hebreo",
+      "raiz": "Shama (Oír) + El (Dios)",
+      "significado": "Dios oirá / Dios escucha",
+      "revelacion": "El nombre es un decreto eterno. No es un recordatorio de lo que Ismael hizo, sino de lo que Dios es: Aquel que inclina Su oído ante el diseño que Él mismo implantó en la semilla."
+    },
+    {
+      "tipo": "seccion_titulo",
+      "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+    },
+    {
+      "tipo": "revelacion_atributo",
+      "atributo": "Soberanía e Inmutabilidad",
+      "texto": "Vemos a un Dios que no se retracta. Aunque Ismael no era el heredero del Pacto de la Promesa (Isaac), era portador del ADN de Abraham. La Inmutabilidad de Dios le obliga legalmente a bendecir lo que proviene de Su siervo. Tu pasado o tu origen 'irregular' no anulan la soberanía de Dios sobre tu propósito."
+    },
+    {
+      "tipo": "cristocentrico",
+      "titulo": "El Eco del Mesías en el Desierto",
+      "texto": "Ismael, el hijo 'lanzado fuera' (ekballō), prefigura la experiencia del remanente y, en última instancia, de Cristo mismo, quien fue 'despreciado y desechado entre los hombres'. Así como Dios proveyó un pozo para Ismael cuando el agua se agotó, Cristo se manifiesta como la Roca que da agua en nuestros desiertos de rechazo."
+    },
+    {
+      "tipo": "alerta_doctrinal",
+      "titulo": "Cuidado con el 'Sentimiento de Rechazo'",
+      "texto": "Es un error teológico pensar que el desplazamiento de Ismael fue un castigo. Fue un posicionamiento. No confundas la disciplina de las circunstancias con el abandono del Padre. El desierto de Ismael fue el lugar de su mayor visitación."
+    },
+    {
+      "tipo": "mapa_intertextual",
+      "titulo": "La Biblia se Explica a Sí Misma",
+      "referencias": [
         {
-          "id": "agar",
-          "nombre": "Agar",
-          "razon": "La mujer que reconoció a Dios como 'El Dios que ve' en medio de su expulsión."
+          "cita": "Gálatas 4:22-31",
+          "explicacion": "Pablo usa la historia de Ismael e Isaac para ilustrar la diferencia entre vivir bajo la Ley (esfuerzo humano) y vivir bajo la Gracia (promesa)."
+        },
+        {
+          "cita": "Salmos 139:16",
+          "explicacion": "Confirma que el 'embrión' de Ismael ya tenía un libro escrito por Dios, independientemente de la crisis familiar de Abraham."
         }
-      ],
-      "cronos": [
+      ]
+    },
+    {
+      "tipo": "seccion_titulo",
+      "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+    },
+    {
+      "tipo": "aplicacion_leche",
+      "titulo": "Para el Nuevo Creyente: Tu Padre te Oye",
+      "items": [
         {
-          "id": "paran",
-          "nombre": "Desierto de Parán",
-          "razon": "Lugar de expansión soberana e independencia de la provisión divina."
+          "punto": "Identifica tu 'desierto' actual y deja de quejarte con los hombres.",
+          "ejemplo": "Si hoy te sientes ignorado por tus amigos o familia, recuerda que Dios oyó la voz del muchacho Ismael antes que la de su madre. Él te oye por quien eres, no por quién te acompaña."
+        },
+        {
+          "punto": "Acepta que Dios te ama por Tu Identidad, no por tu conducta perfecta.",
+          "ejemplo": "Aunque Ismael fue fruto de un plan humano apresurado, Dios lo bendijo por ser semilla de Abraham. Tú eres semilla de Dios por la fe."
         }
-      ],
-      "etymos": [
+      ]
+    },
+    {
+      "tipo": "aplicacion_solida",
+      "titulo": "Para el Maduro: De la Tienda al Territorio",
+      "items": [
         {
-          "id": "shama",
-          "nombre": "Shama (Oír)",
-          "razon": "La raíz hebrea que activa la respuesta del Creador basada en la identidad."
-        }
-      ],
-      "aposento": [
+          "punto": "Discierne si tu actual 'desplazamiento' es en realidad un lanzamiento divino.",
+          "ejemplo": "Si te han quitado de un puesto de liderazgo o una estructura cómoda, no luches por volver. Pregúntale al Padre: '¿Es este el desierto donde me vas a convertir en cabeza de nación?'."
+        },
         {
-          "id_oracion": "identidad-restaurada",
-          "tema": "Validación Divina",
-          "accion": "Ora para que tu identidad sea sellada por el cielo."
+          "punto": "Renuncia a la mentalidad de 'hijo de sierva' y asume tu herencia.",
+          "ejemplo": "Deja de operar desde la carencia o la envidia hacia los 'Isaacs' (los que parecen tenerlo todo fácil). Tu provisión viene del pozo que Dios abre, no de la tienda de Abraham."
         }
       ]
     }
+  ],
+  "connections": {
+    "huellas": [
+      {
+        "id": "agar",
+        "nombre": "Agar",
+        "razon": "Representa el esfuerzo humano intentando cumplir la promesa divina.",
+        "paralelismo": "Tipología del Pacto de la Ley (Sinaí) que engendra para esclavitud."
+      }
+    ],
+    "cronos": [
+      {
+        "id": "paran",
+        "nombre": "Desierto de Parán",
+        "razon": "Territorio de entrenamiento para la independencia espiritual.",
+        "simbolismo": "El lugar donde el hombre deja de depender de la estructura humana para depender de la teocracia."
+      }
+    ],
+    "etymos": [
+      {
+        "id": "shama",
+        "nombre": "Shama (Oír)",
+        "razon": "La raíz que activa la jurisdicción del cielo sobre la tierra.",
+        "familia": "Conectado con el Shemá (Deut. 6:4), implicando que Dios no solo oye, sino que actúa en respuesta."
+      }
+    ],
+    "aposento": [
+      {
+        "id_oracion": "identidad-sellada",
+        "tema": "Decreto de Identidad",
+        "declaracion": "Padre, hoy sintonizo mi oído con el nombre que Tú me diste. No soy producto del azar ni del error humano. Soy Semilla del Pacto, y en mi desierto, Tu voz es mi fuente de agua viva."
+      }
+    ]
+  }
 }

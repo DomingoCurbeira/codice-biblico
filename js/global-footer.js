@@ -53,6 +53,51 @@
             }
             .footer-credits strong { color: #d4b483; font-weight: 700; }
             
+            .footer-share-section {
+                margin-bottom: 3.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1.5rem;
+            }
+            .share-label {
+                font-size: 0.7rem;
+                color: #d4b483;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                font-weight: 800;
+                opacity: 0.8;
+            }
+            .footer-share-actions {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+            }
+            .btn-footer-share {
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white !important;
+                font-size: 18px;
+                background: rgba(255, 255, 255, 0.05);
+                border: 1px solid rgba(212, 180, 131, 0.2);
+                cursor: pointer;
+                transition: all 0.3s ease;
+                text-decoration: none;
+            }
+            .btn-footer-share:hover {
+                background: #d4b483;
+                color: #0f172a !important;
+                transform: translateY(-5px);
+                box-shadow: 0 5px 15px rgba(212, 180, 131, 0.3);
+            }
+            .btn-footer-share.wa:hover { background: #25d366; border-color: #25d366; }
+            .btn-footer-share.fb:hover { background: #1877f2; border-color: #1877f2; }
+            .btn-footer-share.nota:hover { background: #d4b483; border-color: #d4b483; }
+            
             .footer-verse-box {
                 max-width: 650px;
                 margin: 0 auto;
@@ -129,12 +174,41 @@
         const estaEnSubcarpeta = apps.some(app => path.includes(`/${app}/`));
         
         const rootPath = estaEnSubcarpeta ? '../index.html' : './index.html';
+        const notesPath = estaEnSubcarpeta ? '../notas/index.html' : './notas/index.html';
+
+        const currentUrl = window.location.href;
+        const currentTitle = document.title;
+        const shareText = encodeURIComponent(`📖 Te comparto este estudio de Códice Bíblico: "${currentTitle}". Míralo aquí: `);
+        
+        // Determinar si debemos mostrar el botón de Escriba
+        const excluirEscriba = path.includes('/notas/') || path.includes('/juego/') || path.includes('/cronos/');
+        const btnEscribaHtml = !excluirEscriba ? `
+            <a href="${notesPath}?titulo=${encodeURIComponent('Estudio: ' + currentTitle)}&ref=global" class="btn-footer-share nota" title="Guardar en Escriba">
+                <i class="fas fa-pen-nib"></i>
+            </a>
+        ` : '';
 
         footer.innerHTML = `
             <div class="footer-container">
                 <a href="${rootPath}" class="footer-portal-link">CÓDICE BÍBLICO</a>
                 <p class="footer-credits">Creado por <strong>Domingo Curbeira</strong> &copy; 2026</p>
                 
+                <div class="footer-share-section">
+                    <span class="share-label">Compartir Aplicación</span>
+                    <div class="footer-share-actions">
+                        ${btnEscribaHtml}
+                        <a href="https://wa.me/?text=${shareText}${encodeURIComponent(currentUrl)}" target="_blank" class="btn-footer-share wa" title="Compartir en WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}" target="_blank" class="btn-footer-share fb" title="Compartir en Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <button id="btn-global-copy" class="btn-footer-share" title="Copiar Enlace">
+                            <i class="fas fa-link"></i>
+                        </button>
+                    </div>
+                </div>
+
                 <div class="footer-verse-box">
                     <p class="footer-verse-text">"${v.texto}"</p>
                     <p class="footer-verse-cita">${v.cita}</p>
@@ -143,6 +217,18 @@
         `;
 
         document.body.appendChild(footer);
+
+        // Lógica de copiado
+        const btnCopy = document.getElementById('btn-global-copy');
+        if (btnCopy) {
+            btnCopy.onclick = () => {
+                navigator.clipboard.writeText(currentUrl).then(() => {
+                    const icon = btnCopy.querySelector('i');
+                    icon.className = 'fas fa-check';
+                    setTimeout(() => { icon.className = 'fas fa-link'; }, 2000);
+                });
+            };
+        }
     }
 
     // Ejecución rápida y segura

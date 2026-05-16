@@ -99,6 +99,12 @@ window.cargarOracion = function(id) {
     if(tituloDom) tituloDom.innerText = oracionActual.titulo;
     if(citaDom) citaDom.innerText = oracionActual.cita || oracionActual.cita_base || ""; 
     
+    // --- GUARDAR RASTRO PERSISTENTE ---
+    localStorage.setItem('rastro_estudio', JSON.stringify({
+        nombrePersonaje: oracionActual.titulo,
+        url: window.location.href
+    }));
+
     if(textoDom) {
         const textoVisual = oracionActual.contenido.replace(/\[SELAH\]/g, '<div class="selah-visual">Selah</div>');
         textoDom.innerHTML = textoVisual;
@@ -107,7 +113,6 @@ window.cargarOracion = function(id) {
     }
 
     inicializarUXLectura();
-    inyectarBotonesCompartir(oracionActual); 
     detenerAudio();
     window.scrollTo({ top: 0, behavior: 'smooth' });
 };
@@ -272,41 +277,6 @@ function renderizarMenu(filtro = 'todos') {
     });
 }
 
-function inyectarBotonesCompartir(oracion) {
-    const containerExistente = document.querySelector('.study-share-section');
-    if (containerExistente) containerExistente.remove();
-
-    const shareHTML = `
-        <div class="study-share-section" style="text-align: center;">
-            <h3 style="color: var(--text-muted); font-size: 0.8rem; margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase;">Guardar y Compartir</h3>
-            <div class="share-actions">
-                <button id="btn-nota-aposento" class="btn-share" style="background-color: var(--gold); color: #0a0c14;" aria-label="Crear Nota"><i class="fas fa-pen-nib"></i></button>
-                <button id="btn-wa" class="btn-share wa" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></button>
-                <button id="btn-fb" class="btn-share fb" aria-label="Facebook"><i class="fab fa-facebook"></i></button>
-                <button id="btn-copy" class="btn-share copy" aria-label="Copiar Link"><i class="fas fa-link"></i></button>
-            </div>
-        </div>`;
-
-    pantallaOracion.insertAdjacentHTML('beforeend', shareHTML);
-
-    setTimeout(() => {
-        const btnNota = document.getElementById('btn-nota-aposento');
-        if (btnNota) {
-            btnNota.onclick = () => {
-                const url = `../notas/index.html?titulo=${encodeURIComponent('Oración: ' + oracion.titulo)}&ref=aposento`;
-                window.open(url, '_blank');
-            };
-        }
-        const currentUrl = window.location.href;
-        const shareText = `🙏🏻 Me uní a orar en El Aposento por: *${oracion.titulo}*. Únete aquí:`;
-        document.getElementById('btn-wa').onclick = () => window.open(`https://wa.me/?text=${encodeURIComponent(shareText + ' ' + currentUrl)}`, '_blank');
-        document.getElementById('btn-fb').onclick = () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`, '_blank');
-        document.getElementById('btn-copy').onclick = () => {
-            navigator.clipboard.writeText(currentUrl).then(() => alert("Enlace de oración copiado"));
-        };
-    }, 100);
-}
-
 function inicializarUXLectura() {
     if (!document.getElementById('reading-progress')) {
         const progressContainer = document.createElement('div');
@@ -351,7 +321,7 @@ function inicializarUXLectura() {
 }
 
 function checkRetornoOrigen() {
-    const rastroRaw = sessionStorage.getItem('rastro_estudio');
+    const rastroRaw = localStorage.getItem('rastro_estudio');
     if (rastroRaw) {
         try {
             const rastro = JSON.parse(rastroRaw);
@@ -359,7 +329,7 @@ function checkRetornoOrigen() {
                 const btnRetorno = document.createElement('button');
                 btnRetorno.id = 'btn-retorno-origen';
                 btnRetorno.innerHTML = `<i class="fas fa-arrow-left"></i> Volver al Estudio: ${rastro.nombrePersonaje || 'Origen'}`;
-                btnRetorno.onclick = () => { sessionStorage.removeItem('rastro_estudio'); window.location.href = rastro.url; };
+                btnRetorno.onclick = () => { window.location.href = rastro.url; };
                 
                 // Estilo minimalista santuario
                 btnRetorno.style.cssText = `position: fixed; top: 20px; right: 80px; z-index: 5000; background: rgba(15, 23, 42, 0.9); border: 1px solid var(--gold); color: var(--gold); padding: 10px 18px; border-radius: 30px; cursor: pointer; font-size: 0.8rem; font-weight: 600; backdrop-filter: blur(5px); box-shadow: 0 4px 15px rgba(0,0,0,0.5); display: flex; align-items: center; gap: 8px; transition: 0.3s;`;

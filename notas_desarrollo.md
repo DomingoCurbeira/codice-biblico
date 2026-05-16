@@ -112,4 +112,20 @@ En esta jornada se ha completado la integración de contenidos de alta gama y la
 *   **Blindaje de Componentes:** Refinamiento del script de limpieza de footers para proteger los elementos internos de las tarjetas.
 
 ---
+
+## 📅 Actualización: 13 de Mayo, 2026 (Persistencia y Propagación)
+Esta fase se ha centrado en la **estabilidad del rastro de estudio** y la **centralización de herramientas sociales**, elevando la cohesión técnica de todo el ecosistema.
+
+### 🔄 Persistencia Ecosistémica (LocalStorage)
+*   **Migración de Rastro:** El sistema "Continuar donde lo dejaste" ha sido migrado de `sessionStorage` a `localStorage`. Ahora, el progreso de lectura persiste incluso después de cerrar el navegador, permitiendo retomar estudios días después.
+*   **Omnipresencia del Rastro:** Se ha inyectado la lógica de guardado automático (`rastro_estudio`) en los 8 módulos principales (Maná, Rhema, Huellas, Cronos, A Imagen de Dios, Aposento, Etymos y Onomastiko).
+*   **Dashboard Inteligente:** El portal principal ahora recupera instantáneamente el último estudio realizado desde el almacenamiento persistente, mostrando el nombre del personaje o tema directamente en el acceso directo.
+
+### 📢 Centralización de "Propagación de la Palabra"
+*   **Botonera Unificada en Footer:** Se ha implementado una barra de herramientas de compartir premium dentro de `global-footer.js`. Esto garantiza una experiencia idéntica en todas las apps sin duplicar código.
+*   **Integración Directa con Escriba:** El footer ahora incluye un botón de **"Guardar en Escriba"** que envía el título y la referencia del estudio actual a la aplicación de notas, facilitando la creación de reflexiones personales.
+*   **Lógica de Exclusión:** El sistema es lo suficientemente inteligente para ocultar el botón de Escriba cuando el usuario ya está dentro de la app de Notas, en el juego Virtus o en el mapa Cronos (donde el espacio es crítico).
+*   **Limpieza de Código:** Se han eliminado quirúrgicamente más de 500 líneas de código redundante de los archivos `.js` de cada módulo, centralizando toda la lógica de compartir en un solo punto de mantenimiento.
+
+---
 *Desarrollado con excelencia por Domingo Curbeira — 2026*

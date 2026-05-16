@@ -26,9 +26,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         await cargarPerfil(idSolicitado);
     } else if (filaAT || filaNT) {
         // ESTAMOS EN INDEX.HTML (PORTADA)
-        // --- LIMPIEZA CRÍTICA ---
-        // Si entramos a la galería general, borramos el rastro de estudios previos
-        sessionStorage.removeItem('rastro_estudio');
         
         await cargarPortada();
         inicializarBuscador(); // <--- NUEVO: Activamos la escucha del buscador
@@ -560,9 +557,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // 10. SEO Y COMPARTIR
         document.title = `${p.nombre} | Huellas de Fe`;
-        if (typeof configurarBotonesCompartir === 'function') {
-            configurarBotonesCompartir(p);
-        }
+
+        // --- GUARDAR RASTRO PERSISTENTE ---
+        localStorage.setItem('rastro_estudio', JSON.stringify({
+            nombrePersonaje: p.nombre,
+            url: window.location.href
+        }));
+
+        // Eliminamos la inyección local de compartir (centralizado en global-footer)
 
         // --- 11. MEJORAS DE UX LECTOR: BARRA DE PROGRESO Y CONTROL DE FUENTE ---
         
@@ -924,7 +926,7 @@ if (document.readyState === 'loading') {
 function manejarNavegacionRetorno() {
     const params = new URLSearchParams(window.location.search);
     const retornoId = params.get('retorno'); // Caso A: Viene de Onomastiko (URL)
-    const rastroRaw = sessionStorage.getItem('rastro_estudio'); // Caso B: Viene de Imagen de Dios / Cronos
+    const rastroRaw = localStorage.getItem('rastro_estudio'); // Caso B: Viene de Imagen de Dios / Cronos
 
     // 1. Retorno a Onomastiko (Perfil de nombre)
     if (retornoId) {

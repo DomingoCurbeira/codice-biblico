@@ -118,9 +118,13 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Acciones
         const btnDownload = document.getElementById('btn-download');
-        const btnShare = document.getElementById('btn-share');
         if (btnDownload) btnDownload.onclick = () => descargarImagen(p);
-        if (btnShare) btnShare.onclick = () => compartirPromesa(p);
+
+        // --- GUARDAR RASTRO PERSISTENTE ---
+        localStorage.setItem('rastro_estudio', JSON.stringify({
+            nombrePersonaje: `Rhema: ${p.cita}`,
+            url: window.location.href
+        }));
 
         // Notificar al Dashboard Global
         const hoyStr = new Date().toDateString();
@@ -163,22 +167,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         } finally {
             btn.innerHTML = '<i class="fas fa-download"></i> <span>Guardar Promesa</span>';
             btn.disabled = false;
-        }
-    }
-
-    function compartirPromesa(p) {
-        const url = `${window.location.origin}${window.location.pathname}?id=${p.id}`;
-        const texto = `📜 Mi RHEMA de hoy: "${p.texto}" (${p.cita}).\n\nDescubre la tuya aquí:`;
-
-        if (navigator.share) {
-            navigator.share({
-                title: 'Rhema - Códice Bíblico',
-                text: texto,
-                url: url
-            }).catch(e => console.log('Compartir cancelado'));
-        } else {
-            const waUrl = `https://wa.me/?text=${encodeURIComponent(texto + " " + url)}`;
-            window.open(waUrl, '_blank');
         }
     }
 

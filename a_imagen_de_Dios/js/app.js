@@ -41,13 +41,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // --- 3. CARGA DE DATOS INTELIGENTE ---
+    let indice = {};
     try {
         const params = new URLSearchParams(window.location.search);
         const idSolicitado = params.get('id');
 
         const resIndice = await fetch(URL_INDICE);
         if(!resIndice.ok) throw new Error("No se pudo cargar el índice");
-        const indice = await resIndice.json();
+        indice = await resIndice.json();
 
         if (idSolicitado && indice[idSolicitado]) {
             const categoria = indice[idSolicitado];
@@ -56,6 +57,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         } else {
             const categorias = [...new Set(Object.values(indice))];
             const promesas = categorias.map(c => fetch(`${URL_BASE}${c}.json`).then(r => r.json()));
+            
             const resultados = await Promise.all(promesas);
             estudios = resultados.flat();
         }
@@ -109,12 +111,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             return est.activo !== false && est.activo !== "false";
         });
 
-        // --- ORDENAMIENTO CRONOLÓGICO GLOBAL ---
-        // Ordenamos por fecha_programada (de más reciente a más antigua)
+        // --- ORDENAMIENTO POR PRIORIDAD EDITORIAL (Índice Primero) ---
+        // El orden definido en indice_estudios.json manda sobre la fecha.
+        // Esto permite que el usuario decida manualmente qué es "Novedad" moviendo el ID al principio del índice.
+        const ordenIndice = Object.keys(indice);
         estudiosActivos.sort((a, b) => {
-            const fA = a.fecha_programada || "2000-01-01";
-            const fB = b.fecha_programada || "2000-01-01";
-            return fB.localeCompare(fA);
+            const indexA = ordenIndice.indexOf(a.id);
+            const indexB = ordenIndice.indexOf(b.id);
+            
+            // Si ambos están en el índice, respetamos ese orden estrictamente
+            if (indexA !== -1 && indexB !== -1) {
+                return indexA - indexB;
+            }
+            
+            // Si alguno no está en el índice (por seguridad), ordenamos por fecha
+            const dateA = new Date((a.fecha_programada || "2000-01-01") + 'T00:00:00');
+            const dateB = new Date((b.fecha_programada || "2000-01-01") + 'T00:00:00');
+            return dateB - dateA;
         });
     
         // 1. EXTRAER TAGS ÚNICOS (Solo de los estudios activos)
@@ -356,6 +369,100 @@ document.addEventListener('DOMContentLoaded', async () => {
                         `;
                     } else if (bloque.tipo === 'seccion_titulo') {
                         htmlContent += `<h2 class="section-master-title">${bloque.texto}</h2>`;
+                    } else if (bloque.tipo === 'contexto_historico') {
+                        htmlContent += `
+                            <div class="context-box">
+                                <span class="context-label">📜 Contexto Histórico y Cultural</span>
+                                ${bloque.titulo ? `<h4 style="color:var(--primary); margin-bottom:0.5rem;">${bloque.titulo}</h4>` : ''}
+                                <p class="context-text">${bloque.texto}</p>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'lexico_profundo') {
+                        htmlContent += `
+                            <div class="lexicon-deep-card">
+                                <div class="lexicon-deep-header">
+                                    <div>
+                                        <span class="lex-term">${bloque.termino}</span>
+                                        <span class="lex-root">${bloque.raiz || ''}</span>
+                                    </div>
+                                    <span class="lex-lang">${bloque.idioma}</span>
+                                </div>
+                                <span class="lex-meaning-title">Significado Revelado</span>
+                                <span class="lex-meaning-text">${bloque.significado}</span>
+                                ${bloque.revelacion ? `
+                                    <div class="lex-revelation-box">
+                                        <p class="lex-revelation-text"><strong>Revelación:</strong> ${bloque.revelacion}</p>
+                                    </div>
+                                ` : ''}
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'revelacion_atributo') {
+                        htmlContent += `
+                            <div class="pastoral-bridge" style="border-left-color: #f59e0b;">
+                                <div class="bridge-icon" style="color:#f59e0b;">✨</div>
+                                <div class="bridge-content">
+                                    <strong style="color:#f59e0b; display:block; margin-bottom:5px; text-transform:uppercase; font-size:0.8rem;">Atributo de Dios: ${bloque.atributo}</strong>
+                                    ${bloque.texto}
+                                </div>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'cristocentrico') {
+                        htmlContent += `
+                            <div class="christ-centric-box">
+                                <span class="christ-label">✝ Conexión Cristocéntrica</span>
+                                <h4 class="christ-title">${bloque.titulo}</h4>
+                                <p class="christ-text">${bloque.texto}</p>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'alerta_doctrinal') {
+                        htmlContent += `
+                            <div class="doctrinal-alert">
+                                <div class="alert-header">⚠️ Alerta Doctrinal</div>
+                                <p class="alert-text"><strong>${bloque.titulo}:</strong> ${bloque.texto}</p>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'mapa_intertextual') {
+                        htmlContent += `
+                            <div class="intertextual-box">
+                                <h4 class="section-title" style="border:none; margin-bottom:1rem;">📖 Mapa Intertextual</h4>
+                                ${bloque.referencias.map(ref => `
+                                    <div class="inter-item">
+                                        <span class="inter-cite">${ref.cita}</span>
+                                        <p class="inter-desc">${ref.explicacion}</p>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'aplicacion_leche') {
+                        htmlContent += `
+                            <div class="app-card leche">
+                                <span class="app-badge">🍼 Leche Espiritual</span>
+                                <h4 class="app-title">${bloque.titulo}</h4>
+                                <ul class="app-list">
+                                    ${bloque.items.map(item => `
+                                        <li>
+                                            <strong>${item.punto}</strong>
+                                            ${item.ejemplo ? `<small style="color:var(--text-muted); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(255,255,255,0.1); padding-left:12px; line-height:1.4;">Suposición: ${item.ejemplo}</small>` : ''}
+                                        </li>
+                                    `).join('')}
+                                </ul>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'aplicacion_solida') {
+                        htmlContent += `
+                            <div class="app-card solido">
+                                <span class="app-badge">🥩 Alimento Sólido</span>
+                                <h4 class="app-title">${bloque.titulo}</h4>
+                                <ul class="app-list">
+                                    ${bloque.items.map(item => `
+                                        <li>
+                                            <strong>${item.punto}</strong>
+                                            ${item.ejemplo ? `<small style="color:var(--primary); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(34,211,238,0.2); padding-left:12px; line-height:1.4;">Escenario de Madurez: ${item.ejemplo}</small>` : ''}
+                                        </li>
+                                    `).join('')}
+                                </ul>
+                            </div>
+                        `;
                     } else if (bloque.tipo === 'lexico') {
                         const etymosBtn = bloque.etymos_id ? `
                             <button class="btn-etymos-link" onclick="irAEtymos('${bloque.etymos_id}', '${estudio.titulo}')">
@@ -383,7 +490,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     } else if (bloque.tipo === 'concordancia') {
                         htmlContent += `<div class="concordance-box"><h4 class="concordance-title">📖 Concordancia y Referencias</h4><ul class="concordance-list">`;
                         bloque.referencias.forEach(ref => {
-                            htmlContent += `<li><strong>${ref.cita}:</strong> ${ref.texto}</li>`;
+                            htmlContent += `<li><strong>${ref.cita}:</strong> ${ref.explicacion}</li>`;
                         });
                         htmlContent += `</ul></div>`;
                     } else if (bloque.tipo === 'aplicacion') {
@@ -445,9 +552,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 <div class="connect-info">
                                     <strong>${p.nombre}</strong>
                                     <span>${p.razon}</span>
+                                    ${p.paralelismo ? `<small style="color:var(--primary); font-size:0.7rem; margin-top:4px; font-style:italic;">${p.paralelismo}</small>` : ''}
                                 </div>
-                            </div>`;
-                    });
+                            </div>`;                    });
                 }
 
                 // B) Cronos (Lugares con RETORNO INTELIGENTE)
@@ -463,9 +570,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                             <div class="connect-info">
                                 <strong>${c.nombre || c.lugar}</strong>
                                 <span>${c.razon}</span>
+                                ${c.simbolismo ? `<small style="color:#3b82f6; font-size:0.7rem; margin-top:4px; font-style:italic;">${c.simbolismo}</small>` : ''}
                             </div>
-                        </div>`;
-                    });
+                        </div>`;                    });
                 }
 
                 // C) Etymos (Etimología con RETORNO INTELIGENTE)
@@ -480,9 +587,9 @@ document.addEventListener('DOMContentLoaded', async () => {
                             <div class="connect-info">
                                 <strong>${e.nombre}</strong>
                                 <span>${e.razon}</span>
+                                ${e.familia ? `<small style="color:#22d3ee; font-size:0.7rem; margin-top:4px; font-style:italic;">${e.familia}</small>` : ''}
                             </div>
-                        </div>`;
-                    });
+                        </div>`;                    });
                 }
                 
                 // D) Aposento (Oración con RETORNO INTELIGENTE)
@@ -498,7 +605,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             <span class="connect-icon" style="color:#8b5cf6;">🔥</span>
                             <div class="connect-info">
                                 <strong>${a.tema}</strong>
-                                <span>${a.accion}</span>
+                                ${a.declaracion ? `<span>${a.declaracion}</span>` : `<span>Hacia el cuarto de guerra</span>`}
                             </div>
                         </div>`;
                     });
@@ -553,93 +660,15 @@ document.addEventListener('DOMContentLoaded', async () => {
             contentDom.innerHTML = htmlContent;
             document.title = `${estudio.titulo} | A Imagen`;
 
-            // 7. SECCIÓN DE COMPARTIR
-            const shareSection = `
-            
-                <div class="study-share-section">
-                    <h3 class="share-title">COMPARTIR ESTE ESTUDIO</h3>
-                    <div class="share-actions">
-                        <button id="btn-nota-imagen" class="btn-share" style="background-color: #d4b483; color: #0f172a;" aria-label="Crear Nota">
-                            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
-                        </button>
-                        <button id="btn-wa" class="btn-share wa" aria-label="Compartir en WhatsApp">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                        </button>
-                        <button id="btn-fb" class="btn-share fb" aria-label="Compartir en Facebook">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.791-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-                        </button>
-                        <button id="btn-copy" class="btn-share copy" aria-label="Copiar Enlace">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-                        </button>
-                    </div>
-                </div>`;
-            
-            contentDom.insertAdjacentHTML('beforeend', shareSection);
+            // --- GUARDAR RASTRO PERSISTENTE ---
+            localStorage.setItem('rastro_estudio', JSON.stringify({
+                nombrePersonaje: estudio.titulo,
+                url: window.location.href
+            }));
 
             // ACTIVAR BOTONES DE COMPARTIR Y NOTAS
-            const btnNota = document.getElementById('btn-nota-imagen');
-            if (btnNota) {
-                btnNota.onclick = () => {
-                    const titulo = `Estudio: ${estudio.titulo}`;
-                    const cuerpo = `Estuve leyendo en "A Imagen de Dios" una enseñanza basada en ${estudio.versiculo_clave?.cita || 'la Biblia'}.\n\nMis reflexiones:\n`;
-                    const url = `../notas/index.html?titulo=${encodeURIComponent(titulo)}&cuerpo=${encodeURIComponent(cuerpo)}`;
-                    window.location.href = url;
-                };
-            }
-
-            const btnWa = document.getElementById('btn-wa');
-            const btnFb = document.getElementById('btn-fb');
-            const btnCopy = document.getElementById('btn-copy');
-            const currentUrl = window.location.href;
-            const shareText = `Te comparto: "${estudio.titulo}". Léelo aquí:`;
-
-            if(btnWa) btnWa.onclick = () => window.open(`https://wa.me/?text=${encodeURIComponent(shareText + ' ' + currentUrl)}`, '_blank');
-            if(btnFb) btnFb.onclick = () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`, '_blank');
-            if(btnCopy) btnCopy.onclick = () => {
-                navigator.clipboard.writeText(currentUrl).then(() => {
-                    btnCopy.innerHTML = `<svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>`;
-                    setTimeout(() => btnCopy.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>`, 2000);
-                });
-            };
-
-            // --- 8. LÓGICA DE GAMIFICACIÓN EXACTA (UNIFICADA Y LIMPIA) ---
-            if (estudio.gamificacion) {
-                const audioRecompensa = new Audio('../assets/levelup.mp3');
-                audioRecompensa.volume = 0.5;
-
-                const achievementObserver = new IntersectionObserver((entries, observer) => {
-                    entries.forEach(entry => {
-                        if (entry.isIntersecting) {
-                            const card = entry.target;
-                            
-                            if (!card.classList.contains('unlocked')) {
-                                card.classList.add('unlocked');
-                                audioRecompensa.play().catch(e => {});
-
-                                const xpGanada = estudio.gamificacion.xp_lectura;
-                                const idLogro = estudio.gamificacion.logro_id;
-
-                                let perfilUsuario = JSON.parse(localStorage.getItem('codice_perfil')) || {
-                                    xp: 0, logros: []
-                                };
-
-                                if (!perfilUsuario.logros.includes(idLogro)) {
-                                    perfilUsuario.xp += xpGanada;
-                                    perfilUsuario.logros.push(idLogro);
-                                    
-                                    localStorage.setItem('codice_perfil', JSON.stringify(perfilUsuario));
-                                }
-
-                                observer.unobserve(card);
-                            }
-                        }
-                    });
-                }, { threshold: 0.5 });
-
-                const targetCard = document.querySelector('.gamification-card');
-                if (targetCard) achievementObserver.observe(targetCard);
-            }
-
+            // Eliminamos la inyección local de botones porque ahora están en el footer global
+            
         } else {
             readerHeader.innerHTML = `<h1>Estudio no encontrado 😕</h1>`;
         }
@@ -807,7 +836,7 @@ window.navegarConRastro = function(urlDestino, nombreOrigen, esMapa = false) {
         url: window.location.href 
     };
     
-    sessionStorage.setItem('rastro_estudio', JSON.stringify(rastro));
+    localStorage.setItem('rastro_estudio', JSON.stringify(rastro));
     window.location.href = urlDestino;
 };
 

@@ -166,6 +166,12 @@ function abrirDetalleLugar(lugar) {
     // 3. Guardar en memoria para las pestañas
     window.lugarActual = lugar;
 
+    // --- GUARDAR RASTRO PERSISTENTE ---
+    localStorage.setItem('rastro_estudio', JSON.stringify({
+        nombrePersonaje: lugar.perfil.nombre,
+        url: window.location.href
+    }));
+
     // 4. Inyectar datos con validación de ID
     const nombreEl = document.getElementById('p-nombre');
     const subtituloEl = document.getElementById('p-subtitulo');
@@ -422,7 +428,7 @@ function cambiarTab(tabName) {
 
 // 6. RETORNO INTELIGENTE
 function checkRetorno() {
-    const rastro = JSON.parse(sessionStorage.getItem('rastro_estudio'));
+    const rastro = JSON.parse(localStorage.getItem('rastro_estudio'));
     const btnRetorno = document.getElementById('btn-retorno-estudio');
     
     if (rastro && rastro.url) {
@@ -432,7 +438,7 @@ function checkRetorno() {
 }
 
 window.retornarAOrigen = function() {
-    const rastro = JSON.parse(sessionStorage.getItem('rastro_estudio'));
+    const rastro = JSON.parse(localStorage.getItem('rastro_estudio'));
     if (rastro) {
         window.location.href = rastro.url;
     }
@@ -613,7 +619,7 @@ window.navegarA = function(tipo, id) {
     else if (tipo === 'personaje') {
         // 1. Guardamos el rastro en el navegador para volver desde Huellas
         if (lugarActual) {
-            sessionStorage.setItem('rastro_estudio', JSON.stringify({
+            localStorage.setItem('rastro_estudio', JSON.stringify({
                 url: window.location.href,
                 nombrePersonaje: lugarActual.perfil.nombre
             }));
@@ -629,7 +635,7 @@ window.renderizarBotonVolver = function() {
     const params = new URLSearchParams(window.location.search);
     
     // --- AQUÍ VA EL CAMBIO ---
-    const rastroImagenDeDios = sessionStorage.getItem('rastro_estudio');
+    const rastroImagenDeDios = localStorage.getItem('rastro_estudio');
     
     // Si existe rastro de Imagen de Dios, anulamos retornoId para que no se pinte el botón dorado
     const retornoId = rastroImagenDeDios ? null : (params.get('retorno') || localStorage.getItem('last_onoma_id'));

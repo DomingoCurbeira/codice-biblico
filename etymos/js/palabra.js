@@ -38,7 +38,7 @@ async function cargarPalabra() {
 function verificarRetornoEstudio() {
     const params = new URLSearchParams(window.location.search);
     const ref = params.get('ref');
-    const rastroRaw = sessionStorage.getItem('rastro_estudio');
+    const rastroRaw = localStorage.getItem('rastro_estudio');
 
     if (ref === 'imagen' && rastroRaw) {
         try {
@@ -148,8 +148,11 @@ function renderizarPalabra(p) {
     contentDom.innerHTML = html;
     document.title = `${p.palabra_espanol} | Etymos`;
 
-    // Configurar botones de compartir
-    configurarBotonesCompartir(p);
+    // --- GUARDAR RASTRO PERSISTENTE ---
+    localStorage.setItem('rastro_estudio', JSON.stringify({
+        nombrePersonaje: p.palabra_espanol,
+        url: window.location.href
+    }));
 }
 
 function inicializarMejorasLector() {
@@ -210,29 +213,6 @@ function inicializarMejorasLector() {
 
     document.addEventListener('click', () => fontPanel.classList.remove('active'));
     fontPanel.onclick = (e) => e.stopPropagation();
-}
-
-function configurarBotonesCompartir(p) {
-    const btnWa = document.getElementById('btn-wa');
-    const btnFb = document.getElementById('btn-fb');
-    const btnCopy = document.getElementById('btn-copy');
-    const btnNota = document.getElementById('btn-nota-etymos');
-
-    const currentUrl = window.location.href;
-    const text = `🔍 Descifrando la raíz de: "${p.palabra_espanol}" (${p.original}). Descúbrelo aquí:`;
-
-    if(btnWa) btnWa.onclick = () => window.open(`https://wa.me/?text=${encodeURIComponent(text + ' ' + currentUrl)}`, '_blank');
-    if(btnFb) btnFb.onclick = () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`, '_blank');
-    if(btnCopy) btnCopy.onclick = () => {
-        navigator.clipboard.writeText(currentUrl).then(() => {
-            alert("Enlace copiado al portapapeles");
-        });
-    };
-    if(btnNota) btnNota.onclick = () => {
-        const titulo = `Nota de Etymos: ${p.palabra_espanol} (${p.original})`;
-        const ref = `etymos&id=${p.id}`;
-        window.location.href = `../notas/index.html?titulo=${encodeURIComponent(titulo)}&ref=${ref}`;
-    };
 }
 
 document.addEventListener('DOMContentLoaded', cargarPalabra);

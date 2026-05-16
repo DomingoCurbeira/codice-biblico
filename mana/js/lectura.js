@@ -86,8 +86,11 @@ function renderizarLectura(l) {
     contentDom.innerHTML = html;
     document.title = `${l.titulo} | Maná Visual`;
 
-    // Configurar botones de compartir
-    configurarBotonesCompartir(l);
+    // --- GUARDAR RASTRO PERSISTENTE ---
+    localStorage.setItem('rastro_estudio', JSON.stringify({
+        nombrePersonaje: l.titulo,
+        url: window.location.href
+    }));
 }
 
 function inicializarMejorasLector() {
@@ -148,29 +151,6 @@ function inicializarMejorasLector() {
 
     document.addEventListener('click', () => fontPanel.classList.remove('active'));
     fontPanel.onclick = (e) => e.stopPropagation();
-}
-
-function configurarBotonesCompartir(l) {
-    const btnWa = document.getElementById('btn-wa');
-    const btnFb = document.getElementById('btn-fb');
-    const btnCopy = document.getElementById('btn-copy');
-    const btnNota = document.getElementById('btn-nota-mana');
-
-    const currentUrl = window.location.href;
-    const text = `📖 Mi Maná de hoy: "${l.titulo}". Léelo aquí:`;
-
-    if(btnWa) btnWa.onclick = () => window.open(`https://wa.me/?text=${encodeURIComponent(text + ' ' + currentUrl)}`, '_blank');
-    if(btnFb) btnFb.onclick = () => window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`, '_blank');
-    if(btnCopy) btnCopy.onclick = () => {
-        navigator.clipboard.writeText(currentUrl).then(() => {
-            alert("Enlace copiado al portapapeles");
-        });
-    };
-    if(btnNota) btnNota.onclick = () => {
-        const titulo = `Nota de Maná: ${l.titulo}`;
-        const ref = `mana&id=${l.id}`;
-        window.location.href = `../notas/index.html?titulo=${encodeURIComponent(titulo)}&ref=${ref}`;
-    };
 }
 
 document.addEventListener('DOMContentLoaded', cargarLectura);
