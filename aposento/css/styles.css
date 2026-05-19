@@ -252,15 +252,6 @@ header.app-header { text-align: center; margin: 2rem 0 3rem 0; }
 .btn-back { color: var(--text-muted); font-size: 0.85rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; transition: 0.3s; }
 .btn-back:hover { color: var(--gold); transform: translateX(-5px); }
 
-/* --- COMPARTIR --- */
-.study-share-section { padding: 4rem 0 120px 0; border-top: 1px solid rgba(255,255,255,0.05); }
-.btn-share { width: 50px; height: 50px; border-radius: 50%; border: none; cursor: pointer; transition: 0.3s; color: white; display: inline-flex; align-items: center; justify-content: center; margin: 0 8px; }
-.btn-share i { font-size: 1.5rem; } /* NUEVO: Icono más grande */
-.btn-share.wa { background: #25D366; }
-.btn-share.fb { background: #1877F2; }
-.btn-share.copy { background: #334155; }
-.btn-share:hover { transform: translateY(-5px) scale(1.1); }
-
 @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
 @media (max-width: 600px) {

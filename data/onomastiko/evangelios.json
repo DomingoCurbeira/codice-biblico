@@ -1,509 +1,1405 @@
 [
   {
-        "id": "onoma-juan-bautista",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "evangelios.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#78350f",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/juan-bautista.webp",
-            "gradiente": "linear-gradient(135deg, #451a03 0%, #0c0a09 100%)"
+    "id": "onoma-juan-bautista",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#78350f",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/juan-bautista.webp",
+      "gradiente": "linear-gradient(135deg, #451a03 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Juan",
+        "titulo": "La Voz del Desierto (Precursor)",
+        "avatar_url": "img/perfiles/juan-bautista.webp",
+        "jurisdiccion": "Preparación de Terrenos y Alineación Profética",
+        "etymos": {
+          "original": "יוֹחָנָן",
+          "transliteracion": "Yojanán",
+          "significado_legal": "YHVH es Gracioso / Dios ha dado Gracia."
         },
-        "perfil_card": {
-            "nombre_principal": "Juan",
-            "subtitulo_rol": "La Voz del Desierto",
-            "bio_resumen": "Nacido de una promesa en la vejez de sus padres. Vivió en la austeridad del desierto, vistiendo piel de camello y alimentándose de lo que la tierra proveía, preparando el camino para algo mucho más grande.",
-            "logro_destacado": "Precursor del Reino",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "juan-bautista", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "kenosis-gr", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "rio-jordan-bautismo", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Código del Desierto",
+          "texto": "Juan no predicó en el Templo, sino en el desierto. El misterio es que el desierto es el lugar donde el sistema religioso no tiene voz. Dios lo posicionó fuera de las murallas para que el pueblo tuviera que salir del sistema para oír la Verdad. Su ropa de pelo de camello y su dieta de langostas no eran excentricidades, eran un decreto de independencia total del mercado humano."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Yojanán",
-                "titulo": "El que Mengua para que Él Crezca",
-                "avatar": "../img/perfiles/juan-rio.webp",
-                "bio": "Entendió que su propósito no era retener seguidores, sino transferirlos a la Verdad. Su Kenosis voluntaria fue el espacio necesario para que el Pleroma de Cristo se manifestara ante Israel.",
-                "etymos_id": "yojanan-he"
+        "transferencia_codigo": {
+          "titulo": "Allanando el Camino",
+          "puntos": [
+            {
+              "concepto": "Enderezar las sendas",
+              "cita": "Mateo 3:3",
+              "ejemplo_real": "Identifica las \"curvas\" en tu carácter (la mentira, el orgullo, la manipulación). Preparar el camino de Dios en tu vida significa quitar los estorbos internos para que Su gloria pueda transitar libremente por ti."
+            },
+            {
+              "concepto": "La austeridad como arma",
+              "cita": "Lucas 3:11",
+              "ejemplo_real": "Juan vivía con lo mínimo para tener el máximo de sintonía. No permitas que el consumismo o la comodidad ahoguen tu voz espiritual. Aprende a ser libre de las cosas para ser esclavo solo de la Verdad."
+            },
+            {
+              "concepto": "Discernir la Verdadera Raíz",
+              "cita": "Mateo 3:10",
+              "ejemplo_real": "Juan decía: \"El hacha está puesta a la raíz\". No pierdas tiempo podando hojas (malos hábitos superficiales); ataca la raíz (la falta de fe o la amargura) para que el cambio sea permanente."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "יוֹחָנָן",
-            "transliteracion": "Yojanán",
-            "significado_core": "YHVH es Gracioso / Dios ha dado Gracia",
-            "perla_profunda": "La verdadera grandeza no se mide por cuánto espacio ocupas, sino por cuánto espacio eres capaz de ceder para que la Gloria de Dios se manifieste."
+        "eco_de_cristo": "Juan es la voz; Jesús es la Palabra. Juan prepara el hardware (el pueblo); Cristo instala el software (el Reino)."
+      },
+      {
+        "nombre": "Yojanán",
+        "titulo": "El que Mengua (Transferencia)",
+        "avatar_url": "img/perfiles/juan-rio.webp",
+        "jurisdiccion": "Cierre de la Era de la Ley y Apertura de la Gracia",
+        "etymos": {
+          "original": "יוֹחָנָן",
+          "transliteracion": "Yojanán",
+          "significado_legal": "Gracia de Dios. El nombre que activa la transición al Nuevo Pacto."
         },
-        "tags": ["precursor", "desierto", "arrepentimiento", "juan", "fidelidad"]
-    },
-    {
-        "id": "onoma-juan-discipulo",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "evangelios.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1e3a8a",
-            "color_acento": "#60a5fa",
-            "avatar_url": "../img/perfiles/juan_apostol.webp",
-            "gradiente": "linear-gradient(135deg, #1e40af 0%, #0c0a09 100%)"
+        "misterio_escudrinado": {
+          "titulo": "La Kenosis del Precursor",
+          "texto": "Juan dijo: \"Es necesario que Él crezca, y que yo mengue\". El misterio técnico es que un profeta exitoso suele querer retener a sus discípulos. Juan hizo lo opuesto: forzó a sus seguidores a irse con Jesús. Su éxito no fue su popularidad, sino su capacidad de transferir la jurisdicción al Verdadero Dueño. Juan representa el nivel máximo de madurez: saber cuándo tu tiempo ha terminado para que la Gloria continúe en otro."
         },
-        "perfil_card": {
-            "nombre_principal": "Juan",
-            "subtitulo_rol": "Hijo del Trueno (Boanerges)",
-            "bio_resumen": "Hijo de Zebedeo y hermano de Jacobo. Originalmente poseía un carácter impetuoso y exclusivo, capaz de pedir fuego del cielo para consumir a quienes no le recibían. Un temperamento reactivo que necesitaba ser procesado.",
-            "logro_destacado": "De la Reactividad a la Revelación",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "juan-apostol", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "agape-gr", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "patmos-revelacion", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Yojanán",
-                "titulo": "El Discípulo Amado",
-                "avatar": "../img/perfiles/juan-anciano.webp",
-                "bio": "Tras descansar en el pecho del Maestro, su frecuencia cambió. Se convirtió en el guardián de la Quintaesencia, revelando que Dios no solo tiene amor, sino que ES Amor. El último de los apóstoles en dejar el plano físico.",
-                "etymos_id": "yojanan-he"
+        "transferencia_codigo": {
+          "titulo": "El Arte de Menguar",
+          "puntos": [
+            {
+              "concepto": "Soltar el protagonismo",
+              "cita": "Juan 3:30",
+              "ejemplo_real": "Si lideras un equipo o una familia, no busques que todos dependan de ti. Tu éxito real es que ellos dependan de Dios. Cede espacio para que los demás desarrollen su propio diseño."
+            },
+            {
+              "concepto": "Identidad en el Amigo del Novio",
+              "cita": "Juan 3:29",
+              "ejemplo_real": "Juan no se sentía el novio, sino el amigo que se alegra. Aprende a disfrutar del éxito de los demás sin envidia. Tu valor no depende de ser el centro de atención, sino de ser fiel a tu asignación específica."
+            },
+            {
+              "concepto": "Fidelidad hasta el final",
+              "cita": "Mateo 14:10",
+              "ejemplo_real": "Juan terminó en la cárcel por decir la verdad. El maduro entiende que la aprobación de Dios vale más que la seguridad física. Mantente firme en tus principios aunque el sistema intente silenciarte."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "יוֹחָנָן (Yojanán) / Βοανηργές (Boanerges)",
-            "transliteracion": "Yojanán / Boanerges",
-            "significado_core": "Gracia de Dios / Hijos del Trueno",
-            "perla_profunda": "El amor no es una debilidad del carácter, es la fuerza cuántica que estabiliza el espíritu. Juan pasó de querer destruir con fuego a sostener con amor."
-        },
-        "tags": ["amor", "apocalipsis", "discípulo", "juan", "quintaesencia"]
+        "eco_de_cristo": "Juan bautizó a Jesús reconociendo que él mismo necesitaba ser bautizado por Él. Es el reconocimiento de que la criatura siempre debe rendirse ante el Creador."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "juan-bautista",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "kenosis-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "rio-jordan-bautismo",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "precursor",
+      "juan"
+    ]
+  },
+  {
+    "id": "onoma-pedro-apostol",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#075985",
+      "color_acento": "#fcd34d",
+      "avatar_url": "img/perfiles/simon-pescador.webp",
+      "gradiente": "linear-gradient(135deg, #075985 0%, #0c0a09 100%)"
     },
-    {
-        "id": "onoma-pedro-apostol",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "evangelios.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#075985",
-            "color_acento": "#fcd34d",
-            "avatar_url": "../img/perfiles/simon-pescador.webp",
-            "gradiente": "linear-gradient(135deg, #075985 0%, #0c0a09 100%)"
+    "fases": [
+      {
+        "nombre": "Simón",
+        "titulo": "El Pescador de Galilea (Frecuencia Humana)",
+        "avatar_url": "img/perfiles/simon-pescador.webp",
+        "jurisdiccion": "Naturaleza Volátil y Esfuerzo de Redes",
+        "etymos": {
+          "original": "שִׁמְעוֹן",
+          "transliteracion": "Shim'ón",
+          "significado_legal": "El que oye. Representa la capacidad de recibir información pero sin la firmeza para sostenerla."
         },
-        "perfil_card": {
-            "nombre_principal": "Pedro",
-            "subtitulo_rol": "El Pescador de Galilea",
-            "bio_resumen": "Simón bar Jona era un pescador de temperamento impetuoso y volátil. Su vida en Capernaum estaba definida por las redes y el mar, hasta que un encuentro a la orilla del lago cambió su sistema de valores para siempre.",
-            "logro_destacado": "De las Redes a las Llaves",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "pedro", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "shimon-he", "tooltip": "Etymos: Simón" },
-                { "tipo": "cronos", "id": "cesarea-filipo", "tooltip": "Cronos: Revelación" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Hundimiento por Enfoque",
+          "texto": "Simón caminó sobre el agua hasta que miró las olas. El misterio técnico es que su peso no cambió, cambió su sintonía. Al mirar el entorno (frecuencia física), la ley de la gravedad absorbió su fe (frecuencia espiritual). Simón representa nuestra humanidad reactiva que intenta hacer proezas pero se distrae con el ruido de las circunstancias."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Petros",
-                "titulo": "La Roca de la Confesión",
-                "avatar": "../img/perfiles/pedro.webp",
-                "bio": "Tras reconocer al Mesías, su naturaleza de 'caña movediza' fue transformada en 'Roca'. Aunque falló en la noche de la traición, su restauración lo convirtió en el pilar que sostuvo la primera expansión del Reino.",
-                "etymos_id": "petros-gr"
+        "transferencia_codigo": {
+          "titulo": "Venciendo la Inestabilidad",
+          "puntos": [
+            {
+              "concepto": "Cerrar el oído al miedo",
+              "cita": "Mateo 14:30",
+              "ejemplo_real": "Cuando inicies un nuevo reto y escuches voces de duda o veas \"olas\" de problemas, no bajes la mirada. Si Dios te llamó a caminar sobre el agua, no te hundirás mientras mantengas Su rostro como tu único punto de referencia."
+            },
+            {
+              "concepto": "El peligro del impulso carnal",
+              "cita": "Juan 18:10",
+              "ejemplo_real": "Simón sacó la espada y cortó una oreja. A veces intentamos defender el Reino con ira o métodos mundanos. Dios no quiere tu espada carnal; quiere tu sintonía espiritual. No pelees batallas de arriba con armas de abajo."
+            },
+            {
+              "concepto": "Aprender del Fracaso",
+              "cita": "Lucas 22:61-62",
+              "ejemplo_real": "Pedro lloró amargamente tras negar a Jesús. Si has fallado, no te quedes en la culpa. El fallo de Simón fue el fertilizante para la firmeza de Pedro. Usa tu error como una lección técnica para no volver a confiar en tu propia fuerza."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שִׁמְעוֹן ➔ Πέτρος",
-            "transliteracion": "Shim'ón ➔ Pétros",
-            "significado_core": "El que oye ➔ Fragmento de roca",
-            "perla_profunda": "Dios no te llama por lo que eres, sino por lo que Él ha decidido que llegues a ser. Tu debilidad es solo el material bruto para Su roca."
+        "eco_de_cristo": "Simón en la barca pidiendo a Jesús que se aparte porque es pecador, prefigura la distancia que la ley ponía entre Dios y el hombre, distancia que la Gracia borró al cenar con él."
+      },
+      {
+        "nombre": "Pétros",
+        "titulo": "La Roca de la Confesión (Frecuencia de Diseño)",
+        "avatar_url": "img/perfiles/pedro.webp",
+        "jurisdiccion": "Apóstol y Portador de las Llaves del Reino",
+        "etymos": {
+          "original": "Πέτρος",
+          "transliteracion": "Pétros",
+          "significado_legal": "Fragmento de roca. El diseño que se desprende de la Roca Madre (Cristo) para dar estabilidad."
         },
-        "tags": ["apostol", "roca", "pescador", "pedro", "restauración"]
-    },
-    {
-            "id": "onoma-maria-magdalena",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#4c1d95",
-                "color_acento": "#fbbf24",
-                "avatar_url": "../img/perfiles/maria-magdala.webp",
-                "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "María Magdalena",
-                "subtitulo_rol": "La Mujer de Magdala",
-                "bio_resumen": "Originaria de una próspera ciudad pesquera, María vivió bajo la sombra de un tormento espiritual extremo hasta su encuentro con Jesús. Su liberación no solo restauró su mente, sino que encendió una devoción incondicional que la llevó hasta la cruz.",
-                "logro_destacado": "Primera Testigo de la Resurrección",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "maria-magdalena", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "miriam-he", "tooltip": "Etymos: Miriam" },
-                    { "tipo": "cronos", "id": "golgota-sepulcro", "tooltip": "Cronos: Magdala" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Magdalena",
-                    "titulo": "La Atalaya de la Resurrección",
-                    "avatar": "../img/perfiles/maria_magdalena.webp",
-                    "bio": "Convertida en el baluarte del círculo de mujeres, permaneció cuando los demás huyeron. Su nombre pasó de indicar su procedencia a simbolizar su nueva naturaleza: una torre de fe que anunció la noticia más importante de la historia.",
-                    "etymos_id": "migdal-he"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "מִרְיָם ➔ Μαγδαληνή",
-                "transliteracion": "Miriam ➔ Magdalené",
-                "significado_core": "Amargura / Elevada ➔ Torre / Atalaya",
-                "perla_profunda": "Tu pasado de opresión no limita tu diseño; lo prepara. Quien fue liberada de mucho, es quien tiene la estructura para sostener la visión de lo imposible."
-            },
-            "tags": ["magdalena", "liberación", "resurrección", "fidelidad", "testigo"]
-    },
-    {
-            "id": "onoma-mateo-publicano",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#b45309",
-                "color_acento": "#60a5fa",
-                "avatar_url": "../img/perfiles/levi-publicano.webp",
-                "gradiente": "linear-gradient(135deg, #b45309 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Mateo",
-                "subtitulo_rol": "El Recaudador de Capernaum",
-                "bio_resumen": "Leví servía al sistema romano en una de las aduanas más lucrativas de Galilea. Visto como un traidor por su propio pueblo, su vida estaba regida por el cálculo y la ganancia, hasta que una sola palabra de Jesús lo levantó de su mesa de impuestos.",
-                "logro_destacado": "Del Tributo al Testimonio",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "mateo", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "levi-he", "tooltip": "Etymos: Leví" },
-                    { "tipo": "cronos", "id": "capernaum-base", "tooltip": "Cronos: Capernaum" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Mattityahu",
-                    "titulo": "El Escriba del Reino",
-                    "avatar": "../img/perfiles/mateo.webp",
-                    "bio": "Transformado en Mateo, utilizó sus habilidades de registro y orden para documentar la genealogía y el cumplimiento mesiánico de Jesús. Su pluma conectó las profecías antiguas con la realidad presente del Mesías.",
-                    "etymos_id": "mattityahu-he"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "לֵוִי ➔ מַתִּתְיָהוּ",
-                "transliteracion": "Leví ➔ Mattityáhu",
-                "significado_core": "Unido / Asociado ➔ Regalo de Jehová",
-                "perla_profunda": "Dios no descarta tus habilidades naturales; las redime. La misma mano que antes contaba monedas de tributo, fue la que registró las parábolas del Reino."
-            },
-            "tags": ["mateo", "leví", "publicano", "evangelista", "redención"]
-    },
-    {
-            "id": "onoma-zaqueo-publicano",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#166534",
-                "color_acento": "#fbbf24",
-                "avatar_url": "../img/perfiles/zaqueo-sicomoro.webp",
-                "gradiente": "linear-gradient(135deg, #166534 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Zaqueo",
-                "subtitulo_rol": "El Jefe de los Publicanos",
-                "bio_resumen": "Zaqueo era un hombre de gran riqueza y baja estatura, atrapado en un sistema de extorsión legalizada en Jericó. Su curiosidad por ver a Jesús lo llevó a subir a un sicómoro, un acto que rompió su protocolo social y abrió la puerta a una transformación radical en su hogar.",
-                "logro_destacado": "Restitución del Cuádruple",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "zaqueo", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "zakkay-he", "tooltip": "Etymos: Zaqueo" },
-                    { "tipo": "cronos", "id": "jerico", "tooltip": "Cronos: Jericó" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Zakkay",
-                    "titulo": "Hijo de Abraham",
-                    "avatar": "../img/perfiles/zaqueo.webp",
-                    "bio": "Al bajar del árbol y recibir a Jesús, su identidad de 'recaudador' murió para dar paso al verdadero 'Hijo de Abraham'. Su arrepentimiento se validó no con palabras, sino con una reestructuración económica: devolviendo lo robado y bendiciendo a los pobres.",
-                    "etymos_id": "tzedakah-he"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "זַכַּי ➔ Ζακχαῖος",
-                "transliteracion": "Zakkáy ➔ Zakchaíos",
-                "significado_core": "Puro / Inocente ➔ El que ha sido limpiado",
-                "perla_profunda": "La salvación no solo llega a tu espíritu, llega a tu mesa y a tu billetera. Un corazón limpio se manifiesta en una mano abierta."
-            },
-            "tags": ["zaqueo", "jericó", "restitución", "hijo-de-abraham", "justicia"]
-    },
-    {
-            "id": "onoma-nicodemo-maestro",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#1e293b",
-                "color_acento": "#94a3b8",
-                "avatar_url": "../img/perfiles/nicodemo-noche.webp",
-                "gradiente": "linear-gradient(135deg, #1e293b 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Nicodemo",
-                "subtitulo_rol": "Maestro de Israel",
-                "bio_resumen": "Nicodemo era un influyente fariseo y miembro del Sanedrín, un experto en la Ley que, intrigado por las señales de Jesús, decidió buscarlo bajo el amparo de la noche. Su mente estructurada chocó con la propuesta de un Reino que no se puede entender, sino que se debe nacer para ver.",
-                "logro_destacado": "Defensa Pública y Sepultura",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "nicodemo", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "nikodemos-gr", "tooltip": "Etymos: Nicodemo" },
-                    { "tipo": "cronos", "id": "templo-jerusalen", "tooltip": "Cronos: Jerusalén" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Anóthen",
-                    "titulo": "El que Nace de lo Alto",
-                    "avatar": "../img/perfiles/nicodemo.webp",
-                    "bio": "Al pie de la cruz, Nicodemo abandonó su anonimato. Junto a José de Arimatea, honró el cuerpo de Jesús con una mezcla de mirra y áloe de gran valor. El hombre que antes temía ser visto, terminó abrazando públicamente al Mesías en el momento de mayor oscuridad.",
-                    "etymos_id": "anothen-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "Νικόδημος ➔ ἄνωθεν",
-                "transliteracion": "Nikódēmos ➔ Anóthen",
-                "significado_core": "Vencedor del pueblo ➔ Desde arriba",
-                "perla_profunda": "No se trata de cuánto sabes de Dios, sino de cuánto de Dios ha nacido en ti. El intelecto te lleva a la puerta, pero solo el nuevo nacimiento te permite entrar."
-            },
-            "tags": ["nicodemo", "nuevo-nacimiento", "fariseo", "maestro", "valentía"]
-    },
-    {
-            "id": "onoma-tomas-apostol",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#334155",
-                "color_acento": "#38bdf8",
-                "avatar_url": "../img/perfiles/tomas-duda.webp",
-                "gradiente": "linear-gradient(135deg, #334155 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Tomás",
-                "subtitulo_rol": "El Dídimo de los Doce",
-                "bio_resumen": "Conocido por su honestidad brutal y su necesidad de pruebas tangibles, Tomás no se conformaba con testimonios de segunda mano. Su escepticismo no nacía de la incredulidad, sino de un deseo profundo de no ser engañado, buscando una conexión real con la verdad.",
-                "logro_destacado": "La Confesión de la Divinidad",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "tomas", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "toma-ar", "tooltip": "Etymos: Tomás" },
-                    { "tipo": "cronos", "id": "aposento-alto", "tooltip": "Cronos: Jerusalén" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Kyrios-Theos",
-                    "titulo": "El Testigo de la Herida",
-                    "avatar": "../img/perfiles/tomas.webp",
-                    "bio": "Al tocar las llagas del Resucitado, su estructura lógica se derrumbó para dar paso a una fe inquebrantable. Fue el primer apóstol en llamar a Jesús 'Señor mío y Dios mío', llevando después este testimonio hasta las fronteras de la India.",
-                    "etymos_id": "didymos-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "תּוֹמָא ➔ Δίδυμος",
-                "transliteracion": "Tomá ➔ Dídymos",
-                "significado_core": "Gemelo ➔ Doble / Duplicado",
-                "perla_profunda": "La duda no es el enemigo de la fe, es el proceso de un alma que busca fundamentos sólidos. El Maestro no rechazó su mano, la invitó a tocar la Realidad."
-            },
-            "tags": ["tomás", "duda", "confesión", "apóstol", "india"]
-    },
-    {
-            "id": "onoma-mujer-samaritana",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#0ea5e9",
-                "color_acento": "#f97316",
-                "avatar_url": "../img/perfiles/samaritana-cantaro.webp",
-                "gradiente": "linear-gradient(135deg, #0ea5e9 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "La Samaritana",
-                "subtitulo_rol": "La Mujer de Sicar",
-                "bio_resumen": "Marcada por el rechazo social y una historia de fracasos relacionales, acudía al pozo de Jacob a la hora de mayor calor para evitar el juicio de su comunidad. Su encuentro con Jesús no solo reveló su pasado, sino que desbloqueó su verdadera identidad como adoradora en espíritu y verdad.",
-                "logro_destacado": "Evangelista de Samaria",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "mujer-samaritana", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "shomron-he", "tooltip": "Etymos: Samaria" },
-                    { "tipo": "cronos", "id": "pozo-jacob", "tooltip": "Cronos: Sicar" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Photeiné",
-                    "titulo": "Manantial de Agua Viva",
-                    "avatar": "../img/perfiles/samaritana.webp",
-                    "bio": "Al dejar su cántaro, abandonó su vieja forma de buscar satisfacción. Se convirtió en el primer 'puente' mesiánico hacia los gentiles, demostrando que cuando el diseño de Dios fluye, el estigma desaparece. La tradición la llama Fotina: la iluminada por la Verdad.",
-                    "etymos_id": "pneuma-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "שֹׁמְרוֹן ➔ φωτεινή",
-                "transliteracion": "Shomrón ➔ Photeiné",
-                "significado_core": "Lugar de Vigilancia ➔ Iluminada / Luz",
-                "perla_profunda": "El Mesías no te pide agua porque tenga sed de líquido, sino porque tiene sed de tu libertad. Deja el cántaro de tus esfuerzos y conviértete en el río."
-            },
-            "tags": ["samaritana", "agua-viva", "adoración", "sicar", "evangelismo"]
+        "misterio_escudrinado": {
+          "titulo": "El Secreto de las Llaves",
+          "texto": "Jesús le dijo: \"Te daré las llaves del reino\". Lo sorprendente es que las llaves no eran para abrir el cielo, sino para atar y desatar en la tierra. El misterio es que las \"llaves\" son la Revelación de quién es Jesús. Quien sabe que Jesús es el Cristo, tiene el código legal para abrir puertas de provisión y cerrar puertas de maldad en su jurisdicción familiar y ministerial."
         },
-        {
-            "id": "onoma-lazaro-resucitado",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#2d3748",
-                "color_acento": "#d4af37",
-                "avatar_url": "../img/perfiles/lazaro-sepulcro.webp",
-                "gradiente": "linear-gradient(135deg, #2d3748 0%, #0c0a09 100%)"
+        "transferencia_codigo": {
+          "titulo": "Gobernando como Roca",
+          "puntos": [
+            {
+              "concepto": "Operar en Revelación, no en Opinión",
+              "cita": "Mateo 16:17",
+              "ejemplo_real": "Pedro no supo quién era Jesús por leer libros, sino por revelación del Padre. En tu vida profesional, busca ideas que nazcan de la sintonía espiritual. Un gramo de revelación vale más que una tonelada de lógica humana."
             },
-            "perfil_card": {
-                "nombre_principal": "Lázaro",
-                "subtitulo_rol": "El Amigo de Betania",
-                "bio_resumen": "Hermano de Marta y María, Lázaro disfrutaba de una relación de intimidad con Jesús. Su enfermedad y posterior muerte pusieron a prueba la fe de su familia, pero su tumba se convirtió en el escenario donde se reveló que el Mesías tiene autoridad absoluta sobre el Hades.",
-                "logro_destacado": "Testimonio de la Vida Eterna",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "lazaro", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "elazar-he", "tooltip": "Etymos: El'azar" },
-                    { "tipo": "cronos", "id": "betania-lazaro", "tooltip": "Cronos: Betania" }
-                ]
+            {
+              "concepto": "La Autoridad de la Restauración",
+              "cita": "Juan 21:15",
+              "ejemplo_real": "Jesús restauró a Pedro junto a un fuego. Un líder maduro no descarta a los que fallan, los restaura. Usa tu autoridad para levantar a otros, no para hundirlos con el juicio de la ley."
             },
-            "fases": {
-                "nueva": {
-                    "nombre": "Zóé-Testimonio",
-                    "titulo": "El que Salió Fuera",
-                    "avatar": "../img/perfiles/lazaro-vida.webp",
-                    "bio": "Tras cuatro días de muerte, respondió al llamado de '¡Lázaro, ven fuera!'. Su resurrección fue tan impactante que muchos judíos creyeron en Jesús al verlo cenar con Él. Pasó de ser un cuerpo vendado en la oscuridad a ser la prueba irrefutable de la gloria de Dios.",
-                    "etymos_id": "zoe-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "אֶלְעָזָר ➔ ζωή",
-                "transliteracion": "El'azár ➔ Zōē",
-                "significado_core": "Dios ha Ayudado ➔ Vida Incorruptible",
-                "perla_profunda": "La demora de Dios no es falta de amor, es una preparación para un milagro que la lógica no puede explicar. Si Él te llama por tu nombre, hasta la muerte tiene que soltarte."
-            },
-            "tags": ["lázaro", "resurrección", "betania", "vida", "amistad"]
+            {
+              "concepto": "Confirmar a los Hermanos",
+              "cita": "Lucas 22:32",
+              "ejemplo_real": "La misión final de Pedro fue fortalecer a los demás. Tu madurez se nota cuando dejas de buscar bendición para ti y empiezas a ser el pilar donde otros se apoyan para crecer. Eres roca para sostener el diseño de tu entorno."
+            }
+          ]
         },
-        {
-            "id": "onoma-esteban-martir",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#b91c1c",
-                "color_acento": "#fef3c7",
-                "avatar_url": "../img/perfiles/esteban-diacono.webp",
-                "gradiente": "linear-gradient(135deg, #b91c1c 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Esteban",
-                "subtitulo_rol": "El Administrador de la Gracia",
-                "bio_resumen": "Elegido por su buen testimonio y plenitud del Espíritu, Esteban comenzó sirviendo en lo práctico, asegurando la equidad en la comunidad. Sin embargo, su diseño no se limitaba a las mesas; su comprensión de la historia de Israel lo convirtió en un orador cuya sabiduría nadie podía resistir.",
-                "logro_destacado": "El Primer Testigo de Sangre",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "esteban-martir", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "stephanos-gr", "tooltip": "Etymos: Esteban" },
-                    { "tipo": "cronos", "id": "jerusalen-centro", "tooltip": "Cronos: Jerusalén" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Martys-Visionario",
-                    "titulo": "El que Vio el Cielo Abierto",
-                    "avatar": "../img/perfiles/esteban.webp",
-                    "bio": "En el momento de su ejecución, su rostro resplandeció como el de un ángel. No murió bajo el peso de las piedras, sino bajo el peso de la gloria, viendo al Hijo del Hombre de pie a la diestra de Dios. Su sacrificio fue la semilla que germinó en la conversión de Saulo de Tarso.",
-                    "etymos_id": "martys-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "Στέφανος ➔ μάρτυς",
-                "transliteracion": "Stéphanos ➔ Mártys",
-                "significado_core": "Corona / Guirnalda ➔ Testigo / Mártir",
-                "perla_profunda": "No importa cuán bajo caigan las piedras sobre ti, si tus ojos están fijos en el Cielo abierto, tu corona ya es una realidad. El sacrificio no es pérdida, es siembra de gloria."
-            },
-            "tags": ["esteban", "mártir", "visión", "jerusalén", "espíritu-santo"]
+        "eco_de_cristo": "Pedro es la roca delegada; Cristo es la Roca Angular. La sombra de Pedro sanaba a los enfermos, demostrando que cuando el diseño está alineado, la presencia de Dios desborda incluso en lo físico."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "pedro",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "petros-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "cesarea-filipo",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "apostol",
+      "roca",
+      "pedro"
+    ]
+  },
+  {
+    "id": "onoma-juan-discipulo",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e3a8a",
+      "color_acento": "#60a5fa",
+      "avatar_url": "img/perfiles/juan_apostol.webp",
+      "gradiente": "linear-gradient(135deg, #1e40af 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Boanerges",
+        "titulo": "Hijo del Trueno (Frecuencia de Ira)",
+        "avatar_url": "img/perfiles/juan_apostol.webp",
+        "jurisdiccion": "Justiciero Reactivo y Exclusivista",
+        "etymos": {
+          "original": "Βοανηργές",
+          "transliteracion": "Boanerges",
+          "significado_legal": "Hijos del trueno. Representa un celo por Dios pero operando bajo la frecuencia del juicio y la violencia."
         },
-        {
-            "id": "onoma-bartimeo-ciego",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#78350f",
-                "color_acento": "#fde047",
-                "avatar_url": "../img/perfiles/bartimeo-manto.webp",
-                "gradiente": "linear-gradient(135deg, #78350f 0%, #0c0a09 100%)"
-            },
-            "perfil_card": {
-                "nombre_principal": "Bartimeo",
-                "subtitulo_rol": "El Mendigo de Jericó",
-                "bio_resumen": "Hijo de Timeo, vivía sumido en la oscuridad física y la dependencia social a las puertas de Jericó. Su vida estaba limitada a su manto de mendigo y al sonido de la multitud, hasta que su fe reconoció la frecuencia del Mesías antes de verlo con sus ojos.",
-                "logro_destacado": "La Fe que detiene al Maestro",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "bartimeo", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "bartimai-ar", "tooltip": "Etymos: Bartimeo" },
-                    { "tipo": "cronos", "id": "jerico-salida", "tooltip": "Cronos: Jericó" }
-                ]
-            },
-            "fases": {
-                "nueva": {
-                    "nombre": "Blesis-Seguidor",
-                    "titulo": "Discípulo del Camino",
-                    "avatar": "../img/perfiles/bartimeo.webp",
-                    "bio": "Al recuperar la vista, su primera decisión no fue volver a su antigua vida, sino arrojar su manto y seguir a Jesús. Pasó de estar sentado junto al camino a caminar en él, convirtiéndose en un testimonio viviente de que la luz es para ser seguida.",
-                    "etymos_id": "blesis-gr"
-                }
-            },
-            "datos_identidad": {
-                "original_idioma": "בר-טימאי ➔ βλέψις",
-                "transliteracion": "Bar-Timay ➔ Blépsis",
-                "significado_core": "Hijo de lo Impuro ➔ Visión / Mirada",
-                "perla_profunda": "La verdadera ceguera no está en los ojos, sino en la falta de un grito que reconozca la visitación de Dios. Tu libertad comienza cuando sueltas el manto que te define como víctima."
-            },
-            "tags": ["bartimeo", "milagro", "visión", "jericó", "fe"]
+        "misterio_escudrinado": {
+          "titulo": "Fuego que consume vs Fuego que alumbra",
+          "texto": "Juan y Jacobo quisieron pedir fuego del cielo para destruir una aldea samaritana. El misterio es que tenían el poder (la sintonía de Elías), pero no tenían el espíritu correcto. Jesús los reprendió diciendo: \"No sabéis de qué espíritu sois\". Juan representa al creyente apasionado que confunde la justicia de Dios con sus propias ganas de venganza."
         },
-        {
-            "id": "onoma-buen-pastor",
-            "seccion": "ONOMASTIKO",
-            "archivo_fuente": "evangelios.json",
-            "tiene_transicion": true,
-            "config_tarjeta": {
-                "color_primario": "#1a2e05", 
-                "color_acento": "#fbbf24",
-                "avatar_url": "../img/perfiles/buen-pastor-redil.webp",
-                "gradiente": "linear-gradient(135deg, #1a2e05 0%, #020617 100%)"
+        "transferencia_codigo": {
+          "titulo": "Domesticando el Trueno",
+          "puntos": [
+            {
+              "concepto": "No apagar a los que no son \"nuestros\"",
+              "cita": "Marcos 9:38",
+              "ejemplo_real": "Juan intentó prohibir a alguien que sanaba porque no andaba con ellos. No caigas en el sectarismo religioso. Si alguien está haciendo el bien bajo la frecuencia de Cristo, aunque no sea de tu grupo, alégrate. El Reino es más grande que tu organización."
             },
-            "perfil_card": {
-                "nombre_principal": "El Buen Pastor",
-                "subtitulo_rol": "La Barrera Viva",
-                "bio_resumen": "En el contexto de las montañas de Judea, el pastor no era un espectador, sino el cierre físico del redil. Al no haber puertas de madera, él mismo se acostaba en la entrada, convirtiendo su propio cuerpo en el único filtro contra la entropía y el peligro.",
-                "logro_destacado": "Vencer al Lobo desde el Suelo",
-                "iconos_accion": [
-                    { "tipo": "huellas", "id": "el-buen-pastor", "tooltip": "Huellas" },
-                    { "tipo": "etymos", "id": "poimen-gr", "tooltip": "Etymos" },
-                    { "tipo": "cronos", "id": "rediles-judea", "tooltip": "Cronos" }
-                ]
+            {
+              "concepto": "Identifica tu motor interno",
+              "cita": "Lucas 9:55",
+              "ejemplo_real": "Pregúntate hoy: ¿Por qué quiero que me vaya bien? ¿Para demostrar que tengo razón o para revelar el amor del Padre? Si tu motor es el orgullo, el \"trueno\" de tu éxito terminará destruyendo tu entorno."
             },
-            "fases": {
-                "nueva": {
-                    "nombre": "Thúra-Portal",
-                    "titulo": "La Puerta del Reino",
-                    "avatar": "../img/perfiles/jesus-puerta.webp",
-                    "bio": "Jesús eleva el diseño del pastor a una dimensión eterna: Él no solo cuida el redil, Él SE CONVIERTE en la Puerta. Ahora, ninguna crisis, enfermedad o ataque puede tocar tu sistema sin pasar primero por Su victoria. Él es el firewall vivo de tu herencia.",
-                    "etymos_id": "thura-gr"
-                }
+            {
+              "concepto": "El peligro de la ambición de rango",
+              "cita": "Mateo 20:21",
+              "ejemplo_real": "Juan pidió sentarse a la derecha de Jesús. Deja de buscar posiciones de honor para alimentar tu ego. En el diseño de Dios, el que quiere ser primero debe ser el servidor de todos. La verdadera altura es la profundidad de tu entrega."
+            }
+          ]
+        },
+        "eco_de_cristo": "Juan queriendo destruir a los samaritanos contrasta con Jesús muriendo por ellos. Representa la transición de la ley que condena a la Gracia que rescata."
+      },
+      {
+        "nombre": "Yojanán",
+        "titulo": "El Discípulo Amado (Frecuencia de Amor)",
+        "avatar_url": "img/perfiles/juan-anciano.webp",
+        "jurisdiccion": "Guardián de la Quintaesencia y Revelador de la Eternidad",
+        "etymos": {
+          "original": "יוֹחָנָן",
+          "transliteracion": "Yojanán",
+          "significado_legal": "Gracia de Dios. El diseño transformado en el reposo del afecto divino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "Recostado en el Pecho",
+          "texto": "En la última cena, Juan se recostó sobre el pecho de Jesús. Lo sorprendente es que desde esa posición de proximidad física, él podía oír los latidos del corazón del Mesías. El misterio técnico es que quien oye el corazón de Dios, deja de pedir fuego para los hombres. Esa intimidad es lo que le permitió después recibir la revelación del Apocalipsis: solo el amor tiene la estructura para sostener el peso de los misterios finales."
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando en la Quintaesencia",
+          "puntos": [
+            {
+              "concepto": "El Amor como Fuerza Técnica",
+              "cita": "1 Juan 4:8",
+              "ejemplo_real": "Juan concluyó que \"Dios es Amor\". No es un sentimiento barato; es el diseño que sostiene el universo. Si quieres que tus proyectos duren, constrúyelos sobre el amor al prójimo. Lo que no se hace en amor, no tiene vida eterna."
             },
-            "datos_identidad": {
-                "original_idioma": "רֹעֶה ➔ θύρα",
-                "transliteracion": "Ro'eh ➔ Thúra",
-                "significado_core": "Aquel que pastorea ➔ El Portal / La Entrada",
-                "perla_profunda": "Tu descanso no depende de la ausencia de lobos, sino de la posición de tu Pastor. Si Él es la Puerta, el enemigo tiene que pasar por encima de la Resurrección antes de llegar a ti."
+            {
+              "concepto": "Vivir en el Pleroma",
+              "cita": "Juan 1:16",
+              "ejemplo_real": "Juan vio la plenitud (Pleroma) de Cristo. Deja de vivir desde la carencia o el miedo. Si estás en Cristo, tienes acceso a toda Su riqueza legal. Declara hoy: \"De Su plenitud tomo yo Gracia sobre Gracia\"."
             },
-            "tags": ["pastor", "puerta", "cobertura", "judea", "seguridad"]
-        }
+            {
+              "concepto": "La Visión de lo Invisible",
+              "cita": "Apocalipsis 1:10",
+              "ejemplo_real": "Estando en el espíritu en el día del Señor, Juan vio lo que nadie más vio. La intimidad con Dios te da una ventaja competitiva espiritual: verás las soluciones y el futuro antes de que se manifiesten en el plano físico."
+            }
+          ]
+        },
+        "eco_de_cristo": "Juan es el único discípulo que estuvo al pie de la cruz; Jesús le entregó el cuidado de Su madre. Juan representa la fidelidad que nace del amor incondicional."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "quintaesencia-amor-sustancia",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "agape-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "patmos-revelacion",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "amor",
+      "juan",
+      "apocalipsis"
+    ]
+  },
+  {
+    "id": "onoma-zaqueo-publicano",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#166534",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/zaqueo-sicomoro.webp",
+      "gradiente": "linear-gradient(135deg, #166534 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Zaqueo",
+        "titulo": "El Jefe de los Publicanos (Extorsión)",
+        "avatar_url": "img/perfiles/zaqueo-sicomoro.webp",
+        "jurisdiccion": "Recaudador bajo el Sistema de la Injusticia",
+        "etymos": {
+          "original": "זַכַּי",
+          "transliteracion": "Zakkáy",
+          "significado_legal": "Puro / Inocente. El misterio es que su nombre contradecía totalmente su profesión de corrupto."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Estatura Mental",
+          "texto": "Zaqueo era pequeño de estatura, pero el misterio es que su limitación física fue el motor de su búsqueda. Al subir al sicómoro, rompió su protocolo de \"gran jefe\" para ser un espectador humilde. Lo sorprendente es que Jesús no lo llamó por su cargo, sino por su nombre original (Zakkáy), activando la pureza que estaba dormida bajo capas de codicia. Jesús vio al hombre de diseño, no al extorsionador."
+        },
+        "transferencia_codigo": {
+          "titulo": "Bajando del Árbol del Ego",
+          "puntos": [
+            {
+              "concepto": "Romper el protocolo social",
+              "cita": "Lucas 19:4",
+              "ejemplo_real": "No permitas que tu cargo, tu ropa o tu reputación te impidan buscar a Dios con sencillez. A veces tienes que hacer algo que parezca \"ridículo\" para los demás para poder conectar con la Verdad. La humildad es la escalera al cielo."
+            },
+            {
+              "concepto": "Dios conoce tu nombre en lo secreto",
+              "cita": "Lucas 19:5",
+              "ejemplo_real": "Jesús nunca había hablado con Zaqueo, pero sabía su nombre. Confía en que el Padre conoce tu situación exacta y tu nombre real. Él no te ve como un número o un error; te ve como Su hijo amado."
+            },
+            {
+              "concepto": "La visitación inesperada",
+              "cita": "Lucas 19:5",
+              "ejemplo_real": "Zaqueo solo quería \"ver\", pero terminó hospedando al Rey. Cuando buscas la Verdad con sinceridad, la Verdad no solo se deja ver, sino que quiere habitar en tu casa. Prepárate para una transformación total de tu entorno familiar."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús autoinvitándose a casa de Zaqueo prefigura Su deseo de cenar con nosotros (Apocalipsis 3:20) para restaurar nuestra jurisdicción interna."
+      },
+      {
+        "nombre": "Zakkay",
+        "titulo": "Hijo de Abraham (Restitución)",
+        "avatar_url": "img/perfiles/zaqueo.webp",
+        "jurisdiccion": "Administrador de Justicia y Generosidad de Reino",
+        "etymos": {
+          "original": "Ζακχαῖος",
+          "transliteracion": "Zakchaíos",
+          "significado_legal": "El que ha sido limpiado. La manifestación física de la inocencia recobrada."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Matemática de la Gracia",
+          "texto": "Zaqueo no solo pidió perdón; devolvió el cuádruple de lo robado y dio la mitad de sus bienes. El misterio técnico es que su arrepentimiento fue una transacción legal. Al limpiar sus manos de la ganancia injusta, Zaqueo liberó su futuro de la maldición del robo. Lo sorprendente es que solo cuando el dinero dejó de ser su dios, Jesús declaró: \"Hoy ha venido la salvación a esta casa\". La salvación se validó en la billetera."
+        },
+        "transferencia_codigo": {
+          "titulo": "Activando la Restitución",
+          "puntos": [
+            {
+              "concepto": "Limpiar las manos legales",
+              "cita": "Lucas 19:8",
+              "ejemplo_real": "Si en el pasado obtuviste algo de forma poco ética, busca cómo repararlo. El Reino de Dios opera bajo justicia; no puedes construir un futuro bendecido sobre cimientos de engaño. La restitución abre los cielos."
+            },
+            {
+              "concepto": "Generosidad que rompe cadenas",
+              "cita": "Mateo 6:21",
+              "ejemplo_real": "Donde está tu tesoro, está tu corazón. Zaqueo se volvió generoso porque encontró un tesoro mayor (Cristo). Practica la generosidad radical; es la prueba técnica de que el sistema del mundo ya no tiene autoridad sobre ti."
+            },
+            {
+              "concepto": "Hijo de Abraham por fe",
+              "cita": "Lucas 19:9",
+              "ejemplo_real": "Zaqueo recuperó su linaje espiritual. No importa cuánto te hayas alejado de los principios de tu fe; un solo acto de alineación te devuelve toda tu herencia legal como hijo del Pacto."
+            }
+          ]
+        },
+        "eco_de_cristo": "Zaqueo devolviendo lo robado es un eco de lo que Cristo hizo: Él pagó una deuda que no debía para que nosotros recibiéramos una herencia que no merecíamos."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "zaqueo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "tzedakah-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "jerico",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "restitución",
+      "zaqueo",
+      "justicia"
+    ]
+  },
+  {
+    "id": "onoma-bartimeo-ciego",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#78350f",
+      "color_acento": "#fde047",
+      "avatar_url": "img/perfiles/bartimeo-manto.webp",
+      "gradiente": "linear-gradient(135deg, #78350f 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Bartimeo",
+        "titulo": "El Mendigo de Jericó (Vicisitud)",
+        "avatar_url": "img/perfiles/bartimeo-manto.webp",
+        "jurisdiccion": "Dependencia del Sistema de Lástima Humana",
+        "etymos": {
+          "original": "בר-טימאי",
+          "transliteracion": "Bar-Timay",
+          "significado_legal": "Hijo de la impureza / Hijo del honor perdido. Representa una herencia de derrota y oscuridad."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Manto",
+          "texto": "Bartimeo tenía un manto que le otorgaba el derecho legal de mendigar en Jericó. El misterio es que para él, ese manto era su única seguridad. Lo sorprendente es que Bartimeo gritó por el \"Hijo de David\" (un título real), reconociendo la jurisdicción del Mesías mientras los que veían físicamente solo veían a un carpintero. Su fe era auditiva: oyó la frecuencia de la victoria antes de ver la luz."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gritando desde la Oscuridad",
+          "puntos": [
+            {
+              "concepto": "Identifica tu \"manto\" de víctima",
+              "cita": "Marcos 10:50",
+              "ejemplo_real": "Todos tenemos algo que nos hace sentir \"seguros\" en nuestra miseria (una excusa, una ayuda del gobierno, un autodiagnóstico). Bartimeo tiró su manto ANTES de ver. Suelta lo que te define como víctima si quieres caminar como vencedor."
+            },
+            {
+              "concepto": "No te calles ante la multitud",
+              "cita": "Marcos 10:48",
+              "ejemplo_real": "La gente le decía que se callara. Cuando intentes cambiar tu vida o buscar a Dios con pasión, habrá voces (amigos, miedos, inercia) que querrán silenciarte. Grita más fuerte. Tu libertad depende de tu persistencia."
+            },
+            {
+              "concepto": "Reconocer al Hijo de David",
+              "cita": "Lucas 18:38",
+              "ejemplo_real": "Bartimeo sabía que solo el linaje real de Cristo podía devolverle su honor. No busques soluciones en psicologías baratas; busca al que tiene la autoridad legal sobre tu genealogía y tu diseño original."
+            }
+          ]
+        },
+        "eco_de_cristo": "Bartimeo ciego reconoce a Jesús como Rey; prefigura el momento en que los ojos de nuestro entendimiento son alumbrados para ver la Majestad del Salvador."
+      },
+      {
+        "nombre": "Blesis-Seguidor",
+        "titulo": "Discípulo del Camino (Visión)",
+        "avatar_url": "img/perfiles/bartimeo.webp",
+        "jurisdiccion": "Testimonio Viviente de la Luz Restaurada",
+        "etymos": {
+          "original": "βλέψις",
+          "transliteracion": "Blépsis",
+          "significado_legal": "Visión / Mirada. El diseño que ha recuperado la capacidad de percibir la Realidad del Reino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Salto de la Pasividad al Movimiento",
+          "texto": "Lo más asombroso es que Bartimeo, una vez sano, \"seguía a Jesús en el camino\". El misterio técnico es que muchos reciben el milagro y vuelven a su casa; Bartimeo cambió su residencia legal al Camino de la Cruz. Su visión no fue para mirar el mundo, sino para no perder de vista los pasos del Maestro. La visión real es la que te pone en movimiento hacia el propósito."
+        },
+        "transferencia_codigo": {
+          "titulo": "Caminando en la Luz",
+          "puntos": [
+            {
+              "concepto": "El propósito de la vista",
+              "cita": "Marcos 10:52",
+              "ejemplo_real": "Dios no te dio entendimiento o recursos solo para que estés cómodo. Te los dio para que le sigas con más eficacia. Usa tu nueva claridad mental para servir en el diseño de Dios."
+            },
+            {
+              "concepto": "Vivir sin el manto antiguo",
+              "cita": "2 Corintios 5:17",
+              "ejemplo_real": "Ya no eres el mendigo de ayer. No vuelvas a pedir lástima ni a comportarte como si no tuvieras un Padre Soberano. Camina con la dignidad de quien ha sido iluminado por la Verdad."
+            },
+            {
+              "concepto": "Ser un puente de luz",
+              "cita": "Juan 9:25",
+              "ejemplo_real": "Tu mayor argumento es: \"Yo era ciego y ahora veo\". No necesitas ser un erudito para influir en otros; solo cuenta con honestidad lo que Cristo hizo en tu percepción. Tu testimonio es tu jurisdicción."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús es la Luz del Mundo; Bartimeo es el primer prototipo del hombre que absorbe esa luz para caminar fuera de las tinieblas del sistema de Jericó."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "bartimeo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "blesis-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "jerico-salida",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "milagro",
+      "visión",
+      "bartimeo"
+    ]
+  },
+  {
+    "id": "onoma-maria-magdalena",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#4c1d95",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/maria-magdala.webp",
+      "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "María",
+        "titulo": "La de Magdala (Vulnerabilidad)",
+        "avatar_url": "img/perfiles/maria-magdala.webp",
+        "jurisdiccion": "Alma bajo la Invasión del Caos Espiritual",
+        "etymos": {
+          "original": "מִרְיָם",
+          "transliteracion": "Miriam",
+          "significado_legal": "Elevada / Deseada / Amargura. Representa un diseño precioso pero sitiado por la entropía."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código de los 7 Demonios",
+          "texto": "Lucas 8:2 dice que de ella salieron 7 demonios. El misterio técnico es que el número 7 representa una \"invasión total\" del sistema operativo del alma. María no era una pecadora común; era una mujer cuyo diseño había sido totalmente hackeado por el sistema de tinieblas. Lo sorprendente es que Dios permite niveles extremos de caos para que, al ser restaurados, la vasija tenga la estructura necesaria para sostener la mayor gloria."
+        },
+        "transferencia_codigo": {
+          "titulo": "De la Invasión a la Devoción",
+          "puntos": [
+            {
+              "concepto": "La profundidad del rescate",
+              "cita": "Lucas 7:47",
+              "ejemplo_real": "Si sientes que tu pasado es demasiado oscuro, recuerda a María. Quien ha sido perdonado y liberado de mucho, es quien tiene la capacidad técnica de amar con mayor intensidad. Tu proceso de sanidad es la base de Tu adoración futura."
+            },
+            {
+              "concepto": "Identifica los intrusos mentales",
+              "cita": "Mateo 12:43",
+              "ejemplo_real": "Los 7 demonios representan pensamientos intrusos (miedo, rechazo, culpa). Al igual que Jesús limpió a María, Su Palabra puede limpiar tu mente hoy. No permitas que voces extrañas gobiernen Tu territorio interno."
+            },
+            {
+              "concepto": "Fidelidad en la oscuridad",
+              "cita": "Juan 19:25",
+              "ejemplo_real": "María estuvo al pie de la cruz cuando los demás huyeron. El maduro es aquel cuya lealtad no depende de los milagros, sino de la sintonía con el Maestro. Mantente firme incluso cuando parece que todo está perdido."
+            }
+          ]
+        },
+        "eco_de_cristo": "María representa a la humanidad cautiva siendo liberada por la sola palabra del Mesías."
+      },
+      {
+        "nombre": "Magdalena",
+        "titulo": "La Atalaya de la Gloria (Testimonio)",
+        "avatar_url": "img/perfiles/maria_magdalena.webp",
+        "jurisdiccion": "Primera Testigo Legal de la Resurrección",
+        "etymos": {
+          "original": "Μαγδαληνή",
+          "transliteracion": "Magdalené",
+          "significado_legal": "Torre / Atalaya. El diseño restaurado que se eleva para anunciar la victoria."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Privilegio de la Primera Voz",
+          "texto": "María fue la primera persona a la que Jesús se apareció tras resucitar. El misterio es que bajo la ley judía de la época, el testimonio de una mujer no tenía valor legal en un tribunal. Jesús rompió el protocolo humano al darle la Noticia Maestra a quien el mundo despreciaba. María pasó de ser una mujer invadida por demonios a ser la \"Apóstol de los Apóstoles\", la torre que vigiló la tumba hasta ver la Vida."
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando como Atalaya",
+          "puntos": [
+            {
+              "concepto": "Ser el primero en creer",
+              "cita": "Juan 20:18",
+              "ejemplo_real": "No esperes a que todos estén de acuerdo para declarar que Dios ha ganado una batalla en tu vida. Sé como la Magdalena: corre a anunciar la victoria aunque otros duden. Tu voz tiene peso en el espíritu."
+            },
+            {
+              "concepto": "Vigilar el diseño",
+              "cita": "Mateo 27:61",
+              "ejemplo_real": "María se sentó frente al sepulcro. Aprende a esperar en los momentos de silencio de Dios. Ser una atalaya es no apartar la mirada de la promesa aunque parezca que está sepultada. El tercer día siempre llega."
+            },
+            {
+              "concepto": "Autoridad por amor",
+              "cita": "Juan 20:16",
+              "ejemplo_real": "Jesús la llamó por su nombre: \"¡María!\". Tu mayor rango no es un título religioso, es que el Rey conozca tu voz y tú la Suya. Esa sintonía de identidad es lo que te da autoridad real sobre cualquier circunstancia."
+            }
+          ]
+        },
+        "eco_de_cristo": "María anunciando la resurrección prefigura a la Iglesia proclamando que la muerte ha sido vencida para siempre."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "maria-magdalena",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "miriam-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "golgota-sepulcro",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "liberación",
+      "testigo",
+      "magdalena"
+    ]
+  },
+  {
+    "id": "onoma-nicodemo-maestro",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e293b",
+      "color_acento": "#94a3b8",
+      "avatar_url": "img/perfiles/nicodemo-noche.webp",
+      "gradiente": "linear-gradient(135deg, #1e293b 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Nicodemo",
+        "titulo": "Maestro de Israel (Religión)",
+        "avatar_url": "img/perfiles/nicodemo-noche.webp",
+        "jurisdiccion": "Intelectualidad Religiosa y Experto en la Ley",
+        "etymos": {
+          "original": "Νικόδημος",
+          "transliteracion": "Nikódēmos",
+          "significado_legal": "Vencedor del pueblo. Representa el éxito basado en el conocimiento humano y el prestigio social."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Visita Nocturna",
+          "texto": "Nicodemo fue a ver a Jesús de noche. El misterio técnico es que un Maestro de Israel no podía arriesgar su reputación hablando con un galileo sin letras. Lo sorprendente es que Jesús desarmó toda su teología con una sola frase: \"Os es necesario nacer de nuevo\". El misterio es que el Reino no se entiende con el cerebro, se percibe con el Pneuma. Nicodemo representa al hombre exitoso que descubre que sus títulos no le sirven para entrar en la dimensión de Dios."
+        },
+        "transferencia_codigo": {
+          "titulo": "Desaprendiendo la Tradición",
+          "puntos": [
+            {
+              "concepto": "El límite del intelecto",
+              "cita": "Juan 3:4",
+              "ejemplo_real": "No intentes explicar a Dios solo con lógica. Habrá situaciones en tu vida donde el \"Maestro\" que hay en ti no tendrá respuestas. Abre tu mente a lo sobrenatural; el viento del Espíritu sopla donde quiere."
+            },
+            {
+              "concepto": "Saliendo de la sombra",
+              "cita": "Juan 3:2",
+              "ejemplo_real": "¿Buscas a Dios solo cuando nadie te ve por miedo a lo que piensen tus colegas o familia? La madurez comienza cuando la Verdad pesa más que tu reputación. No te quedes en el anonimato de la noche."
+            },
+            {
+              "concepto": "Reconocer las señales",
+              "cita": "Juan 3:2",
+              "ejemplo_real": "Nicodemo vio que nadie podía hacer lo que Jesús hacía si Dios no estaba con él. Aprende a discernir la presencia de Dios por el fruto y no por las etiquetas. Valida el diseño, no el cargo."
+            }
+          ]
+        },
+        "eco_de_cristo": "Nicodemo representa a la Ley reconociendo que necesita a la Gracia para tener vida."
+      },
+      {
+        "nombre": "Anóthen",
+        "titulo": "El que Nace de lo Alto (Testimonio)",
+        "avatar_url": "img/perfiles/nicodemo.webp",
+        "jurisdiccion": "Testigo Público de la Transacción del Calvario",
+        "etymos": {
+          "original": "ἄνωθεν",
+          "transliteracion": "Anóthen",
+          "significado_legal": "Desde arriba / De nuevo. El diseño que opera bajo una genealogía celestial."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Mirra del Sepulcro",
+          "texto": "Al final, Nicodemo trajo 100 libras de mirra y áloe para el cuerpo de Jesús. El misterio es que esa era una cantidad digna de un REY. Lo sorprendente es que el hombre que fue de noche por miedo, terminó exponiéndose ante todo el Sanedrín en el momento de mayor peligro. Su inversión fue un decreto legal: él ya no servía al sistema judío, servía al Rey de reyes. El nuevo nacimiento se completó cuando el miedo murió en la cruz."
+        },
+        "transferencia_codigo": {
+          "titulo": "Viviendo desde lo Alto",
+          "puntos": [
+            {
+              "concepto": "Invertir en el Reino",
+              "cita": "Juan 19:39",
+              "ejemplo_real": "Nicodemo dio lo mejor de sus recursos para honrar a Jesús cuando nadie más lo hacía. Usa tus bienes para fortalecer el propósito de Dios en la tierra. Tu generosidad es la prueba de que has nacido de arriba."
+            },
+            {
+              "concepto": "Valentía en la crisis",
+              "cita": "Juan 7:51",
+              "ejemplo_real": "Nicodemo defendió a Jesús ante sus colegas. No te quedes callado cuando la Verdad sea atacada en tu entorno. Un nacido de nuevo tiene el ADN de la justicia y no puede ser cómplice del silencio cobarde."
+            },
+            {
+              "concepto": "Honrar el sacrificio",
+              "cita": "Juan 19:40",
+              "ejemplo_real": "Nicodemo preparó el cuerpo de Cristo. Aprende a cuidar lo sagrado. Tu respeto por la obra de la cruz se nota en cómo tratas el cuerpo de Cristo (la iglesia) hoy. Trata con honor el diseño de los demás."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús le reveló a Nicodemo el secreto de la serpiente de bronce, prefigurando Su propia muerte para dar vida a todo el que cree."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "nicodemo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "anothen-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "templo-jerusalen",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "nuevo-nacimiento",
+      "nicodemo",
+      "valentía"
+    ]
+  },
+  {
+    "id": "onoma-mateo-publicano",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#b45309",
+      "color_acento": "#60a5fa",
+      "avatar_url": "img/perfiles/levi-publicano.webp",
+      "gradiente": "linear-gradient(135deg, #b45309 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Leví",
+        "titulo": "El Recaudador de Capernaum (Vicio)",
+        "avatar_url": "img/perfiles/levi-publicano.webp",
+        "jurisdiccion": "Recaudación de Tributos para el Sistema de Opresión",
+        "etymos": {
+          "original": "לֵוִי",
+          "transliteracion": "Leví",
+          "significado_legal": "Unido / Asociado. El diseño que busca pertenecer mediante la ganancia y el cálculo humano."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Mesa de los Impuestos",
+          "texto": "Leví estaba sentado a la mesa de los tributos en Capernaum. El misterio es que para los judíos, un publicano era un muerto civil y espiritual. Lo sorprendente es que Jesús no le pidió que se arrepintiera primero; le dijo: \"Sígueme\". El misterio técnico es que Jesús vio en la capacidad de Leví para registrar números y leyes, la estructura necesaria para ser el escriba del Reino. Leví representa al alma que cree que su pasado sucio la excluye del diseño, sin saber que sus habilidades están siendo redimidas."
+        },
+        "transferencia_codigo": {
+          "titulo": "Saliendo de la Mesa de Cálculo",
+          "puntos": [
+            {
+              "concepto": "Levantarse de inmediato",
+              "cita": "Mateo 9:9",
+              "ejemplo_real": "Cuando oigas una instrucción clara de Dios para cambiar de rumbo, no te quedes haciendo números. La fe es un salto de frecuencia que no espera a que el Excel cuadre. Deja tu \"mesa\" de seguridad hoy."
+            },
+            {
+              "concepto": "Redimir el talento",
+              "cita": "Mateo 13:52",
+              "ejemplo_real": "Lo que antes usabas para fines egoístas (tus habilidades administrativas, tu arte, tu voz), ahora es para el Reino. Dios no te cambia el hardware, te cambia el propósito. Pon tus dones al servicio de la Verdad."
+            },
+            {
+              "concepto": "Celebrar el cambio",
+              "cita": "Lucas 5:29",
+              "ejemplo_real": "Leví hizo un gran banquete para presentar a Jesús a sus amigos. No te avergüences de tu nueva identidad; celebra públicamente que has sido rescatado. Tu gozo es el mejor testimonio para los que aún están en la \"aduana\" del mundo."
+            }
+          ]
+        },
+        "eco_de_cristo": "Leví representa a los pecadores y publicanos que entran al Reino antes que los religiosos."
+      },
+      {
+        "nombre": "Mattityahu",
+        "titulo": "El Escriba del Reino (Misión)",
+        "avatar_url": "img/perfiles/mateo.webp",
+        "jurisdiccion": "Apóstol y Guardián del Cumplimiento Mesiánico",
+        "etymos": {
+          "original": "מַתִּתְיָהוּ",
+          "transliteracion": "Mattityáhu",
+          "significado_legal": "Regalo de YHWH. El diseño transformado en una ofrenda permanente de revelación."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Evangelio del Rey",
+          "texto": "Mateo escribió su evangelio enfocándose en las genealogías y el cumplimiento legal de las profecías. Lo sorprendente es que el hombre que antes contaba monedas para César, terminó contando las bendiciones del Mesías para Israel. Su misterio es el del \"Escriba sabio\" que saca de su tesoro cosas nuevas y viejas. Mateo nos enseña que el Reino de Dios tiene una legalidad perfecta que puede ser documentada y comprobada."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando con el Testimonio",
+          "puntos": [
+            {
+              "concepto": "Documentar la fidelidad",
+              "cita": "Mateo 1:1",
+              "ejemplo_real": "Lleva un registro de lo que Dios hace en tu vida. Tu historia personal es un documento legal que servirá para fortalecer la fe de otros en el futuro. No permitas que el olvido borre tus milagros."
+            },
+            {
+              "concepto": "Sintonía con las promesas antiguas",
+              "cita": "Mateo 2:15",
+              "ejemplo_real": "Mateo siempre decía: \"Para que se cumpliese lo que fue dicho\". Aprende a conectar tu realidad presente con la Palabra escrita. Tu vida hoy es el cumplimiento de lo que Dios ya decretó."
+            },
+            {
+              "concepto": "Influencia por el orden",
+              "cita": "Mateo 28:19-20",
+              "ejemplo_real": "Mateo recibió la Gran Comisión. Un maduro no solo recibe la revelación, sino que tiene la estructura para enseñarla a otros de forma ordenada. Sé un arquitecto que ayuda a otros a construir su fe sobre fundamentos sólidos."
+            }
+          ]
+        },
+        "eco_de_cristo": "Mateo presenta a Jesús como el Rey de los Judíos, el León de la tribu de Judá."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "mateo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "mattityahu-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "capernaum-base",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "redención",
+      "mateo",
+      "evangelista"
+    ]
+  },
+  {
+    "id": "onoma-mujer-samaritana",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#0ea5e9",
+      "color_acento": "#f97316",
+      "avatar_url": "img/perfiles/samaritana-cantaro.webp",
+      "gradiente": "linear-gradient(135deg, #0ea5e9 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "La Samaritana",
+        "titulo": "La Mujer de Sicar (Vergüenza)",
+        "avatar_url": "img/perfiles/samaritana-cantaro.webp",
+        "jurisdiccion": "Alma Saciada por el Sistema de Cisternas Rotas",
+        "etymos": {
+          "original": "שֹׁמְרוֹן",
+          "transliteracion": "Shomrón",
+          "significado_legal": "Lugar de vigilancia. Representa a quien vive bajo la guardia constante del juicio social y la insatisfacción."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Sed de la Sexta Hora",
+          "texto": "Ella fue al pozo a las 12 del mediodía para no ver a nadie. El misterio es que Jesús la estaba esperando precisamente allí. Lo sorprendente es que el diálogo no fue sobre moralidad, sino sobre JURISDICCIÓN de adoración (¿Gerizim o Jerusalén?). El misterio es que Jesús rompió el protocolo de género y raza para revelarle a una mujer herida la mayor noticia: que Dios no busca templos de piedra, sino corazones de espíritu."
+        },
+        "transferencia_codigo": {
+          "titulo": "Abandonando el Cántaro",
+          "puntos": [
+            {
+              "concepto": "Identifica tu cisterna rota",
+              "cita": "Juan 4:13",
+              "ejemplo_real": "¿Qué estás usando para calmar tu sed de significado? (una relación, el éxito, el alcohol). Si te da sed de nuevo, es que el sistema es insuficiente. Solo la Gracia es el agua que se convierte en manantial eterno."
+            },
+            {
+              "concepto": "No te escondas del mediodía",
+              "cita": "Juan 4:7",
+              "ejemplo_real": "Deja de ocultar tus procesos por miedo al qué dirán. Los momentos de mayor \"calor\" en tu vida son las citas que Dios ha programado para revelarse a ti. Enfrenta tu realidad con honestidad."
+            },
+            {
+              "concepto": "El valor de la sed",
+              "cita": "Juan 4:10",
+              "ejemplo_real": "Tu insatisfacción actual no es una maldición; es el indicador técnico de que estás diseñado para algo superior. Agradece la sed que te empuja a buscar el Agua Viva."
+            }
+          ]
+        },
+        "eco_de_cristo": "La Samaritana representa a los gentiles sedientos encontrando al Mesías en territorio enemigo."
+      },
+      {
+        "nombre": "Photeiné",
+        "titulo": "Manantial de Agua Viva (Propósito)",
+        "avatar_url": "img/perfiles/samaritana.webp",
+        "jurisdiccion": "Evangelista de Samaria y Puente de Revelación",
+        "etymos": {
+          "original": "φωτεινή",
+          "transliteracion": "Photeiné",
+          "significado_legal": "Iluminada / Llena de Luz. El diseño que ha sido aclarado por la Verdad."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Cántaro Olvidado",
+          "texto": "Juan 4:28 dice: \"Entonces la mujer dejó su cántaro\". El misterio técnico es que el cántaro era su herramienta de supervivencia diaria. Al dejarlo, ella estaba declarando que su vieja forma de obtener sustento y valor había muerto. Lo sorprendente es que el pueblo que antes la juzgaba, ahora creía en Jesús por su sola palabra. Su pasado se convirtió en el puente legal para la salvación de toda una ciudad."
+        },
+        "transferencia_codigo": {
+          "titulo": "Fluyendo como Manantial",
+          "puntos": [
+            {
+              "concepto": "Tu pasado es tu credencial",
+              "cita": "Juan 4:39",
+              "ejemplo_real": "No escondas de dónde te sacó Dios. Tu testimonio de transformación tiene más poder de convicción que mil discursos teológicos. Sé transparente sobre Tu proceso; eso atrae a los que sufren."
+            },
+            {
+              "concepto": "Adorar en Espíritu",
+              "cita": "Juan 4:24",
+              "ejemplo_real": "Deja de creer que necesitas ir a un lugar específico para estar con Dios. El maduro sabe que su espíritu es el templo. Vive en adoración constante, ya sea en el trabajo, en el coche o en tu casa."
+            },
+            {
+              "concepto": "Traer a otros a la Fuente",
+              "cita": "Juan 4:29",
+              "ejemplo_real": "La misión de Photeiné fue decir: \"Venid, ved\". Tu labor es simplemente invitar a otros a tener su propio encuentro con la Verdad. No tienes que convencerlos tú; la Fuente se encargará de saciarlos."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús prometió agua que salta para vida eterna; Photeiné es el primer registro físico de esa promesa cumplida."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "mujer-samaritana",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "pozo-jacob",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "evangelismo",
+      "adoración",
+      "samaritana"
+    ]
+  },
+  {
+    "id": "onoma-lazaro-resucitado",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#2d3748",
+      "color_acento": "#d4af37",
+      "avatar_url": "img/perfiles/lazaro-sepulcro.webp",
+      "gradiente": "linear-gradient(135deg, #2d3748 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Lázaro",
+        "titulo": "El Amigo de Betania (Mortalidad)",
+        "avatar_url": "img/perfiles/lazaro-sepulcro.webp",
+        "jurisdiccion": "Dependencia de la Amistad y la Sintonía Familiar",
+        "etymos": {
+          "original": "אֶלְעָזָר",
+          "transliteracion": "El'azár",
+          "significado_legal": "Dios ha ayudado. El diseño que reconoce que su única fuerza proviene del auxilio divino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Demora de la Cuarta Noche",
+          "texto": "Jesús esperó cuatro días antes de ir a ver a Lázaro. El misterio es que para la tradición judía, el alma abandonaba el cuerpo al cuarto día. Jesús dejó que la situación llegara al punto de \"imposibilidad absoluta\" para demostrar que Su jurisdicción no es solo sobre la salud, sino sobre la propia Vida. El misterio técnico es que Dios a veces permite que algo \"muera\" en tu vida para que no haya dudas de que el milagro fue Su mano."
+        },
+        "transferencia_codigo": {
+          "titulo": "Enfrentando el Sepulcro",
+          "puntos": [
+            {
+              "concepto": "Identifica tu zona de \"mal olor\"",
+              "cita": "Juan 11:39",
+              "ejemplo_real": "Marta dijo: \"Señor, hiede ya\". Todos tenemos áreas que nos avergüenzan o que parecen insalvables. No temas abrir esa \"tumba\" ante Dios; Su presencia limpia lo que el tiempo ha corrompido."
+            },
+            {
+              "concepto": "El valor de la amistad divina",
+              "cita": "Juan 11:3",
+              "ejemplo_real": "Las hermanas dijeron: \"El que amas está enfermo\". Cultiva una relación de intimidad con el Maestro. Tu mayor recurso en la crisis no es tu dinero, sino el amor que el Rey te tiene."
+            },
+            {
+              "concepto": "Quitar la piedra",
+              "cita": "Juan 11:39",
+              "ejemplo_real": "Dios hará el milagro, pero tú debes quitar la piedra (el obstáculo de la duda o la inacción). Haz lo que esté en tu mano humana para que la orden divina de resurrección pueda ejecutarse."
+            }
+          ]
+        },
+        "eco_de_cristo": "Lázaro es el amigo amado que muere; Jesús es el Amigo que llora y restaura."
+      },
+      {
+        "nombre": "Zóé-Testimonio",
+        "titulo": "El que Salió Fuera (Resurrección)",
+        "avatar_url": "img/perfiles/lazaro-vida.webp",
+        "jurisdiccion": "Prueba Irrefutable de la Gloria y Testigo de la Vida Eterna",
+        "etymos": {
+          "original": "ζωή",
+          "transliteracion": "Zōē",
+          "significado_legal": "Vida Incorruptible. El diseño que ha pasado por la muerte y ha vuelto con autoridad absoluta."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Banquete de los Vivos",
+          "texto": "Después de resucitar, Lázaro cenó con Jesús. Lo sorprendente es que no se registra ninguna palabra dicha por él; su sola presencia era el argumento que convencía a las multitudes. El misterio técnico es que quien ha vuelto de la muerte no necesita explicar nada; su existencia es un decreto legal que silencia al escepticismo. Lázaro pasó de ser un problema de sanidad a ser una amenaza para el sistema religioso."
+        },
+        "transferencia_codigo": {
+          "titulo": "Viviendo en la Nueva Frecuencia",
+          "puntos": [
+            {
+              "concepto": "Desatarse de las vendas",
+              "cita": "Juan 11:44",
+              "ejemplo_real": "Jesús dijo: \"Desatadle y dejadle ir\". Si Dios ya te dio vida nueva, no sigas caminando con los hábitos de tu vieja naturaleza (las vendas). Aprende a moverte con la libertad de un resucitado."
+            },
+            {
+              "concepto": "Ser el argumento de Dios",
+              "cita": "Juan 12:11",
+              "ejemplo_real": "Mucha gente creía por causa de Lázaro. Tu mejor forma de influir no es discutiendo, sino simplemente estando vivo y prosperando en tu propósito. Que tu bienestar sea la prueba de la fidelidad de Dios."
+            },
+            {
+              "concepto": "No temer a los que quieren matarte",
+              "cita": "Juan 12:10",
+              "ejemplo_real": "Los principales sacerdotes querían matar también a Lázaro. Cuando tu éxito espiritual es evidente, habrá quienes intenten detenerte. No te preocupes; el que te sacó de la tumba es el mismo que custodia Tu seguridad."
+            }
+          ]
+        },
+        "eco_de_cristo": "Lázaro resucitado prefigura la resurrección de todos los creyentes al final de los tiempos."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "lazaro",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "zoe-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "betania-lazaro",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "resurrección",
+      "lázaro",
+      "vida"
+    ]
+  },
+  {
+    "id": "onoma-esteban-martir",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#b91c1c",
+      "color_acento": "#fef3c7",
+      "avatar_url": "img/perfiles/esteban-diacono.webp",
+      "gradiente": "linear-gradient(135deg, #b91c1c 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Esteban",
+        "titulo": "Administrador de la Gracia (Servicio)",
+        "avatar_url": "img/perfiles/esteban-diacono.webp",
+        "jurisdiccion": "Equidad Comunitaria y Gestión de Recursos de Reino",
+        "etymos": {
+          "original": "Στέφανος",
+          "transliteracion": "Stéphanos",
+          "significado_legal": "Corona / Guirnalda. El diseño que reconoce que el servicio es la joya de la autoridad real."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código de las Mesas",
+          "texto": "Esteban fue elegido para \"servir a las mesas\". El misterio es que su sabiduría era tan grande que los intelectuales no podían resistirle. Lo sorprendente es que Dios no desperdició su talento oratorio en un cargo administrativo; su fidelidad en las mesas fue el entrenamiento legal para su discurso final ante el Sanedrín. Esteban nos enseña que no hay tareas menores en el Reino; cada plato que sirves es una piedra que pones en tu corona eterna."
+        },
+        "transferencia_codigo": {
+          "titulo": "Sirviendo con Excelencia",
+          "puntos": [
+            {
+              "concepto": "Plenitud en lo cotidiano",
+              "cita": "Hechos 6:3",
+              "ejemplo_real": "Esteban estaba lleno de fe y del Espíritu incluso para repartir comida. Haz tu trabajo diario con pasión espiritual. Tu sintonía con Dios debe ser evidente en cómo tratas a tus clientes o empleados."
+            },
+            {
+              "concepto": "Sostener la equidad",
+              "cita": "Hechos 6:1",
+              "ejemplo_real": "Su labor era evitar que las viudas fueran desatendidas. Sé un agente de justicia en tu comunidad. Si ves una injusticia, no te quejes; busca la solución administrativa y espiritual bajo el diseño de la Gracia."
+            },
+            {
+              "concepto": "Preparar la defensa",
+              "cita": "Hechos 6:10",
+              "ejemplo_real": "Esteban estudiaba la historia de su pueblo. Mantén tu mente afilada con la Palabra. Nunca sabes cuándo Dios te pondrá frente a personas influyentes para que defiendas la Verdad con sabiduría irresistible."
+            }
+          ]
+        },
+        "eco_de_cristo": "Esteban perdonando a sus ejecutores es el eco perfecto de Jesús perdonando en la cruz."
+      },
+      {
+        "nombre": "Martys-Visionario",
+        "titulo": "El que Vio el Cielo Abierto (Gloria)",
+        "avatar_url": "img/perfiles/esteban.webp",
+        "jurisdiccion": "Primer Testigo de Sangre y Semilla de la Expansión",
+        "etymos": {
+          "original": "μάρτυς",
+          "transliteracion": "Mártys",
+          "significado_legal": "Testigo / Mártir. El diseño que prefiere la Verdad eterna sobre la seguridad biológica."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Hijo de Hombre de Pie",
+          "texto": "En su momento final, Esteban vio a Jesús DE PIE a la diestra de Dios. El misterio técnico es que en el resto de la Biblia se dice que Jesús está SENTADO. Lo sorprendente es que Jesús se puso de pie para recibir al primer mártir de Su iglesia. El misterio es que tu valentía en la tierra moviliza el Trono del Cielo. Esteban no murió derrotado; murió en un ascenso glorioso, siendo la semilla que produjo la conversión de Pablo."
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando en la Visión Abierta",
+          "puntos": [
+            {
+              "concepto": "Mirar más allá de las piedras",
+              "cita": "Hechos 7:55",
+              "ejemplo_real": "Cuando te sientas atacado por críticas o problemas (piedras), no mires a tus agresores. Levanta la mirada al Cielo abierto. Si ves la gloria de Dios, el dolor de las piedras perderá su autoridad sobre tus sentidos."
+            },
+            {
+              "concepto": "Sembrar en la muerte aparente",
+              "cita": "Hechos 7:60",
+              "ejemplo_real": "Esteban murió, pero Saulo (Pablo) lo estaba viendo. Tus sacrificios de hoy pueden ser la semilla del éxito de alguien mucho más grande mañana. No subestimes el poder de tu integridad bajo presión."
+            },
+            {
+              "concepto": "Rostro de ángel en la crisis",
+              "cita": "Hechos 6:15",
+              "ejemplo_real": "Incluso ante sus acusadores, el rostro de Esteban resplandecía. Tu paz interna en medio del caos es tu mejor testimonio. Que la gente vea en tu cara que tienes una conexión directa con la Fuente de la Vida."
+            }
+          ]
+        },
+        "eco_de_cristo": "Esteban vio la gloria que Jesús recuperó tras la ascensión."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "esteban-martir",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "martys-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "jerusalen-centro",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "esteban",
+      "testigo",
+      "gloria"
+    ]
+  },
+  {
+    "id": "onoma-tomas-apostol",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#334155",
+      "color_acento": "#38bdf8",
+      "avatar_url": "img/perfiles/tomas-duda.webp",
+      "gradiente": "linear-gradient(135deg, #334155 0%, #0c0a09 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Dídymos",
+        "titulo": "El Gemelo (Frecuencia de Lógica)",
+        "avatar_url": "img/perfiles/tomas-duda.webp",
+        "jurisdiccion": "Escrutinio Racional y Necesidad de Evidencia",
+        "etymos": {
+          "original": "תּוֹמָא",
+          "transliteracion": "Tomá",
+          "significado_legal": "Gemelo / Doble. Representa el alma que vive entre dos mundos: el deseo de creer y la cárcel de la evidencia física."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Honestidad del Dídimo",
+          "texto": "Tomás dijo: \"Si no viere... no creeré\". El misterio es que su duda no era cinismo, sino un hambre profunda de conexión real. Tomás no quería un reporte de segunda mano; quería el código fuente. Lo sorprendente es que Jesús no lo expulsó, sino que esperó 8 días para darle la evidencia que pedía. Tomás representa al creyente que no se conforma con religión heredada, sino que necesita un encuentro técnico con la Verdad."
+        },
+        "transferencia_codigo": {
+          "titulo": "Saliendo de la Doble Mente",
+          "puntos": [
+            {
+              "concepto": "Validar la Fuente",
+              "cita": "Juan 20:25",
+              "ejemplo_real": "No creas todo lo que oyes en las redes o en la tradición. Busca tu propia conexión con la Palabra. La duda honesta es el motor que te lleva a investigar hasta hallar el fundamento sólido."
+            },
+            {
+              "concepto": "Ir hacia la muerte con Él",
+              "cita": "Juan 11:16",
+              "ejemplo_real": "Cuando Jesús fue a ver a Lázaro, Tomás dijo: \"Vamos también nosotros para que muramos con él\". A pesar de su lógica, tenía una lealtad inquebrantable. Tu fe no tiene que ser perfecta para ser fiel. Sigue adelante aunque no entiendas el plan completo."
+            },
+            {
+              "concepto": "El valor de la pregunta difícil",
+              "cita": "Juan 14:5",
+              "ejemplo_real": "Tomás preguntó: \"Señor, no sabemos a dónde vas; ¿cómo, pues, podemos saber el camino?\". No temas hacerle preguntas difíciles a Dios. De esa pregunta de Tomás nació una de las mayores revelaciones: \"Yo soy el Camino, la Verdad y la Vida\"."
+            }
+          ]
+        },
+        "eco_de_cristo": "Tomás representa a la humanidad que necesita ver las llagas para entender la transacción legal de la redención."
+      },
+      {
+        "nombre": "Kyrios-Theos",
+        "titulo": "El Testigo de la Herida (Frecuencia de Fe)",
+        "avatar_url": "img/perfiles/tomas.webp",
+        "jurisdiccion": "Apóstol de las Naciones y Revelador de la Divinidad",
+        "etymos": {
+          "original": "Δίδυμος",
+          "transliteracion": "Dídymos",
+          "significado_legal": "El que ha sido duplicado por la Gracia. El diseño que ahora refleja la imagen del Maestro."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Toque en el Costado",
+          "texto": "Jesús le dijo: \"Mete tu mano en mi costado\". El misterio técnico es que Tomás fue el único que tuvo contacto físico directo con el cuerpo resucitado de forma experimental. Lo sorprendente es que de ese toque nació la confesión más alta del Nuevo Testamento: \"¡Señor mío y Dios mío!\". Tomás pasó de ser el \"gemelo\" de la duda a ser el heraldo que llevó el diseño de Cristo hasta la India."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando en la Certidumbre",
+          "puntos": [
+            {
+              "concepto": "Creer sin ver",
+              "cita": "Juan 20:29",
+              "ejemplo_real": "Jesús dijo: \"Bienaventurados los que no vieron y creyeron\". Aprende a operar bajo la evidencia del Espíritu. Tu fe hoy tiene más peso legal que la vista de Tomás, porque te apoyas exclusivamente en la Palabra eterna."
+            },
+            {
+              "concepto": "Identidad en la Victoria del otro",
+              "cita": "Juan 20:28",
+              "ejemplo_real": "Al reconocer a Jesús como Dios, Tomás encontró su propio diseño. Deja de compararte con los demás; tu identidad real se activa cuando rindes tu lógica ante la soberanía de Cristo. Eres lo que Dios dice que eres."
+            },
+            {
+              "concepto": "Llevar la Verdad hasta el fin",
+              "cita": "Marcos 16:15",
+              "ejemplo_real": "La tradición sitúa a Tomás en la India. No permitas que tus procesos de duda pasados detengan tu misión futura. Una vez que has tocado la Verdad, nada puede impedirte llevarla a los lugares más lejanos."
+            }
+          ]
+        },
+        "eco_de_cristo": "Tomás es el eco de la Iglesia que toca a Cristo a través de la Palabra y la fe."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "tomas",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "didymos-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "aposento-alto",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "tomás",
+      "apostol",
+      "fe"
+    ]
+  },
+  {
+    "id": "onoma-buen-pastor",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1a2e05",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/buen-pastor-redil.webp",
+      "gradiente": "linear-gradient(135deg, #1a2e05 0%, #020617 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "El Buen Pastor",
+        "titulo": "La Barrera Viva (Rol Humano/Sombra)",
+        "avatar_url": "img/perfiles/buen-pastor-redil.webp",
+        "jurisdiccion": "Protección del Diseño del Rebaño en la Tierra",
+        "etymos": {
+          "original": "רֹעֶה",
+          "transliteracion": "Ro'eh",
+          "significado_legal": "Aquel que pastorea / El que guía con vara y cayado."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Pastor en el Suelo",
+          "texto": "En el contexto de las montañas de Judea, al no haber puertas de madera en los rediles de piedra, el pastor se acostaba en la entrada. El misterio es que él mismo era la puerta. Lo sorprendente es que el pastor no vigilaba desde afuera, sino que su propio cuerpo era el único filtro contra el lobo. Esto revela que la verdadera protección no es un muro de leyes, sino una presencia física comprometida hasta la muerte."
+        },
+        "transferencia_codigo": {
+          "titulo": "Custodiando tu Redil",
+          "puntos": [
+            {
+              "concepto": "Ser el filtro legal",
+              "cita": "Juan 10:11",
+              "ejemplo_real": "Como padre, madre o líder, tú eres el \"pastor\" de tu entorno. No permitas que cualquier influencia o mensaje (el lobo) entre en tu casa. Tu cuerpo y tu tiempo son la barrera que protege el diseño de tus hijos."
+            },
+            {
+              "concepto": "Conocer la voz",
+              "cita": "Juan 10:4",
+              "ejemplo_real": "Las ovejas siguen al pastor porque conocen su voz. En medio del ruido de opiniones y miedos del mundo, entrena tu oído para distinguir la frecuencia de la Verdad. No sigas a extraños que solo buscan Tu lana (tu dinero o energía)."
+            },
+            {
+              "concepto": "Dar la vida en lo diario",
+              "cita": "Juan 10:15",
+              "ejemplo_real": "Dar la vida no siempre es morir físicamente; es rendir tus planes por el bienestar de quienes amas. Tu sacrificio diario de amor es lo que valida tu autoridad sobre el rebaño que Dios te confió."
+            }
+          ]
+        },
+        "eco_de_cristo": "David defendiendo a las ovejas del león prefigura a Jesús venciendo al León rugiente (1 Pedro 5:8)."
+      },
+      {
+        "nombre": "Thúra-Portal",
+        "titulo": "La Puerta del Reino (Divinidad)",
+        "avatar_url": "img/perfiles/jesus-puerta.webp",
+        "jurisdiccion": "Puerta Legal de Acceso al Padre y Firewall del Espíritu",
+        "etymos": {
+          "original": "θύρα",
+          "transliteracion": "Thúra",
+          "significado_legal": "El Portal / La Entrada / El acceso exclusivo a una nueva dimensión."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Firewall del Reino",
+          "texto": "Jesús dijo: \"Yo soy la puerta (Thúra)\". El misterio técnico es que quien entra por Él, halla pastos. Lo sorprendente es que si Cristo es la Puerta, el enemigo tiene que pasar por encima de la Resurrección antes de llegar a ti. El misterio es que estar \"en Cristo\" no es una metáfora mística; es una posición legal de seguridad absoluta donde nada que no haya vencido a Jesús puede tocarte."
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando desde el Portal",
+          "puntos": [
+            {
+              "concepto": "Entrar y salir legalmente",
+              "cita": "Juan 10:9",
+              "ejemplo_real": "Aprende a moverte bajo la libertad de la Gracia. No vivas encerrado en el miedo. Si entras por la Puerta (Cristo), tienes permiso legal para prosperar en el mundo sin que el mundo te absorba."
+            },
+            {
+              "concepto": "Confiar en el Firewall",
+              "cita": "Salmo 121:7",
+              "ejemplo_real": "Si hoy enfrentas una amenaza, descansa. Si la amenaza llegó a ti, es porque el Pastor lo permitió para un propósito mayor, o porque aún no has asumido tu posición detrás de la Puerta. Sintoniza con Su seguridad."
+            },
+            {
+              "concepto": "Llamar a otros al Portal",
+              "cita": "Mateo 7:7",
+              "ejemplo_real": "Tu misión es mostrar el Portal a los perdidos. No les des leyes o religiones pesadas; enséñales el acceso a la Vida. El Reino se expande cuando una persona descubre que la Puerta está abierta para él."
+            }
+          ]
+        },
+        "eco_de_cristo": "Cristo es el Alfa y la Omega, la Puerta que nadie puede cerrar (Apocalipsis 3:8)."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "el-buen-pastor",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "poimen-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "rediles-judea",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "pastor",
+      "puerta",
+      "seguridad"
+    ]
+  }
 ]

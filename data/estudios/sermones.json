@@ -1,25 +1,25 @@
 [
   {
-    "id": "shekhinah-el-arca-del-pacto",
-    "activo": true,
-    "fecha_programada": "2026-05-15",
-    "tipo": "tematico",
-    "titulo": "Shekhinah: El Arca del Pacto",
-    "subtitulo": "Descubriendo el Trono de la Gloria y el Centro de la Jurisdicción Divina",
-    "author": "Códice Bíblico",
+    "id": "jose-codigo-fructificacion",
+    "activo": false,
+    "fecha_programada": "2026-05-19",
+    "tipo": "sermones",
+    "titulo": "José: El Código de la Fructificación",
+    "subtitulo": "El Misterio de la Prosperidad en la Aflicción: Del Pozo al Palacio de Gobierno",
+    "autor": "Códice Bíblico",
     "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/hero-arca-pacto.webp",
+    "tiempo_lectura": "24 min",
+    "imagen_portada": "../img/estudios/jose-fructificacion.webp",
     "tags": [
-      "Tabernáculo",
-      "Arca del Pacto",
-      "Presencia de Dios",
-      "Gloria",
+      "Gobierno",
+      "Sabiduría",
+      "José",
+      "Provisión",
       "Cristocentrismo"
     ],
     "versiculo_clave": {
-      "texto": "Y de allí me declararé a ti, y hablaré contigo de sobre el propiciatorio...",
-      "cita": "Éxodo 25:22"
+      "texto": "Y llamó el nombre del segundo, Efraín; porque dijo: Dios me hizo fructificar en la tierra de mi aflicción.",
+      "cita": "Génesis 41:52"
     },
     "contenido": [
       {
@@ -28,16 +28,17 @@
       },
       {
         "tipo": "contexto_historico",
-        "titulo": "El Lugar Santísimo: El Punto de Encuentro Cósmico",
-        "texto": "En el corazón del Tabernáculo, tras el velo, se encontraba el Lugar Santísimo (Qodesh haQodashim). No había ventanas ni lámparas; la única luz era la Shekhinah (la gloria radiante de Dios) que reposaba sobre el Arca del Pacto. El Arca era un cofre de madera de acacia cubierto de oro, con el Propiciatorio y los Querubines en su parte superior. Este era el Trono móvil de Jehová en la tierra. Esta enseñanza revela que el objetivo final de todo el sistema del tabernáculo no era el rito, sino la Presencia. El Arca es el diseño donde el Dios Infinito decide concentrar Su jurisdicción para hablar cara a cara con el hombre redimido."
+        "genero_literario": "Narrativa Sapiencial / Tipología Mesiánica",
+        "titulo": "Egipto: La Jurisdicción de la Escasez y la Administración Divina",
+        "texto": "José es llevado a Egipto como esclavo, pasando por la casa de Potifar y la cárcel real. Egipto representaba la superpotencia mundial de la época, un sistema basado en la idolatría y el esfuerzo humano. Sin embargo, Dios inserta a José en este sistema no para que se adapte, sino para que lo gobierne mediante una sabiduría superior. La 'Tierra de la Aflicción' para José no fue un lugar de derrota, sino el laboratorio donde Dios probó Su capacidad para administrar la crisis de las naciones. La fructificación de José no ocurrió DESPUÉS de la aflicción, sino EN MEDIO de ella."
       },
       {
         "tipo": "lexico_profundo",
-        "termino": "Aron haBerit (אֲרוֹן הַבְּרִית)",
-        "idioma": "Hebreo",
-        "raiz": "Aron (Cofre / Arca) / Berit (Pacto)",
-        "significado": "El Arca del Pacto. Un contenedor para los testimonios legales de la relación de Dios con Su pueblo.",
-        "revelacion": "El Arca contenía tres elementos vitales: las Tablas de la Ley (la Palabra), el Maná (la Provisión) y la Vara de Aarón (la Autoridad resucitada). Esto nos enseña que la Presencia de Dios no es una nube emocional vaga; está fundamentada en principios legales, sustento sobrenatural y autoridad delegada. El Propiciatorio (Kapporet), donde se rociaba la sangre, es el lugar donde la Justicia y la Misericordia se besan. Sin sangre, el Arca es un lugar de juicio; con sangre, es un lugar de revelación y paz."
+        "termino": "Zafnat-panea (צָפְנַת פַּעְנֵחַ)",
+        "idioma": "Egipcio / Hebreo",
+        "raiz": "Revelador de secretos / El que da la vida",
+        "significado": "Nombre dado por Faraón. Implica alguien que tiene acceso a los misterios ocultos para preservar la vida.",
+        "revelacion": "José operaba bajo el código de la 'Inteligencia de Reino'. Su capacidad para interpretar sueños no era un don psíquico, sino el acceso legal a los secretos del Creador (Raz). Ser un 'revelador de secretos' significa que el cristiano maduro debe tener soluciones celestiales para problemas terrenales. La fructificación (Efraín) es la consecuencia natural de portar una palabra que el mundo necesita para no morir de hambre."
       },
       {
         "tipo": "seccion_titulo",
@@ -45,37 +46,60 @@
       },
       {
         "tipo": "revelacion_atributo",
-        "atributo": "Santidad, Justicia y Misericordia",
-        "texto": "Dios es Santo por encima de todo. Su atributo de Santidad exigía la separación por el velo. Su atributo de Justicia estaba guardado dentro del Arca (la Ley). Pero Su atributo de Misericordia se manifiesta en el Propiciatorio que cubre la Ley. Dios revela que Su deseo no es destruir al pecador con Su ley, sino cubrirlo con Su gracia para poder hablar con él. El Arca es el Trono de la Gracia donde el Dios del universo se hace accesible."
+        "atributo": "Providencia y Sabiduría Administrativa",
+        "texto": "Dios se revela como el Arquitecto de las circunstancias. Su atributo de Providencia asegura que nada del dolor de José fue desperdiciado. Vemos a un Dios que prepara al gobernante en la oscuridad del calabozo. Su sabiduría se manifiesta al dar un plan de 14 años (abundancia y escasez) para salvar al mundo conocido. Dios no solo salva almas, Él salva sociedades a través de hombres que conocen Sus tiempos."
       },
       {
         "tipo": "cristocentrico",
-        "titulo": "Cristo: El Arca Viviente y el Propiciatorio Eterno",
-        "texto": "Jesucristo es el cumplimiento perfecto del Arca. Él es Dios y Hombre (Oro y Madera). En Su corazón estaba la Ley de Dios. Él es el Maná que bajó del cielo y la Vara que floreció tras la muerte. Al morir, el velo se rasgó, revelando que en Cristo todos tenemos acceso al Lugar Santísimo. Él es nuestro Propiciatorio: Su propia sangre fue rociada para que el juicio de la ley ya no nos condene. Estar en Cristo es estar en el centro mismo de la Shekhinah."
+        "titulo": "José: La Tipología del Salvador Despreciado",
+        "texto": "José es uno de los tipos de Cristo más perfectos en la Biblia. Vendido por sus hermanos (como Jesús por Judas), injustamente acusado, descendió a lo más profundo (cárcel/muerte) para luego ser exaltado a la diestra del trono. Cristo es el verdadero 'Zafnat-panea' que revela el misterio de la salvación y provee el Pan de Vida en medio de la sequía espiritual de la humanidad. Al estar en Cristo, recibimos la unción de gobierno que José portaba."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Hilo de la Vestidura: La Transferencia de Identidad",
+        "descripcion": "Dios utiliza las vestiduras como códigos de asignación y autoridad. Sigue el hilo de la túnica de José:",
+        "pasos": [
+          {
+            "concepto": "La Túnica de Colores",
+            "explicacion": "Representa la identidad del hijo amado y el favor del padre. Es el diseño original que el enemigo intenta arrancar mediante la envidia."
+          },
+          {
+            "concepto": "La Vestidura de Esclavo",
+            "explicacion": "El proceso de quebrantamiento. José debe aprender a ser fiel en lo ajeno antes de gobernar lo propio. Su carácter crece mientras su ropa se degrada."
+          },
+          {
+            "concepto": "La Túnica de Gobierno en Egipto",
+            "explicacion": "El lino fino de Faraón. Dios devuelve la vestidura de autoridad, pero ahora multiplicada: José no solo es amado por su padre, sino que gobierna sobre las naciones."
+          },
+          {
+            "concepto": "Cristo: Nuestra Vestidura de Justicia",
+            "explicacion": "El clímax: Cristo fue desnudado en la cruz para que nosotros fuéramos vestidos con Su propia justicia. Hoy, tu identidad no es de esclavo, sino de coheredero revestido de Su gloria."
+          }
+        ]
       },
       {
         "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Gloria sin Velo Rasgado'",
-        "texto": "Es un error creer que puedes acceder a la Presencia profunda de Dios por tus propios méritos o sin pasar por la sangre de Jesús. Nadie entra al Lugar Santísimo 'por curiosidad' o por esfuerzo místico. El acceso fue comprado a precio de muerte. No trates la presencia de Dios con ligereza; es fuego consumidor que solo se vuelve luz cálida a través del sacrificio de Cristo. Honra la Sangre que te dio el pase de entrada."
+        "titulo": "La Mentira del 'Éxito sin Integridad'",
+        "texto": "Es un error creer que la prosperidad de José fue suerte o carisma. Fue el resultado de una integridad innegociable ante la tentación (la esposa de Potifar). Muchos quieren el palacio de José pero comprometen su altar en lo privado. El Código de la Fructificación exige que tu carácter sea más grande que tu posición. Sin santidad, el gobierno se convierte en tiranía."
       },
       {
         "tipo": "concordancia",
         "titulo": "La Biblia se Explica a Sí Misma",
         "referencias": [
           {
-            "cita": "Hebreos 9:1-7",
-            "explicacion": "📖 \"Describe el primer pacto y su santuario terrenal, con el candelero, la mesa y los panes de la proposición, y tras el segundo velo el Lugar Santísimo con el arca del pacto.\"<br><br>\n\nREVELACIÓN: Describe detalladamente el mobiliario del tabernáculo y la función del sumo sacerdote ante el Arca.",
-            "texto": "Describe el primer pacto y su santuario terrenal, con el candelero, la mesa y los panes de la proposición, y tras el segundo velo el Lugar Santísimo con el arca del pacto."
+            "cita": "Salmos 105:17-22",
+            "versiculo": "Envió un varón delante de ellos; A José, que fue vendido por siervo. Afligieron sus pies con grillos; En cárcel fue puesta su persona. Hasta la hora que se cumplió su palabra, El dicho de Jehová le probó.",
+            "revelacion": "Muestra que la prueba de José fue legal y espiritual; la Palabra de Dios fue el fuego que refinó su autoridad."
           },
           {
-            "cita": "Apocalipsis 11:19",
-            "explicacion": "📖 \"Y el templo de Dios fue abierto en el cielo, y el arca de su pacto se veía en el templo. Y hubo relámpagos, voces, truenos, un terremoto y grande granizo.\"<br><br>\n\nREVELACIÓN: El templo de Dios fue abierto en el cielo, y el arca de su pacto se veía en el templo. Muestra la permanencia eterna del diseño.",
-            "texto": "Y el templo de Dios fue abierto en el cielo, y el arca de su pacto se veía en el templo. Y hubo relámpagos, voces, truenos, un terremoto y grande granizo."
+            "cita": "Génesis 50:20",
+            "versiculo": "Vosotros pensasteis mal contra mí, mas Dios lo encaminó a bien, para hacer lo que vemos hoy, para mantener en vida a mucho pueblo.",
+            "revelacion": "El resumen del código de gobierno: la redención soberana de la intención del enemigo."
           },
           {
-            "cita": "Romanos 3:25",
-            "explicacion": "📖 \"A quien Dios puso como propiciación por medio de la fe en su sangre, para manifestar su justicia, a causa de haber pasado por alto, en su paciencia, los pecados pasados.\"<br><br>\n\nREVELACIÓN: Dios puso a Jesús como propiciación (Kapporet) por medio de la fe en su sangre. Cristo es el lugar del perdón.",
-            "texto": "A quien Dios puso como propiciación por medio de la fe en su sangre, para manifestar su justicia, a causa de haber pasado por alto, en su paciencia, los pecados pasados."
+            "cita": "Hechos 7:9-10",
+            "versiculo": "Los patriarcas, movidos por envidia, vendieron a José para Egipto; pero Dios estaba con él, y le libró de todas sus tribulaciones, y le dio gracia y sabiduría delante de Faraón.",
+            "revelacion": "Confirma que el factor decisivo no fue el sistema egipcio, sino la presencia inmanente de Dios."
           }
         ]
       },
@@ -85,89 +109,386 @@
       },
       {
         "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Entrando al Secreto",
+        "titulo": "Para el Nuevo Creyente: Floreciendo en el Pozo",
         "items": [
           {
-            "punto": "Cree que el velo ya se rasgó para ti.",
-            "ejemplo": "No sientas que Dios está 'lejos' o que necesitas a un intermediario humano para hablar con Él. Por la sangre de Jesús, tú puedes entrar hoy mismo al Lugar Santísimo en tu oración. Habla con Dios con la confianza de quien está ante su Padre."
+            "punto": "Identifica tu 'Egipto' actual (tu lugar de prueba o trabajo difícil).",
+            "ejemplo": "Si hoy te sientes menospreciado en tu entorno, recuerda que José fue un esclavo excelente antes de ser un gobernante excelente. Tu actitud en la prueba determina Tu altitud en el Reino."
           },
           {
-            "punto": "Guarda el 'Maná' de la palabra en tu corazón.",
-            "ejemplo": "Haz que la Palabra de Dios sea tu tesoro interno, como los elementos dentro del Arca. No dejes que la ley sea algo externo; permite que el Espíritu la grabe en tu mente para que te guíe en cada decisión."
+            "punto": "No permitas que la traición amargue tu espíritu.",
+            "ejemplo": "José pudo haber odiado a sus hermanos, pero eligió ver la mano de Dios. Perdona hoy a quienes te 'vendieron'; ellos solo fueron un transporte hacia Tu destino."
           },
           {
-            "punto": "Reconoce que llevas la Presencia contigo.",
-            "ejemplo": "Como hijo de Dios, tú eres ahora el Arca. Dondequiera que vayas, llevas la Shekhinah. Comórtate con la dignidad de quien porta la gloria de Dios en su interior. Tu cuerpo es templo del Dios vivo."
+            "punto": "Confía en que Dios está contigo en lo secreto.",
+            "ejemplo": "Incluso si nadie ve tu esfuerzo, Dios lo ve. Como José en la cárcel, mantén tu integridad y tu servicio; el tiempo del cumplimiento de Tu palabra está cerca."
           }
         ]
       },
       {
         "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Ministrando desde el Trono",
+        "titulo": "Para el Maduro: Administrando la Crisis",
         "items": [
           {
-            "punto": "Opera desde la revelación del Propiciatorio.",
-            "ejemplo": "Un maduro no ministra condenación, ministra propiciación. Ayuda a otros a ver que sus pecados están cubiertos por la sangre de Cristo. Sé la voz de Dios que habla desde 'sobre el propiciatorio' para traer paz y dirección al pueblo."
+            "punto": "Busca soluciones del Reino para problemas sociales.",
+            "ejemplo": "Un maduro no solo ora, propone. Usa la sabiduría de Dios para mejorar procesos en tu empresa o comunidad. Sé el 'revelador de secretos' que trae orden donde hay caos."
           },
           {
-            "punto": "Sostén el orden del Reino (La Ley dentro del Arca).",
-            "ejemplo": "La presencia de Dios no es anarquía. Un maduro vive bajo los principios del Código de Dios de manera voluntaria y gozosa. Tu obediencia es lo que mantiene la tapa de oro (la gloria) firme sobre tu vida. No busques experiencias emocionales sin fundamento legal bíblico."
+            "punto": "Aprende a ahorrar en la abundancia para proveer en la escasez.",
+            "ejemplo": "Aplica el código administrativo de los 7 años. No consumas todo lo que Dios te da hoy; administra con visión generacional. Tu provisión debe ser un refugio para otros en el futuro."
           },
           {
-            "punto": "Provoca que la Gloria se manifieste en la tierra.",
-            "ejemplo": "Como los sacerdotes que cargaban el Arca sobre sus hombros, tú eres responsable de 'mover' la presencia de Dios hacia las nuevas generaciones y hacia los lugares oscuros. Tu madurez se mide por cuánto de la Shekhinah se percibe cuando tú intervienes en una situación. Sé un portador de gloria que transforme atmósferas y naciones."
+            "punto": "Opera desde la autoridad de la unción, no del título.",
+            "ejemplo": "A José lo reconocieron no por su ropa egipcia, sino por el espíritu superior que portaba. Que tu influencia no dependa de Tu cargo, sino de la Presencia de Dios que emana de Tu vida."
           }
         ]
       }
     ],
-    "desafio_practico": "Hoy, aparta 10 minutos de silencio absoluto. Visualiza el Arca y escucha el susurro del Padre. No pidas nada, solo deja que Su Gloria recalibre tu espíritu.",
-    "gamificacion": {
-      "xp_lectura": 300,
-      "logro_id": "portador-de-gloria"
-    },
     "conexiones": {
       "huellas": [
         {
-          "id": "aaron",
-          "nombre": "Aarón",
-          "razon": "El sumo sacerdote que entraba una vez al año al Lugar Santísimo.",
-          "simbolismo": "El modelo de la intercesión que busca la presencia final."
+          "id": "daniel",
+          "nombre": "Daniel",
+          "razon": "Otro administrador del Reino en un sistema pagano.",
+          "paralelismo": "Como José, Daniel mantuvo su altar intacto en el palacio y gobernó mediante la interpretación de misterios."
         },
         {
-          "id": "david",
-          "nombre": "David",
-          "razon": "Danzó ante el Arca con todas sus fuerzas, reconociendo al Rey.",
-          "paralelismo": "El gozo que produce el retorno de la Presencia al pueblo."
-        },
-        {
-          "id": "obed-edom",
-          "nombre": "Obed-edom",
-          "razon": "Hospedó el Arca y su casa fue bendecida explosivamente.",
-          "declaracion": "Mi vida es el lugar donde el Arca descansa; mi hogar es territorio de bendición sobrenatural."
+          "id": "ester",
+          "nombre": "Ester",
+          "razon": "Posicionada en el palacio para salvación de su pueblo.",
+          "simbolismo": "Representa el acceso providencial al favor del Rey para anular decretos de muerte."
         }
       ],
       "cronos": [
         {
-          "id": "el-tabernaculo",
-          "nombre": "Lugar Santísimo",
-          "razon": "El centro geográfico y espiritual del universo de Dios en la tierra.",
-          "declaracion": "Habito en el abrigo del Altísimo; estoy en el centro mismo de Su gloria."
+          "id": "egipto-jose",
+          "nombre": "Egipto",
+          "razon": "Escenario de la fructificación en la aflicción.",
+          "declaracion": "Mi tierra de aflicción se convierte hoy en mi territorio de gobierno. Lo que el enemigo pensó para mal, Dios lo encamina para bien."
         }
       ],
       "aposento": [
         {
-          "id_oracion": "encuentro-en-el-propiciatorio",
-          "tema": "Presencia y Gloria",
-          "declaracion": "Padre, hoy entro al Lugar Santísimo por la Sangre del Cordero. Me rindo ante Tu Arca. Habla conmigo desde el Propiciatorio. Que Tu Shekhinah me envuelva y me transforme para siempre. Amén."
+          "id_oracion": "gobierno-en-la-crisis",
+          "tema": "Sabiduría y Provisión",
+          "declaracion": "Padre, hoy recibo el código de Zafnat-panea. Que Tu sabiduría me posicione para ser un canal de vida en mi generación. No temeré a la escasez. Amén."
         }
       ]
+    }
+  },
+  {
+    "id": "la-justificacion-por-fe",
+    "activo": true,
+    "fecha_programada": "2026-05-18",
+    "tipo": "sermones",
+    "titulo": "Justificación: El Hackeo Legal de la Justicia",
+    "subtitulo": "El Protocolo Contable que Sobrescribe tu Historial",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/justificacion-fe.webp",
+    "tags": [
+      "Justicia",
+      "Chashab",
+      "Legalidad",
+      "Abraham",
+      "Identidad"
+    ],
+    "versiculo_clave": {
+      "texto": "Y creyó a Jehová, y le fue contado por justicia.",
+      "cita": "Génesis 15:6"
     },
-    "autor": "Códice Bíblico"
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "titulo": "El Tribunal de la Conciencia vs. El Tribunal del Reino",
+        "texto": "En el sistema de la entropía humana, todo se adquiere por mérito; si fallas, tu historial te condena permanentemente. Abraham vivía en una cultura donde los dioses demandaban obras constantes. Lo revolucionario de la revelación de Abraham es que Dios introduce un 'Protocolo Contable': la justicia no es algo que fabricas, es algo que se te acredita (imputa) al sintonizar con la Palabra del Emisor."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Chashab (חָשַׁב)",
+        "idioma": "Hebreo",
+        "raiz": "Hshb (Inventariar/Calcular)",
+        "significado": "Imputar, calcular o tomar en cuenta",
+        "revelacion": "Chashab es un término contable. No significa que Abraham se volvió 'perfecto' en su conducta, sino que Dios colocó el valor de la perfección en su cuenta. La fe es el código que autoriza al Cielo a realizar ese traspaso legal de crédito a tu favor."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Justicia e Integridad",
+        "texto": "Vemos a un Dios que es tan Justo que no puede ignorar el pecado, pero tan Íntegro que mantiene Su promesa por encima de nuestra debilidad. La justificación revela que Dios ha encontrado una forma legal (la fe) para declararnos inocentes sin violar Su propia ley moral."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesús: Nuestra Justicia Imputada",
+        "texto": "Abraham creyó en la promesa de una semilla; nosotros creemos en el cumplimiento de esa Semilla: Cristo. Jesús es el único que posee un historial de justicia perfecto. En la cruz, ocurrió el gran 'ajuste contable': nuestro pecado fue cargado en Su cuenta, y Su justicia fue cargada en la nuestra. Tú no eres justo por lo que haces, sino por el saldo que Cristo depositó en ti."
+      },
+      {
+        "tipo": "imagen",
+        "url": "../img/estudios/justificacion-fe.webp",
+        "descripcion": "La balanza del Reino: Un solo acto de sintonía pesando más que una vida de esfuerzos autónomos."
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del 'Meritismo' Religioso",
+        "texto": "Es un error creer que después de ser salvos por fe, debemos 'mantener' esa salvación mediante obras perfectas. Eso es volver al sistema de la Sarx (carne). Las obras son el fruto natural de ser justos, no la raíz que produce la justicia. No intentes pagar por un regalo que ya fue saldado con sangre real."
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Contabilidad Eterna",
+        "referencias": [
+          {
+            "cita": "Romanos 4:3-5",
+            "explicacion": "📖 \"Porque ¿qué dice la Escritura? Creyó Abraham a Dios, y le fue contado por justicia. Pero al que obra, no se le cuenta el salario como gracia, sino como deuda; mas al que no obra, sino cree en aquel que justifica al impío, su fe le es contada por justicia.\"<br><br>\n\nREVELACIÓN: Pablo usa a Abraham como el caso legal maestro para demostrar que al que no trabaja, sino cree, su fe le es contada por justicia.",
+            "texto": "Porque ¿qué dice la Escritura? Creyó Abraham a Dios, y le fue contado por justicia. Pero al que obra, no se le cuenta el salario como gracia, sino como deuda; mas al que no obra, sino cree en aquel que justifica al impío, su fe le es contada por justicia."
+          },
+          {
+            "cita": "Gálatas 3:6-9",
+            "explicacion": "📖 \"Así Abraham creyó a Dios, y le fue contado por justicia. Sabed, por tanto, que los que son de fe, éstos son hijos de Abraham. Y la Escritura, previendo que Dios había de justificar por la fe a los gentiles, dio de antemano la buena nueva a Abraham, diciendo: En ti serán benditas todas las naciones. De modo que los de la fe son bendecidos con el creyente Abraham.\"<br><br>\n\nREVELACIÓN: Confirma que los que tienen fe son los verdaderos hijos de Abraham y participan de la misma bendición contable.",
+            "texto": "Así Abraham creyó a Dios, y le fue contado por justicia. Sabed, por tanto, que los que son de fe, éstos son hijos de Abraham. Y la Escritura, previendo que Dios había de justificar por la fe a los gentiles, dio de antemano la buena nueva a Abraham, diciendo: En ti serán benditas todas las naciones. De modo que los de la fe son bendecidos con el creyente Abraham."
+          },
+          {
+            "cita": "2 Corintios 5:21",
+            "explicacion": "📖 \"Al que no conoció pecado, por nosotros lo hizo pecado, para que nosotros fuésemos hechos justicia de Dios en él.\"<br><br>\n\nREVELACIÓN: El decreto definitivo: 'Al que no conoció pecado... para que nosotros fuésemos hechos justicia de Dios en él'.",
+            "texto": "Al que no conoció pecado, por nosotros lo hizo pecado, para que nosotros fuésemos hechos justicia de Dios en él."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu Saldo está en Verde",
+        "items": [
+          {
+            "punto": "Acepta la declaración de inocencia sobre tu pasado.",
+            "ejemplo": "Si hoy te sientes sucio por algo que hiciste hace años (Suposición), detente. Haz un 'ajuste contable' en tu mente. Declara: 'Esa deuda ya no existe en el libro del Cielo; el saldo de Cristo me cubre hoy'."
+          },
+          {
+            "punto": "Deja de intentar 'pagarle' a Dios con buen comportamiento.",
+            "ejemplo": "No ores o sirvas para que Dios te quiera más. Hazlo porque ya eres amado y ya eres justo. Cambia el 'esfuerzo para obtener' por el 'flujo de agradecimiento'."
+          },
+          {
+            "punto": "Confía en la Voz de Dios por encima de tu historial.",
+            "ejemplo": "Cuando tu mente te diga 'eres un fracaso', responde con el Códice: 'Dios dice que soy Su justicia'. Asigna más peso legal a Su Palabra que a tus recuerdos."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Administra tu Estatus de Amigo",
+        "items": [
+          {
+            "punto": "Opera desde la intimidad del 'Socio del Reino'.",
+            "ejemplo": "Abraham fue llamado amigo de Dios porque ya no tenía que impresionar al Padre. En tu liderazgo (Escenario), no busques validación en los resultados; busca sintonizar los secretos que el Padre quiere compartir con Sus amigos justificados."
+          },
+          {
+            "punto": "Silencia al acusador con argumentos legales.",
+            "ejemplo": "Cuando enfrentes un ataque de duda sobre tu autoridad espiritual (Escenario), no te defiendas con tus méritos. Presenta el 'recibo' de la justificación: 'Estoy aquí por el crédito de Cristo, y ese crédito es inimpugnable'."
+          },
+          {
+            "punto": "Modela una justicia que atraiga a otros.",
+            "ejemplo": "Que tu paz en medio de tus propios errores sea un testimonio para otros. Muestra que tu estabilidad no viene de ser perfecto, sino de estar perfectamente anclado en la justicia imputada. Eso libera a los que están bajo el peso de la ley."
+          }
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, identifica un pensamiento de insuficiencia. Di: 'Este error no define mi saldo. Renuncio al esfuerzo de la Sarx y descanso en mi identidad de hijo justo'.",
+    "gamificacion": {
+      "xp_lectura": 280,
+      "logro_id": "cuenta-saldada"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "abraham",
+          "nombre": "Abraham",
+          "razon": "El gestor original de la fe que estableció la base legal de nuestra herencia.",
+          "paralelismo": "Tipología del pecador que es declarado 'Amigo de Dios' por sintonía de confianza."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "encinar-mamre",
+          "nombre": "Encinar de Mamre",
+          "razon": "Lugar de la visitación donde la fe fue sellada como amistad eterna.",
+          "simbolismo": "Representa el ecosistema donde la justicia imputada se convierte en intimidad manifiesta."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "paz-en-la-justicia",
+          "tema": "Reposo y Aceptación",
+          "declaracion": "Padre, hoy recibo Tu saldo de justicia. Renuncio a la condena de mi historial y camino con la frente en alto, sabiendo que en Cristo soy legalmente inocente y eternamente amado."
+        }
+      ]
+    }
+  },
+  {
+    "id": "heroes-de-la-fe",
+    "activo": true,
+    "fecha_programada": "2026-05-17",
+    "tipo": "sermones",
+    "titulo": "Héroes de la Fe: El Protocolo de Sintonía",
+    "subtitulo": "Operando en la Hupóstasis de lo Invisible",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/heroes-fe.webp",
+    "tags": [
+      "Fe",
+      "Sintonía",
+      "Legalidad",
+      "Visión",
+      "Hebreos 11"
+    ],
+    "versiculo_clave": {
+      "texto": "Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve.",
+      "cita": "Hebreos 11:1"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "titulo": "La 'Fe' como Título de Propiedad",
+        "texto": "En el mundo griego y romano del primer siglo, la palabra 'fe' (pistis) no era solo un sentimiento religioso; se usaba en documentos legales para referirse a una garantía o un título de propiedad. Los héroes de la fe de Hebreos 11 no eran soñadores optimistas; eran operadores legales que sostenían en sus manos los 'títulos de propiedad' de promesas celestiales que aún no se habían manifestado físicamente."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Hupóstasis (ὑπόστασις)",
+        "idioma": "Griego",
+        "raiz": "Hupo (debajo) + Stasis (estar en pie)",
+        "significado": "Sustancia, fundamento o realidad subyacente",
+        "revelacion": "La fe es la 'Hupóstasis': el suelo que pisas en el espíritu antes de que la tierra aparezca en lo natural. Es la realidad que sostiene lo invisible. Sin hupóstasis, tu esperanza es solo una fantasía; con ella, es una certeza jurídica."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Veracidad e Inmutabilidad",
+        "texto": "La fe se apoya en la Veracidad de Dios. Si Él habló, la realidad ya fue creada en Su mente. Los héroes de la fe entendieron que Dios no puede mentir, por lo tanto, Su Palabra tiene más peso atómico que cualquier circunstancia física que diga lo contrario."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesús: El Autor y Consumador",
+        "texto": "Hebreos 12 nos dice que debemos poner los ojos en Jesús. Él es el héroe supremo que por el 'gozo puesto delante de él' (la fe en la resurrección) sufrió la cruz. Jesús no solo nos da fe, Él es la Fe encarnada. Él operó perfectamente en la Hupóstasis del Padre para abrirnos el camino de regreso al diseño original."
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "No confundas Fe con 'Pensamiento Positivo'",
+        "texto": "La fe bíblica no es tratar de convencerte de que algo va a salir bien. El pensamiento positivo nace de la psicología humana; la fe nace del oído que escucha la Palabra de Dios. La fe no 'crea' cosas de la nada para tu capricho, la fe 'recibe' lo que Dios ya diseñó para Su propósito."
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Nube de Testigos",
+        "referencias": [
+          {
+            "cita": "Génesis 15:6",
+            "explicacion": "📖 \"Y creyó a Jehová, y le fue contado por justicia.\"<br><br>\n\nREVELACIÓN: El protocolo original donde la fe es contada por justicia, estableciendo la base legal de la justificación.",
+            "texto": "Y creyó a Jehová, y le fue contado por justicia."
+          },
+          {
+            "cita": "Romanos 4:17",
+            "explicacion": "📖 \"(como está escrito: Te he puesto por padre de muchas gentes) delante de Dios, a quien creyó, el cual da vida a los muertos, y llama las cosas que no son, como si fuesen.\"<br><br>\n\nREVELACIÓN: Define la operativa de la fe de Abraham: llamar las cosas que no son como si fuesen.",
+            "texto": "(como está escrito: Te he puesto por padre de muchas gentes) delante de Dios, a quien creyó, el cual da vida a los muertos, y llama las cosas que no son, como si fuesen."
+          },
+          {
+            "cita": "Habacuc 2:4",
+            "explicacion": "📖 \"He aquí que aquel cuya alma no es recta, se enorgullece; mas el justo por su fe vivirá.\"<br><br>\n\nREVELACIÓN: El decreto profético: 'el justo por su fe vivirá', que conecta el Antiguo con el Nuevo Testamento.",
+            "texto": "He aquí que aquel cuya alma no es recta, se enorgullece; mas el justo por su fe vivirá."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Sintoniza la Frecuencia",
+        "items": [
+          {
+            "punto": "Cambia tu fuente de información.",
+            "ejemplo": "Si hoy te sientes abrumado por las noticias o los chismes (Suposición), apaga ese ruido. Lee una promesa de Dios y declara: 'Este es mi título de propiedad hoy. Yo le creo al Diseñador'."
+          },
+          {
+            "punto": "No esperes 'sentir' para creer.",
+            "ejemplo": "La fe no es una emoción. Si te sientes triste pero la Biblia dice que eres gozoso, actúa por la Palabra. El sentimiento seguirá a tu decisión de fe, no al revés."
+          },
+          {
+            "punto": "Usa lo que tienes en la mano.",
+            "ejemplo": "Moisés tenía una vara, David una honda. Usa la pequeña fe que tienes hoy para dar el primer paso de obediencia; Dios se encargará de multiplicar la potencia de tu acto."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Opera en la Hupóstasis",
+        "items": [
+          {
+            "punto": "Asigna peso legal a la Voz de Dios sobre la realidad física.",
+            "ejemplo": "Ante una crisis en tu ministerio o trabajo (Escenario), no busques culpables. Ve al secreto, sintoniza la instrucción del Rey y actúa con la seguridad de quien ya vio el resultado final en el espíritu."
+          },
+          {
+            "punto": "Soporta la contradicción con paciencia.",
+            "ejemplo": "Abraham esperó 25 años. El maduro no se desanima si la promesa tarda. Sabe que el tiempo es solo un filtro para purificar la intención del corazón y consolidar la sustancia de la fe."
+          },
+          {
+            "punto": "Materializa el Reino para otros.",
+            "ejemplo": "Tu fe debe proveer refugio a los que dudan. Sé un mentor que, desde tu propia certeza jurídica (tu testimonio), ayude a otros a encontrar el 'título de propiedad' de su propia identidad en Cristo."
+          }
+        ]
+      }
+    ],
+    "desafio_practico": "Hoy, escribe en un papel una promesa de Dios para ti y guárdala en tu bolsillo. Cada vez que la toques, declara: 'Esta es mi Hupóstasis legal'.",
+    "gamificacion": {
+      "xp_lectura": 250,
+      "logro_id": "testigo-de-la-nube"
+    },
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "abraham",
+          "nombre": "Abraham",
+          "razon": "El padre de la fe que modeló el protocolo de sintonía.",
+          "paralelismo": "Tipología del creyente que abandona lo visible por lo eterno."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "encinar-mamre",
+          "nombre": "Encinar de Mamre",
+          "razon": "Lugar de la visitación donde la fe se volvió tangible.",
+          "simbolismo": "Representa el ecosistema de hospitalidad donde Dios manifiesta Sus promesas."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "sintonia-eterna",
+          "tema": "Visión Espiritual",
+          "declaracion": "Padre, hoy activo mi fe como un título de propiedad inmutable. Renuncio a la niebla de los sentidos y camino bajo la claridad de Tu Palabra."
+        }
+      ]
+    }
   },
   {
     "id": "proposito-diseno-original-maestro",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Diseñados por Dios",
     "subtitulo": "Descubriendo el Propósito en el Taller del Maestro",
     "autor": "Códice Bíblico",
@@ -324,7 +645,7 @@
   {
     "id": "diseno-original-familia-legado-eterno",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Diseño Original de la Familia",
     "subtitulo": "Edificando un Legado Eterno bajo el Diseño Divino",
     "autor": "Códice Bíblico",
@@ -477,7 +798,7 @@
   {
     "id": "victoria-campo-batalla-mente",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Victoria en el Campo de Batalla de la Mente",
     "subtitulo": "Dominando la Mente para Conquistar la Paz del Reino",
     "autor": "Códice Bíblico",
@@ -630,7 +951,7 @@
   {
     "id": "encuentros-transformadores-identidad-nueva",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Encuentros que Transforman",
     "subtitulo": "De la Religiosidad y el Pasado a una Nueva Vida en el Espíritu",
     "autor": "Códice Bíblico",
@@ -783,7 +1104,7 @@
   {
     "id": "presencia-vs-costumbre-honra-u-omision",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Presencia vs. Costumbre",
     "subtitulo": "El Secreto de la Bendición Sobrenatural en el Hogar",
     "autor": "Códice Bíblico",
@@ -936,7 +1257,7 @@
   {
     "id": "fortaleza-interior-cristiana-caracter",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "La Fortaleza Interior del Cristiano",
     "subtitulo": "Construyendo un Carácter Inamovible bajo el Diseño del Reino",
     "autor": "Códice Bíblico",
@@ -1089,7 +1410,7 @@
   {
     "id": "pesca-milagrosa-obediencia-llamado",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "La Pesca Milagrosa",
     "subtitulo": "Cuando la Obediencia Activa lo Sobrenatural en el Diseño del Reino",
     "autor": "Códice Bíblico",
@@ -1247,7 +1568,7 @@
   {
     "id": "sangre-cordero-antidoto-eterno",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Antídoto Eterno",
     "subtitulo": "La Ciencia y Fe de la Sangre del Cordero en el Diseño Redentor",
     "autor": "Códice Bíblico",
@@ -1405,7 +1726,7 @@
   {
     "id": "si-la-iglesia-calla-piedras-hablaran",
     "activo": true,
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Si la Iglesia Calla, las Piedras Hablarán",
     "subtitulo": "La Creación como Testigo Irrefutable del Diseño Divino",
     "autor": "Códice Bíblico",
@@ -1567,338 +1888,10 @@
     "fecha_programada": "2026-05-14"
   },
   {
-    "id": "el-dios-de-oportunidades",
-    "activo": true,
-    "tipo": "tematico",
-    "titulo": "El Dios de las Oportunidades",
-    "subtitulo": "El Misterio de la Restauración Legal y Espiritual del Caído",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/david-arrepentimiento.webp",
-    "tags": [
-      "Restauración",
-      "Arrepentimiento",
-      "Gracia",
-      "Perdón",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "El que encubre sus pecados no prosperará; Mas el que los confiesa y se aparta alcanzará misericordia.",
-      "cita": "Proverbios 28:13"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Justicia Retributiva vs. La Justicia Redentora",
-        "texto": "En la cultura del Antiguo Cercano Oriente, el fracaso o la traición solían pagarse con la muerte o el destierro perpetuo. Sin embargo, el Código de Dios introduce una anomalía legal: el arrepentimiento (Teshuvá). David con Betsabé y Pedro en el Mar de Galilea representan las dos caras de la caída: el pecado moral y la negación por miedo. En ambos casos, Dios no busca un sustituto para el caído, sino que busca restaurar al caído para que cumpla su diseño original."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Metanoia (μετάνοια)",
-        "idioma": "Griego",
-        "raiz": "Cambio de mente",
-        "significado": "No es solo remordimiento emocional, es un giro de 180 grados en la percepción y el entendimiento.",
-        "revelacion": "La restauración comienza en la mente. No puedes ser restaurado si sigues pensando como un reo de muerte. La Metanoia es el proceso legal donde renuncias a tu argumento de defensa propio para aceptar el argumento de la Gracia. Dios no borra tu historia, la redime para que tus cicatrices sean el mapa de Su misericordia."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Misericordia Inagotable y Fidelidad",
-        "texto": "Dios se revela como Aquel que 'no guarda el enojo para siempre'. Su atributo de Misericordia (Chesed) está ligado a Su pacto. Él no te restaura porque seas bueno, sino porque Él es fiel a Su propia Palabra. El Dios de las oportunidades es Aquel que ve el 'Pedro Apóstol' dentro del 'Simón Cobarde' y el 'Rey Conforme a Su Corazón' detrás del 'David Adúltero'."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Abogado y la Propiciación",
-        "texto": "Jesús es el fundamento de nuestra segunda oportunidad. En la Cruz, Él absorbió el juicio que merecían nuestras caídas. Cuando Pedro lo negó, Jesús ya había orado por él. La mirada de Cristo a Pedro tras la negación no era de condenación, sino de recordatorio del pacto. Cristo es el puente legal que permite que un pecador confeso sea un hijo restaurado. Su intercesión es el motor de nuestra restitución."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Gracia Barata'",
-        "texto": "Es un error creer que la 'oportunidad' de Dios es una licencia para pecar deliberadamente. La Biblia advierte: '¿Perseveraremos en el pecado para que la gracia abunde?'. La verdadera oportunidad produce un quebrantamiento que nos aleja del pecado, no un confort que nos mantiene en él. Sin arrepentimiento (confesión y abandono), no hay flujo de restauración."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Salmos 51",
-            "explicacion": "📖 \"El salmo de arrepentimiento de David tras su pecado con Betsabé, donde clama por misericordia, limpieza y la renovación de un espíritu recto dentro de él.\"<br><br>\n\nREVELACIÓN: El manual del arrepentimiento de David, donde pide no solo perdón, sino un 'corazón limpio' y un 'espíritu noble'.",
-            "texto": "El salmo de arrepentimiento de David tras su pecado con Betsabé, donde clama por misericordia, limpieza y la renovación de un espíritu recto dentro de él."
-          },
-          {
-            "cita": "Juan 21:15-17",
-            "explicacion": "📖 \"Jesús restaura a Pedro preguntándole tres veces si le ama, encargándole finalmente el cuidado de Sus ovejas.\"<br><br>\n\nREVELACIÓN: La restauración pública de Pedro donde el amor borra la traición mediante el cuidado del rebaño.",
-            "texto": "Jesús restaura a Pedro preguntándole tres veces si le ama, encargándole finalmente el cuidado de Sus ovejas."
-          },
-          {
-            "cita": "Miqueas 7:8",
-            "explicacion": "📖 \"Tú, enemiga mía, no te alegres de mí, porque aunque caí, me levantaré; aunque more en tinieblas, Jehová será mi luz.\"<br><br>\n\nREVELACIÓN: El grito de fe del caído: 'Si caí, me levantaré; si moro en tinieblas, Jehová será mi luz'.",
-            "texto": "Tú, enemiga mía, no te alegres de mí, porque aunque caí, me levantaré; aunque more en tinieblas, Jehová será mi luz."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Saliendo del Escondite",
-        "items": [
-          {
-            "punto": "Confiesa tu falta sin intentar justificarla.",
-            "ejemplo": "Como David ante Natán, simplemente di: 'Pequé'. Dios no puede sanar lo que tú intentas encubrir. La luz de la verdad es el primer paso de tu libertad."
-          },
-          {
-            "punto": "Cree que el perdón de Dios es total e inmediato.",
-            "ejemplo": "No sientas que necesitas pasar un 'año de castigo' para que Dios te ame de nuevo. El Padre del hijo pródigo corrió a besarlo antes de que el hijo terminara su discurso. Su amor es más rápido que tu culpa."
-          },
-          {
-            "punto": "Identifica a quién necesitas perdonar tú.",
-            "ejemplo": "Si Dios te ha dado una oportunidad, Él espera que tú se la des a otros. Libera la deuda de esa persona que te falló; no permitas que la falta de perdón bloquee tu propia restauración."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Restaurando a Otros",
-        "items": [
-          {
-            "punto": "Usa tu fracaso redimido como herramienta de ministración.",
-            "ejemplo": "No escondas tus cicatrices por orgullo religioso. Un maduro restaurado tiene la autoridad de decirle al que cayó: 'Yo estuve ahí, y el Dios de oportunidades me levantó'. Tu honestidad rompe el aislamiento del caído."
-          },
-          {
-            "punto": "Discierne entre remordimiento carnal y arrepentimiento del Espíritu.",
-            "ejemplo": "El remordimiento solo lamenta las consecuencias; el arrepentimiento lamenta haber herido el corazón del Padre. Ayuda a otros a enfocarse en la Persona de Dios, no en la vergüenza pública."
-          },
-          {
-            "punto": "Asume el rol de 'Bernabé' para los nuevos Saulos.",
-            "ejemplo": "Sé aquel que cree en el llamado de alguien que otros rechazan por su pasado. La madurez se demuestra en la capacidad de ver el diseño de Dios por encima del error del hombre."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Evalúa tu corazón hoy: ¿Hay algún pecado que necesitas dejar de encubrir para alcanzar misericordia? Decide hoy extender perdón a alguien que te haya fallado.",
-    "gamificacion": {
-      "xp_lectura": 120,
-      "logro_id": "corazon-restaurado"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "pedro",
-          "nombre": "Simón Pedro",
-          "razon": "Experimentó la restauración total tras negar a Jesús.",
-          "paralelismo": "Como Pedro, nuestra negación no es el final de nuestra historia, sino el preámbulo de un nuevo nivel de amor."
-        },
-        {
-          "id": "david",
-          "nombre": "Rey David",
-          "razon": "Ejemplo de arrepentimiento genuino tras su fracaso moral.",
-          "simbolismo": "La vasija quebrantada que el Alfarero decide no desechar, sino volver a formar."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "Perseguidor convertido en heraldo de la Gracia.",
-          "declaracion": "Donde abundó el pecado, sobreabundó la gracia. Mi pasado es el trofeo de Su misericordia."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "lago-genesaret",
-          "nombre": "Mar de Galilea",
-          "razon": "Lugar de la restauración de Pedro.",
-          "declaracion": "Declaro que mi escenario de vergüenza se convierte hoy en mi escenario de comisión. El Dios que me vio caer es el que me manda a alimentar a Sus ovejas."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "corazon-limpio-restaurado",
-          "tema": "Arrepentimiento y Gracia",
-          "declaracion": "Padre, hoy traigo mi pecado y mi debilidad ante Tu Trono. No los escondo más. Gracias por el Dios de las oportunidades que vive en mí. Me levanto en Tu justicia. Amén."
-        }
-      ]
-    },
-    "fecha_programada": "2026-05-14"
-  },
-  {
-    "id": "pacto-mesa-del-rey",
-    "activo": true,
-    "tipo": "tematico",
-    "titulo": "El Pacto que nos sentó a la Mesa",
-    "subtitulo": "Descubriendo la Gracia Incondicional desde Lo-debar hasta el Palacio",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "20 min",
-    "imagen_portada": "../img/estudios/mesa-del-rey.webp",
-    "tags": [
-      "Gracia",
-      "Pacto",
-      "Identidad",
-      "Filiación",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y comía Mefiboset a la mesa del rey siempre; y era lisiado de ambos pies.",
-      "cita": "2 Samuel 9:13"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Ley del Vengador de Sangre vs. El Pacto de Jonatán",
-        "texto": "En la transición de la casa de Saúl a la casa de David, lo normal era que el nuevo rey eliminara a toda la descendencia del anterior para evitar rivalidades. Mefiboset vivía escondido en Lo-debar (lugar sin palabra, sin pasto), lisiado y temeroso. David, sin embargo, no lo busca por su utilidad política, sino por causa de un pacto previo con Jonatán. Esta historia es el mapa más claro de cómo Dios nos busca no por quiénes somos, sino por Quién es Su Hijo."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Chesed (חֶסֶד)",
-        "idioma": "Hebreo",
-        "raiz": "Misericordia / Bondad de Pacto",
-        "significado": "No es solo un sentimiento amable, es una fidelidad legal basada en un compromiso previo.",
-        "revelacion": "David le pregunta a Siba: '¿Ha quedado alguien... para que yo le haga misericordia (Chesed) de Dios?'. Esta es una bondad que no se gana, se hereda. Estar a la mesa del Rey no es un premio al desempeño, es un derecho legal otorgado por el Pacto de la Gracia."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Fidelidad y Generosidad Extrema",
-        "texto": "Dios es un guardador de pactos. Su atributo de Fidelidad significa que Él no olvida Sus promesas aun cuando nosotros estemos 'lisiados' o escondidos. Su generosidad no es escasa; Él no solo perdona la vida de Mefiboset, le devuelve las tierras y le da un lugar de honor permanente. Dios no restaura a medias; Él restaura hasta la plenitud del diseño original."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: La Base de Nuestro Acceso a la Mesa",
-        "texto": "Mefiboset entró al palacio por causa de Jonatán. Nosotros entramos al Reino por causa de Jesucristo. El mantel del Rey David cubría los pies lisiados de Mefiboset; la justicia de Cristo cubre nuestras debilidades y nuestra naturaleza caída. A los ojos del Rey, Mefiboset sentado a la mesa era tratado como 'uno de los hijos del rey'. Estar en Cristo es recibir una imputación de identidad: Su posición es ahora la nuestra."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "La Mentira del 'Mérito Personal'",
-        "texto": "Es un error teológico creer que tienes que 'sanar tus pies' (mejorar tu conducta) para poder sentarte a la mesa. Mefiboset seguía lisiado mientras comía con el Rey. El acceso es por Gracia; la sanidad y el cambio de vida son frutos de estar a la mesa, no el requisito para llegar a ella. Nunca confundas el mantel (la Justicia de Cristo) con tu propia capacidad."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "2 Samuel 9",
-            "explicacion": "📖 \"Relata la bondad de David hacia Mefiboset, hijo de Jonatán, a quien buscó para mostrarle misericordia, devolviéndole las tierras de Saúl y dándole un lugar permanente en la mesa real.\"<br><br>\n\nREVELACIÓN: El registro histórico de la bondad de David hacia el hijo de Jonatán, tipología pura de la Gracia.",
-            "texto": "Relata la bondad de David hacia Mefiboset, hijo de Jonatán, a quien buscó para mostrarle misericordia, devolviéndole las tierras de Saúl y dándole un lugar permanente en la mesa real."
-          },
-          {
-            "cita": "Efesios 2:8-9",
-            "explicacion": "📖 \"Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe.\"<br><br>\n\nREVELACIÓN: Confirma que la salvación es por gracia por medio de la fe, un regalo de Dios para que nadie se gloríe.",
-            "texto": "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; no por obras, para que nadie se gloríe."
-          },
-          {
-            "cita": "Mateo 22:1-14",
-            "explicacion": "📖 \"La parábola de la fiesta de bodas, donde el rey invita a todos tras el rechazo de los invitados iniciales, destacando la necesidad del vestido de bodas.\"<br><br>\n\nREVELACIÓN: La parábola de la fiesta de bodas, donde el Rey invita a los que están en los caminos, recordándonos que la invitación es por Su iniciativa.",
-            "texto": "La parábola de la fiesta de bodas, donde el rey invita a todos tras el rechazo de los invitados iniciales, destacando la necesidad del vestido de bodas."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Dejando Lo-debar",
-        "items": [
-          {
-            "punto": "Renuncia a la mentalidad de 'perro muerto' (autodesprecio).",
-            "ejemplo": "Si te sientes indigno de Dios por tu pasado, hoy abraza la verdad: el Rey te mandó a llamar. No te escondas más en la culpa. Tu valor está en el Pacto, no en tu opinión sobre ti mismo."
-          },
-          {
-            "punto": "Acepta la invitación a la comunión diaria.",
-            "ejemplo": "La mesa representa la oración y la Palabra. No esperes a ser 'perfecto' para orar. Ven tal como estás, con tus dudas y debilidades. El mantel de Cristo ya te está cubriendo."
-          },
-          {
-            "punto": "Disfruta de la provisión del Rey sin miedo.",
-            "ejemplo": "Deja de vivir en escasez espiritual. Dios tiene abundancia de paz, gozo y dirección para ti. Mefiboset comía lo mismo que el Rey. Tú tienes acceso a todos los tesoros de la sabiduría de Dios."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Sosteniendo el Mantel",
-        "items": [
-          {
-            "punto": "Discierne a quién está buscando el Rey en tu entorno.",
-            "ejemplo": "Como David, pregunta: '¿A quién puedo mostrarle la misericordia de Dios hoy?'. Busca a los 'Mefiboset' que están lisiados por la religión o el pecado y diles que el Rey tiene un lugar para ellos."
-          },
-          {
-            "punto": "Opera desde la seguridad de tu filiación inamovible.",
-            "ejemplo": "Un maduro no sirve para que Dios lo ame, sirve porque ya es amado. Que tu ministerio no sea un intento de pagar tu comida en la mesa, sino una celebración de que ya eres hijo."
-          },
-          {
-            "punto": "Protege la atmósfera de Gracia en tu comunidad.",
-            "ejemplo": "No permitas que el legalismo quite el mantel de la mesa. Asegúrate de que tu iglesia o grupo sea un lugar donde los 'lisiados' se sientan honrados y amados, no juzgados por sus pies bajo la mesa."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Esta semana, cada vez que sientas la tentación de juzgarte por tus fallos, visualiza el mantel del Rey cubriendo tus 'pies lisiados' y declara: 'Soy amado por causa del Pacto, no por mi desempeño'.",
-    "gamificacion": {
-      "xp_lectura": 170,
-      "logro_id": "invitado-del-rey"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "mefiboset",
-          "nombre": "Mefiboset",
-          "razon": "El modelo de la restauración por causa del pacto.",
-          "simbolismo": "Representa a la humanidad caída que recupera su herencia por la fe."
-        },
-        {
-          "id": "jonatan",
-          "nombre": "Jonatán",
-          "razon": "Su amistad con David es la base legal de la restauración.",
-          "paralelismo": "Tipifica el amor mediador que nos da acceso al Padre."
-        },
-        {
-          "id": "david",
-          "nombre": "David",
-          "razon": "El rey que busca activamente mostrar misericordia.",
-          "simbolismo": "Reflejo del corazón del Padre que no descansa hasta que el hijo vuelve a casa."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "jerusalen-sion",
-          "nombre": "Jerusalén (Sión)",
-          "razon": "El lugar de la mesa real y la plenitud.",
-          "declaracion": "Mi dirección legal ya no es Lo-debar, mi hogar es la presencia del Gran Rey en Sión."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "reposo-en-el-pacto",
-          "tema": "Gracia e Identidad",
-          "declaracion": "Padre, hoy me siento a Tu mesa con gozo. Gracias porque el mantel de Jesucristo cubre mi debilidad. No soy un esclavo, soy un hijo invitado por Tu pura Gracia. Amén."
-        }
-      ]
-    },
-    "fecha_programada": "2026-05-14"
-  },
-  {
     "id": "shekhinah-la-mesa-de-los-panes",
     "activo": true,
     "fecha_programada": "2026-05-14",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Shekhinah: La Mesa de los Panes",
     "subtitulo": "Descubriendo la Provisión y la Comunión en la Presencia del Rey",
     "author": "Códice Bíblico",
@@ -2060,670 +2053,10 @@
     "autor": "Códice Bíblico"
   },
   {
-    "id": "shekhinah-la-menorah",
-    "activo": true,
-    "fecha_programada": "2026-05-13",
-    "tipo": "tematico",
-    "titulo": "Shekhinah: La Menorah",
-    "subtitulo": "Descubriendo la Iluminación del Espíritu en el Lugar Santo",
-    "author": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "20 min",
-    "imagen_portada": "../img/estudios/hero-menorah.webp",
-    "tags": [
-      "Tabernáculo",
-      "Menorah",
-      "Espíritu Santo",
-      "Revelación",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y mandó Moisés que hicieran un candelero de oro puro... de una sola pieza.",
-      "cita": "Éxodo 25:31"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "El Lugar Santo: La Necesidad de la Luz Sobrenatural",
-        "texto": "Al entrar al Lugar Santo, el sacerdote dejaba atrás la luz del sol (luz natural). El recinto estaba cubierto por cuatro capas de pieles, por lo que la oscuridad era absoluta. El único objeto que iluminaba el servicio era la Menorah, un candelero de oro puro de siete brazos. Esta enseñanza revela que para servir a Dios y entender las realidades del Reino, no basta con la inteligencia humana o la lógica natural; necesitamos la iluminación constante del Espíritu Santo. La Menorah es el diseño de Dios para quitar la ceguera del entendimiento y revelar la gloria oculta."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Menorah (מְנוֹרָה)",
-        "idioma": "Hebreo",
-        "raiz": "Ner (Lámpara / Luz)",
-        "significado": "Candelabro o portalámparas. Representa la luz divina que emana de una sola fuente.",
-        "revelacion": "La Menorah fue labrada de una sola pieza de oro puro (Mikshah), lo cual simboliza la unidad indivisible del Espíritu de Dios. Sus siete brazos representan la plenitud de la operación de Dios en la tierra (los siete espíritus de Isaías 11:2). El aceite de oliva que la alimentaba representa la unción. La Menorah nos enseña que la verdadera sabiduría no se construye por fragmentos, sino que se recibe por la conexión directa con el Tronco (Cristo)."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Omnisciencia e Iluminación",
-        "texto": "Dios es Luz y en Él no hay ningunas tinieblas. Su atributo de Omnisciencia se manifiesta en la Menorah, que todo lo alumbra. Dios no solo conoce la Verdad, Él la revela. La Menorah nos muestra a un Dios que desea ser conocido íntimamente. Él provee la luz necesaria para que no tropecemos en Su servicio y para que veamos los tesoros de Su santuario."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: La Luz del Mundo y el Tronco de la Vid",
-        "texto": "Jesús declaró: 'Yo soy la luz del mundo; el que me sigue, no andará en tinieblas' (Juan 8:12). Él es el Tronco central de la Menorah de donde salen todos los brazos. Sin el centro, las lámparas laterales no tienen sostén ni aceite. La Cruz fue el momento donde la Luz pareció apagarse, pero la Resurrección encendió la Menorah eterna en el corazón de la Iglesia. Al estar en Cristo, nos convertimos en brazos de ese mismo candelero, llamados a reflejar Su claridad."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Luz Humana'",
-        "texto": "Es un error creer que puedes entender los misterios de la Biblia mediante el mero estudio académico o la filosofía (Luz natural). La Biblia advierte que las cosas del Espíritu son locura para el hombre natural. Intentar encender el santuario con 'fuego extraño' o con la inteligencia carnal solo produce sombras. El único combustible aceptable para la iluminación espiritual es el aceite del Espíritu Santo."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Isaías 11:2",
-            "explicacion": "📖 \"Y reposará sobre él el Espíritu de Jehová; espíritu de sabiduría y de inteligencia, espíritu de consejo y de poder, espíritu de conocimiento y de temor de Jehová.\"<br><br>\n\nREVELACIÓN: Describe los siete aspectos del Espíritu de Jehová: sabiduría, inteligencia, consejo, poder, conocimiento y temor de Jehová.",
-            "texto": "Y reposará sobre él el Espíritu de Jehová; espíritu de sabiduría y de inteligencia, espíritu de consejo y de poder, espíritu de conocimiento y de temor de Jehová."
-          },
-          {
-            "cita": "Zacarías 4:1-6",
-            "explicacion": "📖 \"La visión de la menorah y los dos olivos, culminando con la palabra de Jehová a Zorobabel: No con ejército, ni con fuerza, sino con mi Espíritu.\"<br><br>\n\nREVELACIÓN: La visión de la Menorah alimentada por dos olivos: 'No con ejército, ni con fuerza, sino con mi Espíritu, ha dicho Jehová'.",
-            "texto": "La visión de la menorah y los dos olivos, culminando con la palabra de Jehová a Zorobabel: No con ejército, ni con fuerza, sino con mi Espíritu."
-          },
-          {
-            "cita": "Apocalipsis 1:12-20",
-            "explicacion": "📖 \"Juan ve siete candeleros de oro y en medio de ellos a uno semejante al Hijo del Hombre... Las siete estrellas son los ángeles de las siete iglesias, y los siete candeleros son las siete iglesias.\"<br><br>\n\nREVELACIÓN: Jesús camina en medio de los siete candeleros de oro, que representan a las iglesias iluminadas por Él.",
-            "texto": "Juan ve siete candeleros de oro y en medio de ellos a uno semejante al Hijo del Hombre... Las siete estrellas son los ángeles de las siete iglesias, y los siete candeleros son las siete iglesias."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Encendiendo la Lámpara",
-        "items": [
-          {
-            "punto": "Pide al Espíritu Santo que te dé entendimiento antes de leer la Biblia.",
-            "ejemplo": "No leas por compromiso. Ora: 'Espíritu Santo, ilumina mi mente hoy'. Notarás cómo versículos que antes eran difíciles ahora cobran vida y sentido para tu situación actual."
-          },
-          {
-            "punto": "Identifica qué 'capas de piel' (prejuicios) están oscureciendo tu vida.",
-            "ejemplo": "Si traes conceptos de miedo o religiosidad, estás en sombras. Permite que la luz de la Menorah (la Verdad de Cristo) exponga esos miedos y los disipe. La luz siempre vence a la oscuridad."
-          },
-          {
-            "punto": "Mantén tu conexión con el Tronco central (Jesús).",
-            "ejemplo": "Si te alejas de la oración y de la comunión, tu lámpara se apagará. La luz no es tuya, es de Él fluyendo a través de ti. Mantente 'enchufado' a la Fuente mediante la fe diaria."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Manteniendo el Aceite",
-        "items": [
-          {
-            "punto": "Cuida la pureza de tu unción (Aceite puro).",
-            "ejemplo": "Un maduro sabe que cualquier mezcla de pecado o vanagloria contamina el aceite y hace que la lámpara humee en lugar de alumbrar. Vive en santidad para que tu testimonio sea una luz clara y sin distracciones para los demás."
-          },
-          {
-            "punto": "Discierne los siete espíritus en tu ministerio.",
-            "ejemplo": "No operes solo con 'conocimiento'. Busca también el espíritu de 'consejo' y de 'poder'. Aprende a moverte en todas las facetas del Espíritu de Dios para que tu servicio en el Lugar Santo sea completo y equilibrado."
-          },
-          {
-            "punto": "Sé un candelero en medio de las tinieblas del mundo.",
-            "ejemplo": "Tu función no es solo alumbrar dentro de la iglesia. Debes llevar la luz de la Menorah a las áreas más oscuras de la sociedad (negocios, política, educación). Tu presencia debe exponer la mentira y revelar el diseño de Dios dondequiera que vayas. No te escondas bajo un almud; brilla con la autoridad del Espíritu."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, cuando enfrentes una duda, no busques la respuesta primero en Google. Declara: 'El Espíritu de Sabiduría alumbra mi entendimiento y tengo claridad para decidir'.",
-    "gamificacion": {
-      "xp_lectura": 240,
-      "logro_id": "mente-iluminada"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "bezaleel",
-          "nombre": "Bezaleel",
-          "razon": "El maestro artesano que labró la Menorah a martillo.",
-          "simbolismo": "Representa el proceso doloroso de ser moldeado para portar la luz."
-        },
-        {
-          "id": "samuel",
-          "nombre": "Samuel",
-          "razon": "Dios le habló antes de que la lámpara de Dios se apagara en el templo.",
-          "paralelismo": "La vigilancia necesaria para que la revelación no cese en la tierra."
-        },
-        {
-          "id": "juan-apostol",
-          "nombre": "Juan",
-          "razon": "Vio a Jesús en medio de los candeleros en el Apocalipsis.",
-          "declaracion": "Soy una lámpara encendida por el Rey; mi luz no depende de las circunstancias, sino de Su Presencia."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "el-tabernaculo",
-          "nombre": "Lugar Santo",
-          "razon": "El recinto de la iluminación y el servicio sacerdotal.",
-          "declaracion": "Mi mente es hoy el Lugar Santo; la luz de Dios expulsa toda tiniebla de confusión."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "iluminacion-del-espiritu-total",
-          "tema": "Revelación y Aceite",
-          "declaracion": "Padre, hoy pido un bautismo fresco de Tu Espíritu. Que mi Menorah esté siempre encendida. Renuncio a la luz natural; quiero ver con Tus ojos. Lléname de sabiduría y consejo. Amén."
-        }
-      ]
-    },
-    "autor": "Códice Bíblico"
-  },
-  {
-    "id": "shekhinah-la-fuente-de-bronce",
-    "activo": true,
-    "fecha_programada": "2026-05-12",
-    "tipo": "tematico",
-    "titulo": "Shekhinah: La Fuente de Bronce",
-    "subtitulo": "Descubriendo el Lavamiento de la Palabra y el Espejo del Espíritu",
-    "author": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "20 min",
-    "imagen_portada": "../img/estudios/hero-fuente-bronce.webp",
-    "tags": [
-      "Tabernáculo",
-      "Fuente de Bronce",
-      "Palabra de Dios",
-      "Santificación",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Harás también una fuente de bronce... para lavar. Y Aarón y sus hijos se lavarán en ella las manos y los pies.",
-      "cita": "Éxodo 30:18-19"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "El Espejo de las Mujeres y el Agua que Santifica",
-        "texto": "La Fuente de Bronce (el Kiyor) estaba ubicada entre el Altar de Bronce y el Lugar Santo. Lo más asombroso de su construcción es que fue hecha con los espejos de bronce de las mujeres que servían a la puerta del Tabernáculo (Éxodo 38:8). El sacerdote no solo iba a la fuente a lavarse, sino que al mirar el agua, veía su propio reflejo en el fondo de bronce. Esta enseñanza revela que no podemos entrar en el servicio sagrado de Dios sin ser primero confrontados y lavados por la Verdad. La fuente es el espejo del espíritu que nos muestra quiénes somos para que podamos ser transformados en quienes Dios dice que somos."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Kiyor (כִּיּוֹר)",
-        "idioma": "Hebreo",
-        "raiz": "Kur (Cavar / Formar un hueco)",
-        "significado": "Un recipiente para lavar, una palangana o tina.",
-        "revelacion": "A diferencia del Altar, la Biblia no da las medidas exactas de la Fuente. Esto simboliza que el lavamiento de la Palabra es ilimitado y constante. Necesitamos lavarnos las manos (nuestras obras) y los pies (nuestro caminar diario) antes de entrar a la presencia íntima. El agua en el Kiyor representa el Pneuma de Dios actuando a través del Logos escrito para quitar el 'polvo' del mundo (las ofensas, las dudas, el pecado menor) que se nos pega en el camino."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Santidad y Veracidad Divina",
-        "texto": "Dios es Santo y Veraz. Su atributo de Veracidad se manifiesta en Su Palabra, que funciona como un espejo que no miente. La Fuente de Bronce revela a un Dios que quiere que seamos transparentes delante de Él. Él no solo nos perdona (Altar), sino que nos purifica progresivamente (Fuente). Su deseo es que portemos Su imagen sin la distorsión del barro del mundo."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Lavamiento del Agua por la Palabra",
-        "texto": "Jesús es la Palabra Viva y el Agua de Vida. En la última cena, Él actuó como la Fuente de Bronce al lavar los pies de Sus discípulos, diciendo: 'El que está lavado no necesita sino lavarse los pies' (Juan 13:10). Cristo es el cumplimiento legal de la Fuente: Él nos santifica 'en el lavamiento del agua por la palabra' (Efesios 5:26). Su sacrificio nos dio acceso al Altar, pero Su vida y Su Palabra nos mantienen limpios para la comunión continua en el Santuario."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Auto-Suficiencia Moral'",
-        "texto": "Es un error creer que porque ya fuiste salvo (pasaste por el Altar), ya no necesitas el lavamiento diario de la Palabra. La Fuente es para los sacerdotes que ya están dentro del atrio. Si intentas servir a Dios con las manos sucias de la amargura o con los pies manchados por el compromiso con el mundo, morirás espiritualmente (Éxodo 30:20). El lavamiento no es para salvación, es para comunión y servicio eficaz."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Santiago 1:23-25",
-            "explicacion": "📖 \"Porque si alguno es oidor de la palabra pero no hacedor de ella, éste es semejante al hombre que considera en un espejo su rostro natural... mas el que mira atentamente en la perfecta ley, la de la libertad, y persevera en ella...\"<br><br>\n\nREVELACIÓN: Compara la Palabra con un espejo: el que la oye y la hace es como quien se mira y no olvida su verdadera imagen.",
-            "texto": "Porque si alguno es oidor de la palabra pero no hacedor de ella, éste es semejante al hombre que considera en un espejo su rostro natural... mas el que mira atentamente en la perfecta ley, la de la libertad, y persevera en ella..."
-          },
-          {
-            "cita": "Juan 15:3",
-            "explicacion": "📖 \"Ya vosotros estáis limpios por la palabra que os he hablado.\"<br><br>\n\nREVELACIÓN: Jesús declara: 'Ya vosotros estáis limpios por la palabra que os he hablado'. La Palabra tiene poder detergente.",
-            "texto": "Ya vosotros estáis limpios por la palabra que os he hablado."
-          },
-          {
-            "cita": "Salmos 119:9",
-            "explicacion": "📖 \"¿Con qué limpiará el joven su camino? Con guardar tu palabra.\"<br><br>\n\nREVELACIÓN: ¿Con qué limpiará el joven su camino? Con guardar tu palabra. La santidad operativa.",
-            "texto": "¿Con qué limpiará el joven su camino? Con guardar tu palabra."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Mirándote en el Espejo",
-        "items": [
-          {
-            "punto": "Lee la Biblia para saber quién eres en realidad.",
-            "ejemplo": "No leas la Biblia para buscar reglas; léela para ver tu reflejo redimido. Cuando la Biblia dice que eres 'más que vencedor', créelo. Ese es tu verdadero rostro espiritual. Lava hoy la mentira de la insignificancia."
-          },
-          {
-            "punto": "Lava tus 'manos' antes de actuar.",
-            "ejemplo": "Antes de empezar tu jornada, ora: 'Señor, limpia mis manos de toda malicia'. Decide que hoy tus acciones reflejarán la pureza de la Fuente y no la suciedad de la envidia o la queja."
-          },
-          {
-            "punto": "No ignores lo que el 'espejo' te muestra.",
-            "ejemplo": "Si al leer la Palabra sientes convicción de pecado, no te alejes. Aprovecha el agua. Confiésalo y pide al Espíritu que te limpie. La Fuente está siempre llena para ti."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Ministrando el Lavamiento",
-        "items": [
-          {
-            "punto": "Santifica tu caminar diario mediante la meditación constante.",
-            "ejemplo": "Un maduro sabe que sus 'pies' se ensucian solo con caminar en este sistema del mundo. No permitas que las ofensas del día se acumulen. Lávate cada noche con la Palabra. Mantén tu comunión con el Padre sin interferencias de 'polvo' emocional."
-          },
-          {
-            "punto": "Usa la Palabra como un espejo sanador para otros.",
-            "ejemplo": "Cuando alguien venga a ti con su pecado o su dolor, no lo golpees con la Biblia. Pon la Fuente delante de ellos. Ayúdales a ver quiénes son en Cristo. La verdadera consejería bíblica es un acto de lavamiento que restaura la dignidad del hijo."
-          },
-          {
-            "punto": "Opera desde la transparencia total ante Dios.",
-            "ejemplo": "Tu madurez se nota en que ya no tienes miedo de lo que el Espejo muestra. Vive en luz. Deja que la Fuente de la Palabra exponga tus motivos ocultos para que el Espíritu los santifique. El sacerdote limpio es el único que puede portar el óleo de la unción con autoridad."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, cada vez que te laves las manos, imagina que estás ante la Fuente de Bronce. Declara: 'Señor, purifica mis obras y mi andar. Que mi imagen sea un reflejo fiel de Tu diseño en mí'.",
-    "gamificacion": {
-      "xp_lectura": 230,
-      "logro_id": "reflejo-puro"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "bezaleel",
-          "nombre": "Bezaleel",
-          "razon": "El artesano que fundió los espejos para crear la fuente.",
-          "simbolismo": "La habilidad ungida para transformar la vanidad en santidad."
-        },
-        {
-          "id": "aaron",
-          "nombre": "Aarón",
-          "razon": "El sacerdote que debía lavarse para no morir.",
-          "paralelismo": "Nuestra responsabilidad de cuidar la santidad en el servicio."
-        },
-        {
-          "id": "juan-bautista",
-          "nombre": "Juan el Bautista",
-          "razon": "Ministro del bautismo de arrepentimiento (lavamiento externo).",
-          "declaracion": "Me lavo en las aguas de Tu Palabra; estoy listo para entrar al Lugar Santo."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "el-tabernaculo",
-          "nombre": "El Atrio (La Fuente)",
-          "razon": "Lugar de la preparación para la intimidad.",
-          "declaracion": "Mi tiempo de lectura bíblica es mi cita en la Fuente. Aquí recupero mi verdadera imagen."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "lavamiento-por-la-palabra",
-          "tema": "Santificación y Claridad",
-          "declaracion": "Padre, hoy me miro en el espejo de Tu Palabra. Lávame de toda impureza del mundo. Que mis pies y mis manos estén limpios para servirte hoy. Amén."
-        }
-      ]
-    },
-    "autor": "Códice Bíblico"
-  },
-  {
-    "id": "shekhinah-el-altar-de-bronce",
-    "activo": true,
-    "fecha_programada": "2026-05-11",
-    "tipo": "tematico",
-    "titulo": "Shekhinah: El Altar de Bronce",
-    "subtitulo": "Descubriendo el Lugar del Juicio y la Sustitución en el Tabernáculo",
-    "author": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "20 min",
-    "imagen_portada": "../img/estudios/hero-altar-bronce.webp",
-    "tags": [
-      "Tabernáculo",
-      "Altar de Bronce",
-      "Sacrificio",
-      "Juicio",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Harás también un altar de madera de acacia... y lo cubrirás de bronce.",
-      "cita": "Éxodo 27:1-2"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Puerta del Atrio: No hay acceso sin Sangre",
-        "texto": "El Altar de Bronce era el primer objeto que el adorador encontraba al entrar al Tabernáculo. No se podía pasar al Lugar Santo sin pasar primero por el fuego del altar. El bronce, en la simbología bíblica, representa el juicio sobre el pecado. El altar no era un lugar de 'buenas vibras', era un lugar de muerte sustitutiva. Esta enseñanza revela que el acceso a la Shekhinah (la Presencia) no es gratuito para el pecado; alguien tiene que pagar la deuda legal. El Altar de Bronce establece el fundamento de nuestra paz: la justicia de Dios ha sido satisfecha."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Mizbe'ach (מִזְבֵּחַ)",
-        "idioma": "Hebreo",
-        "raiz": "Zabach (Sacrificar / Matar)",
-        "significado": "Lugar de sacrificio o lugar de matanza.",
-        "revelacion": "El altar no es una mesa de ofrendas amables, es un lugar de ejecución legal. Al poner la mano sobre el cordero, el israelita transfería su culpa al inocente. El Altar de Bronce nos enseña que Dios no ignora el pecado; lo juzga en el Sustituto. Sin el Altar, Dios sería injusto; con el Altar, Dios es Justo y Justificador. El fuego que nunca se apaga (Lev. 6:13) simboliza la santidad de Dios que consume continuamente todo lo que es contrario a Su naturaleza."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Justicia Retributiva y Misericordia Sustitutiva",
-        "texto": "Dios es infinitamente justo. Su atributo de Justicia exige que el pecado sea castigado. Sin embargo, Su atributo de Amor proveyó el Altar y el Cordero. El Altar de Bronce es el lugar donde la Ira y el Amor se encuentran. Vemos a un Dios que no nos destruye, sino que pone un sistema legal para que nosotros podamos vivir mientras el pecado muere."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "La Cruz: El Verdadero Altar de Bronce",
-        "texto": "Jesucristo es el cumplimiento total del Altar de Bronce. En la Cruz, el fuego del juicio de Dios cayó sobre Su cuerpo para que no cayera sobre nosotros. Él es el Bronce que resistió el fuego de la ira divina sin ser consumido. Al mirar la Cruz, vemos el 'Mizbe'ach' definitivo donde nuestra deuda fue cancelada. La sangre en los cuernos del altar es el testimonio legal de nuestra libertad eterna. Ya no traemos animales; traemos nuestra fe al Altar que es Cristo."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de 'Saltarse el Atrio'",
-        "texto": "Es un error creer que puedes tener intimidad con Dios (Lugar Santísimo) ignorando el arrepentimiento y la Cruz (Altar de Bronce). No hay Shekhinah sin sacrificio. Intentar adorar a Dios sin reconocer la necesidad de la Sangre es 'fuego extraño'. La puerta del Reino siempre tiene la forma de una Cruz ensangrentada. No confundas la gracia con la impunidad."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Levítico 6:12-13",
-            "explicacion": "📖 \"Y el fuego sobre el altar arderá en él, no se apagará... El fuego arderá continuamente en el altar; no se apagará.\"<br><br>\n\nREVELACIÓN: El fuego del altar arderá continuamente, no se apagará. Simboliza la santidad incansable de Dios.",
-            "texto": "Y el fuego sobre el altar arderá en él, no se apagará... El fuego arderá continuamente en el altar; no se apagará."
-          },
-          {
-            "cita": "Romanos 3:25-26",
-            "explicacion": "📖 \"A quien Dios puso como propiciación por medio de la fe en su sangre... con la mira de manifestar en este tiempo su justicia, a fin de que él sea el justo, y el que justifica al que es de la fe de Jesús.\"<br><br>\n\nREVELACIÓN: Dios puso a Cristo como propiciación por medio de la fe en su sangre, para manifestar su justicia.",
-            "texto": "A quien Dios puso como propiciación por medio de la fe en su sangre... con la mira de manifestar en este tiempo su justicia, a fin de que él sea el justo, y el que justifica al que es de la fe de Jesús."
-          },
-          {
-            "cita": "Hebreos 13:10",
-            "explicacion": "📖 \"Tenemos un altar, del cual no tienen derecho de comer los que sirven al tabernáculo.\"<br><br>\n\nREVELACIÓN: Tenemos un altar, del cual no tienen derecho de comer los que sirven al tabernáculo. Se refiere al sacrificio de Cristo.",
-            "texto": "Tenemos un altar, del cual no tienen derecho de comer los que sirven al tabernáculo."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Entregando la Culpa",
-        "items": [
-          {
-            "punto": "No entres a la presencia de Dios con tus pecados escondidos.",
-            "ejemplo": "Cada mañana, pasa primero por el 'Altar'. Confiesa tus errores y aplica la Sangre de Cristo mediante la fe. Dile: 'Señor, gracias porque mi juicio ya fue pagado'. Comienza tu día libre de condenación."
-          },
-          {
-            "punto": "Reconoce el costo de tu salvación.",
-            "ejemplo": "No tomes tu fe a la ligera. Alguien tuvo que morir en el altar para que tú pudieras orar hoy. La gratitud por el sacrificio es el mejor antídoto contra el pecado habitual."
-          },
-          {
-            "punto": "Identifica qué 'ídolo' quieres subir al altar hoy.",
-            "ejemplo": "Sacrificar no es solo pedir perdón; es rendir algo valioso. Entrega tus miedos o tus planes egoístas al fuego de Dios. Lo que muere en el altar resucita en el espíritu."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Manteniendo el Fuego Encendido",
-        "items": [
-          {
-            "punto": "Practica el auto-examen diario (Sacrificio Vivo).",
-            "ejemplo": "Un maduro no espera a caer en pecado grave para ir al altar. Él ofrece su vida diariamente como un sacrificio vivo (Rom. 12:1). Deja que el fuego de la santidad de Dios consuma tus intenciones carnales antes de que se conviertan en actos. Mantén tu atrio limpio."
-          },
-          {
-            "punto": "Sostén la justicia de Dios ante los demás.",
-            "ejemplo": "No diluyas el mensaje del pecado y el juicio para agradar a la gente. Enseña con amor que el Altar de Bronce es necesario. Ayuda a otros a entender que la verdadera libertad nace de la justicia satisfecha en Cristo, no de la auto-complacencia."
-          },
-          {
-            "punto": "Ministra desde la autoridad de la Sangre.",
-            "ejemplo": "Cuando ores por liberación o sanidad en otros, hazlo con la seguridad de que el juicio sobre el mal ya ocurrió en el Altar de la Cruz. El enemigo no tiene derecho legal sobre un hijo que ha pasado por el Altar. Usa los 'cuernos del altar' (la autoridad de la Sangre) para decretar victoria."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, en tu tiempo de oración, imagina que estás frente al Altar de Bronce. Entrega simbólicamente esa carga que te genera culpa o pesadez. Declara: 'Mi pasado es consumido por Tu justicia, y hoy entro a Tu presencia en pureza'.",
-    "gamificacion": {
-      "xp_lectura": 250,
-      "logro_id": "paso-por-el-fuego"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "moises",
-          "nombre": "Moisés",
-          "razon": "Recibió el diseño del altar en el monte.",
-          "simbolismo": "El mediador que establece el sistema de acercamiento a Dios."
-        },
-        {
-          "id": "abraham",
-          "nombre": "Abraham",
-          "razon": "El primer hombre en levantar altares de fe en la tierra prometida.",
-          "paralelismo": "Nuestra vida como una sucesión de altares de confianza."
-        },
-        {
-          "id": "david",
-          "nombre": "David",
-          "razon": "Entendió que los sacrificios de Dios son el espíritu quebrantado.",
-          "declaracion": "Al corazón contrito y humillado no despreciarás Tú, oh Dios."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "el-tabernaculo",
-          "nombre": "El Atrio",
-          "razon": "El lugar público de la sustitución.",
-          "declaracion": "Entro por Tus puertas con acción de gracias; mi pecado ha sido juzgado y yo soy libre."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "fuego-del-altar-encendido",
-          "tema": "Purificación y Sacrificio",
-          "declaracion": "Padre, hoy presento mi vida en Tu Altar de Bronce. Que Tu fuego consuma mi carne y Tu Sangre limpie mi conciencia. Gracias por el Sustituto Perfecto. Amén."
-        }
-      ]
-    },
-    "autor": "Códice Bíblico"
-  },
-  {
-    "id": "dinamica-kenosis-poder-vacio",
-    "activo": true,
-    "fecha_programada": "2026-05-01",
-    "tipo": "tematico",
-    "titulo": "Dinámica de la Kenosis",
-    "subtitulo": "Descubriendo el Poder del Vaciamiento en el Diseño del Reino",
-    "author": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/kenosis-vacio.webp",
-    "tags": [
-      "Kenosis",
-      "Humildad",
-      "Poder de Dios",
-      "Identidad",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Sino que se despojó a sí mismo, tomando forma de siervo, hecho semejante a los hombres.",
-      "cita": "Filipenses 2:7"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Gloria Abandonada: El Misterio del Despojo",
-        "texto": "En la cultura del Imperio Romano, el honor y el estatus lo eran todo. La idea de un Dios que se despoja de Su dignidad para hacerse esclavo era una locura (Skandalon). Pablo introduce el concepto de Kenosis no como una pérdida de poder, sino como la máxima demostración de autoridad espiritual. El vaciamiento de Cristo en la Encarnación establece el patrón para todo ciudadano del Reino: no puedes ser lleno de la Gloria si primero no te vacías de tu 'yo'. La Kenosis es el proceso legal donde renuncias a tus derechos terrenales para activar tus privilegios celestiales."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Kenosis (κένωσις)",
-        "idioma": "Griego",
-        "raiz": "Kenos (Vacío)",
-        "significado": "Significa vaciar completamente, como se vacía una jarra hasta que no queda una gota.",
-        "revelacion": "La Kenosis no significa que Jesús dejó de ser Dios, sino que voluntariamente restringió el uso de Sus atributos divinos para operar como un hombre dependiente del Espíritu. Este es el 'Código del Vacio': Dios no busca vasijas perfectas, busca vasijas vacías. El orgullo es la 'materia' que ocupa el lugar que le pertenece a la Unción. Vaciarte de tu opinión, de tu control y de tu gloria propia es lo que crea el espacio para que la Dunamis de Dios se manifieste."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Humildad y Suficiencia Divina",
-        "texto": "Dios es el Ser más humilde del universo. Su atributo de Humildad se manifiesta en Su disposición de bajar al nivel de Su creación. La Kenosis revela que Dios no necesita 'aparentar' poder para ser Poderoso. Él es tan Suficiente que no teme al vaciamiento. Vemos a un Dios que se siente cómodo en la pequeñez de un pesebre porque Su gloria no depende del entorno externo."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Jesucristo: La Vasija Totalmente Vacía",
-        "texto": "Jesús es el modelo supremo de la dinámica de la Kenosis. Él vació Su reputación, Su comodidad y finalmente Su vida. En la Cruz, el vaciamiento fue total: 'Dios mío, ¿por qué me has desamparado?'. Pero fue precisamente ese vacío absoluto lo que provocó la Resurrección. El Padre llenó el vacío de Cristo con un Nombre que es sobre todo nombre. Al estar en Cristo, participamos de este ciclo: si morimos con Él (vaciamiento), reinaremos con Él (plenitud)."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Auto-Promoción Espiritual'",
-        "texto": "Es un error creer que puedes crecer en el Reino mediante el esfuerzo por ser 'importante' o 'reconocido'. El sistema del Reino funciona al revés que el sistema del mundo. En el mundo, subes escalando; en el Reino, subes bajando. Si intentas retener tu 'prestigio' o tu 'derecho a tener la razón', estás bloqueando la Kenosis en tu vida. No confundas la confianza de hijo con la arrogancia del ego."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Filipenses 2:5-11",
-            "explicacion": "📖 \"Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús... se despojó a sí mismo, tomando forma de siervo... Dios también le exaltó hasta lo sumo...\"<br><br>\n\nREVELACIÓN: El pasaje central de la Kenosis; describe el descenso y la posterior exaltación de Cristo.",
-            "texto": "Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús... se despojó a sí mismo, tomando forma de siervo... Dios también le exaltó hasta lo sumo..."
-          },
-          {
-            "cita": "2 Corintios 8:9",
-            "explicacion": "📖 \"Porque ya conocéis la gracia de nuestro Señor Jesucristo, que por amor a vosotros se hizo pobre, siendo rico, para que vosotros con su pobreza fueseis enriquecidos.\"<br><br>\n\nREVELACIÓN: Por amor a vosotros se hizo pobre, siendo rico, para que vosotros con su pobreza fueseis enriquecidos.",
-            "texto": "Porque ya conocéis la gracia de nuestro Señor Jesucristo, que por amor a vosotros se hizo pobre, siendo rico, para que vosotros con su pobreza fueseis enriquecidos."
-          },
-          {
-            "cita": "Juan 3:30",
-            "explicacion": "📖 \"Es necesario que él crezca, pero que yo mengüe.\"<br><br>\n\nREVELACIÓN: El principio operativo de Juan el Bautista: 'Es necesario que él crezca, pero que yo mengüe'.",
-            "texto": "Es necesario que él crezca, pero que yo mengüe."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Soltando la Maleta",
-        "items": [
-          {
-            "punto": "Identifica de qué necesitas vaciarte hoy.",
-            "ejemplo": "Si vienes de un trasfondo donde el orgullo o el 'qué dirán' gobernaba tu vida, hoy abre la jarra. Dile a Dios: 'Me vacío de mi necesidad de reconocimiento'. Deja que Su amor llene ese espacio."
-          },
-          {
-            "punto": "Acepta la posición de aprendiz.",
-            "ejemplo": "No trates de parecer un experto espiritual en un mes. La humildad es tu mayor protección. Si no sabes algo, di 'no sé, enséñame'. Ese vacío honesto es lo que Dios usa para impartir revelación."
-          },
-          {
-            "punto": "Renuncia a la autodefensa constante.",
-            "ejemplo": "Cuando alguien te critique injustamente, no saltes a defenderte con ira. Prueba la Kenosis: entrega tu reputación a Dios y confía en que Él es tu Juez. El silencio humilde tiene más poder que mil gritos."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: El Poder del Vacio",
-        "items": [
-          {
-            "punto": "Opera desde el anonimato si es necesario.",
-            "ejemplo": "Un maduro no necesita que su nombre esté en el cartel para servir. Su satisfacción es el éxito del Reino. Aprende a vaciarte de la necesidad de crédito humano. El Padre que ve en lo secreto te recompensará en público (Mateo 6)."
-          },
-          {
-            "punto": "Somete tus dones a la dirección del Espíritu.",
-            "ejemplo": "No uses tu habilidad por costumbre o por lucimiento. Vacía tu 'método' cada mañana y pregunta: 'Espíritu Santo, ¿cómo quieres usarme hoy?'. El poder se perfecciona cuando tu técnica se rinde a Su unción."
-          },
-          {
-            "punto": "Provoca que Cristo sea el centro de tu ministerio.",
-            "ejemplo": "Tu madurez se mide por cuánto de ti desaparece para que Él aparezca. Al igual que Juan el Bautista, tu meta debe ser que los hombres miren al Cordero y no a ti. Sé la voz que clama, no la estatua que posa. El vaciamiento de tu imagen personal es la plataforma para la manifestación de Su gloria."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, elige una situación donde normalmente impondrías tu opinión o tu control. Practica el Kenosis: guarda silencio, escucha y permite que Dios sea quien guíe el resultado. Observa cómo el 'espacio' que dejaste permite que ocurra algo mejor que lo que habías planeado.",
-    "gamificacion": {
-      "xp_lectura": 220,
-      "logro_id": "recipiente-disponible"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "onoma-juan-bautista",
-          "nombre": "Juan el Bautista",
-          "razon": "El modelo del 'menguar' para que Cristo crezca.",
-          "simbolismo": "La voz que se disuelve en el desierto para dar paso a la Palabra."
-        },
-        {
-          "id": "maria",
-          "nombre": "María (Madre de Jesús)",
-          "razon": "Se vació de sus planes de vida para ser la vasija de la Encarnación.",
-          "paralelismo": "La entrega total de la voluntad propia al diseño de Dios."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "Consideró todo como pérdida por la excelencia del conocimiento de Cristo.",
-          "declaracion": "He sido crucificado con Cristo; ya no vivo yo, mas vive Cristo en mí."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "el-tabernaculo",
-          "nombre": "El Lugar Santísimo",
-          "razon": "Un espacio 'vacio' de ídolos donde solo habita la Presencia.",
-          "declaracion": "Mi corazón es un espacio reservado exclusivamente para la Gloria; nada de mi 'yo' tiene permiso de habitar allí."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "vaciado-para-la-gloria",
-          "tema": "Kenosis y Plenitud",
-          "declaracion": "Padre, hoy me vacío de mí mismo. Renuncio a mi orgullo, a mi control y a mi gloria. Quiero ser una vasija limpia y vacía para que Tu Espíritu me llene por completo. Amén."
-        }
-      ]
-    },
-    "autor": "Códice Bíblico"
-  },
-  {
     "id": "cuerpo-templo-cuantico-unidad-rebano",
     "activo": true,
     "fecha_programada": "2026-04-29",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Cuerpo y el Templo Cuántico",
     "subtitulo": "Descubriendo el Misterio de la Unidad y la Interconexión en el Reino",
     "author": "Códice Bíblico",
@@ -2885,830 +2218,10 @@
     "autor": "Códice Bíblico"
   },
   {
-    "id": "entropia-queja-energia-gratitud",
-    "activo": true,
-    "fecha_programada": "2026-04-27",
-    "tipo": "tematico",
-    "titulo": "Entropía y Gratitud",
-    "subtitulo": "Descubriendo la Energía del Reino frente al Desgaste de la Queja",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/queja-vs-gratitud.webp",
-    "tags": [
-      "Gratitud",
-      "Energía Espiritual",
-      "Entropía",
-      "Paz",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Dad gracias en todo, porque esta es la voluntad de Dios para con vosotros en Cristo Jesús.",
-      "cita": "1 Tesalonicenses 5:18"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "El Desierto: El Laboratorio de la Queja",
-        "texto": "Israel en el desierto es el ejemplo histórico del poder destructivo de la queja. Tenían el maná (provisión milagrosa), la nube (presencia) y la libertad; pero su lenguaje era de insatisfacción. La queja no es solo una mala actitud, es un acelerador de la entropía espiritual. En el pensamiento bíblico, la queja te hace retroceder al desierto, mientras que la gratitud te proyecta a la Tierra Prometida. Pablo, en una cárcel romana, escribe sobre el gozo, demostrando que la energía del Reino no depende del entorno, sino del altar interno de la gratitud."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Eucharistia (εὐχαριστία)",
-        "idioma": "Griego",
-        "raiz": "Buena / Gracia",
-        "significado": "Significa agradecimiento, reconocimiento de la gracia recibida. De aquí viene la palabra 'Eucaristía'.",
-        "revelacion": "La gratitud no es decir 'gracias' por educación; es un acto sacerdotal que libera 'buena gracia' en tu sistema. La queja produce entropía (desorden, pérdida de energía, muerte); la Eucharistia produce sinergia (orden, aumento de energía, vida). Cuando das gracias, estás reconociendo legalmente el gobierno de Dios sobre tu circunstancia, lo cual detiene el desgaste del alma y activa la multiplicación del Reino."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Fidelidad y Suficiencia Divina",
-        "texto": "Dios es Fiel. Su atributo de Suficiencia significa que en Él lo tenemos todo. La queja es, en esencia, un ataque a la bondad de Dios: es decir que Él no ha hecho lo suficiente. La gratitud revela a un Dios que se goza en la alabanza de Sus hijos. Al dar gracias, nos alineamos con la Verdad de que Dios es bueno en todo momento, independientemente de la crisis temporal."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Modelo de la Gratitud que Multiplica",
-        "texto": "Antes de multiplicar los panes, Jesús 'dio gracias'. Ante la tumba de Lázaro, Jesús 'dio gracias'. La gratitud de Cristo era el reconocimiento de Su conexión ininterrumpida con el Padre. En la Cruz, el mayor acto de entropía (la muerte) fue vencido por el mayor acto de obediencia agradecida. Al estar en Cristo, recibimos Su 'corazón eucarístico'. Ya no somos víctimas de las circunstancias, sino sacerdotes que transforman el caos en bendición mediante la acción de gracias."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Gratitud Condicionada'",
-        "texto": "Es un error creer que solo debemos dar gracias cuando las cosas 'salen bien'. La Biblia dice: 'Dad gracias EN todo', no 'POR todo' (aunque al madurar aprendemos que todo ayuda a bien). Dar gracias en medio de la prueba no es masoquismo, es guerra espiritual. La queja le da derechos legales al enemigo para desgastarte; la gratitud le quita esos derechos y restaura tu autoridad."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Salmos 100:4",
-            "explicacion": "📖 \"Entrad por sus puertas con acción de gracias, Por sus atrios con alabanza; Alabadle, bendecid su nombre.\"<br><br>\n\nREVELACIÓN: Entrad por sus puertas con acción de gracias... La gratitud es el protocolo legal para acceder a la Presencia.",
-            "texto": "Entrad por sus puertas con acción de gracias, Por sus atrios con alabanza; Alabadle, bendecid su nombre."
-          },
-          {
-            "cita": "Filipenses 4:6-7",
-            "explicacion": "📖 \"Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias. Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús.\"<br><br>\n\nREVELACIÓN: Sean conocidas vuestras peticiones delante de Dios... con acción de gracias. La paz es el resultado de la gratitud operativa.",
-            "texto": "Por nada estéis afanosos, sino sean conocidas vuestras peticiones delante de Dios en toda oración y ruego, con acción de gracias. Y la paz de Dios, que sobrepasa todo entendimiento, guardará vuestros corazones y vuestros pensamientos en Cristo Jesús."
-          },
-          {
-            "cita": "Números 14",
-            "explicacion": "📖 \"Relata la rebelión de Israel tras el informe de los diez espías y la sentencia de Dios de que aquella generación vagaría por el desierto cuarenta años.\"<br><br>\n\nREVELACIÓN: Muestra las consecuencias fatales de la queja: una generación entera perdió su herencia por su lenguaje de incredulidad.",
-            "texto": "Relata la rebelión de Israel tras el informe de los diez espías y la sentencia de Dios de que aquella generación vagaría por el desierto cuarenta años."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Cambiando el Vocabulario",
-        "items": [
-          {
-            "punto": "Haz un ayuno de quejas por 24 horas.",
-            "ejemplo": "Hoy decide no quejarte del clima, del tráfico ni de tu familia. Cada vez que sientas la tentación de quejarte, busca una cosa por la cual dar gracias. Notarás cómo tu nivel de energía y paz aumenta inmediatamente."
-          },
-          {
-            "punto": "Escribe una lista de 10 bendiciones actuales.",
-            "ejemplo": "A veces el ruido de los problemas nos hace olvidar lo que ya tenemos. Mira tu salud, tu hogar, tu fe. Darle nombre a la bendición mata la entropía del alma."
-          },
-          {
-            "punto": "Da gracias por el perdón de Dios cada mañana.",
-            "ejemplo": "Empieza tu día diciendo: 'Gracias, Padre, porque Tus misericordias son nuevas hoy'. La gratitud por la salvación es el mejor combustible para tu espíritu."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Manteniendo la Frecuencia",
-        "items": [
-          {
-            "punto": "Usa la gratitud como arma de intercesión.",
-            "ejemplo": "Cuando ores por una situación difícil, empieza dando gracias por lo que Dios YA es y por lo que Él YA ha prometido hacer. La gratitud es la fe en acción que materializa la respuesta del Reino."
-          },
-          {
-            "punto": "Discierne el espíritu de queja en tu entorno.",
-            "ejemplo": "No permitas que las conversaciones tóxicas y negativas de otros contaminen tu espíritu. Sé el termostato que cambia el clima de la habitación mediante una palabra de Eucharistia. Tu madurez detiene la entropía en tu equipo o familia."
-          },
-          {
-            "punto": "Establece una liturgia de gratitud constante.",
-            "ejemplo": "Un maduro no necesita motivos externos para estar agradecido. Su motivo es la Persona de Cristo. Vive en un estado de 'gracia continua', reconociendo que todo lo que tienes es un regalo del Padre. Tu vida agradecida es el mayor imán para la provisión de Dios."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, haz un 'ayuno de quejas'. Cada vez que sientas la tentación de quejarte por algo, transfórmalo en un agradecimiento inmediato. Al final del día, observa cómo ha cambiado tu nivel de paz y claridad.",
-    "gamificacion": {
-      "xp_lectura": 210,
-      "logro_id": "maestro-del-flujo"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "pablo",
-          "nombre": "Pablo",
-          "razon": "Escribió sobre el gozo y la gratitud desde la prisión.",
-          "paralelismo": "La libertad interna que vence la entropía del sistema externo."
-        },
-        {
-          "id": "silas",
-          "nombre": "Silas",
-          "razon": "Cantó himnos de gratitud en el calabozo junto a Pablo.",
-          "simbolismo": "La alabanza que provoca terremotos de liberación."
-        },
-        {
-          "id": "ana-profetisa",
-          "nombre": "Ana",
-          "razon": "Pasó años en el templo dando gracias a Dios.",
-          "declaracion": "Mi vida es una ofrenda de gratitud; no me cansaré de reconocer Tu bondad hasta el día de mi redención completa."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "desierto-de-sin",
-          "nombre": "Desierto de Sin",
-          "razon": "Lugar donde Israel murmuró y activó la entropía del juicio.",
-          "declaracion": "Renuncio a la queja de mis antepasados; mi lenguaje hoy es el de la Tierra Prometida."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "eucharistia-total",
-          "tema": "Gratitud y Energía",
-          "declaracion": "Padre, hoy decido darte gracias. En la salud y en la prueba, en la escasez y en la abundancia. Tu bondad es mi sustento. Mi boca solo hablará de Tu fidelidad. Amén."
-        }
-      ]
-    }
-  },
-  {
-    "id": "filtro-observador-percepcion-revelacion",
-    "activo": true,
-    "fecha_programada": "2026-04-24",
-    "tipo": "tematico",
-    "titulo": "El Filtro del Observador",
-    "subtitulo": "Descubriendo la Realidad del Espíritu tras el Velo de la Percepción",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/filtro-observador.webp",
-    "tags": [
-      "Revelación",
-      "Visión Espiritual",
-      "Eliseo",
-      "Percepción",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y oró Eliseo, y dijo: Te ruego, oh Jehová, que abras sus ojos para que vea. Entonces Jehová abrió los ojos del criado, y miró...",
-      "cita": "2 Reyes 6:17"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "Dotán: El Campo de Batalla de los Dos Ojos",
-        "texto": "Eliseo y su criado están rodeados por el ejército sirio. El criado mira con los ojos naturales (percepción biológica) y ve muerte y derrota. Eliseo mira con los ojos del espíritu (revelación) y ve carros de fuego protegiéndolos. El conflicto no es sobre lo que existe, sino sobre lo que se percibe. Esta enseñanza revela que la realidad espiritual no está 'lejos', sino que está filtrada por nuestra mentalidad. La revelación no crea algo nuevo, simplemente quita el velo de lo que ya está allí."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Apokalupsis (ἀποκάλυψις)",
-        "idioma": "Griego",
-        "raiz": "Quitar el velo / Descubrir",
-        "significado": "Significa retirar la cortina para que lo que estaba oculto sea plenamente visible.",
-        "revelacion": "Tener una 'Apocalipsis' no es saber el futuro, es ver el presente desde la perspectiva de Dios. El criado de Eliseo no necesitaba que Dios trajera carros de fuego; los carros ya estaban allí. Necesitaba que su filtro de miedo fuera sustituido por el filtro de la fe. Tu percepción determina tu reacción. Si solo ves el problema, vivirás en angustia; si ves la revelación, vivirás en reposo."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Omnisciencia y Protección Soberana",
-        "texto": "Dios lo ve todo. Su atributo de Omnisciencia significa que nada lo toma por sorpresa. Él conoce el despliegue del enemigo antes de que ocurra. El filtro del observador revela a un Dios que es nuestro Escudo invisible. Su protección no es un sentimiento, es una realidad legal y espiritual que opera independientemente de si la percibimos o no."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Abridor de Ojos",
-        "texto": "Jesús es la Luz del Mundo que vino a sanar nuestra ceguera espiritual. En el camino a Emaús, los discípulos tenían los ojos 'velados' hasta que Cristo partió el pan. Él es el único que puede reprogramar nuestro filtro mental para que veamos la victoria de la Cruz por encima de la derrota del mundo. Al estar en Cristo, recibimos Su propia visión: vemos el Reino de Dios operando en medio del caos."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error del 'Realismo Carnal'",
-        "texto": "Es un error creer que ser 'realista' (enfocarse solo en los problemas tangibles) es una virtud. La Biblia llama a eso 'mente carnal' que es enemistad contra Dios. La verdadera Realidad es la Palabra de Dios. Si lo que ves contradice lo que Dios dijo, tu vista te está mintiendo. No niegues el problema, pero niégale el derecho legal de ser tu verdad absoluta."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Efesios 1:18",
-            "explicacion": "📖 \"Alumbrando los ojos de vuestro entendimiento, para que sepáis cuál es la esperanza a que él os ha llamado, y cuáles las riquezas de la gloria de su herencia en los santos.\"<br><br>\n\nREVELACIÓN: Pablo ora para que los 'ojos del entendimiento' sean alumbrados para conocer la esperanza del llamado.",
-            "texto": "Alumbrando los ojos de vuestro entendimiento, para que sepáis cuál es la esperanza a que él os ha llamado, y cuáles las riquezas de la gloria de su herencia en los santos."
-          },
-          {
-            "cita": "Hebreos 11:27",
-            "explicacion": "📖 \"Por la fe dejó a Egipto, no temiendo la ira del rey; porque se sostuvo como viendo al Invisible.\"<br><br>\n\nREVELACIÓN: Moisés se sostuvo 'como viendo al Invisible'. La visión espiritual es el motor de la perseverancia.",
-            "texto": "Por la fe dejó a Egipto, no temiendo la ira del rey; porque se sostuvo como viendo al Invisible."
-          },
-          {
-            "cita": "1 Corintios 2:14",
-            "explicacion": "📖 \"Pero el hombre natural no percibe las cosas que son del Espíritu de Dios, porque para él son locura, y no las puede entender, porque se han de discernir espiritualmente.\"<br><br>\n\nREVELACIÓN: El hombre natural no percibe las cosas del Espíritu porque se han de discernir espiritualmente.",
-            "texto": "Pero el hombre natural no percibe las cosas que son del Espíritu de Dios, porque para él son locura, y no las puede entender, porque se han de discernir espiritualmente."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Limpiando el Lente",
-        "items": [
-          {
-            "punto": "Identifica qué 'ejército sirio' te tiene aterrorizado hoy.",
-            "ejemplo": "Si miras tus deudas o tu diagnóstico médico con pánico, estás usando el lente del mundo. Pide a Dios hoy: 'Señor, abre mis ojos para ver Tu provisión y Tu sanidad a mi alrededor'."
-          },
-          {
-            "punto": "No tomes decisiones basadas solo en lo que ves.",
-            "ejemplo": "Si una puerta se cierra, no asumas que es el fin. Podría ser la protección de Dios. Espera la confirmación del Espíritu antes de declarar derrota."
-          },
-          {
-            "punto": "Satura tus ojos con la Palabra.",
-            "ejemplo": "Lo que miras, en eso te conviertes. Deja de mirar noticias de miedo y empieza a mirar las promesas de Dios. Tu filtro mental cambiará gradualmente."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Gobernando la Percepción",
-        "items": [
-          {
-            "punto": "Discierne la realidad espiritual detrás de los conflictos.",
-            "ejemplo": "Un maduro no pelea contra carne y sangre. Cuando alguien te ataca, mira el 'filtro' de esa persona. Ministra a la raíz espiritual en lugar de reaccionar a la conducta superficial. Tú ves los carros de fuego, ellos no."
-          },
-          {
-            "punto": "Provoca revelación en otros mediante la intercesión.",
-            "ejemplo": "Como Eliseo, ora por los que te rodean: 'Padre, ábreles los ojos'. No trates de convencer a la gente con argumentos; pide que el Espíritu les quite el velo. La revelación es un regalo de Dios."
-          },
-          {
-            "punto": "Opera desde la seguridad de lo invisible.",
-            "ejemplo": "Toma riesgos en el Reino basándote en la visión que Dios te dio en lo secreto. Un maduro camina por fe (revelación) y no por vista (percepción). Tu estabilidad en la crisis será el testimonio que atraiga a otros a la Luz."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, cuando te enfrentes a una situación difícil, no reacciones de inmediato. Detente, respira y di: 'Señor, limpio mi cristal. Muéstrame Tu diseño en esto'. Intenta encontrar tres cosas buenas ocultas en ese problema aparente.",
-    "gamificacion": {
-      "xp_lectura": 230,
-      "logro_id": "vision-de-reino"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "eliseo",
-          "nombre": "Eliseo",
-          "razon": "El modelo del hombre que vive en la revelación constante.",
-          "simbolismo": "El ojo profético que ve la protección de Dios."
-        },
-        {
-          "id": "jacob",
-          "nombre": "Jacob",
-          "razon": "Vio los campamentos de ángeles (Mahanaim) cuando se sentía solo.",
-          "paralelismo": "El despertar a la realidad de la compañía divina."
-        },
-        {
-          "id": "esteban-martir",
-          "nombre": "Esteban",
-          "razon": "Vio los cielos abiertos y a Jesús a la diestra del Padre mientras era apedreado.",
-          "declaracion": "Mi mirada está fija en la gloria de Cristo; el dolor de la tierra no puede cegar mi visión del Reino."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "monte-dotan",
-          "nombre": "Dotán",
-          "razon": "Lugar de la revelación de los carros de fuego.",
-          "declaracion": "Mi casa es hoy mi Dotán; declaro que el ejército del Cielo me rodea y me guarda."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "apertura-de-ojos-espirituales",
-          "tema": "Revelación y Fe",
-          "declaracion": "Padre, hoy pido que abras los ojos de mi entendimiento. Quita todo velo de miedo y duda. Quiero ver Tu Reino operando en mi vida hoy. Amén."
-        }
-      ]
-    }
-  },
-  {
-    "id": "biologica-gracia-inmerecido-disenado",
-    "activo": true,
-    "fecha_programada": "2026-04-22",
-    "tipo": "tematico",
-    "titulo": "La Biología de la Gracia",
-    "subtitulo": "Descubriendo el Diseño de lo Inmerecido en el ADN del Reino",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/biologia-gracia.webp",
-    "tags": [
-      "Gracia",
-      "Favor Inmerecido",
-      "Identidad",
-      "Redención",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios.",
-      "cita": "Efesios 2:8"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Ley del Intercambio vs. La Ley del Regalo",
-        "texto": "En todas las culturas humanas, el favor se gana. El sistema de 'Karma' o de 'Mérito' rige la lógica natural: recibes lo que mereces. Sin embargo, el Código de la Gracia (Charis) irrumpe como una anomalía biológica en el espíritu. La Gracia es el favor inmerecido, pero también es el poder capacitador de Dios. Pedro, tras fallar tres veces, recibió el encargo de pastorear la Iglesia; esto no fue 'justo' bajo la ley humana, fue un acto puro de Gracia. La Gracia no ignora el error, lo absorbe y lo sustituye por un diseño de gloria."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Charis (χάρις)",
-        "idioma": "Griego",
-        "raiz": "Inclinación / Favor gratuito",
-        "significado": "Significa un regalo dado con alegría por alguien superior a alguien inferior, sin que haya mérito alguno.",
-        "revelacion": "La Gracia es la 'Savia' del Reino. Así como una rama recibe nutrientes del árbol no porque la rama trabaje, sino porque está injertada, nosotros recibimos la vida de Dios por estar injertados en Cristo. La Gracia es el diseño donde Dios hace por nosotros lo que nosotros nunca podríamos hacer por nosotros mismos. Es la inmunidad legal ante el juicio que merecíamos."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Generosidad y Misericordia",
-        "texto": "Dios se revela como el Gran Dador. Su atributo de Generosidad significa que Él sobreabunda en bondad hacia los que no lo merecen. La Gracia revela a un Dios que no es tacaño con Su gloria. Él prefiere que Su justicia sea satisfecha por Su propio Hijo antes que dejar de ser generoso con Su creación caída."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Jesucristo: El Administrador de la Gracia",
-        "texto": "Jesús es la Gracia personificada. 'La ley fue dada por Moisés, pero la gracia y la verdad vinieron por medio de Jesucristo' (Juan 1:17). En la Cruz, ocurrió el intercambio biológico-espiritual: Cristo recibió nuestro merecido (muerte) para que nosotros recibiéramos Su merecido (vida eterna). Él es el Don (Dorea) de Dios. Al estar en Cristo, nuestra 'biología espiritual' es reprogramada para operar bajo el favor, no bajo el esfuerzo carnal."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error del 'Legalismo' y la 'Licencia'",
-        "texto": "Es un error creer que puedes añadir algo a la Gracia mediante tus obras (Legalismo). También es un error creer que la Gracia te permite vivir en pecado (Licencia). La Gracia no es una excusa para la desobediencia; es la fuerza que te permite obedecer por amor. Si tu 'gracia' no te transforma, es solo un concepto mental y no una realidad del Espíritu."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Romanos 5:20-21",
-            "explicacion": "📖 \"Pero la ley se introdujo para que el pecado abundase; mas cuando el pecado abundó, sobreabundó la gracia; para que así como el pecado reinó para muerte, así también la gracia reine por la justicia para vida eterna...\"<br><br>\n\nREVELACIÓN: Donde el pecado abundó, sobreabundó la gracia. Muestra la superioridad matemática del favor de Dios sobre el error humano.",
-            "texto": "Pero la ley se introdujo para que el pecado abundase; mas cuando el pecado abundó, sobreabundó la gracia; para que así como el pecado reinó para muerte, así también la gracia reine por la justicia para vida eterna..."
-          },
-          {
-            "cita": "Tito 2:11-12",
-            "explicacion": "📖 \"Porque la gracia de Dios se ha manifestado para salvación a todos los hombres, enseñándonos que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo sobria, justa y piadosamente.\"<br><br>\n\nREVELACIÓN: Declara que la gracia de Dios se ha manifestado para salvación... enseñándonos que, renunciando a la impiedad, vivamos sobriamente.",
-            "texto": "Porque la gracia de Dios se ha manifestado para salvación a todos los hombres, enseñándonos que, renunciando a la impiedad y a los deseos mundanos, vivamos en este siglo sobria, justa y piadosamente."
-          },
-          {
-            "cita": "2 Corintios 12:9",
-            "explicacion": "📖 \"Y me ha dicho: Bástate mi gracia; porque mi poder se perfecciona en la debilidad. Por tanto, de buena gana me gloriaré más bien en mis debilidades, para que repose sobre mí el poder de Cristo.\"<br><br>\n\nREVELACIÓN: Bástate mi gracia; porque mi poder se perfecciona en la debilidad. La gracia como fuerza operativa.",
-            "texto": "Y me ha dicho: Bástate mi gracia; porque mi poder se perfecciona en la debilidad. Por tanto, de buena gana me gloriaré más bien en mis debilidades, para que repose sobre mí el poder de Cristo."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Recibiendo el Regalo",
-        "items": [
-          {
-            "punto": "Deja de intentar pagarle a Dios por tu salvación.",
-            "ejemplo": "Muchos dicen 'voy a portarme bien para que Dios me perdone'. No puedes comprar el perdón. Acéptalo como un regalo hoy y dale gracias. Tu cambio de conducta será el resultado del amor que recibes, no el precio del mismo."
-          },
-          {
-            "punto": "Sustituye la palabra 'suerte' por 'gracia'.",
-            "ejemplo": "Cuando algo bueno te pase sin que lo busques, di: 'Gracias, Padre, por Tu favor inmerecido'. Reconoce la mano de Dios en los detalles de tu día. La gratitud es el lenguaje de la Gracia."
-          },
-          {
-            "punto": "Confía en Dios en tus momentos de mayor debilidad.",
-            "ejemplo": "Si hoy te sientes débil ante una tentación, ora: 'Señor, bástate Tu gracia en mí'. No luches solo; permite que el poder de la Gracia te dé la fuerza que no tienes."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Administrando el Favor",
-        "items": [
-          {
-            "punto": "Sé un dispensador de gracia para otros.",
-            "ejemplo": "Un maduro no juzga al que cae basándose en lo que merece. Como el Padre del pródigo, ofrece el abrazo y la restauración. Trata a la gente no por cómo son, sino por el diseño de Dios que la Gracia puede activar en ellos."
-          },
-          {
-            "punto": "Opera desde el denuedo del favor inmerecido.",
-            "ejemplo": "No le pidas a Dios con timidez. Acércate al Trono de la Gracia con confianza para hallar el oportuno socorro (Heb. 4:16). Tú tienes un derecho legal de acceso porque el Rey te lo regaló. Actúa con la autoridad de un heredero."
-          },
-          {
-            "punto": "Protege tu corazón del orgullo ministerial.",
-            "ejemplo": "Recuerda que todo lo que tienes y todo lo que haces es por Gracia. '¿Qué tienes que no hayas recibido?' (1 Cor. 4:7). Mantén tu asombro diario ante lo inmerecido. La humildad es la única atmósfera donde la Gracia sigue fluyendo con potencia."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, cada vez que sientas que no eres suficiente, detente un momento. Respira profundo y recuerda: 'Soy una obra de Dios, Su amor me sostiene'. Deja que esa verdad calme tu mente.",
-    "gamificacion": {
-      "xp_lectura": 250,
-      "logro_id": "paz-en-el-diseno"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "simon-pedro",
-          "nombre": "Pedro",
-          "razon": "Restaurado por la Gracia tras la mayor traición personal.",
-          "simbolismo": "La roca que se sostiene por el favor, no por su propia firmeza."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "El mayor testigo de que la Gracia puede transformar a un asesino en un apóstol.",
-          "paralelismo": "El deudor eterno de la Charis divina."
-        },
-        {
-          "id": "david",
-          "nombre": "Rey David",
-          "razon": "Recibió misericordia cuando la ley pedía juicio.",
-          "declaracion": "Tu bondad y Tu gracia me seguirán todos los días de mi vida."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "mar-rojo",
-          "nombre": "Mar Rojo",
-          "razon": "Lugar de la liberación gratuita de un pueblo que no tenía cómo salvarse.",
-          "declaracion": "Mi victoria no fue por mi espada, fue por el favor del Dios que abrió el camino."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "reposo-en-la-gracia",
-          "tema": "Favor e Identidad",
-          "declaracion": "Padre, hoy recibo Tu Charis. No por mis méritos, sino por Tu amor. Renuncio al legalismo. Soy lo que soy por Tu Gracia. Que Tu favor sea mi escudo hoy. Amén."
-        }
-      ]
-    }
-  },
-  {
-    "id": "quintaesencia-amor-sustancia",
-    "activo": true,
-    "fecha_programada": "2026-04-20",
-    "tipo": "tematico",
-    "titulo": "La Quintaesencia del Amor",
-    "subtitulo": "Descubriendo el Amor como la Sustancia Fundamental del Reino",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/quintaesencia-amor.webp",
-    "tags": [
-      "Amor Agape",
-      "Naturaleza de Dios",
-      "Identidad",
-      "Vínculo Perfecto",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y sobre todas estas cosas vestíos de amor, que es el vínculo perfecto.",
-      "cita": "Colosenses 3:14"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "Agape vs. Eros y Philia: La Revolución del Afecto",
-        "texto": "En el mundo griego, existían palabras para el amor pasional (Eros) y el amor de amistad (Philia). Pero el Nuevo Testamento populariza el término 'Agape'. No era un amor basado en el valor del objeto amado, sino en la naturaleza del que ama. Agape es el amor de pacto, incondicional y sacrificado. Esta enseñanza revela que el amor no es un sentimiento volátil que 'se siente', sino una sustancia espiritual (la quintaesencia) que sostiene el tejido del Reino de Dios. Sin esta sustancia, cualquier estructura religiosa es solo ruido (1 Cor. 13)."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Agape (ἀγάπη)",
-        "idioma": "Griego",
-        "raiz": "Amor de voluntad / Benevolencia",
-        "significado": "Amor desinteresado que busca el bien del otro sin esperar nada a cambio.",
-        "revelacion": "Agape es el ADN de Dios. 'Dios es Amor' (1 Juan 4:8) no es una descripción de lo que Dios hace, sino de lo que Dios ES. Es la energía cohesiva del universo. El amor como 'vínculo perfecto' (Syndesmos) significa que es el pegamento que mantiene unida la creación y la Iglesia. Cuando operas en Agape, estás operando en la frecuencia más alta del poder espiritual, la cual nunca falla (1 Cor. 13:8)."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Bondad y Eternidad",
-        "texto": "Dios es infinitamente bueno. Su atributo de Bondad es la fuente del Agape. Debido a que Dios es Eterno, Su amor no tiene fin. La quintaesencia del amor revela a un Dios que no nos ama porque nosotros seamos amables, sino porque Su propia esencia lo obliga a ser Amor. Este atributo nos da seguridad absoluta: nada nos puede separar de esa sustancia divina (Rom. 8:39)."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "La Cruz: La Materialización del Agape",
-        "texto": "Jesucristo es el Amor encarnado. La Cruz no fue un evento trágico, sino la demostración pública de la sustancia del Reino. 'En esto hemos conocido el amor: en que Él puso Su vida por nosotros' (1 Juan 3:16). Cristo es el Vínculo Perfecto que unió de nuevo a la humanidad con el Padre. Al estar en Cristo, Agape deja de ser una meta inalcanzable para convertirse en el fluido que corre por nuestras venas espirituales. Amamos porque participamos de Su sustancia."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error del 'Amor Humanista'",
-        "texto": "Es un error confundir el Agape bíblico con la tolerancia mundana o el sentimentalismo. El amor de Dios incluye la Verdad y la Justicia. Amar no es aprobar el pecado; amar es dar la vida para que el otro sea libre del pecado. Un amor sin principios no es Agape, es complicidad carnal. El verdadero amor siempre edifica según el diseño de Dios."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "1 Corintios 13",
-            "explicacion": "📖 \"Si yo hablase lenguas humanas y angélicas, y no tengo amor, vengo a ser como metal que resuena, o címbalo que retiñe. Y si tuviese profecía, y entendiese todos los misterios y toda ciencia, y si tuviese toda la fe, de tal manera que trasladase los montes, y no tengo amor, nada soy. El amor es sufrido, es benigno; el amor no tiene envidia, el amor no es jactancioso, no se envanece...\"<br><br>\n\nREVELACIÓN: El himno al amor: define las características operativas del Agape y su superioridad sobre los dones espirituales.",
-            "texto": "Si yo hablase lenguas humanas y angélicas, y no tengo amor, vengo a ser como metal que resuena, o címbalo que retiñe. Y si tuviese profecía, y entendiese todos los misterios y toda ciencia, y si tuviese toda la fe, de tal manera que trasladase los montes, y no tengo amor, nada soy. El amor es sufrido, es benigno; el amor no tiene envidia, el amor no es jactancioso, no se envanece..."
-          },
-          {
-            "cita": "1 Juan 4:7-21",
-            "explicacion": "📖 \"Amados, amémonos unos a otros; porque el amor es de Dios. Todo aquel que ama, es nacido de Dios, y conoce a Dios. El que no ama, no ha conocido a Dios; porque Dios es amor. En esto se mostró el amor de Dios para con nosotros, en que Dios envió a su Hijo unigénito al mundo, para que vivamos por él...\"<br><br>\n\nREVELACIÓN: Establece que el amor proviene de Dios y que el que no ama no ha conocido a Dios.",
-            "texto": "Amados, amémonos unos a otros; porque el amor es de Dios. Todo aquel que ama, es nacido de Dios, y conoce a Dios. El que no ama, no ha conocido a Dios; porque Dios es amor. En esto se mostró el amor de Dios para con nosotros, en que Dios envió a su Hijo unigénito al mundo, para que vivamos por él..."
-          },
-          {
-            "cita": "Juan 13:34-35",
-            "explicacion": "📖 \"Un mandamiento nuevo os doy: Que os améis unos a otros; como yo os he amado, que también os améis unos a otros. En esto conocerán todos que sois mis discípulos, si tuviereis amor los unos con los otros.\"<br><br>\n\nREVELACIÓN: El nuevo mandamiento: amarse unos a otros como Cristo amó. Es la señal de identidad del discípulo.",
-            "texto": "Un mandamiento nuevo os doy: Que os améis unos a otros; como yo os he amado, que también os améis unos a otros. En esto conocerán todos que sois mis discípulos, si tuviereis amor los unos con los otros."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Recibiendo la Sustancia",
-        "items": [
-          {
-            "punto": "Acepta que el amor de Dios es independiente de tus obras.",
-            "ejemplo": "Dios no te ama más cuando oras ni menos cuando fallas. Su amor (Agape) es una constante. Hoy descansa en la seguridad de que eres Su tesoro especial simplemente porque Él decidió amarte."
-          },
-          {
-            "punto": "Identifica el amor como una decisión, no como una emoción.",
-            "ejemplo": "Si alguien te cae mal, no esperes a 'sentir amor' para tratarlo bien. Decide actuar en bondad hoy. El sentimiento seguirá a la obediencia. El amor es un acto de la voluntad renovada."
-          },
-          {
-            "punto": "Practica el perdón como descarga de la sustancia tóxica.",
-            "ejemplo": "El rencor bloquea el flujo de Agape en ti. Perdona a esa persona hoy, no porque ella lo merezca, sino porque tu espíritu necesita estar libre para respirar el amor del Padre."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Siendo el Vínculo Perfecto",
-        "items": [
-          {
-            "punto": "Provoca unidad en medio de la diversidad.",
-            "ejemplo": "Un maduro usa el Agape como Syndesmos (vínculo). Sé el puente entre hermanos que piensan diferente. No busques tener la razón, busca que el amor de Cristo prevalezca en la congregación. La unidad es la atmósfera de la bendición."
-          },
-          {
-            "punto": "Sacrifica tu derecho por el bien del cuerpo.",
-            "ejemplo": "El amor maduro sabe cuándo callar un argumento para no herir al débil. Como Cristo, prefiere perder una disputa terrenal para ganar un alma para la eternidad. Tu madurez se mide por cuánto de tu 'yo' estás dispuesto a rendir por amor."
-          },
-          {
-            "punto": "Establece una cultura de honra y servicio desinteresado.",
-            "ejemplo": "Que tu ministerio no sea una plataforma de lucimiento, sino un acto de Agape puro. Sirve a los que no pueden darte nada a cambio. Tu recompensa es la expansión de la sustancia de Dios en la tierra. Sé un canal de la quintaesencia divina."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Identifica a una persona o situación que te genere conflicto (entropía). Hoy, visualiza ese vínculo no desde tu sentimiento, sino desde la 'Sustancia Conectora'. Di mentalmente: 'Cristo, Tú haces subsistir esta relación'. Suelta el juicio y permite que la Quintaesencia del Amor restaure la cohesión en tu pensamiento.",
-    "gamificacion": {
-      "xp_lectura": 300,
-      "logro_id": "maestro-de-cohesion"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "juan-apostol",
-          "nombre": "Juan",
-          "razon": "El apóstol del amor que profundizó en la esencia de Agape.",
-          "simbolismo": "El modelo del discípulo que vive en la revelación del afecto divino."
-        },
-        {
-          "id": "esteban-martir",
-          "nombre": "Esteban",
-          "razon": "Amó a sus enemigos hasta el final, pidiendo perdón por ellos mientras moría.",
-          "paralelismo": "La manifestación del Agape que vence a la muerte."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "Escribió el manual operativo del amor en 1 Corintios 13.",
-          "declaracion": "Si no tengo amor, nada soy. Mi identidad es la sustancia de Su afecto en mí."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "creacion-cosmos",
-          "nombre": "Cosmos",
-          "razon": "La creación entera fue hecha por y para el amor.",
-          "declaracion": "El amor es la ley que rige mi universo personal. No temeré al mal, porque Su amor me sostiene."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "llenos-de-agape",
-          "tema": "Sustancia y Unidad",
-          "declaracion": "Padre, hoy me visto de amor. Que Tu Agape sea mi pegamento y mi motor. Renuncio al egoísmo. Quiero ser un portador de Tu quintaesencia en este mundo frío. Amén."
-        }
-      ]
-    }
-  },
-  {
-    "id": "codigo-palabra-logos-rhema",
-    "activo": true,
-    "fecha_programada": "2026-04-17",
-    "tipo": "tematico",
-    "titulo": "El Código de la Palabra: Logos y Rhema",
-    "subtitulo": "Descubriendo la Diferencia entre la Verdad Escrita y la Voz Específica",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/logos-rhema.webp",
-    "tags": [
-      "Palabra de Dios",
-      "Logos",
-      "Rhema",
-      "Revelación",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y la Palabra se hizo carne y habitó entre nosotros...",
-      "cita": "Juan 1:14"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "Del Sinaí a la Mente: La Evolución de la Palabra",
-        "texto": "En el Antiguo Testamento, la Palabra de Dios era principalmente algo externo, escrito en tablas de piedra (Logos legal). Con la llegada de Cristo y el Pentecostés, la Palabra busca ser 'escrita en las tablas del corazón'. El conflicto histórico no es si la Biblia es Verdad (que lo es), sino cómo esa Verdad eterna se convierte en una directriz específica para un momento particular. La distinción entre Logos y Rhema es vital para pasar de una fe informativa a una fe operativa."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Logos (λόγος) vs. Rhema (ῥῆμα)",
-        "idioma": "Griego",
-        "raiz": "Palabra / Verbo",
-        "significado": "Logos es el consejo total de Dios, la Palabra escrita y el Verbo eterno. Rhema es la palabra específica, viva y hablada que se activa para una circunstancia concreta.",
-        "revelacion": "El Logos es el 'océano' de la Verdad; el Rhema es la 'copa de agua' que bebes hoy. No puedes tener un Rhema genuino que contradiga el Logos. El Logos te da el mapa; el Rhema te da la orden de 'gira a la derecha ahora'. Sin Logos, el Rhema es misticismo peligroso; sin Rhema, el Logos es letra muerta que mata el espíritu."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Veracidad y Sabiduría Infinita",
-        "texto": "Dios es Fiel. Su atributo de Veracidad garantiza que Su Logos es inamovible. Su atributo de Sabiduría se manifiesta al darnos el Rhema exacto para cada crisis. Vemos a un Dios que no solo dejó un libro escrito, sino que sigue hablando en tiempo real a través de Su Espíritu. Él es el Comunicador por excelencia."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Logos Encarnado y el Rhema de Dios",
-        "texto": "Jesús es el Logos hecho carne. En Él, toda la Verdad de Dios se hizo visible y tangible. Pero en Sus encuentros, Él soltaba Rhemas: 'Lázaro, ven fuera', 'Tus pecados te son perdonados'. La Cruz es el Logos final del amor de Dios. Al estar en Cristo, participamos de Su capacidad de escuchar al Padre. Él es el puente que convierte la letra en vida."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error del 'Rhema' sin Fundamento",
-        "texto": "Es un error teológico creer que has recibido una 'palabra de Dios' (Rhema) si esta contradice la Biblia (Logos). Cualquier revelación personal debe pasar por el filtro de la Palabra escrita. Si alguien te dice 'Dios me dijo que mientas', eso es un engaño. El Espíritu Santo nunca contradice lo que Él mismo inspiró en las Escrituras."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Hebreos 4:12",
-            "explicacion": "📖 \"Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos, y discierne los pensamientos y las intenciones del corazón.\"<br><br>\n\nREVELACIÓN: Porque la palabra (Logos) de Dios es viva y eficaz... discierne los pensamientos. Muestra la naturaleza quirúrgica de la Palabra.",
-            "texto": "Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos, y discierne los pensamientos y las intenciones del corazón."
-          },
-          {
-            "cita": "Romanos 10:17",
-            "explicacion": "📖 \"Así que la fe es por el oír, y el oír, por la palabra de Dios.\"<br><br>\n\nREVELACIÓN: La fe viene por el oír, y el oír, por la palabra (Rhema) de Dios. La fe se activa cuando el Logos se vuelve Rhema para ti.",
-            "texto": "Así que la fe es por el oír, y el oír, por la palabra de Dios."
-          },
-          {
-            "cita": "Mateo 4:4",
-            "explicacion": "📖 \"Él respondió y dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios.\"<br><br>\n\nREVELACIÓN: No solo de pan vivirá el hombre, sino de toda palabra (Rhema) que sale de la boca de Dios. El alimento diario es el Rhema.",
-            "texto": "Él respondió y dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Llenando el Depósito",
-        "items": [
-          {
-            "punto": "Lee la Biblia para conocer el Logos.",
-            "ejemplo": "No busques 'voces' si no has leído el Libro. El Logos es el fundamento. Lee un Evangelio este mes para que tu mente se sature de la Verdad de Jesús."
-          },
-          {
-            "punto": "Aprende a esperar el Rhema en la oración.",
-            "ejemplo": "Después de leer un versículo, quédate en silencio y pregunta: 'Padre, ¿cómo aplico esto hoy?'. Ese 'click' de entendimiento es el Rhema naciendo en ti."
-          },
-          {
-            "punto": "No tomes decisiones basadas solo en sentimientos.",
-            "ejemplo": "Si tienes una corazonada, compárala con el Logos. Si la Biblia dice que seas generoso y tu 'voz interna' dice que seas tacaño, la voz interna no es de Dios. Sigue el Código escrito."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Operando en la Revelación",
-        "items": [
-          {
-            "punto": "Activa la fe mediante el Rhema específico.",
-            "ejemplo": "En una crisis, no solo cites versículos al azar. Busca el Rhema específico del Espíritu para esa batalla. Cuando Dios te da la Palabra exacta, la paz sobrepasa el entendimiento y el milagro se acelera."
-          },
-          {
-            "punto": "Ministra Rhemas de vida a otros.",
-            "ejemplo": "Como maduro, aprende a hablar palabras que edifiquen. Pide al Espíritu: 'Dame una palabra para el que está cansado'. Un Rhema a tiempo puede salvar una vida del suicidio o de la desesperación."
-          },
-          {
-            "punto": "Sostén el Logos ante la cultura del engaño.",
-            "ejemplo": "En un mundo que relativiza la Verdad, mantente firme en el Logos inmutable. Tu defensa de la Palabra no debe ser agresiva, sino llena de la autoridad de quien vive lo que predica. Sé un Logos viviente para tu generación."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Toma un versículo que ya conozcas de memoria (Logos). Cierra los ojos y pide al Espíritu Santo: 'Activa este código como un Rhema para mi vida hoy'. Quédate en silencio 2 minutos y anota en la sección 'Escriba' de la App cualquier instrucción o paz específica que recibas.",
-    "gamificacion": {
-      "xp_lectura": 260,
-      "logro_id": "decodificador-activo"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "Heraldo de la Palabra que transformó el mundo conocido.",
-          "simbolismo": "La pluma que escribió el Logos para la Iglesia gentil."
-        },
-        {
-          "id": "pedro",
-          "nombre": "Simón Pedro",
-          "razon": "Caminó sobre el agua basado en un Rhema ('Ven').",
-          "paralelismo": "El Logos dice que el agua es líquida, el Rhema permite caminar sobre ella."
-        },
-        {
-          "id": "samuel",
-          "nombre": "Samuel",
-          "razon": "Aprendió a distinguir el Rhema en medio del silencio del templo.",
-          "declaracion": "Mi oído está circuncidado para oír Tu voz; no permitiré que ninguna de Tus palabras caiga a tierra."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "monte-sinai",
-          "nombre": "Sinaí",
-          "razon": "Lugar de la entrega del Logos escrito.",
-          "declaracion": "Lo que fue escrito en piedra ahora está grabado en mi corazón por el Espíritu Santo."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "activacion-de-la-palabra",
-          "tema": "Revelación y Fe",
-          "declaracion": "Padre, gracias por Tu Logos inmutable. Hoy pido un Rhema fresco para mi situación. Tu Palabra es mi brújula y mi espada. Amén."
-        }
-      ]
-    }
-  },
-  {
     "id": "liturgia-del-caos-altar-cotidiano",
     "activo": true,
     "fecha_programada": "2026-04-15",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Liturgia del Caos: El Altar Cotidiano",
     "subtitulo": "Descubriendo la Santidad en medio del Ruido y las Tareas",
     "autor": "Códice Bíblico",
@@ -3872,7 +2385,7 @@
     "id": "frecuencia-espiritu-sintonia",
     "activo": true,
     "fecha_programada": "2026-04-13",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Frecuencia del Espíritu: El Arte de la Sintonía",
     "subtitulo": "Descubriendo la Voz de Dios en el Ruido del Mundo",
     "autor": "Códice Bíblico",
@@ -4036,7 +2549,7 @@
     "id": "desaprendizaje-nicodemo-espiritu",
     "activo": true,
     "fecha_programada": "2026-04-10",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Desaprendizaje de Nicodemo",
     "subtitulo": "Vaciarse de la Religión para ser Lleno del Espíritu",
     "autor": "Códice Bíblico",
@@ -4200,7 +2713,7 @@
     "id": "genos-divino-respiracion",
     "activo": true,
     "fecha_programada": "2026-04-08",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Genos Divino y la Respiración del Espíritu",
     "subtitulo": "Descubriendo nuestro linaje y el Código de la Vida Eterna",
     "autor": "Códice Bíblico",
@@ -4364,7 +2877,7 @@
     "id": "condescendencia-paciencia-desierto",
     "activo": true,
     "fecha_programada": "2026-04-06",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "La Condescendencia de Dios",
     "subtitulo": "Descubriendo al Dios que se limita para encontrarse con el hombre",
     "autor": "Códice Bíblico",
@@ -4528,7 +3041,7 @@
     "id": "dios-espacio-inmanencia",
     "activo": true,
     "fecha_programada": "2026-04-03",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Dios en el Espacio: Inmanencia y Presencia",
     "subtitulo": "Descubriendo al Dios que no está lejos de ninguno de nosotros",
     "autor": "Códice Bíblico",
@@ -4689,338 +3202,10 @@
     }
   },
   {
-    "id": "bios-vs-pneuma-identidad",
-    "activo": true,
-    "fecha_programada": "2026-04-01",
-    "tipo": "tematico",
-    "titulo": "Bios vs. Pneuma: El Conflicto de la Identidad",
-    "subtitulo": "Descubriendo la Vida del Espíritu frente a la Vida de la Carne",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "22 min",
-    "imagen_portada": "../img/estudios/bios-pneuma.webp",
-    "tags": [
-      "Identidad",
-      "Espíritu",
-      "Nuevo Nacimiento",
-      "Antropología Bíblica",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Lo que es nacido de la carne, carne es; y lo que es nacido del Espíritu, espíritu es.",
-      "cita": "Juan 3:6"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Dualidad del Ser: De Adán a Cristo",
-        "texto": "En el diseño original, el hombre fue creado con un cuerpo del polvo (Bios) y un aliento de vida de Dios (Pneuma). Tras la caída, la vida espiritual murió y el hombre quedó atrapado en su dimensión biológica y psicológica. Jesús viene no para mejorar nuestro Bios, sino para resucitar nuestro Pneuma. La antropología bíblica nos enseña que somos seres espirituales teniendo una experiencia humana, y no al revés. El conflicto de identidad nace cuando intentamos vivir realidades espirituales con recursos puramente biológicos."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Bios (βίος) vs. Pneuma (πνεῦμα)",
-        "idioma": "Griego",
-        "raiz": "Vida biológica / Aliento, Espíritu",
-        "significado": "Bios se refiere a la vida física, finita y corruptible. Pneuma es el soplo divino, la vida eterna e increada de Dios.",
-        "revelacion": "Vivir en el Bios es depender de tus sentidos, tus genes y tu entorno social. Vivir en el Pneuma es depender de la revelación, la unción y la Palabra. El nuevo nacimiento es la transferencia de tu centro de gravedad del Bios al Pneuma. Ya no te define tu ADN terrenal, te define tu origen celestial."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Inmortalidad e Inmanencia",
-        "texto": "Dios es Espíritu. Su atributo de Inmortalidad se nos transfiere a través del Pneuma. Dios no habita en templos hechos de manos, sino en el espíritu del hombre redimido. El conflicto de identidad revela a un Dios que quiere ser uno con nosotros. Él no quiere estar 'cerca' de ti, Él quiere vivir 'en' ti, sustituyendo tu vieja naturaleza por Su vida misma."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Postrer Adán y el Espíritu Vivificante",
-        "texto": "Adán fue alma viviente (Bios), pero Cristo es Espíritu vivificante (Pneuma) (1 Cor. 15:45). Jesús es el puente que permite que nuestro espíritu muerto vuelva a la vida. En la resurrección, Cristo demostró que el Pneuma tiene autoridad total sobre el Bios. Al estar 'en Cristo', recibimos una transfusión de vida eterna que neutraliza la ley del pecado y la muerte que opera en nuestra biología corporal."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error del 'Espiritismo' o el 'Gnosticismo'",
-        "texto": "Es un error creer que el cuerpo (Bios) es malo en sí mismo. El cuerpo es el templo del Espíritu. El error es permitir que el Bios gobierne al Pneuma. La espiritualidad sana no es escapar del cuerpo, sino someter el cuerpo y el alma a la autoridad del Espíritu. No rechaces tu humanidad, redímela mediante la vida de Cristo en ti."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Juan 3:1-10",
-            "explicacion": "📖 \"Narra el encuentro nocturno entre Jesús y Nicodemo, donde se revela la necesidad de nacer del agua y del Espíritu para entrar en el reino de Dios.\"<br><br>\n\nREVELACIÓN: El diálogo con Nicodemo sobre la necesidad absoluta del nacimiento del Espíritu para ver el Reino.",
-            "texto": "Narra el encuentro nocturno entre Jesús y Nicodemo, donde se revela la necesidad de nacer del agua y del Espíritu para entrar en el reino de Dios."
-          },
-          {
-            "cita": "Romanos 8:1-14",
-            "explicacion": "📖 \"Ahora, pues, ninguna condenación hay para los que están en Cristo Jesús... Porque los que son guiados por el Espíritu de Dios, éstos son hijos de Dios.\"<br><br>\n\nREVELACIÓN: Describe la lucha entre la carne (Bios/Sarx) y el Espíritu, y la victoria de los que andan según el Pneuma.",
-            "texto": "Ahora, pues, ninguna condenación hay para los que están en Cristo Jesús... Porque los que son guiados por el Espíritu de Dios, éstos son hijos de Dios."
-          },
-          {
-            "cita": "1 Corintios 15:45-49",
-            "explicacion": "📖 \"Así también está escrito: Fue hecho el primer hombre Adán alma viviente; el postrer Adán, espíritu vivificante. Mas lo espiritual no es primero, sino lo animal; luego lo espiritual. El primer hombre es de la tierra, terrenal; el segundo hombre, que es el Señor, es del cielo. Cual el terrenal, tales también los terrenales; y cual el celestial, tales también los celestiales. Y así como hemos traído la imagen del terrenal, traeremos también la imagen del celestial.\"<br><br>\n\nREVELACIÓN: Establece el contraste entre el hombre terrenal y el hombre celestial.",
-            "texto": "Así también está escrito: Fue hecho el primer hombre Adán alma viviente; el postrer Adán, espíritu vivificante. Mas lo espiritual no es primero, sino lo animal; luego lo espiritual. El primer hombre es de la tierra, terrenal; el segundo hombre, que es el Señor, es del cielo. Cual el terrenal, tales también los terrenales; y cual el celestial, tales también los celestiales. Y así como hemos traído la imagen del terrenal, traeremos también la imagen del celestial."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Descubriendo tu Nuevo Yo",
-        "items": [
-          {
-            "punto": "Deja de definirte por tus sentimientos o impulsos físicos.",
-            "ejemplo": "Si te sientes deprimido (Bios), recuerda que en tu espíritu eres más que vencedor (Pneuma). No dejes que el síntoma dicte tu identidad; deja que la Verdad dicte tu realidad."
-          },
-          {
-            "punto": "Identifica la voz de tu espíritu.",
-            "ejemplo": "Aprende a diferenciar entre un antojo de la carne y una convicción del Espíritu. El Espíritu siempre te guiará a la paz y a Cristo; la carne siempre te guiará al afán y al yo."
-          },
-          {
-            "punto": "Alimenta tu Pneuma diariamente.",
-            "ejemplo": "Así como comes para sostener tu Bios, debes leer la Palabra y orar para sostener tu Pneuma. Un espíritu desnutrido será fácilmente dominado por una carne fuerte."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Gobernando desde el Espíritu",
-        "items": [
-          {
-            "punto": "Somete tus sentidos a la revelación del Reino.",
-            "ejemplo": "Un maduro no cree lo que ve, cree lo que Dios dijo. Cuando el Bios reporte enfermedad o escasez, el Pneuma debe responder con el decreto de la Palabra. Vive desde adentro hacia afuera."
-          },
-          {
-            "punto": "Desarrolla el discernimiento espiritual (Phronema).",
-            "ejemplo": "Aprende a captar las atmósferas espirituales de los lugares. No reacciones emocionalmente ante los ataques; discierne qué espíritu está operando y neutralízalo con la autoridad de Cristo."
-          },
-          {
-            "punto": "Opera como un administrador de la vida eterna.",
-            "ejemplo": "Tu función no es solo vivir bien, es impartir Pneuma a otros. Que tus palabras den vida a los que están muertos en sus delitos y pecados. Sé un portador de la atmósfera del cielo en la tierra."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Hoy, haz tres pausas de un minuto. En cada pausa, respira profundo y di: 'Este aire alimenta mi Bios, pero Tu Espíritu alimenta mi Pneuma'. Intenta discernir la diferencia entre tu cuerpo cansado y tu espíritu que siempre está conectado a la Fuente.",
-    "gamificacion": {
-      "xp_lectura": 200,
-      "logro_id": "despertar-espiritual"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "adan",
-          "nombre": "Adán",
-          "razon": "Representante de la vida biológica separada de Dios.",
-          "simbolismo": "El primer hombre que perdió el gobierno del Pneuma."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "El mayor teólogo de la vida en el Espíritu.",
-          "paralelismo": "Como Pablo, descubrimos que ya no vivo yo, mas vive Cristo en mí."
-        },
-        {
-          "id": "nicodemo",
-          "nombre": "Nicodemo",
-          "razon": "Representa la lucha por entender lo espiritual desde la lógica humana.",
-          "declaracion": "Renuncio a entender a Dios con mi mente carnal; recibo la revelación en mi espíritu renacido."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "jardin-eden",
-          "nombre": "El Edén",
-          "razon": "Lugar de la fractura de identidad original.",
-          "declaracion": "En Cristo vuelvo al diseño del Edén: un espíritu vivo gobernando sobre una creación bendecida."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "vida-en-el-espiritu-total",
-          "tema": "Identidad y Plenitud",
-          "declaracion": "Padre, hoy activo mi vida en el Pneuma. Mi Bios se somete a Tu Espíritu. No soy esclavo de mis genes ni de mi pasado. Soy una nueva criatura en Cristo. Amén."
-        }
-      ]
-    }
-  },
-  {
-    "id": "la-paradoja-de-la-provision",
-    "activo": true,
-    "fecha_programada": "2026-03-30",
-    "tipo": "tematico",
-    "titulo": "La Paradoja de la Provisión",
-    "subtitulo": "Descubriendo la Abundancia a través de la Entrega en el Diseño del Reino",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "20 min",
-    "imagen_portada": "../img/estudios/la-paradoja-de-la-provision.webp",
-    "tags": [
-      "Provisión",
-      "Generosidad",
-      "Fe",
-      "Semilla",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Dad, y se os dará; medida buena, apretada, remecida y rebosando darán en vuestro regazo...",
-      "cita": "Lucas 6:38"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Economía del Reino vs. La Economía de Escasez",
-        "texto": "En el sistema del mundo (Kosmos), la provisión se obtiene acumulando y reteniendo. En el Reino de Dios, la provisión se activa soltando y sembrando. La viuda de Sarepta tuvo que dar su última comida al profeta Elías para que su harina y aceite no escasearan durante tres años; el joven de los panes tuvo que entregar su almuerzo para que cinco mil fueran alimentados. La paradoja es que lo que retienes lo pierdes, pero lo que entregas a Dios se multiplica bajo Su jurisdicción."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Zera (זֶרַע)",
-        "idioma": "Hebreo",
-        "raiz": "Semilla / Descendencia",
-        "significado": "Representa el potencial de vida latente que necesita ser plantado para manifestarse.",
-        "revelacion": "Todo lo que Dios te da tiene dos funciones: es pan para hoy o semilla para mañana. El error es comerse la semilla. La provisión no es una cantidad de dinero, es un ciclo de siembra. Cuando das, no estás 'perdiendo' algo; estás mudando tu recurso de la jurisdicción de la tierra a la jurisdicción del cielo, donde la entropía no existe y el crecimiento es exponencial."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Jehová Jireh (El Dios que Ve y Provee)",
-        "texto": "Dios se revela como el Proveedor no porque nos dé cosas, sino porque Él es el Dueño de todo. Su atributo de Bondad asegura que Él conoce nuestras necesidades antes que nosotros. El sacrificio de la provisión revela que Dios no busca nuestras pertenencias, sino nuestra confianza. Él es el Padre que no permitirá que Sus hijos mendiguen pan si caminan en Su diseño de justicia."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Cristo: El Grano de Trigo que Murió para Multiplicarse",
-        "texto": "Jesús es la máxima expresión de la paradoja de la provisión. Él se entregó a Sí mismo por completo para proveer salvación a toda la humanidad. 'Si el grano de trigo no cae en la tierra y muere, queda solo; pero si muere, lleva mucho fruto' (Juan 12:24). Nuestra abundancia espiritual y material tiene su raíz en el sacrificio de Cristo. Al estar unidos a Él, participamos de Su naturaleza generosa y de Su herencia inagotable."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "El Error de la 'Siembra por Manipulación'",
-        "texto": "Es un error creer que puedes 'sobornar' a Dios con ofrendas para que Él te dé lo que tú quieres. La siembra en el Reino nace de la obediencia y el amor, no de la avaricia disfrazada de fe. Si das para 'obtener' un resultado egoísta, tu corazón no está alineado con el Reino. Dios mira la motivación de la entrega, no solo el monto de la semilla."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "1 Reyes 17",
-            "explicacion": "📖 \"Presenta el ministerio de Elías, la sequía sobre Israel y la provisión milagrosa de Dios para el profeta a través de cuervos y luego en casa de la viuda de Sarepta, donde la harina y el aceite no escasearon.\"<br><br>\n\nREVELACIÓN: La viuda de Sarepta: el milagro de la multiplicación condicionado a poner a Dios primero en la crisis.",
-            "texto": "Presenta el ministerio de Elías, la sequía sobre Israel y la provisión milagrosa de Dios para el profeta a través de cuervos y luego en casa de la viuda de Sarepta, donde la harina y el aceite no escasearon."
-          },
-          {
-            "cita": "Juan 6:1-13",
-            "explicacion": "📖 \"Narra el milagro de la alimentación de los cinco mil a partir de cinco panes de cebada y dos pececillos que un joven entregó.\"<br><br>\n\nREVELACIÓN: La alimentación de los cinco mil: la multiplicación de lo poco que se entrega con generosidad.",
-            "texto": "Narra el milagro de la alimentación de los cinco mil a partir de cinco panes de cebada y dos pececillos que un joven entregó."
-          },
-          {
-            "cita": "2 Corintios 9:6-10",
-            "explicacion": "📖 \"Pero esto digo: El que siembra escasamente, también segará escasamente; y el que siembra generosamente, generosamente también segará. Cada uno dé como propuso en su corazón... Y poderoso es Dios para hacer que abunde en vosotros toda gracia...\"<br><br>\n\nREVELACIÓN: Establece las leyes de la siembra espiritual: el que siembra generosamente, generosamente segará.",
-            "texto": "Pero esto digo: El que siembra escasamente, también segará escasamente; y el que siembra generosamente, generosamente también segará. Cada uno dé como propuso en su corazón... Y poderoso es Dios para hacer que abunde en vosotros toda gracia..."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Rompiendo la Mentalidad de Escasez",
-        "items": [
-          {
-            "punto": "Identifica tu 'última torta' (lo que te da miedo soltar).",
-            "ejemplo": "Si tienes miedo de dar tus diezmos u ofrendas por la crisis, recuerda que la viuda dio lo último y Dios la sostuvo. No mires tu cuenta, mira la fidelidad de tu Padre."
-          },
-          {
-            "punto": "Comienza a practicar la generosidad en lo pequeño.",
-            "ejemplo": "No esperes a ser rico para dar. Comparte tu tiempo, tu comida o una palabra de aliento hoy. La generosidad es un músculo espiritual que se entrena diariamente."
-          },
-          {
-            "punto": "Confía en que Dios tiene el control de tu sustento.",
-            "ejemplo": "Ante la preocupación por las deudas, ora: 'Señor, Tú eres mi Proveedor. Confío en Tu Código y no en la economía del mundo'. La paz es el primer fruto de la confianza."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Administrando la Abundancia del Reino",
-        "items": [
-          {
-            "punto": "Discierne entre necesidad real y consumismo del mundo.",
-            "ejemplo": "Un maduro no acumula por miedo al futuro, sino que administra con sabiduría para tener siempre con qué bendecir. Tu libertad financiera es para que el Reino avance, no solo para tu lujo personal."
-          },
-          {
-            "punto": "Sé un canal de provisión estratégica para otros.",
-            "ejemplo": "Como el joven de los panes, pon tus recursos en las manos de Jesús para que Él los multiplique y alimente a las multitudes. Identifica proyectos del Reino donde tu siembra provoque un impacto generacional."
-          },
-          {
-            "punto": "Opera desde el reposo de la herencia, no desde el afán del trabajo.",
-            "ejemplo": "Trabaja con excelencia, pero sabiendo que tu esfuerzo es la plataforma y no la fuente. Tu fuente es el Trono. No permitas que el negocio o la profesión secuestren tu paz. Tú no eres lo que produces, eres lo que heredaste por la Gracia."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Esta semana, identifica a alguien en tu entorno que tenga una necesidad (financiera, de tiempo o de aliento). Rompe la lógica de la retención y bendícele 'repartiendo' de lo que tienes, aunque sientas que es poco. Hazlo como un acto de adoración, declarando que Dios es tu Proveedor.",
-    "gamificacion": {
-      "xp_lectura": 230,
-      "logro_id": "corazon-de-siervo"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "viuda-de-sarepta",
-          "nombre": "Viuda de Sarepta",
-          "razon": "Modelo de fe radical que pone la Palabra por encima de la supervivencia.",
-          "simbolismo": "La vasija que nunca se agota porque está conectada a la fuente eterna."
-        },
-        {
-          "id": "el-joven-de-los-panes",
-          "nombre": "El joven de los 5 panes",
-          "razon": "Entregó lo poco que tenía y vio la gloria de la multiplicación.",
-          "paralelismo": "La infancia espiritual que confía sin cálculos matemáticos."
-        },
-        {
-          "id": "elias",
-          "nombre": "Elías",
-          "razon": "Profeta que administró la provisión sobrenatural en tiempo de sequía.",
-          "declaracion": "Mi Dios suplirá todo lo que me falta conforme a Sus riquezas en gloria en Cristo Jesús."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "betsaida",
-          "nombre": "Betsaida",
-          "razon": "Escenario de la multiplicación de los panes y peces.",
-          "declaracion": "En el lugar de mi necesidad, Dios establece Su banquete. Hay más que suficiente para todos."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "confianza-en-la-fuente",
-          "tema": "Provisión y Reposo",
-          "declaracion": "Padre, hoy suelto mi afán. Confío en Tu provisión. Soy un dador alegre y un administrador fiel. Gracias porque en Tu Reino nunca hay sequía. Amén."
-        }
-      ]
-    }
-  },
-  {
     "id": "principios-activan-milagros",
     "activo": true,
     "fecha_programada": "2026-03-27",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Principios que Activan Milagros",
     "subtitulo": "Descubriendo la Ingeniería Espiritual de lo Sobrenatural",
     "autor": "Códice Bíblico",
@@ -5181,174 +3366,10 @@
     }
   },
   {
-    "id": "verdad-liberta",
-    "activo": true,
-    "fecha_programada": "2026-03-25",
-    "tipo": "tematico",
-    "titulo": "La Verdad que Liberta",
-    "subtitulo": "Descubriendo la Realidad del Reino frente a las Sombras de la Esclavitud",
-    "autor": "Códice Bíblico",
-    "fecha_publicacion": "Mayo 2026",
-    "tiempo_lectura": "18 min",
-    "imagen_portada": "../img/estudios/la-verdad-liberta.webp",
-    "tags": [
-      "Verdad",
-      "Libertad",
-      "Palabra de Dios",
-      "Mente de Cristo",
-      "Cristocentrismo"
-    ],
-    "versiculo_clave": {
-      "texto": "Y conoceréis la verdad, y la verdad os hará libres.",
-      "cita": "Juan 8:32"
-    },
-    "contenido": [
-      {
-        "tipo": "seccion_titulo",
-        "texto": "I. El Escenario del Espíritu (Contexto)"
-      },
-      {
-        "tipo": "contexto_historico",
-        "titulo": "La Verdad vs. El Engaño del Sistema Escravista",
-        "texto": "Jesús habla a judíos que creían ser libres por ser descendientes de Abraham, pero eran esclavos del pecado y del sistema religioso. En el mundo antiguo, la libertad (Eleutheria) era un estatus legal preciado. Jesús revela que la peor esclavitud no es física (como bajo el Imperio Romano), sino mental y espiritual. La Verdad no es solo una información correcta, es una Persona que rompe las cadenas invisibles de la mentira y el temor."
-      },
-      {
-        "tipo": "lexico_profundo",
-        "termino": "Aletheia (ἀλήθεια)",
-        "idioma": "Griego",
-        "raiz": "No oculto / Realidad",
-        "significado": "Significa 'quitar el velo' o mostrar la realidad tal como es, sin sombras.",
-        "revelacion": "La Verdad de Dios es la 'Realidad' absoluta. El pecado es una distorsión, una sombra que parece real pero no tiene sustancia eterna. Cuando conoces la Aletheia, dejas de ver a través del velo del enemigo y comienzas a ver tu vida y el mundo desde la perspectiva de Dios. La Verdad no solo te informa, te desata de lo que no es real."
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
-      },
-      {
-        "tipo": "revelacion_atributo",
-        "atributo": "Veracidad e Inmutabilidad",
-        "texto": "Dios es la Verdad. Su atributo de Veracidad significa que Sus promesas son la base más sólida del universo. No hay sombra de variación en Él. Mientras el mundo cambia de 'verdad' según la moda, el Código de Dios permanece. Al abrazar la Verdad, nos anclamos en lo inamovible, lo cual genera una libertad que ninguna circunstancia externa puede robar."
-      },
-      {
-        "tipo": "cristocentrico",
-        "titulo": "Jesucristo: Yo Soy la Verdad",
-        "texto": "Jesús no dijo 'les traigo la verdad', Él dijo 'Yo Soy la Verdad'. Él es el Logos encarnado. La libertad que ofrece Juan 8:32 es en realidad la libertad de estar unidos a Él. En la Cruz, la Verdad venció a la Mentira antigua. Cristo es el Libertador (Eleutheroo) que nos saca de la prisión de la culpabilidad y la ignorancia para llevarnos a la plenitud de la filiación."
-      },
-      {
-        "tipo": "alerta_doctrinal",
-        "titulo": "La Mentira del 'Sincericidio' o la Verdad Relativa",
-        "texto": "Es un error creer que 'tu verdad' es suficiente para libertarte. La libertad no viene de expresar lo que sientes (eso puede ser solo expresión de tu carne), sino de someterte a 'La Verdad' de Dios. Creer en verdades relativas es como intentar navegar con una brújula que siempre marca el sur; nunca llegarás al puerto del diseño original."
-      },
-      {
-        "tipo": "concordancia",
-        "titulo": "La Biblia se Explica a Sí Misma",
-        "referencias": [
-          {
-            "cita": "Salmos 119:160",
-            "explicacion": "📖 \"La suma de tu palabra es verdad, Y eterno es todo juicio de tu justicia.\"<br><br>\n\nREVELACIÓN: Declara que la suma de Tu Palabra es verdad, y eterno es todo juicio de Tu justicia.",
-            "texto": "La suma de tu palabra es verdad, Y eterno es todo juicio de tu justicia."
-          },
-          {
-            "cita": "Gálatas 5:1",
-            "explicacion": "📖 \"Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no estéis otra vez sujetos al yugo de esclavitud.\"<br><br>\n\nREVELACIÓN: Estad pues firmes en la libertad con que Cristo nos hizo libres. Un llamado a la perseverancia en la Verdad.",
-            "texto": "Estad, pues, firmes en la libertad con que Cristo nos hizo libres, y no estéis otra vez sujetos al yugo de esclavitud."
-          },
-          {
-            "cita": "2 Corintios 3:17",
-            "explicacion": "📖 \"Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad.\"<br><br>\n\nREVELACIÓN: Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad.",
-            "texto": "Porque el Señor es el Espíritu; y donde está el Espíritu del Señor, allí hay libertad."
-          }
-        ]
-      },
-      {
-        "tipo": "seccion_titulo",
-        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
-      },
-      {
-        "tipo": "aplicacion_leche",
-        "titulo": "Para el Nuevo Creyente: Rompiendo el Velo",
-        "items": [
-          {
-            "punto": "Identifica las mentiras que has creído sobre ti mismo.",
-            "ejemplo": "Si crees que 'no vales nada', esa es una mentira del enemigo. La Verdad dice que fuiste comprado con sangre real. Sustituye el pensamiento hoy."
-          },
-          {
-            "punto": "Lee la Biblia para 'limpiar' tus ojos.",
-            "ejemplo": "La Palabra es como agua que quita el polvo del mundo. Lee un capítulo diario y pregúntate: '¿Qué Realidad de Dios me está mostrando esto hoy?'."
-          },
-          {
-            "punto": "Confiesa la Verdad en voz alta.",
-            "ejemplo": "Ante un ataque de miedo, no guardes silencio. Di: 'Dios no me ha dado espíritu de cobardía'. La Verdad hablada activa la libertad en el ambiente."
-          }
-        ]
-      },
-      {
-        "tipo": "aplicacion_solida",
-        "titulo": "Para el Maduro: Caminando en Eleutheria",
-        "items": [
-          {
-            "punto": "Discierne las sutilezas del engaño religioso.",
-            "ejemplo": "Un maduro sabe que no todo lo que suena a 'bíblico' es la Verdad del Espíritu. Evalúa cada enseñanza por su fruto de libertad y amor, no solo por la letra fría."
-          },
-          {
-            "punto": "Usa la Verdad como arma de liberación para otros.",
-            "ejemplo": "No solo seas libre tú, ayuda a otros a quitarse el velo. Enseña con paciencia y autoridad, desmantelando los argumentos (logismos) que mantienen a otros en cautiverio mental."
-          },
-          {
-            "punto": "Sostén la Verdad aun cuando sea impopular.",
-            "ejemplo": "La libertad madura no busca la aprobación de los esclavos (el mundo), sino la sonrisa del Padre. Mantente firme en los principios del Reino aunque el sistema intente cancelarte por ello."
-          }
-        ]
-      }
-    ],
-    "desafio_practico": "Identifica hoy una mentira recurrente que el enemigo usa para desanimarte (ej. 'Dios no te escucha'). Toma tu Biblia, busca un versículo que desmienta esa falacia, escríbelo en un papel y decláralo en voz alta cada vez que ese pensamiento ataque tu mente. Reemplaza el susurro de la mentira con el rugido de la Verdad.",
-    "gamificacion": {
-      "xp_lectura": 210,
-      "logro_id": "cadenas-rotas"
-    },
-    "conexiones": {
-      "huellas": [
-        {
-          "id": "mujer-samaritana",
-          "nombre": "Mujer Samaritana",
-          "razon": "Conoció la Verdad de Su Mesías y fue libre de su pasado.",
-          "paralelismo": "La Verdad rompe el ciclo de la sed insaciable."
-        },
-        {
-          "id": "pablo",
-          "nombre": "Apóstol Pablo",
-          "razon": "Pasó de ser esclavo de la Ley a ser liberto en la Gracia.",
-          "simbolismo": "Las escamas cayendo de sus ojos representan la llegada de la Aletheia."
-        },
-        {
-          "id": "pedro",
-          "nombre": "Simón Pedro",
-          "razon": "Libre del miedo al hombre tras recibir la unción de la Verdad.",
-          "declaracion": "La Verdad me hizo pescador de hombres; mi barca ya no es mi cárcel, es mi púlpito."
-        }
-      ],
-      "cronos": [
-        {
-          "id": "pozo-jacob",
-          "nombre": "Sicar",
-          "razon": "Lugar de la revelación de la Verdad al corazón herido.",
-          "declaracion": "En mi pozo de rutina, la Verdad me encontró y me hizo saltar para vida eterna."
-        }
-      ],
-      "aposento": [
-        {
-          "id_oracion": "decreto-de-verdad-total",
-          "tema": "Verdad y Libertad",
-          "declaracion": "Padre, santifícame en Tu Verdad. Tu Palabra es mi única Realidad. Renuncio a toda mentira de escasez o culpa. Soy libre en Cristo Jesús. Amén."
-        }
-      ]
-    }
-  },
-  {
     "id": "ciudadanos-cielo",
     "activo": true,
     "fecha_programada": "2026-03-23",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "Ciudadanos del Cielo",
     "subtitulo": "Viviendo bajo la Jurisdicción del Reino en territorio extranjero",
     "autor": "Códice Bíblico",
@@ -5518,7 +3539,7 @@
     "id": "paradoja-yugo",
     "activo": true,
     "fecha_programada": "2026-03-20",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "La Paradoja del Yugo",
     "subtitulo": "Descubriendo el Reposo en la Sujeción al Diseño de Cristo",
     "autor": "Códice Bíblico",
@@ -5682,7 +3703,7 @@
     "id": "codigo-sacrificio",
     "activo": true,
     "fecha_programada": "2026-03-18",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Código del Sacrificio",
     "subtitulo": "Descubriendo el Diseño Maestro de la Provisión Divina en el Altar",
     "autor": "Códice Bíblico",
@@ -5852,7 +3873,7 @@
     "id": "perfume-invitado",
     "activo": true,
     "fecha_programada": "2026-03-16",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Perfume del Invitado",
     "subtitulo": "Descubriendo la Fragancia de la Gracia frente al Esfuerzo Religioso",
     "autor": "Códice Bíblico",
@@ -6016,7 +4037,7 @@
     "id": "tunica-anillo-misterio-restitucion",
     "activo": true,
     "fecha_programada": "2026-03-13",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "La Túnica y el Anillo",
     "subtitulo": "El Misterio de la Restitución Inmediata de la Identidad de Hijo",
     "autor": "Códice Bíblico",
@@ -6180,7 +4201,7 @@
     "id": "gedeon-guerrero-lagar",
     "activo": true,
     "fecha_programada": "2026-03-11",
-    "tipo": "tematico",
+    "tipo": "sermones",
     "titulo": "El Guerrero en el Lagar",
     "subtitulo": "Descifrando la Identidad del Reino frente al Espejo de la Supervivencia",
     "autor": "Códice Bíblico",
@@ -6336,6 +4357,268 @@
           "id_oracion": "rompiendo-el-miedo",
           "tema": "Valentía y Propósito",
           "declaracion": "Padre, hoy salgo del lagar. Acepto Tu nombre para mí: soy esforzado y valiente. No pelearé con mis fuerzas, sino con Tu Presencia. Amén."
+        }
+      ]
+    }
+  },
+  {
+    "id": "atributos-dios",
+    "titulo": "Los Atributos Incomunicables de Dios",
+    "subtitulo": "Entendiendo la Omnisciencia, Omnipresencia y Omnipotencia.",
+    "autor": "Teología A Imagen",
+    "categoria": "teologia",
+    "nivel": "avanzado",
+    "tiempo_lectura": "12 min",
+    "fecha_publicacion": "2026-02-08",
+    "imagen_portada": "../img/estudios/cover-teologia.jpg",
+    "versiculo_clave": {
+      "cita": "Salmos 139:7-8",
+      "texto": "¿A dónde me iré de tu Espíritu? ¿Y a dónde huiré de tu presencia?"
+    },
+    "tags": [
+      "Teología Sistemática",
+      "Dios",
+      "Doctrina"
+    ],
+    "contenido": [
+      {
+        "tipo": "parrafo",
+        "texto": "Dios no solo es grande, es infinito en todas sus perfecciones. Cuando hablamos de atributos incomunicables, nos referimos a aquellos que Él no comparte con sus criaturas."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "La Aseidad de Dios"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "Dios es auto-existente. No depende de nada ni de nadie para ser."
+      }
+    ],
+    "diccionario": [
+      {
+        "palabra": "Aseidad",
+        "origen": "Latín (a se)",
+        "significado": "Cualidad de existir por sí mismo, sin depender de otra causa."
+      }
+    ],
+    "conexiones": {
+      "cronos": [],
+      "huellas": []
+    },
+    "desafio_practico": "Medita hoy en el Salmo 139 y descansa en el hecho de que Dios lo sabe todo de ti.",
+    "tipo": "sermones"
+  },
+  {
+    "id": "adoracion-espiritu",
+    "titulo": "Adoradores en Espíritu y Verdad",
+    "subtitulo": "¿Busca Dios música o busca corazones rendidos?",
+    "autor": "Teología A Imagen",
+    "categoria": "vida_cristiana",
+    "nivel": "intermedio",
+    "tiempo_lectura": "8 min",
+    "fecha_publicacion": "2026-02-07",
+    "imagen_portada": "../img/estudios/cover-adoracion.jpg",
+    "versiculo_clave": {
+      "cita": "Juan 4:23-24",
+      "texto": "Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad..."
+    },
+    "tags": [
+      "Adoración",
+      "Juan 4",
+      "Espíritu Santo"
+    ],
+    "contenido": [
+      {
+        "tipo": "parrafo",
+        "texto": "A menudo reducimos la adoración a la parte lenta del servicio dominical..."
+      },
+      {
+        "tipo": "subtitulo",
+        "texto": "La Geografía vs. La Teología"
+      },
+      {
+        "tipo": "parrafo",
+        "texto": "La mujer quería ganar un debate teológico sobre lugares sagrados..."
+      }
+    ],
+    "diccionario": [
+      {
+        "palabra": "Proskuneo (προσκυνέω)",
+        "origen": "Griego",
+        "significado": "Besar la mano, postrarse. Denota sumisión total."
+      }
+    ],
+    "conexiones": {
+      "cronos": [
+        {
+          "id": "siquem",
+          "nombre": "Sicar (Pozo de Jacob)"
+        }
+      ],
+      "huellas": [
+        {
+          "id": "samaritana",
+          "nombre": "La Mujer Samaritana"
+        }
+      ]
+    },
+    "desafio_practico": "Esta semana, elige una actividad secular y hazla como acto de adoración.",
+    "tipo": "sermones"
+  },
+  {
+    "id": "desintoxicando-santa-cena-anaxios",
+    "activo": false,
+    "fecha_programada": "2026-05-29",
+    "tipo": "sermones",
+    "titulo": "Desintoxicando la Santa Cena",
+    "subtitulo": "Sermones Filtrados: ¿Quién Califica Realmente para la Mesa del Padre?",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Mayo 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/santa-cena-gracia.webp",
+    "tags": [
+      "Comunión",
+      "Santa Cena",
+      "Legalismo",
+      "Libertad",
+      "Gracia"
+    ],
+    "versiculo_clave": {
+      "texto": "De manera que cualquiera que comiere este pan o bebiere esta copa del Señor indignamente, será culpado del cuerpo y de la sangre del Señor.",
+      "cita": "1 Corintios 11:27"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Epístola Correctiva / Instrucción Litúrgica",
+        "titulo": "Corinto: El Caos de la Desigualdad en la Mesa",
+        "texto": "La iglesia en Corinto era un desastre logístico y moral. Cuando se reunían para la 'Cena del Señor', los ricos llegaban temprano, comían en exceso y se emborrachaban, mientras que los pobres (esclavos y obreros) llegaban tarde y no encontraban nada que comer. La 'indignidad' que Pablo regaña no tiene nada que ver con los pecados privados de los creyentes, sino con el desprecio público hacia el Cuerpo de Cristo (la comunidad). La Santa Cena se había convertido en un reflejo de la exclusión social del mundo, en lugar de ser el anuncio de la unidad del Reino."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Anaxiōs (ἀναξίως)",
+        "idioma": "Griego",
+        "raiz": "A (Sin) + Axios (Valor/Peso)",
+        "significado": "De una manera inapropiada, de forma incorrecta, sin discernimiento.",
+        "revelacion": "Es crucial notar que 'Anaxiōs' es un adverbio (describe la ACCIÓN de comer), no un adjetivo (que describiría a la PERSONA). Pablo no dice que la persona sea 'indigna'; él dice que comen 'indignamente' (de forma desordenada y egoísta). La revelación técnica es liberadora: Nadie es 'digno' de la mesa por mérito propio; todos somos invitados por Gracia. El problema en Corinto no era la falta de santidad individual, sino la falta de discernimiento de que todos en la mesa tienen el mismo peso y valor legal ante Dios."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Amor Inclusivo y Justicia Redentora",
+        "texto": "Dios se revela como el Anfitrión del Banquete. Su atributo de Amor asegura que en Su mesa no hay rangos sociales. La Santa Cena es el recordatorio legal de que la justicia de Dios fue satisfecha en el Cuerpo de Cristo. Vemos a un Dios que invita al quebrado, al que falló y al que no tiene nada, para sentarlos con príncipes bajo la cobertura de la Sangre."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Pan Partido para un Diseño Unido",
+        "texto": "Jesús dijo: 'Haced esto en memoria de mí'. La Santa Cena no es un tribunal para examinar tus pecados (eso se hace en el Altar de la Gracia diariamente); es una celebración de que Cristo ya cargó con ellos. Al participar del pan y del vino, estamos declarando legalmente: 'Estoy en Él, Su deuda es la mía y Su victoria es la mía'. Jesús es el único que nos hace aptos para la mesa. Participar con gozo es el mayor acto de fe en Su obra consumada."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Hilo de la Mesa: Del Sacrificio al Banquete",
+        "descripcion": "Dios usa la comida y la mesa como puntos de contacto legal. Sigue la progresión:",
+        "pasos": [
+          {
+            "concepto": "La Pascua en Egipto",
+            "explicacion": "Una comida de urgencia y protección. Se comía el cordero para recibir la fuerza necesaria para salir de la esclavitud."
+          },
+          {
+            "concepto": "El Maná en el Desierto",
+            "explicacion": "Provisión sobrenatural diaria que enseñaba la dependencia total del diseño del Cielo."
+          },
+          {
+            "concepto": "La Santa Cena",
+            "explicacion": "El diseño de la Nueva Alianza. Ya no es sombra, es la realidad de Cristo habitando en nosotros y nosotros en Él."
+          },
+          {
+            "concepto": "Las Bodas del Cordero",
+            "explicacion": "El diseño final. Apocalipsis 19:9. El banquete eterno donde ya no hay división, solo la plenitud de la comunión con el Padre."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Mesa de la Nueva Alianza",
+        "referencias": [
+          {
+            "cita": "Lucas 22:19-20",
+            "versiculo": "Y tomó el pan y dio gracias, y lo partió y les dio, diciendo: Esto es mi cuerpo, que por vosotros es dado... Esta copa es el nuevo pacto en mi sangre, que por vosotros se derrama.",
+            "revelacion": "Jesús establece la mesa como el punto de contacto legal del Nuevo Pacto; el pan y el vino son los comprobantes del intercambio."
+          },
+          {
+            "cita": "1 Corintios 10:16-17",
+            "versiculo": "La copa de bendición que bendecimos, ¿no es la comunión de la sangre de Cristo? El pan que partimos, ¿no es la comunión del cuerpo de Cristo? Siendo uno solo el pan, nosotros, con ser muchos, somos un cuerpo; pues todos participamos de aquel mismo pan.",
+            "revelacion": "Define la cena no como un rito individual, sino como la activación de la unidad corporativa de la iglesia."
+          },
+          {
+            "cita": "Hechos 2:46",
+            "versiculo": "Y perseverando unánimes cada día en el templo, y partiendo el pan en las casas, comían juntos con alegría y sencillez de corazón.",
+            "revelacion": "Muestra que el diseño original de la mesa era cotidiano y festivo, centrado en la sencillez del corazón y no en el juicio legalista."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Disfrutando la Invitación",
+        "items": [
+          {
+            "punto": "No esperes a ser perfecto para participar.",
+            "ejemplo": "Si hoy te sientes indigno, recuerda que la mesa es un hospital. El pan y el vino son para fortalecer al débil, no para premiar al fuerte. Siéntate y recibe Su Gracia."
+          },
+          {
+            "punto": "Entiende el significado del recordatorio.",
+            "ejemplo": "Comulgar es decir: 'Señor, recuerdo que Tú pagaste mi deuda'. La gratitud es la única actitud correcta ante la mesa."
+          },
+          {
+            "punto": "Reconoce el valor legal del cuerpo.",
+            "ejemplo": "Al comer el pan, estás declarando que Tu cuerpo ahora pertenece a una Jurisdicción diferente. Tu salud y tu paz están garantizadas por el Cuerpo de Cristo que fue partido por ti."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Discerniendo el Cuerpo",
+        "items": [
+          {
+            "punto": "Vigila la unidad en la mesa.",
+            "ejemplo": "Discernir el cuerpo no es solo pensar en el sacrificio físico de Jesús, sino reconocer que tus hermanos son parte de ese mismo cuerpo. No puedes estar en comunión con la Cabeza (Cristo) si estás en guerra con Su cuerpo (la iglesia)."
+          },
+          {
+            "punto": "Ministra la Gracia a los demás.",
+            "ejemplo": "Ayuda a otros a liberarse del miedo legalista a la Santa Cena. Enseña que el adverbio 'indignamente' se refiere al desorden y la falta de amor, no a la imperfección humana que la Gracia ya cubrió."
+          },
+          {
+            "punto": "Honra el diseño de la Mesa del Rey.",
+            "ejemplo": "El maduro entiende que la Santa Cena es una declaración de guerra contra la escasez y la soledad. Es el banquete de los herederos. Vive con la dignidad de quien se sienta a la mesa del Soberano diariamente."
+          }
+        ]
+      }
+    ],
+    "desafio_practico": "La próxima vez que participes en la comunión, no lo hagas con la cabeza baja y llena de culpa. Hazlo con la frente en alto, declarando: 'Tetelestai (Pagado está). Gracias Jesús por hacerme digno de Tu mesa'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El cordero y el anfitrión de la mesa."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "comunion-en-libertad",
+          "tema": "Comunión y Gracia",
+          "declaracion": "Padre, gracias por la Mesa de la Libertad. Renuncio a la mentira de mi propia indignidad. Me acerco confiado porque la Sangre me limpia y el Cuerpo de Cristo me une a mi familia espiritual. Amén."
         }
       ]
     }

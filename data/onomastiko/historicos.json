@@ -1,354 +1,979 @@
 [
-    {
-        "id": "onoma-gedeon-libertador",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#451a03",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/gedeon-campesino.webp",
-            "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
-        },
-        "perfil_card": {
-            "nombre_principal": "Gedeón",
-            "subtitulo_rol": "El Labrador Temeroso",
-            "bio_resumen": "Escondido en un lagar para proteger el trigo, se veía a sí mismo como el menor en la familia más pobre. Necesitó señales para creer que Dios podía usar su debilidad.",
-            "logro_destacado": "Valiente Guerrero en Proceso",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "gedeon", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "gedeon-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "lagar-ofra", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Gid’on",
-                "titulo": "El Libertador de las Antorchas",
-                "avatar": "../img/perfiles/gedeon.webp",
-                "bio": "Con solo 300 hombres, cántaros y trompetas, demostró que la victoria no depende del número, sino de la obediencia al Diseño Divino. Derribó los altares de Baal para restaurar el culto verdadero.",
-                "etymos_id": "gedeon-pneuma-he"
-            }
-        },
-        "datos_identidad": {
-            "original_idioma": "גִּדְעוֹן ➔ יְרֻבַּעַל",
-            "transliteracion": "Gid’on ➔ Yerubbá’al",
-            "significado_core": "Guerrero / Talador ➔ Baal Contienda",
-            "perla_profunda": "Dios no te llama por lo que eres, sino por lo que Él ha depositado en ti. Un 'valiente guerrero' puede estar escondido detrás de un hombre con miedo."
-        },
-        "tags": ["jueces", "valentía", "victoria", "gedeon", "restauración"]
+  {
+    "id": "onoma-gedeon-libertador",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#451a03",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/gedeon.webp",
+      "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
     },
-    {
-        "id": "onoma-sanson-redimido",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#7c2d12",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/sanson-nazareo.webp",
-            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+    "fases": [
+      {
+        "nombre": "Gedeón",
+        "titulo": "El Labrador Temeroso (Estado Humano)",
+        "avatar_url": "img/perfiles/gedeon-campesino.webp",
+        "jurisdiccion": "Llamado desde la Escasez y la Autolimitación",
+        "etymos": {
+          "original": "גִּדְעוֹן",
+          "transliteracion": "Gid’on",
+          "significado_legal": "Guerrero / Talador. Representa el potencial de guerra que aún está dormido bajo el miedo."
         },
-        "perfil_card": {
-            "nombre_principal": "Sansón",
-            "subtitulo_rol": "El Nazareo del Sol",
-            "bio_resumen": "Consagrado desde el vientre, portador de una fuerza sobrenatural ligada a su voto de nazareato. Un juez carismático que luchó solo contra los opresores de su pueblo.",
-            "logro_destacado": "Fuerza Sobrenatural",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "sanson", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "sanson-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "valle-jezreel", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Trigo en el Lagar",
+          "texto": "Gedeón sacudía el trigo en el lagar para esconderlo de los madianitas. El misterio es que el lagar es para uvas (gozo/vino), no para trigo (sustento). Gedeón estaba usando su diseño de forma incorrecta por causa del miedo. Dios no lo llamó por su situación actual, sino por su capacidad de \"talar\" los ídolos de su casa antes de talar al enemigo."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Shimshon",
-                "titulo": "El Héroe Restaurado",
-                "avatar": "../img/perfiles/sanson.webp",
-                "bio": "En su debilidad final encontró su mayor victoria. Al recuperar su comunión con el Diseño Divino, logró más en su muerte que en toda su vida, derribando las columnas del sistema opresor.",
-                "etymos_id": "sanson-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Saliendo del Escondite",
+          "puntos": [
+            {
+              "concepto": "Tu identidad no es tu carencia",
+              "cita": "Jueces 6:12",
+              "ejemplo_real": "Gedeón se sentía el menor en la familia más pobre. Dios lo llamó \"Valiente Guerrero\" antes de que ganara una sola batalla. Deja de definirte por tu saldo bancario o tus errores; Dios te llama por lo que puso en tu ADN."
+            },
+            {
+              "concepto": "Limpia el Altar primero",
+              "cita": "Jueces 6:25",
+              "ejemplo_real": "Antes de liberar a la nación, Gedeón tuvo que derribar el altar de Baal en su propia casa. No busques victorias públicas si aún tienes compromisos privados con el sistema del mundo. El orden comienza en casa."
+            },
+            {
+              "concepto": "Señales de Sintonía",
+              "cita": "Jueces 6:37",
+              "ejemplo_real": "Gedeón pidió señales (el vellón). Dios tiene paciencia con tu proceso de fe mientras estés dispuesto a moverte. No temas preguntar al Padre hasta que tengas la sintonía clara para actuar."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שִׁמְשׁוֹן ➔ שִׁמְשׁוֹן הַנָּזִיר",
-            "transliteracion": "Shimshon ➔ Shimshon HaNazir",
-            "significado_core": "Del Sol / Pequeño Sol ➔ El Nazareo Consagrado",
-            "perla_profunda": "La verdadera fuerza no reside en los músculos, sino en la integridad del pacto que guardas en tu corazón."
+        "eco_de_cristo": "Gedeón es el libertador que desciende de lo más bajo para salvar a muchos; Cristo es el Rey que se humilló hasta lo sumo para darnos la victoria definitiva."
+      },
+      {
+        "nombre": "Jerubaal",
+        "titulo": "El Libertador de las Antorchas (Diseño de Reino)",
+        "avatar_url": "img/perfiles/gedeon.webp",
+        "jurisdiccion": "Estratega de Guerra Espiritual y Restaurador del Culto",
+        "etymos": {
+          "original": "יְרֻבַּעַל",
+          "transliteracion": "Yerubbá’al",
+          "significado_legal": "Baal contienda. El hombre cuya existencia misma desafía legalmente a los ídolos del sistema."
         },
-        "tags": ["jueces", "fuerza", "nazareo", "sanson", "redención"]
-    },
-    {
-        "id": "onoma-noemi-restaurada",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#2d5a27", 
-            "color_acento": "#d4af37",
-            "avatar_url": "../img/perfiles/noemi.webp",
-            "gradiente": "linear-gradient(135deg, #3f6212 0%, #0c0a09 100%)"
+        "misterio_escudrinado": {
+          "titulo": "La Estrategia de los Cántaros",
+          "texto": "Dios redujo el ejército de 32,000 a solo 300. El misterio técnico es que ganaron rompiendo cántaros para que la luz de las antorchas saliera. La revelación sorprendente es que la victoria no fue por fuerza militar, sino por la exposición de la Luz interna. El ruido de los cántaros rotos (nuestra humanidad quebrantada) es lo que aterra a las tinieblas."
         },
-        "perfil_card": {
-            "nombre_principal": "Noemí",
-            "subtitulo_rol": "La Dulzura de Belén",
-            "bio_resumen": "Su nombre significa 'placentera'. Tras años de pérdida en Moab, regresó a su tierra con las manos vacías pero con una fe que prepararía el linaje del Mesías.",
-            "logro_destacado": "Matriarca de Linaje",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "noemi", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "noemi-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "belen-rut", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Mara",
-                "titulo": "El Grito de la Amargura",
-                "avatar": "../img/perfiles/noemi-mara.webp",
-                "bio": "En un momento de profundo dolor, pidió ser llamada Mara. Representa el alma que, abrumada por la pérdida, olvida su diseño original para identificarse con su aflicción.",
-                "etymos_id": "mara-he"
+        "transferencia_codigo": {
+          "titulo": "Gobernando por Selección Divina",
+          "puntos": [
+            {
+              "concepto": "La Prueba del Agua",
+              "cita": "Jueces 7:5",
+              "ejemplo_real": "Dios eligió a los que lamieron el agua como perros, manteniendo la mirada en el frente. El maduro es aquel que sabe suplir sus necesidades (beber) sin perder de vista la sintonía de la batalla espiritual."
+            },
+            {
+              "concepto": "Menos es Más en el Reino",
+              "cita": "Jueces 7:2",
+              "ejemplo_real": "Dios quitó gente para que Israel no se jactara. A veces Dios cerrará puertas o quitará apoyos humanos para que aprendas que tu victoria depende exclusivamente de Su Diseño y no de tu logística."
+            },
+            {
+              "concepto": "El Arma de la Luz Expuesta",
+              "cita": "Jueces 7:20",
+              "ejemplo_real": "Cuando tu cántaro (tu vida personal) es probado y se rompe, no te quejes; permite que la antorcha del Espíritu brille a través de la grieta. Tu testimonio en medio del dolor es tu arma más poderosa contra el caos."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "נָעֳמִי ➔ מָרָא",
-            "transliteracion": "Na'omiy ➔ Mará",
-            "significado_core": "Dulzura ➔ Amargura",
-            "perla_profunda": "No permitas que una temporada amarga le cambie el nombre a tu propósito eterno. Eres Noemí, incluso cuando te sientes Mara."
-        },
-        "tags": ["rut", "belen", "noemi", "mara", "restauración"]
+        "eco_de_cristo": "Las antorchas dentro de los cántaros prefiguran el tesoro del Espíritu Santo habitando en nuestras vasijas de barro (2 Corintios 4:7)."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "gedeon-guerrero-lagar",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "lagar-ofra",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "jueces",
+      "valentía",
+      "victoria"
+    ]
+  },
+  {
+    "id": "onoma-sanson-redimido",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#7c2d12",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/sanson-nazareo.webp",
+      "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
     },
-    {
-        "id": "onoma-samuel-vidente",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1e293b",
-            "color_acento": "#94a3b8",
-            "avatar_url": "../img/perfiles/samuel-niño.webp",
-            "gradiente": "linear-gradient(135deg, #0f172a 0%, #334155 100%)"
+    "fases": [
+      {
+        "nombre": "Sansón",
+        "titulo": "El Nazareo del Sol (Potencial)",
+        "avatar_url": "img/perfiles/sanson-nazareo.webp",
+        "jurisdiccion": "Juez y Portador de la Fuerza del Pacto",
+        "etymos": {
+          "original": "שִׁמְשׁוֹן",
+          "transliteracion": "Shimshon",
+          "significado_legal": "Del Sol / El que brilla con la luz de la justicia delegada."
         },
-        "perfil_card": {
-            "nombre_principal": "Samuel",
-            "subtitulo_rol": "El Hijo de la Oración",
-            "bio_resumen": "Entregado al servicio del Templo desde niño. Aprendió a distinguir la voz del Diseño Divino en medio del silencio, convirtiéndose en el oído de una nación que había olvidado escuchar.",
-            "logro_destacado": "Profeta del Despertar",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "samuel", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "samuel-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "silo", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Secreto del Nazareato",
+          "texto": "La fuerza de Sansón no estaba en su cabello como objeto mágico, sino en su cabello como SEÑAL legal de su consagración (Nazireo). Al cortarse el cabello, no perdió fuerza muscular, perdió su cobertura legal. Sansón representa al hombre que tiene el poder de Dios pero que desprecia los protocolos de santidad necesarios para mantenerlo."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Shemu'el",
-                "titulo": "El Instaurador de Reyes",
-                "avatar": "../img/perfiles/samuel.webp",
-                "bio": "El último de los Jueces y el primero de los grandes Profetas. Con el cuerno de aceite en su mano, ungió el destino de Israel, guiando la transición hacia el orden real con integridad intachable.",
-                "etymos_id": "samuel-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Custodiando la Cobertura",
+          "puntos": [
+            {
+              "concepto": "No compartas el secreto con Dalila",
+              "cita": "Jueces 16:17",
+              "ejemplo_real": "Dalila representa el sistema del mundo que intenta seducirte para que reveles tu debilidad y pierdas tu unción. Protege tus momentos íntimos con Dios; no todo el mundo merece conocer la fuente de tu fuerza."
+            },
+            {
+              "concepto": "El peligro del carisma sin carácter",
+              "cita": "Jueces 14:1-3",
+              "ejemplo_real": "Sansón tenía un don enorme pero un carácter indisciplinado. Puedes ser muy talentoso en tu trabajo, pero si no tienes dominio propio, tu mismo talento te llevará a la ruina. El diseño requiere integridad."
+            },
+            {
+              "concepto": "Fuerza en la Soledad",
+              "cita": "Jueces 15:15",
+              "ejemplo_real": "Sansón peleaba solo con una quijada de asno. No esperes a tener el equipo perfecto o las herramientas de lujo para avanzar. Si Dios te dio la unción, lo que tienes en la mano hoy es suficiente para vencer a mil."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שְׁמוּאֵל ➔ שְׁמוּאֵל הַחֹזֶה",
-            "transliteracion": "Shemu'el ➔ Shemu'el HaChozéh",
-            "significado_core": "Escuchado por Dios ➔ Samuel el Vidente",
-            "perla_profunda": "La autoridad para hablar en nombre de Dios nace de la disposición absoluta a escucharle en lo secreto."
+        "eco_de_cristo": "Sansón fue entregado por los suyos a los enemigos; Cristo fue entregado por Judas a los romanos. Sansón estiró sus brazos para morir y destruir al enemigo; Jesús estiró Sus brazos en la cruz para destruir el pecado."
+      },
+      {
+        "nombre": "Shimshon",
+        "titulo": "El Héroe Restaurado (Final)",
+        "avatar_url": "img/perfiles/sanson.webp",
+        "jurisdiccion": "Intercesor en el Quebrantamiento Final",
+        "etymos": {
+          "original": "שִׁמְשׁוֹן הַנָּזִיר",
+          "transliteracion": "Shimshon HaNazir",
+          "significado_legal": "El Nazareo Restaurado. La recuperación de la luz a través del dolor."
         },
-        "tags": ["profeta", "jueces", "unción", "samuel", "vidente"]
-    },
-    {
-        "id": "onoma-saul-primer-rey",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#422006",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/saul-joven.webp",
-            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+        "misterio_escudrinado": {
+          "titulo": "El Crecimiento en la Oscuridad",
+          "texto": "Ciego y encadenado, el cabello de Sansón comenzó a crecer de nuevo. El misterio es que en su humillación total, Sansón dejó de confiar en su apariencia y empezó a depender del ruego. Su última victoria fue mayor que todas las anteriores porque no nació de su orgullo, sino de su sintonía final con el propósito de Dios de juzgar al sistema idólatra."
         },
-        "perfil_card": {
-            "nombre_principal": "Saúl",
-            "subtitulo_rol": "El Elegido del Pueblo",
-            "bio_resumen": "Un joven de la tribu de Benjamín, notable por su estatura y humildad inicial. Fue ungido mientras buscaba las asnas perdidas de su padre, encontrando en su lugar el peso de una corona.",
-            "logro_destacado": "Primer Rey de Israel",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "saul", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "saul-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "valle-ela", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Sha'ul",
-                "titulo": "El Monarca Atormentado",
-                "avatar": "../img/perfiles/saul.webp",
-                "bio": "Su reinado estuvo marcado por la lucha entre la obediencia y la aprobación pública. Al apartarse del Diseño Divino, su paz fue reemplazada por la melancolía, sirviendo como advertencia sobre el peligro del orgullo.",
-                "etymos_id": "saul-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Resurgiendo de las Cenizas",
+          "puntos": [
+            {
+              "concepto": "La Gracia de una segunda oportunidad",
+              "cita": "Jueces 16:22",
+              "ejemplo_real": "Si hoy te sientes \"ciego\" y \"atado\" por errores pasados, recuerda que el diseño de Dios en ti puede volver a crecer. El arrepentimiento técnico reconecta tu frecuencia con el Trono instantáneamente."
+            },
+            {
+              "concepto": "Derribar las columnas del sistema",
+              "cita": "Jueces 16:30",
+              "ejemplo_real": "A veces Dios usa tus peores momentos para derribar las fortalezas de orgullo en tu entorno. No temas el quebrantamiento; es el preludio de un impacto que cambiará el rumbo de tu generación."
+            },
+            {
+              "concepto": "El Poder del Último Aliento",
+              "cita": "Jueces 16:28",
+              "ejemplo_real": "Sansón pidió fuerza una vez más. Nunca es tarde para clamar. Tu mayor contribución al Reino puede ocurrir en tu etapa de mayor madurez o incluso en medio de tu debilidad física."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שָׁאוּל ➔ שָׁאוּל הַמֶּלֶךְ",
-            "transliteracion": "Sha'ul ➔ Sha'ul HaMélej",
-            "significado_core": "Deseado / Pedido ➔ El Rey Pedido",
-            "perla_profunda": "No basta con ser llamado y ungido; la verdadera realeza consiste en mantener el corazón sometido a la Voz que te dio la corona."
-        },
-        "tags": ["rey", "monarquía", "saul", "benjamin", "caída"]
+        "eco_de_cristo": "Sansón recuperó su fuerza para cumplir su misión final en la muerte; Jesús entregó Su vida voluntariamente para cumplir la misión eterna de redención."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "sanson",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "valle-jezreel",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "jueces",
+      "fuerza",
+      "redención"
+    ]
+  },
+  {
+    "id": "onoma-noemi-restaurada",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#2d5a27",
+      "color_acento": "#d4af37",
+      "avatar_url": "img/perfiles/noemi.webp",
+      "gradiente": "linear-gradient(135deg, #3f6212 0%, #0c0a09 100%)"
     },
-    {
+    "fases": [
+      {
+        "nombre": "Noemí",
+        "titulo": "La Dulzura de Belén (Diseño Original)",
+        "avatar_url": "img/perfiles/noemi.webp",
+        "jurisdiccion": "Matriarca de Linaje y Custodia de la Herencia",
+        "etymos": {
+          "original": "נָעֳמִי",
+          "transliteracion": "Na'omiy",
+          "significado_legal": "Placentera / Dulce / Aquella que refleja la bondad del Diseño Divino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Éxodo a Moab",
+          "texto": "Noemí salió de Belén (Casa del Pan) por causa de un hambre física. El misterio es que al intentar salvar su pan físico, perdió su familia. Noemí representa al alma que en tiempos de crisis huye del lugar de la promesa, buscando soluciones en territorios sin Dios (Moab)."
+        },
+        "transferencia_codigo": {
+          "titulo": "Regresando a la Casa del Pan",
+          "puntos": [
+            {
+              "concepto": "El valor de quedarse en Belén",
+              "cita": "Rut 1:1",
+              "ejemplo_real": "Cuando las cosas se pongan difíciles en tu propósito, no huyas a \"Moab\" (soluciones rápidas o dudosas). A veces el hambre en el lugar de la bendición es una prueba de sintonía; si te quedas, el Maná volverá."
+            },
+            {
+              "concepto": "Influencia por el Carácter",
+              "cita": "Rut 1:16",
+              "ejemplo_real": "Rut se quedó con Noemí no por sus riquezas (no tenía nada), sino por su esencia. Tu mayor legado no es el dinero que dejes, sino la huella que dejas en el corazón de quienes te ven caminar con Dios."
+            },
+            {
+              "concepto": "Reconocer que Dios visitó a Su pueblo",
+              "cita": "Rut 1:6",
+              "ejemplo_real": "Noemí decidió volver cuando oyó que Dios había dado pan. Mantente atento a las noticias del Reino; cuando Dios abra una puerta de bendición en tu comunidad, muévete rápido hacia la Luz."
+            }
+          ]
+        },
+        "eco_de_cristo": "Noemí es la madre que prepara el camino para que Rut encuentre a Booz; ella prefigura la labor del Espíritu Santo que nos guía al encuentro con nuestro Redentor (Cristo)."
+      },
+      {
+        "nombre": "Mara",
+        "titulo": "El Grito de la Amargura (Estado de Crisis)",
+        "avatar_url": "img/perfiles/noemi-mara.webp",
+        "jurisdiccion": "Alma Procesada por el Quebrantamiento",
+        "etymos": {
+          "original": "מָרָא",
+          "transliteracion": "Mará",
+          "significado_legal": "Amargura / El estado de un diseño que se siente abandonado por la Gracia."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Cambio de Nombre por Dolor",
+          "texto": "Al volver a Belén, ella dijo: \"No me llaméis Noemí, llamadme Mara\". El misterio es que ella intentó anular su diseño original por causa de sus circunstancias temporales. Dios nunca la llamó Mara; Belén la seguía viendo como Noemí. La revelación es que tu dolor no tiene autoridad legal para cambiar el nombre que Dios te dio antes de la fundación del mundo."
+        },
+        "transferencia_codigo": {
+          "titulo": "Venciendo la Amargura",
+          "puntos": [
+            {
+              "concepto": "No te identifiques con tu aflicción",
+              "cita": "Rut 1:20",
+              "ejemplo_real": "Si has perdido algo valioso, no digas \"mi vida es un desastre\". Eso es llamarte Mara. Mantén tu nombre de diseño (Noemí) aunque hoy la temporada sea amarga. Lo amargo es la medicina, no tu identidad."
+            },
+            {
+              "concepto": "Dios no es tu Auditor",
+              "cita": "Rut 1:21",
+              "ejemplo_real": "Noemí creía que Dios estaba contra ella. Deja de ver a Dios como un juez que busca castigarte por cada error. Él usó la amargura de Moab para traerte de vuelta a la plenitud de Belén."
+            },
+            {
+              "concepto": "El Gozo de la Restauración Final",
+              "cita": "Rut 4:14-17",
+              "ejemplo_real": "Al final, las mujeres decían: \"Noemí tiene un hijo\". Tu historia no termina en Mara; termina con un nieto (Obed) en tus brazos que será parte del linaje del Mesías. Dios siempre tiene un capítulo final de gloria."
+            }
+          ]
+        },
+        "eco_de_cristo": "Mara representa el cáliz de amargura que Cristo bebió por nosotros para que nosotros nunca tuviéramos que ser definidos por nuestra miseria."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "noemi",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "mara-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "belen-rut",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "rut",
+      "restauración",
+      "noemi"
+    ]
+  },
+  {
+    "id": "onoma-samuel-vidente",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e293b",
+      "color_acento": "#94a3b8",
+      "avatar_url": "img/perfiles/samuel-niño.webp",
+      "gradiente": "linear-gradient(135deg, #0f172a 0%, #334155 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Samuel",
+        "titulo": "El Hijo de la Oración (Infancia)",
+        "avatar_url": "img/perfiles/samuel-niño.webp",
+        "jurisdiccion": "Oído Interno y Consagración Temprana",
+        "etymos": {
+          "original": "שְׁמוּאֵל",
+          "transliteracion": "Shemu'el",
+          "significado_legal": "Escuchado por Dios / Nombre de Dios. El rastro de un diseño que nace de la intercesión."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Voz en la Noche",
+          "texto": "Dios llamó a Samuel tres veces y él pensó que era el sacerdote Elí. El misterio técnico es que en ese tiempo \"la palabra de Jehová escaseaba\". Samuel representa al oído virgen que debe ser entrenado para distinguir la frecuencia del Cielo en medio de una religión sorda. Su respuesta \"Habla, porque tu siervo oye\" es el código de acceso a la revelación."
+        },
+        "transferencia_codigo": {
+          "titulo": "Calibrando el Oído",
+          "puntos": [
+            {
+              "concepto": "Dormir cerca del Arca",
+              "cita": "1 Samuel 3:3",
+              "ejemplo_real": "Samuel dormía en el Templo. Si quieres oír la voz de Dios, posiciónate cerca de Su presencia (Estudio, Oración, Silencio). No esperes revelaciones profundas si vives en el ruido del sistema."
+            },
+            {
+              "concepto": "Confundir la Voz con el hombre",
+              "cita": "1 Samuel 3:5",
+              "ejemplo_real": "A veces Dios te habla a través de una circunstancia o una persona y tú piensas que es solo \"un humano\" hablando. Aprende a filtrar los mensajes; si el mensaje te llama al diseño, es la Voz de arriba."
+            },
+            {
+              "concepto": "La Obediencia de un niño",
+              "cita": "1 Samuel 3:10",
+              "ejemplo_real": "No necesitas ser un teólogo experto para que Dios te hable. La sintonía depende de un corazón enseñable y humilde. Dile hoy al Padre: \"Estoy listo para oírte, enséñame\"."
+            }
+          ]
+        },
+        "eco_de_cristo": "Samuel es el niño que sirve en la casa de Dios, prefigurando a Jesús que a los 12 años estaba en los negocios de Su Padre en el Templo."
+      },
+      {
+        "nombre": "Shemu'el",
+        "titulo": "El Instaurador de Reyes (Madurez)",
+        "avatar_url": "img/perfiles/samuel.webp",
+        "jurisdiccion": "Profeta de Transición y Juez de Integridad",
+        "etymos": {
+          "original": "שְׁמוּאֵל הַחֹזֶה",
+          "transliteracion": "Shemu'el HaChozéh",
+          "significado_legal": "Samuel el Vidente. Aquel cuya palabra nunca cae a tierra por su sintonía legal."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Cuerno de Aceite",
+          "texto": "Samuel ungió a Saúl y a David. Lo sorprendente es que sus palabras no eran sugerencias, eran decretos técnicos. El misterio es que Dios no dejó caer a tierra ninguna de sus palabras porque Samuel nunca habló desde su propia opinión, sino desde la frecuencia exacta del Reino. Samuel es el puente entre el caos de los Jueces y el orden de los Reyes."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando con Integridad",
+          "puntos": [
+            {
+              "concepto": "No dejar caer las palabras",
+              "cita": "1 Samuel 3:19",
+              "ejemplo_real": "Sé una persona de palabra. Si dices que vas a hacer algo, hazlo. En el Reino, tu autoridad legal está ligada a tu coherencia. Si cuidas tus palabras, Dios respaldará tus decretos."
+            },
+            {
+              "concepto": "Ungir el futuro de otros",
+              "cita": "1 Samuel 16:13",
+              "ejemplo_real": "Samuel tuvo la generosidad de ungir a David aunque eso significara el fin de su propia era como Juez. Un maduro sabe reconocer y activar el potencial en los más jóvenes. No compitas con la nueva generación; úngela."
+            },
+            {
+              "concepto": "Integridad intachable",
+              "cita": "1 Samuel 12:3-4",
+              "ejemplo_real": "Al final de su carrera, Samuel desafió a la nación a que le acusaran de algún robo o fraude. Vive de tal manera que nadie pueda señalar un rastro de corrupción en tu gestión. La transparencia es la armadura del vidente."
+            }
+          ]
+        },
+        "eco_de_cristo": "Samuel es el Profeta, Sacerdote y Juez; Cristo es la suma total de estos tres oficios en Su Majestad eterna."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "samuel",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "silo",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "profeta",
+      "jueces",
+      "samuel"
+    ]
+  },
+  {
+    "id": "onoma-saul-primer-rey",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#422006",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/saul-joven.webp",
+      "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Saúl",
+        "titulo": "El Elegido del Pueblo (Inicio)",
+        "avatar_url": "img/perfiles/saul-joven.webp",
+        "jurisdiccion": "Primer Rey de Israel y Guerrero de Benjamín",
+        "etymos": {
+          "original": "שָׁאוּל",
+          "transliteracion": "Sha'ul",
+          "significado_legal": "Deseado / Pedido. El hombre que el pueblo pidió para parecerse a las naciones."
+        },
+        "misterio_escudrinado": {
+          "titulo": "Buscando Asnas, Hallando Realeza",
+          "texto": "Saúl fue ungido mientras buscaba las asnas perdidas de su padre. El misterio es que Dios usa las tareas más ordinarias y los \"fracasos\" aparentes (no encontrar las asnas) para posicionar a Sus elegidos. Lo sorprendente es que Saúl empezó siendo pequeño a sus propios ojos, escondido entre el bagaje, demostrando que la humildad inicial es el requisito para la unción real."
+        },
+        "transferencia_codigo": {
+          "titulo": "Administrando el Llamado",
+          "puntos": [
+            {
+              "concepto": "Fidelidad en lo pequeño",
+              "cita": "1 Samuel 9:3",
+              "ejemplo_real": "Si hoy te toca hacer un trabajo que parece insignificante (como buscar asnas), hazlo con diligencia. Dios está observando tu fidelidad en lo cotidiano antes de entregarte el gobierno de una nación."
+            },
+            {
+              "concepto": "No te escondas en el bagaje",
+              "cita": "1 Samuel 10:22",
+              "ejemplo_real": "A veces el miedo al éxito o a la responsabilidad te hace querer esconderte. Cuando Dios te llame a liderar, asume tu posición con valentía. Tu diseño es más grande que tu timidez."
+            },
+            {
+              "concepto": "El cambio de corazón",
+              "cita": "1 Samuel 10:9",
+              "ejemplo_real": "Dios le dio a Saúl \"otro corazón\". La unción de Dios viene acompañada de una nueva capacidad mental y emocional. Confía en que Dios te capacitará internamente para lo que te ha llamado externamente."
+            }
+          ]
+        },
+        "eco_de_cristo": "Saúl es el rey que el pueblo pidió; Cristo es el Rey que Dios prometió. Saúl representa la monarquía humana fallida que apunta a la necesidad de un Rey Divino (Jesús)."
+      },
+      {
+        "nombre": "Sha'ul",
+        "titulo": "El Monarca Atormentado (Caída)",
+        "avatar_url": "img/perfiles/saul.webp",
+        "jurisdiccion": "Jurisdicción bajo el Control del Orgullo",
+        "etymos": {
+          "original": "שָׁאוּל הַמֶּלֶךְ",
+          "transliteracion": "Sha'ul HaMélej",
+          "significado_legal": "El Rey Pedido. Representa el gobierno operando bajo la presión de la aprobación humana."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Lanza Contra el Arpa",
+          "texto": "Saúl intentó matar a David con una lanza mientras David tocaba el arpa. El misterio técnico es que Saúl perdió su sintonía con el Espíritu y se volvió sensible a un \"espíritu malo\". Su lanza representa el esfuerzo carnal por mantener el poder; el arpa representa la sintonía que Saúl ya no podía alcanzar. El misterio es que no puedes retener por la fuerza lo que solo se sostiene por obediencia."
+        },
+        "transferencia_codigo": {
+          "titulo": "Vigilando el Corazón Real",
+          "puntos": [
+            {
+              "concepto": "El peligro de la impaciencia",
+              "cita": "1 Samuel 13:13",
+              "ejemplo_real": "Saúl no esperó a Samuel y ofreció el sacrificio él mismo. Nunca apresures los tiempos de Dios por miedo a la opinión de los demás. Forzar un resultado espiritual mediante métodos carnales anula tu derecho legal al trono."
+            },
+            {
+              "concepto": "Obediencia vs Sacrificio",
+              "cita": "1 Samuel 15:22",
+              "ejemplo_real": "Saúl pensó que las ofrendas compensarían su desobediencia parcial. Dios prefiere tu sintonía con Su voz antes que tus grandes donaciones o ritos religiosos. La obediencia es la única moneda válida en el Reino."
+            },
+            {
+              "concepto": "Cuidar la salud mental espiritual",
+              "cita": "1 Samuel 16:14",
+              "ejemplo_real": "La envidia hacia David abrió una brecha en la mente de Saúl. Si permites que la comparación y la amargura entren en tu corazón, perderás tu paz. Mantén tu mente blindada con la Verdad para que el enemigo no tenga acceso a tus emociones."
+            }
+          ]
+        },
+        "eco_de_cristo": "Saúl persiguió a David injustamente; el sistema religioso persiguió a Jesús injustamente. Saúl es el recordatorio de que la realeza sin Espíritu es solo una tiranía vacía."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "saul",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "valle-ela",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "rey",
+      "caída",
+      "saul"
+    ]
+  },
+  {
+    "id": "onoma-david-rey",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e3a8a",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/david-pastor.webp",
+      "gradiente": "linear-gradient(135deg, #172554 0%, #0b0f19 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "David",
+        "titulo": "El Pastor de Belén (Preparación)",
+        "avatar_url": "img/perfiles/david-pastor.webp",
+        "jurisdiccion": "Custodio de Rebaños e Intimidad en el Campo",
+        "etymos": {
+          "original": "דָּוִד",
+          "transliteracion": "Dawíd",
+          "significado_legal": "Amado. El rastro de un diseño que opera desde el afecto del Padre."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Unción en el Olvido",
+          "texto": "Cuando Samuel fue a ungir al nuevo rey, el propio padre de David lo olvidó en el campo. El misterio es que Dios elige lo que el hombre desprecia. Lo sorprendente es que David ya había matado al león y al oso en secreto antes de enfrentar a Goliat en público. La revelación es: **Tu victoria privada es el contrato legal para tu éxito público.**"
+        },
+        "transferencia_codigo": {
+          "titulo": "Entrenando en lo Secreto",
+          "puntos": [
+            {
+              "concepto": "Fidelidad cuando nadie ve",
+              "cita": "1 Samuel 17:34",
+              "ejemplo_real": "David cuidaba un par de ovejas con su vida. Si hoy haces un trabajo donde no recibes aplausos, hazlo como si estuvieras ante el Gran Rey. Tu entrenamiento para el \"trono\" ocurre hoy en tu \"campo de ovejas\"."
+            },
+            {
+              "concepto": "El arma de la sintonía",
+              "cita": "1 Samuel 16:23",
+              "ejemplo_real": "David tocaba el arpa y los demonios huían. Tu mayor talento no es para tu lucimiento, es una herramienta de guerra espiritual para traer paz a tu entorno. Usa tu don para alterar atmósferas."
+            },
+            {
+              "concepto": "Vencer por identidad, no por equipo",
+              "cita": "1 Samuel 17:39",
+              "ejemplo_real": "David rechazó la armadura de Saúl porque no le pertenecía. No intentes usar los métodos de otros para ganar tus batallas. Tu victoria vendrá usando tu honda y tus piedras (tus recursos de diseño), no imitando a los expertos del mundo."
+            }
+          ]
+        },
+        "eco_de_cristo": "David es el pastor que está dispuesto a morir por sus ovejas, prefigurando al Buen Pastor (Jesús) que dio Su vida por nosotros."
+      },
+      {
+        "nombre": "Dawid",
+        "titulo": "El Ungido de Israel (Gobierno)",
+        "avatar_url": "img/perfiles/david.webp",
+        "jurisdiccion": "Rey sobre Sión y Establecedor del Trono de Justicia",
+        "etymos": {
+          "original": "דָּוִד הַמֶּלֶךְ",
+          "transliteracion": "Dawíd HaMélej",
+          "significado_legal": "El Rey Amado. El portador del Pacto Davídico que garantiza un trono eterno."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Tabernáculo de David",
+          "texto": "David no reconstruyó el Tabernáculo de Moisés con sus velos y divisiones; él puso el Arca en una tienda abierta en Sión. El misterio técnico es que David operó bajo una \"Gracia Anticipada\", permitiendo el acceso directo a la presencia de Dios mediante la alabanza. Este rastro es tan potente que Dios prometió en Amós 9 restaurar el Tabernáculo de David, no el de Moisés."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando en Sintonía Real",
+          "puntos": [
+            {
+              "concepto": "El valor del arrepentimiento técnico",
+              "cita": "Salmo 51",
+              "ejemplo_real": "David falló gravemente, pero no huyó de Dios (como Saúl); corrió hacia el Altar. Un maduro sabe que su justicia no es perfecta, pero su Redentor sí. El arrepentimiento sincero restaura tu jurisdicción de inmediato."
+            },
+            {
+              "concepto": "Consultar el Efod",
+              "cita": "1 Samuel 30:8",
+              "ejemplo_real": "David nunca iba a la batalla sin preguntar: \"¿Iré?\". Antes de tomar una decisión financiera o familiar importante, consulta el \"Efod\" (la Palabra y el Espíritu). La victoria técnica requiere permiso legal de arriba."
+            },
+            {
+              "concepto": "Preparar el legado del Templo",
+              "cita": "1 Crónicas 22:5",
+              "ejemplo_real": "David no construyó el Templo, pero recolectó todos los materiales para su hijo Salomón. Tu éxito no se mide solo por lo que tú logras, sino por cuánto facilitas el camino para que los que vienen detrás de ti lleguen más lejos."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús es llamado el \"Hijo de David\". Cristo es el cumplimiento del Pacto Davídico, el Rey eterno que reina desde la Sión celestial sobre todas las naciones."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "david",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "jerusalen-sion",
+        "tooltip": "Cronos"
+      },
+      {
+        "tipo": "rutas",
         "id": "onoma-david-rey",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1e3a8a",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/david-pastor.webp",
-            "gradiente": "linear-gradient(135deg, #172554 0%, #0b0f19 100%)"
-        },
-        "perfil_card": {
-            "nombre_principal": "David",
-            "subtitulo_rol": "El Pastor de Belén",
-            "bio_resumen": "El menor de sus hermanos, un joven músico y valiente defensor de su rebaño. Su fuerza no venía de su apariencia, sino de su íntima confianza en el Pastor de Israel.",
-            "logro_destacado": "Vencedor de Gigantes",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "david-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "jerusalen-sion", "tooltip": "Cronos" },
-                { "tipo": "rutas", "id": "onoma-david-rey", "tooltip": "Trayectoria" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Dawid",
-                "titulo": "El Ungido de Israel",
-                "avatar": "../img/perfiles/david.webp",
-                "bio": "El monarca que unificó a las tribus y estableció a Jerusalén como el centro del Diseño Divino. Un guerrero-poeta cuya mayor corona fue su arrepentimiento y su búsqueda del corazón de Dios.",
-                "etymos_id": "david-pneuma-he"
-            }
-        },
-        "datos_identidad": {
-            "original_idioma": "דָּוִד ➔ דָּוִד הַמֶּלֶךְ",
-            "transliteracion": "Dawíd ➔ Dawíd HaMélej",
-            "significado_core": "Amado ➔ El Rey Amado",
-            "perla_profunda": "Dios no mira lo que mira el hombre; el hombre mira la apariencia, pero el Diseño Divino mira el corazón."
-        },
-        "tags": ["realeza", "salmos", "jerusalén", "david", "linaje"]
+        "tooltip": "Viajes"
+      }
+    ],
+    "tags": [
+      "realeza",
+      "salmos",
+      "david"
+    ]
+  },
+  {
+    "id": "onoma-salomon-sabiduria",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#92400e",
+      "color_acento": "#fcd34d",
+      "avatar_url": "img/perfiles/salomon-joven.webp",
+      "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
     },
-    {
-        "id": "onoma-salomon-sabiduria",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#92400e",
-            "color_acento": "#fcd34d",
-            "avatar_url": "../img/perfiles/salomon-joven.webp",
-            "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
+    "fases": [
+      {
+        "nombre": "Salomón",
+        "titulo": "El Heredero de la Paz (Inicio)",
+        "avatar_url": "img/perfiles/salomon-joven.webp",
+        "jurisdiccion": "Gobernante del Periodo de Reposo en Israel",
+        "etymos": {
+          "original": "שְׁלֹמֹה",
+          "transliteracion": "Shelomó",
+          "significado_legal": "Su Paz / Hombre de Paz. El diseño que opera cuando la guerra ha cesado."
         },
-        "perfil_card": {
-            "nombre_principal": "Salomón",
-            "subtitulo_rol": "El Heredero de la Paz",
-            "bio_resumen": "Hijo de David, elegido para consolidar el reino. En lugar de pedir riquezas o victorias militares, pidió un corazón entendido para discernir entre el bien y el mal.",
-            "logro_destacado": "Corazón Entendido",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "salomon", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "salomon-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "monte-moriah", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Sueño en Gabaón",
+          "texto": "Dios le dijo: \"Pídeme lo que quieras\". El misterio es que Salomón no pidió armas ni dinero, pidió \"un corazón que oye\" (Lev Shomea) para juzgar al pueblo. La revelación sorprendente es que la sabiduría bíblica no es acumular datos, es la capacidad de oír la frecuencia del Cielo para poner orden en la tierra. Al pedir sintonía, todo lo demás le fue añadido por añadidura legal."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Shelomó",
-                "titulo": "El Arquitecto de la Gloria",
-                "avatar": "../img/perfiles/salomon.webp",
-                "bio": "Bajo su mando, Israel alcanzó su cénit. Constructor del Templo de Jerusalén y autor de miles de proverbios. Su sabiduría atrajo a las naciones, convirtiéndose en un faro del Diseño Divino en la tierra.",
-                "etymos_id": "salomon-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Activando el Corazón Entendido",
+          "puntos": [
+            {
+              "concepto": "Priorizar la sintonía sobre la riqueza",
+              "cita": "1 Reyes 3:9",
+              "ejemplo_real": "Si tienes que elegir entre un mejor sueldo y una posición que te dé más paz y tiempo con Dios, elige la sintonía. La sabiduría de Salomón enseña que la riqueza real es el resultado de un corazón alineado."
+            },
+            {
+              "concepto": "Discernir entre dos madres",
+              "cita": "1 Reyes 3:27",
+              "ejemplo_real": "Salomón supo quién era la madre real porque ella prefería perder al hijo antes que verlo muerto. Aprende a discernir la verdad por la motivación del corazón: el amor siempre busca preservar el diseño, el ego busca tener la razón."
+            },
+            {
+              "concepto": "El valor del reposo",
+              "cita": "1 Reyes 4:24-25",
+              "ejemplo_real": "Bajo Salomón, cada hombre vivía bajo su parra. Tu éxito real se nota cuando eres capaz de generar un ambiente de paz para los que te rodean. Si tu éxito genera estrés y conflicto, no es la sabiduría de Salomón."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שְׁלֹמֹה ➔ יְדִידְיָהּ",
-            "transliteracion": "Shelomó ➔ Yedidyáh",
-            "significado_core": "Paz / Su Paz ➔ Amado de YHWH",
-            "perla_profunda": "La verdadera sabiduría no es acumular datos, sino alinear el corazón con la frecuencia de la paz divina para gobernar con justicia."
+        "eco_de_cristo": "Salomón es el hijo de David que construye el Templo; Cristo es el Hijo de Dios que construye Su Iglesia, el Templo vivo del Espíritu."
+      },
+      {
+        "nombre": "Yedidyáh",
+        "titulo": "El Arquitecto de la Gloria (Madurez)",
+        "avatar_url": "img/perfiles/salomon.webp",
+        "jurisdiccion": "Revelador de Sabiduría Universal y Constructor de Sión",
+        "etymos": {
+          "original": "יְדִידְיָהּ",
+          "transliteracion": "Yedidyáh",
+          "significado_legal": "Amado de YHWH. El nombre secreto dado por el profeta que revela su verdadera esencia ante Dios."
         },
-        "tags": ["sabiduría", "templo", "paz", "salomón", "realeza"]
+        "misterio_escudrinado": {
+          "titulo": "El Código del 666 y la Decadencia",
+          "texto": "1 Reyes 10:14 dice que el peso del oro que venía a Salomón cada año era de 666 talentos. El misterio técnico es que este número indica que Salomón empezó a confiar en el sistema económico del hombre en lugar del sistema de la Gracia. Su caída no fue solo por las mujeres, sino por romper los perímetros legales que Dios puso para los reyes (no multiplicar oro ni caballos). Salomón es la advertencia de que la sabiduría técnica sin un corazón rendido puede convertirse en una prisión dorada."
+        },
+        "transferencia_codigo": {
+          "titulo": "Guardando el Corazón de Rey",
+          "puntos": [
+            {
+              "concepto": "Perímetros de Seguridad",
+              "cita": "Deuteronomio 17:16-17",
+              "ejemplo_real": "Salomón ignoró las advertencias legales de Dios sobre el dinero y el poder. Aunque seas muy sabio, nunca pienses que estás por encima de los principios básicos de la Biblia. Las reglas de Dios son para proteger Tu unción, no para limitarla."
+            },
+            {
+              "concepto": "El Todo del Hombre",
+              "cita": "Eclesiastés 12:13",
+              "ejemplo_real": "Después de probarlo todo, Salomón concluyó: \"Teme a Dios y guarda Sus mandamientos\". No pierdas años buscando satisfacción en el placer o el trabajo excesivo; la plenitud técnica solo se encuentra en la sintonía con el Creador."
+            },
+            {
+              "concepto": "Influencia que atrae naciones",
+              "cita": "1 Reyes 10:1",
+              "ejemplo_real": "La Reina de Saba viajó desde lejos para oír a Salomón. Cuando operas en tu diseño, no necesitas hacer publicidad; la calidad de tu sabiduría atraerá orgánicamente las oportunidades y las personas correctas."
+            }
+          ]
+        },
+        "eco_de_cristo": "Mateo 12:42 dice: \"He aquí más que Salomón en este lugar\". Jesús es la Sabiduría encarnada, el Amado del Padre que nunca se apartó del Diseño."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "salomon",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "monte-moriah",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "sabiduría",
+      "templo",
+      "salomón"
+    ]
+  },
+  {
+    "id": "onoma-elias-fuego",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#451a03",
+      "color_acento": "#ea580c",
+      "avatar_url": "img/perfiles/elias-tesbita.webp",
+      "gradiente": "linear-gradient(135deg, #7c2d12 0%, #0c0a09 100%)"
     },
-    {
-        "id": "onoma-elias-fuego",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#451a03",
-            "color_acento": "#ea580c",
-            "avatar_url": "../img/perfiles/elias-tesbita.webp",
-            "gradiente": "linear-gradient(135deg, #7c2d12 0%, #0c0a09 100%)"
+    "fases": [
+      {
+        "nombre": "Elías",
+        "titulo": "El Profeta del Fuego (Confrontación)",
+        "avatar_url": "img/perfiles/elias-tesbita.webp",
+        "jurisdiccion": "Restaurador del Altar y Guerrero contra la Idolatría",
+        "etymos": {
+          "original": "אֵלִיָּהוּ",
+          "transliteracion": "Eliyahu",
+          "significado_legal": "Mi Dios es YHWH. Un decreto viviente de exclusividad espiritual."
         },
-        "perfil_card": {
-            "nombre_principal": "Elías",
-            "subtitulo_rol": "El Profeta del Fuego",
-            "bio_resumen": "Un hombre de pasiones semejantes a las nuestras, pero con una autoridad espiritual que cerró los cielos. Confrontó a los profetas de Baal en el Carmelo, restaurando el altar del Diseño Divino.",
-            "logro_destacado": "Restaurador del Altar",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "elias", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "elias-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "monte-carmelo", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Altar de 12 Piedras",
+          "texto": "En el monte Carmelo, Elías reparó el altar de Jehová que estaba arruinado. El misterio es que usó 12 piedras, representando la unidad técnica de las tribus de Israel en un tiempo de división nacional. Lo sorprendente es que el fuego no descendió hasta que el altar fue restaurado bajo el diseño correcto. La revelación es: **El fuego de Dios no cae sobre estructuras humanas, cae sobre el Diseño Original restaurado.**"
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Eliyahu",
-                "titulo": "El que Asciende en Torbellino",
-                "avatar": "../img/perfiles/elias.webp",
-                "bio": "Su ministerio no terminó con la muerte, sino con una traslación. Dejó su manto a Eliseo como símbolo de una doble porción de autoridad, ascendiendo en un carro de fuego hacia la presencia eterna.",
-                "etymos_id": "elias-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Restaurando tu Altar Personal",
+          "puntos": [
+            {
+              "concepto": "Reparar antes de pedir fuego",
+              "cita": "1 Reyes 18:30",
+              "ejemplo_real": "Si sientes que tu vida espiritual está \"apagada\", no pidas más emoción; revisa si tu altar (tu tiempo con Dios, tu integridad) está en ruinas. El fuego de la pasión espiritual es una consecuencia del orden estructural."
+            },
+            {
+              "concepto": "No cojear entre dos pensamientos",
+              "cita": "1 Reyes 18:21",
+              "ejemplo_real": "Elías confrontó al pueblo por su indecisión. Deja de intentar estar bien con Dios y con el sistema del mundo al mismo tiempo. La sintonía real requiere una definición total de Tu lealtad."
+            },
+            {
+              "concepto": "El valor de la oración técnica",
+              "cita": "Santiago 5:17-18",
+              "ejemplo_real": "Elías era humano como tú, pero oró y el cielo se cerró. La oración no es pedir deseos; es activar decretos legales basados en la Palabra. Si sabes lo que Dios quiere, aprópiate de ello en oración y verás resultados físicos."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "אֵלִיָּהוּ ➔ אֵלִיָּהוּ הַנָּבִיא",
-            "transliteracion": "Eliyahu ➔ Eliyahu HaNaví",
-            "significado_core": "Mi Dios es YHWH ➔ Elías el Profeta",
-            "perla_profunda": "No es el fuego que desciende lo que define al profeta, sino el silbo apacible que le enseña a reconocer la voz de Dios en la soledad."
+        "eco_de_cristo": "Elías preparó el camino para el retorno del pueblo a Dios; Juan el Bautista (operando en el espíritu de Elías) preparó el camino para el Mesías."
+      },
+      {
+        "nombre": "Eliyahu",
+        "titulo": "El que Asciende en Torbellino (Final)",
+        "avatar_url": "img/perfiles/elias.webp",
+        "jurisdiccion": "Portador del Manto Generacional y Profeta de la Eternidad",
+        "etymos": {
+          "original": "אֵלִיָּהוּ הַנָּבִיא",
+          "transliteracion": "Eliyahu HaNaví",
+          "significado_legal": "Elías el Profeta. El rastro de un ministerio que trasciende la muerte física."
         },
-        "tags": ["profeta", "fuego", "elias", "reforma", "traslación"]
+        "misterio_escudrinado": {
+          "titulo": "El Silbo Apacible en Horeb",
+          "texto": "Después de la gran victoria, Elías huyó por miedo a Jezabel y se escondió en una cueva. Dios no estaba en el viento fuerte, ni en el terremoto, ni en el fuego; estaba en un \"silbo apacible\" (Qol Demamah Daqqah). El misterio sorprendente es que Dios desarmó el trauma de Elías no con más poder, sino con una frecuencia de paz extrema. La verdadera autoridad no siempre grita; a veces susurra en la soledad."
+        },
+        "transferencia_codigo": {
+          "titulo": "Transicionando a la Doble Porción",
+          "puntos": [
+            {
+              "concepto": "Vencer la depresión ministerial",
+              "cita": "1 Reyes 19:4-5",
+              "ejemplo_real": "Incluso los más grandes pueden sentirse cansados y querer rendirse. Dios te dice hoy: \"Levántate y come\". Recibe el sustento de la Gracia y no te juzgues por tus momentos de debilidad; son paradas técnicas para un nuevo nivel de gloria."
+            },
+            {
+              "concepto": "El Manto de la Sucesión",
+              "cita": "2 Reyes 2:13",
+              "ejemplo_real": "Elías dejó caer su manto para Eliseo. Tu éxito final es que alguien más recoja tu rastro y lo lleve al doble. No te aferres a tu posición; prepárate para ser un padre espiritual que empodera a la siguiente generación."
+            },
+            {
+              "concepto": "La Traslación de la Vida",
+              "cita": "2 Reyes 2:11",
+              "ejemplo_real": "Elías no vio muerte. Su vida fue absorbida por la frecuencia del Cielo. Vive de tal manera que tu transición de este mundo no sea una derrota, sino un ascenso natural hacia lo que siempre has amado y servido."
+            }
+          ]
+        },
+        "eco_de_cristo": "Elías aparece con Moisés en el monte de la transfiguración hablando con Jesús. Él representa a los profetas que testifican de la gloria del Salvador."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "elias",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "monte-carmelo",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "profeta",
+      "fuego",
+      "elias"
+    ]
+  },
+  {
+    "id": "onoma-ester-salvacion",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "historicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#4a044e",
+      "color_acento": "#f472b6",
+      "avatar_url": "img/perfiles/ester-doncella.webp",
+      "gradiente": "linear-gradient(135deg, #701a75 0%, #0c0a09 100%)"
     },
-    {
-        "id": "onoma-ester-salvacion",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "historicos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#4a044e",
-            "color_acento": "#f472b6",
-            "avatar_url": "../img/perfiles/ester-doncella.webp",
-            "gradiente": "linear-gradient(135deg, #701a75 0%, #0c0a09 100%)"
+    "fases": [
+      {
+        "nombre": "Hadassah",
+        "titulo": "La Huérfana de Susa (Identidad Oculta)",
+        "avatar_url": "img/perfiles/hadassah.webp",
+        "jurisdiccion": "Custodia de la Belleza y la Inocencia en el Exilio",
+        "etymos": {
+          "original": "הֲדַסָּה",
+          "transliteracion": "Hadassáh",
+          "significado_legal": "Mirto. Una planta que desprende su fragancia solo cuando es triturada o golpeada."
         },
-        "perfil_card": {
-            "nombre_principal": "Ester",
-            "subtitulo_rol": "La Huérfana de Susa",
-            "bio_resumen": "Nacida como Hadassah, vivió bajo el cuidado de su primo Mardoqueo en el exilio persa. Su belleza y gracia la llevaron al palacio, pero su verdadera identidad permaneció oculta hasta el momento crítico.",
-            "logro_destacado": "Belleza con Propósito",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "ester", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "hadassah-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "susa-palacio", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Misterio del Silencio",
+          "texto": "Hadassah vivió en el palacio persa ocultando su origen judío por orden de Mardoqueo. El misterio técnico es que el nombre de Dios no aparece en todo el libro de Ester. Lo sorprendente es que el silencio de Dios no significa Su ausencia. Hadassah representa el diseño de la Providencia: Dios trabajando en las sombras, en los detalles de un concurso de belleza y en los protocolos de un palacio pagano para preservar la simiente del Mesías."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Esther",
-                "titulo": "La Reina del Destino",
-                "avatar": "../img/perfiles/ester.webp",
-                "bio": "Entendió que su posición no era para su gloria personal, sino para un tiempo como este. Con ayuno y valentía, se presentó ante el rey desafiando la muerte para salvar a su pueblo del exterminio.",
-                "etymos_id": "ester-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Operando en el Silencio Divino",
+          "puntos": [
+            {
+              "concepto": "La fragancia en la presión",
+              "cita": "Ester 2:7",
+              "ejemplo_real": "Como el mirto (Hadassah), tu mejor fragancia espiritual saldrá cuando te sientas presionado o en un ambiente extraño. No te quejes de la soledad en el \"palacio\" del mundo; Dios está extrayendo Tu esencia más pura."
+            },
+            {
+              "concepto": "Obediencia a la paternidad espiritual",
+              "cita": "Ester 2:10",
+              "ejemplo_real": "Hadassah obedeció a Mardoqueo incluso cuando era reina. Nunca pierdas la capacidad de ser guiado por quienes Dios puso como tus autoridades espirituales. La sumisión es la armadura que protege tu ascenso."
+            },
+            {
+              "concepto": "Belleza con diseño",
+              "cita": "Ester 2:15",
+              "ejemplo_real": "Hadassah no pidió nada extra para presentarse ante el rey; se conformó con lo que el encargado sugería. No busques adornos externos o trucos humanos para abrirte paso; tu diseño y tu gracia natural son suficientes para captar la atención del Rey."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "הֲדַסָּה ➔ אֶסְתֵּר",
-            "transliteracion": "Hadassáh ➔ Estér",
-            "significado_core": "Mirto ➔ Estrella / Oculto",
-            "perla_profunda": "A veces, Dios te posiciona en lugares de privilegio no para que te sientas cómodo, sino para que seas el puente de salvación para otros."
+        "eco_de_cristo": "Hadassah representa a la Iglesia en el mundo: humilde, aparentemente huérfana, pero con una identidad real oculta que será revelada en el momento del juicio."
+      },
+      {
+        "nombre:": "Ester",
+        "titulo": "La Reina del Destino (Manifestación)",
+        "avatar_url": "img/perfiles/ester.webp",
+        "jurisdiccion": "Intercesora de Protocolo y Destructora de Decretos de Muerte",
+        "etymos": {
+          "original": "אֶסְתֵּר",
+          "transliteracion": "Estér",
+          "significado_legal": "Estrella / Lo que está oculto y sale a la luz. Representa el brillo que guía en la noche del exilio."
         },
-        "tags": ["reina", "valentía", "exilio", "ester", "providencia"]
-    }
+        "misterio_escudrinado": {
+          "titulo": "El Protocolo del Cetro de Oro",
+          "texto": "Entrar ante el Rey Asuero sin invitación era sentencia de muerte automática, a menos que él extendiera su cetro. El misterio es que Ester arriesgó su vida legal para salvar a su pueblo. La revelación sorprendente es que ella usó el ayuno y el protocolo correcto para forzar un cambio en la ley persa. Ester es el rastro de la Intercesora que entiende que el favor de Dios no es para comodidad personal, sino para una asignación de rescate."
+        },
+        "transferencia_codigo": {
+          "titulo": "Intercediendo ante el Trono",
+          "puntos": [
+            {
+              "concepto": "Para un tiempo como este",
+              "cita": "Ester 4:14",
+              "ejemplo_real": "Tu posición actual (tu dinero, tu cargo, tu influencia) no es casualidad. Dios te puso allí para \"esta hora\". No uses tu privilegio solo para ti; úsalo para defender la Verdad y ayudar a los que no tienen voz."
+            },
+            {
+              "concepto": "Si perezco, que perezca",
+              "cita": "Ester 4:16",
+              "ejemplo_real": "Hay momentos donde debes arriesgar tu seguridad personal por obediencia a Dios. La verdadera valentía es hacer lo correcto a pesar del miedo. Al rendir tu vida legalmente, activas la protección soberana del Cielo."
+            },
+            {
+              "concepto": "Preparar el Banquete de Sabiduría",
+              "cita": "Ester 5:4",
+              "ejemplo_real": "Ester no gritó su queja; invitó al rey a un banquete. Aprende a usar la estrategia y la cortesía para exponer las mentiras del enemigo. El maduro no pelea con ira, pelea con la elegancia y la inteligencia del Espíritu."
+            }
+          ]
+        },
+        "eco_de_cristo": "Ester intercedió ante el rey arriesgando su vida; Jesús intercedió ante el Padre entregando Su vida. Cristo es el verdadero Mardoqueo que nos viste de lino fino y la verdadera Ester que nos da el banquete de la victoria."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "ester",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "hadassah-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "susa-palacio",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "reina",
+      "valentía",
+      "ester"
+    ]
+  }
 ]

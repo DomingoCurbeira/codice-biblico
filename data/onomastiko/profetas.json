@@ -1,383 +1,866 @@
 [
-   {
-        "id": "onoma-isaias-heraldo",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#451a03",
-            "color_acento": "#ef4444",
-            "avatar_url": "../img/perfiles/isaias-llamado.webp",
-            "gradiente": "linear-gradient(135deg, #7c2d12 0%, #000000 100%)"
-        },
-        "perfil_card": {
-            "nombre_principal": "Isaías",
-            "subtitulo_rol": "El Profeta de la Redención",
-            "bio_resumen": "Sacerdote y consejero real que recibió una visión del Trono de Dios que cambió su vida. Su mensaje une la justicia divina con la esperanza más gloriosa del Mesías venidero.",
-            "logro_destacado": "Heraldo del Mesías",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "isaias", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "isaias-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Yeshayahu",
-                "titulo": "Labios de Fuego",
-                "avatar": "../img/perfiles/isaias.webp",
-                "bio": "Tras ser purificado por el carbón encendido del altar, su identidad fue sellada. 'Heme aquí, envíame a mí'. Se convirtió en la voz que anunció el diseño eterno del Emmanuel.",
-                "etymos_id": "yeshayahu-pneuma-he"
-            }
-        },
-        "datos_identidad": {
-            "original_idioma": "יְשַׁעְיָהוּ",
-            "transliteracion": "Yeshayahu",
-            "significado_core": "Yahweh es Salvación",
-            "perla_profunda": "Tu pasado no te descalifica para el diseño de Dios; un solo toque de Su fuego purifica tus labios para anunciar Su gloria."
-        }
+  {
+    "id": "onoma-isaias-heraldo",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#451a03",
+      "color_acento": "#ef4444",
+      "avatar_url": "img/perfiles/isaias-llamado.webp",
+      "gradiente": "linear-gradient(135deg, #7c2d12 0%, #000000 100%)"
     },
-    {
-        "id": "onoma-daniel-sabio",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1e293b",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/daniel-babilonia.webp",
-            "gradiente": "linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%)"
+    "fases": [
+      {
+        "nombre": "Isaías",
+        "titulo": "El Consejero Real (Religión)",
+        "avatar_url": "img/perfiles/isaias-llamado.webp",
+        "jurisdiccion": "Diplomacia y Teología en la Corte de Judá",
+        "etymos": {
+          "original": "יְשַׁעְיָהוּ",
+          "transliteracion": "Yeshayahu",
+          "significado_legal": "YHVH es Salvación. El nombre que porta el decreto del rescate soberano."
         },
-        "perfil_card": {
-            "nombre_principal": "Daniel",
-            "subtitulo_rol": "El Revelador de Misterios",
-            "bio_resumen": "Un joven cautivo en Babilonia que se negó a contaminarse. Su integridad lo llevó de las cortes imperiales a recibir las visiones más detalladas sobre el fin de los tiempos.",
-            "logro_destacado": "Intérprete de Visiones",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "daniel", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "daniel-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "babilonia", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "La Visión del Templo",
+          "texto": "Isaías servía en la corte del rey Uzías. El misterio es que su llamado real no ocurrió hasta que el rey murió. Lo sorprendente es que Isaías vio al Señor sentado en un trono alto y sublime, y los bordes de Su manto llenaban el templo. El misterio técnico es que ante la santidad de Dios, el hombre descubre su propia impureza legal: \"¡Ay de mí que soy muerto!\". Isaías representa al alma que descubre que sus títulos terrenales no sirven ante la Gloria del Trono."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Daniyyel",
-                "titulo": "El Vidente del Altísimo",
-                "avatar": "../img/perfiles/daniel.webp",
-                "bio": "En la madurez, su identidad se funde con el diseño apocalíptico. Vio al Anciano de Días y al Hijo del Hombre, recibiendo las llaves para entender el tiempo del fin.",
-                "etymos_id": "raz-he"
+        "transferencia_codigo": {
+          "titulo": "Sintonizando con el Trono",
+          "puntos": [
+            {
+              "concepto": "El fin de los reinados humanos",
+              "cita": "Isaías 6:1",
+              "ejemplo_real": "A veces Dios permite que una \"seguridad\" en tu vida se acabe (un trabajo, una relación, un líder) para que finalmente puedas verlo a Él en Su trono. No temas al fin de un ciclo; es el escenario para tu mayor visitación."
+            },
+            {
+              "concepto": "Reconocimiento de la Impureza",
+              "cita": "Isaías 6:5",
+              "ejemplo_real": "Isaías dijo ser \"limpio de labios\". Sé honesto con Dios sobre tus fallos de carácter. La transparencia ante el Trono es el requisito legal para recibir la purificación."
+            },
+            {
+              "concepto": "El Carbón Encendido",
+              "cita": "Isaías 6:6-7",
+              "ejemplo_real": "Un serafín tocó sus labios con un carbón del altar. Dios no usa métodos suaves para purificar el propósito. El proceso puede ser doloroso, pero es lo que quita tu iniquidad y activa Tu voz de Reino."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "דָּנִיֵּאל",
-            "transliteracion": "Daniyyel",
-            "significado_core": "Dios es mi Juez",
-            "perla_profunda": "Tu integridad en lo secreto determina tu autoridad en lo público y tu acceso a los misterios de Dios."
-        }
+        "eco_de_cristo": "Isaías vio la Gloria de Cristo y habló de Él (Juan 12:41)."
+      },
+      {
+        "nombre": "Yeshayahu",
+        "titulo": "Labios de Fuego (Revelación)",
+        "avatar_url": "img/perfiles/isaias.webp",
+        "jurisdiccion": "Heraldo del Mesías y Revelador del Diseño del Siervo Sufriente",
+        "etymos": {
+          "original": "יְשַׁעְיָהוּ",
+          "transliteracion": "Yeshayahu",
+          "significado_legal": "YHVH es Salvación. El diseño que anuncia el fin del cautiverio legal de la humanidad."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Emmanuel",
+          "texto": "Isaías recibió la revelación más nítida del Mesías: \"He aquí una virgen concebirá... y llamará su nombre Emmanuel\". Lo sorprendente es que Isaías trazó el mapa exacto del sacrificio en el capítulo 53. El misterio técnico es que un hombre del Antiguo Pacto pudo ver el intercambio legal de la cruz con 700 años de anticipación. Su voz es el puente entre la Ley y la manifestación de la Gracia."
+        },
+        "transferencia_codigo": {
+          "titulo": "Caminando en la Nueva Frecuencia",
+          "puntos": [
+            {
+              "concepto": "Responder al Heme Aquí",
+              "cita": "Isaías 6:8",
+              "ejemplo_real": "Una vez purificado, Isaías no pidió detalles, solo dijo: \"Envíame a mí\". No esperes a tener todas las respuestas para obedecer a Dios. Tu disposición es el combustible del diseño."
+            },
+            {
+              "concepto": "Anunciar la Redención",
+              "cita": "Isaías 40:1-2",
+              "ejemplo_real": "Isaías recibió la orden de \"consolad a mi pueblo\". Tu llamado es hablar palabras de esperanza y libertad a los que sufren. No seas un profeta de calamidad; sé un heraldo de la Gracia restauradora."
+            },
+            {
+              "concepto": "Confiar en el Retoño",
+              "cita": "Isaías 11:1",
+              "ejemplo_real": "Isaías vio un retoño salir de un tronco seco. Aunque hoy veas tu situación como un \"tronco cortado\", hay vida divina en la raíz. Confía en que el Diseño de Dios tiene el poder de rebrotar incluso en lo que parece muerto."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús leyó el libro de Isaías en la sinagoga para inaugurar Su ministerio (Lucas 4:18)."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "isaias",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "yeshayahu-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "acueducto-acaz",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "redención",
+      "isaias",
+      "mesías"
+    ]
+  },
+  {
+    "id": "onoma-daniel-sabio",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e293b",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/daniel-babilonia.webp",
+      "gradiente": "linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%)"
     },
-    {
-        "id": "onoma-jeremias-columna",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#292524",
-            "color_acento": "#94a3b8",
-            "avatar_url": "../img/perfiles/jeremias-joven.webp",
-            "gradiente": "linear-gradient(135deg, #1c1917 0%, #44403c 100%)"
+    "fases": [
+      {
+        "nombre": "Daniel",
+        "titulo": "El Revelador de Misterios (Integridad)",
+        "avatar_url": "img/perfiles/daniel-babilonia.webp",
+        "jurisdiccion": "Gobernador de Babilonia y Guardián del Altar Secreto",
+        "etymos": {
+          "original": "דָּנִיֵּאל",
+          "transliteracion": "Daniyyel",
+          "significado_legal": "Dios es mi Juez. Representa la soberanía de la verdad divina sobre los tribunales humanos."
         },
-        "perfil_card": {
-            "nombre_principal": "Jeremías",
-            "subtitulo_rol": "El Profeta de las Naciones",
-            "bio_resumen": "Llamado desde antes de nacer, Jeremías enfrentó la soledad y el rechazo para anunciar la verdad a un pueblo endurecido. Su vida es el testimonio de que la sensibilidad no es debilidad cuando Dios te sostiene.",
-            "logro_destacado": "Profeta del Nuevo Pacto",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "jeremias", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "jeremias-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "La Dieta del Reino",
+          "texto": "Daniel se propuso en su corazón no contaminarse con la comida del rey. El misterio es que su inteligencia no era el resultado de sus estudios, sino de su sintonía alimentaria espiritual. Al rechazar la mesa de Babilonia, mantuvo su \"hardware\" mental libre de la interferencia del sistema. Lo sorprendente es que resultó 10 veces mejor que todos los sabios del imperio. El misterio técnico es que la pureza en lo secreto activa una capacidad cerebral superior."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Yirmeyahu",
-                "titulo": "Columna de Hierro",
-                "avatar": "../img/perfiles/jeremias.webp",
-                "bio": "Aunque su corazón sufría, el diseño de Dios lo convirtió en una 'ciudad fortificada'. El fuego de la palabra en sus huesos lo sostuvo frente a reyes y ejércitos, anunciando la esperanza del Pacto Eterno.",
-                "etymos_id": "yirmeyahu-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Gobernando en Territorio Enemigo",
+          "puntos": [
+            {
+              "concepto": "No contaminar el altar",
+              "cita": "Daniel 1:8",
+              "ejemplo_real": "Habrá momentos en tu trabajo donde se te pida comprometer tu integridad para \"encajar\". No cedas. Tu valor real nace de tu distinción. Sé impecable en tus principios y el Cielo te dará las soluciones que nadie más tiene."
+            },
+            {
+              "concepto": "Dependencia de la Revelación",
+              "cita": "Daniel 2:22",
+              "ejemplo_real": "Cuando enfrentes un problema imposible, no te angusties. Haz como Daniel: reúne a tus socios de fe y pide misericordia al Dios que revela lo profundo. La respuesta técnica vendrá por sintonía, no por esfuerzo intelectual."
+            },
+            {
+              "concepto": "Consistencia en la oración",
+              "cita": "Daniel 6:10",
+              "ejemplo_real": "Daniel oraba tres veces al día con las ventanas abiertas. Mantén tu disciplina espiritual a pesar de las amenazas externas. Tu hábito secreto es lo que sostiene tu influencia pública."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "יִרְמְיָהוּ",
-            "transliteracion": "Yirmeyahu",
-            "significado_core": "Yahweh Exalta / Yahweh Establece",
-            "perla_profunda": "Dios no llama a los capacitados, Él capacita a los que ha diseñado desde el vientre para ser Su voz."
-        }
+        "eco_de_cristo": "Daniel en el foso de los leones prefigura a Jesús en la tumba; ambos salieron ilesos por la justicia de Dios."
+      },
+      {
+        "nombre": "Daniyyel",
+        "titulo": "El Vidente del Altísimo (Eternidad)",
+        "avatar_url": "img/perfiles/daniel.webp",
+        "jurisdiccion": "Profeta Apocalíptico y Revelador de los Tiempos Finales",
+        "etymos": {
+          "original": "דָּנִיֵּאל",
+          "transliteracion": "Daniyyel",
+          "significado_legal": "Aquel que ve bajo la frecuencia del Anciano de Días."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Tiempo",
+          "texto": "Daniel recibió la profecía de las 70 semanas. El misterio es que se le ordenó \"cerrar las palabras y sellar el libro hasta el tiempo del fin\". Lo sorprendente es que Daniel vio al Hijo del Hombre viniendo en las nubes siglos antes de la encarnación. Su misterio técnico es la capacidad de operar fuera de la línea del tiempo lineal, percibiendo los decretos eternos del Reino Inconmovible. Daniel es el rastro del hombre que gobierna la tierra porque su mente habita en la eternidad."
+        },
+        "transferencia_codigo": {
+          "titulo": "Viviendo en la Visión del Fin",
+          "puntos": [
+            {
+              "concepto": "Identidad en el Reino Eterno",
+              "cita": "Daniel 7:14",
+              "ejemplo_real": "No te dejes intimidar por las crisis políticas o económicas. Como Daniel, debes saber que todos los reinos humanos son temporales. Tu seguridad está anclada en el Reino de Cristo que nunca será destruido."
+            },
+            {
+              "concepto": "Ser un hombre muy amado",
+              "cita": "Daniel 10:11",
+              "ejemplo_real": "El ángel llamó a Daniel \"varón muy amado\". La mayor unción nace del afecto del Padre. Cuando sabes que eres amado, tienes la estabilidad para recibir las revelaciones más pesadas sin quebrarte."
+            },
+            {
+              "concepto": "Brillar como las estrellas",
+              "cita": "Daniel 12:3",
+              "ejemplo_real": "Tu misión final es enseñar la justicia a muchos. El maduro es aquel que usa su sabiduría para guiar a otros hacia el diseño de Dios. Vive de tal manera que tu vida sea un faro en la oscuridad del sistema."
+            }
+          ]
+        },
+        "eco_de_cristo": "Daniel vio al \"Hijo del Hombre\", el título favorito de Jesús para Sí mismo."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "daniel-inteligencia-profetica",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "raz-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "babilonia",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "sabio",
+      "babilonia",
+      "daniel"
+    ]
+  },
+  {
+    "id": "onoma-jeremias-columna",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#292524",
+      "color_acento": "#94a3b8",
+      "avatar_url": "img/perfiles/jeremias-joven.webp",
+      "gradiente": "linear-gradient(135deg, #1c1917 0%, #44403c 100%)"
     },
-    {
-        "id": "onoma-ezequiel-visionario",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#0f172a",
-            "color_acento": "#38bdf8",
-            "avatar_url": "../img/perfiles/ezequiel-exilio.webp",
-            "gradiente": "linear-gradient(135deg, #1e293b 0%, #000000 100%)"
+    "fases": [
+      {
+        "nombre": "Jeremías",
+        "titulo": "El Profeta de las Naciones (Llamado)",
+        "avatar_url": "img/perfiles/jeremias-joven.webp",
+        "jurisdiccion": "Voz de Advertencia y Centinela de la Identidad de Israel",
+        "etymos": {
+          "original": "יִרְמְיָהוּ",
+          "transliteracion": "Yirmeyahu",
+          "significado_legal": "YHVH Exalta / YHVH Establece. El rastro de un diseño que nace del decreto soberano antes del tiempo."
         },
-        "perfil_card": {
-            "nombre_principal": "Ezequiel",
-            "subtitulo_rol": "El Profeta de la Gloria",
-            "bio_resumen": "Un sacerdote llevado al exilio que vio los cielos abrirse. Su ministerio está lleno de visiones complejas y actos proféticos que revelan la santidad de Dios y la promesa de un nuevo corazón.",
-            "logro_destacado": "Vigía de Israel",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "ezequiel", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "ezequiel-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "babilonia", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Diseño antes del Hardware",
+          "texto": "Dios le dijo: \"Antes que te formase en el vientre te conocí\". El misterio técnico es que la identidad de Jeremías ya estaba configurada en el software divino antes de que su cuerpo físico existiera. Lo sorprendente es que Dios le prohibió casarse como un acto profético. Jeremías representa al hombre que debe encarnar el mensaje con su propia vida privada, siendo el espejo del dolor de Dios por el extravío de Su pueblo."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Yejezquel",
-                "titulo": "El Rostro del Querubín",
-                "avatar": "../img/perfiles/ezequiel.webp",
-                "bio": "Al ver la carroza de fuego de Dios, su identidad fue absorbida por la Gloria. Se convirtió en el vigía que anuncia la restauración de los huesos secos y el descenso del nuevo Templo.",
-                "etymos_id": "kavod-he"
+        "transferencia_codigo": {
+          "titulo": "Viviendo por Diseño",
+          "puntos": [
+            {
+              "concepto": "No decir \"soy un niño\"",
+              "cita": "Jeremías 1:7",
+              "ejemplo_real": "Deja de usar tus limitaciones (falta de experiencia, edad, timidez) como excusa para no obedecer a Dios. Si Él te dio la instrucción, Él ya cargó la capacidad técnica en tu sistema. Asume tu rango."
+            },
+            {
+              "concepto": "Identificar la vara de almendro",
+              "cita": "Jeremías 1:11",
+              "ejemplo_real": "Dios le preguntó: \"¿Qué ves?\". Aprende a observar la realidad con ojos de Reino. La sabiduría consiste en ver el propósito de Dios donde otros solo ven circunstancias comunes."
+            },
+            {
+              "concepto": "La soledad del propósito",
+              "cita": "Jeremías 15:17",
+              "ejemplo_real": "A veces el diseño te obligará a caminar solo o a ser incomprendido por tu entorno. No busques la validación de la multitud; busca la sintonía del que te conoció antes de nacer."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "יְחֶזְקֵאל",
-            "transliteracion": "Yejezquel",
-            "significado_core": "Dios Fortalece",
-            "perla_profunda": "La verdadera fuerza no está en tus manos, sino en la visión que tienes de la Gloria de Dios cuando todo parece perdido."
-        }
+        "eco_de_cristo": "Jeremías es el \"varón de dolores\" del Antiguo Testamento; prefigura a Jesús llorando sobre Jerusalén."
+      },
+      {
+        "nombre": "Yirmeyahu",
+        "titulo": "Columna de Hierro (Resistencia)",
+        "avatar_url": "img/perfiles/jeremias.webp",
+        "jurisdiccion": "Ciudad Fortificada y Revelador del Nuevo Pacto",
+        "etymos": {
+          "original": "יִרְמְיָהוּ",
+          "transliteracion": "Yirmeyahu",
+          "significado_legal": "El que establece la legalidad de la Gracia futura."
+        },
+        "misterio_escudrinado": {
+          "titulo": "Fuego en los Huesos",
+          "texto": "Jeremías intentó callar, pero la Palabra era como un fuego ardiendo en sus huesos. El misterio es que su resistencia no era emocional, era estructural. Dios lo hizo \"columna de hierro y muro de bronce\". Lo sorprendente es que en medio de la destrucción de Jerusalén, Jeremías compró un campo en Anatot. Fue un acto legal: una inversión en el futuro basada en la promesa de retorno. Jeremías es el rastro de la fe que invierte cuando todo el sistema está colapsando."
+        },
+        "transferencia_codigo": {
+          "titulo": "Resistiendo en la Verdad",
+          "puntos": [
+            {
+              "concepto": "Invertir en medio de la crisis",
+              "cita": "Jeremías 32:7-9",
+              "ejemplo_real": "Cuando el mundo hable de escasez y miedo, busca dónde Dios te está pidiendo que siembres. Comprar tu \"campo de Anatot\" significa apostar por el Reino cuando nadie más lo hace. Tu generosidad hoy es tu posesión mañana."
+            },
+            {
+              "concepto": "Cisterna rota vs Manantial",
+              "cita": "Jeremías 2:13",
+              "ejemplo_real": "No busques satisfacción en sistemas humanos que no retienen el agua. Si te sientes vacío, vuelve a la Fuente de Agua Viva. El maduro sabe discernir entre un consuelo temporal y una plenitud eterna."
+            },
+            {
+              "concepto": "El Nuevo Pacto en el corazón",
+              "cita": "Jeremías 31:33",
+              "ejemplo_real": "Jeremías anunció que la ley ya no estaría en piedras, sino en el corazón. Vive hoy bajo la ley interna del amor y no bajo la presión externa de las reglas. Tu obediencia nace de tu nueva naturaleza."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jeremías profetizó el Nuevo Pacto que Cristo selló con Su propia sangre."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "jeremias",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "acueducto-acaz",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "profeta",
+      "nuevo-pacto",
+      "jeremias"
+    ]
+  },
+  {
+    "id": "onoma-ezequiel-visionario",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#0f172a",
+      "color_acento": "#38bdf8",
+      "avatar_url": "img/perfiles/ezequiel-exilio.webp",
+      "gradiente": "linear-gradient(135deg, #1e293b 0%, #000000 100%)"
     },
-    {
-        "id": "onoma-jonas-ninive",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#0c4a6e",
-            "color_acento": "#38bdf8",
-            "avatar_url": "../img/perfiles/jonas.webp",
-            "gradiente": "linear-gradient(135deg, #082f49 0%, #0e7490 100%)"
+    "fases": [
+      {
+        "nombre": "Ezequiel",
+        "titulo": "El Sacerdote del Exilio (Preparación)",
+        "avatar_url": "img/perfiles/ezequiel-exilio.webp",
+        "jurisdiccion": "Custodia de la Santidad en Tierras Extrañas",
+        "etymos": {
+          "original": "יְחֶזְקֵאל",
+          "transliteracion": "Yejezquel",
+          "significado_legal": "Dios Fortalece. El diseño que recibe su estructura de una fuente externa al mundo físico."
         },
-        "perfil_card": {
-            "nombre_principal": "Jonás",
-            "subtitulo_rol": "El Profeta Fugitivo",
-            "bio_resumen": "Intentó huir de su diseño cruzando el mar, pero descubrió que no hay lugar donde el Pneuma no pueda alcanzarlo. Su historia es el recordatorio de que la misericordia de Dios es más grande que nuestros prejuicios.",
-            "logro_destacado": "Evangelista de Naciones",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "jonas", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "jonas-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "ninive-ciudad", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "Los Cielos Abiertos en Quebar",
+          "texto": "A los 30 años (la edad de iniciar el sacerdocio), Ezequiel estaba cautivo junto al río Quebar. El misterio es que los cielos se le abrieron fuera de Israel. Lo sorprendente es que vio la gloria de Dios moviéndose en una carroza de fuego (Merkabah) con ruedas llenas de ojos. El misterio técnico es que la presencia de Dios no está atada a un edificio geográfico; Su gloria es móvil y puede visitarte en tu lugar de cautiverio o crisis más profunda."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Yonah",
-                "titulo": "Resucitado de las Profundidades",
-                "avatar": "../img/perfiles/jonas-1.webp",
-                "bio": "Después de tres días en la oscuridad, su identidad fue procesada. Emergió no solo para salvar a una ciudad enemiga, sino para convertirse en la 'Señal' del sacrificio y resurrección del Mesías.",
-                "etymos_id": "jonas-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Viendo la Gloria en el Caos",
+          "puntos": [
+            {
+              "concepto": "Sintonía fuera del templo",
+              "cita": "Ezequiel 1:1",
+              "ejemplo_real": "Si hoy te sientes en un \"exilio\" (lejos de tu casa, en un ambiente hostil o solo), no creas que Dios te ha dejado. Los cielos se abren precisamente allí donde el sistema humano ha fallado. Busca Su rostro en tu río Quebar personal."
+            },
+            {
+              "concepto": "Comer el rollo",
+              "cita": "Ezequiel 3:1-3",
+              "ejemplo_real": "Dios le pidió que se comiera la Palabra antes de hablarla. No intentes enseñar o aconsejar desde la teoría. La Verdad debe ser parte de tu metabolismo interno; solo lo que has digerido y te ha sabido dulce puede transformar a otros."
+            },
+            {
+              "concepto": "El rostro del guerrero",
+              "cita": "Ezequiel 3:8-9",
+              "ejemplo_real": "Dios hizo el rostro de Ezequiel como el diamante, más duro que el pedernal. Pide hoy un carácter inquebrantable para enfrentar la oposición. Tu firmeza no es terquedad, es la fuerza legal del diamante espiritual."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "יוֹנָה",
-            "transliteracion": "Yonáh",
-            "significado_core": "Paloma",
-            "perla_profunda": "No puedes huir de quien te diseñó; tu resistencia solo alarga el camino hacia tu propósito."
-        }
+        "eco_de_cristo": "Ezequiel es llamado 93 veces \"Hijo de hombre\", el mismo título que Jesús usó para enfatizar Su humanidad redentora."
+      },
+      {
+        "nombre": "Yejezquel",
+        "titulo": "El Vigía de la Gloria (Restauración)",
+        "avatar_url": "img/perfiles/ezequiel.webp",
+        "jurisdiccion": "Arquitecto de la Resurrección Generacional y el Nuevo Templo",
+        "etymos": {
+          "original": "יְחֶזְקֵאל",
+          "transliteracion": "Yejezquel",
+          "significado_legal": "Aquel que es fortalecido para ver lo invisible."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Valle de los Huesos Secos",
+          "texto": "Dios le mostró un valle de huesos \"secos en gran manera\". El misterio técnico es que la vida no volvió por un milagro mágico, sino por un proceso legal de dos etapas: 1) Profetizar a los huesos (estructura) y 2) Profetizar al Espíritu (aliento). Lo sorprendente es que los huesos representan la identidad perdida de un pueblo. El misterio es que tu boca tiene la autoridad legal para llamar al orden y a la vida a lo que el mundo ya dio por muerto."
+        },
+        "transferencia_codigo": {
+          "titulo": "Activando la Resurrección",
+          "puntos": [
+            {
+              "concepto": "Hablarle a lo muerto",
+              "cita": "Ezequiel 37:4",
+              "ejemplo_real": "¿Hay un área en tu vida que parece un valle de huesos secos? (tu matrimonio, tu salud, tus finanzas). No te quejes de la sequedad; profetiza el diseño de Dios sobre ella. Tu palabra alineada con el Pneuma moviliza los recursos del Cielo."
+            },
+            {
+              "concepto": "El nuevo corazón de carne",
+              "cita": "Ezequiel 36:26",
+              "ejemplo_real": "Dios prometió quitar el corazón de piedra. La madurez real es recuperar la sensibilidad. No permitas que la vida te vuelva duro y cínico; deja que el Espíritu suavice tu interior para que puedas sentir la frecuencia del amor divino."
+            },
+            {
+              "concepto": "El río que sale del umbral",
+              "cita": "Ezequiel 47:1-5",
+              "ejemplo_real": "Ezequiel vio un agua que subía de los tobillos a los lomos hasta que hubo que nadar. No te conformes con experiencias superficiales con Dios. Métete en lo profundo de Su río; allí es donde ocurre la verdadera sanidad de las naciones."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús es el verdadero Templo del cual fluye el agua de vida que sana todo lo que toca (Juan 7:38)."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "ezequiel",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "kavod-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "babilonia",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "gloria",
+      "visión",
+      "ezequiel"
+    ]
+  },
+  {
+    "id": "onoma-jonas-ninive",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#0c4a6e",
+      "color_acento": "#38bdf8",
+      "avatar_url": "img/perfiles/jonas.webp",
+      "gradiente": "linear-gradient(135deg, #082f49 0%, #0e7490 100%)"
     },
-    {
-        "id": "onoma-oseas-redentor",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#831843",
-            "color_acento": "#f472b6",
-            "avatar_url": "../img/perfiles/oseas.webp",
-            "gradiente": "linear-gradient(135deg, #500724 0%, #be123c 100%)"
+    "fases": [
+      {
+        "nombre": "Jonás",
+        "titulo": "El Profeta Fugitivo (Resistencia)",
+        "avatar_url": "img/perfiles/jonas.webp",
+        "jurisdiccion": "Profeta Nacionalista con Prejuicio Territorial",
+        "etymos": {
+          "original": "יוֹנָה",
+          "transliteracion": "Yonáh",
+          "significado_legal": "Paloma. Representa un diseño hecho para volar en la frecuencia del Espíritu, pero atrapado en la amargura terrenal."
         },
-        "perfil_card": {
-            "nombre_principal": "Oseas",
-            "subtitulo_rol": "El Profeta del Amor Fiel",
-            "bio_resumen": "Su vida familiar fue su púlpito. A través de su dolor personal, mostró el corazón de Dios: un amor que busca, perdona y restaura a pesar de la traición.",
-            "logro_destacado": "Espejo de la Fidelidad Divina",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "oseas", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "oseas-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "valle-jezreel", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "La Huida a Tarsis",
+          "texto": "Jonás huyó en dirección opuesta a Nínive. El misterio es que no huía por miedo a los ninivitas, sino por miedo a la misericordia de Dios. Lo sorprendente es que mientras él dormía en la barca, el Pneuma levantó una tormenta para arrestarlo. El misterio técnico es que cuando tienes un diseño de Reino, la creación entera se vuelve un tribunal para obligarte a volver a tu asignación. No hay barco que pueda esconderte de tu propio propósito."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Hoshea",
-                "titulo": "Redentor por Amor",
-                "avatar": "../img/perfiles/oseas-amor.webp",
-                "bio": "Al comprar a su esposa de la esclavitud, su identidad se volvió el Rhema vivo de la salvación. Entendió que el diseño de Dios no es solo juzgar, sino reconciliar a Su pueblo consigo mismo.",
-                "etymos_id": "chesed-he"
+        "transferencia_codigo": {
+          "titulo": "Rindiendo la Voluntad",
+          "puntos": [
+            {
+              "concepto": "No puedes huir de ti mismo",
+              "cita": "Jonás 1:3",
+              "ejemplo_real": "Intentar escapar de lo que Dios te ha llamado a hacer solo genera tormentas a tu alrededor y para los que viajan contigo. Identifica tu \"Nínive\" (ese reto incómodo) y enfréntalo; tu paz personal está ligada a tu obediencia."
+            },
+            {
+              "concepto": "El valor del sacrificio propio",
+              "cita": "Jonás 1:12",
+              "ejemplo_real": "Jonás dijo: \"Echadme al mar\". A veces, para que la tormenta en tu entorno cese, debes estar dispuesto a que tu ego sea sumergido. La paz llega cuando dejas de luchar contra las olas de la soberanía divina."
+            },
+            {
+              "concepto": "Orar desde el vientre del pez",
+              "cita": "Jonás 2:1",
+              "ejemplo_real": "Incluso en el lugar más oscuro y asfixiante, Dios te oye. Si hoy te sientes tragado por las consecuencias de tus decisiones, clama. El pez no es tu tumba, es el transporte que Dios usa para llevarte de vuelta a la orilla del diseño."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "הוֹשֵׁעַ",
-            "transliteracion": "Hoshea",
-            "significado_core": "Salvación",
-            "perla_profunda": "El amor verdadero no es un sentimiento, es una decisión de rescate que refleja el diseño del cielo."
-        }
+        "eco_de_cristo": "Jonás estuvo 3 días en el pez; Cristo estuvo 3 días en el corazón de la tierra. Jesús llamó a esto \"la señal de Jonás\"."
+      },
+      {
+        "nombre": "Yonah",
+        "titulo": "Resucitado de las Profundidades (Misión)",
+        "avatar_url": "img/perfiles/jonas-1.webp",
+        "jurisdiccion": "Evangelista de Naciones y Señal de Resurrección",
+        "etymos": {
+          "original": "יוֹנָה",
+          "transliteracion": "Yonáh",
+          "significado_legal": "Aquel que ha sido vomitado a la vida para anunciar la Gracia."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Avivamiento de Nínive",
+          "texto": "Nínive se arrepintió con un solo sermón de 8 palabras. Lo sorprendente es que Jonás seguía enojado porque Dios perdonó a sus enemigos. El misterio es que Dios usó a un mensajero imperfecto y reacio para salvar a 120,000 personas. Esto revela que el poder del mensaje no depende del humor del profeta, sino de la sintonía de la Palabra con la necesidad del oyente. Dios ama a los que tú detestas."
+        },
+        "transferencia_codigo": {
+          "titulo": "Expandiendo la Misericordia",
+          "puntos": [
+            {
+              "concepto": "Cuidado con el patriotismo espiritual",
+              "cita": "Jonás 4:2",
+              "ejemplo_real": "No creas que Dios solo bendice a \"los tuyos\". El maduro entiende que la Gracia es un regalo para toda la humanidad. No te enojes cuando veas que Dios prospera a personas que tú consideras que no lo merecen."
+            },
+            {
+              "concepto": "La lección de la calabacera",
+              "cita": "Jonás 4:10-11",
+              "ejemplo_real": "Jonás sufrió más por una planta que por las almas de una ciudad. Revisa tus prioridades hoy: ¿Te duelen más tus pequeñas comodidades perdidas que el dolor de la gente a tu alrededor? Calibra tu compasión con la del Padre."
+            },
+            {
+              "concepto": "Ser una señal viviente",
+              "cita": "Mateo 12:41",
+              "ejemplo_real": "Tu vida después de una crisis debe ser una señal de que hay esperanza. Si Dios te restauró, úsalo para que otros crean que ellos también pueden ser perdonados. Eres un monumento andante a la misericordia inmerecida."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jonás es el único profeta que Jesús comparó directamente con Su propia experiencia de muerte y resurrección."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "jonas",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "jonas-pneuma-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "ninive-ciudad",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "misericordia",
+      "naciones",
+      "jonas"
+    ]
+  },
+  {
+    "id": "onoma-oseas-redentor",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#831843",
+      "color_acento": "#f472b6",
+      "avatar_url": "img/perfiles/oseas.webp",
+      "gradiente": "linear-gradient(135deg, #500724 0%, #be123c 100%)"
     },
-    {
-        "id": "onoma-habacuc-vigia",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#44403c",
-            "color_acento": "#f59e0b",
-            "avatar_url": "../img/perfiles/habacuc.webp",
-            "gradiente": "linear-gradient(135deg, #292524 0%, #78350f 100%)"
+    "fases": [
+      {
+        "nombre": "Oseas",
+        "titulo": "El Profeta del Dolor (Carga)",
+        "avatar_url": "img/perfiles/oseas.webp",
+        "jurisdiccion": "Espejo Humano de la Traición del Pacto",
+        "etymos": {
+          "original": "הוֹשֵׁעַ",
+          "transliteracion": "Hoshea",
+          "significado_legal": "Salvación / Rescate. El rastro de un diseño que debe encarnar el perdón en su propia piel."
         },
-        "perfil_card": {
-            "nombre_principal": "Habacuc",
-            "subtitulo_rol": "El Profeta de la Torre",
-            "bio_resumen": "A diferencia de otros profetas, Habacuc comenzó dialogando con Dios sobre la injusticia. Su identidad se forjó en la espera, aprendiendo que el justo vivirá por su fe, incluso cuando el panorama sea oscuro.",
-            "logro_destacado": "Centinela de la Fe",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "habacuc", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "habacuc-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "valle-josafat", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Matrimonio como Púlpito",
+          "texto": "Dios le ordenó a Oseas casarse con Gomer, una mujer que le sería infiel. El misterio es que su dolor familiar era un \"acto profético\" para que Israel viera cómo Dios se sentía ante su idolatría. Lo sorprendente es que Oseas no solo sufrió la traición, sino que tuvo que ponerle nombres terribles a sus hijos (como Lo-rujama: \"No compadecida\") para decretar el estado legal de la nación. Oseas representa la entrega total donde tu vida privada es el mensaje."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Javaquq",
-                "titulo": "El que se Abraza a la Visión",
-                "avatar": "../img/perfiles/habacuc-torre.webp",
-                "bio": "En su torre de vigilancia, su identidad fue elevada. Pasó de la queja al cántico, entendiendo que aunque la higuera no florezca, su alegría reside en el Dios de su salvación.",
-                "etymos_id": "habacuc-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Amando en la Adversidad",
+          "puntos": [
+            {
+              "concepto": "El propósito en el dolor personal",
+              "cita": "Oseas 1:2",
+              "ejemplo_real": "A veces Dios permite que pases por una situación difícil en tu hogar para darte una autoridad que no tendrías de otra manera. Tu capacidad de perdonar una ofensa real es lo que te da el rango para hablar de la Gracia de Dios ante otros."
+            },
+            {
+              "concepto": "Nombres que marcan temporadas",
+              "cita": "Oseas 1:6",
+              "ejemplo_real": "Oseas llamó a sus hijos según la crisis. Aprende a discernir en qué etapa estás. No temas llamar a las cosas por su nombre (fracaso, soledad, espera), pero recuerda que los nombres de las temporadas no son tu identidad eterna."
+            },
+            {
+              "concepto": "Fidelidad unilateral",
+              "cita": "Oseas 2:19-20",
+              "ejemplo_real": "Oseas se mantuvo fiel aunque no era correspondido. En tu servicio al Reino, mantén tu integridad aunque la gente sea ingrata. Tu contrato de fidelidad es con Dios, no con la reacción de los demás."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "חֲבַקּוּק",
-            "transliteracion": "Javaquq",
-            "significado_core": "Abrazar / El que abraza",
-            "perla_profunda": "La fe no es ignorar la realidad, es abrazar la promesa de Dios hasta que Su visión se haga real ante tus ojos."
-        }
+        "eco_de_cristo": "Oseas llorando por Gomer prefigura a Jesús llorando por una humanidad que lo abandona por otros dioses."
+      },
+      {
+        "nombre:": "Hoshea",
+        "titulo": "Redentor por Amor (Restauración)",
+        "avatar_url": "img/perfiles/oseas-amor.webp",
+        "jurisdiccion": "Administrador del Rescate por Gracia y la Reconciliación",
+        "etymos": {
+          "original": "הוֹשֵׁעַ",
+          "transliteracion": "Hoshea",
+          "significado_legal": "El que paga el precio del rescate."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Compra en el Mercado de Esclavos",
+          "texto": "Gomer terminó siendo vendida como esclava. Dios le dijo a Oseas: \"Vete, ámala otra vez... y cómprala\". El misterio técnico es que Oseas pagó por lo que ya era suyo por derecho matrimonial. Lo sorprendente es que pagó 15 siclos de plata y una medida de cebada (el precio de un esclavo dañado). El misterio es que el amor de Dios no se basa en el valor del objeto, sino en la decisión del Redentor de devolverle la dignidad al que no tiene nada."
+        },
+        "transferencia_codigo": {
+          "titulo": "Activando el Rescate",
+          "puntos": [
+            {
+              "concepto": "Invertir en la restauración",
+              "cita": "Oseas 3:2",
+              "ejemplo_real": "¿Hay alguien en tu vida que lo ha perdido todo por sus propios errores? No lo juzgues; si puedes, invierte en su restauración. La Gracia real es la que paga el precio para que otro recupere su libertad y su diseño."
+            },
+            {
+              "concepto": "Cambio de nombres de juicio",
+              "cita": "Oseas 2:23",
+              "ejemplo_real": "Dios prometió cambiar \"No compadecida\" por \"Compadecida\". Tu pasado de rechazo puede ser revertido por un solo decreto de Gracia. Empieza a llamarte por tu diseño y no por tus heridas pasadas."
+            },
+            {
+              "concepto": "Llevar al desierto para hablar al corazón",
+              "cita": "Oseas 2:14",
+              "ejemplo_real": "A veces Dios te quita todo para tener tu atención total. No veas tu escasez como un castigo, sino como una cita romántica con el Creador. En el desierto es donde oirás las palabras de amor más profundas."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús es el verdadero Oseas que nos compró en el mercado del pecado, pagando con Su propia sangre lo que nosotros no podíamos pagar."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "oseas",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "chesed-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "valle-jezreel",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "amor-fiel",
+      "redención",
+      "oseas"
+    ]
+  },
+  {
+    "id": "onoma-habacuc-vigia",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#44403c",
+      "color_acento": "#f59e0b",
+      "avatar_url": "img/perfiles/habacuc.webp",
+      "gradiente": "linear-gradient(135deg, #292524 0%, #78350f 100%)"
     },
-    {
-        "id": "onoma-malaquias-mensajero",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#000000",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/malaquias.webp",
-            "gradiente": "linear-gradient(135deg, #0c0a09 0%, #451a03 100%)"
+    "fases": [
+      {
+        "nombre": "Habacuc",
+        "titulo": "El Profeta de la Torre (Queja)",
+        "avatar_url": "img/perfiles/habacuc.webp",
+        "jurisdiccion": "Interlocutor del Diseño ante la Injusticia Social",
+        "etymos": {
+          "original": "חֲבַקּוּק",
+          "transliteracion": "Javaquq",
+          "significado_legal": "Abrazar / El que lucha abrazando. Representa la persistencia de quien no suelta a Dios hasta obtener respuestas."
         },
-        "perfil_card": {
-            "nombre_principal": "Malaquías",
-            "subtitulo_rol": "El Mensajero del Pacto",
-            "bio_resumen": "El último eco de la voz profética antes del silencio. Su mensaje confrontó la apatía espiritual y anunció que el Sol de Justicia nacería con sanidad en sus alas.",
-            "logro_destacado": "Precursor de la Esperanza",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "malaquias", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "malaquias-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "acueducto-acaz", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Diálogo con la Injusticia",
+          "texto": "Habacuc no empezó predicando, empezó quejándose: \"¿Hasta cuándo, oh Jehová?\". El misterio es que Dios no lo reprendió por su duda, sino que lo invitó a subir a la torre de vigilancia. Lo sorprendente es que Habacuc vio que Dios usaría a los caldeos (gente más mala) para juzgar a Judá. El misterio técnico es que a veces Dios usa el caos para limpiar un sistema corrupto, y el profeta debe tener la estructura mental para no escandalizarse por los métodos del Cielo."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Malají",
-                "titulo": "Heraldo del Sol de Justicia",
-                "avatar": "../img/perfiles/malaquias-justicia.webp",
-                "bio": "Su identidad se funde con la del mensajero que prepara el camino. Vio la llegada de Juan el Bautista y el Mesías, cerrando el canon con una promesa de restauración familiar y espiritual.",
-                "etymos_id": "malají-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Saliendo de la Queja",
+          "puntos": [
+            {
+              "concepto": "Hacer la pregunta correcta",
+              "cita": "Habacuc 1:2",
+              "ejemplo_real": "No temas decirle a Dios que no entiendes lo que está pasando en tu país o en tu familia. La honestidad técnica es el primer paso para la revelación. Pero hazlo con el deseo de oír Su respuesta, no solo para desahogarte."
+            },
+            {
+              "concepto": "Subir a la torre",
+              "cita": "Habacuc 2:1",
+              "ejemplo_real": "Si quieres ver la solución, debes cambiar de perspectiva. Sal del nivel del problema (la calle) y sube al nivel del diseño (la torre/oración). Desde arriba, los problemas se ven pequeños y el Plan se ve claro."
+            },
+            {
+              "concepto": "Escribir la visión",
+              "cita": "Habacuc 2:2",
+              "ejemplo_real": "Dios le dijo: \"Escribe la visión... para que corra el que leyere en ella\". Cuando tengas una idea clara o una promesa, escríbela. El orden visual de tus metas ayuda a que tu equipo y tu familia puedan moverse con rapidez."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "מַלְאָכִי",
-            "transliteracion": "Malají",
-            "significado_core": "Mi Mensajero / Mi Ángel",
-            "perla_profunda": "Incluso en el silencio aparente, Dios está preparando el camino para Su mayor revelación de amor."
-        }
+        "eco_de_cristo": "Habacuc representa a la humanidad clamando por justicia, clamor que fue respondido plenamente en la Cruz."
+      },
+      {
+        "nombre": "Javaquq",
+        "titulo": "El que se Abraza a la Visión (Fe)",
+        "avatar_url": "img/perfiles/habacuc-torre.webp",
+        "jurisdiccion": "Centinela de la Certeza en medio del Colapso",
+        "etymos": {
+          "original": "חֲבַקּוּק",
+          "transliteracion": "Javaquq",
+          "significado_legal": "Aquel que abraza la Realidad del Reino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Justo",
+          "texto": "Habacuc 2:4 contiene la frase que cambió la historia: \"Mas el justo por su fe vivirá\". El misterio es que la fe no es para cambiar las circunstancias, sino para tener vida (Zóé) EN MEDIO de las circunstancias. Lo sorprendente es que terminó cantando sobre los pies de cierva. El misterio es que quien abraza la visión de Dios, recibe la capacidad técnica de caminar por las alturas de la paz mientras el valle está en guerra."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando por Fe",
+          "puntos": [
+            {
+              "concepto": "Aunque la higuera no florezca",
+              "cita": "Habacuc 3:17-18",
+              "ejemplo_real": "Tu alegría no puede depender de tus resultados económicos inmediatos. Aprende a gozarte en Dios cuando las cosas van mal. Esta es la prueba máxima de que tu sintonía es espiritual y no carnal."
+            },
+            {
+              "concepto": "Pies de cierva",
+              "cita": "Habacuc 3:19",
+              "ejemplo_real": "La cierva pone sus pies traseros exactamente donde puso los delanteros, permitiéndole subir por riscos peligrosos. Dios te dará la precisión técnica para tomar decisiones seguras en momentos de alta inestabilidad. Confía en Su guía paso a paso."
+            },
+            {
+              "concepto": "Llenar la tierra del conocimiento",
+              "cita": "Habacuc 2:14",
+              "ejemplo_real": "Tu propósito es que otros vean la gloria de Dios a través de tu estabilidad. Sé un ejemplo de paz en tu trabajo. Cuando todos entren en pánico, tu calma será la evidencia de que conoces a un Dios Soberano."
+            }
+          ]
+        },
+        "eco_de_cristo": "La frase \"el justo por la fe vivirá\" es el motor del mensaje de Pablo sobre la justicia de Cristo en nosotros."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "habacuc",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "habacuc-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "valle-josafat",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "fe",
+      "visión",
+      "habacuc"
+    ]
+  },
+  {
+    "id": "onoma-eliseo-profeta",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#450a0a",
+      "color_acento": "#f87171",
+      "avatar_url": "img/perfiles/eliseo-labrador.webp",
+      "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
     },
-    {
-        "id": "onoma-nahum-vengador",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#450a0a",
-            "color_acento": "#f87171",
-            "avatar_url": "../img/perfiles/nahum.webp",
-            "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
+    "fases": [
+      {
+        "nombre": "Eliseo",
+        "titulo": "El Labrador de Abel-mehola (Servicio)",
+        "avatar_url": "img/perfiles/eliseo-labrador.webp",
+        "jurisdiccion": "Fidelidad en el Arado y Preparación por la Obsesión",
+        "etymos": {
+          "original": "אֱלִישַׁע",
+          "transliteracion": "Elishá",
+          "significado_legal": "Dios es mi Salvación. El diseño que reconoce la provisión divina en el trabajo diario."
         },
-        "perfil_card": {
-            "nombre_principal": "Nahúm",
-            "subtitulo_rol": "El Profeta del Consuelo Divino",
-            "bio_resumen": "Originario de Elcos, Nahúm recibió la carga de anunciar el fin del imperio más cruel de su tiempo. Su mensaje no es solo de destrucción, sino de alivio para aquellos que han sufrido bajo la opresión.",
-            "logro_destacado": "Anunciador de la Justicia",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "nahum", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "nahum-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "ninive-resurreccion", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "Las 12 Yuntas de Bueyes",
+          "texto": "Eliseo estaba arando con 12 yuntas cuando Elías le echó su manto. El misterio técnico es que Eliseo era un hombre de gran riqueza (12 yuntas es una agroindustria antigua). Lo sorprendente es que mató los bueyes y quemó el arado para seguir a Elías. El misterio es que para recibir la unción, debes estar dispuesto a destruir tus planes de escape. Su obsesión por no soltar a Elías (\"Vive Jehová... que no te dejaré\") es el código de acceso a la herencia del mentor."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Najum",
-                "titulo": "El Heraldo sobre los Montes",
-                "avatar": "../img/perfiles/nahum-pneuma.webp",
-                "bio": "Al ver la caída de la 'ciudad sanguinaria', su identidad se eleva como un mensajero de buenas nuevas. Entiende que la bondad de Dios incluye poner fin a la maldad para proteger a los que en Él confían.",
-                "etymos_id": "nahum-pneuma-he"
+        "transferencia_codigo": {
+          "titulo": "Preparando el Manto",
+          "puntos": [
+            {
+              "concepto": "Fidelidad en el arado",
+              "cita": "1 Reyes 19:19",
+              "ejemplo_real": "No desprecies tu trabajo actual aunque sientas que tienes un llamado mayor. La unción te encontrará mientras eres productivo en lo que tienes hoy. Arar bien tu campo de hoy es la prueba de que puedes arar el destino de una nación mañana."
+            },
+            {
+              "concepto": "Quemar los puentes",
+              "cita": "1 Reyes 19:21",
+              "ejemplo_real": "Si vas a seguir un sueño o un propósito de Dios, no dejes una \"puerta trasera\" abierta por si acaso sale mal. El éxito real requiere un compromiso total sin planes de retorno al sistema antiguo."
+            },
+            {
+              "concepto": "Servir al padre espiritual",
+              "cita": "2 Reyes 3:11",
+              "ejemplo_real": "Se decía de Eliseo que \"derramaba agua en las manos de Elías\". Aprende el valor del servicio cercano a quienes tienen más experiencia que tú. La transferencia de autoridad no se enseña en libros, se absorbe sirviendo con humildad."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "נַחוּם",
-            "transliteracion": "Najum",
-            "significado_core": "Consuelo / Consolador",
-            "perla_profunda": "La justicia de Dios es la máxima forma de consuelo para el que ha sido quebrantado."
-        }
-    },
-    {
-        "id": "onoma-eliseo-profeta",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "profetas.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#450a0a",
-            "color_acento": "#f87171",
-            "avatar_url": "../img/perfiles/eliseo-labrador.webp",
-            "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
+        "eco_de_cristo": "Eliseo dejando su casa prefigura a los discípulos dejando sus redes para seguir a Jesús."
+      },
+      {
+        "nombre": "Elisha",
+        "titulo": "El Profeta de la Doble Porción (Autoridad)",
+        "avatar_url": "img/perfiles/eliseo.webp",
+        "jurisdiccion": "Canal de Milagros de Provisión y Visión Sobrenatural",
+        "etymos": {
+          "original": "אֱלִישַׁע",
+          "transliteracion": "Elishá",
+          "significado_legal": "La manifestación de la salvación de Dios en lo físico."
         },
-        "perfil_card": {
-            "nombre_principal": "Eliseo",
-            "subtitulo_rol": "El Labrador de Abel-mehola",
-            "bio_resumen": "Hijo de Safat, vivía una vida de labor constante en los campos hasta que el manto de Elías lo alcanzó. Su llamado no fue en un templo, sino en la tierra arada, demostrando que la fidelidad en lo poco precede a la autoridad en lo mucho.",
-            "logro_destacado": "Fidelidad en el Arado",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "eliseo", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "elisha-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "monte-carmeloe", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "Los Carros de Fuego en Dotán",
+          "texto": "Cuando el ejército sirio rodeó a Eliseo, su siervo tuvo miedo. Eliseo oró: \"Te ruego, oh Jehová, que abras sus ojos para que vea\". El misterio es que los carros de fuego ya estaban allí; no bajaron del cielo en ese momento, solo fueron revelados. El misterio técnico es que la protección de Dios es una Realidad constante que no depende de que la sintamos o veamos. La madurez consiste en saber que somos mayoría absoluta frente a cualquier amenaza del mundo."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Elisha",
-                "titulo": "El Profeta de la Doble Porción",
-                "avatar": "../img/perfiles/eliseo.webp",
-                "bio": "Al recibir el manto sucesor, operó en una dimensión de milagros sin precedentes. Su vida se convirtió en un testimonio de la provisión divina, abriendo los ojos de otros para ver los carros de fuego que protegen a los siervos de Dios.",
-                "etymos_id": "eliseo-blesis-he"
+        "transferencia_codigo": {
+          "titulo": "Operando en la Doble Porción",
+          "puntos": [
+            {
+              "concepto": "Ver lo invisible",
+              "cita": "2 Reyes 6:17",
+              "ejemplo_real": "No tomes decisiones basadas solo en lo que dicen las noticias o tus ojos físicos. Pide a Dios que abra tu visión espiritual. Cuando veas que Sus ángeles te rodean, el miedo dejará de ser una variable en tu vida."
+            },
+            {
+              "concepto": "Multiplicar desde lo poco",
+              "cita": "2 Reyes 4:2",
+              "ejemplo_real": "Eliseo le preguntó a la viuda: \"¿Qué tienes en casa?\". Dios siempre usa lo que ya tienes (un talento, una idea, un recurso pequeño) para generar la abundancia. No esperes milagros de la nada; usa tu \"vasija de aceite\" y verás el desborde."
+            },
+            {
+              "concepto": "Autoridad incluso en la muerte",
+              "cita": "2 Reyes 13:21",
+              "ejemplo_real": "Incluso los huesos de Eliseo resucitaron a un hombre. Vive de tal manera que tu legado y tus palabras sigan dando vida a otros mucho después de que te hayas ido. Tu rastro espiritual debe ser inagotable."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "אֱלִישַׁע",
-            "transliteracion": "Elishá",
-            "significado_core": "Dios es mi Salvación",
-            "perla_profunda": "La verdadera visión no consiste en ignorar el peligro visible, sino en percibir la protección invisible que siempre te rodea."
-        },
-        "tags": ["profeta", "milagros", "fidelidad", "visión", "doble-porción"]
-    }
+        "eco_de_cristo": "Eliseo multiplicando el aceite y los panes prefigura a Jesús alimentando a las multitudes y dándonos el aceite del Espíritu Santo."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "eliseo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "elisha-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "monte-carmeloe",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "milagros",
+      "visión",
+      "eliseo"
+    ]
+  }
 ]

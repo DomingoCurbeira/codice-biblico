@@ -63,18 +63,6 @@
 .reading-progress-container { position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: rgba(0,0,0,0.2); z-index: 2000; }
 .reading-progress-bar { height: 100%; background: var(--gold); width: 0%; transition: width 0.1s ease; box-shadow: 0 0 10px var(--gold); }
 
-/* --- COMPARTIR --- */
-.share-container { max-width: 850px; margin: 0 auto 5rem; text-align: center; padding-top: 3rem; border-top: 1px solid rgba(255,255,255,0.05); }
-.share-title { font-size: 0.8rem; letter-spacing: 3px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2rem; }
-.share-actions { display: flex; justify-content: center; gap: 1.5rem; }
-.btn-share { width: 55px; height: 55px; border-radius: 50%; border: none; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: 0.3s; color: white; font-size: 1.2rem; }
-.btn-share:hover { transform: translateY(-5px) scale(1.1); }
-.btn-share.nota { background: #d4b483; color: #0f172a; box-shadow: 0 4px 15px rgba(212, 180, 131, 0.3); }
-.btn-share.nota:hover { background: #f3cf7a; }
-.btn-share.wa { background: linear-gradient(135deg, #25D366, #128C7E); }
-.btn-share.fb { background: linear-gradient(135deg, #1877F2, #1659b1); }
-.btn-share.copy { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; }
-
 @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
 
 @media (max-width: 600px) {

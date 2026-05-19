@@ -377,23 +377,6 @@ body {
 }
 .fab-back-cv:hover { transform: scale(1.05) translateY(-2px); background: #f59e0b; }
 
-/* --- BOTONES DE COMPARTIR (HUELLAS) --- */
-.share-card {
-    background: transparent; border: 1px dashed rgba(255, 255, 255, 0.1); box-shadow: none; margin-top: 1rem;
-}
-.share-actions { display: flex; justify-content: center; gap: 1.5rem; }
-.btn-share {
-    width: 55px; height: 55px; border-radius: 50%; border: none;
-    display: flex; align-items: center; justify-content: center;
-    cursor: pointer; transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), filter 0.2s;
-    color: white; font-size: 1.2rem;
-}
-.btn-share:hover { transform: scale(1.15) translateY(-2px); filter: brightness(1.2); }
-.btn-share.wa { background: linear-gradient(135deg, #25D366, #128C7E); box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3); }
-.btn-share.fb { background: linear-gradient(135deg, #1877F2, #1659b1); box-shadow: 0 4px 15px rgba(24, 119, 242, 0.3); }
-.btn-share.copy { background: transparent; border: 2px solid #38bdf8; color: #38bdf8; box-shadow: 0 0 10px rgba(56, 189, 248, 0.1); }
-.btn-share.copy:hover { background: rgba(56, 189, 248, 0.1); box-shadow: 0 0 20px rgba(56, 189, 248, 0.4); }
-
 /* MEJORAS DE UX: BARRA DE PROGRESO Y CONTROL DE FUENTE */
 .reading-progress-container { position: fixed; top: 0; left: 0; width: 100%; height: 4px; background: rgba(15, 23, 42, 0.3); z-index: 6000; }
 .reading-progress-bar { height: 100%; background: linear-gradient(90deg, #d4b483, #f59e0b); width: 0%; transition: width 0.1s ease; box-shadow: 0 0 10px rgba(212, 180, 131, 0.5); }

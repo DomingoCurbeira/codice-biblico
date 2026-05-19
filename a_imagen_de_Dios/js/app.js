@@ -140,37 +140,74 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
         const tagsOrdenados = Array.from(todosLosTags).sort();
 
-        // 2. CREAR EL HTML CON EL BUSCADOR Y EL SELECT DE TAGS
-        const headerIndex = document.createElement('div');
-        headerIndex.className = 'index-header-tools';
-        headerIndex.innerHTML = `
-            <div class="search-container">
-                <input type="text" id="input-busqueda" placeholder="🔍 Buscar enseñanza...">
-                
-                <select id="select-tags">
-                    <option value="todos">🏷️ Todos los temas</option>
-                    ${tagsOrdenados.map(tag => `<option value="${tag.toLowerCase()}">${tag}</option>`).join('')}
-                </select>
+        // 2. CREAR EL HTML CON EL BUSCADOR
+        const searchWrapper = document.getElementById('search-wrapper');
+        if (searchWrapper) {
+            searchWrapper.innerHTML = `
+                <div class="search-container">
+                    <input type="text" id="input-busqueda" placeholder="🔍 Buscar por título o código (ej: Mishkan)..." style="width: 100%;">
+                </div>
+            `;
+        }
+
+        // --- BANNER DE ESTADÍSTICAS ---
+        const statsBanner = document.createElement('div');
+        statsBanner.className = 'user-stats-banner';
+        statsBanner.innerHTML = `
+            <div class="stat-item">
+                <span class="stat-label">RANGO ACTUAL</span>
+                <span class="stat-value" style="color: #f59e0b; font-size: 0.9rem;">${nombreRango.toUpperCase()}</span>
+                <small style="color: #94a3b8; display: block; font-size: 0.6rem;">NIVEL ${nivelCalculado + 1}</small>
             </div>
-            <div class="user-stats-banner">
-                <div class="stat-item">
-                    <span class="stat-label">RANGO ACTUAL</span>
-                    <span class="stat-value" style="color: #f59e0b; font-size: 0.9rem;">${nombreRango.toUpperCase()}</span>
-                    <small style="color: #94a3b8; display: block; font-size: 0.6rem;">NIVEL ${nivelCalculado + 1}</small>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">TOTAL XP</span>
-                    <span class="stat-value">${perfil.xp}</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">LOGROS</span>
-                    <span class="stat-value">🏆 ${perfil.logros.length}</span>
-                </div>
+            <div class="stat-item">
+                <span class="stat-label">TOTAL XP</span>
+                <span class="stat-value">${perfil.xp}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">LOGROS</span>
+                <span class="stat-value">🏆 ${perfil.logros.length}</span>
             </div>
         `;
-        const placeholder = document.getElementById('header-tools-placeholder');
-        if (placeholder) {
-            placeholder.appendChild(headerIndex);
+        
+        const toolsPlaceholder = document.getElementById('search-wrapper'); // Reutilizamos el wrapper para insertar el banner debajo
+        if (toolsPlaceholder) {
+            toolsPlaceholder.after(statsBanner);
+        }
+
+        // --- SELECTOR DE CATEGORÍAS ---
+        let categoriaSeleccionada = 'todos';
+        const categoriasData = [
+            { id: 'todos', label: 'Todos', icon: 'fas fa-th-large', class: 'cat-todos' },
+            { id: 'huellas', label: 'Hilo Rojo', icon: 'fas fa-route', class: 'cat-huellas' },
+            { id: 'mitos', label: 'Mitos', icon: 'fas fa-hammer', class: 'cat-mitos' },
+            { id: 'etimologia', label: 'Étymos', icon: 'fas fa-language', class: 'cat-etymos' },
+            { id: 'historia', label: 'Historia', icon: 'fas fa-monument', class: 'cat-historia' },
+            { id: 'sermones', label: 'Sermones', icon: 'fas fa-microphone-lines', class: 'cat-sermones' }
+        ];
+
+        const catWrapper = document.getElementById('category-selector-wrapper');
+        if (catWrapper) {
+            const catSelector = document.createElement('div');
+            catSelector.className = 'category-selector';
+            catSelector.innerHTML = categoriasData.map(cat => `
+                <div class="category-chip ${cat.id === 'todos' ? 'active' : ''} ${cat.class}" data-id="${cat.id}">
+                    <div class="category-icon-wrapper"><i class="${cat.icon}"></i></div>
+                    <span class="category-label">${cat.label}</span>
+                </div>
+            `).join('');
+            catWrapper.appendChild(catSelector);
+
+            // Event listener para clics en categorías
+            catSelector.querySelectorAll('.category-chip').forEach(chip => {
+                chip.onclick = () => {
+                    catSelector.querySelectorAll('.category-chip').forEach(c => c.classList.remove('active'));
+                    chip.classList.add('active');
+                    categoriaSeleccionada = chip.dataset.id;
+                    aplicarFiltros();
+                    // Scroll suave hacia los resultados
+                    catWrapper.scrollIntoView({ behavior: 'smooth' });
+                };
+            });
         }
 
         // --- LÓGICA DE PAGINACIÓN NUMÉRICA ---
@@ -217,7 +254,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             });
 
             renderizarPaginacion(estudiosFiltrados.length);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            // window.scrollTo({ top: 0, behavior: 'smooth' }); // Comentado para no saltar al cambiar categoría
         };
 
         const renderizarPaginacion = (totalItems) => {
@@ -258,7 +295,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const btn = document.createElement('button');
                 btn.className = `page-btn ${i === paginaActual ? 'active' : ''}`;
                 btn.innerText = i;
-                btn.onclick = () => { paginaActual = i; renderizarPagina(); };
+                btn.onclick = () => { paginaActual = i; renderizarPagina(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
                 container.appendChild(btn);
             }
 
@@ -267,7 +304,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             btnNext.className = 'page-btn';
             btnNext.innerHTML = '<span class="page-arrow">❯</span>';
             btnNext.disabled = paginaActual === totalPaginas;
-            btnNext.onclick = () => { paginaActual++; renderizarPagina(); };
+            btnNext.onclick = () => { paginaActual++; renderizarPagina(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
             container.appendChild(btnNext);
 
             listaDom.after(container);
@@ -275,21 +312,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // 3. LÓGICA DE FILTRADO COMBINADO
         const inputBusqueda = document.getElementById('input-busqueda');
-        const selectTags = document.getElementById('select-tags');
 
         const aplicarFiltros = () => {
             const termino = inputBusqueda.value.toLowerCase();
-            const tagSeleccionado = selectTags.value.toLowerCase();
 
             estudiosFiltrados = [...estudiosActivos].filter(est => {
                 const coincideTexto = est.titulo.toLowerCase().includes(termino) || 
                                       est.subtitulo.toLowerCase().includes(termino) ||
                                       (est.tags && est.tags.some(t => t.toLowerCase().includes(termino)));
                 
-                const coincideTag = tagSeleccionado === 'todos' || 
-                                    (est.tags && est.tags.some(t => t.toLowerCase() === tagSeleccionado));
+                const coincideCategoria = categoriaSeleccionada === 'todos' || est.tipo === categoriaSeleccionada;
 
-                return coincideTexto && coincideTag;
+                return coincideTexto && coincideCategoria;
             });
             
             paginaActual = 1; // Resetear a la primera página al filtrar
@@ -297,9 +331,36 @@ document.addEventListener('DOMContentLoaded', async () => {
         };
 
         if (inputBusqueda) inputBusqueda.addEventListener('input', aplicarFiltros);
-        if (selectTags) selectTags.addEventListener('change', aplicarFiltros);
 
         renderizarPagina();
+    }
+
+    // --- 5. RENDERIZADO DEL BANNER "REVELACIÓN DE HOY" ---
+    const bannerContainer = document.getElementById('today-revelation-banner');
+    if (bannerContainer && estudios.length > 0) {
+        // Obtener fecha actual en formato YYYY-MM-DD
+        const hoyStr = new Date().toISOString().split('T')[0];
+        
+        // Buscar el estudio que coincida con la fecha de hoy
+        const estudioHoy = estudios.find(e => e.fecha_programada === hoyStr);
+
+        if (estudioHoy) {
+            bannerContainer.innerHTML = `
+                <div class="today-banner" style="background-image: url('${estudioHoy.imagen_portada || '../../img/hero/hero-imagen.webp'}');">
+                    <div class="today-banner-overlay"></div>
+                    <div class="today-banner-content">
+                        <span class="today-badge">✨ Revelación de Hoy</span>
+                        <h2 class="today-title">${estudioHoy.titulo}</h2>
+                        <p class="today-subtitle">${estudioHoy.subtitulo}</p>
+                        <button class="btn-today-action" onclick="window.location.href='leer.html?id=${estudioHoy.id}'">
+                            <i class="fas fa-play"></i> Comenzar Revelación
+                        </button>
+                    </div>
+                </div>
+            `;
+        } else {
+            bannerContainer.style.display = 'none';
+        }
     }
 
     // B) SI ESTAMOS LEYENDO (Lector de un estudio específico)
@@ -311,7 +372,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (estudio) {
             const imgHTML = estudio.imagen_portada ? `
                 <div class="reader-hero-wrapper" style="margin-bottom: 2rem; border-radius: 20px; overflow: hidden; height: 350px; border: 1px solid rgba(212, 180, 131, 0.2); box-shadow: 0 20px 50px rgba(0,0,0,0.5);">
-                    <img src="${estudio.imagen_portada}" alt="${estudio.titulo}" style="width: 100%; height: 100%; object-fit: cover;">
+                    <img src="${estudio.imagen_portada}" 
+                         alt="${estudio.titulo}" 
+                         style="width: 100%; height: 100%; object-fit: cover;"
+                         onerror="this.src='../../img/hero/hero-imagen.webp';">
                 </div>
             ` : '';
 
@@ -374,6 +438,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                         htmlContent += `
                             <div class="context-box">
                                 <span class="context-label">📜 Contexto Histórico y Cultural</span>
+                                ${bloque.genero_literario ? `<div style="font-size:0.85rem; color:var(--text-muted); margin-bottom: 0.8rem; font-style: italic; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 5px;"><strong>Género Literario:</strong> ${bloque.genero_literario}</div>` : ''}
                                 ${bloque.titulo ? `<h4 style="color:var(--primary); margin-bottom:0.5rem;">${bloque.titulo}</h4>` : ''}
                                 <p class="context-text">${bloque.texto}</p>
                             </div>
@@ -424,44 +489,92 @@ document.addEventListener('DOMContentLoaded', async () => {
                         `;
                     } else if (bloque.tipo === 'mapa_intertextual') {
                         htmlContent += `
-                            <div class="intertextual-box">
-                                <h4 class="section-title" style="border:none; margin-bottom:1rem;">📖 Mapa Intertextual</h4>
-                                ${bloque.referencias.map(ref => `
-                                    <div class="inter-item">
-                                        <span class="inter-cite">${ref.cita}</span>
-                                        <p class="inter-desc">${ref.explicacion}</p>
-                                    </div>
-                                `).join('')}
+                            <div class="intertextual-box" style="background: rgba(30, 41, 59, 0.3); padding: 1.5rem; border-radius: 12px; margin: 2rem 0; border: 1px solid rgba(255, 255, 255, 0.05);">
+                                <h4 class="section-title" style="border:none; margin-bottom:1.5rem; color: var(--primary); font-size: 0.9rem; text-transform: uppercase; letter-spacing: 2px;">📖 Mapa Intertextual</h4>
+                                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                                    ${bloque.referencias.map(ref => {
+                                        let vText = ref.versiculo || "";
+                                        let rText = ref.revelacion || "";
+
+                                        if (!vText && ref.texto) {
+                                            if (ref.texto.includes('REVELACIÓN:')) {
+                                                const parts = ref.texto.split('REVELACIÓN:');
+                                                vText = parts[0].replace('📖', '').trim();
+                                                rText = parts[1].trim();
+                                            } else {
+                                                vText = ref.texto;
+                                            }
+                                        }
+
+                                        const displayExplicacion = rText || ref.explicacion || "";
+
+                                        return `
+                                            <div class="inter-item" style="border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 1rem;">
+                                                <span class="inter-cite" style="color: var(--primary); font-weight: bold; font-size: 1rem; display: block; margin-bottom: 5px;">${ref.cita}</span>
+                                                ${vText ? `<p style="font-family: var(--font-book); font-style: italic; color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; margin-bottom: 8px;">"${vText.replace(/^"|"$/g, '')}"</p>` : ''}
+                                                <p class="inter-desc" style="color: #cbd5e1; font-size: 0.9rem; line-height: 1.4;">${displayExplicacion}</p>
+                                            </div>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        `;
+                    } else if (bloque.tipo === 'revelacion_progresiva') {
+                        htmlContent += `
+                            <div class="progressive-revelation-box" style="background: linear-gradient(145deg, rgba(56, 189, 248, 0.05) 0%, rgba(14, 165, 233, 0.05) 100%); border: 1px solid rgba(56, 189, 248, 0.2); border-radius: var(--radius); padding: 1.5rem; margin: 1.5rem 0; position: relative; overflow: hidden;">
+                                <div style="position: absolute; top: -10px; right: -10px; font-size: 5rem; opacity: 0.05; user-select: none;">📈</div>
+                                <span style="display:inline-block; background:rgba(56,189,248,0.1); color:#38bdf8; padding:4px 10px; border-radius:4px; font-size:0.8rem; font-weight:bold; letter-spacing:1px; margin-bottom:1rem; text-transform:uppercase;">🧬 Hilo de Revelación Progresiva</span>
+                                ${bloque.titulo ? `<h4 style="color: var(--text-light); margin-bottom: 1rem; font-size: 1.2rem;">${bloque.titulo}</h4>` : ''}
+                                ${bloque.descripcion ? `<p style="color: var(--text-muted); margin-bottom: 1.2rem; font-size: 0.95rem; line-height: 1.5;">${bloque.descripcion}</p>` : ''}
+                                <div class="progression-steps" style="display: flex; flex-direction: column; gap: 1rem;">
+                                    ${bloque.pasos.map((paso, index) => `
+                                        <div class="progression-step" style="display: flex; gap: 1rem; align-items: flex-start;">
+                                            <div style="background: #38bdf8; color: #0f172a; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8rem; flex-shrink: 0; margin-top: 3px;">${index + 1}</div>
+                                            <div>
+                                                <strong style="color: var(--text-light); display: block; margin-bottom: 0.2rem;">${paso.concepto}</strong>
+                                                <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">${paso.explicacion}</p>
+                                            </div>
+                                        </div>
+                                    `).join('')}
+                                </div>
                             </div>
                         `;
                     } else if (bloque.tipo === 'aplicacion_leche') {
+                        const itemsHtml = bloque.items ? `
+                            <ul class="app-list">
+                                ${bloque.items.map(item => `
+                                    <li>
+                                        <strong>${item.punto}</strong>
+                                        ${item.ejemplo ? `<small style="color:var(--text-muted); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(255,255,255,0.1); padding-left:12px; line-height:1.4;">Suposición: ${item.ejemplo}</small>` : ''}
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        ` : `<p style="color: #cbd5e1; line-height:1.6;">${bloque.texto || ''}</p>`;
+
                         htmlContent += `
                             <div class="app-card leche">
                                 <span class="app-badge">🍼 Leche Espiritual</span>
                                 <h4 class="app-title">${bloque.titulo}</h4>
-                                <ul class="app-list">
-                                    ${bloque.items.map(item => `
-                                        <li>
-                                            <strong>${item.punto}</strong>
-                                            ${item.ejemplo ? `<small style="color:var(--text-muted); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(255,255,255,0.1); padding-left:12px; line-height:1.4;">Suposición: ${item.ejemplo}</small>` : ''}
-                                        </li>
-                                    `).join('')}
-                                </ul>
+                                ${itemsHtml}
                             </div>
                         `;
                     } else if (bloque.tipo === 'aplicacion_solida') {
+                        const itemsHtml = bloque.items ? `
+                            <ul class="app-list">
+                                ${bloque.items.map(item => `
+                                    <li>
+                                        <strong>${item.punto}</strong>
+                                        ${item.ejemplo ? `<small style="color:var(--primary); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(34,211,238,0.2); padding-left:12px; line-height:1.4;">Escenario de Madurez: ${item.ejemplo}</small>` : ''}
+                                    </li>
+                                `).join('')}
+                            </ul>
+                        ` : `<p style="color: #cbd5e1; line-height:1.6;">${bloque.texto || ''}</p>`;
+
                         htmlContent += `
                             <div class="app-card solido">
                                 <span class="app-badge">🥩 Alimento Sólido</span>
                                 <h4 class="app-title">${bloque.titulo}</h4>
-                                <ul class="app-list">
-                                    ${bloque.items.map(item => `
-                                        <li>
-                                            <strong>${item.punto}</strong>
-                                            ${item.ejemplo ? `<small style="color:var(--primary); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(34,211,238,0.2); padding-left:12px; line-height:1.4;">Escenario de Madurez: ${item.ejemplo}</small>` : ''}
-                                        </li>
-                                    `).join('')}
-                                </ul>
+                                ${itemsHtml}
                             </div>
                         `;
                     } else if (bloque.tipo === 'lexico') {
@@ -489,11 +602,47 @@ document.addEventListener('DOMContentLoaded', async () => {
                             </div>
                         `;
                     } else if (bloque.tipo === 'concordancia') {
-                        htmlContent += `<div class="concordance-box"><h4 class="concordance-title">📖 Concordancia y Referencias</h4><ul class="concordance-list">`;
-                        bloque.referencias.forEach(ref => {
-                            htmlContent += `<li><strong>${ref.cita}:</strong> ${ref.explicacion}</li>`;
-                        });
-                        htmlContent += `</ul></div>`;
+                        htmlContent += `
+                            <div class="concordance-box" style="background: rgba(15, 23, 42, 0.4); border-radius: 16px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(212, 180, 131, 0.1);">
+                                <h4 class="concordance-title" style="color: var(--gold); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 2rem; border-bottom: 1px solid rgba(212, 180, 131, 0.2); padding-bottom: 10px;">📖 Concordancia y Revelación</h4>
+                                <div class="concordance-items" style="display: flex; flex-direction: column; gap: 2rem;">
+                                    ${bloque.referencias.map(ref => {
+                                        // Lógica de extracción inteligente para compatibilidad
+                                        let vText = ref.versiculo || "";
+                                        let rText = ref.revelacion || "";
+                                        
+                                        if (!vText && ref.texto) {
+                                            if (ref.texto.includes('REVELACIÓN:')) {
+                                                const parts = ref.texto.split('REVELACIÓN:');
+                                                vText = parts[0].replace('📖', '').trim();
+                                                rText = parts[1].trim();
+                                            } else {
+                                                vText = ref.texto;
+                                            }
+                                        }
+
+                                        if (!vText && ref.explicacion && ref.explicacion.includes('📖')) {
+                                            const parts = ref.explicacion.split('REVELACIÓN:');
+                                            vText = parts[0].replace('📖', '').trim();
+                                            rText = parts[1] ? parts[1].trim() : "";
+                                        }
+
+                                        const displayExplicacion = rText || ref.explicacion || "";
+
+                                        return `
+                                            <div class="concordance-item" style="border-left: 2px solid var(--gold); padding-left: 1.5rem; position: relative;">
+                                                <strong style="color: var(--gold); display: block; margin-bottom: 0.8rem; font-size: 1.1rem; letter-spacing: 0.5px;">${ref.cita}</strong>
+                                                ${vText ? `<p style="font-family: var(--font-book); font-style: italic; color: #cbd5e1; line-height: 1.7; margin-bottom: 1rem; font-size: 1.05rem;">"${vText.replace(/^"|"$/g, '')}"</p>` : ''}
+                                                <div style="background: rgba(212, 180, 131, 0.05); padding: 12px 15px; border-radius: 8px; border: 1px solid rgba(212, 180, 131, 0.1);">
+                                                    <span style="color: var(--gold); font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; display: block; margin-bottom: 5px;">🗝️ Revelación</span>
+                                                    <p style="font-size: 0.95rem; color: #94a3b8; margin: 0; line-height: 1.5;">${displayExplicacion.replace(/<br>/g, '')}</p>
+                                                </div>
+                                            </div>
+                                        `;
+                                    }).join('')}
+                                </div>
+                            </div>
+                        `;
                     } else if (bloque.tipo === 'aplicacion') {
                         htmlContent += `
                             <div class="application-section">

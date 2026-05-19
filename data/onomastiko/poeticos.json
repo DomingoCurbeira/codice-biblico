@@ -1,191 +1,527 @@
 [
-    {
-        "id": "onoma-job-vision",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "poeticos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1c1917",
-            "color_acento": "#eab308",
-            "avatar_url": "../img/perfiles/job-prospero.webp",
-            "gradiente": "linear-gradient(135deg, #44403c 0%, #0c0a09 100%)"
-        },
-        "perfil_card": {
-            "nombre_principal": "Job",
-            "subtitulo_rol": "El Hombre de Uz",
-            "bio_resumen": "Un hombre íntegro y recto que lo perdió todo en un día. Su historia es el escenario de la pregunta eterna sobre el sufrimiento, demostrando que la fe no se basa en lo que Dios da, sino en quién es Dios.",
-            "logro_destacado": "Fidelidad en la Prueba",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "job", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "job-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "tierra-uz", "tooltip": "Cronos" }
-            ]
-        },
-        "fases": {
-            "nueva": {
-                "nombre": "Iyyov",
-                "titulo": "El que Vio a Dios",
-                "avatar": "../img/perfiles/job.webp",
-                "bio": "Después del torbellino, su queja se convirtió en adoración. 'De oídas te había oído; mas ahora mis ojos te ven'. Su identidad fue filtrada por el fuego para recibir una revelación que trasciende la lógica humana.",
-                "etymos_id": "job-pneuma-he"
-            }
-        },
-        "datos_identidad": {
-            "original_idioma": "אִיּוֹב",
-            "transliteracion": "Iyyóv",
-            "significado_core": "Aquel que se vuelve / Arrepentimiento",
-            "perla_profunda": "El silencio de Dios no es ausencia; es la preparación para que Su voz suene más fuerte en el torbellino."
-        },
-        "tags": ["sabiduria", "prueba", "uz", "job", "restauracion"]
+  {
+    "id": "onoma-job-vision",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "poeticos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1c1917",
+      "color_acento": "#eab308",
+      "avatar_url": "img/perfiles/job-prospero.webp",
+      "gradiente": "linear-gradient(135deg, #44403c 0%, #0c0a09 100%)"
     },
-    {
-        "id": "onoma-sulamita-esposa",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "poeticos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#78350f",
-            "color_acento": "#be123c",
-            "avatar_url": "../img/perfiles/sulamita.webp",
-            "gradiente": "linear-gradient(135deg, #451a03 0%, #831843 100%)"
+    "fases": [
+      {
+        "nombre": "Job",
+        "titulo": "El Hombre de Uz (Prosperidad Física)",
+        "avatar_url": "img/perfiles/job-prospero.webp",
+        "jurisdiccion": "Integridad en la Abundancia y Sacrificio por Temor",
+        "etymos": {
+          "original": "אִיּוֹב",
+          "transliteracion": "Iyyóv",
+          "significado_legal": "Aquel que se vuelve / El que es perseguido. Representa un diseño que debe ser filtrado para encontrar su verdadera raíz."
         },
-        "perfil_card": {
-            "nombre_principal": "La Sulamita",
-            "subtitulo_rol": "La Amada del Cantar",
-            "bio_resumen": "Representa el alma en busca de su Creador. Una mujer que, aunque marcada por el sol del trabajo arduo, es reconocida por su belleza interior y su lealtad inquebrantable al Amado.",
-            "logro_destacado": "Unión Perfecta",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "sulamita", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "sulamita-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "en-gadi-poetico", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Cerco Protector",
+          "texto": "Satanás le dijo a Dios: \"¿No le has cercado alrededor a él y a su casa?\". El misterio técnico es que la prosperidad de Job no era casualidad, era un perímetro legal de protección divina. Sin embargo, Job sacrificaba diariamente por miedo a que sus hijos pecaran. Su misterio es el del hombre que sirve a Dios por gratitud pero mantiene una \"puerta trasera\" abierta por causa del temor al juicio. La prueba no fue un castigo, fue el desmantelamiento de su miedo para activar su visión."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Shulammit",
-                "titulo": "La Esposa del Rey",
-                "avatar": "../img/perfiles/sulamita-reina.webp",
-                "bio": "Al encontrarse con el Rey, su identidad es elevada. Ya no es la que guarda viñas ajenas, sino la que reina en el jardín del Amado, envuelta en especias y lino fino.",
-                "etymos_id": "shalam-he"
+        "transferencia_codigo": {
+          "titulo": "Saliendo de la Teología Retributiva",
+          "puntos": [
+            {
+              "concepto": "Dios no es un Auditor",
+              "cita": "Job 1:5",
+              "ejemplo_real": "¿Haces cosas religiosas solo para que no te pase nada malo? Job sacrificaba por miedo. Aprende a servir a Dios por el valor de Su diseño, no como un seguro de vida contra las crisis. La Gracia elimina el pánico al castigo."
+            },
+            {
+              "concepto": "Aceptar lo amargo y lo dulce",
+              "cita": "Job 2:10",
+              "ejemplo_real": "Cuando pierdas un negocio o un ser querido, no culpes a Dios de inmediato. La madurez inicial es reconocer que el Soberano tiene una perspectiva macro que tú no ves hoy. Tu integridad no puede depender de tus resultados."
+            },
+            {
+              "concepto": "El valor del silencio de los amigos",
+              "cita": "Job 2:13",
+              "ejemplo_real": "Los amigos de Job le ayudaron más cuando estuvieron callados que cuando intentaron explicar su dolor. Si alguien a tu alrededor sufre, a veces tu presencia silenciosa y tu empatía técnica son más potentes que tus sermones explicativos."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "שׁוּלַמִּית",
-            "transliteracion": "Shulammit",
-            "significado_core": "Pacífica / Perfeccionada / Completa",
-            "perla_profunda": "El amor no solo te encuentra, el amor te define. Tu identidad alcanza su plenitud cuando descansas en el diseño de quien te amó primero."
+        "eco_de_cristo": "Job perdiendo sus bienes y familia prefigura a Cristo despojándose de Su gloria para enfrentar el sufrimiento humano por nosotros."
+      },
+      {
+        "nombre": "Iyyov",
+        "titulo": "El que Vio a Dios (Revelación)",
+        "avatar_url": "img/perfiles/job.webp",
+        "jurisdiccion": "Intercesor Procesado y Revelador de la Soberanía Cósmica",
+        "etymos": {
+          "original": "אִיּוֹב",
+          "transliteracion": "Iyyóv",
+          "significado_legal": "El que se vuelve al Padre tras el fuego."
         },
-        "tags": ["amor", "poesia", "paz", "shalom", "cantar"]
+        "misterio_escudrinado": {
+          "titulo": "La Visión del Torbellino",
+          "texto": "Dios respondió a Job desde un torbellino, no con explicaciones, sino con 70 preguntas sobre la creación (Behemot, Leviatán, las Pléyades). El misterio es que Job no necesitaba entender POR QUÉ sufría, necesitaba entender QUIÉN gobernaba. Al ver la magnitud del Diseño Universal, su problema personal colapsó ante la Gloria. Lo sorprendente es que solo cuando Job oró por sus amigos (quienes lo juzgaron), Dios restauró su herencia al doble. El misterio es: **La intercesión por el ofensor es la llave técnica de la restitución total.**"
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando en la Restitución",
+          "puntos": [
+            {
+              "concepto": "De oídas a vista",
+              "cita": "Job 42:5",
+              "ejemplo_real": "Deja de vivir de la fe de otros o de lo que oíste en un video. Busca tu propio encuentro en el \"torbellino\" de tu crisis. Cuando tus ojos vean a Dios en medio de tu dolor, tu queja se convertirá en una autoridad que nadie podrá rebatir."
+            },
+            {
+              "concepto": "Orar por los que te hirieron",
+              "cita": "Job 42:10",
+              "ejemplo_real": "¿Alguien te traicionó o juzgó en tu peor momento? Haz el ejercicio legal de bendecirlos en oración. Esa liberación de tu corazón es lo que quita el bloqueo para que el doble de tu bendición pueda ser liberado desde el Cielo."
+            },
+            {
+              "concepto": "Confiar en el Redentor Vivo",
+              "cita": "Job 19:25",
+              "ejemplo_real": "En su peor miseria, Job declaró: \"Yo sé que mi Redentor vive\". Mantén una confesión técnica de victoria aunque tu cuerpo o tus finanzas digan lo contrario. Tu palabra de fe es un contrato que obliga al Cielo a manifestarse."
+            }
+          ]
+        },
+        "eco_de_cristo": "Job terminó su proceso bendiciendo a sus amigos; Jesús terminó Su sacrificio pidiendo perdón por Sus ejecutores. Ambos demuestran que la intercesión es el fruto final del quebrantamiento."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "job",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "job-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "tierra-uz",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "sabiduria",
+      "prueba",
+      "restauracion"
+    ]
+  },
+  {
+    "id": "onoma-sulamita-esposa",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "poeticos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#78350f",
+      "color_acento": "#be123c",
+      "avatar_url": "img/perfiles/sulamita.webp",
+      "gradiente": "linear-gradient(135deg, #451a03 0%, #831843 100%)"
     },
-    {
-        "id": "onoma-david-salmista",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "poeticos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#1e3a8a",
-            "color_acento": "#60a5fa",
-            "avatar_url": "../img/perfiles/david-cueva.webp",
-            "gradiente": "linear-gradient(135deg, #172554 0%, #1e1b4b 100%)"
+    "fases": [
+      {
+        "nombre": "La Sulamita",
+        "titulo": "La Amada del Cantar (Identidad por Obra)",
+        "avatar_url": "img/perfiles/sulamita.webp",
+        "jurisdiccion": "Alma en Proceso de Búsqueda y Despertar",
+        "etymos": {
+          "original": "שׁוּלַמִּית",
+          "transliteracion": "Shulammit",
+          "significado_legal": "La de Salem / La de la Paz. Representa un diseño destinado a la armonía absoluta."
         },
-        "perfil_card": {
-            "nombre_principal": "El Salmista",
-            "subtitulo_rol": "El Dulce Cantor de Israel",
-            "bio_resumen": "Representa el alma que atraviesa el 'Valle de Sombra de Muerte'. Su identidad no se basa en sus victorias externas, sino en su capacidad de derramar su corazón ante el Creador en medio de la angustia.",
-            "logro_destacado": "Corazón Conforme a Dios",
-            "iconos_accion": [
-                { "tipo": "huellas", "id": "david", "tooltip": "Huellas" },
-                { "tipo": "etymos", "id": "mizmor-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "valle-sombra-muerte", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "La Piel Morena por el Sol",
+          "texto": "Ella dice: \"No reparéis en que soy morena, porque el sol me miró\". El misterio es que ella trabajaba guardando viñas AJENAS y descuidó su propia viña. Lo sorprendente es que el Rey no la amó por su piel perfecta, sino por su esencia. El misterio técnico es que el sistema del mundo (el sol) puede maltratar tu apariencia o tus emociones, pero no puede tocar el diseño de realeza que el Amado ve en ti."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Tehillim",
-                "titulo": "El Adorador del Trono",
-                "avatar": "../img/perfiles/david-arpa.webp",
-                "bio": "Cuando el lamento se convierte en danza. En esta fase, el Salmista entiende que su alabanza es un arma de guerra que activa el diseño celestial en la tierra.",
-                "etymos_id": "tehillah-he"
+        "transferencia_codigo": {
+          "titulo": "Recuperando tu Propia Viña",
+          "puntos": [
+            {
+              "concepto": "Deja de guardar viñas ajenas",
+              "cita": "Cantares 1:6",
+              "ejemplo_real": "¿Vives intentando complacer las expectativas de todos (jefes, amigos, sociedad) mientras tu propia paz y propósito están descuidados? Prioriza hoy tu sintonía con Dios. No puedes dar fruto en campos ajenos si el tuyo está en ruinas."
+            },
+            {
+              "concepto": "Identidad sobre apariencia",
+              "cita": "Cantares 1:5",
+              "ejemplo_real": "Aunque te sientas \"quemado\" por la vida o por tus errores, para Dios eres \"hermosa\". Deja de juzgarte por tu exterior o por tu pasado laboral. Tu valor es un decreto del Rey, no una opinión del espejo."
+            },
+            {
+              "concepto": "El despertar del amor",
+              "cita": "Cantares 2:7",
+              "ejemplo_real": "No fuerces tus procesos espirituales por presión externa. El diseño de Dios tiene sus propios tiempos de maduración. Aprende a descansar en la etapa en la que estás hoy sin angustiante por lo que aún no despierta."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "תְּהִלִּים",
-            "transliteracion": "Tehillim",
-            "significado_core": "Alabanzas / Cantos de Exaltación",
-            "perla_profunda": "La adoración no cambia a Dios, cambia tu identidad para que puedas ver a Dios en medio de cualquier valle."
-        }
+        "eco_de_cristo": "La Sulamita buscando al amado por las plazas prefigura el hambre del alma humana que solo puede ser saciada por el encuentro con Cristo."
+      },
+      {
+        "nombre": "Shulammit",
+        "titulo": "La Esposa del Rey (Identidad por Gracia)",
+        "avatar_url": "img/perfiles/sulamita-reina.webp",
+        "jurisdiccion": "Reina del Jardín Cerrado y Fuente de Sintonía Perfecta",
+        "etymos": {
+          "original": "שׁוּלַמִּית",
+          "transliteracion": "Shulammit",
+          "significado_legal": "Pacífica / Perfeccionada / La que ha alcanzado la plenitud del Shalom."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Huerto Cerrado",
+          "texto": "El Rey la llama \"Huerto cerrado... fuente sellada\". El misterio es que su intimidad ya no está disponible para el mercado del mundo, sino solo para el Dueño del Diseño. Lo sorprendente es que ella se convierte en un \"ejército en orden\" (Cantares 6:10). El misterio técnico es que la mayor fuerza de guerra en el Reino no es el ruido, sino la paz inquebrantable de quien se sabe amado. La esposa es el rastro del alma que ha dejado de buscar para empezar a reinar."
+        },
+        "transferencia_codigo": {
+          "titulo": "Reinando en el Reposo",
+          "puntos": [
+            {
+              "concepto": "Eres un Huerto Cerrado",
+              "cita": "Cantares 4:12",
+              "ejemplo_real": "Protege tu mente y tu corazón de las influencias tóxicas. No todo el mundo tiene permiso legal para entrar en tu intimidad espiritual. Pon filtros a lo que oyes y ves; tú eres un santuario privado para la gloria de Dios."
+            },
+            {
+              "concepto": "La fuerza del sello",
+              "cita": "Cantares 8:6",
+              "ejemplo_real": "Pon al amor de Dios como un sello sobre tu corazón. Cuando las dudas vengan, recuerda que eres propiedad privada del Rey. Ese sello es tu garantía de que nada podrá separarte de Su propósito."
+            },
+            {
+              "concepto": "Caminar como un ejército",
+              "cita": "Cantares 6:10",
+              "ejemplo_real": "Tu autoridad real se nota cuando caminas con orden y paz en medio de la confusión. El maduro es aquel que intimida al enemigo no con gritos, sino con la elegancia de su sintonía divina."
+            }
+          ]
+        },
+        "eco_de_cristo": "El Cantar de los Cantares es el mapa técnico de la relación entre Cristo y Su Iglesia, culminando en la unión eterna de las Bodas del Cordero."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "sulamita",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "sulamita-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "en-gadi-poetico",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "amor",
+      "paz",
+      "cantar"
+    ]
+  },
+  {
+    "id": "onoma-david-salmista",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "poeticos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#1e3a8a",
+      "color_acento": "#60a5fa",
+      "avatar_url": "img/perfiles/david-cueva.webp",
+      "gradiente": "linear-gradient(135deg, #172554 0%, #1e1b4b 100%)"
     },
-    {
-        "id": "onoma-qohelet-sabio",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "poeticos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#451a03",
-            "color_acento": "#fbbf24",
-            "avatar_url": "../img/perfiles/qohelet-vanidad.webp",
-            "gradiente": "linear-gradient(135deg, #292524 0%, #44403c 100%)"
+    "fases": [
+      {
+        "nombre": "Mizmór",
+        "titulo": "El Cantor de la Cueva (Proceso)",
+        "avatar_url": "img/perfiles/david-cueva.webp",
+        "jurisdiccion": "Alma en el Valle de Sombra y Procesamiento Emocional",
+        "etymos": {
+          "original": "מִזְמוֹר",
+          "transliteracion": "Mizmór",
+          "significado_legal": "Salmo / Melodía pulsada. Representa la vibración de un diseño que está siendo \"tocado\" por el dedo de Dios a través del dolor."
         },
-        "perfil_card": {
-            "nombre_principal": "El Predicador",
-            "subtitulo_rol": "La Voz de la Sabiduría",
-            "bio_resumen": "Aquel que analiza la vida 'bajo el sol'. Representa el proceso de despojo de las vanidades temporales para encontrar el propósito eterno.",
-            "logro_destacado": "Conclusión de la Sabiduría",
-            "iconos_accion": [
-                { "tipo": "etymos", "id": "qohelet-he", "tooltip": "Etymos" },
-                { "tipo": "cronos", "id": "templo-jerusalen", "tooltip": "Cronos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "La Cueva de Adulam",
+          "texto": "David escribió muchos salmos huyendo de Saúl en cuevas oscuras. El misterio es que en la oscuridad, el sonido rebota y se amplifica. Lo sorprendente es que Dios usó el eco de la soledad de David para crear el cancionero eterno de la humanidad. El misterio técnico es que tu alabanza más potente no nace en el escenario, sino en el lugar donde te sientes atrapado. El Salmista es el rastro del hombre que convierte su queja en una melodía que Dios decide guardar por la eternidad."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Sof-Davar",
-                "titulo": "El Fin del Discurso",
-                "avatar": "../img/perfiles/qohelet-revelacion.webp",
-                "bio": "Al final del camino, el sabio entiende que el todo del hombre es temer a Dios y guardar sus mandamientos. Es la transición de la filosofía humana al temor reverente.",
-                "etymos_id": "yirah-he"
+        "transferencia_codigo": {
+          "titulo": "Cantando en la Oscuridad",
+          "puntos": [
+            {
+              "concepto": "Derramar el alma legalmente",
+              "cita": "Salmo 142:1-2",
+              "ejemplo_real": "No reprimas tu dolor ante Dios. David decía: \"Delante de él expondré mi queja\". La honestidad técnica es el requisito para la sanidad. Dile al Padre exactamente cómo te sientes; tu transparencia abre el flujo de Su consuelo."
+            },
+            {
+              "concepto": "Cena en presencia de enemigos",
+              "cita": "Salmo 23:5",
+              "ejemplo_real": "Aprende a disfrutar de la provisión de Dios aunque tengas problemas alrededor. No esperes a que tus \"enemigos\" (deudas, juicios, enfermedades) desaparezcan para sentarte a la mesa. Tu paz es una declaración de guerra contra el caos."
+            },
+            {
+              "concepto": "Auto-exhortación espiritual",
+              "cita": "Salmo 42:5",
+              "ejemplo_real": "David le preguntaba a su propia alma: \"¿Por qué te abates?\". A veces tienes que predicarte a ti mismo. No permitas que tus emociones gobiernen tu diseño; recuerda a tu alma quién es tu Dios."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "קֹהֶלֶת",
-            "transliteracion": "Qohélet",
-            "significado_core": "Aquel que convoca / El que habla a la asamblea",
-            "perla_profunda": "La verdadera sabiduría comienza donde termina la confianza en uno mismo."
-        }
+        "eco_de_cristo": "David en la cueva prefigura a Jesús en la angustia de Getsemaní, sudando gotas de sangre mientras rendía Su voluntad al Padre."
+      },
+      {
+        "nombre": "Tehillím",
+        "titulo": "El Adorador del Trono (Ascenso)",
+        "avatar_url": "img/perfiles/david-arpa.webp",
+        "jurisdiccion": "Establecedor de la Atmósfera de Sión y Guerrero Alabador",
+        "etymos": {
+          "original": "תְּהִלִּים",
+          "transliteracion": "Tehillím",
+          "significado_legal": "Alabanzas / El resplandor del canto que sube al Trono."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Tabernáculo sin Velos",
+          "texto": "David puso el Arca en una tienda abierta donde se alababa 24/7. El misterio técnico es que saltó por encima de la Ley de Moisés para operar en una Gracia futura. Lo sorprendente es que Dios no lo mató por tocar lo sagrado, sino que habitó en su alabanza. El misterio es que la música ungida es una tecnología que rasga el velo entre dimensiones. El Salmista en esta fase ya no pide ayuda; él impone la frecuencia del Cielo sobre la tierra."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando por Frecuencia",
+          "puntos": [
+            {
+              "concepto": "Habitar en las alturas",
+              "cita": "Salmo 24:3-4",
+              "ejemplo_real": "Si quieres influir en tu entorno, mantén tu sintonía alta. No te involucres en chismes, quejas o amarguras. El maduro mantiene sus manos limpias y su corazón puro para poder operar desde la montaña de la presencia de Dios."
+            },
+            {
+              "concepto": "La Alabanza como Arma",
+              "cita": "Salmo 149:6",
+              "ejemplo_real": "David tenía \"exaltaciones de Dios en su garganta y una espada de dos filos en su mano\". Entiende que tu adoración hoy es lo que debilita las defensas del enemigo mañana. No cantes solo por emoción; canta para establecer justicia."
+            },
+            {
+              "concepto": "Generar un legado de gozo",
+              "cita": "Salmo 100",
+              "ejemplo_real": "David escribió para las generaciones futuras. Vive de tal manera que tu alegría y tu fe inspiren a tus hijos y nietos a buscar al mismo Dios que te sostuvo a ti. Tu rastro de alabanza es su mapa de victoria."
+            }
+          ]
+        },
+        "eco_de_cristo": "Cristo es el Gran Salmista que cantó el himno antes de ir a la cruz y quien hoy dirige la alabanza de Su pueblo en medio de la congregación (Hebreos 2:12)."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "david",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "tehillah-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "valle-sombra-muerte",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "adoración",
+      "salmos",
+      "david"
+    ]
+  },
+  {
+    "id": "onoma-qohelet-sabio",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "poeticos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#451a03",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/qohelet-vanidad.webp",
+      "gradiente": "linear-gradient(135deg, #292524 0%, #44403c 100%)"
     },
-    {
-        "id": "onoma-mujer-virtuosa",
-        "seccion": "ONOMASTIKO",
-        "archivo_fuente": "poeticos.json",
-        "tiene_transicion": true,
-        "config_tarjeta": {
-            "color_primario": "#831843",
-            "color_acento": "#f9a8d4",
-            "avatar_url": "../img/perfiles/mujer-fuerza.webp",
-            "gradiente": "linear-gradient(135deg, #500724 0%, #881337 100%)"
+    "fases": [
+      {
+        "nombre": "Qohélet",
+        "titulo": "El Predicador (Escrutinio Humano)",
+        "avatar_url": "img/perfiles/qohelet-vanidad.webp",
+        "jurisdiccion": "Analista de la Realidad bajo el Sol y la Vanidad Temporal",
+        "etymos": {
+          "original": "קֹהֶלֶת",
+          "transliteracion": "Qohélet",
+          "significado_legal": "Aquel que convoca a la asamblea / El recolector de verdades."
         },
-        "perfil_card": {
-            "nombre_principal": "Mujer Virtuosa",
-            "subtitulo_rol": "Eshet Chayil",
-            "bio_resumen": "El arquetipo de la sabiduría en acción. Su nombre no se refiere solo a la moral, sino a la fuerza militar y el valor estratégico aplicado a la vida diaria.",
-            "logro_destacado": "Corona de su Marido",
-            "iconos_accion": [
-                { "tipo": "etymos", "id": "chayil-he", "tooltip": "Etymos" }
-            ]
+        "misterio_escudrinado": {
+          "titulo": "El Límite del Sistema \"Bajo el Sol\"",
+          "texto": "Qohélet usó todo su poder y riqueza para probar cada placer y conocimiento humano. El misterio es que su conclusión fue: \"Todo es vanidad (Hével)\". El término Hével significa vapor o humo; algo que parece real pero no se puede retener. Lo sorprendente es que su frustración no fue un pecado, sino el diagnóstico técnico de que el ser humano está diseñado para la eternidad y nada temporal puede saciarlo. Qohélet representa el despertar del hombre que descubre que el éxito terrenal es insuficiente."
         },
-        "fases": {
-            "nueva": {
-                "nombre": "Corona Real",
-                "titulo": "Dignidad y Honor",
-                "avatar": "../img/perfiles/mujer-corona.webp",
-                "bio": "Fuerza y honor son su vestidura; y se ríe de lo por venir. Representa la identidad que no teme al futuro porque está cimentada en la gestión sabia del presente.",
-                "etymos_id": "tipharah-he"
+        "transferencia_codigo": {
+          "titulo": "Discerniendo el Humo",
+          "puntos": [
+            {
+              "concepto": "No persigas el viento",
+              "cita": "Eclesiastés 1:14",
+              "ejemplo_real": "¿Estás agotado tratando de alcanzar una meta que siempre se mueve? (más fama, más dinero, más likes). Si tu felicidad depende de cosas que se desvanecen, estás persiguiendo humo. Busca el propósito que permanece cuando el \"sol\" se pone."
+            },
+            {
+              "concepto": "Tiempo para todo",
+              "cita": "Eclesiastés 3:1",
+              "ejemplo_real": "Aprende a respetar los ciclos técnicos de la vida. Hay tiempos de sembrar y de cosechar. No intentes apurar los resultados en tu negocio o familia si el diseño dice que hoy es tiempo de esperar. La paz nace de aceptar la temporada actual."
+            },
+            {
+              "concepto": "El valor del presente",
+              "cita": "Eclesiastés 9:7",
+              "ejemplo_real": "Qohélet recomienda comer tu pan con alegría. No pospongas tu bienestar para un futuro que no controlas. Disfruta de las bendiciones simples que Dios te da hoy (familia, salud, comida); son los dividendos reales de la Gracia."
             }
+          ]
         },
-        "datos_identidad": {
-            "original_idioma": "אֵשֶׁת חַיִל",
-            "transliteracion": "Eshet Chayil",
-            "significado_core": "Mujer de Valor / Fuerza / Ejército",
-            "perla_profunda": "Tu valor no se mide por lo que haces, sino por la fuerza espiritual con la que edificas tu entorno."
-        }
-    }
+        "eco_de_cristo": "Qohélet representa la sed del hombre; Jesús es el Agua Viva que sacia esa sed para siempre."
+      },
+      {
+        "nombre": "Sof-Davár",
+        "titulo": "El Fin del Discurso (Conclusión)",
+        "avatar_url": "img/perfiles/qohelet-revelacion.webp",
+        "jurisdiccion": "Revelador del Temor Reverente como Base de la Realidad",
+        "etymos": {
+          "original": "סוֹף דָּבָר",
+          "transliteracion": "Sof-Davár",
+          "significado_legal": "La conclusión de la materia / El decreto final."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Todo del Hombre",
+          "texto": "Al final de su búsqueda, el sabio llega al código maestro: \"Teme a Dios, y guarda sus mandamientos; porque esto es el todo del hombre\". El misterio es que el \"Temor de Jehová\" no es miedo, es la sintonía máxima con la autoridad del Creador. Lo sorprendente es que Dios juzgará toda obra, secreta o no. El misterio técnico es que solo lo que se hace en obediencia al Diseño tiene el peso legal para trascender el sol y entrar en la eternidad. Sof-Davár es el rastro de la madurez que deja de preguntar por qué para empezar a obedecer."
+        },
+        "transferencia_codigo": {
+          "titulo": "Viviendo en la Conclusión",
+          "puntos": [
+            {
+              "concepto": "Temor como Inteligencia",
+              "cita": "Proverbios 1:7",
+              "ejemplo_real": "Vivir en el temor de Dios es simplemente reconocer que Él tiene la razón en todo. Ante un dilema ético en tu trabajo, no elijas lo más fácil, elige lo que Dios dice. Esa es la verdadera ventaja competitiva del sabio."
+            },
+            {
+              "concepto": "El Todo del Hombre",
+              "cita": "Eclesiastés 12:13",
+              "ejemplo_real": "Tu propósito no es algo que tú inventas, es algo que tú descubres. Tu \"todo\" es estar alineado con la Instrucción. Cuando dejas de luchar por crear tu propio sentido de vida y aceptas el de Dios, el estrés desaparece y la plenitud toma su lugar."
+            },
+            {
+              "concepto": "Invertir en la Eternidad",
+              "cita": "Eclesiastés 12:14",
+              "ejemplo_real": "Recuerda que cada acto tiene un registro en el Cielo. Haz las cosas con excelencia porque sabes que tu Auditor final es Dios y no el hombre. El maduro trabaja para el Reino que no tiene fin."
+            }
+          ]
+        },
+        "eco_de_cristo": "Jesús es la Palabra (Logos) final; Él es el Sof-Davár encarnado que cierra el discurso de la ley para abrir el de la Vida."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "etymos",
+        "id": "yirah-he",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "templo-jerusalen",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "sabiduría",
+      "filosofía",
+      "sentido"
+    ]
+  },
+  {
+    "id": "onoma-mujer-virtuosa",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "poeticos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#831843",
+      "color_acento": "#f9a8d4",
+      "avatar_url": "img/perfiles/mujer-fuerza.webp",
+      "gradiente": "linear-gradient(135deg, #500724 0%, #881337 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Mujer Virtuosa",
+        "titulo": "La Administradora del Hogar (Moral)",
+        "avatar_url": "img/perfiles/mujer-fuerza.webp",
+        "jurisdiccion": "Gestión Técnica de la Jurisdicción Familiar",
+        "etymos": {
+          "original": "אֵשֶׁת חַיִל",
+          "transliteracion": "Eshet Cháyil",
+          "significado_legal": "Mujer de Valor / Fuerza / Poder. El rastro de un diseño que opera como un ejército organizado."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Lino y la Púrpura",
+          "texto": "Ella se hace tapices; de lino fino y púrpura es su vestido. El misterio técnico es que el lino representa la justicia de los santos y la púrpura la realeza. Lo sorprendente es que esta mujer no es solo un ama de casa; es una empresaria que compra campos, planta viñas y comercia con mercaderes. Su misterio es que su labor física en el hogar es un acto legal que establece el Reino en su territorio. La mujer virtuosa es el rastro del diseño que convierte lo cotidiano en algo sagrado y productivo."
+        },
+        "transferencia_codigo": {
+          "titulo": "Edificando con Poder",
+          "puntos": [
+            {
+              "concepto": "El valor sobre las piedras",
+              "cita": "Proverbios 31:10",
+              "ejemplo_real": "Tu valor legal es muy superior al de las piedras preciosas. No permitas que el mercado te ponga precio por tu apariencia o tu sueldo. Tu estima nace de la fuerza espiritual con la que sostienes tu casa y tus proyectos."
+            },
+            {
+              "concepto": "La lámpara encendida",
+              "cita": "Proverbios 31:18",
+              "ejemplo_real": "Su lámpara no se apaga de noche. Esto representa la vigilancia espiritual. Sé el centinela de tu hogar; mantente alerta ante las influencias que intentan entrar en tu familia. Tu oración nocturna es el blindaje del día siguiente."
+            },
+            {
+              "concepto": "La ley de la clemencia",
+              "cita": "Proverbios 31:26",
+              "ejemplo_real": "Ella abre su boca con sabiduría y la ley de la clemencia está en su lengua. Usa tus palabras para edificar y sanar, no para juzgar. La sabiduría real es la que sabe corregir con amor técnico, restaurando el diseño en lugar de destruir a la persona."
+            }
+          ]
+        },
+        "eco_de_cristo": "La Mujer Virtuosa prefigura a la Iglesia fiel que prepara el vestido de lino fino para las bodas del Cordero."
+      },
+      {
+        "nombre": "Eshet Cháyil",
+        "titulo": "Dignidad y Honor (Rango)",
+        "avatar_url": "img/perfiles/mujer-corona.webp",
+        "jurisdiccion": "Guerrera de Sintonía y Matriz de Influencia Real",
+        "etymos": {
+          "original": "אֵשֶׁת חַיִל",
+          "transliteracion": "Eshet Cháyil",
+          "significado_legal": "Mujer Ejército / Valiente. El diseño transformado en una fuerza de conquista imparable."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Risa del Futuro",
+          "texto": "Fuerza y honor son su vestidura; y se ríe de lo por venir. El misterio es que ella no teme al futuro porque ha blindado su presente con el Diseño. Lo sorprendente es que su marido es conocido en las puertas de la ciudad por causa de ella. El misterio técnico es que la Mujer de Poder (Cháyil) es la que otorga el rango legal a su entorno. Ella no solo sobrevive al mañana; ella se ríe de él porque su sintonía con el Eterno es total. Es la victoria absoluta sobre la ansiedad."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando sobre el Mañana",
+          "puntos": [
+            {
+              "concepto": "Vestirse de Honor",
+              "cita": "Proverbios 31:25",
+              "ejemplo_real": "Deja de vestirte de queja o de inseguridad. Tu ropa espiritual es el Honor de Dios. Actúa con la dignidad de quien sabe que es hija de un Rey. Tu postura interna determina Tu impacto externo."
+            },
+            {
+              "concepto": "Reírse de las crisis",
+              "cita": "Proverbios 31:25",
+              "ejemplo_real": "Cuando oigas noticias de crisis económica o problemas mundiales, ríete con la risa de la Eshet Cháyil. Tu provisión no viene del sistema de abajo, viene del diseño de arriba. La risa técnica es la prueba de que confías plenamente en el Anfitrión."
+            },
+            {
+              "concepto": "Ser una corona real",
+              "cita": "Proverbios 12:4",
+              "ejemplo_real": "La mujer virtuosa es corona de su marido. Tu influencia debe elevar el rango de quienes te rodean. Sé una persona que empodera, que da brillo y que honra el diseño de su pareja, sus hijos y su equipo de trabajo. Tu éxito es el éxito de tu comunidad."
+            }
+          ]
+        },
+        "eco_de_cristo": "La Eshet Cháyil es el eco de la Sabiduría de Dios que habitó entre nosotros en la persona de Jesucristo."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "etymos",
+        "id": "chayil-he",
+        "tooltip": "Etymos"
+      }
+    ],
+    "tags": [
+      "fuerza",
+      "honor",
+      "mujer"
+    ]
+  }
 ]

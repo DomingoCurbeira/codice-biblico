@@ -1,0 +1,194 @@
+[
+  {
+    "id": "onoma-adan-prototipo",
+    "seccion": "ONOMASTIKO",
+    "jurisdiccion": "Administración del Diseño Original y Custodia del Edén",
+    "config_visual": {
+      "color_primario": "#3E2723",
+      "color_acento": "#81C784",
+      "avatar_url": "../img/perfiles/adan.webp",
+      "gradiente": "linear-gradient(135deg, #1B5E20 0%, #3E2723 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Adán",
+      "nombre_diseno": "El Prototipo (Ha-Adám)",
+      "etymos": {
+        "original": "אָדָם",
+        "transliteracion": "Adám",
+        "significado_legal": "Tierra Roja / El que pertenece a la especie humana por diseño divino."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Código Nishmat Chayyim",
+      "texto": "El detalle sorprendente en la creación de Adán es que Dios no solo le dio vida biológica (Bios), sino que sopló en él 'Nishmat Chayyim' (Aliento de Vidas, en plural). Esto significa que Adán fue diseñado para operar simultáneamente en dos mundos: el físico y el espiritual. Su caída no fue una muerte física inmediata, sino una 'desconexión de frecuencia'. Adán dejó de oír la voz de Dios como una realidad natural para oírla como un juicio externo."
+    },
+    "transferencia_codigo": {
+      "titulo": "Restaurando la Percepción Original",
+      "puntos": [
+        {
+          "concepto": "El Hackeo del Miedo",
+          "ejemplo_real": "Cuando cometes un error y tu primer impulso es esconderte de Dios o sentir que Él te va a castigar, estás operando bajo el 'virus' de Adán. El diseño original no huye, se acerca para ser restaurado. No te escondas tras las 'hojas de higuera' de tus excusas."
+        },
+        {
+          "concepto": "Hardware de Polvo, Software de Espíritu",
+          "ejemplo_real": "Tu cuerpo y tus limitaciones (el polvo) no definen tu capacidad. Al igual que Adán, tu poder reside en el 'aliento' (el software) que Dios puso en ti. Si hoy te sientes 'polvo' e inútil, sintoniza con el Espíritu Santo para recordar que eres un portador de la conciencia de Dios."
+        },
+        {
+          "concepto": "Jurisdicción sobre el Caos",
+          "ejemplo_real": "A Adán se le dio la orden de 'sojuzgar'. Esto significa que tienes permiso legal para poner orden en el caos de tu casa, tus finanzas o tus emociones. No esperes a que el caos se vaya solo; usa tu autoridad de diseño para llamarlo al orden."
+        }
+      ]
+    },
+    "eco_de_cristo": "Cristo es el 'Postrer Adán'. Donde el primero falló en un jardín bajo condiciones perfectas, Jesús venció en un desierto y luego en un huerto de agonía (Getsemaní), recuperando legalmente el acceso al Árbol de la Vida para nosotros.",
+    "portales_conexion": {
+      "huellas_id": "adan-diseno-original",
+      "etymos_id": "pneuma-gr",
+      "cronos_id": "jardin-eden",
+      "ruta_id": "onoma-adan-recorrido"
+    }
+  },
+  {
+    "id": "onoma-noe-preservador",
+    "seccion": "ONOMASTIKO",
+    "jurisdiccion": "Arquitectura de Preservación y Gobierno sobre el Remanente",
+    "config_visual": {
+      "color_primario": "#065f46",
+      "color_acento": "#34d399",
+      "avatar_url": "../img/perfiles/noe.webp",
+      "gradiente": "linear-gradient(135deg, #064e3b 0%, #0b0f19 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Noé",
+      "nombre_diseno": "El Consolador (Noaj)",
+      "etymos": {
+        "original": "נֹחַ",
+        "transliteracion": "Noaj",
+        "significado_legal": "Descanso / Reposo / Aquel que trae consuelo en medio del trabajo penoso."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "La Tebah sin Timón",
+      "texto": "Un dato que requiere mucho escrutinio es que el Arca (Tebah) no tenía timón, ni velas, ni remos. Esto es técnicamente imposible para una embarcación de ese tamaño. La revelación sorprendente es que Noé no era el capitán; Dios era la fuerza motriz. El diseño del Arca forzaba a los que estaban adentro a confiar totalmente en las corrientes de la soberanía de Dios. El Arca no navegaba, era 'preservada' por el Creador."
+    },
+    "transferencia_codigo": {
+      "titulo": "Operando en el Recinto de Salvación",
+      "puntos": [
+        {
+          "concepto": "El Sello del Kopher",
+          "ejemplo_real": "El arca estaba calafateada con 'brea' (kopher), que es la misma raíz de la palabra 'expiación'. Estar en Cristo es estar bajo ese sello. Aunque las aguas del juicio (problemas, crisis mundiales) golpeen por fuera, no pueden entrar porque estás sellado legalmente por la Sangre."
+        },
+        {
+          "concepto": "Suelta el Timón",
+          "ejemplo_real": "Si estás angustiado intentando controlar cada detalle de tu futuro, recuerda la Tebah. A veces Dios te quita el 'timón' para que dejes de luchar con Tus fuerzas y permitas que Su fidelidad te lleve al puerto seguro (Ararat). El descanso es tu mayor arma."
+        },
+        {
+          "concepto": "El Valor del Remanente",
+          "ejemplo_real": "A veces serás el único en tu familia o trabajo que decide hacer las cosas bajo el diseño de Dios. Noé trabajó 100 años solo con su familia mientras el mundo se burlaba. No temas ser 'minoría'; el diseño de Dios siempre preserva a los que deciden no contaminarse con la entropía."
+        }
+      ]
+    },
+    "eco_de_cristo": "Noé es el salvador físico de la humanidad; Cristo es el Salvador espiritual. El Arca es la tipología perfecta de 'estar en Cristo': el único lugar donde la justicia de Dios te protege del juicio de Dios.",
+    "portales_conexion": {
+      "huellas_id": "noe-protocolo-preservacion",
+      "etymos_id": "noaj-he",
+      "cronos_id": "montanas-ararat",
+      "ruta_id": "onoma-noe-remanente"
+    }
+  },
+  {
+    "id": "onoma-abraham-padre",
+    "seccion": "ONOMASTIKO",
+    "jurisdiccion": "Patriarca y Establecedor del Fundamento Legal de la Fe",
+    "config_visual": {
+      "color_primario": "#92400e",
+      "color_acento": "#fbbf24",
+      "avatar_url": "../img/perfiles/abraham.webp",
+      "gradiente": "linear-gradient(135deg, #78350f 0%, #0c0a09 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Abraham",
+      "nombre_diseno": "Padre de Multitudes (Abraham)",
+      "etymos": {
+        "original": "אַבְרָהָם",
+        "transliteracion": "Avrahám",
+        "significado_legal": "Padre excelso elevado a Padre de multitudes / El portador del contrato eterno."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Contrato Inilateral (Berit)",
+      "texto": "En Génesis 15, ocurre algo que cambia la legalidad del universo. En los pactos antiguos, ambas partes pasaban entre los animales divididos. Pero cuando Dios pactó con Abraham, puso a Abraham en un sueño profundo y Dios mismo (en forma de antorcha y horno) pasó solo entre las piezas. La revelación sorprendente es que el Pacto de la Fe es UNILATERAL. Dios se hizo responsable de cumplirlo incluso si el hombre fallaba. La fe de Abraham no fue lo que sostuvo el pacto; el juramento de Dios por Sí mismo fue el blindaje."
+    },
+    "transferencia_codigo": {
+      "titulo": "Viviendo bajo un Contrato Blindado",
+      "puntos": [
+        {
+          "concepto": "Salir sin saber a dónde",
+          "ejemplo_real": "Abraham dejó su comodidad en Ur sin un mapa, solo con una Voz. La fe madura no necesita ver el destino, solo necesita conocer al que dio la orden. Si Dios te pide un cambio hoy, confía en el Dador de la visión más que en la seguridad de lo conocido."
+        },
+        {
+          "concepto": "El Silencio de los Animales Divididos",
+          "ejemplo_real": "Cuando sientes que no has hecho 'suficiente' para que Dios te bendiga, recuerda que Abraham estaba dormido mientras Dios firmaba el contrato. Tu bendición no depende de tu desempeño impecable, sino de la fidelidad de Dios al pacto que hizo con Cristo."
+        },
+        {
+          "concepto": "Rendición de lo más amado",
+          "ejemplo_real": "Isaac era el regalo de Dios, pero Abraham tuvo que estar dispuesto a entregarlo. Si algo que Dios te dio se ha vuelto más importante que Dios mismo, es hora de subir al altar. Solo lo que rindes puede ser verdaderamente bendecido y multiplicado."
+        }
+      ]
+    },
+    "eco_de_cristo": "Abraham es el padre que entrega al hijo; Dios es el Padre que entregó a Jesús. Abraham creyó en la resurrección de Isaac antes de verla, prefigurando la victoria definitiva de Cristo sobre la muerte.",
+    "portales_conexion": {
+      "huellas_id": "abraham-pacto-soberano",
+      "etymos_id": "berit-he",
+      "cronos_id": "hebron",
+      "ruta_id": "onoma-abraham-fe"
+    }
+  },
+  {
+    "id": "onoma-jacob-transformado",
+    "seccion": "ONOMASTIKO",
+    "jurisdiccion": "Príncipe y Portador de la Nueva Identidad de Diseño",
+    "config_visual": {
+      "color_primario": "#1e3a8a",
+      "color_acento": "#60a5fa",
+      "avatar_url": "../img/perfiles/jacob.webp",
+      "gradiente": "linear-gradient(135deg, #1e40af 0%, #0c0a09 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Jacob",
+      "nombre_diseno": "Israel (Príncipe de Dios)",
+      "etymos": {
+        "original": "יַעֲקֹב ➔ יִשְׂרָאֵל",
+        "transliteracion": "Ya'akov ➔ Yisra'el",
+        "significado_legal": "Suplantador (Talón) ➔ El que lucha con Dios y prevalece / Príncipe con autoridad."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Secreto del Vado de Jaboc",
+      "texto": "Jacob luchó con 'un hombre' hasta el alba. Ese hombre era el Ángel de Jehová (una cristofanía). Lo sorprendente es que el Ángel le dijo: 'Suéltame'. ¿Cómo puede un hombre retener a un ángel? La revelación es que Dios se deja 'vencer' por el llanto y el ruego de quien reconoce su miseria. Jacob no ganó por fuerza muscular, ganó por 'rendición violenta'. Al ser descoyuntado de su muslo (su fuerza natural), Jacob finalmente pudo caminar en su fuerza de diseño."
+    },
+    "transferencia_codigo": {
+      "titulo": "Del Esfuerzo Humano a la Autoridad Real",
+      "puntos": [
+        {
+          "concepto": "El Quiebre de la Autosuficiencia",
+          "ejemplo_real": "A veces Dios permite que una 'lucha' en tu vida te deje 'cojeando' (una pérdida, una crisis, una debilidad). Ese quiebre no es para destruirte, sino para que dejes de usar tu astucia ('el talón') y empieces a usar Tu identidad de hijo de Dios ('Israel')."
+        },
+        {
+          "concepto": "El Cambio de Nombre",
+          "ejemplo_real": "Tu pasado dice que eres un 'Jacob' (alguien que manipula o que ha fallado). Pero si has tenido un encuentro en tu Peniel personal, Dios te llama por tu diseño. No te presentes ante las oportunidades con tu viejo nombre de derrota; preséntate con tu nuevo nombre de Reino."
+        },
+        {
+          "concepto": "Bendiciendo desde la Debilidad",
+          "ejemplo_real": "Al final de su vida, el Jacob cojo bendijo al Faraón más poderoso del mundo. La autoridad real no viene de tu salud, tu dinero o tu fama, sino de la sintonía que tienes con el Trono. Un hombre quebrantado por Dios tiene más peso legal que un emperador orgulloso."
+        }
+      ]
+    },
+    "eco_de_cristo": "Jacob durmió sobre una piedra (Betel) y vio una escalera al cielo; Jesús declaró ser esa escalera (Juan 1:51). Jacob representa el proceso de transformación del alma que Cristo consumó al tomar nuestra forma humana para darnos Su forma divina.",
+    "portales_conexion": {
+      "huellas_id": "jacob-protocolo-transformacion",
+      "etymos_id": "peniel-he",
+      "cronos_id": "peniel",
+      "ruta_id": "onoma-jacob-transicion"
+    }
+  }
+]

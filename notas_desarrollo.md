@@ -81,7 +81,7 @@ Se ha establecido un lenguaje visual común para todo el proyecto:
 ## 🛠️ Roadmap / Futuras Mejoras
 - [ ] **Virtus (Gamificación):** Profundizar en las misiones épicas y sala de trofeos.
 - [ ] **Sincronización Cloud:** Evaluar paso de LocalStorage a una base de datos real (ej. Firebase) para que la XP se guarde entre dispositivos.
-- [ ] **Modo Offline Completo:** Reforzar el Service Worker para que todo el contenido (incluyendo imágenes) sea accesible sin internet.
+- [ ] **Modo Offline Completo:** Reforce del Service Worker para que todo el contenido (incluyendo imágenes) sea accesible sin internet.
 - [ ] **Audiolibro en Huellas:** Integrar el sistema de síntesis de voz de Aposento en las biografías de Huellas.
 
 ---
@@ -95,37 +95,38 @@ En esta jornada se ha completado la integración de contenidos de alta gama y la
 *   **Conexión Etymos:** Cada promesa incluye el significado original de términos clave en Hebreo/Griego.
 *   **Compartir Inteligente:** Uso de la Web Share API para una integración nativa en dispositivos móviles.
 
-### 🖼️ Unificación Visual: El "Standard Hero"
-*   **Centralización de Activos:** Creación de la carpeta `img/hero/` para gestionar todas las cabeceras del ecosistema.
-*   **Identidad Visual:** Implementación de Heros cinemáticos con tipografía *Cinzel* en todos los módulos (Rhema, Aposento, Maná, Etymos, Imagen de Dios).
-*   **Prompts de Autor:** Generación de un set de 32 prompts de IA para mantener la coherencia estética en todo el proyecto.
-
-### 🏛️ Cátedra de Exégesis: Semana Shekhináh
-*   **Currículum Avanzado:** Generación de 5 enseñanzas de alto nivel teológico para el módulo "A Imagen de Dios" (Lunes a Viernes).
-*   **Ruta del Tabernáculo:** Un viaje inmersivo desde el Altar de Bronce hasta el Arca del Pacto, con conexiones dinámicas a Huellas, Cronos y Aposento.
-*   **Inmersión en Lectura:** Las portadas de los estudios ahora se renderizan dentro del lector para una experiencia visual continua.
-
-### 🛠️ Refuerzo Técnico y UX
-*   **Retorno Inteligente:** Implementación de botones de "Volver al Estudio" en Etymos para usuarios que llegan desde la biblioteca, evitando la pérdida del hilo de lectura.
-*   **Ordenamiento Cronológico:** Refactorización del motor de "A Imagen de Dios" para mezclar y ordenar estudios por fecha programada, creando una línea de tiempo unificada.
-*   **Service Worker v66:** Actualización del sistema de caché con filtros de protocolo para evitar errores de extensiones del navegador.
-*   **Blindaje de Componentes:** Refinamiento del script de limpieza de footers para proteger los elementos internos de las tarjetas.
-
 ---
 
 ## 📅 Actualización: 13 de Mayo, 2026 (Persistencia y Propagación)
 Esta fase se ha centrado en la **estabilidad del rastro de estudio** y la **centralización de herramientas sociales**, elevando la cohesión técnica de todo el ecosistema.
 
 ### 🔄 Persistencia Ecosistémica (LocalStorage)
-*   **Migración de Rastro:** El sistema "Continuar donde lo dejaste" ha sido migrado de `sessionStorage` a `localStorage`. Ahora, el progreso de lectura persiste incluso después de cerrar el navegador, permitiendo retomar estudios días después.
-*   **Omnipresencia del Rastro:** Se ha inyectado la lógica de guardado automático (`rastro_estudio`) en los 8 módulos principales (Maná, Rhema, Huellas, Cronos, A Imagen de Dios, Aposento, Etymos y Onomastiko).
-*   **Dashboard Inteligente:** El portal principal ahora recupera instantáneamente el último estudio realizado desde el almacenamiento persistente, mostrando el nombre del personaje o tema directamente en el acceso directo.
+*   **Migración de Rastro:** El sistema "Continuar donde lo dejaste" ha sido migrado de `sessionStorage` a `localStorage`. Ahora, el progreso de lectura persiste incluso después de cerrar el navegador.
 
-### 📢 Centralización de "Propagación de la Palabra"
-*   **Botonera Unificada en Footer:** Se ha implementado una barra de herramientas de compartir premium dentro de `global-footer.js`. Esto garantiza una experiencia idéntica en todas las apps sin duplicar código.
-*   **Integración Directa con Escriba:** El footer ahora incluye un botón de **"Guardar en Escriba"** que envía el título y la referencia del estudio actual a la aplicación de notas, facilitando la creación de reflexiones personales.
-*   **Lógica de Exclusión:** El sistema es lo suficientemente inteligente para ocultar el botón de Escriba cuando el usuario ya está dentro de la app de Notas, en el juego Virtus o en el mapa Cronos (donde el espacio es crítico).
-*   **Limpieza de Código:** Se han eliminado quirúrgicamente más de 500 líneas de código redundante de los archivos `.js` de cada módulo, centralizando toda la lógica de compartir en un solo punto de mantenimiento.
+---
+
+## 📅 Actualización: 15 de Mayo, 2026 (La Era Premium y Arquitectos del Reino)
+Esta jornada marca el salto definitivo a la **Calidad Editorial Premium** en todos los contenidos y la automatización del despliegue en la nube.
+
+### 💎 Contenido Premium (Estudios y Huellas)
+*   **ADN de Código Maestro:** Refactorización total de los 39 estudios temáticos y la colección completa de Huellas. Se han incorporado secciones de *Contexto Histórico*, *Léxico Profundo*, *Revelación de Atributos* y *Conexiones Cristocéntricas*.
+*   **Inyección de Texto Bíblico:** Automatización de la carga de versículos (Reina Valera 1960) en cada enseñanza. Ahora las citas incluyen el texto íntegro para lectura inmediata sin salir de la app.
+*   **Normalización de Concordancia:** Unificación visual de las referencias cruzadas bajo el tipo `concordancia`, fusionando texto y revelación con emojis descriptivos (📖).
+
+### 🔥 El Aposento Maestro (Oración Profunda)
+*   **Estructura SELAH:** Implementación de un flujo de oración de 3 fases (*Confrontación, Revelación, Decreto*) con pausas meditativas `[SELAH]` obligatorias.
+*   **Expansión Masiva:** Recuperación y modernización de más de 70 oraciones de identidad, propósito y guerra espiritual.
+*   **Índice Inteligente:** Creación de `indice_aposento.json` para la gestión escalable de temas y categorías de oración.
+
+### 🏗️ Serie "Arquitectos del Reino"
+*   **Currículum de Conquista:** Planificación e implementación de 5 nuevas enseñanzas programadas (Moisés, Josué, Noé, Abraham e Isaac) centradas en protocolos de gobierno.
+*   **Schedules Activos:** Las enseñanzas se han configurado con fechas futuras (18-22 de Mayo) para activarse de forma orgánica en la plataforma.
+
+### 🚀 Optimización de Despliegue y UX
+*   **Control Editorial Total:** El motor de renderizado en `app.js` ha sido reprogramado para priorizar el orden manual definido en `indice_estudios.json` por encima de la cronología alfabética.
+*   **Auto-Build en Netlify:** Configuración de `netlify.toml` y `.node-version` (v20) para automatizar el empaquetado del proyecto con cada `git push`.
+*   **Service Worker v68:** Actualización forzosa de la caché global para asegurar que todos los usuarios reciban la versión Premium de inmediato.
+*   **Sincronización Multicarpeta:** Automatización de réplicas en `/dist` y `/prototipos` para mantener la integridad del código en todas las ramas del desarrollo.
 
 ---
 *Desarrollado con excelencia por Domingo Curbeira — 2026*

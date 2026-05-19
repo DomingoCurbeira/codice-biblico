@@ -1,31 +1,112 @@
 [
-    {
+  {
     "id": "onoma-pablo-expansion",
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": true,
     "config_tarjeta": {
-        "color_primario": "#1e293b",
-        "color_acento": "#94a3b8",
-        "avatar_url": "../img/perfiles/pablo.webp",
-        "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
+      "color_primario": "#1e293b",
+      "color_acento": "#94a3b8",
+      "avatar_url": "img/perfiles/pablo.webp",
+      "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
     },
-    "perfil_card": {
-        "nombre_principal": "Pablo",
-        "subtitulo_rol": "El Arquitecto de la Expansión",
-        "bio_resumen": "De perseguidor a máximo exponente de la revelación de la Gracia. Sus cartas cartografiaron el diseño de la Iglesia y su vida fue el motor de la expansión global del mensaje.",
-        "logro_destacado": "Cartografía de la Gracia y Misiones Globales",
-        "iconos_accion": [
-            { "tipo": "huellas", "id": "pablo", "tooltip": "Huellas" },
-            { "tipo": "etymos", "id": "paulos-gr", "tooltip": "Etymos" },
-            { "tipo": "cronos", "id": "antioquia-mision", "tooltip": "Cronos" }
-        ]
-    },
-    "datos_identidad": {
-        "original_idioma": "Παῦλος / שָׁאוּל",
-        "transliteracion": "Paulos",
-        "significado_core": "Pequeño / Humilde",
-        "perla_profunda": "La verdadera grandeza solo ocurre cuando te haces pequeño ante la inmensidad del Diseño del Arquitecto."
-    },
-    "tags": ["expansión", "gracia", "apóstol", "epístolas", "paulos"]
-}
+    "fases": [
+      {
+        "nombre": "Saulo",
+        "titulo": "El Perseguidor del Sistema (Religión)",
+        "avatar_url": "img/perfiles/saulo-tarso.webp",
+        "jurisdiccion": "Celo Legalista y Protector de la Tradición de los Padres",
+        "etymos": {
+          "original": "שָׁאוּל",
+          "transliteracion": "Sha'ul",
+          "significado_legal": "Deseado / Pedido. Representa el éxito humano basado en la genealogía y el cumplimiento estricto de la ley."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Luz que Ciega",
+          "texto": "Camino a Damasco, una luz del cielo rodeó a Saulo. El misterio técnico es que para darle visión espiritual, Dios tuvo que quitarle la visión física. Saulo era un experto en la letra pero estaba ciego ante el Espíritu. Lo sorprendente es que Jesús no le dio un sermón, solo le hizo una pregunta: \"¿Por qué me persigues?\". El misterio es que al perseguir a los creyentes, Saulo estaba atacando legalmente al propio cuerpo de Cristo en la tierra sin saberlo."
+        },
+        "transferencia_codigo": {
+          "titulo": "Desarmando el Celo Carnal",
+          "puntos": [
+            {
+              "concepto": "Cuidado con la justicia propia",
+              "cita": "Filipenses 3:6",
+              "ejemplo_real": "¿Eres de los que juzgan duramente a los demás basándote en tus reglas personales? Saulo creía que estaba sirviendo a Dios mientras destruía a otros. Revisa si tu \"celo\" nace del amor o de tu deseo de tener la razón."
+            },
+            {
+              "concepto": "El límite de la religión",
+              "cita": "Gálatas 1:13-14",
+              "ejemplo_real": "Puedes ser el más aplicado en tu estudio o trabajo, pero si no tienes sintonía con la Fuente, tus resultados serán destructivos. No permitas que el cumplimiento externo de normas opaque la realidad interna del Reino."
+            },
+            {
+              "concepto": "Rendirse ante la Luz",
+              "cita": "Hechos 9:6",
+              "ejemplo_real": "Saulo, temblando y temeroso, dijo: \"Señor, ¿qué quieres que yo haga?\". La madurez comienza cuando dejas de dar órdenes a tu destino y empiezas a pedir instrucciones al Arquitecto. Tu rendición es el portal a tu transformación."
+            }
+          ]
+        },
+        "eco_de_cristo": "Saulo perseguía a la Iglesia; Cristo murió por la Iglesia. Saulo representa la Ley que mata; Jesús representa el Espíritu que da vida."
+      },
+      {
+        "nombre": "Paulos",
+        "titulo": "El Arquitecto de la Gracia (Propósito)",
+        "avatar_url": "img/perfiles/pablo.webp",
+        "jurisdiccion": "Apóstol de las Naciones y Revelador del Diseño del Cuerpo",
+        "etymos": {
+          "original": "Παῦλος",
+          "transliteracion": "Paulos",
+          "significado_legal": "Pequeño / Humilde. El diseño transformado que entiende que su fuerza reside en reconocer su propia nada ante la inmensidad de Cristo."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Misterio de la Iglesia (Ekklesía)",
+          "texto": "Pablo recibió la revelación de que la Iglesia no es una organización, sino un Organismo Vivo: el Cuerpo de Cristo. El misterio técnico es que judíos y gentiles ahora tienen el mismo rango legal mediante la fe. Lo sorprendente es que Pablo hablaba de estar \"en Cristo\" (En Christō) más de 160 veces. Su misterio es el de la Unión Mística: ya no somos individuos aislados, somos partes integradas de una Cabeza que gobierna el universo."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando por Gracia",
+          "puntos": [
+            {
+              "concepto": "Todo es pérdida ante Cristo",
+              "cita": "Filipenses 3:8",
+              "ejemplo_real": "Pablo consideró todos sus títulos y logros como \"basura\" para ganar a Cristo. No dejes que tus éxitos pasados te impidan alcanzar tu diseño futuro. Aprende a desapegarte de tus medallas para recibir la corona de gloria que no se marchita."
+            },
+            {
+              "concepto": "Fuerza en la debilidad",
+              "cita": "2 Corintios 12:9",
+              "ejemplo_real": "Pablo tenía un \"aguijón\" que Dios no quitó. Si hoy tienes una limitación física o emocional que te agobia, no te quejes. El maduro sabe que el poder de Dios se perfecciona precisamente en su debilidad. Tu grieta es por donde entra la Luz."
+            },
+            {
+              "concepto": "Correr la carrera técnica",
+              "cita": "2 Timoteo 4:7",
+              "ejemplo_real": "Al final, Pablo dijo: \"He acabado la carrera\". No vivas a la deriva. Define tu meta espiritual y corre hacia ella con disciplina. Tu éxito real es terminar la asignación que Dios te dio, sin distraerte con las metas de los demás."
+            }
+          ]
+        },
+        "eco_de_cristo": "Pablo llevó las marcas de Jesús en su propio cuerpo (Gálatas 6:17), convirtiéndose en la prueba física de la autoridad del Evangelio."
+      }
+    ],
+    "iconos_accion": [
+      {
+        "tipo": "huellas",
+        "id": "pablo",
+        "tooltip": "Huellas"
+      },
+      {
+        "tipo": "etymos",
+        "id": "paulos-gr",
+        "tooltip": "Etymos"
+      },
+      {
+        "tipo": "cronos",
+        "id": "antioquia-mision",
+        "tooltip": "Cronos"
+      }
+    ],
+    "tags": [
+      "expansión",
+      "gracia",
+      "apóstol",
+      "epístolas",
+      "paulos"
+    ]
+  }
 ]

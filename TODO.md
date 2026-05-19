@@ -7,21 +7,25 @@ Este documento sirve como recordatorio para la fase final de limpieza del ecosis
 ## 🧹 Tareas Pendientes
 
 ### 1. Limpieza de HTML (Eliminar secciones de compartir duplicadas)
-- [ ] **etymos/palabra.html**: Eliminar `<h3 class="share-title">` y el div con los botones `btn-share`.
-- [ ] **mana/lectura.html**: Eliminar la sección completa de `<h3 class="share-title">` y sus botones.
-- [ ] **juego/index.html**: Revisar si `btn-share` es necesario o si debe usar la lógica global.
-- [ ] **notas/index.html**: Revisar si `btn-share-nota` es necesario o si debe usar la lógica global.
-- [ ] **rhema/index.html**: Eliminar el botón `#btn-share` local ya que el footer lo cubre.
+- [x] **etymos/palabra.html**: Centralizado en `global-footer.js`.
+- [x] **mana/lectura.html**: Centralizado en `global-footer.js`.
+- [ ] **juego/index.html**: Revisado. Se mantiene botón de victoria por contexto específico, pero el footer global está presente.
+- [ ] **notas/index.html**: Revisado. Se mantiene compartir nota específica, el footer global está presente.
+- [x] **rhema/index.html**: Botón redundante eliminado.
 
 ### 2. Limpieza de CSS (Eliminar estilos redundantes)
-Eliminar las definiciones de `.study-share-section`, `.btn-share` y similares en los siguientes archivos para reducir el peso del CSS:
-- [ ] **a_imagen_de_Dios/css/styles.css**
-- [ ] **aposento/css/styles.css**
-- [ ] **etymos/css/palabra.css**
-- [ ] **huellas/css/styles.css**
+- [x] **a_imagen_de_Dios/css/styles.css**
+- [x] **aposento/css/styles.css**
+- [x] **etymos/css/palabra.css**
+- [x] **huellas/css/styles.css**
 
 ### 3. Verificación de Excepciones
-- [ ] **Cronos**: Asegurarse de **NO** eliminar las secciones de compartir de Cronos, ya que no tiene footer global por diseño.
+- [ ] **Cronos**: Pendiente de revisión final.
 
 ---
-*Nota: La lógica de compartir ya ha sido eliminada de los archivos .js hoy. Solo queda la limpieza visual y estructural.*
+## 🚀 Salto de Nivel: Estándar Premium (18 de Mayo 2026)
+- [x] **Género Literario:** Integrado en el renderer central y aplicado a estudios clave (Adán, Noé, Abraham, Moisés, Jacob, José, Daniel, Ester, Nehemías).
+- [x] **Revelación Progresiva:** Nuevo bloque teológico funcional y aplicado al estudio de Noé (Hilo del Arca/Tebah).
+- [x] **Activación:** Serie "Arquitectos del Reino" adelantada (José activo hoy).
+
+---\n*Actualizado por Gemini CLI — 18 de Mayo 2026*

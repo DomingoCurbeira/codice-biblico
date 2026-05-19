@@ -26,6 +26,7 @@
     },
     {
       "tipo": "contexto_historico",
+      "genero_literario": "Narrativa Histórica / Teología del Pacto (Ejemplo)",
       "titulo": "Jurisdicción y Linaje en el Antiguo Cercano Oriente",
       "texto": "En la cultura de Abraham, el hijo de una sierva podía ser heredero legal si el padre lo reconocía. El desplazamiento de Ismael no fue un error administrativo, sino una colisión entre el esfuerzo humano (Agar) y la promesa divina (Sara). Dios interviene no para validar el error de Abraham, sino para honrar Su propia Semilla."
     },
@@ -52,6 +53,69 @@
       "texto": "Ismael, el hijo 'lanzado fuera' (ekballō), prefigura la experiencia del remanente y, en última instancia, de Cristo mismo, quien fue 'despreciado y desechado entre los hombres'. Así como Dios proveyó un pozo para Ismael cuando el agua se agotó, Cristo se manifiesta como la Roca que da agua en nuestros desiertos de rechazo."
     },
     {
+      "tipo": "revelacion_progresiva",
+      "titulo": "El Hilo de la Semilla: De la Promesa a la Herencia",
+      "descripcion": "Dios utiliza patrones repetitivos para enseñarnos cómo Su diseño se preserva a través del tiempo:",
+      "pasos": [
+        {
+          "concepto": "La Promesa a la Mujer",
+          "explicacion": "El inicio del protocolo de rescate en el Edén."
+        },
+        {
+          "concepto": "La Semilla de Abraham",
+          "explicacion": "La bendición se canaliza a través de un linaje legal."
+        },
+        {
+          "concepto": "Cristo: La Semilla Maestra",
+          "explicacion": "El cumplimiento total de todas las promesas de Dios."
+        },
+        {
+          "concepto": "La Herencia del Remanente",
+          "explicacion": "Nosotros, como coherederos en Cristo, poseemos el diseño original."
+        }
+      ]
+    },
+    {
+      "tipo": "seccion_titulo",
+      "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+    },
+    {
+      "tipo": "aplicacion_leche",
+      "titulo": "Para el Nuevo Creyente: (Título de ejemplo)",
+      "items": [
+        {
+          "punto": "Punto de aplicación sencillo 1.",
+          "ejemplo": "Ejemplo práctico o suposición a derribar."
+        },
+        {
+          "punto": "Punto de aplicación sencillo 2.",
+          "ejemplo": "Ejemplo práctico o suposición a derribar."
+        },
+        {
+          "punto": "Punto de aplicación sencillo 3.",
+          "ejemplo": "Ejemplo práctico o suposición a derribar."
+        }
+      ]
+    },
+    {
+      "tipo": "aplicacion_solida",
+      "titulo": "Para el Maduro: (Título de ejemplo)",
+      "items": [
+        {
+          "punto": "Punto de madurez profunda 1.",
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+        },
+        {
+          "punto": "Punto de madurez profunda 2.",
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+        },
+        {
+          "punto": "Punto de madurez profunda 3.",
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+        }
+      ]
+    },
+    {
       "tipo": "alerta_doctrinal",
       "titulo": "Cuidado con el 'Sentimiento de Rechazo'",
       "texto": "Es un error teológico pensar que el desplazamiento de Ismael fue un castigo. Fue un posicionamiento. No confundas la disciplina de las circunstancias con el abandono del Padre. El desierto de Ismael fue el lugar de su mayor visitación."
@@ -62,11 +126,13 @@
       "referencias": [
         {
           "cita": "Gálatas 4:22-31",
-          "explicacion": "Pablo usa la historia de Ismael e Isaac para ilustrar la diferencia entre vivir bajo la Ley (esfuerzo humano) y vivir bajo la Gracia (promesa)."
+          "versiculo": "Porque está escrito que Abraham tuvo dos hijos; uno de la esclava, el otro de la libre. Pero el de la esclava nació según la carne; mas el de la libre, por la promesa.",
+          "revelacion": "Pablo usa la historia de Ismael e Isaac para ilustrar la diferencia legal entre vivir bajo el esfuerzo humano (Ley) y vivir bajo el diseño divino (Gracia)."
         },
         {
           "cita": "Salmos 139:16",
-          "explicacion": "Confirma que el 'embrión' de Ismael ya tenía un libro escrito por Dios, independientemente de la crisis familiar de Abraham."
+          "versiculo": "Mi embrión vieron tus ojos, y en tu libro estaban escritas todas aquellas cosas que fueron luego formadas, sin faltar una de ellas.",
+          "revelacion": "Confirma que el propósito de Ismael ya tenía un registro en el Cielo, demostrando que Dios tiene planes soberanos incluso para aquello que parece un error humano."
         }
       ]
     },

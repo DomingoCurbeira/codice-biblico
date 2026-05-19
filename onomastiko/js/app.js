@@ -55,9 +55,12 @@ function seleccionarNombreDelDia(lista) {
     const hMean = document.getElementById('hero-meaning-display');
     const hBtn = document.getElementById('btn-hero-identity');
 
-    // 3. Animación y Cambio
-    if (hName) hName.innerText = hoy.nombre.toUpperCase();
-    if (hMean) hMean.innerText = hoy.subtitulo;
+    // 3. Obtención segura de datos (Maestro vs Antiguo)
+    const nombre = hoy.identidad ? hoy.identidad.nombre_humano : hoy.nombre;
+    const subtitulo = hoy.jurisdiccion || hoy.subtitulo;
+
+    if (hName) hName.innerText = nombre.toUpperCase();
+    if (hMean) hMean.innerText = subtitulo;
     
     if (hBtn) {
         hBtn.onclick = () => window.location.href = `nombre.html?id=${hoy.id}`;
@@ -76,14 +79,19 @@ function renderGrid(lista) {
     grid.innerHTML = lista.map(item => {
         const colorBorder = COLORES_SECCION[item.archivo_fuente] || "#d4b483";
 
+        // Mapeo seguro de campos (Compatible con Onomastiko Maestro)
+        const nombre = item.identidad ? item.identidad.nombre_humano : item.nombre;
+        const subtitulo = item.jurisdiccion || item.subtitulo;
+        const imagen = item.config_tarjeta ? item.config_tarjeta.avatar_url : item.imagen;
+
         return `
         <article class="mini-card" 
                  onclick="openDetails('${item.id}')" 
                  style="--border-color: ${colorBorder}">
-            <img src="../${item.imagen}" alt="${item.nombre}">
+            <img src="../${imagen}" alt="${nombre}">
             <div class="mini-card-info">
-                <h3 style="color:${colorBorder}">${item.nombre}</h3>
-                <p>${item.subtitulo}</p>
+                <h3 style="color:${colorBorder}">${nombre}</h3>
+                <p>${subtitulo}</p>
             </div>
         </article>
         `;
@@ -93,11 +101,13 @@ function renderGrid(lista) {
 // 4. Buscador en Tiempo Real (Mantiene el orden jerárquico al filtrar)
 document.getElementById('search-input').addEventListener('input', (e) => {
     const query = e.target.value.toLowerCase();
-    const filtered = identidadesGlobal.filter(p => 
-        p.nombre.toLowerCase().includes(query) || 
-        p.subtitulo.toLowerCase().includes(query) ||
-        (p.tags && p.tags.some(tag => tag.toLowerCase().includes(query)))
-    );
+    const filtered = identidadesGlobal.filter(p => {
+        const nombre = p.identidad ? p.identidad.nombre_humano : p.nombre;
+        const subtitulo = p.jurisdiccion || p.subtitulo;
+        return nombre.toLowerCase().includes(query) || 
+               subtitulo.toLowerCase().includes(query) ||
+               (p.tags && p.tags.some(tag => tag.toLowerCase().includes(query)));
+    });
     renderGrid(filtered);
 });
 
