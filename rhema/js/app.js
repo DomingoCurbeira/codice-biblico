@@ -147,9 +147,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         const area = document.getElementById('capture-area');
         
         try {
-            // Aseguramos que la imagen de fondo esté cargada
+            // Aseguramos que la imagen de fondo esté cargada de forma robusta
             const card = document.getElementById('main-card');
-            const bgUrl = window.getComputedStyle(card).backgroundImage.slice(5, -2).replace(/"/g, "");
+            const bgStyle = window.getComputedStyle(card).backgroundImage;
+            const bgMatch = bgStyle.match(/url\("?(.+?)"?\)/);
+            const bgUrl = bgMatch ? bgMatch[1] : null;
             
             if (bgUrl && bgUrl !== 'none') {
                 await new Promise((resolve) => {

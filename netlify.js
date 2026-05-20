@@ -16,7 +16,7 @@ const rootDir = __dirname;
 const distPath = path.join(rootDir, distName);
 
 const archivos = ['index.html', 'manifest.json', 'sw.js'];
-const carpetas = ['img', 'css', 'js', 'aposento', 'cronos', 'huellas', 'a_imagen_de_Dios', 'data', 'mana', 'notas', 'juego', 'assets', 'guia', 'etymos', 'onomastiko']; 
+const carpetas = ['img', 'css', 'js', 'aposento', 'cronos', 'huellas', 'a_imagen_de_Dios', 'data', 'mana', 'notas', 'juego', 'assets', 'guia', 'etymos', 'onomastiko', 'rhema']; 
 
 try {
     if (fs.existsSync(distPath)) {
