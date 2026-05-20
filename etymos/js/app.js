@@ -20,23 +20,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // =========================================================
     async function cargarLexico() {
         try {
-            const respuesta = await fetch('../data/etymos/lexico.json');
-            if (!respuesta.ok) throw new Error("Error al cargar el diccionario");
+            // Cargar el Diccionario Maestro de los 70 Códigos de Oro
+            const resMaestro = await fetch(`../data/etymos/etymos_maestro.json?v=${Date.now()}`);
+            const maestro = await resMaestro.json();
             
-            const datosCrudos = await respuesta.json();
+            // Étymos ahora es EXCLUSIVAMENTE para los Códigos Maestros
+            // No cargamos lexico.json para mantener la pureza y profundidad de la biblioteca
             
-            // Ordenar alfabéticamente
-            lexicoCompleto = datosCrudos.sort((a, b) => 
-                a.palabra_espanol.localeCompare(b.palabra_espanol, 'es', { sensitivity: 'base' })
-            );
+            // Ordenar alfabéticamente por el término en español
+            lexicoCompleto = maestro.sort((a, b) => {
+                const nombreA = a.termino || a.palabra_espanol;
+                const nombreB = b.termino || b.palabra_espanol;
+                return nombreA.localeCompare(nombreB, 'es', { sensitivity: 'base' });
+            });
 
             palabrasFiltradas = [...lexicoCompleto];
             renderizarTarjetas(); 
-            seleccionarPalabraDelDia(lexicoCompleto); // <--- NUEVO: Hero Místico
+            seleccionarPalabraDelDia(lexicoCompleto);
 
         } catch (error) {
             console.error(error);
-            contenedorLista.innerHTML = `<p style="color:#ef4444; text-align:center;">Error cargando las raíces de la palabra.</p>`;
+            contenedorLista.innerHTML = `<p style="color:#ef4444; text-align:center;">Error cargando los Códigos Maestros.</p>`;
         }
     }
 
@@ -48,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         contenedorPaginacion.innerHTML = '';
 
         if (palabrasFiltradas.length === 0) {
-            contenedorLista.innerHTML = `<p style="text-align:center; color:#94a3b8; grid-column: 1 / -1; margin-top: 50px;">No se hallaron tesoros con ese nombre.</p>`;
+            contenedorLista.innerHTML = `<p style="text-align:center; color:#94a3b8; grid-column: 1 / -1; margin-top: 50px;">No se hallaron códigos con ese nombre.</p>`;
             return;
         }
 
@@ -57,11 +61,18 @@ document.addEventListener('DOMContentLoaded', () => {
         const fin = inicio + itemsPorPagina;
         const palabrasPagina = palabrasFiltradas.slice(inicio, fin);
 
-        palabrasPagina.forEach((palabra, index) => {
+        palabrasPagina.forEach((palabra) => {
             const idiomaClass = palabra.idioma.toLowerCase();
+            const isMaestro = !!palabra.revelacion_cristo; // Corregido: Detección por campo real
+            const nombreMostrar = palabra.termino || palabra.palabra_espanol;
+            
+            // Para la previsualización usamos el sentido_verdad que es la esencia corta
+            const definicionMostrar = palabra.sentido_verdad.length > 100 
+                                      ? (palabra.sentido_verdad.substring(0, 100) + '...') 
+                                      : palabra.sentido_verdad;
             
             const tarjeta = document.createElement('article');
-            tarjeta.className = `card-lexico ${idiomaClass}`;
+            tarjeta.className = `card-lexico ${idiomaClass} maestro-card`; // Todas son maestro-card ahora
             
             tarjeta.onclick = () => {
                 window.location.href = `palabra.html?id=${palabra.id}`;
@@ -71,17 +82,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="lang-watermark">${palabra.original.charAt(0)}</div>
                 
                 <div class="lexico-header">
-                    <span class="lexico-espanol">${palabra.palabra_espanol}</span>
-                    <span class="lexico-idioma-badge">${palabra.idioma}</span>
+                    <span class="lexico-espanol">${nombreMostrar}</span>
+                    <span class="lexico-idioma-badge">CÓDIGO</span>
                 </div>
                 
                 <div class="lexico-original">${palabra.original}</div>
                 <span class="lexico-transliteracion">${palabra.transliteracion}</span>
                 
-                <p class="lexico-definicion">${palabra.definicion_corta}</p>
+                <p class="lexico-definicion">${definicionMostrar}</p>
                 
                 <div class="btn-profundizar">
-                    Profundizar <i class="fas fa-arrow-right"></i>
+                    Descifrar Código <i class="fas fa-arrow-right"></i>
                 </div>
             `;
             contenedorLista.appendChild(tarjeta);
@@ -90,25 +101,25 @@ document.addEventListener('DOMContentLoaded', () => {
         if (totalPaginas > 1) renderizarPaginacion(totalPaginas);
     }
 
-    // --- NUEVO: FUNCIÓN PARA HERO DINÁMICO (PALABRA DEL DÍA) ---
+    // --- HERO DINÁMICO ---
     function seleccionarPalabraDelDia(lista) {
         if (!lista || lista.length === 0) return;
         
-        // 1. Elegimos una palabra al azar
-        const hoy = lista[Math.floor(Math.random() * lista.length)];
+        // Priorizar palabras Maestro para el Hero
+        const soloMaestro = lista.filter(p => p.revelacion);
+        const pool = soloMaestro.length > 0 ? soloMaestro : lista;
+        const hoy = pool[Math.floor(Math.random() * pool.length)];
 
-        // 2. Elementos DOM
         const hOrig = document.getElementById('hero-word-original');
         const hTrans = document.getElementById('hero-word-translit');
         const hSpan = document.getElementById('hero-word-spanish');
         const hBadge = document.getElementById('hero-lang-badge');
         const hBtn = document.getElementById('btn-hero-word');
 
-        // 3. Aplicar Cambios
         if (hOrig) hOrig.innerText = hoy.original;
         if (hTrans) hTrans.innerText = `/ ${hoy.transliteracion} /`;
-        if (hSpan) hSpan.innerText = hoy.palabra_espanol;
-        if (hBadge) hBadge.innerText = `RAÍZ ${hoy.idioma.toUpperCase()}`;
+        if (hSpan) hSpan.innerText = hoy.termino || hoy.palabra_espanol;
+        if (hBadge) hBadge.innerText = `CÓDIGO MAESTRO`;
         
         if (hBtn) {
             hBtn.onclick = () => window.location.href = `palabra.html?id=${hoy.id}`;

@@ -37,18 +37,105 @@
 .detalle-transliteracion { font-style: italic; color: #4a4136; font-size: 1.2rem; margin-bottom: 10px; }
 .detalle-espanol { font-family: var(--font-display); font-size: 2rem; color: #2c241a; text-transform: uppercase; letter-spacing: 2px; }
 
-.seccion-bloque { margin-bottom: 2.5rem; position: relative; z-index: 1; }
-.seccion-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: #8b6d2a; font-weight: 800; margin-bottom: 1rem; border-bottom: 1px solid rgba(139, 109, 42, 0.2); padding-bottom: 5px; display: inline-block; }
+.seccion-bloque { margin-bottom: 3rem; position: relative; z-index: 1; }
+.seccion-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 2px; color: #8b6d2a; font-weight: 800; margin-bottom: 1.2rem; border-bottom: 1px solid rgba(139, 109, 42, 0.2); padding-bottom: 5px; display: inline-block; }
 
-.texto-definicion { font-family: var(--font-book); font-size: var(--reading-size, 18px); line-height: 1.8; text-align: justify; }
+.texto-definicion { font-family: var(--font-book); font-size: var(--reading-size, 18px); line-height: 1.8; text-align: justify; color: #3d3428; }
 
-.quote-bloque { background: rgba(139, 109, 42, 0.05); padding: 2rem; border-radius: 12px; border-left: 4px solid #8b6d2a; }
-.perla-texto { font-family: var(--font-book); font-style: italic; font-size: calc(var(--reading-size, 18px) * 1.1); line-height: 1.8; color: #4a4136; }
+.legal-box { 
+    background: rgba(139, 109, 42, 0.03); 
+    padding: 1.5rem; 
+    border-radius: 8px; 
+    border: 1px dashed rgba(139, 109, 42, 0.3); 
+    margin-top: 0.5rem;
+}
 
-.referencias-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1rem; }
-.ref-item { background: rgba(255, 255, 255, 0.3); padding: 1.2rem; border-radius: 8px; border: 1px solid rgba(139, 109, 42, 0.1); }
-.ref-item strong { display: block; color: #8b6d2a; margin-bottom: 5px; font-size: 0.95rem; }
-.ref-item p { font-size: 0.9rem; line-height: 1.5; color: #5a5146; margin: 0; }
+.revelacion-box {
+    background: linear-gradient(to right, rgba(212, 175, 55, 0.05), transparent);
+    padding: 2rem;
+    border-left: 4px solid var(--gold);
+    margin: 2rem 0;
+}
+
+.revelacion-texto {
+    font-size: calc(var(--reading-size, 18px) * 1.15);
+    font-weight: 600;
+    line-height: 1.7;
+    color: #2c241a;
+}
+
+.aplicacion-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.aplicacion-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(139, 109, 42, 0.08);
+    border: 1px solid rgba(139, 109, 42, 0.1);
+}
+
+.aplicacion-item strong {
+    display: block;
+    color: #8b6d2a;
+    font-size: 1rem;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.aplicacion-cita {
+    font-size: 0.8rem;
+    color: #9c845b;
+    font-style: italic;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.aplicacion-ejemplo {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #5a5146;
+}
+
+.activacion-box {
+    background: #2c241a;
+    color: #f4ecd8;
+    padding: 2.5rem;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 4rem;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+
+.activacion-box h4 {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--gold);
+    margin-bottom: 1.5rem;
+}
+
+.activacion-texto {
+    font-family: var(--font-book);
+    font-size: 1.3rem;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.eco-box {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: rgba(255,255,255,0.4);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    color: #4a4136;
+    border: 1px solid rgba(139, 109, 42, 0.1);
+}
 
 /* --- CONTROLES DE FUENTE --- */
 .font-control-wrapper { position: fixed; bottom: 30px; left: 25px; z-index: 3000; display: flex; flex-direction: column-reverse; align-items: center; gap: 12px; }

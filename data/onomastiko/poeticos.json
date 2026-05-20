@@ -84,28 +84,16 @@
         "eco_de_cristo": "Job terminó su proceso bendiciendo a sus amigos; Jesús terminó Su sacrificio pidiendo perdón por Sus ejecutores. Ambos demuestran que la intercesión es el fruto final del quebrantamiento."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "job",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "job-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "tierra-uz",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "sabiduria",
       "prueba",
       "restauracion"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "job",
+      "etymos": "iyov-he",
+      "cronos": "tierra-uz"
+    }
   },
   {
     "id": "onoma-sulamita-esposa",
@@ -192,28 +180,16 @@
         "eco_de_cristo": "El Cantar de los Cantares es el mapa técnico de la relación entre Cristo y Su Iglesia, culminando en la unión eterna de las Bodas del Cordero."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "sulamita",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "sulamita-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "en-gadi-poetico",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "amor",
       "paz",
       "cantar"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "sulamita",
+      "etymos": "shulammit-he",
+      "cronos": "en-gadi-poetico"
+    }
   },
   {
     "id": "onoma-david-salmista",
@@ -300,28 +276,16 @@
         "eco_de_cristo": "Cristo es el Gran Salmista que cantó el himno antes de ir a la cruz y quien hoy dirige la alabanza de Su pueblo en medio de la congregación (Hebreos 2:12)."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "david",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "tehillah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "valle-sombra-muerte",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "adoración",
       "salmos",
       "david"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "david",
+      "etymos": "mizmor-he",
+      "cronos": "valle-sombra-muerte"
+    }
   },
   {
     "id": "onoma-qohelet-sabio",
@@ -408,23 +372,15 @@
         "eco_de_cristo": "Jesús es la Palabra (Logos) final; Él es el Sof-Davár encarnado que cierra el discurso de la ley para abrir el de la Vida."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "etymos",
-        "id": "yirah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "templo-jerusalen",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "sabiduría",
       "filosofía",
       "sentido"
-    ]
+    ],
+    "conexiones": {
+      "etymos": "yirah-he",
+      "cronos": "templo-jerusalen"
+    }
   },
   {
     "id": "onoma-mujer-virtuosa",
@@ -511,17 +467,13 @@
         "eco_de_cristo": "La Eshet Cháyil es el eco de la Sabiduría de Dios que habitó entre nosotros en la persona de Jesucristo."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "etymos",
-        "id": "chayil-he",
-        "tooltip": "Etymos"
-      }
-    ],
     "tags": [
       "fuerza",
       "honor",
       "mujer"
-    ]
+    ],
+    "conexiones": {
+      "etymos": "chayil-he"
+    }
   }
 ]

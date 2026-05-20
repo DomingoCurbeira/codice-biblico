@@ -14,7 +14,7 @@
       {
         "nombre": "Saulo",
         "titulo": "El Perseguidor del Sistema (Religión)",
-        "avatar_url": "img/perfiles/saulo-tarso.webp",
+        "avatar_url": "img/perfiles/saulo-ceguera.webp",
         "jurisdiccion": "Celo Legalista y Protector de la Tradición de los Padres",
         "etymos": {
           "original": "שָׁאוּל",
@@ -84,29 +84,437 @@
         "eco_de_cristo": "Pablo llevó las marcas de Jesús en su propio cuerpo (Gálatas 6:17), convirtiéndose en la prueba física de la autoridad del Evangelio."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "pablo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "paulos-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "antioquia-mision",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "expansión",
       "gracia",
       "apóstol",
       "epístolas",
       "paulos"
+    ],
+    "conexiones": {
+      "huellas": "pablo",
+      "etymos": "kenosis-gr",
+      "cronos": "antioquia-mision"
+    }
+  },
+  {
+    "id": "onoma-bernabe-consuelo",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#10b981",
+      "color_acento": "#fcd34d",
+      "avatar_url": "img/perfiles/bernabe.webp",
+      "gradiente": "linear-gradient(135deg, #064e3b 0%, #0b0f19 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "José de Chipre",
+        "titulo": "El Dueño de Tierras (Recursos)",
+        "avatar_url": "img/perfiles/bernabe.webp",
+        "jurisdiccion": "Levita con Patrimonio en el Sistema Humano",
+        "etymos": {
+          "original": "יוֹסֵף",
+          "transliteracion": "Yosef",
+          "significado_legal": "Aquel que añade. Representa el potencial de recursos materiales que aún no han sido rendidos al diseño del Reino."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Venta de la Heredad",
+          "texto": "José era un levita de Chipre que poseía una heredad. El misterio técnico es que según la Ley, los levitas no debían tener posesiones de tierra. Al vender su campo y poner el dinero a los pies de los apóstoles, José realizó un acto de \"limpieza legal\" de su linaje, soltando el patrimonio terrenal para recibir la jurisdicción espiritual. Lo sorprendente es que este despojo fue lo que habilitó su nuevo nombre y su rango como apóstol."
+        },
+        "transferencia_codigo": {
+          "titulo": "Rindiendo el Patrimonio",
+          "puntos": [
+            {
+              "concepto": "Soltar para ser activado",
+              "cita": "Hechos 4:36-37",
+              "ejemplo_real": "¿Hay algo que posees (dinero, un título, una propiedad) que te da más seguridad que tu fe? José vendió su campo para financiar la expansión. Aprende que lo que rindes voluntariamente a los pies del Diseño es lo que te otorga el derecho legal a un nuevo rango espiritual."
+            },
+            {
+              "concepto": "Identifica tu linaje",
+              "cita": "Números 18:20",
+              "ejemplo_real": "José recordó que como levita, Dios era su única porción. Deja de intentar construir seguridad en el sistema de \"propiedad privada\" del mundo. Tu herencia real es la voz de Dios y Su provisión soberana."
+            },
+            {
+              "concepto": "El valor de la renuncia pública",
+              "cita": "Hechos 4:37",
+              "ejemplo_real": "Poner el dinero a los pies de los apóstoles no fue un acto de caridad, fue una declaración de lealtad. Tus actos públicos de generosidad demuestran al tribunal del cielo que has cambiado de sistema económico."
+            }
+          ]
+        },
+        "eco_de_cristo": "José de Chipre representa el despojo voluntario de Cristo, quien siendo rico se hizo pobre para enriquecernos con Su herencia celestial."
+      },
+      {
+        "nombre": "Barnabás",
+        "titulo": "Hijo de Consolación (Propósito)",
+        "avatar_url": "img/perfiles/bernabe.webp",
+        "jurisdiccion": "Consolidador de Diseños y Puente de Sintonía Apóstolica",
+        "etymos": {
+          "original": "Βαρναβᾶς",
+          "transliteracion": "Barnabás",
+          "significado_legal": "Hijo de Consolación / Hijo del Profeta. El diseño transformado en un agente que anima y estabiliza el propósito en otros."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Rescatador de Saulo",
+          "texto": "Cuando todos los apóstoles temían a Saulo de Tarso tras su conversión, fue Bernabé quien lo tomó, lo validó y lo introdujo al círculo legal de Jerusalén. El misterio técnico es que Bernabé tenía el \"ojo profético\" para ver el diseño de Pablo cuando el mundo solo veía al perseguidor. Lo sorprendente es que Bernabé también rescató a Marcos después de su fallo en la misión. Su misterio es el de la **Segunda Oportunidad Legal**: él es el rastro del líder que no busca su propio brillo, sino que se dedica a pulir los diamantes de Dios que otros descartan."
+        },
+        "transferencia_codigo": {
+          "titulo": "Activando el Código de Consolación",
+          "puntos": [
+            {
+              "concepto": "Detectar el diseño en el ofensor",
+              "cita": "Hechos 9:27",
+              "ejemplo_real": "¿Hay alguien en tu entorno con un pasado difícil que está intentando cambiar? Sé como Bernabé: no lo juzgues por su historial de Saulo; úngelo por su diseño de Pablo. Tu validación puede ser la llave que abra su ministerio."
+            },
+            {
+              "concepto": "Ser un puente de confianza",
+              "cita": "Hechos 11:22-23",
+              "ejemplo_real": "Los apóstoles enviaron a Bernabé a Antioquía porque confiaban en su sintonía. Conviértete en una persona de confianza absoluta para tu equipo. Tu capacidad de unir a las personas correctas es una herramienta de expansión imparable."
+            },
+            {
+              "concepto": "Restaurar al que falló",
+              "cita": "Hechos 15:37-39",
+              "ejemplo_real": "Bernabé arriesgó su relación con Pablo por defender a Marcos. El maduro sabe que un error en el camino no anula el contrato del propósito. Ayuda a los que se han rendido a volver a la carrera; el Reino necesita a los restaurados."
+            }
+          ]
+        },
+        "eco_de_cristo": "Bernabé es el eco del Espíritu Santo (Paracleto), el Consolador que nos defiende, nos anima y nos recuerda nuestra verdadera identidad de diseño."
+      }
+    ],
+    "tags": [
+      "consuelo",
+      "apóstol",
+      "bernabe"
+    ],
+    "conexiones": {
+      "huellas": "bernabe",
+      "etymos": "parakletos-gr",
+      "cronos": "antioquia-mision"
+    }
+  },
+  {
+    "id": "onoma-timoteo-hijo",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": false,
+    "jurisdiccion": "Guardián del Legado y Arquitecto de Sucesión Generacional",
+    "config_tarjeta": {
+      "color_primario": "#1e3a8a",
+      "color_acento": "#60a5fa",
+      "avatar_url": "img/perfiles/timoteo.webp",
+      "gradiente": "linear-gradient(135deg, #1e40af 0%, #0b0f19 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Timoteo",
+      "nombre_diseno": "El que Honra a Dios (Timótheos)",
+      "etymos": {
+        "original": "Τιμόθεος",
+        "transliteracion": "Timótheos",
+        "significado_legal": "Honra de Dios / El que valora el diseño divino por encima de la opinión humana."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Código del ADN Transmitido",
+      "texto": "Timoteo es el rastro del éxito en la unión de dos frecuencias: la fe de su madre y abuela (Loida y Eunice) y la instrucción técnica de su padre espiritual (Pablo). El misterio es que Timoteo tenía un carácter tímido y \"frecuentes enfermedades\", pero Pablo lo puso a gobernar la compleja iglesia de Éfeso. Lo sorprendente es que el diseño de Dios no requiere un hardware biológico perfecto, sino una sintonía inquebrantable con la Herencia Recibida."
+    },
+    "transferencia_codigo": {
+      "titulo": "Gobernando el Legado",
+      "puntos": [
+        {
+          "concepto": "Avivar el fuego del don",
+          "cita": "2 Timoteo 1:6",
+          "ejemplo_real": "No esperes a sentirte emocionado para actuar. Pablo le dijo a Timoteo: \"Aviva el fuego\". La unción es una responsabilidad técnica: tú eres el encargado de mantener la llama encendida mediante el estudio y la oración diaria."
+        },
+        {
+          "concepto": "Los Tres Filtros de Poder",
+          "cita": "2 Timoteo 1:7",
+          "ejemplo_real": "Cuando sientas miedo o cobardía, recuerda que Dios no te dio ese espíritu. Activa tu diseño de Poder (autoridad), Amor (sintonía) y Dominio Propio (gobierno mental). Si falta uno de los tres, tu liderazgo estará descompensado."
+        },
+        {
+          "concepto": "Ninguno tenga en poco tu juventud",
+          "cita": "1 Timoteo 4:12",
+          "ejemplo_real": "No permitas que tu falta de edad o experiencia sea un argumento legal para detenerte. Tu autoridad no viene de tus años, sino de ser ejemplo en palabra, conducta, amor y fe. La integridad es lo que otorga el rango real."
+        }
+      ]
+    },
+    "eco_de_cristo": "Timoteo es el hijo fiel que hace la voluntad del padre, reflejando a Jesús, el Hijo que solo hacía lo que veía hacer al Padre Celestial.",
+    "tags": [
+      "legado",
+      "hijo",
+      "timoteo"
+    ],
+    "conexiones": {
+      "huellas": "timoteo",
+      "etymos": "pneuma-gr",
+      "cronos": "efeso-teatro"
+    }
+  },
+  {
+    "id": "onoma-lidia-purpura",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": false,
+    "jurisdiccion": "Gestora de Logística de Reino y Puerta de Entrada Continental",
+    "config_tarjeta": {
+      "color_primario": "#4c1d95",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/lidia.webp",
+      "gradiente": "linear-gradient(135deg, #4c1d95 0%, #0c0a09 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Lidia",
+      "nombre_diseno": "La vendedora de Púrpura (De Tiatira)",
+      "etymos": {
+        "original": "Λυδία",
+        "transliteracion": "Lydia",
+        "significado_legal": "La que proviene de Lidia (Nobleza). Representa la influencia del mercado redimida para el propósito."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Corazón de Puerta Abierta",
+      "texto": "Hechos 16:14 dice que Dios \"abrió el corazón\" de Lidia para que estuviera atenta a lo que Pablo decía. El misterio técnico es que ella era una mujer de negocios exitosa en el mercado de la púrpura (un producto de lujo). Lo sorprendente es que tras su conversión, no dejó su negocio, sino que su casa se convirtió en la SEDE (HQ) de la expansión del Reino en Europa. Lidia es el rastro de la **Economía del Reino**: el éxito financiero puesto al servicio de la logística de la Verdad."
+    },
+    "transferencia_codigo": {
+      "titulo": "Gobernando el Mercado",
+      "puntos": [
+        {
+          "concepto": "Consagrar la influencia comercial",
+          "cita": "Hechos 16:15",
+          "ejemplo_real": "Si tienes éxito en tu profesión o negocio, no lo veas como algo separado de tu fe. Lidia usó su infraestructura para hospedar a los apóstoles. Tu empresa es una plataforma legal para que el Evangelio transite con fuerza en tu ciudad."
+        },
+        {
+          "concepto": "Sintonía en el lugar de oración",
+          "cita": "Hechos 16:13",
+          "ejemplo_real": "Lidia estaba junto al río orando antes de conocer a Pablo. El encuentro con tu propósito ocurre cuando ya estás en movimiento espiritual. No esperes sentado; mantén tu altar encendido y las conexiones correctas llegarán a tu vida."
+        },
+        {
+          "concepto": "Liderazgo familiar inmediato",
+          "cita": "Hechos 16:15",
+          "ejemplo_real": "Ella se bautizó con toda su familia. Cuando la cabeza de un hogar o negocio cambia de frecuencia, el sistema entero se alinea. Tu decisión de seguir la Verdad tiene un efecto dominó legal sobre todos los que dependen de ti."
+        }
+      ]
+    },
+    "eco_de_cristo": "Lidia proveyó descanso y sustento a los mensajeros; Cristo es quien prepara lugar para nosotros y nos invita a Su mesa eterna.",
+    "tags": [
+      "finanzas",
+      "hospitalidad",
+      "lidia"
+    ],
+    "conexiones": {
+      "huellas": "lidia-filipos",
+      "etymos": "philoxenia-gr",
+      "cronos": "filipos-mision"
+    }
+  },
+  {
+    "id": "onoma-lucas-historiador",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": false,
+    "config_tarjeta": {
+      "color_primario": "#0ea5e9",
+      "color_acento": "#38bdf8",
+      "avatar_url": "img/perfiles/lucas.webp",
+      "gradiente": "linear-gradient(135deg, #0c4a6e 0%, #0b0f19 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Lucas",
+      "nombre_diseno": "El Médico Amado (Loukás)",
+      "etymos": {
+        "original": "Λουκᾶς",
+        "transliteracion": "Loukás",
+        "significado_legal": "Resplandeciente / Luminoso. El diseño que arroja luz técnica sobre los hechos del Reino."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "La Precisión del Investigador",
+      "texto": "Lucas no fue un testigo ocular de los milagros de Jesús, sino un historiador científico. El misterio técnico es que como médico, su vocabulario en el griego original es extremadamente preciso al describir enfermedades y milagros. Lo sorprendente es que Lucas validó legalmente la expansión de la Iglesia a través del libro de Hechos, usando un método de investigación que hoy llamaríamos periodismo de alta fidelidad. Su misterio es el de la **Ciencia al servicio de la Gloria**: Dios no le pidió que dejara su intelecto, sino que lo usara para certificar la Verdad."
+    },
+    "transferencia_codigo": {
+      "titulo": "Investigando el Diseño",
+      "puntos": [
+        {
+          "concepto": "Investigar con diligencia",
+          "cita": "Lucas 1:3",
+          "ejemplo_real": "No te conformes con repetir lo que otros dicen. Como Lucas, toma el tiempo de investigar a fondo la Palabra y los hechos. Una fe basada en evidencia técnica y sintonía espiritual es mucho más difícil de mover."
+        },
+        {
+          "concepto": "El valor del orden",
+          "cita": "Lucas 1:3",
+          "ejemplo_real": "Lucas escribió \"por orden\". Si quieres que tu proyecto o mensaje tenga impacto, organízalo. El Espíritu Santo fluye con más potencia cuando encuentra un hardware mental ordenado y estructurado."
+        },
+        {
+          "concepto": "Acompañar en la fidelidad",
+          "cita": "2 Timoteo 4:11",
+          "ejemplo_real": "Pablo dijo: \"Sólo Lucas está conmigo\". Sé ese amigo o socio que permanece fiel cuando todos los demás se van. Tu constancia silenciosa es lo que sostiene a los grandes arquitectos en sus momentos de crisis."
+        }
+      ]
+    },
+    "eco_de_cristo": "Lucas presenta a Jesús como el Hombre Perfecto y el Médico de almas que vino a sanar el diseño quebrado de la humanidad.",
+    "tags": [
+      "médico",
+      "historiador",
+      "lucas"
+    ],
+    "conexiones": {
+      "huellas": "lucas",
+      "etymos": "raz-he",
+      "cronos": "antioquia-mision"
+    },
+    "jurisdiccion": "Investigador Técnico de los Hechos del Reino"
+  },
+  {
+    "id": "onoma-priscila-aquila-unidad",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": false,
+    "config_tarjeta": {
+      "color_primario": "#b45309",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/priscila_aquila.webp",
+      "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Priscila y Aquila",
+      "nombre_diseno": "El Matrimonio Estratégico",
+      "etymos": {
+        "original": "Πρίσκιλλα & Ἀκύλας",
+        "transliteracion": "Prískilla & Akýlas",
+        "significado_legal": "Antigua / Venerable (Priscila) + Águila (Aquila). Representan la visión elevada y la sabiduría de la tradición redimida."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Orden del Nombre",
+      "texto": "En la mayoría de las menciones bíblicas, el nombre de Priscila aparece ANTES que el de su marido, Aquila. El misterio técnico es que en el mundo antiguo esto era inusual y denotaba que ella tenía una mayor capacidad de enseñanza o un rango espiritual más activo. Lo sorprendente es que operaban en una sintonía tan perfecta que se movían como un solo organismo legal. Su misterio es el de la **Jurisdicción del Hogar Abierto**: su casa no era un refugio privado, era un laboratorio de Reino donde se entrenaba a los próximos líderes."
+    },
+    "transferencia_codigo": {
+      "titulo": "Gobernando en Unidad",
+      "puntos": [
+        {
+          "concepto": "Corregir con amor técnico",
+          "cita": "Hechos 18:26",
+          "ejemplo_real": "Cuando oyeron a Apolos (un gran orador pero con doctrina incompleta), lo llevaron aparte y le explicaron \"más exactamente\" el camino. No humilles a los que fallan en público; instrúyelos en privado para que su don brille con la frecuencia correcta."
+        },
+        {
+          "concepto": "Negocios con propósito",
+          "cita": "Hechos 18:3",
+          "ejemplo_real": "Eran fabricantes de tiendas, igual que Pablo. No veas tu negocio o emprendimiento como algo secular. Tu trabajo es el sustento físico de tu misión espiritual. Haz tus \"tiendas\" con excelencia para financiar la expansión."
+        },
+        {
+          "concepto": "Riesgo compartido",
+          "cita": "Romanos 16:3-4",
+          "ejemplo_real": "Pablo dice que ellos \"expusieron su vida\" por él. Un matrimonio o equipo maduro se protege mutuamente. La unidad estratégica es lo que te permite enfrentar grandes crisis sin que el sistema se colapse."
+        }
+      ]
+    },
+    "eco_de_cristo": "El matrimonio de Priscila y Aquila prefigura la relación entre Cristo (el Esposo) y la Iglesia (la Esposa), trabajando juntos en la misma obra de salvación.",
+    "conexiones": {
+      "huellas": "priscila-aquila",
+      "etymos": "ekklesia-gr",
+      "cronos": "estadio-istmia"
+    },
+    "tags": [
+      "matrimonio",
+      "mentoreo",
+      "negocios"
+    ],
+    "jurisdiccion": "Estrategas de Sintonía y Mentores de Hogar Abierto"
+  },
+  {
+    "id": "onoma-onesimo-restituido",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "apostolicos.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#475569",
+      "color_acento": "#94a3b8",
+      "avatar_url": "img/perfiles/onesimo.webp",
+      "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Onésimo",
+        "titulo": "El Esclavo Fugitivo (Deuda)",
+        "avatar_url": "img/perfiles/onesimo.webp",
+        "jurisdiccion": "Alma bajo la Condena del Sistema de Esclavitud",
+        "etymos": {
+          "original": "Ὀνήσιμος",
+          "transliteracion": "Onésimos",
+          "significado_legal": "Útil / Provechoso. La paradoja de un diseño hecho para servir que huye de su responsabilidad legal."
+        },
+        "misterio_escudrinado": {
+          "titulo": "La Huida a Roma",
+          "texto": "Onésimo le robó a su amo Filemón y huyó a la ciudad más grande del mundo para desaparecer. El misterio técnico es que en su huida, terminó en la misma cárcel que Pablo. Lo sorprendente es que su \"error legal\" fue el puente que Dios usó para conectarlo con la mayor revelación de libertad. Onésimo representa al hombre que huye de sus consecuencias y descubre que el Redentor lo estaba esperando en su celda más oscura."
+        },
+        "transferencia_codigo": {
+          "titulo": "Enfrentando el Pasado",
+          "puntos": [
+            {
+              "concepto": "No huir de las deudas",
+              "cita": "Filemón 1:18",
+              "ejemplo_real": "Si cometiste un error o tienes un conflicto pendiente, no intentes desaparecer. La libertad real requiere enfrentar la legalidad. Confía en que si te alineas con el Diseño, Dios pondrá un \"intercesor\" que ayude a resolver tu caso."
+            },
+            {
+              "concepto": "Utilidad redimida",
+              "cita": "Filemón 1:11",
+              "ejemplo_real": "Pablo dice que Onésimo antes era \"inútil\", pero ahora es \"útil\". Tu pasado de fallos no define tu utilidad futura. Si hoy te sientes un estorbo, sintoniza con la Gracia; ella tiene la tecnología para convertir tu debilidad en un activo para el Reino."
+            },
+            {
+              "concepto": "Aceptar la paternidad en la crisis",
+              "cita": "Filemón 1:10",
+              "ejemplo_real": "Pablo lo llamó \"mi hijo, a quien engendré en mis prisiones\". A veces tu mayor crecimiento ocurrirá en tus momentos de mayor limitación. Deja que los procesos difíciles den a luz una nueva naturaleza en ti."
+            }
+          ]
+        },
+        "eco_de_cristo": "Onésimo es el deudor; Filemón es el ofendido; Pablo es el intercesor que dice \"ponlo a mi cuenta\". Es la ilustración perfecta del Evangelio."
+      },
+      {
+        "nombre": "Hijo Amado",
+        "titulo": "El Hermano en el Señor (Restitución)",
+        "avatar_url": "img/perfiles/onesimo.webp",
+        "jurisdiccion": "Ministro de Gracia y Testimonio del Gran Intercambio",
+        "etymos": {
+          "original": "Ὀνήσιμος",
+          "transliteracion": "Onésimos",
+          "significado_legal": "Útil por Diseño / Hermano amado. El rango que trasciende la condición social."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Pago de la Cuenta",
+          "texto": "Pablo le escribió a Filemón: \"Si en algo te dañó, o te debe, ponlo a mi cuenta\". El misterio técnico es que Pablo estaba asumiendo la responsabilidad legal total de la deuda de un esclavo. Lo sorprendente es que Onésimo volvió a su amo no como un esclavo que pide perdón, sino como un \"hermano amado\" con una carta de recomendación del Apóstol de las naciones. Su misterio es el de la **Restitución por Sustitución**: su deuda no fue ignorada, fue PAGADA por otro para elevar su rango."
+        },
+        "transferencia_codigo": {
+          "titulo": "Viviendo en la Restitución",
+          "puntos": [
+            {
+              "concepto": "Vivir sin el peso de la deuda",
+              "cita": "Colosenses 2:14",
+              "ejemplo_real": "Deja de actuar como si aún debieras algo por tus pecados pasados. Si Cristo dijo \"Tetelestai\" (Pagado está), tu cuenta en el cielo está en cero. Camina con la frente en alto; el Sustituto ya firmó Tu libertad."
+            },
+            {
+              "concepto": "De esclavo a hermano",
+              "cita": "Filemón 1:16",
+              "ejemplo_real": "Tu nueva identidad en Cristo te da un rango que supera cualquier jerarquía humana. Trata a los demás (y a ti mismo) con el honor de quienes pertenecen a la misma familia real. La Gracia nivela el terreno de juego."
+            },
+            {
+              "concepto": "Ser útil para el ministerio",
+              "cita": "Colosenses 4:9",
+              "ejemplo_real": "Onésimo terminó siendo un colaborador clave en la expansión. No permitas que tu historia de \"fugitivo\" te impida servir hoy. Tu capacidad de ser útil al Reino es proporcional a cuánto creas que has sido perdonado."
+            }
+          ]
+        },
+        "eco_de_cristo": "Cristo es el que dice al Padre sobre nosotros: \"Si algo te deben, ponlo a Mi cuenta; Yo pagaré con Mi sangre\"."
+      }
+    ],
+    "conexiones": {
+      "huellas": "onesimo",
+      "etymos": "katallage-gr",
+      "cronos": "colosas-centro"
+    },
+    "tags": [
+      "redención",
+      "libertad",
+      "onesimo"
     ]
   }
 ]

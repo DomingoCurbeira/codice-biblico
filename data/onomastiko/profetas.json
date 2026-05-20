@@ -84,28 +84,16 @@
         "eco_de_cristo": "Jesús leyó el libro de Isaías en la sinagoga para inaugurar Su ministerio (Lucas 4:18)."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "isaias",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "yeshayahu-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "acueducto-acaz",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "redención",
       "isaias",
       "mesías"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "isaias",
+      "etymos": "yeshayahu-he",
+      "cronos": "acueducto-acaz"
+    }
   },
   {
     "id": "onoma-daniel-sabio",
@@ -192,28 +180,17 @@
         "eco_de_cristo": "Daniel vio al \"Hijo del Hombre\", el título favorito de Jesús para Sí mismo."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "daniel-inteligencia-profetica",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "raz-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "babilonia",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "sabio",
       "babilonia",
       "daniel"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "daniel",
+      "etymos": "raz-he",
+      "cronos": "babilonia",
+      "rutas": "onoma-daniel-sabio"
+    }
   },
   {
     "id": "onoma-jeremias-columna",
@@ -300,28 +277,16 @@
         "eco_de_cristo": "Jeremías profetizó el Nuevo Pacto que Cristo selló con Su propia sangre."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "jeremias",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "acueducto-acaz",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "profeta",
       "nuevo-pacto",
       "jeremias"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "jeremias",
+      "etymos": "yirmeyahu-pneuma-he",
+      "cronos": "acueducto-acaz"
+    }
   },
   {
     "id": "onoma-ezequiel-visionario",
@@ -408,28 +373,16 @@
         "eco_de_cristo": "Jesús es el verdadero Templo del cual fluye el agua de vida que sana todo lo que toca (Juan 7:38)."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "ezequiel",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "kavod-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "babilonia",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "gloria",
       "visión",
       "ezequiel"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "ezequiel",
+      "etymos": "pataj-he",
+      "cronos": "babilonia"
+    }
   },
   {
     "id": "onoma-jonas-ninive",
@@ -516,28 +469,17 @@
         "eco_de_cristo": "Jonás es el único profeta que Jesús comparó directamente con Su propia experiencia de muerte y resurrección."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "jonas",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "jonas-pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "ninive-ciudad",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "misericordia",
       "naciones",
       "jonas"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "jonas",
+      "etymos": "metanoia-gr",
+      "cronos": "ninive-ciudad",
+      "rutas": "onoma-jonas-ninive"
+    }
   },
   {
     "id": "onoma-oseas-redentor",
@@ -624,28 +566,16 @@
         "eco_de_cristo": "Jesús es el verdadero Oseas que nos compró en el mercado del pecado, pagando con Su propia sangre lo que nosotros no podíamos pagar."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "oseas",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "chesed-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "valle-jezreel",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "amor-fiel",
       "redención",
       "oseas"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "oseas",
+      "etymos": "chesed-he",
+      "cronos": "valle-jezreel"
+    }
   },
   {
     "id": "onoma-habacuc-vigia",
@@ -732,28 +662,16 @@
         "eco_de_cristo": "La frase \"el justo por la fe vivirá\" es el motor del mensaje de Pablo sobre la justicia de Cristo en nosotros."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "habacuc",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "habacuc-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "valle-josafat",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "fe",
       "visión",
       "habacuc"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "habacuc",
+      "etymos": "habacuc-he",
+      "cronos": "valle-josafat"
+    }
   },
   {
     "id": "onoma-eliseo-profeta",
@@ -840,27 +758,129 @@
         "eco_de_cristo": "Eliseo multiplicando el aceite y los panes prefigura a Jesús alimentando a las multitudes y dándonos el aceite del Espíritu Santo."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "eliseo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "elisha-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "monte-carmeloe",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "milagros",
       "visión",
       "eliseo"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "eliseo",
+      "etymos": "elisha-he",
+      "cronos": "monte-carmelo"
+    }
+  },
+  {
+    "id": "onoma-nahum-vengador",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": false,
+    "config_tarjeta": {
+      "color_primario": "#450a0a",
+      "color_acento": "#f87171",
+      "avatar_url": "img/perfiles/nahum.webp",
+      "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #000000 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Nahúm",
+      "nombre_diseno": "Najum (El Consuelo Divino)",
+      "etymos": {
+        "original": "נַחוּם",
+        "transliteracion": "Najum",
+        "significado_legal": "Consuelo / Consolador. El rastro de quien anuncia el fin de la opresión mediante el juicio justo."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Heraldo sobre los Montes",
+      "texto": "Nahúm recibió la carga de anunciar la caída de Nínive, la capital del imperio más cruel de la historia. El misterio es que su nombre significa \"Consuelo\". Lo sorprendente es que el consuelo de Dios no siempre es un abrazo suave; a veces el mayor consuelo es que Dios ponga fin legalmente a la injusticia de un opresor. Nahúm representa la sintonía con la bondad de Dios que decide no dejar al culpable sin castigo para proteger a los que en Él confían."
+    },
+    "transferencia_codigo": {
+      "titulo": "Gobernando en el Consuelo de la Justicia",
+      "puntos": [
+        {
+          "concepto": "La justicia como forma de amor",
+          "cita": "Nahúm 1:7",
+          "ejemplo_real": "Si hoy sufres acoso o injusticia en tu trabajo o entorno, descansa en el diseño de Nahúm. Dios es bueno y es fortaleza en el día de la angustia. Su justicia sobre el mal es el escudo que garantiza Tu paz a largo plazo."
+        },
+        {
+          "concepto": "El fin de los tiranos",
+          "cita": "Nahúm 1:9",
+          "ejemplo_real": "La maldad no tiene un contrato eterno. Aunque hoy veas al \"imperio\" del caos prosperar, el decreto legal de Dios dice que la aflicción no se levantará dos veces. Confía en que el ciclo de tu opresión tiene una fecha de caducidad divina."
+        },
+        {
+          "concepto": "Pies de hermosura",
+          "cita": "Nahúm 1:15",
+          "ejemplo_real": "Nahúm dice: \"He aquí sobre los montes los pies del que trae buenas nuevas\". Sé un heraldo de soluciones. Tu misión es anunciar a otros que el sistema de tinieblas ha sido vencido y que el Reino de la Paz está cerca. Tu noticia cambia atmósferas."
+        }
+      ]
+    },
+    "eco_de_cristo": "Nahúm profetizó el fin del enemigo de Israel; Cristo es quien destruyó legalmente al enemigo de nuestras almas en la cruz, dándonos el consuelo eterno.",
+    "tags": [
+      "justicia",
+      "consuelo",
+      "nahum"
+    ],
+    "conexiones": {
+      "huellas": "nahum",
+      "etymos": "tzedakah-he",
+      "cronos": "ninive-ciudad"
+    },
+    "jurisdiccion": "Consolador de la Justicia Divina"
+  },
+  {
+    "id": "onoma-malaquias-mensajero",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "profetas.json",
+    "tiene_transicion": false,
+    "config_tarjeta": {
+      "color_primario": "#000000",
+      "color_acento": "#fbbf24",
+      "avatar_url": "img/perfiles/malaquias.webp",
+      "gradiente": "linear-gradient(135deg, #0c0a09 0%, #451a03 100%)"
+    },
+    "identidad": {
+      "nombre_humano": "Malaquías",
+      "nombre_diseno": "Malají (El Mensajero del Pacto)",
+      "etymos": {
+        "original": "מַלְאָכִי",
+        "transliteracion": "Malají",
+        "significado_legal": "Mi Mensajero / Mi Ángel. El rastro de un diseño que prepara el terreno para la visitación final."
+      }
+    },
+    "misterio_escudrinado": {
+      "titulo": "El Sol de Justicia",
+      "texto": "Malaquías cerró el canon del Antiguo Testamento anunciando que \"nacerá el Sol de Justicia, y en sus alas traerá salvación\". El misterio técnico es que comparó al Mesías con el sol, que no solo alumbra sino que quema la escoria. Lo sorprendente es que tras sus palabras hubo 400 años de silencio profético. Su misterio es el de la **Vigilancia en el Silencio**: su voz sostuvo la esperanza de un pueblo en la oscuridad total hasta que nació Juan el Bautista."
+    },
+    "transferencia_codigo": {
+      "titulo": "Activando la Fidelidad en el Silencio",
+      "puntos": [
+        {
+          "concepto": "Honrar la Mesa de Dios",
+          "cita": "Malaquías 1:7",
+          "ejemplo_real": "Malaquías reprendió a quienes traían lo \"ciego y cojo\" al altar. No le des a Dios tus sobras (de tiempo, de dinero o de talento). Si quieres ver el diseño operando al 100%, dale al Reino lo mejor de tu esfuerzo y tu primicia emocional."
+        },
+        {
+          "concepto": "Proteger el Pacto Familiar",
+          "cita": "Malaquías 4:6",
+          "ejemplo_real": "Su última promesa fue que el corazón de los padres se volvería a los hijos. Invierte en la restauración de tus relaciones familiares. Un diseño familiar alineado es el requisito legal para que la bendición del Reino no sea herida."
+        },
+        {
+          "concepto": "Confiar en el Proceso de Purificación",
+          "cita": "Malaquías 3:3",
+          "ejemplo_real": "Dios se sienta como un \"afinador de plata\". Cuando pases por pruebas difíciles, no pienses que es para destruirte. El Padre está quitando las impurezas de tu carácter para que Tu diseño brille con el resplandor del Sol de Justicia."
+        }
+      ]
+    },
+    "eco_de_cristo": "Malaquías anunció al Mensajero del Pacto; Jesús es el cumplimiento total de este anuncio, el Sol que disipó las tinieblas de la humanidad.",
+    "tags": [
+      "mensajero",
+      "esperanza",
+      "malaquias"
+    ],
+    "conexiones": {
+      "huellas": "malaquias",
+      "etymos": "tehillah-he",
+      "cronos": "acueducto-acaz"
+    },
+    "jurisdiccion": "Heraldo del Sol de Justicia"
   }
 ]

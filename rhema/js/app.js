@@ -139,33 +139,79 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- 4. FUNCIONES DE ACCIÓN ---
     async function descargarImagen(p) {
         const btn = document.getElementById('btn-download');
+        const originalHtml = btn.innerHTML;
+        
         btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Preparando...';
         btn.disabled = true;
 
         const area = document.getElementById('capture-area');
         
         try {
+            // Aseguramos que la imagen de fondo esté cargada
+            const card = document.getElementById('main-card');
+            const bgUrl = window.getComputedStyle(card).backgroundImage.slice(5, -2).replace(/"/g, "");
+            
+            if (bgUrl && bgUrl !== 'none') {
+                await new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = resolve;
+                    img.onerror = resolve;
+                    img.src = bgUrl;
+                });
+            }
+
             const canvas = await html2canvas(area, {
                 useCORS: true,
+                allowTaint: true,
                 scale: 2,
-                backgroundColor: '#050608'
+                backgroundColor: '#050608',
+                logging: false, // Desactivar en producción si no es necesario
+                onclone: (clonedDoc) => {
+                    // Asegurar que el elemento clonado sea visible para la captura
+                    const clonedArea = clonedDoc.getElementById('capture-area');
+                    if (clonedArea) {
+                        clonedArea.style.display = 'block';
+                    }
+                }
             });
 
-            const link = document.createElement('a');
-            link.download = `Rhema_${p.cita.replace(/ /g, '_')}.png`;
-            link.href = canvas.toDataURL("image/png");
-            link.click();
+            // Estrategia de descarga mediante Blob (más compatible con Netlify/Producción)
+            canvas.toBlob((blob) => {
+                if (!blob) throw new Error("Error generando el archivo binario.");
 
-            Swal.fire({
-                toast: true, position: 'top', icon: 'success',
-                title: '¡Promesa Guardada!', showConfirmButton: false, timer: 2000,
-                background: '#161b22', color: '#d4b483'
-            });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                
+                // Limpieza de nombre de archivo para evitar errores de cabecera
+                const safeCite = p.cita.replace(/[^a-z0-9]/gi, '_');
+                link.download = `Rhema_${safeCite}.png`;
+                link.href = url;
+                
+                // Simular click para disparar descarga
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // Liberar recursos
+                setTimeout(() => URL.revokeObjectURL(url), 200);
+
+                Swal.fire({
+                    toast: true, position: 'top', icon: 'success',
+                    title: '¡Imagen Guardada!', showConfirmButton: false, timer: 2500,
+                    background: '#161b22', color: '#d4b483'
+                });
+            }, 'image/png', 1.0);
 
         } catch (err) {
-            console.error(err);
+            console.error("Error en la exportación Rhema:", err);
+            Swal.fire({
+                icon: 'error',
+                title: 'No se pudo generar la imagen',
+                text: 'Hubo un problema técnico al procesar la captura. Intenta tomar una captura de pantalla manual.',
+                background: '#161b22', color: '#d4b483'
+            });
         } finally {
-            btn.innerHTML = '<i class="fas fa-download"></i> <span>Guardar Promesa</span>';
+            btn.innerHTML = originalHtml;
             btn.disabled = false;
         }
     }

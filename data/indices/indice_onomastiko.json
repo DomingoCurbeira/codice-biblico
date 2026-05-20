@@ -1,28 +1,51 @@
 {
   "meta": {
     "version": "4.1-object-id",
-    "ultima_sincronizacion": "2026-04-23",
-    "total_global": 51
+    "ultima_sincronizacion": "2026-05-18",
+    "total_global": 58
   },
   "identidades": [
     {
+      "id": "onoma-jesus-supremo",
+      "nombre": "JESÚS",
+      "subtitulo": "El Alfa y la Omega",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/jesus.webp",
+      "tags": [
+        "mesías",
+        "rey",
+        "salvador",
+        "jesús"
+      ]
+    },
+    {
+      "id": "onoma-aaron-kohen",
+      "nombre": "Aarón",
+      "subtitulo": "Aharón HaKohen (Iluminado)",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/aaron.webp",
+      "tags": [
+        "sacerdote",
+        "tabernaculo",
+        "aaron"
+      ]
+    },
+    {
       "id": "onoma-abraham-fe",
       "nombre": "Abram",
-      "subtitulo": "Padre Enaltecido",
+      "subtitulo": "Padre Enaltecido (Esfuerzo Humano)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/abram.webp",
       "tags": [
         "fe",
         "pacto",
-        "promesa",
-        "patriarca",
-        "avrahám"
+        "patriarca"
       ]
     },
     {
       "id": "onoma-adan-prototipo",
       "nombre": "Adán",
-      "subtitulo": "El Prototipo de la Humanidad",
+      "subtitulo": "El Prototipo (Ha-Adám)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/adan.webp",
       "tags": [
@@ -33,145 +56,117 @@
       ]
     },
     {
-      "id": "onoma-aaron-kohen",
-      "nombre": "Aharón",
-      "subtitulo": "El Portavoz del Éxodo",
-      "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/aaron-voz.webp",
-      "tags": [
-        "sacerdote",
-        "tabernaculo",
-        "intercesión",
-        "aaron",
-        "levita"
-      ]
-    },
-    {
       "id": "onoma-bartimeo-ciego",
       "nombre": "Bartimeo",
-      "subtitulo": "El Mendigo de Jericó",
+      "subtitulo": "El Mendigo de Jericó (Vicisitud)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/bartimeo-manto.webp",
       "tags": [
-        "bartimeo",
         "milagro",
         "visión",
-        "jericó",
-        "fe"
+        "bartimeo"
+      ]
+    },
+    {
+      "id": "onoma-juan-discipulo",
+      "nombre": "Boanerges",
+      "subtitulo": "Hijo del Trueno (Frecuencia de Ira)",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/juan_apostol.webp",
+      "tags": [
+        "amor",
+        "juan",
+        "apocalipsis"
       ]
     },
     {
       "id": "onoma-daniel-sabio",
       "nombre": "Daniel",
-      "subtitulo": "El Revelador de Misterios",
+      "subtitulo": "El Revelador de Misterios (Integridad)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/daniel-babilonia.webp",
-      "tags": []
+      "tags": [
+        "sabio",
+        "babilonia",
+        "daniel"
+      ]
     },
     {
       "id": "onoma-david-rey",
       "nombre": "David",
-      "subtitulo": "El Pastor de Belén",
+      "subtitulo": "El Pastor de Belén (Preparación)",
       "archivo_fuente": "historicos.json",
       "imagen": "../img/perfiles/david-pastor.webp",
       "tags": [
         "realeza",
         "salmos",
-        "jerusalén",
-        "david",
-        "linaje"
+        "david"
+      ]
+    },
+    {
+      "id": "onoma-tomas-apostol",
+      "nombre": "Dídymos",
+      "subtitulo": "El Gemelo (Frecuencia de Lógica)",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/tomas-duda.webp",
+      "tags": [
+        "tomás",
+        "apostol",
+        "fe"
       ]
     },
     {
       "id": "onoma-buen-pastor",
       "nombre": "El Buen Pastor",
-      "subtitulo": "La Barrera Viva",
+      "subtitulo": "La Barrera Viva (Rol Humano/Sombra)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/buen-pastor-redil.webp",
       "tags": [
         "pastor",
         "puerta",
-        "cobertura",
-        "judea",
         "seguridad"
       ]
     },
     {
-      "id": "onoma-qohelet-sabio",
-      "nombre": "El Predicador",
-      "subtitulo": "La Voz de la Sabiduría",
-      "archivo_fuente": "poeticos.json",
-      "imagen": "../img/perfiles/qohelet-vanidad.webp",
-      "tags": []
-    },
-    {
-      "id": "onoma-david-salmista",
-      "nombre": "El Salmista",
-      "subtitulo": "El Dulce Cantor de Israel",
-      "archivo_fuente": "poeticos.json",
-      "imagen": "../img/perfiles/david-cueva.webp",
-      "tags": []
-    },
-    {
       "id": "onoma-elias-fuego",
       "nombre": "Elías",
-      "subtitulo": "El Profeta del Fuego",
+      "subtitulo": "El Profeta del Fuego (Confrontación)",
       "archivo_fuente": "historicos.json",
       "imagen": "../img/perfiles/elias-tesbita.webp",
       "tags": [
         "profeta",
         "fuego",
-        "elias",
-        "reforma",
-        "traslación"
+        "elias"
       ]
     },
     {
       "id": "onoma-eliseo-profeta",
       "nombre": "Eliseo",
-      "subtitulo": "El Labrador de Abel-mehola",
+      "subtitulo": "El Labrador de Abel-mehola (Servicio)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/eliseo-labrador.webp",
       "tags": [
-        "profeta",
         "milagros",
-        "fidelidad",
         "visión",
-        "doble-porción"
+        "eliseo"
       ]
     },
     {
       "id": "onoma-esteban-martir",
       "nombre": "Esteban",
-      "subtitulo": "El Administrador de la Gracia",
+      "subtitulo": "Administrador de la Gracia (Servicio)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/esteban-diacono.webp",
       "tags": [
         "esteban",
-        "mártir",
-        "visión",
-        "jerusalén",
-        "espíritu-santo"
-      ]
-    },
-    {
-      "id": "onoma-ester-salvacion",
-      "nombre": "Ester",
-      "subtitulo": "La Huérfana de Susa",
-      "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/ester-doncella.webp",
-      "tags": [
-        "reina",
-        "valentía",
-        "exilio",
-        "ester",
-        "providencia"
+        "testigo",
+        "gloria"
       ]
     },
     {
       "id": "onoma-eva-vida",
       "nombre": "Eva",
-      "subtitulo": "Madre de todos los Vivientes",
+      "subtitulo": "Chavváh (Madre de Vivientes)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/eva.webp",
       "tags": [
@@ -185,65 +180,83 @@
     {
       "id": "onoma-ezequiel-visionario",
       "nombre": "Ezequiel",
-      "subtitulo": "El Profeta de la Gloria",
+      "subtitulo": "El Sacerdote del Exilio (Preparación)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/ezequiel-exilio.webp",
-      "tags": []
+      "tags": [
+        "gloria",
+        "visión",
+        "ezequiel"
+      ]
     },
     {
       "id": "onoma-gedeon-libertador",
       "nombre": "Gedeón",
-      "subtitulo": "El Labrador Temeroso",
+      "subtitulo": "El Labrador Temeroso (Estado Humano)",
       "archivo_fuente": "historicos.json",
       "imagen": "../img/perfiles/gedeon-campesino.webp",
       "tags": [
         "jueces",
         "valentía",
-        "victoria",
-        "gedeon",
-        "restauración"
+        "victoria"
       ]
     },
     {
       "id": "onoma-habacuc-vigia",
       "nombre": "Habacuc",
-      "subtitulo": "El Profeta de la Torre",
+      "subtitulo": "El Profeta de la Torre (Queja)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/habacuc.webp",
-      "tags": []
+      "tags": [
+        "fe",
+        "visión",
+        "habacuc"
+      ]
+    },
+    {
+      "id": "onoma-ester-salvacion",
+      "nombre": "Hadassah",
+      "subtitulo": "La Huérfana de Susa (Identidad Oculta)",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/ester-doncella.webp",
+      "tags": [
+        "reina",
+        "valentía",
+        "ester"
+      ]
     },
     {
       "id": "onoma-isaac-fe",
       "nombre": "Isaac",
-      "subtitulo": "El Hijo de la Risa",
+      "subtitulo": "Itzják (La Risa de la Promesa)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/isaac-joven.webp",
       "tags": [
         "risa",
         "herencia",
-        "paz",
-        "obediencia",
-        "isaac",
-        "pacto"
+        "isaac"
       ]
     },
     {
       "id": "onoma-isaias-heraldo",
       "nombre": "Isaías",
-      "subtitulo": "El Profeta de la Redención",
+      "subtitulo": "El Consejero Real (Religión)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/isaias-llamado.webp",
-      "tags": []
+      "tags": [
+        "redención",
+        "isaias",
+        "mesías"
+      ]
     },
     {
       "id": "onoma-jacob-transicion",
       "nombre": "Jacob",
-      "subtitulo": "El Suplantador",
+      "subtitulo": "El Suplantador (Astucia Natural)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/jacob.webp",
       "tags": [
         "patriarca",
-        "lucha",
         "identidad",
         "jacob",
         "israel"
@@ -252,215 +265,246 @@
     {
       "id": "onoma-jeremias-columna",
       "nombre": "Jeremías",
-      "subtitulo": "El Profeta de las Naciones",
+      "subtitulo": "El Profeta de las Naciones (Llamado)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/jeremias-joven.webp",
-      "tags": []
+      "tags": [
+        "profeta",
+        "nuevo-pacto",
+        "jeremias"
+      ]
     },
     {
       "id": "onoma-job-vision",
       "nombre": "Job",
-      "subtitulo": "El Hombre de Uz",
+      "subtitulo": "El Hombre de Uz (Prosperidad Física)",
       "archivo_fuente": "poeticos.json",
       "imagen": "../img/perfiles/job-prospero.webp",
       "tags": [
         "sabiduria",
         "prueba",
-        "uz",
-        "job",
         "restauracion"
       ]
     },
     {
       "id": "onoma-jonas-ninive",
       "nombre": "Jonás",
-      "subtitulo": "El Profeta Fugitivo",
+      "subtitulo": "El Profeta Fugitivo (Resistencia)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/jonas.webp",
-      "tags": []
+      "tags": [
+        "misericordia",
+        "naciones",
+        "jonas"
+      ]
     },
     {
       "id": "onoma-jose-fe",
       "nombre": "José",
-      "subtitulo": "El Soñador de Canaán",
+      "subtitulo": "Zafnat-Panea (Revelador de Secretos)",
       "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/jose-sonador.webp",
+      "imagen": "../img/perfiles/jose-egipto.webp",
       "tags": [
-        "soñador",
         "egipto",
-        "providencia",
-        "jose",
-        "perdón"
+        "perdón",
+        "jose"
+      ]
+    },
+    {
+      "id": "onoma-bernabe-consuelo",
+      "nombre": "José de Chipre",
+      "subtitulo": "El Dueño de Tierras (Recursos)",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/bernabe.webp",
+      "tags": [
+        "consuelo",
+        "apóstol",
+        "bernabe"
+      ]
+    },
+    {
+      "id": "onoma-josue-conquista",
+      "nombre": "Josué",
+      "subtitulo": "Yehoshúa (Jehová es Salvación)",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/josue.webp",
+      "tags": [
+        "conquista",
+        "josue",
+        "victoria"
       ]
     },
     {
       "id": "onoma-juan-bautista",
       "nombre": "Juan",
-      "subtitulo": "La Voz del Desierto",
+      "subtitulo": "La Voz del Desierto (Precursor)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/juan-bautista.webp",
       "tags": [
         "precursor",
-        "desierto",
-        "arrepentimiento",
-        "juan",
-        "fidelidad"
-      ]
-    },
-    {
-      "id": "onoma-juan-discipulo",
-      "nombre": "Juan",
-      "subtitulo": "Hijo del Trueno (Boanerges)",
-      "archivo_fuente": "evangelios.json",
-      "imagen": "../img/perfiles/juan_apostol.webp",
-      "tags": [
-        "amor",
-        "apocalipsis",
-        "discípulo",
-        "juan",
-        "quintaesencia"
+        "juan"
       ]
     },
     {
       "id": "onoma-mujer-samaritana",
       "nombre": "La Samaritana",
-      "subtitulo": "La Mujer de Sicar",
+      "subtitulo": "La Mujer de Sicar (Vergüenza)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/samaritana-cantaro.webp",
       "tags": [
-        "samaritana",
-        "agua-viva",
+        "evangelismo",
         "adoración",
-        "sicar",
-        "evangelismo"
+        "samaritana"
       ]
     },
     {
       "id": "onoma-sulamita-esposa",
       "nombre": "La Sulamita",
-      "subtitulo": "La Amada del Cantar",
+      "subtitulo": "La Amada del Cantar (Identidad por Obra)",
       "archivo_fuente": "poeticos.json",
       "imagen": "../img/perfiles/sulamita.webp",
       "tags": [
         "amor",
-        "poesia",
         "paz",
-        "shalom",
         "cantar"
       ]
     },
     {
       "id": "onoma-lazaro-resucitado",
       "nombre": "Lázaro",
-      "subtitulo": "El Amigo de Betania",
+      "subtitulo": "El Amigo de Betania (Mortalidad)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/lazaro-sepulcro.webp",
       "tags": [
-        "lázaro",
         "resurrección",
-        "betania",
-        "vida",
-        "amistad"
+        "lázaro",
+        "vida"
+      ]
+    },
+    {
+      "id": "onoma-mateo-publicano",
+      "nombre": "Leví",
+      "subtitulo": "El Recaudador de Capernaum (Vicio)",
+      "archivo_fuente": "evangelios.json",
+      "imagen": "../img/perfiles/levi-publicano.webp",
+      "tags": [
+        "redención",
+        "mateo",
+        "evangelista"
+      ]
+    },
+    {
+      "id": "onoma-lidia-purpura",
+      "nombre": "Lidia",
+      "subtitulo": "La vendedora de Púrpura (De Tiatira)",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/lidia.webp",
+      "tags": [
+        "finanzas",
+        "hospitalidad",
+        "lidia"
       ]
     },
     {
       "id": "onoma-malaquias-mensajero",
       "nombre": "Malaquías",
-      "subtitulo": "El Mensajero del Pacto",
+      "subtitulo": "Malají (El Mensajero del Pacto)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/malaquias.webp",
-      "tags": []
-    },
-    {
-      "id": "onoma-maria-magdalena",
-      "nombre": "María Magdalena",
-      "subtitulo": "La Mujer de Magdala",
-      "archivo_fuente": "evangelios.json",
-      "imagen": "../img/perfiles/maria-magdala.webp",
       "tags": [
-        "magdalena",
-        "liberación",
-        "resurrección",
-        "fidelidad",
-        "testigo"
+        "mensajero",
+        "esperanza",
+        "malaquias"
       ]
     },
     {
-      "id": "onoma-mateo-publicano",
-      "nombre": "Mateo",
-      "subtitulo": "El Recaudador de Capernaum",
+      "id": "onoma-maria-magdalena",
+      "nombre": "María",
+      "subtitulo": "La de Magdala (Vulnerabilidad)",
       "archivo_fuente": "evangelios.json",
-      "imagen": "../img/perfiles/levi-publicano.webp",
+      "imagen": "../img/perfiles/maria-magdala.webp",
       "tags": [
-        "mateo",
-        "leví",
-        "publicano",
-        "evangelista",
-        "redención"
+        "liberación",
+        "testigo",
+        "magdalena"
+      ]
+    },
+    {
+      "id": "onoma-myriam-profetisa",
+      "nombre": "Miriam",
+      "subtitulo": "Myriam (Amargura Transmutada)",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/miriam.webp",
+      "tags": [
+        "profetisa",
+        "myriam",
+        "libertad"
+      ]
+    },
+    {
+      "id": "onoma-david-salmista",
+      "nombre": "Mizmór",
+      "subtitulo": "El Cantor de la Cueva (Proceso)",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/david-cueva.webp",
+      "tags": [
+        "adoración",
+        "salmos",
+        "david"
       ]
     },
     {
       "id": "onoma-moises-fe",
-      "nombre": "Moshé",
-      "subtitulo": "El Príncipe de los Pastores",
+      "nombre": "Moisés",
+      "subtitulo": "Moshé (Sacado de las Aguas)",
       "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/moises-pastor.webp",
+      "imagen": "../img/perfiles/moises.webp",
       "tags": [
         "libertador",
-        "ley",
         "exodo",
-        "moises",
-        "sinai"
+        "moises"
       ]
     },
     {
       "id": "onoma-mujer-virtuosa",
       "nombre": "Mujer Virtuosa",
-      "subtitulo": "Eshet Chayil",
+      "subtitulo": "La Administradora del Hogar (Moral)",
       "archivo_fuente": "poeticos.json",
       "imagen": "../img/perfiles/mujer-fuerza.webp",
-      "tags": []
-    },
-    {
-      "id": "onoma-myriam-profetisa",
-      "nombre": "Myriam",
-      "subtitulo": "La Guardiana de la Esperanza",
-      "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/myriam-niña.webp",
       "tags": [
-        "profetisa",
-        "cántico",
-        "libertad",
-        "myriam",
-        "egipto"
+        "fuerza",
+        "honor",
+        "mujer"
       ]
     },
     {
       "id": "onoma-nahum-vengador",
       "nombre": "Nahúm",
-      "subtitulo": "El Profeta del Consuelo Divino",
+      "subtitulo": "Najum (El Consuelo Divino)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/nahum.webp",
-      "tags": []
+      "tags": [
+        "justicia",
+        "consuelo",
+        "nahum"
+      ]
     },
     {
       "id": "onoma-nicodemo-maestro",
       "nombre": "Nicodemo",
-      "subtitulo": "Maestro de Israel",
+      "subtitulo": "Maestro de Israel (Religión)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/nicodemo-noche.webp",
       "tags": [
-        "nicodemo",
         "nuevo-nacimiento",
-        "fariseo",
-        "maestro",
+        "nicodemo",
         "valentía"
       ]
     },
     {
       "id": "onoma-noe-remanente",
       "nombre": "Noé",
-      "subtitulo": "El Preservador del Diseño",
+      "subtitulo": "Nóaj (El Consolador)",
       "archivo_fuente": "pentateuco.json",
       "imagen": "../img/perfiles/noe.webp",
       "tags": [
@@ -474,31 +518,117 @@
     {
       "id": "onoma-noemi-restaurada",
       "nombre": "Noemí",
-      "subtitulo": "La Dulzura de Belén",
+      "subtitulo": "La Dulzura de Belén (Diseño Original)",
       "archivo_fuente": "historicos.json",
       "imagen": "../img/perfiles/noemi.webp",
       "tags": [
         "rut",
-        "belen",
-        "noemi",
-        "mara",
-        "restauración"
+        "restauración",
+        "noemi"
       ]
     },
     {
       "id": "onoma-oseas-redentor",
       "nombre": "Oseas",
-      "subtitulo": "El Profeta del Amor Fiel",
+      "subtitulo": "El Profeta del Dolor (Carga)",
       "archivo_fuente": "profetas.json",
       "imagen": "../img/perfiles/oseas.webp",
-      "tags": []
+      "tags": [
+        "amor-fiel",
+        "redención",
+        "oseas"
+      ]
+    },
+    {
+      "id": "onoma-qohelet-sabio",
+      "nombre": "Qohélet",
+      "subtitulo": "El Predicador (Escrutinio Humano)",
+      "archivo_fuente": "poeticos.json",
+      "imagen": "../img/perfiles/qohelet-vanidad.webp",
+      "tags": [
+        "sabiduría",
+        "filosofía",
+        "sentido"
+      ]
+    },
+    {
+      "id": "onoma-rajab-fe",
+      "nombre": "Rahab",
+      "subtitulo": "Rachav (Fe Espaciosa)",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/rahab.webp",
+      "tags": [
+        "fe",
+        "linaje",
+        "rajab"
+      ]
+    },
+    {
+      "id": "onoma-salomon-sabiduria",
+      "nombre": "Salomón",
+      "subtitulo": "El Heredero de la Paz (Inicio)",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/salomon-joven.webp",
+      "tags": [
+        "sabiduría",
+        "templo",
+        "salomón"
+      ]
+    },
+    {
+      "id": "onoma-samuel-vidente",
+      "nombre": "Samuel",
+      "subtitulo": "El Hijo de la Oración (Infancia)",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/samuel-niño.webp",
+      "tags": [
+        "profeta",
+        "jueces",
+        "samuel"
+      ]
+    },
+    {
+      "id": "onoma-sanson-redimido",
+      "nombre": "Sansón",
+      "subtitulo": "El Nazareo del Sol (Potencial)",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/sanson-nazareo.webp",
+      "tags": [
+        "jueces",
+        "fuerza",
+        "redención"
+      ]
+    },
+    {
+      "id": "onoma-sarah-fe",
+      "nombre": "Sarai",
+      "subtitulo": "La Princesa del Clan (Privado)",
+      "archivo_fuente": "pentateuco.json",
+      "imagen": "../img/perfiles/sarai.webp",
+      "tags": [
+        "matriz",
+        "risa",
+        "promesa"
+      ]
+    },
+    {
+      "id": "onoma-saul-primer-rey",
+      "nombre": "Saúl",
+      "subtitulo": "El Elegido del Pueblo (Inicio)",
+      "archivo_fuente": "historicos.json",
+      "imagen": "../img/perfiles/saul-joven.webp",
+      "tags": [
+        "rey",
+        "caída",
+        "saul"
+      ]
     },
     {
       "id": "onoma-pablo-expansion",
-      "nombre": "Pablo",
-      "subtitulo": "El Arquitecto de la Expansión",
+      "nombre": "Saulo",
+      "subtitulo": "El Perseguidor del Sistema (Religión)",
       "archivo_fuente": "apostolicos.json",
-      "imagen": "../img/perfiles/pablo.webp",
+      "imagen": "../img/perfiles/saulo-ceguera.webp",
       "tags": [
         "expansión",
         "gracia",
@@ -509,142 +639,74 @@
     },
     {
       "id": "onoma-pedro-apostol",
-      "nombre": "Pedro",
-      "subtitulo": "El Pescador de Galilea",
+      "nombre": "Simón",
+      "subtitulo": "El Pescador de Galilea (Frecuencia Humana)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/simon-pescador.webp",
       "tags": [
         "apostol",
         "roca",
-        "pescador",
-        "pedro",
-        "restauración"
+        "pedro"
       ]
     },
     {
-      "id": "onoma-rajab-fe",
-      "nombre": "Rajab",
-      "subtitulo": "La Fe de los Muros",
-      "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/rajab-jerico.webp",
+      "id": "onoma-timoteo-hijo",
+      "nombre": "Timoteo",
+      "subtitulo": "El que Honra a Dios (Timótheos)",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/timoteo.webp",
       "tags": [
-        "fe",
-        "transformación",
-        "jerico",
-        "rajab",
-        "linaje"
-      ]
-    },
-    {
-      "id": "onoma-salomon-sabiduria",
-      "nombre": "Salomón",
-      "subtitulo": "El Heredero de la Paz",
-      "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/salomon-joven.webp",
-      "tags": [
-        "sabiduría",
-        "templo",
-        "paz",
-        "salomón",
-        "realeza"
-      ]
-    },
-    {
-      "id": "onoma-samuel-vidente",
-      "nombre": "Samuel",
-      "subtitulo": "El Hijo de la Oración",
-      "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/samuel-niño.webp",
-      "tags": [
-        "profeta",
-        "jueces",
-        "unción",
-        "samuel",
-        "vidente"
-      ]
-    },
-    {
-      "id": "onoma-sanson-redimido",
-      "nombre": "Sansón",
-      "subtitulo": "El Nazareo del Sol",
-      "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/sanson-nazareo.webp",
-      "tags": [
-        "jueces",
-        "fuerza",
-        "nazareo",
-        "sanson",
-        "redención"
-      ]
-    },
-    {
-      "id": "onoma-sarah-fe",
-      "nombre": "Sarai",
-      "subtitulo": "La Princesa de Abram",
-      "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/sarai.webp",
-      "tags": [
-        "matriz",
-        "risa",
-        "promesa",
-        "sarah",
-        "pacto"
-      ]
-    },
-    {
-      "id": "onoma-saul-primer-rey",
-      "nombre": "Saúl",
-      "subtitulo": "El Elegido del Pueblo",
-      "archivo_fuente": "historicos.json",
-      "imagen": "../img/perfiles/saul-joven.webp",
-      "tags": [
-        "rey",
-        "monarquía",
-        "saul",
-        "benjamin",
-        "caída"
-      ]
-    },
-    {
-      "id": "onoma-tomas-apostol",
-      "nombre": "Tomás",
-      "subtitulo": "El Dídimo de los Doce",
-      "archivo_fuente": "evangelios.json",
-      "imagen": "../img/perfiles/tomas-duda.webp",
-      "tags": [
-        "tomás",
-        "duda",
-        "confesión",
-        "apóstol",
-        "india"
-      ]
-    },
-    {
-      "id": "onoma-josue-conquista",
-      "nombre": "Yehoshúa",
-      "subtitulo": "El Siervo de Moshé",
-      "archivo_fuente": "pentateuco.json",
-      "imagen": "../img/perfiles/josue-servidor.webp",
-      "tags": [
-        "conquista",
-        "valentía",
-        "jerico",
-        "josue",
-        "victoria"
+        "legado",
+        "hijo",
+        "timoteo"
       ]
     },
     {
       "id": "onoma-zaqueo-publicano",
       "nombre": "Zaqueo",
-      "subtitulo": "El Jefe de los Publicanos",
+      "subtitulo": "El Jefe de los Publicanos (Extorsión)",
       "archivo_fuente": "evangelios.json",
       "imagen": "../img/perfiles/zaqueo-sicomoro.webp",
       "tags": [
-        "zaqueo",
-        "jericó",
         "restitución",
-        "hijo-de-abraham",
+        "zaqueo",
         "justicia"
+      ]
+    },
+    {
+      "id": "onoma-lucas-historiador",
+      "nombre": "Lucas",
+      "subtitulo": "El Médico Amado",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/lucas.webp",
+      "tags": [
+        "médico",
+        "historiador",
+        "lucas"
+      ]
+    },
+    {
+      "id": "onoma-priscila-aquila-unidad",
+      "nombre": "Priscila y Aquila",
+      "subtitulo": "El Matrimonio Estratégico",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/priscila_aquila.webp",
+      "tags": [
+        "matrimonio",
+        "mentoreo",
+        "negocios"
+      ]
+    },
+    {
+      "id": "onoma-onesimo-restituido",
+      "nombre": "Onésimo",
+      "subtitulo": "El Esclavo Útil",
+      "archivo_fuente": "apostolicos.json",
+      "imagen": "../img/perfiles/onesimo.webp",
+      "tags": [
+        "redención",
+        "libertad",
+        "onesimo"
       ]
     }
   ]

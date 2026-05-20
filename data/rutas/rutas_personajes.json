@@ -1,66 +1,476 @@
 {
-    "onoma-abraham-fe": {
-        "nombre_ruta": "Camino de la Fe de Abraham",
-        "archivo_fuente": "pentateuco.json",
-        "hitos": [
-            { "id_lugar": "babilonia", "orden": 1, "nota": "Salida de Ur hacia lo desconocido." },
-            { "id_lugar": "haran", "orden": 2, "nota": "Estancia y muerte de Taré." },
-            { "id_lugar": "antioquia-mision", "orden": 3, "nota": "Paso por el Creciente Fértil." },
-            { "id_lugar": "hebron", "orden": 4, "nota": "Asentamiento final y promesa." }
-        ]
-    },
-    "onoma-moises-fe": {
-        "nombre_ruta": "Moisés: El Camino a la Libertad",
-        "archivo_fuente": "pentateuco.json",
-        "hitos": [
-            { "id_lugar": "rio-nilo", "orden": 1 },
-            { "id_lugar": "monte-sinai", "orden": 2 },
-            { "id_lugar": "mar-rojo", "orden": 3 },
-            { "id_lugar": "cades-barnea", "orden": 4 },
-            { "id_lugar": "monte-nebo", "orden": 5 }
-        ]
-    },
-        "onoma-noe-remanente": {
-            "nombre_ruta": "Noé: Del Caos al Nuevo Mundo",
-            "archivo_fuente": "pentateuco.json",
-            "hitos": [
-                { "id_lugar": "valle-mesopotamia-antiguo", "orden": 1 },
-                { "id_lugar": "astillero-arca", "orden": 2 },
-                { "id_lugar": "montanas-ararat", "orden": 3 },
-                { "id_lugar": "altar-pacto", "orden": 4 }
-            ]
-    },
-        "onoma-jacob-transicion": {
-            "nombre_ruta": "Jacob: El Camino de la Transformación",
-            "archivo_fuente": "pentateuco.json",
-            "hitos": [
-                { "id_lugar": "betel", "orden": 1 },
-                { "id_lugar": "haran-padan-aram", "orden": 2 },
-                { "id_lugar": "peniel", "orden": 3 },
-                { "id_lugar": "siquem-asentamiento", "orden": 4 },
-                { "id_lugar": "egipto-jose", "orden": 5 }
-            ]
-    },
-        "onoma-jose-fe": {
-            "nombre_ruta": "José: De la Cisterna al Trono",
-            "archivo_fuente": "pentateuco.json",
-            "hitos": [
-                { "id_lugar": "valle-hebron", "orden": 1 },
-                { "id_lugar": "dotan", "orden": 2 },
-                { "id_lugar": "avaris-egipto", "orden": 3 },
-                { "id_lugar": "on-heliopolis", "orden": 4 },
-                { "id_lugar": "egipto-jose", "orden": 5 }
-            ]
-        },
-    "onoma-david-rey": {
-        "nombre_ruta": "David: Del Cayado a la Corona",
-        "archivo_fuente": "historicos.json",
-        "hitos": [
-            { "id_lugar": "belen-nacimiento", "orden": 1 },
-            { "id_lugar": "valle-ela", "orden": 2 },
-            { "id_lugar": "cueva-adulam", "orden": 3 },
-            { "id_lugar": "hebron", "orden": 4 },
-            { "id_lugar": "jerusalen-sion", "orden": 5 }
-        ]
-    }
+  "onoma-abraham-fe": {
+    "nombre_ruta": "Abraham: El Camino de la Fe",
+    "archivo_fuente": "pentateuco.json",
+    "hitos": [
+      {
+        "id_lugar": "ur-caldeos",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Desconexión del sistema de Babel (autonomía) para entrar en la Jurisdicción de la Promesa.",
+          "misterio_camino": "Abraham no salió solo por aventura; su salida fue un acto de guerra legal contra la idolatría de su linaje.",
+          "transferencia_territorial": "A veces Dios te pide dejar tu \"tierra\" (hábitos antiguos) antes de mostrarte tu destino. La obediencia en la salida es lo que activa el GPS del Reino."
+        }
+      },
+      {
+        "id_lugar": "haran",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Estación de espera técnica. El proceso se detiene hasta que la voz del pasado (Taré) deja de influir.",
+          "misterio_camino": "Abraham se quedó en Harán hasta que murió su padre. Dios no comparte la dirección de tu vida con herencias muertas.",
+          "transferencia_territorial": "Si sientes que tu propósito está estancado, revisa si aún arrastras influencias de tu vida anterior. Harán es el lugar donde aprendes que solo la Voz de Dios debe guiarte."
+        }
+      },
+      {
+        "id_lugar": "siquem",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Primer altar en la tierra prometida. Toma de posesión legal mediante la adoración.",
+          "misterio_camino": "En Siquem estaba la encina de Moreh (maestro). Dios le enseñó a Abraham que la tierra ya era suya aunque aún hubiera cananeos en ella.",
+          "transferencia_territorial": "Aprende a declarar posesión sobre tus promesas aunque veas \"gigantes\" u obstáculos. Tu adoración hoy es el título de propiedad de tu mañana."
+        }
+      },
+      {
+        "id_lugar": "hebron",
+        "orden": 4,
+        "revelacion": {
+          "transaccion_legal": "Asentamiento final y establecimiento del Altar de la Alianza Permanente.",
+          "misterio_camino": "Hebrón significa \"Comunión\". Es el lugar donde la fe deja de ser un viaje para convertirse en una residencia de intimidad.",
+          "transferencia_territorial": "Tu meta no es solo recibir la bendición, sino llegar al lugar de comunión constante con el Padre. Hebrón es donde el rastro se vuelve hogar."
+        }
+      }
+    ]
+  },
+  "onoma-jacob-transicion": {
+    "nombre_ruta": "Jacob: El Camino de la Transformación",
+    "archivo_fuente": "pentateuco.json",
+    "hitos": [
+      {
+        "id_lugar": "betel",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Apertura del portal dimensional (Escalera) en el lugar de la soledad.",
+          "misterio_camino": "Jacob usó una piedra de almohada. Lo que él creyó que era un lugar de abandono era el epicentro de la visitación divina.",
+          "transferencia_territorial": "Tus desiertos no son castigos; son coordenadas geográficas donde el cielo se abre para revelarte tu diseño."
+        }
+      },
+      {
+        "id_lugar": "peniel",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Desactivación de la fuerza carnal (el muslo) y activación del rango de Príncipe (Israel).",
+          "misterio_camino": "El quiebre no fue para herirlo, sino para obligarlo a caminar apoyado en la Gracia por el resto de su vida.",
+          "transferencia_territorial": "La victoria real se gana perdiendo contra Dios. Deja de luchar con tu astucia y ríndete a Su diseño; es allí donde recibes tu nuevo nombre."
+        }
+      },
+      {
+        "id_lugar": "egipto-jose",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Preservación del linaje en territorio de provisión externa durante la crisis.",
+          "misterio_camino": "Jacob bajó a Egipto para morir, pero allí vio el fruto de su diseño en sus nietos Efraín y Manasés.",
+          "transferencia_territorial": "A veces Dios te llevará a lugares extraños para que veas que Su provisión es superior a cualquier sequía nacional."
+        }
+      }
+    ]
+  },
+  "onoma-jose-fe": {
+    "nombre_ruta": "José: De la Cisterna al Trono",
+    "archivo_fuente": "pentateuco.json",
+    "hitos": [
+      {
+        "id_lugar": "dotan",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "El pozo del aislamiento. Dios permite la traición para romper el cordón umbilical familiar.",
+          "misterio_camino": "Sus hermanos querían matarlo, pero el pozo estaba vacío. El diseño de José estaba blindado contra la muerte física.",
+          "transferencia_territorial": "Si te sientes traicionado, no busques venganza. El pozo es el túnel técnico que Dios usa para transportarte hacia tu asignación de gobierno."
+        }
+      },
+      {
+        "id_lugar": "avaris-egipto",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Administración en casa de Potifar. Prueba de integridad en lo ajeno.",
+          "misterio_camino": "José gobernó la casa de un oficial egipcio antes de gobernar la nación. El entrenamiento fue en la excelencia privada.",
+          "transferencia_territorial": "Tu fidelidad en proyectos que no son tuyos es lo que valida tu capacidad legal para recibir lo propio."
+        }
+      },
+      {
+        "id_lugar": "egipto-jose",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Exaltación al Trono como Zafnat-panea. Jurisdicción sobre la crisis mundial.",
+          "misterio_camino": "Faraón le dio su anillo. José no pidió el poder; el sistema tuvo que rendirse ante su sabiduría superior.",
+          "transferencia_territorial": "Cuando tienes sintonía con el Espíritu, el mundo te buscará para que resuelvas sus problemas. Tu sabiduría es tu mayor activo financiero."
+        }
+      }
+    ]
+  },
+  "onoma-david-rey": {
+    "nombre_ruta": "David: Del Cayado a la Corona",
+    "archivo_fuente": "historicos.json",
+    "hitos": [
+      {
+        "id_lugar": "valle-ela",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Victoria de la sintonía sobre el tamaño. Desmantelamiento del miedo nacional.",
+          "misterio_camino": "David usó 5 piedras lisas. Una para Goliat y 4 para sus hermanos gigantes. Él ya había calculado la victoria total antes de tirar la primera.",
+          "transferencia_territorial": "No pelees con las armas del sistema (Saúl). Usa tus recursos de diseño (honda) y tu sintonía; un gigante cae con un gramo de revelación."
+        }
+      },
+      {
+        "id_lugar": "cueva-adulam",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Formación del ejército de los afligidos. De la amargura a la lealtad real.",
+          "misterio_camino": "La cueva fue el laboratorio donde los marginados se convirtieron en los valientes de David. La oscuridad produjo sintonía.",
+          "transferencia_territorial": "Tus momentos de soledad o crisis son donde Dios está cocinando a tu equipo de trabajo futuro. No desprecies la cueva."
+        }
+      },
+      {
+        "id_lugar": "jerusalen-sion",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Conquista de la fortaleza de Jebús y establecimiento de la capital del Reino.",
+          "misterio_camino": "David tomó Sión por el acueducto. El misterio es que entró por el lugar de las aguas para capturar la cima del gobierno.",
+          "transferencia_territorial": "La verdadera autoridad se conquista fluyendo en el Espíritu (Agua) hasta alcanzar la posición de influencia (Sión)."
+        }
+      }
+    ]
+  },
+  "onoma-jesus-supremo": {
+    "nombre_ruta": "Jesús: El Camino de la Redención",
+    "archivo_fuente": "evangelios.json",
+    "hitos": [
+      {
+        "id_lugar": "belen-nacimiento",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "La Encarnación: El Diseñador del universo se somete voluntariamente a las leyes de la biología humana.",
+          "misterio_camino": "Jesús nació en un establo porque no había lugar en el mesón. El misterio es que el Rey del universo eligió el lugar de mayor \"vulnerabilidad legal\" para nacer, burlando el radar del orgullo humano.",
+          "transferencia_territorial": "No desprecies tus comienzos humildes o tus lugares de escasez. Dios a menudo planta Sus mayores tesoros en los entornos más improbables."
+        }
+      },
+      {
+        "id_lugar": "rio-nilo",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Protección del Rastro: El Mesías es resguardado en territorio extranjero ante el decreto de muerte de Herodes.",
+          "misterio_camino": "Jesús fue a Egipto para que se cumpliera la profecía: \"De Egipto llamé a mi Hijo\". El misterio es que Dios usó el lugar de la antigua esclavitud como el santuario de Su mayor Libertad.",
+          "transferencia_territorial": "A veces Dios te llevará a lugares \"extraños\" o fuera de tu zona de confort para proteger tu propósito de ataques cercanos. Confía en Su logística de seguridad."
+        }
+      },
+      {
+        "id_lugar": "nazaret-hogar",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Preparación Silenciosa: 30 años de crecimiento privado para 3 años de manifestación pública.",
+          "misterio_camino": "Se decía: \"¿De Nazaret puede salir algo bueno?\". El misterio es que Dios usa el anonimato como el laboratorio donde se forja el carácter de realeza. El silencio no es abandono, es entrenamiento.",
+          "transferencia_territorial": "No intentes apresurar tu manifestación. El tiempo que pasas en lo secreto, haciendo cosas ordinarias con excelencia, es lo que construye el fundamento de tu autoridad futura."
+        }
+      },
+      {
+        "id_lugar": "rio-jordan-bautismo",
+        "orden": 4,
+        "revelacion": {
+          "transaccion_legal": "Validación de la Paternidad: El Cielo se abre para certificar legalmente el diseño del Hijo ante el mundo.",
+          "misterio_camino": "El Espíritu Santo bajó en forma de paloma. El misterio técnico es que Jesús no necesitaba el perdón de pecados, pero se bautizó para \"cumplir toda justicia\", alineándose con el protocolo de los hombres.",
+          "transferencia_territorial": "Antes de que empieces a actuar, necesitas oír la voz de tu Padre diciéndote quién eres. Tu identidad de hijo es el motor legal de todas tus victorias."
+        }
+      },
+      {
+        "id_lugar": "capernaum-base",
+        "orden": 5,
+        "revelacion": {
+          "transaccion_legal": "Establecimiento del Cuartel General: La Luz brilla en la encrucijada de las naciones.",
+          "misterio_camino": "Capernaum era un centro de comercio y aduanas. El misterio es que Jesús eligió un lugar de tránsito masivo para que Su mensaje se difundiera por las rutas comerciales del imperio.",
+          "transferencia_territorial": "Posiciónate estratégicamente. Dios quiere que tu influencia esté en los lugares de movimiento y decisión de tu sociedad, no solo dentro de cuatro paredes."
+        }
+      },
+      {
+        "id_lugar": "golgota-sepulcro",
+        "orden": 6,
+        "revelacion": {
+          "transaccion_legal": "El Tetelestai: La deuda eterna de la humanidad es cancelada mediante un sacrificio de valor infinito.",
+          "misterio_camino": "En la cruz, el velo del templo se rasgó. El misterio técnico es que el acceso al Padre dejó de ser un privilegio de pocos para ser un derecho legal de todos los que creen.",
+          "transferencia_territorial": "Tu victoria final no nace de tu esfuerzo, sino de la obra consumada de Cristo. Hoy puedes entrar con confianza ante el Trono; la puerta está abierta permanentemente."
+        }
+      }
+    ]
+  },
+  "onoma-noe-remanente": {
+    "nombre_ruta": "Noé: Del Caos al Nuevo Mundo",
+    "archivo_fuente": "pentateuco.json",
+    "hitos": [
+      {
+        "id_lugar": "valle-mesopotamia-antiguo",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "El Cierre de la Jurisdicción de la Entropía. Dios decide detener el virus de la corrupción total.",
+          "misterio_camino": "Noé caminó con Dios mientras construía el Arca. El misterio es que el rastro de Noé no se movía en el espacio, sino en la sintonía. Su \"viaje\" fue vertical antes de ser horizontal.",
+          "transferencia_territorial": "Antes de que Dios te lleve a un nuevo mundo, debes aprender a caminar con Él en el valle del caos. Tu estabilidad interna es lo que te califica para ser el custodio del nuevo diseño."
+        }
+      },
+      {
+        "id_lugar": "astillero-arca",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Arquitectura de la Obediencia Técnica. La construcción del único recinto legal de preservación.",
+          "misterio_camino": "El Arca se construyó en tierra seca, lejos del mar. El misterio es que Noé trabajó en un diseño para un elemento (lluvia) que aún no existía en el registro físico. Fue un rastro de fe pura.",
+          "transferencia_territorial": "No esperes a ver las condiciones externas favorables para empezar a construir tu propósito. Si Dios te dio el plano, levanta tu \"arca\" hoy; el agua vendrá a buscar el diseño que ya está listo."
+        }
+      },
+      {
+        "id_lugar": "montanas-ararat",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Establecimiento del Reposo Sostenible. El rastro de la muerte es enterrado bajo las aguas.",
+          "misterio_camino": "El Arca descansó en el séptimo mes, a los diecisiete días del mes. El misterio es que siglos después, Jesús resucitó exactamente en esa misma fecha hebrea. El rastro de Noé aterrizó en la Resurrección.",
+          "transferencia_territorial": "Tus crisis no duran para siempre. Confía en que el Diseño tiene una fecha de aterrizaje programada en el monte del Reposo (Ararat). Tu proceso termina en la paz del cumplimiento."
+        }
+      },
+      {
+        "id_lugar": "altar-pacto",
+        "orden": 4,
+        "revelacion": {
+          "transaccion_legal": "Suscripción del Pacto del Arcoíris. Blindaje legal de la creación contra la destrucción total.",
+          "misterio_camino": "Noé no bajó del arca para construir una casa, bajó para construir un altar. El misterio es que el primer acto en el Nuevo Mundo fue una transacción de gratitud, lo que activó el arcoíris (el sello del contrato).",
+          "transferencia_territorial": "Cuando alcances una meta o salgas de una crisis, no busques tu propia comodidad primero. Levanta un altar de honra. Tu gratitud técnica es el seguro legal que protege Tu futuro."
+        }
+      }
+    ]
+  },
+  "onoma-moises-fe": {
+    "nombre_ruta": "Moisés: El Camino a la Libertad",
+    "archivo_fuente": "pentateuco.json",
+    "hitos": [
+      {
+        "id_lugar": "rio-nilo",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Extracción del Diseño: El salvador es salvado en el territorio de la sentencia de muerte.",
+          "misterio_camino": "La canasta de Moisés era una \"Tebah\" (Arca), el mismo término que el de Noé. El misterio es que Dios usó el mismo diseño de preservación para un hombre que para la humanidad entera.",
+          "transferencia_territorial": "Dios puede usarte incluso en los ambientes donde el enemigo ha decretado muerte. Tu vida está blindada si estás en la \"canasta\" de Su propósito."
+        }
+      },
+      {
+        "id_lugar": "mar-rojo",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Ruptura del Cordón Umbilical con Egipto. El mar se convierte en el tribunal de ejecución del opresor.",
+          "misterio_camino": "El viento solano sopló TODA la noche. El misterio es que el milagro no fue instantáneo; fue un proceso de sintonía y viento constante. El mar no se abrió por magia, se abrió por autoridad legal.",
+          "transferencia_territorial": "Frente a tu callejón sin salida, no entres en pánico. Usa tu \"vara\" (la autoridad que Dios te dio) y mantente firme. El mar que hoy te asusta es el lugar donde Dios enterrará a tus perseguidores."
+        }
+      },
+      {
+        "id_lugar": "monte-sinai",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Constitución de la Nación de Sacerdotes. Descarga del software legal (La Ley) en el hardware humano.",
+          "misterio_camino": "El pueblo temblaba al pie del monte mientras Moisés entraba en la nube. El misterio es que el rastro de la libertad requiere una parada técnica en la disciplina. Sin ley, la libertad es caos.",
+          "transferencia_territorial": "No huyas de la instrucción o de los límites que Dios te pone. Las reglas del Reino no son para encarcelarte, son para estructurarte y que puedas sostener el peso de Tu bendición."
+        }
+      },
+      {
+        "id_lugar": "cades-barnea",
+        "orden": 4,
+        "revelacion": {
+          "transaccion_legal": "La Parada del Análisis. El tribunal donde la duda de diez paraliza el destino de millones.",
+          "misterio_camino": "En Cades-barnea se enviaron a los espías. El misterio técnico es que el viaje de 11 días se convirtió en 40 años por un error de percepción. El rastro se volvió un círculo por falta de fe.",
+          "transferencia_territorial": "Cuidado con lo que confiesas cuando estás cerca de tu meta. Tu percepción de los \"gigantes\" determina si entras hoy en tu promesa o si das vueltas en el desierto por años."
+        }
+      },
+      {
+        "id_lugar": "monte-nebo",
+        "orden": 5,
+        "revelacion": {
+          "transaccion_legal": "Transferencia de Manto. El final del rastro del mediador y la apertura del rastro del conquistador.",
+          "misterio_camino": "Moisés vio la tierra entera desde Nebo pero no la pisó. El misterio sorprendente es que Dios mismo enterró a Moisés. Su misión técnica terminó en la visión, para que Josué iniciara la posesión.",
+          "transferencia_territorial": "Aprende a cerrar tus ciclos con dignidad. Tu éxito no es solo lo que logras, sino qué tan bien preparas el camino para los que vienen detrás. Ver el fruto en otros es la corona del líder."
+        }
+      }
+    ]
+  },
+  "onoma-ester-salvacion": {
+    "nombre_ruta": "Ester: El Camino de la Providencia",
+    "archivo_fuente": "historicos.json",
+    "hitos": [
+      {
+        "id_lugar": "jerusalen-sion",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "El rastro del Exilio. El desarraigo físico como antesala del posicionamiento estratégico.",
+          "misterio_camino": "Ester salió de Jerusalén como una huérfana anónima. El misterio es que Dios permite la pérdida total de lo conocido para que el alma no tenga más apoyo que la Gracia invisible.",
+          "transferencia_territorial": "No temas a los cambios forzados o a las pérdidas. Tu exilio es a menudo el transporte que Dios usa para llevarte al palacio donde se decidirá el futuro de tu nación."
+        }
+      },
+      {
+        "id_lugar": "susa-palacio",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Jurisdicción del Silencio y la Belleza. El entrenamiento en el protocolo del Rey.",
+          "misterio_camino": "En Susa, Ester tuvo que callar su identidad por un tiempo. El misterio técnico es que el silencio no es falta de autoridad, sino preparación del momento oportuno.",
+          "transferencia_territorial": "Aprende a guardar tus procesos en secreto cuando el Diseño así lo exija. No todo el mundo está listo para conocer Tu verdadera identidad; espera a que el Rey extienda Su cetro."
+        }
+      },
+      {
+        "id_lugar": "susa-palacio",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "La Intercesión de Vida o Muerte. La anulación del decreto de exterminio.",
+          "misterio_camino": "Ester entró al patio interior sin ser llamada. El misterio es que el Cetro de Oro no se movió por su belleza física, sino por la sintonía del ayuno y la rendición de su pueblo.",
+          "transferencia_territorial": "Tu valentía legal en el lugar de oración puede anular decretos de maldad sobre tu familia y tus finanzas. No te quedes callado; usa tu acceso al Trono para salvar vida."
+        }
+      }
+    ]
+  },
+  "onoma-samuel-vidente": {
+    "nombre_ruta": "Samuel: El Camino del Oído Eterno",
+    "archivo_fuente": "historicos.json",
+    "hitos": [
+      {
+        "id_lugar": "silo",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Consagración de la Primicia. El rastro del diseño que nace de una oración de entrega.",
+          "misterio_camino": "Samuel fue dejado en Silo siendo apenas un niño. El misterio es que el Templo de Elí estaba en decadencia, pero Dios puso al nuevo vidente en medio de la crisis para restaurar la frecuencia.",
+          "transferencia_territorial": "Dios puede formarte incluso en ambientes espirituales secos o en instituciones en crisis. Tu sintonía no depende de la salud del entorno, sino de tu proximidad al Arca."
+        }
+      },
+      {
+        "id_lugar": "rama-samuel",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Establecimiento del Vidente. El lugar donde la palabra de Reino se vuelve ley nacional.",
+          "misterio_camino": "Samuel gobernó desde su casa en Ramá, recorriendo anualmente un circuito. El misterio técnico es que su autoridad era móvil; él no esperaba que el pueblo fuera a él, él llevaba la justicia al territorio.",
+          "transferencia_territorial": "No esperes que la gente busque tu luz; lleva tu propósito a los lugares donde hay necesidad. Tu influencia se expande cuando te mueves en el circuito de tu asignación."
+        }
+      }
+    ]
+  },
+  "onoma-elias-fuego": {
+    "nombre_ruta": "Elías: El Camino del Fuego y el Torbellino",
+    "archivo_fuente": "historicos.json",
+    "hitos": [
+      {
+        "id_lugar": "monte-carmelo",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Restauración del Altar Nacional. El tribunal de fuego que desmantela la idolatría.",
+          "misterio_camino": "Elías reparó el altar con 12 piedras. El misterio es que el fuego no cayó sobre la emoción, sino sobre el orden estructural correcto.",
+          "transferencia_territorial": "Si quieres ver el \"fuego\" (la pasión o el éxito) en tu vida, revisa primero tu estructura. El orden técnico de tu altar personal es lo que atrae la visitación de Dios."
+        }
+      },
+      {
+        "id_lugar": "monte-horeb",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Recalibración en la Soledad. El encuentro con el Silbo Apacible tras la tormenta.",
+          "misterio_camino": "Elías huyó a Horeb pensando que estaba solo. El misterio es que Dios lo llevó al mismo monte de Moisés para decirle que aún quedaba un remanente. El silencio fue la medicina del trauma.",
+          "transferencia_territorial": "En tus momentos de agotamiento extremo, busca la cueva de la soledad con Dios. No busques más estruendo; busca la frecuencia del susurro que restaura tu salud mental espiritual."
+        }
+      },
+      {
+        "id_lugar": "rio-jordan-bautismo",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Ascenso a la Frecuencia Eterna. El final del rastro físico y el inicio del legado de doble porción.",
+          "misterio_camino": "Elías dividió el Jordán con su manto. El misterio es que su último acto en la tierra fue abrir un camino para cruzar hacia su ascenso.",
+          "transferencia_territorial": "Vive de tal manera que tu transición deje un camino abierto para los que vienen detrás. Tu mayor éxito es que tu \"manto\" (tu unción y conocimiento) sea útil para la siguiente generación."
+        }
+      }
+    ]
+  },
+  "onoma-jonas-ninive": {
+    "nombre_ruta": "Jonás: El Rastro de la Resistencia",
+    "archivo_fuente": "profetas.json",
+    "hitos": [
+      {
+        "id_lugar": "jope-puerto",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "El Intento de Fuga. La autonomía humana intentando evadir la sintonía del Cielo.",
+          "misterio_camino": "Jonás pagó su pasaje a Tarsis. El misterio es que cuando huyes de Dios, siempre hay un \"barco\" disponible, pero el costo emocional y espiritual es altísimo. Su rastro empezó con una inversión en la dirección equivocada.",
+          "transferencia_territorial": "No te dejes engañar por las puertas que se abren para alejarte de tu propósito. Una oportunidad fácil no siempre es una aprobación divina; a veces es solo un transporte hacia tu propia tormenta."
+        }
+      },
+      {
+        "id_lugar": "mar-mediterraneo-tormenta",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "El Arresto del Pneuma. La creación entera se moviliza para forzar el retorno al diseño.",
+          "misterio_camino": "Dentro del gran pez, Jonás no murió, fue preservado. El misterio técnico es que el pez no era un castigo, era el submarino de rescate que Dios envió para evitar que Jonás se ahogara en su propia rebeldía.",
+          "transferencia_territorial": "Si hoy te sientes \"tragado\" por las consecuencias de tus decisiones, no te desesperes. Tu lugar de encierro es el lugar de tu preservación. Clama desde lo profundo; Dios ya tiene un puerto donde vomitarte a la vida."
+        }
+      },
+      {
+        "id_lugar": "ninive-ciudad",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Jurisdicción sobre la Misericordia. La victoria de la Gracia sobre el juicio nacionalista.",
+          "misterio_camino": "Jonás caminó tres días por Nínive con un mensaje de solo 8 palabras. El misterio es que el poder no estaba en su oratoria, sino en la autoridad legal de un resucitado (el que salió del pez).",
+          "transferencia_territorial": "Tu capacidad de influir en otros no depende de lo mucho que hables, sino de la sintonía que tengas con la Gracia. Tu propia historia de rescate es lo que le da peso legal a Tu mensaje."
+        }
+      }
+    ]
+  },
+  "onoma-daniel-sabio": {
+    "nombre_ruta": "Daniel: El Exilio de la Inteligencia",
+    "archivo_fuente": "profetas.json",
+    "hitos": [
+      {
+        "id_lugar": "jerusalen-centro",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "El Desarraigo de los Escogidos. La transición del Templo físico al Altar interno.",
+          "misterio_camino": "Daniel fue llevado cautivo siendo apenas un adolescente. El misterio es que Babilonia quería robar su identidad cambiándole el nombre, pero no pudo tocar su sintonía alimentaria espiritual.",
+          "transferencia_territorial": "Cuando el sistema del mundo intente cambiar tu nombre o tu forma de pensar, mantén tu dieta de Reino. Tu inteligencia superior depende de qué tanto te niegues a contaminar tu altar secreto."
+        }
+      },
+      {
+        "id_lugar": "babilonia-palacio",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Gobernando en el epicentro del Caos. La luz del Reino iluminando el sistema babilónico.",
+          "misterio_camino": "Daniel sobrevivió a dos imperios y cuatro reyes. El misterio técnico es que su rango no dependía de la política humana, sino de su capacidad de revelar los secretos del Anciano de Días.",
+          "transferencia_territorial": "Posiciónate con excelencia en tu trabajo o negocio. Dios te ha dado una inteligencia 10 veces superior para que des soluciones donde los demás solo ven confusión. Eres un gobernador en territorio extraño."
+        }
+      }
+    ]
+  },
+  "onoma-pablo-expansion": {
+    "nombre_ruta": "Pablo: La Expansión Continental",
+    "archivo_fuente": "apostolicos.json",
+    "hitos": [
+      {
+        "id_lugar": "damasco-camino",
+        "orden": 1,
+        "revelacion": {
+          "transaccion_legal": "Interrupción de la Frecuencia Carnal. El perseguidor es absorbido por la Luz que antes atacaba.",
+          "misterio_camino": "Saulo iba a Damasco para encarcelar, pero terminó encarcelado por la Gracia. El misterio es que Dios le quitó la vista física para activar sus ojos espirituales.",
+          "transferencia_territorial": "A veces Dios detendrá tus planes de golpe y te dejará en la oscuridad. No es para castigarte, es para resetear tu sistema operativo y que empieces a ver la Realidad como Él la ve."
+        }
+      },
+      {
+        "id_lugar": "antioquia-mision",
+        "orden": 2,
+        "revelacion": {
+          "transaccion_legal": "Lanzamiento de la Ofensiva de Gracia. Antioquía se convierte en el puerto de salida hacia las naciones.",
+          "misterio_camino": "En Antioquía se llamó \"Cristianos\" a los discípulos por primera vez. El misterio es que el diseño dejó de ser una secta local para ser una identidad global.",
+          "transferencia_territorial": "Busca tu propia \"Antioquía\": el lugar o la comunidad donde tu diseño es validado y desde donde puedes lanzarte a conquistar nuevos territorios para Tu propósito."
+        }
+      },
+      {
+        "id_lugar": "roma-prision",
+        "orden": 3,
+        "revelacion": {
+          "transaccion_legal": "Conquista del Corazón del Imperio. El rastro termina en el centro del poder mundial.",
+          "misterio_camino": "Pablo llegó a Roma como prisionero, pero desde su celda escribió las cartas que gobiernan la Iglesia hoy. El misterio es que las cadenas del hombre no pueden detener el flujo de la Palabra.",
+          "transferencia_territorial": "Incluso en tus momentos de mayor limitación física o financiera, tu influencia espiritual puede alcanzar el máximo nivel. No juzgues tu impacto por tu libertad externa, sino por la potencia de tu mensaje interno."
+        }
+      }
+    ]
+  }
 }

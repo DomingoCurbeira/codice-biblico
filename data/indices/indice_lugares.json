@@ -1519,5 +1519,18 @@
     "era": "La Entrega de la Ley",
     "testamento": "Antiguo Testamento",
     "tags": "valle becerro oro, valle del becerro de oro, éxodo, salmos, hechos"
+  },
+  {
+    "id": "colosas-centro",
+    "nombre": "Colosas (Valle del Lico)",
+    "titulo": "El Escenario de la Restitución",
+    "archivo": "evangelios.json",
+    "coords": [
+      37.7516,
+      29.2558
+    ],
+    "era": "Era Apostólica / Expansión de la Iglesia",
+    "testamento": "Nuevo Testamento",
+    "tags": "colosas, onesimo, filemón, pablo, colosenses"
   }
 ]

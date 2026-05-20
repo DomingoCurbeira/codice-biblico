@@ -23,17 +23,18 @@ async function renderPersonaje() {
     }
 
     try {
-        const resIndex = await fetch('../data/indices/indice_onomastiko.json');
+        const resIndex = await fetch(`../data/indices/indice_onomastiko.json?v=${Date.now()}`);
         const index = await resIndex.json();
         const ref = index.identidades.find(i => i.id === id);
 
         if (!ref) throw new Error("Identidad no localizada");
 
-        const resData = await fetch(`../data/onomastiko/${ref.archivo_fuente}`);
+        const resData = await fetch(`../data/onomastiko/${ref.archivo_fuente}?v=${Date.now()}`);
         const dataList = await resData.json();
         const p = dataList.find(item => item.id === id);
 
         if (p) {
+            console.log("Cargando Personaje:", p.id, "Conexiones:", p.conexiones);
             window.personajeActual = p; 
             window.refActual = ref;
 
@@ -61,7 +62,9 @@ function renderCardHTML(p, ref) {
     content.style.display = 'flex';
 
     // Determinar si es formato Maestro o Antiguo
-    const isMaestro = !!p.jurisdiccion || (p.fases && Array.isArray(p.fases) && p.fases.length > 0);
+    const isMaestro = !!p.jurisdiccion || 
+                      !!p.identidad || 
+                      (p.fases && Array.isArray(p.fases) && p.fases.length > 0);
 
     if (isMaestro) {
         renderMaestroHTML(p, content);
@@ -94,22 +97,28 @@ function renderMaestroHTML(p, container) {
         };
     }
 
-    // 2. Generar Iconos de Acción (Globales)
-    const iconosHtml = p.iconos_accion ? p.iconos_accion.map(icon => {
-        let href = "#";
-        switch (icon.tipo) {
-            case "huellas": href = `../huellas/perfil.html?id=${icon.id}&retorno=${p.id}`; break;
-            case "etymos": href = `../etymos/palabra.html?id=${icon.id}&retorno=${p.id}`; break;
-            case "cronos": href = `../cronos/index.html?lugar=${icon.id}&retorno=${p.id}`; break;
-            case "rutas": href = `../cronos/index.html?ruta=${icon.id}&retorno=${p.id}`; break;
-        }
-        return `
-            <a href="${href}" class="action-btn ${icon.tipo}" title="${icon.tooltip}">
-                <span class="icon-symbol">${getIconSymbol(icon.tipo)}</span>
-                <span class="icon-label">${icon.tooltip}</span>
-            </a>
-        `;
-    }).join('') : '';
+    // 2. Generar Iconos de Acción (Desde el objeto 'conexiones')
+    let iconosHtml = "";
+    if (p.conexiones) {
+        const portales = [
+            { key: "huellas", label: "Huellas", symbol: "👣", path: "../huellas/perfil.html?id=" },
+            { key: "etymos", label: "Étymos", symbol: "📜", path: "../etymos/palabra.html?id=" },
+            { key: "cronos", label: "Cronos", symbol: "📍", path: "../cronos/index.html?lugar=" },
+            { key: "rutas", label: "Viajes", symbol: "🧭", path: "../cronos/index.html?ruta=" }
+        ];
+
+        iconosHtml = portales.map(portal => {
+            const refId = p.conexiones[portal.key];
+            if (!refId) return ""; // Si no hay conexión para este tipo, no renderizamos el botón
+
+            return `
+                <a href="${portal.path}${refId}&retorno=${p.id}" class="action-btn ${portal.key}" title="${portal.label}">
+                    <span class="icon-symbol">${portal.symbol}</span>
+                    <span class="icon-label">${portal.label}</span>
+                </a>
+            `;
+        }).join('');
+    }
 
     // 3. Generar Switch si tiene 2 o más fases
     const switchHtml = (p.fases && p.fases.length > 1) ? `
@@ -220,28 +229,31 @@ function renderMaestroHTML(p, container) {
 function renderLegacyHTML(p, content, ref) {
     // Variable global para el estado (se usa aquí por compatibilidad)
     const isNueva = p.tiene_transicion && faseActual === 'nueva';
-    const info = isNueva ? p.fases.nueva : p.perfil_card;
-    const avatar = isNueva ? p.fases.nueva.avatar : p.config_tarjeta.avatar_url;
+    const info = isNueva ? (p.fases ? (Array.isArray(p.fases) ? p.fases[1] : p.fases.nueva) : p.perfil_card) : (p.perfil_card || p);
+    const avatar = isNueva ? (p.fases ? (Array.isArray(p.fases) ? p.fases[1].avatar_url : p.fases.nueva.avatar) : p.config_tarjeta.avatar_url) : p.config_tarjeta.avatar_url;
 
-    // Generar Iconos
-    const iconosHtml = p.perfil_card.iconos_accion ? p.perfil_card.iconos_accion.map(icon => {
-        let href = "#";
-        const refId = (icon.tipo === "etymos" && isNueva && p.fases.nueva.etymos_id) ? p.fases.nueva.etymos_id : icon.id;
+    // Generar Iconos (Desde el objeto 'conexiones')
+    let iconosHtml = "";
+    if (p.conexiones) {
+        const portales = [
+            { key: "huellas", label: "Huellas", symbol: "👣", path: "../huellas/perfil.html?id=" },
+            { key: "etymos", label: "Étymos", symbol: "📜", path: "../etymos/palabra.html?id=" },
+            { key: "cronos", label: "Cronos", symbol: "📍", path: "../cronos/index.html?lugar=" },
+            { key: "rutas", label: "Viajes", symbol: "🧭", path: "../cronos/index.html?ruta=" }
+        ];
 
-        switch (icon.tipo) {
-            case "huellas": href = `../huellas/perfil.html?id=${refId}&retorno=${p.id}`; break;
-            case "etymos": href = `../etymos/palabra.html?id=${refId}&retorno=${p.id}`; break;
-            case "cronos": href = refId ? `../cronos/index.html?lugar=${refId}&retorno=${p.id}` : "#"; break;
-            case "rutas": href = `../cronos/index.html?ruta=${refId}&retorno=${p.id}`; break;
-        }
+        iconosHtml = portales.map(portal => {
+            const refId = p.conexiones[portal.key];
+            if (!refId) return "";
 
-        return `
-            <a href="${href}" class="action-btn ${icon.tipo}" title="${icon.tooltip}">
-                <span class="icon-symbol">${getIconSymbol(icon.tipo)}</span>
-                <span class="icon-label">${icon.tooltip}</span>
-            </a>
-        `;
-    }).join('') : '';
+            return `
+                <a href="${portal.path}${refId}&retorno=${p.id}" class="action-btn ${portal.key}" title="${portal.label}">
+                    <span class="icon-symbol">${portal.symbol}</span>
+                    <span class="icon-label">${portal.label}</span>
+                </a>
+            `;
+        }).join('');
+    }
 
     const switchHtml = p.tiene_transicion ? `
         <div class="transicion-container">

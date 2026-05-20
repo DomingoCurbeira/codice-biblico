@@ -130,3 +130,32 @@ Esta jornada marca el salto definitivo a la **Calidad Editorial Premium** en tod
 
 ---
 *Desarrollado con excelencia por Domingo Curbeira — 2026*
+
+## 📅 Actualización: 20 de Mayo, 2026 (Ingeniería de la Revelación)
+En esta jornada se ha culminado la transformación de los núcleos de inteligencia del Códice, elevando la interconexión técnica y teológica al máximo nivel.
+
+### 🪪 Onomastiko Maestro (Identidad Suprema)
+*   **Identidad de Origen:** Integración de **Jesús** como la Identidad Suprema al inicio de la biblioteca, con una estructura dual de fases: *Yeshúa* (Siervo Sufriente) y *Kyrios* (Rey de Gloria).
+*   **Consolidación de Identidades:** Restauración de personajes omitidos (Nahúm, Malaquías) y adición de nuevos pilares apostólicos (Lucas, Priscila & Aquila, Onésimo).
+*   **Sincronización Total:** Los 63 personajes han sido actualizados al Estándar Maestro, incluyendo *Misterio Escudriñado*, *Eco de Cristo* y *3 puntos de Transferencia* con citas de la Reina Valera 1960.
+*   **Detección Inteligente:** Refactorización del motor `nombre.js` para manejar dinámicamente personajes con múltiples fases de transformación absoluta.
+
+### 🧭 Cronos (Rutas Maestro)
+*   **Itinerarios de Revelación:** Creación del estándar de "Rutas Maestro" con tres capas de datos por hito: *Transacción Legal*, *Misterio del Camino* y *Transferencia Territorial*.
+*   **Mapeo de Trayectorias:** Implementación de las rutas de Abraham, Moisés, Noé, Jacob, José, David, Jesús, Jonás, Daniel y Pablo.
+*   **Modo Enfoque:** El mapa ahora resalta visualmente los puntos de la trayectoria activa, atenuando el resto para una inmersión total.
+*   **Pestaña "Rastro Profético":** Adición de una pestaña dinámica en el visor de Cronos que solo se activa al navegar por una ruta, entregando contenido geográfico exclusivo.
+
+### 📜 Étymos Maestro (Los 70 Códigos de Oro)
+*   **Purificación Léxica:** Reducción y curaduría de la biblioteca a una "Selección de Oro" de 70 términos fundamentales de alta gama.
+*   **Hermenéutica Cristocéntrica:** Cada término ha sido redactado con un tono solemne, eliminando tecnicismos y añadiendo:
+    *   **Eco de la Escritura:** Versículo íntegro en RVR1960.
+    *   **Reflejo en la Tierra:** Parábolas de la vida cotidiana para aterrizar la revelación.
+*   **Vínculo de Profundidad:** Sincronización masiva de conexiones; ahora los personajes de Onomastiko redirigen al **Concepto Técnico** que sostiene su diseño (ej. Aarón ➔ Kohén/Sacerdocio).
+
+### 🛠️ Estabilidad y Despliegue (UX/Netlify)
+*   **Blindaje de Rhema:** Refactorización del motor de descarga de imágenes migrando de DataURL a **Blobs binarios**, solucionando el error de visualización en Netlify.
+*   **Seguridad de Carga (CORS):** Implementación de permisos de seguridad para tipografías y fondos, asegurando que las imágenes descargadas conserven toda su elegancia editorial.
+*   **Optimización Mobile-First:** Ajuste de interfaces en Cronos y Onomastiko para garantizar la legibilidad en 4 pestañas simultáneas sin desbordamiento horizontal.
+
+---

@@ -57,9 +57,9 @@
     const RUTA_ONOMASTIKO = 'data/onomastiko/';
     const ARCHIVOS = ["pentateuco", "historicos", "poeticos", "profetas", "evangelios", "apostolicos"];
 
-    for (const nombre of ARCHIVOS) {
+    for (const nombreArchivo of ARCHIVOS) {
         try {
-            const url = `${RUTA_ONOMASTIKO}${nombre}.json?v=${Date.now()}`;
+            const url = `${RUTA_ONOMASTIKO}${nombreArchivo}.json?v=${Date.now()}`;
             const respuesta = await fetch(url);
             
             if (!respuesta.ok) continue;
@@ -68,19 +68,35 @@
             
             if (Array.isArray(personajes)) {
                 personajes.forEach(p => {
+                    // Lógica de extracción inteligente para el Índice
+                    let nombre, subtitulo, imagen;
+
+                    if (p.fases && p.fases.length > 0) {
+                        // Si tiene fases, tomamos la primera (estado humano/original) para el índice
+                        const f = p.fases[0];
+                        nombre = f.nombre;
+                        subtitulo = f.titulo || p.jurisdiccion;
+                        imagen = f.avatar_url || p.config_tarjeta.avatar_url;
+                    } else {
+                        // Formato Maestro simple
+                        nombre = p.identidad.nombre_humano;
+                        subtitulo = p.identidad.nombre_diseno || p.jurisdiccion;
+                        imagen = p.config_tarjeta.avatar_url;
+                    }
+
                     dataFinal.identidades.push({
-                        id: p.id, // El ID único (ej: onoma-simon-leproso)
-                        nombre: p.perfil_card.nombre_principal,
-                        subtitulo: p.perfil_card.subtitulo_rol,
-                        archivo_fuente: `${nombre}.json`,
-                        imagen: p.config_tarjeta.avatar_url,
+                        id: p.id,
+                        nombre: nombre,
+                        subtitulo: subtitulo,
+                        archivo_fuente: `${nombreArchivo}.json`,
+                        imagen: `../${imagen.replace('../', '')}`, // Asegurar ruta relativa correcta
                         tags: p.tags || []
                     });
                 });
-                log.innerHTML += `<div class="success">✅ ${nombre}.json: ${personajes.length} IDs indexados.</div>`;
+                log.innerHTML += `<div class="success">✅ ${nombreArchivo}.json: ${personajes.length} IDs indexados.</div>`;
             }
         } catch (err) {
-            log.innerHTML += `<div class="error">❌ Error en ${nombre}.json: ${err.message}</div>`;
+            log.innerHTML += `<div class="error">❌ Error en ${nombreArchivo}.json: ${err.message}</div>`;
         }
     }
 

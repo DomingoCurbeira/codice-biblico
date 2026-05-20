@@ -84,28 +84,16 @@
         "eco_de_cristo": "Las antorchas dentro de los cántaros prefiguran el tesoro del Espíritu Santo habitando en nuestras vasijas de barro (2 Corintios 4:7)."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "gedeon-guerrero-lagar",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "lagar-ofra",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "jueces",
       "valentía",
       "victoria"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "gedeon",
+      "etymos": "chayil-he",
+      "cronos": "lagar-ofra"
+    }
   },
   {
     "id": "onoma-sanson-redimido",
@@ -192,28 +180,16 @@
         "eco_de_cristo": "Sansón recuperó su fuerza para cumplir su misión final en la muerte; Jesús entregó Su vida voluntariamente para cumplir la misión eterna de redención."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "sanson",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "valle-jezreel",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "jueces",
       "fuerza",
       "redención"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "sanson",
+      "etymos": "dunamis-gr",
+      "cronos": "valle-jezreel"
+    }
   },
   {
     "id": "onoma-noemi-restaurada",
@@ -300,28 +276,16 @@
         "eco_de_cristo": "Mara representa el cáliz de amargura que Cristo bebió por nosotros para que nosotros nunca tuviéramos que ser definidos por nuestra miseria."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "noemi",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "mara-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "belen-rut",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "rut",
       "restauración",
       "noemi"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "noemi",
+      "etymos": "mizmor-he",
+      "cronos": "belen-rut"
+    }
   },
   {
     "id": "onoma-samuel-vidente",
@@ -408,28 +372,17 @@
         "eco_de_cristo": "Samuel es el Profeta, Sacerdote y Juez; Cristo es la suma total de estos tres oficios en Su Majestad eterna."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "samuel",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "silo",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "profeta",
       "jueces",
       "samuel"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "samuel",
+      "etymos": "yirah-he",
+      "cronos": "silo",
+      "rutas": "onoma-samuel-vidente"
+    }
   },
   {
     "id": "onoma-saul-primer-rey",
@@ -516,28 +469,16 @@
         "eco_de_cristo": "Saúl persiguió a David injustamente; el sistema religioso persiguió a Jesús injustamente. Saúl es el recordatorio de que la realeza sin Espíritu es solo una tiranía vacía."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "saul",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "valle-ela",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "rey",
       "caída",
       "saul"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "saul",
+      "etymos": "malkhut-he",
+      "cronos": "valle-ela"
+    }
   },
   {
     "id": "onoma-david-rey",
@@ -624,33 +565,17 @@
         "eco_de_cristo": "Jesús es llamado el \"Hijo de David\". Cristo es el cumplimiento del Pacto Davídico, el Rey eterno que reina desde la Sión celestial sobre todas las naciones."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "david",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerusalen-sion",
-        "tooltip": "Cronos"
-      },
-      {
-        "tipo": "rutas",
-        "id": "onoma-david-rey",
-        "tooltip": "Viajes"
-      }
-    ],
     "tags": [
       "realeza",
       "salmos",
       "david"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "david",
+      "etymos": "malkhut-he",
+      "cronos": "jerusalen-sion",
+      "rutas": "onoma-david-rey"
+    }
   },
   {
     "id": "onoma-salomon-sabiduria",
@@ -737,28 +662,16 @@
         "eco_de_cristo": "Mateo 12:42 dice: \"He aquí más que Salomón en este lugar\". Jesús es la Sabiduría encarnada, el Amado del Padre que nunca se apartó del Diseño."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "salomon",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "monte-moriah",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "sabiduría",
       "templo",
       "salomón"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "salomon",
+      "etymos": "yirah-he",
+      "cronos": "monte-moriah"
+    }
   },
   {
     "id": "onoma-elias-fuego",
@@ -845,28 +758,17 @@
         "eco_de_cristo": "Elías aparece con Moisés en el monte de la transfiguración hablando con Jesús. Él representa a los profetas que testifican de la gloria del Salvador."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "elias",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "monte-carmelo",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "profeta",
       "fuego",
       "elias"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "elias",
+      "etymos": "tehillah-he",
+      "cronos": "monte-carmelo",
+      "rutas": "onoma-elias-fuego"
+    }
   },
   {
     "id": "onoma-ester-salvacion",
@@ -883,7 +785,7 @@
       {
         "nombre": "Hadassah",
         "titulo": "La Huérfana de Susa (Identidad Oculta)",
-        "avatar_url": "img/perfiles/hadassah.webp",
+        "avatar_url": "img/perfiles/ester-doncella.webp",
         "jurisdiccion": "Custodia de la Belleza y la Inocencia en el Exilio",
         "etymos": {
           "original": "הֲדַסָּה",
@@ -917,7 +819,7 @@
         "eco_de_cristo": "Hadassah representa a la Iglesia en el mundo: humilde, aparentemente huérfana, pero con una identidad real oculta que será revelada en el momento del juicio."
       },
       {
-        "nombre:": "Ester",
+        "nombre": "Ester",
         "titulo": "La Reina del Destino (Manifestación)",
         "avatar_url": "img/perfiles/ester.webp",
         "jurisdiccion": "Intercesora de Protocolo y Destructora de Decretos de Muerte",
@@ -953,27 +855,16 @@
         "eco_de_cristo": "Ester intercedió ante el rey arriesgando su vida; Jesús intercedió ante el Padre entregando Su vida. Cristo es el verdadero Mardoqueo que nos viste de lino fino y la verdadera Ester que nos da el banquete de la victoria."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "ester",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "hadassah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "susa-palacio",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "reina",
       "valentía",
       "ester"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "ester",
+      "etymos": "raz-he",
+      "cronos": "susa-palacio",
+      "rutas": "onoma-ester-salvacion"
+    }
   }
 ]

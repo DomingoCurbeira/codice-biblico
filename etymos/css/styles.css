@@ -372,3 +372,38 @@ body {
 }
 
 .loading { text-align: center; color: var(--gold); padding: 4rem; font-size: 1.2rem; font-family: var(--font-display); letter-spacing: 2px; }
+
+/* --- MAESTRO CARDS HIGHLIGHT --- */
+.card-lexico.maestro-card {
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.6));
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3), inset 0 0 20px rgba(212, 175, 55, 0.05);
+}
+
+.card-lexico.maestro-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5), 0 0 15px rgba(212, 175, 55, 0.2);
+}
+
+.card-lexico.maestro-card .lexico-idioma-badge {
+    background: var(--gold);
+    color: #0f172a;
+    font-weight: 900;
+}
+
+.card-lexico.maestro-card .btn-profundizar {
+    color: var(--gold-bright);
+    font-weight: 800;
+}
+
+/* Animación sutil para el Hero Maestro */
+@keyframes goldPulse {
+    0% { filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.3)); }
+    50% { filter: drop-shadow(0 0 20px rgba(212, 175, 55, 0.6)); }
+    100% { filter: drop-shadow(0 0 5px rgba(212, 175, 55, 0.3)); }
+}
+
+.hero-content.maestro-active {
+    animation: goldPulse 4s infinite ease-in-out;
+}

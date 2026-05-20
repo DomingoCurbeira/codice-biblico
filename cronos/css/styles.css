@@ -259,15 +259,17 @@ h1, h2, h3, .cinzel {
 
 .tab-btn {
     flex: 1;
-    padding: 15px;
+    padding: 12px 5px;
     background: none;
     border: none;
     color: var(--text-muted);
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 0.65rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     transition: var(--transition);
+    white-space: nowrap;
 }
 
 .tab-btn.active {
@@ -494,11 +496,49 @@ h1, h2, h3, .cinzel {
     */
 }
 
-/* Animaciones */
-@keyframes slideInLeft {
-    from { opacity: 0; transform: translateX(-20px); }
-    to { opacity: 1; transform: translateX(0); }
+/* --- MAESTRO REVELATION STYLES (CRONOS) --- */
+.maestro-revelation-box {
+    margin-bottom: 2.5rem;
+    position: relative;
+    animation: slideInLeft 0.5s ease-out;
 }
+
+.maestro-mystery-box {
+    background: linear-gradient(145deg, rgba(212, 180, 131, 0.08), rgba(15, 23, 42, 0.5));
+    border: 1px solid rgba(212, 180, 131, 0.2);
+    padding: 22px;
+    border-radius: 18px;
+    margin: 2rem 0;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 0.8s ease-out;
+}
+
+.maestro-transfer-box {
+    background: rgba(30, 41, 59, 0.3);
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 2rem;
+}
+
+.tab-btn.rastro-maestro-btn {
+    border-bottom: 2px solid var(--gold);
+    color: var(--gold);
+    font-weight: 800;
+}
+
+.tab-btn.rastro-maestro-btn.active {
+    background: rgba(212, 180, 131, 0.1);
+    color: var(--gold-bright);
+}
+
+@keyframes identityGlow {
+    0% { box-shadow: 0 0 0px var(--gold); }
+    50% { box-shadow: 0 0 30px var(--gold); }
+    100% { box-shadow: 0 0 0px var(--gold); }
+}
+
+/* --- FIN MAESTRO STYLES --- */
 
 /* Animación de pulso dorado */
 @keyframes pulse-highlight {

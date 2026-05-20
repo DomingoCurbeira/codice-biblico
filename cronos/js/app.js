@@ -6,6 +6,7 @@ let map;
 let todosLosLugares = [];
 const markersById = {};
 let capaRuta = null; // Para poder borrarla después
+window.rutaActiva = null; // Seguimiento de la trayectoria activa para el visor Maestro
 
 const COLORES_SECCION = {
     "pentateuco.json": "#10b981",   // Verde Esmeralda
@@ -181,19 +182,47 @@ function abrirDetalleLugar(lugar) {
     if (subtituloEl) subtituloEl.innerText = lugar.perfil.titulo_corto;
     
     if (imgEl) {
-        const rutaImg = lugar.perfil.imagen_principal.startsWith('/') 
-                        ? `../..${lugar.perfil.imagen_principal}` 
+        const rutaImg = lugar.perfil.imagen_principal.startsWith('/')
+                        ? `../..${lugar.perfil.imagen_principal}`
                         : lugar.perfil.imagen_principal;
         imgEl.src = rutaImg;
     }
 
-    // 5. Gestión de visibilidad y animaciones
-    cambiarTab('narrativa');
-    // Disparamos la función varias veces para ganar la carrera al renderizado
-    window.renderizarBotonVolver(); // Intento inmediato
-    setTimeout(window.renderizarBotonVolver, 300); // Intento tras 300ms
-    setTimeout(window.renderizarBotonVolver, 1000);
+    // 5. Gestión dinámica de Pestañas (Rastro Maestro)
+    const tabsContainer = document.querySelector('.visor-tabs');
+    const btnRastroExistente = document.querySelector('.tab-btn[data-tab="rastro"]');
     
+    // Verificamos si el lugar actual pertenece a la ruta activa
+    let hitoActual = null;
+    if (window.rutaActiva) {
+        hitoActual = window.rutaActiva.hitos.find(h => h.id_lugar === lugar.id);
+    }
+
+    if (hitoActual) {
+        if (!btnRastroExistente) {
+            const btnRastro = document.createElement('button');
+            btnRastro.className = 'tab-btn rastro-maestro-btn';
+            btnRastro.dataset.tab = 'rastro';
+            btnRastro.innerText = 'Rastro Profético';
+            btnRastro.onclick = () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btnRastro.classList.add('active');
+                cambiarTab('rastro');
+            };
+            tabsContainer.appendChild(btnRastro);
+        }
+        cambiarTab('rastro');
+        // Activar visualmente el botón de rastro
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector('.tab-btn[data-tab="rastro"]').classList.add('active');
+    } else {
+        if (btnRastroExistente) btnRastroExistente.remove();
+        cambiarTab('narrativa');
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector('.tab-btn[data-tab="narrativa"]').classList.add('active');
+    }
+
+    // 6. Gestión de visibilidad y animaciones
     const visor = document.getElementById('place-visor');
     const timeSlider = document.getElementById('time-slider-container');
 
@@ -206,8 +235,10 @@ function abrirDetalleLugar(lugar) {
             }
         }, 10);
     }
-}
 
+    // 7. Renderizar Botón Volver
+    window.renderizarBotonVolver();
+}
 
 
 // NO OLVIDES ACTUALIZAR TU FUNCIÓN DE CIERRE
@@ -278,8 +309,6 @@ function renderizarVisor(lugar) {
     cambiarTab('narrativa');
 }
 
-// ... (El resto de funciones: gestionarTabs, cambiarTab, compartir, etc., se mantienen igual)
-
 // 5. GESTIÓN DE PESTAÑAS (TABS)
 function gestionarTabs() {
     const btns = document.querySelectorAll('.tab-btn');
@@ -332,6 +361,30 @@ function cambiarTab(tabName) {
             `;
             break;
 
+        case 'rastro':
+            if (window.rutaActiva) {
+                const hito = window.rutaActiva.hitos.find(h => h.id_lugar === lugar.id);
+                if (hito && hito.revelacion) {
+                    html = `
+                        <div class="maestro-revelation-box" style="border-left: 3px solid var(--gold); padding-left: 20px; margin-bottom: 2rem;">
+                            <span class="section-title" style="color: var(--gold); font-weight: 800; letter-spacing: 2px;">⚖️ Transacción Legal</span>
+                            <p style="font-size: 1.1rem; line-height: 1.6; color: #f8fafc; margin-top: 8px;">${hito.revelacion.transaccion_legal}</p>
+                        </div>
+                        <div class="maestro-mystery-box" style="background: rgba(212, 180, 131, 0.05); padding: 20px; border-radius: 12px; border: 1px solid rgba(212, 180, 131, 0.1); margin-bottom: 2rem;">
+                            <span class="section-title" style="color: var(--gold-bright); font-size: 0.75rem; text-transform: uppercase;">🔍 Misterio del Camino</span>
+                            <p style="font-style: italic; color: #cbd5e1; margin-top: 10px;">${hito.revelacion.misterio_camino}</p>
+                        </div>
+                        <div class="maestro-transfer-box">
+                            <span class="section-title" style="color: var(--accent); font-size: 0.75rem; text-transform: uppercase;">🌿 Transferencia Territorial</span>
+                            <div style="background: rgba(255,255,255,0.03); padding: 15px; border-radius: 10px; margin-top: 10px; border: 1px dashed rgba(255,255,255,0.1);">
+                                <p style="font-size: 0.95rem; color: #94a3b8; margin: 0;">${hito.revelacion.transferencia_territorial}</p>
+                            </div>
+                        </div>
+                    `;
+                }
+            }
+            break;
+
         case 'contexto':
             // 1. Lógica de Galería
             let galeriaHtml = "";
@@ -353,7 +406,7 @@ function cambiarTab(tabName) {
                 `;
             }
 
-            // 2. NUEVO: Lógica de Vínculos Relacionados
+            // 2. Lógica de Vínculos Relacionados
             let vinculosHtml = "";
             if (lugar.vinculos) {
                 let tagsLugares = "";
@@ -444,113 +497,72 @@ window.retornarAOrigen = function() {
     }
 }
 
-
-
 window.abrirLightbox = function(src) {
     const lb = document.getElementById('lightbox');
     const lbImg = document.getElementById('lightbox-img');
 
     if (lb && lbImg) {
         lbImg.src = src;
-
-        // --- LÓGICA A PRUEBA DE FALLOS ---
-        // Buscamos el contenedor del texto. Si no existe en el HTML, lo creamos.
         let lbCaption = document.getElementById('lightbox-caption');
         if (!lbCaption) {
             lbCaption = document.createElement('div');
             lbCaption.id = 'lightbox-caption';
-            // Lo insertamos justo después de la imagen en el DOM
             lbImg.parentNode.appendChild(lbCaption);
         }
 
-        // Si tenemos un lugar actual cargado, generamos el texto
         if (window.lugarActual) {
             let nombreArchivo = src.split('/').pop().split('.')[0].replace(/-/g, ' ');
             let tituloImagen = nombreArchivo.replace(/\b\w/g, char => char.toUpperCase());
-            
             lbCaption.innerHTML = `<strong>${tituloImagen}</strong><br><span style="font-size:0.85em; opacity:0.8;">${window.lugarActual.perfil.nombre}</span>`;
         }
-
         lb.classList.remove('hidden');
     }
 };
 
-// Función para compartir el lugar actual
 window.compartir = function(plataforma) {
     const lugar = window.lugarActual;
     if (!lugar) return;
-
-    // Generamos la URL del lugar (asegúrate de que la URL apunte a tu dominio real)
     const urlLugar = `${window.location.origin}${window.location.pathname}?lugar=${lugar.id}`;
     const textoCompartir = `📖 Mira lo que estoy estudiando en Cronos: *${lugar.perfil.nombre}* - ${lugar.perfil.titulo_corto}\n\n`;
-
     switch(plataforma) {
-        case 'whatsapp':
-            window.open(`https://wa.me/?text=${encodeURIComponent(textoCompartir + urlLugar)}`, '_blank');
-            break;
-        case 'facebook':
-            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlLugar)}`, '_blank');
-            break;
-        case 'copiar':
-            navigator.clipboard.writeText(urlLugar).then(() => {
-                alert("✅ Enlace copiado al portapapeles");
-            });
-            break;
+        case 'whatsapp': window.open(`https://wa.me/?text=${encodeURIComponent(textoCompartir + urlLugar)}`, '_blank'); break;
+        case 'facebook': window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(urlLugar)}`, '_blank'); break;
+        case 'copiar': navigator.clipboard.writeText(urlLugar).then(() => alert("✅ Enlace copiado al portapapeles")); break;
     }
 };
 
-// Función para enviar datos a Escriba
 window.irAEscriba = function() {
     const lugar = window.lugarActual;
     if (!lugar) return;
-
     const titulo = `Estudio: ${lugar.perfil.nombre}`;
     const cuerpo = `Ubicación: ${lugar.perfil.ubicacion_geografica}\nLección Clave: ${lugar.aplicacion_personal.leccion_clave}\n\nMis reflexiones:\n`;
-    
-    // Asumiendo que Escriba está en la carpeta hermana ../escriba/
     const urlNotas = `../notas/index.html?titulo=${encodeURIComponent(titulo)}&cuerpo=${encodeURIComponent(cuerpo)}`;
     window.location.href = urlNotas;
 };
 
-// --- LÓGICA DEL BUSCADOR ---
 function inicializarBuscador() {
     const input = document.getElementById('search-input');
     const resultsContainer = document.getElementById('search-results');
-
-    if (!input || !resultsContainer) return; // Seguridad
-
+    if (!input || !resultsContainer) return;
     input.addEventListener('input', (e) => {
         const term = e.target.value.toLowerCase().trim();
-        
-        if (term.length < 2) {
-            resultsContainer.classList.add('hidden');
-            return;
-        }
-
-        // Filtrar con validación de seguridad (por si hay nulos)
+        if (term.length < 2) { resultsContainer.classList.add('hidden'); return; }
         const filtrados = todosLosLugares.filter(l => {
             const nombre = l.perfil?.nombre?.toLowerCase() || "";
             const era = l.contexto?.era_biblica?.toLowerCase() || "";
             const titulo = l.perfil?.titulo_corto?.toLowerCase() || "";
-            
             return nombre.includes(term) || era.includes(term) || titulo.includes(term);
         });
-
         renderizarSugerencias(filtrados);
     });
-
-    // Cerrar resultados al hacer clic fuera
     document.addEventListener('click', (e) => {
-        if (!e.target.closest('.search-container')) {
-            resultsContainer.classList.add('hidden');
-        }
+        if (!e.target.closest('.search-container')) resultsContainer.classList.add('hidden');
     });
 }
 
 function renderizarSugerencias(lista) {
     const container = document.getElementById('search-results');
     container.innerHTML = '';
-
     if (lista.length === 0) {
         container.innerHTML = '<div class="search-item"><span class="sub">No se encontraron lugares</span></div>';
     } else {
@@ -565,14 +577,9 @@ function renderizarSugerencias(lista) {
                 </div>
             `;
             div.onclick = () => {
-                // Buscamos el objeto completo en nuestro arreglo global usando el ID
                 const lugarEncontrado = todosLosLugares.find(item => item.id === l.id);
-                
                 if (lugarEncontrado) {
-                    // En lugar de llamar a viajarA (que hace un fetch), 
-                    // llamamos directamente a abrirDetalleLugar que ya tiene los datos.
                     abrirDetalleLugar(lugarEncontrado); 
-                    
                     document.getElementById('search-input').value = l.perfil.nombre;
                     container.classList.add('hidden');
                 }
@@ -586,385 +593,122 @@ function renderizarSugerencias(lista) {
 window.onpopstate = function(event) {
     const params = new URLSearchParams(window.location.search);
     if (!params.get('lugar')) {
-        // Si no hay parámetro lugar en la URL, cerramos el visor
         const visor = document.getElementById('place-visor');
         if (visor && visor.classList.contains('active')) {
-            // Llamamos a la lógica de cierre (sin el pushState para no crear bucles)
             visor.classList.remove('active');
             setTimeout(() => visor.classList.add('hidden'), 500);
         }
     }
 };
 
-
-
-// Variable global para recordar nuestros pasos
 window.historialNavegacion = [];
-
-// --- CONTROLADOR DE TRÁFICO (VÍNCULOS) ---
 window.navegarA = function(tipo, id) {
     const lugarActual = window.lugarActual;
-
     if (tipo === 'lugar') {
-        // 1. Guardamos el lugar de donde venimos en el historial
-        if (lugarActual) {
-            window.historialNavegacion.push({
-                id: lugarActual.id,
-                nombre: lugarActual.perfil.nombre
-            });
-        }
-        // 2. Viajamos al nuevo lugar
+        if (lugarActual) window.historialNavegacion.push({ id: lugarActual.id, nombre: lugarActual.perfil.nombre });
         viajarA(id);
     } 
     else if (tipo === 'personaje') {
-        // 1. Guardamos el rastro en el navegador para volver desde Huellas
-        if (lugarActual) {
-            localStorage.setItem('rastro_estudio', JSON.stringify({
-                url: window.location.href,
-                nombrePersonaje: lugarActual.perfil.nombre
-            }));
-        }
-        // 2. Saltamos a la plataforma de Huellas
+        if (lugarActual) localStorage.setItem('rastro_estudio', JSON.stringify({ url: window.location.href, nombrePersonaje: lugarActual.perfil.nombre }));
         window.location.href = `../huellas/perfil.html?id=${id}`;
     }
 };
 
-// --- DIBUJAR BOTÓN DE REGRESO (INTERNO Y EXTERNO) ---
 window.renderizarBotonVolver = function() {
-    // 1. OBTENER PARÁMETROS Y RASTROS
     const params = new URLSearchParams(window.location.search);
-    
-    // --- AQUÍ VA EL CAMBIO ---
     const rastroImagenDeDios = localStorage.getItem('rastro_estudio');
-    
-    // Si existe rastro de Imagen de Dios, anulamos retornoId para que no se pinte el botón dorado
     const retornoId = rastroImagenDeDios ? null : (params.get('retorno') || localStorage.getItem('last_onoma_id'));
-    // -------------------------
+    const tituloLugar = document.getElementById('p-nombre');
+    const panelPrincipal = document.getElementById('place-visor');
+    if (!retornoId || (!tituloLugar && !panelPrincipal) || document.getElementById('btn-volver-onomastiko-fijo')) return;
 
-    // 2. BUSQUEDA DEL CONTENEDOR (Igual que antes)
-    const tituloLugar = document.getElementById('p-nombre') || 
-                        document.querySelector('.p-nombre') || 
-                        document.querySelector('.narrativa-box h2') ||
-                        document.querySelector('.panel-informacion h2');
-
-    const panelPrincipal = document.getElementById('visor-lugar') || 
-                           document.querySelector('.panel-informacion') ||
-                           document.querySelector('.narrativa-box');
-
-    // 3. VALIDACIÓN DE SALIDA
-    // Si no hay retornoId (porque venimos de Imagen de Dios o no hay memoria), salimos.
-    if (!retornoId) {
-        console.log("No se inyecta botón de Onomastiko (Prioridad Imagen de Dios o sin rastro)");
-        return;
-    }
-
-    // Si el panel no existe todavía, el setTimeout de viajarA volverá a intentarlo
-    if (!tituloLugar && !panelPrincipal) {
-        console.log("Sigo buscando un lugar donde poner el botón...");
-        return;
-    }
-
-    // 3. Evitar duplicados
-    if (document.getElementById('btn-volver-onomastiko-fijo')) return;
-
-    // 4. CREACIÓN DEL BOTÓN
     const btn = document.createElement('button');
     btn.id = 'btn-volver-onomastiko-fijo';
     btn.innerHTML = `<span>🆔</span> Regresar al Perfil`;
-    
-    btn.style.cssText = `
-        background: #1e293b; 
-        color: #fbbf24; 
-        border: 1px solid #fbbf24; 
-        padding: 10px 18px; 
-        border-radius: 25px; 
-        cursor: pointer; 
-        margin-bottom: 20px; 
-        font-weight: bold; 
-        display: inline-flex; 
-        align-items: center; 
-        gap: 8px; 
-        font-size: 0.9rem; 
-        box-shadow: 0 4px 15px rgba(0,0,0,0.5);
-        z-index: 9999;
-        position: relative;
-    `;
-
-    // 5. INYECCIÓN (Donde sea que encuentre espacio)
-    if (tituloLugar) {
-        tituloLugar.parentNode.insertBefore(btn, tituloLugar);
-    } else {
-        panelPrincipal.prepend(btn);
-    }
-
-    btn.onclick = () => {
-        // No borramos el localStorage aquí para permitir que el usuario 
-        // regrese si vuelve a entrar a otro lugar del mapa
-        window.location.href = `../onomastiko/nombre.html?id=${retornoId}`;
-    };
-    
-    console.log("🚀 ¡BOTÓN INYECTADO!");
+    btn.style.cssText = `background: #1e293b; color: #fbbf24; border: 1px solid #fbbf24; padding: 10px 18px; border-radius: 25px; cursor: pointer; margin-bottom: 20px; font-weight: bold; display: inline-flex; align-items: center; gap: 8px; font-size: 0.9rem; box-shadow: 0 4px 15px rgba(0,0,0,0.5); z-index: 9999; position: relative;`;
+    if (tituloLugar) tituloLugar.parentNode.insertBefore(btn, tituloLugar);
+    else panelPrincipal.prepend(btn);
+    btn.onclick = () => window.location.href = `../onomastiko/nombre.html?id=${retornoId}`;
 };
 
-// Función auxiliar para crear la estructura base del botón
-function crearBotonBase() {
-    const btn = document.createElement('button');
-    btn.id = 'btn-volver-interno';
-    btn.style.cssText = `
-        background: #1e293b; 
-        color: #fcd34d; 
-        border: 1px solid #d4b483; 
-        padding: 6px 12px; 
-        border-radius: 20px; 
-        cursor: pointer; 
-        margin-bottom: 15px; 
-        font-weight: bold; 
-        display: flex; 
-        align-items: center; 
-        gap: 8px; 
-        font-size: 0.85em;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-        transition: all 0.3s ease;
-    `;
-    return btn;
-}
-
-// Función auxiliar para inyectar el botón en el panel lateral
-function inyectarBoton(btn) {
-    const titulo = document.getElementById('p-nombre');
-    if (titulo && titulo.parentNode) {
-        titulo.parentNode.insertBefore(btn, titulo);
-    }
-}
-
-
-
-// ==========================================
-// LÓGICA DEL MENÚ ECOSISTEMA (LAUNCHER)
-// ==========================================
-document.addEventListener('DOMContentLoaded', () => {
-    const btnLauncher = document.getElementById('btn-launcher');
-    const ecoMenu = document.getElementById('eco-menu');
-
-    if (btnLauncher && ecoMenu) {
-        btnLauncher.addEventListener('click', (e) => {
-            e.stopPropagation();
-            
-            // Alternamos la clase active
-            ecoMenu.classList.toggle('active');
-            
-            // Lógica para que la animación CSS funcione con display:none (hidden)
-            if (ecoMenu.classList.contains('hidden')) {
-                ecoMenu.classList.remove('hidden');
-                // Pequeño delay para que la transición de opacidad funcione
-                setTimeout(() => ecoMenu.classList.add('active'), 10); 
-            } else if (!ecoMenu.classList.contains('active')) {
-                // Si cerramos, quitamos active y esperamos a que termine la animación para ocultar
-                setTimeout(() => ecoMenu.classList.add('hidden'), 300); 
-            }
-
-            // Rotación visual del icono de 9 puntos
-            btnLauncher.style.transform = ecoMenu.classList.contains('active') ? 'rotate(90deg)' : 'rotate(0deg)';
-        });
-
-        // Cerrar el menú si hacemos clic fuera de él (en el mapa o en otro lado)
-        document.addEventListener('click', (e) => {
-            if (!ecoMenu.contains(e.target) && !btnLauncher.contains(e.target)) {
-                ecoMenu.classList.remove('active');
-                setTimeout(() => ecoMenu.classList.add('hidden'), 300);
-                btnLauncher.style.transform = 'rotate(0deg)';
-            }
-        });
-    }
-});
-
-
-// --- FUNCIONES GLOBALES (ACCESIBLES DESDE EL HTML) ---
-
 window.cargarTrayectoria = async function(id) {
-    console.log("Chef, montando ruta interactiva para:", id);
     try {
         const response = await fetch('../data/rutas/rutas_personajes.json');
         const data = await response.json();
         const infoRuta = data[id];
-
         if (!infoRuta) return;
-
-        // 1. EXTRAER IDS DE LA RUTA
+        window.rutaActiva = infoRuta;
         const idsRuta = infoRuta.hitos.map(h => h.id_lugar);
-
-        // 2. MODO ENFOQUE: Filtrar Marcadores
-        // Recorremos todos los marcadores que guardaste en markersById
         Object.keys(markersById).forEach(lugarId => {
+            const marker = markersById[lugarId];
             if (idsRuta.includes(lugarId)) {
-                // Si el punto es de la ruta, lo aseguramos en el mapa
-                if (!map.hasLayer(markersById[lugarId])) {
-                    markersById[lugarId].addTo(map);
-                }
-                // Opcional: Podrías cambiarle el color al icono aquí para que resalte más
+                if (!map.hasLayer(marker)) marker.addTo(map);
+                marker.getElement().style.opacity = "1";
+                marker.getElement().style.filter = "drop-shadow(0 0 8px var(--gold))"; 
             } else {
-                // En lugar de borrar, cambiamos opacidad
-                Object.keys(markersById).forEach(lugarId => {
-                    const marker = markersById[lugarId];
-                    if (idsRuta.includes(lugarId)) {
-                        marker.getElement().style.opacity = "1";
-                        marker.getElement().style.filter = "drop-shadow(0 0 5px var(--gold))"; // Brillo especial
-                    } else {
-                        marker.getElement().style.opacity = "0.5"; // Casi invisible pero da contexto
-                        marker.getElement().style.filter = "grayscale(100%)"; // En blanco y negro
-                    }
-                });
+                marker.getElement().style.opacity = "0.3"; 
+                marker.getElement().style.filter = "grayscale(100%) blur(1px)"; 
             }
         });
-
         const colorReferencia = COLORES_SECCION[infoRuta.archivo_fuente] || "#d4b483";
-
-        // 1. Panel de Control (Cabecera)
         const panelRuta = document.getElementById('control-ruta');
-        if (panelRuta) {
-            panelRuta.classList.remove('hidden');
-            panelRuta.style.borderLeftColor = colorReferencia;
-        }
+        if (panelRuta) { panelRuta.classList.remove('hidden'); panelRuta.style.borderLeft = `5px solid ${colorReferencia}`; }
         document.getElementById('ruta-personaje-nombre').innerText = infoRuta.nombre_ruta;
-
-        // 2. Mapeo de coordenadas y Generación de Timeline
         const timeline = document.getElementById('timeline-ruta');
         const container = document.getElementById('hitos-container');
-        if (container) container.innerHTML = ''; // Limpiamos mesa de trabajo
-
+        if (container) container.innerHTML = ''; 
         const puntosCoords = [];
-
         infoRuta.hitos.forEach((hito, index) => {
             const lugar = todosLosLugares.find(l => l.id === hito.id_lugar);
             if (lugar) {
                 puntosCoords.push(lugar.mapa.coords);
-
-                // --- CREACIÓN DEL HITO INTERACTIVO ---
-                if (container) {
-                    const item = document.createElement('div');
-                    item.className = 'hito-item';
-                    item.innerHTML = `
-                        <div class="hito-numero" style="background:${colorReferencia}">${index + 1}</div>
-                        <span>${lugar.perfil.nombre}</span>
-                    `;
-                    
-                    item.onclick = () => {
-                        // Viajamos al punto exacto
-                        viajarA(lugar.id);
-                        // Feedback visual de "Activo"
-                        document.querySelectorAll('.hito-item').forEach(el => el.classList.remove('active'));
-                        item.classList.add('active');
-                    };
-                    container.appendChild(item);
-                }
+                const item = document.createElement('div');
+                item.className = 'hito-item';
+                item.innerHTML = `<div class="hito-numero" style="background:${colorReferencia}">${index + 1}</div><span>${lugar.perfil.nombre}</span>`;
+                item.onclick = () => { viajarA(lugar.id); document.querySelectorAll('.hito-item').forEach(el => el.classList.remove('active')); item.classList.add('active'); };
+                container.appendChild(item);
             }
         });
-
-        
-
-        // Mostramos el timeline
         if (timeline) timeline.classList.remove('hidden');
-
-        // 3. Renderizado de la Polilínea
         if (window.capaRuta) map.removeLayer(window.capaRuta);
-        
-        window.capaRuta = L.polyline(puntosCoords, {
-            color: colorReferencia,
-            weight: 5,
-            dashArray: '12, 15',
-            lineCap: 'round',
-            opacity: 0.9,
-            shadowBlur: 5,
-            shadowColor: 'black'
-        }).addTo(map);
-
-        // 4. Encuadre inicial
-        if (puntosCoords.length > 0) {
-            map.fitBounds(window.capaRuta.getBounds(), { padding: [60, 60] });
-        }
-
-        // Usamos infoRuta.hitos (que es lo que ya tienes definido arriba)
-        const hitosOrdenados = infoRuta.hitos.sort((a, b) => a.orden - b.orden);
-        
-        // Llamamos a la función de distancia con los hitos reales
+        window.capaRuta = L.polyline(puntosCoords, { color: colorReferencia, weight: 5, dashArray: '12, 15', lineCap: 'round', opacity: 0.9, shadowBlur: 5, shadowColor: 'black' }).addTo(map);
+        if (puntosCoords.length > 0) map.fitBounds(window.capaRuta.getBounds(), { padding: [80, 80] });
+        const hitosOrdenados = [...infoRuta.hitos].sort((a, b) => a.orden - b.orden);
         window.actualizarDistanciaVisual(hitosOrdenados);
-
-    } catch (error) {
-        console.error("Error en la cocina de rutas:", error);
-    }
+    } catch (error) { console.error("Error en la cocina de rutas:", error); }
 };
 
 window.cerrarModoRuta = function() {
-    console.log("Chef, restaurando mapa y regresando a origen...");
-
-    // 1. RESTAURAR VISIBILIDAD DE TODOS LOS MARCADORES
+    window.rutaActiva = null;
+    const btnRastro = document.querySelector('.tab-btn[data-tab="rastro"]');
+    if (btnRastro) btnRastro.remove();
     Object.values(markersById).forEach(marker => {
-        const elemento = marker.getElement();
-        if (elemento) {
-            elemento.style.opacity = "1";
-            elemento.style.filter = "none";
-            // Usamos una verificación de seguridad para el ZIndex
-            if (typeof marker.setZIndexOffset === 'function') {
-                marker.setZIndexOffset(0);
-            }
-        }
+        const el = marker.getElement();
+        if (el) { el.style.opacity = "1"; el.style.filter = "none"; }
     });
-
-    // 2. LIMPIAR CAPAS DE RUTA
-    if (window.capaRuta) {
-        map.removeLayer(window.capaRuta);
-        window.capaRuta = null;
-    }
-    
-    // 3. OCULTAR PANELES DE CRONOS
+    if (window.capaRuta) map.removeLayer(window.capaRuta);
     document.getElementById('control-ruta').classList.add('hidden');
     document.getElementById('timeline-ruta').classList.add('hidden');
-    
-    // RESTAURAR SLIDER DE ERAS
     const slider = document.getElementById('time-slider-container');
     if (slider) slider.classList.remove('hidden');
-
-    // 4. LÓGICA DE RETORNO AL PERFIL (ONOMASTIKO)
     const params = new URLSearchParams(window.location.search);
-    const idRetorno = params.get('retorno') || params.get('ruta'); // Buscamos quién nos envió aquí
-
-    if (idRetorno) {
-        // Redirigimos de vuelta a la ficha del personaje en Onomastiko
-        // Ajusta la ruta según tu estructura de carpetas (ej: ../onomastiko/index.html)
-        window.location.href = `../onomastiko/nombre.html?id=${idRetorno}`;
-    } else {
-        // Si no hay origen claro, solo limpiamos la URL de Cronos
-        const url = new URL(window.location);
-        url.searchParams.delete('ruta');
-        url.searchParams.delete('retorno');
-        window.history.replaceState({}, '', url);
-    }
+    const idRetorno = params.get('retorno') || params.get('ruta');
+    if (idRetorno) window.location.href = `../onomastiko/nombre.html?id=${idRetorno}`;
+    else { const url = new URL(window.location); url.searchParams.delete('ruta'); url.searchParams.delete('retorno'); window.history.replaceState({}, '', url); }
 };
 
 window.actualizarDistanciaVisual = function(hitos) {
     let metrosTotales = 0;
-    
-    // Necesitamos al menos 2 puntos para medir
     for (let i = 0; i < hitos.length - 1; i++) {
         const marcadorA = markersById[hitos[i].id_lugar];
         const marcadorB = markersById[hitos[i+1].id_lugar];
-        
-        if (marcadorA && marcadorB) {
-            const puntoA = marcadorA.getLatLng();
-            const puntoB = marcadorB.getLatLng();
-            metrosTotales += puntoA.distanceTo(puntoB);
-        }
+        if (marcadorA && marcadorB) metrosTotales += marcadorA.getLatLng().distanceTo(marcadorB.getLatLng());
     }
-
     const kilometros = (metrosTotales / 1000).toFixed(1);
     const display = document.getElementById('distancia-ruta');
-    if (display) {
-        display.innerText = `${kilometros} km`;
-    }
-    console.log(`Chef, recorrido total: ${kilometros} km`);
+    if (display) display.innerText = `${kilometros} km`;
 };
 
-// --- FILTRO DE TIEMPO (SLIDER) ---
 const ERAS_MAP = {
     0: { label: "Todas las Eras", keywords: [] },
     1: { label: "Orígenes y Patriarcas", keywords: ["orígenes", "patriarca", "antediluviana", "post-diluviana"] },
@@ -978,22 +722,13 @@ window.inicializarTimeSlider = function() {
     const slider = document.getElementById('era-slider');
     const label = document.getElementById('slider-era-label');
     const btnReset = document.getElementById('btn-reset-slider');
-
     if (!slider) return;
-
     slider.addEventListener('input', (e) => {
         const val = parseInt(e.target.value);
         const eraData = ERAS_MAP[val];
-        
         label.innerText = eraData.label;
-
-        if (val === 0) {
-            btnReset.classList.add('hidden');
-            mostrarTodosLosMarcadores();
-        } else {
-            btnReset.classList.remove('hidden');
-            filtrarMarcadoresPorEra(eraData.keywords);
-        }
+        if (val === 0) { btnReset.classList.add('hidden'); mostrarTodosLosMarcadores(); }
+        else { btnReset.classList.remove('hidden'); filtrarMarcadoresPorEra(eraData.keywords); }
     });
 };
 
@@ -1002,32 +737,17 @@ window.filtrarMarcadoresPorEra = function(keywords) {
         const marker = markersById[lugarId];
         const lugar = todosLosLugares.find(l => l.id === lugarId);
         const eraLugar = (lugar?.contexto?.era_biblica || lugar?.era || "").toLowerCase();
-        
         let coincide = false;
-        if (eraLugar) {
-            coincide = keywords.some(kw => eraLugar.includes(kw));
-        }
-
-        if (coincide) {
-            marker.getElement().style.opacity = "1";
-            marker.getElement().style.pointerEvents = "auto";
-            marker.getElement().style.filter = "none";
-        } else {
-            marker.getElement().style.opacity = "0.15";
-            marker.getElement().style.pointerEvents = "none";
-            marker.getElement().style.filter = "grayscale(100%)";
-        }
+        if (eraLugar) coincide = keywords.some(kw => eraLugar.includes(kw));
+        if (coincide) { marker.getElement().style.opacity = "1"; marker.getElement().style.pointerEvents = "auto"; marker.getElement().style.filter = "none"; }
+        else { marker.getElement().style.opacity = "0.15"; marker.getElement().style.pointerEvents = "none"; marker.getElement().style.filter = "grayscale(100%)"; }
     });
 };
 
 window.mostrarTodosLosMarcadores = function() {
     Object.values(markersById).forEach(marker => {
         const el = marker.getElement();
-        if (el) {
-            el.style.opacity = "1";
-            el.style.pointerEvents = "auto";
-            el.style.filter = "none";
-        }
+        if (el) { el.style.opacity = "1"; el.style.pointerEvents = "auto"; el.style.filter = "none"; }
     });
 };
 

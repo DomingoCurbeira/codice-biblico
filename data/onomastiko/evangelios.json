@@ -1,5 +1,103 @@
 [
   {
+    "id": "onoma-jesus-supremo",
+    "seccion": "ONOMASTIKO",
+    "archivo_fuente": "evangelios.json",
+    "tiene_transicion": true,
+    "config_tarjeta": {
+      "color_primario": "#d4af37",
+      "color_acento": "#38bdf8",
+      "avatar_url": "img/perfiles/jesus.webp",
+      "gradiente": "radial-gradient(circle at center, #1e293b 0%, #000000 100%)"
+    },
+    "fases": [
+      {
+        "nombre": "Yeshúa",
+        "titulo": "El Cordero de Dios (Siervo Sufriente)",
+        "avatar_url": "img/perfiles/jesus.webp",
+        "jurisdiccion": "Mediador del Nuevo Pacto y Rescatador de la Humanidad",
+        "etymos": {
+          "original": "יֵשׁוּעַ",
+          "transliteracion": "Yeshúa",
+          "significado_legal": "YHVH es Salvación. El nombre que contiene el decreto legal del rescate soberano."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Código del Tetelestai",
+          "texto": "Jesús murió a los 33 años, la edad de la plenitud legal. Su última palabra, \"Tetelestai\", era un término comercial usado para sellar facturas pagadas. El misterio técnico es que Su muerte no fue un asesinato, sino una Transacción de Valor Infinito. Él entregó Su cuerpo perfecto para pagar una deuda de pecado que nosotros no podíamos cubrir. Fue el mayor intercambio legal de la historia."
+        },
+        "transferencia_codigo": {
+          "titulo": "Operando en la Obra Consumada",
+          "puntos": [
+            {
+              "concepto": "Vivir sin Deuda Legal",
+              "cita": "Juan 19:30",
+              "ejemplo_real": "Deja de pedir perdón mil veces por el mismo error pasado. Si Cristo dijo \"Pagado está\", tu cuenta en el cielo está en cero. Camina con la frente en alto; la Gracia ha borrado Tu historial deudor para siempre."
+            },
+            {
+              "concepto": "Vencer por la Palabra",
+              "cita": "Mateo 4:4",
+              "ejemplo_real": "En el desierto, Jesús no usó milagros, usó el \"Escrito está\". Ante un ataque de miedo o ansiedad hoy, no busques emociones; busca un código técnico en la Biblia y decrétalo. La Verdad escrita es tu mayor defensa."
+            },
+            {
+              "concepto": "El Poder del Servicio",
+              "cita": "Juan 13:14",
+              "ejemplo_real": "Jesús lavó los pies de Sus discípulos. La autoridad real en el Reino no se impone, se gana sirviendo. Si quieres influir en tu hogar o trabajo, busca cómo ser de utilidad para los demás desde la humildad."
+            }
+          ]
+        },
+        "eco_de_cristo": "Él es el cumplimiento de todos los rastros anteriores: el Cordero de Abel, el Arca de Noé y el Altar de Abraham."
+      },
+      {
+        "nombre": "Kyrios",
+        "titulo": "El Rey de Gloria (Soberanía Eterna)",
+        "avatar_url": "img/perfiles/jesus-rey.webp",
+        "jurisdiccion": "Soberanía Universal y Dueño de las Llaves del Hades",
+        "etymos": {
+          "original": "Κύριος",
+          "transliteracion": "Kyrios",
+          "significado_legal": "Señor / Dueño / Poseedor Legal de toda la creación por derecho de conquista."
+        },
+        "misterio_escudrinado": {
+          "titulo": "El Dueño de las Llaves",
+          "texto": "Apocalipsis 1:18 dice: \"Tengo las llaves de la muerte y del Hades\". Lo sorprendente es que Jesús no pidió permiso para tomarlas; las arrebató legalmente tras vencer al sistema de tinieblas en su propio terreno. El misterio es que Cristo ahora gobierna sobre el destino eterno de cada ser humano. Él es el único con autoridad para abrir puertas que nadie puede cerrar y cerrar puertas que nadie puede abrir."
+        },
+        "transferencia_codigo": {
+          "titulo": "Gobernando con el Rey",
+          "puntos": [
+            {
+              "concepto": "Autoridad Delegada",
+              "cita": "Lucas 10:19",
+              "ejemplo_real": "Como ciudadano del Reino, tú operas bajo la firma del Kyrios. No te dejes intimidar por las amenazas del mundo. Tienes permiso legal para hollar serpientes y escorpiones; tu seguridad está blindada por el Trono."
+            },
+            {
+              "concepto": "Paz por Soberanía",
+              "cita": "Filipenses 4:7",
+              "ejemplo_real": "Si Jesús es el Dueño de tu vida, nada puede pasar sin Su permiso técnico. Cuando enfrentes una tormenta, descansa en Su gobierno. Si Él está en tu barca, el naufragio es una imposibilidad legal."
+            },
+            {
+              "concepto": "Visión de Eternidad",
+              "cita": "Colosenses 3:1",
+              "ejemplo_real": "Deja de vivir solo para las metas temporales de este mundo. Sintoniza con la frecuencia del Rey Eterno. Pon tu mirada en las cosas de arriba, donde tu herencia real está guardada bajo custodia divina."
+            }
+          ]
+        },
+        "eco_de_cristo": "Él es el Alfa y la Omega, el Principio y el Fin, en quien habita corporalmente toda la plenitud de la Deidad."
+      }
+    ],
+    "conexiones": {
+      "huellas": "jesus",
+      "etymos": "logos-gr",
+      "cronos": "jerusalen-centro",
+      "rutas": "onoma-jesus-supremo"
+    },
+    "tags": [
+      "mesías",
+      "rey",
+      "salvador",
+      "jesús"
+    ]
+  },
+  {
     "id": "onoma-juan-bautista",
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "evangelios.json",
@@ -84,27 +182,15 @@
         "eco_de_cristo": "Juan bautizó a Jesús reconociendo que él mismo necesitaba ser bautizado por Él. Es el reconocimiento de que la criatura siempre debe rendirse ante el Creador."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "juan-bautista",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "kenosis-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "rio-jordan-bautismo",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "precursor",
       "juan"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "juan-bautista",
+      "etymos": "kenosis-gr",
+      "cronos": "rio-jordan-bautismo"
+    }
   },
   {
     "id": "onoma-pedro-apostol",
@@ -191,28 +277,16 @@
         "eco_de_cristo": "Pedro es la roca delegada; Cristo es la Roca Angular. La sombra de Pedro sanaba a los enfermos, demostrando que cuando el diseño está alineado, la presencia de Dios desborda incluso en lo físico."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "pedro",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "petros-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "cesarea-filipo",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "apostol",
       "roca",
       "pedro"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "pedro",
+      "etymos": "shimon-he",
+      "cronos": "cesarea-filipo"
+    }
   },
   {
     "id": "onoma-juan-discipulo",
@@ -299,28 +373,16 @@
         "eco_de_cristo": "Juan es el único discípulo que estuvo al pie de la cruz; Jesús le entregó el cuidado de Su madre. Juan representa la fidelidad que nace del amor incondicional."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "quintaesencia-amor-sustancia",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "agape-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "patmos-revelacion",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "amor",
       "juan",
       "apocalipsis"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "juan-apostol",
+      "etymos": "agape-gr",
+      "cronos": "patmos-revelacion"
+    }
   },
   {
     "id": "onoma-zaqueo-publicano",
@@ -407,28 +469,16 @@
         "eco_de_cristo": "Zaqueo devolviendo lo robado es un eco de lo que Cristo hizo: Él pagó una deuda que no debía para que nosotros recibiéramos una herencia que no merecíamos."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "zaqueo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "tzedakah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerico",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "restitución",
       "zaqueo",
       "justicia"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "zaqueo",
+      "etymos": "tzedakah-he",
+      "cronos": "jerico"
+    }
   },
   {
     "id": "onoma-bartimeo-ciego",
@@ -515,28 +565,16 @@
         "eco_de_cristo": "Jesús es la Luz del Mundo; Bartimeo es el primer prototipo del hombre que absorbe esa luz para caminar fuera de las tinieblas del sistema de Jericó."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "bartimeo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "blesis-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerico-salida",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "milagro",
       "visión",
       "bartimeo"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "bartimeo",
+      "etymos": "bartimai-ar",
+      "cronos": "jerico"
+    }
   },
   {
     "id": "onoma-maria-magdalena",
@@ -623,28 +661,16 @@
         "eco_de_cristo": "María anunciando la resurrección prefigura a la Iglesia proclamando que la muerte ha sido vencida para siempre."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "maria-magdalena",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "miriam-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "golgota-sepulcro",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "liberación",
       "testigo",
       "magdalena"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "maria-magdalena",
+      "etymos": "miriam-he",
+      "cronos": "golgota-sepulcro"
+    }
   },
   {
     "id": "onoma-nicodemo-maestro",
@@ -731,28 +757,16 @@
         "eco_de_cristo": "Jesús le reveló a Nicodemo el secreto de la serpiente de bronce, prefigurando Su propia muerte para dar vida a todo el que cree."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "nicodemo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "anothen-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "templo-jerusalen",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "nuevo-nacimiento",
       "nicodemo",
       "valentía"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "nicodemo",
+      "etymos": "anothen-gr",
+      "cronos": "templo-jerusalen"
+    }
   },
   {
     "id": "onoma-mateo-publicano",
@@ -839,28 +853,16 @@
         "eco_de_cristo": "Mateo presenta a Jesús como el Rey de los Judíos, el León de la tribu de Judá."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "mateo",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "mattityahu-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "capernaum-base",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "redención",
       "mateo",
       "evangelista"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "mateo",
+      "etymos": "charis-gr",
+      "cronos": "capernaum-base"
+    }
   },
   {
     "id": "onoma-mujer-samaritana",
@@ -947,28 +949,16 @@
         "eco_de_cristo": "Jesús prometió agua que salta para vida eterna; Photeiné es el primer registro físico de esa promesa cumplida."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "mujer-samaritana",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "pozo-jacob",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "evangelismo",
       "adoración",
       "samaritana"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "mujer-samaritana",
+      "etymos": "pneuma-gr",
+      "cronos": "pozo-jacob"
+    }
   },
   {
     "id": "onoma-lazaro-resucitado",
@@ -1021,7 +1011,7 @@
       {
         "nombre": "Zóé-Testimonio",
         "titulo": "El que Salió Fuera (Resurrección)",
-        "avatar_url": "img/perfiles/lazaro-vida.webp",
+        "avatar_url": "img/perfiles/lazaro.webp",
         "jurisdiccion": "Prueba Irrefutable de la Gloria y Testigo de la Vida Eterna",
         "etymos": {
           "original": "ζωή",
@@ -1055,28 +1045,16 @@
         "eco_de_cristo": "Lázaro resucitado prefigura la resurrección de todos los creyentes al final de los tiempos."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "lazaro",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "zoe-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "betania-lazaro",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "resurrección",
       "lázaro",
       "vida"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "lazaro",
+      "etymos": "zoe-gr",
+      "cronos": "betania-lazaro"
+    }
   },
   {
     "id": "onoma-esteban-martir",
@@ -1163,28 +1141,16 @@
         "eco_de_cristo": "Esteban vio la gloria que Jesús recuperó tras la ascensión."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "esteban-martir",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "martys-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerusalen-centro",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "esteban",
       "testigo",
       "gloria"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "esteban-martir",
+      "etymos": "martys-gr",
+      "cronos": "jerusalen-centro"
+    }
   },
   {
     "id": "onoma-tomas-apostol",
@@ -1271,28 +1237,16 @@
         "eco_de_cristo": "Tomás es el eco de la Iglesia que toca a Cristo a través de la Palabra y la fe."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "tomas",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "didymos-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "aposento-alto",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "tomás",
       "apostol",
       "fe"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "tomas",
+      "etymos": "didymos-gr",
+      "cronos": "aposento-alto"
+    }
   },
   {
     "id": "onoma-buen-pastor",
@@ -1379,27 +1333,15 @@
         "eco_de_cristo": "Cristo es el Alfa y la Omega, la Puerta que nadie puede cerrar (Apocalipsis 3:8)."
       }
     ],
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "el-buen-pastor",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "poimen-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "rediles-judea",
-        "tooltip": "Cronos"
-      }
-    ],
     "tags": [
       "pastor",
       "puerta",
       "seguridad"
-    ]
+    ],
+    "conexiones": {
+      "huellas": "el-buen-pastor",
+      "etymos": "poimen-gr",
+      "cronos": "rediles-judea"
+    }
   }
 ]

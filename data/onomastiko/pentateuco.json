@@ -29,36 +29,27 @@
       "puntos": [
         {
           "concepto": "El Hackeo del Miedo",
-          "ejemplo_real": "Cuando cometes un error y tu impulso es esconderte de Dios, estás bajo el \"virus\" adánico. El diseño original no huye, se acerca para ser restaurado."
+          "cita": "Génesis 3:10",
+          "ejemplo_real": "Cuando cometes un error y tu impulso es esconderte de Dios, estás bajo el \"virus\" adánico. El diseño original no huye, se acerca para ser restaurado. No te escondas tras las \"hojas de higuera\" de tus excusas."
         },
         {
           "concepto": "Hardware de Polvo, Software de Espíritu",
-          "ejemplo_real": "Tus limitaciones físicas (el polvo) no definen tu capacidad espiritual. Eres un portador de la conciencia divina."
+          "cita": "Génesis 2:7",
+          "ejemplo_real": "Tus limitaciones físicas (el polvo) no definen tu capacidad espiritual. Eres un portador de la conciencia divina; sintoniza con el Espíritu Santo para recordar que no eres un accidente, sino un diseño."
         },
         {
           "concepto": "Jurisdicción sobre el Caos",
-          "ejemplo_real": "Adán tenía la orden de \"sojuzgar\". Tienes permiso legal para poner orden en el caos de tu casa, tus finanzas o tus emociones."
+          "cita": "Génesis 1:28",
+          "ejemplo_real": "Adán tenía la orden de \"sojuzgar\". Tienes permiso legal para poner orden en el caos de tu casa, tus finanzas o tus emociones. No esperes a que el caos se vaya solo; usa tu autoridad de diseño."
         }
       ]
     },
-    "eco_de_cristo": "Cristo es el \"Postrer Adán\". Donde el primero falló en un jardín bajo condiciones perfectas, Jesús venció en un desierto y en Getsemaní.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "adan-diseno-original",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "pneuma-gr",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jardin-eden",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "Cristo es el \"Postrer Adán\". Donde el primero falló en un jardín bajo condiciones perfectas, Jesús venció en un desierto y en Getsemaní, recuperando legalmente el acceso al Árbol de la Vida para nosotros.",
+    "conexiones": {
+      "huellas": "adan-diseno-original",
+      "etymos": "tselem-he",
+      "cronos": "jardin-eden"
+    },
     "tags": [
       "origen",
       "creación",
@@ -89,43 +80,34 @@
     },
     "misterio_escudrinado": {
       "titulo": "La \"Ayuda Idónea\" (Ezer Kenegdo)",
-      "texto": "En el original, \"Ezer\" es una palabra usada mayormente para Dios como nuestro auxilio. Eva no fue creada como una asistente menor, sino como un \"Auxilio Superior\" capaz de enfrentar y completar al hombre."
+      "texto": "Eva no fue creada como una asistente menor, sino como un \"Auxilio Superior\" (Ezer). Ella es la guardiana de la intuición espiritual que protege el diseño del hogar frente a la distracción externa."
     },
     "transferencia_codigo": {
-      "titulo": "El Poder de la Multiplicación Espiritual",
+      "titulo": "El Poder de la Multiplicación",
       "puntos": [
         {
           "concepto": "Custodia de la Promesa",
-          "ejemplo_real": "A pesar de la caída, Eva sostuvo la esperanza de la \"Simiente\". Tu victoria vendrá de tu propio proceso de redención."
+          "cita": "Génesis 3:15",
+          "ejemplo_real": "A pesar de la caída, Eva sostuvo la esperanza de la \"Simiente\". Si hoy pasas por un dolor, no pierdas de vista la promesa de que la victoria vendrá de tu propio proceso de redención."
         },
         {
           "concepto": "Nutrición de Ambientes",
-          "ejemplo_real": "El diseño de la mujer tiene la capacidad técnica de cambiar la atmósfera de un lugar solo con su presencia y palabras."
+          "cita": "Proverbios 14:1",
+          "ejemplo_real": "El diseño de la mujer tiene la capacidad técnica de cambiar la atmósfera de un lugar solo con su presencia y palabras. Usa tu voz para nutrir la fe de quienes te rodean."
         },
         {
           "concepto": "Resiliencia de Diseño",
-          "ejemplo_real": "La vida es el diseño más resistente. Cuando sientas que \"todo terminó\", recuerda que Eva dio a luz en el desierto fuera del Edén."
+          "cita": "Génesis 4:25",
+          "ejemplo_real": "La vida es el diseño más resistente. Cuando sientas que \"todo terminó\", recuerda que Eva dio a luz tras la pérdida de Abel. Tu capacidad de generar vida no depende de las circunstancias."
         }
       ]
     },
     "eco_de_cristo": "Eva es la madre de todos los vivientes; de ella salió la promesa de la Simiente que Cristo cumplió totalmente.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "pacto-adanico-rescate",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "chavvah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jardin-eden",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "pacto-adanico-rescate",
+      "etymos": "ezer-he",
+      "cronos": "jardin-eden"
+    },
     "tags": [
       "vida",
       "origen",
@@ -157,43 +139,35 @@
     },
     "misterio_escudrinado": {
       "titulo": "La Tebah sin Timón",
-      "texto": "El Arca (Tebah) no tenía timón, velas ni remos. La revelación es que el diseño forzaba a la familia a confiar totalmente en la soberanía divina."
+      "texto": "El Arca (Tebah) no tenía timón, velas ni remos. Técnicamente, Noé no podía dirigirla. La revelación sorprendente es que el diseño forzaba a la familia a confiar totalmente en las corrientes de la soberanía divina. Noé no era el capitán, era el custodio. Dios mismo era la fuerza motriz que llevaba la embarcación al puerto seguro."
     },
     "transferencia_codigo": {
       "titulo": "Operando en el Recinto de Salvación",
       "puntos": [
         {
           "concepto": "El Sello del Kopher",
-          "ejemplo_real": "Estar en Cristo es estar sellado legalmente por Su sangre, protegido de los juicios externos."
+          "cita": "Génesis 6:14",
+          "ejemplo_real": "Estar en Cristo es estar bajo el sello de la \"brea\" (Kopher/Expiación). Aunque las crisis mundiales golpeen fuerte por fuera, no pueden penetrar tu vida si estás sellado por la Sangre."
         },
         {
           "concepto": "La Paciencia de la Construcción",
-          "ejemplo_real": "Si hoy trabajas en un propósito que nadie entiende, sigue adelante. El diseño requiere persistencia."
+          "cita": "Génesis 6:22",
+          "ejemplo_real": "Noé trabajó 100 años en algo que nunca había visto (lluvia). Si hoy trabajas en un propósito que nadie entiende, sigue adelante. El diseño de Dios requiere persistencia sobre la opinión pública."
         },
         {
           "concepto": "Soltar el Control",
-          "ejemplo_real": "Deja de intentar manejar cada detalle. Aprende a descansar mientras la fidelidad de Dios te posiciona."
+          "cita": "Génesis 8:1",
+          "ejemplo_real": "Como en la Tebah, a veces Dios te quita el timón para que aprendas a descansar mientras Su fidelidad te posiciona en el lugar correcto. Suelta el control hoy."
         }
       ]
     },
     "eco_de_cristo": "Cristo es el único recinto donde el pecador es preservado de la muerte eterna por la pura Gracia del Padre.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "noe-protocolo-preservacion",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "noaj-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "montanas-ararat",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "noe-protocolo-preservacion",
+      "etymos": "kopher-he",
+      "cronos": "montanas-ararat",
+      "rutas": "onoma-noe-remanente"
+    },
     "tags": [
       "obediencia",
       "preservación",
@@ -210,7 +184,7 @@
     "config_tarjeta": {
       "color_primario": "#10b981",
       "color_acento": "#a7f3d0",
-      "avatar_url": "img/perfiles/abram.webp",
+      "avatar_url": "img/perfiles/abraham.webp",
       "gradiente": "linear-gradient(135deg, #059669 0%, #0b0f19 100%)"
     },
     "fases": [
@@ -218,91 +192,81 @@
         "nombre": "Abram",
         "titulo": "Padre Enaltecido (Esfuerzo Humano)",
         "avatar_url": "img/perfiles/abram.webp",
-        "jurisdiccion": "Llamado a la Separación",
+        "jurisdiccion": "Llamado a la Separación y Obediencia Inicial",
         "etymos": {
           "original": "אַבְרָם",
           "transliteracion": "Abrám",
-          "significado_legal": "Padre elevado."
+          "significado_legal": "Padre elevado. Representa una bendición limitada a la capacidad humana."
         },
         "misterio_escudrinado": {
           "titulo": "El Salto de Ur",
-          "texto": "Salir de la seguridad humana para depender de una Voz invisible."
+          "texto": "Salir de Ur significó renunciar a la seguridad del sistema humano para depender de una Voz invisible. Abram representa al hombre que atiende al llamado pero que aún intenta ayudar a Dios con su propia lógica (como hizo con Ismael)."
         },
         "transferencia_codigo": {
-          "titulo": "Saliendo de Ur",
+          "titulo": "Saliendo de tu Propia Ur",
           "puntos": [
             {
-              "concepto": "La Salida de la Zona de Autonomía",
+              "concepto": "Zona de Confort",
               "cita": "Génesis 12:1",
-              "ejemplo_real": "Ur no era una aldea, era el centro del sistema de Babel (autonomía). Salir de allí hoy significa renunciar a la seguridad de lo que tú controlas para depender de una Voz invisible. Si Dios te pide un cambio en tu carrera o hábitos, no busques un mapa; busca la sintonía con el que dio la orden."
+              "ejemplo_real": "Abram dejó su parentela para recibir la promesa. Hoy, deja atrás los hábitos que te impiden oír al Creador con claridad."
             },
             {
-              "concepto": "El Riesgo de la Solución Humana",
-              "cita": "Génesis 16:2-4",
-              "ejemplo_real": "Abram intentó apresurar la promesa mediante Agar. Cuando intentas forzar un resultado (un negocio, una relación) usando métodos carnales o manipulación, generas un \"Ismael\" (un conflicto legal y emocional largo). Aprende que el Diseño no necesita ayuda carnal, solo necesita obediencia técnica."
+              "concepto": "No ayudar a Dios",
+              "cita": "Génesis 16:2",
+              "ejemplo_real": "No fuerces resultados mediante manipulación carnal. Generarás un \"Ismael\" (conflicto) en lugar de un milagro."
             },
             {
-              "concepto": "El Altar de lo Invisible",
-              "cita": "Génesis 12:7",
-              "ejemplo_real": "Abram edificaba altares donde no había nada. Aprende a declarar la victoria de Dios en medio de tu escasez. No esperes a ver el fruto para alabar; levanta un altar hoy sobre tu situación y verás cómo la jurisdicción del Reino se establece sobre tu territorio."
+              "concepto": "Caminar sin mapa",
+              "cita": "Hebreos 11:8",
+              "ejemplo_real": "Da el primer paso con la certeza de que el Dador de la orden es fiel, aunque el destino no sea visible hoy."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Abram dejando Ur prefigura a Cristo dejando Su gloria en el Cielo para habitar entre nosotros."
       },
       {
         "nombre": "Abraham",
         "titulo": "Padre de Multitudes (Diseño Divino)",
         "avatar_url": "img/perfiles/abraham.webp",
-        "jurisdiccion": "Patriarca del Pacto Eterno",
+        "jurisdiccion": "Patriarca y Portador del Contrato Eterno",
         "etymos": {
           "original": "אַבְרָהָם",
           "transliteracion": "Avrahám",
-          "significado_legal": "Padre de naciones."
+          "significado_legal": "Padre de naciones. La letra He (ה) insertada es el aliento de Dios que universaliza su propósito."
         },
         "misterio_escudrinado": {
-          "titulo": "La Letra He",
-          "texto": "Dios inyectó Su aliento en el nombre para dar vida a lo muerto."
+          "titulo": "El Misterio de la Letra He (ה)",
+          "texto": "Dios inyectó Su propia vida (He/Aliento) en la biología muerta de Abraham. La transformación permitió que lo estéril diera vida."
         },
         "transferencia_codigo": {
-          "titulo": "Aliento de Vida",
+          "titulo": "Activando el Aliento del Diseño",
           "puntos": [
             {
-              "concepto": "Activación de la Biología Espiritual",
+              "concepto": "Soberanía biológica",
               "cita": "Génesis 17:5",
-              "ejemplo_real": "La letra He (ה) en Abraham inyectó aliento de vida en su vejez. Tu propósito no está limitado por tu salud o tu edad física. Si el Espíritu de Dios habita en ti, lo que el mundo llama \"muerto\" o \"estéril\" en tu vida está a un aliento de distancia de florecer."
+              "ejemplo_real": "Tu diseño no está limitado por tu salud o edad física. Con el aliento de Dios, lo \"muerto\" en tu vida florecerá."
             },
             {
-              "concepto": "Vivir bajo el Juramento Soberano",
-              "cita": "Génesis 15:17-18",
-              "ejemplo_real": "Dios pasó solo entre los animales. Esto significa que tu bendición es incondicional si estás en el Pacto. Deja de torturarte pensando si eres \"digno\" de ser prosperado; la responsabilidad de bendecirte la asumió Dios bajo juramento. Tu labor es solo creer y operar en esa legalidad."
+              "concepto": "Contrato Blindado",
+              "cita": "Génesis 15:17",
+              "ejemplo_real": "Tu futuro es un hecho legal porque Dios juró por Sí mismo. El pacto depende de Su fidelidad, no del fallo humano."
             },
             {
-              "concepto": "La Autoridad de la Rendición Absoluta",
+              "concepto": "Autoridad de Rendición",
               "cita": "Génesis 22:12",
-              "ejemplo_real": "Solo cuando Abraham rindió a Isaac, Dios se reveló como Jehová-Jireh. Lo que más amas es a menudo el velo que te impide ver la provisión total. Suelta tus ídolos de bendición en el altar y verás cómo la Provisión Maestra se manifiesta automáticamente."
+              "ejemplo_real": "Solo cuando Abraham rindió a Isaac, Dios se reveló como Jehová-Jireh. Suelta tus ídolos para ver la provisión total."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Abraham ofreciendo a Isaac es la sombra más nítida del Padre ofreciendo a Jesús en la Cruz."
       }
     ],
-    "eco_de_cristo": "Abraham ofreciendo a Isaac es la sombra del Padre ofreciendo a Jesús.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "abraham-jurisdiccion-fe",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "avraham-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "ur-caldeos",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "abraham-pacto-soberano",
+      "etymos": "berit-he",
+      "cronos": "ur-caldeos",
+      "rutas": "onoma-abraham-fe"
+    },
     "tags": [
       "fe",
       "pacto",
@@ -325,85 +289,80 @@
         "nombre": "Sarai",
         "titulo": "La Princesa del Clan (Privado)",
         "avatar_url": "img/perfiles/sarai.webp",
-        "jurisdiccion": "Custodia de lo Privado",
+        "jurisdiccion": "Custodia de lo Privado y Compañera de Promesa",
         "etymos": {
           "original": "שָׂרַי",
           "transliteracion": "Saráy",
-          "significado_legal": "Mi princesa."
+          "significado_legal": "Mi princesa. Un propósito limitado a una familia pequeña."
         },
         "misterio_escudrinado": {
           "titulo": "La Risa de la Duda",
-          "texto": "Representa a la humanidad que no puede ver el milagro en su propia esterilidad."
+          "texto": "Sarai representaba a la humanidad que no puede ver el milagro en su propia esterilidad biológica."
         },
         "transferencia_codigo": {
           "titulo": "Del Silencio al Gozo",
           "puntos": [
             {
               "concepto": "Esterilidad",
+              "cita": "Génesis 18:12",
               "ejemplo_real": "El problema no es la falta de fruto, sino intentar resolverlo con métodos carnales."
             },
             {
               "concepto": "Atajos carnales",
-              "ejemplo_real": "No intentes forzar el propósito; espera el aliento divino."
+              "cita": "Génesis 16:3",
+              "ejemplo_real": "Cuando intentas forzar el propósito mediante atajos, terminas con conflictos. Espera el aliento divino."
             },
             {
               "concepto": "Tras el velo",
-              "ejemplo_real": "Prepárate porque la Voz que oyes alterará Tu ADN pronto."
+              "cita": "Génesis 18:10",
+              "ejemplo_real": "Prepárate porque la Voz que oyes está a punto de alterar Tu ADN."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Sarai representa a la naturaleza humana esperando un milagro que no puede producir sola."
       },
       {
         "nombre": "Sarah",
         "titulo": "Princesa de Naciones (Universal)",
         "avatar_url": "img/perfiles/sara.webp",
-        "jurisdiccion": "Matriz de Reyes",
+        "jurisdiccion": "Matriz de Reyes y Madre de la Libertad",
         "etymos": {
           "original": "שָׂרָה",
           "transliteracion": "Sarah",
-          "significado_legal": "Princesa Soberana."
+          "significado_legal": "Princesa Soberana. La adición de la He rompe la exclusividad privada."
         },
         "misterio_escudrinado": {
           "titulo": "Aliento en la Matriz",
-          "texto": "La letra He activó su capacidad de concebir lo imposible."
+          "texto": "La letra He activó su capacidad de concebir lo imposible, convirtiendo su risa en gozo legal."
         },
         "transferencia_codigo": {
           "titulo": "Gobernando desde la Risa",
           "puntos": [
             {
               "concepto": "Identidad de Victoria",
-              "ejemplo_real": "Actúa hoy desde tu nueva naturaleza de madre de naciones."
+              "cita": "Génesis 21:6",
+              "ejemplo_real": "Actúa hoy desde tu nueva naturaleza. Sarah tuvo que verse como madre antes de sentir al bebé."
             },
             {
               "concepto": "Sin mezclas",
-              "ejemplo_real": "La Gracia y la Ley no habitan bajo el mismo techo. Protege tu herencia."
+              "cita": "Génesis 21:10",
+              "ejemplo_real": "La Gracia y la Ley no habitan bajo el mismo techo. Protege tu herencia pura."
             },
             {
-              "concepto": "Fe Femenina",
-              "ejemplo_real": "Un corazón alineado con el Trono es donde nacen los reyes."
+              "concepto": "Matriz de Fe",
+              "cita": "Hebreos 11:11",
+              "ejemplo_real": "Un corazón alineado con el Trono es donde nacen los reyes. No subestimes tu fe."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Sarah es la madre libre, figura de la Jerusalén celestial."
       }
     ],
-    "eco_de_cristo": "Sarah es la madre libre, figura de la Jerusalén celestial.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "abraham-jurisdiccion-fe",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "sarah-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "hebron",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "abraham-pacto-soberano",
+      "etymos": "he-he",
+      "cronos": "hebron"
+    },
     "tags": [
       "matriz",
       "risa",
@@ -433,43 +392,34 @@
     },
     "misterio_escudrinado": {
       "titulo": "El Silencio de Moriah",
-      "texto": "Isaac se dejó atar voluntariamente, activando legalmente la provisión del Sustituto."
+      "texto": "Isaac se dejó atar voluntariamente, activando legalmente la provisión del Sustituto en lugar del sacrificio humano."
     },
     "transferencia_codigo": {
       "titulo": "Reposo del Heredero",
       "puntos": [
         {
-          "concepto": "Rendición",
-          "ejemplo_real": "La atadura voluntaria provoca que el Cordero aparezca."
+          "concepto": "Rendición Voluntaria",
+          "cita": "Génesis 22:9",
+          "ejemplo_real": "Tu atadura voluntaria en el altar es lo que provoca que el Cordero aparezca en tu espesura."
         },
         {
           "concepto": "Pozos Antiguos",
-          "ejemplo_real": "Vuelve a los fundamentos de la Gracia; allí hay agua viva."
+          "cita": "Génesis 26:18",
+          "ejemplo_real": "Vuelve a los fundamentos de la Gracia; allí sigue habiendo agua viva inagotable."
         },
         {
-          "concepto": "Rehobot",
-          "ejemplo_real": "Muévete hasta que Dios te dé un lugar espacioso de paz."
+          "concepto": "El Espacio de Rehobot",
+          "cita": "Génesis 26:22",
+          "ejemplo_real": "Muévete hasta que Dios te dé tu propio lugar espacioso de paz, lejos de la envidia."
         }
       ]
     },
     "eco_de_cristo": "Isaac cargando la madera es la sombra exacta de Jesús cargando Su cruz.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "isaac",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "isaac-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "hebron",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "isaac",
+      "etymos": "mizmor-he",
+      "cronos": "hebron"
+    },
     "tags": [
       "risa",
       "herencia",
@@ -490,97 +440,88 @@
     "fases": [
       {
         "nombre": "Jacob",
-        "titulo": "El Suplantador (Astucia)",
+        "titulo": "El Suplantador (Astucia Natural)",
         "avatar_url": "img/perfiles/jacob.webp",
-        "jurisdiccion": "Buscador de Bendición por Esfuerzo",
+        "jurisdiccion": "Buscador de Bendición mediante el Esfuerzo",
         "etymos": {
           "original": "יַעֲקֹב",
           "transliteracion": "Ya'akov",
-          "significado_legal": "El que sostiene el talón."
+          "significado_legal": "El que sostiene el talón / Suplantador."
         },
         "misterio_escudrinado": {
           "titulo": "La Frecuencia del Talón",
-          "texto": "Representa al creyente que ama a Dios pero confía en su propia inteligencia."
+          "texto": "Jacob representa al creyente que ama a Dios pero que aún confía más en su inteligencia que en la provisión del Padre."
         },
         "transferencia_codigo": {
           "titulo": "Saliendo de la Suplantación",
           "puntos": [
             {
-              "concepto": "El Cansancio de la Agarradera",
-              "cita": "Génesis 25:26",
-              "ejemplo_real": "Jacob nació agarrando el talón. Si vives intentando \"agarrar\" oportunidades mediante la astucia o quitándole el lugar a otros, terminarás agotado y en el desierto. La manipulación carnal siempre tiene un costo de mantenimiento muy alto; la Gracia es gratuita y fluida."
-            },
-            {
-              "concepto": "La Mentira del Disfraz",
+              "concepto": "Identifica tus disfraces",
               "cita": "Génesis 27:19",
-              "ejemplo_real": "Jacob se disfrazó de Esaú para ser bendecido. Nunca intentes recibir el favor de Dios usando la identidad de otro (imitando ministerios o estilos de vida). Dios bendice al Tú real, no a tu máscara. Quítate el disfraz y enfrenta al Padre con tu propia vulnerabilidad."
+              "ejemplo_real": "Dios bendice al Tú de diseño, no a tu máscara. Quítate el disfraz y enfrenta al Padre con vulnerabilidad."
             },
             {
-              "concepto": "Dormir sobre la Roca de la Palabra",
-              "cita": "Génesis 28:11-12",
-              "ejemplo_real": "Huyendo y solo, Jacob usó una piedra de almohada. Tu mayor revelación no vendrá en el lujo, sino en el quebrantamiento. Si hoy te sientes en el suelo, recuerda que es allí donde el Cielo se abre. Tu almohada de roca es el fundamento de tu futura casa espiritual."
+              "concepto": "El cansancio de la astucia",
+              "cita": "Génesis 31:41",
+              "ejemplo_real": "La manipulación tiene un alto costo de mantenimiento. El esfuerzo humano tiene un límite técnico; la Gracia no."
+            },
+            {
+              "concepto": "Dormir sobre la Piedra",
+              "cita": "Génesis 28:11",
+              "ejemplo_real": "Tu mayor revelación vendrá en el quebrantamiento. Tu almohada de roca es el fundamento de tu casa espiritual."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Jacob con la escalera al cielo prefigura a Cristo como el único acceso legal entre Dios y los hombres."
       },
       {
         "nombre": "Israel",
-        "titulo": "Príncipe de Dios (Autoridad)",
+        "titulo": "Príncipe de Dios (Autoridad Real)",
         "avatar_url": "img/perfiles/israel.webp",
-        "jurisdiccion": "Gobernante del Nuevo Diseño",
+        "jurisdiccion": "Gobernante de la Nueva Identidad de Diseño",
         "etymos": {
           "original": "יִשְׂרָאֵל",
           "transliteracion": "Yisra'el",
-          "significado_legal": "El que lucha con Dios."
+          "significado_legal": "Príncipe que prevalece con Dios."
         },
         "misterio_escudrinado": {
-          "titulo": "El Quiebre de Jaboc",
-          "texto": "La victoria real se gana perdiendo la batalla contra el ego."
+          "titulo": "El Quiebre en Jaboc",
+          "texto": "Dios tuvo que invalidar la fuerza de Jacob para activar Su autoridad. La victoria real se gana perdiendo la batalla contra el ego."
         },
         "transferencia_codigo": {
-          "titulo": "Caminando en Autoridad",
+          "titulo": "Caminando en Autoridad Real",
           "puntos": [
             {
-              "concepto": "El Quiebre de la Autosuficiencia",
-              "cita": "Génesis 32:25",
-              "ejemplo_real": "El Ángel tocó el muslo de Jacob (su músculo más fuerte). Dios a menudo permite un quiebre en tu área de mayor confianza propia (tu dinero, tu talento, tu fuerza) para que aprendas a apoyarte en Su cayado. No es un castigo, es la desactivación de tu orgullo para activar tu rango de Príncipe."
+              "concepto": "Rendición Violenta",
+              "cita": "Génesis 32:26",
+              "ejemplo_real": "Afiérrate a Dios hasta que tu naturaleza sea absorbida por el Diseño. No le sueltes hasta obtener Su bendición."
             },
             {
-              "concepto": "La Autoridad de la Cojera Real",
+              "concepto": "Abrazar la Cojera",
               "cita": "Génesis 32:31",
-              "ejemplo_real": "Jacob salió de Peniel cojeando pero con un nombre nuevo. Tus debilidades o tus errores pasados son hoy tus credenciales de autoridad. No escondas tus cicatrices; son el comprobante legal de que ya no confías en ti mismo, sino en Aquel que te transformó."
+              "ejemplo_real": "Tu debilidad es hoy tu mayor trofeo legal. No escondas tus cicatrices; son el comprobante de que confías en Dios."
             },
             {
-              "concepto": "Bendecir desde la Identidad de Reino",
+              "concepto": "Bendecir a los Poderosos",
               "cita": "Génesis 47:7",
-              "ejemplo_real": "El Jacob anciano bendijo al Faraón. Un hombre procesado por Dios tiene más peso legal que el gobernante más rico de la tierra. No te intimides ante los grandes del mundo; si caminas en tu identidad de Israel, tu presencia imparte la justicia del Trono dondequiera que vayas."
+              "ejemplo_real": "Un hombre procesado por Dios tiene más peso legal que el rey más rico. Tu rango espiritual es superior."
             }
           ]
-        }
+        },
+        "eco_de_cristo": "Cristo es el verdadero Israel que prevaleció perfectamente."
       }
     ],
-    "eco_de_cristo": "Cristo es el verdadero Israel que prevaleció perfectamente.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "jacob-protocolo-transformacion",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "peniel-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "peniel",
-        "tooltip": "Cronos"
-      }
-    ],
+    "conexiones": {
+      "huellas": "jacob-protocolo-transformacion",
+      "etymos": "malkhut-he",
+      "cronos": "peniel",
+      "rutas": "onoma-jacob-transicion"
+    },
     "tags": [
+      "patriarca",
       "identidad",
-      "transformación",
-      "jacob"
+      "jacob",
+      "israel"
     ]
   },
   {
@@ -592,7 +533,7 @@
     "config_tarjeta": {
       "color_primario": "#0ea5e9",
       "color_acento": "#fde68a",
-      "avatar_url": "img/perfiles/jose-sonador.webp",
+      "avatar_url": "img/perfiles/jose-egipto.webp",
       "gradiente": "linear-gradient(135deg, #0c4a6e 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -606,43 +547,35 @@
     },
     "misterio_escudrinado": {
       "titulo": "La Copa de Plata",
-      "texto": "Herramienta legal de retención para forzar la restauración familiar."
+      "texto": "Herramienta legal de retención para forzar la restauración familiar completa mediante el amor."
     },
     "transferencia_codigo": {
       "titulo": "Gobernando la Aflicción",
       "puntos": [
         {
-          "concepto": "Fructificar",
-          "ejemplo_real": "Tu diseño da fruto cuando el mundo está en sequía."
+          "concepto": "Fructificar en la Crisis",
+          "cita": "Génesis 41:52",
+          "ejemplo_real": "Tu diseño da fruto cuando el mundo está en sequía. No esperes a que los problemas pasen para prosperar."
         },
         {
-          "concepto": "Fidelidad",
-          "ejemplo_real": "La fidelidad en lo ajeno es el examen para recibir lo propio."
+          "concepto": "Fidelidad en lo Ajeno",
+          "cita": "Génesis 39:4",
+          "ejemplo_real": "La fidelidad administrando lo de otros es el examen legal para recibir Tu propia herencia."
         },
         {
-          "concepto": "Redención",
-          "ejemplo_real": "Tu dolor de ayer es la provisión de mañana."
+          "concepto": "La Redención del Pasado",
+          "cita": "Génesis 45:5",
+          "ejemplo_real": "Tu dolor de ayer es la provisión de mañana. Dios te posicionó para preservar vida."
         }
       ]
     },
-    "eco_de_cristo": "José es el salvador despreciado; Jesús es el Pan de Vida exaltado.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "jose-codigo-fructificacion",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "jose-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "dotan",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "José es el salvador despreciado; Jesús es el Pan de Vida exaltado al Trono.",
+    "conexiones": {
+      "huellas": "jose-codigo-fructificacion",
+      "etymos": "chayil-he",
+      "cronos": "dotan",
+      "rutas": "onoma-jose-fe"
+    },
     "tags": [
       "egipto",
       "perdón",
@@ -654,11 +587,11 @@
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "pentateuco.json",
     "tiene_transicion": false,
-    "jurisdiccion": "Mediador de Pacto",
+    "jurisdiccion": "Mediador de Pacto y Establecedor de Santidad",
     "config_tarjeta": {
       "color_primario": "#475569",
       "color_acento": "#fde68a",
-      "avatar_url": "img/perfiles/moises-pastor.webp",
+      "avatar_url": "img/perfiles/moises.webp",
       "gradiente": "linear-gradient(135deg, #1e293b 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -667,48 +600,40 @@
       "etymos": {
         "original": "מֹשֶׁה",
         "transliteracion": "Moshé",
-        "significado_legal": "Aquel rescatado para rescatar."
+        "significado_legal": "Extraído / Aquel rescatado para rescatar."
       }
     },
     "misterio_escudrinado": {
       "titulo": "El Rostro que Qaran",
-      "texto": "La alteración biológica por estar en sintonía con la frecuencia del Monte."
+      "texto": "La alteración biológica por estar en sintonía con la frecuencia del Monte. Moisés portaba cuernos de luz."
     },
     "transferencia_codigo": {
       "titulo": "Mansedumbre de Reino",
       "puntos": [
         {
-          "concepto": "Poder",
-          "ejemplo_real": "La mansedumbre es poder bajo control divino."
+          "concepto": "Poder bajo control",
+          "cita": "Números 12:3",
+          "ejemplo_real": "La mansedumbre no es debilidad; es autoridad que no necesita gritar para liderar."
         },
         {
-          "concepto": "Hablar",
-          "ejemplo_real": "Usa la Palabra en lugar de tu esfuerzo muscular."
+          "concepto": "Hablarle a la Roca",
+          "cita": "Números 20:8",
+          "ejemplo_real": "Usa la Palabra y la sintonía en lugar de tu esfuerzo muscular o temperamento carnal."
         },
         {
-          "concepto": "Cimiento",
-          "ejemplo_real": "Sé fiel a tu asignación aunque no veas el fruto final."
+          "concepto": "Fidelidad al Cimiento",
+          "cita": "Hebreos 3:5",
+          "ejemplo_real": "Sé fiel a tu asignación aunque no veas el fruto final; permites que otros conquisten."
         }
       ]
     },
-    "eco_de_cristo": "Moisés intercedió por el pueblo; Cristo es el Mediador eterno.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "moises-protocolo-liberacion",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "moises-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "monte-sinai",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "La vara de Moisés es la sombra de la Cruz: el instrumento que divide el mar de la muerte.",
+    "conexiones": {
+      "huellas": "moises-protocolo-liberacion",
+      "etymos": "mishkan-he",
+      "cronos": "monte-sinai",
+      "rutas": "onoma-moises-fe"
+    },
     "tags": [
       "libertador",
       "exodo",
@@ -720,11 +645,11 @@
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "pentateuco.json",
     "tiene_transicion": false,
-    "jurisdiccion": "Sumo Sacerdote",
+    "jurisdiccion": "Sumo Sacerdote y Guardián del Altar",
     "config_tarjeta": {
       "color_primario": "#b45309",
       "color_acento": "#fde68a",
-      "avatar_url": "img/perfiles/aaron-voz.webp",
+      "avatar_url": "img/perfiles/aaron.webp",
       "gradiente": "linear-gradient(135deg, #78350f 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -737,44 +662,35 @@
       }
     },
     "misterio_escudrinado": {
-      "titulo": "El Pectoral",
-      "texto": "Representación corporativa: portar las causas ajenas ante Dios."
+      "titulo": "El Pectoral de los Nombres",
+      "texto": "Portar las causas ajenas ante Dios como si fueran propias. Sacerdocio es representación corporativa."
     },
     "transferencia_codigo": {
       "titulo": "Sintonía del Altar",
       "puntos": [
         {
-          "concepto": "Apoyo",
-          "ejemplo_real": "Tu fidelidad en roles de apoyo es vital para el éxito."
+          "concepto": "Roles de Apoyo",
+          "cita": "Éxodo 4:14-16",
+          "ejemplo_real": "Tu fidelidad siendo la \"boca\" de otro es vital para el éxito del Reino. No busques siempre el primer plano."
         },
         {
-          "concepto": "Fortaleza",
-          "ejemplo_real": "Sostén las manos de tu líder en tiempos de crisis."
+          "concepto": "Sostener las manos",
+          "cita": "Éxodo 17:12",
+          "ejemplo_real": "Fortalece a tu líder en tiempos de crisis. Evitar que otro se rinda es tu mayor victoria hoy."
         },
         {
-          "concepto": "Principios",
-          "ejemplo_real": "Nunca comprometas la Verdad para agradar a la multitud."
+          "concepto": "Presión Popular",
+          "cita": "Éxodo 32:1-4",
+          "ejemplo_real": "Nunca comprometas la Verdad para agradar a la multitud. Teme más a la pérdida de sintonía con Dios."
         }
       ]
     },
-    "eco_de_cristo": "Jesús lleva nuestros nombres grabados sobre Su propio corazón.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "aaron",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "aaron-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "refidim",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "Jesús lleva nuestros nombres grabados sobre Su propio corazón en el Tabernáculo Celestial.",
+    "conexiones": {
+      "huellas": "aaron",
+      "etymos": "kohen-he",
+      "cronos": "refidim"
+    },
     "tags": [
       "sacerdote",
       "tabernaculo",
@@ -786,11 +702,11 @@
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "pentateuco.json",
     "tiene_transicion": false,
-    "jurisdiccion": "Profetisa de la Victoria",
+    "jurisdiccion": "Profetisa de la Victoria y Memoria del Linaje",
     "config_tarjeta": {
       "color_primario": "#0891b2",
       "color_acento": "#fde68a",
-      "avatar_url": "img/perfiles/myriam-niña.webp",
+      "avatar_url": "img/perfiles/miriam.webp",
       "gradiente": "linear-gradient(135deg, #164e63 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -799,48 +715,39 @@
       "etymos": {
         "original": "מִרְיָם",
         "transliteracion": "Myriam",
-        "significado_legal": "Transformación del dolor en cántico."
+        "significado_legal": "Transformación del dolor en cántico de libertad."
       }
     },
     "misterio_escudrinado": {
-      "titulo": "El Pandero",
-      "texto": "La fe de Miriam anticipó el resultado preparando el instrumento antes de ver el mar dividido."
+      "titulo": "El Pandero Preparado",
+      "texto": "La fe de Miriam anticipó el resultado preparando el instrumento de victoria antes de salir de Egipto."
     },
     "transferencia_codigo": {
       "titulo": "Cántico de Libertad",
       "puntos": [
         {
-          "concepto": "Acción de gracias",
-          "ejemplo_real": "Prepara tu albanza antes de que el problema pase."
+          "concepto": "Acción Anticipada",
+          "cita": "Éxodo 15:20",
+          "ejemplo_real": "Prepara tu alabanza antes de que el problema pase. Actúa como si la victoria ya fuera un hecho legal."
         },
         {
-          "concepto": "Centinela",
-          "ejemplo_real": "Vigila y protege el propósito que nace en otros."
+          "concepto": "Vigilar el Propósito",
+          "cita": "Éxodo 2:4",
+          "ejemplo_real": "Sé un centinela de los sueños de tu familia. Protege el diseño que está naciendo en otros."
         },
         {
-          "concepto": "Sin queja",
-          "ejemplo_real": "Mantén tu boca libre de amargura para mantener tu cántico."
+          "concepto": "Boca de Amargura",
+          "cita": "Números 12:1",
+          "ejemplo_real": "La queja contra el liderazgo seca tu propia unción. Mantén tu boca libre de veneno para mantener tu canto."
         }
       ]
     },
-    "eco_de_cristo": "Eco de María: guardó las cosas en su corazón para ver al Salvador.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "miriam",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "myriam-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "rio-nilo",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "Eco de María: guardó todas las cosas en su corazón para ver nacer al Salvador.",
+    "conexiones": {
+      "huellas": "miriam",
+      "etymos": "tehillah-he",
+      "cronos": "rio-nilo"
+    },
     "tags": [
       "profetisa",
       "myriam",
@@ -852,11 +759,11 @@
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "pentateuco.json",
     "tiene_transicion": false,
-    "jurisdiccion": "Conquistador de la Herencia",
+    "jurisdiccion": "Estratega de Reino y Conquistador",
     "config_tarjeta": {
       "color_primario": "#92400e",
       "color_acento": "#fbbf24",
-      "avatar_url": "img/perfiles/josue-servidor.webp",
+      "avatar_url": "img/perfiles/josue.webp",
       "gradiente": "linear-gradient(135deg, #451a03 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -865,48 +772,40 @@
       "etymos": {
         "original": "יְהוֹשׁוּעַ",
         "transliteracion": "Yehoshúa",
-        "significado_legal": "El que introduce al pueblo en el reposo."
+        "significado_legal": "El que introduce al pueblo en el reposo de la herencia."
       }
     },
     "misterio_escudrinado": {
-      "titulo": "Código Chazaq",
-      "texto": "Valentía como adherencia inquebrantable a la Instrucción."
+      "titulo": "El Código Chazaq",
+      "texto": "Valentía como adherencia inquebrantable a la Instrucción. Josué estaba amarrado a la Palabra."
     },
     "transferencia_codigo": {
       "titulo": "Poseyendo la Promesa",
       "puntos": [
         {
-          "concepto": "Instrucción",
-          "ejemplo_real": "No busques métodos humanos; busca el diseño de la Palabra."
+          "concepto": "Adherencia Técnica",
+          "cita": "Josué 1:8",
+          "ejemplo_real": "No busques métodos humanos; busca el diseño en la Palabra y no te sueltes de él para tener éxito."
         },
         {
-          "concepto": "Servicio",
-          "ejemplo_real": "La verdadera autoridad se cocina sirviendo fielmente."
+          "concepto": "Servicio Secreto",
+          "cita": "Éxodo 33:11",
+          "ejemplo_real": "La autoridad real se cocina sirviendo fielmente en lo secreto antes de mandar ejércitos."
         },
         {
-          "concepto": "Enfoque",
-          "ejemplo_real": "Tu realidad no depende del obstáculo, sino de cuánto creas en la victoria."
+          "concepto": "Enfoque de Victoria",
+          "cita": "Números 14:9",
+          "ejemplo_real": "No mires el tamaño del obstáculo; mira cuánto crees que Dios ya lo ha entregado en Tus manos."
         }
       ]
     },
-    "eco_de_cristo": "Josué vence enemigos y nos hace entrar en el Reposo eterno.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "josue-jurisdiccion-conquista",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "josue-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerico",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "Josué vence a los enemigos y nos hace entrar en el Reposo eterno que la Ley no pudo darnos.",
+    "conexiones": {
+      "huellas": "josue-jurisdiccion-conquista",
+      "etymos": "chazaq-he",
+      "cronos": "jerico",
+      "rutas": "onoma-josue-conquista"
+    },
     "tags": [
       "conquista",
       "josue",
@@ -918,11 +817,11 @@
     "seccion": "ONOMASTIKO",
     "archivo_fuente": "pentateuco.json",
     "tiene_transicion": false,
-    "jurisdiccion": "Matriz de Reyes",
+    "jurisdiccion": "Matriz de Reyes y Guardiana del Cordón",
     "config_tarjeta": {
       "color_primario": "#b91c1c",
       "color_acento": "#fbbf24",
-      "avatar_url": "img/perfiles/rajab-jerico.webp",
+      "avatar_url": "img/perfiles/rahab.webp",
       "gradiente": "linear-gradient(135deg, #7f1d1d 0%, #0b0f19 100%)"
     },
     "identidad": {
@@ -931,48 +830,39 @@
       "etymos": {
         "original": "רָחָב",
         "transliteracion": "Rachav",
-        "significado_legal": "Expansión del Reino para incluir a los de fuera."
+        "significado_legal": "Expansión del Reino para incluir a los que estaban fuera."
       }
     },
     "misterio_escudrinado": {
-      "titulo": "Cordón de Grana",
-      "texto": "Comprobante legal de protección (como la sangre en Egipto)."
+      "titulo": "El Cordón de Grana",
+      "texto": "Un comprobante legal de protección que salvó la única casa en pie de todo Jericó."
     },
     "transferencia_codigo": {
       "titulo": "Del Margen al Linaje",
       "puntos": [
         {
-          "concepto": "Oír y Actuar",
-          "ejemplo_real": "Tu fe basada en Su Palabra activa salvación para tu casa."
+          "concepto": "Fe Auditiva",
+          "cita": "Josué 2:11",
+          "ejemplo_real": "Rahab creyó por lo que oyó. No esperes ver milagros físicos para confiar en la soberanía de Dios."
         },
         {
-          "concepto": "Ciudadanía",
-          "ejemplo_real": "Dios te otorga una nueva ciudadanía legal y borra Tu pasado."
+          "concepto": "Nueva Ciudadanía",
+          "cita": "Hebreos 11:31",
+          "ejemplo_real": "Dios te otorga una nueva identidad legal y borra Tu pasado si decides ponerte del lado de la Verdad."
         },
         {
-          "concepto": "Legado",
-          "ejemplo_real": "Tu fe rompe ciclos de dolor y prepara el terreno para reyes."
+          "concepto": "Legado de Reyes",
+          "cita": "Mateo 1:5",
+          "ejemplo_real": "Tu fe rompe ciclos de dolor y prepara el terreno para que reyes nazcan en tu descendencia futura."
         }
       ]
     },
-    "eco_de_cristo": "Iglesia gentil injertada bajo la marca inconfundible de la Sangre.",
-    "iconos_accion": [
-      {
-        "tipo": "huellas",
-        "id": "rahab",
-        "tooltip": "Huellas"
-      },
-      {
-        "tipo": "etymos",
-        "id": "rajab-he",
-        "tooltip": "Etymos"
-      },
-      {
-        "tipo": "cronos",
-        "id": "jerico",
-        "tooltip": "Cronos"
-      }
-    ],
+    "eco_de_cristo": "Rahab representa a la Iglesia gentil injertada bajo la marca inconfundible de la Sangre de Cristo.",
+    "conexiones": {
+      "huellas": "rahab",
+      "etymos": "tzedakah-he",
+      "cronos": "jerico"
+    },
     "tags": [
       "fe",
       "linaje",
