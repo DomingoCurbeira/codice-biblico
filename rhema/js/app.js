@@ -120,6 +120,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         const btnDownload = document.getElementById('btn-download');
         if (btnDownload) btnDownload.onclick = () => descargarImagen(p);
 
+        const btnShare = document.getElementById('btn-share');
+        if (btnShare) btnShare.onclick = () => compartirPromesa(p);
+
         // --- GUARDAR RASTRO PERSISTENTE ---
         localStorage.setItem('rastro_estudio', JSON.stringify({
             nombrePersonaje: `Rhema: ${p.cita}`,
@@ -227,3 +230,27 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
 });
+
+    async function compartirPromesa(p) {
+        const shareData = {
+            title: 'Rhema: Palabra del Día',
+            text: `📖 "${p.texto}" - ${p.cita}\n\nDescubre más en Códice Bíblico:`,
+            url: window.location.href
+        };
+
+        try {
+            if (navigator.share) {
+                await navigator.share(shareData);
+            } else {
+                // Fallback: Copiar enlace
+                await navigator.clipboard.writeText(`${shareData.text} ${shareData.url}`);
+                Swal.fire({
+                    toast: true, position: 'top', icon: 'success',
+                    title: '¡Enlace Copiado!', showConfirmButton: false, timer: 2000,
+                    background: '#161b22', color: '#d4b483'
+                });
+            }
+        } catch (err) {
+            console.log('Cancelado o error en share:', err);
+        }
+    }
