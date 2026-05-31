@@ -4622,5 +4622,572 @@
         }
       ]
     }
+  },
+  {
+    "id": "sermones-dos-adanes",
+    "activo": false,
+    "fecha_programada": "2026-06-05",
+    "tipo": "sermones",
+    "titulo": "El Paraíso vs. El Desierto",
+    "subtitulo": "La Cabeza Federal: El Fracaso de Adán y la Victoria Definitiva de Cristo",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "25 min",
+    "imagen_portada": "../img/estudios/dos-adanes.webp",
+    "tags": [
+      "Cristología",
+      "Tipología",
+      "Sermón",
+      "Victoria",
+      "Representación",
+      "Romanos 5"
+    ],
+    "versiculo_clave": {
+      "texto": "Porque así como por la desobediencia de un hombre los muchos fueron constituidos pecadores, así también por la obediencia de uno, los muchos serán constituidos justos.",
+      "cita": "Romanos 5:19"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Epístola Doctrinal / Tipología Federal",
+        "titulo": "El Principio Legal de la Cabeza Federal",
+        "texto": "Para entender el Evangelio, debemos entender el derecho internacional y diplomático de la antigüedad. Una 'Cabeza Federal' es un representante legal que actúa en nombre de todo un grupo; su firma obliga a todos, y su victoria o derrota se transfiere a todos los que están bajo su jurisdicción. Pablo nos revela que la historia humana se reduce a la biografía de solo dos hombres: Adán y Cristo. Todo ser humano nace 'en Adán' (heredando su deuda y su ruina legal), pero puede ser trasladado por fe a estar 'en Cristo' (heredando Su fortuna y Su justicia absoluta)."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Typos (τύπος)",
+        "idioma": "Griego",
+        "raiz": "Impresión o marca dejada por un golpe (como un sello).",
+        "significado": "Figura, modelo, sombra representativa.",
+        "revelacion": "Romanos 5:14 dice que Adán era 'figura' (typos) de Jesús. Esto significa que Adán fue diseñado como una maqueta de madera de lo que Cristo sería en mármol. El pecado de Adán dejó una 'marca' de muerte en toda la humanidad, pero la obediencia de Cristo dejó una 'marca' de vida mucho más poderosa. La tipología nos enseña que el Antiguo Testamento no son solo historias, sino un código legal que profetiza la victoria del Mesías.",
+        "fonetica_guia": "Tí-pos"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Fidelidad Inquebrantable y Justicia Restaurativa",
+        "texto": "Dios no abandonó el proyecto humano tras el fracaso del Edén. Su Fidelidad le obligó a buscar una solución legal: como un hombre falló, un hombre debía vencer. El atributo de la Omnipotencia se manifiesta aquí no en la fuerza bruta, sino en la humildad de Dios al encarnarse para pelear en nuestro propio 'ring de batalla' y ganar legalmente lo que nosotros perdimos."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Contraste de las Dos Batallas",
+        "texto": "Considera las ventajas de Adán: Estaba en un paraíso de abundancia, con el estómago lleno, rodeado de belleza, acompañado de su esposa y en plena fuerza física y espiritual. Y fracasó ante una serpiente. Considera las desventajas de Cristo: Fue tentado en un desierto de muerte, tras 40 días de ayuno total, con su cuerpo al borde del colapso, solo, rodeado de bestias salvajes y bajo el ataque directo del infierno. Y Jesús Venció. Esta victoria no fue para Él (Él ya era Dios), fue para TI. Cristo validó Su derecho a ser tu Cabeza Federal triunfando donde tú, 'en Adán', habrías fallado mil veces."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Dos Árboles, Dos Legados",
+        "descripcion": "La paradoja de las decisiones que cambiaron la eternidad:",
+        "pasos": [
+          {
+            "concepto": "Adán junto al Árbol",
+            "explicacion": "Intentó robar la vida mediante la desobediencia, y trajo la maldición de las espinas a la tierra."
+          },
+          {
+            "concepto": "Cristo en el Madero (La Cruz)",
+            "explicacion": "Entregó Su vida mediante la obediencia, cargando sobre Su frente la corona de espinas de nuestra maldición."
+          },
+          {
+            "concepto": "El Robo vs. El Regalo",
+            "explicacion": "Adán quiso ser 'como Dios' por orgullo y se convirtió en nada. Jesús, siendo Dios, se hizo nada (Kénosis) para hacernos como Él."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Intercambio de las Posiciones Legales",
+        "referencias": [
+          {
+            "cita": "1 Corintios 15:22",
+            "versiculo": "Porque así como en Adán todos mueren, también en Cristo todos serán vivificados.",
+            "revelacion": "Resume la ley de la representación: tu destino no depende de lo que tú hagas, sino de a quién has elegido como tu Representante."
+          },
+          {
+            "cita": "2 Corintios 5:21",
+            "versiculo": "Al que no conoció pecado, por nosotros lo hizo pecado, para que nosotros fuésemos hechos justicia de Dios en él.",
+            "revelacion": "El gran intercambio comercial de la cruz: Cristo toma tu historial del 'primer Adán' y te da Su historial del 'Último Adán'."
+          },
+          {
+            "cita": "Hebreos 4:15",
+            "versiculo": "Porque no tenemos un sumo sacerdote que no pueda compadecerse... sino uno que fue tentado en todo según nuestra semejanza, pero sin pecado.",
+            "revelacion": "La victoria de Jesús en el desierto garantiza que Su representación es real y efectiva para humanos de carne y hueso."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Deja de Intentar ser el 'Mejor Adán'",
+        "items": [
+          {
+            "punto": "Descansa en la Justicia Imputada.",
+            "ejemplo": "La creencia de que si hoy 'te portaste mal', Dios te ama menos o perdiste tu salvación.",
+            "escenario_actual": "Cuando el diablo te recuerde un pecado pasado, no intentes defenderte con tus buenas obras de esta mañana. Dile: 'Habla con mi Abogado Jesús; Su victoria es mi cuenta bancaria espiritual'."
+          },
+          {
+            "punto": "Entiende que la tentación no es pecado.",
+            "ejemplo": "Sentirse sucio o indigno solo por haber sentido el impulso de mentir o de orgullo.",
+            "escenario_actual": "Identificar que la tentación es el ataque de la serpiente externa, no tu identidad. Respira, cita la Palabra como hizo Jesús en el desierto, y sigue caminando sin culpa."
+          },
+          {
+            "punto": "Asume tu responsabilidad sin excusas.",
+            "ejemplo": "La tendencia adánica de culpar a las circunstancias o a otras personas por tus fallos ('el trabajo me estresa', 'mi esposa me provocó').",
+            "escenario_actual": "Dejar de decir 'yo soy así por la crianza que tuve' y empezar a declarar: 'Yo tengo el ADN del Segundo Adán, y por Su Espíritu puedo vencer este hábito hoy'."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Operando desde la Victoria Federal",
+        "items": [
+          {
+            "punto": "Pelea DESDE la victoria, no HACIA la victoria.",
+            "ejemplo": "Pasar horas rogando y llorando en oración como si Cristo estuviera a punto de perder la batalla contra el mal en tu vida.",
+            "escenario_actual": "Enfrentar una crisis financiera o de salud no con pánico, sino con la calma de quien sabe que su Cabeza (Cristo) ya venció al mundo y tú solo estás administrando el triunfo."
+          },
+          {
+            "punto": "Imparte vida y no condenación.",
+            "ejemplo": "Usar la Biblia para golpear la conciencia de los demás con legalismo, devolviéndolos a la naturaleza del primer Adán.",
+            "escenario_actual": "Cuando alguien te confiese una falta grave, no lo mates con la ley; vístelo con el perdón de Cristo y muéstrale la ruta legal para que la victoria de Jesús se manifieste en su restauración."
+          },
+          {
+            "punto": "Acepta tu 'Dikaioma' (Inocencia Permanente).",
+            "ejemplo": "Vivir con un 'miedo reverencial' que en el fondo es terror a que Dios te castigue en cualquier momento.",
+            "escenario_actual": "Entrar a una sala de juntas, a un examen o al púlpito con la frente en alto, sabiendo que el Juez del Universo te ha declarado legalmente justo y Su favor te rodea como un escudo."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Mentira del 'Perfeccionismo Adánico'",
+        "texto": "Es un error creer que el cristianismo consiste en 'reparar' al viejo hombre. Adán está muerto y sentenciado. No intentes mejorar tu naturaleza vieja; lo que necesitas es morir a ella cada día y permitir que la vida resucitada del Segundo Adán opere a través de ti. La religión intenta educar a Adán; el Evangelio lo crucifica."
+      }
+    ],
+    "desafio_practico": "Hoy, ante cada pensamiento de acusación, responde: 'Tetelestai (Pagado está). Mi posición legal es Cristo y Su victoria es mi herencia'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Último Adán y Cabeza Federal de la nueva creación.",
+          "paralelismo": "Vencedor absoluto en el desierto donde la humanidad falló en el paraíso."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "desierto-judea",
+          "nombre": "Desierto de Judea",
+          "razon": "El ring de batalla donde se validó legalmente la victoria del Mesías.",
+          "simbolismo": "Lugar de escasez extrema donde se demuestra que el hombre vive de la Palabra y no del pan."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "typos-gr",
+          "nombre": "Typos (Figura)",
+          "razon": "Concepto clave para entender cómo el Antiguo Testamento profetiza a Jesús.",
+          "familia": "Base de toda la exégesis tipológica y simbólica de la Biblia."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "reposo-victoria-federal",
+          "tema": "Descanso en la Obra Consumada",
+          "declaracion": "Padre Amado, hoy dejo de luchar por mi propia justicia. Acepto por fe absoluta que la obediencia, la pureza y la victoria de Jesús me pertenecen por decreto legal. Descanso bajo la representación de mi Segundo Adán."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-rahab-jurisdiccion",
+    "activo": false,
+    "fecha_programada": "2026-06-12",
+    "tipo": "sermones",
+    "titulo": "Rahab: La Jurisdicción de la Esperanza",
+    "subtitulo": "Sermones Filtrados: Cómo la Gracia se infiltra en las líneas enemigas para rescatar un linaje",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/cordon-rahab.webp",
+    "tags": [
+      "Rahab",
+      "Gracia",
+      "Jurisdicción",
+      "Esperanza",
+      "Pacto"
+    ],
+    "versiculo_clave": {
+      "texto": "Y ella dijo: Sea así como habéis dicho. Luego los despidió, y se fueron; y ella ató el cordón de grana a la ventana.",
+      "cita": "Josué 2:21"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa de Redención / Genealogía Mesiánica",
+        "titulo": "Jericó: Una Ciudad bajo Sentencia",
+        "texto": "Rahab vivía en el lugar más peligroso de la tierra: en el muro de una ciudad que Dios había decretado destruir. Como prostituta y cananea, Rahab representaba todo lo que el sistema legal de la época habría desechado. Sin embargo, ella poseía algo que los reyes de Canaán no tenían: Discernimiento Jurisdiccional. Ella no solo oyó sobre Jehová; ella reconoció que Jehová era el verdadero Dueño de la tierra y decidió traicionar a su antiguo sistema para sumarse al Reino de Dios."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Tikvah (תִּקְוָה)",
+        "idioma": "Hebreo",
+        "raiz": "Qavah (Esperar / Tenzar una cuerda)",
+        "significado": "Cuerda, cordón, esperanza, expectativa anhelante.",
+        "revelacion": "Es fascinante que la misma palabra para el 'cordón' físico de Rahab sea la palabra hebrea para 'Esperanza'. Para Dios, la esperanza no es un sentimiento difuso; es un punto de contacto legal (una cuerda) que nos une a Su territorio de salvación. El cordón de grana (rojo) era la extensión de la sangre de la Pascua infiltrada en Jericó.",
+        "fonetica_guia": "Tik-váh"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Misericordia Infiltrada y Fidelidad al Pacto",
+        "texto": "Dios se revela como un estratega de amor que busca 'espías de gracia' en medio del campamento enemigo. Su atributo de Misericordia no espera a que Canaán se vuelva santa; entra en Jericó y pacta con una mujer de mala fama para demostrar que la Gracia es más fuerte que el linaje o el pasado."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesucristo: La Semilla que honra el Cordón Rojo",
+        "texto": "Rahab no solo se salvó; ella se convirtió en la tatarabuela del Rey David y, por ende, en una ancestra directa de Jesucristo. Esto es un escándalo teológico: la sangre de una cananea rescatada corre por las venas de la encarnación del Mesías. Esto nos enseña que Jesús no vino a salvar a gente 'limpia', sino a redimir el barro para convertirlo en el trono de Su gloria."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Hilo Rojo de la Ventana al Madero",
+        "descripcion": "La señal de la sangre como blindaje jurisdiccional:",
+        "pasos": [
+          {
+            "concepto": "La Sangre en Egipto",
+            "explicacion": "Protegió a los hebreos dentro de sus casas durante la noche del juicio."
+          },
+          {
+            "concepto": "El Cordón en Jericó",
+            "explicacion": "Protegió a una familia cananea en medio del colapso de una ciudad gentil."
+          },
+          {
+            "concepto": "La Cruz en el Calvario",
+            "explicacion": "Protege a todo aquel (judío o gentil) que decida 'atar' su vida a la obra de Jesucristo."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Linaje de la Gracia",
+        "referencias": [
+          {
+            "cita": "Mateo 1:5",
+            "versiculo": "Salmón engendró de Rahab a Booz, Booz engendró de Rut a Obed...",
+            "revelacion": "Evidencia legal de que el pasado de Rahab fue totalmente borrado por su inserción en el linaje del Reino."
+          },
+          {
+            "cita": "Hebreos 11:31",
+            "versiculo": "Por la fe Rahab la ramera no pereció con los desobedientes...",
+            "revelacion": "El Espíritu Santo le otorga a Rahab un lugar en el Salón de la Fama de la Fe, quitando el oprobio de su nombre."
+          },
+          {
+            "cita": "Santiago 2:25",
+            "versiculo": "¿No fue también Rahab la ramera justificada por obras, cuando recibió a los mensajeros...?",
+            "revelacion": "Muestra que la verdadera fe produce una traición al sistema del mundo para servir al sistema de Dios."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu Pasado no es tu Destino",
+        "items": [
+          {
+            "punto": "Cree que Dios te busca en tu Jericó.",
+            "ejemplo": "Pensar que tienes que 'salir del pecado' solo para que Dios te acepte.",
+            "escenario_actual": "Entender que, aunque hoy tu vida sea un desastre como la de Rahab, si clamas por el 'cordón rojo', la salvación entra a tu casa hoy mismo."
+          },
+          {
+            "punto": "Ata el cordón de la Esperanza.",
+            "ejemplo": "Permitir que la duda y el miedo al futuro controlen tu estado de ánimo.",
+            "escenario_actual": "Identificar esa promesa bíblica que te da paz y 'atarla' a tu mente (repetirla, creerla) cuando sientas que las paredes de tu economía se están derrumbando."
+          },
+          {
+            "punto": "Protege a los tuyos bajo el Pacto.",
+            "ejemplo": "Pensar que la salvación es solo para ti, ignorando que Rahab salvó a toda su familia.",
+            "escenario_actual": "Empezar a interceder por tus padres o hermanos que no conocen a Dios, declarando que porque tú estás bajo la sangre, hay un cordón rojo colgando sobre toda tu casa."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Jurisdicción sobre el Linaje",
+        "items": [
+          {
+            "punto": "Honra a los 'improbables'.",
+            "ejemplo": "Liderar con prejuicios, creyendo que ciertas personas (ex-adictos, gente de mala vida) no pueden ser grandes líderes de Dios.",
+            "escenario_actual": "Abrir espacios de discipulado profundo para aquellos que el sistema religioso rechaza, sabiendo que ahí puede estar escondida la próxima ancestra del Rey."
+          },
+          {
+            "punto": "Discierne el hilo de la Tikvah.",
+            "ejemplo": "Confundir la esperanza bíblica con un simple deseo positivo o 'buena vibra'.",
+            "escenario_actual": "Enseñar a otros que la esperanza es una cuerda legal tensada: un compromiso inquebrantable de Dios que te sostiene sobre el abismo."
+          },
+          {
+            "punto": "Administra el Linaje Mesiánico.",
+            "ejemplo": "Vivir tu fe de forma aislada, sin entender que tus decisiones hoy están afectando la genética espiritual de tus nietos.",
+            "escenario_actual": "Tomar decisiones de santidad hoy no por miedo al infierno, sino para asegurar que el 'cordón de grana' de la justicia pase limpio a las próximas tres generaciones de tu familia."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Justicia de los 'Limpios'",
+        "texto": "Rechaza el legalismo que afirma que Dios solo usa a personas con historiales impecables. Si Dios no hubiera usado a 'rameras' como Rahab, Jesucristo no habría podido nacer según la carne. El Evangelio no es para gente que no falló, sino para gente que se arrepintió y cambió de jurisdicción."
+      }
+    ],
+    "desafio_practico": "Hoy, identifica un área de 'oprobio' en tu pasado. Visualiza el cordón rojo de Jesús cubriéndola y di en voz alta: 'Este ya no es mi nombre; mi nombre es Hijo del Rey'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "rahab",
+          "nombre": "Rahab",
+          "razon": "La mujer que cambió de reino por fe.",
+          "paralelismo": "La iglesia gentil injertada en el olivo natural de la promesa."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El heredero del linaje de Rahab.",
+          "paralelismo": "El Salvador que no se avergüenza de llamarnos hermanos a pesar de nuestro pasado."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerico",
+          "nombre": "Jericó",
+          "razon": "El lugar de la traición santa de Rahab.",
+          "simbolismo": "Donde el sistema del mundo cae y la gracia prevalece."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "tikvah-heb",
+          "nombre": "Tikvah",
+          "razon": "La cuerda de la esperanza.",
+          "familia": "Tensión, expectativa, fe activa."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "reposo-cordon-grana",
+          "tema": "Salvación Familiar",
+          "declaracion": "Ato hoy el cordón de grana sobre mi ventana. Mi familia y yo estamos seguros bajo la jurisdicción de la sangre de Jesús. No importa lo que caiga alrededor, mi casa permanece."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-rut-hesed",
+    "activo": false,
+    "fecha_programada": "2026-06-19",
+    "tipo": "sermones",
+    "titulo": "Rut: La Gracia en los Campos de Belén",
+    "subtitulo": "Sermones Filtrados: Cómo el Favor de Dios reescribe el ADN de una extranjera excluida",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "23 min",
+    "imagen_portada": "../img/estudios/rut-espigando.webp",
+    "tags": [
+      "Rut",
+      "Hesed",
+      "Gracia",
+      "Belén",
+      "Redención",
+      "Lealtad"
+    ],
+    "versiculo_clave": {
+      "texto": "Jehová recompense tu obra, y tu remuneración sea cumplida de parte de Jehová Dios de Israel, bajo cuyas alas has venido a refugiarte.",
+      "cita": "Rut 2:12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa de Redención / Idilio Profético",
+        "titulo": "De Moab a la Casa del Pan",
+        "texto": "Rut era moabita, descendiente de un linaje nacido del incesto entre Lot y su hija. La ley de Moisés prohibía que un moabita entrara en la congregación de Jehová hasta la décima generación. Rut era, legalmente, una excluida. Al viajar a Belén con Noemí, Rut no solo cambió de país; cambió de Jurisdicción. Ella entró en Belén en el momento de la cosecha de cebada. Históricamente, el espigueo era el derecho de los pobres a recoger lo que quedaba en el suelo. Rut se colocó en la posición más baja de la sociedad, pero bajo el diseño del campo correcto: el campo de Booz."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Jésed (חֶסֶד)",
+        "idioma": "Hebreo",
+        "raiz": "Jsd (Amor inclinado / Misericordia)",
+        "significado": "Misericordia leal, favor inmerecido, fidelidad al pacto que va más allá de la ley.",
+        "fonetica_guia": "Jé-sed",
+        "revelacion": "El 'Hesed' es la cualidad de Dios que le permite amar al que no es amado. Booz mostró Hesed a Rut no porque la ley lo obligara, sino porque su corazón reflejaba el diseño del Cielo. El Hesed es el motor que permite que un moabita (tú y yo) sea injertado en el árbol de la vida."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Ensenanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Misericordia Inclusiva y Fidelidad Restauradora",
+        "texto": "Dios revela que Su Gracia es un territorio donde las leyes de exclusión son superadas por la ley del amor. Al salvar a Rut, Dios muestra que Su atributo de Misericordia busca el barro para convertirlo en perla. Él es el Dios que no mira tu árbol genealógico, sino tu dirección hacia Su altar."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Rut y Booz: El Matrimonio que prepara el Pesebre",
+        "texto": "La historia de Rut es el prólogo necesario para la llegada de Jesucristo. Rut es la bisabuela de David. Si Rut no hubiera espigado en Belén, David no habría nacido, y el Mesías no tendría su genealogía legal. Jesús es el fruto definitivo del 'Hesed'. Él es el Pariente que nos vio 'espigando' en la miseria de nuestro pecado y decidió no solo darnos un poco de pan, sino hacernos dueños de todo el campo."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Protocolo de la Espigadora",
+        "descripcion": "Pasos para atraer el favor divino en tiempos de crisis:",
+        "pasos": [
+          {
+            "concepto": "Decisión de Altar",
+            "explicacion": "'Tu Dios será mi Dios'. La redención empieza por una renuncia total al pasado moabita."
+          },
+          {
+            "concepto": "Diligencia en el Suelo",
+            "explicacion": "Rut no pidió limosna, ella trabajó. El favor de Dios se activa en el movimiento del esfuerzo."
+          },
+          {
+            "concepto": "El Refugio en las Alas",
+            "explicacion": "Aceptación de la cobertura espiritual de un sistema superior (Israel)."
+          },
+          {
+            "concepto": "La Unión del Goel",
+            "explicacion": "De recoger sobras a ser la esposa del dueño. La gracia te asciende de posición legal."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Gracia para el Extranjero",
+        "referencias": [
+          {
+            "cita": "Efesios 2:12-13",
+            "versiculo": "...estabais sin Cristo, alejados de la ciudadanía de Israel... pero ahora en Cristo Jesús... habéis sido hechos cercanos.",
+            "revelacion": "Pablo explica teológicamente lo que Rut vivió físicamente: el injerto de los gentiles en la promesa."
+          },
+          {
+            "cita": "Salmos 36:7",
+            "versiculo": "¡Cuán preciosa, oh Dios, es tu misericordia (Hesed)! Por eso los hijos de los hombres se amparan bajo la sombra de tus alas.",
+            "revelacion": "Usa la misma imagen poética que Booz usó para bendecir a Rut."
+          },
+          {
+            "cita": "Mateo 1:5",
+            "versiculo": "...Booz engendró de Rut a Obed, y Obed a Isaí...",
+            "revelacion": "Evidencia documental de que Dios borró la maldición de Moab para honrar la fe de Rut."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Favor en Tierras Extrañas",
+        "items": [
+          {
+            "punto": "No tengas miedo a los comienzos humildes.",
+            "ejemplo": "Sentirse humillado porque has tenido que empezar desde cero en un trabajo o ciudad nueva.",
+            "escenario_actual": "Realizar tu trabajo actual (aunque no sea el de tus sueños) con una sonrisa y gratitud, sabiendo que estás 'espigando' en el campo donde Dios te va a bendecir."
+          },
+          {
+            "punto": "Tu lealtad es tu mayor activo.",
+            "ejemplo": "Abandonar a tu familia o iglesia en el primer momento de crisis buscando solo tu propio beneficio.",
+            "escenario_actual": "Decidir hoy quedarte al lado de esa persona que te necesita o en ese proyecto que está sufriendo, confiando en que Dios premia la fidelidad que no huye."
+          },
+          {
+            "punto": "Busca refugio bajo las Alas de Dios.",
+            "ejemplo": "Intentar protegerte mediante pólizas de seguro, dinero o armas, olvidando la protección espiritual.",
+            "escenario_actual": "Hacer de tu tiempo de oración matutina tu 'blindaje' real, declarando que ninguna crisis económica tiene permiso de tocar tu casa porque estás bajo las alas del Todopoderoso."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Estilo de Vida del Hesed",
+        "items": [
+          {
+            "punto": "Sé un 'Booz' para los demás.",
+            "ejemplo": "Cumplir la ley ministerial de forma estricta y fría, sin dejar 'espigas' de gracia para los que están pasando necesidad.",
+            "escenario_actual": "Identificar a esa persona 'excluida' o con un pasado difícil en tu comunidad y abrirle una puerta de oportunidad, dándole más de lo que la ley o la lógica exigiría."
+          },
+          {
+            "punto": "Discierne el linaje en el barro.",
+            "ejemplo": "Juzgar a las personas por sus errores pasados o por su origen social, perdiéndote de ver al próximo rey que Dios está formando en ellos.",
+            "escenario_actual": "Tratar con la misma honra al barrendero que al ejecutivo en tu empresa, sabiendo que el 'Hesed' de Dios no hace acepción de personas."
+          },
+          {
+            "punto": "Prepara el camino para la Generación Futura.",
+            "ejemplo": "Vivir tu fe solo para tu bienestar presente, ignorando el impacto que tus decisiones tienen en tus nietos.",
+            "escenario_actual": "Tomar una decisión de integridad hoy (aunque te cueste dinero o fama), sabiendo que esa semilla de justicia es la que permitirá que tus descendientes caminen en bendición."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Mentira del 'Mérito por Esfuerzo'",
+        "texto": "Cuidado con creer que Rut se ganó la redención por ser 'buena trabajadora'. Rut se salvó porque decidió refugiarse en el Dios de Israel y porque encontró a un hombre que quiso ejercer la ley del rescate. El Evangelio no es premio para el trabajador; es regalo para el que confía en el Redentor."
+      }
+    ],
+    "desafio_practico": "Hoy, haz un acto de 'Hesed' inesperado: ayuda a alguien que no pueda devolverte el favor y dile: 'Hago esto porque Dios ha sido bueno conmigo'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "rut",
+          "nombre": "Rut",
+          "razon": "La mujer que demostró que el amor es un vínculo legal superior.",
+          "paralelismo": "La iglesia gentil injertada en el pacto de Israel."
+        },
+        {
+          "id": "booz",
+          "nombre": "Booz",
+          "razon": "El señor del campo que ejerció el derecho a rescatar.",
+          "paralelismo": "La figura terrenal de Jesucristo como nuestro Goel."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen-rut",
+          "nombre": "Campos de Belén",
+          "razon": "Escenario de la providencia divina.",
+          "simbolismo": "Donde la escasez de la viuda se encuentra con la abundancia del Redentor."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "hesed-heb",
+          "nombre": "Jésed (חֶסֶד)",
+          "razon": "La palabra que define toda la trama de redención.",
+          "familia": "Misericordia, amor de pacto, favor inmerecido."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "favor-en-tierra-extraña",
+          "tema": "Atracción de Favor",
+          "declaracion": "Padre, hoy entro en mis campos de trabajo bajo Tu Hesed. No busco sobras; busco Tu favor que me asciende. Declaro que Tu gracia reescribe mi historia hoy. Amén."
+        }
+      ]
+    }
   }
 ]

@@ -8,7 +8,7 @@ let currentUtterance = null;
 const musicaDom = document.getElementById('musica-fondo');
 
 // CONFIGURACIÓN DE RUTAS
-const URL_INDICE = '../data/indices/indice_oraciones.json';
+const URL_INDICE = '../data/indices/indice_aposento.json';
 const URL_BASE_DATA = '../data/aposento/';
 
 // ELEMENTOS DEL DOM

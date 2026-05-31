@@ -1141,5 +1141,545 @@
         }
       ]
     }
+  },
+  {
+    "id": "etymos-arquero",
+    "activo": false,
+    "fecha_programada": "2026-06-03",
+    "tipo": "etimologia",
+    "titulo": "Cuando el Arquero Falla",
+    "subtitulo": "La Anatomía de la 'Hamartia': El Fracaso del Diseño Original",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/arquero-falla.webp",
+    "tags": [
+      "Pecado",
+      "Etimología",
+      "Propósito",
+      "Romanos",
+      "Griego",
+      "Hebreo"
+    ],
+    "versiculo_clave": {
+      "texto": "Por cuanto todos pecaron, y están destituidos de la gloria de Dios.",
+      "cita": "Romanos 3:23"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Lingüístico / Antropología Teológica",
+        "titulo": "El 'Telos': El Destino de la Flecha Humana",
+        "texto": "En la cosmovisión del mundo antiguo (tanto en Israel como en Grecia), nada existía sin un propósito específico o un fin determinado, concepto conocido como 'Telos'. Un zapato que no calza, un cuchillo que no corta o un hombre que no refleja a su Creador eran considerados 'fallidos'. El pecado, antes de ser una infracción moral, era entendido como una tragedia de diseño. La cultura moderna ha domesticado la palabra 'pecado' para referirse a placeres prohibidos, pero en la Biblia es el término técnico para describir a una criatura que ha perdido su trayectoria hacia la Gloria."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Jata (חָטָא) / Hamartia (ἁμαρτία)",
+        "idioma": "Hebreo / Griego",
+        "raiz": "Vocabulario de Arquería y Milicia",
+        "significado": "Errar el blanco, perder la marca, desviarse del camino.",
+        "revelacion": "Ambas palabras provienen de la arquería. 'Jata' se usaba para describir a los honderos de Benjamín que podían tirar una piedra a un cabello y no 'errar'. El pecado es exactamente eso: una flecha (nuestra vida) que sale disparada con un propósito divino, pero que a mitad de camino se desvía por el viento de la concupiscencia y cae inútil en el barro. No es que la flecha sea 'mala' en su sustancia original, es que su trayectoria ha fallado el objetivo supremo: el corazón de Dios (la Gloria).",
+        "fonetica_guia": "Ja-tá / A-mar-tí-a"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios como Arquitecto y Objetivo Supremo",
+        "texto": "Dios se revela aquí como el Diseñador que no solo fabrica la flecha, sino que Él mismo es el Blanco. Pecar es la mayor ofensa contra el atributo de la Sabiduría de Dios, pues implica decirle al Creador: 'Tu blanco para mi vida es erróneo; yo he encontrado un objetivo mejor'. Dios condena el pecado porque protege la integridad de Su creación de la autodestrucción que provoca vivir fuera del diseño."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: La Única Flecha Inmaculada",
+        "texto": "A través de toda la historia humana, miles de millones de 'flechas' han salido del arco de la vida y todas, sin excepción, han terminado en el polvo, cortas de la marca. Solo hubo una Flecha, disparada en un pesebre y dirigida hacia el Calvario, que jamás se desvió ni un milímetro. Hebreos 4:15 nos dice que Jesús fue tentado en todo, pero sin 'hamartia' (sin pecado/sin errar el blanco). Al unirnos a Cristo por fe, Su trayectoria perfecta se convierte legalmente en la nuestra. Cuando Dios nos mira, no ve la flecha caída en el barro, ve la Flecha de Su Hijo impactando el centro mismo de Su Gloria."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Proceso de la Desviación Espiritual",
+        "descripcion": "Nadie falla el blanco de repente. Es un proceso de degradación de la trayectoria:",
+        "pasos": [
+          {
+            "concepto": "Falta de Enfoque (Distracción)",
+            "explicacion": "El arquero quita el ojo del blanco (Cristo) para mirar sus propias necesidades o miedos."
+          },
+          {
+            "concepto": "Viento de la Carne (Influencia)",
+            "explicacion": "Las presiones externas y deseos internos alteran el vuelo de nuestras decisiones diarias."
+          },
+          {
+            "concepto": "Destitución (Quedarse Corto)",
+            "explicacion": "La palabra 'destituidos' en Romanos 3:23 significa 'llegar tarde' o 'no alcanzar'. El pecado nos deja a medio camino de nuestro potencial eterno."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Blanco de la Gloria",
+        "referencias": [
+          {
+            "cita": "Jueces 20:16",
+            "versiculo": "...todos los cuales tiraban una piedra con la honda a un cabello, y no erraban (Jata).",
+            "revelacion": "Nos muestra que el diseño de Dios para nosotros es la precisión absoluta, no la mediocridad espiritual."
+          },
+          {
+            "cita": "Efesios 2:10",
+            "versiculo": "Porque somos hechura suya, creados en Cristo Jesús para buenas obras...",
+            "revelacion": "Confirma que somos 'flechas' fabricadas a mano con una misión pre-programada por el Creador."
+          },
+          {
+            "cita": "Salmos 51:4",
+            "versiculo": "Contra ti, contra ti solo he pecado, y he hecho lo malo delante de tus ojos...",
+            "revelacion": "David entiende que el fallo del arquero no es solo un error técnico, es una ofensa personal contra el Dueño del Arco."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Ajustando la Mira",
+        "items": [
+          {
+            "punto": "Cambia tu definición de 'pecado'.",
+            "ejemplo": "Dejar de verlo como 'cosas malas que hacen enojar a un Dios enojado' y verlo como una pérdida de tu propósito vital.",
+            "escenario_actual": "Cuando sientas la tentación de mentir o de guardar rencor, pregúntate: '¿Hacia dónde está moviendo esta decisión la flecha de mi vida? ¿Me acerca o me aleja de la Gloria?'."
+          },
+          {
+            "punto": "Mantén los ojos en el centro de la diana.",
+            "ejemplo": "Tratar de 'no pecar' por tus propias fuerzas es como un arquero que mira sus pies para no fallar. El secreto es mirar a Jesús.",
+            "escenario_actual": "Sustituir el esfuerzo de 'dejar de tener malos pensamientos' por la disciplina de 'llenar mi mente de la Palabra'. Cuando el blanco está claro, el error desaparece."
+          },
+          {
+            "punto": "Acepta que la Gracia te levanta del barro.",
+            "ejemplo": "La mentira de que si fallaste una vez, ya eres una flecha inservible que Dios ha desechado.",
+            "escenario_actual": "Si tuviste una caída ayer, hoy levántate, confiesa y permite que el Espíritu Santo te vuelva a colocar en el arco. Su misericordia es nueva cada mañana."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Liderazgo Teleológico",
+        "items": [
+          {
+            "punto": "No juzgues actos, calibra trayectorias.",
+            "ejemplo": "En la consejería, enfocarse solo en 'limpiar' la conducta externa sin entender qué 'blanco' falso está persiguiendo el corazón de la persona.",
+            "escenario_actual": "Ayudar a un hermano en crisis a descubrir que su adicción o pecado es en realidad una búsqueda hambrienta de paz, y redirigir ese hambre hacia el blanco correcto (Cristo)."
+          },
+          {
+            "punto": "Combate la Entropía Espiritual.",
+            "ejemplo": "Permitir que la rutina o el cansancio del ministerio 'aflojen la cuerda del arco', provocando que tus enseñanzas pierdan altura y potencia.",
+            "escenario_actual": "Establecer tiempos de retiro y silencio mediático para recalibrar tu propia trayectoria espiritual, asegurándote de que sigues apuntando a la eternidad y no solo al éxito local."
+          },
+          {
+            "punto": "Imparte la 'Doxa' (Gloria).",
+            "ejemplo": "Predicar sermones que son solo manuales de etiqueta moral o civismo, sin inyectar el aliento de la Gloria de Dios en los oyentes.",
+            "escenario_actual": "Asegurarte de que cada vez que enseñas, la congregación no salga diciendo 'tengo que ser mejor', sino '¡Cuán glorioso es Dios!', provocando que sus vidas se alineen por asombro y no por ley."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Moralismo sin Cristo",
+        "texto": "Se puede ser una persona 'moralmente impecable' ante la sociedad y, sin embargo, ser un pecador total ante Dios porque tu flecha nunca apuntó a Su Gloria, sino a tu propia reputación. El infierno estará lleno de 'buenas personas' que fallaron el blanco supremo: reconocer el Señorío de Jesús."
+      }
+    ],
+    "desafio_practico": "Mañana, al despertar, declara en voz alta: 'Señor, hoy mi vida es una flecha en Tus manos. No dejes que mis deseos desvíen mi trayectoria de Tu Gloria'.",
+    "conexiones": {
+      "huellas": [],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "doxa-gr",
+          "nombre": "Doxa (Gloria)",
+          "razon": "El blanco final y el diseño original que perdimos por la hamartia.",
+          "familia": "Peso, valor, resplandor divino."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "alineacion-trayectoria-gloria",
+          "tema": "Alineación de Propósito",
+          "declaracion": "Espíritu Santo, examina mi arco y mi puntería. Perdóname por buscar blancos pequeños y temporales. Hoy decido que mi único objetivo es reflejar la Imagen de Cristo en todo lo que haga."
+        }
+      ]
+    }
+  },
+  {
+    "id": "etymos-yeshua-amplitud",
+    "activo": false,
+    "fecha_programada": "2026-06-10",
+    "tipo": "etimologia",
+    "titulo": "Yeshua: El Diseño de la Amplitud",
+    "subtitulo": "Descifrando el nombre que porta la Jurisdicción de la Libertad",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/nombre-yeshua.webp",
+    "tags": [
+      "Yeshua",
+      "Salvación",
+      "Etimología",
+      "Libertad",
+      "Josué"
+    ],
+    "versiculo_clave": {
+      "texto": "Y llamarás su nombre JESÚS, porque él salvará a su pueblo de sus pecados.",
+      "cita": "Mateo 1:21"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Antropología Bíblica",
+        "titulo": "La Transición de la Identidad en el Nombre",
+        "texto": "En la Biblia, el nombre no es un apodo, es un 'Plano de Destino'. Josué se llamaba originalmente Oseas ('Salvación'). Moisés cambió su nombre a Yehoshua ('Jehová es Salvación'). Este cambio no fue estético; fue jurisdiccional. Moisés entendió que la liberación de Israel no podía depender de un concepto genérico de salvación humana (Oseas), sino que debía estar anclada a la firma legal del Creador (Jehová). Históricamente, el nombre de Josué es la raíz exacta del nombre de Jesús (Yeshua), conectando al conquistador de Canaán con el Conquistador del Cosmos."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Yasha (יָשַׁע)",
+        "idioma": "Hebreo",
+        "raiz": "Y-sh-a (Amplitud / Espacio)",
+        "significado": "Ser ancho, espacioso, libre de opresión; rescatar de la estrechez.",
+        "revelacion": "Para el hebreo antiguo, el pecado y el sufrimiento se describen como 'estrechez' (angustia). Estar en pecado es estar atrapado en un callejón sin salida. 'Yasha' es la acción de Dios de romper las paredes y sacarte a una llanura amplia donde puedes respirar y moverte. La salvación es, técnicamente, una expansión de tu libertad.",
+        "fonetica_guia": "Ya-shá"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Omnipotencia Liberadora",
+        "texto": "Dios se revela como el Gran Emancipador. Su atributo de Omnipotencia no es una fuerza bruta para aplastar, sino una fuerza precisa para 'abrir espacios'. Donde el enemigo ha puesto límites, escasez o muros de contención, el nombre de Yeshua opera como una explosión de amplitud divina."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesucristo: La Mano que consume la Estrechez",
+        "texto": "El nombre Yeshua está compuesto por letras que revelan Su misión: La 'Yod' (Mano) y la 'Shin' (Diente/Consumir). Jesús es la 'Mano de Dios consumiendo la esclavitud'. Él no solo nos perdona; Él devora las cadenas que nos apretaban para darnos el espacio legal de la adopción. Jesucristo es la amplitud en persona: estar en Él es vivir en un territorio infinito de gracia."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Evolución de la Amplitud",
+        "descripcion": "Cómo la salvación se expande en la historia:",
+        "pasos": [
+          {
+            "concepto": "Éxodo",
+            "explicacion": "Salvación física de la estrechez de Egipto (los látigos del faraón)."
+          },
+          {
+            "concepto": "Conquista (Josué)",
+            "explicacion": "Salvación territorial; ocupar el espacio de la promesa."
+          },
+          {
+            "concepto": "Yeshua (Jesús)",
+            "explicacion": "Salvación ontológica; la libertad total del ser frente al pecado y la muerte."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Espacio de la Salvación",
+        "referencias": [
+          {
+            "cita": "Salmos 18:19",
+            "versiculo": "Me sacó a lugar espacioso; Me libró, porque se agradó de mí.",
+            "revelacion": "Describe la esencia del Yasha: la salvación como un cambio de geografía espiritual (de la cueva a la llanura)."
+          },
+          {
+            "cita": "Juan 8:36",
+            "versiculo": "Así que, si el Hijo os libertare, seréis verdaderamente libres.",
+            "revelacion": "Confirma que solo a través del 'Yeshua' real se alcanza la amplitud máxima del diseño humano."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Saliendo de la Estrechez",
+        "items": [
+          {
+            "punto": "Identifica tus callejones sin salida.",
+            "ejemplo": "Vivir con la mentalidad de que 'siempre será así', atrapado en deudas, vicios o miedos familiares.",
+            "escenario_actual": "Identificar ese hábito financiero o emocional que te hace sentir 'asfixiado' y declarar sobre él el nombre de Yeshua como una fuerza de expansión."
+          },
+          {
+            "punto": "Acepta la libertad sin condiciones.",
+            "ejemplo": "Creer que para ser libre debes pagarle algo a Dios o cumplir una penitencia primero.",
+            "escenario_actual": "Confesar tu pecado hoy y, en lugar de pasar el día sintiéndote miserable, caminar con la alegría de quien ya fue sacado al 'lugar espacioso' por la sangre de Jesús."
+          },
+          {
+            "punto": "Cambia tu vocabulario de escasez.",
+            "ejemplo": "Usar palabras que te encierran: 'no puedo', 'es imposible', 'nunca saldré de esta'.",
+            "escenario_actual": "Sustituir cada queja por una declaración de amplitud: 'En Yeshua, mis fronteras se expanden y mi propósito tiene lugar'."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Conquistando el Espacio",
+        "items": [
+          {
+            "punto": "Lidera desde la Amplitud, no desde el Control.",
+            "ejemplo": "Intentar controlar la vida de los demás mediante leyes y reglas que los 'aprietan' espiritualmente.",
+            "escenario_actual": "Como líder de hogar o iglesia, crear entornos donde la gente se sienta libre de crecer y fallar bajo la cobertura de la gracia, en lugar de asfixiados por el juicio."
+          },
+          {
+            "punto": "Expande la Jurisdicción de la Libertad.",
+            "ejemplo": "Conformarse con tu propia salvación personal mientras ignoras que tu entorno (trabajo, ciudad) sigue en 'estrechez'.",
+            "escenario_actual": "Diseñar una estrategia o negocio que bendiga a otros, creando empleos o soluciones que saquen a la gente de su propia estrechez económica o intelectual."
+          },
+          {
+            "punto": "Opera en la Autoridad del Nombre.",
+            "ejemplo": "Mencionar a 'Jesús' como una muletilla religiosa sin entender que estás invocando el motor de la amplitud universal.",
+            "escenario_actual": "Enfrentar una crisis espiritual o una enfermedad no con un ruego temeroso, sino con el decreto legal del nombre de Jesucristo, exigiendo que la estrechez del mal retroceda."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Error de la 'Salvación Mínima'",
+        "texto": "Cuidado con predicar que la salvación es solo 'no ir al infierno'. Esa es una visión raquítica del Evangelio. Yeshua significa que todo tu ser (espíritu, alma y cuerpo) es trasladado a un estado de plenitud y expansión. No aceptes vivir una vida cristiana 'apretada' o mediocre."
+      }
+    ],
+    "desafio_practico": "Hoy, haz un mapa visual de tus límites actuales (miedos, falta de dinero, mala salud) y escribe sobre ellos en letras grandes: 'YESHUA ES MI AMPLITUD'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "josue",
+          "nombre": "Josué (Yehoshua)",
+          "razon": "El portador del nombre que prefiguraba al Mesías.",
+          "paralelismo": "Josué metió a Israel en la tierra; Jesús nos mete en el Reino."
+        }
+      ],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "yasha-heb",
+          "nombre": "Yasha",
+          "razon": "Raíz de salvación.",
+          "familia": "Amplitud, auxilio, libertad."
+        },
+        {
+          "id": "yeshua-heb",
+          "nombre": "Yeshua",
+          "razon": "El nombre sobre todo nombre.",
+          "familia": "Jurisdicción total de gracia."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "expansion-territorial",
+          "tema": "Libertad de Estrechez",
+          "declaracion": "En el nombre de Yeshua, rompo hoy todo límite impuesto por mi pasado. Declaro que salgo a lugar espacioso y mi vida refleja la amplitud de la gloria de Dios."
+        }
+      ]
+    }
+  },
+  {
+    "id": "etymos-goel-rescate",
+    "activo": false,
+    "fecha_programada": "2026-06-17",
+    "tipo": "etimologia",
+    "titulo": "Goel: El Derecho a Rescatar",
+    "subtitulo": "Descifrando el Código Legal de la Redención: Los 3 Requisitos del Pariente Libertador",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "19 min",
+    "imagen_portada": "../img/estudios/goel-booz.webp",
+    "tags": [
+      "Redención",
+      "Booz",
+      "Rut",
+      "Goel",
+      "Ley",
+      "Pacto"
+    ],
+    "versiculo_clave": {
+      "texto": "Y ahora, hija mía, no temas; yo haré contigo lo que tú digas, pues toda la gente de mi pueblo sabe que eres mujer virtuosa... aunque es cierto que yo soy pariente cercano (Goel).",
+      "cita": "Rut 3:11-12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Jurídico-Teológico / Narrativa de Rut",
+        "texto": "En la ley de la Torá (Levítico 25), Dios estableció un sistema de seguridad social único llamado la 'Ley del Goel'. Si un israelita caía en la pobreza y perdía su tierra o se vendía como esclavo, la ley no lo abandonaba. Establecía que un 'Pariente Cercano' tenía el derecho y el deber legal de intervenir para recomprar la propiedad o la libertad de su familiar. Históricamente, el libro de Rut es el documento que mejor ilustra este protocolo: Rut y Noemí habían perdido todo (estatus, maridos y herencia). Necesitaban un 'Goel' para que su nombre no fuera borrado de la historia de Israel."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Goél (גּוֹאֵל)",
+        "idioma": "Hebreo",
+        "raiz": "Ga'al (Rescatar / Recomprar / Redimir)",
+        "significado": "Redentor, vengador de sangre, pariente rescatador.",
+        "fonetica_guia": "Go-él",
+        "revelacion": "El 'Goel' es el ejecutor de la restitución. Para poder ejercer este derecho, la ley exigía tres condiciones estrictas: <br>1. Debe ser un Pariente (tener la misma sangre). <br>2. Debe ser Rico (tener el precio para pagar la deuda). <br>3. Debe ser Voluntario (querer hacerlo por amor, no por obligación).<br><br> Sin estas tres llaves, la redención era legalmente imposible."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Justicia Restaurativa y Amor Leal (Hesed)",
+        "texto": "Dios se revela como el Goel Supremo. Su atributo de Justicia no solo castiga el mal, sino que busca activamente restaurar lo que el pecado robó. Dios no se conforma con perdonarnos; Él quiere devolvernos la 'herencia' que perdimos en el Edén. El sistema del Goel muestra a un Dios que es profundamente legalista en Su amor: Él usa Su propia ley para rescatarnos del juicio."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesucristo: Nuestro Goel Perfecto",
+        "texto": "Toda la teología de la redención en el Nuevo Testamento se basa en la palabra 'Ga'al'. Jesucristo cumplió los 3 requisitos del Goel:<br> 1. Se hizo Hombre (tomó nuestra sangre) para ser pariente. <br>2. Es el Dueño de todo (tenía el mérito infinito) para pagar nuestra deuda con Su propia vida. <bR>3. Vino voluntariamente ('Nadie me quita la vida, yo la pongo'). <br><br>Jesús es el Booz real que entró en el campo de nuestra miseria para rescatar a la humanidad gentil (Rut) y devolverle su lugar en el Reino."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Hilo del Rescate",
+        "descripcion": "Cómo el concepto de Goel viaja desde la ley hasta la eternidad:",
+        "pasos": [
+          {
+            "concepto": "La Sombra (Levítico 25)",
+            "explicacion": "Una ley de protección agraria para que nadie muriera en la miseria."
+          },
+          {
+            "concepto": "El Modelo (Booz y Rut)",
+            "explicacion": "Un acto de amor que inserta a una extranjera en el linaje del Mesías."
+          },
+          {
+            "concepto": "La Realidad (La Cruz)",
+            "explicacion": "El pago final de la deuda cósmica de la humanidad."
+          },
+          {
+            "concepto": "El Final (Apocalipsis 5)",
+            "explicacion": "El Cordero (el Goel) es el único digno de abrir el libro (el título de propiedad de la tierra) porque fue inmolado."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Derecho a la Redención",
+        "referencias": [
+          {
+            "cita": "Job 19:25",
+            "versiculo": "Yo sé que mi Redentor (Goel) vive, Y al fin se levantará sobre el polvo.",
+            "revelacion": "Job clama a su pariente legal en el cielo en medio de su bancarrota absoluta."
+          },
+          {
+            "cita": "Efesios 1:7",
+            "versiculo": "En quien tenemos redención por su sangre, el perdón de pecados según las riquezas de su gracia.",
+            "revelacion": "Pablo usa el lenguaje del Goel para explicar que el 'precio de recompra' fue la sangre de Jesús."
+          },
+          {
+            "cita": "Isaías 43:1",
+            "versiculo": "...No temas, porque yo te redimí (Ga'al); te puse nombre, mío eres tú.",
+            "revelacion": "Dios ejerce Su derecho de propiedad sobre nosotros mediante el rescate legal."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu Deuda fue Pagada",
+        "items": [
+          {
+            "punto": "Deja de intentar pagarle a Dios por tu salvación.",
+            "ejemplo": "La creencia de que tus buenas obras actuales son el 'pago' para que Dios no te castigue por lo que hiciste antes.",
+            "escenario_actual": "Identificar ese sentimiento de 'culpa' que te persigue y responderle: 'Mi Goel Jesús ya pagó la cuenta completa, no debo nada'."
+          },
+          {
+            "punto": "Reconoce tu valor ante el Redentor.",
+            "ejemplo": "Sentirte 'basura' o indigno de que Dios se fije en ti.",
+            "escenario_actual": "Entender que si Jesús pagó un precio tan alto por ti, es porque para Él tú vales Su propia sangre. Tu valor lo dicta el precio que pagaron por ti."
+          },
+          {
+            "punto": "Pide rescate sin vergüenza.",
+            "ejemplo": "No orar por tus problemas financieros o emocionales porque crees que 'es tu culpa estar así'.",
+            "escenario_actual": "Hacer como Rut: acércate a los pies del Rey y dile: 'Extiende Tu manto sobre mí, porque Tú eres mi pariente redentor'."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Ejerciendo el Ministerio del Goel",
+        "items": [
+          {
+            "punto": "Rescata a los que están en bancarrota espiritual.",
+            "ejemplo": "Ignorar a los hermanos que han caído en pecado o desgracia, dejándolos a su suerte.",
+            "escenario_actual": "Invertir tiempo y recursos para ayudar a restaurar la reputación o la economía de un hermano que ha sido golpeado por la vida, actuando como el 'pariente' que Dios envió."
+          },
+          {
+            "punto": "Administra la Restitución.",
+            "ejemplo": "Conformarte con que Dios te perdonó, sin buscar que Él restaure también tus años perdidos o tus relaciones rotas.",
+            "escenario_actual": "Creerle a Dios por la devolución legal de lo que el enemigo te robó (gozo, salud, tiempo con tus hijos) basándote en la ley del Goel."
+          },
+          {
+            "punto": "Lidera con Voluntariedad.",
+            "ejemplo": "Hacer tu servicio ministerial por obligación o por miedo al juicio, en lugar de por el placer de redimir.",
+            "escenario_actual": "Evaluar tus motivos: ¿Ayudas a los demás para que Dios te bendiga (interés) o porque el amor de Cristo te impulsa a ser un Goel para otros?"
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Redención por Esfuerzo",
+        "texto": "Cuidado con la teología que enseña que el hombre puede 'redimirse' a sí mismo mediante la meditación, la energía o el buen karma. La ley de Dios es clara: solo un Pariente con el precio puede rescatar. Como nadie es perfecto, solo Jesucristo califica como Redentor. Cualquier otro camino es un fraude legal ante el Cielo."
+      }
+    ],
+    "desafio_practico": "Hoy, haz una lista de las 3 cosas más valiosas que sientes que has perdido (tiempo, paz, dinero) y preséntalas ante Jesús declarando: 'Tú eres mi Goel, yo reclamo hoy mi derecho a la restitución'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "booz",
+          "nombre": "Booz",
+          "razon": "El modelo histórico del Redentor.",
+          "paralelismo": "Booz rescató a Rut; Jesús rescata a la Iglesia."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Redentor Supremo.",
+          "paralelismo": "El único que cumple con la sangre, el oro y la voluntad para salvarnos."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen-rut",
+          "nombre": "Belén de Judá",
+          "razon": "La geografía de la redención.",
+          "simbolismo": "Lugar de la escasez que se convierte en la Casa del Pan y el Trono del Rescate."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "goel-heb",
+          "nombre": "Goél (גּוֹאֵל)",
+          "razon": "La palabra que define el estatus legal de Jesús ante nosotros.",
+          "familia": "Raíz ligada a la recompra de propiedades y personas."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "decreto-restitucion-herencia",
+          "tema": "Reclamación Legal",
+          "declaracion": "Mi Redentor vive y hoy se levanta sobre mis ruinas. Reclamo mi herencia, mi paz y mi destino legal. ¡Todo lo robado vuelve a casa en el nombre de Jesús!"
+        }
+      ]
+    }
   }
 ]

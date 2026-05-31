@@ -976,22 +976,6 @@
     "activacion": "Hoy camino en victoria. Mi fe en Cristo es la fuerza que vence al mundo y decreto que ninguna sombra del pasado tiene poder sobre mi presente triunfador."
   },
   {
-    "id": "doxa-gr",
-    "termino": "Doxa",
-    "original": "δόξα",
-    "transliteracion": "Doxa",
-    "idioma": "Griego",
-    "esencia_antigua": "Gloria / Esplendor / Peso de majestad.",
-    "sentido_verdad": "Describe la manifestación visible de la naturaleza de Dios. No es solo una luz brillante, es el peso de Su presencia, Su honor y Su reputación llenándolo todo. La gloria es la firma de Dios sobre Su creación.",
-    "eco_escritura": {
-      "texto": "Y aquel Verbo fue hecho carne, y habitó entre nosotros (y vimos su gloria, gloria (Doxa) como del unigénito del Padre), lleno de gracia y de verdad.",
-      "cita": "Juan 1:14"
-    },
-    "revelacion_cristo": "Cristo es el resplandor de la Doxa del Padre. En Él, la gloria dejó de ser una nube lejana para ser un rostro que podemos mirar. La obra de Cristo es llevarnos de gloria en gloria, transformando nuestro ser hasta que reflejemos la misma majestad de nuestro Creador.",
-    "reflejo_tierra": "Es como el sol al amanecer. Su luz no solo ilumina las cosas, sino que les devuelve su color real y las llena de calor y vida. La gloria de Dios es el sol que despierta la verdadera belleza de Tu propósito.",
-    "activacion": "Señor, hoy me rindo ante Tu Doxa. Que Tu esplendor llene mi casa y que mi vida sea un reflejo nítido de Tu honor y de Tu majestad eterna."
-  },
-  {
     "id": "shalom-he",
     "termino": "Shalóm",
     "original": "שָׁלוֹם",
@@ -1390,5 +1374,342 @@
     "revelacion_cristo": "Miriam prefigura a María, de quien nació el Salvador. Cristo es quien cambia nuestro lamento en baile y nuestra amargura en un gozo que anuncia la libertad.",
     "reflejo_tierra": "Es como una medicina que transforma un veneno mortal en un antídoto poderoso. El dolor que antes te mataba, hoy es la fuerza de Tu testimonio.",
     "activacion": "Padre, cambio hoy mi amargura por Tu canto. Decreto que mi pasado no me detiene y que mi vida es una profecía de victoria."
+  },
+  {
+    "id": "kapar-heb",
+    "termino": "Kapar",
+    "original": "כָּפַר",
+    "transliteracion": "Kapar",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Sellar / Calafatear / Cubrir.",
+    "sentido_verdad": "Es la acción legal de sellar una brecha para que el juicio no penetre. No es ocultar el pecado, es impermeabilizar la vida del creyente contra la sentencia de muerte mediante el costo de un rescate.",
+    "eco_escritura": {
+      "texto": "Y Jehová Dios hizo al hombre y a su mujer túnicas de pieles, y los vistió.",
+      "cita": "Génesis 3:21"
+    },
+    "revelacion_cristo": "Cristo es nuestro Kopher (el rescate). Su sangre es la sustancia que calafatea nuestra alma, sellando nuestra unión con el Padre y garantizando que las aguas del juicio jamás vuelvan a tocarnos.",
+    "reflejo_tierra": "Es como un barco que tiene una fisura por donde entra agua. El Kapar es la brea que tapa el hueco, permitiendo que el barco siga flotando y llegue a su destino a pesar de la tormenta.",
+    "activacion": "Hoy acepto la cobertura total de la sangre de Jesús. Estoy sellado, soy impermeable al juicio y camino en la seguridad de Su redención."
+  },
+  {
+    "id": "yada-heb",
+    "termino": "Yada",
+    "original": "יָדַע",
+    "transliteracion": "Yadá",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Conocer por contacto / Experimentar.",
+    "sentido_verdad": "A diferencia del saber intelectual, Yada implica una unión tan profunda que el observador y lo observado se vuelven uno. Es el conocimiento que nace del caminar diario y la intimidad compartida.",
+    "eco_escritura": {
+      "texto": "Y esta es la vida eterna: que te conozcan a ti, el único Dios verdadero, y a Jesucristo, a quien has enviado.",
+      "cita": "Juan 17:3"
+    },
+    "revelacion_cristo": "Jesús vino para que pudiéramos 'Yada' al Padre. Él es la interfaz de carne y hueso que nos permite experimentar el carácter de Dios de forma palpable, no como una teoría, sino como una relación viva.",
+    "reflejo_tierra": "Es la diferencia entre leer la biografía de un gran rey y ser el hijo que se sienta en su regazo todas las noches. El primero sabe datos; el segundo 'conoce' (Yada) el corazón del rey.",
+    "activacion": "Mi meta hoy no es saber más de la Biblia, sino conocerte más a Ti. Busco Tu rostro en la intimidad y experimento Tu bondad en cada detalle de mi día."
+  },
+  {
+    "id": "jata-heb",
+    "termino": "Jata",
+    "original": "חָטָא",
+    "transliteracion": "Jatá",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Errar el blanco / Desviarse del propósito.",
+    "sentido_verdad": "Pecar es un fallo técnico de puntería existencial. Fuimos creados como flechas diseñadas para impactar en el centro de la Gloria de Dios; cualquier otra dirección es un fracaso del diseño original.",
+    "eco_escritura": {
+      "texto": "Contra ti, contra ti solo he pecado, y he hecho lo malo delante de tus ojos.",
+      "cita": "Salmos 51:4"
+    },
+    "revelacion_cristo": "Jesús es el 'Arquero Perfecto' que nunca falló. Al unirnos a Él, Su puntería inmaculada sustituye nuestro error, permitiendo que nuestra vida finalmente 'impacte' en el corazón del Padre.",
+    "reflejo_tierra": "Imagina una flecha que sale con fuerza pero el viento la desvía hacia un charco de lodo. La flecha no era mala, pero su final es trágico porque perdió su blanco. Así es el hombre sin la dirección de Dios.",
+    "activacion": "Reconozco que por mis fuerzas siempre fallo el blanco. Hoy me rindo al Espíritu Santo para que Él alinee mi trayectoria hacia la Gloria de Dios."
+  },
+  {
+    "id": "hamartia-gr",
+    "termino": "Hamartia",
+    "original": "ἁμαρτία",
+    "transliteracion": "Hamartia",
+    "idioma": "Griego",
+    "esencia_antigua": "Falta de porción / Error trágico.",
+    "sentido_verdad": "Significa literalmente no tener parte en una herencia o premio. El pecado nos dejó 'sin porción' en la vida divina, huérfanos de la gloria que nos correspondía como hijos.",
+    "eco_escritura": {
+      "texto": "Por cuanto todos pecaron (Hamartia), y están destituidos de la gloria de Dios.",
+      "cita": "Romanos 3:23"
+    },
+    "revelacion_cristo": "Cristo vino como el Heredero de todas las cosas para compartir Su porción con nosotros. En Su muerte, Él mató nuestra Hamartia y nos devolvió nuestro 'Meros' (parte) en el Reino de los Cielos.",
+    "reflejo_tierra": "Es como un hijo que ha sido desheredado por su propia rebeldía y vive en la miseria. La Hamartia es ese estado de 'vaciado' de derechos. Cristo llega para restituir el testamento a nuestro favor.",
+    "activacion": "Ya no vivo en Hamartia. Tengo porción en la mesa del Rey. Soy coheredero con Cristo y Su gloria es mi herencia eterna."
+  },
+  {
+    "id": "abad-heb",
+    "termino": "Abad",
+    "original": "עָבַד",
+    "transliteracion": "Abád",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Trabajo sagrado / Liturgia manual.",
+    "sentido_verdad": "Es la fusión perfecta entre la productividad y la adoración. En el diseño de Dios, trabajar la tierra y servir en el templo son la misma acción. Tu esfuerzo diario es incienso para Dios.",
+    "eco_escritura": {
+      "texto": "Tomó, pues, Jehová Dios al hombre, y lo puso en el huerto de Edén, para que lo labrara (Abad)...",
+      "cita": "Génesis 2:15"
+    },
+    "revelacion_cristo": "Jesús es el Siervo Sufriente (el Ebed Jehová). Él dignificó el trabajo manual como carpintero y el servicio espiritual como Salvador, mostrándonos que todo acto hecho en obediencia es Abad.",
+    "reflejo_tierra": "Es como un músico que ensaya horas en soledad. Para el mundo es solo repetición, pero para él es la preparación de una ofrenda de belleza. Tu trabajo hecho con excelencia es tu música para Dios.",
+    "activacion": "Hoy mi oficina/hogar es mi santuario. Hago todo para la gloria del Rey y mi productividad es un acto de amor y servicio a Su Reino."
+  },
+  {
+    "id": "shamar-heb",
+    "termino": "Shamar",
+    "original": "שָׁמַר",
+    "transliteracion": "Shamár",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Cercar con espinas / Vigilar el tesoro.",
+    "sentido_verdad": "Es la vigilancia militar y espiritual necesaria para proteger lo que Dios nos ha confiado. Implica estar alerta, detectar al intruso y blindar las fronteras de nuestra jurisdicción.",
+    "eco_escritura": {
+      "texto": "Jehová te guarde de todo mal; El guardará (Shamar) tu alma.",
+      "cita": "Salmos 121:7"
+    },
+    "revelacion_cristo": "Jesús es el Buen Pastor que 'Shamar' a sus ovejas. En el huerto de Getsemaní, Él vigiló mientras nosotros dormíamos, protegiendo nuestro destino eterno de las garras del lobo.",
+    "reflejo_tierra": "Es como el centinela en la muralla de una ciudad antigua. Su trabajo no es pelear, sino avisar para que el enemigo no tome a la gente por sorpresa. Tu oración es ese Shamar sobre tu familia.",
+    "activacion": "Me levanto como centinela de mi hogar. Cierro las puertas al chisme, al temor y al pecado. Declaro que Jehová es mi Shamar y bajo Su ala estoy seguro."
+  },
+  {
+    "id": "typos-gr",
+    "termino": "Typos",
+    "original": "τύπος",
+    "transliteracion": "Túpos",
+    "idioma": "Griego",
+    "esencia_antigua": "Impresión / Sello de golpe.",
+    "sentido_verdad": "Es el molde o prototipo que deja una marca indeleble. El Antiguo Testamento es un 'Typos': un molde que Dios preparó para que, cuando llegara Cristo, encajara perfectamente en él.",
+    "eco_escritura": {
+      "texto": "No obstante, reinó la muerte desde Adán hasta Moisés, aun en los que no pecaron a la manera de la transgresión de Adán, el cual es figura (Typos) del que había de venir.",
+      "cita": "Romanos 5:14"
+    },
+    "revelacion_cristo": "Cristo es la Realidad que le da sentido a todas las Sombras. Él es el Sello del Padre que se estampa en nuestro espíritu, borrando la marca del pecado y grabándonos con la marca de la Eternidad.",
+    "reflejo_tierra": "Es como el molde de una moneda. El molde no es dinero, pero sin el molde no podrías fabricar miles de monedas de oro. La ley y los profetas son el molde; Jesús es el Oro que lo llena.",
+    "activacion": "Reconozco las huellas de Jesús en toda la Escritura. Yo mismo soy una moneda sellada con Su imagen. Camino con el valor de Su Typos en mi corazón."
+  },
+  {
+    "id": "kutoneth-heb",
+    "termino": "Kutoneth",
+    "original": "כֻּתֹּנֶת",
+    "transliteracion": "Kutóneth",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Túnica de honor / Cobertura real.",
+    "sentido_verdad": "Representa la restitución de la dignidad perdida. No es una simple ropa para cubrir la desnudez física, sino una investidura legal que otorga un nuevo estatus de autoridad y pertenencia ante el Padre.",
+    "eco_escritura": {
+      "texto": "Y Jehová Dios hizo al hombre y a su mujer túnicas (Kutoneth) de pieles, y los vistió.",
+      "cita": "Génesis 3:21"
+    },
+    "revelacion_cristo": "Jesús fue despojado de Su propia túnica (Kutoneth) en la cruz para que nosotros pudiéramos ser revestidos con Su justicia. Él es el sastre divino que cambia nuestros harapos de pecado por ropas de gala eterna.",
+    "reflejo_tierra": "Es como un hijo que regresa a casa cubierto de barro y vergüenza, y su padre, en lugar de juzgarlo, le pone su propia chaqueta costosa sobre los hombros. La chaqueta borra la vista del barro y devuelve al hijo su lugar en la familia.",
+    "activacion": "Hoy camino con la frente en alto. No por lo que yo hice, sino porque estoy revestido con la Kutoneth de Cristo. Mi identidad está blindada por Su justicia."
+  },
+  {
+    "id": "doxa-gr",
+    "termino": "Doxa",
+    "original": "δόξα",
+    "transliteracion": "Dóxa",
+    "idioma": "Griego",
+    "esencia_antigua": "Gloria / Esplendor / Peso de importancia.",
+    "sentido_verdad": "Es la manifestación externa del carácter interno de Dios. No es solo luz brillante, es el peso legal y la reputación de la majestad divina impactando en el mundo físico.",
+    "eco_escritura": {
+      "texto": "Por cuanto todos pecaron, y están destituidos de la gloria (Doxa) de Dios.",
+      "cita": "Romanos 3:23"
+    },
+    "revelacion_cristo": "Jesús es la Doxa encarnada. Juan 1:14 dice: 'Y vimos su gloria (Doxa)'. Él vino a traernos de vuelta el peso de gloria que perdimos en el Edén, permitiendo que nuestras vidas vuelvan a 'pesar' en el espíritu.",
+    "reflejo_tierra": "Imagina una moneda de oro puro. Su 'Doxa' es su peso; si la limas y le quitas material, pierde su valor y su gloria. El pecado nos 'limó', pero Cristo nos vuelve a fundir en Su molde para devolvernos nuestro peso original.",
+    "activacion": "Mi vida refleja hoy la Doxa de mi Padre. No camino en la ligereza de la carne, sino en el peso de autoridad que el Espíritu Santo me otorga."
+  },
+  {
+    "id": "yeshuah-heb",
+    "termino": "Yeshuah",
+    "original": "יְשׁוּעָה",
+    "transliteracion": "Yeshuáh",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Salvación / Amplitud / Rescate victorioso.",
+    "sentido_verdad": "Es el grito de libertad de quien estaba atrapado. Yeshuah no es un concepto religioso pasivo; es la acción dinámica de Dios de romper un cerco enemigo para sacarte a un lugar espacioso.",
+    "eco_escritura": {
+      "texto": "Jehová es mi fortaleza y mi cántico, y ha sido mi salvación (Yeshuah).",
+      "cita": "Éxodo 15:2"
+    },
+    "revelacion_cristo": "Yeshua es el nombre de Jesús. Cada vez que el AT menciona 'salvación', está susurrando el nombre del Mesías. Él es el Rescate personificado que nos saca de la estrechez de la muerte.",
+    "reflejo_tierra": "Es como estar en una habitación que se hace cada vez más pequeña hasta que alguien derriba la pared y te permite salir al aire libre. Eso es Yeshuah: el fin de la asfixia espiritual.",
+    "activacion": "Invoco el nombre de Yeshua sobre mis limitaciones. Declaro que mi Dios es mi Amplitud y que en Su salvación camino con total libertad."
+  },
+  {
+    "id": "sar-heb",
+    "termino": "Sar",
+    "original": "שַׂר",
+    "transliteracion": "Sar",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Príncipe / Jefe / Comandante de rango real.",
+    "sentido_verdad": "Define la autoridad delegada por un monarca. Un 'Sar' no actúa por su propia cuenta, sino que porta la firma y el poder de quien lo envió. Es el que tiene el mando sobre una jurisdicción específica.",
+    "eco_escritura": {
+      "texto": "Y él respondió: No; mas como Príncipe (Sar) del ejército de Jehová he venido ahora.",
+      "cita": "Josué 5:14"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es el 'Sar Shalom' (Príncipe de Paz). Él es el Comandante supremo que bajó al campo de batalla humano para reclamar la soberanía del Padre sobre la tierra.",
+    "reflejo_tierra": "Es como el embajador de una superpotencia en un país pequeño. Su sola presencia indica que todo el poder de su nación respalda sus palabras. No peleas solo; un Príncipe del Cielo respalda tu autoridad.",
+    "activacion": "Reconozco al Comandante de mi vida. Camino bajo Su jurisdicción real y decreto que Su autoridad suprema gobierna sobre mis circunstancias hoy."
+  },
+  {
+    "id": "teruah-heb",
+    "termino": "Teruah",
+    "original": "תְּרוּעָה",
+    "transliteracion": "Teruáh",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Clamor / Grito de guerra / Alarma de júbilo.",
+    "sentido_verdad": "Es la liberación de un decreto audible que rompe la atmósfera. El Teruah no es un ruido físico, es una señal de que el Rey está presente en el campo de batalla y el juicio ha comenzado.",
+    "eco_escritura": {
+      "texto": "Entonces el pueblo gritó (Teruah), y los muros se derrumbaron de lo suyo.",
+      "cita": "Josué 6:20"
+    },
+    "revelacion_cristo": "Jesús es la Palabra encarnada cuyo grito final en la cruz fue el Teruah definitivo que derribó los muros de separación entre Dios y el hombre para siempre.",
+    "reflejo_tierra": "Es como el pitido inicial de un partido donde un equipo ya sabe que va a ganar. El Teruah no gana la batalla, anuncia que la victoria ya es un hecho legal.",
+    "activacion": "Hoy libero mi Teruah de alabanza. No grito por miedo, grito porque sé que mi Rey ya venció y mis murallas están por caer."
+  },
+  {
+    "id": "yasha-heb",
+    "termino": "Yasha",
+    "original": "יָשַׁע",
+    "transliteracion": "Yashá",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Amplitud / Espacio libre / Auxilio.",
+    "sentido_verdad": "Describe el acto de sacar a alguien de un lugar estrecho y asfixiante hacia una llanura amplia donde puede respirar. La salvación es, en esencia, libertad de movimiento.",
+    "eco_escritura": {
+      "texto": "Me sacó a lugar espacioso; Me libró (Yasha), porque se agradó de mí.",
+      "cita": "Salmos 18:19"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es nuestra Amplitud. Él entró en la estrechez de la muerte para romper sus paredes y darnos el espacio infinito de la vida eterna.",
+    "reflejo_tierra": "Es como estar atrapado en un ascensor averiado y que de repente las puertas se abran hacia un jardín inmenso. Ese respiro de alivio es el Yasha de Dios.",
+    "activacion": "Rechazo hoy toda asfixia del pasado. Declaro que en Cristo camino en amplitud y mi propósito tiene lugar para expandirse."
+  },
+  {
+    "id": "yeshua-heb",
+    "termino": "Yeshua",
+    "original": "יֵשׁוּעַ",
+    "transliteracion": "Yeshúa",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Jehová es Salvación / El Motor de la Libertad.",
+    "sentido_verdad": "Es el nombre propio de la salvación encarnada. No es solo un título, es una declaración de que el Creador mismo ha bajado a la geografía humana para ejercer el Yasha (amplitud).",
+    "eco_escritura": {
+      "texto": "Y llamarás su nombre JESÚS (Yeshua), porque él salvará a su pueblo de sus pecados.",
+      "cita": "Mateo 1:21"
+    },
+    "revelacion_cristo": "Este es el nombre del Logos en Su propia lengua. Representa la fusión perfecta entre la Omnipotencia de Dios y la fragilidad humana. El nombre de Yeshua es la llave que abre todas las puertas cerradas por el pecado.",
+    "reflejo_tierra": "Es como la firma de un Rey en un indulto real. El papel no tiene poder, pero la firma (el Nombre) obliga a todos los guardias de la prisión a abrir las celdas de inmediato.",
+    "activacion": "Declaro el nombre de Yeshua sobre mi mente y mi familia. Donde había estrechez, ahora hay amplitud. Donde había esclavitud, ahora hay diseño de Reino."
+  },
+  {
+    "id": "habiru-heb",
+    "termino": "Habiru",
+    "original": "עָפִרֻ",
+    "transliteracion": "Habiru",
+    "idioma": "Acadio / Hebreo",
+    "esencia_antigua": "Forajido / Infiltrado / El que cruza fronteras.",
+    "sentido_verdad": "Describe a un grupo que vive fuera de los sistemas sociales del mundo porque su lealtad está en otro Reino. El Habiru es el 'extraño' que desestabiliza las fortalezas pecaminosas por su integridad.",
+    "eco_escritura": {
+      "texto": "Y vino uno de los que escaparon, y lo anunció a Abram el hebreo ('Ibriy).",
+      "cita": "Génesis 14:13"
+    },
+    "revelacion_cristo": "Jesús fue el Habiru Supremo. No perteneció al sistema religioso corrupto de su tiempo. Vivió como forastero en la tierra para que nosotros pudiéramos ser ciudadanos del cielo.",
+    "reflejo_tierra": "Es como un ciudadano de un país honesto viviendo en una ciudad de mafias. Su sola presencia e integridad expone la corrupción de los demás, provocándoles terror.",
+    "activacion": "Abrazo mi identidad de Habiru espiritual. No me conformo a este siglo; camino con los valores del Reino y mi conducta causa terror a las tinieblas."
+  },
+  {
+    "id": "tikvah-heb",
+    "termino": "Tikvah",
+    "original": "תִּקְוָה",
+    "transliteracion": "Tikváh",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Cuerda tensada / Esperanza activa / Expectativa.",
+    "sentido_verdad": "La esperanza bíblica no es un deseo vago; es una conexión física y legal. Es una cuerda que te mantiene unido a la promesa divina mientras todo lo demás se derrumba. Es la tensión entre el hoy y el cumplimiento.",
+    "eco_escritura": {
+      "texto": "...y ella ató el cordón (Tikvah) de grana a la ventana.",
+      "cita": "Josué 2:21"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es nuestra Tikvah eterna. Su sangre es la cuerda roja que nos hace visibles para el Cielo en medio del caos de la tierra, garantizando nuestro rescate.",
+    "reflejo_tierra": "Es como el arnés de un paracaidista. El hombre está en el aire (incertidumbre), pero la Tikvah (la cuerda) lo mantiene unido a la tela que le salvará la vida. Tu esperanza es tu ancla.",
+    "activacion": "Ato hoy mi vida a la Tikvah de la sangre de Jesús. Mi esperanza no es un sentimiento; es un contrato firmado con sangre. Espero con paz la victoria de mi Rey."
+  },
+  {
+    "id": "gibbor-heb",
+    "termino": "Gibbór (גִּבּוֹר)",
+    "original": "גִּבּוֹר",
+    "transliteracion": "Guibbór",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Guerrero que prevalece / Fuerza activa.",
+    "sentido_verdad": "No describe a alguien que no tiene miedo, sino a alguien cuya fuerza proviene de un recurso externo (Jehová). Un 'Gibbór' es un héroe cuya victoria es segura porque su causa está alineada con el Cielo.",
+    "eco_escritura": {
+      "texto": "Jehová está contigo, varón esforzado y valiente (Gibbór).",
+      "cita": "Jueces 6:12"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es el 'El Gibbór' (Dios Fuerte). Él es el Guerrero que descendió al lagar de nuestra miseria para prevalecer sobre la muerte y darnos Su valentía como herencia legal.",
+    "reflejo_tierra": "Es como un soldado pequeño que porta la bandera de un imperio invencible. Los enemigos no huyen de él, huyen del Reino que él representa. Tu valor es Tu bandera.",
+    "activacion": "Hoy decreto que soy un Gibbór en Cristo. Mi debilidad es el escenario de Su poder. No me escondo más; asumo mi lugar en el ejército del Rey."
+  },
+  {
+    "id": "nazir-heb",
+    "termino": "Nazír (נָזִיר)",
+    "original": "נָזִיר",
+    "transliteracion": "Nazír",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Consagrado / Coronado / Separado.",
+    "sentido_verdad": "Describe a una persona que vive bajo un estándar de pureza radical para ser un recipiente de la unción de Dios. La consagración no es una carga, es el 'muro de seguridad' que permite que el poder divino opere sin fugas.",
+    "eco_escritura": {
+      "texto": "Porque el niño será nazareo (Nazír) a Dios desde su nacimiento.",
+      "cita": "Jueces 13:5"
+    },
+    "revelacion_cristo": "Jesús es el Nazareo Perfecto (aunque no necesariamente bajo el voto de Sansón, sí bajo la esencia de la separación absoluta). Él vivió 'apartado de los pecadores' en Su espíritu para ser el sacrificio inmaculado que nos corona a nosotros.",
+    "reflejo_tierra": "Es como un cable de alta tensión con un aislante perfecto. Si el aislante (la separación) se rompe, la electricidad se escapa y causa desastres. Tu santidad es el aislante que protege tu unción.",
+    "activacion": "Hoy renuevo mi voto de separación para Dios. No por ley, sino por amor. Mi vida es un territorio consagrado donde solo el Espíritu Santo tiene permiso de operar."
+  },
+  {
+    "id": "goel-heb",
+    "termino": "Goél (גּוֹאֵל)",
+    "original": "גּוֹאֵל",
+    "transliteracion": "Goél",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Redentor / Pariente con derecho legal de recompra.",
+    "sentido_verdad": "Es la figura que interviene en la bancarrota de otro para devolverle su propiedad o su libertad. El 'Goel' es el agente de la restitución total. Es un amor que usa la ley para rescatar.",
+    "eco_escritura": {
+      "texto": "...aunque es cierto que yo soy pariente cercano (Goél).",
+      "cita": "Rut 3:12"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es nuestro Goel de Sangre. Él tomó nuestra genética humana para ser pariente, usó Su riqueza celestial para pagar la deuda y lo hizo voluntariamente para hacernos coherederos.",
+    "reflejo_tierra": "Es como si perdieras tu casa por una deuda impagable y, justo antes del desalojo, un hermano rico que no has visto en años paga la deuda y te entrega las llaves nuevas a tu nombre.",
+    "activacion": "Acepto hoy el rescate de mi Goel Jesús. Mi deuda de pecado está en cero y mi herencia espiritual me es devuelta hoy por decreto legal del Cielo."
+  },
+  {
+    "id": "barzel-heb",
+    "termino": "Barzél (בַּרְזֶל)",
+    "original": "בַּרְזֶל",
+    "transliteracion": "Barzél",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Hierro / Dureza inflexible.",
+    "sentido_verdad": "Simboliza la fuerza material, la opresión cruel y la inflexibilidad del sistema del mundo. El hierro es la tecnología que el enemigo usa para intimidar al pueblo que solo tiene madera (fe).",
+    "eco_escritura": {
+      "texto": "...porque aquél tenía novecientos carros de hierro (Barzél)...",
+      "cita": "Jueces 4:3"
+    },
+    "revelacion_cristo": "Cristo es la Piedra que desmenuza el hierro de los imperios humanos. En la cruz, el 'Hierro de los clavos' intentó detenerlo, pero Su amor (fuego) fundió la ley de la muerte para darnos vida.",
+    "reflejo_tierra": "Es como una ley injusta o un jefe tirano que parece indestructible. El hierro parece eterno, pero si Dios manda el 'agua' (Ruaj), el hierro se oxida y se quiebra. Nada humano es más duro que el Espíritu.",
+    "activacion": "No me intimido ante el hierro de mis enemigos. Declaro que las armas de mi milicia son poderosas en Dios para derribar toda fortaleza material. El Ruaj vence al Barzél."
+  },
+  {
+    "id": "hesed-heb",
+    "termino": "Jésed (חֶסֶד)",
+    "original": "חֶסֶד",
+    "transliteracion": "Jésed",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Amor inclinado / Misericordia pactual / Fidelidad inquebrantable.",
+    "sentido_verdad": "Es la cualidad de Dios que le permite amar al que no es amado y rescatar al que legalmente no merece ser rescatado. El 'Hesed' no es una emoción pasajera; es una decisión de voluntad férrea ligada a un contrato de sangre. Es el amor que busca el barro para convertirlo en gloria.",
+    "eco_escritura": {
+      "texto": "Jehová recompense tu obra... bajo cuyas alas has venido a refugiarte (Hesed).",
+      "cita": "Rut 2:12"
+    },
+    "revelacion_cristo": "Jesucristo-Pneuma es el 'Hesed' encarnado. Él no vino a juzgarnos por la ley de Moisés, sino a amarnos bajo la ley del Hesed, donde Su fidelidad sustituye nuestra infidelidad. En la cruz, el amor leal de Dios pagó el precio que el pecador no podía pagar.",
+    "reflejo_tierra": "Es como un padre cuyo hijo lo ha traicionado mil veces, pero que todas las noches deja la puerta de casa abierta y la cena caliente, no porque el hijo sea bueno, sino porque el padre no puede dejar de ser quien es.",
+    "activacion": "Hoy camino bajo el blindaje del Hesed. No dependo de mi desempeño diario; dependo de la fidelidad inquebrantable de mi Padre. Su amor leal me precede y me abre puertas hoy.",
+    "fonetica_guia": "Jé-sed"
   }
 ]

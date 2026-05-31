@@ -1,6 +1,40 @@
 // Códice Bíblico - v1.1 Premium Build
 let estudios = [];
 
+// --- MOTOR DE AUDIO LINGÜÍSTICO ---
+window.pronunciarPalabra = (texto, idioma, foneticaGuia = '') => {
+    if (!window.speechSynthesis) return;
+    
+    // Detener cualquier audio previo
+    window.speechSynthesis.cancel();
+
+    // 1. EXTRAER TEXTO ORIGINAL (Lo que está dentro del paréntesis)
+    // Ej: "Tikvah (תִּקְוָה)" -> extrae "תִּקְוָה"
+    const matchParentesis = texto.match(/\(([^)]+)\)/);
+    let textoALeer = matchParentesis ? matchParentesis[1] : (foneticaGuia || texto);
+    
+    // 2. DETECCIÓN AUTOMÁTICA DE IDIOMA BASADA EN SCRIPT
+    // Prioridad: 1. Script del texto, 2. Campo idioma, 3. Español (Default)
+    let langCode = 'es-ES';
+    const esHebreo = /[\u0590-\u05FF]/.test(textoALeer);
+    const esGriego = /[\u0370-\u03FF]/.test(textoALeer);
+    const langField = idioma.toLowerCase();
+
+    if (esHebreo || langField.includes('hebreo')) {
+        langCode = 'he-IL';
+    } else if (esGriego || langField.includes('griego')) {
+        langCode = 'el-GR';
+    }
+
+    const utterance = new SpeechSynthesisUtterance(textoALeer);
+    utterance.lang = langCode;
+
+    utterance.rate = 0.7; // Un poco más lento para procesar bien la fonética antigua
+    utterance.pitch = 0.8; // Voz profunda y solemne
+    
+    window.speechSynthesis.speak(utterance);
+};
+
 document.addEventListener('DOMContentLoaded', async () => {
 
     // --- 1. CONFIGURACIÓN DEL CEREBRO CENTRAL ---
@@ -444,11 +478,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                             </div>
                         `;
                     } else if (bloque.tipo === 'lexico_profundo') {
+                        const cleanTerm = (bloque.termino || '').replace(/'/g, "\\'");
+                        const cleanLang = (bloque.idioma || '').replace(/'/g, "\\'");
+                        const cleanFonetica = (bloque.fonetica_guia || '').replace(/'/g, "\\'");
+
                         htmlContent += `
                             <div class="lexicon-deep-card">
                                 <div class="lexicon-deep-header">
                                     <div>
-                                        <span class="lex-term">${bloque.termino}</span>
+                                        <div style="display: flex; align-items: center; gap: 10px;">
+                                            <span class="lex-term">${bloque.termino}</span>
+                                            <button 
+                                                onclick="pronunciarPalabra('${cleanTerm}', '${cleanLang}', '${cleanFonetica}')"
+                                                class="btn-pronunciar" 
+                                                title="Escuchar pronunciación"
+                                                style="background: none; border: none; color: var(--primary); cursor: pointer; padding: 5px; display: flex; align-items: center; justify-content: center; transition: transform 0.2s;"
+                                                onmouseover="this.style.transform='scale(1.2)'"
+                                                onmouseout="this.style.transform='scale(1)'"
+                                            >
+                                                <i class="fas fa-volume-up"></i>
+                                            </button>
+                                        </div>
                                         <span class="lex-root">${bloque.raiz || ''}</span>
                                     </div>
                                     <span class="lex-lang">${bloque.idioma}</span>
@@ -527,7 +577,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                 ${bloque.titulo ? `<h4 style="color: var(--text-light); margin-bottom: 1rem; font-size: 1.2rem;">${bloque.titulo}</h4>` : ''}
                                 ${bloque.descripcion ? `<p style="color: var(--text-muted); margin-bottom: 1.2rem; font-size: 0.95rem; line-height: 1.5;">${bloque.descripcion}</p>` : ''}
                                 <div class="progression-steps" style="display: flex; flex-direction: column; gap: 1rem;">
-                                    ${bloque.pasos.map((paso, index) => `
+                                    ${(bloque.pasos || []).map((paso, index) => `
                                         <div class="progression-step" style="display: flex; gap: 1rem; align-items: flex-start;">
                                             <div style="background: #38bdf8; color: #0f172a; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; font-size: 0.8rem; flex-shrink: 0; margin-top: 3px;">${index + 1}</div>
                                             <div>
@@ -542,10 +592,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     } else if (bloque.tipo === 'aplicacion_leche') {
                         const itemsHtml = bloque.items ? `
                             <ul class="app-list">
-                                ${bloque.items.map(item => `
+                                ${(bloque.items || []).map(item => `
                                     <li>
-                                        <strong>${item.punto}</strong>
-                                        ${item.ejemplo ? `<small style="color:var(--text-muted); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(255,255,255,0.1); padding-left:12px; line-height:1.4;">Suposición: ${item.ejemplo}</small>` : ''}
+                                        <div class="app-point"><strong>${item.punto}</strong></div>
+                                        ${item.ejemplo ? `<small class="app-logic-reason"><strong>Por qué:</strong> ${item.ejemplo}</small>` : ''}
+                                        ${item.escenario_actual ? `<div class="app-real-mission">🎯 <strong>Escenario Hoy:</strong> ${item.escenario_actual}</div>` : ''}
                                     </li>
                                 `).join('')}
                             </ul>
@@ -561,10 +612,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                     } else if (bloque.tipo === 'aplicacion_solida') {
                         const itemsHtml = bloque.items ? `
                             <ul class="app-list">
-                                ${bloque.items.map(item => `
+                                ${(bloque.items || []).map(item => `
                                     <li>
-                                        <strong>${item.punto}</strong>
-                                        ${item.ejemplo ? `<small style="color:var(--primary); display:block; margin-top:8px; font-style:italic; border-left: 2px solid rgba(34,211,238,0.2); padding-left:12px; line-height:1.4;">Escenario de Madurez: ${item.ejemplo}</small>` : ''}
+                                        <div class="app-point"><strong>${item.punto}</strong></div>
+                                        ${item.ejemplo ? `<small class="app-logic-reason solido"><strong>Por qué:</strong> ${item.ejemplo}</small>` : ''}
+                                        ${item.escenario_actual ? `<div class="app-real-mission solido">⚡ <strong>Misión de Campo:</strong> ${item.escenario_actual}</div>` : ''}
                                     </li>
                                 `).join('')}
                             </ul>
@@ -606,7 +658,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                             <div class="concordance-box" style="background: rgba(15, 23, 42, 0.4); border-radius: 16px; padding: 2rem; margin: 2rem 0; border: 1px solid rgba(212, 180, 131, 0.1);">
                                 <h4 class="concordance-title" style="color: var(--gold); font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; margin-bottom: 2rem; border-bottom: 1px solid rgba(212, 180, 131, 0.2); padding-bottom: 10px;">📖 Concordancia y Revelación</h4>
                                 <div class="concordance-items" style="display: flex; flex-direction: column; gap: 2rem;">
-                                    ${bloque.referencias.map(ref => {
+                                    ${(bloque.referencias || []).map(ref => {
                                         // Lógica de extracción inteligente para compatibilidad
                                         let vText = ref.versiculo || "";
                                         let rText = ref.revelacion || "";

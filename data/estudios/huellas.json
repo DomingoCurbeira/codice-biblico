@@ -2933,5 +2933,574 @@
         }
       ]
     }
+  },
+  {
+    "id": "hilo-rojo-eden",
+    "activo": false,
+    "fecha_programada": "2026-06-01",
+    "tipo": "huellas",
+    "titulo": "El Primer Cordero del Edén",
+    "subtitulo": "La Anatomía de la Gracia Forense: La Cobertura que Precede al Juicio",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/cordero-eden.webp",
+    "tags": [
+      "Gracia",
+      "Sustitución",
+      "Cristocentrismo",
+      "Exégesis",
+      "Pacto"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Jehová Dios hizo al hombre y a su mujer túnicas de pieles, y los vistió.",
+      "cita": "Génesis 3:21"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Tipología de Redención",
+        "titulo": "La Bancarrota Legal de la Desnudez",
+        "texto": "En el antiguo Cercano Oriente, la desnudez no era un problema de moralidad sexual, sino de estatus legal. Estar desnudo era sinónimo de ser un esclavo, un prisionero de guerra o alguien que ha perdido su ciudadanía y derechos hereditarios. Adán y Eva, al pecar, no solo sintieron frío; experimentaron la pérdida de su 'Jurisdicción Real' sobre la tierra. El intento de cubrirse con hojas de higuera (material vegetal perecedero) representa el primer sistema religioso de la historia: el esfuerzo humano auto-gestionado para intentar recuperar un estatus perdido mediante el mérito propio, un esfuerzo que Dios declara legalmente inválido."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Kapar (כָּפַר)",
+        "idioma": "Hebreo",
+        "raiz": "Kpr (Cubrir / Calafatear)",
+        "significado": "Expiar, aplacar, cubrir una deuda, cancelar un juicio.",
+        "revelacion": "Esta palabra aparece primero en la construcción del Arca de Noé para describir el 'betún' (kopher) que sellaba las maderas para que el agua del juicio no entrara. En el Edén, Dios realiza el primer 'Kapar' de la historia. Al vestir a Adán con pieles, Dios no está ocultando el pecado; está estableciendo un 'escudo legal' de sangre. La túnica de piel (material animal que requirió muerte) es el comprobante de que una vida ha sido entregada para sellar la brecha que el pecado abrió en la justicia divina.",
+        "fonetica_guia": "Ka-pár"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Gracia Preveniente y Omnisciencia Redentora",
+        "texto": "Es impactante notar que Dios viste a la pareja ANTES de pronunciar la sentencia de expulsión. El atributo de la Gracia Preveniente significa que Dios prepara la solución antes de que el hombre entienda la magnitud del problema. Vemos a un Dios que no espera a que Adán pida perdón (que no lo hizo, solo puso excusas), sino que actúa soberanamente para preservar la dignidad de Su diseño original antes de que el juicio los lance al mundo caído."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Cordero: El Sastre del Universo",
+        "texto": "La primera sangre derramada en la creación no provino de un acto de violencia humana, sino de un acto de amor divino. Dios mismo tuvo que 'sacrificar' para proveer cobertura. Aquí nace el Hilo Rojo: para que el transgresor viva y sea vestido, un inocente debe morir y ser despojado. Cristo, en la cruz, fue despojado de sus vestiduras para que nosotros pudiéramos ser revestidos con Su justicia. La túnica del Edén es la sombra; el cuerpo de Cristo partido es la realidad legal que nos permite entrar hoy al Lugar Santísimo."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Geometría del Sacrificio",
+        "descripcion": "Dios revela su plan de rescate expandiendo gradualmente el alcance de la sangre sustituta:",
+        "pasos": [
+          {
+            "concepto": "Individual (Génesis 3)",
+            "explicacion": "Un animal muere para cubrir a una pareja. La redención comienza en el núcleo de la identidad humana."
+          },
+          {
+            "concepto": "Familiar (Éxodo 12)",
+            "explicacion": "Un cordero por familia. La sangre en los dinteles protege la jurisdicción del hogar del ángel exterminador."
+          },
+          {
+            "concepto": "Nacional (Levítico 16)",
+            "explicacion": "El macho cabrío en el Yom Kippur cubre los pecados de toda la nación de Israel por un año."
+          },
+          {
+            "concepto": "Universal (Juan 1:29)",
+            "explicacion": "Jesucristo, el Cordero de Dios que quita (no solo cubre) el pecado del cosmos de una vez y para siempre."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Jurisdicción de la Vestidura",
+        "referencias": [
+          {
+            "cita": "Isaías 61:10",
+            "versiculo": "En gran manera me gozaré en Jehová... porque me vistió con vestiduras de salvación, me rodeó de manto de justicia.",
+            "revelacion": "El profeta entiende que la justicia no es una conducta que se logra, sino un manto externo fabricado por Dios que se nos otorga por decreto legal."
+          },
+          {
+            "cita": "Zacarías 3:3-4",
+            "versiculo": "Y Josué estaba vestido de vestiduras viles... y dijo: Quitadle esas vestiduras viles. Y a él dijo: Mira que he hecho pasar tu pecado de ti, y te he hecho vestir de ropas de gala.",
+            "revelacion": "Confirma el patrón del Edén: la remoción del pecado es inseparable de la impartición de una nueva vestidura de gloria."
+          },
+          {
+            "cita": "Apocalipsis 19:8",
+            "versiculo": "Y a ella se le ha concedido que se vista de lino fino, limpio y resplandeciente; porque el lino fino es las acciones justas de los santos.",
+            "revelacion": "El final del hilo rojo: la iglesia termina vestida con la misma calidad de pureza que Dios diseñó en el principio."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Religión de las Hojas",
+        "items": [
+          {
+            "punto": "Renuncia a la 'Auto-Justificación'.",
+            "ejemplo": "Creer que si haces suficientes cosas buenas hoy, Dios 'olvidará' tu pasado o tus debilidades actuales.",
+            "escenario_actual": "Identificar esa tendencia de querer 'compensar' un mal día con una donación o un servicio extra en la iglesia, en lugar de simplemente confesar y aceptar el perdón gratuito."
+          },
+          {
+            "punto": "Acepta tu incapacidad de 'arreglarte' a ti mismo.",
+            "ejemplo": "Las hojas de higuera se secan y se caen en pocas horas. El esfuerzo humano es temporal y frágil frente a la eternidad de Dios.",
+            "escenario_actual": "Dejar de prometerle a Dios que 'esta vez sí voy a cambiar por mis fuerzas' y empezar a orar diciendo: 'Señor, no puedo, cámbiame Tú con Tu Espíritu'."
+          },
+          {
+            "punto": "No huyas de la Presencia tras un error.",
+            "ejemplo": "Adán se escondió entre los árboles. El pecado nos hace ver a Dios como un enemigo, cuando Él es el único con la solución.",
+            "escenario_actual": "Vencer ese impulso de no leer la Biblia o no ir al grupo de estudio cuando sientes que 'le fallaste' a Dios durante la semana."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Sacerdocio de la Cobertura",
+        "items": [
+          {
+            "punto": "Opera bajo la Autoridad de la 'Kutoneth'.",
+            "ejemplo": "Vivir con mentalidad de esclavo (desnudo) en lugar de embajador vestido con la justicia de Cristo.",
+            "escenario_actual": "Enfrentar los ataques de acusación en tu mente o en tu trabajo sabiendo que tu valor legal está blindado por la sangre, no por tu desempeño del día."
+          },
+          {
+            "punto": "Ministra Cobertura, no Exposición.",
+            "ejemplo": "Usar el chisme o la crítica para resaltar la 'desnudez' (pecado) de otros creyentes para sentirte más santo.",
+            "escenario_actual": "Si un líder o hermano bajo tu cuidado falla, tu primera reacción debe ser buscar cómo restaurarlo y cubrir su dignidad ante el mundo mientras se trata el pecado en privado."
+          },
+          {
+            "punto": "Protege la Pureza del Evangelio.",
+            "ejemplo": "Permitir que enseñanzas de 'superación personal' sin la Cruz se infiltren en tu enseñanza o discipulado.",
+            "escenario_actual": "Tener el discernimiento para corregir suavemente cuando en una conversación se dice que 'lo importante es ser buena persona', recordando que solo la sangre de Jesús nos hace justos."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Herejía de la Gracia Barata",
+        "texto": "Cuidado con la enseñanza que afirma que Dios 'pasa por alto' el pecado porque es amor. Dios es Fuego Consumidor; Él no ignoró el pecado de Adán, lo castigó en un sustituto. Una gracia que no costó sangre no es la gracia de la Biblia, es un humanismo disfrazado de cristianismo que no tiene poder para transformar vidas."
+      }
+    ],
+    "desafio_practico": "Rinde hoy tus 'hojas de higuera' del perfeccionismo y declara: 'Jesús, mi única recomendación ante el Padre eres Tú'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "adan",
+          "nombre": "Adán",
+          "razon": "El primer hombre que experimentó la bancarrota total y la restauración por gracia.",
+          "paralelismo": "Adán perdió la gloria en un huerto; Cristo la recuperó en otro (Getsemaní) y la selló en un madero."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jardin-eden",
+          "nombre": "Huerto del Edén",
+          "razon": "El escenario del primer protocolo de rescate divino.",
+          "simbolismo": "Lugar de la máxima pérdida humana convertido en el santuario de la primera promesa de redención."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "kutoneth-heb",
+          "nombre": "Kutoneth (Túnica)",
+          "razon": "Palabra clave que conecta la vestidura del Edén con la investidura del Sumo Sacerdote.",
+          "familia": "Raíz ligada a la autoridad legal y el servicio en la presencia de Dios."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "renuncia-hojas-higuera",
+          "tema": "Aceptación de la Justicia de Cristo",
+          "declaracion": "Padre Santo, hoy dejo de coser mis propias hojas de mérito. Me despojo de mi orgullo y acepto ser vestido con la pureza inmaculada de Tu Hijo. Entro a Tu presencia no por lo que hice, sino por lo que el Cordero hizo por mí."
+        }
+      ]
+    }
+  },
+  {
+    "id": "hilo-rojo-comandante",
+    "activo": false,
+    "fecha_programada": "2026-06-08",
+    "tipo": "huellas",
+    "titulo": "El Comandante de la Espada Desenvainada",
+    "subtitulo": "La Teofanía de Jericó: Cuando la Estrategia Humana se rinde ante la Autoridad del Cielo",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/comandante-espada.webp",
+    "tags": [
+      "Josué",
+      "Cristofanía",
+      "Autoridad",
+      "Santidad",
+      "Guerra Espiritual"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Josué, estando cerca de Jericó, alzó sus ojos y vio un varón que estaba delante de él, el cual tenía una espada desenvainada en su mano.",
+      "cita": "Josué 5:13"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Cristofanía",
+        "titulo": "La Tensión del Liderazgo en el Borde de la Promesa",
+        "texto": "Josué acaba de cruzar el Jordán. Moisés ha muerto, y el peso de una nación entera recae sobre sus hombros. Jericó, una ciudad-estado inexpugnable para la tecnología militar de la época, se levanta como el primer obstáculo. En este contexto de máxima presión estratégica, Josué sale a reconocer el terreno solo. No se encuentra con un mensajero, sino con la realidad última de la guerra: el Jefe del Ejército de Jehová. Históricamente, este encuentro redefine el concepto de conquista; no se trata de una migración étnica, sino de una 'Purificación Jurisdiccional' de la tierra."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Sar-Tsaba (שַׂר-צְבָא)",
+        "idioma": "Hebreo",
+        "raiz": "Sar (Príncipe/Jefe) + Tsaba (Ejércitos/Multitudes)",
+        "significado": "Comandante Supremo, Capitán de las huestes celestiales.",
+        "revelacion": "Esta palabra no describe a un ángel mensajero. Describe al General de todas las dimensiones. La presencia de la espada 'desenvainada' indica que el juicio ya está decretado y que la batalla no pertenece a la capacidad de Josué, sino a la ejecución legal del cielo. Josué es un oficial, pero este Varón es el Dueño del conflicto.",
+        "fonetica_guia": "Sár-Tsa-vá"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Santidad Excluyente y Soberanía Absoluta",
+        "texto": "Cuando Josué pregunta: '¿Eres de los nuestros o de los enemigos?', el Comandante responde: 'NO'. Dios se revela como un Ser que no puede ser reclutado para causas humanas, por muy justas que parezcan. Su atributo de Santidad exige que nosotros nos unamos a Su bando, no que Él se sume a nuestros planes. La orden de quitarse el calzado confirma que el suelo es santo porque Él, el Rey de Gloria, ha pisado la jurisdicción."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El General Jesucristo",
+        "texto": "Este 'Varón' es una Cristofanía: la aparición de la Semilla Maestra antes de Su encarnación. El mismo que se le apareció a Moisés en la zarza ahora se le aparece a Josué con la espada afuera. Esto nos enseña que el mismo Logos que sana al enfermo en el Nuevo Testamento, es el Comandante que desplaza la iniquidad de Canaán. Toda victoria de Josué fue, en realidad, una manifestación de la presencia de Jesucristo peleando en el mundo invisible."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "De la Vara de Pastor a la Espada del Rey",
+        "descripcion": "Cómo Dios evoluciona la herramienta de liberación:",
+        "pasos": [
+          {
+            "concepto": "Moisés (La Vara)",
+            "explicacion": "Símbolo de pastor y legislador. Dios abre camino a través de la naturaleza."
+          },
+          {
+            "concepto": "Josué (La Espada)",
+            "explicacion": "Símbolo de conquista y juicio. Dios reclama el territorio ocupado por el enemigo."
+          },
+          {
+            "concepto": "Jesucristo (La Palabra)",
+            "explicacion": "Apocalipsis 19:15: La espada sale de Su boca. La victoria final ocurre por el decreto legal de Su voz."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Santidad de la Presencia",
+        "referencias": [
+          {
+            "cita": "Éxodo 3:5",
+            "versiculo": "Quita tu calzado de tus pies, porque el lugar en que tú estás, tierra santa es.",
+            "revelacion": "Establece la conexión directa entre el Comandante y el Dios de la Zarza; es la misma persona divina."
+          },
+          {
+            "cita": "Hebreos 2:10",
+            "versiculo": "...perfeccionase por aflicciones al autor (Arkhēgos) de la salvación de ellos.",
+            "revelacion": "La palabra griega 'Arkhēgos' significa Capitán o Pionero del Ejército, vinculando a Jesús con el Comandante de Josué."
+          },
+          {
+            "cita": "Apocalipsis 19:11",
+            "versiculo": "Entonces vi el cielo abierto; y he aquí un caballo blanco, y el que lo montaba se llamaba Fiel y Verdadero...",
+            "revelacion": "El final del hilo: el Comandante de Josué regresando para la conquista final del cosmos."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Rindiendo el Bando",
+        "items": [
+          {
+            "punto": "Deja de pedirle a Dios que bendiga tus planes.",
+            "ejemplo": "La creencia de que Dios es un 'asistente' que debe ayudarnos a cumplir nuestros deseos personales.",
+            "escenario_actual": "En lugar de orar: 'Señor, bendice este negocio que se me ocurrió', orar: 'Señor, ¿qué estás haciendo Tú hoy y cómo puedo servir en ello?'."
+          },
+          {
+            "punto": "Reconoce que la batalla no es tuya.",
+            "ejemplo": "Sentirse abrumado por los problemas como si el resultado final dependiera solo de tu fuerza física o mental.",
+            "escenario_actual": "Cuando tengas un conflicto laboral, recuerda que el 'Jefe del Ejército' ya está en la sala de juntas. Tu paz viene de Su presencia, no de tu elocuencia."
+          },
+          {
+            "punto": "Honra la Santidad en lo cotidiano.",
+            "ejemplo": "Pensar que hay lugares donde Dios no está mirando o donde Su santidad no importa.",
+            "escenario_actual": "Entender que tu computadora o tu habitación es 'tierra santa' porque tú portas al Espíritu. Quita el 'calzado' de los malos hábitos en esos lugares."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Alineación Jurisdiccional",
+        "items": [
+          {
+            "punto": "Baja tu espada para que Él desenvaine la Suya.",
+            "ejemplo": "Intentar defender tu reputación o ministerio mediante ataques humanos, manipulación o política eclesiástica.",
+            "escenario_actual": "Cuando seas calumniado, no 'desenvaines' tu lengua para defenderte. Calla, rinde tu defensa al Comandante y deja que Su justicia pelee por ti."
+          },
+          {
+            "punto": "Discierne las Teofanías de tu crisis.",
+            "ejemplo": "No ver a Dios en medio de la muralla de 'Jericó' que tienes enfrente, creyendo que estás solo en la conquista.",
+            "escenario_actual": "En medio de una quiebra o un diagnóstico médico, aprender a 'alzar los ojos' para ver al Cristo que ya tiene la espada lista para operar a tu favor."
+          },
+          {
+            "punto": "Lidera desde la Adoración, no desde el Mando.",
+            "ejemplo": "Confundir la autoridad espiritual con el autoritarismo humano o el carisma personal.",
+            "escenario_actual": "Un líder maduro sabe que su primera orden del día no es reunir a la gente, sino quitarse el calzado y postrarse ante el verdadero Comandante."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del 'Dios Partidista'",
+        "texto": "Debemos rechazar la idea de que Dios está 'obligado' a estar de nuestro lado por nuestra nacionalidad, denominación o filiación política. Dios no toma partidos humanos; Dios toma el mando absoluto. Pretender que Dios es un instrumento para nuestras agendas es la definición bíblica de idolatría."
+      }
+    ],
+    "desafio_practico": "Hoy, escribe en un papel tu plan estratégico más importante y quémalo simbólicamente en oración, diciendo: 'Comandante, rindo mi plan. ¿Cuál es Tu orden?'",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "josue",
+          "nombre": "Josué",
+          "razon": "El líder que aprendió que la conquista empieza con la postración.",
+          "paralelismo": "Representa al creyente que transiciona de la ley a la ocupación del territorio por gracia."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Varón de la Espada.",
+          "paralelismo": "El Comandante real que ya ganó la guerra en el mundo invisible."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerico",
+          "nombre": "Jericó",
+          "razon": "El primer obstáculo de la conquista.",
+          "simbolismo": "Representa las fortalezas mentales y espirituales que solo caen ante la presencia divina."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "sar-heb",
+          "nombre": "Sar (Príncipe)",
+          "razon": "Define el rango del Comandante.",
+          "familia": "Raíz ligada a la autoridad gubernamental del Reino."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rendicion-estrategia",
+          "tema": "Sometimiento al Comandante",
+          "declaracion": "Señor, hoy rindo mi espada y mis planes. No te pido que vengas conmigo; yo decido hoy ir contigo y obedecer Tus órdenes de guerra."
+        }
+      ]
+    }
+  },
+  {
+    "id": "huellas-gedeon-lagar",
+    "activo": false,
+    "fecha_programada": "2026-06-15",
+    "tipo": "huellas",
+    "titulo": "Gedeón: El Guerrero del Lagar",
+    "subtitulo": "La Transición de la Identidad: De la mentalidad de escasez a la Jurisdicción del Valor Divino",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/gedeon-lagar.webp",
+    "tags": [
+      "Gedeón",
+      "Identidad",
+      "Valor",
+      "Madián",
+      "Jueces"
+    ],
+    "versiculo_clave": {
+      "texto": "Y el ángel de Jehová se le apareció, y le dijo: Jehová está contigo, varón esforzado y valiente.",
+      "cita": "Jueces 6:12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa de Liberación / Teología de Identidad",
+        "titulo": "Israel bajo el Azote de Madián",
+        "texto": "Cerca del año 1100 a.C., Israel vivía una de sus épocas más oscuras. Los madianitas no solo conquistaban, sino que practicaban el 'terrorismo agrícola': esperaban a que Israel cosechara para bajar con camellos y robar todo el grano. El pueblo vivía en cuevas. Históricamente, Gedeón sacudiendo el trigo en un 'lagar' (lugar para pisar uvas) era un acto de desesperación absoluta: el lagar es un hoyo en la piedra que permitía ocultarse de la vista del enemigo, pero dificultaba la limpieza del grano. Gedeón estaba en la base de su dignidad cuando el Cielo lo llamó."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Gibbór (גִּבּוֹר)",
+        "idioma": "Hebreo",
+        "raiz": "Gabar (Prevalecer / Ser fuerte)",
+        "significado": "Poderoso, valiente, guerrero que prevalece.",
+        "fonetica_guia": "Guib-bór",
+        "revelacion": "Es fascinante que el Ángel de Jehová llame a Gedeón 'Gibbór' mientras él está temblando de miedo en un hoyo. Dios no lo llamó por lo que Gedeón sentía que era, sino por lo que la Presencia de Dios (Jehová está contigo) activaba en él. La palabra 'Gibbór' indica que el valor no es una emoción, es un estatus legal otorgado por la compañía divina."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios de los Comienzos Pequeños y la Selección Soberana",
+        "texto": "Dios se revela como Aquel que desprecia el orgullo de los fuertes para usar lo débil del mundo. Al reducir el ejército de Gedeón de 32,000 a solo 300 hombres, Dios establece Su atributo de Celos por Su propia Gloria: Él no permitirá que el hombre diga 'mi mano me ha salvado'. Dios es el Estratega que gana con lo insuficiente para que la alabanza sea incuestionable."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Gedeón y el 'Ángel de Jehová' (Jesucristo)",
+        "texto": "La mayoría de los comentaristas coinciden en que este 'Ángel' era una Teofanía de Jesucristo. Notemos el patrón: Cristo baja a un lagar (lugar de presión) para llamar a alguien que el mundo desechó. Así como Gedeón venció con trompetas y cántaros rotos (luz interior), Cristo venció en la cruz mediante el rompimiento de Su propio cuerpo para que la Luz del Mundo inundara las tinieblas. Jesucristo es el verdadero 'Gibbór' que pelea nuestras batallas desde el anonimato."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Escalera del Valor",
+        "descripcion": "El proceso de transformación de Gedeón sigue un protocolo exacto:",
+        "pasos": [
+          {
+            "concepto": "Encuentro en el Lagar",
+            "explicacion": "Activación de la identidad externa. Dios te dice quién eres antes de que lo creas."
+          },
+          {
+            "concepto": "Destrucción del Altar de Baal",
+            "explicacion": "Guerra interna/familiar. No puedes liberar a una nación si no has limpiado el santuario de tu casa."
+          },
+          {
+            "concepto": "La Prueba del Vellón",
+            "explicacion": "Cimentación de la fe. Dios concede confirmación para asegurar que la estrategia es Suya."
+          },
+          {
+            "concepto": "El Filtro de los 300",
+            "explicacion": "Rendición de los números. La victoria final depende de la calidad de la obediencia, no de la cantidad de recursos."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Fuerza en la Debilidad",
+        "referencias": [
+          {
+            "cita": "2 Corintios 12:9",
+            "versiculo": "Y me ha dicho: Bástate mi gracia; porque mi poder se perfecciona en la debilidad.",
+            "revelacion": "El apóstol Pablo confirma el 'protocolo Gedeón': la insuficiencia humana es el espacio de aterrizaje de la omnipotencia divina."
+          },
+          {
+            "cita": "Joel 3:10",
+            "versiculo": "Forjad espadas de vuestros azadones... diga el débil: Fuerte (Gibbór) soy.",
+            "revelacion": "Un decreto profético que llama a la existencia el valor basado en la palabra, no en el sentimiento."
+          },
+          {
+            "cita": "Hebreos 11:32-34",
+            "versiculo": "...porque ¿qué más digo? Porque el tiempo me faltaría contando de Gedeón... que sacaron fuerzas de flaqueza.",
+            "revelacion": "La validación eterna del Espíritu Santo sobre la historia de este libertador."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu Identidad Real",
+        "items": [
+          {
+            "punto": "No te definas por tu pasado ni tu familia.",
+            "ejemplo": "La creencia de que si vienes de un hogar pobre o con errores, estás condenado a ser 'menos' en el Reino.",
+            "escenario_actual": "Identificar esa voz interior que te dice que 'no tienes talento' y sustituirla hoy mismo por el saludo del ángel: 'Jehová está conmigo, soy valiente'."
+          },
+          {
+            "punto": "Aprende a obedecer en lo privado primero.",
+            "ejemplo": "Pensar que para servir a Dios necesitas un micrófono, cuando primero hay que 'limpiar los ídolos' de tu propia habitación.",
+            "escenario_actual": "Borrar hoy mismo de tu celular esa aplicación o suscripción que sabes que es tu 'Altar de Baal' personal y que bloquea tu comunión con Dios."
+          },
+          {
+            "punto": "Confía en las señales de confirmación.",
+            "ejemplo": "Lanzarse a locuras sin haber consultado la paz del Espíritu Santo.",
+            "escenario_actual": "Antes de tomar esa deuda o ese empleo nuevo, pide a Dios una confirmación clara en Su Palabra y no te muevas hasta que el 'vellón' esté seco."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Poder de los Pocos",
+        "items": [
+          {
+            "punto": "Valora la calidad sobre la multitud.",
+            "ejemplo": "Medir el éxito de un ministerio o proyecto por cuántas personas asisten, en lugar de por cuánto compromiso real existe.",
+            "escenario_actual": "Enfocarte en discipular profundamente a 2 o 3 personas de tu entorno laboral o familiar en lugar de tratar de impresionar a las masas con discursos vacíos."
+          },
+          {
+            "punto": "Lidera desde el quebrantamiento.",
+            "ejemplo": "Intentar parecer un líder perfecto e indestructible ante los demás, escondiendo tus procesos de dolor.",
+            "escenario_actual": "Tener la humildad de compartir con tu grupo de estudio cómo Dios te sacó de una crisis reciente, permitiendo que tu 'cántaro roto' deje ver la luz de Cristo a los demás."
+          },
+          {
+            "punto": "Opera en la Jurisdicción del Valor.",
+            "ejemplo": "Rendirse ante la 'tecnología' del enemigo (mejor marketing, más dinero, más influencia mundana).",
+            "escenario_actual": "Lanzar tu proyecto o empresa con la convicción de que Dios no necesita un ejército de inversionistas si Él ya decretó que tú eres el 'Gibbór' para ese mercado."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Humildad como pecado",
+        "texto": "Cuidado con llamar 'humildad' a lo que en realidad es incredulidad. Cuando Dios te llama 'valiente' y tú le respondes 'soy el más pobre', no estás siendo humilde, estás contradiciendo al Creador. La verdadera humildad es estar de acuerdo con lo que Dios dice de ti, cueste lo que cueste."
+      }
+    ],
+    "desafio_practico": "Escribe en tu espejo hoy: 'JEHOVÁ ESTÁ CONMIGO, VARÓN ESFORZADO Y VALIENTE'. Repítelo cada vez que veas tu reflejo.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "gedeon",
+          "nombre": "Gedeón",
+          "razon": "El libertador que aprendió a ver con los ojos de Dios.",
+          "paralelismo": "Representa al creyente que vence el espíritu de madián (escasez) mediante la identidad."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Ángel que visitó el lagar.",
+          "paralelismo": "El verdadero Guerrero que nos rescata de nuestra propia invisibilidad."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "lagar-ofra",
+          "nombre": "Ofra de Manasés",
+          "razon": "El lugar del llamado oculto.",
+          "simbolismo": "Representa el lugar de la vida ordinaria donde Dios irrumpe con Su destino extraordinario."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "gibbor-heb",
+          "nombre": "Gibbór (גִּבּוֹר)",
+          "razon": "El título de identidad de Gedeón.",
+          "familia": "Raíz ligada al valor militar y la prevalencia espiritual."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "identidad-esfuerzo-valiente",
+          "tema": "Activación de Valor",
+          "declaracion": "Hoy sacudo el polvo de la escasez de mis hombros. Jehová está conmigo. No soy el más pequeño, soy un Gibbór en las manos del Rey."
+        }
+      ]
+    }
   }
 ]

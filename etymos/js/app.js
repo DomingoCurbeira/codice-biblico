@@ -178,9 +178,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const idiomaFiltro = botonActivo ? botonActivo.dataset.idioma : 'todos';
 
         palabrasFiltradas = lexicoCompleto.filter(p => {
-            const matchText = p.palabra_espanol.toLowerCase().includes(textoBusqueda) || 
-                              p.transliteracion.toLowerCase().includes(textoBusqueda) ||
-                              p.original.toLowerCase().includes(textoBusqueda);
+            const nombreP = (p.termino || p.palabra_espanol || '').toLowerCase();
+            const matchText = nombreP.includes(textoBusqueda) || 
+                              (p.transliteracion || '').toLowerCase().includes(textoBusqueda) ||
+                              (p.original || '').toLowerCase().includes(textoBusqueda);
             const matchLang = idiomaFiltro === 'todos' || p.idioma.toLowerCase() === idiomaFiltro.toLowerCase();
             return matchText && matchLang;
         });

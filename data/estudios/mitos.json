@@ -1172,5 +1172,545 @@
         }
       ]
     }
+  },
+  {
+    "id": "mito-manzana-eden",
+    "activo": false,
+    "fecha_programada": "2026-06-02",
+    "tipo": "mitos",
+    "titulo": "El Mito de la Manzana Mágica",
+    "subtitulo": "¿Fue un Problema de Gula o una Rebelión Jurisdiccional?",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/arbol-ciencia.webp",
+    "tags": [
+      "Mitos",
+      "Génesis",
+      "Rebelión",
+      "Autonomía",
+      "Verdad"
+    ],
+    "versiculo_clave": {
+      "texto": "Sino que sabe Dios que el día que comáis de él, serán abiertos vuestros ojos, y seréis como Dios, sabiendo el bien y el mal.",
+      "cita": "Génesis 3:5"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis de Traducción / Historia Eclesiástica",
+        "titulo": "El Juego de Palabras que cambió la Historia",
+        "texto": "La idea de que el fruto prohibido era una manzana no proviene de la Biblia, sino de un juego de palabras en latín popularizado durante la Edad Media. En latín, la palabra 'malum' significa tanto 'manzana' como 'el mal'. Cuando Jerónimo tradujo la Biblia al latín (la Vulgata), los lectores y artistas posteriores asociaron el 'árbol del mal' con el 'árbol de la manzana'. El texto hebreo utiliza la palabra genérica 'peri' (fruto), que en el contexto de Oriente Medio bien podría haber sido un higo, una granada o una uva. Reducir la caída a una manzana convierte una tragedia cósmica en un cuento de hadas infantil, distrayéndonos de la verdadera naturaleza del pecado."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Yada (יָדַע)",
+        "idioma": "Hebreo",
+        "raiz": "Conocer por experiencia",
+        "significado": "Conocimiento íntimo, relacional y práctico.",
+        "revelacion": "El 'Árbol del Conocimiento del Bien y del Mal' no era un dispensador de inteligencia. En hebreo, 'el bien y el mal' es un merismo que significa 'todo'. Codiciar este conocimiento era codiciar la prerrogativa divina de legislar el universo. Adán y Eva no querían aprender conceptos; querían 'yada' (experimentar) la autonomía moral: el derecho de ser ellos quienes decidieran qué es correcto y qué no, desplazando la ley de Dios por su propia opinión.",
+        "fonetica_guia": "Ya-dá"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Soberanía Intelectual y Verdad Absoluta",
+        "texto": "Este relato nos revela a un Dios que es la fuente única de la Realidad y la Verdad. Al establecer el árbol, Dios estaba marcando un límite de jurisdicción: 'Yo soy el Creador, yo defino la ley moral; ustedes son criaturas, su diseño funciona solo bajo Mi definición'. El pecado revela nuestra tendencia a querer usurpar el intelecto de Dios, creyendo que nuestra percepción de la realidad es superior a Su revelación escrita."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Getsemaní: El Árbol de la Sumisión",
+        "texto": "Hay un contraste perfecto entre dos huertos. En el Edén, el Primer Adán dijo: 'Que se haga mi voluntad y no la Tuya' ante un árbol frutal. En Getsemaní, el Último Adán (Cristo), bajo la sombra de los olivos y sudando gotas de sangre, rindió Su voluntad humana diciendo: 'No se haga mi voluntad, sino la Tuya'. Jesús deshizo el veneno de la autonomía moral de Adán mediante la obediencia perfecta, llevándola hasta otro 'árbol': el madero de la cruz."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Anatomía de la Seducción",
+        "descripcion": "Satanás no ha cambiado su estrategia de marketing desde el Edén. Sigue estos tres pasos para desarmar la fe:",
+        "pasos": [
+          {
+            "concepto": "Dudar (Relativismo)",
+            "explicacion": "'¿Conque Dios os ha dicho...?'. Inyecta la idea de que la Palabra es ambigua o depende de la interpretación personal."
+          },
+          {
+            "concepto": "Contradecir (Antinomianismo)",
+            "explicacion": "'No moriréis'. Niega las consecuencias legales y el juicio divino, pintando a Dios como un mentiroso o un exagerado."
+          },
+          {
+            "concepto": "Sustituir (Egolatría)",
+            "explicacion": "'Seréis como Dios'. Ofrece una divinidad falsa basada en el ego y la autodeterminación, alejándonos de nuestra dependencia del Creador."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Trampa de la Opinión Propia",
+        "referencias": [
+          {
+            "cita": "Proverbios 14:12",
+            "versiculo": "Hay camino que al hombre le parece derecho; Pero su fin es camino de muerte.",
+            "revelacion": "La definición exacta de la caída: seguir lo que a nosotros 'nos parece' en lugar de lo que Dios decretó."
+          },
+          {
+            "cita": "Jeremías 17:9",
+            "versiculo": "Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá?",
+            "revelacion": "La razón por la cual no podemos confiar en nuestra 'brújula interna' tras la caída del Edén."
+          },
+          {
+            "cita": "Jueces 21:25",
+            "versiculo": "En estos días no había rey en Israel; cada uno hacía lo que bien le parecía.",
+            "revelacion": "Muestra el caos social y espiritual que ocurre cuando una nación vive bajo el mito de la manzana (autonomía moral)."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Sometiendo el 'Yo siento'",
+        "items": [
+          {
+            "punto": "Reconoce la autoridad final de la Biblia.",
+            "ejemplo": "La creencia de que 'Dios entiende que los tiempos han cambiado' y que Sus reglas son opcionales según la cultura.",
+            "escenario_actual": "Decidir no convivir con tu pareja antes del matrimonio, aunque 'todos lo hagan' y parezca 'económicamente lógico', porque confías más en el diseño de Dios que en tu conveniencia."
+          },
+          {
+            "punto": "Filtra la información de tu entorno.",
+            "ejemplo": "Suponer que porque alguien usa un lenguaje espiritual o 'positivo', su mensaje proviene del Espíritu Santo.",
+            "escenario_actual": "Identificar y rechazar consejos de 'influencers' que te invitan a 'manifestar' tus deseos usando el nombre de Dios, pero sin mencionar el arrepentimiento ni la cruz."
+          },
+          {
+            "punto": "Acepta los límites como muestras de amor.",
+            "ejemplo": "Ver los mandamientos como una lista de prohibiciones aburridas que te quitan libertad.",
+            "escenario_actual": "Entender que la prohibición de Dios sobre la mentira o la ira no es para limitarte, sino para evitar que destruyas tu reputación y tus relaciones más queridas."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Desmantelando el Trono Interior",
+        "items": [
+          {
+            "punto": "Audita tu autonomía en el liderazgo ministerial.",
+            "ejemplo": "Creer que por tu experiencia o conocimiento teológico ya no necesitas consultar a Dios en 'detalles pequeños' de tu servicio.",
+            "escenario_actual": "Antes de lanzar un nuevo proyecto o enseñanza, pasar tiempo en ayuno y oración para asegurar que el plano viene del Cielo y no de tu propia ambición o intelecto."
+          },
+          {
+            "punto": "Combate el Orgullo Intelectual.",
+            "ejemplo": "Valorar más el 'descubrimiento de misterios' que la obediencia radical a los principios básicos del amor y la humildad.",
+            "escenario_actual": "Saber callar y no humillar a un hermano que tiene una duda 'simple', reconociendo que tu conocimiento es para servir al cuerpo, no para alimentar tu ego."
+          },
+          {
+            "punto": "Discierne la 'Teología del Yo'.",
+            "ejemplo": "Infiltrar conceptos de psicología humanista o autoayuda en el discurso cristiano para hacerlo más 'atractivo'.",
+            "escenario_actual": "Tener la valentía de predicar sobre la negación propia y el sacrificio cuando el mundo (y muchas iglesias) solo hablan de éxito, prosperidad y bienestar personal."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Veneno del Relativismo Cristiano",
+        "texto": "Es sumamente peligroso el discurso de 'mi verdad' dentro del pueblo de Dios. Solo hay una Verdad: la persona de Jesucristo revelada en las Escrituras. Afirmar que cada uno puede tener su propia interpretación moral de la Biblia es volver a estirar la mano hacia el árbol prohibido."
+      }
+    ],
+    "desafio_practico": "Hoy, identifica un área donde has estado diciendo 'yo creo que está bien' ignorando un mandato bíblico claro, y somételo al Señorío de Cristo.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "eva",
+          "nombre": "Eva",
+          "razon": "La primera en ser atacada en su percepción intelectual de la Palabra.",
+          "paralelismo": "Símbolo de la vulnerabilidad de la mente humana cuando se aleja de la seguridad del diseño divino."
+        }
+      ],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "yada-heb",
+          "nombre": "Yada (Conocer)",
+          "razon": "Palabra que define el deseo de Adán de 'experimentar' la vida fuera de Dios.",
+          "familia": "Conectada con la intimidad; el pecado es una intimidad ilegítima con la rebelión."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rendicion-autonomia-moral",
+          "tema": "Rendición de la Mente",
+          "declaracion": "Espíritu Santo, hoy rindo mi intelecto y mis opiniones ante Ti. Renuncio a la soberbia de querer decidir por mí mismo lo que es bueno. Declaro que Tu Palabra es mi única brújula y mi máxima autoridad."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mito-muros-ruido",
+    "activo": false,
+    "fecha_programada": "2026-06-09",
+    "tipo": "mitos",
+    "titulo": "El Mito del Activismo Ruidoso",
+    "subtitulo": "¿Fue el grito de los pulmones o el ajuste de la frecuencia lo que derribó Jericó?",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/muros-jerico.webp",
+    "tags": [
+      "Mitos",
+      "Jericó",
+      "Activismo",
+      "Silencio",
+      "Obediencia"
+    ],
+    "versiculo_clave": {
+      "texto": "Entonces el pueblo gritó, y los sacerdotes tocaron las bocinas... y el muro se derrumbó de lo suyo.",
+      "cita": "Josué 6:20"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Relato de Guerra Litúrgica",
+        "titulo": "Jericó: La Ciudad de las Puertas Cerradas",
+        "texto": "Jericó no era solo una ciudad; era un símbolo de la resistencia satánica contra la promesa de Dios. Sus muros dobles eran tan anchos que se construían casas sobre ellos. Humanamente, el plan de Dios era una locura: dar vueltas en silencio. Históricamente, el ruido de los gritos y las trompetas no tenía la potencia decibélica para fracturar piedra caliza de ese grosor. La caída no fue un fenómeno acústico natural, fue un colapso dimensional provocado por una obediencia sincronizada."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Teruah (תְּרוּעָה)",
+        "idioma": "Hebreo",
+        "raiz": "Rua (Quebrar / Gritar)",
+        "significado": "Clamor, grito de guerra, sonido de alarma o júbilo.",
+        "revelacion": "Teruah es el sonido que 'rompe' la atmósfera. No es un grito de pánico, es un decreto auditivo de que el Rey ha llegado al campo de batalla. En Jericó, el grito final fue el sello de una victoria que ya se había cocinado en el silencio de los 6 días previos.",
+        "fonetica_guia": "Te-ru-áh"
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios de los Tiempos y las Frecuencias",
+        "texto": "Dios revela aquí que Su poder opera en ciclos y procesos, no solo en eventos instantáneos. Él exige 7 días de vueltas y 7 sacerdotes. El número 7 indica perfección y plenitud. Dios no necesitaba el ruido humano; necesitaba que el pueblo ajustara su frecuencia a la del Arca (la Presencia) mediante la disciplina del silencio."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: La Palabra que rompe el Silencio",
+        "texto": "Juan 1:1 nos dice que Cristo es el Logos (la Palabra). En Jericó, el silencio representaba la espera de la humanidad; el grito final prefiguraba la venida de Jesucristo al mundo. Cuando la Palabra encarnada gritó 'Tetelestai' en la cruz, los muros de separación entre Dios y el hombre se derrumbaron 'de lo suyo', tal como los de Jericó."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Protocolo del Silencio y el Clamor",
+        "descripcion": "Dios enseña que el clímax de la victoria depende de la preparación en el secreto:",
+        "pasos": [
+          {
+            "concepto": "Días 1 al 6",
+            "explicacion": "Silencio absoluto. Representa la muerte al 'yo' y a la queja humana. Nadie habla, solo se contempla la Presencia."
+          },
+          {
+            "concepto": "Día 7 (Las 7 vueltas)",
+            "explicacion": "Intensificación de la obediencia. La fe se activa mediante la repetición y la perseverancia."
+          },
+          {
+            "concepto": "El Grito (Teruah)",
+            "explicacion": "La liberación del decreto. El muro no cae para que gritemos; gritamos porque sabemos que el muro ya cayó en el espíritu."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Poder de la Voz de Dios",
+        "referencias": [
+          {
+            "cita": "Salmos 29:5",
+            "versiculo": "Voz de Jehová que quebranta los cedros; Quebrantó Jehová los cedros del Líbano.",
+            "revelacion": "Confirma que el poder destructivo contra las fortalezas no es humano, sino una emanación de Su voz."
+          },
+          {
+            "cita": "Lamentaciones 3:26",
+            "versiculo": "Bueno es esperar en silencio la salvación de Jehová.",
+            "revelacion": "Valida la estrategia de Josué: el silencio es la incubadora de la victoria sobrenatural."
+          },
+          {
+            "cita": "1 Tesalonicenses 4:16",
+            "versiculo": "Porque el Señor mismo con voz de mando, con voz de arcángel, y con trompeta de Dios, descenderá del cielo...",
+            "revelacion": "El regreso de Jesucristo seguirá el mismo patrón de Jericó: un clamor que derriba toda resistencia final."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Trampa del Ruido",
+        "items": [
+          {
+            "punto": "Aprende a callar tus quejas.",
+            "ejemplo": "Creer que si le repites a todo el mundo lo grande que es tu problema, Dios te ayudará más rápido.",
+            "escenario_actual": "Hacer un ayuno de redes sociales y de conversaciones negativas por 3 días, dejando de 'hablar del muro' para empezar a 'rodear la Presencia'."
+          },
+          {
+            "punto": "Obedece aunque el plan parezca 'loco'.",
+            "ejemplo": "Suponer que si no entiendes la lógica detrás de un mandato bíblico (ej: perdonar, diezmar), no tienes que hacerlo.",
+            "escenario_actual": "Perdonar a alguien que no te ha pedido perdón, simplemente porque Dios lo ordenó, sabiendo que ese acto de obediencia es lo que derribará el muro de tu amargura."
+          },
+          {
+            "punto": "Identifica tu Jericó personal.",
+            "ejemplo": "Pensar que hay vicios o pecados que son 'demasiado altos' para que Dios los quite de tu vida.",
+            "escenario_actual": "Dejar de luchar contra el hábito directamente y empezar a rodearlo con oración y lectura bíblica diaria; verás que el muro cae solo por el peso de la gloria."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Alineación Litúrgica",
+        "items": [
+          {
+            "punto": "Diferencia el Grito de la Emoción.",
+            "ejemplo": "Confundir un servicio de iglesia ruidoso y emocional con una verdadera victoria espiritual de 'Teruah'.",
+            "escenario_actual": "Evaluar si el 'ruido' de tu ministerio está produciendo muros caídos (vidas transformadas) o solo es ruido para tapar el vacío de la Presencia."
+          },
+          {
+            "punto": "Camina en Silencio Estratégico.",
+            "ejemplo": "Revelar tus planes y visiones antes de que Dios termine de gestarlos en el secreto, permitiendo que la 'serpiente' se entere de tu estrategia.",
+            "escenario_actual": "Guardar silencio absoluto sobre un nuevo negocio o llamado ministerial hasta que des la séptima vuelta; deja que los resultados hablen por ti."
+          },
+          {
+            "punto": "Lidera la 'Vuelta Extra'.",
+            "ejemplo": "Rendirse en el día 6 o en la vuelta 5 porque 'no se ve ningún cambio' en la estructura del muro.",
+            "escenario_actual": "Mantener la fidelidad en una intercesión por un hijo o un proyecto durante meses, aunque el muro parezca más firme que nunca; la victoria legal se firma en la última vuelta."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Grito Mágico",
+        "texto": "Es una distorsión teológica creer que gritar palabras de guerra espiritual tiene poder 'mágico' por sí mismo. El grito solo funciona si hay 6 días previos de muerte al yo y alineación con el Arca. No intentes usar el clamor para manipular a Dios; úsalo para anunciar lo que Él ya hizo."
+      }
+    ],
+    "desafio_practico": "Elige un problema que te esté quitando la paz. Por los próximos 3 días, prohíbete hablar de ese problema con nadie (silencio de Josué). Solo háblalo con Dios en privado.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "josue",
+          "nombre": "Josué",
+          "razon": "El ejecutor del protocolo litúrgico de guerra.",
+          "paralelismo": "El creyente que entiende que la adoración precede a la toma del territorio."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerico",
+          "nombre": "Jericó",
+          "razon": "Escenario del milagro sonoro.",
+          "simbolismo": "Fortaleza inexpugnable ante el hombre, polvo ante la frecuencia de Dios."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "teruah-heb",
+          "nombre": "Teruah",
+          "razon": "El componente auditivo de la conquista.",
+          "familia": "Gritos, trompetas y decretos de victoria."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "silencio-conquistador",
+          "tema": "Poder en la Quietud",
+          "declaracion": "Señor, hoy elijo el silencio sobre la queja. Rodeó mis murallas con Tu Presencia y espero el momento de Tu Teruah para ver la victoria."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mitos-sanson-poder",
+    "activo": false,
+    "fecha_programada": "2026-06-16",
+    "tipo": "mitos",
+    "titulo": "El Mito de los Hombres Superpoderosos",
+    "subtitulo": "¿Fue la hipertrofia muscular o un Estatuto Legal lo que hizo a Sansón invencible?",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/sanson-fuerza.webp",
+    "tags": [
+      "Sansón",
+      "Nazareo",
+      "Consagración",
+      "Mitos",
+      "Identidad"
+    ],
+    "versiculo_clave": {
+      "texto": "Y el Espíritu de Jehová vino sobre él con poder, y las cuerdas que estaban en sus brazos se volvieron como lino quemado con fuego.",
+      "cita": "Jueces 15:14"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Trágica / Análisis de Votos",
+        "titulo": "El Voto Nazareo: El Contrato de la Fuerza",
+        "texto": "Sansón nació bajo un protocolo de consagración radical llamado el 'Voto Nazareo' (Números 6). Este contrato incluía tres prohibiciones: no beber vino, no tocar cadáveres y no cortarse el cabello. Históricamente, Sansón vivió en la frontera con los Filisteos, una potencia marítima con armadura de bronce. Israel estaba desarmado. Sansón era, literalmente, el único 'arma de destrucción masiva' que poseía Israel. Pero su poder no residía en su biología, sino en su fidelidad a las cláusulas de su contrato espiritual."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Nazír (נָזִיר)",
+        "idioma": "Hebreo",
+        "raiz": "Nazar (Apartar / Consagrar / Dedicar)",
+        "significado": "Consagrado, apartado, coronado, príncipe separado.",
+        "fonetica_guia": "Na-zír",
+        "revelacion": "Un 'Nazír' es alguien que voluntariamente decide vivir bajo un estándar de pureza superior para ser un recipiente de la gloria de Dios. El cabello largo era la 'corona' visible de su sumisión a Dios. Cortarlo no era solo un cambio de look; era una rescisión unilateral del contrato legal con Jehová. Al caer el cabello, Sansón dejaba de ser un 'Nazír' y volvía a la jurisdicción de un hombre común."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Fidelidad Condicional y Santidad como Poder",
+        "texto": "Dios se revela aquí como un Socio de Pacto. Su atributo de Fidelidad está ligado a los términos que Él establece. Dios no le daba fuerza a Sansón 'porque le caía bien', sino porque Sansón era el portador legal de un voto. Cuando el voto se rompió, la Presencia se retiró. Esto nos enseña que el poder espiritual no es un regalo caprichoso, sino una consecuencia de la alineación con la santidad de Dios."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Sansón: La Sombra del Redentor que entrega Su Vida",
+        "texto": "Sansón es un 'tipo' de Cristo oscuro pero real. Al final de su vida, Sansón extendió sus brazos entre dos columnas para destruir al enemigo mediante su propia muerte. Jesucristo extendió sus brazos en la cruz (entre las columnas de la ley y el juicio) para destruir el imperio de las tinieblas. La diferencia es que Sansón murió por sus fallos, pero Cristo murió siendo el Nazareo Perfecto, sin mancha alguna, logrando una victoria eterna."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Anatomía de la Caída de un Ungido",
+        "descripcion": "Sansón no perdió su fuerza en la barbería de Dalila; la perdió paso a paso mucho antes:",
+        "pasos": [
+          {
+            "concepto": "Proximidad al Límite",
+            "explicacion": "Bajar al valle de Sorec. El pecado empieza con frecuentar lugares que no pertenecen a tu propósito."
+          },
+          {
+            "concepto": "Desprecio por lo Sagrado",
+            "explicacion": "Comer miel de un cadáver de león. Sansón empezó a creer que su poder era 'suyo' y que podía romper las reglas sin consecuencias."
+          },
+          {
+            "concepto": "Confesión del Secreto",
+            "explicacion": "Entregar su corazón a Dalila. El momento donde el ungido valora más el afecto humano que el secreto del pacto divino."
+          },
+          {
+            "concepto": "La Gran Oscuridad",
+            "explicacion": "La pérdida de la visión. Sin propósito y sin voto, el hombre solo puede dar vueltas en el molino del enemigo."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Poder de la Consagración",
+        "referencias": [
+          {
+            "cita": "Números 6:2",
+            "versiculo": "Habla a los hijos de Israel y diles: El hombre o la mujer que se apartare haciendo voto de nazareo...",
+            "revelacion": "Establece la base legal original sobre la cual operaba la vida de Sansón."
+          },
+          {
+            "cita": "Zacarías 4:6",
+            "versiculo": "No con ejército, ni con fuerza, sino con mi Espíritu, ha dicho Jehová de los ejércitos.",
+            "revelacion": "La clave real de la fuerza de Sansón: no era su músculo, era el Pneuma (Espíritu) de Dios sobre él."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Cuidando el Regalo",
+        "items": [
+          {
+            "punto": "Entiende que tu fuerza viene de tu conexión con Dios.",
+            "ejemplo": "Creer que puedes ser un 'buen cristiano' sin dedicar tiempo diario a la oración o a la Palabra.",
+            "escenario_actual": "Intentar resolver un conflicto familiar con tu inteligencia emocional únicamente, olvidando que solo la guianza del Espíritu puede darte la victoria real."
+          },
+          {
+            "punto": "No juegues con las 'pequeñas' desobediencias.",
+            "ejemplo": "Pensar que un 'pecadito' ocasional no afectará tu paz ni tu autoridad espiritual.",
+            "escenario_actual": "Justificar una mentira 'piadosa' en el trabajo para evitar un problema, sin darte cuenta de que estás 'cortando un centímetro de tu cabello' nazareo."
+          },
+          {
+            "punto": "Huye de las 'Dalilas' modernas.",
+            "ejemplo": "Dalila representa todo aquello que te distrae de tu llamado a cambio de placer o comodidad momentánea.",
+            "escenario_actual": "Identificar ese hábito digital (redes, juegos, videos) que te quita las horas más productivas de tu mañana, robándote la visión que Dios te dio."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Blindando la Unción",
+        "items": [
+          {
+            "punto": "Protege el Secreto de tu Corazón.",
+            "ejemplo": "Contarle tus visiones más profundas y tus debilidades a personas que no están en pacto contigo.",
+            "escenario_actual": "Saber guardar silencio sobre los planos que Dios te está revelando hasta que estén maduros, evitando que la envidia o la mala intención de otros los aborte."
+          },
+          {
+            "punto": "No permitas que el éxito te ciegue.",
+            "ejemplo": "Sansón se acostumbró tanto a vencer que olvidó que necesitaba a Dios. El éxito es más peligroso que el desierto.",
+            "escenario_actual": "Si tu negocio o ministerio está creciendo, aumenta hoy tus horas de rodillas. Cuanto más alto el muro, más fuerte debe ser el Shamar (vigilante)."
+          },
+          {
+            "punto": "Termina bien tu carrera.",
+            "ejemplo": "Cifrar tu legado en lo que hiciste en tu juventud, ignorando que el final de tu vida es tu máxima plataforma de impacto.",
+            "escenario_actual": "A pesar de los errores pasados, decidir hoy que tu última etapa de vida será la de mayor gloria y servicio al Reino, como Sansón en las columnas."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del 'Súper Líder' Infalible",
+        "texto": "Debemos derribar la idea de que los líderes ungidos tienen 'superpoderes' biológicos o un aura mágica. Sansón nos enseña que el ungido es un hombre frágil que simplemente porta un voto. Idolatrar al hombre es ignorar que el poder es propiedad exclusiva del Espíritu Santo."
+      }
+    ],
+    "desafio_practico": "Identifica hoy cuál es la 'Dalila' (distracción o tentación) que está intentando sacarte de tu lugar de consagración y bloquéala definitivamente de tu vida.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "sanson",
+          "nombre": "Sansón",
+          "razon": "El portador del voto que descubrió la fuerza a través de la pérdida.",
+          "paralelismo": "Representa el peligro de tener la unción pero descuidar el carácter."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Nazareo Perfecto.",
+          "paralelismo": "El que nunca rompió Su voto y cuya muerte fue el mayor acto de fuerza de la historia."
+        }
+      ],
+      
+      "etymos": [
+        {
+          "id": "nazir-heb",
+          "nombre": "Nazír (נָזִיר)",
+          "razon": "Define la naturaleza legal de la fuerza de Sansón.",
+          "familia": "Raíz ligada a la separación, consagración y coronación espiritual."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "blindaje-consagracion",
+          "tema": "Preservación del Voto",
+          "declaracion": "Padre, hoy renuevo mi consagración. Mi fuerza no está en mis manos, sino en mi pacto Contigo. Blindo mi corazón de las distracciones y declaro que mi visión espiritual es restaurada hoy."
+        }
+      ]
+    }
   }
 ]

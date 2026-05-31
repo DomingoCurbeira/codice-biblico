@@ -32,10 +32,11 @@
     },
     {
       "tipo": "lexico_profundo",
-      "termino": "Yishma'el (יִשְׁמָעֵאל)",
+      "termino": "Yishma'él (יִשְׁמָעֵאל)",
       "idioma": "Hebreo",
       "raiz": "Shama (Oír) + El (Dios)",
       "significado": "Dios oirá / Dios escucha",
+      "fonetica_guia": "Yish-ma-él",
       "revelacion": "El nombre es un decreto eterno. No es un recordatorio de lo que Ismael hizo, sino de lo que Dios es: Aquel que inclina Su oído ante el diseño que Él mismo implantó en la semilla."
     },
     {
@@ -85,15 +86,18 @@
       "items": [
         {
           "punto": "Punto de aplicación sencillo 1.",
-          "ejemplo": "Ejemplo práctico o suposición a derribar."
+          "ejemplo": "Ejemplo práctico o suposición a derribar.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Punto de aplicación sencillo 2.",
-          "ejemplo": "Ejemplo práctico o suposición a derribar."
+          "ejemplo": "Ejemplo práctico o suposición a derribar.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Punto de aplicación sencillo 3.",
-          "ejemplo": "Ejemplo práctico o suposición a derribar."
+          "ejemplo": "Ejemplo práctico o suposición a derribar.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         }
       ]
     },
@@ -103,15 +107,18 @@
       "items": [
         {
           "punto": "Punto de madurez profunda 1.",
-          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Punto de madurez profunda 2.",
-          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Punto de madurez profunda 3.",
-          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda."
+          "ejemplo": "Escenario de aplicación en liderazgo o vida profunda.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         }
       ]
     },
@@ -121,7 +128,7 @@
       "texto": "Es un error teológico pensar que el desplazamiento de Ismael fue un castigo. Fue un posicionamiento. No confundas la disciplina de las circunstancias con el abandono del Padre. El desierto de Ismael fue el lugar de su mayor visitación."
     },
     {
-      "tipo": "mapa_intertextual",
+      "tipo": "concordancia",
       "titulo": "La Biblia se Explica a Sí Misma",
       "referencias": [
         {
@@ -146,11 +153,13 @@
       "items": [
         {
           "punto": "Identifica tu 'desierto' actual y deja de quejarte con los hombres.",
-          "ejemplo": "Si hoy te sientes ignorado por tus amigos o familia, recuerda que Dios oyó la voz del muchacho Ismael antes que la de su madre. Él te oye por quien eres, no por quién te acompaña."
+          "ejemplo": "Si hoy te sientes ignorado por tus amigos o familia, recuerda que Dios oyó la voz del muchacho Ismael antes que la de su madre. Él te oye por quien eres, no por quién te acompaña.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Acepta que Dios te ama por Tu Identidad, no por tu conducta perfecta.",
-          "ejemplo": "Aunque Ismael fue fruto de un plan humano apresurado, Dios lo bendijo por ser semilla de Abraham. Tú eres semilla de Dios por la fe."
+          "ejemplo": "Aunque Ismael fue fruto de un plan humano apresurado, Dios lo bendijo por ser semilla de Abraham. Tú eres semilla de Dios por la fe.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         }
       ]
     },
@@ -160,16 +169,19 @@
       "items": [
         {
           "punto": "Discierne si tu actual 'desplazamiento' es en realidad un lanzamiento divino.",
-          "ejemplo": "Si te han quitado de un puesto de liderazgo o una estructura cómoda, no luches por volver. Pregúntale al Padre: '¿Es este el desierto donde me vas a convertir en cabeza de nación?'."
+          "ejemplo": "Si te han quitado de un puesto de liderazgo o una estructura cómoda, no luches por volver. Pregúntale al Padre: '¿Es este el desierto donde me vas a convertir en cabeza de nación?'.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         },
         {
           "punto": "Renuncia a la mentalidad de 'hijo de sierva' y asume tu herencia.",
-          "ejemplo": "Deja de operar desde la carencia o la envidia hacia los 'Isaacs' (los que parecen tenerlo todo fácil). Tu provisión viene del pozo que Dios abre, no de la tienda de Abraham."
+          "ejemplo": "Deja de operar desde la carencia o la envidia hacia los 'Isaacs' (los que parecen tenerlo todo fácil). Tu provisión viene del pozo que Dios abre, no de la tienda de Abraham.",
+          "escenario_actual": "Misión de Vida Real: Ejemplo de situación cotidiana en el siglo XXI para aplicar este punto."
         }
       ]
     }
   ],
-  "connections": {
+  "desafio_practico": "Ejemplo de desafío: Identifica tu 'desierto' actual y deja de quejarte con los hombres.",
+  "conexiones": {
     "huellas": [
       {
         "id": "agar",
