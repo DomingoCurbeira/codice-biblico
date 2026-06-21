@@ -44,3 +44,7 @@ indice_mana.html
 # Archivos ocultos del sistema operativo (Mac/Windows)
 .DS_Store
 Thumbs.db
+
+# Excluir documentación y scripts de desarrollo
+*.md
+*.py
