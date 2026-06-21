@@ -1,5 +1,545 @@
 [
   {
+    "id": "etymos-qesem-adivinacion",
+    "activo": false,
+    "fecha_programada": "2026-07-08",
+    "tipo": "etimologia",
+    "titulo": "Qésem: Adivinación y Rebelión",
+    "subtitulo": "La Filología del Desorden: Por qué Dios equipara la desobediencia a la brujería",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/endor-nigromante.webp",
+    "tags": [
+      "Rebelión",
+      "Brujería",
+      "Qésem",
+      "Saúl",
+      "Obediencia"
+    ],
+    "versiculo_clave": {
+      "texto": "Porque como pecado de adivinación (Qésem) es la rebelión, y como ídolos e idolatría la obstinación.",
+      "cita": "1 Samuel 15:23"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Juicio Profético",
+        "texto": "Saúl había recibido una orden directa de Dios: destruir completamente a Amalec. Sin embargo, Saúl perdonó al rey Agag y guardó lo mejor del ganado para 'ofrecerlo' a Dios. Cuando Samuel lo confronta, Saúl intenta justificar su rebelión con una excusa religiosa (quería adorar). Es entonces cuando el profeta suelta una de las condenas más aterradoras de la Biblia, equiparando la acción de Saúl, no con una simple 'equivocación', sino con el peor pecado penalizado en Israel: la brujería."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Qésem (קֶסֶם)",
+        "idioma": "Hebreo",
+        "raiz": "Qasam (Adivinar / Sortilegio / Falsa profecía)",
+        "significado": "Adivinación, brujería, manipulación espiritual para obtener información o poder fuera del canal divino.",
+        "fonetica_guia": "Qé-sem",
+        "revelacion": "El Qésem (Adivinación) busca obtener el control del futuro saltándose la sumisión a Dios. La rebelión es exactamente la misma raíz espiritual: es decidir que tu propia voluntad o intelecto es superior al diseño revelado del Cielo. Cuando decides desobedecer a Dios, dejas de operar en el sistema del Reino y empiezas a operar en el sistema de la hechicería: intentar manipular la realidad sin someterte al Creador."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios de Orden y Única Fuente de Verdad",
+        "texto": "El atributo de Verdad Absoluta exige que Dios sea el único canal legítimo de provisión, dirección y poder. Cualquier intento de 'saltar la cerca' para lograr resultados (ya sea consultando los astros o desobedeciendo un principio moral en los negocios) es un asalto directo a Su autoridad como Arquitecto del universo."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: La Sumisión que deshizo el Qésem",
+        "texto": "Satanás le ofreció a Jesús en el desierto el camino rápido al gobierno de la tierra: 'Te daré todos los reinos si te postras'. Era una invitación al Qésem, a obtener el resultado legítimo mediante un canal ilegítimo. Jesús deshizo la rebelión en el Edén y la caída de Saúl mediante Su sumisión total: 'No mi voluntad, sino la tuya'. La obediencia de Cristo es el antídoto contra el sistema de manipulación del mundo."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "De la Rebelión a la Nigromancia",
+        "descripcion": "El caso de Saúl nos muestra que la rebelión no es estática, es una pendiente resbaladiza:",
+        "pasos": [
+          {
+            "concepto": "Rebelión Parcial",
+            "explicacion": "Guardar lo mejor del ganado 'para Dios'. Mezclar la propia voluntad con lenguaje espiritual."
+          },
+          {
+            "concepto": "Obstinación",
+            "explicacion": "Negarse a aceptar la corrección ('yo sí obedecí la voz de Jehová'). La ceguera espiritual total."
+          },
+          {
+            "concepto": "Silencio Divino",
+            "explicacion": "Dios deja de responder por sueños, Urim o profetas. La rebelión bloquea la frecuencia."
+          },
+          {
+            "concepto": "Consumación del Qésem",
+            "explicacion": "Al final de su vida, Saúl termina visitando literalmente a la adivina de Endor. La rebelión del corazón siempre termina abrazando la hechicería manifiesta."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Condena de los Caminos Alternos",
+        "referencias": [
+          {
+            "cita": "Deuteronomio 18:10",
+            "versiculo": "No sea hallado en ti... quien practique adivinación (Qésem), ni agorero, ni sortílego, ni hechicero.",
+            "revelacion": "El mandamiento fundacional. La advertencia no es porque la magia no funcione, sino porque su fuente es corrupta."
+          },
+          {
+            "cita": "Ezequiel 13:23",
+            "versiculo": "Romperé asimismo vuestros velos mágicos, y libraré a mi pueblo de vuestra mano...",
+            "revelacion": "Dios se levanta agresivamente contra los falsos consuelos y profecías (Qésem) que mantienen a Su pueblo cautivo."
+          },
+          {
+            "cita": "Gálatas 5:4",
+            "versiculo": "De Cristo os desligasteis, los que por la ley os justificáis; de la gracia habéis caído.",
+            "revelacion": "La conexión en el Nuevo Pacto: buscar ser aceptado por Dios mediante un método distinto al diseño de Cristo es, en esencia, una rebelión legal."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Cerrando Puertas",
+        "items": [
+          {
+            "punto": "No busques el control del futuro.",
+            "ejemplo": "Leer el horóscopo o consultar cartas del tarot 'solo por diversión' para ver cómo te irá en el amor o el dinero.",
+            "escenario_actual": "Toda práctica que busque revelación fuera de la Biblia y el Espíritu Santo abre una puerta al desorden. Rompe hoy con cualquier objeto o creencia supersticiosa."
+          },
+          {
+            "punto": "No llames adoración a tu desobediencia.",
+            "ejemplo": "Ganar dinero de forma deshonesta y luego traer un buen diezmo a la iglesia esperando 'comprar' la limpieza.",
+            "escenario_actual": "Dios prefiere tu obediencia en los lunes de oficina antes que tu ofrenda el domingo. No intentes sobornar al Creador."
+          },
+          {
+            "punto": "Cede el derecho a saberlo todo.",
+            "ejemplo": "Vivir ansioso por no tener claridad absoluta sobre los próximos 10 años de tu vida.",
+            "escenario_actual": "Descansa en que Dios tiene el plano maestro. Tratar de forzar a Dios para que te dé respuestas prematuras es la raíz del Qésem."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Identificando la Obstinación",
+        "items": [
+          {
+            "punto": "La manipulación en el liderazgo es hechicería.",
+            "ejemplo": "Un pastor que usa la culpa, el miedo o 'decretos proféticos' inventados para obligar a la congregación a dar dinero o a obedecerle ciegamente.",
+            "escenario_actual": "Si lideras a otros, jamás uses herramientas emocionales o carismáticas para manipular. El liderazgo que controla es brujería evangélica; el liderazgo de Cristo inspira."
+          },
+          {
+            "punto": "Acepta el diagnóstico del profeta.",
+            "ejemplo": "Defenderte y buscar excusas cuando alguien que te ama te confronta sobre un pecado evidente ('el pueblo guardó lo mejor').",
+            "escenario_actual": "El orgullo (obstinación) es idolatría a ti mismo. Cuando te corrijan con la Palabra, adopta la postura de David: 'Pequé', no la de Saúl: 'Pero yo obedecí'."
+          },
+          {
+            "punto": "No provoques el silencio divino.",
+            "ejemplo": "Ignorar repetidamente la voz del Espíritu Santo en cosas pequeñas, hasta que tu conciencia se cauteriza y dejas de escucharlo por completo.",
+            "escenario_actual": "El peor castigo para la rebelión es el silencio de Dios (1 Sam 28:6). Mantén tu frecuencia abierta obedeciendo rápido, para no terminar buscando respuestas en los lugares oscuros."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Reempaquetado del Qésem Moderno",
+        "texto": "Hoy el Qésem no siempre viene con calderos y bolas de cristal. A menudo se viste de 'ley de atracción', 'manifestación cuántica' o incluso doctrinas eclesiásticas donde se enseña que el hombre puede 'decretar' y torcer la voluntad de Dios a su favor. La Biblia es clara: tratar de obtener los beneficios del Reino sin someternos al Rey del Reino es brujería. La fe obedece; la magia manipula."
+      }
+    ],
+    "desafio_practico": "Revisa si hay alguna 'vaca o oveja gorda' (un área de pecado disimulada) que hayas conservado bajo la excusa de que 'le sirve a Dios'. Hoy, llévala a la cruz y destrúyela en obediencia.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "saul",
+          "nombre": "Saúl",
+          "razon": "El rey que cayó en la brujería por no obedecer.",
+          "paralelismo": "El peligro trágico de retener el control."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "valle-jezreel",
+          "nombre": "Valle de Jezreel",
+          "razon": "El marco geográfico de la caída espiritual y física de Saúl.",
+          "simbolismo": "La región baja donde se ubicaba Endor y donde se libró la trágica batalla del monte Gilboa contra los filisteos."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "qesem-heb",
+          "nombre": "Qésem (Adivinación)",
+          "razon": "El eje filológico.",
+          "familia": "Brujería, manipulación, rebelión."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rompiendo-rebelion",
+          "tema": "Arrepentimiento por Desobediencia",
+          "declaracion": "Padre Santo, renuncio a toda forma de manipulación o intento de torcer Tu voluntad. Limpia mi corazón de la obstinación. Deseo operar exclusivamente en el orden de Tu Reino."
+        }
+      ]
+    }
+  },
+  {
+    "id": "etymos-kabod-gloria",
+    "activo": false,
+    "fecha_programada": "2026-07-01",
+    "tipo": "etimologia",
+    "titulo": "Kabód: El Peso de la Gloria",
+    "subtitulo": "Descifrando el Código de la Majestad: Por qué la presencia de Dios es innegable e inamovible",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "17 min",
+    "imagen_portada": "../img/estudios/kabod-peso.webp",
+    "tags": [
+      "Gloria",
+      "Kabód",
+      "Presencia",
+      "Etimología",
+      "Majestad"
+    ],
+    "versiculo_clave": {
+      "texto": "Y la gloria (Kabód) de Jehová reposó sobre el monte Sinaí...",
+      "cita": "Éxodo 24:16"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Teología de la Presencia",
+        "texto": "Cuando usamos la palabra 'gloria' en occidente, solemos pensar en fama, un resplandor brillante, o una canción de adoración. Es un concepto muy etéreo y casi abstracto. Sin embargo, para los autores bíblicos, la Gloria no era algo flotante; era algo físico y abrumador. En el desierto, cuando el Tabernáculo fue terminado, el texto dice que Moisés no pudo entrar porque la Gloria 'llenó' el lugar (Ex 40:35). No era solo luz; era una 'gravedad' divina. Cuando el Arca fue llevada al templo de Dagón, ese 'peso' derribó literalmente al ídolo de piedra y trajo devastación física a la ciudad filistea. La gloria es peligrosa."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Kabód (כָּבוֹד)",
+        "idioma": "Hebreo",
+        "raiz": "Kavad (Ser pesado / Ser denso / Honrar)",
+        "significado": "Peso, gravedad, esplendor, majestad aplastante.",
+        "fonetica_guia": "Ka-bód",
+        "revelacion": "El Kabód es la manifestación externa del valor interno de Dios. Cuando dices 'te doy la gloria', en hebreo estás diciendo 'reconozco que Tú eres lo más pesado, lo más valioso y lo más denso de mi vida; todo lo demás es ligero y desechable'. Cuando la Gloria desciende en una iglesia, la gente suele caer al suelo, no por un truco psicológico, sino porque el espíritu humano no puede sostenerse erguido ante la 'gravedad' del Kabód."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Tangible y Temible",
+        "texto": "El Kabód revela que Dios no es una simple idea filosófica. Su atributo de Majestad indica que Él tiene 'sustancia'. Así como la gravedad de la Tierra mantiene los océanos en su lugar, el Kabód de Dios mantiene el universo funcionando. Cuando ese peso se concentra en un punto (como el Arca, o el día de Pentecostés), su impacto altera la realidad física, biológica y espiritual de quienes están cerca."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesucristo: El Peso que Sostuvo la Ira",
+        "texto": "El apóstol Pablo escribe: 'Esta leve tribulación momentánea produce en nosotros un cada vez más excelente y eterno peso de gloria' (2 Cor 4:17). Cristo, al soportar el inmenso peso del pecado y la ira de Dios en la cruz, fue glorificado por el Padre. Él es el portador legítimo del Kabód. Por eso, en Su segunda venida, todo ojo le verá y toda rodilla se doblará ante la abrumadora evidencia de Su gravedad cósmica."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "De lo Ligero a lo Pesado",
+        "descripcion": "El Kabód transforma nuestro sistema de valores:",
+        "pasos": [
+          {
+            "concepto": "Lo Ligero (Qalal)",
+            "explicacion": "El pecado, la opinión de los hombres, el orgullo, la idolatría. No tienen peso eterno, el viento se los lleva."
+          },
+          {
+            "concepto": "Lo Pesado (Kabód)",
+            "explicacion": "La Palabra de Dios, la integridad, el temor del Señor. Lo que ancla el alma en medio de la tormenta."
+          },
+          {
+            "concepto": "La Transferencia (El Intercambio Final)",
+            "explicacion": "En la cruz, el Hijo de Dios cargó con lo ligero y desechable de nuestra naturaleza (el pecado) para imputarnos Su peso eterno de justicia. Él se hizo ligero para que nosotros lleváramos el Kabód."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Gloria como Sustancia",
+        "referencias": [
+          {
+            "cita": "1 Reyes 8:11",
+            "versiculo": "Y los sacerdotes no pudieron permanecer para ministrar por causa de la nube; porque la gloria (Kabód) de Jehová había llenado la casa de Jehová.",
+            "revelacion": "El peso de Dios paraliza el esfuerzo y el activismo humano."
+          },
+          {
+            "cita": "Hebreos 1:3",
+            "versiculo": "el cual, siendo el resplandor de su gloria, y la imagen misma de su sustancia...",
+            "revelacion": "Jesucristo es la manifestación exacta y corpórea del Kabód."
+          },
+          {
+            "cita": "Hageo 2:9",
+            "versiculo": "La gloria (Kabód) postrera de esta casa será mayor que la primera, ha dicho Jehová de los ejércitos...",
+            "revelacion": "Una promesa profética de que la manifestación de Dios a través de Cristo y Su iglesia redimida tendría un peso y un impacto espiritual muy superior a la gloria física del templo de Salomón."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Dar el 'Peso' Correcto",
+        "items": [
+          {
+            "punto": "Honrar es dar 'peso'.",
+            "ejemplo": "Darle más importancia ('peso') a lo que dicen tus amigos o a la moda de turno que a lo que dice la Biblia.",
+            "escenario_actual": "Cuando tomes una decisión hoy, pregúntate: ¿A qué opinión le estoy dando más 'Kabód' (peso), a mis emociones o al diseño de Dios?"
+          },
+          {
+            "punto": "La alabanza no es entretenimiento.",
+            "ejemplo": "Cantar en la iglesia como si estuvieras en un concierto, enfocado en el ritmo en lugar de enfocarte en la majestad de Dios.",
+            "escenario_actual": "En tu próximo tiempo de adoración, cierra los ojos y visualiza mentalmente el trono de Dios. Ríndele honor consciente a Su inmensidad."
+          },
+          {
+            "punto": "No confundas emoción con presencia.",
+            "ejemplo": "Pensar que Dios solo estuvo en la reunión porque lloraste o la música estuvo perfecta, ignorando la convicción silenciosa del Espíritu en un día normal.",
+            "escenario_actual": "Evalúa tu crecimiento no por cuánto sientes a Dios, sino por el peso de la obediencia que estás dispuesto a cargar en tu rutina diaria (en tu trabajo o universidad)."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Soportando la Gravedad",
+        "items": [
+          {
+            "punto": "El sufrimiento forja la capacidad para la Gloria.",
+            "ejemplo": "Huir del proceso de quebrantamiento, sin entender que Dios está estirando tu capacidad espiritual para que puedas sostener una unción mayor.",
+            "escenario_actual": "Si estás en medio de una presión intensa ('tribulación'), no te quejes. Ora: 'Señor, usa esto para producir en mí el eterno peso de Tu gloria'."
+          },
+          {
+            "punto": "Cuidado con robarte el peso.",
+            "ejemplo": "Usar la plataforma o los dones que Dios te dio para llevarte el crédito (gloria) y ser admirado por los hombres.",
+            "escenario_actual": "Desvía intencionalmente el aplauso humano. Cuando alguien te felicite por un don ministerial, agradécelo con gracia y dirige de inmediato ese 'Kabód' de regreso a Cristo."
+          },
+          {
+            "punto": "El peso requiere estructura alineada.",
+            "ejemplo": "Pedir que Dios mande un avivamiento sobre un equipo de liderazgo que está fracturado por chismes o competencias carnales.",
+            "escenario_actual": "Antes de pedir que la gloria caiga sobre tu familia o ministerio, repara las grietas relacionales. Dios no derramará Su Kabód sobre odres que se niegan a ser lavados."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Gloria Ligera",
+        "texto": "Muchos movimientos enfatizan una 'gloria' que solo produce risas descontroladas, oro en los dientes, u oro falso, sin ningún llamado a la transformación moral, el arrepentimiento o la cruz. El verdadero Kabód del Antiguo y Nuevo Testamento siempre produjo terror reverente, humillación y una santidad más profunda en quienes lo experimentaron. Si la 'gloria' te hace arrogante o frívolo, no es el Kabód bíblico."
+      }
+    ],
+    "desafio_practico": "Toma un objeto pesado (como un libro grueso o una piedra). Sostenlo en tus manos unos minutos y dile a Dios: 'Señor, quiero que Tu palabra, Tu presencia y Tus principios tengan este peso absoluto en mis decisiones diarias'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El resplandor de Su gloria.",
+          "paralelismo": "El peso eterno encarnado."
+        }
+      ],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "kabod-heb",
+          "nombre": "Kabód (Gloria)",
+          "razon": "El eje central de la enseñanza.",
+          "familia": "Gravedad, esplendor, autoridad."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "restaurar-gloria",
+          "tema": "El Hambre del Kabód",
+          "declaracion": "Padre, que todo lo que es ligero y mundano en mí sea barrido por el peso de Tu presencia. Hazme un recipiente apto para Tu gloria, enséñame a no robarla y a reverenciarla siempre."
+        }
+      ]
+    }
+  },
+  {
+    "id": "etymos-shama-oir",
+    "activo": false,
+    "fecha_programada": "2026-06-24",
+    "tipo": "etimologia",
+    "titulo": "Shamá': El Arte de Escuchar",
+    "subtitulo": "Descifrando el Código Legal de la Obediencia: Por qué en el Reino de Dios oír sin actuar es sordera",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/shama-oir.webp",
+    "tags": [
+      "Samuel",
+      "Shamá",
+      "Obediencia",
+      "Escuchar",
+      "Etimología"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Samuel dijo: Habla, porque tu siervo oye (Shamá).",
+      "cita": "1 Samuel 3:10"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Narrativa Profética",
+        "texto": "En la cultura occidental (griega), 'escuchar' es un proceso acústico y cognitivo. Si te digo algo y tú lo entiendes, asumes que has 'escuchado'. Sin embargo, en el mundo hebreo antiguo, los conceptos eran funcionales y orientados a la acción. Para un hebreo, la audición estaba indisolublemente unida a la obediencia. El Shemá ('Oye, Israel', Dt 6:4) no es solo una llamada a prestar atención auditiva, es una orden militar: 'Presta atención, interioriza y ejecuta'. Cuando Samuel responde 'Habla, que tu siervo oye', no está diciendo 'tengo buen oído', está firmando un contrato en blanco que dice 'lo que digas, lo haré'."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Shamá' (שָׁמַע)",
+        "idioma": "Hebreo",
+        "raiz": "Sh-m-a (Oír / Prestar atención / Obedecer)",
+        "significado": "Escuchar inteligentemente con la intención garantizada de responder y obedecer.",
+        "fonetica_guia": "Sha-má",
+        "revelacion": "En el hebreo bíblico, no existe una palabra independiente para 'obedecer' como concepto aislado. Para decir 'obedecer', se usa 'Shamá'. Esto es una revelación masiva: Si dices que oíste a Dios, pero no hiciste lo que te pidió, bíblicamente hablando, estás sordo. La acción valida la audición."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Comunicador y Autoridad Soberana",
+        "texto": "Dios revela que Él es un Dios que habla (a diferencia de los ídolos mudos de las naciones), pero Su atributo de Soberanía exige que Su voz no sea tratada como una simple 'sugerencia'. Cuando Dios habla, la materia se altera (creación) o la voluntad humana se alinea (obediencia). Él busca vasijas como Samuel, dispuestas a ser afinadas en la frecuencia del 'Shamá'."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesucristo: El Oído Perfecto",
+        "texto": "Isaías 50:4-5 dice proféticamente sobre el Mesías: 'Despierta mi oído para que oiga como los sabios... yo no fui rebelde'. Jesús encarna la plenitud del 'Shamá'. Él dijo: 'Las palabras que yo os hablo, no las hablo por mi propia cuenta' (Jn 14:10). Cristo no solo tenía un oído acústico para el Padre, tenía una voluntad perfectamente sintonizada para ejecutar cada decreto del Cielo."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Las Cuatro Etapas de la Frecuencia Divina",
+        "descripcion": "El llamado de Samuel en la noche nos revela cómo se afina el oído espiritual:",
+        "pasos": [
+          {
+            "concepto": "Percepción Borrosa",
+            "explicacion": "Samuel oye la voz (acústica), pero la confunde con la de Elí. Conoce el sonido, pero no al Emisor."
+          },
+          {
+            "concepto": "Dirección Sacerdotal",
+            "explicacion": "Elí, a pesar de sus fallos, discierne que es Dios y le da a Samuel el protocolo de respuesta ('Habla, Jehová...')."
+          },
+          {
+            "concepto": "Posición de Servicio",
+            "explicacion": "Samuel responde como 'siervo' (Ebed). No se puede oír a Dios desde el orgullo, solo desde la rendición."
+          },
+          {
+            "concepto": "Recepción de la Carga",
+            "explicacion": "Una vez afinado el oído, Dios le suelta a Samuel una profecía durísima (el juicio contra Elí). Oír a Dios duele a la carne."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Hilo de la Audición Activa",
+        "referencias": [
+          {
+            "cita": "Santiago 1:22",
+            "versiculo": "Pero sed hacedores de la palabra, y no tan solamente oidores, engañándoos a vosotros mismos.",
+            "revelacion": "Santiago, con mente hebrea, nos advierte contra el engaño griego de creer que entender un sermón equivale a haberlo obedecido."
+          },
+          {
+            "cita": "Juan 10:27",
+            "versiculo": "Mis ovejas oyen mi voz, y yo las conozco, y me siguen.",
+            "revelacion": "Jesús une indisolublemente la audición ('oyen') con la acción incondicional ('siguen')."
+          },
+          {
+            "cita": "Mateo 7:24",
+            "versiculo": "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca.",
+            "revelacion": "Jesús define la verdadera audición (Shamá). Oír sin ejecutar equivale a construir sobre la arena de la inestabilidad emocional."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Aprender a Sintonizar",
+        "items": [
+          {
+            "punto": "Apaga el ruido ambiental.",
+            "ejemplo": "Tratar de orar y escuchar a Dios mientras tienes la televisión prendida, el celular sonando y la mente llena de ansiedades.",
+            "escenario_actual": "Dedica 10 minutos hoy al silencio total. Sin música de fondo. Solo tú, diciéndole: 'Señor, estoy aquí para escuchar'."
+          },
+          {
+            "punto": "No confundas las voces.",
+            "ejemplo": "Creer que cualquier pensamiento bueno en tu cabeza es 'la voz de Dios', sin pasarlo por el filtro de la Biblia.",
+            "escenario_actual": "Si sientes que Dios te 'dijo' algo, compáralo con la Escritura. Dios nunca te dirá que hagas algo que contradiga Su Palabra escrita."
+          },
+          {
+            "punto": "La obediencia rápida es obediencia real.",
+            "ejemplo": "Saber que tienes que perdonar a alguien porque leíste la Biblia, pero decidir 'esperar a sentirlo'.",
+            "escenario_actual": "Si sabes que Dios te mandó a pedir perdón, a donar algo o a dejar un hábito, hazlo en las próximas 24 horas. La demora intencional es desobediencia."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Cargando el Peso de Su Voz",
+        "items": [
+          {
+            "punto": "Pasa de consumidor a ejecutor.",
+            "ejemplo": "Ir a conferencias, llenar libretas de apuntes y escuchar podcasts, pero no tener ninguna evidencia de cambio de carácter.",
+            "escenario_actual": "Deja de buscar 'nueva revelación' por un mes y dedícate a ejecutar (Shamá) la última instrucción clara que Dios te dio y que aún tienes en pausa."
+          },
+          {
+            "punto": "Escucha lo que es difícil de oír.",
+            "ejemplo": "Solo querer escuchar profecías de 'bendición y expansión', ignorando cuando el Espíritu te redarguye de pecado o egoísmo.",
+            "escenario_actual": "Pídele a Dios hoy: 'Señor, dime aquello que no quiero escuchar sobre mi carácter, y dame la gracia para aceptarlo sin excusas'."
+          },
+          {
+            "punto": "Asume tu posición de 'Siervo'.",
+            "ejemplo": "Acercarse a la oración como si fuera un restaurante de comida rápida ('dame esto, bendice aquello') en lugar de decir 'qué necesitas Tú de mí hoy'.",
+            "escenario_actual": "Cambia tu lenguaje de oración hoy. Transiciona del 'Señor, haz...' al 'Señor, dime qué debo hacer yo'."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Riesgo del Cristianismo Acústico",
+        "texto": "Cuidado con evaluar la 'espiritualidad' de una iglesia por cuán elocuentes son sus predicadores o cuán espectaculares son sus enseñanzas. Puedes tener una iglesia llena de gente con cuadernos de apuntes que, ante el cielo, son un auditorio de sordos. El Reino no se edifica por la cantidad de conocimiento que consumes, sino por el porcentaje de la Palabra que ejecutas bajo presión."
+      }
+    ],
+    "desafio_practico": "Identifica una instrucción que sepas que Dios te dio (a través de la Biblia o convicción interna) y que no has cumplido. Hoy, comprométete a dar el primer paso físico de obediencia antes de que termine el día.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "samuel",
+          "nombre": "Samuel",
+          "razon": "El portador del 'Shamá'.",
+          "paralelismo": "El niño que se convirtió en juez por su disposición a escuchar lo duro."
+        }
+      ],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "shama-heb",
+          "nombre": "Shamá (Oír)",
+          "razon": "El concepto fundacional del estudio.",
+          "familia": "Atención, obediencia, ejecución."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "afinando-oido",
+          "tema": "Afinación Profética",
+          "declaracion": "Padre, perdóname por mi sordera espiritual y por acumular conocimiento sin acción. Hoy digo como Samuel: Habla, que tu siervo te escucha y está listo para obedecer."
+        }
+      ]
+    }
+  },
+  {
     "id": "dinamica-kenosis-poder-vacio",
     "activo": true,
     "fecha_programada": "2026-05-01",

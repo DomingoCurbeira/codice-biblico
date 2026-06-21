@@ -372,11 +372,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     // --- 5. RENDERIZADO DEL BANNER "REVELACIÓN DE HOY" ---
     const bannerContainer = document.getElementById('today-revelation-banner');
     if (bannerContainer && estudios.length > 0) {
-        // Obtener fecha actual en formato YYYY-MM-DD
-        const hoyStr = new Date().toISOString().split('T')[0];
+        // Obtener fecha actual LOCAL en formato YYYY-MM-DD
+        const ahora = new Date();
+        const anio = ahora.getFullYear();
+        const mes = String(ahora.getMonth() + 1).padStart(2, '0');
+        const dia = String(ahora.getDate()).padStart(2, '0');
+        const hoyLocalStr = `${anio}-${mes}-${dia}`;
         
         // Buscar el estudio que coincida con la fecha de hoy
-        const estudioHoy = estudios.find(e => e.fecha_programada === hoyStr);
+        const estudioHoy = estudios.find(e => {
+            return e.fecha_programada === hoyLocalStr;
+        });
 
         if (estudioHoy) {
             bannerContainer.innerHTML = `
@@ -478,9 +484,10 @@ document.addEventListener('DOMContentLoaded', async () => {
                             </div>
                         `;
                     } else if (bloque.tipo === 'lexico_profundo') {
-                        const cleanTerm = (bloque.termino || '').replace(/'/g, "\\'");
-                        const cleanLang = (bloque.idioma || '').replace(/'/g, "\\'");
-                        const cleanFonetica = (bloque.fonetica_guia || '').replace(/'/g, "\\'");
+                        // Eliminar comillas simples por completo para los parámetros de la función
+                        const cleanTerm = (bloque.termino || '').replace(/'/g, "");
+                        const cleanLang = (bloque.idioma || '').replace(/'/g, "");
+                        const cleanFonetica = (bloque.fonetica_guia || '').replace(/'/g, "");
 
                         htmlContent += `
                             <div class="lexicon-deep-card">
@@ -744,7 +751,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     huellasRelacionadas.forEach(p => {
                         const textoVisto = `<span style="font-size: 0.65rem; font-weight: 800; color: #10b981; letter-spacing: 0.5px;">VISTO</span>`;
                         const estaCompletado = perfil.logros.includes(p.id) ? textoVisto : '👣';
-                        const nombreOrigen = estudio.titulo;
+                        const nombreOrigen = (estudio.titulo || '').replace(/'/g, '');
                         
                         htmlContent += `
                             <div class="connect-card huellas1" 
@@ -762,7 +769,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // B) Cronos (Lugares con RETORNO INTELIGENTE)
                 if (conexiones.cronos) {
                     conexiones.cronos.forEach(c => {
-                        const nombreOrigen = estudio.titulo; 
+                        const nombreOrigen = (estudio.titulo || '').replace(/'/g, '');
                         
                         htmlContent += `
                         <div class="connect-card cronos" 
@@ -780,7 +787,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // C) Etymos (Etimología con RETORNO INTELIGENTE)
                 if (conexiones.etymos) {
                     conexiones.etymos.forEach(e => {
-                        const nombreOrigen = estudio.titulo;
+                        const nombreOrigen = (estudio.titulo || '').replace(/'/g, '');
                         htmlContent += `
                         <div class="connect-card etymos" 
                             style="cursor:pointer;" 
@@ -798,7 +805,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 if (conexiones.aposento) {
                     conexiones.aposento.forEach(a => {
                         const linkParam = a.id_oracion || encodeURIComponent(a.tema);
-                        const nombreOrigen = estudio.titulo; // Guardamos el nombre del estudio actual
+                        const nombreOrigen = (estudio.titulo || '').replace(/'/g, '');
                         
                         htmlContent += `
                         <div class="connect-card aposento" 

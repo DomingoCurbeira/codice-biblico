@@ -1,5 +1,555 @@
 [
   {
+    "id": "mitos-saul-sacrificio",
+    "activo": false,
+    "fecha_programada": "2026-07-07",
+    "tipo": "mitos",
+    "titulo": "El Mito de la Impaciencia Justificada",
+    "subtitulo": "¿Por qué ofrecer un sacrificio a Dios le costó el trono a Saúl? El peligro del pragmatismo religioso",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/saul-sacrificio.webp",
+    "tags": [
+      "Saúl",
+      "Sacrificio",
+      "Obediencia",
+      "Samuel",
+      "Impaciencia"
+    ],
+    "versiculo_clave": {
+      "texto": "Y dijo Samuel: ¿Qué has hecho? Y Saúl respondió: Porque vi que el pueblo se me desertaba... me esforcé, pues, y ofrecí holocausto.",
+      "cita": "1 Samuel 13:11-12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Trágica / Análisis de Crisis",
+        "titulo": "La Prueba en Gilgal",
+        "texto": "La situación era desesperada. Saúl y un pequeño grupo de soldados estaban en Gilgal, rodeados por un ejército filisteo masivo ('como la arena del mar'). Samuel le había ordenado a Saúl esperar exactamente siete días hasta que él llegara para ofrecer el sacrificio y buscar el favor de Dios antes de la batalla. El séptimo día llegó, el pueblo comenzó a desertar por miedo, y Samuel no aparecía. Sintiendo la presión política y militar, Saúl tomó una decisión pragmática: asumió funciones sacerdotales que no le correspondían y ofreció él mismo el holocausto. Justo cuando terminó, llegó Samuel. A los ojos humanos, Saúl hizo lo lógico para mantener a sus tropas unidas; a los ojos de Dios, cruzó una línea de autoridad inquebrantable."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Olah (עוֹלָה)",
+        "idioma": "Hebreo",
+        "raiz": "Alah (Subir / Ascender)",
+        "significado": "Holocausto, ofrenda quemada por completo que sube hacia Dios.",
+        "fonetica_guia": "O-láh",
+        "revelacion": "El 'Olah' era el sacrificio supremo de consagración; el animal se quemaba enteramente, simbolizando entrega total a Dios. La ironía es brutal: Saúl ofreció un sacrificio de 'entrega total' (Olah) mediante un acto de 'rebelión total' (usurpar el oficio del sacerdote). Dios no acepta el humo del sacrificio si las manos que encienden el fuego están manchadas de desobediencia."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de los Tiempos Exactos y la Autoridad Delegada",
+        "texto": "Dios se revela como Alguien que prueba el carácter a través de la presión del tiempo. El retraso de Samuel no fue un accidente; fue la providencia divina calibrando el corazón del rey. El atributo de Dios como Dador de Autoridad exige que cada uno respete su diseño: el rey gobierna (espada), el sacerdote oficia (altar). Cuando Saúl cruzó esa frontera por pánico, invalidó su capacidad para gobernar en el nombre de Dios."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Sacerdote y Rey Legítimo",
+        "texto": "Saúl intentó forzar la unión de la corona y el altar por su propia cuenta, lo cual estaba prohibido. Solo Jesucristo tiene el derecho legal y profético de ostentar ambos oficios. Jesús es el León (Rey) y el Cordero (Sacerdote/Sacrificio) simultáneamente, según el orden de Melquisedec. Saúl falló bajo la presión del miedo; Cristo, en Getsemaní, bajo la peor presión cósmica, esperó y obedeció al Padre hasta la cruz."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Anatomía de la Desobediencia Pragmática",
+        "descripcion": "Los pasos mentales que llevaron a Saúl a perder el Reino nos advierten hoy:",
+        "pasos": [
+          {
+            "concepto": "Lectura Natural de la Crisis",
+            "explicacion": "'Vi que el pueblo se me desertaba'. Medir la realidad por las circunstancias en lugar de por la palabra profética dada."
+          },
+          {
+            "concepto": "Justificación Espiritual",
+            "explicacion": "'Me esforcé... y ofrecí holocausto'. Disfrazar un acto de desobediencia y miedo como si fuera un acto de piedad y adoración."
+          },
+          {
+            "concepto": "Culpar a las Circunstancias",
+            "explicacion": "Saúl culpó a la tardanza de Samuel y a la amenaza filistea. El corazón rebelde nunca asume la responsabilidad de su pánico."
+          },
+          {
+            "concepto": "El Juicio Inmediato",
+            "explicacion": "'Tu reino no será duradero'. Una sola decisión pragmática, hecha por temor al hombre, borró el linaje de Saúl del trono."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Obediencia por Encima del Ritual",
+        "referencias": [
+          {
+            "cita": "1 Samuel 15:22",
+            "versiculo": "Ciertamente el obedecer es mejor que los sacrificios, y el prestar atención que la grosura de los carneros.",
+            "revelacion": "El principio universal que Samuel tuvo que enseñarle a Saúl más tarde: la liturgia no sustituye a la rendición."
+          },
+          {
+            "cita": "Proverbios 19:2",
+            "versiculo": "El alma sin ciencia no es buena, Y aquel que se apresura con sus pies, peca.",
+            "revelacion": "La advertencia contra el pánico. La impaciencia no es solo debilidad, es el vehículo del pecado."
+          },
+          {
+            "cita": "Hebreos 5:4",
+            "versiculo": "Y nadie toma para sí esta honra, sino el que es llamado por Dios, como lo fue Aarón.",
+            "revelacion": "Validación neotestamentaria del principio de autoridad: no puedes usurpar un diseño espiritual por iniciativa propia."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Trampa de 'Ayudar' a Dios",
+        "items": [
+          {
+            "punto": "El fin no justifica los medios.",
+            "ejemplo": "Mentir en un currículum para conseguir un trabajo y luego decir que 'Dios te abrió la puerta'.",
+            "escenario_actual": "Si para conseguir algo (incluso algo bueno) tienes que romper un mandamiento de Dios, ese no es Su plan. Dios no necesita que peques para bendecirte."
+          },
+          {
+            "punto": "Espera el tiempo de Dios.",
+            "ejemplo": "Empezar una relación de pareja con alguien que no comparte tu fe solo porque 'se te pasa el tiempo' o te sientes solo.",
+            "escenario_actual": "Cuando la presión sube y parece que la respuesta se retrasa (día 7), mantén tu posición. Ceder al pánico traerá peores consecuencias."
+          },
+          {
+            "punto": "No justifiques tus miedos.",
+            "ejemplo": "Culpar a tu jefe, a tu cónyuge o a la economía por tus malas decisiones.",
+            "escenario_actual": "Asume la responsabilidad. Cuando te equivoques, no le digas a Dios 'es que vi que todo se caía'; simplemente dile: 'Perdóname, desobedecí'."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Peligro del Pragmatismo",
+        "items": [
+          {
+            "punto": "El altar no es tuyo para manipularlo.",
+            "ejemplo": "Un líder de alabanza o pastor que, al ver que la gente está fría o aburrida, recurre a manipulación emocional o humo para 'hacer que algo pase'.",
+            "escenario_actual": "No fuerces el mover del Espíritu ('me esforcé y ofrecí holocausto'). Es preferible un culto sobrio en obediencia que un espectáculo nacido de la inseguridad pastoral."
+          },
+          {
+            "punto": "Respeta los diseños y autoridades ajenas.",
+            "ejemplo": "Un pastor que asume el control del dinero pasando por encima del equipo financiero, o un líder que toma funciones que le corresponden a otro.",
+            "escenario_actual": "La prisa ministerial no es excusa para cruzar las fronteras de autoridad. Mantente dentro de la jurisdicción que Dios te asignó."
+          },
+          {
+            "punto": "La prueba del último minuto.",
+            "ejemplo": "Abandonar una convicción ética en tu empresa justo el día antes de firmar el contrato porque sientes que si no cedes, lo perderás todo.",
+            "escenario_actual": "Dios suele probar el corazón en el 'día 7, a la última hora'. La verdadera lealtad se demuestra sosteniendo la posición cuando todo grita que abandones."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Espiritualidad del 'Resultadismo'",
+        "texto": "La iglesia occidental está profundamente infectada por el pragmatismo (si funciona, está bien). Juzgamos los ministerios por el resultado (cuánta gente se quedó o llegó) y no por el proceso (¿obedeció la Palabra?). Saúl creyó que porque el humo del sacrificio subió, la crisis estaba resuelta. Dios advierte: Puedes tener la liturgia, la fogata y la justificación lógica, pero si llegaste ahí rompiendo el diseño divino, estás construyendo tu propio exilio."
+      }
+    ],
+    "desafio_practico": "Identifica una situación en tu vida que te está causando ansiedad o pánico porque sientes que 'el tiempo se acaba'. Hoy, decide soltar el control y declarar: 'Señor, no forzaré las cosas. Esperaré Tu llegada'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Rey y Sacerdote.",
+          "paralelismo": "El único autorizado para ofrecer el sacrificio perfecto sin usurpar."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "gilgal",
+          "nombre": "Gilgal",
+          "razon": "El lugar de la prueba de espera.",
+          "simbolismo": "Donde el liderazgo humano tropezó ante la presión del reloj."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "olah-heb",
+          "nombre": "Olah (Holocausto)",
+          "razon": "El sacrificio que Saúl usurpó.",
+          "familia": "Entrega, fuego, ascensión."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "paciencia-proceso",
+          "tema": "Contrarrestando el Pánico",
+          "declaracion": "Padre, perdóname por tratar de 'ayudarte' pecando. Líbrame del pragmatismo. Dame la gracia de mantenerme firme en Tus promesas, incluso cuando mis ojos me griten que el tiempo se acaba."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mitos-arca-amuleto",
+    "activo": false,
+    "fecha_programada": "2026-06-30",
+    "tipo": "mitos",
+    "titulo": "El Mito del Amuleto Sagrado",
+    "subtitulo": "¿Por qué Dios permitió que robaran el Arca? La diferencia entre la magia pagana y la obediencia del pacto",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/arca-batalla.webp",
+    "tags": [
+      "Arca del Pacto",
+      "Mitos",
+      "Religión",
+      "Magia",
+      "Afec"
+    ],
+    "versiculo_clave": {
+      "texto": "Traigamos a nosotros de Silo el arca del pacto de Jehová, para que viniendo entre nosotros nos salve de la mano de nuestros enemigos.",
+      "cita": "1 Samuel 4:3"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Polémica Antiopresiva / Crítica Religiosa",
+        "titulo": "La Magia de la Desesperación",
+        "texto": "Tras ser derrotados por los filisteos, los líderes de Israel no se preguntaron '¿En qué hemos pecado contra Jehová?'. Su razonamiento fue pagano: 'Si traemos el objeto sagrado (el Arca), Dios se verá forzado a defendernos, porque Él no dejará que destruyan Su trono'. Esto es la definición misma de la magia: intentar manipular a la deidad a través de un rito o un objeto para obtener un beneficio egoísta. Israel redujo al Dios Creador del Universo a la categoría de un genio en una lámpara (o en una caja de madera cubierta de oro)."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Avodáh (עֲבוֹדָה)",
+        "idioma": "Hebreo",
+        "raiz": "Avad (Trabajar / Servir / Adorar)",
+        "significado": "Servicio, trabajo, adoración, ministerio.",
+        "fonetica_guia": "A-vo-dáh",
+        "revelacion": "En hebreo, la misma palabra para 'trabajar' la tierra es la palabra para 'adorar' a Dios. La verdadera adoración (Avodáh) es un acto de servicio incondicional y esfuerzo consagrado hacia el Rey. Lo que Israel hizo en Afec no fue Avodáh; fue manipulación. No querían servir a Dios, querían que Dios les sirviera como guardaespaldas de sus propios planes caídos."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Personal, no Objeto Mecánico",
+        "texto": "Al dejar que los filisteos capturaran el Arca, Dios estableció un principio monumental: Él es una Persona con voluntad, no una máquina expendedora de milagros. Su atributo de Personalidad Suprema significa que Él se relaciona mediante el pacto moral y la fe, no mediante la coacción ritual. Si tratas a Dios como un amuleto, Él se quedará en silencio mientras el enemigo te derrota."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "La Cruz no es un Amuleto",
+        "texto": "Muchos hoy tratan la cruz de Cristo de la misma manera que Israel trató el Arca. Usan la cruz como joya o decoración esperando 'protección' o 'suerte', sin tener ninguna intención de someterse al Señorío de Jesús. La cruz de Cristo no es un talismán; es el altar donde el Yo debe morir. Cristo exige que tomemos la cruz (obediencia), no que la usemos como amuleto (manipulación)."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Relación vs. Manipulación",
+        "descripcion": "El contraste entre la mentalidad pagana y el diseño del Reino:",
+        "pasos": [
+          {
+            "concepto": "Magia Pagana (Mentalidad del Amuleto)",
+            "explicacion": "'Si hago este rito (sacrificio, decreto) Dios tiene que hacer lo que yo quiero'. Yo soy el centro."
+          },
+          {
+            "concepto": "Adoración Bíblica (Mentalidad del Reino)",
+            "explicacion": "'Me humillo y obedezco la Palabra (Avodáh). Hágase Tu voluntad, no la mía'. Dios es el centro."
+          },
+          {
+            "concepto": "La Rendición Sincera (El Diseño Final)",
+            "explicacion": "'No te pido que me bendigas por este sacrificio; te bendigo porque Tú eres Dios. Yo me rindo a Tu juicio'. Dios vuelve a ser el Señor, y la victoria es una consecuencia de la comunión, no un soborno."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Rechazo a la Brujería Espiritual",
+        "referencias": [
+          {
+            "cita": "1 Samuel 15:23",
+            "versiculo": "Porque como pecado de adivinación es la rebelión, y como ídolos e idolatría la obstinación.",
+            "revelacion": "Samuel, quien creció viendo el desastre de Silo, nos enseña que rebelarse y tratar de obligar a Dios es el equivalente espiritual de la brujería."
+          },
+          {
+            "cita": "Amós 8:21",
+            "versiculo": "Aborrecí, abominé vuestras solemnidades, y no me complaceré en vuestras asambleas.",
+            "revelacion": "Dios rechaza cualquier ritual (aunque sea bíblico) si no está respaldado por un corazón justo."
+          },
+          {
+            "cita": "Oseas 5:22-24",
+            "versiculo": "Aunque me ofrezcáis vuestros holocaustos y vuestros presentes, no los recibiré... Antes bien, fluya el juicio como las aguas, y la justicia como impetuoso arroyo.",
+            "revelacion": "El Señor aclara que ninguna cantidad de rituales religiosos puede comprar Su favor si el estilo de vida del adorador está podrido de injusticia."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Oración no es Magia",
+        "items": [
+          {
+            "punto": "No uses el nombre de Jesús como hechizo.",
+            "ejemplo": "Creer que con repetir 'En el nombre de Jesús' diez veces al final de una oración, Dios está obligado a darte lo que pides.",
+            "escenario_actual": "Orar 'en el nombre de Jesús' significa orar de acuerdo a Su carácter y voluntad. Pídele a Dios que te enseñe a orar lo que Él ya desea hacer."
+          },
+          {
+            "punto": "La Biblia no es de la 'buena suerte'.",
+            "ejemplo": "Dejar la Biblia abierta en el Salmo 91 en la sala pensando que eso espanta las malas energías.",
+            "escenario_actual": "La Biblia protege tu mente cuando la lees, la crees y la obedeces. Ciérrala, ábrela, léela y vívela."
+          },
+          {
+            "punto": "El diezmo no es un soborno celestial.",
+            "ejemplo": "Dar dinero a la iglesia pensando que con eso obligas a Dios a prosperar tu negocio, aunque maltrates a tus empleados o mientas en tus impuestos.",
+            "escenario_actual": "Revisa por qué ofrendas. El dinero no compra a Dios; se da por gratitud y obediencia a Su casa. Dios bendice la fidelidad, no las transacciones."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Evaluando tu Avodáh",
+        "items": [
+          {
+            "punto": "Cuidado con la adoración utilitaria.",
+            "ejemplo": "Diezmar o servir en la iglesia solo 'para que Dios me multiplique las finanzas' o 'me cure'.",
+            "escenario_actual": "Adora y sirve a Dios por lo digno que Él es, incluso si Él decide no darte la respuesta que estás buscando en este momento."
+          },
+          {
+            "punto": "No arrastres el 'Arca' a tus propios pleitos.",
+            "ejemplo": "Justificar decisiones egoístas o malos negocios diciendo 'es que Dios me respaldó' para obligar a otros a estar de acuerdo contigo.",
+            "escenario_actual": "Ten la integridad de asumir la responsabilidad por tus decisiones, en lugar de usar el nombre de Dios como escudo teológico para tus errores."
+          },
+          {
+            "punto": "Rinde el resultado antes de la batalla.",
+            "ejemplo": "Entrar en ayuno y oración con un ultimátum: 'Señor, si no sanas a esta persona o no me das este contrato, dejaré de creer'.",
+            "escenario_actual": "Adopta la fe de Sadrac, Mesac y Abed-nego: 'Dios puede librarnos, pero SI NO LO HACE, igual no nos postraremos'. La fe inquebrantable adora a Dios por quién es, no por lo que da."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Engaño del Hiper-Declaramientismo",
+        "texto": "Hoy en día, se enseña mucho a 'decretar' y 'arrebatar' bendiciones, lo cual es bíblico en su contexto. Pero cuando esto se cruza con la falta de arrepentimiento, se convierte en el pecado de Israel en Afec. Pretender que podemos 'decretar' victoria mientras vivimos en desobediencia o falta de perdón es brujería evangélica. Dios no respaldará el orgullo humano, aunque cite la Biblia para justificarse."
+      }
+    ],
+    "desafio_practico": "Revisa tus motivos. Si Dios te dijera hoy 'no voy a darte lo que me estás pidiendo', ¿seguirías adorándole con la misma intensidad? Renuncia a usar a Dios como amuleto.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Señor, no el siervo.",
+          "paralelismo": "A quien nos sometemos, no a quien manipulamos."
+        }
+      ],
+      "cronos": [],
+      "etymos": [
+        {
+          "id": "avodah-he",
+          "nombre": "Avodáh (Servicio)",
+          "razon": "La verdadera adoración como entrega, no como exigencia.",
+          "familia": "Trabajo, sumisión, adoración."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "limpieza-altar-corazon",
+          "tema": "Protegiendo la Reverencia",
+          "declaracion": "Padre, perdóname por las veces que he intentado usarte para mis fines. Hoy decido que Tú eres el Rey y yo el siervo. Hágase Tu voluntad en mí."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mitos-eli-hijos",
+    "activo": false,
+    "fecha_programada": "2026-06-23",
+    "tipo": "mitos",
+    "titulo": "El Mito de la Piedad por Herencia",
+    "subtitulo": "¿Por qué los hijos del Sumo Sacerdote no conocían a Dios? El peligro de la familiaridad con lo sagrado",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "19 min",
+    "imagen_portada": "../img/estudios/eli-silo.webp",
+    "tags": [
+      "Elí",
+      "Samuel",
+      "Sacerdocio",
+      "Religión",
+      "Mitos"
+    ],
+    "versiculo_clave": {
+      "texto": "Los hijos de Elí eran hombres impíos, y no tenían conocimiento de Jehová.",
+      "cita": "1 Samuel 2:12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Sacerdotal / Juicio Institucional",
+        "titulo": "Oficiando en la Oscuridad",
+        "texto": "Elí era el Sumo Sacerdote y Juez de Israel, residente en Silo, donde estaba el Arca del Pacto. Sus hijos, Ofni y Finees, oficiaban como sacerdotes por derecho de nacimiento (linaje de Aarón). El texto hebreo los llama literalmente 'hijos de Belial' (hijos de inutilidad/maldad). Ellos manejaban los sacrificios, vestían el efod, y dominaban el protocolo religioso, pero el versículo es tajante: 'No conocían a Jehová'. Utilizaban el altar para extorsionar carne a los adoradores y cometían inmoralidad sexual en la puerta del Tabernáculo. Es la ilustración bíblica más gráfica de que la proximidad física a lo sagrado no garantiza la intimidad espiritual."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Yadá' (יָדַע)",
+        "idioma": "Hebreo",
+        "raiz": "Saber / Conocer / Experimentar",
+        "significado": "Conocer por intimidad y experiencia, no por intelecto.",
+        "fonetica_guia": "Ya-dá",
+        "revelacion": "Cuando dice que los hijos de Elí 'no tenían conocimiento (Yadá) de Jehová', no significa que ignoraran la Torá o la teología. ¡Ellos dirigían la iglesia de su tiempo! Significaba que no tenían experiencia íntima con Él. Confundieron la administración de los utensilios de Dios con el conocimiento del Dios de los utensilios. La familiaridad mató su reverencia."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Incorruptible y de Juicio Ineludible",
+        "texto": "Dios revela que Él no es un sistema que se pueda hackear. Nadie tiene 'inmunidad diplomática' en el Reino por causa de sus padres o su título eclesiástico. El atributo de Incorruptibilidad de Dios garantiza que Él prefiere destruir Su propia institución (Silo) antes de tolerar que Su Nombre sea profanado por ministros que usan el altar para el vientre y el ego."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Sacerdote Fiel vs Los Sacerdotes Impíos",
+        "texto": "Ofni y Finees son el antotipo de Cristo. Ellos tomaban la carne por la fuerza para sí mismos; Cristo (el verdadero Sumo Sacerdote) entregó Su propia carne por los demás. Ellos se servían del pueblo; Cristo lavó los pies de Su pueblo. El fracaso estrepitoso del sacerdocio levítico en Silo prepara el escenario profético para el surgimiento del Sacerdocio según el orden de Melquisedec: un sacerdocio inquebrantable basado en una vida indestructible (Jesucristo-Pneuma)."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Escalera de la Corrupción Religiosa",
+        "descripcion": "El declive de Silo no ocurrió en un día. Sigue un proceso de descomposición espiritual:",
+        "pasos": [
+          {
+            "concepto": "Tolerancia Pasiva",
+            "explicacion": "Elí escuchaba lo que hacían, los reprendió débilmente, pero no los destituyó. La honra a la familia superó la honra a Dios (1 Sam 2:29)."
+          },
+          {
+            "concepto": "Pérdida de la Vista",
+            "explicacion": "Físicamente, Elí quedó ciego; espiritualmente, la ceguera institucional hizo que no reconocieran la voz de Dios cuando llamó a Samuel."
+          },
+          {
+            "concepto": "Uso Utilitario de la Presencia",
+            "explicacion": "Llevar el Arca a la batalla como un amuleto mágico para ganar la guerra, sin arrepentimiento previo."
+          },
+          {
+            "concepto": "Pérdida de la Gloria",
+            "explicacion": "El nacimiento de Icabod: 'Traspasada es la gloria'. La religión se queda con la liturgia, pero sin la Presencia."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Peligro de la Religión sin Relación",
+        "referencias": [
+          {
+            "cita": "Mateo 7:22-23",
+            "versiculo": "Muchos me dirán en aquel día: Señor, Señor... Y entonces les declararé: Nunca os conocí (Yadá); apartaos de mí, hacedores de maldad.",
+            "revelacion": "Jesús aplica el mismo principio de Silo al Nuevo Testamento: Operar los carismas o dirigir la liturgia no sustituye la intimidad."
+          },
+          {
+            "cita": "Ezequiel 44:23",
+            "versiculo": "Y enseñarán a mi pueblo a hacer diferencia entre lo santo y lo profano...",
+            "revelacion": "La función sacerdotal que Elí y sus hijos perdieron: mantener la línea clara entre lo sagrado (Dios) y lo utilitario."
+          },
+          {
+            "cita": "Apocalipsis 3:1-2",
+            "versiculo": "Yo conozco tus obras, que tienes nombre de que vives, y estás muerto.",
+            "revelacion": "El mensaje a Sardis hace eco de Silo: puedes tener el título (Sacerdote/Iglesia) y la historia, pero carecer absolutamente de vida espiritual presente."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Salvación no se hereda",
+        "items": [
+          {
+            "punto": "Dios no tiene nietos.",
+            "ejemplo": "Pensar que porque tus padres son pastores, ancianos o cristianos devotos, tú tienes un 'pase libre' al cielo o no necesitas buscar a Dios.",
+            "escenario_actual": "Comprender que la fe de tu familia es un trampolín, pero tú debes construir tu propia relación (Yadá) con Jesús a puerta cerrada."
+          },
+          {
+            "punto": "Respeta las cosas de Dios.",
+            "ejemplo": "Acostumbrarse tanto a la iglesia que se empieza a tratar el servicio, la adoración o el diezmo como una rutina sin sentido o con ligereza.",
+            "escenario_actual": "Entrar a la reunión o conectarte online con expectativa y reverencia, sabiendo que vienes a encontrarte con el Rey, no a cumplir un evento social."
+          },
+          {
+            "punto": "Acepta la corrección.",
+            "ejemplo": "Ignorar los consejos espirituales de líderes o padres, como hicieron Ofni y Finees con Elí, endureciendo el corazón.",
+            "escenario_actual": "Cuando alguien te señala un error a la luz de la Biblia, recibe la advertencia con humildad en lugar de ponerte a la defensiva."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Protegiendo el Altar",
+        "items": [
+          {
+            "punto": "No uses el ministerio para tu ego o beneficio.",
+            "ejemplo": "Servir en el altar (predicar, cantar, liderar) buscando aplausos, influencia, dinero o beneficios secundarios.",
+            "escenario_actual": "Examina tu corazón: Si nadie te agradeciera o no tuvieras un título, ¿seguirías sirviendo con la misma excelencia y pasión para Dios?"
+          },
+          {
+            "punto": "Honra a Dios más que a los hombres.",
+            "ejemplo": "Elí honró más a sus hijos que a Dios al no detener su pecado (1 Sam 2:29). La tolerancia al pecado por evitar conflictos familiares o eclesiásticos es idolatría.",
+            "escenario_actual": "Tener la valentía de poner límites claros o ejercer disciplina bíblica en tu hogar o liderazgo, aunque duela, para proteger la santidad del ambiente."
+          },
+          {
+            "punto": "Combate la ceguera institucional.",
+            "ejemplo": "Estar tan ocupado en la logística de la iglesia (las lámparas, las puertas) que no percibes cuando Dios empieza a hablar (como le pasó a Elí con Samuel).",
+            "escenario_actual": "Asegúrate de que tu agenda administrativa no asfixie tu tiempo de quietud. Si no estás escuchando la voz fresca de Dios, estás operando en modo 'Silo'."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Riesgo de la Gracia Barata",
+        "texto": "Se ha enseñado mucho que Dios es tan amoroso que 'todo pasa' y 'todo se tolera' bajo el concepto de gracia. La historia de Silo demuestra que la gracia no anula la reverencia. Tratar la sangre de Cristo o el servicio a Dios como algo común o profano nos expone al juicio disciplinario de un Dios que, por amor, no permitirá que Su iglesia se convierta en una cueva de ladrones."
+      }
+    ],
+    "desafio_practico": "Hoy, identifica una rutina espiritual (leer, orar, ir a la iglesia) que hayas empezado a hacer 'en piloto automático'. Pausa, pídele perdón a Dios por la familiaridad irrespetuosa, y renueva tu asombro ante Su presencia.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Sacerdote Fiel prometido que reemplazaría la casa de Elí.",
+          "paralelismo": "El que honró al Padre hasta la muerte, frente a los que se honraron a sí mismos."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "La sede del juicio por la corrupción del altar.",
+          "simbolismo": "Lugar de advertencia: Dios no habita en edificios, habita en corazones contritos."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "yada-heb",
+          "nombre": "Yadá (Conocer)",
+          "razon": "La diferencia entre saber de Dios y experimentar a Dios.",
+          "familia": "Intimidad, relación, revelación."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "limpieza-altar-corazon",
+          "tema": "Protegiendo la Reverencia",
+          "declaracion": "Padre, perdóname por tratar Tus cosas como algo común. Renueva mi asombro. Límpiame de cualquier motivación impura en mi servicio y enséñame a conocerte íntimamente (Yadá)."
+        }
+      ]
+    }
+  },
+  {
     "id": "caida-hombre-entropia",
     "activo": true,
     "fecha_programada": "2026-05-14",
@@ -1695,7 +2245,6 @@
           "paralelismo": "El que nunca rompió Su voto y cuya muerte fue el mayor acto de fuerza de la historia."
         }
       ],
-      
       "etymos": [
         {
           "id": "nazir-heb",

@@ -1,5 +1,572 @@
 [
   {
+    "id": "sermones-saul-caida",
+    "activo": false,
+    "fecha_programada": "2026-07-10",
+    "tipo": "sermones",
+    "titulo": "El Espíritu que se retira",
+    "subtitulo": "Sermones Filtrados: La anatomía del vacío de poder y la locura de un líder que se negó a menguar",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "23 min",
+    "imagen_portada": "../img/estudios/saul-lanza.webp",
+    "tags": [
+      "Saúl",
+      "Espíritu",
+      "Envidia",
+      "Caída",
+      "David"
+    ],
+    "versiculo_clave": {
+      "texto": "El Espíritu de Jehová se apartó de Saúl, y le atormentaba un espíritu malo de parte de Jehová.",
+      "cita": "1 Samuel 16:14"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Psico-Espiritual / Narrativa de Caída",
+        "titulo": "La Oscuridad del Trono",
+        "texto": "La historia de Saúl es, quizás, la tragedia psicológica y espiritual más profunda del Antiguo Testamento. Una vez que Samuel declaró que el reino le había sido arrancado, el texto registra una transición aterradora: el Espíritu (Ruaj) de Dios, que lo había equipado para liderar, se aparta. Automáticamente, el vacío es llenado por un 'espíritu malo' que le produce tormento, paranoia y violencia homicida. Saúl pasa sus últimos años no peleando contra los enemigos de la nación, sino cazando a David (el nuevo ungido) consumido por la envidia debido a una canción ('Saúl mató a sus miles, y David a sus diez miles'). Saúl murió en su interior mucho antes de caer sobre su espada en el monte Gilboa."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Rúaj (רוּחַ)",
+        "idioma": "Hebreo",
+        "raiz": "Viento / Aliento / Mente / Espíritu",
+        "significado": "El aliento de vida, el Espíritu Santo, el viento invisible que genera un efecto visible.",
+        "fonetica_guia": "Rú-aj",
+        "revelacion": "El Rúaj es la energía invisible de Dios que transfiere vida y competencia. En el Antiguo Pacto, el Rúaj no moraba permanentemente en todos, sino que 'venía sobre' los líderes para capacitarlos. El caso de Saúl nos muestra que en el mundo espiritual el vacío no existe. Cuando el 'Rúaj' de santidad se retira a causa del orgullo rebelde, la depresión, la paranoia y los demonios tienen jurisdicción legal para ocupar el espacio."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Traspasa la Lámpara (Justicia Soberana)",
+        "texto": "Dios no es dueño de una franquicia que no se pueda mover. El atributo de Soberanía demuestra que si el líder falla, Dios simplemente mueve Su Espíritu a otra vasija (David). Dios no dejará Su propósito inconcluso porque un hombre decida atrincherarse en el ego. El dolor de Saúl es el recordatorio de que la unción es un préstamo, no un derecho adquirido."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Sostenedor Permanente del Rúaj",
+        "texto": "Juan el Bautista atestiguó que Jesús recibió el Espíritu Santo sin medida, y que este 'permaneció sobre Él' (Jn 1:32). A diferencia de Saúl, cuyo corazón no pudo sostener la unción, Cristo demostró una pureza tal que el Rúaj encontró en Él Su residencia eterna. Más aún, mediante el Nuevo Pacto, Cristo selló nuestro interior para que Su Espíritu no se retire jamás como lo hizo con Saúl, sino que nos preserve para la eternidad."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Descomposición por Envidia",
+        "descripcion": "La locura de Saúl siguió una ruta destructiva causada por la comparación:",
+        "pasos": [
+          {
+            "concepto": "Infección Auditiva",
+            "explicacion": "Escucha a las mujeres cantar y otorgarle más gloria a David (1 Sam 18:8). El orgullo no soporta compartir el escenario."
+          },
+          {
+            "concepto": "Mirada Tóxica",
+            "explicacion": "'Desde aquel día Saúl no miró con buenos ojos a David'. El Rúaj de Dios es reemplazado por la lente de la sospecha."
+          },
+          {
+            "concepto": "Ataque Físico",
+            "explicacion": "Lanza la jabalina a David mientras este toca el arpa. La envidia siempre trata de matar a la adoración genuina."
+          },
+          {
+            "concepto": "Paranoia Sistémica",
+            "explicacion": "Termina matando a 85 sacerdotes inocentes en Nob, creyendo que conspiran. Un líder sin el Rúaj percibe enemigos en todas partes."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Abismo de la Soberbia",
+        "referencias": [
+          {
+            "cita": "Salmos 51:11",
+            "versiculo": "No me eches de delante de ti, Y no quites de mí tu santo Espíritu.",
+            "revelacion": "El clamor desgarrador de David tras su pecado con Betsabé. David había visto a Saúl perder la mente, y sabía que perder la corona no era nada comparado con perder a Dios."
+          },
+          {
+            "cita": "Santiago 3:16",
+            "versiculo": "Porque donde hay celos y contención, allí hay perturbación y toda obra perversa.",
+            "revelacion": "La explicación apostólica de la caída de Saúl. Los celos son la puerta legal para la invasión del infierno."
+          },
+          {
+            "cita": "Proverbios 14:30",
+            "versiculo": "El corazón apacible es vida de la carne; Mas la envidia es carcoma de los huesos.",
+            "revelacion": "La pudrición interna del rey que tenía corona pero carecía de paz."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Vacunándote contra la Envidia",
+        "items": [
+          {
+            "punto": "Celebra el éxito ajeno.",
+            "ejemplo": "Enojarte porque alguien más nuevo en la iglesia cantó el solo, o porque un compañero fue ascendido antes que tú.",
+            "escenario_actual": "Si alguien de tu círculo logra algo, escríbele un mensaje o dile de frente: 'Me alegro mucho por ti, Dios te bendiga más'. Eso rompe la semilla de Saúl."
+          },
+          {
+            "punto": "La paz requiere espacio limpio.",
+            "ejemplo": "Ir a dormir rumiando cómo vengarte o responder a alguien que te ofendió en redes sociales.",
+            "escenario_actual": "El vacío no existe. Si llenas tu mente de chismes o rencor, el Espíritu Santo (Rúaj) no fluirá allí. Pide perdón hoy mismo."
+          },
+          {
+            "punto": "No guardes jabalinas.",
+            "ejemplo": "Tener siempre listas palabras hirientes (lanzas) para atacar a las personas cuando te sientes amenazado.",
+            "escenario_actual": "Identifica si eres una persona que ataca con el sarcasmo. Baja el arma hoy y decide responder con gracia."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Protegiendo tu Unción",
+        "items": [
+          {
+            "punto": "Sabe cuándo menguar.",
+            "ejemplo": "Un líder veterano que hace la vida imposible a los jóvenes talentos que vienen subiendo, por miedo a ser eclipsado.",
+            "escenario_actual": "Ten la grandeza de Juan el Bautista: 'Es necesario que Él crezca, pero que yo mengüe'. Abre espacios para que la nueva generación (los Davides) corran sin que les tires la lanza."
+          },
+          {
+            "punto": "Cuida tu cordura espiritual.",
+            "ejemplo": "Sentir que todo el mundo está en tu contra y aislarte del consejo pastoral ('nadie me entiende').",
+            "escenario_actual": "La paranoia ministerial destruyó a Saúl. Si te sientes constantemente atacado por tus propios hermanos, detente. Podrías estar bajo la opresión del orgullo. Busca un consejero."
+          },
+          {
+            "punto": "Protege el Rúaj por encima de los resultados.",
+            "ejemplo": "Permitir estrés, agotamiento y malos tratos hacia tu familia con la excusa de 'cumplir las metas' de tu proyecto o iglesia.",
+            "escenario_actual": "De nada sirve tener el reino si tienes tormento. Si sientes que la paz de Dios se está alejando de tu rutina, suelta la agenda y corre al aposento."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Doctrina de la Lanza Justificada",
+        "texto": "Una de las lecciones más grandes aquí es la respuesta de David. David esquivó la lanza de Saúl pero jamás se la devolvió. Es muy común hoy que, cuando somos heridos por líderes abusivos (Saúles modernos), tomemos la misma jabalina (el chisme, la rebelión o la venganza) para atacar. Tocar al 'ungido' en la carne, aunque este haya perdido el juicio, nos contamina con su mismo espíritu. La justicia le pertenece a Dios, no a la jabalina ofendida."
+      }
+    ],
+    "desafio_practico": "Ora hoy el Salmo 51:11 con todas tus fuerzas. Pídele al Espíritu Santo que exponga cualquier micro-semilla de envidia, celos o competencia en tu corazón y quémala en Su presencia.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El ungido que no devolvió la lanza.",
+          "paralelismo": "El corazón según Dios que soportó el quebrantamiento."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El poseedor eterno del Espíritu.",
+          "paralelismo": "El Salvador que fue odiado por la envidia de los líderes."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "El centro espiritual de la infancia y formación de Samuel.",
+          "simbolismo": "El lugar del santuario original donde se originó el profetismo de Samuel, en contraste con el vacío espiritual del posterior reinado de Saúl."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "ruaj-heb",
+          "nombre": "Rúaj (Espíritu)",
+          "razon": "La presencia invisible que determinó el destino del rey.",
+          "familia": "Aliento de vida, unción divina."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "guardando-uncion",
+          "tema": "Protegiendo el Corazón",
+          "declaracion": "Oh Dios, clamo como David: ¡No quites de mí Tu santo Rúaj! Líbrame de los celos y la envidia que pudren los huesos. Enséñame a celebrar a otros y a gobernarme a mí mismo."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-regreso-arca",
+    "activo": false,
+    "fecha_programada": "2026-07-03",
+    "tipo": "sermones",
+    "titulo": "El Regreso del Arca: Sinceridad vs Protocolo",
+    "subtitulo": "Sermones Filtrados: El desastre de Bet-semes y la lección sobre cómo manejar la santidad de Dios",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/arca-regreso.webp",
+    "tags": [
+      "Arca",
+      "Santidad",
+      "Reverencia",
+      "Bet-semes",
+      "Protocolo"
+    ],
+    "versiculo_clave": {
+      "texto": "Y los de Bet-semes dijeron: ¿Quién podrá estar delante de Jehová el Dios santo? ¿Y a quién irá de nosotros?",
+      "cita": "1 Samuel 6:20"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Sacerdotal / Narrativa de Restauración",
+        "titulo": "La Falsa Familiaridad en Bet-semes",
+        "texto": "Los filisteos, azotados por tumores y destrucción, devolvieron el Arca del Pacto a Israel en una carreta tirada por vacas. Llegó a Bet-semes, una ciudad de levitas (sacerdotes). Los habitantes se alegraron al principio y ofrecieron sacrificios. Pero luego cometieron un error fatal: movidos por una curiosidad irreverente, abrieron el Arca para mirar dentro. Dios hirió a muchos de ellos (el texto hebreo dice 'cincuenta mil setenta hombres', aunque algunos manuscritos antiguos dicen 'setenta'). Bet-semes es la prueba de que ser el 'pueblo elegido' no te da derecho a profanar lo sagrado."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Qódesh (קֹדֶשׁ)",
+        "idioma": "Hebreo",
+        "raiz": "Qadash (Separar / Apartar / Cortar)",
+        "significado": "Santidad, separación absoluta, lo que no debe mezclarse con lo común.",
+        "fonetica_guia": "Qó-desh",
+        "revelacion": "La santidad (Qódesh) no es solo pureza moral; es una cualidad de 'separación' que requiere protocolo y temor reverente. Los de Bet-semes eran levitas, sabían las leyes, pero trataron el Arca con la misma curiosidad con la que abrirían un baúl de tesoros humanos. La sinceridad en su alegría inicial no compensó la falta de protocolo de santidad. Dios es inmensamente accesible por la gracia, pero exige ser tratado como 'Qódesh'."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Santidad Fuego Consumidor",
+        "texto": "Dios revela que Su Santidad no es un atributo inofensivo. Es un fuego que purifica lo que está alineado con Él, pero destruye instantáneamente lo que es profano o irreverente. La presunción (creer 'a mí no me pasará nada porque soy de Bet-semes') es duramente castigada para preservar el temor al Señor en toda la nación."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Veló que nos Protege del Fuego",
+        "texto": "Bajo el Antiguo Pacto, mirar dentro del Arca traía muerte fulminante porque el pecado humano no puede coexistir con la luz del Qódesh. Sin embargo, en Jesucristo, el velo del templo se rasgó de arriba a abajo (Marcos 15:38). La sangre de Cristo es la que nos cubre, permitiéndonos ahora mirar 'a cara descubierta la gloria del Señor' (2 Cor 3:18) sin ser consumidos. Tenemos acceso audaz, no por nuestra irreverencia, sino por Su sacrificio protector."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Tres Maneras de Tratar la Gloria de Dios",
+        "descripcion": "La historia del Arca nos muestra tres posturas del corazón frente a lo sagrado:",
+        "pasos": [
+          {
+            "concepto": "Postura Pagana (Filisteos)",
+            "explicacion": "Tratan el Arca como un trofeo o amuleto para manipular su propio éxito. Termina en tumores y caída de sus ídolos."
+          },
+          {
+            "concepto": "Postura Familiar / Irreverente (Bet-semes)",
+            "explicacion": "Creen que su linaje o posición eclesiástica les da derecho a tratar los misterios de Dios con frivolidad y curiosidad morbosa. Termina en juicio letal."
+          },
+          {
+            "concepto": "Postura de Temor Reverente (Quiriat-jearim)",
+            "explicacion": "Eleazar es santificado específicamente para guardar el Arca con el protocolo y cuidado debido. El Arca reposa allí y trae paz antes del reinado de David."
+          },
+          {
+            "concepto": "El Reposo en Quiriat-jearim",
+            "explicacion": "Eleazar fue santificado exclusivamente para cuidar el Arca. Veinte años pasaron en lamento. Dios demanda sacerdotes preparados, no multitudes emocionadas."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Acercamiento Peligroso",
+        "referencias": [
+          {
+            "cita": "Hebreos 12:28-29",
+            "versiculo": "...sirvamos a Dios agradándole con temor y reverencia; porque nuestro Dios es fuego consumidor.",
+            "revelacion": "El Nuevo Testamento mantiene la misma advertencia de Bet-semes: la gracia no anula el temor a Su Santidad."
+          },
+          {
+            "cita": "Levítico 10:1-2",
+            "versiculo": "Nadab y Abiú... ofrecieron delante de Jehová fuego extraño, que él nunca les mandó. Y salió fuego de delante de Jehová y los quemó...",
+            "revelacion": "El juicio sobre la presunción sacerdotal: ignorar las instrucciones de Dios pensando que la 'sinceridad' es suficiente."
+          },
+          {
+            "cita": "Éxodo 33:20",
+            "versiculo": "Dijo más: No podrás ver mi rostro; porque no me verá hombre, y vivirá.",
+            "revelacion": "La santidad de Dios es letal para la naturaleza caída. El juicio en Bet-semes fue la manifestación directa de la pureza letal del Creador."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Respeto al Acercarse",
+        "items": [
+          {
+            "punto": "La curiosidad no es comunión.",
+            "ejemplo": "Acercarse a la Biblia solo para debatir intelectualmente, o estudiar profecía bíblica como si fuera un libro de misterios o teorías de conspiración.",
+            "escenario_actual": "La Palabra de Dios (el Arca) no se abre para satisfacer tu curiosidad humana, se abre para someterte a ella y ser transformado. Léela con actitud de siervo, no de crítico literario."
+          },
+          {
+            "punto": "No juegues con las disciplinas espirituales.",
+            "ejemplo": "Tomar la Santa Cena de forma rutinaria y mecánica, sin examinar tu vida, mientras guardas rencor contra un hermano.",
+            "escenario_actual": "Recuerda que la gracia nos da acceso a la mesa de Dios, pero el temor reverente nos exige acercarnos con un corazón limpio y arrepentido."
+          },
+          {
+            "punto": "No subestimes el sacrificio de Jesús.",
+            "ejemplo": "Hablar con Dios sin darle gracias por la cruz, asumiendo que tienes derecho a acercarte por ser 'buena persona'.",
+            "escenario_actual": "Toma un minuto antes de orar hoy para recordar: 'Si no fuera por la sangre de Jesús, yo no podría estar en esta habitación hablando Contigo'. Reconoce el puente de la cruz."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Equilibrio entre Gracia y Qódesh",
+        "items": [
+          {
+            "punto": "La Sinceridad no justifica la Desobediencia.",
+            "ejemplo": "Liderar un ministerio a tu manera, rompiendo los principios bíblicos (de moralidad, orden o sujeción) y justificarlo diciendo 'lo importante es que lo hago de corazón'.",
+            "escenario_actual": "Dios no negocia Su santidad a cambio de tus 'buenas intenciones'. Alinea de inmediato cualquier práctica en tu servicio a Dios con las Escrituras, sin excepciones."
+          },
+          {
+            "punto": "Cuidado con el 'Exceso de Familiaridad'.",
+            "ejemplo": "Tratar la adoración o el ministerio desde una plataforma con tanta ligereza que se convierte en un show donde hablas del 'Señor' como si fuera un compinche de tu nivel.",
+            "escenario_actual": "Tú eres Su hijo y Su amigo, pero Él sigue siendo el Creador del Universo. Si perdiste el asombro y el temblor reverente en tu comunión, pausa tu ministerio y busca el rostro del Padre."
+          },
+          {
+            "punto": "Entrena a otros en el protocolo del Reino.",
+            "ejemplo": "Permitir que servidores en tu iglesia ministren con rebeldía abierta o pecado escandaloso por miedo a que se vayan.",
+            "escenario_actual": "Como líder espiritual, asume la responsabilidad (como lo hizo Quiriat-jearim después) de apartar, enseñar y proteger la santidad en quienes sirven, antes de exponerlos al ministerio público."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Antropocentrismo Disfrazado de Adoración",
+        "texto": "La doctrina que afirma que Dios está tan enamorado de nosotros que ignorará nuestras transgresiones al protocolo de Su santidad, es falsa. Bet-semes nos enseña que acercarse a Dios sin el mediador correcto (la sangre) y sin la actitud correcta (reverencia) es letal. No somos el centro del universo; la Santidad (Qódesh) de Jehová es el centro, y nosotros tenemos el inmenso y aterrador privilegio de ser invitados a acercarnos."
+      }
+    ],
+    "desafio_practico": "Identifica si hay algún área en la que estás tratando a Dios con falta de respeto o frivolidad. Toma 5 minutos hoy, póstrate en el suelo (físicamente) en tu cuarto, y renueva tu temor reverente al Dios Altísimo.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El Veló Rasgado.",
+          "paralelismo": "Gracias a Su sacrificio, la gloria que mató en Bet-semes nos vivifica hoy."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "El origen histórico de la pérdida.",
+          "simbolismo": "Donde todo empezó a salir mal por falta de temor reverente."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "qodesh-heb",
+          "nombre": "Qódesh (Santo)",
+          "razon": "La condición innegociable de la naturaleza de Dios.",
+          "familia": "Separación, pureza absoluta."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "limpieza-altar-corazon",
+          "tema": "Restaurando la Reverencia",
+          "declaracion": "Dios Santo (Qódesh), perdóname por el exceso de familiaridad que engendra presunción. Recuérdame que la gracia no es un permiso para el irrespeto, sino un camino seguro hacia Tu trono de fuego."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-samuel-oido",
+    "activo": false,
+    "fecha_programada": "2026-06-26",
+    "tipo": "sermones",
+    "titulo": "Samuel: El Oído que Restauró la Palabra",
+    "subtitulo": "Sermones Filtrados: Cómo el Cielo reescribió la historia de una nación usando a un niño dispuesto a escuchar lo que los ancianos ignoraron",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "23 min",
+    "imagen_portada": "../img/estudios/samuel-noche.webp",
+    "tags": [
+      "Samuel",
+      "Profeta",
+      "Sermones",
+      "Llamado",
+      "Obediencia"
+    ],
+    "versiculo_clave": {
+      "texto": "Y creció Samuel, y Jehová estaba con él, y no dejó caer a tierra ninguna de sus palabras.",
+      "cita": "1 Samuel 3:19"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Sermón Biográfico / Análisis Profético",
+        "titulo": "El Contraste en el Templo",
+        "texto": "1 Samuel 3 nos presenta uno de los contrastes más dramáticos de la Biblia. Por un lado, está Elí, el Sumo Sacerdote y Juez supremo: anciano, ciego, con sobrepeso (símbolo de su complacencia), que descansa en su aposento privado, sordo a la decadencia de sus hijos. Por otro lado, está Samuel: un niño 'ministrando a Jehová', durmiendo cerca del Arca, vestido con un efod de lino, portando una pureza que avergonzaba al sistema establecido. En esta atmósfera de ruina institucional, donde 'no había visión con frecuencia', Dios toma una decisión radical: pasar por encima de la máxima autoridad religiosa de la nación para entregarle los secretos de estado a un niño. La transición del período de los Jueces a la Monarquía no comenzó con una guerra, comenzó con una palabra susurrada en la oscuridad."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Naphál (נָפַל)",
+        "idioma": "Hebreo",
+        "raiz": "Caer / Fracasar / Morir",
+        "significado": "Caer al suelo (literalmente), o fallar, ser invalidado (metafóricamente).",
+        "fonetica_guia": "Na-fál",
+        "revelacion": "El texto dice que Dios 'no dejó caer (naphál) a tierra ninguna de sus palabras'. En la cultura agraria, si una semilla cae en tierra dura o se cae de la bolsa del sembrador, se pierde y no da fruto. La promesa sobre Samuel no es que él fuera un gran orador, sino que su alineación con Dios era tan perfecta, que cada palabra que Samuel hablaba era una semilla certificada por el Cielo; estaba garantizado que germinaría. Su boca se convirtió en la extensión oficial del trono de Dios."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "La Búsqueda Divina de Corazones Responsivos",
+        "texto": "Dios se revela como Alguien que está escaneando activamente la tierra en busca de receptividad. El llamado a Samuel ('¡Samuel, Samuel!') no fue un error del GPS celestial; Dios sabía que en la habitación de Elí solo había estática religiosa, pero junto al Arca había un corazón dispuesto a calibrarse. Esto manifiesta el atributo de Accesibilidad de Dios: Él habla a quien está dispuesto a oír para obedecer, sin importar su edad, credenciales o título teológico."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Profeta Fiel que Inaugura el Reino",
+        "texto": "Samuel es la figura de transición por excelencia: él cierra la era de los Jueces y unge a los reyes (Saúl y David), prefigurando la venida del Reino. Jesucristo es el antitipo perfecto: Él es el 'Profeta Fiel' definitivo (Deut. 18) que no dejó caer ninguna palabra del Padre. Cristo vino en medio del silencio profético de 400 años y de un sacerdocio farisaico corrompido, al igual que Samuel. Y fue Cristo (Jesucristo-Pneuma) quien inauguró y nos ungió como reyes y sacerdotes para un reino eterno."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Construcción de la Autoridad Profética",
+        "descripcion": "El ministerio inquebrantable de Samuel no se construyó en un día, siguió un proceso severo:",
+        "pasos": [
+          {
+            "concepto": "Posición de Proximidad",
+            "explicacion": "Dormía cerca del Arca. La revelación exige que nos posicionemos en la atmósfera de Su presencia."
+          },
+          {
+            "concepto": "Disposición Acústica (Shamá)",
+            "explicacion": "'Habla, porque tu siervo oye'. La declaración de rendición absoluta."
+          },
+          {
+            "concepto": "Prueba de la Verdad Dolorosa",
+            "explicacion": "Tuvo que decirle el duro juicio de Dios a Elí (su mentor). El profeta no elige el mensaje, es esclavo del mensaje."
+          },
+          {
+            "concepto": "Respaldo en la Ejecución",
+            "explicacion": "Al pasar la prueba de lealtad, Dios sella sus labios: 'ninguna de sus palabras cayó a tierra'."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Peso de la Palabra Respaldada",
+        "referencias": [
+          {
+            "cita": "Jeremías 1:9",
+            "versiculo": "He aquí he puesto mis palabras en tu boca.",
+            "revelacion": "La transferencia de autoridad divina al vaso humano humillado."
+          },
+          {
+            "cita": "Hechos 3:37-38",
+            "versiculo": "El Altísimo no habita en templos hechos de mano... (ver también historia de Silo)",
+            "revelacion": "Corrobora que la autoridad reposa en la obediencia del corazón (Samuel) y no en la arquitectura (Elí)."
+          },
+          {
+            "cita": "Efesios 4:30",
+            "versiculo": "Y no contristéis al Espíritu Santo de Dios, con el cual fuisteis sellados para el día de la redención.",
+            "revelacion": "La sensibilidad de Samuel contrasta con la insensibilidad de los sacerdotes. Contristar al Espíritu es dejar caer Su voz por ignorancia voluntaria."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Eres Apto para Escuchar",
+        "items": [
+          {
+            "punto": "No necesitas un título para oír a Dios.",
+            "ejemplo": "Creer que solo el pastor de tu iglesia recibe revelación y tú solo dependes de lo que él te diga los domingos.",
+            "escenario_actual": "Comienza hoy a leer la Biblia con la expectativa real de que el Espíritu Santo iluminará tu entendimiento en tu cuarto, tal como lo hizo con el niño Samuel."
+          },
+          {
+            "punto": "Ubícate cerca de la Presencia.",
+            "ejemplo": "Esperar grandes revelaciones de Dios mientras alimentas tu mente todo el día con entretenimiento tóxico.",
+            "escenario_actual": "Apaga las distracciones y dedica un espacio físico en tu casa ('cerca del arca') solo para tu devocional diario."
+          },
+          {
+            "punto": "Acepta que Dios te hable a través de líderes.",
+            "ejemplo": "Pensar que eres tan espiritual que no necesitas consejo pastoral, despreciando la instrucción de los mayores.",
+            "escenario_actual": "Samuel necesitó que Elí le enseñara a responder. Agradece y honra a quienes Dios pone para afinar tu oído en las primeras etapas de tu fe."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Responsabilidad de la Revelación",
+        "items": [
+          {
+            "punto": "La verdad no siempre es cómoda.",
+            "ejemplo": "Suavizar la Palabra de Dios para no ofender a familiares, amigos o feligreses que viven en pecado, como Elí.",
+            "escenario_actual": "Si Dios te pone una carga por alguien, comunícala con amor, pero con absoluta verdad. Tu lealtad es al Mensajero Supremo, no a las emociones del receptor."
+          },
+          {
+            "punto": "Cuida que tus palabras 'no caigan'.",
+            "ejemplo": "Hablar a la ligera, prometer y no cumplir, o dar 'consejos espirituales' que en realidad son tus propias opiniones.",
+            "escenario_actual": "Aplica un filtro estricto a tu boca. Si vas a decir 'Dios me dijo', asegúrate de que haya pasado el fuego del altar. Si eres fiel en lo que hablas, Dios respaldará el peso de tus decretos."
+          },
+          {
+            "punto": "El crecimiento silencioso precede al impacto público.",
+            "ejemplo": "Desesperarse por buscar seguidores o tarimas antes de tener un carácter forjado en el secreto del aposento.",
+            "escenario_actual": "Acepta el tiempo de anonimato. Tu ministerio no será medido por la rapidez con que subes a un púlpito, sino por cuántas palabras de Dios eres capaz de sostener sin dejarlas caer."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Síndrome del Profeta Complaciente",
+        "texto": "En la iglesia contemporánea abunda el 'ministerio profético' que solo declara prosperidad, años de júbilo y ascensos económicos, ignorando deliberadamente el arrepentimiento y la cruz. Samuel no inauguró su ministerio declarando 'cosas bonitas' a la casa de Elí; su primera palabra fue un juicio devastador. El verdadero ministerio profético no está para masajear el ego de la audiencia, está para alinear a la Iglesia con los estándares inquebrantables del Rey."
+      }
+    ],
+    "desafio_practico": "Hoy, haz un pacto de integridad verbal: Promete a Dios que a partir de hoy, tus 'sí' serán sí, tus 'no' serán no, y que no usarás Su Nombre en vano para justificar tus decisiones emocionales.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "samuel",
+          "nombre": "Samuel",
+          "razon": "El protagonista de la restauración de la voz.",
+          "paralelismo": "El puente entre los jueces y los reyes."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "El lugar de la transición.",
+          "simbolismo": "Donde la religión vieja duerme, el espíritu fresco despierta."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "shama-heb",
+          "nombre": "Shamá (Oír)",
+          "razon": "La palabra que activó el ministerio de Samuel.",
+          "familia": "El oído que obedece detona el respaldo del Cielo."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "respaldo-palabra",
+          "tema": "Peso de Autoridad",
+          "declaracion": "Padre, purifica mis labios. Que mi lealtad a Tu verdad sea tan radical que Tú decidas no dejar caer ninguna de mis palabras. Pon Tu fuego en mi boca, en el nombre de Yeshua."
+        }
+      ]
+    }
+  },
+  {
     "id": "jose-codigo-fructificacion",
     "activo": false,
     "fecha_programada": "2026-05-19",

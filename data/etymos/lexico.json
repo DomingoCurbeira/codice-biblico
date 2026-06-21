@@ -1,5 +1,86 @@
 [
   {
+    "id": "shamar-heb",
+    "palabra_espanol": "Guardar / Vigilar (Shamár)",
+    "idioma": "Hebreo",
+    "original": "שָׁמַר",
+    "transliteracion": "Shâmar",
+    "strong": "H8104",
+    "definicion": "Poner un seto alrededor (como con espinas), cuidar, proteger, atender celosamente."
+  },
+  {
+    "id": "qesem-heb",
+    "palabra_espanol": "Adivinación / Brujería (Qésem)",
+    "idioma": "Hebreo",
+    "original": "קֶסֶם",
+    "transliteracion": "Qesem",
+    "strong": "H7081",
+    "definicion": "Adivinación, oráculo (falso), sortilegio. Práctica estrictamente prohibida de buscar conocimiento oculto."
+  },
+  {
+    "id": "olah-heb",
+    "palabra_espanol": "Holocausto / Ofrenda Ascendente (Olah)",
+    "idioma": "Hebreo",
+    "original": "עוֹלָה",
+    "transliteracion": "‘Ôlâh",
+    "strong": "H5930",
+    "definicion": "Ofrenda quemada que asciende en humo. Representa dedicación total."
+  },
+  {
+    "id": "malkhut-he",
+    "palabra_espanol": "Reino / Realeza (Malkhút)",
+    "idioma": "Hebreo",
+    "original": "מַלְכוּת",
+    "transliteracion": "Malkhûwth",
+    "strong": "H4438",
+    "definicion": "El acto de gobernar; realeza, poder soberano, el dominio real."
+  },
+  {
+    "id": "qodesh-heb",
+    "palabra_espanol": "Santo / Santidad (Qódesh)",
+    "idioma": "Hebreo",
+    "original": "קֹדֶשׁ",
+    "transliteracion": "Qôdesh",
+    "strong": "H6944",
+    "definicion": "Un lugar sagrado o cosa sagrada; santidad, separación. A menudo indica lo que está dedicado exclusivamente a Dios y no puede ser usado para fines comunes."
+  },
+  {
+    "id": "kabod-heb",
+    "palabra_espanol": "Gloria / Peso (Kabód)",
+    "idioma": "Hebreo",
+    "original": "כָּבוֹד",
+    "transliteracion": "Kâbôwd",
+    "strong": "H3519",
+    "definicion": "Peso (en un sentido bueno), esplendor, copiosidad, majestad y honor glorioso."
+  },
+  {
+    "id": "shama-heb",
+    "palabra_espanol": "Oír / Obedecer (Shamá)",
+    "idioma": "Hebreo",
+    "original": "שָׁמַע",
+    "transliteracion": "Shâma‘",
+    "strong": "H8085",
+    "definicion": "Oír de manera inteligente, prestando atención y respondiendo con obediencia diligente."
+  },
+  {
+    "id": "yada-heb",
+    "palabra_espanol": "Conocer / Intimidad (Yadá)",
+    "idioma": "Hebreo",
+    "original": "יָדַע",
+    "transliteracion": "Yâda‘",
+    "strong": "H3045",
+    "definicion": "Saber mediante la observación, reflexión y experiencia íntima directa. Se usa para describir relaciones profundas."
+  },
+  {
+    "id": "channah-heb",
+    "palabra_espanol": "Gracia / Favor (Channah)",
+    "idioma": "Hebreo",
+    "original": "חַנָּה",
+    "transliteracion": "Channâh",
+    "strong": "H2584",
+    "definicion": "Favor, gracia. Literalmente derivado de la acción de inclinarse con compasión hacia alguien necesitado."
+  },
+  {
     "id": "hilaskomai-gr",
     "palabra_espanol": "Sé propicio / Ten misericordia",
     "idioma": "Griego",
@@ -752,23 +833,20 @@
     ]
   },
   {
-    "id": "ruach-heb",
-    "palabra_espanol": "Espíritu / Viento / Aliento",
-    "idioma": "Hebreo",
+    "id": "ruaj-heb",
+    "termino": "Rúaj (רוּחַ)",
     "original": "רוּחַ",
-    "transliteracion": "ruach",
-    "strong": "H7307",
-    "raiz": "Aire en movimiento rápido.",
-    "definicion_corta": "La fuerza invisible que anima la vida; el Espíritu de Dios.",
-    "contexto_cultural": "Es una palabra de acción y poder. Se usaba para describir una tormenta destructora, el aliento caliente que sale de los pulmones, o la vitalidad y energía de una persona. Es equivalente a la palabra griega 'pneuma'.",
-    "perla_espiritual": "En Ezequiel 37, el valle de los huesos secos estaba lleno de cadáveres intactos, pero no tenían 'ruach'. Tú puedes tener una iglesia con teología perfecta, luces increíbles y una banda excelente, pero sin el 'Ruach' de Dios, es solo un cementerio hermoso y ruidoso. Solo el aliento divino genera vida.",
-    "ejemplo_biblico": "Génesis 1:2 - '...y el Espíritu (Ruach) de Dios se movía sobre la faz de las aguas.'",
-    "tags": [
-      "espíritu santo",
-      "vida",
-      "poder",
-      "antiguo testamento"
-    ]
+    "transliteracion": "Rûaj",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Espíritu / Viento / Aliento / Fuerza invisible en movimiento rápido.",
+    "sentido_verdad": "El Rúaj es la presencia activa e invisible de Dios que transfiere vida, poder y capacitación divina. No representa una fuerza mística pasiva, sino el aliento dinámico del Creador. Cuando se retira, sobreviene el vacío y la muerte espiritual.",
+    "eco_escritura": {
+      "texto": "El Espíritu (Rúaj) de Jehová se apartó de Saúl, y le atormentaba un espíritu malo de parte de Jehová.",
+      "cita": "1 Samuel 16:14"
+    },
+    "revelacion_cristo": "Jesucristo es quien posee y sopla el Rúaj divino sin medida. Tras su resurrección, sopló sobre sus discípulos para impartirles la vida del nuevo orden espiritual. En la cruz, exhaló su espíritu para reconectarnos con el aliento de vida eterno.",
+    "reflejo_tierra": "El orgullo y la rebelión de Saúl provocaron la retirada del Rúaj de santidad. La lección para el liderazgo es que la unción y la cordura no pueden sostenerse sin un altar de rendición diario.",
+    "activacion": "Espíritu de Dios, inunda mi ser y gobierna mi carácter. Renuncio a la altivez que aleja Tu Rúaj, y declaro que mi vida es un altar consagrado a Tu aliento de vida."
   },
   {
     "id": "soma-gr",
@@ -2515,25 +2593,6 @@
       "madre",
       "nutrición",
       "continuidad"
-    ]
-  },
-  {
-    "id": "malkhut-he",
-    "palabra_espanol": "Malkhút (Reino/Soberanía)",
-    "idioma": "Hebreo",
-    "original": "מַלְכוּת",
-    "transliteracion": "Malkhút",
-    "strong": "H4438",
-    "raiz": "De 'melek' (rey).",
-    "definicion_corta": "Dominio, reinado, soberanía o el ejercicio del poder real.",
-    "contexto_cultural": "En Israel, el Malkhút no era absoluto, el rey era un virrey bajo la autoridad del Arquitecto.",
-    "perla_espiritual": "Malkhút no se refiere a un territorio físico, sino a la esfera donde la voluntad divina es ley. Tu autoridad es directamente proporcional a tu sintonía con el diseño del Rey.",
-    "ejemplo_biblico": "Salmos 145:13 - 'Tu reino (Malkhút) es reino de todos los siglos...'",
-    "tags": [
-      "reino",
-      "autoridad",
-      "gobierno",
-      "david"
     ]
   },
   {
@@ -4899,24 +4958,6 @@
     ]
   },
   {
-    "id": "yada-heb",
-    "palabra_espanol": "Conocer (Yada)",
-    "idioma": "Hebreo",
-    "original": "יָדַע",
-    "transliteracion": "Yadá",
-    "strong": "H3045",
-    "raiz": "Percibir / Reconocer.",
-    "definicion_corta": "Conocimiento experiencial e íntimo.",
-    "contexto_cultural": "Usado para la intimidad matrimonial y el reconocimiento de autoridad real.",
-    "perla_espiritual": "Dios te llama a una experiencia, no a una enciclopedia. La fe es Yada: conocer Su voz en medio del ruido.",
-    "ejemplo_biblico": "Génesis 4:1 - 'Conoció (Yada) Adán a su mujer Eva...'",
-    "tags": [
-      "intimidad",
-      "relación",
-      "experiencia"
-    ]
-  },
-  {
     "id": "jata-heb",
     "palabra_espanol": "Pecado (Jata)",
     "idioma": "Hebreo",
@@ -4968,24 +5009,6 @@
       "servicio",
       "trabajo",
       "adoración"
-    ]
-  },
-  {
-    "id": "shamar-heb",
-    "palabra_espanol": "Guardar / Proteger (Shamar)",
-    "idioma": "Hebreo",
-    "original": "שָׁמַר",
-    "transliteracion": "Shamár",
-    "strong": "H8104",
-    "raiz": "Vigilar / Observar.",
-    "definicion_corta": "Ejercer vigilancia activa y responsable.",
-    "contexto_cultural": "Acción del centinela o del pastor protegiendo el rebaño de los depredadores.",
-    "perla_espiritual": "Si Dios te dio un jardín, te dio la autoridad para protegerlo. No permitas intrusos en tu paz.",
-    "ejemplo_biblico": "Génesis 2:15 - '...y lo guardase (Shamar).'",
-    "tags": [
-      "protección",
-      "vigilancia",
-      "autoridad"
     ]
   },
   {

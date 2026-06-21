@@ -1,5 +1,559 @@
 [
   {
+    "id": "historia-gabaa-saul",
+    "activo": false,
+    "fecha_programada": "2026-07-09",
+    "tipo": "historia",
+    "titulo": "Gabaa de Saúl: El Palacio Rústico",
+    "subtitulo": "Arqueología del Vacío: El rey de gran estatura que nunca construyó para la eternidad",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/gabaa-saul.webp",
+    "tags": [
+      "Gabaa",
+      "Saúl",
+      "Arqueología",
+      "Historia",
+      "Fortaleza"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Saúl se fue a su casa en Gabaa; y fueron con él los hombres de guerra cuyos corazones Dios había tocado.",
+      "cita": "1 Samuel 10:26"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Arqueológico / Contraste Monárquico",
+        "titulo": "El Rey de la Montaña",
+        "texto": "Gabaa (Tell el-Ful), situada a unos 5 km al norte de Jerusalén, fue la primera capital oficial del reino de Israel bajo Saúl. A diferencia de las majestuosas ciudades reales del antiguo Cercano Oriente, las excavaciones arqueológicas han revelado que el 'palacio' de Saúl no era más que una fortaleza rústica, pequeña, hecha de piedra tosca, sin lujos ni arquitectura monumental. Irónicamente, Saúl, el rey que el pueblo pidió por ser alto y 'como los de otras naciones', vivió casi como un líder tribal escondido en una trinchera. Jamás construyó un centro espiritual; jamás hizo un plan para establecer el Arca de Dios. Gabaa es el monumento a un reinado de supervivencia, no de establecimiento."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Shamár (שָׁמַר)",
+        "idioma": "Hebreo",
+        "raiz": "Sh-m-r (Guardar / Proteger / Observar)",
+        "significado": "Vigilar, cuidar, guardar un pacto o una ordenanza.",
+        "fonetica_guia": "Sha-már",
+        "revelacion": "El trabajo de un rey en Israel no era solo liderar ejércitos, era 'Shamár' (guardar) la Torá y el diseño de Dios. Saúl falló en 'Shamár' el mandamiento en Gilgal y en Amalec. Su fortaleza en Gabaa refleja este fracaso: estaba tan ocupado vigilando sus fronteras físicas y persiguiendo a David, que olvidó guardar (Shamár) su corazón y el altar de la nación."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Diseñador y Establecedor",
+        "texto": "Dios no habita en la mentalidad de supervivencia; Él es el Arquitecto de un Reino eterno. Su atributo como Diseñador significa que Él espera que Sus líderes construyan para el futuro (fundamentos espirituales y generacionales). El rechazo de Dios a la dinastía de Saúl nos muestra que Él no bendice el estancamiento. Dios deseaba un 'Sion', no un 'Gabaa'."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "La Verdadera Fortaleza",
+        "texto": "Mientras Saúl se escondía paranoico tras los muros rústicos de Gabaa con una lanza en la mano, Cristo se entregó voluntariamente en la cruz sin muros que lo defendieran. Jesús es la roca firme que construyó no un palacio terrenal, sino la Nueva Jerusalén. Él es el verdadero Rey que 'guardó' (Shamár) la Ley del Padre perfectamente, para asegurar un trono que no pasará jamás."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Sion vs Gabaa: Dos Diseños de Vida",
+        "descripcion": "El contraste arqueológico entre Saúl y David es una lección de propósito:",
+        "pasos": [
+          {
+            "concepto": "Gabaa (La Visión Corta)",
+            "explicacion": "Construida para la defensa inmediata. Un ministerio o vida centrada en 'sobrevivir al día a día' y proteger el propio territorio (ego)."
+          },
+          {
+            "concepto": "Abandono del Arca",
+            "explicacion": "Durante el reinado de Saúl, el Arca estuvo olvidada en Quiriat-jearim. No había lugar para Dios en la agenda real."
+          },
+          {
+            "concepto": "Sion (La Visión Eterna)",
+            "explicacion": "David captura Jerusalén y su primer acto oficial no es construir su casa, sino organizar una tienda para traer la presencia de Dios."
+          },
+          {
+            "concepto": "El Fruto",
+            "explicacion": "Gabaa desapareció en las ruinas del tiempo. Sion se convirtió en el nombre de la morada eterna de Dios."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "Construyendo sobre el Pacto",
+        "referencias": [
+          {
+            "cita": "1 Crónicas 13:3",
+            "versiculo": "Y traigamos el arca de nuestro Dios a nosotros, porque desde el tiempo de Saúl no hemos hecho caso de ella.",
+            "revelacion": "David hace el diagnóstico histórico exacto de la tragedia de Gabaa: el olvido de la presencia de Dios."
+          },
+          {
+            "cita": "Salmo 127:1",
+            "versiculo": "Si Jehová no edificare la casa, En vano trabajan los que la edifican; Si Jehová no guardare (Shamár) la ciudad, En vano vela la guardia.",
+            "revelacion": "El salmo salomónico que resume el fracaso arquitectónico y militar de Saúl: veló sin Dios."
+          },
+          {
+            "cita": "Hebreos 11:10",
+            "versiculo": "porque esperaba la ciudad que tiene fundamentos, cuyo arquitecto y constructor es Dios.",
+            "revelacion": "La meta del liderazgo espiritual no es levantar un imperio temporal (Gabaa), sino edificar corazones para la ciudad eterna."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Sal de la Supervivencia",
+        "items": [
+          {
+            "punto": "No vivas a la defensiva.",
+            "ejemplo": "Pasar todos tus días preocupado solo por pagar deudas o defenderte de chismes, sin pensar en tu crecimiento espiritual.",
+            "escenario_actual": "Deja de gastar toda tu energía en proteger 'tu Gabaa'. Dedica tiempo hoy para soñar en los planes de Dios para tu futuro."
+          },
+          {
+            "punto": "Trae a Dios al centro.",
+            "ejemplo": "Tener una casa bonita pero donde nunca se ora, ni se menciona el nombre de Dios (el Arca ignorada).",
+            "escenario_actual": "Establece un altar en tu hogar hoy. Puede ser 5 minutos de oración en la mesa con tu familia."
+          },
+          {
+            "punto": "Guarda (Shamár) lo que importa.",
+            "ejemplo": "Proteger las contraseñas de tu teléfono o tu dinero con mucho celo, pero dejar que la amargura entre a tu mente sin poner resistencia.",
+            "escenario_actual": "Pon una guardia (Shamár) en las puertas de tu corazón y de tus ojos. Cierra el paso a lo que contamina tu paz."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Construyendo Legado",
+        "items": [
+          {
+            "punto": "El liderazgo es más que apagar incendios.",
+            "ejemplo": "Un pastor o líder empresarial que se la pasa resolviendo crisis de personal urgentes, pero jamás invierte tiempo en discipular a la próxima generación.",
+            "escenario_actual": "Si todo lo que haces desaparece el día que tú mueras, estás construyendo una Gabaa. Inicia un proyecto hoy que te trascienda (discipulado, un libro, una donación a largo plazo)."
+          },
+          {
+            "punto": "Prioriza la presencia sobre la estructura.",
+            "ejemplo": "Gastar todo el presupuesto de una iglesia en remodelar el edificio y el sonido, pero no invertir en misiones o en la salud espiritual del equipo.",
+            "escenario_actual": "El techo rústico de Gabaa no fue el problema; el problema fue que Saúl no tenía el Arca. Que el crecimiento de tus estructuras (negocio, ministerio) jamás sobrepase tu pasión por la presencia."
+          },
+          {
+            "punto": "Suelta la paranoia de Saúl.",
+            "ejemplo": "Observar a otros líderes con sospecha, creyendo que quieren quitarte tu posición, en lugar de empoderarlos para el Reino.",
+            "escenario_actual": "No gastes tu unción tirando lanzas a los 'Davides' que Dios levanta a tu lado. Celebra el crecimiento de otros; el verdadero Rey jamás teme perder su silla."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Materialismo Cristiano",
+        "texto": "La historia de Gabaa nos previene contra dos extremos: el descuido (no construir nada para Dios) y el materialismo (medir la bendición de Dios solo por las posesiones). El fracaso de Saúl no fue que su palacio fuera pequeño, sino que su visión del Reino de Dios era microscópica. Dios no repudia un edificio humilde, repudia un corazón donde Él ha sido marginado."
+      }
+    ],
+    "desafio_practico": "Analiza tu 'casa' (tu vida, tu habitación, tu negocio). ¿Qué puedes hacer esta misma semana para asegurar que Dios (el Arca) esté en el centro de tu rutina y no olvidado en un rincón?",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El constructor de Sion.",
+          "paralelismo": "El contraste directo con la mentalidad de Gabaa."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El contraste directo con el diseño habitacional y de gobierno de Saúl.",
+          "simbolismo": "Frente a la fortaleza defensiva militar y pragmática de Gabaa, Sion representa el establecimiento del altar y la presencia de Dios en el centro del reinado."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "shamar-heb",
+          "nombre": "Shamár (Guardar)",
+          "razon": "El mandamiento que Saúl ignoró.",
+          "familia": "Cuidado, vigilancia del pacto."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "fundamentos-eternos",
+          "tema": "Visión de Reino",
+          "declaracion": "Señor, líbrame de perder mis años construyendo reinos temporales. Dame gracia para edificar sobre la Roca sólida de Cristo. Que el Arca de Tu presencia sea el fundamento de todo lo que construyo."
+        }
+      ]
+    }
+  },
+  {
+    "id": "historia-dagon-ashdod",
+    "activo": false,
+    "fecha_programada": "2026-07-02",
+    "tipo": "historia",
+    "titulo": "Dagón vs Jehová: La Caída del Ídolo",
+    "subtitulo": "Arqueología del Triunfo Solitario: Cómo la presencia cautiva de Dios desmembró la idolatría sin ayuda humana",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "19 min",
+    "imagen_portada": "../img/estudios/dagon-caido.webp",
+    "tags": [
+      "Dagón",
+      "Arca",
+      "Asdod",
+      "Filisteos",
+      "Arqueología"
+    ],
+    "versiculo_clave": {
+      "texto": "Y al día siguiente, los de Asdod se levantaron de mañana, y he aquí Dagón postrado en tierra delante del arca de Jehová...",
+      "cita": "1 Samuel 5:3"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Polémica Arqueológica / Crónica Militar",
+        "titulo": "El Trofeo en el Templo Filisteo",
+        "texto": "Asdod era una de las cinco ciudades principales de la Pentápolis filistea. Dagón era la deidad suprema de esta región; comúnmente asociado con el grano (dagan en hebreo) o como un dios pez (dag en hebreo). Cuando los filisteos capturaron el Arca, no la destruyeron; la llevaron al templo de Dagón como un trofeo de guerra. En la mentalidad del antiguo Cercano Oriente, esto significaba que su dios había vencido al Dios de Israel y ahora Jehová era un dios vasallo sirviendo a los pies de Dagón. Sin embargo, Dios no necesita un ejército israelita para defender Su santidad."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "El Elyón (אֵל עֶלְיוֹן)",
+        "idioma": "Hebreo",
+        "raiz": "El (Dios) + Alah (Subir / Elevarse)",
+        "significado": "El Dios Altísimo, el Dios Supremo sobre todas las deidades.",
+        "fonetica_guia": "El El-yón",
+        "revelacion": "El título 'El Elyón' establece a Jehová no como un dios local o nacional, sino como la máxima autoridad cósmica. La humillación de Dagón (primero postrado, luego decapitado y sin manos) fue la declaración visual de Dios a los filisteos: 'Yo no soy el botín de su ídolo; su ídolo es polvo ante mis pies'. Dios desmembró la capacidad de Dagón de pensar (cabeza) y de actuar (manos)."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios Autosuficiente y Defensor de Su propia Gloria",
+        "texto": "Dios revela que Él no necesita de nuestro esfuerzo para 'protegerlo'. Israel fracasó miserablemente en el campo de batalla, pero la gloria de Dios no disminuyó. Su atributo de Autosuficiencia significa que Él puede ganar la guerra desde el cautiverio. Incluso cuando Su pueblo es infiel y el testimonio de la iglesia está por el suelo (el Arca capturada), Dios sabe cómo avergonzar a los demonios y a los sistemas idólatras por Su propia cuenta."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo en las Profundidades del Hades",
+        "texto": "La llegada del Arca a territorio filisteo y la destrucción de Dagón es un asombroso presagio de la muerte de Cristo. Jesús fue llevado cautivo, clavado en una cruz y puesto en una tumba de piedra. El imperio de las tinieblas pensó que lo había capturado como trofeo. Pero, al igual que el Arca, Jesús entró en el territorio enemigo (la muerte y el Hades) y, sin levantar una espada humana, desmembró el poder de Satanás, quitándole las llaves de la muerte."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Desmembramiento del Sistema Caído",
+        "descripcion": "El progreso de la destrucción de Dagón frente al Arca nos enseña cómo Dios derriba nuestras fortalezas:",
+        "pasos": [
+          {
+            "concepto": "Sometimiento Visual",
+            "explicacion": "Día 1: Dagón cae postrado ante el Arca. Todo sistema orgulloso eventualmente tendrá que inclinarse ante el Señorío de Dios."
+          },
+          {
+            "concepto": "Intento Humano de Restauración",
+            "explicacion": "Los sacerdotes filisteos volvieron a levantar al ídolo. Nuestra tendencia a volver a nuestros viejos vicios y justificaciones después de que Dios nos muestra que son inútiles."
+          },
+          {
+            "concepto": "Desmembramiento Total",
+            "explicacion": "Día 2: Cabeza y manos cortadas en el umbral. Dios anula la autoridad (cabeza) y el poder (manos) del ídolo, demostrando que es solo madera inerte."
+          },
+          {
+            "concepto": "La Migración del Pánico",
+            "explicacion": "Al ver la destrucción, los filisteos enviaron el Arca a Gat y luego a Ecrón. El mundo no sabe qué hacer con la santidad de Dios, solo intenta alejarla."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Altísimo sobre Todos",
+        "referencias": [
+          {
+            "cita": "Salmos 97:9",
+            "versiculo": "Avergonzados sean todos los que sirven a las imágenes de talla, Los que se glorían en los ídolos. Póstrate ante él, todos los dioses.",
+            "revelacion": "El salmista establece como regla espiritual lo que ocurrió literalmente en el templo de Asdod."
+          },
+          {
+            "cita": "Colosenses 2:15",
+            "versiculo": "y despojando a los principados y a las potestades, los exhibió públicamente, triunfando sobre ellos en la cruz.",
+            "revelacion": "El desmembramiento espiritual de las tinieblas realizado por Jesucristo."
+          },
+          {
+            "cita": "1 Juan 3:8",
+            "versiculo": "Para esto apareció el Hijo de Dios, para deshacer las obras del diablo.",
+            "revelacion": "Así como el Arca desarmó a Dagón sin intervención humana, Cristo apareció para destruir internamente los sistemas de opresión en el espíritu humano."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Cero Tolerancia a los Ídolos",
+        "items": [
+          {
+            "punto": "No mezcles la luz con las tinieblas.",
+            "ejemplo": "Ir a la iglesia los domingos, pero seguir consultando el horóscopo o participando en rituales de la 'buena suerte' en casa.",
+            "escenario_actual": "Comprende que Dios (el Arca) no tolerará compartir espacio con ningún ídolo (Dagón) en el templo de tu corazón. Él derribará aquello en lo que pones tu confianza paralela."
+          },
+          {
+            "punto": "No puedes 'ayudar' a tus ídolos caídos.",
+            "ejemplo": "Justificar una relación tóxica o un mal hábito después de que las circunstancias ya te demostraron que te está destruyendo.",
+            "escenario_actual": "Si Dios ya tiró al suelo un orgullo o un vicio en tu vida, no trates de 'volverlo a poner en su pedestal' como hicieron los sacerdotes de Asdod."
+          },
+          {
+            "punto": "Tu victoria ya está ganada en el espíritu.",
+            "ejemplo": "Vivir aterrado por lo que dice la astrología, la brujería o las maldiciones generacionales, olvidando quién vive en ti.",
+            "escenario_actual": "Si Cristo está en ti (el Arca), ninguna maldición de las tinieblas (Dagón) puede mantenerse en pie ante Su presencia. Camina con esa seguridad hoy."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Descansar en Su Autosuficiencia",
+        "items": [
+          {
+            "punto": "Dios no necesita tus excusas.",
+            "ejemplo": "Angustiarse excesivamente y tratar de 'salvar la reputación' de Dios cuando figuras públicas del cristianismo caen o el nombre de Cristo es burlado en la cultura.",
+            "escenario_actual": "Dios es El Elyón. Él es perfectamente capaz de humillar el orgullo intelectual, filosófico o político del mundo contemporáneo por Sí solo. Ora y predica la verdad, pero no te angusties como si Dios fuera frágil."
+          },
+          {
+            "punto": "Permite que Él desmiembre lo que estorba.",
+            "ejemplo": "Afanarse por retener el control (manos) o tener la última palabra intelectual (cabeza) en discusiones o liderazgos que ya no son fructíferos.",
+            "escenario_actual": "Rinde al Señor tus capacidades de control y de orgullo intelectual. Si se convierten en ídolos, el Kabód de Dios las desbaratará."
+          },
+          {
+            "punto": "Deja que Dios defienda Su propio honor.",
+            "ejemplo": "Perder el control y la paz peleando discusiones tóxicas en redes sociales para 'defender' a Dios de los ateos.",
+            "escenario_actual": "Predica la verdad con amor, pero no te afanes. La gloria de Dios es tan inmensa que los sistemas idólatras eventualmente colapsarán por su propio peso ante la evidencia de Su realidad."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Error del Pluralismo Espiritual",
+        "texto": "Hoy es común la filosofía de que 'todos los caminos llevan a Dios' y que todas las religiones pueden coexistir pacíficamente en el mismo templo. La historia de Asdod demuestra que el Dios de Israel es excluyente. Cuando la Presencia Verdadera entra, exige dominio absoluto y derriba toda cosmovisión que compita con Su supremacía (El Elyón). El pluralismo pacífico con la idolatría es bíblicamente imposible."
+      }
+    ],
+    "desafio_practico": "Identifica hoy tu propio 'Dagón' (algo en lo que confías más que en Dios: tu intelecto, tu cuenta bancaria, una persona). Dile al Señor: 'Entra a esta área de mi vida y derriba todo lo que no se someta a Tu Señorío'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "sanson",
+          "nombre": "Sansón",
+          "razon": "Quien también enfrentó al dios Dagón.",
+          "paralelismo": "El siervo que derribó las columnas de su templo."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "De donde salió el Arca.",
+          "simbolismo": "El recordatorio del juicio a Israel."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "kabod-heb",
+          "nombre": "Kabód (Gloria)",
+          "razon": "El peso innegable que aplastó a la mentira.",
+          "familia": "Gravedad, autoridad."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "caida-idolos",
+          "tema": "Desmantelando Ídolos",
+          "declaracion": "Dios Altísimo (El Elyón), pido que Tu presencia ocupe tanto espacio en mi interior que todo ídolo de orgullo, miedo o avaricia sea desmembrado ante Ti."
+        }
+      ]
+    }
+  },
+  {
+    "id": "historia-silo-arqueologia",
+    "activo": false,
+    "fecha_programada": "2026-06-25",
+    "tipo": "historia",
+    "titulo": "Silo: El Santuario Olvidado",
+    "subtitulo": "Arqueología del Juicio: Qué ocurre cuando la religión se aferra al edificio pero pierde la Gloria",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Junio 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/silo-ruinas.webp",
+    "tags": [
+      "Silo",
+      "Arqueología",
+      "Historia",
+      "Arca del Pacto",
+      "Icabod"
+    ],
+    "versiculo_clave": {
+      "texto": "Andad ahora a mi lugar en Silo, donde hice morar mi nombre al principio, y ved lo que le hice por la maldad de mi pueblo Israel.",
+      "cita": "Jeremías 7:12"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Crónica Arqueológica / Análisis Profético",
+        "titulo": "La Primera Capital Espiritual",
+        "texto": "Antes de que Jerusalén existiera como ciudad sagrada de Israel, el centro del universo hebreo era Silo. Ubicada en la región montañosa de Efraín, Silo albergó el Tabernáculo de Reunión y el Arca del Pacto durante casi 369 años (desde Josué hasta Elí). Fue el lugar donde se repartió la tierra, donde Ana lloró, y donde Samuel escuchó la voz de Dios. Arqueológicamente (excavaciones de Israel Finkelstein), se han encontrado capas masivas de ceniza y vasijas rotas que datan del siglo XI a.C. Esto confirma una destrucción catastrófica y repentina, coincidiendo exactamente con la época de la derrota israelita ante los filisteos en Afec, donde se robó el Arca y Elí murió."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Icabod (אִי כָבוֹד)",
+        "idioma": "Hebreo",
+        "raiz": "'Iy' (Sin / Dónde) + 'Kabód' (Gloria / Peso)",
+        "significado": "Sin gloria; traspasada es la gloria; ¿dónde está la gloria?",
+        "fonetica_guia": "I-ca-bód",
+        "revelacion": "Icabod es el nombre que la nuera de Elí le dio a su hijo al morir, tras escuchar que el Arca había sido capturada. Es el epitafio de Silo. La tragedia no fue perder un edificio; fue perder el 'Kabód' (el peso de la presencia de Dios). Silo permaneció como una ruina física, utilizada siglos después por profetas como Jeremías para advertir a la arrogante Jerusalén: 'Dios no está atado a tu arquitectura'."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "Dios de Libertad Inconfinable",
+        "texto": "Dios se revela como un Ser que rechaza ser 'domesticado'. Los israelitas pensaron que, como tenían el Arca físicamente, tenían garantizada la victoria militar, independientemente de su obediencia moral (usaron el Arca como amuleto en Afec). El atributo de Santidad de Dios le permite desmantelar Sus propios santuarios. Él prefiere habitar en una tienda en el desierto con gente humillada, que en una catedral dorada con corazones de piedra."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesús: La Gloria que abandona el Templo",
+        "texto": "Años después, en los evangelios, ocurre el 'Silo' definitivo. Jesús sale del Templo de Jerusalén (Mateo 24:1) y declara: 'Vuestra casa os es dejada desierta'. En la cruz, el velo del templo se rasgó. La Gloria (Jesucristo-Pneuma) abandonó la estructura de piedra para venir a residir en una nueva estructura, no hecha de manos: el creyente redimido. Nosotros somos el nuevo Tabernáculo donde mora el Kabód."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Las Lecciones de las Cenizas de Silo",
+        "descripcion": "El mensaje que las ruinas de Silo gritan a través de los siglos:",
+        "pasos": [
+          {
+            "concepto": "El Peligro del 'Amuleto'",
+            "explicacion": "Creer que los ritos (diezmar, congregarse, usar una cruz) forzarán a Dios a bendecirte, a pesar del pecado oculto."
+          },
+          {
+            "concepto": "El Abandono Silencioso",
+            "explicacion": "La religión continuó en Silo (había sacerdotes y sacrificios), pero la Gloria ya se había ido. Puedes tener liturgia sin Presencia."
+          },
+          {
+            "concepto": "La Inmunidad Falsa",
+            "explicacion": "Jerusalén creyó que no caería por tener el Templo. Jeremías los mandó a mirar a Silo: 'Dios puede destruirte a ti también si no te arrepientes'."
+          },
+          {
+            "concepto": "La Migración de la Gloria",
+            "explicacion": "El Arca nunca regresó a Silo. Cuando David la recuperó años después, la llevó a Jerusalén. Dios no vuelve a estructuras que Él mismo sentenció; Él inaugura cosas nuevas."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Advertencia de la Estructura Vacía",
+        "referencias": [
+          {
+            "cita": "Salmo 78:60-61",
+            "versiculo": "Dejó, por tanto, el tabernáculo de Silo... Entregó a cautiverio su poder, Y su gloria en mano del enemigo.",
+            "revelacion": "El salmista recuerda la historia para humillar el orgullo nacional de Efraín."
+          },
+          {
+            "cita": "Hechos 7:48",
+            "versiculo": "Si bien el Altísimo no habita en templos hechos de mano...",
+            "revelacion": "Esteban paga con su vida por recordar a la élite religiosa la misma lección que enseñó Silo."
+          },
+          {
+            "cita": "1 Corintios 3:16",
+            "versiculo": "¿No sabéis que sois templo de Dios, y que el Espíritu de Dios mora en vosotros?",
+            "revelacion": "La culminación del diseño: Dios dejó las tiendas temporales y los edificios de piedra para hacer Su morada permanente en el espíritu humano redimido."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Eres el Templo",
+        "items": [
+          {
+            "punto": "No busques a Dios en el edificio.",
+            "ejemplo": "Creer que Dios solo te escucha si oras dentro de las cuatro paredes del auditorio de tu iglesia.",
+            "escenario_actual": "Comprende que el Espíritu Santo viaja contigo en tu coche, en tu oficina y en tu habitación. Tú portas la Presencia, no la butaca."
+          },
+          {
+            "punto": "No uses a Dios como amuleto.",
+            "ejemplo": "Poner la Biblia abierta en el Salmo 91 en tu sala creyendo que eso espantará a los demonios, mientras tienes gritos y peleas en la casa.",
+            "escenario_actual": "Reconoce que Dios busca una relación de obediencia, no rituales mágicos vacíos de transformación moral."
+          },
+          {
+            "punto": "No adores el método, adora al Creador.",
+            "ejemplo": "Rechazar ir a una iglesia porque no cantan con tu estilo musical favorito, confundiendo la liturgia con la esencia de Dios.",
+            "escenario_actual": "Evalúa tus preferencias: ¿Buscas a Dios por quién es o por cómo te hace sentir el ambiente? El ambiente puede caer, pero Dios permanece."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Protegiendo el Kabód",
+        "items": [
+          {
+            "punto": "Cuidado con la religión sin presencia.",
+            "ejemplo": "Organizar eventos ministeriales excelentes, con humo y luces, pero sin haber orado ni una hora para que el Espíritu descienda.",
+            "escenario_actual": "Si lideras algo, asegúrate de que el peso de la gloria (Kabód) apruebe lo que haces. Es preferible un culto imperfecto con Presencia, que un show perfecto vacío."
+          },
+          {
+            "punto": "Acepta la advertencia de Silo.",
+            "ejemplo": "Pensar: 'Dios me usó grandemente en el pasado, por tanto, nunca me disciplinará ni me quitará el ministerio'.",
+            "escenario_actual": "Mantén un corazón contrito, sabiendo que el pasado espiritual no garantiza el respaldo presente de Dios si hay soberbia."
+          },
+          {
+            "punto": "El juicio purifica la línea de sucesión.",
+            "ejemplo": "Asustarse cuando un ministerio grande o una figura pública colapsa, creyendo que el Reino está en peligro.",
+            "escenario_actual": "Descansa en la soberanía de Dios. Cuando Él permite que un 'Silo' colapse, es porque ya tiene a un 'Samuel' madurando en la oscuridad para tomar el relevo."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Síndrome de la 'Estructura Intocable'",
+        "texto": "Muchas iglesias y denominaciones mueren abrazadas a su tradición, creyendo que sus edificios históricos o su nombre institucional garantizan que Dios está allí. Las ruinas de Silo son un grito de advertencia teológica: Cuando el sistema eclesiástico sustituye la reverencia por la manipulación, Dios firmará el acta de 'Icabod', apagará la luz y levantará a un joven Samuel en otra parte para que escuche Su voz."
+      }
+    ],
+    "desafio_practico": "Hoy, pide perdón si en algún momento trataste la oración, la adoración o el ministerio como una simple herramienta para lograr tus propios beneficios (usar el Arca) en lugar de buscarlo a Él por quien Él es.",
+    "conexiones": {
+      "huellas": [],
+      "cronos": [
+        {
+          "id": "silo",
+          "nombre": "Silo",
+          "razon": "La sede del estudio.",
+          "simbolismo": "El lugar donde la religión presuntuosa fue reducida a cenizas."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "kabod-heb",
+          "nombre": "Kabód (Gloria)",
+          "razon": "El peso divino que abandonó el santuario.",
+          "familia": "Gravedad, honra, manifestación."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "restaurar-gloria",
+          "tema": "Hambre por la Presencia",
+          "declaracion": "Espíritu Santo, líbrame de la religión vacía. No quiero el esqueleto del ministerio sin el peso de Tu Gloria. Que mi corazón nunca tenga que ser etiquetado como Icabod."
+        }
+      ]
+    }
+  },
+  {
     "id": "ester-protocolo-favor",
     "activo": false,
     "fecha_programada": "2026-05-21",
