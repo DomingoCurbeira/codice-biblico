@@ -1,39 +1,44 @@
 {
-    "temas": {
-        "bendicion-hogar": {
-            "titulo": "El Altar de la Familia",
-            "cita": "Pero yo y mi casa serviremos a Jehová. (Josué 24:15)",
-            "contenido": "Padre Celestial, hoy traigo ante Tu altar mi hogar, reconociendo que a veces el estrés y las palabras ásperas intentan levantar muros entre nosotros. Confieso que hemos permitido que la rutina opaque el diseño de amor que Tú trazaste para nosotros. [SELAH] Señor, hoy trazo un cerco de protección con la Sangre del Cordero sobre mis puertas. Que este hogar sea una 'Betania', un refugio de paz donde Tu Espíritu se sienta cómodo habitando. [SELAH] Declaro con autoridad que mi casa y yo serviremos a Jehová. Rompo hoy todo patrón de división y desato bendición, salud y propósito eterno sobre mi descendencia. Tú eres el Dueño de nuestra mesa. Amén."
-        },
-        "restauracion-matrimonial": {
-            "titulo": "Cuerdas de Amor Inquebrantables",
-            "cita": "Cordón de tres dobleces no se rompe pronto. (Eclesiastés 4:12)",
-            "contenido": "Señor Jesús, hoy rindo ante Ti las heridas y distancias que se han creado en mi matrimonio. Reconozco que hemos intentado construir en nuestras fuerzas, olvidando que solo Tú puedes amalgamar dos corazones en uno. [SELAH] Te pido que seas el hilo central de nuestra unión. Enséñanos a perdonar con la misma Gracia con que Tú nos perdonas. Que Tu amor borre toda memoria de agravio y restaure la ternura original. [SELAH] Declaro que lo que Dios unió, no lo separa el hombre ni la crisis. Renuevo hoy nuestro pacto bajo Tu diseño. Nuestra unión será un testimonio de Tu fidelidad ante el mundo. Amén."
-        },
-        "hijos-proposito": {
-            "titulo": "Saetas en Manos del Valiente",
-            "cita": "Herencia de Jehová son los hijos. (Salmos 127:3)",
-            "contenido": "Padre Amado, hoy te entrego a mis hijos, reconociendo que son Tu herencia y que mis fuerzas no bastan para protegerlos de la confusión de este siglo. [SELAH] Pongo un vallado de ángeles alrededor de sus mentes y corazones. Que ninguna mentira del enemigo eche raíces en ellos. Si alguno está lejos, que Tu amor incondicional lo atraiga hoy de vuelta al redil. [SELAH] Declaro que mis hijos serán cabeza y no cola. Profetizo sobre ellos un futuro de esperanza y plenitud. Son saetas dirigidas por Tu mano hacia el blanco de Su propósito eterno. Amén."
-        },
-        "reposo-victoria-federal": {
-            "titulo": "Bajo la Cobertura del Segundo Adán",
-            "cita": "Porque así como por la desobediencia de un hombre los muchos fueron constituidos pecadores... (Romanos 5:19)",
-            "contenido": "Abba Padre, hoy decido dejar de pelear batallas que ya fueron ganadas. Confieso que muchas veces vivo bajo la sombra del fracaso del primer Adán, sintiéndome sentenciado por mi naturaleza caída y limitado por mis errores hereditarios. [SELAH] Pero hoy me cambio de fila legal. Acepto por fe que mi Representante es Jesucristo, el Hombre que venció en el desierto por mí. Su historial de pureza es ahora mi historial. Su victoria es mi herencia. [SELAH] Declaro que estoy posicionado legalmente en el Segundo Adán. No temo al futuro ni a la escasez, porque mi Cabeza Federal es el Dueño de todo. Descanso en Su obediencia perfecta y camino en Su bendición inmerecida. Amén."
-        },
-        "reposo-cordon-grana": {
-            "titulo": "El Reposo en el Cordón de Grana",
-            "cita": "Y ella ató el cordón (Tikvah) de grana a la ventana. (Josué 2:21)",
-            "contenido": "Abba Padre, hoy vengo a atar mi esperanza a la única señal que garantiza mi salvación: la sangre de Tu Hijo. Reconozco que hay oprobios en mi pasado y grietas en mi historia familiar que intentan decirme que mi casa no está segura. Confieso mi temor de que los errores de mis antepasados alcancen a mis hijos. [SELAH] Pero hoy pongo mi confianza en la Tikvah, el cordón de esperanza legal que es Jesucristo-Pneuma. No importa que mi casa esté construida en el muro de una ciudad bajo juicio; la señal de la sangre me hace invisible para la destrucción. Mi esperanza no es un deseo, es un contrato firmado con grana. [SELAH] Decreto hoy salvación y protección sobre toda mi familia. Declaro que el cordón rojo de la justicia de Cristo blinda mis puertas y ventanas. Mi linaje es rescatado, mi oprobio es quitado y mi casa permanece firme sobre la Roca. Amén."
-        },
-        "favor-en-tierra-extraña": {
-            "titulo": "El Imán del Favor en Tierra Extraña",
-            "cita": "Jehová recompense tu obra... bajo cuyas alas has venido a refugiarte. (Rut 2:12)",
-            "contenido": "Dios de toda Gracia, hoy renuncio a mi 'pasado moabita' y a todo estigma de exclusión que quiera perseguirme. Confieso que a veces me siento como un extraño en mi propio destino, espigando sobras de felicidad y conformándome con poco. [SELAH] Pero hoy decido refugiarme bajo la sombra de Tus alas. Tu Hesed es mi blindaje. No importa de dónde vengo; importa hacia dónde apunto mi altar. Tú eres el Dios que prepara campos de abundancia para los que le son leales. [SELAH] Decreto hoy favor inmerecido sobre mi casa y mis finanzas. Soy imán de oportunidades divinas. No recojo sobras; soy invitado a la mesa del dueño del campo. Mi linaje es bendito por mi fe en el Dios de Israel. Amén."
-        },
-        "fundamentos-eternos": {
-            "titulo": "Visión de Reino",
-            "cita": "1 Crónicas 13:3",
-            "contenido": "Señor, líbrame de perder mis años construyendo reinos temporales o fortalezas nacidas del miedo, como lo hizo Saúl en Gabaa. [SELAH] Que el Arca de Tu presencia sea el fundamento de todo lo que construyo: mi familia, mi negocio y mi ministerio. [SELAH] Dame la gracia para edificar sobre la Roca sólida de Cristo. No quiero vivir a la defensiva, quiero construir legados que te glorifiquen por generaciones. Amén."
-        }
+  "temas": {
+    "bendicion-hogar": {
+      "titulo": "El Altar de la Familia",
+      "cita": "Pero yo y mi casa serviremos a Jehová. (Josué 24:15)",
+      "contenido": "Padre Celestial, hoy traigo ante Tu altar mi hogar, reconociendo que a veces el estrés y las palabras ásperas intentan levantar muros entre nosotros. Confieso que hemos permitido que la rutina opaque el diseño de amor que Tú trazaste para nosotros. [SELAH] Señor, hoy trazo un cerco de protección con la Sangre del Cordero sobre mis puertas. Que este hogar sea una 'Betania', un refugio de paz donde Tu Espíritu se sienta cómodo habitando. [SELAH] Declaro con autoridad que mi casa y yo serviremos a Jehová. Rompo hoy todo patrón de división y desato bendición, salud y propósito eterno sobre mi descendencia. Tú eres el Dueño de nuestra mesa. Amén."
+    },
+    "restauracion-matrimonial": {
+      "titulo": "Cuerdas de Amor Inquebrantables",
+      "cita": "Cordón de tres dobleces no se rompe pronto. (Eclesiastés 4:12)",
+      "contenido": "Señor Jesús, hoy rindo ante Ti las heridas y distancias que se han creado en mi matrimonio. Reconozco que hemos intentado construir en nuestras fuerzas, olvidando que solo Tú puedes amalgamar dos corazones en uno. [SELAH] Te pido que seas el hilo central de nuestra unión. Enséñanos a perdonar con la misma Gracia con que Tú nos perdonas. Que Tu amor borre toda memoria de agravio y restaure la ternura original. [SELAH] Declaro que lo que Dios unió, no lo separa el hombre ni la crisis. Renuevo hoy nuestro pacto bajo Tu diseño. Nuestra unión será un testimonio de Tu fidelidad ante el mundo. Amén."
+    },
+    "hijos-proposito": {
+      "titulo": "Saetas en Manos del Valiente",
+      "cita": "Herencia de Jehová son los hijos. (Salmos 127:3)",
+      "contenido": "Padre Amado, hoy te entrego a mis hijos, reconociendo que son Tu herencia y que mis fuerzas no bastan para protegerlos de la confusión de este siglo. [SELAH] Pongo un vallado de ángeles alrededor de sus mentes y corazones. Que ninguna mentira del enemigo eche raíces en ellos. Si alguno está lejos, que Tu amor incondicional lo atraiga hoy de vuelta al redil. [SELAH] Declaro que mis hijos serán cabeza y no cola. Profetizo sobre ellos un futuro de esperanza y plenitud. Son saetas dirigidas por Tu mano hacia el blanco de Su propósito eterno. Amén."
+    },
+    "reposo-victoria-federal": {
+      "titulo": "Bajo la Cobertura del Segundo Adán",
+      "cita": "Porque así como por la desobediencia de un hombre los muchos fueron constituidos pecadores... (Romanos 5:19)",
+      "contenido": "Abba Padre, hoy decido dejar de pelear batallas que ya fueron ganadas. Confieso que muchas veces vivo bajo la sombra del fracaso del primer Adán, sintiéndome sentenciado por mi naturaleza caída y limitado por mis errores hereditarios. [SELAH] Pero hoy me cambio de fila legal. Acepto por fe que mi Representante es Jesucristo, el Hombre que venció en el desierto por mí. Su historial de pureza es ahora mi historial. Su victoria es mi herencia. [SELAH] Declaro que estoy posicionado legalmente en el Segundo Adán. No temo al futuro ni a la escasez, porque mi Cabeza Federal es el Dueño de todo. Descanso en Su obediencia perfecta y camino en Su bendición inmerecida. Amén."
+    },
+    "reposo-cordon-grana": {
+      "titulo": "El Reposo en el Cordón de Grana",
+      "cita": "Y ella ató el cordón (Tikvah) de grana a la ventana. (Josué 2:21)",
+      "contenido": "Abba Padre, hoy vengo a atar mi esperanza a la única señal que garantiza mi salvación: la sangre de Tu Hijo. Reconozco que hay oprobios en mi pasado y grietas en mi historia familiar que intentan decirme que mi casa no está segura. Confieso mi temor de que los errores de mis antepasados alcancen a mis hijos. [SELAH] Pero hoy pongo mi confianza en la Tikvah, el cordón de esperanza legal que es Jesucristo-Pneuma. No importa que mi casa esté construida en el muro de una ciudad bajo juicio; la señal de la sangre me hace invisible para la destrucción. Mi esperanza no es un deseo, es un contrato firmado con grana. [SELAH] Decreto hoy salvación y protección sobre toda mi familia. Declaro que el cordón rojo de la justicia de Cristo blinda mis puertas y ventanas. Mi linaje es rescatado, mi oprobio es quitado y mi casa permanece firme sobre la Roca. Amén."
+    },
+    "favor-en-tierra-extraña": {
+      "titulo": "El Imán del Favor en Tierra Extraña",
+      "cita": "Jehová recompense tu obra... bajo cuyas alas has venido a refugiarte. (Rut 2:12)",
+      "contenido": "Dios de toda Gracia, hoy renuncio a mi 'pasado moabita' y a todo estigma de exclusión que quiera perseguirme. Confieso que a veces me siento como un extraño en mi propio destino, espigando sobras de felicidad y conformándome con poco. [SELAH] Pero hoy decido refugiarme bajo la sombra de Tus alas. Tu Hesed es mi blindaje. No importa de dónde vengo; importa hacia dónde apunto mi altar. Tú eres el Dios que prepara campos de abundancia para los que le son leales. [SELAH] Decreto hoy favor inmerecido sobre mi casa y mis finanzas. Soy imán de oportunidades divinas. No recojo sobras; soy invitado a la mesa del dueño del campo. Mi linaje es bendito por mi fe en el Dios de Israel. Amén."
+    },
+    "fundamentos-eternos": {
+      "titulo": "Visión de Reino",
+      "cita": "1 Crónicas 13:3",
+      "contenido": "Señor, líbrame de perder mis años construyendo reinos temporales o fortalezas nacidas del miedo, como lo hizo Saúl en Gabaa. [SELAH] Que el Arca de Tu presencia sea el fundamento de todo lo que construyo: mi familia, mi negocio y mi ministerio. [SELAH] Dame la gracia para edificar sobre la Roca sólida de Cristo. No quiero vivir a la defensiva, quiero construir legados que te glorifiquen por generaciones. Amén."
+    },
+    "sabiduria-pacificadora": {
+      "titulo": "Frenando el Mazo de la Ira",
+      "cita": "1 Samuel 25:25",
+      "contenido": "Dios de Paz, me arrepiento de las veces que he levantado el mazo de mi propia ira ante la necedad y el desprecio de los Nabales de este mundo. Reconozco la tentación carnal de tomar venganza y de defender mi propio honor con manos manchadas de sangre. [SELAH] Recibo la sabiduría de Abigail en este momento. Elijo la intercesión prudente, la respuesta blanda y la cordura profética. Dejo las cuentas en Tus manos, sabiendo que Tú me edificarás casa estable sin que yo manche mi conciencia. [SELAH] Decreto que la ira humana no obra la justicia de Dios. Suelto el mazo del rencor y el impulso vengativo. Camino en paz, seguro de que mi causa está ligada al haz de la vida bajo Tu protección soberana. Amén."
     }
+  }
 }

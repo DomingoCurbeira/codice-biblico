@@ -1,5 +1,192 @@
 [
   {
+    "id": "etymos-mashiaj-propiedad",
+    "activo": true,
+    "fecha_programada": "2026-07-15",
+    "tipo": "etimologia",
+    "titulo": "Mashíaj: Marca de Propiedad",
+    "subtitulo": "La Filología del Trono: Descifrando el significado original de la unción y la pertenencia legal",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/mashiaj-uncion.webp",
+    "tags": [
+      "Unción",
+      "Mashíaj",
+      "Etimología",
+      "Propiedad",
+      "Mesías"
+    ],
+    "versiculo_clave": {
+      "texto": "Y tomó Samuel el cuerno del aceite, y lo ungió en medio de sus hermanos; y desde aquel día en adelante el Espíritu de Jehová vino sobre David.",
+      "cita": "1 Samuel 16:13"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Teología de la Consagración",
+        "titulo": "El Cuerno de Aceite de Samuel",
+        "texto": "En la antigüedad bíblica, el aceite no era solo un artículo de cosmética o cocina, sino la sustancia central para consagrar sumos sacerdotes, reyes y profetas. Al ungir a David en Belén, Samuel no estaba realizando un acto meramente simbólico o decorativo. Estaba marcando legalmente la cabeza de David para el servicio divino. La teología contemporánea ha transformado la 'unción' en una especie de poder místico para la fama o la comodidad personal. Sin embargo, la etimología de la palabra hebrea revela un diseño mucho más profundo y exigente."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Mashíaj (מָשִׁיחַ)",
+        "idioma": "Hebreo",
+        "raiz": "Mashaj (Untar / Frotar / Pintar con aceite o pintura)",
+        "significado": "Ungido, aquel que ha sido untado o pintado con aceite sagrado para ser reclamado.",
+        "fonetica_guia": "Ma-shí-aj",
+        "revelacion": "En el contexto hebreo antiguo, los pastores untaban (mashaj) a las ovejas con aceite para protegerlas de los parásitos y marcar su pertenencia al rebaño. Del mismo modo, un vaso del Tabernáculo era 'ungido' para indicar que había sido reclamado en propiedad exclusiva por Dios. 'Mashíaj' no es alguien con poderes independientes, es una vasija que lleva la marca de propiedad del Creador. Significa que ya no se pertenece a sí misma; ha sido apartada legalmente para el propósito y el sufrimiento si es necesario."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios Reclamador y Santificador",
+        "texto": "Dios se revela como Aquel que reclama derechos de propiedad sobre Sus vasijas. El atributo de Santidad exige que lo que ha sido ungido no pueda ser usado para fines comunes. Cuando Dios derrama Su Espíritu (aceite) sobre alguien, levanta un cerco legal que impide que esa vida pertenezca al sistema del mundo."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Mashíaj Sufriente y Glorificado",
+        "texto": "Jesús es el Mashíaj definitivo (Cristo es la traducción griega de Mashíaj). Él no fue ungido con aceite físico, sino con el Espíritu Santo (Jesucristo-Pneuma) y poder en el Jordán. Su identidad como Mashíaj se consumó no en un trono de oro terrenal, sino en el altar de la cruz. Él llevó la marca de propiedad de Dios obedeciendo hasta la muerte, convirtiéndose en el Salvador unigénito."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Dinámica de la Marca Divina",
+        "descripcion": "El proceso de portar la marca del Mashíaj involucra convicciones innegables:",
+        "pasos": [
+          {
+            "concepto": "Frotamiento de Aceite (Consagración)",
+            "explicacion": "Ser untado por Dios. El aceite penetra las grietas del alma, sanando heridas antiguas y cerrando puertas al pasado."
+          },
+          {
+            "concepto": "Establecimiento del Cerco",
+            "explicacion": "El enemigo identifica la marca y sabe que ya no tiene derecho de autor sobre esa vasija. La protección divina está activa."
+          },
+          {
+            "concepto": "Pérdida de la Autonomía",
+            "explicacion": "Aceptar que tus planes y deseos ahora están subordinados al diseño del Dueño de la unción."
+          },
+          {
+            "concepto": "Manifestación del Poder",
+            "explicacion": "La autoridad legítima fluye porque la vasija está sometida al Dueño. El Reino se manifiesta a través de la obediencia."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Sello de la Pertenencia",
+        "referencias": [
+          {
+            "cita": "1 Crónicas 16:22",
+            "versiculo": "No toquéis a mis ungidos (Mashíaj), Ni hagáis mal a mis profetas.",
+            "revelacion": "La declaración de protección sobre aquellos que portan la marca de Dios. Tocar al ungido es agredir la propiedad privada de Dios."
+          },
+          {
+            "cita": "Hechos 10:38",
+            "versiculo": "cómo Dios ungió con el Espíritu Santo y con poder a Jesús de Nazaret, y cómo éste anduvo haciendo bienes...",
+            "revelacion": "El registro del Nuevo Pacto. La unción divina se traduce en servicio activo y liberación de los oprimidos."
+          },
+          {
+            "cita": "2 Corintios 1:21-22",
+            "versiculo": "Y el que nos confirma con vosotros en Cristo, y el que nos ungió, es Dios, el cual también nos ha sellado...",
+            "revelacion": "La unción no es para unos pocos líderes del Antiguo Testamento; en Cristo, todo creyente es sellado y ungido."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Entendiendo tu Sello",
+        "items": [
+          {
+            "punto": "Ya no te perteneces.",
+            "ejemplo": "Seguir tomando decisiones sobre tu vida amorosa o financiera sin consultarle a Dios, como si fueras libre de hacer lo que quieras.",
+            "escenario_actual": "Si has aceptado a Jesús, has sido ungido y sellado. Rinde el control de tu agenda. Pregúntale al Dueño qué desea de ti hoy."
+          },
+          {
+            "punto": "El aceite sana tus heridas.",
+            "ejemplo": "Llevar años cargando con amarguras de la infancia o resentimientos por rechazos familiares.",
+            "escenario_actual": "La unción (aceite) tiene la función física de suavizar la piel seca y sanar picaduras. Deja que el Espíritu sane tu corazón herido."
+          },
+          {
+            "punto": "Eres propiedad exclusiva de Dios.",
+            "ejemplo": "Sentir pánico constante ante maldiciones, brujerías o ataques espirituales dirigidos a tu familia.",
+            "escenario_actual": "El enemigo sabe leer la unción en tu frente. Declarar que eres propiedad del Gran Pastor anula legalmente todo reclamo del infierno."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Administrando la Unción",
+        "items": [
+          {
+            "punto": "No profanes la marca.",
+            "ejemplo": "Usar tus dones de predicación o alabanza para ganar dinero o estatus personal mientras mantienes una doble vida en secreto.",
+            "escenario_actual": "Dios castigó severamente a los sacerdotes que usaron el aceite de la unción para fines comunes. Mantén tu vida privada alineada con tu plataforma."
+          },
+          {
+            "punto": "La unción atrae la fricción.",
+            "ejemplo": "Frustrarte porque desde que decidiste comprometerte más con Dios en tu ministerio has enfrentado más ataques de envidia o chismes.",
+            "escenario_actual": "La unción (untar aceite) reduce la fricción física, pero en el mundo espiritual atrae el conflicto contra lo falso (Saúl persiguiendo a David). Sostén tu posición."
+          },
+          {
+            "punto": "Respeta la marca en otros.",
+            "ejemplo": "Hablar mal de otros pastores, líderes o hermanos de la iglesia con ligereza en tus conversaciones familiares.",
+            "escenario_actual": "David rehusó matar a Saúl porque portaba la unción, aunque Saúl estuviera desquiciado. Si ves fallas en un líder, ora y calla; deja el juicio a Dios."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Herejía de la Unción Comercial",
+        "texto": "Es sumamente peligroso enseñar que la unción es un 'producto' que se puede transferir por dinero, pactos financieros o manipulación ministerial. La unción no se vende ni se alquila. Es el acto soberano de Dios reclamando una vasija. Si un predicador te promete 'darte la unción' a cambio de una ofrenda, está cometiendo simonía. La unción es un sello de propiedad exclusiva de Dios pagado por la sangre de Jesús."
+      }
+    ],
+    "desafio_practico": "Ungue tu cabeza con un poco de aceite hoy en tu tiempo de oración. Al hacerlo, declara solemnemente: 'Señor, no soy mío, me has ungido y comprado. Declaro que mi vida es Tu propiedad exclusiva'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El ungido olvidado en el campo de Isaí.",
+          "paralelismo": "El rey que cargó la marca de propiedad en medio de las cuevas."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen-nacimiento",
+          "nombre": "Belén",
+          "razon": "Donde David fue ungido con el aceite sagrado.",
+          "simbolismo": "La cuna del aceite de la realeza."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "mashiaj-heb",
+          "nombre": "Mashíaj (Ungido)",
+          "razon": "El eje léxico del estudio.",
+          "familia": "Propiedad, sello, consagración."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "uncion-propiedad",
+          "tema": "Ungido para Su Propiedad",
+          "declaracion": "Padre Santo, acepto el aceite sobre mi cabeza. Declaro que ya no me pertenezco, soy Tu vasija marcada exclusivamente para Tu altar y Tu diseño. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "etymos-qesem-adivinacion",
     "activo": false,
     "fecha_programada": "2026-07-08",

@@ -1,5 +1,109 @@
 [
   {
+    "id": "carmel-juda",
+    "nombre": "Carmelo de Judá",
+    "descripcion_corta": "El Campo de la Sabiduría",
+    "coordenadas": [
+      31.4239,
+      35.1328
+    ],
+    "region": "Judea",
+    "tipo": "Pueblo/Desierto",
+    "imagen": "../img/lugares/carmel-juda.webp",
+    "historia": "Carmel (cerca de Maón y Zif, en el sur de Judá) era el territorio donde el necio Nabal esquilaba sus ovejas. En sus inmediaciones, Abigail interceptó al indignado David para evitar que destruyera a su familia, logrando pacificar su ira con sabiduría.",
+    "significado_espiritual": "Carmel de Judá representa la prueba de la ofensa. Nos muestra el peligro de tomar la justicia por mano propia y cómo la sabiduría profética pacífica frena la ira humana, permitiendo que sea Dios quien actúe y defienda al ungido.",
+    "eventos_clave": [
+      "Nabal responde con insultos e insensatez a los mensajeros de David.",
+      "David se ciñe la espada para vengar su honor carnalmente.",
+      "Abigail interviene en el camino y detiene el mazo de la ira."
+    ],
+    "estado_actual": "Identificado con el sitio de Al-Karmil, al sur de Hebrón, donde se conservan vestigios antiguos de estanques de agua y cuevas agrícolas.",
+    "conexiones_estudio": [
+      {
+        "id": "sermones-abigail-sabiduria",
+        "titulo": "Abigail: La Sabiduría que frena el Mazo"
+      }
+    ]
+  },
+  {
+    "id": "jerusalen-sion",
+    "nombre": "Jerusalén (Sion)",
+    "descripcion_corta": "La Ciudad de David",
+    "coordenadas": [
+      31.7733,
+      35.2351
+    ],
+    "region": "Judea",
+    "tipo": "Fortaleza/Capital",
+    "imagen": "../img/lugares/ciudad-david.webp",
+    "historia": "Sion era una fortaleza jebusea considerada inexpugnable. David la capturó al infiltrar a sus hombres a través del conducto interno de agua (Tsinnur), renombrándola como la Ciudad de David y convirtiéndola en el corazón político y de adoración de la nación.",
+    "significado_espiritual": "Sion representa la transición del bastión militar tosco y defensivo (Gabaa de Saúl) a la capital de adoración unificada donde se coloca el Arca de Dios. Simboliza el establecimiento del trono de la presencia divina en el centro del gobierno.",
+    "eventos_clave": [
+      "David desafía a los jebuseos y Joab sube por el conducto.",
+      "Conquista de la fortaleza y establecimiento de la capital.",
+      "David introduce el Arca del Pacto a Sion con gran júbilo."
+    ],
+    "estado_actual": "El sitio arqueológico de la Ciudad de David, ubicado extramuros al sur de la actual Ciudad Vieja de Jerusalén, donde se conservan los sistemas de túneles de agua de Warren.",
+    "conexiones_estudio": [
+      {
+        "id": "historia-jerusalen-david",
+        "titulo": "La Ciudad de David: La Fortaleza de Sion"
+      }
+    ]
+  },
+  {
+    "id": "valle-ela",
+    "nombre": "Valle de Ela",
+    "descripcion_corta": "El Campo del Desafío",
+    "coordenadas": [
+      31.6883,
+      34.9247
+    ],
+    "region": "Sefela",
+    "tipo": "Campo de Batalla",
+    "imagen": "../img/lugares/valle-ela.webp",
+    "historia": "Un amplio valle donde los escuadrones de Israel y Filistea se desafiaron durante cuarenta días. Fue el escenario donde el joven David, armado solo con una honda y cinco piedras lisas de un arroyo, derribó al gigante Goliat.",
+    "significado_espiritual": "El Valle de Ela representa el choque de jurisdicciones: la fuerza e intimidación del mundo (Goliat) frente a la legalidad y el respaldo del Nombre del Señor (David). Nos enseña que las victorias públicas dependen de la obediencia privada.",
+    "eventos_clave": [
+      "Goliat desafía a los escuadrones de Israel provocando pánico.",
+      "David visita el campamento y acepta el duelo.",
+      "La piedra de David derriba al gigante y desata la victoria de Israel."
+    ],
+    "estado_actual": "Un fértil valle agrícola en Israel conocido como Emek HaElah, donde aún fluye el arroyo estacional lleno de piedras lisas.",
+    "conexiones_estudio": [
+      {
+        "id": "mitos-david-goliat",
+        "titulo": "El Mito de la Honda Mágica"
+      }
+    ]
+  },
+  {
+    "id": "cueva-adulam",
+    "nombre": "Cueva de Adulam",
+    "descripcion_corta": "El Refugio de los Quebrantados",
+    "coordenadas": [
+      31.6517,
+      34.9514
+    ],
+    "region": "Sefela",
+    "tipo": "Refugio/Cueva",
+    "imagen": "../img/lugares/adulam.webp",
+    "historia": "La cueva de Adulam sirvió como refugio para David cuando huía del paranoico rey Saúl. En esta cueva, Dios reunió en torno a David a 400 hombres endeudados y afligidos, moldeándolos hasta convertirlos en los valientes guerreros del Reino.",
+    "significado_espiritual": "Adulam representa el tiempo del anonimato sagrado y el procesamiento del desierto. Nos enseña que la autoridad espiritual legítima no se improvisa en un palacio, sino que se forja en el dolor del confinamiento y el quebrantamiento moral.",
+    "eventos_clave": [
+      "David huye del rey Saúl y se refugia en la cueva.",
+      "Cuatrocientos desterrados y amargados se unen a él.",
+      "Se forja el núcleo de los valientes de la dinastía davídica."
+    ],
+    "estado_actual": "Ubicado en la reserva natural de Adulam. Numerosas cuevas de piedra caliza son visibles y transitables en las colinas bajas de Judea.",
+    "conexiones_estudio": [
+      {
+        "id": "huellas-david-anonimato",
+        "titulo": "David: El Ungido del Olvido"
+      }
+    ]
+  },
+  {
     "id": "gabaa-saul",
     "nombre": "Gabaa de Saúl",
     "descripcion_corta": "La Fortaleza Rústica",

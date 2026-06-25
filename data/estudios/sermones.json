@@ -1,5 +1,198 @@
 [
   {
+    "id": "sermones-abigail-sabiduria",
+    "activo": true,
+    "fecha_programada": "2026-07-17",
+    "tipo": "sermones",
+    "titulo": "Abigail: La Sabiduría que frena el Mazo",
+    "subtitulo": "Sermones Filtrados: La anatomía de la venganza carnal abortada por la voz profética de la sobriedad",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/abigail-david.webp",
+    "tags": [
+      "Abigail",
+      "David",
+      "Venganza",
+      "Sabiduría",
+      "Nabal"
+    ],
+    "versiculo_clave": {
+      "texto": "Y bendito sea tu razonamiento, y bendita tú, que me has estorbado hoy de ir a derramar sangre, y a vengarme por mi propia mano.",
+      "cita": "1 Samuel 25:33"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Homilético / Ética Monárquica",
+        "titulo": "El Conflicto con Nabal en el Desierto",
+        "texto": "David y sus hombres habían protegido los rebaños del rico hacendado Nabal en el desierto del Carmelo. Al llegar el tiempo de la esquila (fiesta de abundancia), David envió mensajeros a pedir una compensación voluntaria en provisiones. Nabal, haciendo honor a su nombre (necio/marchito), respondió insultando a David y tratándolo como a un esclavo fugitivo. Consumido por la ira y el orgullo herido, David ordenó a sus 400 hombres ceñirse la espada, jurando exterminar a todos los varones de la casa de Nabal antes del amanecer. Abigail, la esposa sensata de Nabal, al enterarse de la crisis, preparó un gran cargamento de comida y salió al encuentro de David, postrándose en el camino para frenar la masacre inminente."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Nabal (נָבָל)",
+        "idioma": "Hebreo",
+        "raiz": "Nabel (Marchitarse / Descomponerse / Perder la savia)",
+        "significado": "Necio, insensato, marchito, sin vida espiritual; ruin, egoísta.",
+        "fonetica_guia": "Na-bál",
+        "revelacion": "El 'Nabal' en hebreo no describe a un tonto intelectual, sino a un hombre moralmente marchito. Es la persona cuya alma carece de la 'savia' del temor de Dios, operando con insensibilidad espiritual. Nabal pagó mal por bien porque su corazón estaba seco. Su insensatez estuvo a punto de arrastrar a David a un desastre moral: manchar sus manos con sangre de inocentes justo antes de asumir el trono."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Intercepta e Interviene (Freno de Gracia)",
+        "texto": "Dios se revela como Aquel que interviene de camino al error. El atributo de Misericordia Preventiva envía a Abigail como un 'estorbo' divino para salvar a David de sí mismo. Dios no quería que el futuro rey de Israel tuviera un expediente judicial manchado por venganza privada. Dios protege la conciencia de Sus elegidos."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "La Sabiduría Intercesora que salva al Ofendido",
+        "texto": "Abigail es una sombra hermosa de Jesucristo en Su rol de Sabiduría encarnada e Intercesora. Ella cargó sobre sus propios hombros la culpa de su necio esposo Nabal ('sobre mí sea el pecado, señor mío'), preparó provisiones de paz y se interpuso en el camino de la ira destructiva. Cristo se interpuso en el camino de la ira santa de Dios contra nuestra necedad, cargando nuestra culpa en la cruz para establecer la paz definitiva."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Protocolo de la Sabiduría Pacificadora",
+        "descripcion": "La intervención de Abigail nos enseña cómo neutralizar el conflicto en la carne:",
+        "pasos": [
+          {
+            "concepto": "Lectura Rápida del Caos",
+            "explicacion": "Abigail no se quejó ni se paralizó. Actuó de inmediato al enterarse de la insensatez de su esposo, preparando provisiones sin perder tiempo."
+          },
+          {
+            "concepto": "Postración de Honra (Humillación)",
+            "explicacion": "Bajar del asno y postrarse ante David. La soberbia se desarma mediante la sumisión y el lenguaje de respeto."
+          },
+          {
+            "concepto": "Recordatorio de Destino (Visión Profética)",
+            "explicacion": "Ella le recordó a David que Dios le edificaría 'casa estable' y que no debía permitir que un necio fuera motivo de remordimiento en su reinado."
+          },
+          {
+            "concepto": "El Juicio Divino",
+            "explicacion": "Dejar la venganza a Dios. Diez días después, el corazón de Nabal se marchitó (murió) por intervención divina. Dios ejecutó la justicia."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Ira del Hombre y la Justicia de Dios",
+        "referencias": [
+          {
+            "cita": "Santiago 1:20",
+            "versiculo": "porque la ira del hombre no obra la justicia de Dios.",
+            "revelacion": "El principio del Nuevo Pacto que David estuvo a punto de violar en el desierto del Carmelo."
+          },
+          {
+            "cita": "Romanos 12:19",
+            "versiculo": "No os venguéis vosotros mismos, amados míos, sino dejad lugar a la ira de Dios; porque escrito está: Mía es la venganza, yo pagaré, dice el Señor.",
+            "revelacion": "La instrucción legal definitiva. Confiar en que Dios es el Juez justo desactiva nuestro deseo de venganza carnal."
+          },
+          {
+            "cita": "Proverbios 15:1",
+            "versiculo": "La blanda respuesta quita la ira; Mas la palabra áspera hace subir el furor.",
+            "revelacion": "El método de Abigail. Su razonamiento blando y respetuoso desarmó el mazo de David y de sus 400 guerreros."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Guardando tus Manos",
+        "items": [
+          {
+            "punto": "No respondas con el mazo.",
+            "ejemplo": "Insultar o vengarte de un vecino o compañero de trabajo que te trató de forma grosera.",
+            "escenario_actual": "La insensatez de un 'Nabal' secular no justifica tu pecado. Guarda tu testimonio; no te rebajes al nivel del necio moral."
+          },
+          {
+            "punto": "Acepta los límites de la gracia.",
+            "ejemplo": "Enojarte con un amigo de la iglesia o pastor que te aconseja que detengas una mala actitud o una relación tóxica.",
+            "escenario_actual": "Esa persona es una 'Abigail' que Dios envió para evitar que destruyas tu reputación. Escucha el sabio razonamiento y retrocede."
+          },
+          {
+            "punto": "Confía en la justicia a tiempo.",
+            "ejemplo": "Vivir amargado queriendo 'hacer pagar' a quienes te estafaron o te difamaron en el pasado.",
+            "escenario_actual": "Suelta el rencor. Dios conoce el comportamiento de los necios y a su tiempo establecerá la balanza. Tu trabajo es perdonar y avanzar."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Protegiendo tu Conciencia",
+        "items": [
+          {
+            "punto": "El liderazgo maduro frena el impulso.",
+            "ejemplo": "Un pastor que, ante un ataque de calumnia en redes sociales, reacciona publicando descargos iracundos o atacando a los críticos desde el púlpito.",
+            "escenario_actual": "Ceñirse la espada por orgullo herido mancha tu autoridad moral. Deja que tu defensa sea la prudencia de Abigail y el silencio del altar."
+          },
+          {
+            "punto": "Recuerda tu casa estable.",
+            "ejemplo": "Tomar atajos éticos o reaccionar con ira en tu empresa justificándote con que 'los clientes son tramposos'.",
+            "escenario_actual": "Dios ha prometido bendecir tu legado (casa estable). No manches tu conciencia hoy con decisiones carnales que te avergonzarán mañana cuando seas promovido."
+          },
+          {
+            "punto": "Intercede por los necios de tu entorno.",
+            "ejemplo": "Ver que tu jefe o tu cónyuge actúa con insensatez espiritual y limitarte a criticarles o preparar el divorcio/renuncia agresiva.",
+            "escenario_actual": "Adopta la postura de Abigail: intercede, cubre los vacíos de provisión, y habla con sabiduría y respeto en el momento de sobriedad. Dios actuará en los corazones."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Engaño del Ojo por Ojo Ministerial",
+        "texto": "Es un error letal enseñar un cristianismo donde se fomente la beligerancia defensiva o 'guerras espirituales' centradas en el ataque personal y la destrucción de la reputación de los opositores. La iglesia de Cristo vence el mal con el bien. La intercesión pacificadora de Abigail, que prefiere humillarse para evitar el derramamiento de sangre, es el modelo apostólico de gobierno moral."
+      }
+    ],
+    "desafio_practico": "Piensa en alguien que te ha provocado o insultado recientemente. Hoy, decide bendecirle en secreto en tus oraciones y declara que renuncias a cualquier intento de vengarte por tu propia mano.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El guerrero que se dejó estorbar por la sabiduría.",
+          "paralelismo": "El contraste entre el mazo de la ira y el arrepentimiento rápido."
+        },
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "La Sabiduría que intercede ante la ira.",
+          "paralelismo": "El mediador perfecto que cargó la culpa de la insensatez."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "carmel-juda",
+          "nombre": "Carmelo (Judá)",
+          "razon": "El lugar del encuentro con Abigail.",
+          "simbolismo": "Donde la sabiduría detuvo la espada de la ira."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "nabal-heb",
+          "nombre": "Nabal (Necio)",
+          "razon": "La tipología del hombre espiritualmente marchito.",
+          "familia": "Insensatez, sequedad moral, deshonor."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "sabiduria-pacificadora",
+          "tema": "Frenando el Mazo",
+          "declaracion": "Dios de Paz, líbrame de la venganza personal. Recibo la sabiduría de Abigail y suelto el mazo de mi ira carnal, confiando en que Tú eres el Juez y guardas mi destino. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "sermones-saul-caida",
     "activo": false,
     "fecha_programada": "2026-07-10",

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'codice-v72'; // Subimos de versión para aplicar cambios Premium
+const CACHE_NAME = 'codice-v195'; // Incrementamos versión para forzar actualización de base de datos JSON premium (Junio Bloque 7)
 const ASSETS = [
   '/',
   '/index.html',

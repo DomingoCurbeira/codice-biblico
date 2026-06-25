@@ -48,3 +48,8 @@ Thumbs.db
 # Excluir documentación y scripts de desarrollo
 *.md
 *.py
+
+# Respaldos y archivos antiguos de migración
+data/mana-viejo/
+mana-viejo/
+data/indices/indice_mana_viejo.json

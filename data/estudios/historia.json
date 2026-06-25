@@ -1,5 +1,192 @@
 [
   {
+    "id": "historia-jerusalen-david",
+    "activo": true,
+    "fecha_programada": "2026-07-16",
+    "tipo": "historia",
+    "titulo": "La Ciudad de David: La Fortaleza de Sion",
+    "subtitulo": "Arqueología del Establecimiento: Cómo David vulneró un bastión impenetrable e inauguró el trono de la adoración",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/jerusalen-david.webp",
+    "tags": [
+      "Sion",
+      "Jerusalén",
+      "Arqueología",
+      "David",
+      "Fortaleza"
+    ],
+    "versiculo_clave": {
+      "texto": "Y dijo David aquel día: Todo el que hiera a los jebuseos, suba por el canal y hiera a los cojos y a los ciegos... Por esto se dijo: Ciego ni cojo no entrará en la casa.",
+      "cita": "2 Samuel 5:8"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Arqueológico / Geopolítica Bíblica",
+        "titulo": "La Fortaleza Impenetrable de los Jebuseos",
+        "texto": "Durante más de cuatro siglos después de la conquista de Canaán por Josué, los jebuseos retuvieron el control de una pequeña fortaleza rocosa llamada Sion, ubicada en una cresta al sur del actual monte del Templo. Estaban tan seguros de su geografía y de sus masivas murallas de piedra que se burlaban de los ejércitos de Israel, diciendo que incluso los ciegos y cojos de su pueblo podrían defender el bastión. Sin embargo, David identificó la debilidad de la fortaleza: su fuente de agua (Gihón) estaba conectada al interior del fuerte por un sistema de túneles verticales excavados en la roca. Joab lideró el ataque subiendo en silencio por ese canal de agua, conquistando la ciudadela desde adentro. David renombró el fuerte como la 'Ciudad de David', transformándola en su capital."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Tsinnúr (צִנּוּר)",
+        "idioma": "Hebreo",
+        "raiz": "Tsanar (Canalizar / Conducir agua)",
+        "significado": "Canal de agua, conducto, pozo o tubería de agua subterránea.",
+        "fonetica_guia": "Tsin-núr",
+        "revelacion": "El 'Tsinnur' (identificado por los arqueólogos como el pozo de Warren) era el conducto vital que mantenía con vida a la fortaleza jebusea. David comprendió que para conquistar lo 'impenetrable' no debía golpear las murallas de piedra tosca con arietes carnales; debía encontrar el conducto interno de provisión. En el plano espiritual, toda fortaleza del enemigo en nuestra mente o familia tiene un 'tsinnur': un punto de acceso legal o una veta que solo puede ser penetrada mediante la oración y la obediencia revelada."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Sabiduría Infiltradora (Estratega Supremo)",
+        "texto": "Dios se revela como Aquel que vulnera lo que el orgullo humano declara indestructible. El atributo de Omnisciencia indica que Dios conoce cada túnel y debilidad de nuestros gigantes. Dios no derribó las murallas de Sion con un terremoto como en Jericó; le dio a David la inteligencia arqueológica para usar el canal de agua. Dios premia la estrategia nacida de la dependencia."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Verdadero Joab que subió por el Conducto",
+        "texto": "Joab fue el único que se atrevió a subir por el oscuro y peligroso conducto de agua (Tsinnur) para abrir las puertas de Sion desde adentro, ganando el puesto de general del Reino. Jesucristo es el Joab perfecto. Él descendió al conducto oscuro de nuestra condición humana, penetrando las murallas impenetrables de la muerte mediante Su sepultura y resurrección, rompiendo los cerrojos de las tinieblas para abrir las puertas del Reino eterno a toda la humanidad."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "De la Fortaleza Pagana al Trono de Adoración",
+        "descripcion": "El proceso de conquista y santificación de Sion nos enseña a gobernar:",
+        "pasos": [
+          {
+            "concepto": "Identificar la Fortaleza",
+            "explicacion": "Reconocer las áreas de tu vida (o de la sociedad) que están gobernadas por el enemigo (jebuseos) y que parecen inexpugnables."
+          },
+          {
+            "concepto": "Localizar el Canal (Tsinnur)",
+            "explicacion": "Buscar en oración la estrategia espiritual específica. La debilidad del enemigo que Dios ha expuesto a tu fe."
+          },
+          {
+            "concepto": "La Infiltración y Conquista",
+            "explicacion": "Subir por el conducto. Ejecutar la obediencia en el punto indicado en silencio y con determinación."
+          },
+          {
+            "concepto": "La Consagración de Sion",
+            "explicacion": "Renombrar la fortaleza. Traer el Arca del Pacto (la presencia de Dios) al centro del territorio conquistado."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Conquista de las Fortalezas",
+        "referencias": [
+          {
+            "cita": "Salmos 2:6",
+            "versiculo": "Pero yo he puesto mi rey Sobre Sion, mi santo monte.",
+            "revelacion": "El decreto profético eterno. Sion deja de ser una trinchera jebusea para convertirse en el epicentro de la soberanía de Dios en la Tierra."
+          },
+          {
+            "cita": "Efesios 4:8",
+            "versiculo": "Por lo cual dice: Subiendo a lo alto, llevó cautiva la cautividad, Y dio dones a los hombres.",
+            "revelacion": "La victoria de Cristo. Jesús subió por el conducto de la muerte hacia las alturas celestiales, conquistando el trono definitivo."
+          },
+          {
+            "cita": "Salmos 87:2",
+            "versiculo": "Ama Jehová las puertas de Sion Más que todas las moradas de Jacob.",
+            "revelacion": "La predilección divina por el lugar de la presencia unificada por encima de los hogares dispersos de las tribus."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Identificando tus Jebuseos",
+        "items": [
+          {
+            "punto": "No toleres fortalezas del pasado.",
+            "ejemplo": "Pensar que porque siempre has sido enojón, infiel o ansioso, 'así te quedarás' y Dios tiene que aceptarte así.",
+            "escenario_actual": "Los jebuseos se burlaban diciendo que David nunca entraría. No creas las mentiras del enemigo; toda fortaleza en tu carácter puede ser conquistada por Cristo."
+          },
+          {
+            "punto": "Busca el arroyo de la provisión.",
+            "ejemplo": "Intentar mejorar tu vida moral por fuerza de voluntad, sin leer la Biblia ni orar diariamente.",
+            "escenario_actual": "El agua de Gihón era el sustento de la fortaleza. Sumérgete en el conducto de la Palabra de Dios para secar la provisión de tus malos hábitos."
+          },
+          {
+            "punto": "Reclama tu casa para el Reino.",
+            "ejemplo": "Permitir que en tu hogar haya discusiones, televisión de mala calidad o mentiras, pensando que 'es normal en todas las familias'.",
+            "escenario_actual": "Establece un límite espiritual. Renombra tu hogar hoy como 'Ciudad de David', declarando que allí solo reina la paz de Dios."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Subiendo por el Tsinnur",
+        "items": [
+          {
+            "punto": "Diseña estrategias de oración.",
+            "ejemplo": "Predicar y organizar eventos evangelísticos masivos en tu ciudad sin haber orado e intercedido específicamente contra las potestades locales.",
+            "escenario_actual": "No golpees las murallas jebuseas de frente con ruido humano. Encuentra el 'tsinnur' (el conducto de debilidad espiritual del enemigo) intercediendo en secreto primero."
+          },
+          {
+            "punto": "Sé el Joab que se atreve a subir.",
+            "ejemplo": "Ver la corrupción o el descuido en un área de tu iglesia y limitarte a criticar en lugar de ofrecerte a trabajar y limpiar esa zona.",
+            "escenario_actual": "Dios busca líderes intrépidos que estén dispuestos a meterse en los conductos difíciles y sucios (discipular a jóvenes rebeldes, ordenar finanzas caóticas) para traer victoria."
+          },
+          {
+            "punto": "Sion requiere el Arca.",
+            "ejemplo": "Lograr éxito financiero o expandir tu empresa (tu fortaleza) pero olvidarte de honrar a Dios con tus primicias y tu tiempo devocional.",
+            "escenario_actual": "El palacio de David no estaba completo hasta que trajo el Arca. Que el crecimiento de tu influencia secular jamás reemplace tu altar de adoración."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Falsa Conquista Externa",
+        "texto": "Es un error doctrinal predicar la 'conquista de reinos' en la sociedad (política, economía, arte) mediante métodos puramente carnales: cabildeo político, alianzas de conveniencia o demandas legales. La iglesia no conquista Sion adoptando los métodos de los jebuseos. La verdadera conquista es espiritual y fluye a través del 'tsinnur' de la cruz: morir a nosotros mismos para que Cristo reine con Su justicia."
+      }
+    ],
+    "desafio_practico": "Identifica una 'fortaleza' espiritual o mental en tu familia o negocio que parezca inexpugnable. Dedica 15 minutos hoy para orar en silencio, pidiéndole al Espíritu Santo que te revele el 'tsinnur' (el canal específico) para desactivar la oposición.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El conquistador y rey de Sion.",
+          "paralelismo": "El estratega que transformó un bastión pagano en la morada del Arca."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén",
+          "razon": "El asentamiento de la Ciudad de David.",
+          "simbolismo": "La capital unificada donde se fusiona el altar y la corona."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "tsinnur-heb",
+          "nombre": "Tsinnur",
+          "razon": "El canal de agua clave para la infiltración.",
+          "familia": "Conducto, veta secreta, diseño de acceso."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "conquista-fortalezas",
+          "tema": "Derribando Fortalezas en Sion",
+          "declaracion": "Señor de la Gloria, hoy subo por el canal de la oración y la obediencia radical. Declaro conquistada toda fortaleza mental en mi interior para establecer a Sion como Tu morada. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "historia-gabaa-saul",
     "activo": false,
     "fecha_programada": "2026-07-09",

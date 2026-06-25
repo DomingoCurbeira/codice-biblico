@@ -1,5 +1,193 @@
 [
   {
+    "id": "mitos-david-goliat",
+    "activo": true,
+    "fecha_programada": "2026-07-14",
+    "tipo": "mitos",
+    "titulo": "El Mito de la Honda Mágica",
+    "subtitulo": "¿Fue suerte o preparación en el secreto? Desmantelando el mito de la victoria instantánea frente a Goliat",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/david-goliat.webp",
+    "tags": [
+      "David",
+      "Goliat",
+      "Victoria",
+      "Honda",
+      "Preparación"
+    ],
+    "versiculo_clave": {
+      "texto": "Entonces dijo David al filisteo: Tú vienes a mí con espada y lanza y jabalina; mas yo vengo a ti en el nombre de Jehová de los ejércitos, el Dios de los escuadrones de Israel, a quien tú has provocado.",
+      "cita": "1 Samuel 17:45"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Épica / Deconstrucción Teológica",
+        "titulo": "La Parálisis en el Valle de Ela",
+        "texto": "Durante cuarenta días, el ejército de Israel y el de los filisteos estuvieron frente a frente en el Valle de Ela. Cada día, el gigante Goliat salía a desafiar y humillar a los soldados de Israel, provocando un pánico generalizado que incluía al rey Saúl. David, enviado por su padre a traer comida para sus hermanos, escuchó la provocación y se asombró de que nadie se atreviera a pelear. Rechazando la pesada armadura física que Saúl intentó imponerle, David descendió al arroyo, escogió cinco piedras lisas y enfrentó al gigante con su vara de pastor y su honda. La teología popular suele ver esto como una hazaña mágica o una 'suerte de principiante', perdiendo de vista la física de la preparación y la legalidad del Nombre divino."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Shem (שֵׁם)",
+        "idioma": "Hebreo",
+        "raiz": "Sha (Establecer / Colocar) o Shamayim (Cielo)",
+        "significado": "Nombre, reputación, autoridad legal o esencia de carácter.",
+        "fonetica_guia": "Shem",
+        "revelacion": "David no dijo 'vengo a ti con mi honda mágica'. Dijo: 'Vengo a ti en el Shem (Nombre) de Jehová'. En el Medio Oriente antiguo, el Nombre portaba la autoridad jurídica de quien lo enviaba. Al invocar el Shem, David no estaba usando un talismán religioso, sino que estaba ejecutando un juicio legal en el plano físico respaldado por el Dios de los cielos. La honda era el instrumento natural; el Nombre de Jehová era el peso legal que dirigió la piedra."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de los Escuadrones Celestiales (Respaldo Invisible)",
+        "texto": "Dios se revela como Jehová Tsebaoth (Señor de los Ejércitos). Él no depende del número de espadas ni del tamaño físico de las armaduras. El atributo de Omnipotencia se activa a favor de aquellos que defienden el honor del Pacto frente a la blasfemia. Dios respaldó a David porque David operó bajo la jurisdicción correcta: defender el honor de Dios, no buscar la gloria militar propia."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Pastor que venció al Gigante de la Muerte",
+        "texto": "Goliat representa al pecado, al diablo y a la muerte, enemigos gigantescos ante los cuales toda la humanidad (representada por el ejército paralizado de Israel) estaba aterrorizada. David es el tipo de Cristo que desciende al valle del conflicto sin armadura humana. Jesús venció al 'gigante' de la muerte no con ejércitos celestiales físicos, sino mediante la cruz. Él nos dio la victoria y nos entregó el botín sin que nosotros tuviéramos que pelear la batalla principal."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Física de la Victoria Secreta",
+        "descripcion": "El derribo del gigante de Ela no fue improvisado; se basó en un diseño previo:",
+        "pasos": [
+          {
+            "concepto": "Pruebas en lo Privado",
+            "explicacion": "Vencer al león y al oso en el bosque de la soledad. Si no hay victorias sobre enemigos silenciosos, no hay autoridad contra enemigos públicos."
+          },
+          {
+            "concepto": "Rechazo a lo Ajeno",
+            "explicacion": "Negarse a usar la armadura de Saúl. No puedes pelear las batallas de Dios usando metodologías mundanas o carnales."
+          },
+          {
+            "concepto": "El Nombre como Ley",
+            "explicacion": "Identificar que la batalla no es física sino legal. Enfrentar al gigante respaldado por la autoridad moral del Nombre de Dios."
+          },
+          {
+            "concepto": "La Ejecución de la Fe",
+            "explicacion": "Correr hacia el gigante con decisión. La fe no es estática ni pasiva; requiere acción enfocada en el momento de la verdad."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Fuerza que no es Humana",
+        "referencias": [
+          {
+            "cita": "Zacarías 4:6",
+            "versiculo": "No con ejército, ni con fuerza, sino con mi Espíritu, ha dicho Jehová de los ejércitos.",
+            "revelacion": "El principio eterno detrás de toda victoria en el Reino. Los recursos celestiales superan al hierro filisteo."
+          },
+          {
+            "cita": "2 Corintios 10:4",
+            "versiculo": "porque las armas de nuestra milicia no son carnales, sino poderosas en Dios para la destrucción de fortalezas...",
+            "revelacion": "Validación apostólica de la estrategia de David. Las herramientas espirituales rompen la lógica humana."
+          },
+          {
+            "cita": "Proverbios 18:10",
+            "versiculo": "Torre fuerte es el nombre de Jehová; A él correrá el justo, y será levantado.",
+            "revelacion": "El Nombre de Dios como un refugio y arma legal activa contra cualquier Goliat contemporáneo."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Venciendo el Temor al Gigante",
+        "items": [
+          {
+            "punto": "No pelees con herramientas ajenas.",
+            "ejemplo": "Tratar de resolver tus problemas financieros de la misma manera deshonesta o ansiosa que lo hace el mundo.",
+            "escenario_actual": "Quítate la armadura de Saúl. Dios no respaldará trucos ni mentiras; Él respalda tu integridad y tu confianza en Su Nombre."
+          },
+          {
+            "punto": "Acuérdate del león y del oso.",
+            "ejemplo": "Olvidar los milagros pequeños que Dios hizo en tu pasado al primer síntoma de una nueva crisis.",
+            "escenario_actual": "Si Dios sanó a tu hijo o pagó tu renta el mes pasado, tiene el poder para derribar esta nueva dificultad. Haz memoria de Su fidelidad."
+          },
+          {
+            "punto": "Ignora el menosprecio de tus hermanos.",
+            "ejemplo": "Sentirte desanimado porque tus familiares o amigos más antiguos critican tu fe o te llaman 'presumido' por servir a Dios.",
+            "escenario_actual": "Elíab criticó la motivación de David. No te detengas por la incomprensión de otros; enfócate en el gigante que tienes enfrente."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Operando en la Jurisdicción del Nombre",
+        "items": [
+          {
+            "punto": "La unción no improvisa en la batalla.",
+            "ejemplo": "Esperar tener victoria contra grandes tentaciones en público cuando descuidas tu comunión privada y tus disciplinas espirituales.",
+            "escenario_actual": "David no aprendió a usar la honda ese día; la dominaba tras años de vigilar ovejas. Tu nivel de preparación secreta determina tu autoridad pública."
+          },
+          {
+            "punto": "Ejecuta con precisión legal.",
+            "ejemplo": "Liderar un ministerio o empresa atacando a tus competidores o enemigos con calumnias o rencor en lugar de orar en el Nombre de Jesús.",
+            "escenario_actual": "La batalla no es de carne y hueso. Invoca la legalidad del Nombre de Cristo en el aposento y deja que las fuerzas espirituales hagan caer el orgullo del adversario."
+          },
+          {
+            "punto": "El gigante se derriba de frente.",
+            "ejemplo": "Huir del conflicto o tolerar el pecado en tu liderazgo por miedo a las consecuencias políticas o la confrontación.",
+            "escenario_actual": "David corrió hacia las líneas enemigas. Si hay un Goliat de desorden moral en tu entorno, enfréntalo con sobriedad y la verdad de la Palabra hoy mismo."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Héroe sin Altar",
+        "texto": "Es un error teológico enseñar la historia de David como si fuera un manual de 'superación personal' donde tú eres el héroe que puede lograr lo que sea con solo creer en ti mismo. Este antropocentrismo vacía la Escritura. David venció porque fue celoso por la gloria de Dios. La victoria no provino de la autoestima del joven pastor, sino de la soberanía legal del Dios al que representaba."
+      }
+    ],
+    "desafio_practico": "Escribe en un papel el nombre de tu 'gigante' actual (deuda, adicción, pleito legal, etc.). Colócalo sobre tu mesa y lee 1 Samuel 17:45 en voz alta, declarando que ese gigante cae en el Nombre de Jesús.",
+    "conexiones": {
+      "huppings": [],
+      "huellas": [
+        {
+          "id": "jesucristo-pneuma",
+          "nombre": "Jesucristo",
+          "razon": "El vencedor definitivo sobre el pecado y la muerte.",
+          "paralelismo": "El que descendió al valle del conflicto desarmado para darnos la victoria."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "valle-ela",
+          "nombre": "Valle de Ela",
+          "razon": "El escenario del derribo del gigante.",
+          "simbolismo": "Donde la parálisis humana se quebró por la fe profética."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "shem-heb",
+          "nombre": "Shem (Nombre)",
+          "razon": "La autoridad legal que respaldó la honda.",
+          "familia": "Esencia, reputación, señorío."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "confianza-gigantes",
+          "tema": "Firme ante los Gigantes",
+          "declaracion": "Jehová de los Ejércitos, me planto hoy contra toda intimidación. Me visto con Tu Nombre y declaro que mi gigante caerá de frente bajo el peso de Tu Palabra. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "mitos-saul-sacrificio",
     "activo": false,
     "fecha_programada": "2026-07-07",

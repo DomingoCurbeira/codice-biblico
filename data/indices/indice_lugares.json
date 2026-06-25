@@ -1532,5 +1532,18 @@
     "era": "Era Apostólica / Expansión de la Iglesia",
     "testamento": "Nuevo Testamento",
     "tags": "colosas, onesimo, filemón, pablo, colosenses"
+  },
+  "118": {
+    "id": "carmel-juda",
+    "nombre": "Carmelo de Judá",
+    "titulo": "El Campo de la Sabiduría",
+    "archivo": "historicos.json",
+    "coords": [
+      31.4239,
+      35.1328
+    ],
+    "era": "El Ascenso de David (Fugitivo)",
+    "testamento": "Antiguo Testamento",
+    "tags": "carmel juda, carmelo de judá, 1 samuel, abigail, nabal"
   }
 }

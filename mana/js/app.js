@@ -22,6 +22,23 @@ let fechaSeleccionadaGlobal = new Date();
 // --- FUNCIONES DE CARGA Y RENDERIZADO ---
 
 async function iniciarMana() {
+    try {
+        const resIndice = await fetch(URL_INDICE);
+        const indice = await resIndice.json();
+        
+        const hoyKey = `${fechaSeleccionadaGlobal.getDate()} de ${MESES[fechaSeleccionadaGlobal.getMonth()]}`;
+        
+        // Si la fecha actual no está en el índice premium (por ejemplo, fuera de la fecha piloto),
+        // forzamos el inicio en el 22 de Junio de 2026 para que la demo piloto sea accesible.
+        if (!indice[hoyKey]) {
+            console.log(`Fecha actual (${hoyKey}) no encontrada en el nuevo índice. Cargando fecha piloto: 22 de Junio.`);
+            fechaSeleccionadaGlobal = new Date("2026-06-22T00:00:00");
+        }
+    } catch(e) {
+        console.error("Error al verificar el índice premium, usando fecha piloto.", e);
+        fechaSeleccionadaGlobal = new Date("2026-06-22T00:00:00");
+    }
+
     actualizarHero(fechaSeleccionadaGlobal);
     renderDaysBar();
     await cargarProvision(fechaSeleccionadaGlobal);
@@ -52,9 +69,10 @@ function renderDaysBar() {
     if (!slider) return;
     slider.innerHTML = '';
 
-    // Generamos un rango de 7 días (hoy y los 6 anteriores)
+    // Generamos un rango de 7 días alrededor de la fecha seleccionada o los últimos 7 días
+    // Haremos un slider de 7 días (la fecha seleccionada y las 6 anteriores)
     for (let i = 0; i < 7; i++) {
-        const d = new Date();
+        const d = new Date(fechaSeleccionadaGlobal);
         d.setDate(d.getDate() - i);
         
         const isSelected = d.toDateString() === fechaSeleccionadaGlobal.toDateString();
@@ -77,27 +95,28 @@ function renderDaysBar() {
             cargarProvision(fechaSeleccionadaGlobal);
         };
 
-        slider.appendChild(item);
+        // Insertamos al principio para que queden cronológicamente ordenados de izquierda a derecha (pasado -> hoy/seleccionado)
+        slider.insertBefore(item, slider.firstChild);
     }
 }
 
 async function cargarProvision(fecha) {
     const launcher = document.getElementById('app-launcher');
-    launcher.innerHTML = '<div class="skeleton-loader">Buscando el pan de vida...</div>';
+    launcher.innerHTML = '<div class="skeleton-loader">Buscando la provisión de hoy...</div>';
 
     try {
         const resIndice = await fetch(URL_INDICE);
         const indice = await resIndice.json();
         
         const fechaKey = `${fecha.getDate()} de ${MESES[fecha.getMonth()]}`;
-        const archivos = indice[fechaKey]; 
+        const lecturasIds = indice[fechaKey]; 
 
-        if (!archivos || archivos.length === 0) {
-            launcher.innerHTML = `<p style="color:var(--gold); text-align:center; padding: 3rem;">No hay provisión programada para el ${fechaKey}.</p>`;
+        if (!lecturasIds || lecturasIds.length === 0) {
+            launcher.innerHTML = `<p style="color:var(--gold); text-align:center; padding: 4rem; grid-column: 1/-1; font-family: var(--font-serif);">No hay provisión premium programada para el ${fechaKey}.</p>`;
             return;
         }
 
-        const promesas = archivos.map(async (item) => {
+        const promesas = lecturasIds.map(async (item) => {
             const resData = await fetch(`${URL_BASE}${item.grupo}.json`);
             const data = await resData.json();
             return data.find(d => d.id == item.id);
@@ -105,9 +124,11 @@ async function cargarProvision(fecha) {
 
         const lecturas = (await Promise.all(promesas)).filter(l => l);
         renderDiptico(lecturas);
+        actualizarHeroBackground(lecturas);
 
     } catch (e) {
-        launcher.innerHTML = `<p style="color:var(--gold); text-align:center;">Hubo un error al servir la mesa.</p>`;
+        console.error(e);
+        launcher.innerHTML = `<p style="color:var(--gold); text-align:center; grid-column: 1/-1; font-family: var(--font-serif); padding: 4rem;">Hubo un error al servir la mesa premium.</p>`;
     }
 }
 
@@ -122,20 +143,44 @@ function renderDiptico(mensajes) {
         const esNT = item.testamento === 'nuevo';
         const icon = esNT ? '✝️' : '📜';
         const label = esNT ? 'Nuevo Testamento' : 'Antiguo Testamento';
+        
+        // Clase fallback aleatoria basada en el ID
+        const fallbackClass = `fallback-bg-${(item.id % 5) + 1}`;
 
         card.innerHTML = `
-            <div class="testamento-icon">${icon}</div>
-            <span class="testamento-label">${label}</span>
-            <h2 class="cinzel-font">${item.titulo}</h2>
-            <p class="preview-text">${item.mensaje.substring(0, 120)}...</p>
-            <div class="btn-read">
-                Comenzar Lectura <i class="fas fa-chevron-right"></i>
+            <div class="card-bg-image ${fallbackClass}" ${item.imagen ? `style="background-image: url('${item.imagen}');"` : ''}></div>
+            <div class="card-body-content">
+                <div class="testamento-icon">${icon}</div>
+                <span class="testamento-label">${label}</span>
+                <h2 class="cinzel-font">${item.titulo}</h2>
+                <div class="card-tema">${item.tema || ''}</div>
+                ${item.pregunta_gancho ? `<div class="card-hook">"${item.pregunta_gancho}"</div>` : ''}
+                <p class="preview-text">${item.mensaje ? item.mensaje.substring(0, 130) + '...' : ''}</p>
+                <div class="btn-read">
+                    Comenzar Lectura <i class="fas fa-chevron-right"></i>
+                </div>
             </div>
         `;
         
-        card.onclick = () => window.location.href = `lectura.html?id=${item.id}`;
+        card.onclick = () => {
+            window.location.href = `lectura.html?id=${item.id}`;
+        };
         launcher.appendChild(card);
     });
+}
+
+function actualizarHeroBackground(lecturas) {
+    const heroBg = document.getElementById('hero-background-active');
+    if (!heroBg) return;
+
+    // Si hay lecturas y alguna tiene imagen válida, la usamos para el fondo del Hero
+    const lecturaConImagen = lecturas.find(l => l.imagen);
+    if (lecturaConImagen && lecturaConImagen.imagen) {
+        heroBg.style.backgroundImage = `linear-gradient(to bottom, rgba(10, 12, 16, 0.6) 0%, rgba(10, 12, 16, 0.95) 100%), url('${lecturaConImagen.imagen}')`;
+    } else {
+        // Fondo por defecto
+        heroBg.style.backgroundImage = `linear-gradient(to bottom, rgba(10, 12, 16, 0.6) 0%, rgba(10, 12, 16, 0.95) 100%), url('../../img/hero/hero-mana.webp')`;
+    }
 }
 
 // --- INICIALIZACIÓN ---

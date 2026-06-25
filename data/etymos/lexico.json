@@ -1,5 +1,50 @@
 [
   {
+    "id": "adulam-heb",
+    "palabra_espanol": "Cueva / Refugio (Adulám)",
+    "idioma": "Hebreo",
+    "original": "עֲדֻלָּם",
+    "transliteracion": "‘Ăḏullām",
+    "strong": "H5725",
+    "definicion": "Lugar de refugio, justicia del pueblo; cueva y pueblo en Judá."
+  },
+  {
+    "id": "nabal-heb",
+    "palabra_espanol": "Necio / Marchito (Nabal)",
+    "idioma": "Hebreo",
+    "original": "נָבָל",
+    "transliteracion": "Nābāl",
+    "strong": "H5036",
+    "definicion": "Insensato, necio moral, marchito, sin vida espiritual; ruin, vil."
+  },
+  {
+    "id": "tsinnur-heb",
+    "palabra_espanol": "Canal / Conducto (Tsinnur)",
+    "idioma": "Hebreo",
+    "original": "צִנּוּר",
+    "transliteracion": "Ṣinnûr",
+    "strong": "H6794",
+    "definicion": "Conducto de agua, canal de desagüe, túnel o tubería."
+  },
+  {
+    "id": "shem-heb",
+    "palabra_espanol": "Nombre / Autoridad (Shem)",
+    "idioma": "Hebreo",
+    "original": "שֵׁם",
+    "transliteracion": "Šēm",
+    "strong": "H8034",
+    "definicion": "Nombre, reputación, fama, carácter o autoridad legal."
+  },
+  {
+    "id": "mashiaj-heb",
+    "palabra_espanol": "Ungido / Consagrado (Mashíaj)",
+    "idioma": "Hebreo",
+    "original": "מָשִׁיחַ",
+    "transliteracion": "Māšîaḥ",
+    "strong": "H4899",
+    "definicion": "Aquel que ha sido untado o consagrado con aceite sagrado; el Mesías o ungido."
+  },
+  {
     "id": "shamar-heb",
     "palabra_espanol": "Guardar / Vigilar (Shamár)",
     "idioma": "Hebreo",
@@ -833,20 +878,23 @@
     ]
   },
   {
-    "id": "ruaj-heb",
-    "termino": "Rúaj (רוּחַ)",
-    "original": "רוּחַ",
-    "transliteracion": "Rûaj",
+    "id": "ruach-heb",
+    "palabra_espanol": "Espíritu / Viento / Aliento",
     "idioma": "Hebreo",
-    "esencia_antigua": "Espíritu / Viento / Aliento / Fuerza invisible en movimiento rápido.",
-    "sentido_verdad": "El Rúaj es la presencia activa e invisible de Dios que transfiere vida, poder y capacitación divina. No representa una fuerza mística pasiva, sino el aliento dinámico del Creador. Cuando se retira, sobreviene el vacío y la muerte espiritual.",
-    "eco_escritura": {
-      "texto": "El Espíritu (Rúaj) de Jehová se apartó de Saúl, y le atormentaba un espíritu malo de parte de Jehová.",
-      "cita": "1 Samuel 16:14"
-    },
-    "revelacion_cristo": "Jesucristo es quien posee y sopla el Rúaj divino sin medida. Tras su resurrección, sopló sobre sus discípulos para impartirles la vida del nuevo orden espiritual. En la cruz, exhaló su espíritu para reconectarnos con el aliento de vida eterno.",
-    "reflejo_tierra": "El orgullo y la rebelión de Saúl provocaron la retirada del Rúaj de santidad. La lección para el liderazgo es que la unción y la cordura no pueden sostenerse sin un altar de rendición diario.",
-    "activacion": "Espíritu de Dios, inunda mi ser y gobierna mi carácter. Renuncio a la altivez que aleja Tu Rúaj, y declaro que mi vida es un altar consagrado a Tu aliento de vida."
+    "original": "רוּחַ",
+    "transliteracion": "ruach",
+    "strong": "H7307",
+    "raiz": "Aire en movimiento rápido.",
+    "definicion_corta": "La fuerza invisible que anima la vida; el Espíritu de Dios.",
+    "contexto_cultural": "Es una palabra de acción y poder. Se usaba para describir una tormenta destructora, el aliento caliente que sale de los pulmones, o la vitalidad y energía de una persona. Es equivalente a la palabra griega 'pneuma'.",
+    "perla_espiritual": "En Ezequiel 37, el valle de los huesos secos estaba lleno de cadáveres intactos, pero no tenían 'ruach'. Tú puedes tener una iglesia con teología perfecta, luces increíbles y una banda excelente, pero sin el 'ruach' de Dios, es solo un cementerio hermoso y ruidoso. Solo el aliento divino genera vida.",
+    "ejemplo_biblico": "Génesis 1:2 - '...y el Espíritu (ruach) de Dios se movía sobre la faz de las aguas.'",
+    "tags": [
+      "espíritu santo",
+      "vida",
+      "poder",
+      "antiguo testamento"
+    ]
   },
   {
     "id": "soma-gr",

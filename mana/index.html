@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google Tag & Meta tracking scripts here if needed, keeping them or omitting for dev simplicity. We keep them for consistency. -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EN4P6WTVWE"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -17,7 +18,6 @@
         t.src=v;s=b.getElementsByTagName(e)[0];
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
-        
         fbq('init', '1062905893577259'); 
         fbq('track', 'PageView');
     </script>
@@ -30,12 +30,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Maná Visual | Tu Alimento Diario</title>
 
-    <meta name="theme-color" content="#0f1012"> 
-    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0a0c10"> 
     <link rel="apple-touch-icon" href="/img/mana-192.png">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍞</text></svg>">
 
-    <meta property="og:title" content="Maná | Tu Alimento Espiritual de Hoy">
+    <meta property="og:title" content="Maná | Tu Alimento Espiritual Premium">
     <meta property="og:description" content="Recibe tu provisión diaria de la Palabra. Un devocional fresco y profundo del ecosistema Códice Bíblico.">
     <meta property="og:image" content="https://codicebiblico.netlify.app/img/og-mana.jpg">
     <meta property="og:url" content="https://codicebiblico.netlify.app/mana/index.html">
@@ -44,7 +43,6 @@
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Merriweather:ital,wght@0,300;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 </head>
 <body>
     <div class="overlay-texture"></div>
@@ -59,19 +57,21 @@
         </div>
     </nav>
 
-    <header class="hero-mana">
-        <div class="hero-date" id="hero-date-label">VIERNES, 08 DE MAYO</div>
-        <div class="hero-day-number" id="hero-day-num">08</div>
-        <div class="hero-month" id="hero-month-label">MAYO</div>
-        <div class="hero-verse" id="hero-verse-box">
-            "No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios."
-            <br><small>Mateo 4:4</small>
+    <header class="hero-mana" id="hero-background-active">
+        <div class="hero-blur-container">
+            <div class="hero-date" id="hero-date-label">LUNES, 22 DE JUNIO</div>
+            <div class="hero-day-number" id="hero-day-num">22</div>
+            <div class="hero-month" id="hero-month-label">JUNIO</div>
+            <div class="hero-verse" id="hero-verse-box">
+                "No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios."
+                <br><small>Mateo 4:4</small>
+            </div>
         </div>
     </header>
 
     <div class="days-bar-container">
         <div class="days-bar" id="days-slider">
-            <!-- Inyectado por JS -->
+            <!-- Inyectado dinámicamente por app.js -->
         </div>
     </div>
 
@@ -84,9 +84,10 @@
     </section>
 
     <main id="app-launcher" class="container-cards">
-        <div class="skeleton-loader">Preparando la provisión...</div>
+        <div class="skeleton-loader">Buscando la provisión de hoy...</div>
     </main>
 
+    <!-- Scripts de integración del ecosistema y control global -->
     <script src="js/app.js" type="module"></script>
     <script src="../js/ecosistema-hub.js"></script>
     <script src="../js/global-hub.js" type="module"></script>
