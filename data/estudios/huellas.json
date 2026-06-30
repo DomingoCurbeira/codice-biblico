@@ -1,7 +1,7 @@
 [
   {
     "id": "huellas-david-anonimato",
-    "activo": true,
+    "activo": false,
     "fecha_programada": "2026-07-13",
     "tipo": "huellas",
     "titulo": "David: El Ungido del Olvido",

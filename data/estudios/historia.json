@@ -1,7 +1,7 @@
 [
   {
     "id": "historia-jerusalen-david",
-    "activo": true,
+    "activo": false,
     "fecha_programada": "2026-07-16",
     "tipo": "historia",
     "titulo": "La Ciudad de David: La Fortaleza de Sion",

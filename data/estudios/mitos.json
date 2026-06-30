@@ -1,7 +1,7 @@
 [
   {
     "id": "mitos-david-goliat",
-    "activo": true,
+    "activo": false,
     "fecha_programada": "2026-07-14",
     "tipo": "mitos",
     "titulo": "El Mito de la Honda Mágica",
