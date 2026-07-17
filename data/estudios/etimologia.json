@@ -1,5 +1,563 @@
 [
   {
+    "id": "avon-heb",
+    "activo": false,
+    "fecha_programada": "2026-08-05",
+    "tipo": "etimologia",
+    "titulo": "‘Avón: La Torcedura del Carácter",
+    "subtitulo": "Comprendiendo la iniquidad y la herencia de deformación moral en el ser humano",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "16 min",
+    "imagen_portada": "../img/estudios/avon-iniquidad.webp",
+    "tags": [
+      "Avon",
+      "Iniquidad",
+      "Torcedura",
+      "Hebreo",
+      "Arrepentimiento"
+    ],
+    "versiculo_clave": {
+      "texto": "Ten piedad de mí, oh Dios, conforme a tu misericordia; conforme a la multitud de tus piedades borra mis rebeliones. Lávame más y más de mi maldad [‘avón], y límpiame de mi pecado. Porque yo reconozco mis rebeliones, y mi pecado está siempre delante de mí.",
+      "cita": "Salmo 51:1-3"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Teología del Carácter",
+        "titulo": "El Clamor del Quebrantamiento en el Salmo 51",
+        "texto": "Después de ser confrontado por el profeta Natán, el rey David escribe el Salmo 51. En sus versículos iniciales, utiliza tres palabras hebreas distintas para referirse a su desvío moral: Pesha (rebelión o transgresión legal), Jata'ah (errar al blanco o pecar) y ‘Avón (iniquidad o maldad interna). David comprende que su caída con Betsabé y el asesinato de Urías no fueron accidentes casuales, sino el brote exterior de una torcedura interna y heredada de su carácter. El clamor por el lavado de su ‘avón revela su necesidad de una rectificación profunda de su ser que solo Dios puede realizar."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "‘Avón (עָו‍ֹn / עָו‍ֹן)",
+        "idioma": "Hebreo",
+        "raiz": "‘Avah (Torcer, doblar, encorvar, deformar)",
+        "significado": "Iniquidad, maldad interna, deformación moral o culpa doblada.",
+        "fonetica_guia": "A-vón",
+        "revelacion": "A diferencia de Jata'ah (el acto de pecar por debilidad u omisión), ‘Avón define la inclinación perversa de la voluntad que tuerce lo que es recto. Representa el patrón de deformidad moral que distorsiona las intenciones internas y deforma el carácter de generación en generación. David clama para que su ‘avón sea lavado, reconociendo que su naturaleza necesita ser enderezada por el diseño del Creador."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Rectitud Restauradora",
+        "texto": "Jehová es infinitamente recto y Su diseño original para el hombre es de rectitud. Dios no solo perdona el acto de pecado, sino que provee purificación profunda para enderezar el carácter torcido. Él no tolera la iniquidad del corazón, pero responde al clamor sincero del arrepentimiento que pide ser lavado en lo íntimo."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Castigo de Nuestro ‘Avón sobre la Cruz",
+        "texto": "El profeta Isaías anunció que Jehová cargó en el Mesías el pecado [‘avón] de todos nosotros (Isaías 53:6). Jesucristo, el único hombre perfectamente recto y sin torcedura, absorbió la deformación interna de nuestra naturaleza en la cruz. Él sufrió la distorsión del juicio para que, a través de Su sangre, nuestro ‘avón sea desarraigado y recuperemos la semejanza original con el Padre."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Purificación de la Torcedura Moral",
+        "pasos": [
+          {
+            "concepto": "Reconocer la Inclinación",
+            "explicacion": "Identificar la torcedura recurrente en nuestras intenciones antes de que se convierta en una acción externa."
+          },
+          {
+            "concepto": "Confesión Sin Atajos",
+            "explicacion": "Exponer el ‘avón en el altar de Dios sin usar justificaciones o disculpas familiares."
+          },
+          {
+            "concepto": "La Limpieza por la Palabra",
+            "explicacion": "El lavado constante de la mente y las motivaciones mediante la Escritura aplicada."
+          },
+          {
+            "concepto": "La Rectitud del Espíritu",
+            "explicacion": "El Espíritu Santo moldea y endereza el carácter para caminar de acuerdo al diseño original de santidad."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Remisión de la Iniquidad",
+        "referencias": [
+          {
+            "cita": "Salmo 51:2",
+            "versiculo": "Lávame más y más de mi maldad [‘avón], y límpiame de mi pecado.",
+            "revelacion": "David clama por una purificación interna que desarraigue la inclinación moral torcida de su corazón."
+          },
+          {
+            "cita": "Isaías 53:6",
+            "versiculo": "Todos nosotros nos descarriamos como ovejas, cada cual se apartó por su camino; mas Jehová cargó en él el pecado [‘avón] de todos nosotros.",
+            "revelacion": "La profecía de la sustitución penal: Cristo absorbiendo la torcedura moral de la raza humana."
+          },
+          {
+            "cita": "1 Juan 1:9",
+            "versiculo": "Si confesamos nuestros pecados, él es fiel y justo para perdonar nuestros pecados, y limpiarnos de toda maldad.",
+            "revelacion": "La promesa del Nuevo Pacto de perdón legal y limpieza profunda de la iniquidad del alma."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Identificando la Inclinación",
+        "items": [
+          {
+            "punto": "El pecado no es solo un tropiezo, es una torcedura.",
+            "ejemplo": "Evaluar tus fallas como 'pequeños errores' sin importancia que no afectan tu alma.",
+            "escenario_actual": "Acostumbrarte a decir mentiras piadosas en tus conversaciones diarias, perdiendo la sensibilidad a la verdad."
+          },
+          {
+            "punto": "Pide limpieza profunda de motivaciones.",
+            "ejemplo": "Limitarte a pedir perdón por lo que haces mal, sin pedirle a Dios que cambie lo que piensas.",
+            "escenario_actual": "Pedir perdón por gritarle a tu cónyuge, pero no pedir que se limpie la raíz de amargura de tu corazón."
+          },
+          {
+            "punto": "Confiesa tu pecado de manera transparente.",
+            "ejemplo": "Justificarte diciendo 'es que todos lo hacen' al confesar tus desvíos.",
+            "escenario_actual": "Admitir un error laboral solo cuando te confrontan, y buscando matizarlo con excusas externas."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Desarrollando Integridad Estructural",
+        "items": [
+          {
+            "punto": "Desarraiga la iniquidad (la tendencia heredada).",
+            "ejemplo": "Tolerar la mentira o la codicia justificándote en tus patrones familiares: 'en mi familia todos somos de carácter fuerte'.",
+            "escenario_actual": "Romper conscientemente con el ciclo de frialdad emocional o infidelidad en tu matrimonio mediante el quebrantamiento y el consejo espiritual."
+          },
+          {
+            "punto": "El arrepentimiento del Salmo 51 destruye el ego.",
+            "ejemplo": "Confesar el pecado con la boca pero manteniendo las defensas del orgullo activas para proteger tu reputación.",
+            "escenario_actual": "Un pastor o director que confiesa un error públicamente pero redacta un comunicado tratando de desviar la culpa."
+          },
+          {
+            "punto": "Recibe la rectitud purificada en Cristo.",
+            "ejemplo": "Vivir bajo condenación constante por tu pasado, ignorando que Jesús ya cargó tu ‘avón en el madero.",
+            "escenario_actual": "Negarte a emprender un nuevo ministerio o llamado por temor a tus fallas del pasado, a pesar de haber recibido perdón."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Herejía de la Inevitabilidad Familiar",
+        "texto": "Es un error doctrinal grave usar el concepto de 'iniquidad' o 'patrones familiares' para justificar actitudes carnales continuas como la ira o la lascivia, diciendo 'es que así soy yo' o 'mi familia es así'. Yeshua rompió el poder del pecado y de la herencia adámica en la cruz. La iniquidad debe ser confesada y abandonada, no tolerada como un rasgo de identidad."
+      }
+    ],
+    "desafio_practico": "Pídele hoy al Espíritu Santo en tu aposento que te muestre si hay algún patrón torcido de conducta que estés tolerando, y ríndelo al pie de la cruz.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey arrepentido cuya confesión del Salmo 51 dio origen a la teología del lavamiento del 'Avón.",
+          "paralelismo": "El ungido quebrantado reconociendo la deformidad de su ser."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La ciudad real donde el rey compuso el Salmo 51 tras el juicio de Natán.",
+          "simbolismo": "El lugar del trono donde se rinde la corona por la rectitud."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "avon-heb",
+          "nombre": "‘Avón (Torcedura)",
+          "razon": "La raíz hebrea que expone la iniquidad y la culpa que deforma el carácter.",
+          "familia": "Torcer, doblar, deformación moral."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "limpieza-altar-corazon",
+          "tema": "Lavado de Iniquidad",
+          "declaracion": "Señor Yeshua, confieso mi iniquidad y las torceduras de mi voluntad. Lávame de todo ‘avón y escribe Tu ley de rectitud en mis tablas de carne. Amén."
+        }
+      ]
+    }
+  },
+  {
+    "id": "toledot-heb",
+    "activo": false,
+    "fecha_programada": "2026-07-29",
+    "tipo": "etimologia",
+    "titulo": "Tôledót: Generaciones y Orígenes",
+    "subtitulo": "El Registro del Diseño Eterno: Cómo la historia pactual no es un caos de eventos, sino el despliegue de la semilla de Dios",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/toledot-origenes.webp",
+    "tags": [
+      "Tôledót",
+      "Hebreo",
+      "Orígenes",
+      "Semilla",
+      "Genealogía"
+    ],
+    "versiculo_clave": {
+      "texto": "Estos son los orígenes de los cielos y de la tierra cuando fueron creados, el día que Jehová Dios hizo la tierra y los cielos.",
+      "cita": "Génesis 2:4"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Exégesis de Génesis",
+        "titulo": "Los Diez Pilares de la Creación y el Pacto",
+        "texto": "En el libro de Génesis, la palabra <strong>Tôledót</strong> funciona como la estructura de soporte literario y teológico de todo el texto. Aparece exactamente diez veces dividiendo el libro en diez secciones de origen. Cada vez que el escritor sagrado introduce 'Eleh tôledót...' (Estos son los orígenes o las generaciones de...), la narrativa sufre una transición: deja de enfocarse en el panorama global para concentrarse en la línea pactual estrecha de la semilla elegida. Este concepto filológico revela que la historia humana no es un torbellino de accidentes caóticos, sino el desarrollo ordenado y predecible de los diseños que Dios ha sembrado en la tierra."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Tôledót (תּוֹלְדֹות)",
+        "idioma": "Hebreo",
+        "raiz": "Yalad (Engendrar / Dar a luz / Traer vida)",
+        "significado": "Generaciones, descendencia, anales familiares, orígenes o la historia del desarrollo de una semilla.",
+        "fonetica_guia": "To-le-dót",
+        "revelacion": "El significado legal de 'Tôledót' conecta los orígenes con el destino. No se refiere meramente a una lista de nombres muertos, sino a la fuerza interna que hace que una semilla dé a luz lo que lleva dentro. En Génesis 2:4, se habla de las 'tôledót' del cielo y de la tierra, mostrando que la creación misma fue diseñada para engendrar y desplegar el propósito del Creador. Tú no eres un accidente histórico; eres parte de las 'tôledót' del Espíritu."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios del Desarrollo Progresivo",
+        "texto": "Dios se revela como el Arquitecto que trabaja a largo plazo mediante el principio de la siembra y la cosecha. Él no improvisa. Cada generación ('tôledót') añade una capa de revelación que prepara el camino para la siguiente fase del plan. Dios respeta los tiempos de gestación del propósito y preserva la semilla a lo largo de los siglos hasta que se cumple el tiempo señalado."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Cumplimiento de todas las Tôledót",
+        "texto": "La palabra 'Tôledót' alcanza su clímax absoluto en Mateo 1:1, donde se utiliza el equivalente griego 'Biblos geneseōs' (Libro de la genealogía/génesis de Jesucristo). Jesús (jesucristo) es la semilla pactual última de la cual dependían todas las generaciones anteriores. Él es el origen de una nueva 'tôledót' espiritual: ya no nacida de sangre ni de voluntad de carne, sino engendrada por el Espíritu Santo en cada creyente."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Anatomía de la Semilla Pactual",
+        "pasos": [
+          {
+            "concepto": "El Decreto en la Raíz",
+            "explicacion": "El diseño original es establecido por la palabra soberana de Dios en la simiente primigenia."
+          },
+          {
+            "concepto": "La Gestación en el Ocultamiento",
+            "explicacion": "La semilla pasa por tiempos de silencio, exilio y aparente muerte en la tierra antes de germinar."
+          },
+          {
+            "concepto": "La Fuerza del Brote",
+            "explicacion": "El poder del Espíritu ('Yalad') empuja la semilla hacia afuera, rompiendo toda resistencia estructural."
+          },
+          {
+            "concepto": "La Cosecha Generacional",
+            "explicacion": "El propósito fructifica y se multiplica en herencia espiritual que trasciende la vida física del sembrador."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Hilo Conductor de las Generaciones",
+        "referencias": [
+          {
+            "cita": "Génesis 5:1",
+            "versiculo": "Este es el libro de las generaciones [tôledót] de Adán. El día en que creó Dios al hombre, a semejanza de Dios lo hizo.",
+            "revelacion": "Establece el registro original de la humanidad bajo el diseño divino de Paternidad y semejanza."
+          },
+          {
+            "cita": "Génesis 6:9",
+            "versiculo": "Estas son las generaciones [tôledót] de Noé: Noé, varón justo, era perfecto en sus generaciones; con Dios caminó Noé.",
+            "revelacion": "Muestra cómo en medio de la corrupción de la tierra, la semilla de Noé se preservó pura por su comunión constante."
+          },
+          {
+            "cita": "1 Pedro 1:23",
+            "versiculo": "siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre.",
+            "revelacion": "Conecta nuestro nacimiento espiritual con una semilla eterna e inmune a la entropía y el pecado."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu vida tiene un diseño ordenado",
+        "items": [
+          {
+            "punto": "Comprende que estás en un proceso de gestación espiritual.",
+            "ejemplo": "Frustrarte porque llevas meses en la iglesia y aún experimentas luchas con tus viejos hábitos de carácter.",
+            "escenario_actual": "La semilla de la Palabra ('Tôledót') requiere tiempo para echar raíces profundas antes de manifestar el fruto de la santidad."
+          },
+          {
+            "punto": "Sintoniza tu oído con tu origen pactual en Cristo.",
+            "ejemplo": "Definir tu valor propio en base a los fracasos económicos o académicos de tu pasado familiar.",
+            "escenario_actual": "Tus anales familiares naturales ya no definen tu destino; has sido injertado en el Libro de las Generaciones de Jesús."
+          },
+          {
+            "punto": "Alimenta la semilla incorruptible en tu aposento.",
+            "ejemplo": "Intentar crecer espiritualmente sin dedicar tiempo diario a la oración secreta y a la lectura de la Escritura.",
+            "escenario_actual": "La simiente de Dios en ti necesita el riego de la devoción íntima para activar su código de multiplicación."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Diseñando el Legado Generacional",
+        "items": [
+          {
+            "punto": "Edifica pensando en la tercera y cuarta generación.",
+            "ejemplo": "Tomar decisiones ministeriales apresuradas que traen éxito inmediato pero destruyen la salud a largo plazo de la iglesia local.",
+            "escenario_actual": "La unción madura no es para consumo personal; es una 'tôledót' estructurada para sostener a los hijos de tus hijos."
+          },
+          {
+            "punto": "Discierne la transición de las eras en tu liderazgo.",
+            "ejemplo": "Aferrarte al control de un cargo pastoral bloqueando el crecimiento de los jóvenes líderes que Dios está levantando.",
+            "escenario_actual": "Noé tuvo que transferir la herencia de la Tebah a Sem, Cam y Jafet. Sabe cuándo dar paso al desarrollo de la nueva semilla."
+          },
+          {
+            "punto": "Gobierna la entropía mediante la siembra intencional.",
+            "ejemplo": "Esperar que tu familia sirva a Dios de forma automática sin que tú establezcas un altar familiar ordenado y constante.",
+            "escenario_actual": "El orden no es un accidente; es el resultado de sembrar principios en la mente de los tuyos día tras día."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Crecimiento Instantáneo",
+        "texto": "Es un error doctrinal promover una espiritualidad mágica o instantánea basada en 'decretos' sin proceso. La revelación de las 'Tôledót' enseña que todo en el Reino de Dios opera bajo la ley de la semilla (Marcos 4:28: primero hierba, luego espiga, después grano lleno). Desconfía de los métodos rápidos que prometen madurez sin quebrantamiento en el desierto."
+      }
+    ],
+    "desafio_practico": "Riega hoy la semilla espiritual en tu aposento mediante la meditación y la oración profunda.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "La corona y el trono que canalizan el cumplimiento de las generaciones.",
+          "paralelismo": "El rey terrenal que sostiene el hilo conductor hasta el Mesías."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen",
+          "nombre": "Belén",
+          "razon": "La cuna del linaje de David y el punto de nacimiento profetizado.",
+          "simbolismo": "El suelo fértil donde la semilla pactual es preservada."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "toledot-heb",
+          "nombre": "Tôledót",
+          "razon": "El término original hebreo que define las generaciones y orígenes.",
+          "familia": "Descendencia, anales familiares, desarrollo de la semilla."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "toledot-legado",
+          "tema": "Preservación y Legado",
+          "declaracion": "Dios Eterno, mi vida no es un accidente. Soy portador de las Tôledót del cielo. Mi legado familiar está guardado."
+        }
+      ]
+    }
+  },
+  {
+    "id": "etymos-hesed-pacto",
+    "activo": false,
+    "fecha_programada": "2026-07-22",
+    "tipo": "etimologia",
+    "titulo": "Jésed: Amor de Pacto aplicado",
+    "subtitulo": "La Filología de la Lealtad: Descubriendo el significado del amor inquebrantable que sostiene la mesa del rey",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/hesed-amor.webp",
+    "tags": [
+      "Etimología",
+      "Jésed",
+      "Misericordia",
+      "Pacto",
+      "Lealtad"
+    ],
+    "versiculo_clave": {
+      "texto": "El rey le dijo: ¿No ha quedado nadie de la casa de Saúl, a quien haga yo misericordia (Jésed) de Dios? Y Siba respondió al rey: Aún queda un hijo de Jonatán, lisiado de los pies.",
+      "cita": "2 Samuel 9:3"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Teología de la Redención",
+        "titulo": "La Búsqueda de David en el Trono",
+        "texto": "David se había consolidado como el rey absoluto sobre todo Israel y Judá. Sin embargo, en lugar de ejecutar a los descendientes de la dinastía anterior de Saúl (práctica geopolítica estándar en la antigüedad para evitar insurrecciones), David recordó el juramento sagrado que había hecho con Jonatán. Preguntó a Siba, un siervo de la casa de Saúl, si quedaba algún sobreviviente para mostrarle la 'misericordia de Dios' (Jésed). Siba le informó sobre la existencia de Mefiboset, el hijo lisiado de Jonatán que vivía escondido en la apartada región de Lo-debar. David lo mandó traer, le restituyó todas las tierras y lo adoptó a su propia mesa real."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Jésed (חֶסֶד)",
+        "idioma": "Hebreo",
+        "raiz": "Jasad (Doblar el cuello / Inclinarse hacia alguien / Ser leal)",
+        "significado": "Misericordia de pacto, amor inquebrantable, lealtad contractual, gracia persistente.",
+        "fonetica_guia": "Jé-sed",
+        "revelacion": "En la mentalidad semítica, 'Jésed' no es una emoción afectiva ni una compasión casual. Describe una lealtad férrea y activa motivada por un contrato o pacto previamente establecido. No depende del estado de ánimo del dador ni del comportamiento del receptor; es un deber jurídico voluntariamente asumido. David no ayudó a Mefiboset porque este fuera encantador o útil, sino porque David estaba ligado por pacto a Jonatán. Del mismo modo, el Jésed de Dios hacia nosotros es absoluto porque está amarrado al pacto firmado con la sangre de Cristo."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Fidelidad Contractual (Guardador de Pactos)",
+        "texto": "Dios se revela como Aquel cuyo amor no es caprichoso ni inestable. Su atributo de Fidelidad Pactual significa que Él nos busca activamente en nuestro 'Lo-debar' espiritual para cumplir el juramento de gracia. El Jésed divino es la fuerza que impide que Su juicio descienda sobre las vasijas marcadas por Su pacto."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesús como la Encarnación del Jésed",
+        "texto": "El Jésed de Dios tomó carne en Jesucristo. Jesús es el dador del Jésed que desciende a la bajeza humana para rescatar a los lisiados espirituales. La mesa real donde come Mefiboset es la prefiguración de la Mesa de la Santa Cena, donde comemos el pan de vida de la gracia de Cristo, la cual cubre toda nuestra cojera terrenal."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Dinámica de la Misericordia Contractual",
+        "pasos": [
+          {
+            "concepto": "Búsqueda Iniciada",
+            "explicacion": "El Rey inicia la búsqueda en lugar de esperar a que el necesitado se presente. La gracia toma la delantera."
+          },
+          {
+            "concepto": "Motivación del Pacto",
+            "explicacion": "El favor se derrama no por el mérito de Mefiboset, sino por amor a Jonatán. Somos salvados por amor al Mediador."
+          },
+          {
+            "concepto": "Restitución de Herencia",
+            "explicacion": "Devolución de las tierras perdidas. El Jésed no es solo perdón; es restauración legal de la dignidad."
+          },
+          {
+            "concepto": "Comunión de Hijo",
+            "explicacion": "Sentarse a la mesa del rey permanentemente. El huérfano y lisiado es adoptado como familia real."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Alcance de la Gracia Inquebrantable",
+        "referencias": [
+          {
+            "cita": "Salmos 136:1",
+            "versiculo": "Alabad a Jehová, porque él es bueno, Porque para siempre es su misericordia (Jésed).",
+            "revelacion": "El estribillo eterno de Israel. Su amor no caduca porque está fundamentado en Su propio carácter inmutable."
+          },
+          {
+            "cita": "Efesios 2:8",
+            "versiculo": "Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios...",
+            "revelacion": "Pablo define la mecánica del Jésed en el Nuevo Pacto: la salvación es un regalo inmerecido cimentado en Cristo."
+          },
+          {
+            "cita": "1 Juan 4:10",
+            "versiculo": "En esto consiste el amor: no en que nosotros hayamos amado a Dios, sino en que él nos amó a nosotros...",
+            "revelacion": "El amor divino se define por la iniciativa soberana y no por la respuesta humana previa."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu Valor depende del Pacto",
+        "items": [
+          {
+            "punto": "No trates de impresionar al Rey con tu 'caminar'.",
+            "ejemplo": "Sentirte inútil en la iglesia porque consideras que tienes 'pies lisiados' (muchos errores o poca experiencia).",
+            "escenario_actual": "Mefiboset siguió estando cojo aun cuando comía en la mesa de David. Dios te acepta por lo que Cristo hizo, no por tu capacidad natural."
+          },
+          {
+            "punto": "Acepta el llamado a la mesa.",
+            "ejemplo": "Rehusarte a servir o a congregarte por sentir vergüenza de tu pasado o de tus debilidades visibles.",
+            "escenario_actual": "La gracia del Rey es la que te califica. Rinde tu vergüenza y toma el lugar que el Jésed de Dios te ha preparado."
+          },
+          {
+            "punto": "El amor verdadero es fiel en la adversidad.",
+            "ejemplo": "Abandonar a tus amigos o hermanos en la fe cuando están pasando por un mal momento moral o financiero.",
+            "escenario_actual": "Muestra Jésed: sé leal por compromiso y pacto espiritual, no solo cuando sea cómodo o ventajoso."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Practicando el Jésed Soberano",
+        "items": [
+          {
+            "punto": "Busca a los 'lisiados' de tu entorno.",
+            "ejemplo": "Limitar tu discipulado a personas maduras, solventes e impecables, ignorando a los quebrantados por el pecado o el desierto.",
+            "escenario_actual": "El verdadero maduro imita al Rey: desciende a los 'Lo-debar' de la sociedad y de la iglesia para rescatar a las ovejas perdidas."
+          },
+          {
+            "punto": "La lealtad no se negocia por conveniencia.",
+            "ejemplo": "Romper alianzas de trabajo, matrimonios o amistades ministeriales en el primer conflicto o desacuerdo.",
+            "escenario_actual": "El Jésed exige compromiso contractual. Cumple tu palabra aun cuando te cueste, tal como David honró su pacto con Jonatán."
+          },
+          {
+            "punto": "Usa tu mesa para sanar, no para juzgar.",
+            "ejemplo": "Utilizar tu plataforma, casa o influencia para chismear o criticar las debilidades ajenas.",
+            "escenario_actual": "El mantel de la mesa real cubría la cojera de Mefiboset. Tu ministerio debe ser el mantel de gracia que protege y restaura a los caídos."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Legalismo Meritocrático",
+        "texto": "Se enseña a menudo que la bendición y la comunión con Dios dependen de nuestra santidad impecable o de dar ofrendas para 'calificar'. Esto es legalismo. La historia de Mefiboset establece que el acceso al banquete del Rey es un don de pura gracia (Jésed) incondicional. Intentar comprar la mesa del Rey es un insulto al pacto."
+      }
+    ],
+    "desafio_practico": "Identifica a alguien en tu entorno que esté lisiado emocional o espiritualmente (alguien marginado u ofendido). Muéstrale Jésed esta semana mediante un acto concreto de honra, invitándole a comer o ayudándole en su necesidad.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "El heredero lisiado de la casa de Saúl que recibió la restitución y el Jésed.",
+          "paralelismo": "El mendigo adoptado a la mesa real por amor al mediador."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "lo-debar",
+          "nombre": "Lo-debar",
+          "razon": "El desierto y escondite de donde fue rescatado.",
+          "simbolismo": "La condición estéril de orfandad y silencio."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "hesed-heb-v2",
+          "nombre": "Jésed",
+          "razon": "La palabra hebrea que define la misericordia activa basada en el pacto.",
+          "familia": "Amor inquebrantable, gracia, lealtad contractual."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "anclado-en-hesed",
+          "tema": "Anclado en Su Jésed",
+          "declaracion": "Padre de bondad, te alabo porque Tu Jésed es eterno y constante. No dependo de mis emociones inestables, sino de Tu lealtad inquebrantable. Tu misericordia me busca en el desierto y me mantiene a la mesa del Rey. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "etymos-mashiaj-propiedad",
     "activo": false,
     "fecha_programada": "2026-07-15",
@@ -53,7 +611,7 @@
       {
         "tipo": "cristocentrico",
         "titulo": "El Mashíaj Sufriente y Glorificado",
-        "texto": "Jesús es el Mashíaj definitivo (Cristo es la traducción griega de Mashíaj). Él no fue ungido con aceite físico, sino con el Espíritu Santo (Jesucristo-Pneuma) y poder en el Jordán. Su identidad como Mashíaj se consumó no en un trono de oro terrenal, sino en el altar de la cruz. Él llevó la marca de propiedad de Dios obedeciendo hasta la muerte, convirtiéndose en el Salvador unigénito."
+        "texto": "Jesús es el Mashíaj definitivo (Cristo es la traducción griega de Mashíaj). Él no fue ungido con aceite físico, sino con el Espíritu Santo y poder en el Jordán. Su identidad como Mashíaj se consumó no en un trono de oro terrenal, sino en el altar de la cruz. Él llevó la marca de propiedad de Dios obedeciendo hasta la muerte, convirtiéndose en el Salvador unigénito."
       },
       {
         "tipo": "revelacion_progresiva",

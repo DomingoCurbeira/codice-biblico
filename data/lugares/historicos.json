@@ -1,5 +1,326 @@
 [
   {
+    "id": "timnat",
+    "activo": true,
+    "meta": {
+      "version": "4.0-cronos-deep",
+      "fecha_actualizacion": "2026-07-27"
+    },
+    "mapa": {
+      "coords": [
+        31.7828,
+        34.8967
+      ],
+      "zoom": 13,
+      "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+      "marcador_color": "#e67e22"
+    },
+    "perfil": {
+      "nombre": "Timnat",
+      "titulo_corto": "La Entrada a la Brecha",
+      "significado_nombre": "Porción asignada o Territorio heredado",
+      "ubicacion_geografica": "Región de la Sefela, en la frontera de Judá y Filistea.",
+      "clima_entorno": "Valle fértil apto para agricultura, pastoreo y viñedos.",
+      "imagen_principal": "/img/lugares/timnat.webp",
+      "galeria": [
+        "/img/lugares/campos-pastores.webp"
+      ]
+    },
+    "contexto": {
+      "testamento": "Antiguo Testamento",
+      "libros_aparicion": [
+        "Génesis",
+        "Jueces"
+      ],
+      "era_biblica": "Era de los Patriarcas / Jueces"
+    },
+    "evidencia_arqueologica": {
+      "hallazgo_clave": "Tel Batash",
+      "descripcion": "Excavaciones muestran una ciudad fortificada de la Edad del Bronce Tardío y Hierro, consistente con los relatos bíblicos de Sansón y Judá."
+    },
+    "narrativa": {
+      "resumen_epico": "En el camino a Timnat, Judá descuidó la responsabilidad del pacto con Tamar. Sin embargo, en la encrucijada del camino (Enaim), Tamar forzó la preservación de la semilla. Siglos después, Sansón bajaría a este mismo lugar para buscar esposa, iniciando otra colisión soberana contra los filisteos.",
+      "dato_curioso": "Es el punto limítrofe exacto donde chocaban las culturas filistea e israelita.",
+      "conexion_jesus": "Jesús es la semilla divina que descendió al territorio hostil de nuestra condición humana en Timnat para engendrar la línea real."
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Timnat representa la encrucijada del deber y la tentación carnal, donde el orgullo de Judá fue confrontado por la justicia del pacto.",
+      "fortalezas": [
+        "Lugar de confrontación y verdad",
+        "Preservación del legado"
+      ],
+      "debilidades": [
+        "Peligro de asimilación cultural",
+        "Engaño y doblez"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Sello y el Cordón",
+          "significado": "Garantía legal del pacto y la herencia real que sostiene al creyente."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Protege tus sellos de identidad en las encrucijadas de la vida.",
+      "preguntas_reflexion": [
+        "¿Has estado descuidando tus responsabilidades pactuales y familiares por buscar comodidad?",
+        "¿Muestras el cordón y el sello de la gracia de Cristo ante las acusaciones del enemigo?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "El Encuentro",
+        "evento": "Judá encuentra a Tamar en el camino de Enaim rumbo a Timnat y le entrega sus prendas.",
+        "referencia": "Génesis 38:14"
+      },
+      {
+        "fase": "La Boda de Sansón",
+        "evento": "Sansón baja a Timnat, mata al león en los viñedos y toma esposa filistea.",
+        "referencia": "Jueces 14:1"
+      }
+    ],
+    "vinculos": {
+      "lugares_relacionados": [
+        "cueva-adulam",
+        "belen"
+      ],
+      "personajes_relacionados": [
+        "david",
+        "mefiboset",
+        "siba"
+      ],
+      "estudios": [
+        "huellas-tamar-brecha"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 220,
+      "logro_id": "explorador-timnat"
+    }
+  },
+  {
+    "id": "monte-moriah",
+    "activo": true,
+    "meta": {
+      "version": "4.0-cronos-deep",
+      "fecha_actualizacion": "2026-07-20"
+    },
+    "mapa": {
+      "coords": [
+        31.7781,
+        35.2354
+      ],
+      "zoom": 13,
+      "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+      "marcador_color": "#8e44ad"
+    },
+    "perfil": {
+      "nombre": "Monte Moriah",
+      "titulo_corto": "El Monte de la Provisión",
+      "significado_nombre": "Provisión de Dios",
+      "ubicacion_geografica": "Monte del Templo en Jerusalén",
+      "clima_entorno": "Montañoso y templado",
+      "imagen_principal": "/img/lugares/monte-moriah.webp",
+      "galeria": [
+        "/img/lugares/sacrificio-isaac.webp",
+        "/img/lugares/templo-salomon.webp"
+      ]
+    },
+    "contexto": {
+      "testamento": "Antiguo Testamento",
+      "libros_aparicion": [
+        "Génesis",
+        "2 Samuel",
+        "2 Crónicas"
+      ],
+      "era_biblica": "Monarquía Unida"
+    },
+    "evidencia_arqueologica": {
+      "hallazgo_clave": "El Monte del Templo",
+      "descripcion": "El monte Moriah alberga cimientos de estructuras masivas del templo Salomónico e Israelita."
+    },
+    "narrativa": {
+      "resumen_epico": "Moriah es la colina montañosa donde Abraham ofreció a Isaac, donde David levantó el altar en la era de Arauna deteniendo la plaga de juicio, y donde Salomón construyó el Templo de Jerusalén. Representa la geografía elegida por Dios donde el juicio es detenido y sustituido por gracia.",
+      "dato_curioso": "Es la colina de la crucifixión",
+      "conexion_jesus": "Jesús es el cordero provisto en Moriah",
+      "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Moriah representa el punto de intersección entre la justicia divina y la gracia sustituta. Nos enseña que los verdaderos altares de obediencia e intercesión detienen la espada del juicio y sientan las bases para el establecimiento permanente de la presencia de Dios.",
+      "fortalezas": [
+        "Altar permanente",
+        "Presencia divina"
+      ],
+      "debilidades": [
+        "Área disputada"
+      ],
+      "simbologia": [
+        {
+          "objeto": "La Era de Trillar",
+          "significado": "Lugar de separación de la paja y el trigo; representa el procesamiento del quebrantamiento donde la soberbia es trillada."
+        },
+        {
+          "objeto": "La Espada Desenvainada",
+          "significado": "Representa el juicio justo de la ley de Dios contra el orgullo de la carne."
+        },
+        {
+          "objeto": "El Altar de Moriah",
+          "significado": "Símbolo de la propiciación por gracia; el lugar donde la provisión sustituta detiene la muerte."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Edifica altares que cuesten",
+      "preguntas_reflexion": [
+        "¿Estás confiando en tus censos de orgullo o en el respaldo del Nombre del Señor?",
+        "¿Has levantado un altar de rendición en tu aposento que cueste lo mejor de ti?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "La Provisión a Abraham",
+        "evento": "Abraham ata a Isaac en Moriah y Dios provee el carnero en el matorral.",
+        "referencia": "Génesis 22:13"
+      },
+      {
+        "fase": "La Era de Arauna",
+        "evento": "David compra la era, edifica el altar y la espada del ángel es guardada.",
+        "referencia": "2 Samuel 24:25"
+      },
+      {
+        "fase": "El Templo de Salomón",
+        "evento": "Salomón comienza la construcción del Templo en la era de Arauna en Moriah.",
+        "referencia": "2 Crónicas 3:1"
+      }
+    ],
+    "vinculos": {
+      "lugares_relacionados": [
+        "jerusalen-sion",
+        "belen"
+      ],
+      "personajes_relacionados": [
+        "david",
+        "salomon",
+        "arauna"
+      ],
+      "estudios": [
+        "historia-moriah-david"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 220,
+      "logro_id": "explorador-monte-moriah"
+    }
+  },
+  {
+    "id": "lo-debar",
+    "activo": true,
+    "meta": {
+      "version": "4.0-cronos-deep",
+      "fecha_actualizacion": "2026-07-20"
+    },
+    "mapa": {
+      "coords": [
+        32.4833,
+        35.7333
+      ],
+      "zoom": 13,
+      "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+      "marcador_color": "#e67e22"
+    },
+    "perfil": {
+      "nombre": "Lo-debar",
+      "titulo_corto": "La Tierra sin Pasto",
+      "significado_nombre": "Sin Pasto",
+      "ubicacion_geografica": "Región de Galaad, al este del río Jordán.",
+      "clima_entorno": "Árido y desértico con baja vegetación.",
+      "imagen_principal": "/img/lugares/lo-debar.webp",
+      "galeria": [
+        "/img/lugares/desierto-galaad.webp",
+        "/img/lugares/mefiboset-exilio.webp"
+      ]
+    },
+    "contexto": {
+      "testamento": "Antiguo Testamento",
+      "libros_aparicion": [
+        "2 Samuel"
+      ],
+      "era_biblica": "Monarquía Unida"
+    },
+    "evidencia_arqueologica": {
+      "hallazgo_clave": "Tell el-Gharah",
+      "descripcion": "Ruinas de asentamientos de la Edad del Hierro consistentes con el relato bíblico."
+    },
+    "narrativa": {
+      "resumen_epico": "Lo-debar era un lugar árido y apartado en la región de Galaad. Allí se escondió Mefiboset, el nieto lisiado de Saúl, creyendo que el nuevo rey David lo mandaría matar. Sin embargo, desde este lugar de sequedad y olvido fue mandado llamar por David para restituirle su herencia y sentarlo a la mesa real.",
+      "dato_curioso": "Es el lugar de escondite del lisiado.",
+      "conexion_jesus": "Jesús nos saca de Lo-debar.",
+      "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "Lo-debar representa la condición humana de escasez espiritual y lejanía de la Palabra de Dios. Nos enseña que la gracia soberana del Rey rompe nuestra distancia, nos busca en nuestro aislamiento y nos rescata de la sequedad para darnos abundancia familiar.",
+      "fortalezas": [
+        "Lugar de refugio discreto"
+      ],
+      "debilidades": [
+        "Lejanía del agua",
+        "Escasez"
+      ],
+      "simbologia": [
+        {
+          "objeto": "El Silencio de Lo-debar",
+          "significado": "Representa el exilio del alma donde la Palabra de Dios no se escucha y la gracia parece ausente."
+        },
+        {
+          "objeto": "Los Pies Lisiados",
+          "significado": "Representa la incapacidad del ser humano para caminar en rectitud y justicia por sus propios esfuerzos."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "El Rey conoce tu escondite.",
+      "preguntas_reflexion": [
+        "¿Te estás escondiendo en algún 'Lo-debar' emocional por temor al juicio del Rey?",
+        "¿Crees que tus cojeras o caídas te impiden sentarte a la mesa de la abundancia de Dios?"
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "La Caída en Gilboa",
+        "evento": "Mefiboset cae de los brazos de su nodriza a los cinco años y queda lisiado.",
+        "referencia": "2 Samuel 4:4"
+      },
+      {
+        "fase": "El Exilio",
+        "evento": "Es llevado a Lo-debar, al este del Jordán, donde vive escondido en el anonimato.",
+        "referencia": "2 Samuel 9:4"
+      },
+      {
+        "fase": "El Rescate",
+        "evento": "Los enviados de David llegan a buscarlo para traerlo ante el Rey.",
+        "referencia": "2 Samuel 9:5"
+      }
+    ],
+    "vinculos": {
+      "lugares_relacionados": [
+        "jerusalen-sion",
+        "cueva-adulam"
+      ],
+      "personajes_relacionados": [
+        "david",
+        "mefiboset",
+        "siba"
+      ],
+      "estudios": [
+        "sermones-mefiboset-gracia"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 220,
+      "logro_id": "explorador-lo-debar"
+    }
+  },
+  {
     "id": "carmel-juda",
     "activo": true,
     "meta": {

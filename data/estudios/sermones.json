@@ -1,5 +1,563 @@
 [
   {
+    "id": "sermones-natan-confrontacion",
+    "activo": false,
+    "fecha_programada": "2026-08-07",
+    "tipo": "sermones",
+    "titulo": "Natán: El Dedo que Señala al Rey",
+    "subtitulo": "La confrontación profética que destruyó la soberbia y dio paso al arrepentimiento",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/natan-confrontacion.webp",
+    "tags": [
+      "Natán",
+      "David",
+      "Confrontación",
+      "Arrepentimiento",
+      "Salmo 51"
+    ],
+    "versiculo_clave": {
+      "texto": "Entonces se encendió el furor de David en gran manera contra aquel hombre, y dijo a Natán: Vive Jehová, que el que tal hizo es digno de muerte. Y debe pagar la cordera con cuatro tantos... Entonces dijo Natán a David: Tú eres aquel hombre.",
+      "cita": "2 Samuel 12:5-7"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Mensaje Homilético / Sermón Doctrinal",
+        "titulo": "La Parábola de la Cordera y el Quiebre de la Máscara",
+        "texto": "David había pasado casi un año en aparente calma tras su pecado con Betsabé y el asesinato de Urías. Sin embargo, en el registro del cielo, la transgresión estaba activa. Dios envió al profeta Natán para confrontar al rey. Natán, con sabiduría divina, utilizó una parábola sobre un hombre rico que, teniendo muchas ovejas, despojó a un hombre pobre de su única y amada corderita para alimentar a un viajero. David, indignado por la injusticia de la historia, decretó que el rico merecía la muerte y debía pagar cuatro veces la cordera. Fue entonces cuando Natán pronunció la sentencia desarmadora: 'Tú eres aquel hombre'. El velo de autoengaño cayó al instante, y David, quebrado, confesó: 'Pequé contra Jehová'."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Profeta / Nabí (נָבִיא)",
+        "idioma": "Hebreo",
+        "raiz": "Naba (Brotar, fluir, proclamar el mensaje divino)",
+        "significado": "Portavoz de Dios, profeta.",
+        "fonetica_guia": "Na-bí",
+        "revelacion": "El Nabí no es simplemente alguien que predice el futuro, sino el portavoz legal del pacto que trae la perspectiva del cielo sobre el presente. Natán actuó como el Nabí fiel: no temió la espada del monarca, sino que portó el fuego de la verdad divina que rompe la hipocresía. Su confrontación no buscaba destruir a David, sino salvar su alma y restaurar el Trono al diseño original."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Confronta por Amor",
+        "texto": "Jehová es un Dios de pacto celoso de la integridad de Sus ungidos. Él no tolera que Sus siervos vivan con el corazón dividido. La confrontación divina es una muestra de Su misericordia; Dios prefiere entristecernos con la verdad a través del profeta antes que dejarnos perecer en la mentira de nuestro propio autoengaño. La represión es el preludio de la restauración."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "La Voz del Espíritu Santo Convenciendo de Pecado",
+        "texto": "Natán prefigura la obra del Espíritu Santo (Yeshua-Pneuma), quien ha venido al mundo para convencernos de pecado, justicia y juicio (Juan 16:8). El Espíritu no nos señala para condenación, sino para derribar nuestras defensas y llevarnos al pie de Jesucristo, nuestro intercesor legal. La espada de la Palabra penetra para revelar la iniquidad y abrir camino al lavamiento de la cruz."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Proceso de la Confrontación al Perdón",
+        "pasos": [
+          {
+            "concepto": "La Exposición por Parábola",
+            "explicacion": "El profeta rodea las defensas lógicas del rey mediante un relato que apela a su sentido de justicia original."
+          },
+          {
+            "concepto": "La Sentencia del Propio Juicio",
+            "explicacion": "David condena al personaje de la parábola, ignorando que se está juzgando a sí mismo."
+          },
+          {
+            "concepto": "La Revelación del Espejo",
+            "explicacion": "El veredicto directo de Natán que destruye la máscara de autoengaño de la doble vida."
+          },
+          {
+            "concepto": "La Confesión de Sangre",
+            "explicacion": "El rey se quiebra, abandona la justificación y encuentra el Jésed de Dios que cubre la vida."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Dolor que Conduce a la Vida",
+        "referencias": [
+          {
+            "cita": "2 Samuel 12:7",
+            "versiculo": "Entonces dijo Natán a David: Tú eres aquel hombre.",
+            "revelacion": "La declaración profética clave que desbarata la hipocresía en la corte real."
+          },
+          {
+            "cita": "Salmo 51:17",
+            "versiculo": "Los sacrificios de Dios son el espíritu quebrantado; al corazón contrito y humillado no despreciarás tú, oh Dios.",
+            "revelacion": "La teología del quebrantamiento nacida del encuentro de David con el profeta."
+          },
+          {
+            "cita": "Juan 16:8",
+            "versiculo": "Y cuando él venga, convencerá al mundo de pecado, de justicia y de juicio.",
+            "revelacion": "La misión activa del Espíritu Santo en el corazón del creyente en el Nuevo Pacto."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Rendición ante la Corrección",
+        "items": [
+          {
+            "punto": "Permite que la Palabra te confronte.",
+            "ejemplo": "Leer la Biblia solo para buscar promesas de bendición, ignorando las amonestaciones morales.",
+            "escenario_actual": "Sentirte molesto o atacado cuando una prédica confronta tus actitudes egocéntricas o de mentira."
+          },
+          {
+            "punto": "Acepta la amonestación con humildad.",
+            "ejemplo": "Enojarte con tu cónyuge o un amigo maduro cuando te señalan un error con amor.",
+            "escenario_actual": "Responder con agresividad y sacando faltas pasadas de la otra persona para desviar la atención de tu propio fallo."
+          },
+          {
+            "punto": "Confiesa directamente tu transgresión.",
+            "ejemplo": "Tratar de disculpar tu conducta diciendo 'es que estaba cansado' o 'tú me provocaste'.",
+            "escenario_actual": "Admitir: 'Sí, mentí y fue pecado contra el Señor', sin matizar ni poner peros."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Voz de la Verdad Profética",
+        "items": [
+          {
+            "punto": "Convierte el remordimiento en arrepentimiento de pacto.",
+            "ejemplo": "Llorar por las consecuencias negativas de tu error en lugar de dolerte por haber ofendido la santidad de Dios.",
+            "escenario_actual": "Saúl lloró porque perdía el favor del pueblo y el reino. David lloró en el Salmo 51 pidiendo no ser apartado de la presencia del Espíritu Santo."
+          },
+          {
+            "punto": "El profeta Natán en tu vida: busca mentores maduros.",
+            "ejemplo": "Vivir sin dar cuentas a nadie sobre tu carácter, finanzas o integridad.",
+            "escenario_actual": "Formar un círculo íntimo de consejería espiritual donde les permitas decirte: 'Tú eres aquel hombre' cuando te desvías."
+          },
+          {
+            "punto": "Restituye de acuerdo a la justicia de Dios.",
+            "ejemplo": "Pensar que el perdón de Dios anula el deber ético de sanar el daño causado a otros.",
+            "escenario_actual": "Pedir perdón por un chisme y de inmediato hablar públicamente para limpiar el nombre de la persona afectada."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Arrepentimiento de Conveniencia",
+        "texto": "Es un error doctrinal confundir el remordimiento (temor a las consecuencias o al castigo) con el arrepentimiento genuino (dolor de haber ofendido la santidad de Dios). Saúl sintió remordimiento por perder el reino; David sintió dolor por herir el corazón del pacto. Debemos buscar la contrición del Salmo 51 y someter nuestras caídas al juicio purificador del Señor."
+      }
+    ],
+    "desafio_practico": "Rinde hoy tu orgullo en el aposento y pídele a Dios que levante personas de confianza espiritual en tu vida con el derecho de confrontar tus errores.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "natan-profeta",
+          "nombre": "Natán",
+          "razon": "El portavoz fiel que arriesgó su posición para confrontar el desvío del rey David.",
+          "paralelismo": "La voz profética que desarma la soberbia del palacio."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El palacio donde el profeta confrontó cara a cara al rey con su pecado.",
+          "simbolismo": "El lugar de la confrontación y el quebrantamiento monárquico."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "avon-heb",
+          "nombre": "‘Avón (Torcedura)",
+          "razon": "La iniquidad del rey expuesta por la parábola y el dedo acusador del profeta.",
+          "familia": "Iniquidad expuesta, arrepentimiento genuino, perdón."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "arrepentimiento-restauracion",
+          "tema": "Espíritu Quebrantado",
+          "declaracion": "Señor Yeshua, rindo mis justificaciones y mis excusas. Reconozco mi pecado delante de Ti. Crea en mí un corazón limpio y renueva un espíritu recto dentro de mí. Amén."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-mujeres-genealogia",
+    "activo": false,
+    "fecha_programada": "2026-07-31",
+    "tipo": "sermones",
+    "titulo": "Las 4 Madres del Rey: Gracia sobre el Oprobio",
+    "subtitulo": "El Manifiesto de la Adopción: Tamar, Rahab, Rut y Betsabé en el linaje del Mesías",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/mujeres-genealogia.webp",
+    "tags": [
+      "Genealogía",
+      "Madres",
+      "Gracia",
+      "Adopción",
+      "Betsabé"
+    ],
+    "versiculo_clave": {
+      "texto": "Salmón engendró de Rahab a Booz, Booz engendró de Rut a Obed, y Obed engendró a Isaí. Isaí engendró al rey David, y el rey David engendró a Salomón de la que fue mujer de Urías.",
+      "cita": "Mateo 1:5-6"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Homilética Teológica / Sermón de Adopción",
+        "titulo": "Las Cuatro Columnas del Linaje Sagrado",
+        "texto": "El evangelio de Mateo comienza con una lista de nombres que, a simple vista, parece un documento técnico de archivo. Sin embargo, para un judío del siglo I, esta genealogía contenía cuatro 'minas terrestres' teológicas. Mateo introduce intencionalmente a cuatro mujeres extranjeras y marcadas por el juicio social: Tamar (asociada al incesto), Rahab (prostituta cananea), Rut (moabita excluida por la ley) y Betsabé (identificada como 'la que fue mujer de Urías', recordando el adulterio y asesinato de David). Al colocarlas como los eslabones que sostienen el linaje del Rey Jesús, el Espíritu Santo escribe el manifiesto definitivo de la gracia sobre el oprobio humano."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Joni (חָנִּי)",
+        "idioma": "Hebreo",
+        "raiz": "Janan (Mostrar favor / Compadecerse / Ser lleno de gracia)",
+        "significado": "Mi favor inmerecido, mi gracia protectora o mi regalo de adopción.",
+        "fonetica_guia": "Jo-ní",
+        "revelacion": "En la cultura del desierto, 'Joni' define el derecho de protección que un jeque fuerte otorga a un refugiado débil. Al incluir a estas cuatro mujeres en el linaje del Mesías, Dios decreta: 'Ellas están bajo mi Joni'. Sus pasados de vergüenza y exclusión son sepultados bajo la legalidad del favor inmerecido. La gracia no es una emoción; es un escudo legal."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Redime el Pasado",
+        "texto": "Dios se revela como el restaurador absoluto del historial humano. Él no necesita un lienzo en blanco para pintar Su gloria; prefiere usar los lienzos rotos, manchados y remendados de nuestra historia. La inclusión de las cuatro madres en el linaje del Rey demuestra que Dios redime el oprobio y lo convierte en el canal de Su mayor bendición."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Mantel de la Justicia sobre la Genealogía",
+        "texto": "Jesucristo es el clímax de esta historia. Así como David cubrió las piernas lisiadas de Mefiboset con el mantel real, Jesús cubrió el árbol genealógico de Su encarnación con el mantel de Su santidad. Él no se avergonzó de Tamar, ni de Rahab, ni de Rut, ni de Betsabé; al contrario, grabó sus nombres en Su título de propiedad legal, abriendo las puertas para que nosotros, con nuestros propios historiales de caída, seamos adoptados a la misma mesa real."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Las Cuatro Fases de la Redención",
+        "pasos": [
+          {
+            "concepto": "Tamar: El Coraje de la Semilla",
+            "explicacion": "Representa la preservación del diseño en medio de la traición y el fango familiar."
+          },
+          {
+            "concepto": "Rahab: La Fe que Transforma",
+            "explicacion": "Representa la salvación de la prostitución cananea mediante el cordón de hilo escarlata en la ventana."
+          },
+          {
+            "concepto": "Rut: La Lealtad de la Redención",
+            "explicacion": "Representa el derecho de rescate (Goel) que injerta a la moabita excluida en los campos de Belén."
+          },
+          {
+            "concepto": "Betsabé: La Gracia sobre la Tragedia",
+            "explicacion": "Representa la restauración del luto y la caída moral para dar a luz al rey Salomón."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Testimonio de la Gracia",
+        "referencias": [
+          {
+            "cita": "Josué 6:25",
+            "versiculo": "Mas Josué salvó la vida a Rahab la ramera... y habitó ella entre los israelitas hasta hoy, por cuanto escondió a los mensajeros...",
+            "revelacion": "El registro histórico de la transición de Rahab de la condenación de Jericó al injerto en la comunidad del pacto."
+          },
+          {
+            "cita": "Rut 1:16",
+            "versiculo": "No me ruegues que te deje... porque a dondequiera que tú fueres, iré... tu pueblo será mi pueblo, y tu Dios mi Dios.",
+            "revelacion": "La declaración legal de Rut, renunciando a sus raíces moabitas para refugiarse bajo las alas del Dios de Israel."
+          },
+          {
+            "cita": "2 Samuel 12:24",
+            "versiculo": "Y consoló David a Betsabé su mujer, y entrando a ella se acostó con ella; y ella dio a luz un hijo, y llamó su nombre Salomón...",
+            "revelacion": "El registro de la consolación divina que transforma el fruto de una caída en el heredero del trono de Sion."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu vergüenza es sepultada",
+        "items": [
+          {
+            "punto": "Renuncia a la condena del pasado moral.",
+            "ejemplo": "Creer que por haber tenido un estilo de vida desordenado antes de Cristo, Dios solo te usará para tareas secundarias en la iglesia.",
+            "escenario_actual": "Rahab pasó de ser ramera en Jericó a ser la madre de Booz y antecesora directa del Rey de Gloria. Tu pasado no limita tu propósito."
+          },
+          {
+            "punto": "Identifícate como hijo adoptivo y heredero.",
+            "ejemplo": "Orar con una actitud de mendigo, pidiendo a Dios sobras en lugar de presentarte como un coheredero comprado por sangre.",
+            "escenario_actual": "Betsabé dio a luz a Salomón tras la tragedia. La gracia de Dios te consuela, te levanta y te sienta en los lugares celestiales."
+          },
+          {
+            "punto": "Busca refugio bajo las alas del Dios del Pacto.",
+            "ejemplo": "Confiar en tus propios recursos, títulos o contactos para asegurar tu provisión en tiempos de crisis económica.",
+            "escenario_actual": "Rut renunció a Moab y se refugió en Jehová, y el Goel (Booz) la rescató. Tu provisión y seguridad están en el Pacto."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Ministrando el Mantel de Justicia",
+        "items": [
+          {
+            "punto": "Cubre con honor a los que la religión ha expuesto al oprobio.",
+            "ejemplo": "Participar en conversaciones de chismes sobre las caídas de otros miembros de la congregación bajo la excusa de 'pedir oración'.",
+            "escenario_actual": "Mateo no expuso los pecados para condenar, sino para registrar la gloria de la gracia. Usa tu madurez para cubrir, restaurar y sanar."
+          },
+          {
+            "punto": "Administra el rescate del descalificado (Goel).",
+            "ejemplo": "Ignorar a los creyentes marginados o con problemas emocionales complejos en tu grupo de discipulado para evitar lidiar con sus crisis.",
+            "escenario_actual": "El verdadero líder maduro opera como Booz: asume el costo financiero y social para redimir al que está en la ruina y darle un nombre."
+          },
+          {
+            "punto": "Usa tu historia de restauración como plataforma de fe.",
+            "ejemplo": "Construir un ministerio basado en conferencias motivacionales vacías de la revelación teológica sobre el perdón de los pecados.",
+            "escenario_actual": "Las 4 madres del Rey testifican que el Reino se sostiene sobre la gracia. Predica con la autoridad de quien ha sido lavado por la Sangre."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Linaje Impecable",
+        "texto": "Es un error doctrinal grave exigir un pedigrí moral intachable a los creyentes para considerarlos útiles en las manos de Dios. Este legalismo niega el poder de la Cruz. Jesucristo no edificó Su dinastía terrenal sobre la perfección carnal, sino sobre pecadores arrepentidos cubiertos por Su justicia divina."
+      }
+    ],
+    "desafio_practico": "Declara hoy en tu oración secreta que el favor inmerecido (Joni) de Dios es tu cobertura y escudo permanente.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "La tipología del lisiado cubierto por el mantel real de David.",
+          "paralelismo": "Nuestra debilidad cubierta por el mantel de la justicia de Cristo."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "timnat",
+          "nombre": "Timnat",
+          "razon": "La encrucijada geográfica del oprobio de Tamar convertida en herencia.",
+          "simbolismo": "La restauración del territorio de la descendencia."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "toledot-heb",
+          "nombre": "Tôledót",
+          "razon": "El linaje que demuestra la sobreabundancia de la gracia sobre el pecado.",
+          "familia": "El entrelazamiento de las historias redimidas por Dios."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "gracia-sobre-oprobio",
+          "tema": "Escudo del Favor",
+          "declaracion": "Señor Jesús, gracias por ser mi Goel. Me cubro con Tu Joni y acepto mi lugar en Tu mesa real."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sermones-mefiboset-gracia",
+    "activo": false,
+    "fecha_programada": "2026-07-24",
+    "tipo": "sermones",
+    "titulo": "Mefiboset: De Lo-debar a la Mesa Real",
+    "subtitulo": "La Gracia en el Mantel: El rescate del lisiado de la tierra de sequedad para sentarlo como hijo del rey",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "22 min",
+    "imagen_portada": "../img/estudios/mefiboset-table.webp",
+    "tags": [
+      "Mefiboset",
+      "Gracia",
+      "Lo-debar",
+      "Mesa",
+      "Restauración"
+    ],
+    "versiculo_clave": {
+      "texto": "Y moraba Mefiboset en Jerusalén, porque comía siempre a la mesa del rey; y estaba lisiado de ambos pies.",
+      "cita": "2 Samuel 9:13"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Homilético / Teología de la Gracia",
+        "titulo": "La Invalidez Oculta en el Desierto",
+        "texto": "Mefiboset tenía solo cinco años cuando su padre Jonatán y su abuelo Saúl murieron en la batalla del Monte Gilboa. Al escuchar la trágica noticia, su nodriza lo tomó en brazos para huir a toda prisa, pero con el pánico, Mefiboset cayó y quedó lisiado de ambos pies para siempre. Durante años, creció oculto en Lo-debar, un lugar de sequedad y marginación en Galaad. Vivía temeroso de que David lo matara para consolidar su reinado. Pero la gracia del Rey irrumpió en su exilio. David lo mandó llamar, le devolvió todas las tierras ancestrales de Saúl y lo colocó en su mesa personal, integrándolo a la familia real."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Lo-Debár (לוֹ דְבָר)",
+        "idioma": "Hebreo",
+        "raiz": "Lo (No / Sin) y Dabar (Palabra / Pasto)",
+        "significado": "Sin pasto, tierra estéril, o literalmente 'lugar sin palabra'.",
+        "fonetica_guia": "Lo De-bár",
+        "revelacion": "Lo-debar describe un lugar caracterizado por el silencio espiritual y la escasez física. Representa la condición de orfandad en la que vive el ser humano tras la caída: lisiados en nuestro caminar, llenos de complejos de inferioridad y escondidos en un exilio estéril sin la Palabra de Dios. La gracia del Rey David nos saca de Lo-debar para devolvernos el acceso a la Palabra de Dios y al sustento diario."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Adopta y Restituye (Padre de los Huérfanos)",
+        "texto": "Dios se revela como un Padre que no solo perdona la vida del rebelde, sino que lo eleva a la dignidad de la mesa real. Su atributo de Adopción significa que somos integrados a la familia de Dios como coherederos. El perdón es la puerta; la adopción a la mesa es la mesa de la abundancia del Reino."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Mantel de Justicia que cubre la Invalidez",
+        "texto": "Esta historia es la sombra perfecta del Evangelio. Mefiboset representa al creyente lisiado por la caída. David representa a Dios, y Jonatán representa a Cristo, el dador del pacto. David sienta a Mefiboset a su mesa y lo cubre con un mantel real. A los ojos de los invitados, el mantel del rey cubría por completo la cojera de Mefiboset; era tratado como un hijo del rey. La justicia de Cristo es el mantel divino que cubre nuestras debilidades y nos da acceso ilimitado al Padre."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Ruta de la Restauración por Gracia",
+        "pasos": [
+          {
+            "concepto": "La Caída Heredada",
+            "explicacion": "Quedar lisiado por un accidente ajeno en la infancia. Prefiguración de la caída de Adán que nos dejó espiritualmente inválidos."
+          },
+          {
+            "concepto": "El Exilio de Lo-debar",
+            "explicacion": "Vivir escondidos en la escasez y el temor del juicio real. La mentalidad de orfandad alejada del pacto."
+          },
+          {
+            "concepto": "El Llamado de Gracia",
+            "explicacion": "Los carruajes del rey llegan a Lo-debar. La gracia interrumpe el exilio por causa del juramento del Mediador."
+          },
+          {
+            "concepto": "La Mesa de Comunión",
+            "explicacion": "Comer con el rey permanentemente. El mantel de justicia cubre la cojera, y el lisiado es adoptado como heredero."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Banquete de los Adoptados",
+        "referencias": [
+          {
+            "cita": "Salmos 23:5",
+            "versiculo": "Aderezas mesa delante de mí en presencia de mis angustiadores; Unges mi cabeza con aceite; mi copa está rebosando.",
+            "revelacion": "El salmista celebra el banquete divino que el Pastor prepara, devolviendo la dignidad ante el enemigo."
+          },
+          {
+            "cita": "Efesios 2:6",
+            "versiculo": "y juntamente con él nos resucitó, y asimismo nos hizo sentar en los lugares celestiales con Cristo Jesús...",
+            "revelacion": "Nuestra posición espiritual actual: sentados en la mesa de la abundancia real a la diestra de Dios."
+          },
+          {
+            "cita": "Romanos 8:15",
+            "versiculo": "Pues no habéis recibido el espíritu de esclavitud para estar otra vez en temor, sino que habéis recibido el espíritu de adopción...",
+            "revelacion": "El cambio de mentalidad. Salir del exilio del miedo de Lo-debar y clamar Abba Padre ante el Rey."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu pasado no define tu silla",
+        "items": [
+          {
+            "punto": "Renuncia al complejo de 'perro muerto'.",
+            "ejemplo": "Repetirte frases como 'yo no valgo nada', 'Dios no puede amar a alguien tan roto como yo'.",
+            "escenario_actual": "Mefiboset se consideraba un perro muerto, pero el rey lo llamó hijo. Cree en la identidad que Dios te da por pacto, no en tus inseguridades."
+          },
+          {
+            "punto": "Sal de tu Lo-debar de miedo.",
+            "ejemplo": "Evitar la oración en el aposento o el servicio por temor a que Dios esté enojado contigo por tus debilidades.",
+            "escenario_actual": "La gracia del Rey ha enviado por ti. Deja el escondite de la culpa y acércate con confianza al trono del banquete."
+          },
+          {
+            "punto": "El mantel cubre tu invalidez.",
+            "ejemplo": "Intentar perfeccionar tu conducta antes de acercarte a Dios, pensando 'cuando sea mejor, iré a la iglesia'.",
+            "escenario_actual": "Mefiboset comía con el rey mientras seguía cojo. Acércate tal como estás; la comunión con Dios es la que transformará tu caminar."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Gobernando desde la Mesa",
+        "items": [
+          {
+            "punto": "Renuncia a la mentalidad de orfandad.",
+            "ejemplo": "Seguir compitiendo por poder, reconocimiento o celos en el ministerio como si fueras un huérfano sin herencia.",
+            "escenario_actual": "Estás sentado a la mesa del Rey y tienes acceso a todos Sus recursos. Opera desde la plenitud de la adopción, no desde la escasez."
+          },
+          {
+            "punto": "El mantel de la iglesia debe cubrir a los caídos.",
+            "ejemplo": "Exponer los pecados y debilidades de los líderes de tu equipo ante la congregación para ganar autoridad o limpiar tu imagen.",
+            "escenario_actual": "El mantel real cubría la cojera de Mefiboset. Protege, restaura y aconseja a tus líderes en privado; no uses su cojera para tu plataforma."
+          },
+          {
+            "punto": "Diferencia el mantel de tus pies.",
+            "ejemplo": "Creer que eres bendecido o exitoso en tu ministerio debido a tu propia rectitud, elocuencia o habilidades.",
+            "escenario_actual": "Nunca confundas tu desempeño con la gracia de Dios. Sigue humilde, sabiendo que es el mantel de la justicia de Cristo lo que te mantiene en la mesa."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro de la Condena Legalista",
+        "texto": "Se enseña a menudo que las personas con debilidades persistentes o heridas de su pasado no son aptas para el liderazgo o la comunión íntima. La historia de Mefiboset desmiente esto: el rey lo sentó permanentemente a la mesa real a pesar de estar cojo de ambos pies. La gracia de Dios es inclusiva y restaura el propósito independientemente de la cojera."
+      }
+    ],
+    "desafio_practico": "Dedica 10 minutos en tu aposento hoy para dar gracias a Dios específicamente por el mantel de Cristo sobre tu vida, renunciando a todo pensamiento de culpa o rechazo familiar.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "El descendiente lisiado que fue adoptado como hijo por el rey David.",
+          "paralelismo": "El mendigo que pasa de la sequía a la abundancia real."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "lo-debar",
+          "nombre": "Lo-debar",
+          "razon": "La tierra desértica de la sequedad de la cual fue rescatado.",
+          "simbolismo": "La esterilidad existencial del hombre alejado del pacto."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "lo-debar-heb",
+          "nombre": "Lo-Debar",
+          "razon": "La palabra hebrea que define la tierra sin pasto y el exilio.",
+          "familia": "Sequedad, silencio espiritual, lugar sin palabra."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "mesa-de-la-gracia",
+          "tema": "La Mesa del Rey",
+          "declaracion": "Abba Padre, gracias por sacarme del exilio de Lo-debar. Acepto hoy mi adopción como hijo del Rey. Declaro que el mantel de la justicia de Cristo cubre mis cojeras y que como con gozo a Tu mesa divina. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "sermones-abigail-sabiduria",
     "activo": false,
     "fecha_programada": "2026-07-17",
@@ -626,7 +1184,7 @@
       {
         "tipo": "cristocentrico",
         "titulo": "El Profeta Fiel que Inaugura el Reino",
-        "texto": "Samuel es la figura de transición por excelencia: él cierra la era de los Jueces y unge a los reyes (Saúl y David), prefigurando la venida del Reino. Jesucristo es el antitipo perfecto: Él es el 'Profeta Fiel' definitivo (Deut. 18) que no dejó caer ninguna palabra del Padre. Cristo vino en medio del silencio profético de 400 años y de un sacerdocio farisaico corrompido, al igual que Samuel. Y fue Cristo (Jesucristo-Pneuma) quien inauguró y nos ungió como reyes y sacerdotes para un reino eterno."
+        "texto": "Samuel es la figura de transición por excelencia: él cierra la era de los Jueces y unge a los reyes (Saúl y David), prefigurando la venida del Reino. Jesucristo es el antitipo perfecto: Él es el 'Profeta Fiel' definitivo (Deut. 18) que no dejó caer ninguna palabra del Padre. Cristo vino en medio del silencio profético de 400 años y de un sacerdocio farisaico corrompido, al igual que Samuel. Y fue Cristo quien inauguró y nos ungió como reyes y sacerdotes para un reino eterno."
       },
       {
         "tipo": "revelacion_progresiva",

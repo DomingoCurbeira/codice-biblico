@@ -1,5 +1,563 @@
 [
   {
+    "id": "huellas-ocio-terrado",
+    "activo": false,
+    "fecha_programada": "2026-08-03",
+    "tipo": "huellas",
+    "titulo": "El Ocio del Terrado",
+    "subtitulo": "El peligro del abandono del campo de batalla y la sutil trampa de la zona de confort",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/ocio-terrado.webp",
+    "tags": [
+      "David",
+      "Terrado",
+      "Ocio",
+      "Tentación",
+      "Carácter"
+    ],
+    "versiculo_clave": {
+      "texto": "Aconteció al año siguiente, en el tiempo que salen los reyes a la guerra, que David envió a Joab... pero David se quedó en Jerusalén. Y al caer la tarde, se levantó David de su lecho y se paseaba por el terrado de la casa real; y vio desde el terrado a una mujer que se estaba bañando, la cual era muy hermosa. Envió David a preguntar por aquella mujer...",
+      "cita": "2 Samuel 11:1-3"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Advertencia Moral",
+        "titulo": "La Negligencia del Rey y el Desvío del Llamado",
+        "texto": "David había alcanzado la cúspide de su poder militar y político. Sus ejércitos vencían en todas partes. Llegada la primavera, la temporada habitual de campañas militares, David decidió no salir al frente de batalla. En su lugar, delegó su responsabilidad a Joab y se quedó en Jerusalén, disfrutando de la comodidad de su palacio. Paseando por el terrado, sus ojos se posaron en Betsabé. El ocio físico e interior creó el espacio perfecto para la vulnerabilidad. Este descuido del campo de asignación fue el primer paso de un colapso moral trágico que costaría la paz de su casa de ahí en adelante."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Terrado / Techo (Gag - גַּג)",
+        "idioma": "Hebreo",
+        "raiz": "Gag (Techo, cubierta, lugar elevado)",
+        "significado": "Punto de observación elevado, terraza o terrado.",
+        "fonetica_guia": "Gag",
+        "revelacion": "El terrado de la casa real era un lugar físico de gran visibilidad y comodidad. En el plano espiritual, representa el punto alto del éxito y el estatus donde nos sentimos seguros e intocables. David subió al terrado buscando recreación cuando debía estar en la trinchera; así, su lugar de victoria anterior se transformó en el observatorio de su propia concupiscencia."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Demanda Alineación",
+        "texto": "Jehová es un Dios de orden y alineación. La unción divina capacita al rey para servir al pueblo y defender el pacto en el campo de batalla, no para el confort personal. Dios observa con desagrado cuando Sus líderes se retiran a una comodidad egoísta mientras el pueblo lucha. El carácter no se sostiene de victorias pasadas, sino de la obediencia del presente."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Verdadero Rey en el Frente de Batalla",
+        "texto": "David prefigura al rey terrenal falible que envía a otros a morir en la guerra mientras él se protege en el palacio. En contraste, Jesucristo es el verdadero Rey soberano que no permaneció en la comodidad de Su trono celestial; Él descendió a la tierra, asumió nuestra carne y se colocó en el frente más hostil de la batalla en la cruz, entregando Su propia vida para rescatarnos de la muerte. Jesús es el pastor-rey que combate en primera línea por Su rebaño."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Escalada del Descuido Espiritual",
+        "pasos": [
+          {
+            "concepto": "El Abandono de la Asignación",
+            "explicacion": "El rey decide quedarse en la comodidad de Jerusalén en lugar de liderar a su ejército en la temporada de guerra."
+          },
+          {
+            "concepto": "El Ocio en las Alturas",
+            "explicacion": "Pasear por el terrado sin una dirección clara expone la mirada a estímulos destructivos fuera del diseño."
+          },
+          {
+            "concepto": "La Concupiscencia Activada",
+            "explicacion": "Fijar la mirada en el deseo prohibido, investigar la identidad de Betsabé y traerla al palacio abusando de la autoridad."
+          },
+          {
+            "concepto": "La Ceguera Moral",
+            "explicacion": "Consumar la caída y tratar de gestionar humanamente el embarazo resultante sin reconocer la transgresión ante Dios."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Vigilancia en la Asignación",
+        "referencias": [
+          {
+            "cita": "2 Samuel 11:1",
+            "versiculo": "Aconteció al año siguiente, en el tiempo que salen los reyes a la guerra, que David envió a Joab... pero David se quedó en Jerusalén.",
+            "revelacion": "El registro histórico que expone el punto de quiebre geográfico y moral del rey David."
+          },
+          {
+            "cita": "Mateo 26:38-39",
+            "versiculo": "Entonces Jesús les dijo: Mi alma está muy triste, hasta la muerte; quedaos aquí, y velad conmigo...",
+            "revelacion": "Jesucristo en el Getsemaní vigila y ora en agonía de frente a la copa del juicio, ganando la batalla en el altar del sufrimiento."
+          },
+          {
+            "cita": "1 Pedro 5:8",
+            "versiculo": "Sed sobrios, y velad; porque vuestro adversario el diablo, como león rugiente, anda alrededor buscando a quien devorar.",
+            "revelacion": "La advertencia apostólica a la sobriedad y la vigilancia activa frente al letargo espiritual."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Cuidado con los Tiempos Muertos",
+        "items": [
+          {
+            "punto": "Cuidado con los tiempos muertos sin propósito.",
+            "ejemplo": "Creer que el tiempo libre es inofensivo y que no requiere vigilancia espiritual.",
+            "escenario_actual": "Pasar horas haciendo scroll en redes sociales sin rumbo, abriendo la puerta a pensamientos de comparación, codicia o desánimo."
+          },
+          {
+            "punto": "La obediencia no se delega.",
+            "ejemplo": "Pensar que puedes enviar a otros a hacer lo que te corresponde a ti (como la oración o el cuidado de tu hogar).",
+            "escenario_actual": "Pedirle a otros que oren por tus problemas de carácter en lugar de arrodillarte tú mismo en el aposento."
+          },
+          {
+            "punto": "La trampa de la comodidad.",
+            "ejemplo": "Buscar siempre el camino más fácil y con menos resistencia.",
+            "escenario_actual": "Evitar comprometerte con un grupo de estudio bíblico o de servicio en la iglesia para no perder tus fines de semana de descanso."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Manteniendo la Trinchera",
+        "items": [
+          {
+            "punto": "El terrado del éxito es el lugar de mayor riesgo.",
+            "ejemplo": "Creer que porque has alcanzado estabilidad laboral o madurez ministerial, estás por encima de las tentaciones básicas.",
+            "escenario_actual": "Descuidar la rendición de cuentas con tus mentores espirituales tras haber sido ascendido a director en tu empresa o ministerio."
+          },
+          {
+            "punto": "Mantén la trinchera activa en tu temporada de guerra.",
+            "ejemplo": "Retirarte de tu asignación espiritual justo cuando la presión arrecia.",
+            "escenario_actual": "Dejar de pastorear a tu familia espiritualmente porque estás abrumado por las finanzas, en lugar de intensificar la oración."
+          },
+          {
+            "punto": "El colapso es un proceso progresivo, no un accidente.",
+            "ejemplo": "Tratar las caídas morales como eventos fortuitos y no como el fruto del letargo espiritual continuo.",
+            "escenario_actual": "Ignorar la falta de pasión en tus devocionales diarios, asumiendo que 'todo está bien' hasta que experimentas una crisis de fe."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro de la Zona de Confort Espiritual",
+        "texto": "Es un error interpretar la caída de David simplemente como una debilidad sexual aislada. El adulterio con Betsabé fue el síntoma de una ociosidad espiritual previa. No debemos usar la gracia para justificar la ociosidad o el abandono de nuestras disciplinas espirituales básicas, creyendo que la unción del pasado nos protegerá del descuido en el presente."
+      }
+    ],
+    "desafio_practico": "Identifica hoy en tu aposento qué área de tu vida has estado delegando o descuidando por buscar comodidad física, y toma la decisión de regresar a la trinchera del deber.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey ungido cuyo descuido en el terrado desencadenó la grieta moral en su dinastía.",
+          "paralelismo": "El contraste del rey ocioso frente al siervo fiel en la guerra."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La fortaleza donde David construyó su palacio y donde ocurrió la transgresión.",
+          "simbolismo": "El centro del reino que se convierte en el epicentro de la caída."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "avon-heb",
+          "nombre": "‘Avón (Torcedura)",
+          "razon": "La iniquidad y culpa deformada que nace al apartarse del frente de batalla.",
+          "familia": "Torcedura, desviación moral, iniquidad."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "arrepentimiento-restauracion",
+          "tema": "Clamor de Restauración",
+          "declaracion": "Padre Celestial, reconozco que he paseado por terrados de comodidad cuando debí estar velando. Límpiame con el hisopo de Tu gracia y restáurame al altar de Tu presencia."
+        }
+      ]
+    }
+  },
+  {
+    "id": "huellas-tamar-brecha",
+    "activo": false,
+    "fecha_programada": "2026-07-27",
+    "tipo": "huellas",
+    "titulo": "Tamar: La Semilla que brota del fango",
+    "subtitulo": "El Coraje de la Preservación: Cómo una mujer extranjera y marginada forzó la continuidad del linaje real",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/tamar-brecha.webp",
+    "tags": [
+      "Tamar",
+      "Linaje",
+      "Gracia",
+      "Soberanía",
+      "Justicia"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Judá los reconoció, y dijo: Ella es más justa que yo, por cuanto no la he dado a Sela mi hijo. Y nunca más la conoció.",
+      "cita": "Génesis 38:26"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Teología de la Semilla",
+        "titulo": "El Abandono de la Responsabilidad Pactual",
+        "texto": "Judá se había apartado de sus hermanos y se había asociado con Hirah el adulamita, casándose con una cananea. Sus hijos Er y Onán murieron bajo el juicio divino debido a su maldad y egoísmo. Según la ley del levirato (precursora), el tercer hijo, Sela, debía casarse con Tamar para levantar descendencia a los fallecidos. Temiendo perder a su tercer hijo, Judá engañó a Tamar enviándola de vuelta a su casa paterna en estado de viudez perpetua. Tamar, al ver que Sela había crecido y no le era dado por esposo, tomó una decisión extrema y arriesgada: se disfrazó para concebir de su propio suegro Judá, forzando la continuidad de la semilla mesiánica que Judá estaba descuidando."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Tamar (תָּמָר)",
+        "idioma": "Hebreo",
+        "raiz": "Tamar (Erigirse / Ser erguido)",
+        "significado": "Palmera datilera. Símbolo de resiliencia, rectitud y fructificación en el desierto.",
+        "fonetica_guia": "Ta-már",
+        "revelacion": "En el desierto, la palmera representa vida, agua y sustento. Tamar hace honor a su nombre: erigiéndose con firmeza en medio del desierto moral de la casa de Judá para preservar la vida de la semilla prometida. Mientras Judá actuaba con doblez, Tamar arriesgó su propia vida para sostener el diseño eterno de la redención."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Providencia Soberana",
+        "texto": "Dios utiliza las circunstancias más inverosímiles y los métodos humanos más escandalosos para cumplir Su propósito. Aunque la acción de Tamar fue éticamente compleja en la cultura de su tiempo, su motivación era la justicia del pacto, mientras que la de Judá era el egoísmo. Dios intervino de forma providencial para dar a luz a Fares (la brecha), mostrando que Su gracia soberana escribe historias rectas con líneas torcidas."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Fares: La Brecha que Anticipa al Mesías",
+        "texto": "Tamar da a luz a gemelos: Fares (Pérets) y Zara. Durante el parto, Zara saca la mano primero y le atan un hilo escarlata (símbolo de primogenitura humana), pero la retrae y es Fares quien nace primero, ganando la primogenitura legal por 'romper' la barrera. Fares (jesucristo) prefigura la obra del Mesías, quien rompió las barreras de la ley y del pecado para abrirnos un nuevo camino de gracia inmerecida."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Desplazamiento de los Diseños Humanos",
+        "pasos": [
+          {
+            "concepto": "La Negación del Deber",
+            "explicacion": "Judá desestima la ley y la promesa, confinando a Tamar a la esterilidad y el olvido por temor supersticioso."
+          },
+          {
+            "concepto": "El Coraje de la Acción",
+            "explicacion": "Tamar asume el riesgo de muerte por adulterio para confrontar la infidelidad de Judá y reclamar la descendencia."
+          },
+          {
+            "concepto": "La Confrontación por los Sellos",
+            "explicacion": "Al ser acusada, Tamar muestra el sello, el cordón y el báculo de Judá, obligándolo a reconocer su pecado y la justicia de ella."
+          },
+          {
+            "concepto": "La Consagración de la Brecha",
+            "explicacion": "Nace Fares, estableciendo la línea legal que conectará directamente a David y finalmente a Jesús con Abraham."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Honor de la Semilla de Tamar",
+        "referencias": [
+          {
+            "cita": "Génesis 38:29",
+            "versiculo": "Y sucedió que al retirar él la mano, salió su hermano; y ella dijo: ¡Qué brecha te has abierto! Y llamó su nombre Fares.",
+            "revelacion": "El texto bíblico documenta el nacimiento disruptivo de Fares, marcando el origen de la línea del rey David."
+          },
+          {
+            "cita": "Rut 4:12",
+            "versiculo": "Y sea tu casa como la casa de Fares, el que Tamar dio a luz a Judá, por la descendencia que de esta joven te dé Jehová.",
+            "revelacion": "Los ancianos de Belén bendicen a Booz y Rut deseándoles la misma unción de multiplicación que recibió Fares."
+          },
+          {
+            "cita": "Mateo 1:3",
+            "versiculo": "Judá engendró de Tamar a Fares y a Zara, y Fares engendró a Esrom, y Esrom engendró a Aram...",
+            "revelacion": "Mateo incluye intencionalmente a Tamar en la genealogía de Jesús, rompiendo la tradición de registrar únicamente a varones."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Dios te saca del fango",
+        "items": [
+          {
+            "punto": "No permitas que las promesas rotas de los hombres anulen tu esperanza en Dios.",
+            "ejemplo": "Pensar que porque tus padres, pastores o líderes te fallaron, las promesas de Dios hacia ti han caducado.",
+            "escenario_actual": "Tamar fue traicionada y olvidada por Judá, pero Dios no la olvidó. Busca la justicia de Dios por encima de la aprobación humana."
+          },
+          {
+            "punto": "Identifica los 'sellos' de tu identidad en Cristo.",
+            "ejemplo": "Aceptar acusaciones de culpa del enemigo sobre tu pasado sin recordar que posees el sello de la redención.",
+            "escenario_actual": "Tamar guardó las prendas de Judá como prueba legal. Ante la condena, muestra el cordón y el sello de la sangre de Jesús."
+          },
+          {
+            "punto": "No temas empezar de nuevo en medio de la crisis.",
+            "ejemplo": "Sentir que una crisis familiar o laboral representa el final absoluto de tu llamado ministerial.",
+            "escenario_actual": "En el punto más oscuro y humillante de su vida, Tamar concibió la semilla que daría origen al Salvador del mundo."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Abriendo Brechas de Gracia",
+        "items": [
+          {
+            "punto": "Abre brechas espirituales donde la estructura humana se ha cerrado.",
+            "ejemplo": "Resignarte al estancamiento de un proyecto ministerial simplemente porque no recibiste el apoyo financiero o pastoral esperado.",
+            "escenario_actual": "Fares no esperó su turno humano; rompió el orden natural. Activa tu fe violenta para abrir caminos de bendición donde todo parece bloqueado."
+          },
+          {
+            "punto": "Goberna tu casa con justicia incondicional.",
+            "ejemplo": "Tratar a las personas bajo tu liderazgo con favoritismo o encubrir tus propios errores ministeriales culpando a los subordinados.",
+            "escenario_actual": "Judá tuvo que humillarse y admitir públicamente: 'Ella es más justa que yo'. La madurez radica en reconocer la verdad por encima del orgullo de cargo."
+          },
+          {
+            "punto": "Preserva la semilla a cualquier costo.",
+            "ejemplo": "Descuidar la preparación de la siguiente generación en la iglesia por concentrarte en el éxito inmediato de tus propias conferencias.",
+            "escenario_actual": "Tamar arriesgó su reputación y su vida física con tal de no dejar morir la línea pactual. El verdadero líder maduro prioriza el legado sobre la fama personal."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Legalismo Moralista",
+        "texto": "Es un error doctrinal evaluar las acciones de Tamar bajo el código penal mosaico posterior o bajo la ética victoriana moderna. El relato de Tamar en Génesis 38 expone la quiebra espiritual de Judá y la fe desesperada de Tamar por no quedar fuera del pacto. La lección no es imitar el engaño, sino contemplar la gracia soberana que redime la disfunción humana."
+      }
+    ],
+    "desafio_practico": "Dedica 10 minutos en tu aposento hoy para dar gracias a Dios específicamente por abrir brechas de redención en tu vida.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "El descendiente lisiado adoptado en la mesa real por puro amor al pacto.",
+          "paralelismo": "La inclusión del descalificado físico en la dinastía real."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "timnat",
+          "nombre": "Timnat",
+          "razon": "El lugar fronterizo donde Tamar forzó legalmente la descendencia de Judá.",
+          "simbolismo": "La encrucijada del deber donde se preserva el hilo escarlata."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "perets-heb",
+          "nombre": "Pérets (Brecha)",
+          "razon": "El nombre del hijo de Tamar que representa la rotura inesperada de barreras.",
+          "familia": "Rotura, irrupción, apertura forzada de caminos."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "semilla-brecha",
+          "tema": "Decreto de Identidad",
+          "declaracion": "Padre Santo, me rindo ante Tu soberanía... Declaro que en mi mayor sequedad, Tu gracia abrirá una brecha inesperada."
+        }
+      ]
+    }
+  },
+  {
+    "id": "huellas-pacto-davidico",
+    "activo": false,
+    "fecha_programada": "2026-07-20",
+    "tipo": "huellas",
+    "titulo": "El Pacto con David: La Dinastía del Rey Eterno",
+    "subtitulo": "El Diseño de la Casa: Cómo Dios cambió el templo de cedro por una herencia y linaje real eterno",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/pacto-davidico.webp",
+    "tags": [
+      "Pacto",
+      "David",
+      "Dinastía",
+      "Gracia",
+      "Soberanía"
+    ],
+    "versiculo_clave": {
+      "texto": "Y será afirmada tu casa y tu reino para siempre delante de tu rostro, y tu trono será estable eternamente.",
+      "cita": "2 Samuel 7:16"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Pacto Monárquico / Teología Pactual",
+        "titulo": "La Casa de Cedro vs. El Tabernáculo",
+        "texto": "David se había establecido en su palacio en Jerusalén. Al mirar a su alrededor, sintió una profunda incomodidad espiritual: él habitaba en un lujoso palacio de cedro, mientras que el Arca de Dios permanecía en una humilde tienda de campaña. David le comunicó al profeta Natán su deseo de edificarle un templo físico a Jehová. Sin embargo, esa misma noche, Dios intervino. Le reveló a Natán que Él no habita en templos hechos por manos humanas y le invirtió la propuesta a David: no sería David quien le edificaría una casa (templo) a Dios, sino que Dios le edificaría una casa (dinastía y linaje) eterna a David. Este pacto incondicional se constituyó como el cimiento mesiánico de la Escritura."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Báyit (בַּיִת)",
+        "idioma": "Hebreo",
+        "raiz": "Banah (Edificar / Construir)",
+        "significado": "Casa, palacio, templo, familia, dinastía o descendencia.",
+        "fonetica_guia": "Bá-yit",
+        "revelacion": "El juego de palabras en 2 Samuel 7 gira alrededor de 'Báyit'. David quería edificar un 'Báyit' de cedro (edificio físico). Dios le responde que Él le edificará un 'Báyit' biológico y espiritual (un linaje real eterno). Esto nos enseña que el interés de Dios no radica en las estructuras físicas o las catedrales terrestres, sino en establecer Su paternidad y Su trono sobre una descendencia redimida. El verdadero templo de Dios es Su pueblo."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios del Pacto Incondicional (Gracia Soberana)",
+        "texto": "Dios se revela como un pactador incondicional. A diferencia del pacto mosaico (que dependía de la obediencia del pueblo), el pacto davídico se sostiene únicamente sobre la soberanía y la fidelidad de Dios. Dios establece un trono perpetuo prometiendo que, aunque los descendientes de David fallen y requieran disciplina, Su misericordia (Jésed) jamás les será quitada. La gracia opera independientemente de la perfección del hombre."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Hijo de David y el Templo Eterno",
+        "texto": "El cumplimiento último del pacto davídico no fue Salomón, quien construyó un templo de piedra que luego fue destruido. El verdadero descendiente de David cuyo reino no tiene fin es Jesucristo. Él es la casa eterna de Dios, el tabernáculo encarnado. El trono eterno prometido a David se cumplió legalmente en la resurrección de Cristo, quien ahora reina sobre una dinastía espiritual de sacerdotes y reyes."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Desplazamiento del Diseño Humano",
+        "pasos": [
+          {
+            "concepto": "Incomodidad Religiosa",
+            "explicacion": "David evalúa su comodidad terrenal frente a la humildad de los símbolos divinos. Un impulso noble pero centrado en el esfuerzo propio."
+          },
+          {
+            "concepto": "Intersección Profética",
+            "explicacion": "La palabra de Dios detiene la iniciativa humana. Dios recuerda que Él camina en el tabernáculo y no requiere confinamiento físico."
+          },
+          {
+            "concepto": "La Promesa de la Dinastía",
+            "explicacion": "Dios redefine el concepto de 'casa'. Promete levantar una simiente de los lomos de David y establecer su reino para siempre."
+          },
+          {
+            "concepto": "Establecimiento del Trono Mesiánico",
+            "explicacion": "La unción trasciende a David y Salomón para anclarse eternamente en Cristo, el Rey resucitado cuyo cetro es inquebrantable."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Trono que no Caduca",
+        "referencias": [
+          {
+            "cita": "Salmos 89:3-4",
+            "versiculo": "Hice pacto con mi escogido; Juré a David mi siervo, diciendo: Para siempre confirmaré tu descendencia, Y edificaré tu trono por todas las generaciones.",
+            "revelacion": "El salmista celebra el juramento irrevocable de Dios a David, confirmando que el pacto no depende de las fluctuaciones del pueblo."
+          },
+          {
+            "cita": "Lucas 1:32-33",
+            "versiculo": "Este será grande... y el Señor Dios le dará el trono de David su padre; y reinará sobre la casa de Jacob para siempre, y su reino no tendrá fin.",
+            "revelacion": "El ángel Gabriel le anuncia a María que Jesús es el cumplimiento definitivo del pacto davídico y el heredero del trono perpetuo."
+          },
+          {
+            "cita": "Hechos 2:30",
+            "versiculo": "Pero siendo profeta, y sabiendo que con juramento Dios le había jurado que de su descendencia... levantaría al Cristo para que se sentase en su trono...",
+            "revelacion": "En Pentecostés, Pedro conecta la resurrección física de Jesús con el juramento legal incondicional hecho a David."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Paternidad del Pacto",
+        "items": [
+          {
+            "punto": "No intentes 'construirle' cosas a Dios antes de conocer Su diseño.",
+            "ejemplo": "Llenarte de actividades eclesiásticas o sacrificar tu familia bajo el pretexto de 'hacer algo para el Señor'.",
+            "escenario_actual": "Dios no necesita que le edifiques imperios; Él quiere edificar tu carácter. Deja que Su Palabra cimente tu vida antes de buscar plataformas públicas."
+          },
+          {
+            "punto": "Descansa en que tu seguridad proviene de Su fidelidad.",
+            "ejemplo": "Pensar que vas a perder tu salvación o el favor de Dios cada vez que cometes un error o tienes un mal día.",
+            "escenario_actual": "El pacto de Dios contigo en Cristo es incondicional. La disciplina de Dios sobre ti será para corrección, pero Su amor (Jésed) nunca se apartará."
+          },
+          {
+            "punto": "Dios no habita en templos físicos.",
+            "ejemplo": "Creer que solo puedes encontrarte con la presencia de Dios en un edificio de iglesia el domingo.",
+            "escenario_actual": "Tú eres el templo del Espíritu Santo. Tu comunión en el aposento y tu obediencia en el trabajo diario son los verdaderos altares de adoración."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Edificando Legados Eternos",
+        "items": [
+          {
+            "punto": "Siembre lo que otros cosecharán.",
+            "ejemplo": "Negarte a entrenar a jóvenes líderes o a financiar proyectos porque 'tú no estarás allí para ver el éxito'.",
+            "escenario_actual": "David preparó los materiales del templo sabiendo que no lo construiría él, sino su hijo. El líder maduro mide su éxito por el fruto de la siguiente generación."
+          },
+          {
+            "punto": "Vigila el reposo en las 'casas de cedro'.",
+            "ejemplo": "Acomodarte en tus logros pasados, finanzas estables o posición ministerial, perdiendo el hambre de intimidad y el celo por la presencia de Dios.",
+            "escenario_actual": "El éxito material es el terrado donde muchos caen. No dejes que la comodidad de tus cedros apague tu pasión por el tabernáculo secreto."
+          },
+          {
+            "punto": "Construye sobre el pacto de gracia.",
+            "ejemplo": "Predicar o enseñar basándote en que la gente debe ganarse el favor de Dios mediante méritos, reglas legalistas o sacrificios financieros.",
+            "escenario_actual": "Asegúrate de que todo lo que edifiques apunte a la justicia consumada de Cristo. Todo edificio ministerial que no esté cimentado en la gracia pura terminará en ruinas."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Error de la Teología de Templos",
+        "texto": "Persiste en el liderazgo religioso el error de pedir recursos al pueblo bajo la promesa de que 'construir un templo físico' desatará el favor de Dios. La historia del pacto davídico nos enseña que Dios rechazó la propuesta de un templo hecho por manos humanas. La unción y el favor divino no se compran con ladrillos ni cedro. El único templo aprobado es Jesucristo y Su cuerpo espiritual."
+      }
+    ],
+    "desafio_practico": "Identifica un área donde estés intentando impresionar a Dios con tu esfuerzo. Detente, haz una oración de rendición en tu aposento y declara: 'Señor, no soy yo quien te edifica; eres Tú quien edifica mi vida'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "natan-profeta",
+          "nombre": "Natán",
+          "razon": "El profeta que comunicó el cambio de diseño del templo al linaje.",
+          "paralelismo": "El mensajero de la gracia soberana y de la disciplina real."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Sion",
+          "razon": "La sede del trono de David y la futura dinastía.",
+          "simbolismo": "La capital eterna de la adoración y la soberanía mesiánica."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "hesed-heb-v2",
+          "nombre": "Jésed",
+          "razon": "La misericordia incondicional del pacto.",
+          "familia": "Lealtad, amor de pacto, fidelidad."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "reposo-pacto-eterno",
+          "tema": "Reposo en el Pacto Eterno",
+          "declaracion": "Abba Padre, renuncio al afán de edificar mi propia seguridad con mis fuerzas. Descanso en que Tu gracia incondicional ha levantado una casa para mi alma y que mi eternidad está sellada en el Trono de Cristo."
+        }
+      ]
+    }
+  },
+  {
     "id": "huellas-david-anonimato",
     "activo": false,
     "fecha_programada": "2026-07-13",
@@ -53,7 +611,7 @@
       {
         "tipo": "cristocentrico",
         "titulo": "Cristo en la Cueva de los Desechados",
-        "texto": "David en la cueva de Adulam es un tipo perfecto de Jesucristo (Jesucristo-Pneuma). Jesús vino a Su propia creación y fue rechazado por el sistema institucional. Él no estableció Su Reino en el templo de Herodes, sino en los desiertos del rechazo. Cristo es el Capitán que reúne a los espiritualmente afligidos, endeudados por el pecado y amargados por el mundo, transformándolos en reyes y sacerdotes para Su Padre."
+        "texto": "David en la cueva de Adulam es un tipo perfecto de Jesucristo. Jesús vino a Su propia creación y fue rechazado por el sistema institucional. Él no estableció Su Reino en el templo de Herodes, sino en los desiertos del rechazo. Cristo es el Capitán que reúne a los espiritualmente afligidos, endeudados por el pecado y amargados por el mundo, transformándolos en reyes y sacerdotes para Su Padre."
       },
       {
         "tipo": "revelacion_progresiva",

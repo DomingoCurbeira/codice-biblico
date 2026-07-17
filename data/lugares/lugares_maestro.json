@@ -1,0 +1,124 @@
+{
+  "README": "Este archivo es el estándar de diseño y esquema maestro para la creación de nuevas ubicaciones en el ecosistema Cronos. Contiene las plantillas para la representación simple (lugares.json) y el perfil profundo (lugares/historicos.json).",
+  "plantilla_simple_lugares_json": {
+    "id": "identificador-unico-kebab-case",
+    "nombre": "Nombre Oficial del Lugar (ej: Monte Moriah)",
+    "descripcion_corta": "Título poético o revelación corta (ej: El Monte de la Provisión)",
+    "coordenadas": [
+      0.0,
+      0.0
+    ],
+    "region": "Región Bíblica (ej: Judea, Galaad, Galilea, Samaria)",
+    "tipo": "Categoría geográfica (ej: Monte/Altar, Ciudad, Río/Valle, Desierto)",
+    "imagen": "../img/lugares/nombre-imagen.webp",
+    "historia": "Resumen narrativo e histórico de los sucesos bíblicos ocurridos en este lugar (máximo 3-4 líneas).",
+    "significado_espiritual": "Revelación y significado hermenéutico del lugar y su aplicación espiritual.",
+    "eventos_clave": [
+      "Suceso histórico clave 1 con su significado o personajes involucrados.",
+      "Suceso histórico clave 2...",
+      "Suceso histórico clave 3..."
+    ],
+    "estado_actual": "Identificación arqueológica actual o estado geográfico moderno del sitio.",
+    "conexiones_estudio": [
+      {
+        "id": "id-del-estudio-conectado",
+        "titulo": "Título de la enseñanza de la semana"
+      }
+    ]
+  },
+  "plantilla_profunda_historicos_json": {
+    "id": "identificador-unico-kebab-case",
+    "activo": true,
+    "meta": {
+      "version": "4.0-cronos-deep",
+      "fecha_actualizacion": "2026-07-20"
+    },
+    "mapa": {
+      "coords": [
+        0.0,
+        0.0
+      ],
+      "zoom": 13,
+      "icono_mapa": "/img/ui/markers/lugar-biblico.svg",
+      "marcador_color": "#e67e22"
+    },
+    "perfil": {
+      "nombre": "Nombre Oficial del Lugar",
+      "titulo_corto": "Título poético o revelación corta",
+      "significado_nombre": "Etimología o traducción del nombre original (Hebreo/Griego)",
+      "ubicacion_geografica": "Ubicación detallada en relación con puntos geográficos bíblicos.",
+      "clima_entorno": "Descripción del relieve, geología y condiciones climáticas históricas.",
+      "imagen_principal": "/img/lugares/nombre-imagen.webp",
+      "galeria": [
+        "/img/lugares/galeria-imagen-1.webp",
+        "/img/lugares/galeria-imagen-2.webp"
+      ]
+    },
+    "contexto": {
+      "testamento": "Antiguo Testamento / Nuevo Testamento",
+      "libros_aparicion": [
+        "Libro 1",
+        "Libro 2"
+      ],
+      "era_biblica": "Era bíblica correspondiente (ej: Monarquía Unida, Éxodo y Conquista, Era Apostólica)"
+    },
+    "evidencia_arqueologica": {
+      "hallazgo_clave": "Nombre del yacimiento o descubrimiento principal (ej: Tell el-Gharah)",
+      "descripcion": "Detalle científico o histórico que respalda la veracidad del relato bíblico."
+    },
+    "narrativa": {
+      "resumen_epico": "Relato narrativo inmersivo de la historia bíblica del lugar, destacando la revelación espiritual y teológica.",
+      "dato_curioso": "Detalle arqueológico, filológico o geográfico poco conocido.",
+      "conexion_jesus": "Conexión cristocéntrica directa: cómo el lugar, sus eventos o su geografía prefiguran a Cristo.",
+      "imagen_de_apoyo": ""
+    },
+    "analisis_profundo": {
+      "perfil_emocional": "El estado del alma o la encrucijada espiritual que el lugar representa en el caminar del creyente.",
+      "fortalezas": [
+        "Fortaleza espiritual, lección o recurso disponible en este entorno 1",
+        "Fortaleza 2..."
+      ],
+      "debilidades": [
+        "Peligro moral, tentación o limitación asociada a este entorno 1",
+        "Debilidad 2..."
+      ],
+      "simbologia": [
+        {
+          "objeto": "Elemento físico o símbolo clave del lugar (ej: La Era de Trillar)",
+          "significado": "Significado teológico y profético del símbolo."
+        }
+      ]
+    },
+    "aplicacion_personal": {
+      "leccion_clave": "Decreto o principio activo aplicable al creyente.",
+      "preguntas_reflexion": [
+        "Pregunta de autoexamen espiritual 1 para el Aposento.",
+        "Pregunta de autoexamen 2..."
+      ]
+    },
+    "linea_tiempo": [
+      {
+        "fase": "Nombre de la fase o época (ej: La Caída)",
+        "evento": "Descripción breve del suceso histórico.",
+        "referencia": "Libro Capítulo:Versículo (ej: 2 Samuel 9:4)"
+      }
+    ],
+    "vinculos": {
+      "lugares_relacionados": [
+        "id-de-lugar-relacionado-1",
+        "id-de-lugar-relacionado-2"
+      ],
+      "personajes_relacionados": [
+        "id-del-personaje-1",
+        "id-del-personaje-2"
+      ],
+      "estudios": [
+        "id-del-estudio-conectado"
+      ]
+    },
+    "gamificacion": {
+      "xp_lectura": 220,
+      "logro_id": "explorador-nombre-lugar"
+    }
+  }
+}

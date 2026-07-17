@@ -1,5 +1,89 @@
 [
   {
+    "id": "avon-heb",
+    "termino": "‘Avón (עָו‍ֹן)",
+    "original": "עָו‍ֹן",
+    "transliteracion": "‘āwōn",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Iniquidad / Torcedura moral / Deformación del carácter / Culpa doblada.",
+    "sentido_verdad": "‘Avón define la distorsión o desviación interna de la ley y del diseño divino. No es solo cometer una falta exterior (Jata’ah), sino la deformación voluntaria y acumulativa de las intenciones del corazón que tuerce el destino del hombre.",
+    "eco_escritura": {
+      "texto": "Lávame más y más de mi iniquidad [‘avón], y límpiame de mi pecado.",
+      "cita": "Salmo 51:2"
+    },
+    "revelacion_cristo": "Jesucristo cargó en Sí mismo la iniquidad (nuestro ‘avón) de todos nosotros en la cruz (Isaías 53:6). Él absorbió la deformación y torcedura de nuestra naturaleza para restaurarnos a la perfecta rectitud y semejanza del Padre.",
+    "reflejo_tierra": "Rinde hoy las torceduras ocultas de tu carácter, los hábitos deformados y los patrones familiares destructivos ante la gracia redentora del Espíritu Santo.",
+    "activacion": "Señor Yeshua, confieso mi ‘avón y mis torceduras internas. Te entrego mis hábitos deformados y te pido que limes toda iniquidad en mi corazón. Declaro que soy limpio por Tu sangre y establecido en Tu rectitud. Amén."
+  },
+  {
+    "id": "perets-heb",
+    "termino": "Pérets (פֶּרֶץ)",
+    "original": "פֶּרֶץ",
+    "transliteracion": "Pereṣ",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Brecha / Rotura / Irrupción / Apertura violenta o inesperada.",
+    "sentido_verdad": "Pérets describe la acción divina y soberana que rompe las barreras del legalismo, de la carne o de las limitaciones humanas para abrir un camino donde antes estaba cerrado, tal como ocurrió en el nacimiento de Fares.",
+    "eco_escritura": {
+      "texto": "Y ella dijo: ¡Qué brecha (Pérets) te has abierto! Y llamó su nombre Fares.",
+      "cita": "Génesis 38:29"
+    },
+    "revelacion_cristo": "Jesús es el gran abridor de brechas (Miqueas 2:13) que derribó la pared intermedia de separación y abrió camino a través de la cruz para que entremos al lugar santísimo.",
+    "reflejo_tierra": "Cuando te enfrentes a muros de oposición familiar o ministerial, no uses la fuerza de la carne. Activa tu fe en el Dios que abre brechas y contempla cómo cae la barrera.",
+    "activacion": "Señor, confieso que no hay barrera del pecado o de la circunstancia que pueda contener Tu gracia. Abre hoy una brecha de salvación y favor en mi vida. Amén."
+  },
+  {
+    "id": "toledot-heb",
+    "termino": "Tôledót (תּוֹלְדֹות)",
+    "original": "תּוֹלְדֹות",
+    "transliteracion": "Tôlēḏôṯ",
+    "idioma": "Hebreo",
+    "esencia_antigua": "Generaciones / Orígenes / Anales familiares / Descendencia / Semillas desplegadas.",
+    "sentido_verdad": "Tôledót define la fuerza interna y legal de la semilla pactual que hace que la historia se desarrolle según el diseño de Dios. No es una simple lista de nombres, sino el despliegue ordenado de los propósitos de la redención a través de las generaciones.",
+    "eco_escritura": {
+      "texto": "Estos son los orígenes (Tôledót) de los cielos y de la tierra cuando fueron creados, el día que Jehová Dios hizo la tierra y los cielos.",
+      "cita": "Génesis 2:4"
+    },
+    "revelacion_cristo": "Jesucristo es el fin y el cumplimiento de todas las Tôledót de la tierra (Mateo 1:1). Él es la semilla final prometida que da origen a una nueva genealogía espiritual de adopción por gracia.",
+    "reflejo_tierra": "Comprende que tu vida no es un accidente histórico; eres parte de las Tôledót del Espíritu Santo. Tu llamado y tu familia tienen un diseño ordenado que debes preservar.",
+    "activacion": "Señor, gracias por registrar mi nombre en el Libro de las Generaciones de Jesucristo. Declaro que mi familia y mi descendencia servirán al Señor y verán la fructificación de Tu palabra. Amén."
+  },
+  {
+    "id": "chata-heb",
+    "palabra_espanol": "Pecar / Errar el blanco (Jatá)",
+    "idioma": "Hebreo",
+    "original": "חָטָא",
+    "transliteracion": "Ḥāṭā’",
+    "strong": "H2398",
+    "definicion": "Pecar, errar el blanco moral, desviarse de la ruta legal de Dios."
+  },
+  {
+    "id": "moriah-heb",
+    "palabra_espanol": "Tierra de Visión / Provisión (Moriah)",
+    "idioma": "Hebreo",
+    "original": "מוֹרִיָּה",
+    "transliteracion": "Mōriyyāh",
+    "strong": "H4179",
+    "definicion": "Monte en Jerusalén; significa 'Jehová provee' o 'Tierra de visión', escenario de sacrificios y del Templo."
+  },
+  {
+    "id": "lo-debar-heb",
+    "palabra_espanol": "Sin Pasto / Silencio (Lo-Debar)",
+    "idioma": "Hebreo",
+    "original": "לוֹ דְבָר",
+    "transliteracion": "Lō’ ḏəḇar",
+    "strong": "H3818",
+    "definicion": "Literalmente 'sin pasto' o 'sin palabra'. Lugar árido en Galaad donde vivía Mefiboset."
+  },
+  {
+    "id": "hesed-heb-v2",
+    "palabra_espanol": "Misericordia / Lealtad (Jésed)",
+    "idioma": "Hebreo",
+    "original": "חֶסֶד",
+    "transliteracion": "Ḥeseḏ",
+    "strong": "H2617",
+    "definicion": "Fidelidad activa, misericordia de pacto, amor inquebrantable y leal basado en un contrato o juramento."
+  },
+  {
     "id": "adulam-heb",
     "palabra_espanol": "Cueva / Refugio (Adulám)",
     "idioma": "Hebreo",

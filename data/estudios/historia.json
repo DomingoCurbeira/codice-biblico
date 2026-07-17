@@ -1,5 +1,563 @@
 [
   {
+    "id": "historia-pozo-belen",
+    "activo": false,
+    "fecha_programada": "2026-08-06",
+    "tipo": "historia",
+    "titulo": "El Pozo de Belén: El Valor de la Libación",
+    "subtitulo": "La hazaña de los valientes de David y el altar de la rendición de lo más preciado",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/pozo-belen.webp",
+    "tags": [
+      "Belén",
+      "Valientes",
+      "Libación",
+      "Sacrificio",
+      "David"
+    ],
+    "versiculo_clave": {
+      "texto": "Y David dijo con anhelo: ¡Quién me diera a beber del agua del pozo de Belén que está junto a la puerta! Entonces los tres valientes irrumpieron por el campamento de los filisteos, y sacaron agua del pozo de Belén... y la trajeron a David; mas él no la quiso beber, sino que la derramó como libación a Jehová.",
+      "cita": "2 Samuel 23:15-16"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Histórica / Geografía Bíblica",
+        "titulo": "El Anhelo del Rey en el Refugio de Adulam",
+        "texto": "Durante las guerras contra los filisteos, David se encontraba refugiado en la fortaleza de la cueva de Adulam, mientras una guarnición enemiga ocupaba su ciudad natal, Belén. En un momento de nostalgia y fatiga, David exclamó: '¡Quién me diera a beber del agua del pozo de Belén, que está junto a la puerta!'. Tres de sus valientes, impulsados por una lealtad radical al ungido, arriesgaron sus vidas, atravesaron el campamento filisteo, sacaron agua del pozo y se la trajeron al rey. David, al ver la ofrenda, comprendió el inmenso valor del sacrificio. Consideró que beberla equivalía a beber la sangre de los hombres que habían expuesto sus vidas. Por tanto, rehusó consumirla para su propio beneficio y la derramó en la tierra como una ofrenda sagrada ante Jehová."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Libación / Nasak (נָסַךְ)",
+        "idioma": "Hebreo",
+        "raiz": "Nasak (Derramar, verter, consagrar una ofrenda líquida)",
+        "significado": "Ofrenda de bebida derramada sobre el altar.",
+        "fonetica_guia": "Na-sák",
+        "revelacion": "La libación era una ofrenda voluntaria donde se derramaba vino o agua sobre el sacrificio en el altar, simbolizando una entrega total y sin retorno. El agua del pozo de Belén representaba el máximo valor de la lealtad humana. Al derramarla, David no despreció el esfuerzo de sus hombres, sino que lo elevó a la única categoría digna: una ofrenda reservada exclusivamente para Dios, enseñando que lo más costoso de la vida debe ser rendido ante el altar."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios Digno de Todo Sacrificio",
+        "texto": "Jehová es el único merecedor de lo más valioso y costoso que produce el ser humano. El rey terrenal reconoce que hay obsequios y sacrificios que superan la legalidad del consumo humano y pertenecen únicamente al Señor de la creación. La adoración verdadera involucra un costo real y personal."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Agua de Belén y la Sangre Derramada",
+        "texto": "El agua del pozo de Belén, obtenida con riesgo de vida, prefigura la obra redentora de Jesucristo, el Salvador nacido en Belén. Él no solo arriesgó Su vida, sino que derramó de forma voluntaria Su propia sangre y Su alma en libación perfecta ante el Padre en la cruz. Su vida derramada es la verdadera agua viva que calma nuestra sed eterna y desactiva el juicio del pecado."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Geometría de la Libación",
+        "pasos": [
+          {
+            "concepto": "El Clamor de la Sed",
+            "explicacion": "Expresar la nostalgia por la fuente original de pureza (Belén) en medio de la sequedad del desierto."
+          },
+          {
+            "concepto": "El Impulso de la Lealtad",
+            "explicacion": "Los valientes actúan con coraje inquebrantable para honrar el anhelo del ungido, rompiendo barreras enemigas."
+          },
+          {
+            "concepto": "El Discernimiento del Costo",
+            "explicacion": "El rey evalúa que el regalo representa la vida y la sangre de sus siervos, rehusando el consumo egoísta."
+          },
+          {
+            "concepto": "La Rendición en el Altar",
+            "explicacion": "Derramar el líquido precioso ante Dios, consagrando el esfuerzo humano como adoración pura sin retorno."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Derramamiento del Alma",
+        "referencias": [
+          {
+            "cita": "2 Samuel 23:16",
+            "versiculo": "Mas él no la quiso beber, sino que la derramó como libación a Jehová.",
+            "revelacion": "El acto de adoración radical de David que transformó el agua de Belén en sacrificio sagrado."
+          },
+          {
+            "cita": "Filipenses 2:17",
+            "versiculo": "Y aunque sea derramado en libación sobre el sacrificio y servicio de vuestra fe, me gozo y regocijo con todos vosotros.",
+            "revelacion": "El apóstol Pablo utiliza el simbolismo de la libación para describir la entrega total de su vida ministerial."
+          },
+          {
+            "cita": "Juan 19:34",
+            "versiculo": "Pero uno de los soldados le abrió el costado con una lanza, y al instante salió sangre y agua.",
+            "revelacion": "La libación final de Jesucristo en la cruz: el brote de sangre y agua como el manantial eterno de salvación."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Ofrenda de la Gratitud",
+        "items": [
+          {
+            "punto": "Valorar los gestos de lealtad ajenos.",
+            "ejemplo": "Tomar como derecho propio el esfuerzo de quienes te ayudan o sirven.",
+            "escenario_actual": "No agradecer el tiempo de preparación de quien cuida a tus hijos para que asistas a una reunión."
+          },
+          {
+            "punto": "No consumas tus mayores logros con orgullo.",
+            "ejemplo": "Atribuirte el mérito exclusivo de un logro de equipo o familiar.",
+            "escenario_actual": "Presumir un aumento de sueldo como fruto exclusivo de tu capacidad intelectual, olvidando que Dios te dio la salud."
+          },
+          {
+            "punto": "Aprende a decir 'no' a tus antojos pasajeros.",
+            "ejemplo": "Exigir que tus deseos temporales se cumplan de inmediato a costa del bienestar de los demás.",
+            "escenario_actual": "Gastar dinero del presupuesto familiar en un capricho personal justo cuando hay otras prioridades urgentes."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Rendición de los Trofeos",
+        "items": [
+          {
+            "punto": "Derrama en libación lo que te costó la vida.",
+            "ejemplo": "Capitalizar tus mayores triunfos para tu propia comodidad en lugar de consagrarlos a Dios.",
+            "escenario_actual": "Derramar en el aposento la gloria de un libro publicado, un ministerio exitoso o una empresa consolidada, reconociendo que le pertenecen a Jehová."
+          },
+          {
+            "punto": "Lidera inspirando lealtad por amor, no por temor.",
+            "ejemplo": "Exigir lealtad ciega o servilismo de tus subordinados mediante la manipulación del cargo.",
+            "escenario_actual": "Los valientes de David arriesgaron sus vidas voluntariamente porque amaban al ungido. Tu liderazgo debe inspirar devoción por su carácter."
+          },
+          {
+            "punto": "Ofrece holocaustos que tengan un costo real.",
+            "ejemplo": "Ofrecer a Dios la 'sobra' de tu tiempo, de tus fuerzas o de tus finanzas.",
+            "escenario_actual": "Levantarte media hora antes para buscar al Señor en el aposento en lugar de orar de camino en el auto con cansancio."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Sacrificio Barato",
+        "texto": "Es un error doctrinal ofrecer a Dios una adoración que no nos cueste nada. David se negó a ofrecer holocaustos que no tuvieran costo económico. No intentes impresionar al Señor con palabras bonitas mientras retienes tus recursos, tu tiempo, tus talentos o tu comodidad. La verdadera adoración se mide en la escala de lo que nos cuesta rendir en el aposento."
+      }
+    ],
+    "desafio_practico": "Piensa en tu mayor logro o talento en el día de hoy y dedícale un tiempo en tu aposento para derramarlo en gratitud ante Dios, reconociendo que todo proviene de Él.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey refugiado en Adulam que añoraba el agua de su infancia en Belén.",
+          "paralelismo": "El ungido defendido por la lealtad extrema de sus hombres."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen-rut",
+          "nombre": "Belén",
+          "razon": "La ciudad de origen del agua de la libación y la cuna histórica del rey David.",
+          "simbolismo": "La fuente pactual de las aguas del Mesías."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "avon-heb",
+          "nombre": "‘Avón (Torcedura)",
+          "razon": "El contraste de la iniquidad de David con la lealtad y rectitud sacrificial de sus hombres.",
+          "familia": "Iniquidad, peso moral, rectitud frente a desvío."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "altar-sacrificio-tregua",
+          "tema": "Libación de Vida",
+          "declaracion": "Señor, no me quedaré con lo que me has dado para mi vanagloria. Derramo hoy mis talentos, mis logros y mi esfuerzo ante Tu altar en libación de amor. Amén."
+        }
+      ]
+    }
+  },
+  {
+    "id": "historia-censo-mesianico",
+    "activo": false,
+    "fecha_programada": "2026-07-30",
+    "tipo": "historia",
+    "titulo": "El Censo de Mateo 1: Un Documento Disruptivo",
+    "subtitulo": "Arqueología de la Gracia: Por qué la inclusión de mujeres y extranjeros en la genealogía legal del Mesías fue un escándalo judicial en el siglo I",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/censo-mesianico.webp",
+    "tags": [
+      "Censo",
+      "Mateo",
+      "Genealogía",
+      "Derecho",
+      "Exclusión"
+    ],
+    "versiculo_clave": {
+      "texto": "Libro de la genealogía de Jesucristo, hijo de David, hijo de Abraham.",
+      "cita": "Mateo 1:1"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Histórico-Legal / Exégesis del Nuevo Testamento",
+        "titulo": "La Legalidad de los Registros Judíos",
+        "texto": "En el siglo I, los registros genealógicos judíos eran custodiados con celo extremo en el Templo de Jerusalén. De ellos dependían los derechos de propiedad, la legitimidad sacerdotal y la identidad nacional. Un censo o árbol genealógico formal era un documento puramente legal y patrilineal: omitía de forma absoluta a las mujeres y a los extranjeros por carecer de personalidad jurídica hereditaria. Al escribir su evangelio dirigido a los lectores hebreos, Mateo realiza una disrupción judicial sin precedentes: introduce a cuatro mujeres, tres de ellas extranjeras, conectadas con escándalos morales. Este censo no fue un error historiográfico, sino una declaración legal de la expansión del Pacto."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Séfer Yujasín (סֵפֶר יוּחֲסִין)",
+        "idioma": "Hebreo",
+        "raiz": "Séfer (Libro) + Yajas (Relacionar / Rastrear linaje)",
+        "significado": "Libro de Genealogías o Registro de Linajes Nobles.",
+        "fonetica_guia": "Sé-fer Yu-ja-sín",
+        "revelacion": "El 'Séfer Yujasín' era la base de la pureza aristocrática judía. Mateo titula su obra en Mateo 1:1 'Biblos geneseōs' (traducción del Séfer Yujasín). Al subvertir este documento legal agregando a Tamar, Rahab, Rut y la mujer de Urías, Mateo proclama que el linaje del Mesías no se sostiene sobre el orgullo de la sangre (Yajas), sino sobre la misericordia de Dios. Jesús es el fin de la exclusión legal."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Inclusión Contractual",
+        "texto": "Dios se revela como el legislador que expande los límites del contrato original. A diferencia de las leyes humanas de exclusión, Dios utiliza el censo legal del Mesías para registrar formalmente a los marginados y a los gentiles en la familia de la promesa. La gracia no opera al margen de la ley; la supera legalmente mediante la adopción."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "La Firma de Cristo sobre tu Historial",
+        "texto": "Jesús (jesucristo) es el heredero legal del trono de David. Al validar este censo disruptivo, Jesús firmó con Su propio Nombre un árbol genealógico lleno de tachaduras históricas. Esto nos enseña que cuando eres adoptado en Cristo, Tu historial de pecado es absorbido por Su justicia, y Su Nombre se convierte en tu nueva firma de identidad legal."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Subversión del Censo Religioso",
+        "pasos": [
+          {
+            "concepto": "La Barrera del Templo",
+            "explicacion": "Los registros del templo exigían pureza absoluta de sangre para excluir al extranjero y al impuro."
+          },
+          {
+            "concepto": "La Escritura Disruptiva",
+            "explicacion": "Mateo redacta el censo incorporando intencionalmente los nombres de las mujeres extranjeras asociadas al oprobio."
+          },
+          {
+            "concepto": "La Validación Judicial",
+            "explicacion": "La resurrección de Cristo valida legalmente Su genealogía como el Rey definitivo de judíos y gentiles."
+          },
+          {
+            "concepto": "El Registro del Remanente",
+            "explicacion": "Nuestros nombres son inscritos en el Libro de la Vida del Cordero, el censo definitivo de la gracia."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Inclusión de las Naciones",
+        "referencias": [
+          {
+            "cita": "Génesis 12:3",
+            "versiculo": "Y bendeciré a los que te bendijeren, y a los que te maldijeren maldeciré; y serán benditas en ti todas las familias de la tierra.",
+            "revelacion": "La promesa original a Abraham, la cual exigía la inclusión de gentiles (como Rahab y Rut) en la línea mesiánica."
+          },
+          {
+            "cita": "Gálatas 3:28",
+            "versiculo": "Ya no hay judío ni griego; no hay esclavo ni libre; no hay varón ni mujer; porque todos vosotros sois uno en Cristo Jesús.",
+            "revelacion": "La declaración legal paulina de la abolición de las exclusiones del censo del templo bajo la nueva creación."
+          },
+          {
+            "cita": "Apocalipsis 21:27",
+            "versiculo": "No entrará en ella ninguna cosa inmunda... sino solamente los que están inscritos en el libro de la vida del Cordero.",
+            "revelacion": "El censo final del Reino, donde la única condición de entrada es la firma de la gracia de Cristo."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Estás registrado en el cielo",
+        "items": [
+          {
+            "punto": "No busques tu valor en la aceptación de los registros religiosos.",
+            "ejemplo": "Sentirte rechazado o descalificado en tu fe simplemente porque no provienes de una familia con tradición eclesiástica.",
+            "escenario_actual": "Jesús incluyó a extranjeras en Su censo terrenal. Tu legitimidad viene de la adopción del Espíritu, no de tu genealogía humana."
+          },
+          {
+            "punto": "Acepta que tu nombre está escrito en el censo de la gracia.",
+            "ejemplo": "Vivir con el temor constante de que Dios borrará tu nombre del cielo cada vez que cometes un error en tu caminar diario.",
+            "escenario_actual": "El censo de Mateo 1 demuestra que Dios no borra los nombres difíciles; los redime y los integra en Su plan real."
+          },
+          {
+            "punto": "Derriba la barrera del rechazo al extranjero.",
+            "ejemplo": "Juzgar a un nuevo creyente en la iglesia por su acento, vestimenta o procedencia cultural.",
+            "escenario_actual": "Rut la moabita y Rahab la cananea fueron injertadas en el linaje sagrado. El Reino de Dios es multicultural por diseño."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Administrando el Censo del Reino",
+        "items": [
+          {
+            "punto": "Valida legalmente al quebrantado en tu estructura de gobierno.",
+            "ejemplo": "Negar cargos de responsabilidad a creyentes idóneos basándote únicamente en prejuicios sobre su pasado antes de conocer a Cristo.",
+            "escenario_actual": "Mateo dio estatus de 'madres del Rey' a mujeres con pasados complejos. Reconoce el peso de la redención por encima de los prejuicios."
+          },
+          {
+            "punto": "Combate el legalismo purista que aísla a la iglesia.",
+            "ejemplo": "Aislar tu ministerio de las necesidades de la comunidad por temor a contaminarte con las personas del desierto.",
+            "escenario_actual": "Jesús asumió un linaje imperfecto para mezclarse con la ruina humana y sanarla. El verdadero líder maduro desciende al fango para rescatar la semilla."
+          },
+          {
+            "punto": "Escribe un legado inquebrantable basado en la fe.",
+            "ejemplo": "Concentrarte en dejar una herencia material a tus hijos mientras descuidas la transmisión de los códigos espirituales del pacto.",
+            "escenario_actual": "El Séfer Yujasín definitivo de la gracia se escribe con actos de obediencia. Asegúrate de que el nombre de tu familia esté ligado al altar."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Error de la Salvación Universalista",
+        "texto": "Es un error doctrinal usar la inclusión del censo de Mateo 1 para promover el universalismo (la idea de que todas las personas son salvas automáticamente sin importar su fe). La inclusión en el censo mesiánico requiere la fe pactual que demostraron Tamar, Rahab y Rut al rendirse al Dios de Israel. La gracia es inclusiva en su oferta, pero condicional en su recepción a través de la fe."
+      }
+    ],
+    "desafio_practico": "Da gracias en tu altar hoy por la certeza legal de tu ciudadanía celestial en Cristo.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "El descalificado físico que ilustra la inclusión legal en la mesa.",
+          "paralelismo": "El perro muerto adoptado como hijo, tal como los extranjeros del censo."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "belen-nacimiento",
+          "nombre": "Belén (Nacimiento)",
+          "razon": "El escenario del censo romano y del nacimiento del heredero legal.",
+          "simbolismo": "El registro del Dios encarnado en los anales de la historia humana."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "toledot-heb",
+          "nombre": "Tôledót",
+          "razon": "La estructura genealógica que sostiene la legitimidad legal del Mesías.",
+          "familia": "El registro de los orígenes celestiales y terrestres de Cristo."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "censo-adopcion",
+          "tema": "Ciudadanía del Reino",
+          "declaracion": "Padre Celestial, te alabo porque mi nombre está escrito en el Libro de la Vida del Cordero."
+        }
+      ]
+    }
+  },
+  {
+    "id": "historia-moriah-david",
+    "activo": false,
+    "fecha_programada": "2026-07-23",
+    "tipo": "historia",
+    "titulo": "La Era de Arauna: El Altar de la Tregua",
+    "subtitulo": "Arqueología del Sacrificio: El Monte Moriah, el censo del orgullo y la detención de la espada del juicio",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/era-arauna.webp",
+    "tags": [
+      "Arauna",
+      "Moriah",
+      "Altar",
+      "Sacrificio",
+      "Arqueología"
+    ],
+    "versiculo_clave": {
+      "texto": "Y el rey dijo a Arauna: No, sino por precio te lo compraré; porque no ofreceré a Jehová mi Dios holocaustos que no me cuesten nada. Entonces David compró la era y los bueyes por cincuenta siclos de plata.",
+      "cita": "2 Samuel 24:24"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Monárquica / Geopolítica Bíblica",
+        "titulo": "El Pecado del Censo y el Ángel de la Peste",
+        "texto": "David, en un arranque de autosuficiencia y orgullo monárquico, ordenó realizar un censo militar en Israel y Judá para medir su fuerza militar en lugar de confiar en Jehová. Este acto de desconfianza atrajo la disciplina divina: una devastadora peste que costó la vida a setenta mil hombres. Al ver el arrepentimiento de David, Dios envió al profeta Gad a ordenarle levantar un altar en la era de Arauna el jebuseo, ubicada en la cima del Monte Moriah. El ángel ejecutor se detuvo allí en el momento exacto en que David ofreció sacrificios. David se negó a recibir la propiedad gratis, declarando que no daría a Dios sacrificios que no le costaran nada."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Moriyáh (מוֹרִיָּה)",
+        "idioma": "Hebreo",
+        "raiz": "Raah (Ver / Provisiones / Visión de Jehová)",
+        "significado": "Tierra de visión, provisto por Jehová, o el monte donde se ve al Señor.",
+        "fonetica_guia": "Mo-ri-yáh",
+        "revelacion": "El Monte Moriah no es una geografía aleatoria. Es el sitio exacto donde Abraham ofreció a Isaac y declaró 'Jehová Jireh' (en el monte de Jehová será provisto). Siglos después, es el altar donde David detiene la plaga mediante sacrificio, y el lugar donde Salomón edificará el Templo. Eventualmente, en esa misma colina, Jesucristo fue crucificado. Moriah representa la intersección geográfica donde el juicio de la espada divina choca contra la gracia de la sustitución."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Tregua y la Sustitución Provista",
+        "texto": "Dios se revela como Aquel que detiene la espada de Su justicia ante el altar correcto. Su atributo de Misericordia demanda una satisfacción legal: el juicio se detiene no por negligencia divina ante el pecado, sino porque se ofrece un sacrificio de sangre sustituto en la era de Arauna. Dios provee la tregua pagando el precio."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Cristo: El Altar y el Sacrificio Definitivo",
+        "texto": "El altar que David compró con siclos de plata prefigura la cruz en el Calvario (Gólgota/Moriah). Jesús es el sacrificio perfecto ofrecido por la insensatez y el orgullo humano. Su muerte detuvo la peste eterna del pecado, y Su sangre desarmó la espada del ángel destructor para darnos comunión con el Padre."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Ruta de la Intercesión y el Sacrificio",
+        "pasos": [
+          {
+            "concepto": "Orgullo Militar",
+            "explicacion": "Medir las fuerzas humanas mediante un censo. Colocar la confianza en el número del ejército en lugar de en el Dios invisible."
+          },
+          {
+            "concepto": "Juicio Detenido",
+            "explicacion": "La espada del ángel destructor se detiene ante la era de Arauna en Moriah. El punto geográfico de la redención."
+          },
+          {
+            "concepto": "Sacrificio de Costo",
+            "explicacion": "David rechaza las ofertas gratuitas de Arauna. La adoración verdadera requiere la entrega de lo valioso."
+          },
+          {
+            "concepto": "Cimiento del Templo",
+            "explicacion": "El altar de la tregua se convierte en el plano exacto para la construcción del Templo de Salomón y la futura cruz."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Geografía de la Provisión",
+        "referencias": [
+          {
+            "cita": "Génesis 22:2",
+            "versiculo": "Toma ahora tu hijo, tu único, Isaac, a quien amas, y vete a tierra de Moriah, y ofrécelo allí en holocausto...",
+            "revelacion": "El primer registro de Moriah en la Escritura, vinculándolo al sacrificio del hijo y al cordero provisto."
+          },
+          {
+            "cita": "2 Crónicas 3:1",
+            "versiculo": "Comenzó Salomón a edificar la casa de Jehová en Jerusalén, en el monte Moriah, en el lugar que David había preparado en la era de Arauna jebuseo.",
+            "revelacion": "La conexión histórica explícita que fusiona el altar de David con el Templo de Salomón en Moriah."
+          },
+          {
+            "cita": "Hebreos 9:22",
+            "versiculo": "Y casi todo es purificado, según la ley, con sangre; y sin derramamiento de sangre no hay remisión.",
+            "revelacion": "La base legal pactual. La espada requiere satisfacción mediante el sacrificio de sangre."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: No le des a Dios tus sobras",
+        "items": [
+          {
+            "punto": "El culto verdadero requiere costo personal.",
+            "ejemplo": "Darle a Dios solo los 5 minutos que te sobran al final del día cuando estás cansado, o dar sobras de tus finanzas.",
+            "escenario_actual": "No le ofrezcas a Jehová lo que no te cuesta nada. La adoración de calidad requiere sacrificio de tu comodidad y tu agenda."
+          },
+          {
+            "punto": "No dependas de tu 'censo' material.",
+            "ejemplo": "Medir tu seguridad o paz espiritual por la cantidad de dinero que tienes en el banco o por la cantidad de seguidores en redes.",
+            "escenario_actual": "La autosuficiencia es el pecado del censo de David. Recuerda que tu única fuente de provisión y protección es el Señor."
+          },
+          {
+            "punto": "El juicio ya fue saldado.",
+            "ejemplo": "Vivir atormentado por la culpa de errores pasados, sintiendo que Dios te está castigando constantemente.",
+            "escenario_actual": "En el Monte Moriah (la cruz), Jesús absorbió toda la peste de tu pecado. La espada de la ira fue guardada en Su vaina."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Edificando Altares de Tregua",
+        "items": [
+          {
+            "punto": "Asume la responsabilidad del error en el equipo.",
+            "ejemplo": "Echarle la culpa a tu equipo de trabajo o congregación por una crisis que fue causada por tu propio orgullo o malas decisiones.",
+            "escenario_actual": "David dijo: 'Yo pequé... ¿qué hicieron estas ovejas?'. El líder maduro protege a su gente y se ofrece ante Dios para interceder."
+          },
+          {
+            "punto": "Edifica altares antes de construir edificios.",
+            "ejemplo": "Gastar millones en estructuras físicas, equipos tecnológicos o fachadas antes de consolidar el altar de la oración en el liderazgo.",
+            "escenario_actual": "El Templo se levantó sobre la era de Arauna, el lugar del sacrificio íntimo. Tus mejores cimientos ministeriales nacerán en el aposento secreto."
+          },
+          {
+            "punto": "Paga el precio legal de tu influencia.",
+            "ejemplo": "Buscar posiciones de liderazgo o influencia eclesial sin estar dispuesto a pagar el precio del quebrantamiento personal.",
+            "escenario_actual": "No aceptes 'eras gratis'. Todo avance espiritual requiere siclos de plata: tiempo de rodillas, muerte al orgullo y renuncia al ego."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Engaño del Evangelio de la Conveniencia",
+        "texto": "Hoy se promueve un evangelio cómodo, sin cruz ni sacrificio, donde la fe es un amuleto para el éxito inmediato y el confort. La era de Arauna nos advierte que no hay tregua sin altar de sacrificio. El cristianismo sin costo propio es una religión falsa que no puede detener la peste."
+      }
+    ],
+    "desafio_practico": "Hoy, aparta algo valioso (tiempo, recursos o un derecho de orgullo) y ofrécelo al Señor en tu aposento, declarando: 'Señor, esto me cuesta, pero te lo entrego con gozo sobre Tu altar'.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "salomon",
+          "nombre": "Salomón",
+          "razon": "El rey que construyó el Templo sobre la era que su padre David había comprado.",
+          "paralelismo": "La consumación del diseño sobre el altar de la tregua."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "monte-moriah",
+          "nombre": "Monte Moriah",
+          "razon": "La colina de la provisión y del cimiento del Templo.",
+          "simbolismo": "El lugar del juicio detenido por la sustitución."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "moriah-heb",
+          "nombre": "Moriah",
+          "razon": "La palabra hebrea que define la tierra de visión y provisión de Jehová.",
+          "familia": "Visión, provisión divina, monte del sacrificio."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "altar-sacrificio-tregua",
+          "tema": "El Altar de Arauna",
+          "declaracion": "Señor, no te ofreceré holocaustos que no me cuesten nada. Rindo hoy mi orgullo, mis censos de autosuficiencia y mis posesiones más valiosas sobre Tu altar. Que Tu gracia detenga toda plaga en mi vida. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "historia-jerusalen-david",
     "activo": false,
     "fecha_programada": "2026-07-16",
@@ -614,7 +1172,7 @@
       {
         "tipo": "cristocentrico",
         "titulo": "Jesús: La Gloria que abandona el Templo",
-        "texto": "Años después, en los evangelios, ocurre el 'Silo' definitivo. Jesús sale del Templo de Jerusalén (Mateo 24:1) y declara: 'Vuestra casa os es dejada desierta'. En la cruz, el velo del templo se rasgó. La Gloria (Jesucristo-Pneuma) abandonó la estructura de piedra para venir a residir en una nueva estructura, no hecha de manos: el creyente redimido. Nosotros somos el nuevo Tabernáculo donde mora el Kabód."
+        "texto": "Años después, en los evangelios, ocurre el 'Silo' definitivo. Jesús sale del Templo de Jerusalén (Mateo 24:1) y declara: 'Vuestra casa os es dejada desierta'. En la cruz, el velo del templo se rasgó. La Gloria (Jesucristo) abandonó la estructura de piedra para venir a residir en una nueva estructura, no hecha de manos: el creyente redimido. Nosotros somos el nuevo Tabernáculo donde mora el Kabód."
       },
       {
         "tipo": "revelacion_progresiva",

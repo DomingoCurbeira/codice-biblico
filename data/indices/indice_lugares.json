@@ -1545,5 +1545,31 @@
     "era": "El Ascenso de David (Fugitivo)",
     "testamento": "Antiguo Testamento",
     "tags": "carmel juda, carmelo de judá, 1 samuel, abigail, nabal"
+  },
+  "119": {
+    "id": "lo-debar",
+    "nombre": "Lo-debar",
+    "titulo": "La Tierra sin Pasto",
+    "archivo": "historicos.json",
+    "coords": [
+      32.4833,
+      35.7333
+    ],
+    "era": "Monarquía Unida / Ascenso de David",
+    "testamento": "Antiguo Testamento",
+    "tags": "lo-debar, lodebar, mefiboset, david, jonatán, siba"
+  },
+  "120": {
+    "id": "timnat",
+    "nombre": "Timnat",
+    "titulo": "La Entrada a la Brecha",
+    "archivo": "historicos.json",
+    "coords": [
+      31.7828,
+      34.8967
+    ],
+    "era": "Era Patriarcal / Jueces",
+    "testamento": "Antiguo Testamento",
+    "tags": "timnat, timna, judá, tamar, sansón, fares, adúlata"
   }
 }

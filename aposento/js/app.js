@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const indice = await resIndice.json();
 
         // B) CARGAR ARCHIVOS
-        const archivos = Object.values(indice);
+        const archivos = [...new Set(Object.values(indice))];
         const promesas = archivos.map(archivo => 
             fetch(`${URL_BASE_DATA}${archivo}.json`).then(r => r.json())
         );

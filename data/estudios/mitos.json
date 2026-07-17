@@ -1,5 +1,563 @@
 [
   {
+    "id": "mitos-pecado-invisible",
+    "activo": false,
+    "fecha_programada": "2026-08-04",
+    "tipo": "mitos",
+    "titulo": "El Mito del Pecado Invisible",
+    "subtitulo": "La ilusión del encubrimiento humano frente al tribunal de la soberanía divina",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/pecado-invisible.webp",
+    "tags": [
+      "Encubrimiento",
+      "Justicia",
+      "Verdad",
+      "Soberanía",
+      "Juicio"
+    ],
+    "versiculo_clave": {
+      "texto": "Oyendo la mujer de Urías que su marido Urías era muerto, hizo duelo por su marido. Y pasado el luto, envió David y la trajo a su casa; y fue ella su mujer, y le dio a luz un hijo. Mas esto que David había hecho, fue desagradable a los ojos de Jehová.",
+      "cita": "2 Samuel 11:26-27"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Deconstrucción Teológica / Crítica Moral",
+        "titulo": "El Complot de Sangre y la Falsa Calma del Palacio",
+        "texto": "Al enterarse de que Betsabé estaba embarazada, David urdió un plan de encubrimiento. Mandó traer a Urías el frente, con la excusa de pedir noticias de la guerra, para obligarlo a ir a su casa y dormir con su esposa, legitimando el embarazo. Sin embargo, Urías demostró una integridad superior a la del rey: durmió con los guardias a la puerta del palacio, rehusando el placer privado mientras el Arca y el ejército acampaban en tiendas. Desesperado ante la inquebrantable rectitud de Urías, David tomó la decisión más oscura: le entregó a Urías una carta de muerte para Joab, ordenando colocarlo en el frente de mayor peligro y retirarse para que muriera. Urías llevó su propia sentencia sin saberlo. Con Urías muerto y Betsabé en palacio como viuda de luto, David creía haber cerrado el caso."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Urías / Uriyah (אוּרִיָּה)",
+        "idioma": "Hebreo",
+        "raiz": "Or + Yah (Luz de Jehová o Jehová es mi luz)",
+        "significado": "Luz de Jehová.",
+        "fonetica_guia": "U-ri-yáh",
+        "revelacion": "Urías, aunque era heteo (extranjero de origen), portaba un nombre y una conducta que honraban a Jehová. Su fidelidad resplandecía como luz en medio de las tinieblas de la corte. Mientras el rey de Israel conspiraba en la sombra del engaño, la luz de la integridad de Urías expuso involuntariamente la podredumbre moral de David. Su muerte documenta el alto precio que la carne cobra al intentar silenciar la justicia."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Verdad Omnisciente",
+        "texto": "Dios todo lo ve. No existe secreto que pueda quedar oculto ante el tribunal de Jehová. David pudo manipular a Joab, engañar al pueblo y encubrir su adulterio de manera burocrática, pero Dios miraba la sangre derramada en silencio. La soberanía de Dios no tolera la cohabitación con la hipocresía en el liderazgo."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Inocente Entregado por la Carta de Muerte",
+        "texto": "Urías el heteo cargó su propia sentencia de muerte escrita y sellada por la mano de su señor, muriendo fiel en el campo de batalla por una traición ajena. Él prefigura a Jesucristo, el inocente perfecto que cargó de manera voluntaria el veredicto de muerte decretado por nuestras iniquidades. Jesús, sin embargo, no fue traicionado por accidente; Él fue el cordero entregado para desarmar legalmente el engaño del pecado humano."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Trampa del Encubrimiento",
+        "pasos": [
+          {
+            "concepto": "La Gestión del Escape",
+            "explicacion": "Traer a Urías del frente simulando interés para forzar una coartada biológica."
+          },
+          {
+            "concepto": "La Integridad que Confronta",
+            "explicacion": "Urías se niega a la comodidad por lealtad a sus compañeros y al Arca de Dios."
+          },
+          {
+            "concepto": "La Carta del Verdugo",
+            "explicacion": "Escribir la sentencia secreta de muerte y utilizar al propio Urías como cartero de su ejecución."
+          },
+          {
+            "concepto": "El Silencio Judicial",
+            "explicacion": "Enterrar al muerto, casarse con la viuda y asumir que el pecado ha quedado sepultado en el olvido."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Luz que Expone lo Oculto",
+        "referencias": [
+          {
+            "cita": "2 Samuel 11:27",
+            "versiculo": "Pero esto que David había hecho, fue desagradable a los ojos de Jehová.",
+            "revelacion": "La sentencia divina que destruye la ilusión del pecado invisible de David."
+          },
+          {
+            "cita": "Lucas 12:2",
+            "versiculo": "Porque nada hay encubierto, que no haya de descubrirse; ni oculto, que no haya de saberse.",
+            "revelacion": "La declaración solemne de Jesucristo sobre el carácter absoluto de la verdad del Reino."
+          },
+          {
+            "cita": "Números 32:23",
+            "versiculo": "Mas si así no lo hacéis, he aquí habréis pecado contra Jehová; y sabed que vuestro pecado os alcanzará.",
+            "revelacion": "La ley de repercusión moral espiritual: el pecado encubierto siempre deja un rastro que sale a la luz."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Trampa de la Ocultación",
+        "items": [
+          {
+            "punto": "El pecado oculto es una bomba de tiempo.",
+            "ejemplo": "Creer que mientras nadie lo descubra, tu pecado no te hace daño.",
+            "escenario_actual": "Ocultar un hábito secreto de consumo inapropiado de internet, pensando que 'no afecta a nadie' porque se hace a solas."
+          },
+          {
+            "punto": "No uses tu inteligencia para maquillar tus errores.",
+            "ejemplo": "Planificar excusas elaboradas para desviar la atención de tus faltas.",
+            "escenario_actual": "Culpar al tráfico o a un compañero por un retraso que se debió a tu falta de previsión y pereza."
+          },
+          {
+            "punto": "Admira la integridad del inocente.",
+            "ejemplo": "Despreciar a quienes actúan con rectitud porque exponen tu propio descuido moral.",
+            "escenario_actual": "Molestarte con un compañero de trabajo que se niega a inflar un informe de gastos, porque te obliga a ti a ser honesto."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Ilusión de la Impunidad",
+        "items": [
+          {
+            "punto": "El encubrimiento duplica la iniquidad.",
+            "ejemplo": "Intentar resolver una transgresión inicial cometiendo faltas aún mayores (mentiras, manipulación).",
+            "escenario_actual": "Usar fondos de la iglesia o del negocio para tapar un error financiero previo, en lugar de confesar el descuido inicial."
+          },
+          {
+            "punto": "El juicio divino ignora los rangos humanos.",
+            "ejemplo": "Suponer que tu cargo, unción o reputación te eximen de la disciplina o de dar cuentas.",
+            "escenario_actual": "Un líder principal que rehúsa ser corregido por su junta directiva bajo el argumento de que 'él solo le responde a Dios'."
+          },
+          {
+            "punto": "La soberanía de Dios rasga el encubrimiento.",
+            "ejemplo": "Vivir tranquilos pensando que el tiempo ha borrado las faltas no confesadas.",
+            "escenario_actual": "Mantener un rencor o una ofensa de años atrás sin buscar la reconciliación, asumiendo que 'ya pasó'."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Secreto Inofensivo",
+        "texto": "Es un error heresy creer que podemos mantener áreas secretas de transgresión sin que afecten nuestra comunión espiritual o nuestro liderazgo. La hipocresía es el veneno que carcome la unción. No trates de arreglar tus caídas mediante el control humano o el encubrimiento; el único camino válido es la confesión transparente sobre el altar."
+      }
+    ],
+    "desafio_practico": "Trae hoy a la luz de Dios en tu aposento cualquier área de pecado o doble comportamiento que hayas estado intentando justificar o esconder de los demás.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey ungido que intentó enterrar su caída cometiendo asesinato administrativo.",
+          "paralelismo": "El contraste del rey mentiroso frente al soldado extranjero íntegro."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El palacio real donde se fraguó el complot secreto de asesinato.",
+          "simbolismo": "La corte que se deforma moralmente buscando auto-preservación."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "avon-heb",
+          "nombre": "‘Avón (Torcedura)",
+          "razon": "La torcedura moral extrema de entregar a un inocente para encubrir la falta.",
+          "familia": "Iniquidad, hipocresía, pecado doblado."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "limpieza-altar-corazon",
+          "tema": "Pureza de Intenciones",
+          "declaracion": "Padre de las luces, en Ti no hay mudanza. Renuncio a la mentira de ocultarme de Tu mirada. Limpia mi altar interno de toda hipocresía y doblez."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mitos-pureza-lineaje",
+    "activo": false,
+    "fecha_programada": "2026-07-28",
+    "tipo": "mitos",
+    "titulo": "El Mito de la Pureza Genealógica",
+    "subtitulo": "Por qué el Mesías no vino de una familia 'impecable' y cómo la gracia destruyó la exclusión moral",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/pureza-lineaje.webp",
+    "tags": [
+      "Genealogía",
+      "Mitología",
+      "Gracia",
+      "Inclusión",
+      "Pureza"
+    ],
+    "versiculo_clave": {
+      "texto": "Pero la ley se introdujo para que el pecado abundase; mas cuando el pecado abundó, sobreabundó la gracia.",
+      "cita": "Romanos 5:20"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Apologética Teológica / Hermenéutica de la Gracia",
+        "titulo": "La Obsesión por el Linaje Limpio",
+        "texto": "En el judaísmo del Segundo Templo y en el mundo antiguo, la pureza genealógica era un requisito legal supremo para ejercer el sacerdocio, la monarquía o reclamar legitimidad nacional. Cualquier mezcla con extranjeros o nacimientos nacidos de relaciones ilícitas descalificaba legalmente a un individuo de las asambleas sagradas. Sin embargo, al abrir la primera página del Nuevo Testamento, Mateo presenta una genealogía del Mesías cargada intencionalmente con cuatro mujeres cuyos nombres estaban asociados al escándalo, el incesto, la prostitución y el adulterio. Este estudio desarma el mito de que Dios requiere canales humanos limpios y sin tacha para canalizar Su redención."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Mamzer (מַמְזֵר)",
+        "idioma": "Hebreo",
+        "raiz": "Muz (Extranjero / Mezclado)",
+        "significado": "Nacido de una unión ilícita (incesto o adulterio). Persona legalmente excluida de la congregación.",
+        "fonetica_guia": "Mam-zér",
+        "revelacion": "Deuteronomio 23:2 prohibía que un 'mamzer' entrara en la congregación de Jehová hasta la décima generación. Fares, el hijo de Tamar, era técnicamente fruto de una unión irregular. Sin embargo, Dios tomó a Fares y lo colocó como la cabeza del linaje del cual nacería David en la décima generación exacta. La gracia de Dios se burla de los límites legalistas para incluir al rechazado en el centro del diseño real."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Adopción Radical",
+        "texto": "Dios se revela como el Padre que no se avergüenza de nuestra herencia disfuncional. Al escribir los nombres de Tamar (incesto involuntario), Rahab (prostituta cananea), Rut (moabita excluida por la ley) y Betsabé (asociada al adulterio y asesinato) en el árbol genealógico de Jesucristo, Dios destruye el orgullo de la pureza carnal y establece la adopción por gracia como la única legalidad válida en el Reino."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Jesús: El Portador del ADN de la Misericordia",
+        "texto": "Jesucristo no descendió de los cielos en una burbuja de inmunidad histórica. Él asumió carne real, heredando un árbol genealógico manchado de sangre, traición y pecado. Esto demuestra que Jesús no le teme a nuestra suciedad; al contrario, Él se identificó legalmente con nuestra ruina para poder redimirla desde adentro, convirtiendo el oprobio en un trofeo de Su misericordia."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Deconstrucción de la Pureza Religiosa",
+        "pasos": [
+          {
+            "concepto": "La Demanda Legalista",
+            "explicacion": "La religión humana exige linajes puros y méritos intachables para acercarse a la presencia de Dios."
+          },
+          {
+            "concepto": "La Infiltración Divina",
+            "explicacion": "Dios inserta elementos 'descalificados' en el corazón mismo del linaje del Mesías prometido."
+          },
+          {
+            "concepto": "El Quiebre de la Barrera",
+            "explicacion": "La inclusión de extranjeros y marginados demuestra que el pacto trasciende la carne y la nacionalidad."
+          },
+          {
+            "concepto": "El Triunfo de la Gracia",
+            "explicacion": "La genealogía se convierte en la mayor apología del Evangelio: Dios salva a los pecadores y los hace Su familia."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Destrucción de la Exclusión",
+        "referencias": [
+          {
+            "cita": "Deuteronomio 23:3",
+            "versiculo": "No entrará amonita ni moabita en la congregación de Jehová, ni aun en la décima generación...",
+            "revelacion": "Establece la exclusión legal de los moabitas, la cual fue superada por gracia cuando Rut la moabita fue injertada en el linaje del Mesías."
+          },
+          {
+            "cita": "Romanos 9:16",
+            "versiculo": "Así que no depende del que quiere, ni del que corre, sino de Dios que tiene misericordia.",
+            "revelacion": "Confirma que la elección y la bendición pactual no se ganan por esfuerzo o pureza biológica, sino por soberanía divina."
+          },
+          {
+            "cita": "Hebreos 2:11",
+            "versiculo": "Porque el que santifica y los que son santificados, de uno todos son; por lo cual no se avergüenza de llamarlos hermanos...",
+            "revelacion": "Muestra la total identificación de Jesús con nuestra humanidad quebrantada, adoptándonos en Su linaje."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Tu familia natural no te limita",
+        "items": [
+          {
+            "punto": "Renuncia a la maldición del 'historial familiar'.",
+            "ejemplo": "Creer que porque en tu familia hay un historial de divorcio, adicciones o pobreza, tú estás condenado a repetir el mismo patrón.",
+            "escenario_actual": "Jesús tuvo homicidas, adúlteros y estafadores en Su linaje terrenal, pero Su identidad provino del Padre celestial. Tu nuevo ADN está en Cristo."
+          },
+          {
+            "punto": "Derriba el mito de la 'iglesia de santos perfectos'.",
+            "ejemplo": "Alejarte de la congregación porque te sientes indigno o porque viste imperfecciones en la conducta de otros creyentes.",
+            "escenario_actual": "La genealogía del Mesías nos enseña que Dios se rodea de personas imperfectas para mostrar el poder transformador de Su gracia."
+          },
+          {
+            "punto": "Acepta que la gracia no requiere tu perfección previa.",
+            "ejemplo": "Posponer tu bautismo o tu compromiso con Dios pensando que primero debes corregir todos tus hábitos por tu propia cuenta.",
+            "escenario_actual": "Dios injertó a Rahab la prostituta en el linaje sagrado tal como era, y a través de la fe la transformó en madre de reyes."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Destruyendo el Elitismo Espiritual",
+        "items": [
+          {
+            "punto": "Destruye el racismo y clasismo ministerial en tu iglesia.",
+            "ejemplo": "Preferir dar oportunidades de liderazgo únicamente a personas de familias adineradas o de buena reputación social en la comunidad.",
+            "escenario_actual": "Mateo incluyó a Rut la moabita (etnia maldita por la ley) en el árbol del Rey. El Reino no reconoce divisiones de clase ni procedencia."
+          },
+          {
+            "punto": "No limpies la genealogía de tu propio testimonio.",
+            "ejemplo": "Esconder tus errores pasados o tus quiebras morales bajo una máscara de perfección para mantener tu estatus de predicador impecable.",
+            "escenario_actual": "Mateo no ocultó los escándalos de Betsabé y Tamar al escribir la historia de Jesús. El testimonio maduro glorifica la gracia exponiendo la redención del fango."
+          },
+          {
+            "punto": "Sostiene al descalificado por la religión.",
+            "ejemplo": "Negar la restauración espiritual a un creyente que ha caído en pecado grave, empujándolo al exilio permanente fuera de la iglesia.",
+            "escenario_actual": "El Dios de Abraham no abortó el linaje cuando Judá se contaminó en Timnat; usó la crisis para dar a luz a Fares. Restaura con espíritu de mansedumbre."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Antinomianismo",
+        "texto": "Es un error teológico grave (antinomianismo) concluir que, dado que Dios usó genealogías disfuncionales, el pecado no tiene consecuencias o que la inmoralidad está permitida bajo la gracia. La gracia no es una licencia para pecar, sino la fuerza legal que redime y transforma la disfunción humana una vez que nos rendimos al Señor."
+      }
+    ],
+    "desafio_practico": "Reflexiona en tu aposento sobre cómo la gracia de Dios te ha adoptado legalmente independientemente de tus méritos.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "mefiboset",
+          "nombre": "Mefiboset",
+          "razon": "El heredero lisiado adoptado en la mesa real por puro amor al pacto.",
+          "paralelismo": "La inclusión del descalificado en la comunión familiar del rey."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "timnat",
+          "nombre": "Timnat",
+          "razon": "Lugar del encuentro de Judá y Tamar que expone la imperfección del linaje.",
+          "simbolismo": "La debilidad humana donde opera la gracia pactual."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "perets-heb",
+          "nombre": "Pérets (Brecha)",
+          "razon": "El principio de gracia que rompe el orden de mérito carnal.",
+          "familia": "Gracia que sobreabunda en el fango del oprobio."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "gracia-sin-moralismo",
+          "tema": "Identidad en Gracia",
+          "declaracion": "Señor de la Gracia, hoy derribo el mito de que mi aceptación ante Ti depende de mi propia perfección moralista."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mitos-david-betsabe",
+    "activo": false,
+    "fecha_programada": "2026-07-21",
+    "tipo": "mitos",
+    "titulo": "El Mito del Rey Perfecto",
+    "subtitulo": "La Caída en la Terraza: Desmitificando la impecabilidad moral de David y la necesidad de una justicia sustituta",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Julio 2026",
+    "tiempo_lectura": "21 min",
+    "imagen_portada": "../img/estudios/david-betsabe.webp",
+    "tags": [
+      "David",
+      "Betsabé",
+      "Pecado",
+      "Arrepentimiento",
+      "Gracia"
+    ],
+    "versiculo_clave": {
+      "texto": "Y sucedió un día, al caer la tarde, que se levantó David de su lecho y se paseaba por el terrado de la casa real; y vio desde el terrado a una mujer que se estaba lavando, la cual era muy hermosa.",
+      "cita": "2 Samuel 11:2"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Deconstrucción Ética",
+        "titulo": "El Ocio del Rey en Jerusalén",
+        "texto": "En la primavera, la temporada en que los reyes salían habitualmente a liderar sus ejércitos en batalla, David decidió quedarse en Jerusalén. Envió a Joab y al ejército a sitiar a los amonitas. Una tarde, tras levantarse de su lecho, David caminaba por la terraza del palacio real y observó a una mujer hermosa que se bañaba. En lugar de apartar la mirada, codició a Betsabé, la mandó traer y cometió adulterio con ella. Al enterarse de que estaba embarazada, David conspiró para encubrir su falta, llamando del frente a su leal soldado Urías el heteo. Cuando Urías rehusó disfrutar de su hogar por lealtad a sus compañeros de batalla, David orquestó su asesinato en primera línea de combate. Este pecado trágico marcó un punto de quiebre en la dinastía."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Jatá (חָטָא)",
+        "idioma": "Hebreo",
+        "raiz": "Jata (Errar el camino / Perder el blanco)",
+        "significado": "Pecar, cometer una infracción moral, errar el blanco del diseño divino.",
+        "fonetica_guia": "Ja-tá",
+        "revelacion": "El pecado en hebreo se define como 'Jatá', que significa errar el blanco de un tiro con arco. David no era simplemente un pecador por infringir una norma social; él erró por completo el blanco de su llamado como el rey-pastor que debía proteger a sus ovejas (incluyendo a Urías y Betsabé). El terrado del palacio fue el escenario donde David abandonó la tensión del arco de su propósito espiritual y se desvió del blanco. Jatá nos advierte que el descuido de la misión nos expone a la caída moral."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Justicia Imparcial y la Gracia Confrontadora",
+        "texto": "Dios se revela como Alguien que no hace acepción de personas y cuya justicia no puede ser sobornada por el carisma o los logros pasados. Aunque amaba a David, Dios expuso e investigó su pecado enviando a Natán. Sin embargo, Su atributo de misericordia brilla cuando, ante la confesión honesta de David ('Pequé contra Jehová'), Dios le otorga perdón inmediato, aunque no anula las dolorosas consecuencias temporales del pecado."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Urías como Tipo de Cristo y el Rey Perfecto",
+        "texto": "El héroe moral del relato no es David, sino Urías el heteo. Urías actuó con la lealtad, sobriedad y rectitud que el rey de Israel había perdido. Urías representa al siervo fiel asesinado injustamente por la traición del pueblo. Jesucristo es el verdadero Urías, el inocente entregado a la muerte por complot del sistema. Pero a diferencia de David, Jesús es el Rey perfecto que nunca se queda ocioso en el palacio; Él fue al frente de la batalla en el Calvario para vencer el pecado y vestirnos con Su justicia."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Escalera Descendente de la Transgresión",
+        "pasos": [
+          {
+            "concepto": "Abandono de la Misión",
+            "explicacion": "Permanecer en Jerusalén en el tiempo de la guerra. El ocio físico e intelectual debilita las defensas del espíritu."
+          },
+          {
+            "concepto": "El Portal de la Mirada",
+            "explicacion": "Observar la belleza de Betsabé sin límites de santidad. Alimentar el deseo en lugar de retirarse del terrado."
+          },
+          {
+            "concepto": "Manipulación del Encubrimiento",
+            "explicacion": "Usar la religión, el alcohol y la influencia para ocultar el embarazo. El pecado inicial engendra complots mayores."
+          },
+          {
+            "concepto": "Homicidio por Conspiración",
+            "explicacion": "Entregar a Urías a la muerte bajo la espada enemiga. El endurecimiento total del corazón antes del quebrantamiento."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Quebrantamiento y la Ley",
+        "referencias": [
+          {
+            "cita": "Salmos 51:3-4",
+            "versiculo": "Porque yo reconozco mis rebeliones, Y mi pecado está siempre delante de mí. Contra ti, contra ti solo he pecado, Y he hecho lo malo delante de tus ojos...",
+            "revelacion": "El salmo que David escribió tras la confrontación de Natán. Muestra el verdadero dolor de haber ofendido la santidad de Dios."
+          },
+          {
+            "cita": "1 Corintios 10:12",
+            "versiculo": "Así que, el que piensa estar firme, mire que no caiga.",
+            "revelacion": "La advertencia apostólica para no confiar en la unción del pasado o en la madurez personal frente a la tentación cotidiana."
+          },
+          {
+            "cita": "Gálatas 6:1",
+            "versiculo": "Hermanos, si alguno fuere sorprendido en alguna falta, vosotros que sois espirituales, restauradle con espíritu de mansedumbre, considerándote a ti mismo...",
+            "revelacion": "El protocolo de restauración neotestamentario frente a la quiebra moral del hermano."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Triada de Transformación)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Huye de la Tentación",
+        "items": [
+          {
+            "punto": "No juegues en la orilla del terrado.",
+            "ejemplo": "Mantener conversaciones íntimas con personas que no son tu cónyuge o visitar sitios web cuestionables pensando 'yo tengo el control'.",
+            "escenario_actual": "La tentación no se combate con fuerza de voluntad, se combate huyendo. Al primer indicio de codicia, retírate de la terraza."
+          },
+          {
+            "punto": "No intentes esconder tus fallas.",
+            "ejemplo": "Mentirle a tus líderes o a tu familia para tapar un error financiero, una adicción o una mentira.",
+            "escenario_actual": "La mentira del encubrimiento te costará más que el error inicial. Confiesa hoy y camina en la luz."
+          },
+          {
+            "punto": "El perdón es real, pero las cicatrices quedan.",
+            "ejemplo": "Creer que como 'Dios es amor' puedes pecar deliberadamente el sábado y pedir perdón el domingo sin consecuencias.",
+            "escenario_actual": "Dios perdonó la vida de David, pero la espada nunca se apartó de su casa. Teme al Señor y cuida tu santidad."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Ocio y la Confrontación",
+        "items": [
+          {
+            "punto": "No te retires de tu zona de batalla.",
+            "ejemplo": "Delegar todas tus funciones espirituales o dejar de orar por tu equipo cuando has alcanzado un estatus ministerial alto.",
+            "escenario_actual": "La ociosidad ministerial es el preámbulo de la destrucción. Mantente activo y con olor a oveja en el frente de batalla."
+          },
+          {
+            "punto": "Abraza a los 'Natán' de tu vida.",
+            "ejemplo": "Enojarte o justificar tu conducta cuando un amigo maduro o tu cónyuge te confronta con una mala actitud o un error.",
+            "escenario_actual": "El líder maduro no asesina al mensajero; se postra, confiesa y escribe su 'Salmo 51'. Tu capacidad de arrepentirte mide tu madurez."
+          },
+          {
+            "punto": "Honra a los 'Urías' de tu equipo.",
+            "ejemplo": "Aprovecharte de la lealtad y el arduo trabajo de otros para tapar tus deficiencias o inflar tu reputación ministerial.",
+            "escenario_actual": "No sacrifiques a las personas leales para salvar tu ego. Un líder conforme al corazón de Dios prefiere perder su corona antes que dañar a un siervo fiel."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito del Ungido Intocable",
+        "texto": "Ha surgido una corriente peligrosa que enseña que los líderes 'ungidos' no deben ser confrontados ni sometidos a disciplina moral, interpretando erróneamente 'no toquéis a mis ungidos'. La historia de David desmiente esta herejía: Dios envió un profeta para juzgar públicamente al rey. La unción no otorga inmunidad moral ni exime de rendición de cuentas."
+      }
+    ],
+    "desafio_practico": "Identifica hoy un área en tu vida que estés intentando ocultar por miedo al juicio o a la vergüenza. Confiésala a Dios en tu aposento y busca un líder maduro para rendir cuentas.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "natan-profeta",
+          "nombre": "Natán",
+          "razon": "El profeta enviado por Dios para confrontar el pecado encubierto del rey.",
+          "paralelismo": "La voz profética que penetra el autoengaño del líder."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Sion",
+          "razon": "La ubicación del palacio real y el terrado de la tentación.",
+          "simbolismo": "El lugar de la comodidad terrenal que se convirtió en trampa."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "chata-heb",
+          "nombre": "Jatá",
+          "razon": "El desvío moral que erra el blanco de la rectitud.",
+          "familia": "Pecado, transgresión, extravío."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "arrepentimiento-restauracion",
+          "tema": "Quebrantamiento y Restauración",
+          "declaracion": "Señor, reconozco que he errado el blanco de Tu santidad. No intento justificarme ni cubrir mis faltas. Límpiame con el hisopo de Tu gracia, restáurame del terrado del orgullo y devuelve a mi alma el gozo de Tu salvación."
+        }
+      ]
+    }
+  },
+  {
     "id": "mitos-david-goliat",
     "activo": false,
     "fecha_programada": "2026-07-14",
@@ -604,7 +1162,7 @@
       {
         "tipo": "cristocentrico",
         "titulo": "El Sacerdote Fiel vs Los Sacerdotes Impíos",
-        "texto": "Ofni y Finees son el antotipo de Cristo. Ellos tomaban la carne por la fuerza para sí mismos; Cristo (el verdadero Sumo Sacerdote) entregó Su propia carne por los demás. Ellos se servían del pueblo; Cristo lavó los pies de Su pueblo. El fracaso estrepitoso del sacerdocio levítico en Silo prepara el escenario profético para el surgimiento del Sacerdocio según el orden de Melquisedec: un sacerdocio inquebrantable basado en una vida indestructible (Jesucristo-Pneuma)."
+        "texto": "Ofni y Finees son el antotipo de Cristo. Ellos tomaban la carne por la fuerza para sí mismos; Cristo (el verdadero Sumo Sacerdote) entregó Su propia carne por los demás. Ellos se servían del pueblo; Cristo lavó los pies de Su pueblo. El fracaso estrepitoso del sacerdocio levítico en Silo prepara el escenario profético para el surgimiento del Sacerdocio según el orden de Melquisedec: un sacerdocio inquebrantable basado en una vida indestructible Jesucristo."
       },
       {
         "tipo": "revelacion_progresiva",
