@@ -1,5 +1,191 @@
 [
   {
+    "id": "mitos-orgullo-encina",
+    "activo": false,
+    "fecha_programada": "2026-08-11",
+    "tipo": "mitos",
+    "titulo": "El Mito del Pelo Hermoso",
+    "subtitulo": "La vanagloria física convertida en trampa y muerte en la encina de Efraín",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/orgullo-encina.webp",
+    "tags": [
+      "Orgullo",
+      "Apariencia",
+      "Vanidad",
+      "Caída",
+      "Juicio"
+    ],
+    "versiculo_clave": {
+      "texto": "Y Absalón se encontró con los siervos de David; e iba Absalón sobre un mulo, e iba el mulo por debajo de las espesas ramas de una gran encina, y se le enredó la cabeza en la encina, y quedó suspendido entre el cielo y la tierra; y el mulo en que iba pasó delante.",
+      "cita": "2 Samuel 18:9"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Deconstrucción Teológica / Análisis de Juicio",
+        "titulo": "La Encina de Efraín y la Paradoja de la Belleza",
+        "texto": "Absalón era celebrado en todo Israel por su extraordinaria belleza física y su abundante cabello, que pesaba cada año 200 siclos. Marchó al frente de batalla en el bosque de Efraín para eliminar a su padre David. Sin embargo, el terreno forestal se volvió hostil para sus tropas. Durante la retirada, huyendo de los siervos de David, el mulo en el que iba Absalón pasó por debajo de las ramas gruesas de una gran encina. Su cabeza y su largo cabello quedaron firmemente enredados en las ramas, y el mulo pasó de largo, dejándolo suspendido en el aire. Joab, ignorando la orden directa de David de preservar la vida del joven, acudió al lugar y le clavó tres dardos en el corazón, terminando con la rebelión."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Encina / Eláh (אֵלָה)",
+        "idioma": "Hebreo",
+        "raiz": "Ayil (Fuerza, roble, pilar, árbol fuerte)",
+        "significado": "Gran roble o encina; símbolo de fortaleza natural y rigidez.",
+        "fonetica_guia": "E-láh",
+        "revelacion": "La Eláh es un árbol macizo, rígido y de ramas entrelazadas. Representa la fortaleza de la tierra y los diseños inquebrantables de la creación. El orgullo y la vanidad de Absalón (su cabeza y su pelo) chocaron contra la rigidez de la creación divina. Su carisma físico, que en palacio le sirvió para impresionar y robar corazones, en el bosque se transformó en la soga que ejecutó su juicio moral."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Abate la Altivez",
+        "texto": "Jehová es soberano y abate el orgullo de los hombres. Dios resiste a los soberbios y da gracia a los humildes. Lo que la carne humana valora y exalta (apariencia, carisma, títulos sin sustancia), Dios lo expone como vanidad vacía. El final de Absalón demuestra que el orgullo carnal gesta su propio lazo de caída."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Sustituto Colgado en el Madero",
+        "texto": "Absalón quedó suspendido de un árbol bajo la maldición de su propia rebelión. La Escritura dice: 'Maldito todo el que es colgado en un madero' (Gálatas 3:13). Absalón merecía ese juicio por su traición. Sin embargo, Jesucristo (Yeshua), siendo el Hijo perfecto y obediente, se dejó colgar voluntariamente de un madero de maldición (la cruz) cargando nuestra rebelión, para que nosotros, los verdaderos rebeldes, seamos descolgados de la condena y adoptados en el favor del Padre."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Descenso de la Vanagloria",
+        "pasos": [
+          {
+            "concepto": "El Culto a la Apariencia",
+            "explicacion": "Medir e idolotrar el valor personal según la belleza exterior o el aplauso del público."
+          },
+          {
+            "concepto": "La Confianza en el Mulo",
+            "explicacion": "Apoyarse en recursos materiales transitorios y apoyos políticos que te dejarán solo ante la crisis."
+          },
+          {
+            "concepto": "El Enredo del Orgullo",
+            "explicacion": "Las mismas cualidades naturales que usabas para exaltarte se convierten en tu lazo de prisión."
+          },
+          {
+            "concepto": "La Exposición del Corazón",
+            "explicacion": "El juicio de la ley (los dardos de Joab) penetra las motivaciones ocultas de la ambición egocéntrica."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Caída de la Altivez Humana",
+        "referencias": [
+          {
+            "cita": "2 Samuel 18:9",
+            "versiculo": "Y Absalón se encontró con los siervos de David; e iba Absalón sobre un mulo... y quedó suspendido entre el cielo y la tierra...",
+            "revelacion": "El pasaje que documenta el momento exacto del juicio físico al príncipe vanidoso."
+          },
+          {
+            "cita": "Gálatas 3:13",
+            "versiculo": "Cristo nos redimió de la maldición de la ley, hecho por nosotros maldición (porque está escrito: Maldito todo el que es colgado en un madero)",
+            "revelacion": "La revelación de Cristo asumiendo la posición y la maldición del árbol de juicio de los rebeldes."
+          },
+          {
+            "cita": "Proverbios 16:18",
+            "versiculo": "Antes del quebrantamiento es la soberbia, y antes de la caída la altivez de espíritu.",
+            "revelacion": "La ley espiritual inquebrantable que se cumplió con precisión histórica en el bosque de Efraín."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Renunciando a las Métricas de Vanidad",
+        "items": [
+          {
+            "punto": "No confíes en tus cualidades externas.",
+            "ejemplo": "Creer que tu carisma, dinero o belleza te aseguran un destino firme en la vida.",
+            "escenario_actual": "Presumir tus logros en redes sociales para sentirte superior a quienes no tienen tus oportunidades."
+          },
+          {
+            "punto": "Lo que usas para llamar la atención puede atraparte.",
+            "ejemplo": "Depender de los elogios de las personas para sostener tu autoestima diaria.",
+            "escenario_actual": "Ocultar tus debilidades para no perder la aprobación del público, cayendo en la hipocresía."
+          },
+          {
+            "punto": "Tu fuerza humana se agotará.",
+            "ejemplo": "El mulo de Absalón se fue y lo dejó solo. Confiar en apoyos humanos transitorios.",
+            "escenario_actual": "Apoyarte en contactos políticos o amistades por conveniencia laboral, que te abandonarán en la primera crisis."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Carácter por Encima de la Apariencia",
+        "items": [
+          {
+            "punto": "El carisma sin carácter es una encina de juicio.",
+            "ejemplo": "Usar la unción o el ministerio para exaltar tu propia marca personal o ministerio propio.",
+            "escenario_actual": "Un conferencista que cautiva a miles con su oratoria pero no tiene integridad en sus finanzas privadas ni en su hogar."
+          },
+          {
+            "punto": "Quedar suspendido representa la indecisión moral.",
+            "ejemplo": "Intentar cohabitar con el Reino y con el mundo al mismo tiempo, sin someterte a ninguno.",
+            "escenario_actual": "Vivr con un pie en el pacto dominical y otro en las prácticas mundanas del lunes, hasta que la crisis te deje suspendido y sin base."
+          },
+          {
+            "punto": "Los dardos al corazón revelan la raíz del desvío.",
+            "ejemplo": "El juicio siempre ataca al corazón del asunto, la verdadera motivación del orgullo de Absalón.",
+            "escenario_actual": "Cuando Dios expone tus verdaderas intenciones mediante un proceso difícil que quiebra tu reputación corporativa."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Mito de la Unción Inmune",
+        "texto": "Es un error teológico creer que la unción o el carisma natural otorgan inmunidad moral. Absalón pertenecía al linaje real y tenía la admiración de la nación, pero su desobediencia legal lo colocó bajo maldición. No utilices la unción del pasado para justificar tu rebelión presente en la tierra."
+      }
+    ],
+    "desafio_practico": "Pídele al Espíritu Santo en tu aposento que te revele si estás usando tus talentos naturales para gloria propia, y ríndelos bajo el señorío de Jesús.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey ungido que lamentó profundamente el trágico fin de su hijo rebelde.",
+          "paralelismo": "El padre que ve el juicio ejecutarse sobre la carne soberba."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La capital de donde huyó el rey y a la que Absalón pretendió gobernar con orgullo.",
+          "simbolismo": "El trono de orden que repele la altivez carnal."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "marah-rebelion-heb",
+          "nombre": "Maráh (Rebelión)",
+          "razon": "La rebelión obstinada que conduce de forma ineludible al madero del juicio.",
+          "familia": "Obstinación, orgullo, caída."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "renuncia-apariencias",
+          "tema": "Despojo de Vanagloria",
+          "declaracion": "Señor Yeshua, me despojo de toda corona de apariencia. Renuncio a confiar en mi carisma o belleza carnal, y elijo anclar mi valor en el madero de Tu cruz."
+        }
+      ]
+    }
+  },
+  {
     "id": "mitos-pecado-invisible",
     "activo": false,
     "fecha_programada": "2026-08-04",

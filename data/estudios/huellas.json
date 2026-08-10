@@ -1,5 +1,191 @@
 [
   {
+    "id": "huellas-absalon-traicion",
+    "activo": true,
+    "fecha_programada": "2026-08-10",
+    "tipo": "huellas",
+    "titulo": "Absalón: El Ladrón de Corazones",
+    "subtitulo": "Seducción, resentimiento y la trampa del orgullo en las puertas del palacio",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/absalon-traicion.webp",
+    "tags": [
+      "Absalón",
+      "Traición",
+      "Rebelión",
+      "Orgullo",
+      "Carácter"
+    ],
+    "versiculo_clave": {
+      "texto": "Acontecía que cuando alguno se acercaba para inclinarse ante él, él extendía la mano y lo tomaba, y lo besaba. De esta manera hacía con todos los israelitas que venían al rey para juicio; y así robaba Absalón el corazón de los de Israel.",
+      "cita": "2 Samuel 15:5-6"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Análisis de Carácter",
+        "titulo": "La Rebelión Silenciosa en las Puertas de la Ciudad",
+        "texto": "Absalón, el tercer hijo de David, había acumulado un profundo resentimiento por la inacción de su padre tras la violación de su hermana Tamar por Amnón. Tras vengar a su hermana y regresar del exilio, Absalón comenzó un plan sistemático para usurpar el trono. Se proveyó de carros, caballos y cincuenta hombres que corrían delante de él. Cada mañana, se colocaba junto al camino de la puerta, donde el pueblo acudía al rey en busca de justicia. Con palabras suaves, les decía que sus causas eran justas pero que no había comisionado del rey para escucharlos, agregando: '¡Quién me pusiera por juez en la tierra!'. Abrazaba y besaba a quienes se acercaban. Mediante esta demagogia, Absalón robó los corazones del pueblo y preparó su coronación ilegítima en Hebrón."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Puerta / Shá'ar (שַׁעַר)",
+        "idioma": "Hebreo",
+        "raiz": "Sha'ar (Calcular, estimar, abrir una división)",
+        "significado": "La puerta de la ciudad; centro legal de juicio, transacciones y gobierno.",
+        "fonetica_guia": "Shá-ar",
+        "revelacion": "En las ciudades antiguas, la puerta era el lugar público donde se sentaban los ancianos y jueces para resolver pleitos bajo la ley del pacto. Absalón no buscó una cueva de rebelión; se colocó en el lugar de la legalidad de juicio. Su estrategia fue usar el mismo canal del gobierno pactual para socavar la autoridad del rey ungido, demostrando que la rebelión de la carne a menudo se disfraza con las formas externas de la justicia social y el bien común."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Juzga la Intención",
+        "texto": "Jehová no se deja impresionar por el carisma o los argumentos demagógicos. Dios observa los corazones y defiende el orden y la unción pactual que Él mismo ha establecido. La rebelión contra el ungido, por muy adornada de buenas intenciones y búsqueda de justicia que esté, representa una insubordinación directa al gobierno soberano del cielo."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Hijo Humilde que Honra al Padre",
+        "texto": "Absalón representa al hijo carnal y rebelde que busca exaltarse a sí mismo, robando el afecto del pueblo mediante la mentira para destronar a su padre. En contraste perfecto, Jesucristo es el verdadero Hijo que se humilló a Sí mismo en obediencia absoluta. Jesús no usó la adulación para ganar discípulos; los llamó al arrepentimiento y la cruz. Él no buscó arrebatar el trono de Su Padre, sino que glorificó al Padre y recibió el señorío eterno como recompensa de Su entrega sacrificial."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "Los Pasos del Robo de Corazones",
+        "pasos": [
+          {
+            "concepto": "El Resentimiento no Resuelto",
+            "explicacion": "Alimentar la amargura por heridas familiares o descuidos de la autoridad, abriendo la puerta a la conspiración."
+          },
+          {
+            "concepto": "La Ocupación de la Puerta",
+            "explicacion": "Situarse en los lugares de influencia y gobierno formal para canalizar la insatisfacción colectiva."
+          },
+          {
+            "concepto": "La Seducción Demagógica",
+            "explicacion": "Halagar a las personas con falsas promesas de justicia fácil y rápida, desacreditando al ungido."
+          },
+          {
+            "concepto": "El Secuestro del Afecto",
+            "explicacion": "Atraer la lealtad de la gente hacia la propia marca y persona en lugar de dirigirlos a Dios y al orden pactual."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Orden de la Sujeción y la Integridad",
+        "referencias": [
+          {
+            "cita": "2 Samuel 15:5-6",
+            "versiculo": "Acontecía que cuando alguno se acercaba para inclinarse ante él... así robaba Absalón el corazón de los de Israel.",
+            "revelacion": "El pasaje clave que documenta la manipulación populista y el desvío espiritual del príncipe rebelde."
+          },
+          {
+            "cita": "Filipenses 2:5-8",
+            "versiculo": "Haya, pues, en vosotros este sentir que hubo también en Cristo Jesús... se despojó a sí mismo... se humilló a sí mismo, haciéndose obediente hasta la muerte, y muerte de cruz.",
+            "revelacion": "La teología de la humillación del Mesías, el antitipo perfecto del orgullo de Absalón."
+          },
+          {
+            "cita": "Romanos 16:17-18",
+            "versiculo": "Mas os ruego, hermanos, que os fijéis en los que causan divisiones... con suaves palabras y lisonjas engañan los corazones de los ingenuos.",
+            "revelacion": "La advertencia apostólica frente a los lisonjeros que dividen la estructura de la iglesia local."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Guardando el Corazón de la Amargura",
+        "items": [
+          {
+            "punto": "Cuidado con el resentimiento acumulado en el corazón.",
+            "ejemplo": "Mantener rencor con un líder o familiar por errores del pasado, permitiendo que la amargura guíe tus decisiones de hoy.",
+            "escenario_actual": "Hablar mal de un líder en tu grupo de amigos para buscar simpatía y validar tu propia insatisfacción."
+          },
+          {
+            "punto": "Huye de la adulación barata.",
+            "ejemplo": "Creerle a quienes te halagan solo para ponerte en contra de las autoridades de tu vida.",
+            "escenario_actual": "Dejarte convencer por personas que te dicen 'tú eres mejor líder que tu pastor' para dividir la iglesia."
+          },
+          {
+            "punto": "No construyas tu éxito sobre la división.",
+            "ejemplo": "Intentar brillar haciendo quedar mal a tus compañeros de trabajo.",
+            "escenario_actual": "Exponer públicamente los errores de otro departamento para que tu jefe te ascienda a ti."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Discerniendo las Falsas Justicias",
+        "items": [
+          {
+            "punto": "La rebelión de Absalón se disfraza de justicia social.",
+            "ejemplo": "Usar una causa justa (como el deseo de ver mejor orden) para justificar una actitud rebelde contra el diseño de Dios.",
+            "escenario_actual": "Iniciar un ministerio independiente sin bendición ni rendición de cuentas, bajo la excusa de que 'la iglesia local no hace las cosas bien'."
+          },
+          {
+            "punto": "El robo de corazones es un secuestro de lealtades.",
+            "ejemplo": "Atraer personas hacia tu persona en lugar de dirigirlas hacia Cristo.",
+            "escenario_actual": "Cultivar un grupo de discípulos leales a ti y listos para seguirte si decides abandonar la congregación."
+          },
+          {
+            "punto": "El resentimiento nubla el llamado.",
+            "ejemplo": "Creer que tus heridas emocionales te dan el derecho de saltarte los procesos de orden y autoridad.",
+            "escenario_actual": "Actuar de forma independiente en tu liderazgo familiar porque sientes que tus padres no te apoyaron en tu juventud."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Peligro del Populismo Religioso",
+        "texto": "Es un error doctrinal grave creer que la aprobación popular o la mayoría democrática equivalen a la unción de Dios. Absalón robó el corazón del pueblo y tenía la mayoría física, pero David seguía siendo el ungido del pacto. La lealtad y el orden no se definen por encuestas, sino por el diseño divino."
+      }
+    ],
+    "desafio_practico": "Rinde hoy en tu aposento cualquier herida de traición familiar del pasado y renuncia a sembrar inconformidad o murmuración en tu entorno.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey ungido cuyo trono fue atacado por la conspiración de su propio hijo.",
+          "paralelismo": "El rey sufriente traicionado en su propia casa."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La puerta del palacio de Sion donde Absalón lisonjeaba al pueblo.",
+          "simbolismo": "El centro de justicia convertido en observatorio de la lisonja."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "marah-rebelion-heb",
+          "nombre": "Maráh (Rebelión)",
+          "razon": "La raíz hebrea que expone la insubordinación nacida de un corazón amargado.",
+          "familia": "Rebelión, amargura, rebelarse."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rompiendo-rebelion",
+          "tema": "Desarraigo de Insubordinación",
+          "declaracion": "Padre celestial, guardo mi corazón de la lisonja y de la murmuración. Renuncio a usurpar autoridad en la carne y me alineo con Tu diseño eterno de sujeción."
+        }
+      ]
+    }
+  },
+  {
     "id": "huellas-ocio-terrado",
     "activo": false,
     "fecha_programada": "2026-08-03",

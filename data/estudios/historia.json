@@ -1,5 +1,191 @@
 [
   {
+    "id": "historia-olivos-descalzo",
+    "activo": false,
+    "fecha_programada": "2026-08-13",
+    "tipo": "historia",
+    "titulo": "El Monte de los Olivos: El Exilio del Rey Descalzo",
+    "subtitulo": "Geografía del quebrantamiento real y la prefiguración profética de Getsemaní",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/olivos-descalzo.webp",
+    "tags": [
+      "Olivos",
+      "Getsemaní",
+      "Traición",
+      "David",
+      "Sometimiento"
+    ],
+    "versiculo_clave": {
+      "texto": "Y David subió la cuesta del monte de los Olivos; y la subió llorando, llevando la cabeza cubierta y los pies descalzos. También todo el pueblo que iba con él cubrió cada uno su cabeza, e iban subiendo y llorando mientras subían.",
+      "cita": "2 Samuel 15:30"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Histórica / Geografía Bíblica",
+        "titulo": "El Camino del Dolor cruzando el arroyo de Cedrón",
+        "texto": "Ante la inminencia del ataque de Absalón, David tomó la dolorosa decisión de evacuar Jerusalén para evitar que la ciudad fuera pasada a cuchillo. Acompañado de sus fieles servidores, cruzó el torrente de Cedrón y comenzó a ascender el monte de los Olivos. Lo hizo en señal de extremo luto y quebrantamiento: con la cabeza cubierta y los pies descalzos, llorando a cada paso. Mientras subía, recibió la noticia de que Ahitofel, su consejero más íntimo y estratega militar brillante, se había unido a la rebelión de Absalón. Lejos de buscar defenderse con la espada o la ira, David encomendó su causa a Jehová y continuó su ascenso en silencio y sumisión."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Descalzo / Yajép (יָחֵף)",
+        "idioma": "Hebreo",
+        "raiz": "Yajaf (Descalzar, quitar la cubierta protectora del pie)",
+        "significado": "Descalzo; señal de humillación, duelo y total sumisión ante el juicio.",
+        "fonetica_guia": "Ya-jéf",
+        "revelacion": "En el contexto antiguo, el calzado representaba posesión, estatus y control sobre el territorio. Caminar descalzo (Yajép) implicaba renunciar a los derechos, admitir la pobreza legal y someterse por completo a la disciplina divina. David subió el monte de los Olivos descalzo: no reclamó sus derechos regios, sino que entregó la corona y su vida a la pura misericordia soberana de Jehová."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Disciplina Paternal",
+        "texto": "Jehová es un Padre que disciplina a los que ama para purificar su carácter. Dios permitió el exilio temporal de David para limpiar la dinastía de las secuelas del encubrimiento moral del pasado. La sumisión bajo la mano poderosa de Dios es el único camino legal para la futura restauración."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Yeshua en el Monte de los Olivos",
+        "texto": "El ascenso de David por el monte de los Olivos, llorando y traicionado por su íntimo consejero Ahitofel, prefigura con precisión quirúrgica a Jesucristo (Yeshua). Mil años después, Jesús cruzó el mismo arroyo de Cedrón y ascendió al monte de los Olivos (Getsemaní) llorando, en agonía y sudando gotas de sangre, siendo entregado por su amigo íntimo Judas Iscariote (Salmo 41:9). Pero mientras David huía para salvar su corona física, Jesús subió para someterse voluntariamente al veredicto de la cruz, bebiendo la copa del juicio en rescate por nuestra rebelión."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Geografía del Sometimiento Real",
+        "pasos": [
+          {
+            "concepto": "El Abandono del Palacio",
+            "explicacion": "Renunciar a retener el poder terrenal por la fuerza de las armas, eligiendo preservar la ciudad."
+          },
+          {
+            "concepto": "El Camino Descalzo (Yajép)",
+            "explicacion": "Despojarse de los derechos regios y caminar con mansedumbre bajo la disciplina del dolor."
+          },
+          {
+            "concepto": "El Dolor de la Defección",
+            "explicacion": "Soportar la traición de Ahitofel, el amigo íntimo, entregando la ofensa al altar de Dios."
+          },
+          {
+            "concepto": "La Copa de Getsemaní",
+            "explicacion": "Alinear la voluntad humana con el diseño soberano del Padre, prefigurando la sumisión del Mesías."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Senda del Ungido Traicionado",
+        "referencias": [
+          {
+            "cita": "2 Samuel 15:30",
+            "versiculo": "Y David subió la cuesta del monte de los Olivos; y la subió llorando, llevando la cabeza cubierta y los pies descalzos...",
+            "revelacion": "El documento histórico que sitúa el quebrantamiento y humillación física del rey en el Monte sagrado."
+          },
+          {
+            "cita": "Salmo 41:9",
+            "versiculo": "Aun el hombre de mi paz, en quien yo confiaba, el que de mi pan comía, alzó contra mí el calcañar.",
+            "revelacion": "El lamento profético de David por Ahitofel, aplicado por Jesús directamente a Judas Iscariote en la última cena."
+          },
+          {
+            "cita": "Lucas 22:39",
+            "versiculo": "Y saliendo, se fue, como solía, al monte de los Olivos; y sus discípulos también le siguieron.",
+            "revelacion": "La geografía de la sumisión de Jesucristo en Getsemaní en las vísperas de Su crucifixión."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Sumisión en la Tormenta",
+        "items": [
+          {
+            "punto": "Somete tus momentos de pérdida a la soberanía de Dios.",
+            "ejemplo": "Llorar ante una pérdida familiar o laboral reconociendo que Dios sigue teniendo el control.",
+            "escenario_actual": "En lugar de quejarte con amargura por una quiebra, arrodillarte descalzo en tu habitación para clamar por la dirección divina."
+          },
+          {
+            "punto": "No te defiendas en tu propia fuerza de las traiciones.",
+            "ejemplo": "Intentar vengarte de quien te difamó inventando chismes sobre él.",
+            "escenario_actual": "Guardar silencio cuando un amigo habla mal de ti a tus espaldas, entregándole tu reputación a Dios."
+          },
+          {
+            "punto": "Llorar no es falta de fe; es humanidad rendida.",
+            "ejemplo": "Sentir culpa por estar triste ante una circunstancia dolorosa.",
+            "escenario_actual": "Expresar tu dolor y debilidad en la presencia del Espíritu Santo en el aposento sin fingir ser fuerte."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: El Camino de la Cruz en el Carácter",
+        "items": [
+          {
+            "punto": "El camino del exilio descalzo frena la soberbia del rey.",
+            "ejemplo": "Aceptar los procesos de humillación pública sin intentar justificar tu unción pasada.",
+            "escenario_actual": "Si cometes un error administrativo y eres removido del liderazgo, aceptar el proceso de disciplina con mansedumbre."
+          },
+          {
+            "punto": "Ahitofel y Judas: la traición del consejo íntimo.",
+            "ejemplo": "Comprender que el enemigo usará las relaciones más cercanas para herirte profundamente.",
+            "escenario_actual": "No amargarte contra la iglesia cuando un líder en quien confiabas plenamente cae o te da la espalda."
+          },
+          {
+            "punto": "Getsemaní como el altar de la copa.",
+            "ejemplo": "Entrar en el huerto del sometimiento voluntario: 'No se haga mi voluntad, sino la tuya'.",
+            "escenario_actual": "Tomar la decisión de reconciliarte con tu cónyuge a pesar de sentir el dolor de la traición, porque el diseño del Reino te lo pide."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Herejía del Éxito Ininterrumpido",
+        "texto": "Es un error doctrinal creer que la fe siempre garantiza el éxito inmediato o evita el desierto. La sumisión descalza de David demuestra que Dios permite periodos de exilio y disciplina para purificar a Sus siervos de la soberbia. No resistas la disciplina del Padre en la carne, sométete para ser restaurado."
+      }
+    ],
+    "desafio_practico": "Dedica 10 minutos en tu aposento para descalzarte físicamente y orar de rodillas en señal de sumisión absoluta a la voluntad de Dios sobre tu presente.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey desterrado que ascendió el monte de los Olivos descalzo y llorando.",
+          "paralelismo": "El ungido traicionado que se somete a la disciplina divina."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La ciudad real de donde huyó el rey cruzando el torrente de Cedrón.",
+          "simbolismo": "El abandono del palacio de orgullo para entrar en el desierto del quebranto."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "marah-rebelion-heb",
+          "nombre": "Maráh (Rebelión)",
+          "razon": "El veneno rebelde de Absalón y la traición de Ahitofel que empujaron a David al monte de los Olivos.",
+          "familia": "Amargura, traición, exilio descalzo."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rompiendo-rebelion",
+          "tema": "Sometimiento en Agonía",
+          "declaracion": "Padre Santo, me rindo ante Tu disciplina. No buscaré defender mi reputación con las armas de la carne; subo descalzo el monte del proceso esperando Tu misericordia."
+        }
+      ]
+    }
+  },
+  {
     "id": "historia-pozo-belen",
     "activo": false,
     "fecha_programada": "2026-08-06",

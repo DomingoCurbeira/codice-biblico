@@ -1,5 +1,191 @@
 [
   {
+    "id": "marah-rebelion-heb",
+    "activo": false,
+    "fecha_programada": "2026-08-12",
+    "tipo": "etimologia",
+    "titulo": "Maráh: El Agua Amarga de la Insumisión",
+    "subtitulo": "Analizando la raíz de rebelión, insubordinación y la amargura que fractura el diseño",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "16 min",
+    "imagen_portada": "../img/estudios/marah-rebelion.webp",
+    "tags": [
+      "Marah",
+      "Rebelión",
+      "Amargura",
+      "Hebreo",
+      "Obediencia"
+    ],
+    "versiculo_clave": {
+      "texto": "Porque como pecado de adivinación es la rebelión [maráh], y como ídolos e idolatría la obstinación. Por cuanto tú desechaste la palabra de Jehová, él también te ha desechado para que no seas rey.",
+      "cita": "1 Samuel 15:23"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Análisis Filológico / Teología del Carácter",
+        "titulo": "La Rebelión como Pecado de Adivinación",
+        "texto": "La Escritura, en boca de Samuel ante Saúl, compara la rebelión (maráh) con la adivinación y la obstinación con la idolatría. Absalón encarnó esta raíz de maráh al permitir que el resentimiento acumulado por el caso Amnón y el abandono de David intoxicara su corazón. En el plano espiritual, la insumisión no es un simple desacuerdo administrativo; es la adopción de una legalidad paralela a la de Dios. Absalón actuó bajo esta influencia, creyendo que su propia noción de justicia moral justificaba la rebelión civil y el destronamiento de su padre."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Maráh (מָרָה)",
+        "idioma": "Hebreo",
+        "raiz": "Marar (Ser amargo, rebelarse, ser áspero)",
+        "significado": "Rebelarse, ser rebelde, amargarse u obstinarse contra el diseño divino.",
+        "fonetica_guia": "Ma-ráh",
+        "revelacion": "Maráh tiene una raíz compartida con el sabor de la amargura (como las aguas de Mara en el desierto). En la mentalidad hebrea, la rebelión no comienza como una acción física de guerra; nace como un veneno amargo en el corazón que deforma la visión del hombre. El rebelde se amarga contra su protector, percibe las reglas pactuales como cadenas de opresión y busca establecer una legalidad autónoma, cayendo en la misma mentira original de la serpiente en el Edén."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Demanda Lealtad Pactual",
+        "texto": "Jehová es un Dios de pactos y orden legal. Él no tolera la amargura rebelde que busca dividir Su casa. Dios confronta la rebelión del ego y rechaza el culto a la autonomía moral humana. Él es el único juez soberano que sana las fuentes del corazón arrepentido."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "Yeshua Bebiendo la Copa de la Amargura Humana",
+        "texto": "Jesucristo (Yeshua) experimentó la amargura total de la rebelión humana (maráh). En Getsemaní bebió la copa amarga de la insumisión de nuestra raza, y en la cruz exclamó: 'Tengo sed', recibiendo vinagre mezclado con hiel (hiel/amargura). Al morir perdonando a Sus rebeldes, Jesús arrojó el madero de Su cruz en las aguas amargas de nuestra naturaleza humana, sanándonos de toda amargura y rebelión para hacernos hijos obedientes."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Anatomía de la Rebelión Amarga",
+        "pasos": [
+          {
+            "concepto": "La Herida no Confesada",
+            "explicacion": "Almacenar el dolor por ofensas recibidas, rehusando el perdón pactual en el aposento."
+          },
+          {
+            "concepto": "La Amargura Activa (Maráh)",
+            "explicacion": "El veneno del resentimiento deforma el carácter y amarga todas las relaciones cotidianas."
+          },
+          {
+            "concepto": "La Insubordinación Legal",
+            "explicacion": "Desafiar las estructuras de orden y autoridad divina bajo la excusa de la propia justicia moral."
+          },
+          {
+            "concepto": "La Sequedad del Exilio",
+            "explicacion": "Quedar fuera de la providencia y fluir del Espíritu por insistir en la autogestión del ego."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Sanidad de las Aguas de Mara",
+        "referencias": [
+          {
+            "cita": "1 Samuel 15:23",
+            "versiculo": "Porque como pecado de adivinación es la rebelión [maráh]... Por cuanto tú desechaste la palabra de Jehová...",
+            "revelacion": "El juicio de Samuel que vincula la rebelión con la ilegalidad oculta del ocultismo."
+          },
+          {
+            "cita": "Éxodo 15:23-25",
+            "versiculo": "Y llegaron a Mara, y no pudieron beber las aguas de Mara, porque eran amargas... Entonces Jehová le mostró un árbol; y lo echó en las aguas, y las aguas se endulzaron.",
+            "revelacion": "El simbolismo profético del árbol (la cruz) endulzando las fuentes amargas de la rebelión del pueblo."
+          },
+          {
+            "cita": "Hebreos 12:15",
+            "versiculo": "Mirad bien, no sea que alguno deje de alcanzar la gracia de Dios; que brotando alguna raíz de amargura, os perturbe, y por ella muchos sean contaminados.",
+            "revelacion": "La advertencia del Nuevo Pacto frente a la intoxicación colectiva por el resentimiento."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Sanando las Fuentes del Corazón",
+        "items": [
+          {
+            "punto": "No dejes que el dolor se convierta en amargura.",
+            "ejemplo": "Vivir recordando las ofensas de tu cónyuge o hermanos, permitiendo que tu carácter se vuelva agrio.",
+            "escenario_actual": "Responder con sarcasmo o desdén a las peticiones de tu familia porque te sientes ignorado."
+          },
+          {
+            "punto": "La rebeldía es un atajo espiritual peligroso.",
+            "ejemplo": "Buscar tu propio beneficio desobedeciendo las normas básicas de tu hogar o trabajo.",
+            "escenario_actual": "Descuidar tus deberes escolares o laborales argumentando que 'las reglas no aplican para ti'."
+          },
+          {
+            "punto": "Bebemos de la copa que sembramos.",
+            "ejemplo": "Cosechar divisiones familiares por haber sembrado discordias y chismes en el pasado.",
+            "escenario_actual": "Quejarte de la soledad cuando has alejado a todos con tu actitud amarga y criticona."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Desarraigando el Veneno Colectivo",
+        "items": [
+          {
+            "punto": "La raíz de amargura contamina a muchos.",
+            "ejemplo": "Llevar tu insatisfacción con el liderazgo a los miembros más jóvenes de la iglesia, arrastrándolos a tu desvío.",
+            "escenario_actual": "Organizar reuniones privadas para criticar las decisiones del consejo pastoral, disfrazándolas de 'grupos de oración'."
+          },
+          {
+            "punto": "La rebelión es idolatría del ego.",
+            "ejemplo": "Colocar tu opinión moral por encima de la Palabra y del diseño pactual de Dios.",
+            "escenario_actual": "Defender prácticas antibíblicas en tu vida porque 'sientes' que Dios te comprende y aprueba tu autonomía moral."
+          },
+          {
+            "punto": "El leño que sana las aguas de Mara.",
+            "ejemplo": "La cruz de Cristo es el único leño capaz de endulzar y sanar la amargura acumulada de tu corazón.",
+            "escenario_actual": "Rendir en el aposento tu derecho a la venganza y recibir la unción pacífica del Espíritu Santo para perdonar a tus ofensores."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Herejía de la Insumisión Inofensiva",
+        "texto": "Es un error doctrinal tratar la amargura o la insumisión como simples 'etapas' o 'rasgos temperamentales'. La Escritura define la rebelión como pecado de adivinación. Tolerar la insubordinación estructural en tu vida abre la puerta a la opresión espiritual y bloquea el fluir del Espíritu Santo."
+      }
+    ],
+    "desafio_practico": "Dedica 10 minutos hoy en tu aposento para perdonar específicamente a las personas de autoridad que te hayan fallado, soltando el derecho a la queja.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey ungido confrontado por la rebelión amarga de su propia línea hereditaria.",
+          "paralelismo": "El ungido que experimenta la traición familiar."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El centro del trono donde la rebelión de Absalón pretendió implantar la amargura legal.",
+          "simbolismo": "El lugar del orden que repele las aguas de Mara."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "marah-rebelion-heb",
+          "nombre": "Maráh (Rebelión)",
+          "razon": "La raíz hebrea que define la rebelión y su conexión indisoluble con la amargura.",
+          "familia": "Amargura, insumisión, rebelión."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "rompiendo-rebelion",
+          "tema": "Desarraigo de Insubordinación",
+          "declaracion": "Padre celestial, guardo mi corazón de la lisonja y de la murmuración. Renuncio a usurpar autoridad en la carne y me alineo con Tu diseño eterno de sujeción."
+        }
+      ]
+    }
+  },
+  {
     "id": "avon-heb",
     "activo": false,
     "fecha_programada": "2026-08-05",

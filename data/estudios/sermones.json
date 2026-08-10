@@ -1,5 +1,191 @@
 [
   {
+    "id": "sermones-llanto-absalon",
+    "activo": false,
+    "fecha_programada": "2026-08-14",
+    "tipo": "sermones",
+    "titulo": "El Llanto en la Cámara de la Puerta",
+    "subtitulo": "El quebranto del amor paternal y el misterio del sacrificio por el rebelde",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/llanto-absalon.webp",
+    "tags": [
+      "Paternidad",
+      "Amor",
+      "Quebranto",
+      "Sacrificio",
+      "Perdón"
+    ],
+    "versiculo_clave": {
+      "texto": "Entonces el rey se turbó, y subió a la sala de la puerta, y lloró; y yendo, decía así: ¡Hijo mío Absalón, hijo mío, hijo mío Absalón! ¡Quién me diera que hubiera muerto yo en lugar de ti, Absalón, hijo mío, hijo mío!",
+      "cita": "2 Samuel 18:33"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Mensaje Homilético / Sermón Paternal",
+        "titulo": "La Victoria Amarga del Bosque de Efraín",
+        "texto": "La batalla contra las fuerzas rebeldes de Absalón se libró en el bosque de Efraín. El ejército de David prevaleció, pero Joab y sus hombres desobedecieron la orden real y ejecutaron al joven Absalón mientras colgaba de la encina. Cuando el mensajero llegó a la puerta de Jerusalén anunciando la victoria militar y la caída del usurpador, David no prorrumpió en gritos de júbilo político. Su corazón de padre se fracturó por completo ante el juicio físico de su hijo descarriado. Subió de inmediato a la cámara sobre la puerta de la ciudad y lloró amargamente, clamando en agonía que hubiese preferido morir en su lugar."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Puerta de la Ciudad / Shá'ar (שַׁעַר)",
+        "idioma": "Hebreo",
+        "raiz": "Sha'ar (Calcular, abrir división)",
+        "significado": "Paso de entrada a la ciudad fortificada; lugar de luto y transición.",
+        "fonetica_guia": "Shá-ar",
+        "revelacion": "La cámara sobre la puerta era el punto de observación militar y legal. Allí David se debatió entre su rol como rey de justicia (que debía castigar al rebelde) y su rol como padre de amor (que deseaba preservar la vida del hijo). El llanto de David en el Shá'ar documenta el dolor de la paternidad quebrantada, mostrando que el amor del pacto trasciende el triunfo político de la ley."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Paternidad Quebrantada",
+        "texto": "Jehová revela Su corazón paternal en la aflicción del rey. Dios no se delega en la muerte del impío; Su santidad demanda juicio, pero Su amor eterno se duele ante la destrucción del hombre rebelde. Dios es un Padre que anhela el retorno del hijo pródigo a la legalidad del pacto."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Verdadero Sustituto en el Madero",
+        "texto": "El grito agónico de David: '¡Quién me diera que hubiera muerto yo en lugar de ti!' representa el límite de la ley terrenal: un rey pecador no podía sustituir a otro rebelde ante la justicia divina. Este clamor fue plenamente contestado en Jesucristo (Yeshua). Él, siendo el Rey de gloria, sí murió en la cruz (el madero de maldición) en lugar de nosotros, los verdaderos Absalones rebeldes de la historia, consumando la sustitución perfecta para adoptarnos en la mesa del Padre."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Proceso de la Redención por Sustitución",
+        "pasos": [
+          {
+            "concepto": "El Conflicto del Juicio",
+            "explicacion": "La tensión entre la necesidad de aplicar justicia sobre la rebelión y el anhelo paternal de misericordia."
+          },
+          {
+            "concepto": "La Noticia de la Caída",
+            "explicacion": "El reporte de que el rebelde ha muerto colgado de la encina, cerrando su ciclo en la tierra."
+          },
+          {
+            "concepto": "El Quebranto en el Shá'ar",
+            "explicacion": "El dolor paternal que sube a la cámara sobre la puerta, llorando en total soledad espiritual."
+          },
+          {
+            "concepto": "El Veredicto de la Cruz",
+            "explicacion": "Cristo asumiendo de forma voluntaria la muerte en lugar del rebelde, consumando el anhelo de David."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Amor que Sustituye en la Muerte",
+        "referencias": [
+          {
+            "cita": "2 Samuel 18:33",
+            "versiculo": "Entonces el rey se turbó... ¡Quién me diera que hubiera muerto yo en lugar de ti, Absalón, hijo mío, hijo mío!",
+            "revelacion": "El clamor de la paternidad rota de David que prefigura la teología del evangelio."
+          },
+          {
+            "cita": "Romanos 5:8",
+            "versiculo": "Mas Dios muestra su amor para con nosotros, en que siendo aún pecadores, Cristo murió por nosotros.",
+            "revelacion": "La ejecución legal e histórica del anhelo de sustitución de David realizado por el Mesías."
+          },
+          {
+            "cita": "1 Juan 4:10",
+            "versiculo": "En esto consiste el amor: no en que nosotros hayamos amado a Dios, sino en que él nos amó a nosotros, y envió a su Hijo en propiciación por nuestros pecados.",
+            "revelacion": "La esencia del pacto de gracia: el Padre entregando a Su Hijo amado para restaurar a los rebeldes."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Paternidad del Perdón",
+        "items": [
+          {
+            "punto": "El amor de un padre es incondicional.",
+            "ejemplo": "Perdonar a tus hijos o familiares que te han ofendido, manteniendo tus brazos abiertos.",
+            "escenario_actual": "Buscar reconciliación con un hermano alejado a pesar de sus errores y rebeliones del pasado."
+          },
+          {
+            "punto": "El pecado tiene consecuencias trágicas.",
+            "ejemplo": "Creer que tu rebeldía no causará dolor a las personas que te aman.",
+            "escenario_actual": "Ver a tus padres llorar por tus malas decisiones financieras o relacionales que ocultabas."
+          },
+          {
+            "punto": "Dios te ama a pesar de tus rebeliones.",
+            "ejemplo": "Pensar que por haber sido rebelde con Dios, Él te ha cerrado la puerta para siempre.",
+            "escenario_actual": "Regresar al aposento arrepentido y encontrar que el Espíritu Santo te recibe con amor de Padre."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Compasión del Intercesor",
+        "items": [
+          {
+            "punto": "El amor de paternidad es superior al triunfo de la justicia fría.",
+            "ejemplo": "Celebrar la caída o el castigo de tus ofensores bajo el pretexto de que 'se hizo justicia'.",
+            "escenario_actual": "Un pastor que sufre y llora por la disciplina aplicada a un miembro de la congregación, en lugar de enorgullecerse del orden legal de la iglesia."
+          },
+          {
+            "punto": "El dolor de la sustitución imposible.",
+            "ejemplo": "Reconocer que el ser humano no puede pagar la deuda moral de otros mediante su propio sufrimiento.",
+            "escenario_actual": "Comprender que solo la sangre de Cristo fue suficiente para enderezar el desvío de tu familia, descansando en Su obra."
+          },
+          {
+            "punto": "El verdadero líder llora por el pueblo descarriado.",
+            "ejemplo": "Enfocar tu ministerio en la compasión por los perdidos, y no en la construcción de tu propio imperio ministerial.",
+            "escenario_actual": "Llorar en tu aposento de rodillas por la restauración de tu cónyuge o hijo rebelde, asumiendo la intercesión de pacto."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Justicia Sustitutiva de Dios",
+        "texto": "Es un error doctrinal creer que el llanto de David es mero sentimentalismo débil. Representa el lamento del pacto roto. Ningún hombre terrenal puede morir en lugar de otro para salvación; solo Jesucristo, por Su naturaleza divina y humana perfecta, pudo consumar la sustitución en la cruz. Descansa en la obra del sustituto y no intentes pagar la deuda moral de otros en tus propias fuerzas."
+      }
+    ],
+    "desafio_practico": "Identifica hoy en tu aposento si hay alguien que te haya traicionado por quien debas interceder con lágrimas de compasión, pidiendo su restauración.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "abigail",
+          "nombre": "Abigail",
+          "razon": "La mujer de discernimiento sabio en la corte de David que apaciguaba la ira de la carne.",
+          "paralelismo": "La intercesión de gracia frente a la rigidez del castigo."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La cámara de la puerta del palacio de Sion donde David lloró por Absalón.",
+          "simbolismo": "El lugar de la transición del luto a la restauración real."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "marah-rebelion-heb",
+          "nombre": "Maráh (Rebelión)",
+          "razon": "El desvío mortal del príncipe Absalón que quebrantó el corazón de su padre.",
+          "familia": "Rebelión, amargura, dolor paternal."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "gracia-sobre-oprobio",
+          "tema": "Amor Compasivo",
+          "declaracion": "Padre Eterno, recibo el misterio de la sustitución perfecta de Tu Hijo. Derramo mi dolor por los que me han dañado y clamo por su salvación bajo el manto de Tu Jésed. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "sermones-natan-confrontacion",
     "activo": false,
     "fecha_programada": "2026-08-07",

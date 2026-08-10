@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mapeo de categorías por día (Lunes a Viernes)
     const categoriaPorDia = {
-        1: { archivo: 'huellas.json', app: 'huellas' },
-        2: { archivo: 'mitos.json', app: 'a_imagen_de_Dios' },
-        3: { archivo: 'etimologia.json', app: 'etymos' },
-        4: { archivo: 'historia.json', app: 'cronos' },
-        5: { archivo: 'sermones.json', app: 'a_imagen_de_Dios' }
+        1: { archivo: 'huellas.json', app: 'a_imagen_de_dios' },
+        2: { archivo: 'mitos.json', app: 'a_imagen_de_dios' },
+        3: { archivo: 'etimologia.json', app: 'a_imagen_de_dios' },
+        4: { archivo: 'historia.json', app: 'a_imagen_de_dios' },
+        5: { archivo: 'sermones.json', app: 'a_imagen_de_dios' }
     };
 
     const config = categoriaPorDia[diaSemana];
@@ -49,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
     function renderBanner(estudio, appFolder) {
+        console.log(estudio);
         banner.innerHTML = `
             <div class="banner-content">
                 <div class="banner-badge">REVELACIÓN DE HOY</div>
@@ -58,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span><i class="far fa-clock"></i> ${estudio.tiempo_lectura}</span>
                     <span><i class="far fa-bookmark"></i> ${estudio.tipo.toUpperCase()}</span>
                 </div>
-                <a href="${appFolder}/visor.html?id=${estudio.id}" class="btn-reveal">
+                <a href="${appFolder}/leer.html?id=${estudio.id}" class="btn-reveal">
                     <i class="fas fa-eye"></i> EXPLORAR REVELACIÓN
                 </a>
             </div>
