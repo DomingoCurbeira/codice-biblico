@@ -1,5 +1,191 @@
 [
   {
+    "id": "huellas-adonias-usurpacion",
+    "activo": false,
+    "fecha_programada": "2026-08-24",
+    "tipo": "huellas",
+    "titulo": "Adonías: El Trono Autoproclamado",
+    "subtitulo": "El peligro de la prisa carnal, la autopromoción y el vacío de la unción de pacto",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/adonias-usurpacion.webp",
+    "tags": [
+      "Adonías",
+      "Usurpación",
+      "Orgullo",
+      "Unción",
+      "Tránsito"
+    ],
+    "versiculo_clave": {
+      "texto": "Entonces Adonías hijo de Haguit se rebeló, diciendo: Yo reinaré. Y se hizo de carros y de caballería, y de cincuenta hombres que corriesen delante de él.",
+      "cita": "1 Reyes 1:5"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Narrativa Histórica / Análisis de Carácter",
+        "titulo": "La Conspiración de Zohelet y la Vejez de David",
+        "texto": "El rey David estaba anciano, debilitado físicamente y postrado en su lecho. Al ver el vacío aparente de poder, su cuarto hijo Adonías (el mayor de los sobrevivientes tras la muerte de Amnón y Absalón) decidió autoproclamarse rey. Organizó carros, caballos y cincuenta hombres para llamar la atención pública. Formó una coalición política con Joab, el jefe del ejército, y Abiatar, el sacerdote de la dinastía. Para consumar su usurpación, organizó un gran banquete en la peña de Zohelet, donde ofreció sacrificios y fue aclamado como rey. Sin embargo, excluyó deliberadamente al profeta Natán, al sacerdote Sadoc, al valiente Benaía y a su hermano menor Salomón, el heredero elegido por la promesa divina."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Zohelet / Zojélet (זֹחֶלֶת)",
+        "idioma": "Hebreo",
+        "raiz": "Zajal (Arrastrarse, deslizarse, como una serpiente)",
+        "significado": "Piedra de Zohelet o peña de la serpiente; lugar de sacrificio en las afueras de Jerusalén.",
+        "fonetica_guia": "Zo-jé-let",
+        "revelacion": "Zohelet proviene de la raíz que define la acción de arrastrarse de los reptiles. En el plano espiritual, representa la legalidad de lo que opera en la sombra, las maquinaciones carnales y las conspiraciones silenciosas que buscan imponer los deseos humanos. Adonías celebró su banquete de autopromoción sobre la piedra de la serpiente, documentando que toda estructura de gobierno que se autoproclama fuera de la unción de Dios está sustentada en la astucia de la carne."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Sostiene el Pacto",
+        "texto": "Jehová es el Dios de los pactos inalterables. Él no se deja impresionar por los carros, la caballería o las proclamaciones autogestionadas por el ego. Dios guarda la unción de la promesa y defiende la legitimidad dinástica del heredero elegido en el silencio, abortando las intrigas de la carne."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Ungido que Rehusó la Autopromoción",
+        "texto": "Adonías representa al usurpador carnal que aprovecha la coyuntura para proclamarse rey diciendo 'Yo reinaré' en la peña de Zohelet. En contraste absoluto, Jesucristo (Yeshua) es el verdadero Ungido que rechazó tomar los reinos de la tierra que la serpiente (el dragón de Zohelet) le ofreció en el desierto a cambio de lisonjas. Jesús esperó con paciencia el tiempo del Padre, tomando el trono eterno no por la fuerza de carros carnales, sino a través de la sumisión en la cruz."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Caída de la Usurpación Carnal",
+        "pasos": [
+          {
+            "concepto": "La Prisa de la Autonomía",
+            "explicacion": "Aprovechar la debilidad física o el silencio de la autoridad para intentar forzar el destino en el ego."
+          },
+          {
+            "concepto": "La Coalición de Intereses",
+            "explicacion": "Aliarse con la fuerza militar terrenal (Joab) y la religiosidad obsoleta (Abiatar) para legitimar el plan propio."
+          },
+          {
+            "concepto": "La Fiesta de la Presunción",
+            "explicacion": "Celebrar el éxito prematuramente en la peña de Zohelet, ignorando la unción y la profecía divina."
+          },
+          {
+            "concepto": "El Aborto del Complot",
+            "explicacion": "El fluir del manantial legítimo (Gihón) silencia el ruido de la carne y disuelve a los conspiradores."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Fracaso del Orgullo Autogestionado",
+        "referencias": [
+          {
+            "cita": "1 Reyes 1:5",
+            "versiculo": "Entonces Adonías hijo de Haguit se rebeló, diciendo: Yo reinaré. Y se hizo de carros y de caballería...",
+            "revelacion": "El registro histórico que documenta la rebelión de la primogenitura carnal frente a la promesa."
+          },
+          {
+            "cita": "Mateo 4:8-10",
+            "versiculo": "Otra vez le llevó el diablo a un monte muy alto... y le dijo: Todo esto te daré, si postrado me adorares. Entonces Jesús le dijo: Vete, Satanás...",
+            "revelacion": "Jesucristo desarmando la tentación de la serpiente de tomar el gobierno por un atajo de lisonja."
+          },
+          {
+            "cita": "Proverbios 27:2",
+            "versiculo": "Alábete el extraño, y no tu propia boca; el ajeno, y no los labios tuyos.",
+            "revelacion": "La regla de sabiduría del Reino que condena la autopromoción y el autogobierno del ego."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Guardando el Corazón de la Prisa",
+        "items": [
+          {
+            "punto": "No te lances a tomar lo que Dios no te ha entregado.",
+            "ejemplo": "Exigir un puesto de liderazgo en la iglesia solo por tu antigüedad o títulos académicos.",
+            "escenario_actual": "Crear un canal de contenido o dar conferencias de forma independiente porque sientes que tus líderes tardan en darte plataforma."
+          },
+          {
+            "punto": "Cuidado con las reuniones secretas por interés propio.",
+            "ejemplo": "Aliarse con compañeros insatisfechos en el trabajo para criticar las decisiones de la gerencia.",
+            "escenario_actual": "Hablar a espaldas de tu pastor o líder con personas influyentes para buscar su aprobación."
+          },
+          {
+            "punto": "El orgullo te aísla de la voz de Dios.",
+            "ejemplo": "Dejar fuera de tus decisiones a las personas que Dios ha puesto para aconsejarte y guiarte.",
+            "escenario_actual": "Tomar una decisión financiera importante o de matrimonio sin consultar a tus mentores espirituales."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Desarmando la Fuerza de Zohelet",
+        "items": [
+          {
+            "punto": "La conspiración de Zohelet: lo que se teje en el sigilo de la carne.",
+            "ejemplo": "Buscar alianzas con la estructura militar (fuerza humana) y el sacerdocio formal (religiosidad cómoda) para validar tu proyecto.",
+            "escenario_actual": "Un líder ministerial que manipula las juntas directivas para retener el control financiero, aislando a la voz profética de la iglesia."
+          },
+          {
+            "punto": "La usurpación de Adonías: 'Yo reinaré' vs 'Hágase Tu voluntad'.",
+            "ejemplo": "Vivir bajo el diseño de la autonomía moral, decidiendo qué es bueno y malo para tu vida en lugar de rendirte.",
+            "escenario_actual": "Mantener un negocio que viola los principios fiscales del país bajo la excusa de que 'el dinero es para la obra de Dios'."
+          },
+          {
+            "punto": "Dios preserva a Su ungido en medio del silencio.",
+            "ejemplo": "Confiar en que Dios defenderá tu llamado y tu herencia sin necesidad de que entres en batallas de autodefensa.",
+            "escenario_actual": "Dejar que los demás hagan chismes de ti mientras tú permaneces orando en tu aposento, esperando el veredicto del Padre."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Autopromoción vs La Designación Divina",
+        "texto": "Es una herejía teológica creer que los planes de Dios se pueden forzar mediante el carisma, las alianzas políticas o la prisa de la carne. Adonías tenía el derecho natural de primogenitura, pero no la promesa legal del pacto. El Reino se rige por la promesa del Espíritu, no por el derecho de la carne."
+      }
+    ],
+    "desafio_practico": "Rinde hoy en tu aposento toda impaciencia por ser reconocido o ascendido, y descansa en la unción de la promesa de Dios sobre tu vida.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El anciano rey cuya debilidad física fue aprovechada por Adonías para conspirar.",
+          "paralelismo": "El ungido silencioso que responde con la unción legítima de Salomón."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El palacio real de Sion donde David decretó la coronación de Salomón en Gihón.",
+          "simbolismo": "El trono establecido por el pacto eterno."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "gijon-manantial-heb",
+          "nombre": "Gihón (Manantial)",
+          "razon": "El manantial de agua viva que contrasta con la peña seca de Zohelet.",
+          "familia": "Brotar, fluir, unción del Espíritu."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "censo-adopcion",
+          "tema": "Herederos del Pacto",
+          "declaracion": "Padre Eterno, renuncio a la prisa de Adonías y a la peña de Zohelet. Declaro que mi herencia está segura bajo Tu unción legítima y que no necesito autopromocionarme. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "huellas-absalon-traicion",
     "activo": true,
     "fecha_programada": "2026-08-10",

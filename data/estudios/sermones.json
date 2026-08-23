@@ -1,5 +1,191 @@
 [
   {
+    "id": "sermones-trompeta-gihon",
+    "activo": false,
+    "fecha_programada": "2026-08-28",
+    "tipo": "sermones",
+    "titulo": "La Trompeta en Gihón",
+    "subtitulo": "Silenciando la fiesta del usurpador mediante el sonido de la verdadera unción",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "18 min",
+    "imagen_portada": "../img/estudios/trompeta-gihon.webp",
+    "tags": [
+      "Shofar",
+      "Trompeta",
+      "Unción",
+      "Heredero",
+      "Triunfo"
+    ],
+    "versiculo_clave": {
+      "texto": "Y cuando Sadoc el sacerdote y Natán el profeta hubieron ungido a Salomón... tocaron la trompeta, y dijo todo el pueblo: ¡Viva el rey Salomón! ... Y lo oyó Adonías, y todos los que con él estaban... y dijo Joab, al oír el sonido de la trompeta: ¿Por qué hace este alboroto la ciudad con tal ruido?",
+      "cita": "1 Reyes 1:39-41"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Mensaje Homilético / Sermón Real",
+        "titulo": "El Choque de Sonidos: Zohelet contra Gihón",
+        "texto": "Mientras Adonías y sus invitados celebraban su banquete de proclamación en la peña de Zohelet, regocijándose en su fuerza militar y en su aparente legalidad, el sonido del shofar y la aclamación del pueblo por Salomón en Gihón resonaron en todo el valle de Cedrón. Al enterarse por medio de Jonatán hijo de Abiatar de que Salomón había sido ungido y ya estaba sentado en el trono por orden de David, el pánico se apoderó de los invitados de Adonías. Todos huyeron despavoridos, desarticulando la conspiración en un instante. Adonías, temeroso, corrió a buscar refugio en los cuernos del altar."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Trompeta / Shofar (שׁוֹפָר)",
+        "idioma": "Hebreo",
+        "raiz": "Shapar (Embellecer, pulir, emitir un sonido vibrante de victoria)",
+        "significado": "Cuerno de carnero utilizado como instrumento de señal, guerra y proclamación del año de jubileo.",
+        "fonetica_guia": "Sho-fár",
+        "revelacion": "El shofar no produce una melodía suave; emite un sonido penetrante que corta el aire. Representa la voz legal y audible del decreto del cielo. Cuando el shofar sonó en Gihón, no solo anunció un nuevo rey; fue la declaración judicial que expuso e invalidó la fiesta silenciosa y carnal de Zohelet. El sonido de la verdad destruye el alboroto del engaño."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios de la Victoria Audible",
+        "texto": "Jehová es el Dios de la victoria proclamada. Él hace sonar la trompeta de Su justicia para desarmar la altivez de la carne. Su voz desbarata las intrigas del enemigo y dispersa a los que conspiran contra el orden del pacto."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Shofar Celestial y el Triunfo de la Cruz",
+        "texto": "El toque del shofar que proclama a Salomón y desbarata la usurpación de Adonías prefigura el triunfo absoluto y eterno de Jesucristo (Yeshua). En la cruz, Cristo despojó y avergonzó públicamente a los principados y potestades, silenciando el reclamo legal del enemigo (Colosenses 2:15). El shofar de la victoria de Su resurrección ha sonado, y el toque final de la trompeta celestial proclamará Su señorío absoluto y eterno sobre toda la creación."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "El Estruendo del Triunfo Legal",
+        "pasos": [
+          {
+            "concepto": "El Banquete de la Carne",
+            "explicacion": "El enemigo celebra un triunfo ficticio en Zohelet basándose en la fuerza humana."
+          },
+          {
+            "concepto": "El Toque del Shofar",
+            "explicacion": "La proclamación sonora de la verdad y de la unción legítima en Gihón."
+          },
+          {
+            "concepto": "El Pánico del Usurpador",
+            "explicacion": "La revelación de la soberanía del verdadero rey siembra terror y dispersa la mentira."
+          },
+          {
+            "concepto": "El Refugio en el Altar",
+            "explicacion": "El colapso de la ambición egocéntrica, forzando al infractor a someterse a la clemencia del trono."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Trompeta de la Victoria Divina",
+        "referencias": [
+          {
+            "cita": "1 Reyes 1:39",
+            "versiculo": "Y tomando el sacerdote Sadoc el cuerno del aceite... ungió a Salomón; y tocaron trompeta, y dijo todo el pueblo: ¡Viva el rey Salomón!",
+            "revelacion": "El toque legal del Shofar que proclamó el inicio del reinado de paz de Salomón."
+          },
+          {
+            "cita": "Colosenses 2:15",
+            "versiculo": "Y despojando a los principados y a las potestades, los exhibió públicamente, triunfando sobre ellos en la cruz.",
+            "revelacion": "El veredicto legal del Calvario: Cristo desarmando e invalidando la autoridad del usurpador satánico."
+          },
+          {
+            "cita": "1 Tesalonicenses 4:16",
+            "versiculo": "Porque el Señor mismo con voz de mando, con voz de arcángel, y con trompeta de Dios, descenderá del cielo; y los muertos en Cristo resucitarán primero.",
+            "revelacion": "El toque de trompeta final que establecerá el señorío definitivo y físico del Mesías sobre la tierra."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: Escuchando la Voz de la Victoria",
+        "items": [
+          {
+            "punto": "Escucha el sonido de la verdad.",
+            "ejemplo": "Llenar tu mente con verdades bíblicas para apagar las voces de duda, temor y acusación del enemigo.",
+            "escenario_actual": "Repetir promesas de Dios cuando experimentas pensamientos de rechazo en tu vida diaria."
+          },
+          {
+            "punto": "Dios expone las mentiras del enemigo.",
+            "ejemplo": "Confiar en que Dios sacará a luz la verdad cuando has sido calumniado de forma injusta.",
+            "escenario_actual": "No desgastarte discutiendo con quienes hablan mal de ti, sino dejar que tu conducta aprobada hable por sí sola."
+          },
+          {
+            "punto": "El temor del enemigo ante el nombre de Jesús.",
+            "ejemplo": "Clamar el nombre de Jesús con fe frente a situaciones de conflicto espiritual en tu hogar.",
+            "escenario_actual": "Orar con autoridad en tu sala cuando hay tensión o discusiones familiares recurrentes, ordenando que se vaya el espíritu de división."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Gobernando con Seguridad de Triunfo",
+        "items": [
+          {
+            "punto": "La victoria legítima disuelve la conspiración de la carne.",
+            "ejemplo": "No pelear en la carne contra los chismes; mantente fiel en el fluir del Espíritu (Gihón) y Dios silenciará a los opositores.",
+            "escenario_actual": "Un gerente que no responde a los sabotajes internos, sino que se enfoca en la excelencia y ve a Dios poner orden en el equipo."
+          },
+          {
+            "punto": "Adonías en los cuernos del altar: el refugio del temor carnal.",
+            "ejemplo": "Correr a la religiosidad o a las formas de piedad solo cuando la crisis expone tu soberbia, en lugar de vivir en arrepentimiento continuo.",
+            "escenario_actual": "Buscar consejería pastoral solo cuando tu matrimonio está al borde del divorcio, en lugar de cultivar la humildad y el sometimiento diario."
+          },
+          {
+            "punto": "La aclamación de Cristo deshace toda usurpación.",
+            "ejemplo": "Vivir con la absoluta seguridad de que Cristo ya reina y de que el enemigo ha sido derrotado legalmente en la cruz.",
+            "escenario_actual": "Sostener una adoración militante y gozosa en tu vida secreta y en la congregación, sabiendo que el shofar de la victoria ya ha sonado."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "El Triunfo de la Cruz y la Derrota Legal",
+        "texto": "Es un error doctrinal grave vivir con miedo a la opresión del enemigo como si todavía tuviera autoridad legal sobre el creyente. En la cruz, Jesucristo despojó y avergonzó públicamente a Satanás, silenciando su reclamo legal. Todo ataque del enemigo es una usurpación ilegal que debe ser disuelta al someterse a la verdad de Cristo."
+      }
+    ],
+    "desafio_practico": "Haz sonar tu voz de alabanza y adoración hoy en tu aposento en fe, decretando la derrota de toda mentira en tus emociones.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "natan-profeta",
+          "nombre": "Natán",
+          "razon": "El profeta que alertó sobre la conspiración y coronó a Salomón.",
+          "paralelismo": "La voz profética que activa el orden del pacto."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La ciudad real de Sion, cuyas piedras resonaron con la aclamación de Salomón.",
+          "simbolismo": "El centro del gobierno eterno del Mesías."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "gijon-manantial-heb",
+          "nombre": "Gihón (Manantial)",
+          "razon": "El manantial cuyas aguas presenciaron el sonido del shofar victorioso.",
+          "familia": "Toque de trompeta, unción real, triunfo."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "gracia-sobre-oprobio",
+          "tema": "Aclamación de Victoria",
+          "declaracion": "Señor Yeshua, alabo Tu nombre. Escucho el shofar de Tu cruz y declaro que toda usurpación de duda y enfermedad en mi vida es silenciada por Tu resurrección. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "sermones-llanto-absalon",
     "activo": false,
     "fecha_programada": "2026-08-14",

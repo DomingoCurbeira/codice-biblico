@@ -1,5 +1,191 @@
 [
   {
+    "id": "historia-manantial-gihon",
+    "activo": false,
+    "fecha_programada": "2026-08-27",
+    "tipo": "historia",
+    "titulo": "El Manantial de Gihón: El Lugar de la Unción",
+    "subtitulo": "Contexto histórico, geográfico y arqueológico de la coronación legítima del rey de paz",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "20 min",
+    "imagen_portada": "../img/estudios/manantial-gihon.webp",
+    "tags": [
+      "Gihón",
+      "Arqueología",
+      "Jerusalén",
+      "Templo",
+      "Siloé"
+    ],
+    "versiculo_clave": {
+      "texto": "Y bajaron Sadoc el sacerdote, Natán el profeta, Benaía hijo de Joiada, y los cereteos y los peleteos, e hicieron subir a Salomón en la mula del rey David, y lo llevaron a Gihón. Y tomando el sacerdote Sadoc el cuerno del aceite del tabernáculo, ungió a Salomón; y tocaron trompeta, y dijo todo el pueblo: ¡Viva el rey Salomón!",
+      "cita": "1 Reyes 1:38-39"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Biografía Histórica / Geografía Bíblica",
+        "titulo": "La Única Fuente de Jerusalén y la Guardia Real",
+        "texto": "El manantial de Gihón está situado en el valle de Cedrón, al oriente de la Ciudad de David (Jerusalén). Es la única fuente natural de agua perenne en la región. Su control arqueológico era vital para la supervivencia de la ciudad. David, en sus últimas horas, ordena llevar allí a Salomón sobre su propia mula, escoltado por la guardia real (cereteos y peleteos), para ungirlo con el aceite del tabernáculo, sellando su legitimidad dinástica y sofocando la rebelión de Adonías."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Manantial / Mayán (מַעְיָן)",
+        "idioma": "Hebreo",
+        "raiz": "Ayin (Ojo, fuente, manantial de visión)",
+        "significado": "Fuente de agua natural; portal donde el líquido oculto sale a la luz.",
+        "fonetica_guia": "Ma-yán",
+        "revelacion": "Mayán comparte raíz con Ayin (ojo). En el pensamiento semítico, un manantial es el ojo de la tierra por donde brota la vida oculta. Gihón no era un estanque artificial de agua estancada; era un mayán. Ungir al rey en el mayán de Gihón enseñaba al pueblo que el gobierno del Trono debía nutrirse de la visión del Espíritu, con los ojos puestos en la santidad y no en las alianzas políticas del orgullo."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Unge en Orden",
+        "texto": "Jehová establece y capacita legalmente al ungido del pacto. Dios no respalda los sacrificios ajenos al altar consagrado. La unción con el aceite del tabernáculo representa la legalidad sacerdotal e institucional que sostiene la continuidad de la promesa davídica."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Hijo de David Coronándose en las Aguas Bajas",
+        "texto": "Salomón, descendiendo al valle de Cedrón para ser ungido en Gihón sobre la mula del rey David, prefigura a Jesucristo (Yeshua) entrando a Jerusalén montado en un asno bajo el clamor de Hosanna. Jesús es el rey legítimo que no ascendió a las alturas de la autopromoción romana, sino que descendió a las aguas del Jordán para recibir la unción del Espíritu Santo (Yeshua-Pneuma), estableciendo Su reino eterno de paz."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Geografía de la Coronación Legítima",
+        "pasos": [
+          {
+            "concepto": "El Descenso al Valle",
+            "explicacion": "Bajar de las alturas de Sion hacia el Cedrón, el lugar de la humillación antes de la gloria."
+          },
+          {
+            "concepto": "El Aceite del Tabernáculo",
+            "explicacion": "La unción efectuada por Sadoc vertiendo el aceite del santuario consagrado."
+          },
+          {
+            "concepto": "El Clamor del Shofar",
+            "explicacion": "El toque de trompeta que anuncia la autoridad legal e irrevocable del heredero."
+          },
+          {
+            "concepto": "El Desmantelamiento del Complot",
+            "explicacion": "La aclamación de Gihón viaja por la geografía de Jerusalén y disuelve la fiesta carnal de Zohelet."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "El Fluido que Sostiene a Sion",
+        "referencias": [
+          {
+            "cita": "1 Reyes 1:38-39",
+            "versiculo": "Y bajaron Sadoc el sacerdote, Natán el profeta... y lo llevaron a Gihón...",
+            "revelacion": "El registro geográfico de la unción real que detuvo la conspiración de Adonías."
+          },
+          {
+            "cita": "2 Crónicas 32:30",
+            "versiculo": "Este mismo Ezequías tapó la salida de las fuentes de las aguas de Gihón la alta, y las condujo abajo al occidente de la ciudad de David...",
+            "revelacion": "La ingeniería bíblica que protegió el manantial de Gihón del asedio asirio, asegurando la vida de Jerusalén."
+          },
+          {
+            "cita": "Juan 9:7",
+            "versiculo": "Y le dijo: Ve a lavarte en el estanque de Siloé (que traducido es, Enviado). Fue entonces, y se lavó, y regresó viendo.",
+            "revelacion": "Jesús envía al ciego a lavarse en Siloé, estanque alimentado por las corrientes del manantial de Gihón."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Sumisión al Orden de Dios",
+        "items": [
+          {
+            "punto": "Sigue el protocolo del orden espiritual.",
+            "ejemplo": "Respetar las decisiones pastorales y directivas en lugar de intentar forzar tus propios proyectos.",
+            "escenario_actual": "Aceptar la corrección de un líder de grupo pequeño sobre tu actitud impaciente."
+          },
+          {
+            "punto": "El verdadero servicio empieza abajo.",
+            "ejemplo": "Dispuesto a ser procesado en el anonimato del servicio a los necesitados en tu comunidad.",
+            "escenario_actual": "Servir café o recibir a los nuevos visitantes en la iglesia con una sonrisa humilde."
+          },
+          {
+            "punto": "Dios provee la salida a las crisis en silencio.",
+            "ejemplo": "Confiar en que el Espíritu Santo resolverá tus conflictos familiares mediante el fluir de Su paz, no por discusiones a gritos.",
+            "escenario_actual": "Guardar silencio y orar cuando tu cónyuge está molesto, esperando el momento adecuado para hablar en amor."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: Nutriéndose de Fuentes Invisibles",
+        "items": [
+          {
+            "punto": "El agua de Gihón: provisión de vida bajo asedio.",
+            "ejemplo": "Mantener tu fe y devoción intactas incluso cuando estás rodeado de hostilidad laboral o crisis familiares.",
+            "escenario_actual": "Un empresario que continúa sosteniendo financieramente a sus empleados durante una recesión, confiando en las fuentes invisibles de provisión de Dios."
+          },
+          {
+            "punto": "La unción con el aceite del tabernáculo.",
+            "ejemplo": "Comprender que tu llamado ministerial debe estar ungido con la santidad del Espíritu, y no por el carisma o la elocuencia de la carne.",
+            "escenario_actual": "Un predicador que pasa horas de rodillas en su aposento buscando el fuego de Dios antes de subir al altar."
+          },
+          {
+            "punto": "El estruendo que disuelve el complot carnal.",
+            "ejemplo": "La aclamación pública de la verdad de Cristo deshace toda conspiración de engaño y mentira contra tu vida.",
+            "escenario_actual": "El gozo de adorar a Dios en tu congregación ahoga las críticas y murmuraciones que el enemigo había levantado contra ti."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Geografía Pactual del Agua Viva",
+        "texto": "Es un error teológico separar la geografía de Gihón de su cumplimiento cristocéntrico. Gihón alimenta el estanque de Siloé (que significa 'Enviado'), donde Jesús sanó al ciego de nacimiento. La unción legítima de Salomón en Gihón anticipa que toda bendición y gobierno provienen de aquel que es el Enviado del Padre: Jesucristo."
+      }
+    ],
+    "desafio_practico": "Ubica en tu mapa o estudia la geografía del valle de Cedrón y el manantial de Gihón, meditando en la unción pactual del heredero en las aguas bajas.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El monarca anciano que proveyó la mula real y la orden legal de unción.",
+          "paralelismo": "El rey que corona al hijo según el diseño pactual."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "La fortaleza arqueológica de Sion, en cuyas laderas orientales se ubica Gihón.",
+          "simbolismo": "La ciudad real defendida por el flujo de agua viva."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "gijon-manantial-heb",
+          "nombre": "Gihón (Manantial)",
+          "razon": "La unción legítima efectuada en el manantial oculto y perenne.",
+          "familia": "Fluir, manantial, unción legal."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "toledot-legado",
+          "tema": "Aceite del Santuario",
+          "declaracion": "Señor Yeshua, me sumerjo en la corriente de Tu manantial de Gihón. Derrama el aceite de Tu Espíritu sobre mi vida y establéceme en Tu orden. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "historia-olivos-descalzo",
     "activo": false,
     "fecha_programada": "2026-08-13",

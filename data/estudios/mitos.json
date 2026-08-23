@@ -1,5 +1,191 @@
 [
   {
+    "id": "mitos-falta-disciplina",
+    "activo": false,
+    "fecha_programada": "2026-08-25",
+    "tipo": "mitos",
+    "titulo": "El Mito del Consentimiento Paterno",
+    "subtitulo": "La trampa de evitar confrontar el carácter y las trágicas consecuencias de la falta de límites",
+    "autor": "Códice Bíblico",
+    "fecha_publicacion": "Agosto 2026",
+    "tiempo_lectura": "15 min",
+    "imagen_portada": "../img/estudios/falta-disciplina.webp",
+    "tags": [
+      "Disciplina",
+      "Límites",
+      "Paternidad",
+      "Consentimiento",
+      "Carácter"
+    ],
+    "versiculo_clave": {
+      "texto": "Y su padre nunca le había entristecido en todos sus días con decirle: ¿Por qué haces así? Y él era también de muy hermoso parecer; y había nacido después de Absalón.",
+      "cita": "1 Reyes 1:6"
+    },
+    "contenido": [
+      {
+        "tipo": "seccion_titulo",
+        "texto": "I. El Escenario del Espíritu (Contexto)"
+      },
+      {
+        "tipo": "contexto_historico",
+        "genero_literario": "Deconstrucción Teológica / Análisis Familiar",
+        "titulo": "La Omisión Paternal y el Nacimiento del Usurpador",
+        "texto": "El texto bíblico revela con honestidad la raíz del fracaso de Adonías: la omisión y la permisividad de David en su crianza. David nunca lo había confrontado ni 'entristecido' con preguntas incómodas sobre su conducta o motivaciones. Adonías, acostumbrado a salirse con la suya por su linaje y su gran atractivo físico, desarrolló una personalidad caprichosa e insumisa. El consentimiento paternal malentendido, lejos de proteger al hijo, alimentó una soberbia destructiva que finalmente lo llevó a la rebelión abierta y a la muerte."
+      },
+      {
+        "tipo": "lexico_profundo",
+        "termino": "Entristecer / Atsáb (עָצַב)",
+        "idioma": "Hebreo",
+        "raiz": "Atsab (Causar dolor, herir, contristar o poner límites firmes)",
+        "significado": "Entristecer, herir o confrontar el ego con dolor correctivo.",
+        "fonetica_guia": "A-tsáb",
+        "revelacion": "Atsáb implica causar un dolor necesario para corregir la trayectoria. David se negó a entristecer (atsáb) a Adonías, prefiriendo una falsa armonía doméstica antes que el dolor temporal de la confrontación moral. Al evitar contrariar el ego del príncipe, David le robó a Adonías la oportunidad de forjar un carácter apto para el trono, demostrando que la falta de disciplina paternal gesta usurpadores."
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "II. Cuerpo de la Enseñanza (Puntos de Revelación)"
+      },
+      {
+        "tipo": "revelacion_atributo",
+        "atributo": "El Dios que Disciplina en la Verdad",
+        "texto": "Jehová es un Padre perfecto que disciplina y confronta. Dios no tolera la permisividad moral en Sus hijos. Su amor no se mide por el consentimiento de nuestros caprichos, sino por el dolor correctivo que nos limpia de la iniquidad del carácter. La disciplina paternal es la garantía de nuestra adopción legítima."
+      },
+      {
+        "tipo": "cristocentrico",
+        "titulo": "El Hijo Perfeccionado por el Sufrimiento del Padre",
+        "texto": "David prefigura al padre terrenal negligente que consiente a sus hijos para evitar el dolor de la confrontación. En cambio, Dios Padre no consintió a Su Hijo unigénito, sino que lo sometió al sufrimiento perfecto en la cruz para perfeccionar Su obediencia pactual por nosotros (Hebreos 5:8). Al mismo tiempo, el Padre nos disciplina a nosotros, Sus hijos adoptivos, no para nuestra condenación, sino para que participemos de Su santidad."
+      },
+      {
+        "tipo": "revelacion_progresiva",
+        "titulo": "La Trampa del Consentimiento",
+        "pasos": [
+          {
+            "concepto": "El Silencio de la Omisión",
+            "explicacion": "Evitar confrontar el carácter del hijo o colaborador para eludir la incomodidad de la discusión."
+          },
+          {
+            "concepto": "El Culto al Capricho",
+            "explicacion": "Crecer bajo la ilusión de que las reglas y límites morales no aplican debido al estatus o carisma."
+          },
+          {
+            "concepto": "La Sordera Moral",
+            "explicacion": "Incapacidad absoluta de recibir dirección, corrección o un 'no' por respuesta ante la vida secreta."
+          },
+          {
+            "concepto": "El Colapso de la Rebelión",
+            "explicacion": "La soberbia sin límites estalla en conspiración y destrucción familiar inevitables."
+          }
+        ]
+      },
+      {
+        "tipo": "concordancia",
+        "titulo": "La Necesidad de la Disciplina Paternal",
+        "referencias": [
+          {
+            "cita": "1 Reyes 1:6",
+            "versiculo": "Y su padre nunca le había entristecido en todos sus días con decirle: ¿Por qué haces así?...",
+            "revelacion": "El diagnóstico bíblico del colapso moral de Adonías debido a la falta de límites."
+          },
+          {
+            "cita": "Hebreos 12:7-8",
+            "versiculo": "Si soportáis la disciplina, Dios os trata como a hijos... Pero si se os deja sin disciplina... entonces sois bastardos, y no hijos.",
+            "revelacion": "La teología del Nuevo Pacto sobre la disciplina paternal divina como sello de filiación."
+          },
+          {
+            "cita": "Proverbios 13:24",
+            "versiculo": "El que detiene el castigo, a su hijo aborrece; mas el que lo ama, desde temprano lo disciplina.",
+            "revelacion": "La regla de sabiduría que define el amor activo en los límites correctivos del carácter."
+          }
+        ]
+      },
+      {
+        "tipo": "seccion_titulo",
+        "texto": "III. Aplicación Pastoral (Niveles de Gloria)"
+      },
+      {
+        "tipo": "aplicacion_leche",
+        "titulo": "Para el Nuevo Creyente: La Bendición del Límite",
+        "items": [
+          {
+            "punto": "El amor verdadero sabe decir 'no'.",
+            "ejemplo": "Tolerar que tus hijos o seres queridos tengan malas actitudes para no tener discusiones en casa.",
+            "escenario_actual": "Comprar regalos costosos a tus hijos para compensar tu falta de tiempo, ignorando la mala conducta escolar."
+          },
+          {
+            "punto": "Somete tu temperamento a la confrontación.",
+            "ejemplo": "Enojarte cuando alguien te pregunta de manera sincera: '¿Por qué hiciste eso?'.",
+            "escenario_actual": "Responder con evasivas cuando tu cónyuge cuestiona un gasto excesivo no planificado."
+          },
+          {
+            "punto": "La belleza y el talento no sustituyen al carácter.",
+            "ejemplo": "Excusar tus faltas éticas en el trabajo bajo el argumento de que 'eres el empleado más productivo'.",
+            "escenario_actual": "Tolerar la arrogancia en tu propio comportamiento porque tienes facilidad de palabra y liderazgo."
+          }
+        ]
+      },
+      {
+        "tipo": "aplicacion_solida",
+        "titulo": "Para el Maduro: La Responsabilidad de la Corrección",
+        "items": [
+          {
+            "punto": "La negligencia del 'padre que no entristece'.",
+            "ejemplo": "Evitar confrontar a un líder bajo tu cuidado que comete faltas menores, por temor a herir su susceptibilidad o perder su lealtad.",
+            "escenario_actual": "Un pastor que tolera chismes en su equipo de alabanza para evitar que los músicos se vayan de la iglesia."
+          },
+          {
+            "punto": "El carácter se forja en el dolor del límite.",
+            "ejemplo": "Comprender que los 'no' de Dios en la vida secreta son las columnas que sostienen tu unción en lo público.",
+            "escenario_actual": "Agradecer a Dios por las puertas cerradas y las temporadas de silencio que frenaron tus ambiciones prematuras."
+          },
+          {
+            "punto": "La disciplina paternal divina como garantía de filiación.",
+            "ejemplo": "Recibir las crisis o las consecuencias del pecado como la amorosa disciplina de Jehová que te llama de vuelta al pacto.",
+            "escenario_actual": "Humillarte ante Dios en medio de una quiebra financiera provocada por tu orgullo, pidiendo que santifique tu carácter en lugar de que te saque rápido de la crisis."
+          }
+        ]
+      },
+      {
+        "tipo": "alerta_doctrinal",
+        "titulo": "La Paternidad Permisiva",
+        "texto": "Es un error teológico grave separar el amor de Dios de Su disciplina. La teología moderna que predica un Dios que consiente todo sin demandar arrepentimiento y santificación genera 'bastardos y no hijos' (Hebreos 12:8). Dios nos ama demasiado para dejarnos como estamos; Su amor siempre confrontará nuestra iniquidad."
+      }
+    ],
+    "desafio_practico": "Identifica hoy en tu aposento una área donde hayas reaccionado con orgullo ante la corrección de otros, y pídele perdón al Señor en total humillación.",
+    "conexiones": {
+      "huellas": [
+        {
+          "id": "david",
+          "nombre": "David",
+          "razon": "El rey y padre cuya omisión y falta de disciplina forjaron la soberbia de Adonías.",
+          "paralelismo": "El líder ungido que falló en gobernar su propia casa con límites."
+        }
+      ],
+      "cronos": [
+        {
+          "id": "jerusalen-sion",
+          "nombre": "Jerusalén (Sion)",
+          "razon": "El palacio de Sion donde se omitió la disciplina y se gestó la conspiración.",
+          "simbolismo": "La corte que requiere limpieza y restauración de la ley paternal."
+        }
+      ],
+      "etymos": [
+        {
+          "id": "gijon-manantial-heb",
+          "nombre": "Gihón (Manantial)",
+          "razon": "El fluir que sana y pone fin al desorden moral introducido por el consentimiento carnal.",
+          "familia": "Unción de orden, límites divinos."
+        }
+      ],
+      "aposento": [
+        {
+          "id_oracion": "sabiduria-pacificadora",
+          "tema": "Aceptación de Límites",
+          "declaracion": "Padre Santo, reconozco que Tu disciplina es sello de mi adopción. No huiré del Atsáb de Tu confrontación; límpiame y pon límites santos a mi carácter. Amén."
+        }
+      ]
+    }
+  },
+  {
     "id": "mitos-orgullo-encina",
     "activo": false,
     "fecha_programada": "2026-08-11",
